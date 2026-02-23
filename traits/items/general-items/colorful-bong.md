@@ -8,62 +8,24 @@ date_added: "2024-07-10"
 
 # colorful bong
 
-## Visual Properties
+## Visual Elements
 
+a big glassy bong with gradients of warm pastel pink and yellow
 
-**Image Files:**
-SS2_chicagodetroit_Colorful Bong.PNG
-
-
-**Visual Description:** a big glassy bong with gradients of warm pastel pink and yellow
-
-**Dominant Colors:** warm pink, pastel yellow
-
-
----
+Dominant colors: warm pink, pastel yellow
 
 ## Cultural Context
 
+The evolution of bongs from simple smoking tools into colorful, hand-blown glass art parallels the way rave culture transforms functional spaces into aesthetic experiences.
 
-**Cultural Origin:** 
+## Justification
 
-**Era:**
-
-
-**Why This Matters:** The evolution of bongs from simple smoking tools into colorful, hand-blown glass art parallels the way rave culture transforms functional spaces into aesthetic experiences.
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [chicago detroit](../../../core-lore/archetypes.md#chicago-detroit)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 2
-
-
----
-
-## Connections
-
-**Ancestor:** 
+Part of a four-piece bong set that tracks the evolution of paraphernalia from tool to art object. The warm pastels on this one lean into the aestheticization of getting high.
 
 ---
 
 ## Attribution
 
-**Date Added:** July 10, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Archetype:** chicago detroit
+**Swag Score:** 2
+**Date Added:** 2024-07-10

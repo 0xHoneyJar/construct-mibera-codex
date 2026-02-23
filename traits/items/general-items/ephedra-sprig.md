@@ -8,63 +8,25 @@ date_added: "2024-12-09"
 
 # ephedra sprig
 
-## Visual Properties
+## Visual Elements
 
+a handful of sprigs, the flower buds are in red.
 
-**Image Files:**
-SS3_milady_ancient_chinese_palestinian_ephedra.PNG
-
-
-**Visual Description:** a handful of sprigs, the flower buds are in red.
-
-**Dominant Colors:** green, red
-
-
----
+Dominant colors: green, red
 
 ## Cultural Context
 
+Ephedra is one of the oldest known stimulants, used for thousands of years in Chinese and Central Asian medicine. Its active compound ephedrine became the basis for amphetamines, which fueled all-night dancing from Northern Soul to acid house.
 
-**Cultural Origin:** 
+## Justification
 
-**Era:**
-
-
-**Why This Matters:** Ephedra is one of the oldest known stimulants, used for thousands of years in Chinese and Central Asian medicine. Its active compound ephedrine became the basis for amphetamines, which fueled all-night dancing from Northern Soul to acid house.
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [milady](../../../core-lore/archetypes.md#milady)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 3
-
-
----
-
-## Connections
-
-**Ancestor:** [chinese](../../../core-lore/ancestors/chinese.md), [palestinian](../../../core-lore/ancestors/palestinian.md)
-
+The botanical ancestor of amphetamines, bridging thousand-year-old medicine to modern dance-floor stimulants.
 
 ---
 
 ## Attribution
 
-**Date Added:** December 9, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Archetype:** milady
+**Ancestor:** [chinese](../../../core-lore/ancestors/chinese.md), [palestinian](../../../core-lore/ancestors/palestinian.md)
+**Swag Score:** 3
+**Date Added:** 2024-12-09

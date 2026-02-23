@@ -8,62 +8,24 @@ date_added: "2024-07-07"
 
 # vape bag
 
-## Visual Properties
+## Visual Elements
 
+a bag / tube of white gas.
 
-**Image Files:**
-SS3_chicagodetroit_Vape Bag.png
-
-
-**Visual Description:** a bag / tube of white gas.
-
-**Dominant Colors:** white, black
-
-
----
+Dominant colors: white, black
 
 ## Cultural Context
 
+Balloon-bag vaporizers, most famously the Volcano by Storz & Bickel (introduced in 2000), heat cannabis or other herbs to release vapor into a detachable plastic bag. The user then inhales from the bag. This method became popular in the 2000s as a "healthier" alternative to combustion and was a common sight at house parties and chill-out rooms before the rise of portable vape pens.
 
-**Cultural Origin:** 
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [chicago detroit](../../../core-lore/archetypes.md#chicago-detroit)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 5
-
-
----
-
-## Connections
-
-**Ancestor:** 
+A relic of the pre-portable vaporization era. The balloon bag marks a specific technological moment — after combustion, before the pocket vape pen made everything discreet.
 
 ---
 
 ## Attribution
 
-**Date Added:** July 7, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Archetype:** chicago detroit
+**Swag Score:** 5
+**Date Added:** 2024-07-07

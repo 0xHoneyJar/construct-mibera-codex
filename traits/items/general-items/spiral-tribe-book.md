@@ -8,62 +8,27 @@ date_added: "2024-08-03"
 
 # spiral tribe book
 
-## Visual Properties
+## Visual Elements
 
+a black book with white graphic and text that reads "SPIRAL TRIBE SOUND SYSTEM”.
 
-**Image Files:**
-SS3_freetekno_Spiral Tribe.png
-
-
-**Visual Description:** a black book with white graphic and text that reads "SPIRAL TRIBE SOUND SYSTEM”.
-
-**Dominant Colors:** black, white
-
-
----
+Dominant colors: black, white
 
 ## Cultural Context
 
+Spiral Tribe was one of the most legendary free party sound systems in history, whose illegal raves across 1990s Europe helped define the freetekno movement. A book about their story of DIY culture, police confrontation, and nomadic freedom is a key text for the Freetekno archetype.
 
-**Cultural Origin:** 
+## Justification
 
-**Era:**
-
-
-**Why This Matters:** Spiral Tribe was one of the most legendary free party sound systems in history, whose illegal raves across 1990s Europe helped define the freetekno movement. A book about their story of DIY culture, police confrontation, and nomadic freedom is a key text for the Freetekno archetype.
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [freetekno](../../../core-lore/archetypes.md#freetekno)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 3
-
-
----
-
-## Connections
-
-**Ancestor:** 
+The primary text for the freetekno archetype. If the collection has a bible, Spiral Tribe's story is it.
 
 ---
 
 ## Attribution
 
-**Date Added:** August 3, 2024
-
+**Archetype:** freetekno
+**Swag Score:** 3
+**Date Added:** 2024-08-03
 **Introduced By:** Jani
-
-**Team Notes:** 
-
 **Sources:**
 - https://discord.com/channels/1133935527855399053/1139903294219759730/11400313456665
-
-**Summary:** 
-
----

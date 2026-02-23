@@ -8,62 +8,22 @@ date_added: "2024-07-11"
 
 # baby bear
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
-SS4_milady_Baby Bear.png
-
-
-**Visual Description:** a plushie of a brown bear, medium to big in size.
-
-**Dominant Colors:** brown
-
-
----
+a plushie of a brown bear, medium to big in size.
 
 ## Cultural Context
 
+Bear plushies are a recurring motif in the Mibera collection, referencing Berachain's bear-themed branding. The "baby" variants emphasize the kawaii (cute) aesthetic central to the Milady archetype.
 
-**Cultural Origin:** 
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [milady](../../../core-lore/archetypes.md#milady)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 4
-
-
----
-
-## Connections
-
-**Ancestor:** 
+The default Berachain plushie — the most direct way to put the ecosystem's mascot in a Mibera's hands.
 
 ---
 
 ## Attribution
 
-**Date Added:** July 11, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Archetype:** milady
+**Swag Score:** 4
+**Date Added:** 2024-07-11

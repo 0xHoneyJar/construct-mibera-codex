@@ -8,62 +8,24 @@ date_added: "2024-12-09"
 
 # golden flower
 
-## Visual Properties
+## Visual Elements
 
+a golden book with delicate graphics of flowers and a text box in light yellow in the middle, titled “THE SECRET OF THE GOLDENFLOWER”.
 
-**Image Files:**
-SS2_milady_Golden Flower.PNG
-
-
-**Visual Description:** a golden book with delicate graphics of flowers and a text box in light yellow in the middle, titled “THE SECRET OF THE GOLDENFLOWER”.
-
-**Dominant Colors:** golden, light yellow
-
-
----
+Dominant colors: golden, light yellow
 
 ## Cultural Context
 
+The Secret of the Golden Flower is a Chinese Taoist alchemical text about meditation and spiritual transformation. It connects to the collection's recurring theme of ancient practices that sought transcendence and altered consciousness.
 
-**Cultural Origin:** 
+## Justification
 
-**Era:**
-
-
-**Why This Matters:** The Secret of the Golden Flower is a Chinese Taoist alchemical text about meditation and spiritual transformation. It connects to the collection's recurring theme of ancient practices that sought transcendence and altered consciousness.
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [milady](../../../core-lore/archetypes.md#milady)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 2
-
-
----
-
-## Connections
-
-**Ancestor:** 
+Taoist meditation manual as a held object, placing inner alchemy alongside the collection's chemical alchemy.
 
 ---
 
 ## Attribution
 
-**Date Added:** December 9, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Archetype:** milady
+**Swag Score:** 2
+**Date Added:** 2024-12-09

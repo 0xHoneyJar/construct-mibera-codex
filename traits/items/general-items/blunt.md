@@ -8,62 +8,22 @@ date_added: "2024-06-05"
 
 # blunt
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
-SS3_chicagodetroit_Blunt.png
-
-
-**Visual Description:** a smoking blunt in dark brown.
-
-**Dominant Colors:** dark brown
-
-
----
+a smoking blunt in dark brown.
 
 ## Cultural Context
 
+Blunts, cigars emptied and refilled with cannabis, emerged from Black American culture and became the dominant way of smoking weed in hip-hop. They represent the deep overlap between hip-hop and rave culture.
 
-**Cultural Origin:** 
+## Justification
 
-**Era:**
-
-
-**Why This Matters:** Blunts, cigars emptied and refilled with cannabis, emerged from Black American culture and became the dominant way of smoking weed in hip-hop. They represent the deep overlap between hip-hop and rave culture.
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [chicago detroit](../../../core-lore/archetypes.md#chicago-detroit)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 2
-
-
----
-
-## Connections
-
-**Ancestor:** 
+Where hip-hop meets the dance floor. The blunt ties the collection to the cultural overlap between rap and house that defined Chicago nightlife.
 
 ---
 
 ## Attribution
 
-**Date Added:** June 5, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Archetype:** chicago detroit
+**Swag Score:** 2
+**Date Added:** 2024-06-05

@@ -8,62 +8,23 @@ date_added: "2024-07-09"
 
 # boo bear 1
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
-SS3_milady_Boo Bear 1.png
-
-
-**Visual Description:** a doll of a bear with pale green fur that looks almost rotten with 2 nails on its face and stitches around the body; one on its mouth, one above an eye, one next to an eye, one on the arm, and one on the leg.
-
-**Dominant Colors:** pale green
-
-
----
+a doll of a bear with pale green fur that looks almost rotten with 2 nails on its face and stitches around the body; one on its mouth, one above an eye, one next to an eye, one on the arm, and one on the leg.
 
 ## Cultural Context
 
+Boo Bear is a four-part series of horror-themed bear plushies. This first variant features pale green rotting fur, nails, and body stitches, styled after Frankenstein's monster or zombie aesthetics.
 
-**Cultural Origin:** 
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [milady](../../../core-lore/archetypes.md#milady)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 3
-
-
----
-
-## Connections
-
-**Ancestor:** 
+References a key Berachain rebase.
 
 ---
 
 ## Attribution
 
-**Date Added:** July 9, 2024
-
+**Archetype:** milady
+**Swag Score:** 3
+**Date Added:** 2024-07-09
 **Introduced By:** Jani
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----

@@ -1,31 +1,25 @@
 ---
 name: Zeus
-image: SS5_bongbear_Zeus.png
-date_added: "2024-12-09"
+archetype: "**Archetype Alignment:**"
+swag_score: 5
+date_added: null
 ---
 
 # Zeus
 
-## Visual Properties
+## Visual Elements
 
 
-**Image Files:**
-SS5_bongbear_Zeus.png
+## Cultural Context
 
-**Visual Description:** Brown bear wearing a white toga with blue trim, a golden halo, a medallion with an Omega symbol in a golden circlel; a wide rounded horseshoe shape with a flat base, and golden vine crown around its head. The bear is holding a yellow lightning bolt and has a long tied beard. A plushie based on [this Bong Bear](https://opensea.io/assets/ethereum/0x495f947276749ce646f68ac8c248420045cb7b5e/66075445032688988859229341194671037535804503065310441849644897978688615743489).
+A plushie of Zeus Bear, one of the six honorary 1/1 Bong Bears from the original August 2021 mint. The Bong Bears project originated in Olympus DAO's Discord during debates over the OIP-18 rebase proposal. Zeus Bear references both the Greek king of the gods and the pseudonymous Zeus — the creator of Olympus DAO and the OHM token. Olympus DAO later passed OIP-87 to seed-fund Berachain, making it the direct financial ancestor of the chain.
 
-**Dominant Colors:** Brown, white, yellow / golden.
+## Justification
 
+One of the original honorary Bong Bears. Connects Berachain's origin story directly to Olympus DAO, where the project was born.
 
 ---
 
 ## Attribution
 
-**Date Added:** December 9, 2024
-
-**Introduced By:** Jani
-
-**Team Notes:** 
-
-
----
+**Swag Score:** 5

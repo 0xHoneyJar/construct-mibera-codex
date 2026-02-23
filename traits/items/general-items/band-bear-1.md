@@ -7,56 +7,19 @@ date_added: null
 
 # Band Bear 1
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
-
-
-**Visual Description:**
-
-**Dominant Colors:**
-
----
 
 ## Cultural Context
 
+Band Bears is a collection within the Berachain ecosystem. Bear-themed collectibles are a core visual element of the Berachain community, which takes its name and mascot from the bear.
 
-**Cultural Origin:**
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:**
-
-**Archetype Alignment:**
-
-
-**Swag Score:** 3
-
-## Connections
-
-**Ancestor:** 
+Cross-collection cameo from Band Bears. The bear motif is the visual lingua franca of the Berachain ecosystem.
 
 ---
 
 ## Attribution
 
-**Date Added:**
-
-**Introduced By:**
-
-**Team Notes:**
-
-**Sources:**
-
-**Summary:**
-
----
+**Swag Score:** 3

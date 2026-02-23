@@ -8,63 +8,25 @@ date_added: "2025-01-10"
 
 # henbane sprig
 
-## Visual Properties
+## Visual Elements
 
+a handful of sprigs, the flowers aren’t fully bloomed yet in the colour of very light yellow, nearly white.
 
-**Image Files:**
-SS3_freetekno_ancient_greek_henbane.PNG
-
-
-**Visual Description:** a handful of sprigs, the flowers aren’t fully bloomed yet in the colour of very light yellow, nearly white.
-
-**Dominant Colors:** green, light yellow / white
-
-
----
+Dominant colors: green, light yellow / white
 
 ## Cultural Context
 
+Henbane is a deliriant nightshade used by European witches, oracles, and healers for centuries. Some historians believe it was a key ingredient in the "flying ointments" of medieval witchcraft, connecting it to the occult threads that run through the collection.
 
-**Cultural Origin:** 
+## Justification
 
-**Era:**
-
-
-**Why This Matters:** Henbane is a deliriant nightshade used by European witches, oracles, and healers for centuries. Some historians believe it was a key ingredient in the "flying ointments" of medieval witchcraft, connecting it to the occult threads that run through the collection.
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [freetekno](../../../core-lore/archetypes.md#freetekno)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 3
-
-
----
-
-## Connections
-
-**Ancestor:** [greek](../../../core-lore/ancestors/greek.md)
-
+Bridges the collection's pharmacological thread all the way back to medieval witchcraft and ancient oracles. The "flying ointment" ingredient.
 
 ---
 
 ## Attribution
 
-**Date Added:** January 10, 2025
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Archetype:** freetekno
+**Ancestor:** [greek](../../../core-lore/ancestors/greek.md)
+**Swag Score:** 3
+**Date Added:** 2025-01-10

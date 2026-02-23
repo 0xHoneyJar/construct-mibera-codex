@@ -8,62 +8,24 @@ date_added: "2024-07-06"
 
 # penis envy
 
-## Visual Properties
+## Visual Elements
 
+a thick mushroom with creamy white body and light brown head.
 
-**Image Files:**
-SS2_acidhouse_Penis Envy.png
-
-
-**Visual Description:** a thick mushroom with creamy white body and light brown head.
-
-**Dominant Colors:** light brown / beige, creamy white
-
-
----
+Dominant colors: light brown / beige, creamy white
 
 ## Cultural Context
 
+Penis Envy is a notably potent strain of Psilocybe cubensis, reportedly developed by Terrence McKenna from specimens collected in the Amazon. Its name and exaggerated shape have made it a meme within psychedelic culture, blurring the line between serious mycology and internet humor.
 
-**Cultural Origin:** 
+## Justification
 
-**Era:**
-
-
-**Why This Matters:** Penis Envy is a notably potent strain of Psilocybe cubensis, reportedly developed by Terrence McKenna from specimens collected in the Amazon. Its name and exaggerated shape have made it a meme within psychedelic culture, blurring the line between serious mycology and internet humor.
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [acidhouse](../../../core-lore/archetypes.md#acidhouse)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 2
-
-
----
-
-## Connections
-
-**Ancestor:** 
+Where serious mycology meets internet meme culture. Its McKenna origin story and absurd name make it the most recognizable strain in online psychedelic communities.
 
 ---
 
 ## Attribution
 
-**Date Added:** July 6, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Archetype:** acidhouse
+**Swag Score:** 2
+**Date Added:** 2024-07-06

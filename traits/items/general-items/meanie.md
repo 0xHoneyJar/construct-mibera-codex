@@ -8,62 +8,22 @@ date_added: "2024-07-07"
 
 # meanie
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
-SS3_acidhouse_Blue Meanie.png
-
-
-**Visual Description:** a small plain mushroom in pale grey / blueish colour.
-
-**Dominant Colors:** pale grey / blueish
-
-
----
+a small plain mushroom in pale grey / blueish colour.
 
 ## Cultural Context
 
+Blue Meanie can refer to either a potent Psilocybe cubensis strain or Panaeolus cyanescens, a distinct species. The name nods to the Beatles' Yellow Submarine, connecting psychedelic mushroom culture to the psychedelic music era.
 
-**Cultural Origin:** 
+## Justification
 
-**Era:**
-
-
-**Why This Matters:** Blue Meanie can refer to either a potent Psilocybe cubensis strain or Panaeolus cyanescens, a distinct species. The name nods to the Beatles' Yellow Submarine, connecting psychedelic mushroom culture to the psychedelic music era.
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [acidhouse](../../../core-lore/archetypes.md#acidhouse)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 3
-
-
----
-
-## Connections
-
-**Ancestor:** 
+Named after the Beatles' Yellow Submarine villains, it is a direct bridge between the 1960s psychedelic rock era and the mushroom culture that followed.
 
 ---
 
 ## Attribution
 
-**Date Added:** July 7, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Archetype:** acidhouse
+**Swag Score:** 3
+**Date Added:** 2024-07-07

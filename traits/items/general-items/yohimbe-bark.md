@@ -8,62 +8,21 @@ date_added: "2024-12-09"
 
 # yohimbe bark
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
-SS3_Yohimbe Bark.PNG
-
-
-**Visual Description:** a piece of bark in light brown.
-
-**Dominant Colors:** brown
-
-
----
+a piece of bark in light brown.
 
 ## Cultural Context
 
+Yohimbe bark comes from a West African tree traditionally used as an aphrodisiac and stimulant. Its active compound yohimbine has real pharmacological effects, connecting traditional African medicine to modern supplement culture.
 
-**Cultural Origin:** 
+## Justification
 
-**Era:**
-
-
-**Why This Matters:** Yohimbe bark comes from a West African tree traditionally used as an aphrodisiac and stimulant. Its active compound yohimbine has real pharmacological effects, connecting traditional African medicine to modern supplement culture.
-
-
----
-
-## Mibera Integration
-
-**Archetype:** 
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 3
-
-
----
-
-## Connections
-
-**Ancestor:** 
+West African ethnobotany represented in the collection's pharmacological catalog. Connects traditional African medicine to the global stimulant and aphrodisiac trade.
 
 ---
 
 ## Attribution
 
-**Date Added:** December 9, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Swag Score:** 3
+**Date Added:** 2024-12-09

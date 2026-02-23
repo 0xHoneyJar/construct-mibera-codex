@@ -7,56 +7,19 @@ date_added: null
 
 # Blue Meanie
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
-
-
-**Visual Description:**
-
-**Dominant Colors:**
-
----
 
 ## Cultural Context
 
+Blue Meanie can refer to either a potent Psilocybe cubensis strain or Panaeolus cyanescens, a distinct species. The name nods to the Beatles' Yellow Submarine, connecting psychedelic mushroom culture to the psychedelic music era.
 
-**Cultural Origin:**
+## Justification
 
-**Era:**
-
-
-**Why This Matters:** Blue Meanie can refer to either a potent Psilocybe cubensis strain or Panaeolus cyanescens, a distinct species. The name nods to the Beatles' Yellow Submarine, connecting psychedelic mushroom culture to the psychedelic music era.
-
-
----
-
-## Mibera Integration
-
-**Archetype:**
-
-**Archetype Alignment:**
-
-
-**Swag Score:** 3
-
-## Connections
-
-**Ancestor:** 
+Named after a Beatles villain, bridging psychedelic music history to mycology. The collection treats mushroom strains as cultural artifacts, not just substances.
 
 ---
 
 ## Attribution
 
-**Date Added:**
-
-**Introduced By:**
-
-**Team Notes:**
-
-**Sources:**
-
-**Summary:**
-
----
+**Swag Score:** 3

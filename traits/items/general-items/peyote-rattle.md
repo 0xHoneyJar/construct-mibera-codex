@@ -8,63 +8,28 @@ date_added: "2024-07-07"
 
 # peyote rattle
 
-## Visual Properties
+## Visual Elements
 
+‘Peyote Rattle’ by Nishkû´ntu; blue thin handle bar with stripes in darker blue and white, brown yellow dry coconut coloured and shaped head, and yellow tassels at the bottom with a little bell.
 
-**Image Files:**
-SS3_freetekno_Peyote Rattle.png
-
-
-**Visual Description:** ‘Peyote Rattle’ by Nishkû´ntu; blue thin handle bar with stripes in darker blue and white, brown yellow dry coconut coloured and shaped head, and yellow tassels at the bottom with a little bell.
-
-**Dominant Colors:** dark yellow, blue, light yellow
-
-
----
+Dominant colors: dark yellow, blue, light yellow
 
 ## Cultural Context
 
+The peyote rattle is a sacred tool used in Native American Church ceremonies to guide participants through mescaline visions. It represents one of the oldest documented traditions of communal psychedelic experience.
 
-**Cultural Origin:** 
+## Justification
 
-**Era:**
-
-
-**Why This Matters:** The peyote rattle is a sacred tool used in Native American Church ceremonies to guide participants through mescaline visions. It represents one of the oldest documented traditions of communal psychedelic experience.
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [freetekno](../../../core-lore/archetypes.md#freetekno)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 3
-
-
----
-
-## Connections
-
-**Ancestor:** 
+The sonic guide through mescaline space. Paired with the feather fan, it completes the ceremonial toolkit and shows that sound has always been part of the psychedelic experience.
 
 ---
 
 ## Attribution
 
-**Date Added:** July 7, 2024
-
+**Archetype:** freetekno
+**Swag Score:** 3
+**Date Added:** 2024-07-07
 **Introduced By:** Jani
-
-**Team Notes:** 
-
 **Sources:**
 - https://discord.com/channels/1133935527855399053/1159122178009210890/11591227905705
 - https://americanindian.si.edu/exhibitions/infinityofnations/plains-plateau/061651.html
-
-**Summary:** 
-
----

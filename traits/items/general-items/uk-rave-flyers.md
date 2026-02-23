@@ -8,62 +8,27 @@ date_added: "2024-12-09"
 
 # uk rave flyers
 
-## Visual Properties
+## Visual Elements
 
+A thin, yellow booklet that says “LOS ANGELES RAVE FLYERS 1991-1996” in black text.
 
-**Image Files:**
-SS3_freetekno_UK Rave Flyers.PNG
-
-
-**Visual Description:** A thin, yellow booklet that says “LOS ANGELES RAVE FLYERS 1991-1996” in black text.
-
-**Dominant Colors:** Yellow.
-
-
----
+Dominant colors: Yellow.
 
 ## Cultural Context
 
+UK rave flyers from the late 1980s and early 1990s are some of the most iconic pieces of underground graphic design ever produced. They served the practical purpose of communicating secret party locations while becoming an art form of their own, with bold typography and psychedelic imagery defining a visual language for the entire movement.
 
-**Cultural Origin:** 
+## Justification
 
-**Era:**
-
-
-**Why This Matters:** UK rave flyers from the late 1980s and early 1990s are some of the most iconic pieces of underground graphic design ever produced. They served the practical purpose of communicating secret party locations while becoming an art form of their own, with bold typography and psychedelic imagery defining a visual language for the entire movement.
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [Freetekno](../../../core-lore/archetypes.md#freetekno)
-
-**Archetype Alignment:** Rave flyers are an important aesthetic influence on Mibera. It also examines
-
-
-**Swag Score:** 4
-
-
----
-
-## Connections
-
-**Ancestor:** 
+The original rave propaganda. Before the internet, these hand-designed flyers were how an entire movement communicated, organized, and built its visual identity.
 
 ---
 
 ## Attribution
 
-**Date Added:** December 9, 2024
-
+**Archetype:** Freetekno
+**Swag Score:** 4
+**Date Added:** 2024-12-09
 **Introduced By:** babybera posted, jani suggested we include
-
-**Team Notes:** 
-
 **Sources:**
 - https://x.com/babyberafinance/status/1858904517523161597
-
-**Summary:** 
-
----

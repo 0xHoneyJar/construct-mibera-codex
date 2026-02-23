@@ -8,62 +8,21 @@ date_added: "2024-12-09"
 
 # bhang cup
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
-SS3_Bhang.PNG
-
-
-**Visual Description:** a grey cup with bright clear liquid.
-
-**Dominant Colors:** grey
-
-
----
+a grey cup with bright clear liquid.
 
 ## Cultural Context
 
+Bhang is a cannabis-infused drink consumed in India for centuries, especially during the Hindu festival of Holi. It represents one of the world's oldest traditions of communal intoxication tied to celebration and spiritual practice.
 
-**Cultural Origin:** 
+## Justification
 
-**Era:**
-
-
-**Why This Matters:** Bhang is a cannabis-infused drink consumed in India for centuries, especially during the Hindu festival of Holi. It represents one of the world's oldest traditions of communal intoxication tied to celebration and spiritual practice.
-
-
----
-
-## Mibera Integration
-
-**Archetype:** 
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 3
-
-
----
-
-## Connections
-
-**Ancestor:** 
+Anchors the collection's drug theme to ancient tradition — communal intoxication tied to Hindu religious celebration predating modern prohibition by millennia.
 
 ---
 
 ## Attribution
 
-**Date Added:** December 9, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Swag Score:** 3
+**Date Added:** 2024-12-09

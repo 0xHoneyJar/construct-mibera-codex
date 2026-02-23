@@ -8,62 +8,24 @@ date_added: "2024-07-10"
 
 # teal bong
 
-## Visual Properties
+## Visual Elements
 
+a big glassy bong with gradients of teal and green.
 
-**Image Files:**
-SS4_chicagodetroit_Teal Bong.PNG
-
-
-**Visual Description:** a big glassy bong with gradients of teal and green.
-
-**Dominant Colors:** teal, green
-
-
----
+Dominant colors: teal, green
 
 ## Cultural Context
 
+Custom-colored bongs reflect the glass art movement that turned drug paraphernalia into collectible art objects. The craft and creativity involved mirror the DIY ethos of rave culture itself.
 
-**Cultural Origin:** 
+## Justification
 
-**Era:**
-
-
-**Why This Matters:** Custom-colored bongs reflect the glass art movement that turned drug paraphernalia into collectible art objects. The craft and creativity involved mirror the DIY ethos of rave culture itself.
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [chicago detroit](../../../core-lore/archetypes.md#chicago-detroit)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 4
-
-
----
-
-## Connections
-
-**Ancestor:** 
+The second-highest swag-score bong in the four-variant set. Its teal-green coloring gives it a distinct visual identity while reinforcing the paraphernalia-as-art-object thread.
 
 ---
 
 ## Attribution
 
-**Date Added:** July 10, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Archetype:** chicago detroit
+**Swag Score:** 4
+**Date Added:** 2024-07-10

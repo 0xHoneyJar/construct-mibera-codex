@@ -8,62 +8,23 @@ date_added: "2025-03-22"
 
 # mad scientist
 
-## Visual Properties
+## Visual Elements
 
+a clear flask with wooden lid-blocker and green liquid inside of it.
 
-**Image Files:**
-SS3_mad scientists.png
-
-
-**Visual Description:** a clear flask with wooden lid-blocker and green liquid inside of it.
-
-**Dominant Colors:** green, beige
-
-
----
+Dominant colors: green, beige
 
 ## Cultural Context
 
+The Mad Scientist is a potent strain of Psilocybe cubensis known for producing intense, sometimes unpredictable experiences. The name captures the experimental spirit that connects underground mycology to underground music.
 
-**Cultural Origin:** 
+## Justification
 
-**Era:**
-
-
-**Why This Matters:** The Mad Scientist is a potent strain of Psilocybe cubensis known for producing intense, sometimes unpredictable experiences. The name captures the experimental spirit that connects underground mycology to underground music.
-
-
----
-
-## Mibera Integration
-
-**Archetype:** 
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 3
-
-
----
-
-## Connections
-
-**Ancestor:** 
+A psilocybin mushroom strain rendered as a flask of green liquid. The "mad scientist" archetype bridges underground mycology to the alchemical tradition the collection draws from.
 
 ---
 
 ## Attribution
 
-**Date Added:** March 22, 2025
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Swag Score:** 3
+**Date Added:** 2025-03-22

@@ -8,63 +8,28 @@ date_added: "2024-12-09"
 
 # mighty hulk toy
 
-## Visual Properties
+## Visual Elements
 
+a Hulk toy / figurine, raising its left arm.
 
-**Image Files:**
-SS2_freetekno_Mighty Hulk Toy.png
-
-
-**Visual Description:** a Hulk toy / figurine, raising its left arm.
-
-**Dominant Colors:** green
-
-
----
+Dominant colors: green
 
 ## Cultural Context
 
+Tribe Called Red
 
-**Cultural Origin:** Tribe Called Red
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [Freetekno](../../../core-lore/archetypes.md#freetekno)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 2
-
-
----
-
-## Connections
-
-**Ancestor:** 
+A mainstream toy sitting among sacred plants and revolutionary texts. The absurd juxtaposition is the point; free party culture doesn't curate its influences.
 
 ---
 
 ## Attribution
 
-**Date Added:** December 9, 2024
-
+**Archetype:** Freetekno
+**Swag Score:** 2
+**Date Added:** 2024-12-09
 **Introduced By:** Jani
-
-**Team Notes:** 
-
 **Sources:**
 - https://discord.com/channels/1133935527855399053/1159122178009210890/11591240770516
 - https://www.musiclifemagazine.net/a-tribe-called-red-with-mah-moud-at-centre-in-the-square-kit
-
-**Summary:** 
-
----

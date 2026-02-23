@@ -8,62 +8,23 @@ date_added: "2024-12-09"
 
 # honey baddie
 
-## Visual Properties
+## Visual Elements
 
+Baddie’s mask in honey color; a female bear face with feminine eyes, red lips, heart nose, and a ribbon on one ear.
 
-**Image Files:**
-SS3_Honey Baddie.PNG
-
-
-**Visual Description:** Baddie’s mask in honey color; a female bear face with feminine eyes, red lips, heart nose, and a ribbon on one ear.
-
-**Dominant Colors:** shades of yellow
-
-
----
+Dominant colors: shades of yellow
 
 ## Cultural Context
 
+Bera Baddies is a women centric org within the Berachain ecosystem. This item is a reference to the bera baddie face designed by Gumibera. 
 
-**Cultural Origin:** 
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** 
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 5
-
-
----
-
-## Connections
-
-**Ancestor:** 
+Bera Baddies and THJ collaborated closely, especially at the time of the inception of the Baddies. Gumi designed the baddie face that became the character.
 
 ---
 
 ## Attribution
 
-**Date Added:** December 9, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Swag Score:** 5
+**Date Added:** 2024-12-09

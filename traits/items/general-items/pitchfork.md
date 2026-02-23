@@ -8,62 +8,24 @@ date_added: "2024-12-09"
 
 # pitchfork
 
-## Visual Properties
+## Visual Elements
 
+a pitchfork with brown handle.
 
-**Image Files:**
-SS1_freetekno_Pitchfork.png
-
-
-**Visual Description:** a pitchfork with brown handle.
-
-**Dominant Colors:** dark grey, brown
-
-
----
+Dominant colors: dark grey, brown
 
 ## Cultural Context
 
+The pitchfork is a symbol of populist uprising and rural rebellion, from medieval peasant revolts to American frontier justice. It represents the power of the crowd to challenge established order.
 
-**Cultural Origin:** 
+## Justification
 
-**Era:**
-
-
-**Why This Matters:** The pitchfork is a symbol of populist uprising and rural rebellion, from medieval peasant revolts to American frontier justice. It represents the power of the crowd to challenge established order.
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [freetekno](../../../core-lore/archetypes.md#freetekno)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 1
-
-
----
-
-## Connections
-
-**Ancestor:** 
+Mob justice, peasant revolt, rural rage. The freetekno movement was built on the same "us versus them" energy, just pointed at the Criminal Justice Act instead of landlords.
 
 ---
 
 ## Attribution
 
-**Date Added:** December 9, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Archetype:** freetekno
+**Swag Score:** 1
+**Date Added:** 2024-12-09

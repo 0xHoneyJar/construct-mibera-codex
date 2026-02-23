@@ -8,62 +8,24 @@ date_added: "2024-07-07"
 
 # mibera mate
 
-## Visual Properties
+## Visual Elements
 
+a yellow box with black text that reads “Mibera Mate BLOCK”.
 
-**Image Files:**
-SS2_milady_Mibera Mate.png
-
-
-**Visual Description:** a yellow box with black text that reads “Mibera Mate BLOCK”.
-
-**Dominant Colors:** yellow, black.
-
-
----
+Dominant colors: yellow, black.
 
 ## Cultural Context
 
+A yellow box branded "Mibera Mate BLOCK," referencing yerba mate, a caffeinated beverage widely consumed in South America. Yerba mate is a mild stimulant containing caffeine, theobromine, and theophylline. The "BLOCK" text may reference blockchain terminology, layering crypto vocabulary onto a traditional drink.
 
-**Cultural Origin:** 
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [milady](../../../core-lore/archetypes.md#milady)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 2
-
-
----
-
-## Connections
-
-**Ancestor:** 
+Project-branded yerba mate with a "BLOCK" pun, layering crypto slang onto a South American stimulant tradition.
 
 ---
 
 ## Attribution
 
-**Date Added:** July 7, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Archetype:** milady
+**Swag Score:** 2
+**Date Added:** 2024-07-07

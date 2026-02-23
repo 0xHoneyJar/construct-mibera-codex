@@ -8,62 +8,23 @@ date_added: "2024-12-09"
 
 # gold apollo ar942
 
-## Visual Properties
+## Visual Elements
 
+a small black device with a screen and some buttons.
 
-**Image Files:**
-SS4_Gold Apollo AR942.PNG
-
-
-**Visual Description:** a small black device with a screen and some buttons.
-
-**Dominant Colors:** black, light blue
-
-
----
+Dominant colors: black, light blue
 
 ## Cultural Context
 
+The Gold Apollo pager became internationally notorious after the 2024 Lebanon pager attacks, in which communication devices were allegedly weaponized by intelligence services. It represents the dark potential of everyday technology being turned against its users.
 
-**Cultural Origin:** 
+## Justification
 
-**Era:**
-
-
-**Why This Matters:** The Gold Apollo pager became internationally notorious after the 2024 Lebanon pager attacks, in which communication devices were allegedly weaponized by intelligence services. It represents the dark potential of everyday technology being turned against its users.
-
-
----
-
-## Mibera Integration
-
-**Archetype:** 
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 4
-
-
----
-
-## Connections
-
-**Ancestor:** 
+A mundane communication device turned weapon of state violence. Fits the collection's theme of technology as a double-edged tool — liberation or control depending on who holds it.
 
 ---
 
 ## Attribution
 
-**Date Added:** December 9, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Swag Score:** 4
+**Date Added:** 2024-12-09

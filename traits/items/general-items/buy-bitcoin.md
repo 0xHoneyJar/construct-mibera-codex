@@ -8,62 +8,24 @@ date_added: "2024-07-10"
 
 # buy bitcoin
 
-## Visual Properties
+## Visual Elements
 
+a beige colored striped paper with writing that says “Buy Bitcoin”.
 
-**Image Files:**
-SS3_milady_Buy Bitcoin.png
-
-
-**Visual Description:** a beige colored striped paper with writing that says “Buy Bitcoin”.
-
-**Dominant Colors:** beige, black
-
-
----
+Dominant colors: beige, black
 
 ## Cultural Context
 
+The "Buy Bitcoin" meme became one of crypto culture's most recognizable moments when a sign with those words appeared behind Janet Yellen during a 2017 Congressional hearing. As a held item, it turns a financial movement's rallying cry into a physical prop.
 
-**Cultural Origin:** 
+## Justification
 
-**Era:**
-
-
-**Why This Matters:** The "Buy Bitcoin" meme became one of crypto culture's most recognizable moments when a sign with those words appeared behind Janet Yellen during a 2017 Congressional hearing. As a held item, it turns a financial movement's rallying cry into a physical prop.
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [milady](../../../core-lore/archetypes.md#milady)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 3
-
-
----
-
-## Connections
-
-**Ancestor:** 
+Canonical crypto-culture moment turned into a physical prop — one of the few items that speaks to the financial movement behind the tech.
 
 ---
 
 ## Attribution
 
-**Date Added:** July 10, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Archetype:** milady
+**Swag Score:** 3
+**Date Added:** 2024-07-10

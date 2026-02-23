@@ -7,56 +7,19 @@ date_added: null
 
 # Wei Dai
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
-
-
-**Visual Description:**
-
-**Dominant Colors:**
-
----
 
 ## Cultural Context
 
+Wei Dai published the "b-money" proposal in 1998, describing a system for anonymous, distributed electronic cash. Satoshi Nakamoto cited b-money in the Bitcoin whitepaper, and the smallest unit of Ether is named "wei" in his honor.
 
-**Cultural Origin:**
+## Justification
 
-**Era:**
-
-
-**Why This Matters:** Wei Dai published the "b-money" proposal in 1998, describing a system for anonymous, distributed electronic cash. Satoshi Nakamoto cited b-money in the Bitcoin whitepaper, and the smallest unit of Ether is named "wei" in his honor.
-
-
----
-
-## Mibera Integration
-
-**Archetype:**
-
-**Archetype Alignment:**
-
-
-**Swag Score:** 5
-
-## Connections
-
-**Ancestor:** 
+Published the "b-money" proposal directly cited in the Bitcoin whitepaper. Ethereum's smallest unit of currency is named "wei" after him — his influence is literally baked into the infrastructure.
 
 ---
 
 ## Attribution
 
-**Date Added:**
-
-**Introduced By:**
-
-**Team Notes:**
-
-**Sources:**
-
-**Summary:**
-
----
+**Swag Score:** 5

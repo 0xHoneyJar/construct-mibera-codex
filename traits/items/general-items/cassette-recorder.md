@@ -7,61 +7,22 @@ date_added: null
 
 # cassette recorder
 
-## Visual Properties
+## Visual Elements
 
+a black cassette recorder with accents of red and white.
 
-**Image Files:**
-
-
-**Visual Description:** a black cassette recorder with accents of red and white.
-
-**Dominant Colors:** black, white, red
-
-
----
+Dominant colors: black, white, red
 
 ## Cultural Context
 
+The cassette recorder was the tool that democratized music distribution, letting anyone capture and share a live set or pirate radio broadcast. In rave culture, it was the original peer-to-peer technology.
 
-**Cultural Origin:** 
+## Justification
 
-**Era:**
-
-
-**Why This Matters:** The cassette recorder was the tool that democratized music distribution, letting anyone capture and share a live set or pirate radio broadcast. In rave culture, it was the original peer-to-peer technology.
-
-
----
-
-## Mibera Integration
-
-**Archetype:** 
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 5
-
-
----
-
-## Connections
-
-**Ancestor:** 
+The original peer-to-peer distribution technology. Before file sharing, this is how bootleg live sets and pirate radio recordings traveled hand to hand.
 
 ---
 
 ## Attribution
 
-**Date Added:** 
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Swag Score:** 5

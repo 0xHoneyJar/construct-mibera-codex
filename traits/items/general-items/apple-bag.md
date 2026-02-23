@@ -8,62 +8,25 @@ date_added: "2024-07-07"
 
 # apple bag
 
-## Visual Properties
+## Visual Elements
 
+a bag in the realistic shape of apple with a brown sling.
 
-**Image Files:**
-SS3_acidhouse_Apple Bag.png
-
-
-**Visual Description:** a bag in the realistic shape of apple with a brown sling.
-
-**Dominant Colors:** red, green, brown
-
-
----
+Dominant colors: red, green, brown
 
 ## Cultural Context
 
+Apple-shaped bags and fruit-themed accessories appeared in 1990s rave and club fashion as part of a broader trend toward bright, cartoonish, deliberately childish styling. The look rejected mainstream adult fashion in favor of playfulness and absurdity.
 
-**Cultural Origin:** 
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [acidhouse](../../../core-lore/archetypes.md#acidhouse)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 5
-
-
----
-
-## Connections
-
-**Ancestor:** 
+Rave fashion deliberately rejected adult aesthetics. An apple-shaped bag is absurdist style as identity statement, dressing like a cartoon to opt out of the mainstream.
 
 ---
 
 ## Attribution
 
-**Date Added:** July 7, 2024
-
+**Archetype:** acidhouse
+**Swag Score:** 5
+**Date Added:** 2024-07-07
 **Introduced By:** Jani
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----

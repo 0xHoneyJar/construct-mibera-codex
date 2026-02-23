@@ -8,63 +8,25 @@ date_added: "2024-12-09"
 
 # coffee beans
 
-## Visual Properties
+## Visual Elements
 
+a full stem with a bunch of coffee fruits and a few coffee leaves on it.
 
-**Image Files:**
-SS3_milady_ancient_ethiopian_arabs_coffee beans.PNG
-
-
-**Visual Description:** a full stem with a bunch of coffee fruits and a few coffee leaves on it.
-
-**Dominant Colors:** red orange-ish, green, dark red /.brown
-
-
----
+Dominant colors: red orange-ish, green, dark red /.brown
 
 ## Cultural Context
 
+Coffee is the world's most popular psychoactive substance, a legal stimulant that fuels productivity in ways that parallel the stimulants used at raves. Its inclusion is a reminder that the line between "drug" and "beverage" is culturally drawn, not pharmacologically.
 
-**Cultural Origin:** 
+## Justification
 
-**Era:**
-
-
-**Why This Matters:** Coffee is the world's most popular psychoactive substance, a legal stimulant that fuels productivity in ways that parallel the stimulants used at raves. Its inclusion is a reminder that the line between "drug" and "beverage" is culturally drawn, not pharmacologically.
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [milady](../../../core-lore/archetypes.md#milady)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 3
-
-
----
-
-## Connections
-
-**Ancestor:** [ethiopian](../../../core-lore/ancestors/ethiopian.md), [arab](../../../core-lore/ancestors/arabs.md)
-
+Blurs the line between "drug" and "daily ritual," reminding that the world's most consumed stimulant is still a psychoactive substance.
 
 ---
 
 ## Attribution
 
-**Date Added:** December 9, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Archetype:** milady
+**Ancestor:** [ethiopian](../../../core-lore/ancestors/ethiopian.md), [arab](../../../core-lore/ancestors/arabs.md)
+**Swag Score:** 3
+**Date Added:** 2024-12-09

@@ -8,62 +8,23 @@ date_added: "2024-07-07"
 
 # clandestine labs
 
-## Visual Properties
+## Visual Elements
 
+a soft blue book with black text that reads “The Construction and Operation of CLANDESTINE DRUG LABORATORIES”.
 
-**Image Files:**
-SS3_Clandestine Labs.png
-
-
-**Visual Description:** a soft blue book with black text that reads “The Construction and Operation of CLANDESTINE DRUG LABORATORIES”.
-
-**Dominant Colors:** soft blue, black
-
-
----
+Dominant colors: soft blue, black
 
 ## Cultural Context
 
+Clandestine chemistry labs are where many of the substances that fueled rave culture were actually made, from MDMA to LSD. This item pays tribute to the underground chemists whose work, legal or not, shaped the psychedelic landscape.
 
-**Cultural Origin:** 
+## Justification
 
-**Era:**
-
-
-**Why This Matters:** Clandestine chemistry labs are where many of the substances that fueled rave culture were actually made, from MDMA to LSD. This item pays tribute to the underground chemists whose work, legal or not, shaped the psychedelic landscape.
-
-
----
-
-## Mibera Integration
-
-**Archetype:** 
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 3
-
-
----
-
-## Connections
-
-**Ancestor:** 
+The supply side of the rave. Without underground chemists, there is no MDMA, no acid, no scene. This manual represents the hidden labor behind the dance floor.
 
 ---
 
 ## Attribution
 
-**Date Added:** July 7, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Swag Score:** 3
+**Date Added:** 2024-07-07

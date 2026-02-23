@@ -8,62 +8,24 @@ date_added: "2024-07-09"
 
 # band bear
 
-## Visual Properties
+## Visual Elements
 
+a plushie of a black bear wearing a yellow dress and a blonde wig.
 
-**Image Files:**
-SS3_milady_Band Bear 1.png
-
-
-**Visual Description:** a plushie of a black bear wearing a yellow dress and a blonde wig.
-
-**Dominant Colors:** black, yellow, blonde
-
-
----
+Dominant colors: black, yellow, blonde
 
 ## Cultural Context
 
+A bear plushie styled with a blonde wig and yellow dress, suggesting a pop star or performer persona. Part of the Berachain bear plushie family, with each variant given a distinct character identity.
 
-**Cultural Origin:** 
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [milady](../../../core-lore/archetypes.md#milady)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 3
-
-
----
-
-## Connections
-
-**Ancestor:** 
+Costumed bear plushie that gives the ecosystem mascot a personality rather than just a species.
 
 ---
 
 ## Attribution
 
-**Date Added:** July 9, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Archetype:** milady
+**Swag Score:** 3
+**Date Added:** 2024-07-09

@@ -8,62 +8,27 @@ date_added: "2024-07-10"
 
 # drum
 
-## Visual Properties
+## Visual Elements
 
+a hand-drum.
 
-**Image Files:**
-SS4_chicagodetroit_Drum.png
-
-
-**Visual Description:** a hand-drum.
-
-**Dominant Colors:** dirty light beige
-
-
----
+Dominant colors: dirty light beige
 
 ## Cultural Context
 
+Drums are the oldest musical instrument tied to communal trance states, used in every culture from West African ceremony to Native American ritual. The beat that drives a rave connects to the same primal impulse that has moved human bodies for millennia.
 
-**Cultural Origin:** 
+## Justification
 
-**Era:**
-
-
-**Why This Matters:** Drums are the oldest musical instrument tied to communal trance states, used in every culture from West African ceremony to Native American ritual. The beat that drives a rave connects to the same primal impulse that has moved human bodies for millennia.
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [chicago detroit](../../../core-lore/archetypes.md#chicago-detroit)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 4
-
-
----
-
-## Connections
-
-**Ancestor:** 
+The root instrument. Every four-on-the-floor kick drum in the collection's world descends from the hand drum's primal function: synchronizing human bodies into collective motion.
 
 ---
 
 ## Attribution
 
-**Date Added:** July 10, 2024
-
+**Archetype:** chicago detroit
+**Swag Score:** 4
+**Date Added:** 2024-07-10
 **Introduced By:** Jani
-
-**Team Notes:** 
-
 **Sources:**
 - https://discord.com/channels/1133935527855399053/1163467995549536397/11634687906679
-
-**Summary:** 
-
----

@@ -8,62 +8,25 @@ date_added: "2024-07-13"
 
 # baggie of pills
 
-## Visual Properties
+## Visual Elements
 
+a white bag of pale teal pills; the bag has a big yellow smiley face with bear ears on it.
 
-**Image Files:**
-SS5_freetekno_Baggie Of Pills.png
-
-
-**Visual Description:** a white bag of pale teal pills; the bag has a big yellow smiley face with bear ears on it.
-
-**Dominant Colors:** white, yellow, soft teal
-
-
----
+Dominant colors: white, yellow, soft teal
 
 ## Cultural Context
 
+Ecstasy pills are the most iconic drug artifact of rave culture, with their pressed logos and colors becoming collectible objects in their own right. A baggie of pills represents the communal, shared nature of MDMA use at raves.
 
-**Cultural Origin:** 
+## Justification
 
-**Era:**
-
-
-**Why This Matters:** Ecstasy pills are the most iconic drug artifact of rave culture, with their pressed logos and colors becoming collectible objects in their own right. A baggie of pills represents the communal, shared nature of MDMA use at raves.
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [freetekno](../../../core-lore/archetypes.md#freetekno)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 5
-
-
----
-
-## Connections
-
-**Ancestor:** 
+No rave collection is complete without one. The smiley-face bear-eared baggie is the icon, full stop.
 
 ---
 
 ## Attribution
 
-**Date Added:** July 13, 2024
-
+**Archetype:** freetekno
+**Swag Score:** 5
+**Date Added:** 2024-07-13
 **Introduced By:** Jani
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----

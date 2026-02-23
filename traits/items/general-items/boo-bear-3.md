@@ -8,62 +8,25 @@ date_added: "2024-07-09"
 
 # boo bear 3
 
-## Visual Properties
+## Visual Elements
 
+a doll of a bear with a stereotypical red and white christmas hat, wearing stripy red and white long sleeves, and a spectacle.
 
-**Image Files:**
-SS3_milady_Boo Bear 3.png
-
-
-**Visual Description:** a doll of a bear with a stereotypical red and white christmas hat, wearing stripy red and white long sleeves, and a spectacle.
-
-**Dominant Colors:** brown, red, white
-
-
----
+Dominant colors: brown, red, white
 
 ## Cultural Context
 
+A bear plushie in a Santa hat and striped red-white sleeves with spectacles. The Christmas theme creates an odd contrast within the otherwise horror-themed Boo Bear series.
 
-**Cultural Origin:** 
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [milady](../../../core-lore/archetypes.md#milady)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 3
-
-
----
-
-## Connections
-
-**Ancestor:** 
+References a key Berachain rebase.
 
 ---
 
 ## Attribution
 
-**Date Added:** July 9, 2024
-
+**Archetype:** milady
+**Swag Score:** 3
+**Date Added:** 2024-07-09
 **Introduced By:** Jani
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----

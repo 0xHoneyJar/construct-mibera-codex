@@ -8,62 +8,23 @@ date_added: "2024-12-09"
 
 # bullas plush
 
-## Visual Properties
+## Visual Elements
 
+a plushie of a smiling bull with a big head in light brown, wearing a muted teal tee and blue jeans / pants.
 
-**Image Files:**
-SS3_Bullas Plush.PNG
-
-
-**Visual Description:** a plushie of a smiling bull with a big head in light brown, wearing a muted teal tee and blue jeans / pants.
-
-**Dominant Colors:** light brown, muted teal, blue
-
-
----
+Dominant colors: light brown, muted teal, blue
 
 ## Cultural Context
 
+Bullas is an NFT collection within the Berachain ecosystem featuring anthropomorphic bulls. The bull is a natural counterpart to bears in financial market terminology, and the plush format follows the collection's pattern for rendering partner projects.
 
-**Cultural Origin:** 
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** 
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 3
-
-
----
-
-## Connections
-
-**Ancestor:** 
+Bulls versus bears is the oldest metaphor in financial markets. Bullas brings the bull side of that equation into a bear-dominated ecosystem.
 
 ---
 
 ## Attribution
 
-**Date Added:** December 9, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Swag Score:** 3
+**Date Added:** 2024-12-09

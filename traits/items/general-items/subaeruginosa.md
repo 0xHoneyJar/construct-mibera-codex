@@ -8,62 +8,24 @@ date_added: "2024-07-06"
 
 # subaeruginosa
 
-## Visual Properties
+## Visual Elements
 
+a mushroom with light brown head and darker brown stem / body.
 
-**Image Files:**
-SS2_acidhouse_Subaeruginosa.png
-
-
-**Visual Description:** a mushroom with light brown head and darker brown stem / body.
-
-**Dominant Colors:** light brown, dark brown
-
-
----
+Dominant colors: light brown, dark brown
 
 ## Cultural Context
 
+Psilocybe subaeruginosa is a potent psilocybin mushroom native to Australia and New Zealand. Its inclusion represents the Southern Hemisphere's unique contribution to psychedelic culture.
 
-**Cultural Origin:** 
+## Justification
 
-**Era:**
-
-
-**Why This Matters:** Psilocybe subaeruginosa is a potent psilocybin mushroom native to Australia and New Zealand. Its inclusion represents the Southern Hemisphere's unique contribution to psychedelic culture.
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [acidhouse](../../../core-lore/archetypes.md#acidhouse)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 2
-
-
----
-
-## Connections
-
-**Ancestor:** 
+Ensures the collection's psychedelic mushroom catalog is global, not just Northern Hemisphere. Australia and New Zealand have their own psilocybin lineage.
 
 ---
 
 ## Attribution
 
-**Date Added:** July 6, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Archetype:** acidhouse
+**Swag Score:** 2
+**Date Added:** 2024-07-06

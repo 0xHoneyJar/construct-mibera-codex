@@ -8,62 +8,24 @@ date_added: "2024-07-10"
 
 # jewelry
 
-## Visual Properties
+## Visual Elements
 
+a hand accessory made of black and teal beads with a round teal jewel. Worn on the wrist connected to one finger.
 
-**Image Files:**
-SS4_acidhouse_Jewelry.png
-
-
-**Visual Description:** a hand accessory made of black and teal beads with a round teal jewel. Worn on the wrist connected to one finger.
-
-**Dominant Colors:** black, teal
-
-
----
+Dominant colors: black, teal
 
 ## Cultural Context
 
+Kandi is the name for the brightly colored beaded jewelry exchanged at raves, typically pony bead bracelets traded through a ritual handshake called PLUR (Peace, Love, Unity, Respect). The practice originated in the early 1990s American rave scene and became one of its most distinctive social customs, turning cheap craft beads into symbols of shared experience and community.
 
-**Cultural Origin:** 
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [acidhouse](../../../core-lore/archetypes.md#acidhouse)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 4
-
-
----
-
-## Connections
-
-**Ancestor:** 
+Kandi trading is one of the only rituals unique to rave culture — cheap beads made sacred by the act of exchange between strangers.
 
 ---
 
 ## Attribution
 
-**Date Added:** July 10, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Archetype:** acidhouse
+**Swag Score:** 4
+**Date Added:** 2024-07-10

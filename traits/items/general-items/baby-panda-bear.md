@@ -8,62 +8,24 @@ date_added: "2024-07-11"
 
 # baby panda bear
 
-## Visual Properties
+## Visual Elements
 
+a plushie of a panda bear, medium to big in size.
 
-**Image Files:**
-SS4_milady_Baby Panda Bear.png
-
-
-**Visual Description:** a plushie of a panda bear, medium to big in size.
-
-**Dominant Colors:** white, black
-
-
----
+Dominant colors: white, black
 
 ## Cultural Context
 
+A panda variant of the Berachain bear plushie lineup. Panda bears, while not true bears taxonomically in older classifications, are confirmed members of the bear family and fit the collection's bear-centric branding.
 
-**Cultural Origin:** 
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [milady](../../../core-lore/archetypes.md#milady)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 4
-
-
----
-
-## Connections
-
-**Ancestor:** 
+Expands the bear plushie lineup across real-world species, giving visual variety to the ecosystem mascot set.
 
 ---
 
 ## Attribution
 
-**Date Added:** July 11, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Archetype:** milady
+**Swag Score:** 4
+**Date Added:** 2024-07-11

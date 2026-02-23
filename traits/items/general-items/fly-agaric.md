@@ -8,62 +8,24 @@ date_added: "2024-12-09"
 
 # fly agaric
 
-## Visual Properties
+## Visual Elements
 
+a mushroom, medium in size, with white stem and red head with white dots on it.
 
-**Image Files:**
-SS3_acidhouse_Fly Agaric.png
-
-
-**Visual Description:** a mushroom, medium in size, with white stem and red head with white dots on it.
-
-**Dominant Colors:** red, white
-
-
----
+Dominant colors: red, white
 
 ## Cultural Context
 
+The fly agaric (Amanita muscaria) is the iconic red-and-white mushroom of fairy tales and folklore. Unlike psilocybin mushrooms, it contains muscimol and produces a deliriant rather than psychedelic experience. Some scholars believe it may be the ancient soma described in Vedic texts.
 
-**Cultural Origin:** 
+## Justification
 
-**Era:**
-
-
-**Why This Matters:** The fly agaric (Amanita muscaria) is the iconic red-and-white mushroom of fairy tales and folklore. Unlike psilocybin mushrooms, it contains muscimol and produces a deliriant rather than psychedelic experience. Some scholars believe it may be the ancient soma described in Vedic texts.
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [acidhouse](../../../core-lore/archetypes.md#acidhouse)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 4
-
-
----
-
-## Connections
-
-**Ancestor:** 
+The most visually iconic mushroom in human culture doubles as a candidate for soma, the divine intoxicant of the Vedas. Pure archetype.
 
 ---
 
 ## Attribution
 
-**Date Added:** December 9, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Archetype:** acidhouse
+**Swag Score:** 4
+**Date Added:** 2024-12-09

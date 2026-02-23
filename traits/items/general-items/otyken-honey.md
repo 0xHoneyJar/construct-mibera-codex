@@ -8,63 +8,28 @@ date_added: "2024-07-13"
 
 # otyken honey
 
-## Visual Properties
+## Visual Elements
 
+a wooden jar made of light coloured / shaved wood, with some carvings on it.
 
-**Image Files:**
-SS4_milady_Otyken Honey.png
-
-
-**Visual Description:** a wooden jar made of light coloured / shaved wood, with some carvings on it.
-
-**Dominant Colors:** light beige
-
-
----
+Dominant colors: light beige
 
 ## Cultural Context
 
+Otyken is a Siberian indigenous music group from the Chulym people of Russia. This carved wooden honey vessel references both the group's cultural heritage and Berachain's honey motif. The connection was sourced by team member Jani.
 
-**Cultural Origin:** 
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [milady](../../../core-lore/archetypes.md#milady)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 4
-
-
----
-
-## Connections
-
-**Ancestor:** 
+Siberian indigenous vessel discovered by the team, connecting the honey motif to a living Central Asian cultural tradition.
 
 ---
 
 ## Attribution
 
-**Date Added:** July 13, 2024
-
+**Archetype:** milady
+**Swag Score:** 4
+**Date Added:** 2024-07-13
 **Introduced By:** Jani
-
-**Team Notes:** 
-
 **Sources:**
 - https://discord.com/channels/1133935527855399053/1164327631655813160/12091740222319
 - https://www.youtube.com/watch?v=gPCGcVrgG5s
-
-**Summary:** 
-
----

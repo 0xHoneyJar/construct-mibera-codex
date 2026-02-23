@@ -8,62 +8,24 @@ date_added: "2024-07-10"
 
 # spiral bera balloon
 
-## Visual Properties
+## Visual Elements
 
+a yellow balloon with mibera logo on it in orange.
 
-**Image Files:**
-SS4_acidhouse_Spiral Bera Balloon.png
-
-
-**Visual Description:** a yellow balloon with mibera logo on it in orange.
-
-**Dominant Colors:** yellow, orange
-
-
----
+Dominant colors: yellow, orange
 
 ## Cultural Context
 
+Balloons filled with nitrous oxide have been a common sight at raves and music festivals since the 1990s, sold alongside food and drink as a brief, legal-gray-area intoxicant. Beyond their drug association, balloons are also simply part of the decorative, carnival-like atmosphere of rave spaces. This item carries a symbol which is a combination of the Mibera logo and the Spiral Tribe logo.
 
-**Cultural Origin:** 
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [acidhouse](../../../core-lore/archetypes.md#acidhouse)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 4
-
-
----
-
-## Connections
-
-**Ancestor:** 
+These sorts of balloons are common at raves.
 
 ---
 
 ## Attribution
 
-**Date Added:** July 10, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Archetype:** acidhouse
+**Swag Score:** 4
+**Date Added:** 2024-07-10

@@ -8,62 +8,24 @@ date_added: "2025-03-22"
 
 # pythenians oracle
 
-## Visual Properties
+## Visual Elements
 
+a purple 8-ball oracle ball; a purple glass ball with gold plating.
 
-**Image Files:**
-SS3_pythenians oracle.png
-
-
-**Visual Description:** a purple 8-ball oracle ball; a purple glass ball with gold plating.
-
-**Dominant Colors:** purple, golden
-
-
----
+Dominant colors: purple, golden
 
 ## Cultural Context
 
+The Oracle at Delphi was the most important prophetic institution in the ancient Greek world. The idea that hidden knowledge could be accessed through trance and psychoactive substances connects directly to the collection's theme that altered consciousness can reveal deeper truths.
 
-**Cultural Origin:** 
+## Justification
 
-**Era:**
-
-
-**Why This Matters:** The Oracle at Delphi was the most important prophetic institution in the ancient Greek world. The idea that hidden knowledge could be accessed through trance and psychoactive substances connects directly to the collection's theme that altered consciousness can reveal deeper truths.
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [freetekno](../../../core-lore/archetypes.md#freetekno)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 3
-
-
----
-
-## Connections
-
-**Ancestor:** 
+Prophecy as a technology of altered consciousness. An 8-ball oracle nods to Delphi while staying playful enough for the rave.
 
 ---
 
 ## Attribution
 
-**Date Added:** March 22, 2025
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Archetype:** freetekno
+**Swag Score:** 3
+**Date Added:** 2025-03-22

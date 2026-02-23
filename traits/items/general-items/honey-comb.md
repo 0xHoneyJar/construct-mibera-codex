@@ -8,62 +8,23 @@ date_added: "2024-07-09"
 
 # honey comb
 
-## Visual Properties
+## Visual Elements
 
+an artifact in the shape of honeycombs in rose-gold with white doodly patterns on its surface.
 
-**Image Files:**
-SS3_Honey Comb.png
-
-
-**Visual Description:** an artifact in the shape of honeycombs in rose-gold with white doodly patterns on its surface.
-
-**Dominant Colors:** rosegold, white
-
-
----
+Dominant colors: rosegold, white
 
 ## Cultural Context
 
+References The Honey Jar's (THJ) Honeycomb NFT, one of the most widely held asset in the Berachain ecosystem. Honeycomb acts as a perks aggregator — holders receive whitelists, airdrops, and benefits from THJ's 96+ partner projects. 
 
-**Cultural Origin:** 
+## Justification
 
-**Era:**
-
-
-**Why This Matters:** The honeycomb is a recurring visual motif connected to the Berachain ecosystem and The Honey Jar community. Its hexagonal structure, nature's most efficient shape, represents both the interconnectedness of the project and the natural order that underlies it.
-
-
----
-
-## Mibera Integration
-
-**Archetype:** 
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 3
-
-
----
-
-## Connections
-
-**Ancestor:** 
+THJ's Honeycomb NFT is the entry point to THJ DAO membership and the most widely held asset in the ecosystem. This is the object that connects holder to community.
 
 ---
 
 ## Attribution
 
-**Date Added:** July 9, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Swag Score:** 3
+**Date Added:** 2024-07-09

@@ -8,62 +8,22 @@ date_added: "2024-12-09"
 
 # joint
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
-SS1_chicagodetroit_joint.png
-
-
-**Visual Description:** a smoking white joint.
-
-**Dominant Colors:** white
-
-
----
+a smoking white joint.
 
 ## Cultural Context
 
+The joint is the simplest and most universal way to consume cannabis, requiring nothing but rolling paper and herb. Its democratic simplicity mirrors the rave ethos that the experience should be accessible to everyone.
 
-**Cultural Origin:** 
+## Justification
 
-**Era:**
-
-
-**Why This Matters:** The joint is the simplest and most universal way to consume cannabis, requiring nothing but rolling paper and herb. Its democratic simplicity mirrors the rave ethos that the experience should be accessible to everyone.
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [chicago detroit](../../../core-lore/archetypes.md#chicago-detroit)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 1
-
-
----
-
-## Connections
-
-**Ancestor:** 
+The most democratic way to get high. No glass, no battery, no brand — just paper and plant. Its simplicity mirrors the rave ethos that the experience should cost you nothing but showing up.
 
 ---
 
 ## Attribution
 
-**Date Added:** December 9, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Archetype:** chicago detroit
+**Swag Score:** 1
+**Date Added:** 2024-12-09

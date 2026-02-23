@@ -8,63 +8,25 @@ date_added: "2025-01-10"
 
 # nutmeg plant
 
-## Visual Properties
+## Visual Elements
 
+a cracked open nutmeg showing its inside.
 
-**Image Files:**
-SS2_ancient_arabs_nutmeg.PNG
-
-
-**Visual Description:** a cracked open nutmeg showing its inside.
-
-**Dominant Colors:** reddish brown, light yellow, green
-
-
----
+Dominant colors: reddish brown, light yellow, green
 
 ## Cultural Context
 
+Nutmeg contains myristicin, a compound that in large doses produces psychoactive effects sometimes compared to MDMA. It has been used as a folk intoxicant for centuries by people without access to other substances, from medieval Europeans to prisoners.
 
-**Cultural Origin:** 
+## Justification
 
-**Era:**
-
-
-**Why This Matters:** Nutmeg contains myristicin, a compound that in large doses produces psychoactive effects sometimes compared to MDMA. It has been used as a folk intoxicant for centuries by people without access to other substances, from medieval Europeans to prisoners.
-
-
----
-
-## Mibera Integration
-
-**Archetype:** 
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 2
-
-
----
-
-## Connections
-
-**Ancestor:** [arab](../../../core-lore/ancestors/arabs.md)
-
+A kitchen spice that doubles as a psychoactive in high doses. Represents the ethnobotanical depth of the collection's pharmacological catalog — substances hiding in plain sight.
 
 ---
 
 ## Attribution
 
-**Date Added:** January 10, 2025
-
-**Introduced By:** 
-
+**Ancestor:** [arab](../../../core-lore/ancestors/arabs.md)
+**Swag Score:** 2
+**Date Added:** 2025-01-10
 **Team Notes:** "nutmeg... ancient version of mdma" — Jani, Nov 2023, #drugs
-
-**Sources:**
-
-
-**Summary:** 
-
----

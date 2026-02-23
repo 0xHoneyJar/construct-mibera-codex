@@ -8,62 +8,24 @@ date_added: "2024-07-04"
 
 # mibera sweat
 
-## Visual Properties
+## Visual Elements
 
+a bottle of clear white beverage with blue label and the brand “MIBERA SWEAT”.
 
-**Image Files:**
-SS1_milady_Mibera Sweat.png
-
-
-**Visual Description:** a bottle of clear white beverage with blue label and the brand “MIBERA SWEAT”.
-
-**Dominant Colors:** white, blue
-
-
----
+Dominant colors: white, blue
 
 ## Cultural Context
 
+A bottle branded "Mibera Sweat" with a blue label, a direct visual reference to Pocari Sweat, a Japanese isotonic drink popular across East Asia since 1980. The white-and-blue design is iconic in Japanese convenience store culture.
 
-**Cultural Origin:** 
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [milady](../../../core-lore/archetypes.md#milady)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 1
-
-
----
-
-## Connections
-
-**Ancestor:** 
+Pocari Sweat parody that roots the collection in Japanese convenience store culture and early-2000s East Asian aesthetics.
 
 ---
 
 ## Attribution
 
-**Date Added:** July 4, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Archetype:** milady
+**Swag Score:** 1
+**Date Added:** 2024-07-04

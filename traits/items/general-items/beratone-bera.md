@@ -8,62 +8,23 @@ date_added: "2024-12-09"
 
 # beratone bera
 
-## Visual Properties
+## Visual Elements
 
+a plushie of a standing bear character.
 
-**Image Files:**
-SS3_Beratone Bera.PNG
-
-
-**Visual Description:** a plushie of a standing bear character.
-
-**Dominant Colors:** brown
-
-
----
+Dominant colors: brown
 
 ## Cultural Context
 
+Beratone is a project within the Berachain ecosystem. Its representation as a standing bear plushie follows the collection's standard format for rendering ecosystem partners as physical collectibles.
 
-**Cultural Origin:** 
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** 
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 3
-
-
----
-
-## Connections
-
-**Ancestor:** 
+Ecosystem partner given the standard plushie treatment. Part of the collection's practice of materializing every corner of the Berachain community.
 
 ---
 
 ## Attribution
 
-**Date Added:** December 9, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Swag Score:** 3
+**Date Added:** 2024-12-09

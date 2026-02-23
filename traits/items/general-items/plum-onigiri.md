@@ -8,62 +8,24 @@ date_added: "2024-07-07"
 
 # plum onigiri
 
-## Visual Properties
+## Visual Elements
 
+an onigiri with a dark red dot in the middle of it.
 
-**Image Files:**
-SS2_milady_Plum Onigiri.png
-
-
-**Visual Description:** an onigiri with a dark red dot in the middle of it.
-
-**Dominant Colors:** white, dark red / purple
-
-
----
+Dominant colors: white, dark red / purple
 
 ## Cultural Context
 
+Umeboshi (pickled plum) onigiri is a classic Japanese rice ball variety with sour, salty flavor. It deepens the collection's connection to Japanese food culture and the anime aesthetic embedded in the Milady lineage.
 
-**Cultural Origin:** 
+## Justification
 
-**Era:**
-
-
-**Why This Matters:** Umeboshi (pickled plum) onigiri is a classic Japanese rice ball variety with sour, salty flavor. It deepens the collection's connection to Japanese food culture and the anime aesthetic embedded in the Milady lineage.
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [milady](../../../core-lore/archetypes.md#milady)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 2
-
-
----
-
-## Connections
-
-**Ancestor:** 
+Umeboshi variant giving the onigiri a second colorway and a deeper cut into Japanese food specifics.
 
 ---
 
 ## Attribution
 
-**Date Added:** July 7, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Archetype:** milady
+**Swag Score:** 2
+**Date Added:** 2024-07-07

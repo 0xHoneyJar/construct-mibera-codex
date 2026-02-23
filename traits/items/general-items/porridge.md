@@ -8,62 +8,25 @@ date_added: "2024-07-07"
 
 # porridge
 
-## Visual Properties
+## Visual Elements
 
+a full purple bowl of creamy coloured porridge.
 
-**Image Files:**
-SS2_chicagodetroit_Porridge.png
-
-
-**Visual Description:** a full purple bowl of creamy coloured porridge.
-
-**Dominant Colors:** purple, creamy white / beige
-
-
----
+Dominant colors: purple, creamy white / beige
 
 ## Cultural Context
 
+Porridge has been a dietary staple across cultures for thousands of years, from Scottish oats to Chinese congee to West African millet porridge. As a simple, cheap, and filling food, it is the kind of thing someone eats at 6 AM after a warehouse party. Its inclusion as a held item among drugs and instruments is deliberately mundane — a reminder that the rave experience also includes the ordinary act of feeding yourself.
 
-**Cultural Origin:** 
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [chicago detroit](../../../core-lore/archetypes.md#chicago-detroit)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 2
-
-
----
-
-## Connections
-
-**Ancestor:** 
+The deliberately mundane item. Among the drugs and instruments, a bowl of porridge insists that rave culture also includes the ordinary act of feeding yourself at 6 AM.
 
 ---
 
 ## Attribution
 
-**Date Added:** July 7, 2024
-
-**Introduced By:** 
-
+**Archetype:** chicago detroit
+**Swag Score:** 2
+**Date Added:** 2024-07-07
 **Team Notes:** "Love thatttt. We have a bowl of porridge for them too" — Gumi, May 2024, #active-miberas
-
-**Sources:**
-
-
-**Summary:** 
-
----

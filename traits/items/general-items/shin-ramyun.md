@@ -8,62 +8,24 @@ date_added: "2024-07-09"
 
 # shin ramyun
 
-## Visual Properties
+## Visual Elements
 
+a red pack of instant ramen / noodle.
 
-**Image Files:**
-SS3_freetekno_Shin Ramyun.png
-
-
-**Visual Description:** a red pack of instant ramen / noodle.
-
-**Dominant Colors:** red, black
-
-
----
+Dominant colors: red, black
 
 ## Cultural Context
 
+Shin Ramyun is a spicy Korean instant noodle that became a global comfort food icon. It connects to the late-night eating culture that goes hand in hand with raving and the broader East Asian cultural influences in the collection.
 
-**Cultural Origin:** 
+## Justification
 
-**Era:**
-
-
-**Why This Matters:** Shin Ramyun is a spicy Korean instant noodle that became a global comfort food icon. It connects to the late-night eating culture that goes hand in hand with raving and the broader East Asian cultural influences in the collection.
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [freetekno](../../../core-lore/archetypes.md#freetekno)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 1
-
-
----
-
-## Connections
-
-**Ancestor:** 
+Cheap, spicy, and available at 4 AM. The global instant noodle that fuels post-rave recovery.
 
 ---
 
 ## Attribution
 
-**Date Added:** July 9, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Archetype:** freetekno
+**Swag Score:** 1
+**Date Added:** 2024-07-09

@@ -8,62 +8,22 @@ date_added: "2024-07-06"
 
 # mexicana
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
-SS2_acidhouse_Mexicana.png
-
-
-**Visual Description:** a mushroom in light brown, thin stem / body, slightly pointy head.
-
-**Dominant Colors:** light brown
-
-
----
+a mushroom in light brown, thin stem / body, slightly pointy head.
 
 ## Cultural Context
 
+Psilocybe mexicana is the species used by the Mazatec people of Mexico and later studied by R. Gordon Wasson and Albert Hofmann. It is the species from which psilocybin was first isolated and named, making it foundational to psychedelic science.
 
-**Cultural Origin:** 
+## Justification
 
-**Era:**
-
-
-**Why This Matters:** Psilocybe mexicana is the species used by the Mazatec people of Mexico and later studied by R. Gordon Wasson and Albert Hofmann. It is the species from which psilocybin was first isolated and named, making it foundational to psychedelic science.
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [acidhouse](../../../core-lore/archetypes.md#acidhouse)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 2
-
-
----
-
-## Connections
-
-**Ancestor:** 
+The species where Western psychedelic science begins: Hofmann isolated psilocybin from it, Wasson brought it to LIFE magazine, and the rest is history.
 
 ---
 
 ## Attribution
 
-**Date Added:** July 6, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Archetype:** acidhouse
+**Swag Score:** 2
+**Date Added:** 2024-07-06

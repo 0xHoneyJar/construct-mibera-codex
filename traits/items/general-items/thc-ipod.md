@@ -8,62 +8,22 @@ date_added: "2024-07-12"
 
 # thc ipod
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
-SS4_milady_THC iPod.png
-
-
-**Visual Description:** a white ipod; a device with a round area for buttons and a screen that shows “The Honey Cast” playing.
-
-**Dominant Colors:** white
-
-
----
+a white ipod; a device with a round area for buttons and a screen that shows “The Honey Cast” playing.
 
 ## Cultural Context
 
+A white iPod displaying "The Honey Cast" (THC) on its screen. The Honey Cast is a podcast from the Berachain ecosystem. The iPod form factor references early 2000s tech nostalgia, and the THC abbreviation carries an obvious double meaning.
 
-**Cultural Origin:** 
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [milady](../../../core-lore/archetypes.md#milady)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 4
-
-
----
-
-## Connections
-
-**Ancestor:** 
+Retro tech nostalgia meets ecosystem media — an iPod frozen in time playing The Honey Cast.
 
 ---
 
 ## Attribution
 
-**Date Added:** July 12, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Archetype:** milady
+**Swag Score:** 4
+**Date Added:** 2024-07-12

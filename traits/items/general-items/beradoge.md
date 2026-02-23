@@ -8,62 +8,24 @@ date_added: "2024-07-11"
 
 # beradoge
 
-## Visual Properties
+## Visual Elements
 
+a plushie of a shiba inu’s head with its mouth open aggressively but with a bear body.
 
-**Image Files:**
-SS4_milady_Beradoge.png
-
-
-**Visual Description:** a plushie of a shiba inu’s head with its mouth open aggressively but with a bear body.
-
-**Dominant Colors:** brown, light beige
-
-
----
+Dominant colors: brown, light beige
 
 ## Cultural Context
 
+Beradoge combines the Doge meme (based on the Shiba Inu "Kabosu") with a bear body, referencing both the Dogecoin memecoin phenomenon and Berachain.
 
-**Cultural Origin:** 
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [milady](../../../core-lore/archetypes.md#milady)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 4
-
-
----
-
-## Connections
-
-**Ancestor:** 
+Beradoge was one of THJ's partners.
 
 ---
 
 ## Attribution
 
-**Date Added:** July 11, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Archetype:** milady
+**Swag Score:** 4
+**Date Added:** 2024-07-11

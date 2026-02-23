@@ -8,62 +8,25 @@ date_added: "2024-07-23"
 
 # green glowstick
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
-SS3_acidhouse_Green Glowstick.png
-
-
-**Visual Description:** a bright neon green glowstick.
-
-**Dominant Colors:** neon green
-
-
----
+a bright neon green glowstick.
 
 ## Cultural Context
 
+Glowsticks became synonymous with rave culture in the 1990s, used for dancing, tracing light trails, and marking pathways through dark warehouses. Their cheap, temporary glow perfectly matched the ephemeral nature of the rave itself.
 
-**Cultural Origin:** 
+## Justification
 
-**Era:**
-
-
-**Why This Matters:** Glowsticks became synonymous with rave culture in the 1990s, used for dancing, tracing light trails, and marking pathways through dark warehouses. Their cheap, temporary glow perfectly matched the ephemeral nature of the rave itself.
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [acidhouse](../../../core-lore/archetypes.md#acidhouse)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 3
-
-
----
-
-## Connections
-
-**Ancestor:** 
+Disposable light for disposable nights. The glowstick's planned obsolescence mirrors the ephemeral, you-had-to-be-there nature of the rave itself.
 
 ---
 
 ## Attribution
 
-**Date Added:** July 23, 2024
-
+**Archetype:** acidhouse
+**Swag Score:** 3
+**Date Added:** 2024-07-23
 **Introduced By:** Jani
-
-**Team Notes:** 
-
 **Sources:**
 - https://discord.com/channels/1133935527855399053/1167452819809378386/11674698297505
-
-**Summary:** 
-
----

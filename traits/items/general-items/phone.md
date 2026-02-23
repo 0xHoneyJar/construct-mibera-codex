@@ -8,62 +8,27 @@ date_added: "2024-12-09"
 
 # phone
 
-## Visual Properties
+## Visual Elements
 
+an old-school thick phone in black, green LED screen with black text that says “mibera” on it, and light grey buttons.
 
-**Image Files:**
-SS1_freetekno_Phone.png
-
-
-**Visual Description:** an old-school thick phone in black, green LED screen with black text that says “mibera” on it, and light grey buttons.
-
-**Dominant Colors:** black, light grey, green
-
-
----
+Dominant colors: black, light grey, green
 
 ## Cultural Context
 
+The smartphone changed how rave culture operates, replacing flyers and phone trees with social media and encrypted group chats. It is both the tool that makes modern underground events possible and the surveillance device that threatens the anonymity raves once relied on.
 
-**Cultural Origin:** 
+## Justification
 
-**Era:**
-
-
-**Why This Matters:** The smartphone changed how rave culture operates, replacing flyers and phone trees with social media and encrypted group chats. It is both the tool that makes modern underground events possible and the surveillance device that threatens the anonymity raves once relied on.
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [acidhouse](../../../core-lore/archetypes.md#acidhouse)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 1
-
-
----
-
-## Connections
-
-**Ancestor:** 
+Displays "mibera" on screen, making it an in-universe communication device. The tension between organizing underground events and carrying a surveillance tool is built into the object.
 
 ---
 
 ## Attribution
 
-**Date Added:** December 9, 2024
-
+**Archetype:** acidhouse
+**Swag Score:** 1
+**Date Added:** 2024-12-09
 **Introduced By:** Tez
-
-**Team Notes:** 
-
 **Sources:**
 - https://discord.com/channels/1133935527855399053/1143685538075902095/11543688676117
-
-**Summary:** 
-
----

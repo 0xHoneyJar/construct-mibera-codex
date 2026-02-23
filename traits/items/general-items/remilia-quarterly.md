@@ -8,62 +8,24 @@ date_added: "2024-08-02"
 
 # remilia quarterly
 
-## Visual Properties
+## Visual Elements
 
+a book in bright green with an outline drawing of a female angelic figure and huge title in yellow that reads “REMILIA QUARTERLY”.
 
-**Image Files:**
-SS3_milady_Remilia Quarterly.png
-
-
-**Visual Description:** a book in bright green with an outline drawing of a female angelic figure and huge title in yellow that reads “REMILIA QUARTERLY”.
-
-**Dominant Colors:** green, yellow, black
-
-
----
+Dominant colors: green, yellow, black
 
 ## Cultural Context
 
+Remilia Quarterly is a publication from the Remilia ecosystem. Holding a magazine as a rave accessory blurs the line between media, brand, and personal expression.
 
-**Cultural Origin:** 
+## Justification
 
-**Era:**
-
-
-**Why This Matters:** Remilia Quarterly is a publication from the Remilia ecosystem. Holding a magazine as a rave accessory blurs the line between media, brand, and personal expression.
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [milady](../../../core-lore/archetypes.md#milady)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 3
-
-
----
-
-## Connections
-
-**Ancestor:** 
+It is the Remilia ecosystem's own publication
 
 ---
 
 ## Attribution
 
-**Date Added:** August 2, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Archetype:** milady
+**Swag Score:** 3
+**Date Added:** 2024-08-02

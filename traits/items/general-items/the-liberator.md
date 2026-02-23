@@ -8,62 +8,23 @@ date_added: "2024-07-16"
 
 # the liberator
 
-## Visual Properties
+## Visual Elements
 
+a small white and black gun, simple and rectangular design.
 
-**Image Files:**
-SS5_The Liberator.png
-
-
-**Visual Description:** a small white and black gun, simple and rectangular design.
-
-**Dominant Colors:** black, white
-
-
----
+Dominant colors: black, white
 
 ## Cultural Context
 
+The Liberator was the first fully 3D-printed firearm, released as open-source files by Defense Distributed in 2013. It proved that digital fabrication can route around physical regulation, a cypherpunk idea with deeply uncomfortable implications.
 
-**Cultural Origin:** 
+## Justification
 
-**Era:**
-
-
-**Why This Matters:** The Liberator was the first fully 3D-printed firearm, released as open-source files by Defense Distributed in 2013. It proved that digital fabrication can route around physical regulation, a cypherpunk idea with deeply uncomfortable implications.
-
-
----
-
-## Mibera Integration
-
-**Archetype:** 
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 5
-
-
----
-
-## Connections
-
-**Ancestor:** 
+The first fully 3D-printed firearm, released as open-source files. Extends cypherpunk logic from digital information to physical manufacturing — if code is speech, what is a gun file?
 
 ---
 
 ## Attribution
 
-**Date Added:** July 16, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Swag Score:** 5
+**Date Added:** 2024-07-16

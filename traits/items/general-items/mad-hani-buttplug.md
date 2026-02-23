@@ -8,62 +8,25 @@ date_added: "2024-07-13"
 
 # mad hani buttplug
 
-## Visual Properties
+## Visual Elements
 
+a yellow buttplug with bee sting shaped attachment; black stripes and a silver sting.
 
-**Image Files:**
-SS5_milady_Mad Hani Buttplug.png
-
-
-**Visual Description:** a yellow buttplug with bee sting shaped attachment; black stripes and a silver sting.
-
-**Dominant Colors:** black, yellow, silver
-
-
----
+Dominant colors: black, yellow, silver
 
 ## Cultural Context
 
+References both the Berachain ecosystem's honey motif and the deliberately provocative, NSFW humor that runs through crypyo culture. It is the highest swag score (5) general item alongside the Remilia gun and diamond paws.
 
-**Cultural Origin:** 
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [milady](../../../core-lore/archetypes.md#milady)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 5
-
-
----
-
-## Connections
-
-**Ancestor:** 
+Peak provocation item — the highest swag score tier exists for items that push taste boundaries this hard.
 
 ---
 
 ## Attribution
 
-**Date Added:** July 13, 2024
-
-**Introduced By:** 
-
+**Archetype:** milady
+**Swag Score:** 5
+**Date Added:** 2024-07-13
 **Team Notes:** "hani vision binoculars — mad hani butt plug — diamond paws" — Jani, Oct 2023, #items-accessories
-
-**Sources:**
-
-
-**Summary:** 
-
----

@@ -8,62 +8,26 @@ date_added: "2024-12-09"
 
 # sex health and long life
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
-SS1_milady_sex health and long life.PNG
-
-
-**Visual Description:** a red book called “Sex, Health, and Long Life”
-
-**Dominant Colors:** red
-
-
----
+a red book called “Sex, Health, and Long Life”
 
 ## Cultural Context
 
+Thomas Cleary
 
-**Cultural Origin:** Thomas Cleary
+This translation of classical Chinese Taoist texts by Thomas Cleary covers longevity, sexuality, and holistic wellness. It connects to the collection's thread of ancient wisdom traditions that sought altered states and transcendence through the body.
 
-**Era:**
+## Justification
 
-
-**Why This Matters:** This translation of classical Chinese Taoist texts by Thomas Cleary covers longevity, sexuality, and holistic wellness. It connects to the collection's thread of ancient wisdom traditions that sought altered states and transcendence through the body.
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [Milady](../../../core-lore/archetypes.md#milady)
-
-**Archetype Alignment:** its correlation with Milady community (need to look into this more) Was in Cfang’s blog - I think an arena blog. Will
-
-
-**Swag Score:** 1
-
-
----
-
-## Connections
-
-**Ancestor:** 
+Taoist longevity text placing bodily transcendence and sexuality alongside the collection's chemical routes to altered states.
 
 ---
 
 ## Attribution
 
-**Date Added:** December 9, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
+**Archetype:** Milady
+**Swag Score:** 1
+**Date Added:** 2024-12-09
 **Sources:**
 - https://www.goodreads.com/book/show/2943311-sex-health-long-life
-
-**Summary:** 
-
----

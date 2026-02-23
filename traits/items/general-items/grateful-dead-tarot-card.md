@@ -8,62 +8,24 @@ date_added: "2024-12-09"
 
 # grateful dead tarot card
 
-## Visual Properties
+## Visual Elements
 
+a tarot card with a graphic of a blue bear with red collar walking away from a path leading to a building, sun blazing behind the character. The surface appears metallic.
 
-**Image Files:**
-SS4_acidhouse_Grateful Dead Tarot.PNG
-
-
-**Visual Description:** a tarot card with a graphic of a blue bear with red collar walking away from a path leading to a building, sun blazing behind the character. The surface appears metallic.
-
-**Dominant Colors:** gold, blue, pale terracotta..
-
-
----
+Dominant colors: gold, blue, pale terracotta..
 
 ## Cultural Context
 
+Tarot cards have been used for divination and self-reflection for centuries, and the Grateful Dead's connection to psychedelic mysticism makes this pairing a natural fit. It represents the overlap between countercultural music and occult practice.
 
-**Cultural Origin:** 
+## Justification
 
-**Era:**
-
-
-**Why This Matters:** Tarot cards have been used for divination and self-reflection for centuries, and the Grateful Dead's connection to psychedelic mysticism makes this pairing a natural fit. It represents the overlap between countercultural music and occult practice.
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [acidhouse](../../../core-lore/archetypes.md#acidhouse)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 4
-
-
----
-
-## Connections
-
-**Ancestor:** 
+A bear walking a sunlit path on a tarot card merges Berachain iconography with the Dead's psychedelic mysticism in a single image.
 
 ---
 
 ## Attribution
 
-**Date Added:** December 9, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Archetype:** acidhouse
+**Swag Score:** 4
+**Date Added:** 2024-12-09

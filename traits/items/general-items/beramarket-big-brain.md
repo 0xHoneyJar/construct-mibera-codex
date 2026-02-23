@@ -8,62 +8,23 @@ date_added: "2024-12-09"
 
 # beramarket big brain
 
-## Visual Properties
+## Visual Elements
 
+a grey bear with cheeky expression and extremely large brain that can be seen stretching beyond its skull, wearing purple long-sleeves with white graphic.
 
-**Image Files:**
-SS2_Beramarket Big Brain.PNG
-
-
-**Visual Description:** a grey bear with cheeky expression and extremely large brain that can be seen stretching beyond its skull, wearing purple long-sleeves with white graphic.
-
-**Dominant Colors:** grey, purple
-
-
----
+Dominant colors: grey, purple
 
 ## Cultural Context
 
+Beramarket is an NFT marketplace on Berachain. The oversized brain is a reference to the "big brain" internet meme, used to denote shrewd or galaxy-brained trading strategies. The item combines ecosystem infrastructure with crypto trader culture.
 
-**Cultural Origin:** 
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** 
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 2
-
-
----
-
-## Connections
-
-**Ancestor:** 
+NFT marketplace infrastructure meets crypto trader meme culture. The oversized brain is self-aware bragging about galaxy-brained trading strategies.
 
 ---
 
 ## Attribution
 
-**Date Added:** December 9, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Swag Score:** 2
+**Date Added:** 2024-12-09

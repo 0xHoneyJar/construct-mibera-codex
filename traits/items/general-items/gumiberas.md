@@ -8,62 +8,24 @@ date_added: "2024-07-07"
 
 # gumiberas
 
-## Visual Properties
+## Visual Elements
 
+a golden pack of gummy bears called “gumiberas”, as seen on the package.
 
-**Image Files:**
-SS2_milady_Gumiberas.png
-
-
-**Visual Description:** a golden pack of gummy bears called “gumiberas”, as seen on the package.
-
-**Dominant Colors:** golden, yellow
-
-
----
+Dominant colors: golden, yellow
 
 ## Cultural Context
 
+A golden pack of gummy bears branded "Gumiberas," combining the Mibera project name with gummy bear candy. Gummy bears were invented in 1922 by Hans Riegel in Bonn, Germany. The bear-shaped candy is a natural fit for Berachain's bear-themed ecosystem.
 
-**Cultural Origin:** 
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [milady](../../../core-lore/archetypes.md#milady)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 2
-
-
----
-
-## Connections
-
-**Ancestor:** 
+Self-referential item named after the project's artist Gumibera, doubling as a bear-shaped candy pun.
 
 ---
 
 ## Attribution
 
-**Date Added:** July 7, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Archetype:** milady
+**Swag Score:** 2
+**Date Added:** 2024-07-07

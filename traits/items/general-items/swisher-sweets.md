@@ -8,62 +8,24 @@ date_added: "2024-12-09"
 
 # swisher sweets
 
-## Visual Properties
+## Visual Elements
 
+a red pack of cigars that’s branded “SWISHER SWEETS”, with a visible promotional tag in yellow of 99 cents for 2 cigars.
 
-**Image Files:**
-SS3_chicagodetroit_Swisher Sweets.PNG
-
-
-**Visual Description:** a red pack of cigars that’s branded “SWISHER SWEETS”, with a visible promotional tag in yellow of 99 cents for 2 cigars.
-
-**Dominant Colors:** yellow, red
-
-
----
+Dominant colors: yellow, red
 
 ## Cultural Context
 
+Swisher Sweets are cheap flavored cigars widely used as blunt wraps in American cannabis culture. They became so associated with weed that buying them at a gas station turned into a cultural signal of its own.
 
-**Cultural Origin:** 
+## Justification
 
-**Era:**
-
-
-**Why This Matters:** Swisher Sweets are cheap flavored cigars widely used as blunt wraps in American cannabis culture. They became so associated with weed that buying them at a gas station turned into a cultural signal of its own.
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [chicago detroit](../../../core-lore/archetypes.md#chicago-detroit)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 1
-
-
----
-
-## Connections
-
-**Ancestor:** 
+The 99-cent price tag is the point. Swishers are the cheapest possible entry into blunt culture — gas station counterculture, accessible to anyone with pocket change.
 
 ---
 
 ## Attribution
 
-**Date Added:** December 9, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Archetype:** chicago detroit
+**Swag Score:** 1
+**Date Added:** 2024-12-09

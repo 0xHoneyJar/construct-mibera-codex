@@ -8,62 +8,24 @@ date_added: "2024-12-09"
 
 # how to stay in hell
 
-## Visual Properties
+## Visual Elements
 
+a black book with red and dark greyish graphic in the middle, and white title that reads “How to Stay in Hell”.
 
-**Image Files:**
-SS1_milady_How to stay in hell.PNG
-
-
-**Visual Description:** a black book with red and dark greyish graphic in the middle, and white title that reads “How to Stay in Hell”.
-
-**Dominant Colors:** black, red, white
-
-
----
+Dominant colors: black, red, white
 
 ## Cultural Context
 
+A black book titled "How to Stay in Hell." The title functions as dark humor and post-ironic commentary, consistent with the Milady aesthetic's tendency to treat morbid or extreme subject matter with deadpan sincerity.
 
-**Cultural Origin:** 
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [milady](../../../core-lore/archetypes.md#milady)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 1
-
-
----
-
-## Connections
-
-**Ancestor:** 
+Deadpan transgressive book title that says the quiet part loud — peak Milady post-ironic humor as a held prop.
 
 ---
 
 ## Attribution
 
-**Date Added:** December 9, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Archetype:** milady
+**Swag Score:** 1
+**Date Added:** 2024-12-09

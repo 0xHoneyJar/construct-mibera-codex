@@ -8,63 +8,26 @@ date_added: "2025-01-10"
 
 # ashwagandha sprig
 
-## Visual Properties
+## Visual Elements
 
+a sprig full of leaves and rounded fruits in red and yellow.
 
-**Image Files:**
-SS3_milady_hindu_ashwagandha.PNG
-
-
-**Visual Description:** a sprig full of leaves and rounded fruits in red and yellow.
-
-**Dominant Colors:** green, red, yellow
-
-
----
+Dominant colors: green, red, yellow
 
 ## Cultural Context
 
+Ashwagandha is an adaptogenic herb central to Ayurvedic medicine, used for thousands of years to reduce stress and enhance vitality. Its inclusion represents the recovery and wellness side of drug culture, where healing is as important as the high.
 
-**Cultural Origin:** 
+## Justification
 
-**Era:**
-
-
-**Why This Matters:** Ashwagandha is an adaptogenic herb central to Ayurvedic medicine, used for thousands of years to reduce stress and enhance vitality. Its inclusion represents the recovery and wellness side of drug culture, where healing is as important as the high.
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [milady](../../../core-lore/archetypes.md#milady)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 3
-
-
----
-
-## Connections
-
-**Ancestor:** [hindu](../../../core-lore/ancestors/hindu.md)
-
+Anchors the Hindu ancestor's healing traditions in the collection, balancing the heavier psychoactive items with a wellness counterpart.
 
 ---
 
 ## Attribution
 
-**Date Added:** January 10, 2025
-
+**Archetype:** milady
+**Ancestor:** [hindu](../../../core-lore/ancestors/hindu.md)
+**Swag Score:** 3
+**Date Added:** 2025-01-10
 **Introduced By:** Jani
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----

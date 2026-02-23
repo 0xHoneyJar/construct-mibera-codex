@@ -8,62 +8,24 @@ date_added: "2024-07-07"
 
 # fan
 
-## Visual Properties
+## Visual Elements
 
+a white fan with black bones and handle.
 
-**Image Files:**
-SS3_chicagodetroit_Fan.png
-
-
-**Visual Description:** a white fan with black bones and handle.
-
-**Dominant Colors:** black, white
-
-
----
+Dominant colors: black, white
 
 ## Cultural Context
 
+Fans are both a practical and expressive accessory in rave culture, used to cool down on crowded dance floors and as flow toys for visual performance. They bridge centuries of Asian cultural tradition with modern electronic music scenes.
 
-**Cultural Origin:** 
+## Justification
 
-**Era:**
-
-
-**Why This Matters:** Fans are both a practical and expressive accessory in rave culture, used to cool down on crowded dance floors and as flow toys for visual performance. They bridge centuries of Asian cultural tradition with modern electronic music scenes.
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [chicago detroit](../../../core-lore/archetypes.md#chicago-detroit)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 3
-
-
----
-
-## Connections
-
-**Ancestor:** 
+A dance floor survival tool that doubles as a performance prop. The fan bridges practical rave gear with centuries of East Asian cultural tradition.
 
 ---
 
 ## Attribution
 
-**Date Added:** July 7, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Archetype:** chicago detroit
+**Swag Score:** 3
+**Date Added:** 2024-07-07

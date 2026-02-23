@@ -8,62 +8,23 @@ date_added: "2025-03-22"
 
 # luca pudgy plushie
 
-## Visual Properties
+## Visual Elements
 
+a plushie of a yellow penguin wearing an orange-y shirt with white triangles scattered and a headband in red, white, and blue.
 
-**Image Files:**
-SS3_luca pudgy plushie.png
-
-
-**Visual Description:** a plushie of a yellow penguin wearing an orange-y shirt with white triangles scattered and a headband in red, white, and blue.
-
-**Dominant Colors:** yellow, orange, red, white, blue
-
-
----
+Dominant colors: yellow, orange, red, white, blue
 
 ## Cultural Context
 
+Luca is a character from the Pudgy Penguins NFT collection, which expanded into physical plush toys. This item represents cross-community ties between the Pudgy Penguins and Berachain ecosystems.
 
-**Cultural Origin:** 
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** 
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 3
-
-
----
-
-## Connections
-
-**Ancestor:** 
+Cross-collection NFT reference from Pudgy Penguins. Part of the collection's practice of embedding other communities as physical artifacts.
 
 ---
 
 ## Attribution
 
-**Date Added:** March 22, 2025
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Swag Score:** 3
+**Date Added:** 2025-03-22

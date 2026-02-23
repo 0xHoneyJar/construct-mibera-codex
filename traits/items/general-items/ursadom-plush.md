@@ -8,62 +8,24 @@ date_added: "2024-06-04"
 
 # ursadom plush
 
-## Visual Properties
+## Visual Elements
 
+a plain white plushie in the shape of a bear sitting down, with ‘O’ as one eye and ‘X’ as another.
 
-**Image Files:**
-SS2_milady_Ursadom Plush.png
-
-
-**Visual Description:** a plain white plushie in the shape of a bear sitting down, with ‘O’ as one eye and ‘X’ as another.
-
-**Dominant Colors:** white, black
-
-
----
+Dominant colors: white, black
 
 ## Cultural Context
 
+A plain white bear plushie with an "O" for one eye and an "X" for the other. The name "Ursadom" combines "ursa" (Latin for bear) with "dom" (domain/dominion). The minimalist X-O face is a common design shorthand in plush toys and mascot culture.
 
-**Cultural Origin:** 
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [milady](../../../core-lore/archetypes.md#milady)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 2
-
-
----
-
-## Connections
-
-**Ancestor:** 
+Minimalist X-O face bear plushie from the Berachain ecosystem, stripped to the simplest possible mascot form.
 
 ---
 
 ## Attribution
 
-**Date Added:** June 4, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Archetype:** milady
+**Swag Score:** 2
+**Date Added:** 2024-06-04

@@ -8,63 +8,25 @@ date_added: "2024-12-09"
 
 # sugarcane portion
 
-## Visual Properties
+## Visual Elements
 
+a sugarcane stick.
 
-**Image Files:**
-SS3_chicagodetroit_ancient_hindu_Sugarcane.PNG
-
-
-**Visual Description:** a sugarcane stick.
-
-**Dominant Colors:** green
-
-
----
+Dominant colors: green
 
 ## Cultural Context
 
+Sugarcane has been fermented into alcohol across tropical regions for thousands of years, producing everything from rum to cachaca. It connects to the deep history of communal drinking rituals that preceded modern rave culture by millennia.
 
-**Cultural Origin:** 
+## Justification
 
-**Era:**
-
-
-**Why This Matters:** Sugarcane has been fermented into alcohol across tropical regions for thousands of years, producing everything from rum to cachaca. It connects to the deep history of communal drinking rituals that preceded modern rave culture by millennia.
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [chicago detroit](../../../core-lore/archetypes.md#chicago-detroit)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 4
-
-
----
-
-## Connections
-
-**Ancestor:** [hindu](../../../core-lore/ancestors/hindu.md)
-
+The raw ingredient behind rum, cachaca, and millennia of tropical fermentation. It connects the modern bar menu to its agricultural origin. Paired with the Hindu ancestor lineage.
 
 ---
 
 ## Attribution
 
-**Date Added:** December 9, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Archetype:** chicago detroit
+**Ancestor:** [hindu](../../../core-lore/ancestors/hindu.md)
+**Swag Score:** 4
+**Date Added:** 2024-12-09

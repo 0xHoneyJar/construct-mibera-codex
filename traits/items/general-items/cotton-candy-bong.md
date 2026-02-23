@@ -8,62 +8,24 @@ date_added: "2024-07-10"
 
 # cotton candy bong
 
-## Visual Properties
+## Visual Elements
 
+a big glassy bong with gradients of vibrant blue and magenta / purple
 
-**Image Files:**
-SS1_chicagodetroit_Cotton Candy Bong.PNG
-
-
-**Visual Description:** a big glassy bong with gradients of vibrant blue and magenta / purple
-
-**Dominant Colors:** vibrant bright blue and magenta / purple
-
-
----
+Dominant colors: vibrant bright blue and magenta / purple
 
 ## Cultural Context
 
+The playful, candy-colored aesthetics of modern glass art challenge the grimy stereotypes around drug culture. A cotton candy bong insists that getting high can be whimsical and joyful.
 
-**Cultural Origin:** 
+## Justification
 
-**Era:**
-
-
-**Why This Matters:** The playful, candy-colored aesthetics of modern glass art challenge the grimy stereotypes around drug culture. A cotton candy bong insists that getting high can be whimsical and joyful.
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [chicago detroit](../../../core-lore/archetypes.md#chicago-detroit)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 1
-
-
----
-
-## Connections
-
-**Ancestor:** 
+The lowest swag-score bong variant. Its candy coloring insists that drug culture can be whimsical — not everything in the collection needs to be gritty or serious.
 
 ---
 
 ## Attribution
 
-**Date Added:** July 10, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Archetype:** chicago detroit
+**Swag Score:** 1
+**Date Added:** 2024-07-10

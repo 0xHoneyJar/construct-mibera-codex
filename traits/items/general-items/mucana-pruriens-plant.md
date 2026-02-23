@@ -8,63 +8,25 @@ date_added: "2025-01-10"
 
 # mucuna pruriens plant
 
-## Visual Properties
+## Visual Elements
 
+a small bunch of leaves and a strip of beans with yellow skin.
 
-**Image Files:**
-SS2_acidhouse_ancient_hindu_mucuna pruriens.PNG
-
-
-**Visual Description:** a small bunch of leaves and a strip of beans with yellow skin.
-
-**Dominant Colors:** green, black, yellow
-
-
----
+Dominant colors: green, black, yellow
 
 ## Cultural Context
 
+Mucuna pruriens, the velvet bean, naturally contains L-DOPA, a direct precursor to dopamine. It has been used in Ayurvedic medicine for centuries to treat mood and neurological conditions, connecting ancient plant knowledge to modern neurochemistry.
 
-**Cultural Origin:** 
+## Justification
 
-**Era:**
-
-
-**Why This Matters:** Mucuna pruriens, the velvet bean, naturally contains L-DOPA, a direct precursor to dopamine. It has been used in Ayurvedic medicine for centuries to treat mood and neurological conditions, connecting ancient plant knowledge to modern neurochemistry.
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [acidhouse](../../../core-lore/archetypes.md#acidhouse)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 2
-
-
----
-
-## Connections
-
-**Ancestor:** [hindu](../../../core-lore/ancestors/hindu.md)
-
+A plant that naturally produces a dopamine precursor represents the collection's thesis that neurochemistry and botany have always been entangled.
 
 ---
 
 ## Attribution
 
-**Date Added:** January 10, 2025
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Archetype:** acidhouse
+**Ancestor:** [hindu](../../../core-lore/ancestors/hindu.md)
+**Swag Score:** 2
+**Date Added:** 2025-01-10

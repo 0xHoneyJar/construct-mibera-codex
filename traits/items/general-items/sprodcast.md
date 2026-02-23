@@ -8,62 +8,23 @@ date_added: "2025-03-11"
 
 # sprodcast
 
-## Visual Properties
+## Visual Elements
 
+a plushie of a blue creature with a funny face; sleepy eyes and a tongue out, wearing yellow long sleeves with comically long curvy fingers.
 
-**Image Files:**
-SS3_sprodcast.PNG
-
-
-**Visual Description:** a plushie of a blue creature with a funny face; sleepy eyes and a tongue out, wearing yellow long sleeves with comically long curvy fingers.
-
-**Dominant Colors:** blue, yellow, red
-
-
----
+Dominant colors: blue, yellow, red
 
 ## Cultural Context
 
+Sprodcast appears to be a podcast or media project within the Berachain community. The blue creature plushie with its sleepy expression and exaggerated fingers reflects the laid-back, absurdist tone common in crypto community media.
 
-**Cultural Origin:** 
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** 
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 3
-
-
----
-
-## Connections
-
-**Ancestor:** 
+Represents community media creators within the Berachain ecosystem. Content creation is how crypto communities build culture, and this plushie gives that labor a physical form.
 
 ---
 
 ## Attribution
 
-**Date Added:** March 11, 2025
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Swag Score:** 3
+**Date Added:** 2025-03-11

@@ -8,62 +8,24 @@ date_added: "2024-07-06"
 
 # golden teacher
 
-## Visual Properties
+## Visual Elements
 
+a big mushroom; light creamy white body and a light brown head.
 
-**Image Files:**
-SS2_acidhouse_Golden Teacher.png
-
-
-**Visual Description:** a big mushroom; light creamy white body and a light brown head.
-
-**Dominant Colors:** creamy white, light brown
-
-
----
+Dominant colors: creamy white, light brown
 
 ## Cultural Context
 
+Golden Teacher is one of the most popular and widely cultivated strains of psilocybin mushrooms, known for producing introspective, visually rich experiences. Its name reflects the widespread belief that psilocybin mushrooms teach rather than merely intoxicate.
 
-**Cultural Origin:** 
+## Justification
 
-**Era:**
-
-
-**Why This Matters:** Golden Teacher is one of the most popular and widely cultivated strains of psilocybin mushrooms, known for producing introspective, visually rich experiences. Its name reflects the widespread belief that psilocybin mushrooms teach rather than merely intoxicate.
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [acidhouse](../../../core-lore/archetypes.md#acidhouse)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 2
-
-
----
-
-## Connections
-
-**Ancestor:** 
+The name itself encodes the psychedelic community's central claim: that these substances are teachers, not just drugs. That philosophy is core to the collection.
 
 ---
 
 ## Attribution
 
-**Date Added:** July 6, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Archetype:** acidhouse
+**Swag Score:** 2
+**Date Added:** 2024-07-06

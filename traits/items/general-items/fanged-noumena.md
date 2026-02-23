@@ -8,62 +8,24 @@ date_added: "2024-08-07"
 
 # fanged noumena
 
-## Visual Properties
+## Visual Elements
 
+a book with colourful cover and white part at the top with black text that reads “NICK LAND - Fanged Noumena - collected writings 1987-2007”.
 
-**Image Files:**
-SS3_Fanged Noumena.png
-
-
-**Visual Description:** a book with colourful cover and white part at the top with black text that reads “NICK LAND - Fanged Noumena - collected writings 1987-2007”.
-
-**Dominant Colors:** white, blue, red, orange
-
-
----
+Dominant colors: white, blue, red, orange
 
 ## Cultural Context
 
+Fanged Noumena collects the writings of Nick Land, the controversial CCRU philosopher whose work on acceleration and cybernetics influenced both Milady's intellectual framing and Mibera's counter-reading of the same ideas.
 
-**Cultural Origin:** 
+## Justification
 
-**Era:**
-
-
-**Why This Matters:** Fanged Noumena collects the writings of Nick Land, the controversial CCRU philosopher whose work on acceleration and cybernetics influenced both Milady's intellectual framing and Mibera's counter-reading of the same ideas.
-
-
----
-
-## Mibera Integration
-
-**Archetype:** 
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 2
-
-
----
-
-## Connections
-
-**Ancestor:** 
+The collection deliberately positions itself in dialogue with Nick Land's ideas — not as endorsement, but as counter-reading. The team discussed choosing alternate CCRU philosophers to elevate.
 
 ---
 
 ## Attribution
 
-**Date Added:** August 7, 2024
-
-**Introduced By:** 
-
+**Swag Score:** 2
+**Date Added:** 2024-08-07
 **Team Notes:** "We can pick alternate philosophers from ccru to put on a pedestal the way nick land is by milady" — Jani, Aug 2023, #general
-
-**Sources:**
-
-
-**Summary:** 
-
----

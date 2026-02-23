@@ -8,62 +8,24 @@ date_added: "2024-07-23"
 
 # sudo chan
 
-## Visual Properties
+## Visual Elements
 
+a plushie of a fair-skinned female face, smiling with eyes closed, soft purple hair with a small space bun, yellow stars and white balls on the hair as decoration.
 
-**Image Files:**
-SS1_milady_Sudo Chan.png
-
-
-**Visual Description:** a plushie of a fair-skinned female face, smiling with eyes closed, soft purple hair with a small space bun, yellow stars and white balls on the hair as decoration.
-
-**Dominant Colors:** cream, soft purple, yellow
-
-
----
+Dominant colors: cream, soft purple, yellow
 
 ## Cultural Context
 
+Sudo-chan is the mascot of Sudoswap, a decentralized NFT automated market maker (AMM) on Ethereum. Sudoswap was one of the first protocols to enable on-chain NFT liquidity pools. The character's kawaii design fits the Milady archetype's anime-influenced aesthetics.
 
-**Cultural Origin:** 
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [milady](../../../core-lore/archetypes.md#milady)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 1
-
-
----
-
-## Connections
-
-**Ancestor:** 
+Sudoswap's mascot as a kawaii plushie, representing the DeFi protocol that pioneered on-chain NFT liquidity.
 
 ---
 
 ## Attribution
 
-**Date Added:** July 23, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Archetype:** milady
+**Swag Score:** 1
+**Date Added:** 2024-07-23
