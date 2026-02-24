@@ -1,12 +1,12 @@
 ---
-name: Mother
+name: Mother Shirt
 image: "https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT"
 archetype: "**Archetype Alignment:** Its relation to Iggi Azalea $MOTHER merch and its cultural relevance in the web3 industry"
 swag_score: 2
 date_added: "2024-07-19"
 ---
 
-# Mother
+# Mother Shirt
 
 ## Visual Elements
 

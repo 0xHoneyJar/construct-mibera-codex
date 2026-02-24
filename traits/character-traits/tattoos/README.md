@@ -70,7 +70,6 @@ Each tattoo carries cultural weight and contributes to the Ancestor dimension of
 - [Ge Ez Love](ge-ez-love.md)
 - [Grateful Dead Mushroom](grateful-dead-mushroom.md)
 - [Semilunar](semilunar.md)
-- [Triskele](triskele.md)
 - [Stylized Dharma Wheel](stylized-dharma-wheel.md)
 - [Sami Flag](sami-flag.md)
 - [Without Fear Without Hate](without-fear-without-hate.md)

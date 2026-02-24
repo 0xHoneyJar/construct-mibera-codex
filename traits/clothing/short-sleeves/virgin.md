@@ -18,7 +18,7 @@ Dominant colors: Black, white.
 
 ## Cultural Context
 
-Crypto is for Virgins is a self-deprecating joke from within the crypto community, playing on the stereotype of crypto enthusiasts as socially awkward tech obsessives. The humor operates in the same register as the autism-themed shirts in the collection.
+Crypto is for Virgins is a self-deprecating joke from within the crypto community, playing on the stereotype of crypto enthusiasts as socially awkward tech obsessives. 
 
 <!-- justification
 ## Justification

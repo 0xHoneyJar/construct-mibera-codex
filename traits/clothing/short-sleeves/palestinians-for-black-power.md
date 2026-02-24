@@ -1,12 +1,12 @@
 ---
-name: Palestinian for Black Power
+name: Palestinians For Black Power
 image: "https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT"
 archetype: Acidhouse
 swag_score: 2
 date_added: "2024-06-22"
 ---
 
-# Palestinian for Black Power
+# Palestinians For Black Power
 
 ## Visual Elements
 

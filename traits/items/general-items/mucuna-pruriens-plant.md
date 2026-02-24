@@ -1,12 +1,12 @@
 ---
-name: mucuna pruriens plant
+name: Mucuna Pruriens Plant
 image: SS2_acidhouse_ancient_hindu_mucuna pruriens.PNG
 archetype: acidhouse
 swag_score: 2
 date_added: "2025-01-10"
 ---
 
-# mucuna pruriens plant
+# Mucuna Pruriens Plant
 
 ## Visual Elements
 

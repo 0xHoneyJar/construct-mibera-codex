@@ -18,7 +18,7 @@ Dominant colors: Black, white.
 
 ## Cultural Context
 
-Wicked in UK rave slang means excellent or amazing, used as an exclamation of approval since the late 1980s. The graffiti-style typography connects to the street art and urban visual culture that ran parallel to the UK rave scene.
+Inspired by Wicked Sound System, a legendary UK free party crew founded by Garth in the late 1980s. Wicked ran some of the most iconic illegal raves and squat parties in London through the early 1990s, alongside crews like Spiral Tribe and DiY. They were central to the UK's free party movement before and after the Criminal Justice Act crackdown, and their name became synonymous with underground sound system culture.
 
 <!-- justification
 ## Justification

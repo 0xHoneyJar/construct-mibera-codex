@@ -38,7 +38,7 @@ Backgrounds set the environmental context for each Mibera, ranging from abstract
 - [Mississippi River](mississippi-river.md)
 - [Freetekno](freetekno.md)
 - [River Boyne](river-boyne.md)
-- [Peyote](peyote.md)
+- [Peyote Desert](peyote-desert.md)
 - [Constellations](constellations.md)
 - [Detroit](detroit.md)
 - [Bullas](bullas.md)

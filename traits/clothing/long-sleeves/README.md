@@ -58,7 +58,6 @@ Long sleeve garments include suits, jackets, robes, and outerwear that define ch
 - [Trippy](trippy.md)
 - [Henlo Jersey](henlo-jersey.md)
 - [80s Detroit Jersey](80s-detroit-jersey.md)
-- [Chicago Jersey](chicago-jersey.md)
 - [Arc Jersey](arc-jersey.md)
 - [Mibera Spiral Hockey](mibera-spiral-hockey.md)
 - [Baby Bera Hockey](baby-bera-hockey.md)

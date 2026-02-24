@@ -1,12 +1,12 @@
 ---
-name: sakae naa
+name: Sakae Na Plant
 image: Ss4_milady_ancient_thai_sakae naa.PNG
 archetype: milady
 swag_score: 4
 date_added: "2025-01-10"
 ---
 
-# sakae naa
+# Sakae Na Plant
 
 ## Visual Elements
 
