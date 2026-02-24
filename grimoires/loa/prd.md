@@ -1,148 +1,129 @@
-# PRD: Trait Enrichment — Cultural Context at Scale
+# PRD: Reveal Timeline — Per-Mibera Fracture Images
 
-> **Cycle**: cycle-016
-> **Created**: 2026-02-22
-> **Status**: Draft
+**Cycle**: 017
+**Created**: 2026-02-24
+**Status**: Draft
 
 ---
 
 ## 1. Problem Statement
 
-The codex contains 1,257 trait files across 18 subcategories. While the files have a template structure with sections for Cultural Origin, Visual Description, and team notes, the vast majority of those sections are **empty or incomplete**. An agent trying to synthesize a Mibera's identity from its traits hits dead ends — a hat file says "dark navy cap with an Aboriginal flag" but doesn't explain why that matters to the Mibera system.
+Each Mibera file currently displays only the final reveal image (MiReveal #8.8). The 10-phase reveal journey — from sealed MiParcel envelope through progressive unveiling — is documented in `fractures/` as a collection-wide narrative, but individual Miberas have no visual record of *their* specific reveal progression.
 
-The grail enrichment (PR #28) demonstrated the pattern: structured sections (Cultural Context, Visual Elements, Justification) transform thin entries into content that an agent can actually use for persona synthesis. This cycle applies the same treatment to trait files, starting with the ~863 files that carry the strongest cultural signal.
-
-> Source: Direct file audit of `traits/` directory — see gap analysis below.
+Holders participated in each reveal wave. The fracture images exist per-token on S3. They should be visible per-Mibera.
 
 ## 2. Goal
 
-Enrich culture-heavy trait files with a standardized template: **Cultural Context**, **Visual Elements**, **Justification**, and **Attribution**. Fill in gaps using existing team notes, Discord attribution, and sourceable research. Migrate from the current scattered section structure to the hybrid template.
+Add a **Reveal Timeline** section to all 10,000 Mibera files that displays the first 9 fracture phases as a horizontal image row. The final reveal (MiReveal #8.8) remains as the primary hero image at the top of the file — the timeline shows the journey that led to it.
 
-### Success Criteria
+## 3. Scope
 
-- [ ] Hybrid template (Cultural Context, Visual Elements, Justification, Attribution) applied to all target files
-- [ ] Empty "Cultural Origin" / "Why This Matters" / "Era" fields replaced with consolidated sections
-- [ ] Existing team notes, Discord sources, and introduced-by data preserved in Attribution
-- [ ] All claims sourceable (Wikipedia-level, not invented)
-- [ ] Template documented in `_codex/schema/README.md` (Section 2 update)
-- [ ] Link audit passes after migration (`_codex/scripts/audit-links.sh`)
+### In Scope
 
-## 3. Users
+- Add a "Reveal Timeline" section with a 9-column horizontal image table to all 10,000 Mibera files
+- Phases shown (in order): MiParcels → Miladies → #1.1 → #2.2 → #3.3 → #4.20 → #5.5 → #6.9 → #7.7
+- MiReveal #8.8 is **excluded** from the table (it's already the primary image)
+- Images served from public S3: `https://thj-assets.s3.us-west-2.amazonaws.com/`
+- Build a Python script (`_codex/scripts/add-reveal-timeline.py`) to process all 10,000 files
+- Remove existing `mireveals/mireveal3.3/` directory (old CSV data, superseded by S3)
 
-| Persona | Need |
-|---------|------|
-| AI agent (embodiment) | Needs trait context to inform Mibera persona synthesis per IDENTITY.md |
-| Human browser (GitHub) | Needs readable, informational entries — not empty shells |
-| Contributor | Needs a clear template to follow when adding new traits |
+### Out of Scope
 
-## 4. Scope
+- MiShadows (separate feature, incomplete data — only ~3,240 of 10,000)
+- Any changes to the `fractures/` documentation itself
+- Image resizing or optimization (S3 serves originals, GitHub camo proxies)
 
-### In Scope — Culture-Heavy Subcategories (863 files)
+## 4. Technical Design
 
-| Subcategory | Files | Cultural Origin Filled | Why This Matters Filled | Team Notes |
-|---|---|---|---|---|
-| items/general-items | 259 | 2 | 163 | 27 |
-| accessories/hats | 128 | 34 | 0 | 20 |
-| backgrounds | 73 | 40 | 69 | 0 |
-| accessories/earrings | 64 | 44 | 0 | 4 |
-| clothing/short-sleeves | 52 | 19 | 0 | 14 |
-| clothing/long-sleeves | 52 | 51 | 0 | 3 |
-| character-traits/tattoos | 46 | 17 | 0 | 4 |
-| accessories/face-accessories | 42 | 13 | 0 | 1 |
-| accessories/glasses | 38 | 5 | 0 | 1 |
-| accessories/masks | 32 | 20 | 2 | 1 |
-| clothing/simple-shirts | 8 | 0 | 0 | 0 |
+### 4.1 Image URL Patterns
 
-### Out of Scope (This Cycle)
+**S3 Base**: `https://thj-assets.s3.us-west-2.amazonaws.com`
 
-- **Bong bears** (107) — numbered plushie variants, minimal cultural signal
-- **Character traits** (body: 12, eyes: 90, eyebrows: 10, hair: 129, mouth: 21) — purely visual, no cultural layer
-- **Overlays** (astrology: 12, elements: 4, ranking: 8) — system-level, already documented
-- Template migration for out-of-scope categories (future cycle)
-- Drug files and tarot cards (separate enrichment cycle)
+| Phase | S3 Path | Filename |
+|-------|---------|----------|
+| MiParcels | `/parcels/parcelsImages/` | `{tokenId}.png` |
+| Miladies | `/fractures/miladies/images/` | `{tokenId}.png` |
+| MiReveal #1.1 | `/reveal_phase1_images/` | `{hash}.png` |
+| MiReveal #2.2 | `/reveal_phase2/reveal_phase2_images/` | `{hash}.png` |
+| MiReveal #3.3 | `/reveal_phase3/reveal_phase3_images/` | `{hash}.png` |
+| MiReveal #4.20 | `/reveal_phase4/images/` | `{hash}.png` |
+| MiReveal #5.5 | `/reveal_phase5/images/` | `{hash}.png` |
+| MiReveal #6.9 | `/reveal_phase6/images/` | `{hash}.png` |
+| MiReveal #7.7 | `/reveal_phase7/images/` | `{hash}.png` |
 
-## 5. Template Design
+- **Token-ID filenames**: MiParcels and Miladies (e.g., `42.png`)
+- **Hash filenames**: All 8 MiReveal phases use the same per-token SHA hash from `_codex/data/mibera-image-urls.json`
 
-### Target Template (Hybrid)
+### 4.2 Hash Mapping
+
+The existing `_codex/data/mibera-image-urls.json` maps every token ID to its Irys URL:
+```
+"1": "https://gateway.irys.xyz/.../8a7e39404ebf86073fab1d068d7037930298d121.png"
+```
+
+The filename hash (`8a7e39404ebf86073fab1d068d7037930298d121`) is the **same** across all 8 MiReveal phases on S3. Extract the hash from the URL, use it for all phase paths.
+
+### 4.3 Mibera File Layout (After)
 
 ```markdown
 ---
-{existing YAML frontmatter preserved}
+(frontmatter unchanged)
 ---
 
-# {Name}
+# Mibera #N
 
-## Visual Elements
+![Mibera #N](https://gateway.irys.xyz/.../{hash}.png)
 
-**Image:**
-![{Name}]({image-url})
+## Reveal Timeline
 
-{What is depicted — visual description, dominant colors, notable details.}
+| MiParcels | Miladies | #1.1 | #2.2 | #3.3 | #4.20 | #5.5 | #6.9 | #7.7 |
+|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+| ![MiParcels](s3url) | ![Miladies](s3url) | ![#1.1](s3url) | ![#2.2](s3url) | ![#3.3](s3url) | ![#4.20](s3url) | ![#5.5](s3url) | ![#6.9](s3url) | ![#7.7](s3url) |
 
-## Cultural Context
-
-{Real-world history, cultural origin, or subculture significance.
-Sourced claims. Why this object/style/reference matters.}
-
-## Justification
-
-{Why this trait exists in the Mibera collection. How it connects
-to the archetype, ancestor, or scene it represents.}
-
----
-
-## Attribution
-
-**Archetype:** [{archetype}](link)
-**Swag Score:** {score}
-**Ancestor:** [{ancestor}](link) (if applicable)
-**Date Added:** {date}
-**Introduced By:** {name} (if known)
-**Team Notes:** {preserved from existing files}
-**Sources:** {preserved from existing files}
+## Traits
+(unchanged)
 ```
 
-### Migration Rules
+**Placement**: Between the hero image and the Traits table. Users see the final form first, then scroll to discover the reveal journey.
 
-1. **Visual Description** + **Dominant Colors** + **Image Files** → consolidated into **Visual Elements**
-2. **Cultural Origin** + **Why This Matters** + **Era** → consolidated into **Cultural Context**
-3. **Archetype Alignment** → absorbed into **Justification** (why it's archetype-aligned)
-4. **Mibera Integration** + **Connections** + existing **Attribution** → consolidated into **Attribution**
-5. Empty fields are dropped, not preserved as blanks
-6. Team notes and Discord sources are always preserved verbatim
+### 4.4 Edge Cases
 
-### Content Guidelines (from grail enrichment)
+- **Miladies**: Has 9,999 files (1 missing token). Script must handle missing images gracefully — either skip the cell or show a placeholder alt text.
+- **Image sizes**: Reveal images are ~700KB–1.6MB. GitHub's camo proxy has a 5MB limit — all well under.
+- **9-column width**: On GitHub, each thumbnail will be ~100px wide. Small but recognizable. Users click to see full size.
 
-- Informational tone — no AI-isms, no flowery language
-- Stick to facts; all cultural claims should be Wikipedia-sourceable
-- Justification is simple and dry — just why it's in the collection
-- Don't editorialize ("most viewers will recognize on sight")
-- Don't mention IDENTITY.md in entries
+### 4.5 S3 Access
 
-## 6. Sprint Structure
+**Already configured** (done during this session):
+- Bucket: `thj-assets` (us-west-2)
+- `BlockPublicPolicy` and `RestrictPublicBuckets` disabled
+- Scoped bucket policy grants `s3:GetObject` on all image prefixes listed above
+- Verified: both token-ID and hash-based URLs return HTTP 200
 
-Batched by subcategory, starting with the richest (best for template validation) and working outward.
+### 4.6 Cleanup
 
-| Sprint | Subcategory | Files | Rationale |
-|--------|------------|-------|-----------|
-| 1 | backgrounds | 73 | Richest existing content (40 Cultural Origin, 69 Why This Matters). Best for validating the template migration. |
-| 2 | items/general-items | 259 | Largest batch. 163 already have "Why This Matters". Heaviest cultural signal (music gear, historical objects, cypherpunk artifacts). |
-| 3 | accessories/hats + accessories/earrings | 192 | Strong Cultural Origin (34 + 44 filled). Many ancestor-linked. |
-| 4 | clothing (long + short + simple) | 181 | Long sleeves richest (51/52 Cultural Origin). Short sleeves sparse. |
-| 5 | tattoos + face-accessories + glasses + masks | 158 | Remaining accessories. Tattoos carry ancestor signal. |
+- Delete `mireveals/mireveal3.3/` directory and all contents (old CSV metadata, now superseded by S3 image URLs)
+- Update `manifest.json` if it references the mireveals directory
 
-## 7. Risks
+## 5. Script Requirements
 
-| Risk | Impact | Mitigation |
-|------|--------|------------|
-| Scale — 863 files is a lot | Burnout, incomplete cycle | Sprint structure allows partial completion; each sprint is independently valuable |
-| Content accuracy — cultural claims must be sourceable | Misinformation in the codex | Wikipedia-sourcing rule; user review per batch; no speculation |
-| Template migration breaks links | Broken internal links | Run `audit-links.sh` after each sprint |
-| Existing team notes lost in migration | Loss of attribution data | Migration rule #6: always preserve team notes verbatim |
-| Many traits lack cultural context entirely | Can't enrich without input | Flag these for user review; skip rather than invent |
+**File**: `_codex/scripts/add-reveal-timeline.py`
 
-## 8. Dependencies
+- Stdlib-only Python (project convention — no PyYAML, no external deps)
+- Reads `_codex/data/mibera-image-urls.json` for hash mapping
+- Processes all 10,000 files in `miberas/`
+- Inserts `## Reveal Timeline` section between hero image and `## Traits`
+- Idempotent: if `## Reveal Timeline` already exists, replaces it
+- Reports: files processed, files skipped, errors
 
-- User review per sprint batch (cultural accuracy requires domain knowledge)
-- Existing `_codex/scripts/audit-links.sh` for validation
-- Template documentation update in `_codex/schema/README.md`
+## 6. Acceptance Criteria
+
+1. All 10,000 Mibera files contain a `## Reveal Timeline` section with 9 phase images
+2. Images use correct S3 URLs (token-ID for parcels/miladies, hash for reveals)
+3. Phase order is: MiParcels → Miladies → #1.1 → #2.2 → #3.3 → #4.20 → #5.5 → #6.9 → #7.7
+4. MiReveal #8.8 is NOT in the table (remains as primary image)
+5. Primary hero image (Irys URL) is unchanged
+6. Traits table and all content below is unchanged
+7. `mireveals/mireveal3.3/` directory is deleted
+8. Script is idempotent — running twice produces the same result
+9. Spot-check: 5 random Mibera files render correctly on GitHub with visible images

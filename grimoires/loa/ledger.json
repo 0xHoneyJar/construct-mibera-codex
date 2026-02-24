@@ -359,12 +359,12 @@
     ,{
       "id": "cycle-016",
       "label": "Trait Enrichment — Cultural Context at Scale",
-      "status": "active",
+      "status": "archived",
       "created": "2026-02-22",
-      "archived": null,
-      "prd": "grimoires/loa/prd.md",
+      "archived": "2026-02-24",
+      "prd": "grimoires/loa/archive/cycle-016/prd.md",
       "sdd": null,
-      "sprint_plan": "grimoires/loa/sprint.md",
+      "sprint_plan": "grimoires/loa/archive/cycle-016/sprint.md",
       "sprints": [
         {
           "id": "sprint-1",
@@ -403,10 +403,30 @@
         }
       ],
       "sprint_count": 5
+    },
+    {
+      "id": "cycle-017",
+      "label": "Reveal Timeline — Per-Mibera Fracture Images",
+      "status": "active",
+      "created": "2026-02-24",
+      "archived": null,
+      "prd": "grimoires/loa/prd.md",
+      "sdd": "grimoires/loa/sdd.md",
+      "sprint_plan": "grimoires/loa/sprint.md",
+      "sprints": [
+        {
+          "id": "sprint-1",
+          "global_id": 29,
+          "label": "Reveal Timeline Integration",
+          "status": "completed",
+          "tasks": 4
+        }
+      ],
+      "sprint_count": 1
     }
   ],
-  "active_cycle": "cycle-016",
+  "active_cycle": "cycle-017",
   "active_bugfix": null,
-  "global_sprint_counter": 28,
+  "global_sprint_counter": 29,
   "bugfix_cycles": []
 }

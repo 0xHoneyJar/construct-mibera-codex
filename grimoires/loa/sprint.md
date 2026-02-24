@@ -1,166 +1,58 @@
-# Sprint Plan: Trait Enrichment — Cultural Context at Scale
+# Sprint Plan: Reveal Timeline — Per-Mibera Fracture Images
 
-> **Cycle**: cycle-016
-> **Created**: 2026-02-22
-> **PRD**: [grimoires/loa/prd.md](prd.md)
-> **Team**: 1 AI agent + 1 human reviewer (domain expert)
-> **Sprint cadence**: Per-subcategory batches
+**Cycle**: 017
+**Created**: 2026-02-24
 
 ---
 
-## Sprint 1 — Backgrounds (73 files)
+## Sprint 1: Reveal Timeline Integration
 
-**Global ID**: 24
-**Goal**: Migrate all 73 background trait files to the hybrid template. Validate the template pattern before scaling to larger batches.
+**Goal**: Add reveal timeline images to all 10,000 Mibera files and clean up legacy data.
 
-### Tasks
+### Task 1: Build the reveal timeline script
 
-#### T1.1: Document the trait enrichment template in schema README
-- Update `_codex/schema/README.md` Section 2 with the hybrid template (Visual Elements, Cultural Context, Justification, Attribution)
-- Include migration rules for converting existing fields
-- **Acceptance**: Template documented, matches PRD Section 5
+**Description**: Create `_codex/scripts/add-reveal-timeline.py` that:
+- Loads `_codex/data/mibera-image-urls.json` and builds tokenId→hash mapping
+- Iterates all 10,000 `miberas/NNNN.md` files
+- Inserts a `## Reveal Timeline` section with a 9-column markdown image table
+- Phases in order: MiParcels, Miladies, #1.1, #2.2, #3.3, #4.20, #5.5, #6.9, #7.7
+- URL patterns: token-ID-based for parcels/miladies, hash-based for reveals
+- S3 base: `https://thj-assets.s3.us-west-2.amazonaws.com`
+- Idempotent: replaces existing `## Reveal Timeline` if present
+- Stdlib-only Python (project convention)
 
-#### T1.2: Migrate and enrich all 73 background files
-- Consolidate Visual Description + Dominant Colors + Image Files → **Visual Elements**
-- Consolidate Cultural Origin + Why This Matters + Era → **Cultural Context**
-- Write **Justification** for each (why this background is in the collection)
-- Preserve team notes, sources, introduced-by in **Attribution**
-- Drop empty fields; don't preserve blanks
-- **Acceptance**: All 73 files follow hybrid template. No empty sections. All claims sourceable.
+**Acceptance Criteria**:
+- [ ] Script runs without errors on all 10,000 files
+- [ ] Produces correct S3 URLs for both token-ID and hash-based phases
+- [ ] Inserts between hero image and `## Traits` heading
+- [ ] Running twice produces identical output (idempotent)
+- [ ] Logs summary: files processed, skipped, errors
 
-#### T1.3: User review of background batch
-- Present enriched entries for review
-- Flag entries where cultural context was thin or uncertain
-- **Acceptance**: User approves content accuracy
+### Task 2: Run script on all 10,000 Mibera files
 
-#### T1.4: Validate and commit
-- Run `_codex/scripts/audit-links.sh` — zero new broken links
-- Commit and PR
-- **Acceptance**: Link audit passes, PR merged
+**Description**: Execute the script across the full `miberas/` directory. Verify output on a sample before committing.
 
----
+**Acceptance Criteria**:
+- [ ] All 10,000 files modified with `## Reveal Timeline` section
+- [ ] Spot-check 5 files (IDs 1, 42, 100, 5000, 9999) — correct URLs, correct phase order
+- [ ] Hero image (Irys URL) unchanged in all files
+- [ ] `## Traits` table and all content below unchanged
+- [ ] No regressions in frontmatter
 
-## Sprint 2 — General Items (259 files)
+### Task 3: Cleanup legacy mireveal data
 
-**Global ID**: 25
-**Goal**: Enrich the largest and most culturally significant subcategory — music gear, historical objects, cypherpunk artifacts, ancestral items.
+**Description**: Remove `mireveals/mireveal3.3/` directory (old CSV metadata, superseded by S3 URLs).
 
-### Tasks
+**Acceptance Criteria**:
+- [ ] `mireveals/` directory deleted
+- [ ] No broken references from other files (grep for `mireveals/`)
+- [ ] No manifest.json references (already confirmed: none exist)
 
-#### T2.1: Migrate and enrich all 259 general item files
-- 163 already have "Why This Matters" content — consolidate into Cultural Context
-- 27 have team notes — preserve in Attribution
-- Write Justification for each (archetype/ancestor connection)
-- Research Cultural Context for items with clear cultural references but empty fields
-- Flag items with no discernible cultural context for user input
-- **Acceptance**: All 259 files follow hybrid template. Flagged items documented.
+### Task 4: Validation and spot-check
 
-#### T2.2: User review of items batch
-- Present enriched entries for review, especially flagged items
-- **Acceptance**: User approves content accuracy
+**Description**: Push a test branch, verify GitHub renders the images correctly on at least 3 Mibera files. Confirm S3 public access is working end-to-end.
 
-#### T2.3: Validate and commit
-- Run link audit, commit, PR
-- **Acceptance**: Link audit passes, PR merged
-
----
-
-## Sprint 3 — Hats + Earrings (192 files)
-
-**Global ID**: 26
-**Goal**: Enrich accessory files that carry ancestor and archetype signal. Hats (128) and earrings (64) have the strongest existing Cultural Origin data among accessories.
-
-### Tasks
-
-#### T3.1: Migrate and enrich all 128 hat files
-- 34 already have Cultural Origin — consolidate into Cultural Context
-- 20 have team notes — preserve in Attribution
-- Many hats are ancestor-linked (Aboriginal Flag, etc.) — research cultural significance
-- **Acceptance**: All 128 files follow hybrid template
-
-#### T3.2: Migrate and enrich all 64 earring files
-- 44 already have Cultural Origin — consolidate into Cultural Context
-- Many earrings are culturally specific (hoops, studs, tribal) — research significance
-- **Acceptance**: All 64 files follow hybrid template
-
-#### T3.3: User review + validate + commit
-- **Acceptance**: User approves, link audit passes, PR merged
-
----
-
-## Sprint 4 — Clothing (181 files)
-
-**Global ID**: 27
-**Goal**: Enrich all clothing files — long sleeves (52), short sleeves (121), simple shirts (8).
-
-### Tasks
-
-#### T4.1: Migrate and enrich all 52 long-sleeve files
-- 51/52 already have Cultural Origin — richest clothing category
-- Write Justification connecting each to archetype/scene
-- **Acceptance**: All 52 files follow hybrid template
-
-#### T4.2: Migrate and enrich all 121 short-sleeve files
-- Only 19 have Cultural Origin — most need research
-- 14 have team notes as starting points
-- **Acceptance**: All 121 files follow hybrid template. Thin entries flagged.
-
-#### T4.3: Migrate and enrich all 8 simple shirt files
-- Completely empty — minimal schema, no existing cultural content
-- Research what each represents (likely color/pattern variants)
-- **Acceptance**: All 8 files follow hybrid template
-
-#### T4.4: User review + validate + commit
-- **Acceptance**: User approves, link audit passes, PR merged
-
----
-
-## Sprint 5 — Tattoos + Remaining Accessories (158 files)
-
-**Global ID**: 28
-**Goal**: Enrich tattoos (46), face accessories (42), glasses (38), masks (32).
-
-### Tasks
-
-#### T5.1: Migrate and enrich all 46 tattoo files
-- 17 have Cultural Origin — tattoos carry strong ancestor signal (Sami reindeer, Japanese motifs, Celtic knotwork)
-- Research cultural significance of each tattoo style
-- **Acceptance**: All 46 files follow hybrid template
-
-#### T5.2: Migrate and enrich all 42 face accessory files
-- 13 have Cultural Origin
-- **Acceptance**: All 42 files follow hybrid template
-
-#### T5.3: Migrate and enrich all 38 glasses files
-- Only 5 have Cultural Origin — mostly visual/style items
-- **Acceptance**: All 38 files follow hybrid template
-
-#### T5.4: Migrate and enrich all 32 mask files
-- 20 have Cultural Origin — masks often carry ritual/cultural significance
-- **Acceptance**: All 32 files follow hybrid template
-
-#### T5.5: User review + validate + commit
-- **Acceptance**: User approves, link audit passes, PR merged
-
----
-
-## Summary
-
-| Sprint | Subcategory | Files | Global ID |
-|--------|------------|-------|-----------|
-| 1 | Backgrounds | 73 | 24 |
-| 2 | General Items | 259 | 25 |
-| 3 | Hats + Earrings | 192 | 26 |
-| 4 | Clothing | 181 | 27 |
-| 5 | Tattoos + Remaining Accessories | 158 | 28 |
-| **Total** | | **863** | |
-
-## Definition of Done (per sprint)
-
-- [ ] All files in batch migrated to hybrid template
-- [ ] No empty sections (drop rather than leave blank)
-- [ ] All cultural claims Wikipedia-sourceable
-- [ ] Existing team notes and sources preserved verbatim
-- [ ] User review passed
-- [ ] `audit-links.sh` passes with zero new broken links
-- [ ] Changes committed and PR merged
+**Acceptance Criteria**:
+- [ ] Images render on GitHub (not broken)
+- [ ] Table layout is visually acceptable (9 thumbnails in a row)
+- [ ] Clicking an image opens the full-size S3 version
