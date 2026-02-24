@@ -8,62 +8,27 @@ date_added: "2024-06-22"
 
 # School Sucks
 
-## Visual Properties
+## Visual Elements
 
+![School Sucks](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)
 
-**Image Files:**
-![School Sucks](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)/SS2_School%20Sucks.webp)
+Black t-shirt with white text that says “SCHOOL SUCKS” in bold font.
 
-
-**Visual Description:** Black t-shirt with white text that says “SCHOOL SUCKS” in bold font.
-
-**Dominant Colors:** Black, white.
-
-
----
+Dominant colors: Black, white.
 
 ## Cultural Context
 
+Anti-school sentiment is a perennial theme in youth counterculture, from punk's rejection of institutional authority to the crypto community's skepticism of traditional education. The plain black tee with bold white text follows the standard format of protest slogan shirts.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:** 
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** 
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 2
-
-
----
-
-## Connections
-
-**Ancestor:** 
+School Sucks is the most basic, most universal countercultural opinion. It belongs in the collection because it is the first rebellious thought most people ever have.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** June 22, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Swag Score:** 2
+**Date Added:** 2024-06-22

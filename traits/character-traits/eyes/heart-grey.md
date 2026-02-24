@@ -6,43 +6,27 @@ date_added: "2024-06-03"
 
 # heart grey
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
 ![Heart Grey](https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/Heart%20Grey__w15.webp)
 
+Eyes with heart-shaped pupils in grey.
 
-**Visual Description:** Eyes with heart-shaped pupils in grey.
+Dominant colors: Grey
 
-**Dominant Colors:** Grey
+## Cultural Context
 
----
+Heart-shaped pupils replace the standard round pupil with a heart motif, a visual convention in anime, manga, and internet art used to express infatuation, adoration, or overwhelming affection. The heart-eye expression has become a ubiquitous emoji and reaction image in digital communication.
 
-## Mibera Integration
+<!-- justification
+## Justification
 
-**Archetype:** 
-
-**Archetype Alignment:** There are grey eyes within the original milady collection. https://opensea.io/collection/milady?traits=%5B%7B%22traitType%22:%22Eye+Color%22,%22
-
-
-**Swag Score:** 
-
-
----
-
-## Connections
-
-**Ancestor:** 
+Infatuation as a visual motif — heart pupils channel anime and internet art to express overwhelming adoration.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** June 3, 2024
-
+**Date Added:** 2024-06-03
 **Introduced By:** Gumi
-
-**Team Notes:** 
-
----

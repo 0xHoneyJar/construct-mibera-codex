@@ -7,42 +7,21 @@ element: Air
 
 # Gemini
 
-
-## Sun Sign
-
+## Visual Elements
 
 ![Sun Gemini](https://mibera.fsn1.your-objectstorage.com/components/Sun/Sun%20Gemini.webp)
 
-**Date Range:** May 21 - June 20
 
-**Glyph:** ♊
+## Cultural Context
 
-**Element:** Air
+Gemini (May 21 -- June 20) is the third sign of the Western zodiac, an air sign ruled by Mercury. Represented by the Twins (Castor and Pollux in Greek mythology), it is associated with communication, adaptability, and intellectual curiosity. Gemini natives are often characterized as versatile, sociable, and quick-witted.
 
----
+<!-- justification
+## Justification
 
-
-## Moon Sign
-
-
-![Moon Gemini](https://mibera.fsn1.your-objectstorage.com/components/Moon/Moon%20Gemini.webp)
-
-**Glyph:** ♊
-
-**Element:** Air
+As a modifier in the signal hierarchy, the Gemini overlay gives a Mibera a restless curiosity and communicative duality that inflects the deeper archetype and ancestor signals.
+-->
 
 ---
 
-
-## Rising Sign
-
-
-![Rising Gemini](https://mibera.fsn1.your-objectstorage.com/components/Rising/Rising%20Gemini.webp)
-
-**Glyph:** ♊
-
-**Element:** Air
-
-**1/1 Grail:** [Gemini Grail (#7218)](../../../grails/gemini.md)
-
----
+## Attribution

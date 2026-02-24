@@ -8,63 +8,32 @@ date_added: "2024-07-28"
 
 # Black Niqab
 
-## Visual Properties
+## Visual Elements
 
+![Black Niqab](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(ROBES)
 
-**Image Files:**
-![Black Niqab](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(ROBES)/SS5_milady_Black%20Niqab.webp)
+Plain black niqab. Head and face cover that drapes down the head.
 
-
-**Visual Description:** Plain black niqab. Head and face cover that drapes down the head.
-
-**Dominant Colors:** Black
-
-
----
+Dominant colors: Black
 
 ## Cultural Context
 
+The niqab is a face-covering veil commonly worn by some Muslim women, particularly in conservative Islamic communities, to cover the face except for the eyes, as an expression of modesty or religious devotion.
 
-**Cultural Origin:** The niqab is a face-covering veil commonly worn by some Muslim women, particularly in conservative Islamic communities, to cover the face except for the eyes, as an expression of modesty or religious devotion.
+<!-- justification
+## Justification
 
-**Era:** 
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [Milady](../../../core-lore/archetypes.md#milady)
-
-**Archetype Alignment:** The reference was rooted from a video about Khat, Ethiopia’s natural ‘spiritual’ drug; in which a lot of it ties back to Mibera (Ethiopia as one of our ancestor types, drug use, and Khat as one of our drug traits).
-
-
-**Swag Score:** 5
-
-
----
-
-## Connections
-
-**Ancestor:** 
+Niqabi are popular within the Milady/Remilio scene as it exists within Remilio as a trait. 
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** July 28, 2024
-
+**Archetype:** Milady
+**Swag Score:** 5
+**Date Added:** 2024-07-28
 **Introduced By:** Jani
-
-**Team Notes:** 
-
 **Sources:**
 - https://www.dazeddigital.com/film-tv/article/56406/1/khat-ethopia-natural-psychedelic-drug-faya-
 - https://discord.com/channels/1133935527855399053/1158770561560879134/11587749659030
-
-**Summary:** 
-
----

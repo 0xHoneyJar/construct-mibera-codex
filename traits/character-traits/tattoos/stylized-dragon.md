@@ -8,62 +8,24 @@ date_added: "2024-08-10"
 
 # Stylized Dragon
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
 ![Stylized Dragon](https://mibera.fsn1.your-objectstorage.com/components/tattoos__z125/modern_chinese_Stylized%20Dragon.webp)
 
+Line work of a dragon’s face, front-view.
 
-**Visual Description:** Line work of a dragon’s face, front-view.
-
-**Dominant Colors:** Black.
-
----
+Dominant colors: Black.
 
 ## Cultural Context
+<!-- justification
+## Justification
 
-
-**Cultural Origin:** 
-
-**Era:** Modern
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** 
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 
-
-
----
-
-## Connections
-
-**Ancestor:** [Chinese](../../../core-lore/ancestors/chinese.md)
-
+The dragon rendered as a modern front-facing portrait rather than a traditional scroll painting -- it updates the Chinese ancestor lineage's most important mythological symbol for a contemporary visual language.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** August 10, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Ancestor:** [Chinese](../../../core-lore/ancestors/chinese.md)
+**Date Added:** 2024-08-10

@@ -8,62 +8,27 @@ date_added: "2024-12-10"
 
 # Hand
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
 ![Hand](https://mibera.fsn1.your-objectstorage.com/components/face%20accessories__z60/SS3_milady_hand.webp)
 
-
-**Visual Description:** Red hand print
-
-**Dominant Colors:** Red
-
-
----
+Red hand print
 
 ## Cultural Context
 
+A red handprint on the face carries meaning across multiple cultural contexts. In Missing and Murdered Indigenous Women (MMIW) advocacy, a red handprint over the mouth symbolizes silenced voices and stolen lives. In broader visual culture, face handprints appear in war paint traditions, horror imagery, and protest art. The mark's ambiguity -- violence, solidarity, or defiance -- makes it one of the most potent face accessories in the collection.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [Milady](../../../core-lore/archetypes.md#milady)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 3
-
-
----
-
-## Connections
-
-**Ancestor:** 
+A red handprint on the face is impossible to ignore and impossible to assign a single meaning -- it could be protest, war paint, or evidence. That ambiguity is what makes it powerful in the Milady archetype.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** December 10, 2024
-
+**Archetype:** Milady
+**Swag Score:** 3
+**Date Added:** 2024-12-10
 **Introduced By:** Gumi
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----

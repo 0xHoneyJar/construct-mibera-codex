@@ -8,62 +8,26 @@ date_added: "2024-07-11"
 
 # bond bear 1
 
-## Visual Properties
+## Visual Elements
 
+a plushie of a brown bear wearing a black hat, glasses with white frames, a light grey suit with inner white shirt, and a black bowtie.
 
-**Image Files:**
-SS4_milady_Bond Bear 1.png
-
-
-**Visual Description:** a plushie of a brown bear wearing a black hat, glasses with white frames, a light grey suit with inner white shirt, and a black bowtie.
-
-**Dominant Colors:** brown, light grey, black, white
-
-
----
+Dominant colors: brown, light grey, black, white
 
 ## Cultural Context
 
+Bond Bear is a series of four bear plushies dressed in suits, referencing the James Bond film franchise. Each variant wears a different suit style. The series was noted by team members for its level of detail.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [milady](../../../core-lore/archetypes.md#milady)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 4
-
-
----
-
-## Connections
-
-**Ancestor:** 
+References a key Berachain rebase.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** July 11, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Archetype:** milady
+**Swag Score:** 4
+**Date Added:** 2024-07-11

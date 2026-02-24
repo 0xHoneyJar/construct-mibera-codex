@@ -6,31 +6,26 @@ date_added: "2024-08-01"
 
 # acid
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
 ![acid](https://mibera.fsn1.your-objectstorage.com/components/mouth__z90/acid__w2.webp)
 
+a mouth with the tongue out with a square-shaped item on it.
 
-**Visual Description:** a mouth with the tongue out with a square-shaped item on it.
+Dominant colors: pink
 
-**Dominant Colors:** pink
+## Cultural Context
 
----
+The acid tongue depicts a tab of LSD (lysergic acid diethylamide) placed on the tongue, referencing the most common method of ingesting the psychedelic. LSD blotter art — the decorative paper squares that carry doses — became an art form in its own right, with iconic designs circulating through rave and festival culture since the 1960s.
 
-## Connections
+<!-- justification
+## Justification
 
-**Ancestor:** 
+A direct reference to acid house culture's namesake substance — the blotter on the tongue is one of the most iconic images in psychedelic and rave history.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** August 1st, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
----
+**Date Added:** 2024-08-01

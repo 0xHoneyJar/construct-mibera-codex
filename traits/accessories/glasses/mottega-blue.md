@@ -8,59 +8,27 @@ date_added: "2024-06-05"
 
 # Mottega Blue
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
 ![Mottega Blue](https://mibera.fsn1.your-objectstorage.com/components/glasses__z140/milady_Mottega Blue.webp)
 
-
-**Visual Description:** Glasses with light blue lenses and thick blue frames.
-
-**Dominant Colors:** 
-
-
----
+Glasses with light blue lenses and thick blue frames.
 
 ## Cultural Context
 
+The Mottega glasses are an homage to Bottega Veneta, the Italian luxury house known for its understated, artisan-driven aesthetic. Thick-framed tinted glasses became a signature of the brand during its Daniel Lee era (2018-2023), widely adopted in fashion-forward internet communities.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [Milady](../../../core-lore/archetypes.md#milady)
-
-**Archetype Alignment:** This is an existing trait within Milady Maker.
-
-
-**Swag Score:** 1
-
-## Connections
-
-**Ancestor:** 
+Milady culture lives where high fashion and shitposting coexist. Referencing Bottega through a playful rename is an act of affectionate subversion.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** June 5, 2024
-
+**Archetype:** Milady
+**Swag Score:** 1
+**Date Added:** 2024-06-05
 **Introduced By:** Gumi
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----

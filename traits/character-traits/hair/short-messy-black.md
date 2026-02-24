@@ -6,31 +6,23 @@ date_added: "2024-06-15"
 
 # short messy black
 
-## Visual Properties
+## Visual Elements
 
+a very short messy, voluminous, rounded hairstyle in black with soft outward-curving edges.
 
-**Image Files:**
-Short Messy Black__w24.png
+## Cultural Context
 
+Short messy hair is a very short, voluminous, rounded style with soft outward-curving edges and a deliberately unkempt texture. The look balances the practicality of short hair with the expressive energy of visible texture, suggesting someone who values movement and spontaneity over polish.
 
-**Visual Description:** a very short messy, voluminous, rounded hairstyle in black with soft outward-curving edges.
+<!-- justification
+## Justification
 
-**Dominant Colors:** black
-
----
-
-## Connections
-
-**Ancestor:** 
+Spontaneous and textured, short messy hair captures the energy of someone who values movement over polish.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** June 15, 2024
-
+**Date Added:** 2024-06-15
 **Introduced By:** Gumi
-
-**Team Notes:** 
-
----

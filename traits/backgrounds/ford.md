@@ -6,36 +6,29 @@ date_added: "2024-08-14"
 
 # Ford
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
 ![Ford](https://mibera.fsn1.your-objectstorage.com/components/background__z10/ford.webp)
 
+View of what looks like the front side of a building, and a huge ‘FORD’ sign standing tall.
 
-**Visual Description:** View of what looks like the front side of a building with a metallic gate, and a huge ‘FORD’ sign standing tall.
+Dominant colors: Grey, green, light-sky blue.
 
-**Dominant Colors:** Grey, green, light-sky blue.
+## Cultural Context
 
+Abandoned Ford Factory
 
----
+Abandoned Detroit automotive factories became the birthplaces of techno. The Belleville Three and their successors threw the earliest underground parties in spaces like these.
 
-## Context
+<!-- justification
+## Justification
 
-
-**Cultural Origin:** Abandoned Ford Factory
-
-
-**Why This Matters:** Abandoned Detroit automotive factories became the birthplaces of techno. The Belleville Three and their successors threw the earliest underground parties in spaces like these.
+Abandoned automotive factories became the physical spaces where techno was born — repurposed industrial infrastructure as cultural incubator.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** August 14, 2024
-
+**Date Added:** 2024-08-14
 **Introduced By:** Jani
-
-**Team Notes:** 
-
----

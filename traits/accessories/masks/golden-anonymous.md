@@ -8,63 +8,32 @@ date_added: "2024-07-27"
 
 # Golden Anonymous
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
 ![Golden Anonymous](https://mibera.fsn1.your-objectstorage.com/components/Masks/SS4_chicagodetroit_Golden Anonymous.webp)
 
+Golden ‘anonymous’ mask, with 2 eyeholes, defined nose, thin eyebrows, and thin mustache.
 
-**Visual Description:** Golden ‘anonymous’ mask, with 2 eyeholes, defined nose, thin eyebrows, and thin mustache.
-
-**Dominant Colors:** Golden, black.
-
-
----
+Dominant colors: Golden, black.
 
 ## Cultural Context
 
+Illegal Covid Rave
 
-**Cultural Origin:** Illegal Covid Rave
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [Chicago Detroit](../../../core-lore/archetypes.md#chicago-detroit)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 4
-
-
----
-
-## Connections
-
-**Ancestor:** 
+During COVID lockdowns, underground raves went fully illegal again for the first time in decades. The golden Anonymous mask at one of these events is defiance layered on defiance: anonymous, unlawful, and dressed to impress.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** July 27, 2024
-
+**Archetype:** Chicago Detroit
+**Swag Score:** 4
+**Date Added:** 2024-07-27
 **Introduced By:** Jani
-
-**Team Notes:** 
-
 **Sources:**
 - https://discord.com/channels/1133935527855399053/1161382544617508874/11634742480991
 - https://www.youtube.com/watch?si=rKiGvv2qJJBgoV4i&t=1&v=J8OzngEPGL0&feature=youtu.b
-
-**Summary:** 
-
----

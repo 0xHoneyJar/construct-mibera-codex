@@ -8,62 +8,28 @@ date_added: "2024-07-31"
 
 # Polar Kigu
 
-## Visual Properties
+## Visual Elements
 
+![Polar Kigu](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(KIGU)
 
-**Image Files:**
-![Polar Kigu](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(KIGU)/SS5_milady_Polar%20Kigu.webp)
+Polar bear onesie in white with the hood up and sparkly eyes.
 
-
-**Visual Description:** Polar bear onesie in white with the hood up and sparkly eyes.
-
-**Dominant Colors:** White
-
-
----
+Dominant colors: White
 
 ## Cultural Context
 
+Part of the kigurumi (着ぐるみ) series — character onesies from Japanese cosplay and Harajuku street fashion that became standard rave and festival wear for their playful anonymity. The polar bear variant references Berachain's bear motif.
 
-**Cultural Origin:** Part of the kigurumi (着ぐるみ) series — character onesies from Japanese cosplay and Harajuku street fashion that became standard rave and festival wear for their playful anonymity. The polar bear variant's all-white palette stands out under UV light, connecting to the visual spectacle of the dancefloor. Bear form references Berachain's motif.
+<!-- justification
+## Justification
 
-**Era:** 2000s-present (Japanese street fashion) 
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [Milady](../../../core-lore/archetypes.md#milady)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 5
-
-
----
-
-## Connections
-
-**Ancestor:** 
+The most literal bear-themed item on a bear-themed chain — a polar bear onesie from the kigurumi series.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** July 31, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Archetype:** Milady
+**Swag Score:** 5
+**Date Added:** 2024-07-31

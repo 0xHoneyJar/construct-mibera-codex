@@ -8,63 +8,32 @@ date_added: "2024-07-25"
 
 # Tweed Peak Cap
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
 ![Tweed Peak Cap](https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS3_milady_Tweed%20Peak%20Cap.webp)
 
+Plain tweed cap in dull green.
 
-**Visual Description:** Plain tweed cap in dull green.
-
-**Dominant Colors:** Dull green
-
-
----
+Dominant colors: Dull green
 
 ## Cultural Context
 
+The tweed flat cap (or peak cap) is a traditional British and Irish hat associated with rural working-class culture, particularly in regions like Yorkshire, the Midlands, and Ireland. In the context of the free party scene, tweed caps were commonly worn by members of Spiral Tribe and other traveling sound systems, blending rural heritage with nomadic rave culture.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [Milady](../../../core-lore/archetypes.md#milady)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 3
-
-
----
-
-## Connections
-
-**Ancestor:** 
+The tweed peak cap connects British rural tradition to the traveling rave scene — Spiral Tribe wore them, and they became part of the nomadic free party look.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** July 25, 2024
-
+**Archetype:** Milady
+**Swag Score:** 3
+**Date Added:** 2024-07-25
 **Introduced By:** Jani
-
-**Team Notes:** 
-
 **Sources:**
 - https://discord.com/channels/1133935527855399053/1143360154734174308/11573155203249
 - https://frankiestone27.wordpress.com/zine-production/spiral-tribe/
-
-**Summary:** 
-
----

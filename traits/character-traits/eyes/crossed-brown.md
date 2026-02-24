@@ -6,31 +6,25 @@ date_added: "2024-06-03"
 
 # crossed brown
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
 ![Crossed Brown](https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/Crossed%20Brown__w6.webp)
 
+crossed eyes with brown iris.
 
-**Visual Description:** crossed eyes with brown iris.
+## Cultural Context
 
-**Dominant Colors:** brown
+Crossed eyes (strabismus) depict both eyes turned inward, a visual motif used in cartoon and character art to suggest dizziness, confusion, or a dazed state. In rave culture context, crossed eyes evoke the disorientation of overwhelming sensory input or altered states.
 
----
+<!-- justification
+## Justification
 
-## Connections
-
-**Ancestor:** 
+Dazed and disoriented — crossed eyes capture the sensory overload of the dance floor and altered states.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** June 3, 2024
-
+**Date Added:** 2024-06-03
 **Introduced By:** Gumi
-
-**Team Notes:** 
-
----

@@ -8,64 +8,33 @@ date_added: "2024-12-10"
 
 # Palestinian Jacket
 
-## Visual Properties
+## Visual Elements
 
+![Palestinian Jacket](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)
 
-**Image Files:**
-![Palestinian Jacket](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)/SS4_freetekno_Palestinian%20Jacket.webp)
+Red Tasqireh / Palestinian short-sleeves jacket in bright red, with funky patterns in yellow, orange, and green.
 
-
-**Visual Description:** Red Tasqireh / Palestinian short-sleeves jacket in bright red, with funky patterns in yellow, orange, and green.
-
-**Dominant Colors:** Bright red, yellow, green
-
-
----
+Dominant colors: Bright red, yellow, green
 
 ## Cultural Context
 
+The Tasqireh is a traditional Palestinian embroidered jacket, part of the rich textile heritage of Palestinian women. Palestinian embroidery (tatreez) is a UNESCO-recognized form of intangible cultural heritage, with patterns that encode village identity, marital status, and regional affiliation.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:** 
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [Freetekno](../../../core-lore/archetypes.md#freetekno)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 4
-
-
----
-
-## Connections
-
-**Ancestor:** 
+Palestinian embroidery is a living cultural practice recognized by UNESCO. This jacket represents centuries of textile heritage and the kind of global garment tradition that the collection draws from across all cultures.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** December 10, 2024
-
+**Archetype:** Freetekno
+**Swag Score:** 4
+**Date Added:** 2024-12-10
 **Introduced By:** Jani
-
-**Team Notes:** 
-
 **Sources:**
 - https://discord.com/channels/1133935527855399053/1138982309106819182/11623832820596
 - https://www.britishmuseum.org/collection/object/W_As1966-01-6
 - https://www.theguardian.com/culture/2023/jul/17/rebellious-robes-and-stitches-from-the-civil-war
-
-**Summary:** 
-
----

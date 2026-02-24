@@ -8,62 +8,34 @@ date_added: "2024-12-10"
 
 # Grateful Dead 1
 
-## Visual Properties
+## Visual Elements
 
+![Grateful Dead 1](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)
 
-**Image Files:**
-![Grateful Dead 1](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)/SS2_acidhouse_Grateful%20Dead%201.webp)
+White t-shirt with multiple bears in each of the rainbow’s colors, holding a magician hat and a cane, lined up at the bottom part of the t-shirt.
 
-
-**Visual Description:** White t-shirt with multiple bears in each of the rainbow’s colors, holding a magician hat and a cane, lined up at the bottom part of the t-shirt.
-
-**Dominant Colors:** White, rainbow
-
-
----
+Dominant colors: White, rainbow
 
 ## Cultural Context
 
+Grateful Dead, an American Rock Band.
 
-**Cultural Origin:** Grateful Dead, an American Rock Band.
+Grateful Dead is an iconic American jam band formed 1965 in San Francisco. The band blended rock, folk, blues, jazz, and psychedelia.
 
-**Era:** 
+<!-- justification
+## Justification
 
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [Acidhouse](../../../core-lore/archetypes.md#acidhouse)
-
-**Archetype Alignment:** Alignment with Mibera art and drugs culture (rock music and psychedelic).
-
-
-**Swag Score:** 2
-
-
----
-
-## Connections
-
-**Ancestor:** 
+The Grateful Dead's dancing bears are among the most iconic images in psychedelic culture. The rainbow bear lineup on this shirt connects 1960s San Francisco counterculture directly to the rave tradition that followed.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** December 10, 2024
-
+**Archetype:** Acidhouse
+**Swag Score:** 2
+**Date Added:** 2024-12-10
 **Introduced By:** Jani
-
 **Team Notes:** "realized there was a lack of grateful dead in the collection and had to fix that" — Gumi, May 2024, #trait-updates
-
 **Sources:**
 - https://en.wikipedia.org/wiki/Grateful_Dead
-
-**Summary:** Grateful Dead is an iconic American jam band formed 1965 in San Francisco. The band blended rock, folk, blues, jazz, and psychedelia.
-
----

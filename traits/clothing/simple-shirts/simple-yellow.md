@@ -7,20 +7,27 @@ date_added: "2024-08"
 
 # Simple Yellow
 
+## Visual Elements
 
-**Image Files:**
 ![Simple Yellow](https://mibera.fsn1.your-objectstorage.com/components/simple/simples%20for%20shadows/152_simple%20yellow.webp)
 
-**Visual Description:** A basic solid yellow t-shirt.
+A basic solid yellow t-shirt.
 
-**Dominant Colors:** Yellow
+Dominant colors: Yellow
 
-**Archetype Affinity:** None (archetype-neutral). Yellow resonates with Acidhouse's smiley-face iconography and the Second Summer of Love's visual language, though it carries no scoring weight.
+## Cultural Context
 
-**Color Symbolism:** The acid smiley, euphoria, sunrise after an all-night set. Yellow is the color of the original 1988 smiley face that became the universal symbol of rave culture. Also echoes golden honey — the Berachain ecosystem's core resource.
+Yellow is the color of the acid house smiley face, the most iconic symbol in rave history. Even as a plain shirt, yellow carries the unmistakable association with the Second Summer of Love.
 
-**Styling Notes:** Warm and high-energy. Pairs well with darker accessories (black hats, dark glasses) for contrast. Works naturally alongside Acidhouse-coded items without formally belonging to the tribe.
+<!-- justification
+## Justification
 
-**Date Added:** August 2024
+You cannot wear a yellow t-shirt in this context without evoking acid house. The smiley face does not even need to be printed on it.
+-->
 
 ---
+
+## Attribution
+
+**Swag Score:** 1
+**Date Added:** 2024-08

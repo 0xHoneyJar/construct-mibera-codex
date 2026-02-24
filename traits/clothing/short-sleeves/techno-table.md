@@ -8,62 +8,27 @@ date_added: "2024-12-10"
 
 # Techno Table
 
-## Visual Properties
+## Visual Elements
 
+![Techno Table](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)
 
-**Image Files:**
-![Techno Table](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)/SS4_Techno%20Table.webp)
+Bone-white t-shirt with a blue graphic of periodic tables of Tellurium, Carbon, Hydrogen, and Nobelium, spelling out the word “techno”.
 
-
-**Visual Description:** Bone-white t-shirt with a blue graphic of periodic tables of Tellurium, Carbon, Hydrogen, and Nobelium, spelling out the word “techno”.
-
-**Dominant Colors:** White, blue.
-
-
----
+Dominant colors: White, blue.
 
 ## Cultural Context
 
+Periodic Table of Elements used to spell the word ‘Techno’
 
-**Cultural Origin:** Periodic Table of Elements used to spell the word ‘Techno’
+<!-- justification
+## Justification
 
-**Era:** 
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** 
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 4
-
-
----
-
-## Connections
-
-**Ancestor:** 
+Spelling TECHNO with periodic table elements is the nerd version of a band tee. It captures the science-meets-dancefloor energy that has always been part of electronic music's appeal to technically-minded people.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** December 10, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Swag Score:** 4
+**Date Added:** 2024-12-10

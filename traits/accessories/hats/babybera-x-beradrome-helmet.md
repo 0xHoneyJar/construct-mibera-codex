@@ -7,58 +7,24 @@ date_added: null
 
 # babybera x beradrome helmet
 
-## Visual Properties
+## Visual Elements
 
+a biking helmet in baby teal and pink, with black accent underneath.
 
-**Image Files:**
-
-
-**Visual Description:** a biking helmet in baby teal and pink, with black accent underneath.
-
-**Dominant Colors:** baby teal, baby pink, black
-
-
----
+Dominant colors: baby teal, baby pink, black
 
 ## Cultural Context
 
+BabyBera and Beradrome are both projects in the Berachain ecosystem. Beradrome is a decentralized exchange (DEX) on Berachain, and this collaborative helmet merges the playful BabyBera aesthetic with Beradrome's identity. Cross-project collaborations are common in the Berachain community, reflecting its tight-knit ecosystem culture.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** 
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 4
-
-## Connections
-
-**Ancestor:** 
+Babybera is a key member of the Mibera team.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** 
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Swag Score:** 4

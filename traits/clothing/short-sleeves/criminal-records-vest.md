@@ -7,56 +7,21 @@ date_added: null
 
 # Criminal Records Vest
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
-
-
-**Visual Description:**
-
-**Dominant Colors:**
-
----
 
 ## Cultural Context
 
+Criminal Records is a reference to the record shop and label culture that was central to Chicago house and Detroit techno distribution. Physical record stores were the primary infrastructure for underground music before the internet.
 
-**Cultural Origin:**
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:**
-
-**Archetype Alignment:**
-
-
-**Swag Score:** 3
-
-## Connections
-
-**Ancestor:** 
+A vest variant of the Criminal Records tee. Record shops were the distribution network for underground electronic music, and their branding is part of the visual history.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:**
-
-**Introduced By:**
-
-**Team Notes:**
-
-**Sources:**
-
-**Summary:**
-
----
+**Swag Score:** 3

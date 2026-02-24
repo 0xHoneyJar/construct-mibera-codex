@@ -7,42 +7,21 @@ element: Earth
 
 # Capricorn
 
-
-## Sun Sign
-
+## Visual Elements
 
 ![Sun Capricorn](https://mibera.fsn1.your-objectstorage.com/components/Sun/Sun%20Capricorn.webp)
 
-**Date Range:** December 22 - January 19
 
-**Glyph:** ♑
+## Cultural Context
 
-**Element:** Earth
+Capricorn (December 22 -- January 19) is the tenth sign of the Western zodiac, an earth sign ruled by Saturn. Symbolized by the Sea-Goat, it corresponds to the winter solstice and carries associations of ambition, discipline, and pragmatic endurance. Capricorn natives are traditionally regarded as strategic, responsible, and oriented toward long-term achievement.
 
----
+<!-- justification
+## Justification
 
-
-## Moon Sign
-
-
-![Moon Capricorn](https://mibera.fsn1.your-objectstorage.com/components/Moon/Moon%20Capricorn.webp)
-
-**Glyph:** ♑
-
-**Element:** Earth
+As a modifier signal, the Capricorn overlay introduces a tone of discipline and strategic patience to a Mibera's core identity without supplanting its archetype or ancestor.
+-->
 
 ---
 
-
-## Rising Sign
-
-
-![Rising Capricorn](https://mibera.fsn1.your-objectstorage.com/components/Rising/Rising%20Capricorn.webp)
-
-**Glyph:** ♑
-
-**Element:** Earth
-
-**1/1 Grail:** [Capricorn Grail (#8971)](../../../grails/capricorn.md)
-
----
+## Attribution

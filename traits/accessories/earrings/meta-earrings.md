@@ -8,62 +8,26 @@ date_added: "2024-06-19"
 
 # Meta Earrings
 
-## Visual Properties
+## Visual Elements
 
+Writing of the word ‘EARRINGS’ in all capital letters.
 
-**Image Files:**
-SS3_milady_Meta Earrings.png
-
-
-**Visual Description:** Writing of the word ‘EARRINGS’ in all capital letters.
-
-**Dominant Colors:** Black
-
-
----
+Dominant colors: Black
 
 ## Cultural Context
 
+Meta or self-referential art -- where the work comments on its own form -- has a long history from Rene Magritte's 'The Treachery of Images' (1929) to contemporary internet culture's obsession with irony and self-awareness. In NFT collections, meta traits that reference the collection itself are a recognized pattern, creating layers of meaning for holders who understand the joke.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [Milady](../../../core-lore/archetypes.md#milady)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 3
-
-
----
-
-## Connections
-
-**Ancestor:** 
+An earring that just says EARRINGS is the most Milady thing in the collection -- post-ironic, self-referential, and funnier the longer you think about it.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** June 19, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Archetype:** Milady
+**Swag Score:** 3
+**Date Added:** 2024-06-19

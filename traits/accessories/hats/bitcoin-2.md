@@ -8,62 +8,28 @@ date_added: "2024-12-10"
 
 # Bitcoin 2
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
 ![Bitcoin 2](https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS4_acidhouse_Bitcoin%202.webp)
 
+Black cap with colourful graphics lined up in order of: sonic, bitcoin, 10, HP (Harry Potter), and Inu- as well as colourful text that reads “Harry Potter Obama” above them.
 
-**Visual Description:** Black cap with colourful graphics lined up in order of: sonic, bitcoin, 10, HP (Harry Potter), and Inu- as well as colourful text that reads “Harry Potter Obama” above them.
-
-**Dominant Colors:** Black, red, blue, yellow
-
-
----
+Dominant colors: Black, red, blue, yellow
 
 ## Cultural Context
 
+HarryPotterObamaSonic10Inu (Ticker: BITCOIN) is a meme-based cryptocurrency on Ethereum (ERC-20) and Binance Smart Chain (BSC), launched around late 2021. The token employs reflection, liquidity pool acquisition, and burn functions in trades.
 
-**Cultural Origin:** HarryPotterObamaSonic10Inu (Ticker: BITCOIN) is a meme-based cryptocurrency on Ethereum (ERC-20) and Binance Smart Chain (BSC), launched around late 2021. The token employs reflection, liquidity pool acquisition, and burn functions in trades.
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [Acidhouse](../../../core-lore/archetypes.md#acidhouse)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 4
-
-
----
-
-## Connections
-
-**Ancestor:** 
+The premium version of the HPOS10I hat — more graphics, higher swag score, same glorious memecoin chaos energy.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** December 10, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Archetype:** Acidhouse
+**Swag Score:** 4
+**Date Added:** 2024-12-10

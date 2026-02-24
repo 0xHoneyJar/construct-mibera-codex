@@ -6,31 +6,27 @@ date_added: "2024-06-03"
 
 # angelic
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
 ![Angelic](https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/Angelic__w4.webp)
 
+iridescent eyes, perhaps showcasing one’s angelic nature.
 
-**Visual Description:** iridescent eyes, perhaps showcasing one’s angelic nature.
+Dominant colors: gold, yellow, turquoise
 
-**Dominant Colors:** gold, yellow, turquoise
+## Cultural Context
 
----
+Angelic eyes display an iridescent, gold-turquoise coloration evoking the halos and divine radiance depicted in religious iconography across multiple traditions. Iridescence in the iris suggests an otherworldly nature — eyes that see beyond the physical plane, or that belong to a being touched by the divine.
 
-## Connections
+<!-- justification
+## Justification
 
-**Ancestor:** 
+A rare, luminous eye type that brings a touch of the transcendent — not every altered state is chemical; some are spiritual.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** June 3, 2024
-
+**Date Added:** 2024-06-03
 **Introduced By:** Gumi
-
-**Team Notes:** 
-
----

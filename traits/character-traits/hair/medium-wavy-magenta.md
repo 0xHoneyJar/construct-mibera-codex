@@ -6,31 +6,25 @@ date_added: "2024-06-15"
 
 # medium wavy magenta
 
-## Visual Properties
+## Visual Elements
 
+a medium-length wavy hair in a muted deep magenta , with wavy bangs.
 
-**Image Files:**
-Medium Wavy Magenta__w2.png
+Dominant colors: red
 
+## Cultural Context
 
-**Visual Description:** a medium-length wavy hair in a muted deep magenta , with wavy bangs.
+Medium-length wavy hair offers the movement of waves in a more practical, shoulder-length format. The medium wavy cut balances expressiveness with manageability and has been a staple of everyday hair fashion across decades, adaptable to both casual and formal contexts.
 
-**Dominant Colors:** red
+<!-- justification
+## Justification
 
----
-
-## Connections
-
-**Ancestor:** 
+The practical sweet spot — medium waves offer expressiveness without excess, adaptable to any context.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** June 15, 2024
-
+**Date Added:** 2024-06-15
 **Introduced By:** Gumi
-
-**Team Notes:** 
-
----

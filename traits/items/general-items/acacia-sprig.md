@@ -8,63 +8,27 @@ date_added: "2024-12-09"
 
 # acacia sprig
 
-## Visual Properties
+## Visual Elements
 
+a sprig of dark green leaves and yellow buds / flowers.
 
-**Image Files:**
-SS2_acidhouse_ancient_aboriginal_acacia.PNG
-
-
-**Visual Description:** a sprig of dark green leaves and yellow buds / flowers.
-
-**Dominant Colors:** dark green, yellow
-
-
----
+Dominant colors: dark green, yellow
 
 ## Cultural Context
 
+Certain Acacia species contain DMT, and the tree appears throughout religious traditions from the burning bush of Exodus to the sacred groves of ancient Egypt. Some researchers speculate that acacia-derived DMT may have played a role in visionary religious experiences across the ancient world.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:** Certain Acacia species contain DMT, and the tree appears throughout religious traditions from the burning bush of Exodus to the sacred groves of ancient Egypt. Some researchers speculate that acacia-derived DMT may have played a role in visionary religious experiences across the ancient world.
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [acidhouse](../../../core-lore/archetypes.md#acidhouse)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 2
-
-
----
-
-## Connections
-
-**Ancestor:** [aboriginal](../../../core-lore/ancestors/aboriginal.md)
-
+A DMT-bearing plant woven into the founding myths of multiple religions earns its place as the botanical link between entheogenic chemistry and sacred history.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** December 9, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Archetype:** acidhouse
+**Ancestor:** [aboriginal](../../../core-lore/ancestors/aboriginal.md)
+**Swag Score:** 2
+**Date Added:** 2024-12-09

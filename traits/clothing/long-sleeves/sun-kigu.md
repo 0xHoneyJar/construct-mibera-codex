@@ -8,62 +8,27 @@ date_added: "2024-07-31"
 
 # Sun Kigu
 
-## Visual Properties
+## Visual Elements
 
+![Sun Kigu](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(KIGU)
 
-**Image Files:**
-![Sun Kigu](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(KIGU)/SS5_milady_Sun%20Kigu.webp)
+Bear onesie in dark brown with the hood up and sparkly eyes.
 
-
-**Visual Description:** Bear onesie in dark brown with the hood up and sparkly eyes.
-
-**Dominant Colors:** Dark brown, light beige
-
-
----
+Dominant colors: Dark brown, light beige
 
 ## Cultural Context
 
+Kigurumi (着ぐるみ) are character-themed onesies originating from Japanese cosplay and Harajuku street fashion. Popular at anime conventions and in kawaii culture since the early 2000s, kigus became a fixture at raves and music festivals worldwide — where the playful, anonymizing full-body costume mirrors the masked, identity-dissolving experience of the dancefloor. The bear form directly references Berachain's bear motif. The 'Sun' variant with sparkly eyes evokes warmth and daylight energy.
+<!-- justification
+## Justification
 
-**Cultural Origin:** Kigurumi (着ぐるみ) are character-themed onesies originating from Japanese cosplay and Harajuku street fashion. Popular at anime conventions and in kawaii culture since the early 2000s, kigus became a fixture at raves and music festivals worldwide — where the playful, anonymizing full-body costume mirrors the masked, identity-dissolving experience of the dancefloor. The bear form directly references Berachain's bear motif. The 'Sun' variant with sparkly eyes evokes warmth and daylight energy.
-
-**Era:** 2000s-present (Japanese street fashion) 
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [Milady](../../../core-lore/archetypes.md#milady)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 5
-
-
----
-
-## Connections
-
-**Ancestor:** 
+The warmest-toned kigu in the bear onesie series, with sparkly eyes that catch light. It rounds out the kigurumi set by bringing daylight energy to what is usually a nocturnal wardrobe.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** July 31, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Archetype:** Milady
+**Swag Score:** 5
+**Date Added:** 2024-07-31

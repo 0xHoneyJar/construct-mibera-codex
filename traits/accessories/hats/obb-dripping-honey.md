@@ -8,62 +8,27 @@ date_added: "2024-07-27"
 
 # obb dripping honey
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
 ![SS5 OBB Dripping Honey](https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS5_OBB%20Dripping%20Honey.webp)
 
+a lid of a clear jar with a dripping yellow liquid that seems to be honey.
 
-**Visual Description:** a lid of a clear jar with a dripping yellow liquid that seems to be honey.
-
-**Dominant Colors:** yellow, clear / transparent.
-
-
----
+Dominant colors: yellow, clear / transparent.
 
 ## Cultural Context
 
+Ooga Booga Bears (OBB) is a prominent NFT project in the Berachain ecosystem, featuring bear characters. The honey jar lid dripping with honey references The Honey Jar (THJ), the central community hub of the Berachain ecosystem. Honey is a core motif across Berachain culture, tying into the bear theme — bears love honey, and the ecosystem runs on it metaphorically.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** 
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 5
-
-
----
-
-## Connections
-
-**Ancestor:** 
+OBB dripping honey at swag score 5 — the rarest hat tier for a piece that fuses two Berachain ecosystem pillars: Ooga Booga Bears and the honey that fuels everything.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** July 27, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Swag Score:** 5
+**Date Added:** 2024-07-27

@@ -8,63 +8,31 @@ date_added: "2024-12-10"
 
 # Tracksuit 1
 
-## Visual Properties
+## Visual Elements
 
+![Tracksuit 1](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(LONG)
 
-**Image Files:**
-![Tracksuit 1](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(LONG)/SS3_acidhouse_Tracksuit%201.webp)
+Purple tracksuit in dark purple with old-school graphic in bright neon purple across the middle and soft light purple on each sleeve.
 
-
-**Visual Description:** Purple tracksuit in dark purple with old-school graphic in bright neon purple across the middle and soft light purple on each sleeve.
-
-**Dominant Colors:** Purple, vibrant purple with hue of pink, pale purple.
-
-
----
+Dominant colors: Purple, vibrant purple with hue of pink, pale purple.
 
 ## Cultural Context
 
+The tracksuit was directly referenced from an article by Redbull Music Academy about the origins and evolutions of Chicago house and Detroit techno, two pivotal electronic music genres. The genres spread globally, influencing modern electronic music, despite initial resistance from mainstream media.
 
-**Cultural Origin:** The tracksuit was directly referenced from an article by Redbull Music Academy about the origins and evolutions of Chicago house and Detroit techno, two pivotal electronic music genres. The genres spread globally, influencing modern electronic music, despite initial resistance from mainstream media.
+<!-- justification
+## Justification
 
-**Era:** 
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [Acidhouse](../../../core-lore/archetypes.md#acidhouse)
-
-**Archetype Alignment:** In relation to Chicago Detroit scene and culture, directly tied to one of Mibera’s archetypes.
-
-
-**Swag Score:** 3
-
-
----
-
-## Connections
-
-**Ancestor:** 
+Sourced from a Red Bull Music Academy article on Chicago house and Detroit techno. The tracksuit is the universal uniform of rave culture across every continent and every decade.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** December 10, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
+**Archetype:** Acidhouse
+**Swag Score:** 3
+**Date Added:** 2024-12-10
 **Sources:**
 - https://discord.com/channels/1133935527855399053/1143360212842061834/11608814206512
 - https://daily.redbullmusicacademy.com/2017/08/chicago-house-detroit-techno-feature
-
-**Summary:** 
-
----

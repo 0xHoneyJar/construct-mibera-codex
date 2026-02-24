@@ -7,58 +7,19 @@ date_added: null
 
 # Milady 5930 Crescent And Dots
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
-
-
-**Visual Description:**
-
-**Dominant Colors:**
-
----
 
 ## Cultural Context
 
+This face accessory is a direct reference to Milady Maker #5930, which features a distinctive combination of a crescent moon and dots as its face decoration. Specific Milady NFTs have become cultural touchstones within the community, with certain trait combinations achieving iconic status. Referencing a specific Milady by number is an act of homage that signals deep familiarity with the source collection.
 
-**Cultural Origin:**
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:**
-
-**Archetype Alignment:**
-
-
-**Swag Score:**
-
----
-
-## Connections
-
-**Ancestor:** 
+A direct quote of a specific Milady Maker -- including it by number is the deepest possible tribute to the collection that inspired the Milady archetype.
+-->
 
 ---
 
 ## Attribution
-
-**Date Added:**
-
-**Introduced By:**
-
-**Team Notes:**
-
-**Sources:**
-
-**Summary:**
-
----

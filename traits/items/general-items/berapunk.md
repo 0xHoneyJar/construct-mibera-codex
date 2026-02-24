@@ -8,62 +8,25 @@ date_added: "2024-12-09"
 
 # berapunk
 
-## Visual Properties
+## Visual Elements
 
+a plushie of a brown bear wearing big spectacles and a short orange beanie.
 
-**Image Files:**
-SS3_Berapunk.PNG
-
-
-**Visual Description:** a plushie of a brown bear wearing big spectacles and a short orange beanie.
-
-**Dominant Colors:** brown, orange
-
-
----
+Dominant colors: brown, orange
 
 ## Cultural Context
 
+Berapunk is a project within the Berachain ecosystem. The combination of spectacles and beanie on a bear plush gives it a distinctly indie or intellectual character, fitting the "-punk" suffix that implies DIY subculture.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** 
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 3
-
-
----
-
-## Connections
-
-**Ancestor:** 
+Ecosystem partner carrying the "-punk" suffix that connects it to the broader DIY subculture ethos the collection documents.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** December 9, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Swag Score:** 3
+**Date Added:** 2024-12-09

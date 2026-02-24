@@ -8,62 +8,29 @@ date_added: "2024-07-27"
 
 # MF Doom
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
 ![MF Doom](https://mibera.fsn1.your-objectstorage.com/components/Masks/SS4_freetekno_MF doom.webp)
 
-
-**Visual Description:** Silver mask with a lot of defined edges, depths, and unique shape. Covering half the face with big eye holes and a rectangular shape on each side extending towards inner-downwards.
-
-**Dominant Colors:** Silver
-
-
----
+Silver mask with a lot of defined edges, depths, and unique shape. Covering half the face with big eye holes and a rectangular shape on each side extending towards inner-downwards.
 
 ## Cultural Context
 
+MF doom
 
-**Cultural Origin:** MF doom
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [Freetekno](../../../core-lore/archetypes.md#freetekno)
-
-**Archetype Alignment:** Music and cultural relevance to Mibera’s lore and identity.
-
-
-**Swag Score:** 4
-
-
----
-
-## Connections
-
-**Ancestor:** 
+DOOM proved that a mask could be more recognizable than a face. In a collection built around music, anonymity, and crypto-native pseudonymity, his influence is foundational.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** July 27, 2024
-
+**Archetype:** Freetekno
+**Swag Score:** 4
+**Date Added:** 2024-07-27
 **Introduced By:** Fedor
-
-**Team Notes:** 
-
 **Sources:**
 - https://discord.com/channels/1133935527855399053/1161382544617508874/11668381810612
-
-**Summary:** 
-
----

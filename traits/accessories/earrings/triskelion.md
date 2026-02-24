@@ -8,64 +8,31 @@ date_added: "2024-12-10"
 
 # Triskelion
 
-## Visual Properties
+## Visual Elements
 
+Silver triskelion; 3 spirals connected into one in the middle.
 
-**Image Files:**
-SS4_acidhouse_Triskelion.png
-
-
-**Visual Description:** Silver triskelion; 3 spirals connected into one in the middle.
-
-**Dominant Colors:** Silver / grey
-
-
----
+Dominant colors: Silver / grey
 
 ## Cultural Context
 
+Derived from the Greek "triskelḗs" (meaning "three-legged"), Triskelion represents concepts like progress, cycles, or the trinity, appearing in cultures from Neolithic Malta to Celtic Ireland.
 
-**Cultural Origin:** Derived from the Greek "triskelḗs" (meaning "three-legged"), Triskelion represents concepts like progress, cycles, or the trinity, appearing in cultures from Neolithic Malta to Celtic Ireland.
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [Acidhouse](../../../core-lore/archetypes.md#acidhouse)
-
-**Archetype Alignment:** The triskelion's triple-spiral design appears in rave jewelry and tattoos. Celtic origins, but the rotational symmetry fits the visual language of acid house flyers and psychedelic art.
-
-
-**Swag Score:** 4
-
-
----
-
-## Connections
-
-**Ancestor:** 
+An ancient Celtic and Mediterranean symbol that resonates with the Acidhouse archetype's rave-meets-mysticism vibe -- cycles, movement, and triple symmetry.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** December 10, 2024
-
+**Archetype:** Acidhouse
+**Swag Score:** 4
+**Date Added:** 2024-12-10
 **Introduced By:** Jani
-
-**Team Notes:** 
-
 **Sources:**
 - https://symbolismhub.com/what-does-the-triskelion-symbolize-in-contemporary-culture/
 - https://studyofsymbols.com/triskelion-history-meaning-of-symbols/
 - https://maxmag.org/archeology/triskelion-meaning-ancient-symbol/
-
-**Summary:** 
-
----

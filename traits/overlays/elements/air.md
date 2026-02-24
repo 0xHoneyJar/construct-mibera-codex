@@ -6,17 +6,21 @@ quadrant: Northern (lat ≥ 0) and Eastern (lon ≥ 0)
 
 # Air
 
+## Visual Elements
 
 ![Air](https://mibera.fsn1.your-objectstorage.com/components/Elements/Air.webp)
 
-**Mibera Geography Associations:** Northeast quadrant — Europe, Middle East, Asia, parts of Africa
 
-**Real World Astrological Associations:** Gemini, Libra, Aquarius
+## Cultural Context
 
-**Quadrant:** Northern (lat ≥ 0) and Eastern (lon ≥ 0)
+Air is one of the four classical elements in Western philosophy, first systematized by Empedocles in the 5th century BCE and later adopted into Aristotelian cosmology. Associated with intellect, communication, and the breath of life, it also appears in Chinese wu xing philosophy (as wind/wood) and Hindu tattva systems (as vayu). Across traditions, air represents the invisible forces of thought, movement, and connection.
 
-**Qualities:** Intellect, communication, movement, ideas, breath
+<!-- justification
+## Justification
 
-**1/1 Grail:** [Air Grail (#2769)](../../../grails/air.md)
+In the signal hierarchy, elements sit at the textural layer -- they color how a Mibera expresses its deeper archetype and ancestor signals, like a tonal filter over identity.
+-->
 
 ---
+
+## Attribution

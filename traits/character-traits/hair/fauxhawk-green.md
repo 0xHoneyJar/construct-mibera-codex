@@ -6,31 +6,23 @@ date_added: "2024-06-15"
 
 # fauxhawk green
 
-## Visual Properties
+## Visual Elements
 
+a fauxhawk in green. The hair goes upwards with spiky ends.
 
-**Image Files:**
-Fauxhawk Green__w2.PNG
+## Cultural Context
 
+The fauxhawk (faux mohawk) mimics the central ridge of a mohawk without shaving the sides, creating an upward-sweeping, spiky silhouette. Popularized in the 2000s as a more accessible alternative to the punk mohawk, the fauxhawk bridges countercultural edge with mainstream wearability.
 
-**Visual Description:** a fauxhawk in green. The hair goes upwards with spiky ends.
+<!-- justification
+## Justification
 
-**Dominant Colors:** green
-
----
-
-## Connections
-
-**Ancestor:** 
+Punk edge without the full commitment — the fauxhawk bridges countercultural attitude with everyday wearability.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** June 15, 2024
-
+**Date Added:** 2024-06-15
 **Introduced By:** Gumi
-
-**Team Notes:** 
-
----

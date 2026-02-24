@@ -8,62 +8,30 @@ date_added: "2024-12-09"
 
 # Venetian Black
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
 ![Venetian Black](https://mibera.fsn1.your-objectstorage.com/components/Masks/SS4_Venetian Black.webp)
 
+Rounded black mask with much bigger eyeholes compared to usual masks.
 
-**Visual Description:** Rounded black mask with much bigger eyeholes compared to usual masks.
-
-**Dominant Colors:** Black.
-
-
----
+Dominant colors: Black.
 
 ## Cultural Context
 
+The Moretta mask, is a traditional Venetian mask historically reserved for women, popular in 18th-century Venice. Made of black velvet and round in shape, also known as the "muta," it fully conceals the wearer’s face, symbolizing seduction and mystery. Held in place by a button bitten by the teeth, it silenced the wearer, adding to its enigmatic allure, and is showcased by Ca’ Macana as an authentic paper-mâché carnival mask.
 
-**Cultural Origin:** The Moretta mask, is a traditional Venetian mask historically reserved for women, popular in 18th-century Venice. Made of black velvet and round in shape, also known as the "muta," it fully conceals the wearer’s face, symbolizing seduction and mystery. Held in place by a button bitten by the teeth, it silenced the wearer, adding to its enigmatic allure, and is showcased by Ca’ Macana as an authentic paper-mâché carnival mask.
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** 
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 4
-
-
----
-
-## Connections
-
-**Ancestor:** 
+The Moretta mask silenced its wearer by design, and there is something poetic about that in a collection built on crypto pseudonymity. You participate without revealing yourself. The mask is the message.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** December 9, 2024
-
+**Swag Score:** 4
+**Date Added:** 2024-12-09
 **Introduced By:** P1A - https://x.com/deepname99/status/1933016647281094884?s=46
-
-**Team Notes:** 
-
 **Sources:**
 - https://www.camacana.com/en-UK/moretta-venetian-mask.php
-
-**Summary:** 
-
----

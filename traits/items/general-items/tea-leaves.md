@@ -8,63 +8,25 @@ date_added: "2024-12-09"
 
 # tea leaves
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
-SS3_milady_ancient_chinese_japanese_Tea.PNG
-
-
-**Visual Description:** two pieces of green leaves.
-
-**Dominant Colors:** green
-
-
----
+two pieces of green leaves.
 
 ## Cultural Context
 
+Tea is one of the oldest psychoactive beverages in the world, with a history of communal consumption stretching back thousands of years across Asia. The Japanese tea ceremony elevated stimulant use into a meditative art form, connecting the act of getting a buzz to mindfulness and presence.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:** Tea is one of the oldest psychoactive beverages in the world, with a history of communal consumption stretching back thousands of years across Asia. The Japanese tea ceremony elevated stimulant use into a meditative art form, connecting the act of getting a buzz to mindfulness and presence.
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [milady](../../../core-lore/archetypes.md#milady)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 3
-
-
----
-
-## Connections
-
-**Ancestor:** [chinese](../../../core-lore/ancestors/chinese.md), [japanese](../../../core-lore/ancestors/japanese.md)
-
+The substance where stimulant culture meets meditative ceremony — caffeine wrapped in thousands of years of ritual.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** December 9, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Archetype:** milady
+**Ancestor:** [chinese](../../../core-lore/ancestors/chinese.md), [japanese](../../../core-lore/ancestors/japanese.md)
+**Swag Score:** 3
+**Date Added:** 2024-12-09

@@ -8,62 +8,27 @@ date_added: "2024-12-10"
 
 # berahorses bucket
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
 ![SS3 Berahorses Bucket](https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS3_Berahorses%20Bucket.webp)
 
+an orange bucket hat with lighter orange text with black outline that reads “Neigh”
 
-**Visual Description:** an orange bucket hat with lighter orange text with black outline that reads “Neigh”
-
-**Dominant Colors:** orange, light orange
-
-
----
+Dominant colors: orange, light orange
 
 ## Cultural Context
 
+BeraHorses is a community NFT project on Berachain featuring horse-themed characters. The bucket hat with "Neigh" text is a playful reference to the project's equine identity, representing the kind of cross-pollination between ecosystem projects that makes Berachain's community culture distinctive.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** 
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 3
-
-
----
-
-## Connections
-
-**Ancestor:** 
+BeraHorses said "Neigh" and put it on a bucket hat — ecosystem collab energy at its most literal and lovable.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** December 10, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Swag Score:** 3
+**Date Added:** 2024-12-10

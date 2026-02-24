@@ -8,62 +8,28 @@ date_added: "2024-06-22"
 
 # Future Rug Core
 
-## Visual Properties
+## Visual Elements
 
+![Future Rug Core](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)
 
-**Image Files:**
-![Future Rug Core](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)/SS2_freetekno_Future%20Rug%20Core.webp)
+Black t-shirt with red text that says “THE FUTURE IS RUGCORE” in thin font.
 
-
-**Visual Description:** Black t-shirt with red text that says “THE FUTURE IS RUGCORE” in thin font.
-
-**Dominant Colors:** Black, red.
-
-
----
+Dominant colors: Black, red.
 
 ## Cultural Context
 
+Rugcore is a tongue-in-cheek aesthetic movement within crypto culture that embraces the chaotic, scam-adjacent energy of memecoin trading. The term rug refers to a rug pull, where a token creator drains liquidity and disappears with investor funds.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:** 
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [Freetekno](../../../core-lore/archetypes.md#freetekno)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 2
-
-
----
-
-## Connections
-
-**Ancestor:** 
+Declaring the future is rugcore is crypto culture laughing at itself. In a collection that documents the full spectrum of web3 culture, the scam aesthetic gets a shirt too.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** June 22, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Archetype:** Freetekno
+**Swag Score:** 2
+**Date Added:** 2024-06-22

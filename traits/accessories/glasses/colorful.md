@@ -7,56 +7,21 @@ date_added: null
 
 # Colorful
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
-
-
-**Visual Description:**
-
-**Dominant Colors:**
-
----
 
 ## Cultural Context
 
+Bold, multicolored eyewear emerged across multiple subcultures simultaneously: from 1980s new wave to 1990s rave fashion to Y2K-era pop aesthetics. The style emphasizes self-expression and visual maximalism.
 
-**Cultural Origin:**
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:**
-
-**Archetype Alignment:**
-
-
-**Swag Score:** 4
-
-## Connections
-
-**Ancestor:** 
+Loud colors, no apologies. The kind of accessory that says you treat getting dressed like performance art.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:**
-
-**Introduced By:**
-
-**Team Notes:**
-
-**Sources:**
-
-**Summary:**
-
----
+**Swag Score:** 4

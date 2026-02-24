@@ -5,58 +5,19 @@ date_added: null
 
 # Og Blonde
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
-
-
-**Visual Description:**
-
-**Dominant Colors:**
-
----
 
 ## Cultural Context
 
+The OG Blonde is a legacy hairstyle from the collection's earliest design iterations, preserved as a marker of the project's developmental history. "OG" (original gangster) in internet and crypto culture denotes something from the beginning — the first version, the founding design, before refinement and expansion.
 
-**Cultural Origin:**
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:**
-
-**Archetype Alignment:**
-
-
-**Swag Score:**
-
----
-
-## Connections
-
-**Ancestor:** 
+A piece of the collection's own history — the OG blonde is preserved as a nod to where the Mibera design journey began.
+-->
 
 ---
 
 ## Attribution
-
-**Date Added:**
-
-**Introduced By:**
-
-**Team Notes:**
-
-**Sources:**
-
-**Summary:**
-
----

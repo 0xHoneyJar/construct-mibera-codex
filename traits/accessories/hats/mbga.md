@@ -8,62 +8,25 @@ date_added: "2024-12-10"
 
 # mbga
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
 ![SS1 MBGA](https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS1_MBGA.webp)
 
-
-**Visual Description:** a deep red cap with white text that reads “MAKE BITCOIN GREAT AGAIN”.
-
-**Dominant Colors:** deep red
-
-
----
+a deep red cap with white text that reads “MAKE BITCOIN GREAT AGAIN”.
 
 ## Cultural Context
 
+The "Make Bitcoin Great Again" (MBGA) cap is a crypto-culture riff on Trump's iconic MAGA hat, using the same red cap and white text format. The phrase reflects Bitcoin maximalist sentiment — a longing for the perceived purity of early Bitcoin culture before altcoins, DeFi, and NFTs complicated the landscape. The format has been widely remixed across crypto communities.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** 
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 1
-
-
----
-
-## Connections
-
-**Ancestor:** 
+The Bitcoin maxi MAGA hat — a red cap that says you believe in one chain to rule them all, and you are not afraid to show it.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** December 10, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Swag Score:** 1
+**Date Added:** 2024-12-10

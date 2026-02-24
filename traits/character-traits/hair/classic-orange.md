@@ -6,31 +6,25 @@ date_added: "2024-06-22"
 
 # classic orange
 
-## Visual Properties
+## Visual Elements
 
+a medium-length red copper hair with short curtain bangs and softly curved-inwards edges.
 
-**Image Files:**
-Classic Orange__w5.PNG Classic Orange__z-32.png
+Dominant colors: red copper / dark orange
 
+## Cultural Context
 
-**Visual Description:** a medium-length red copper hair with short curtain bangs and softly curved-inwards edges.
+The classic cut is a medium-length style with short curtain bangs and softly curved-inward edges — a timeless, versatile look that transcends specific subcultures. Curtain bangs, parted in the center and feathered to each side, became iconic in the 1970s and have cycled through fashion repeatedly, most recently in the early 2020s.
 
-**Dominant Colors:** red copper / dark orange
+<!-- justification
+## Justification
 
----
-
-## Connections
-
-**Ancestor:** 
+A timeless, versatile cut that serves as the approachable everyday hairstyle in the collection.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** June 22, 2024
-
+**Date Added:** 2024-06-22
 **Introduced By:** Gumi
-
-**Team Notes:** 
-
----

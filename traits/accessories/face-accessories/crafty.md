@@ -8,62 +8,29 @@ date_added: "2024-12-10"
 
 # Crafty
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
 ![Crafty](https://mibera.fsn1.your-objectstorage.com/components/face%20accessories__z60/SS2_freetekno_crafty.webp)
 
+Couple of bandages.
 
-**Visual Description:** Couple of bandages.
-
-**Dominant Colors:** Bone white
-
-
----
+Dominant colors: Bone white
 
 ## Cultural Context
 
+In free party and sound system culture, minor injuries are a badge of honor from building rigs, hauling speakers, and setting up in abandoned buildings or open fields. The DIY ethos of freetekno means participants are often their own medics, patching up cuts and scrapes with whatever is on hand before getting back to work.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [Freetekno](../../../core-lore/archetypes.md#freetekno)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 2
-
-
----
-
-## Connections
-
-**Ancestor:** 
+Multiple bandages on the face say you were building something, not just attending. In the Freetekno archetype, it marks the difference between a raver and a rigger.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** December 10, 2024
-
+**Archetype:** Freetekno
+**Swag Score:** 2
+**Date Added:** 2024-12-10
 **Introduced By:** Gumi
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----

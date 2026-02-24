@@ -8,62 +8,27 @@ date_added: "2024-06-25"
 
 # Shiny Cult
 
-## Visual Properties
+## Visual Elements
 
+![Shiny cult](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(LONG)
 
-**Image Files:**
-![Shiny cult](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(LONG)/SS3_freetekno_Shiny%20cult.webp)
+Plain white long sleeves with shiny complexion.
 
-
-**Visual Description:** Plain white long sleeves with shiny complexion.
-
-**Dominant Colors:** White
-
-
----
+Dominant colors: White
 
 ## Cultural Context
 
+The pristine white garment with its synthetic sheen evokes the uniformed aesthetics of new religious movements and utopian communes. In the freetekno context, the 'cult' label is reclaimed — free party sound systems like Spiral Tribe and Teknival collectives deliberately embraced cult-like communal living, nomadic existence, and shared identity. The shiny fabric nods to the synthetic materials of early rave fashion, where nylon and polyester caught UV light on the dancefloor.
+<!-- justification
+## Justification
 
-**Cultural Origin:** The pristine white garment with its synthetic sheen evokes the uniformed aesthetics of new religious movements and utopian communes. In the freetekno context, the 'cult' label is reclaimed — free party sound systems like Spiral Tribe and Teknival collectives deliberately embraced cult-like communal living, nomadic existence, and shared identity. The shiny fabric nods to the synthetic materials of early rave fashion, where nylon and polyester caught UV light on the dancefloor.
-
-**Era:** 1990s freetekno 
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [Freetekno](../../../core-lore/archetypes.md#freetekno)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 3
-
-
----
-
-## Connections
-
-**Ancestor:** 
+Free party sound systems deliberately embraced cult-like communal living and shared identity. The shiny white uniform is the freetekno scene acknowledging what it actually looks like from the outside.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** June 25, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Archetype:** Freetekno
+**Swag Score:** 3
+**Date Added:** 2024-06-25

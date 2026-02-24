@@ -8,62 +8,26 @@ date_added: "2024-07-10"
 
 # honey stick
 
-## Visual Properties
+## Visual Elements
 
+a brown honey dipper glazed with what appears to be honey, light yellow sticky liquid.
 
-**Image Files:**
-SS3_milady_Honey Stick.png
-
-
-**Visual Description:** a brown honey dipper glazed with what appears to be honey, light yellow sticky liquid.
-
-**Dominant Colors:** yellow, rainbow-coloured
-
-
----
+Dominant colors: yellow, rainbow-coloured
 
 ## Cultural Context
 
+A honey stirrer (honey dipper) — a wooden stick with grooved ridges used to drizzle honey. Part of the collection's recurring honey motif tied to Berachain and The Honey Jar ecosystem.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:** Honey sticks are portable tubes of honey, connecting the collection's recurring honey motif to something practical and shareable. In the Berachain ecosystem, honey carries special significance through The Honey Jar community.
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [milady](../../../core-lore/archetypes.md#milady)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 3
-
-
----
-
-## Connections
-
-**Ancestor:** 
+Humble kitchen utensil that grounds the honey motif in something ordinary and tactile.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** July 10, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Archetype:** milady
+**Swag Score:** 3
+**Date Added:** 2024-07-10

@@ -8,62 +8,31 @@ date_added: "2024-07-25"
 
 # Stylized Fashion
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
 ![Stylized Fashion](https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS3_chicagodetroit_Stylized%20Fashion.webp)
 
+Flat, asymmetrical hat in red maroon.
 
-**Visual Description:** Flat, asymmetrical hat in red maroon.
-
-**Dominant Colors:** Red Maroon
-
-
----
+Dominant colors: Red Maroon
 
 ## Cultural Context
 
+Asymmetrical and avant-garde hats have a long history in high fashion, from the sculptural millinery of Philip Treacy to the deconstructed designs of Comme des Garcons. In the Chicago Detroit context, this kind of bold, fashion-forward headwear connects to the tradition of Black excellence in style — from the sharp dressing of Chicago's South Side to Detroit's legendary fashion sense.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [Chicago Detroit](../../../core-lore/archetypes.md#chicago-detroit)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 3
-
-
----
-
-## Connections
-
-**Ancestor:** 
+Avant-garde fashion meets Chicago Detroit style — a maroon hat that says you came to the warehouse looking sharper than everyone else.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** July 25, 2024
-
+**Archetype:** Chicago Detroit
+**Swag Score:** 3
+**Date Added:** 2024-07-25
 **Introduced By:** Jani
-
-**Team Notes:** 
-
 **Sources:**
 - https://discord.com/channels/1133935527855399053/1152026958713081966/11696182359902
-
-**Summary:** 
-
----

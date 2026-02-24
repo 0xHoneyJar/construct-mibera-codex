@@ -8,62 +8,28 @@ date_added: "2024-07-24"
 
 # Head Tube
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
 ![Head Tube](https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS3_chicagodetroit_Head%20Tube.webp)
 
+Plain black turban.
 
-**Visual Description:** Plain black turban.
-
-**Dominant Colors:** Black
-
-
----
+Dominant colors: Black
 
 ## Cultural Context
 
+Head tubes (also called buff or neck gaiters) became essential rave accessories in the 1990s, serving as both fashion statements and practical items for dusty outdoor events or anonymity at illegal parties. In the Chicago and Detroit electronic music scenes, simple black headwear carried a utilitarian cool that contrasted with the more flamboyant styles of other scenes.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [Chicago Detroit](../../../core-lore/archetypes.md#chicago-detroit)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 3
-
-
----
-
-## Connections
-
-**Ancestor:** 
+A plain black head tube is the no-nonsense headwear of someone who came to dance, not to be seen — pure Chicago Detroit functionality.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** July 24, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Archetype:** Chicago Detroit
+**Swag Score:** 3
+**Date Added:** 2024-07-24

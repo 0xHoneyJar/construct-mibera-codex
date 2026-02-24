@@ -6,31 +6,25 @@ date_added: "2024-06-04"
 
 # peekaboo blonde
 
-## Visual Properties
+## Visual Elements
 
+sleek, straight long hair slightly curved inwards towards the end, with straight bangs across the forehead. Blonde on the inner part (peeking through) and black on the outer part.
 
-**Image Files:**
-Peekaboo Blonde__w8.png Peekaboo Blonde__z-32.png
+Dominant colors: black and yellow.
 
+## Cultural Context
 
-**Visual Description:** sleek, straight long hair slightly curved inwards towards the end, with straight bangs across the forehead. Blonde on the inner part (peeking through) and black on the outer part.
+Peekaboo coloring is a hair technique where a contrasting color is placed on the inner layers, hidden by the outer hair and only revealed with movement. This blonde-inner, black-outer combination creates a dynamic two-tone effect. The peekaboo technique became popular in alternative and scene fashion of the 2000s, where hidden color expressed a dual nature — conventional on the surface, expressive underneath.
 
-**Dominant Colors:** black and yellow.
+<!-- justification
+## Justification
 
----
-
-## Connections
-
-**Ancestor:** 
+Hidden color revealed through movement — peekaboo hair embodies the dual nature of people who present one way but carry vibrant inner worlds.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** June 4, 2024
-
+**Date Added:** 2024-06-04
 **Introduced By:** Gumi
-
-**Team Notes:** 
-
----

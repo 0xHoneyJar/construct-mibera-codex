@@ -7,42 +7,21 @@ element: Water
 
 # Cancer
 
-
-## Sun Sign
-
+## Visual Elements
 
 ![Sun Cancer](https://mibera.fsn1.your-objectstorage.com/components/Sun/Sun%20Cancer.webp)
 
-**Date Range:** June 22 - July 22
 
-**Glyph:** ♋
+## Cultural Context
 
-**Element:** Water
+Cancer (June 22 -- July 22) is the fourth sign of the Western zodiac, a water sign ruled by the Moon. Represented by the Crab, it is linked to the summer solstice and the themes of home, memory, and emotional depth. Cancer natives are traditionally described as nurturing, intuitive, and deeply protective of those they care about.
 
----
+<!-- justification
+## Justification
 
-
-## Moon Sign
-
-
-![Moon Cancer](https://mibera.fsn1.your-objectstorage.com/components/Moon/Moon%20Cancer.webp)
-
-**Glyph:** ♋
-
-**Element:** Water
+At the modifier layer, a Cancer overlay gives a Mibera an undercurrent of emotional sensitivity and protective instinct, coloring the archetype and ancestor signals rather than replacing them.
+-->
 
 ---
 
-
-## Rising Sign
-
-
-![Rising Cancer](https://mibera.fsn1.your-objectstorage.com/components/Rising/Rising%20Cancer.webp)
-
-**Glyph:** ♋
-
-**Element:** Water
-
-**1/1 Grail:** [Cancer Grail (#8620)](../../../grails/cancer.md)
-
----
+## Attribution

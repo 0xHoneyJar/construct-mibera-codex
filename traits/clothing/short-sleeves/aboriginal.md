@@ -8,62 +8,32 @@ date_added: "2024-12-10"
 
 # Aboriginal
 
-## Visual Properties
+## Visual Elements
 
+![Aboriginal](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)
 
-**Image Files:**
-![Aboriginal](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)/SS2_freetekno_Aboriginal.webp)
+Black t-shirt with a graphic of an aboriginal flag; black and red flag with yellow circle in the middle.
 
-
-**Visual Description:** Black t-shirt with a graphic of an aboriginal flag; black and red flag with yellow circle in the middle.
-
-**Dominant Colors:** Black, yellow, red.
-
-
----
+Dominant colors: Black, yellow, red.
 
 ## Cultural Context
 
+The Australian Aboriginal Flag
 
-**Cultural Origin:** The Australian Aboriginal Flag
+The Australian Aboriginal Flag is a symbol of Indigenous identity and pride. The Black (top half) represents Aboriginal people, the Red (bottom half) represents red earth, ochre, and spiritual connection to the land, and the Yellow circle (in the center) represents the sun, giver of life. The general meaning of it is unity, strength, and survival of Aboriginal Australians.
 
-**Era:** 
+<!-- justification
+## Justification
 
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [Freetekno](../../../core-lore/archetypes.md#freetekno)
-
-**Archetype Alignment:** Aboriginal is one of Mibera’s ancestors.
-
-
-**Swag Score:** 2
-
-
----
-
-## Connections
-
-**Ancestor:** 
+Indigenous rights movements are part of the broader counterculture that Mibera documents. The Aboriginal flag on a t-shirt is a statement of survival and identity that resonates across activist and rave communities alike.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** December 10, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
+**Archetype:** Freetekno
+**Swag Score:** 2
+**Date Added:** 2024-12-10
 **Sources:**
 - https://en.wikipedia.org/wiki/Australian_Aboriginal_flag
-
-**Summary:** The Australian Aboriginal Flag is a symbol of Indigenous identity and pride. The Black (top half) represents Aboriginal people, the Red (bottom half) represents red earth, ochre, and spiritual connection to the land, and the Yellow circle (in the center) represents the sun, giver of life. The general meaning of it is unity, strength, and survival of Aboriginal Australians.
-
----

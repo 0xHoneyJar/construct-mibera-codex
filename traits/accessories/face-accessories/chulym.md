@@ -8,64 +8,32 @@ date_added: "2024-12-10"
 
 # Chulym
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
 ![Chulym](https://mibera.fsn1.your-objectstorage.com/components/face%20accessories__z60/SS4_milady_chulym.webp)
 
+White strokes with a slight hint of pink / rosy undertones. 1 line in the center with 2 dots symmetrically placed under it.
 
-**Visual Description:** White strokes with a slight hint of pink / rosy undertones. 1 line in the center with 2 dots symmetrically placed under it.
-
-**Dominant Colors:** White with a pinkish hue
-
-
----
+Dominant colors: White with a pinkish hue
 
 ## Cultural Context
 
+The Chulym people are a small Turkic-speaking indigenous group in Siberia, Russia, with a population of around 350. Their cultural practices, including face painting and traditional music, have gained wider visibility through the Otyken music group, formed in 2015, which blends traditional Siberian folk instruments and languages with modern pop and electronic production. Otyken's viral performances have introduced Chulym and other Siberian indigenous aesthetics to a global audience.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [Milady](../../../core-lore/archetypes.md#milady)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 4
-
-
----
-
-## Connections
-
-**Ancestor:** 
+The Chulym face paint connects one of the world's smallest indigenous groups to a global audience through music -- it represents the idea that no culture is too small to matter in the Mibera universe.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** December 10, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
+**Archetype:** Milady
+**Swag Score:** 4
+**Date Added:** 2024-12-10
 **Sources:**
 - https://en.wikipedia.org/wiki/Chulyms
 - https://www.youtube.com/watch?v=gTdHaerMUeo
 - https://www.youtube.com/watch?v=gPCGcVrgG5s
-
-**Summary:** 
-
----

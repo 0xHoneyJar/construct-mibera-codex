@@ -8,62 +8,31 @@ date_added: "2024-07-24"
 
 # Black Mask
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
 ![Black Mask](https://mibera.fsn1.your-objectstorage.com/components/Masks/SS2_freetekno_Black Mask.webp)
 
+Black mask covering just the mouth and nose part..
 
-**Visual Description:** Black mask covering just the mouth and nose part..
-
-**Dominant Colors:** Black.
-
-
----
+Dominant colors: Black.
 
 ## Cultural Context
 
+Simple black face coverings have been used across cultures and movements for anonymity and protection, from nineteenth-century labor protests to modern-day black bloc tactics. In rave and free party culture, face masks serve a practical purpose against dust and cold at outdoor events while also enabling the anonymity central to the scene.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [Freetekno](../../../core-lore/archetypes.md#freetekno)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 2
-
-
----
-
-## Connections
-
-**Ancestor:** 
+The simplest mask in the collection, and maybe the most honest. In freetekno, you cover your face because the music is the identity, not you.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** July 24, 2024
-
+**Archetype:** Freetekno
+**Swag Score:** 2
+**Date Added:** 2024-07-24
 **Introduced By:** Jani
-
-**Team Notes:** 
-
 **Sources:**
 - https://discord.com/channels/1133935527855399053/1143684092467093684/11677936743069
-
-**Summary:** 
-
----

@@ -8,63 +8,27 @@ date_added: "2024-12-09"
 
 # kratom dose
 
-## Visual Properties
+## Visual Elements
 
+a white cup with leafy green liquid inside.
 
-**Image Files:**
-SS3_freetekno_thai_Kratom.PNG
-
-
-**Visual Description:** a white cup with leafy green liquid inside.
-
-**Dominant Colors:** white, green
-
-
----
+Dominant colors: white, green
 
 ## Cultural Context
 
+Kratom is a Southeast Asian plant that acts as a stimulant at low doses and a sedative at high ones. It occupies a contested space between traditional medicine and modern drug culture, legal in some places and banned in others.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:** Kratom is a Southeast Asian plant that acts as a stimulant at low doses and a sedative at high ones. It occupies a contested space between traditional medicine and modern drug culture, legal in some places and banned in others.
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [freetekno](../../../core-lore/archetypes.md#freetekno)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 3
-
-
----
-
-## Connections
-
-**Ancestor:** [Thai](../../../core-lore/ancestors/thai.md)
-
+The grey-zone substance that governments can't agree on. Its presence here reflects the collection's interest in plants that defy clean legal categories.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** December 9, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Archetype:** freetekno
+**Ancestor:** [Thai](../../../core-lore/ancestors/thai.md)
+**Swag Score:** 3
+**Date Added:** 2024-12-09

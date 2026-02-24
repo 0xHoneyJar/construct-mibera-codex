@@ -8,62 +8,26 @@ date_added: "2024-06-04"
 
 # Rainbow Ring
 
-## Visual Properties
+## Visual Elements
 
+Thin rainbow ring / hoop-earring.
 
-**Image Files:**
-SS3_rainbow ring.png
-
-
-**Visual Description:** Thin rainbow ring / hoop-earring.
-
-**Dominant Colors:** Rainbow color
-
-
----
+Dominant colors: Rainbow color
 
 ## Cultural Context
 
+The rainbow flag, designed by Gilbert Baker in 1978, is a global symbol of LGBTQ+ pride and diversity. Its colors represent inclusivity, hope, and liberation, used in pride events and advocacy for LGBTQ+ rights.
 
-**Cultural Origin:** The rainbow flag, designed by Gilbert Baker in 1978, is a global symbol of LGBTQ+ pride and diversity. Its colors represent inclusivity, hope, and liberation, used in pride events and advocacy for LGBTQ+ rights.
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** 
-
-**Archetype Alignment:** In relation to pride and LGBTQ+ which is also a big part of rave culture.
-
-
-**Swag Score:** 3
-
-
----
-
-## Connections
-
-**Ancestor:** 
+Rave culture and LGBTQ+ communities have been intertwined since the beginning -- house music was born in queer Black clubs in Chicago, and the rainbow is that shared history made wearable.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** June 4, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Archetype:** **Archetype Alignment:** In relation to pride and LGBTQ+ which is also a big part of rave culture.
+**Swag Score:** 3
+**Date Added:** 2024-06-04

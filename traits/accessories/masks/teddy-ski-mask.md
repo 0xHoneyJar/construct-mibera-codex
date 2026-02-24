@@ -8,62 +8,28 @@ date_added: "2024-12-10"
 
 # Teddy Ski Mask
 
-## Visual Properties
+## Visual Elements
 
+Ski mask in vibrant red with tiny horn-shaped ears and wide holes across the eyes-part.
 
-**Image Files:**
-SS3_Teddy Ski Mask.PNG
-
-
-**Visual Description:** Ski mask in vibrant red with tiny horn-shaped ears and wide holes across the eyes-part.
-
-**Dominant Colors:** Red.
-
-
----
+Dominant colors: Red.
 
 ## Cultural Context
 
+Steady Teddy is one of the biggest, if not the biggest NFT to stand on Berachain when it comes to hype, community, and volume. The Teddys are known for spreading ‘Tedism’ on the TL, onboarding dozens of new community members by doing so.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** 
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 3
-
-
----
-
-## Connections
-
-**Ancestor:** 
+Steady Teddy is one of Berachain's flagship NFT communities, and their ski mask became a symbol of Tedism across crypto Twitter. Including it in Mibera acknowledges the ecosystem's most vocal evangelists.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** December 10, 2024
-
+**Swag Score:** 3
+**Date Added:** 2024-12-10
 **Introduced By:** Jani
-
-**Team Notes:** 
-
 **Sources:**
 - https://x.com/steadyteddys
-
-**Summary:** Steady Teddy is one of the biggest, if not the biggest NFT to stand on Berachain when it comes to hype, community, and volume. The Teddys are known for spreading ‘Tedism’ on the TL, onboarding dozens of new community members by doing so.
-
----

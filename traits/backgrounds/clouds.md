@@ -6,36 +6,26 @@ date_added: "2024-06-07"
 
 # Clouds
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
 ![Clouds](https://mibera.fsn1.your-objectstorage.com/components/background__z10/Clouds.webp)
 
+Grassfield and cloudy sky.
 
-**Visual Description:** Grassfield and cloudy sky.
+Dominant colors: Blue, white, and green
 
-**Dominant Colors:** Blue, white, and green
+## Cultural Context
 
+Sourced from Milady Maker's background assets. Worth noting that fields under open sky are reminiscent of where the freetekno tribe gathers — from Castlemorton Common to Czech teknivals.
 
----
+<!-- justification
+## Justification
 
-## Context
-
-
-**Cultural Origin:** 
-
-
-**Why This Matters:** Classic outdoor rave setting — from Castlemorton Common to Czech teknivals, the Freetekno tribe gathers in fields like these.
+Shared visual lineage with Milady Maker.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** June 7, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
----
+**Date Added:** 2024-06-07

@@ -8,62 +8,24 @@ date_added: "2024-07-11"
 
 # baby polar bear
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
-SS4_milady_Baby Polar Bear.png
-
-
-**Visual Description:** a plushie of white polar bear, medium to big in size.
-
-**Dominant Colors:** white
-
-
----
+a plushie of white polar bear, medium to big in size.
 
 ## Cultural Context
 
+A polar bear variant of the Berachain bear plushie lineup. The white coloring distinguishes it visually from the brown and black variants in the series.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [milady](../../../core-lore/archetypes.md#milady)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 4
-
-
----
-
-## Connections
-
-**Ancestor:** 
+White colorway variant that reads differently against dark and light backgrounds, adding compositional range to the bear set.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** July 11, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Archetype:** milady
+**Swag Score:** 4
+**Date Added:** 2024-07-11

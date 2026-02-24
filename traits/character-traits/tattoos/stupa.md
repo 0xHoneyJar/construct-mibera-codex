@@ -8,62 +8,26 @@ date_added: "2024-08-09"
 
 # Stupa
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
 ![Stupa](https://mibera.fsn1.your-objectstorage.com/components/tattoos__z125/ancient_nepal_Stupa.webp)
 
+Black and white drawing of a shrine with shading.
 
-**Visual Description:** Black and white drawing of a shrine with shading.
-
-**Dominant Colors:** Black, grey.
-
----
+Dominant colors: Black, grey.
 
 ## Cultural Context
+<!-- justification
+## Justification
 
-
-**Cultural Origin:** 
-
-**Era:** Ancient
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** 
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 
-
-
----
-
-## Connections
-
-**Ancestor:** [Nepal](../../../core-lore/ancestors/nepal.md)
-
+The stupa is Buddhism's most fundamental architectural form, and Nepal's examples are among the oldest and most sacred in the world. It connects the Nepal ancestor lineage to a tradition of sacred space that predates written history.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** August 9, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
+**Ancestor:** [Nepal](../../../core-lore/ancestors/nepal.md)
+**Date Added:** 2024-08-09
 **Sources:**
 - https://en.wikipedia.org/wiki/Stupa
-
-**Summary:** 
-
----

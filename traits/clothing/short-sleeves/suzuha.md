@@ -8,62 +8,28 @@ date_added: "2024-12-10"
 
 # Suzuha
 
-## Visual Properties
+## Visual Elements
 
+![Suzuha](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)
 
-**Image Files:**
-![Suzuha](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)/SS1_milady_Suzuha.webp)
+Black t-shirt with a big graphic in a rectangular frame of a lady wearing black glasses with a little smile and white text underneath it that reads “I have your IP address”.
 
-
-**Visual Description:** Black t-shirt with a big graphic in a rectangular frame of a lady wearing black glasses with a little smile and white text underneath it that reads “I have your IP address”.
-
-**Dominant Colors:** Black, white
-
-
----
+Dominant colors: Black, white
 
 ## Cultural Context
 
+The design references internet culture and the hacker aesthetic, with the I have your IP address line functioning as both a cybersecurity joke and a memetic threat. The female Milady is Suzuha/@dystopiabreaker's milady. 
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:** 
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [Milady](../../../core-lore/archetypes.md#milady)
-
-**Archetype Alignment:** Its relation to Milady Maker
-
-
-**Swag Score:** 1
-
-
----
-
-## Connections
-
-**Ancestor:** 
+I have your IP address is the quintessential internet threat-as-joke. This shirt sits at the intersection of hacker culture, anime aesthetics, and the Milady online universe.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** December 10, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Archetype:** Milady
+**Swag Score:** 1
+**Date Added:** 2024-12-10

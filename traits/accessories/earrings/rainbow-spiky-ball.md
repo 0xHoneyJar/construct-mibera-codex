@@ -8,62 +8,24 @@ date_added: "2024-12-10"
 
 # Rainbow Spiky Ball
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
-SS5_rainbow spiky ball.png
-
-
-**Visual Description:** Rainbow-colored spiky ball.
-
-**Dominant Colors:** Rainbow
-
-
----
+Rainbow-colored spiky ball.
 
 ## Cultural Context
 
+The rainbow flag, designed by Gilbert Baker in 1978, is a global symbol of LGBTQ+ pride and diversity. Its colors represent inclusivity, hope, and liberation, used in pride events and advocacy for LGBTQ+ rights.
 
-**Cultural Origin:** The rainbow flag, designed by Gilbert Baker in 1978, is a global symbol of LGBTQ+ pride and diversity. Its colors represent inclusivity, hope, and liberation, used in pride events and advocacy for LGBTQ+ rights.
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** 
-
-**Archetype Alignment:** In relation to pride and LGBTQ+ which is also a big part of rave culture.
-
-
-**Swag Score:** 5
-
-
----
-
-## Connections
-
-**Ancestor:** 
+Combines the pride rainbow with spiky rave aesthetics -- a high-swag fusion of LGBTQ+ symbolism and dancefloor energy that earns its top-tier score.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** December 10, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Archetype:** **Archetype Alignment:** In relation to pride and LGBTQ+ which is also a big part of rave culture.
+**Swag Score:** 5
+**Date Added:** 2024-12-10

@@ -6,36 +6,25 @@ date_added: "2024-08-14"
 
 # Rave 2
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
 ![Rave 2](https://mibera.fsn1.your-objectstorage.com/components/background__z10/rave%202.webp)
 
+Bright white light in the center with a vibrant turquoise background, and black shadowy figures filling half the frame.
 
-**Visual Description:** Bright white light in the center with a vibrant turquoise background, and black shadowy figures filling half the frame.
+## Cultural Context
 
-**Dominant Colors:** 
+The peak of a rave — blinding white light breaking through the crowd.
 
+<!-- justification
+## Justification
 
----
-
-## Context
-
-
-**Cultural Origin:** 
-
-
-**Why This Matters:** The peak of a rave — blinding white light breaking through the crowd.
+Abstract rave backgrounds represent the raw sensory experience of electronic music events — the environments where all four archetypes converge.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** August 14, 2024
-
+**Date Added:** 2024-08-14
 **Introduced By:** Jani
-
-**Team Notes:** 
-
----

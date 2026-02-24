@@ -6,31 +6,23 @@ date_added: "2024-06-15"
 
 # dreamy blue
 
-## Visual Properties
+## Visual Elements
 
+very short deep muted blue hair with smooth, neat curtain bangs.
 
-**Image Files:**
-Dreamy Blue__w4.png
+## Cultural Context
 
+The dreamy style is a very short cut with smooth, neat curtain bangs — minimal, refined, and softly feminine. The name suggests a wistful, otherworldly quality, fitting the ethereal aesthetic often associated with indie music, shoegaze, and dream-pop subcultures.
 
-**Visual Description:** very short deep muted blue hair with smooth, neat curtain bangs.
+<!-- justification
+## Justification
 
-**Dominant Colors:** deep muted blue
-
----
-
-## Connections
-
-**Ancestor:** 
+Soft and minimal, the dreamy cut evokes the ethereal aesthetic of dream-pop and shoegaze subcultures.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** June 15, 2024
-
+**Date Added:** 2024-06-15
 **Introduced By:** Gumi
-
-**Team Notes:** 
-
----

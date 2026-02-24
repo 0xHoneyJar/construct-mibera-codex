@@ -52,7 +52,6 @@ Glasses range from functional eyewear to symbolic accessories, each carrying cul
 - [squad](squad.md)
 - [snow goggles 2](snow-goggles-2.md)
 - [Sick Sunglasses](sick-sunglasses.md)
-- [colourful](colourful.md)
 - [Swimming Goggles](swimming-goggles.md)
 - [prescription](prescription.md)
 - [spy](spy.md)

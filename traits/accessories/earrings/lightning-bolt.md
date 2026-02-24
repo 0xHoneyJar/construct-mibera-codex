@@ -8,62 +8,26 @@ date_added: "2024-06-04"
 
 # Lightning Bolt
 
-## Visual Properties
+## Visual Elements
 
+Earring of a lightning bolt in bright yellow, pointed sharp edges.
 
-**Image Files:**
-SS3_lightning bolt.png
-
-
-**Visual Description:** Earring of a lightning bolt in bright yellow, pointed sharp edges.
-
-**Dominant Colors:** Bright yellow.
-
-
----
+Dominant colors: Bright yellow.
 
 ## Cultural Context
 
+Lightning Bolt shaped accessory was a very common rave accessory.
 
-**Cultural Origin:** Lightning Bolt shaped accessory was a very common rave accessory.
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** 
-
-**Archetype Alignment:** In relation to the rave culture as well as a slight Zeus reference.
-
-
-**Swag Score:** 3
-
-
----
-
-## Connections
-
-**Ancestor:** 
+Lightning bolts are one of rave culture's most recycled visual motifs -- energy, electricity, and a subtle Zeus reference that ties into Mibera's ancient ancestor threads.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** June 4, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Archetype:** **Archetype Alignment:** In relation to the rave culture as well as a slight Zeus reference.
+**Swag Score:** 3
+**Date Added:** 2024-06-04

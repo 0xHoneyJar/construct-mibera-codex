@@ -8,62 +8,26 @@ date_added: "2024-07-10"
 
 # 90s brick phone
 
-## Visual Properties
+## Visual Elements
 
+an old-school phone; big in size with an antenna and buttons.
 
-**Image Files:**
-SS4_freetekno_90s Brick Phone.png
-
-
-**Visual Description:** an old-school phone; big in size with an antenna and buttons.
-
-**Dominant Colors:** black, white
-
-
----
+Dominant colors: black, white
 
 ## Cultural Context
 
+The chunky mobile phones of the 1990s were how ravers received last-minute text messages with party locations and warehouse addresses. Before smartphones and social media, a chain of SMS messages was the infrastructure that made illegal raves possible.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:** The chunky mobile phones of the 1990s were how ravers received last-minute text messages with party locations and warehouse addresses. Before smartphones and social media, a chain of SMS messages was the infrastructure that made illegal raves possible.
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [freetekno](../../../core-lore/archetypes.md#freetekno)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 4
-
-
----
-
-## Connections
-
-**Ancestor:** 
+The communication backbone of illegal raves. Before smartphones, SMS chains on these phones were how you found out where the party was.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** July 10, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Archetype:** freetekno
+**Swag Score:** 4
+**Date Added:** 2024-07-10

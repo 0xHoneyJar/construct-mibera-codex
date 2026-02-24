@@ -8,62 +8,26 @@ date_added: "2024-07-27"
 
 # Bear Mask
 
-## Visual Properties
+## Visual Elements
 
+Huge face mask in the shape of a bear head.
 
-**Image Files:**
-SS4_freetekno_Bear Mask.PNG
-
-
-**Visual Description:** Huge face mask in the shape of a bear head.
-
-**Dominant Colors:** Brown.
-
-
----
+Dominant colors: Brown.
 
 ## Cultural Context
 
+Smokey, the founder of Berachain, and Berachain.
 
-**Cultural Origin:** Smokey, the founder of Berachain, and Berachain.
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [Freetekno](../../../core-lore/archetypes.md#freetekno)
-
-**Archetype Alignment:** Smokey The Bera head
-
-
-**Swag Score:** 4
-
-
----
-
-## Connections
-
-**Ancestor:** 
+The bear is the spirit animal of Berachain. A full bear-head mask in the Freetekno archetype merges the ecosystem identity with the free party tradition of masked, anonymous revelry.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** July 27, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Archetype:** Freetekno
+**Swag Score:** 4
+**Date Added:** 2024-07-27

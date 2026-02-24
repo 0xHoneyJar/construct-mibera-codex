@@ -8,63 +8,27 @@ date_added: "2024-12-10"
 
 # Gold Hoop
 
-## Visual Properties
+## Visual Elements
 
+Circular earring with a flat curved shape inside of it and a red gem.
 
-**Image Files:**
-SS4_acidhouse_ancient_greek_Gold Hoop.png
-
-
-**Visual Description:** Circular earring with a flat curved shape inside of it and a red gem.
-
-**Dominant Colors:** Gold, red
-
-
----
+Dominant colors: Gold, red
 
 ## Cultural Context
 
+Gold hoop earrings are among the oldest forms of jewelry, with examples dating back to ancient Sumeria around 2500 BCE. In ancient Greece, gold hoops with gemstone accents were worn as symbols of wealth and divine favor. The style persisted through Roman, Byzantine, and Renaissance periods before becoming a staple of 20th-century fashion across diverse cultural communities.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [Acidhouse](../../../core-lore/archetypes.md#acidhouse)
-
-**Archetype Alignment:** Aesthetically in relation / alignment to one of Mibera’s ancestors, the Greek.
-
-
-**Swag Score:** 4
-
-
----
-
-## Connections
-
-**Ancestor:** [Greek](../../../core-lore/ancestors/greek.md)
-
+Ancient Greek gold hoops with gemstones -- this earring literally wears its ancestor lineage, connecting the Acidhouse archetype to one of Mibera's oldest cultural threads.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** December 10, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Archetype:** Acidhouse
+**Ancestor:** [Greek](../../../core-lore/ancestors/greek.md)
+**Swag Score:** 4
+**Date Added:** 2024-12-10

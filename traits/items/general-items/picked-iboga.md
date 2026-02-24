@@ -8,63 +8,25 @@ date_added: "2024-12-09"
 
 # picked iboga
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
-SS3_chicagodetroit_ancient_gabon_iboga.PNG
-
-
-**Visual Description:** a bright yellow small chilli-shaped fruit.
-
-**Dominant Colors:** yellow
-
-
----
+a bright yellow small chilli-shaped fruit.
 
 ## Cultural Context
 
+Iboga is a powerful psychoactive plant from Central Africa, used in Bwiti religious ceremonies in Gabon for spiritual initiation. Its active compound ibogaine is remarkable for its ability to interrupt opioid addiction, making it one of the most medically significant psychedelics known.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:** Iboga is a powerful psychoactive plant from Central Africa, used in Bwiti religious ceremonies in Gabon for spiritual initiation. Its active compound ibogaine is remarkable for its ability to interrupt opioid addiction, making it one of the most medically significant psychedelics known.
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [chicago detroit](../../../core-lore/archetypes.md#chicago-detroit)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 2
-
-
----
-
-## Connections
-
-**Ancestor:** [gabon](../../../core-lore/ancestors/gabon.md)
-
+A plant that can both open a spiritual doorway and interrupt opioid addiction. Iboga bridges the sacred and the clinical in a way no other substance in the collection does. Paired with the Gabon ancestor lineage.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** December 9, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Archetype:** chicago detroit
+**Ancestor:** [gabon](../../../core-lore/ancestors/gabon.md)
+**Swag Score:** 2
+**Date Added:** 2024-12-09

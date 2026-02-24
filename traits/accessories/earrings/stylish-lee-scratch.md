@@ -8,64 +8,30 @@ date_added: "2024-12-10"
 
 # Stylish Lee Scratch
 
-## Visual Properties
+## Visual Elements
 
+Two triangles with one upside-down colliding on top of each other forming what’s commonly known as the Star of David, with a blue colored eyeball in the middle.
 
-**Image Files:**
-SS3_chicagodetroit_modern_rastafarian_Lee Scratch.png
-
-
-**Visual Description:** Two triangles with one upside-down colliding on top of each other forming what’s commonly known as the Star of David, with a blue colored eyeball in the middle.
-
-**Dominant Colors:** Silver, blue
-
-
----
+Dominant colors: Silver, blue
 
 ## Cultural Context
 
+Lee "Scratch" Perry was a Jamaican reggae and dub music pioneer, renowned for his innovative production techniques and eccentric personality. Born Rainford Hugh Perry, he gained fame in the 1960s and 1970s, producing for The Wailers and creating hits like "Upsetter" with his Upsetters band. Known for his experimental studio work, including remixing and effects, he won a Grammy in 2003 for Jamaican E.T.
 
-**Cultural Origin:** Lee "Scratch" Perry was a Jamaican reggae and dub music pioneer, renowned for his innovative production techniques and eccentric personality. Born Rainford Hugh Perry, he gained fame in the 1960s and 1970s, producing for The Wailers and creating hits like "Upsetter" with his Upsetters band. Known for his experimental studio work, including remixing and effects, he won a Grammy in 2003 for Jamaican E.T.
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [Chicago Detroit](../../../core-lore/archetypes.md#chicago-detroit)
-
-**Archetype Alignment:** Lee Scratch Perry had an indirect but foundational influence on Chicago house and Detroit techno cultures through his pioneering dub techniques and experimental sound manipulation in the 1970s.
-
-
-**Swag Score:** 3
-
-
----
-
-## Connections
-
-**Ancestor:** [Rastafarian](../../../core-lore/ancestors/rastafarians.md)
-
+Lee "Scratch" Perry's dub production innovations directly influenced electronic music's use of reverb, delay, and remix culture -- making him an ancestor of the sounds Chicago Detroit was built on.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** December 10, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
+**Archetype:** Chicago Detroit
+**Ancestor:** [Rastafarian](../../../core-lore/ancestors/rastafarians.md)
+**Swag Score:** 3
+**Date Added:** 2024-12-10
 **Sources:**
 - https://www.metrotimes.com/music/dub-pioneer-lee-scratch-perry-brings-true-sonic-wizardry-to-
 - https://afropop.org/articles/lee-scratch-perrys-underground-truths
-
-**Summary:** 
-
----

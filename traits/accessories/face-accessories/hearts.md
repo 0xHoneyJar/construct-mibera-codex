@@ -7,56 +7,21 @@ date_added: null
 
 # Hearts
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
-
-
-**Visual Description:**
-
-**Dominant Colors:**
-
----
 
 ## Cultural Context
 
+This is a variant entry for the Hearts face accessory. Small drawn hearts on the face are a staple of anime-inspired beauty, e-girl aesthetics, and PFP collections, where face decorations serve as key differentiating traits.
 
-**Cultural Origin:**
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:**
-
-**Archetype Alignment:**
-
-
-**Swag Score:** 2
-
-## Connections
-
-**Ancestor:** 
+Variant of the Heart face accessory -- see heart.md for full context on this kawaii-inspired face decoration.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:**
-
-**Introduced By:**
-
-**Team Notes:**
-
-**Sources:**
-
-**Summary:**
-
----
+**Swag Score:** 2

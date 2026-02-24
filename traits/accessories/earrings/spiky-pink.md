@@ -8,62 +8,28 @@ date_added: "2024-12-10"
 
 # Spiky Pink
 
-## Visual Properties
+## Visual Elements
 
+Spiky pink small ring-shaped earring
 
-**Image Files:**
-SS3_spiky pink.png
-
-
-**Visual Description:** Spiky pink small ring-shaped earring
-
-**Dominant Colors:** Pink
-
-
----
+Dominant colors: Pink
 
 ## Cultural Context
 
+In the 2000s, cute spiky earrings were a staple in rave culture, reflecting its bold, rebellious aesthetic. Popularized in the late '90s and early 2000s club scenes, these edgy accessories are often seen in the DIY nature of fashion of the ravers.
 
-**Cultural Origin:** In the 2000s, cute spiky earrings were a staple in rave culture, reflecting its bold, rebellious aesthetic. Popularized in the late '90s and early 2000s club scenes, these edgy accessories are often seen in the DIY nature of fashion of the ravers.
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** 
-
-**Archetype Alignment:** In relation to the rave culture, especially in the 2000s, which is very much aligned with Mibera.
-
-
-**Swag Score:** 3
-
-
----
-
-## Connections
-
-**Ancestor:** 
+Spiky accessories are rave culture's version of wearable attitude -- cute enough to be playful, sharp enough to say you belong on the dancefloor at 3am.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** December 10, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
+**Archetype:** **Archetype Alignment:** In relation to the rave culture, especially in the 2000s, which is very much aligned with Mibera.
+**Swag Score:** 3
+**Date Added:** 2024-12-10
 **Sources:**
 - https://freedomravewear.com/blogs/freedom-rave-wear/the-rave-revolution-fashion-and-culture-i
-
-**Summary:** 
-
----

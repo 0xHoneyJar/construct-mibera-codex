@@ -8,62 +8,27 @@ date_added: "2024-06-22"
 
 # Bjork
 
-## Visual Properties
+## Visual Elements
 
+![Bjork](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)
 
-**Image Files:**
-![Bjork](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)/SS3_Bjork.webp)
+Red t-shirt with white text that reads “Enjoy COCK”.
 
-
-**Visual Description:** Red t-shirt with white text that reads “Enjoy COCK”.
-
-**Dominant Colors:** Red, white.
-
-
----
+Dominant colors: Red, white.
 
 ## Cultural Context
 
+Bjork Gudmundsdottir is an Icelandic singer, songwriter, and multimedia artist known for boundary-pushing music that blends electronic, classical, and avant-garde elements. The "Enjoy Cock" parody tee in the Coca-Cola font style has circulated as bootleg merch associated with provocative pop culture since the early 2000s.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:** 
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** 
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 3
-
-
----
-
-## Connections
-
-**Ancestor:** 
+Named for a style of provocative bootleg tee that has circulated in underground scenes for decades. The Coca-Cola font parody format is one of the most recognizable templates in countercultural merch.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** June 22, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Swag Score:** 3
+**Date Added:** 2024-06-22

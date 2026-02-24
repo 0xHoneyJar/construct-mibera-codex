@@ -7,20 +7,27 @@ date_added: "2024-08"
 
 # Simple Brown
 
+## Visual Elements
 
-**Image Files:**
 ![Simple Brown](https://mibera.fsn1.your-objectstorage.com/components/simple/simples%20for%20shadows/147_simple%20brown.webp)
 
-**Visual Description:** A basic solid brown t-shirt.
+A basic solid brown t-shirt.
 
-**Dominant Colors:** Brown
+Dominant colors: Brown
 
-**Archetype Affinity:** None (archetype-neutral). Brown resonates with earth-connected aesthetics — the bear, the soil, the DIY traveller ethos of Freetekno, and the Berachain bear identity.
+## Cultural Context
 
-**Color Symbolism:** Earth, the bear, the land. Brown is the color of the Bera — the foundational identity layer of the entire Berachain ecosystem. It also connects to bushcraft, festival mud, and the raw materiality of free party culture where the land itself is the venue.
+Brown is an earthy, grounded tone associated with natural materials and working-class clothing. In the collection, it adds warmth to the base-layer palette.
 
-**Styling Notes:** Warm and grounded. Creates visual continuity with brown-toned bear masks, leather accessories, and Aboriginal earth-pigment face paint. The most "bera-coded" of the simple shirts.
+<!-- justification
+## Justification
 
-**Date Added:** August 2024
+The brown tee brings an earthy, understated warmth to the simple shirt set. It pairs naturally with the collection's many nature- and tradition-themed traits.
+-->
 
 ---
+
+## Attribution
+
+**Swag Score:** 1
+**Date Added:** 2024-08

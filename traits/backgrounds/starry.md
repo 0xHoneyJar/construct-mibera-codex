@@ -6,36 +6,27 @@ date_added: "2024-06-07"
 
 # Starry
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
 ![Starry](https://mibera.fsn1.your-objectstorage.com/components/background__z10/Starry.webp)
 
+Solid black background with four shiny 4-points stars, and 9 glowing dots.
 
-**Visual Description:** Solid black background with four shiny 4-points stars, and 9 glowing dots.
+Dominant colors: Black, white.
 
-**Dominant Colors:** Black, white.
+## Cultural Context
 
+The night sky is the backdrop for outdoor raves and free parties — Freetekno teknivals under the stars.
 
----
+<!-- justification
+## Justification
 
-## Context
-
-
-**Cultural Origin:** 
-
-
-**Why This Matters:** The night sky is the backdrop for outdoor raves and free parties — Freetekno teknivals under the stars.
+The night sky is the natural backdrop for outdoor free parties — freetekno's defining environment.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** June 7, 2024
-
-**Introduced By:** Gumi ---
-
-**Team Notes:** 
-
----
+**Date Added:** 2024-06-07
+**Introduced By:** Gumi

@@ -8,62 +8,25 @@ date_added: "2024-12-10"
 
 # Bera Flower
 
-## Visual Properties
+## Visual Elements
 
+Earring with a white flower with pointed petals and 2 leaves.
 
-**Image Files:**
-SS2_bera flower.png
-
-
-**Visual Description:** Earring with a white flower with pointed petals and 2 leaves.
-
-**Dominant Colors:** White, green
-
-
----
+Dominant colors: White, green
 
 ## Cultural Context
 
+Flower motifs have been associated with counterculture since the 1960s flower power movement, which promoted peace and nonviolence. In rave culture, floral accessories became part of the festival aesthetic, often seen at events like outdoor trance gatherings and free parties. The 'Bera' prefix ties this to the Berachain ecosystem's bear-themed identity.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** 
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 2
-
-
----
-
-## Connections
-
-**Ancestor:** 
+A flower earring with the Bera name on it -- bridging the flower-power lineage of counterculture with Berachain's ecosystem branding.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** December 10, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Swag Score:** 2
+**Date Added:** 2024-12-10

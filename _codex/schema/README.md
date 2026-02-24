@@ -112,6 +112,55 @@ date_added: "August 13, 2024"
 | image | No | string | URL or filename |
 | date_added | No | string | Human-readable date |
 
+### 2x. Trait Body Template (Culture-Heavy Subcategories)
+
+**Applies to**: accessories, backgrounds, clothing, items/general-items, character-traits/tattoos
+
+Trait files in culture-heavy subcategories use a standardized body template below the YAML frontmatter. This mirrors the grail entry template (Section 7) adapted for visual traits.
+
+```markdown
+# {Name}
+
+## Visual Elements
+
+**Image:**
+![{Name}]({image-url})
+
+{What is depicted — visual description, dominant colors, notable details.}
+
+## Cultural Context
+
+{Real-world history, cultural origin, or subculture significance.
+Sourced claims. Why this object/style/reference matters.}
+
+## Justification
+
+{Why this trait exists in the Mibera collection. How it connects
+to the archetype, ancestor, or scene it represents.}
+
+---
+
+## Attribution
+
+**Archetype:** [{archetype}](link)
+**Swag Score:** {score}
+**Ancestor:** [{ancestor}](link) (if applicable)
+**Date Added:** {date}
+**Introduced By:** {name} (if known)
+**Team Notes:** {preserved from existing files}
+**Sources:** {preserved from existing files}
+```
+
+**Notes**:
+- YAML frontmatter is preserved as-is (not duplicated in body)
+- Empty Attribution fields are dropped, not preserved as blanks
+- Team notes and Discord sources are always preserved verbatim
+- All cultural claims should be Wikipedia-sourceable
+- Justification is simple and dry — why it's in the collection, not analysis
+- Files without meaningful cultural context may omit the Cultural Context section
+
+---
+
 ### 2c. Astrology Overlays
 
 **Path**: `traits/overlays/astrology/*.md`

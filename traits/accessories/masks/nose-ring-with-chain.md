@@ -8,62 +8,31 @@ date_added: "2024-06-19"
 
 # Nose Ring with Chain
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
 ![Nose Ring with Chain](https://mibera.fsn1.your-objectstorage.com/components/Masks/SS3_milady_Nose Ring With Chain.webp)
 
+Two golden slim chains connected to a ring on one end..
 
-**Visual Description:** Two golden slim chains connected to a ring on one end..
-
-**Dominant Colors:** Gold
-
-
----
+Dominant colors: Gold
 
 ## Cultural Context
 
+Grime, hip-hop, Punjabi garage party scene.
 
-**Cultural Origin:** Grime, hip-hop, Punjabi garage party scene.
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [Milady](../../../core-lore/archetypes.md#milady)
-
-**Archetype Alignment:** Rave culture as well as relevance to one of our ancestors and archetypes.
-
-
-**Swag Score:** 3
-
-
----
-
-## Connections
-
-**Ancestor:** 
+Nose chains sit where grime, hip-hop, and Punjabi party culture overlap. The Milady archetype feeds on these cross-cultural collisions, wearing borrowed aesthetics without pretending to own them.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** June 19, 2024
-
+**Archetype:** Milady
+**Swag Score:** 3
+**Date Added:** 2024-06-19
 **Introduced By:** Jani
-
-**Team Notes:** 
-
 **Sources:**
 - https://discord.com/channels/1133935527855399053/1160911774086873089/11609139145786
-
-**Summary:** 
-
----

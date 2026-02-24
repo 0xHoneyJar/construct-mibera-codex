@@ -8,63 +8,27 @@ date_added: "2025-01-10"
 
 # arundo donax sprig
 
-## Visual Properties
+## Visual Elements
 
+a handful of brittly sprig / plant
 
-**Image Files:**
-SS1_acidhouse_ancient_nativeAmerican_arundo donax.PNG
-
-
-**Visual Description:** a handful of brittly sprig / plant
-
-**Dominant Colors:** green
-
-
----
+Dominant colors: green
 
 ## Cultural Context
 
+Arundo donax, or giant reed, contains trace amounts of DMT and related tryptamines. Some researchers have speculated it may have been used in ancient Mediterranean psychedelic preparations, though this remains debated.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:** Arundo donax, or giant reed, contains trace amounts of DMT and related tryptamines. Some researchers have speculated it may have been used in ancient Mediterranean psychedelic preparations, though this remains debated.
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [acidhouse](../../../core-lore/archetypes.md#acidhouse)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 1
-
-
----
-
-## Connections
-
-**Ancestor:** [native american](../../../core-lore/ancestors/native-american.md)
-
+A common Mediterranean reed hiding trace tryptamines represents the collection's theme that psychoactive chemistry is embedded in ordinary landscapes, waiting to be noticed.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** January 10, 2025
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Archetype:** acidhouse
+**Ancestor:** [native american](../../../core-lore/ancestors/native-american.md)
+**Swag Score:** 1
+**Date Added:** 2025-01-10

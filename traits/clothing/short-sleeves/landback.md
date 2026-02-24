@@ -8,63 +8,31 @@ date_added: "2024-12-10"
 
 # Landback
 
-## Visual Properties
+## Visual Elements
 
+![modern_nativeAmerican_Landback](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)
 
-**Image Files:**
-![modern_nativeAmerican_Landback](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)/SS3_freetekno_modern_nativeAmerican_Landback.webp)
+Bright orange t-shirt with graphic of the word “landback” lined up vertically.
 
-
-**Visual Description:** Bright orange t-shirt with graphic of the word “landback” lined up vertically.
-
-**Dominant Colors:** White, yellow.
-
-
----
+Dominant colors: White, yellow.
 
 ## Cultural Context
 
+Original Landlords
+<!-- justification
+## Justification
 
-**Cultural Origin:** Original Landlords
-
-**Era:** Modern
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [Freetekno](../../../core-lore/archetypes.md#freetekno)
-
-**Archetype Alignment:** It’s an Indigenous / Native American based brand.
-
-
-**Swag Score:** 3
-
-
----
-
-## Connections
-
-**Ancestor:** [Native American](../../../core-lore/ancestors/native-american.md)
-
+Land Back represents Indigenous sovereignty -- the most fundamental territorial claim there is. The collection documents liberation movements from around the world, and Indigenous land rights are central to that catalog.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** December 10, 2024
-
+**Archetype:** Freetekno
+**Ancestor:** [Native American](../../../core-lore/ancestors/native-american.md)
+**Swag Score:** 3
+**Date Added:** 2024-12-10
 **Introduced By:** Jani
-
-**Team Notes:** 
-
 **Sources:**
 - https://rvso78.com/product/land-back-thank-you-long-sleeve-tee/
-
-**Summary:** 
-
----

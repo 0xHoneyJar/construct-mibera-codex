@@ -70,7 +70,6 @@ Masks span the full SS1-SS5 rarity range, with the rarest (SS5) being the most c
 - [CFang Face](cfang-face.md)
 - [Henlo Mask](henlo-mask.md)
 - [White Mask](white-mask.md)
-- [Chulym Beekeper Hat](chulym-beekeper-hat.md)
 - [Founders Mask](founders-mask.md)
 - [Faceless Galaxy](faceless-galaxy.md)
 - [Chulym Beekeeper Hat](chulym-beekeeper-hat.md)

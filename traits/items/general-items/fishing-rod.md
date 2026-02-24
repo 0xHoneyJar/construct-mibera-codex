@@ -8,62 +8,26 @@ date_added: "2024-07-07"
 
 # fishing rod
 
-## Visual Properties
+## Visual Elements
 
+a fishing rod with yellow strings and brown handle.
 
-**Image Files:**
-SS3_freetekno_Fishing Rod.png
-
-
-**Visual Description:** a fishing rod with yellow strings and brown handle.
-
-**Dominant Colors:** brown, yellow, dark silver
-
-
----
+Dominant colors: brown, yellow, dark silver
 
 ## Cultural Context
 
+Free party sound systems like Spiral Tribe lived a nomadic lifestyle, often camping in rural areas between events. Fishing, foraging, and other low-cost outdoor activities filled the gaps between raves. The fishing rod represents this side of freetekno life: not the party itself, but the DIY self-sufficiency of the traveling community.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [freetekno](../../../core-lore/archetypes.md#freetekno)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 5
-
-
----
-
-## Connections
-
-**Ancestor:** 
+The oddball that proves the freetekno archetype is a lifestyle, not just a party. Sound system crews lived between raves, and this is what they did in between.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** July 7, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Archetype:** freetekno
+**Swag Score:** 5
+**Date Added:** 2024-07-07

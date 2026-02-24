@@ -8,59 +8,27 @@ date_added: "2024-06-16"
 
 # Harajuku
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
 ![Harajuku](https://mibera.fsn1.your-objectstorage.com/components/glasses__z140/milady_Harajuku.webp)
 
-
-**Visual Description:** red frames with orange lenses.
-
-**Dominant Colors:** 
-
-
----
+red frames with orange lenses.
 
 ## Cultural Context
 
+Harajuku is a district in Shibuya, Tokyo, renowned since the 1980s as an epicenter of Japanese youth fashion and street style. Harajuku fashion is characterized by bold colors, eclectic layering, and genre-mixing that draws from punk, gothic lolita, visual kei, and kawaii aesthetics.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [Milady](../../../core-lore/archetypes.md#milady)
-
-**Archetype Alignment:** This is an existing Milady Maker trait.
-
-
-**Swag Score:** 2
-
-## Connections
-
-**Ancestor:** 
+The Milady archetype channels the same energy as Harajuku street style: fearless, self-referential, and totally unconcerned with whether outsiders get it.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** June 16, 2024
-
+**Archetype:** Milady
+**Swag Score:** 2
+**Date Added:** 2024-06-16
 **Introduced By:** Tez
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----

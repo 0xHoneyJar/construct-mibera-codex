@@ -8,62 +8,29 @@ date_added: "2025-03-22"
 
 # Arc Jersey
 
-## Visual Properties
+## Visual Elements
 
+![arc jersey](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(LONG)
 
-**Image Files:**
-![arc jersey](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(LONG)/SS3_arc%20jersey.webp)
+Black jersey with short sleeves and the number 69 big in the middle under the text "ARC" in purple. On each sleeve are thick stripes in light grey and purple.
 
-
-**Visual Description:** Black jersey with short sleeves and the number 69 big in the middle under the text "ARC" in purple. On each sleeve are thick stripes in light grey and purple.
-
-**Dominant Colors:** Black, purple, lightgrey
-
-
----
+Dominant colors: Black, purple, lightgrey
 
 ## Cultural Context
 
+ARC Stellars is a generative NFT collection that features futsal-inspired jerseys as one of its signature traits. The Arc Jersey in Mibera directly references ARC Stellars' Futsal Jersey trait, with the "ARC" text and sporty striped sleeves paying homage to the original design. Futsal — the fast-paced, small-sided version of football — has deep roots in South American and European street culture, and its jerseys have crossed over into streetwear and NFT fashion.
 
-**Cultural Origin:** The number 69 carries dual significance — as a countercultural symbol and as the year 1969, the single most concentrated birth year in the Mibera timeline with 222 births. The jersey format and bold numbering reference both sports culture and the numbered rave flyers of the early 1990s. The dark colorway with purple accents grounds it in the nocturnal palette of club culture.
+<!-- justification
+## Justification
 
-**Era:** Contemporary 
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** 
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 3
-
-
----
-
-## Connections
-
-**Ancestor:** 
+This is a direct cross-collection tribute to ARC Stellars.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** March 22, 2025
-
-**Introduced By:** Zergucci
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Swag Score:** 3
+**Date Added:** 2025-03-22
+**Introduced By:** Jani
+**Team Notes:** Jani (deepname99) owns ARC Stellars #852, which has the Futsal Jersey trait this piece references.

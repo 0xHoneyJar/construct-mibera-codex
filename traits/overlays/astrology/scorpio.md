@@ -7,42 +7,21 @@ element: Water
 
 # Scorpio
 
-
-## Sun Sign
-
+## Visual Elements
 
 ![Sun Scorpio](https://mibera.fsn1.your-objectstorage.com/components/Sun/Sun%20Scorpio.webp)
 
-**Date Range:** October 23 - November 21
 
-**Glyph:** ♏
+## Cultural Context
 
-**Element:** Water
+Scorpio (October 23 -- November 21) is the eighth sign of the Western zodiac, a water sign ruled by Pluto (traditionally Mars). Symbolized by the Scorpion, it is associated with transformation, intensity, and the exploration of hidden depths. Scorpio natives are traditionally described as passionate, resourceful, and unafraid of confrontation.
 
----
+<!-- justification
+## Justification
 
-
-## Moon Sign
-
-
-![Moon Scorpio](https://mibera.fsn1.your-objectstorage.com/components/Moon/Moon%20Scorpio.webp)
-
-**Glyph:** ♏
-
-**Element:** Water
+At the modifier layer, a Scorpio overlay introduces intensity and transformative undertones to a Mibera's existing signals, shading the archetype and ancestor without supplanting them.
+-->
 
 ---
 
-
-## Rising Sign
-
-
-![Rising Scorpio](https://mibera.fsn1.your-objectstorage.com/components/Rising/Rising%20Scorpio.webp)
-
-**Glyph:** ♏
-
-**Element:** Water
-
-**1/1 Grail:** [Scorpio Grail (#235)](../../../grails/scorpio.md)
-
----
+## Attribution

@@ -46,7 +46,7 @@ Traits are signals, not scripts. A Mibera born in 1352 CE with a Greek ancestor 
 
 Reference `_codex/data/scope.json` for programmatic scope.
 
-**What the codex tracks**: 10,000 Miberas, 42 canonical Grails + community Grails, 1,257 traits, 78 drugs, 78 tarot cards, 33 ancestors, 11 birthday eras, 32 special collections, 10 Fractures
+**What the codex tracks**: 10,000 Miberas, 42 canonical Grails + community Grails, 1,337 visual traits (incl. 78 drugs), 78 tarot cards, 33 ancestors, 11 birthday eras, 32 special collections, 10 Fractures
 
 **What the codex does NOT track**: ownership/wallets, on-chain state (transfers, marketplace), community member identities, price/market data
 
@@ -72,7 +72,7 @@ Reference `_codex/data/scope.json` for programmatic scope.
 | Directory | Content | Count |
 |-----------|---------|-------|
 | `miberas/` | Individual Mibera files | 10,000 |
-| `traits/` | Visual trait files (18 subcategories) | 1,257 |
+| `traits/` | Visual trait files (18 subcategories) | 1,337 |
 | `drugs-detailed/` | Drug/molecule documentation | 78 |
 | `core-lore/` | Archetypes, ancestors, tarot, philosophy | ~120 |
 | `birthdays/` | Birthday era classifications | 11 |

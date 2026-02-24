@@ -8,62 +8,26 @@ date_added: "2024-12-09"
 
 # scatter cat
 
-## Visual Properties
+## Visual Elements
 
+a box with cartoonish looking black cat in it with light yellow eyes.
 
-**Image Files:**
-SS3_milady_Scatter Cat.PNG
-
-
-**Visual Description:** a box with cartoonish looking black cat in it with light yellow eyes.
-
-**Dominant Colors:** light brown, very dark navy (almost black), light yellow
-
-
----
+Dominant colors: light brown, very dark navy (almost black), light yellow
 
 ## Cultural Context
 
+A cartoonish black cat in a box. Cats are a recurring motif in internet culture and the broader Milady aesthetic. The "scatter" name and box presentation suggest a collectible or gacha-style figure.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [milady](../../../core-lore/archetypes.md#milady)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 1
-
-
----
-
-## Connections
-
-**Ancestor:** 
+Gacha-style boxed figure adding feline energy to a collection dominated by bear and anime plushies.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** December 9, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Archetype:** milady
+**Swag Score:** 1
+**Date Added:** 2024-12-09

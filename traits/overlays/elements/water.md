@@ -6,17 +6,21 @@ quadrant: Southern (lat < 0) and Western (lon < 0)
 
 # Water
 
+## Visual Elements
 
 ![Water](https://mibera.fsn1.your-objectstorage.com/components/Elements/Water.webp)
 
-**Mibera Geography Associations:** Southwest quadrant — South America, parts of Antarctica, Atlantic Ocean
 
-**Real World Astrological Associations:** Cancer, Scorpio, Pisces
+## Cultural Context
 
-**Quadrant:** Southern (lat < 0) and Western (lon < 0)
+Water is one of the four classical elements in Western philosophy, featured in the cosmologies of Thales, Empedocles, and Aristotle. It represents fluidity, emotion, and the unconscious. In Chinese wu xing, water (shui) is associated with wisdom and adaptability; in Hindu philosophy, apas embodies purification and flow. Across cultures, water symbolizes the depths of feeling, intuition, and the cyclical nature of life.
 
-**Qualities:** Emotion, intuition, flow, dreams, the unconscious
+<!-- justification
+## Justification
 
-**1/1 Grail:** [Water Grail (#6761)](../../../grails/water.md)
+As a textural signal in the hierarchy, the Water element lends emotional depth and fluidity to a Mibera's expression, shaping how the archetype and ancestor signals surface.
+-->
 
 ---
+
+## Attribution

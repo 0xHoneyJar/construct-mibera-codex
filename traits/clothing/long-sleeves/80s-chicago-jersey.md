@@ -7,56 +7,21 @@ date_added: null
 
 # 80s Chicago Jersey
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
-
-
-**Visual Description:**
-
-**Dominant Colors:**
-
----
 
 ## Cultural Context
 
+The Chicago Bulls were the dominant NBA franchise of the late 1980s and 1990s, led by Michael Jordan during their six-championship dynasty. The 1980s jerseys represent a period when Chicago's sports culture and house music scene were both exploding, sharing the same city energy and often the same audiences.
 
-**Cultural Origin:**
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:**
-
-**Archetype Alignment:**
-
-
-**Swag Score:** 3
-
-## Connections
-
-**Ancestor:** 
+Chicago sports culture ran parallel to the birth of house music in the same city. A Bulls-era jersey grounds the collection in the streetwear of the people who were actually at the Warehouse.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:**
-
-**Introduced By:**
-
-**Team Notes:**
-
-**Sources:**
-
-**Summary:**
-
----
+**Swag Score:** 3

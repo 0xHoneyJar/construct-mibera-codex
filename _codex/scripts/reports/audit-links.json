@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-02-20T21:32:53Z",
-  "files_checked": 11608,
-  "total_links": 249853,
-  "broken_links": 5,
+  "timestamp": "2026-02-23T23:59:15Z",
+  "files_checked": 11612,
+  "total_links": 249532,
+  "broken_links": 13,
   "issues": [
     {
       "file": "PROCESS.md",
@@ -23,6 +23,38 @@
     {
       "file": "BUTTERFREEZONE.md",
       "target": "core-lore/README.md"
+    },
+    {
+      "file": "traits/items/general-items/README.md",
+      "target": "zeus.md"
+    },
+    {
+      "file": "traits/items/general-items/README.md",
+      "target": "icebeargy.md"
+    },
+    {
+      "file": "traits/items/general-items/README.md",
+      "target": "dcf.md"
+    },
+    {
+      "file": "special-collections/cypherpunk-floppies/README.md",
+      "target": "../../traits/items/general-items/dcf.md"
+    },
+    {
+      "file": "special-collections/cypherpunk-floppies/README.md",
+      "target": "../../traits/items/general-items/icebeargy.md"
+    },
+    {
+      "file": "miberas/1508.md",
+      "target": "../traits/items/general-items/zeus.md"
+    },
+    {
+      "file": "miberas/6140.md",
+      "target": "../traits/items/general-items/icebeargy.md"
+    },
+    {
+      "file": "miberas/0347.md",
+      "target": "../traits/items/general-items/dcf.md"
     }
   ]
 }

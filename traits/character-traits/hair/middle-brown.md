@@ -6,31 +6,23 @@ date_added: "2024-06-15"
 
 # middle brown
 
-## Visual Properties
+## Visual Elements
 
+a slicked back mohawk in brown.
 
-**Image Files:**
-Middle Brown__w6.png
+## Cultural Context
 
+The middle style is a slicked-back mohawk — hair styled upward and back along the center of the head. This bridges the gap between the punk mohawk's radical verticality and the conventional slicked-back look, creating a shape that reads as both edgy and controlled.
 
-**Visual Description:** a slicked back mohawk in brown.
+<!-- justification
+## Justification
 
-**Dominant Colors:** brown
-
----
-
-## Connections
-
-**Ancestor:** 
+Controlled rebellion — the slicked-back mohawk bridges punk attitude with polished restraint.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** June 15, 2024
-
+**Date Added:** 2024-06-15
 **Introduced By:** Gumi
-
-**Team Notes:** 
-
----

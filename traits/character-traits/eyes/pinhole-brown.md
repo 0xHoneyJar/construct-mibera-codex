@@ -6,31 +6,25 @@ date_added: "2024-06-03"
 
 # pinhole brown
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
 ![Pinhole Brown](https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/Pinhole%20Brown__w7.webp)
 
+brown eyes with constricted pupils, or usually known as pinpoint pupils.
 
-**Visual Description:** brown eyes with constricted pupils, or usually known as pinpoint pupils.
+## Cultural Context
 
-**Dominant Colors:** brown
+Pinhole eyes feature constricted, pinpoint pupils — the opposite of dilation. Pupil constriction (miosis) is a physiological effect of opioids and certain other substances, and in character art conveys shock, fear, or an intensely narrowed focus.
 
----
+<!-- justification
+## Justification
 
-## Connections
-
-**Ancestor:** 
+Constricted pupils signal shock or opioid influence — the pharmacological opposite of ecstasy eyes, completing the substance spectrum.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** June 3, 2024
-
+**Date Added:** 2024-06-03
 **Introduced By:** Gumi
-
-**Team Notes:** 
-
----

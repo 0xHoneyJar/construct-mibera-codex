@@ -8,63 +8,27 @@ date_added: "2024-12-09"
 
 # piper methysticum
 
-## Visual Properties
+## Visual Elements
 
+a big piece of leaf.
 
-**Image Files:**
-SS3_acidhouse_polynesian_aboriginal_Piper Methysticum.PNG
-
-
-**Visual Description:** a big piece of leaf.
-
-**Dominant Colors:** green
-
-
----
+Dominant colors: green
 
 ## Cultural Context
 
+Piper methysticum is the kava plant, used across the Pacific Islands for centuries in social and ceremonial drinking rituals. Its calming, euphoric effects make it a communal intoxicant built around shared stillness rather than the stimulant-driven movement of rave culture.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:** Piper methysticum is the kava plant, used across the Pacific Islands for centuries in social and ceremonial drinking rituals. Its calming, euphoric effects make it a communal intoxicant built around shared stillness rather than the stimulant-driven movement of rave culture.
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [acidhouse](../../../core-lore/archetypes.md#acidhouse)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 3
-
-
----
-
-## Connections
-
-**Ancestor:** [polynesian](../../../core-lore/ancestors/polynesian.md), [aboriginal](../../../core-lore/ancestors/aboriginal.md)
-
+Kava represents a different model of communal intoxication: stillness instead of movement, calm instead of stimulation, offering a counterpoint to the rave's frenetic energy.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** December 9, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Archetype:** acidhouse
+**Ancestor:** [polynesian](../../../core-lore/ancestors/polynesian.md), [aboriginal](../../../core-lore/ancestors/aboriginal.md)
+**Swag Score:** 3
+**Date Added:** 2024-12-09

@@ -8,62 +8,26 @@ date_added: "2024-07-25"
 
 # Catboy Ears
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
 ![Catboy Ears](https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS3_milady_Catboy%20Ears.webp)
 
-
-**Visual Description:** Black headband of cat ears; pointed triangular shape with soft edges, light pink in color on the inner part.
-
-**Dominant Colors:** Black
-
-
----
+Black headband of cat ears; pointed triangular shape with soft edges, light pink in color on the inner part.
 
 ## Cultural Context
 
+Cat ear headbands are a defining accessory of anime-influenced internet culture, particularly within the Milady and e-girl aesthetics. Originating in Japanese otaku and cosplay culture, they became mainstream through Harajuku fashion and later spread globally via social media and Twitch streaming culture.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [Milady](../../../core-lore/archetypes.md#milady)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 3
-
-
----
-
-## Connections
-
-**Ancestor:** 
+Catboy ears are core Milady — the anime-internet crossover accessory that went from niche cosplay to defining an entire online aesthetic.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** July 25, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Archetype:** Milady
+**Swag Score:** 3
+**Date Added:** 2024-07-25

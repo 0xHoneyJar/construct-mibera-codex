@@ -8,62 +8,31 @@ date_added: "2024-06-22"
 
 # LSD Made Me a Prostitute
 
-## Visual Properties
+## Visual Elements
 
+![LSD Made Me A Prostitute](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)
 
-**Image Files:**
-![LSD Made Me A Prostitute](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)/SS4_freetekno_LSD%20Made%20Me%20A%20Prostitute.webp)
+Black t-shirt with old-school graphic that focuses on the text “LSD MADE ME A PROSTITUTE”.
 
-
-**Visual Description:** Black t-shirt with old-school graphic that focuses on the text “LSD MADE ME A PROSTITUTE”.
-
-**Dominant Colors:** Black, white.
-
-
----
+Dominant colors: Black, white.
 
 ## Cultural Context
 
+Sensationalist anti-drug headlines from mid-20th century tabloids have been recycled as ironic t-shirt slogans since the punk era. The format -- outrageous drug claim in bold type -- is one of the oldest templates in counterculture merch, turning moral panic into wearable comedy.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:** 
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [Freetekno](../../../core-lore/archetypes.md#freetekno)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 4
-
-
----
-
-## Connections
-
-**Ancestor:** 
+Tabloid drug scare headlines turned into t-shirts is one of the oldest moves in punk and rave merch. This shirt reclaims moral panic as fashion, which is exactly what counterculture does.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** June 22, 2024
-
+**Archetype:** Freetekno
+**Swag Score:** 4
+**Date Added:** 2024-06-22
 **Introduced By:** Jani
-
-**Team Notes:** 
-
 **Sources:**
 - https://discord.com/channels/1133935527855399053/1143684645393797200/11674678269829
-
-**Summary:** 
-
----

@@ -6,36 +6,26 @@ date_added: "2025-03-11"
 
 # Poppy Field
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
 ![Poppy Field](https://mibera.fsn1.your-objectstorage.com/components/background__z10%20%28SCENE%29/poppy%20field.webp)
 
+Simple scenery of a field of poppies that are yet to bloom. Bright blue sky in the background.
 
-**Visual Description:** Simple scenery of a field of poppies that are yet to bloom. Bright blue sky in the background.
+Dominant colors: Green, blue.
 
-**Dominant Colors:** Green, blue.
+## Cultural Context
 
+Source of opium, one of humanity's oldest psychoactive substances.
 
----
+<!-- justification
+## Justification
 
-## Context
-
-
-**Cultural Origin:** 
-
-
-**Why This Matters:** Source of opium, one of humanity's oldest psychoactive substances.
+The poppy is the source of opium, one of humanity's oldest psychoactive substances — a direct reference in the drug-molecule dimension.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** March 11, 2025
-
-**Introduced By:** ---
-
-**Team Notes:** 
-
----
+**Date Added:** 2025-03-11

@@ -8,62 +8,27 @@ date_added: "2025-03-18"
 
 # BM2C
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
 ![SS2 BM2C](https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS2_BM2C.webp)
 
+Soft pink cap with bm2c logo and text in white; a silhouette stickman of someone with curved ears running inside of a square frame.
 
-**Visual Description:** Soft pink cap with bm2c logo and text in white; a silhouette stickman of someone with curved ears running inside of a square frame.
-
-**Dominant Colors:** Soft pink, white
-
-
----
+Dominant colors: Soft pink, white
 
 ## Cultural Context
 
+BM2C is an art project on Berachain with a very quirky sense of humour and distinct online persona. Launched an NFT collection that was available for minting on February 11th.
 
-**Cultural Origin:** BM2C is an art project on Berachain with a very quirky sense of humour and distinct online persona. Launched an NFT collection that was available for minting on February 11th.
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** 
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 2
-
-
----
-
-## Connections
-
-**Ancestor:** 
+BM2C is one of Berachain's quirkier art projects — the kind of weird, endearing community creation that earns a hat in the collection.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** March 18, 2025
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Swag Score:** 2
+**Date Added:** 2025-03-18

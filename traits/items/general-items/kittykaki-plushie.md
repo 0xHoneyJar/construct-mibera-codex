@@ -8,62 +8,26 @@ date_added: "2024-07-12"
 
 # kittykaki plushie
 
-## Visual Properties
+## Visual Elements
 
+a plushie of a pale female character with big blue eyes, cat-like mouth, short blue hair with bangs and cat-like ears; wearing black / very dark green clothing with white fur / accent.
 
-**Image Files:**
-SS4_milady_Kittykaki Plushie.png
-
-
-**Visual Description:** a plushie of a pale female character with big blue eyes, cat-like mouth, short blue hair with bangs and cat-like ears; wearing black / very dark green clothing with white fur / accent.
-
-**Dominant Colors:** black, blue, dusky pink
-
-
----
+Dominant colors: black, blue, dusky pink
 
 ## Cultural Context
 
+Kittykaki is a character from the Berachain ecosystem, depicted as a pale female figure with blue hair and cat-like features. The plushie format follows the collection's pattern of rendering ecosystem mascots as kawaii collectibles.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [milady](../../../core-lore/archetypes.md#milady)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 4
-
-
----
-
-## Connections
-
-**Ancestor:** 
+Berachain ecosystem character bridging the bear world with anime cat-girl aesthetics.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** July 12, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Archetype:** milady
+**Swag Score:** 4
+**Date Added:** 2024-07-12

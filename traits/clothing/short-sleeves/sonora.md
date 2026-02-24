@@ -8,62 +8,31 @@ date_added: "2024-06-22"
 
 # Sonora
 
-## Visual Properties
+## Visual Elements
 
+![Sonora](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)
 
-**Image Files:**
-![Sonora](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)/SS2_milady_Sonora.webp)
+Black t-shirt with white text that reads “I HELD HANDS WITH MILADY SONORA AT THE MILADY RAVE” on it .
 
-
-**Visual Description:** Black t-shirt with white text that reads “I HELD HANDS WITH MILADY SONORA AT THE MILADY RAVE” on it .
-
-**Dominant Colors:** Black, white.
-
-
----
+Dominant colors: Black, white.
 
 ## Cultural Context
 
+Part of the Milady Rave souvenir tee series. Milady Sonora is a specific character or figure within the Milady Maker universe. The confessional format -- I held hands with Milady Sonora at the rave -- treats the Milady characters as real people you might meet on the dancefloor.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:** 
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [Milady](../../../core-lore/archetypes.md#milady)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 2
-
-
----
-
-## Connections
-
-**Ancestor:** 
+Holding hands with a specific Milady character at a rave. This shirt treats NFT avatars as real presences in physical space, which is exactly what the community believes.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** June 22, 2024
-
+**Archetype:** Milady
+**Swag Score:** 2
+**Date Added:** 2024-06-22
 **Introduced By:** Jani
-
-**Team Notes:** 
-
 **Sources:**
 - https://discord.com/channels/1133935527855399053/1153410250175676488/11699665482245
-
-**Summary:** 
-
----

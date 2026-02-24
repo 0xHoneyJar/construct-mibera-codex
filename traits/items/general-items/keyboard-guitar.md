@@ -8,62 +8,24 @@ date_added: "2024-07-13"
 
 # keyboard guitar
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
-SS5_chicagodetroit_Keyboard Guitar.png
-
-
-**Visual Description:** a keyboard guitar, in light grey, held by the top handle.
-
-**Dominant Colors:** light grey
-
-
----
+a keyboard guitar, in light grey, held by the top handle.
 
 ## Cultural Context
 
+The keytar blurs the line between guitar showmanship and synthesizer technology — portable enough for stage antics, electronic enough for the scene.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:** The keytar blurs the line between guitar showmanship and synthesizer technology — portable enough for stage antics, electronic enough for the scene.
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [chicago detroit](../../../core-lore/archetypes.md#chicago-detroit)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 5
-
-
----
-
-## Connections
-
-**Ancestor:** 
+The keytar is a transitional fossil — the moment rock showmanship met synthesizer technology. It marks the exact cultural hinge between guitar music and electronic music in the 1980s.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** July 13, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Archetype:** chicago detroit
+**Swag Score:** 5
+**Date Added:** 2024-07-13

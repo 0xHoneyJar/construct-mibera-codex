@@ -8,62 +8,28 @@ date_added: "2024-12-10"
 
 # Beradrome 1
 
-## Visual Properties
+## Visual Elements
 
+![Beradrome 1](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)
 
-**Image Files:**
-![Beradrome 1](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)/SS3_milady_Beradrome%201.webp)
+Black t-shirt with a beraland logo on it. A bear head with sparkly almond eyes wearing a purple-green bike helmet..
 
-
-**Visual Description:** Black t-shirt with a beraland logo on it. A bear head with sparkly almond eyes wearing a purple-green bike helmet..
-
-**Dominant Colors:** Black, brown, purple.
-
-
----
+Dominant colors: Black, brown, purple.
 
 ## Cultural Context
 
+Beradrome is a decentralized exchange and liquidity hub in the Berachain ecosystem. The name is a portmanteau of Bera and Velodrome, referencing the cycling-themed DEX model. The bear head with a bike helmet reflects this cycling motif.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:** 
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [Milady](../../../core-lore/archetypes.md#milady)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 3
-
-
----
-
-## Connections
-
-**Ancestor:** 
+Beradrome is core Berachain DeFi infrastructure. Representing ecosystem protocols as wearable merch documents the community's financial layer alongside its cultural one.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** December 10, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Archetype:** Milady
+**Swag Score:** 3
+**Date Added:** 2024-12-10

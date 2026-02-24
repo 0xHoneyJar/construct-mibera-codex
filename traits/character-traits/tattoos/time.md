@@ -8,62 +8,24 @@ date_added: "2024-08-10"
 
 # Time
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
 ![Time](https://mibera.fsn1.your-objectstorage.com/components/tattoos__z125/ancient_mongolian_Time.webp)
 
+(would like to take a bit more time thinking of a desc for this one).
 
-**Visual Description:** (would like to take a bit more time thinking of a desc for this one).
-
-**Dominant Colors:** black
-
----
+Dominant colors: black
 
 ## Cultural Context
+<!-- justification
+## Justification
 
-
-**Cultural Origin:** 
-
-**Era:** Ancient
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** 
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 
-
-
----
-
-## Connections
-
-**Ancestor:** [Mongolian](../../../core-lore/ancestors/mongolian.md)
-
+Time rendered through a Mongolian lens reflects the nomadic worldview where cycles matter more than endpoints -- it grounds the Mongolian ancestor lineage in a philosophy of eternal movement.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** August 10, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Ancestor:** [Mongolian](../../../core-lore/ancestors/mongolian.md)
+**Date Added:** 2024-08-10

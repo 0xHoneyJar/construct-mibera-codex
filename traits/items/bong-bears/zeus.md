@@ -1,31 +1,27 @@
 ---
 name: Zeus
-image: SS5_bongbear_Zeus.png
-date_added: "2024-12-09"
+archetype: "**Archetype Alignment:**"
+swag_score: 5
+date_added: null
 ---
 
 # Zeus
 
-## Visual Properties
+## Visual Elements
 
 
-**Image Files:**
-SS5_bongbear_Zeus.png
+## Cultural Context
 
-**Visual Description:** Brown bear wearing a white toga with blue trim, a golden halo, a medallion with an Omega symbol in a golden circlel; a wide rounded horseshoe shape with a flat base, and golden vine crown around its head. The bear is holding a yellow lightning bolt and has a long tied beard. A plushie based on [this Bong Bear](https://opensea.io/assets/ethereum/0x495f947276749ce646f68ac8c248420045cb7b5e/66075445032688988859229341194671037535804503065310441849644897978688615743489).
+Zeus is a named character from the Bong Bears collection, referencing the king of the Olympian gods in Greek mythology who ruled over the sky and wielded thunderbolts. In Greek religion, Zeus was the supreme deity, father of gods and mortals, and the enforcer of cosmic justice. Bong Bears is one of the foundational NFT collections in the Berachain ecosystem, and naming a bear after the most powerful figure in the Greek pantheon positions it as a prestige piece within the collection.
 
-**Dominant Colors:** Brown, white, yellow / golden.
+<!-- justification
+## Justification
 
+Naming a Bong Bear after the king of the gods signals top-tier status in the collection, and the swag score of 5 matches the mythological weight Zeus carries as a held-item plushie.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** December 9, 2024
-
-**Introduced By:** Jani
-
-**Team Notes:** 
-
-
----
+**Swag Score:** 5

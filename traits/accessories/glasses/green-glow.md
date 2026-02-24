@@ -8,59 +8,29 @@ date_added: "2024-06-18"
 
 # green glow
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
 ![Green Glow](https://mibera.fsn1.your-objectstorage.com/components/glasses__z140/chicagodetroit_Green Glow.webp)
 
-
-**Visual Description:** Glow glasses mainly in neon green, with yellow on the center and sides.
-
-**Dominant Colors:** 
-
-
----
+Glow glasses mainly in neon green, with yellow on the center and sides.
 
 ## Cultural Context
 
+LED and EL-wire glow accessories became synonymous with 1990s rave culture, where dancers wore luminescent gear to enhance the sensory experience under strobe lights and UV. Glow sticks, glow glasses, and light-up jewelry were staples at warehouse parties across Chicago, Detroit, and the UK.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [Chicago Detroit](../../../core-lore/archetypes.md#chicago-detroit)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 5
-
-## Connections
-
-**Ancestor:** 
+Green glow glasses cut through fog machines and darkness like nothing else. A rave essential that doubles as a beacon for finding your crew on the dancefloor.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** June 18, 2024
-
+**Archetype:** Chicago Detroit
+**Swag Score:** 5
+**Date Added:** 2024-06-18
 **Introduced By:** Tez
-
-**Team Notes:** 
-
 **Sources:**
 - https://www.vice.com/en/article/the-ten-weirdest-90s-rave-customs-according-to-slipmatt/
-
-**Summary:** 
-
----

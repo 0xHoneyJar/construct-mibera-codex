@@ -7,56 +7,21 @@ date_added: null
 
 # Overalls
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
-
-
-**Visual Description:**
-
-**Dominant Colors:**
-
----
 
 ## Cultural Context
 
+A variant of the overall/dungaree piece. Overalls have been standard rave attire since the late 1980s, adopted from workwear for their comfort and classless aesthetic on the dancefloor.
 
-**Cultural Origin:**
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:**
-
-**Archetype Alignment:**
-
-
-**Swag Score:** 2
-
-## Connections
-
-**Ancestor:** 
+A companion to the Overall piece, expanding the collection's coverage of the most basic, most democratic garment in rave fashion history.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:**
-
-**Introduced By:**
-
-**Team Notes:**
-
-**Sources:**
-
-**Summary:**
-
----
+**Swag Score:** 2

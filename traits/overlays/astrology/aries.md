@@ -7,42 +7,21 @@ element: Fire
 
 # Aries
 
-
-## Sun Sign
-
+## Visual Elements
 
 ![Sun Aries](https://mibera.fsn1.your-objectstorage.com/components/Sun/Sun%20Aries.webp)
 
-**Date Range:** March 21 - April 19
 
-**Glyph:** ♈
+## Cultural Context
 
-**Element:** Fire
+Aries (March 21 -- April 19) is the first sign of the Western zodiac, a fire sign ruled by Mars. Symbolized by the Ram, it marks the vernal equinox and the beginning of the astrological year. Aries is associated with initiative, courage, and competitive energy, and its natives are often described as bold, direct, and action-oriented.
 
----
+<!-- justification
+## Justification
 
-
-## Moon Sign
-
-
-![Moon Aries](https://mibera.fsn1.your-objectstorage.com/components/Moon/Moon%20Aries.webp)
-
-**Glyph:** ♈
-
-**Element:** Fire
+As a modifier in the signal hierarchy, the Aries overlay lends an assertive, pioneering edge to a Mibera's existing archetype and ancestor signals without overriding them.
+-->
 
 ---
 
-
-## Rising Sign
-
-
-![Rising Aries](https://mibera.fsn1.your-objectstorage.com/components/Rising/Rising%20Aries.webp)
-
-**Glyph:** ♈
-
-**Element:** Fire
-
-**1/1 Grail:** [Aries Grail (#4803)](../../../grails/aries.md)
-
----
+## Attribution

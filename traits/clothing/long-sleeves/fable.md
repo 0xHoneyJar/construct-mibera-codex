@@ -8,63 +8,31 @@ date_added: "2025-03-11"
 
 # Fable
 
-## Visual Properties
+## Visual Elements
 
+![Fable](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(KIGU)
 
-**Image Files:**
-![Fable](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(KIGU)/SS5_Fable.webp)
+Purple onesie with the hood up and brown bear ears and thick brown lines across the body part. Multiple graphics of yellow pentagons can also be seen down the front part of the body.
 
-
-**Visual Description:** Purple onesie with the hood up and brown bear ears and thick brown lines across the body part. Multiple graphics of yellow pentagons can also be seen down the front part of the body.
-
-**Dominant Colors:** Purple, brown, yellow
-
-
----
+Dominant colors: Purple, brown, yellow
 
 ## Cultural Context
 
+Fable platform is a decentralized media platform, created to be the entertainment hub on Berachain. The hub was meant to host games, stories, and other forms of media.
 
-**Cultural Origin:** Fable platform is a decentralized media platform, created to be the entertainment hub on Berachain. The hub was meant to host games, stories, and other forms of media.
+<!-- justification
+## Justification
 
-**Era:** 
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** 
-
-**Archetype Alignment:** Fable is one of projects building in the Berachain ecosystem.
-
-
-**Swag Score:** 5
-
-
----
-
-## Connections
-
-**Ancestor:** 
+Fable is a part of the Berachain eco and were partners at the time the trait was created.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** March 11, 2025
-
-**Introduced By:** 
-
-**Team Notes:** 
-
+**Archetype:** **Archetype Alignment:** Fable is one of projects building in the Berachain ecosystem.
+**Swag Score:** 5
+**Date Added:** 2025-03-11
 **Sources:**
 - https://x.com/Fable_Platform
 - https://www.fable-hub.com/
-
-**Summary:** 
-
----

@@ -7,20 +7,27 @@ date_added: "2024-08"
 
 # Simple Blue
 
+## Visual Elements
 
-**Image Files:**
 ![Simple Blue](https://mibera.fsn1.your-objectstorage.com/components/simple/simples%20for%20shadows/146_simple%20blue.webp)
 
-**Visual Description:** A basic solid blue t-shirt.
+A basic solid blue t-shirt.
 
-**Dominant Colors:** Blue
+Dominant colors: Blue
 
-**Archetype Affinity:** None (archetype-neutral). Blue has resonance with Chicago Detroit's deep house and techno lineage — the blues tradition that birthed house music in Chicago and techno in Detroit.
+## Cultural Context
 
-**Color Symbolism:** The blues, night sky, deep water. Blue traces the musical genealogy from Mississippi Delta blues through Chicago electric blues to Frankie Knuckles' Warehouse — the unbroken line of Black American music that made rave culture possible. Also the color of dawn, the moment the party outlasts the night.
+Blue is a versatile, neutral color that codes calm and accessibility. In the collection, it provides a cool-toned alternative to the default black without adding cultural signal.
 
-**Styling Notes:** Cool-toned and versatile. Pairs naturally with silver and chrome accessories. Can read as workwear (blue collar) or transcendent (sky, ocean) depending on context. Strong complement to warm-toned skin tones.
+<!-- justification
+## Justification
 
-**Date Added:** August 2024
+A simple blue tee rounds out the palette of base-layer options. Not every Mibera needs to make a statement with their shirt.
+-->
 
 ---
+
+## Attribution
+
+**Swag Score:** 1
+**Date Added:** 2024-08

@@ -6,26 +6,25 @@ date_added: "2024-12-09"
 
 # Bong Bear 18
 
-## Visual Properties
+## Visual Elements
 
+Dark brown bear wearing a headband and a t-shirt in the same color and pattern, with one piercing of a silver ring on one ear and two on the other ear. The attire’s base color is black with extremely vibrant almost neon-ish strokes of color in purple, dark blue, light blue, and magenta. A plushie based on [this Bong Bear](https://opensea.io/assets/ethereum/0x495f947276749ce646f68ac8c248420045cb7b5e/66075445032688988859229341194671037535804503065310441849644897880832080871425).
 
-**Image Files:**
-SS5_bongbear_Bong Bear 18.png
+Dominant colors: Dark brown, black, purple, dark blue, light blue, magenta.
 
-**Visual Description:** Dark brown bear wearing a headband and a t-shirt in the same color and pattern, with one piercing of a silver ring on one ear and two on the other ear. The attire’s base color is black with extremely vibrant almost neon-ish strokes of color in purple, dark blue, light blue, and magenta. A plushie based on [this Bong Bear](https://opensea.io/assets/ethereum/0x495f947276749ce646f68ac8c248420045cb7b5e/66075445032688988859229341194671037535804503065310441849644897880832080871425).
+## Cultural Context
 
-**Dominant Colors:** Dark brown, black, purple, dark blue, light blue, magenta.
+Bong Bears is one of the earliest and most recognized NFT collections in the Berachain ecosystem, created as bear-themed characters on Ethereum's OpenSea platform before Berachain launched its own chain. The collection features a roster of stylized, cannabis-culture-inspired bears each with unique outfits, accessories, and color schemes. Bong Bears helped establish the bear identity that became central to Berachain's community branding, making them a foundational piece of the ecosystem's cultural history.
 
+<!-- justification
+## Justification
+
+As one of the OG Berachain ecosystem collections, Bong Bears appearing as held-item plushies in Mibera is a direct nod to the shared bear lineage that ties these communities together.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** December 9, 2024
-
+**Date Added:** 2024-12-09
 **Introduced By:** Jani
-
-**Team Notes:** 
-
-
----

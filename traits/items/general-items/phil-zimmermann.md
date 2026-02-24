@@ -7,56 +7,21 @@ date_added: null
 
 # Phil Zimmermann
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
-
-
-**Visual Description:**
-
-**Dominant Colors:**
-
----
 
 ## Cultural Context
 
+Phil Zimmermann created PGP (Pretty Good Privacy) encryption in 1991 and faced a federal criminal investigation for making strong cryptography available to the public. His fight established the principle that ordinary people have a right to strong encryption.
 
-**Cultural Origin:**
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:** Phil Zimmermann created PGP (Pretty Good Privacy) encryption in 1991 and faced a federal criminal investigation for making strong cryptography available to the public. His fight established the principle that ordinary people have a right to strong encryption.
-
-
----
-
-## Mibera Integration
-
-**Archetype:**
-
-**Archetype Alignment:**
-
-
-**Swag Score:** 5
-
-## Connections
-
-**Ancestor:** 
+Created PGP and faced federal prosecution for the crime of making strong encryption available to civilians. The case established that cryptographic code is protected speech.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:**
-
-**Introduced By:**
-
-**Team Notes:**
-
-**Sources:**
-
-**Summary:**
-
----
+**Swag Score:** 5

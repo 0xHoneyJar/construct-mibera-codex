@@ -8,63 +8,30 @@ date_added: "2024-12-10"
 
 # Oil
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
 ![Oil](https://mibera.fsn1.your-objectstorage.com/components/face%20accessories__z60/SS2_freetekno_Oil.webp)
 
-
-**Visual Description:** Black smudges, 1 bigger in size and 2 small ones.
-
-**Dominant Colors:** Black
-
-
----
+Black smudges, 1 bigger in size and 2 small ones.
 
 ## Cultural Context
 
+Oil smudges on the face are a hallmark of the free party and sound system scene, where participants physically build and maintain the rigs, generators, and vehicles that make events possible. The aesthetic of grease-stained faces became an identity marker within the tekno traveller and DIY sound system communities, distinguishing those who do the manual labor of counterculture from those who merely attend.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [Freetekno](../../../core-lore/archetypes.md#freetekno)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 2
-
-
----
-
-## Connections
-
-**Ancestor:** 
+Oil on the face means you were under the hood of the generator or wiring the rig -- it is the Freetekno archetype's version of a merit badge, earned through labor, not purchased.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** December 10, 2024
-
+**Archetype:** Freetekno
+**Swag Score:** 2
+**Date Added:** 2024-12-10
 **Introduced By:** Jani
-
-**Team Notes:** 
-
 **Sources:**
 - https://discord.com/channels/1133935527855399053/1174576866703724565/11746733154372
 - https://foundation.app/mint/eth/0x6a24aFBf9900329C4C38617d9fbB8b5B73083E3e/1
-
-**Summary:** 
-
----

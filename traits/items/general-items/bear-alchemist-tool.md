@@ -8,62 +8,26 @@ date_added: "2024-07-16"
 
 # bear alchemist tool
 
-## Visual Properties
+## Visual Elements
 
+a glass lab flask, medium to big in size with what looks like rust in red copper color.
 
-**Image Files:**
-SS1_acidhouse_Bear Alchemist Tool.png
-
-
-**Visual Description:** a glass lab flask, medium to big in size with what looks like rust in red copper color.
-
-**Dominant Colors:** white / grey, red copper
-
-
----
+Dominant colors: white / grey, red copper
 
 ## Cultural Context
 
+References the lab equipment of Augustus Owsley Stanley III ("Bear"), the first private individual to mass-produce LSD in the 1960s. Owsley supplied the Grateful Dead and the Merry Pranksters, manufacturing an estimated 1.25 million doses. His nickname "Bear" makes this a double reference — Owsley's chemistry gear rendered as Berachain bear iconography.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [acidhouse](../../../core-lore/archetypes.md#acidhouse)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 1
-
-
----
-
-## Connections
-
-**Ancestor:** 
+Owsley "Bear" Stanley's nickname makes this a perfect double reference: the most famous clandestine LSD chemist shares his name with Berachain's mascot.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** July 16, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Archetype:** acidhouse
+**Swag Score:** 1
+**Date Added:** 2024-07-16

@@ -8,62 +8,32 @@ date_added: "2024-12-10"
 
 # Hugs Not Drugs
 
-## Visual Properties
+## Visual Elements
 
+![Hugs Not Drugs](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)
 
-**Image Files:**
-![Hugs Not Drugs](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)/SS2_Hugs%20Not%20Drugs.webp)
+Red t-shirt with a graphic of 3 bears hugging each other and text under it that reads “HUGS NOT DRUGS” inside of a slightly curved-upwards banner frame.
 
-
-**Visual Description:** Red t-shirt with a graphic of 3 bears hugging each other and text under it that reads “HUGS NOT DRUGS” inside of a slightly curved-upwards banner frame.
-
-**Dominant Colors:** Red, white, black.
-
-
----
+Dominant colors: Red, white, black.
 
 ## Cultural Context
 
+The Grateful Dead
 
-**Cultural Origin:** The Grateful Dead
+The Grateful Dead was an iconic American rock band formed in 1965 in San Francisco.
 
-**Era:** 
+<!-- justification
+## Justification
 
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** 
-
-**Archetype Alignment:** In relation to drugs, music, and Grateful Dead character graphic reference. Which heavily ties back to drugs and music culture.
-
-
-**Swag Score:** 2
-
-
----
-
-## Connections
-
-**Ancestor:** 
+The Grateful Dead bears giving hugs under a Hugs Not Drugs banner is peak irony given the Dead's well-documented relationship with psychedelics. This shirt says one thing and means the opposite.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** December 10, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
+**Archetype:** **Archetype Alignment:** In relation to drugs, music, and Grateful Dead character graphic reference. Which heavily ties back to drugs and music culture.
+**Swag Score:** 2
+**Date Added:** 2024-12-10
 **Sources:**
 - https://en.wikipedia.org/wiki/Grateful_Dead
-
-**Summary:** The Grateful Dead was an iconic American rock band formed in 1965 in San Francisco.
-
----

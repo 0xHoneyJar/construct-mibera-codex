@@ -8,62 +8,28 @@ date_added: "2024-12-10"
 
 # Unclench
 
-## Visual Properties
+## Visual Elements
 
+![Unclench](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)
 
-**Image Files:**
-![Unclench](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)/SS4_Unclench.webp)
+White t-shirt with graphic text that reads “UNCLENCH YOUR JAW” in a flowy shape, stars around the text, and a Mibera logo under it.
 
-
-**Visual Description:** White t-shirt with graphic text that reads “UNCLENCH YOUR JAW” in a flowy shape, stars around the text, and a Mibera logo under it.
-
-**Dominant Colors:** White, black, yellow.
-
-
----
+Dominant colors: White, black, yellow.
 
 ## Cultural Context
 
+Unclench Your Jaw is a harm reduction phrase commonly shared at raves and music festivals. Jaw clenching (bruxism) is a well-known side effect of MDMA use, and reminding people to relax their jaw is both a practical health tip and a knowing wink to the experience of being on the dancefloor.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:** 
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** 
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 4
-
-
----
-
-## Connections
-
-**Ancestor:** 
+Unclench Your Jaw is the most caring harm reduction message you can put on a t-shirt. It tells you exactly what the person wearing it has been through and what they want to help you with.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** December 10 , 2024
-
-**Introduced By:** 
-
+**Swag Score:** 4
+**Date Added:** 2024-12-10
 **Team Notes:** -
-
-**Sources:**
-
-
-**Summary:** 
-
----

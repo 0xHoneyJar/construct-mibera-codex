@@ -8,62 +8,27 @@ date_added: "2024-12-10"
 
 # Henlo Jersey
 
-## Visual Properties
+## Visual Elements
 
+![Henlo](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)
 
-**Image Files:**
-![Henlo](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)/SS3_Henlo.webp)
+Muted purple jersey with ‘HENLO’ in gothic font, worn over a white t-shirt, topped with 2 thin gold chains.
 
-
-**Visual Description:** Muted purple jersey with ‘HENLO’ in gothic font, worn over a white t-shirt, topped with 2 thin gold chains.
-
-**Dominant Colors:** purple, white.
-
-
----
+Dominant colors: purple, white.
 
 ## Cultural Context
 
+Henlo is a project within the Berachain ecosystem. This short-sleeved jersey variant pairs the gothic-font branding with gold chains, blending 1990s hip-hop basketball jersey culture with web3 community identity.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:** 
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** 
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 3
-
-
----
-
-## Connections
-
-**Ancestor:** 
+A short-sleeves Henlo jersey for the Berachain community. The gothic font and gold chain styling gives ecosystem project merch the streetwear treatment.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** December 10, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Swag Score:** 3
+**Date Added:** 2024-12-10

@@ -8,62 +8,25 @@ date_added: "2025-03-25"
 
 # hotdog
 
-## Visual Properties
+## Visual Elements
 
+a hot dog with mustard.
 
-**Image Files:**
-SS4_hotdog.PNG
-
-
-**Visual Description:** a hot dog with mustard / yellow sauce.
-
-**Dominant Colors:** brown, dark red, yellow
-
-
----
+Dominant colors: brown, dark red, yellow
 
 ## Cultural Context
 
+Jani is a hotdog.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:** The hotdog is the universal street food of American nightlife, available from carts outside every club and venue at 3 AM. It represents the mundane, human side of going out: eventually, you just need to eat.
-
-
----
-
-## Mibera Integration
-
-**Archetype:** 
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 4
-
-
----
-
-## Connections
-
-**Ancestor:** 
+Jani is a hotdog.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** March 25, 2025
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Swag Score:** 4
+**Date Added:** 2025-03-25

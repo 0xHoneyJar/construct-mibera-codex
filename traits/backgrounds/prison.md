@@ -6,36 +6,26 @@ date_added: "2025-03-11"
 
 # Prison
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
 ![Prison](https://mibera.fsn1.your-objectstorage.com/components/background__z10%20%28SCENE%29/prison.webp)
 
+Simple grey background with prison bars in front with 3D effect.
 
-**Visual Description:** Simple grey background with prison bars in front with 3D effect.
+Dominant colors: Dark grey, grey.
 
-**Dominant Colors:** Dark grey, grey.
+## Cultural Context
 
+The shadow side of rave and drug culture — from Ross Ulbricht to the countless ravers, producers, and chemists who have done time.
 
----
+<!-- justification
+## Justification
 
-## Context
-
-
-**Cultural Origin:** 
-
-
-**Why This Matters:** The shadow side of rave and drug culture — from Ross Ulbricht to the countless ravers, producers, and chemists who have done time.
+Prison represents the shadow side of rave and drug culture — the cost of the substances and gatherings that define the Mibera universe.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** March 11, 2025
-
-**Introduced By:** 
-
-**Team Notes:** 
-
----
+**Date Added:** 2025-03-11

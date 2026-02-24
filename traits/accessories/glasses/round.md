@@ -8,59 +8,26 @@ date_added: "2024-06-18"
 
 # Round
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
 ![Round](https://mibera.fsn1.your-objectstorage.com/components/glasses__z140/acidhouse_Round.webp)
 
-
-**Visual Description:** Silver, circular framed glasses with clear lenses.
-
-**Dominant Colors:** 
-
-
----
+Silver, circular framed glasses with clear lenses.
 
 ## Cultural Context
 
+Round wire-frame glasses have been associated with counterculture since the 1960s, worn by John Lennon, Janis Joplin, and later by acid house ravers who adopted the same peace-and-love ethos. The style became a visual shorthand for psychedelic culture and its revival in the late 1980s Second Summer of Love.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [Acidhouse](../../../core-lore/archetypes.md#acidhouse)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 2
-
-## Connections
-
-**Ancestor:** 
+The Second Summer of Love explicitly borrowed from 1960s counterculture, and round glasses were the most visible symbol of that lineage. Acid house always knew where it came from.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** June 18, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Archetype:** Acidhouse
+**Swag Score:** 2
+**Date Added:** 2024-06-18

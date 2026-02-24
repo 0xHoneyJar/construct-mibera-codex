@@ -6,36 +6,27 @@ date_added: "2025-02-27"
 
 # Bullas
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
 ![Bullas](https://mibera.fsn1.your-objectstorage.com/components/background__z10/bullas.webp)
 
+Purple cosmic background with stars, in the middle is the Bullas logo.
 
-**Visual Description:** Purple cosmic background with stars, in the middle is an outlined triangle with a pair of bull-horn and an opened eye inside of it, in yellow.
+Dominant colors: Shades of purple, yellow.
 
-**Dominant Colors:** Shades of purple, yellow.
+## Cultural Context
 
+Having built a cult-like following, Bullas is one of Berachain’s OG projects shipping NFT collections and a play-to-earn ponzi web game.
 
----
+<!-- justification
+## Justification
 
-## Context
-
-
-**Cultural Origin:** Having built a cult-like following, Bullas is one of Berachain’s OG projects shipping NFT collections and a play-to-earn ponzi web game.
-
-
-**Why This Matters:** Fellow Bera brojekt.
+Berachain ecosystem partner background — representing the OG projects and culture that Mibera exists alongside.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** February 27, 2025
-
+**Date Added:** 2025-02-27
 **Introduced By:** Gods, Gumi (for the cosmic concept)
-
-**Team Notes:** 
-
----

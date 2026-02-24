@@ -8,62 +8,26 @@ date_added: "2024-06-04"
 
 # Capsule
 
-## Visual Properties
+## Visual Elements
 
+White and red capsule.
 
-**Image Files:**
-SS3_capsule.PNG
-
-
-**Visual Description:** White and red capsule.
-
-**Dominant Colors:** White, red
-
-
----
+Dominant colors: White, red
 
 ## Cultural Context
 
+A capsule is a small, enclosed container, often used for medicine, supplements, or space modules, designed to be swallowed or deployed easily.
 
-**Cultural Origin:** A capsule is a small, enclosed container, often used for medicine, supplements, or space modules, designed to be swallowed or deployed easily.
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** 
-
-**Archetype Alignment:** Its relation to drugs / medication.
-
-
-**Swag Score:** 3
-
-
----
-
-## Connections
-
-**Ancestor:** 
+The capsule is a universal symbol of substance culture -- pharmaceutical, recreational, or somewhere in between -- and that ambiguity is very Mibera.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** June 4, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Archetype:** **Archetype Alignment:** Its relation to drugs / medication.
+**Swag Score:** 3
+**Date Added:** 2024-06-04

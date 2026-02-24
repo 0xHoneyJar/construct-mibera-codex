@@ -8,64 +8,32 @@ date_added: "2024-12-10"
 
 # Chulym 2
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
 ![Chulym 2](https://mibera.fsn1.your-objectstorage.com/components/face%20accessories__z60/SS4_milady_chulym 2.webp)
 
+Five small white dots at the top forming a slight arc, two red upward chevrons and a small red stroke.
 
-**Visual Description:** Five small white dots at the top forming a slight arc, two red upward chevrons and a small red stroke.
-
-**Dominant Colors:** Red, white.
-
-
----
+Dominant colors: Red, white.
 
 ## Cultural Context
 
+Otyken; a Siberian indigenous music group formed in 2015 by Andrey Medonos in Krasnoyarsk, blending traditional folk music with modern pop, rock, and EDM elements. Featuring members from ethnic groups like Chulym, Ket, Khakas, Dolgan, and Selkup. They use native languages and instruments like jaw harps and drums, often crafted themselves, to highlight Siberian culture.
 
-**Cultural Origin:** Otyken; a Siberian indigenous music group formed in 2015 by Andrey Medonos in Krasnoyarsk, blending traditional folk music with modern pop, rock, and EDM elements. Featuring members from ethnic groups like Chulym, Ket, Khakas, Dolgan, and Selkup. They use native languages and instruments like jaw harps and drums, often crafted themselves, to highlight Siberian culture.
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [Milady](../../../core-lore/archetypes.md#milady)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 4
-
-
----
-
-## Connections
-
-**Ancestor:** 
+A second variation of Chulym-inspired face paint, referencing the Otyken music group who blend Siberian indigenous tradition with modern electronic production. It shows that indigenous aesthetics are not frozen in time but are actively evolving through contemporary art.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** December 10, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
+**Archetype:** Milady
+**Swag Score:** 4
+**Date Added:** 2024-12-10
 **Sources:**
 - https://en.wikipedia.org/wiki/Chulyms
 - https://www.youtube.com/watch?v=gTdHaerMUeo
 - https://www.youtube.com/watch?v=gPCGcVrgG5s
-
-**Summary:** 
-
----

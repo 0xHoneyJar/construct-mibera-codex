@@ -8,63 +8,33 @@ date_added: "2024-06-26"
 
 # Blue Velvet Suit
 
-## Visual Properties
+## Visual Elements
 
+![Blue Velvet Suit](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(LONG)
 
-**Image Files:**
-![Blue Velvet Suit](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(LONG)/SS3_chicagodetroit_Blue%20Velvet%20Suit.webp)
+Vibrant blue suit with velvet-y texture. Tie with the same colour as the suit and white shirt underneath.
 
-
-**Visual Description:** Vibrant blue suit with velvet-y texture. Tie with the same colour as the suit and white shirt underneath.
-
-**Dominant Colors:** Vibrant blue, white.
-
-
----
+Dominant colors: Vibrant blue, white.
 
 ## Cultural Context
 
+The reference was taken directly from an article by #312Soul about House Music History in Chicago between 1984 - 1990. The era cemented Chicago as house music’s birthplace, transforming it from a local underground phenomenon into a cornerstone of electronic dance music.
 
-**Cultural Origin:** The reference was taken directly from an article by #312Soul about House Music History in Chicago between 1984 - 1990. The era cemented Chicago as house music’s birthplace, transforming it from a local underground phenomenon into a cornerstone of electronic dance music.
+<!-- justification
+## Justification
 
-**Era:** 
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [Chicago Detroit](../../../core-lore/archetypes.md#chicago-detroit)
-
-**Archetype Alignment:** In relation to the Chicago Detroit scene and culture; Chicago Detroit is one of the four Mibera’s archetypes.
-
-
-**Swag Score:** 3
-
-
----
-
-## Connections
-
-**Ancestor:** 
+Sourced from a photo in a Chicago house music history article, this suit captures the dressed-up elegance that early house culture inherited from disco.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** June 26, 2024
-
+**Archetype:** Chicago Detroit
+**Swag Score:** 3
+**Date Added:** 2024-06-26
 **Introduced By:** Jani
-
 **Team Notes:** "Thiiinking we should maybe cut down on the number of color variants for the suits? Esp considering there are two types. When I made the decision to do that many colors at the time, I think we had fewer traits planned than currently exist lmfao" — Gumi, Mar 2024, #trait-updates
-
 **Sources:**
 - https://discord.com/channels/1133935527855399053/1143360212842061834/11608863263049
 - https://www.312soul.com/1984-1990
-
-**Summary:** 
-
----

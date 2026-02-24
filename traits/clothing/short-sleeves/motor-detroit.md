@@ -8,63 +8,32 @@ date_added: "2024-06-22"
 
 # Motor Detroit
 
-## Visual Properties
+## Visual Elements
 
+![Motor Detroit](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)
 
-**Image Files:**
-![Motor Detroit](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)/SS1_chicagodetroit_Motor%20Detroit.webp)
+Black t-shirt with a graphic and text that says “MOTOR Detroit” in the middle.
 
-
-**Visual Description:** Black t-shirt with a graphic and text that says “MOTOR Detroit” in the middle.
-
-**Dominant Colors:** Black, muted golden, white, navy blue.
-
-
----
+Dominant colors: Black, muted golden, white, navy blue.
 
 ## Cultural Context
 
+Motor City is Detroit's most famous nickname, earned from the city's dominance of the American automobile industry throughout the 20th century. The same post-industrial infrastructure -- abandoned factories, cheap warehouse space, working-class resilience -- that defined the auto industry's decline also created the conditions for Detroit techno to emerge.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:** 
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [Chicago Detroit](../../../core-lore/archetypes.md#chicago-detroit)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 1
-
-
----
-
-## Connections
-
-**Ancestor:** 
+You cannot talk about Detroit techno without talking about the auto industry that gave the city its identity and then left it behind. Motor Detroit connects the music to the industrial landscape that produced it.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** June 22, 2024
-
-**Introduced By:** 
-
+**Archetype:** Chicago Detroit
+**Swag Score:** 1
+**Date Added:** 2024-06-22
 **Team Notes:** "motor detroit tshirt — detroit in some ways harder to capture than chicago" — Jani, Oct 2023, #detroit-chicago
-
 **Sources:**
 - https://discord.com/channels/1133935527855399053/1143360212842061834/11608889862570
 - https://daily.redbullmusicacademy.com/2015/06/nightclubbing-motor-oral-history
-
-**Summary:** 
-
----

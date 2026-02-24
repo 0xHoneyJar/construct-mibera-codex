@@ -8,59 +8,26 @@ date_added: "2024-06-18"
 
 # Cyber Punk 2
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
 ![Cyber Punk 2](https://mibera.fsn1.your-objectstorage.com/components/glasses__z140/freetekno_Cyber Punk 2.webp)
 
-
-**Visual Description:** All-black cyberpunk style glasses
-
-**Dominant Colors:** 
-
-
----
+All-black cyberpunk style glasses
 
 ## Cultural Context
 
+The cyberpunk visual language of dark, utilitarian eyewear has been adopted across underground music scenes, from industrial and EBM to hardcore tekno. The all-black aesthetic signals both anonymity and defiance, central themes in the free party movement.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [Freetekno](../../../core-lore/archetypes.md#freetekno)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 2
-
-## Connections
-
-**Ancestor:** 
+Darker, heavier, more utilitarian than its sibling variant. For the kind of tekno party where the sound system matters more than the venue.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** June 18, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Archetype:** Freetekno
+**Swag Score:** 2
+**Date Added:** 2024-06-18

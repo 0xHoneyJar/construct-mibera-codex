@@ -8,62 +8,29 @@ date_added: "2024-12-10"
 
 # Blush
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
 ![Blush](https://mibera.fsn1.your-objectstorage.com/components/face%20accessories__z60/SS1_milady_blush.webp)
 
+Very subtle warm pink blush, translucent.
 
-**Visual Description:** Very subtle warm pink blush, translucent.
-
-**Dominant Colors:** Pink
-
-
----
+Dominant colors: Pink
 
 ## Cultural Context
 
+Blush as a face accessory draws from anime and manga's visual language, where rosy cheeks signal shyness, embarrassment, or innocent warmth. In the kawaii aesthetic tradition, applied blush became a deliberate fashion choice in Japanese street style during the 1990s and 2000s, later adopted by e-girl and soft-girl aesthetics on social media.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [Milady](../../../core-lore/archetypes.md#milady)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 3
-
-
----
-
-## Connections
-
-**Ancestor:** 
+Blush is the Milady archetype at its most tender -- a visual cue borrowed directly from anime that says vulnerability is a style choice, not a weakness.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** December 10, 2024
-
+**Archetype:** Milady
+**Swag Score:** 3
+**Date Added:** 2024-12-10
 **Introduced By:** Gumi
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----

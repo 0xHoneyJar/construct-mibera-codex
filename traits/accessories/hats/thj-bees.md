@@ -8,62 +8,27 @@ date_added: "2024-07-27"
 
 # THJ Bees
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
 ![SS4 THJ Bees](https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS4_THJ%20Bees.webp)
 
+Light grey bucket hat with a graphic of a white bear wearing a purple hat eating honey out of a big jar surrounded by bees.
 
-**Visual Description:** Light grey bucket hat with a graphic of a white bear wearing a purple hat eating honey out of a big jar surrounded by bees.
-
-**Dominant Colors:** Light grey, yellow, white
-
-
----
+Dominant colors: Light grey, yellow, white
 
 ## Cultural Context
 
+The Honey Jar (THJ) is the central community hub and validator of the Berachain ecosystem. The bucket hat featuring a bear eating honey surrounded by bees encapsulates core Berachain imagery — bears, honey, and the industrious bee metaphor that defines the chain's community ethos. THJ has been instrumental in building Berachain's pre-launch community and ecosystem coordination.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** 
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 4
-
-
----
-
-## Connections
-
-**Ancestor:** 
+THJ is the heart of the Berachain ecosystem — this bucket hat with a honey-eating bear and bees is basically the chain's coat of arms as wearable headwear.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** July 27, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Swag Score:** 4
+**Date Added:** 2024-07-27

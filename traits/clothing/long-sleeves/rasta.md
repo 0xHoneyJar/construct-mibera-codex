@@ -8,62 +8,31 @@ date_added: "2024-12-10"
 
 # Rasta
 
-## Visual Properties
+## Visual Elements
 
+![Rasta](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(LONG)
 
-**Image Files:**
-![Rasta](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(LONG)/SS3_chicagodetroit_Rasta.webp)
+Tri-color long sleeves in red, yellow, and green, in order from left to right.
 
-
-**Visual Description:** Tri-color long sleeves in red, yellow, and green, in order from left to right.
-
-**Dominant Colors:** Red, yellow, green.
-
-
----
+Dominant colors: Red, yellow, green.
 
 ## Cultural Context
 
+Rastafari, often called Rasta culture, is a spiritual and cultural movement that emerged in Jamaica in the 1930s among African descendants.
 
-**Cultural Origin:** Rastafari, often called Rasta culture, is a spiritual and cultural movement that emerged in Jamaica in the 1930s among African descendants.
+<!-- justification
+## Justification
 
-**Era:** 
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [Chicago Detroit](../../../core-lore/archetypes.md#chicago-detroit)
-
-**Archetype Alignment:** Its relation to Mibera, through its culture, musical history influence, and spiritual side of things.
-
-
-**Swag Score:** 3
-
-
----
-
-## Connections
-
-**Ancestor:** 
+Rastafari culture shaped reggae, dub, and through them the entire trajectory of sound system culture that led to jungle, drum and bass, and eventually freetekno. The red-gold-green is foundational.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** December 10, 2024
-
+**Archetype:** Chicago Detroit
+**Swag Score:** 3
+**Date Added:** 2024-12-10
 **Introduced By:** Jani
-
-**Team Notes:** 
-
 **Sources:**
 - https://en.wikipedia.org/wiki/Rastafari
-
-**Summary:** 
-
----

@@ -8,65 +8,33 @@ date_added: "2024-12-10"
 
 # Wartime
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
 ![Wartime](https://mibera.fsn1.your-objectstorage.com/components/face%20accessories__z60/SS4_milady_wartime.webp)
 
+Blood splattered upwards.
 
-**Visual Description:** Blood splattered upwards.
-
-**Dominant Colors:** Blood red
-
-
----
+Dominant colors: Blood red
 
 ## Cultural Context
 
+Blood splatter as a face accessory references the aesthetic of conflict, violence, and survival that runs through multiple visual cultures -- from war photography to slasher films to the post-ironic 'warcore' aesthetic that emerged on Twitter and Tumblr in the early 2020s. Warcore blends military and combat imagery with fashion and internet culture, embracing the visual language of violence as a stylistic choice rather than a literal statement.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [Milady](../../../core-lore/archetypes.md#milady)
-
-**Archetype Alignment:** Cultural reference within Milady around 2022, called the ‘wartime’ where a lot of Miladys put blood splatter on top of their Milady PFP.
-
-
-**Swag Score:** 4
-
-
----
-
-## Connections
-
-**Ancestor:** 
+Blood splatter on the face is the warcore aesthetic at its most literal -- a Milady archetype trait that treats the imagery of conflict as fashion, which is either deeply honest or deeply provocative depending on who you ask.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** December 10, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
+**Archetype:** Milady
+**Swag Score:** 4
+**Date Added:** 2024-12-10
 **Sources:**
 - https://x.com/willpowerabuser/status/1701468932887261310
 - https://x.com/___sa7nt___/status/1706433086072697261
 - https://x.com/Ringofsaltt/status/1701359363720384606
 - https://x.com/anonsgarbs/status/1701724036932288549
-
-**Summary:** 
-
----

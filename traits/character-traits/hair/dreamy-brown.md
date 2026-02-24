@@ -6,31 +6,25 @@ date_added: "2024-06-15"
 
 # dreamy brown
 
-## Visual Properties
+## Visual Elements
 
+very short hazel brown hair with smooth, neat curtain bangs.
 
-**Image Files:**
-Dreamy Blonde__w8.png
+Dominant colors: deep blonde
 
+## Cultural Context
 
-**Visual Description:** very short hazel brown hair with smooth, neat curtain bangs.
+The dreamy style is a very short cut with smooth, neat curtain bangs — minimal, refined, and softly feminine. The name suggests a wistful, otherworldly quality, fitting the ethereal aesthetic often associated with indie music, shoegaze, and dream-pop subcultures.
 
-**Dominant Colors:** deep blonde
+<!-- justification
+## Justification
 
----
-
-## Connections
-
-**Ancestor:** 
+Soft and minimal, the dreamy cut evokes the ethereal aesthetic of dream-pop and shoegaze subcultures.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** June 15, 2024
-
+**Date Added:** 2024-06-15
 **Introduced By:** Gumi
-
-**Team Notes:** 
-
----

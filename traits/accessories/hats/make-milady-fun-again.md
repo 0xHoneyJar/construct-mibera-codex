@@ -8,62 +8,27 @@ date_added: "2024-07-27"
 
 # Make Milady Fun Again
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
 ![SS2 Make Milady Fun Again](https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS2_Make%20Milady%20Fun%20Again.webp)
 
+Two-toned cap in navy blue and white and black text that reads “Make Milady Fun Again” followed by a little heart.
 
-**Visual Description:** Two-toned cap in navy blue and white and black text that reads “Make Milady Fun Again” followed by a little heart.
-
-**Dominant Colors:** Navy blue, white, black
-
-
----
+Dominant colors: Navy blue, white, black
 
 ## Cultural Context
 
+The "Make X Great/Fun Again" format parodies Donald Trump's "Make America Great Again" (MAGA) slogan and red cap, which became one of the most recognizable political symbols of the 2010s. The format has been endlessly remixed by internet communities, with "Make Milady Fun Again" reflecting intra-community sentiment about the direction of Milady culture.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** 
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 2
-
-
----
-
-## Connections
-
-**Ancestor:** 
+The MAGA hat format remixed for Milady discourse — when the community has feelings about vibes, they put it on a cap.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** July 27, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Swag Score:** 2
+**Date Added:** 2024-07-27

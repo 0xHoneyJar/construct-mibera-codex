@@ -6,31 +6,25 @@ date_added: "2024-12-10"
 
 # short blue
 
-## Visual Properties
+## Visual Elements
 
+an oval pixie cut in light blue / pale cyan shade.
 
-**Image Files:**
-Short Blue__w8.PNG
+Dominant colors: light blue / pale cyan.
 
+## Cultural Context
 
-**Visual Description:** an oval pixie cut in light blue / pale cyan shade.
+The short style is an oval pixie cut — close-cropped and rounded, one of the most iconic short hairstyles in fashion history. Popularized by figures from Audrey Hepburn to Mia Farrow, the pixie cut signals confidence, modernity, and a willingness to reject conventional femininity norms.
 
-**Dominant Colors:** light blue / pale cyan.
+<!-- justification
+## Justification
 
----
-
-## Connections
-
-**Ancestor:** 
+Bold and modern, the pixie cut signals confidence and a willingness to break with conventional norms.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** December 10, 2024
-
+**Date Added:** 2024-12-10
 **Introduced By:** Gumi
-
-**Team Notes:** 
-
----

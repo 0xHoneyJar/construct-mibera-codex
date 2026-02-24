@@ -8,62 +8,25 @@ date_added: "2024-07-10"
 
 # yeeted
 
-## Visual Properties
+## Visual Elements
 
+a plushie of a patched up yellow bear wearing a red cropped top with a drooly mouth, and crossed eyes.
 
-**Image Files:**
-SS3_Yeeted.png
-
-
-**Visual Description:** a plushie of a patched up yellow bear wearing a red cropped top with a drooly mouth, and crossed eyes.
-
-**Dominant Colors:** yellow, red
-
-
----
+Dominant colors: yellow, red
 
 ## Cultural Context
 
+"Yeet" is internet slang meaning to throw something with great force. The patched-up, cross-eyed bear plushie appears to have been through some damage, visually representing the slang term. In crypto culture, "yeeted" often describes reckless trades or investments.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** 
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 3
-
-
----
-
-## Connections
-
-**Ancestor:** 
+A patched-up, cross-eyed bear that has clearly been through it. "Yeeted" in crypto means reckless trades and investments — the collection's self-deprecating humor about market behavior.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** July 10, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Swag Score:** 3
+**Date Added:** 2024-07-10

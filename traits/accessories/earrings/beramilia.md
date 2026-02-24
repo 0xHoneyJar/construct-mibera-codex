@@ -8,62 +8,29 @@ date_added: "2024-12-10"
 
 # Beramilia
 
-## Visual Properties
+## Visual Elements
 
+Earring in the shape of a smiley face in yellow with curved ears. Radiating a bit of glow.
 
-**Image Files:**
-SS3_acidhouse_Beramilia.png
-
-
-**Visual Description:** Earring in the shape of a smiley face in yellow with curved ears. Radiating a bit of glow.
-
-**Dominant Colors:** Yellow
-
-
----
+Dominant colors: Yellow
 
 ## Cultural Context
 
+The smiley face became the defining symbol of acid house culture after it was adopted by London promoters and ravers in 1988 during the Second Summer of Love. Originally a generic 1960s graphic design, the yellow smiley was repurposed as shorthand for the euphoric MDMA-fueled warehouse rave experience. The name 'Beramilia' fuses Berachain's bear identity with the Remilia Collective, creators of Milady Maker.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [Acidhouse](../../../core-lore/archetypes.md#acidhouse)
-
-**Archetype Alignment:** Main iconography for Mibera
-
-
-**Swag Score:** 3
-
-
----
-
-## Connections
-
-**Ancestor:** 
+This earring is a triple-layer reference: the acid house smiley, the Berachain bear, and Remilia's Milady aesthetic all collapsed into one glowing charm.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** December 10, 2024
-
+**Archetype:** Acidhouse
+**Swag Score:** 3
+**Date Added:** 2024-12-10
 **Introduced By:** Jani
-
-**Team Notes:** 
-
 **Sources:**
 - https://discord.com/channels/1133935527855399053/1157089577102737459/11790183996076
-
-**Summary:** 
-
----

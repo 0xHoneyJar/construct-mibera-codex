@@ -8,62 +8,28 @@ date_added: "2024-08-02"
 
 # Raiders
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
 ![Raiders](https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS4_chicagodetroit_Raiders.webp)
 
+Cap in grey gradient with white graphic of a face of a man with an eyepatch, two swords crossed behind him, and text that says “RAIDERS”.
 
-**Visual Description:** Cap in grey gradient with white graphic of a face of a man with an eyepatch, two swords crossed behind him, and text that says “RAIDERS”.
-
-**Dominant Colors:** Shades of grey, white
-
-
----
+Dominant colors: Shades of grey, white
 
 ## Cultural Context
 
+The Las Vegas Raiders are an NFL team in the AFC West, founded in 1960 as the Oakland Raiders. They play home games at Allegiant Stadium in Paradise, Nevada.
 
-**Cultural Origin:** The Las Vegas Raiders are an NFL team in the AFC West, founded in 1960 as the Oakland Raiders. They play home games at Allegiant Stadium in Paradise, Nevada.
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [Chicago Detroit](../../../core-lore/archetypes.md#chicago-detroit)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 4
-
-
----
-
-## Connections
-
-**Ancestor:** 
+The Raiders cap is one of the most iconic pieces of American streetwear — adopted by NWA, LA gang culture, and hip-hop at large, the silver and black became a symbol of outsider identity long before Las Vegas.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** August 2, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Archetype:** Chicago Detroit
+**Swag Score:** 4
+**Date Added:** 2024-08-02

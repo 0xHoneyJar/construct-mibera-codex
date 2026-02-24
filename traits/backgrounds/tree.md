@@ -6,36 +6,26 @@ date_added: "2024-06-07"
 
 # Tree
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
 ![Tree](https://mibera.fsn1.your-objectstorage.com/components/background__z10/Tree.webp)
 
+Big tree from below / bottom point of view (looking up). Dark navy background with white in the middle right behind the tree.
 
-**Visual Description:** Big tree from below / bottom point of view (looking up). Dark navy background with white in the middle right behind the tree.
+Dominant colors: Soft brown, green, dark navy, white
 
-**Dominant Colors:** Soft brown, green, dark navy, white
+## Cultural Context
 
+From sacred groves to the tree-lined fields of outdoor raves — looking up through the canopy into the night sky.
 
----
+<!-- justification
+## Justification
 
-## Context
-
-
-**Cultural Origin:** 
-
-
-**Why This Matters:** From sacred groves to the tree-lined fields of outdoor raves — looking up through the canopy into the night sky.
+Trees frame the outdoor rave experience — looking up through branches at lasers and stars is a universal free party memory.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** June 7, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
----
+**Date Added:** 2024-06-07

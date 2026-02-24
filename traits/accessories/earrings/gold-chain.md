@@ -8,63 +8,27 @@ date_added: "2023-11-28"
 
 # Gold Chain
 
-## Visual Properties
+## Visual Elements
 
+Gold chain dangling off what looks like a pearl.
 
-**Image Files:**
-SS5_freetekno_ancient_aboriginal_Gold Chain.png
-
-
-**Visual Description:** Gold chain dangling off what looks like a pearl.
-
-**Dominant Colors:** Gold, pearly white
-
-
----
+Dominant colors: Gold, pearly white
 
 ## Cultural Context
 
+Gold chain jewelry has been a status symbol across civilizations from ancient Egypt to modern hip-hop culture. In the context of Aboriginal Australians, gold's significance connects to the Australian gold rushes of the 1850s, which dramatically impacted indigenous communities and their lands. Chain earrings became fashionable in Western club culture during the 1980s and 1990s, bridging hip-hop, rave, and streetwear aesthetics.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [Freetekno](../../../core-lore/archetypes.md#freetekno)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 5
-
-
----
-
-## Connections
-
-**Ancestor:** [Aboriginal](../../../core-lore/ancestors/aboriginal.md)
-
+Gold chains cross every subculture boundary Mibera cares about -- from hip-hop to rave to streetwear -- and the Aboriginal ancestor tie gives this Freetekno piece extra depth.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** November 28, 2023
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Archetype:** Freetekno
+**Ancestor:** [Aboriginal](../../../core-lore/ancestors/aboriginal.md)
+**Swag Score:** 5
+**Date Added:** 2023-11-28

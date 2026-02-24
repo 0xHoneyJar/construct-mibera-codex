@@ -8,62 +8,28 @@ date_added: "2024-12-10"
 
 # Baddie Double Blue
 
-## Visual Properties
+## Visual Elements
 
+Two balls (studs) in bright blue linear in placement to one another.
 
-**Image Files:**
-SS1_baddie double blue.png
-
-
-**Visual Description:** Two balls (studs) in bright blue linear in placement to one another.
-
-**Dominant Colors:** Bright blue, aquatic
-
-
----
+Dominant colors: Bright blue, aquatic
 
 ## Cultural Context
 
+Bera Baddies is a community-driven project led and focused on providing a supportive and exclusive space for the female in the Berachain ecosystem.
 
-**Cultural Origin:** Bera Baddies is a community-driven project led and focused on providing a supportive and exclusive space for the female in the Berachain ecosystem.
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** 
-
-**Archetype Alignment:** Bera Baddies inspired item.
-
-
-**Swag Score:** 1
-
-
----
-
-## Connections
-
-**Ancestor:** 
+A direct nod to Bera Baddies, one of the Berachain ecosystem's community projects -- representing the women who helped shape the culture from the inside.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** December 10, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
+**Archetype:** **Archetype Alignment:** Bera Baddies inspired item.
+**Swag Score:** 1
+**Date Added:** 2024-12-10
 **Sources:**
 - https://x.com/berabaddies
-
-**Summary:** 
-
----

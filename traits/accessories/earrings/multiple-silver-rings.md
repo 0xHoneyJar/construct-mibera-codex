@@ -8,62 +8,26 @@ date_added: "2024-12-10"
 
 # Multiple Silver Rings
 
-## Visual Properties
+## Visual Elements
 
+Three thin silver ring-style earrings.
 
-**Image Files:**
-SS4_chicagodetroit_Multiple Silver Rings.png
-
-
-**Visual Description:** Three thin silver ring-style earrings.
-
-**Dominant Colors:** Silver
-
-
----
+Dominant colors: Silver
 
 ## Cultural Context
 
+Stacked or multiple earrings became a mainstream fashion statement in the 1990s, with roots in punk and club culture where multiple piercings signaled subcultural identity. In Chicago and Detroit's electronic music scenes, silver jewelry was common among DJs and clubgoers, influenced by both the minimalist industrial aesthetic and the city's working-class roots.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [Chicago Detroit](../../../core-lore/archetypes.md#chicago-detroit)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 4
-
-
----
-
-## Connections
-
-**Ancestor:** 
+Three silver rings stacked together is the Chicago Detroit look -- understated, industrial, and rooted in the club culture where house and techno were born.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** December 10, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Archetype:** Chicago Detroit
+**Swag Score:** 4
+**Date Added:** 2024-12-10

@@ -8,63 +8,29 @@ date_added: "2024-12-10"
 
 # Indian Paint
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
 ![Indian Paint](https://mibera.fsn1.your-objectstorage.com/components/face%20accessories__z60/SS4_chicagodetroit_ancient_indian_Indian.webp)
 
+Brush strokes and smudges of bright red and yellow stripes with a darker red / maroon stripe in the center.
 
-**Visual Description:** Brush strokes and smudges of bright red and yellow stripes with a darker red / maroon stripe in the center.
-
-**Dominant Colors:** Bright red, yellow, dark red (maroon)
-
-
----
+Dominant colors: Bright red, yellow, dark red (maroon)
 
 ## Cultural Context
 
+Traditional Indian paint includes the use of natural substances like turmeric, sandalwood, vermilion (sindoor), and henna to create decorative markings on the body and face. These paints are applied during festivals (e.g., Holi), weddings, and rituals, symbolizing prosperity, protection, and spiritual connection.
 
-**Cultural Origin:** Traditional Indian paint includes the use of natural substances like turmeric, sandalwood, vermilion (sindoor), and henna to create decorative markings on the body and face. These paints are applied during festivals (e.g., Holi), weddings, and rituals, symbolizing prosperity, protection, and spiritual connection.
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [Chicago Detroit](../../../core-lore/archetypes.md#chicago-detroit)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 4
-
-
----
-
-## Connections
-
-**Ancestor:** [Indian](../../../core-lore/ancestors/indian.md)
-
+Traditional Indian face paint connects the Chicago Detroit archetype to the ceremonial and festival traditions of the Indian subcontinent -- a bridge between the sacred body art of South Asia and the expressive face painting of electronic music culture.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** December 10, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Archetype:** Chicago Detroit
+**Ancestor:** [Indian](../../../core-lore/ancestors/indian.md)
+**Swag Score:** 4
+**Date Added:** 2024-12-10

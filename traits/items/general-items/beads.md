@@ -8,63 +8,30 @@ date_added: "2024-07-09"
 
 # beads
 
-## Visual Properties
+## Visual Elements
 
+prayer beads in brown with red string.
 
-**Image Files:**
-SS3_milady_Beads.png
-
-
-**Visual Description:** prayer beads in brown with red string.
-
-**Dominant Colors:** brown, red
-
-
----
+Dominant colors: brown, red
 
 ## Cultural Context
 
+Tibetan prayer beads (mala) are used in Buddhist meditation practice, typically consisting of 108 beads used to count mantras or breaths. They have been adopted across spiritual and countercultural contexts worldwide.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:** Bead trading and sharing is a tradition at music festivals and raves, from Grateful Dead shows to modern kandi culture. Making and exchanging beads represents the gift economy and communal bonding that rave culture values.
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [milady](../../../core-lore/archetypes.md#milady)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 3
-
-
----
-
-## Connections
-
-**Ancestor:** 
+Spiritual accessory grounding the collection's consciousness-exploration theme in physical ritual practice.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** July 9, 2024
-
+**Archetype:** milady
+**Swag Score:** 3
+**Date Added:** 2024-07-09
 **Introduced By:** Jani
-
-**Team Notes:** 
-
 **Sources:**
 - https://discord.com/channels/1133935527855399053/1160911774086873089/11609192972086
 - https://www.theguardian.com/world/gallery/2016/feb/05/the-psychedelic-world-of-sudans-sufis-in
-
-**Summary:** 
-
----

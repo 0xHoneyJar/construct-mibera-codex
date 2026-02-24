@@ -8,62 +8,25 @@ date_added: "2024-12-10"
 
 # Alien
 
-## Visual Properties
+## Visual Elements
 
+Alien head in green; round with a pointed end at the bottom, with two big black eyes.
 
-**Image Files:**
-SS2_alien.png
-
-
-**Visual Description:** Alien head in green; round with a pointed end at the bottom, with two big black eyes.
-
-**Dominant Colors:** Lime green
-
-
----
+Dominant colors: Lime green
 
 ## Cultural Context
 
+Alien imagery became a recurring motif in rave culture during the 1990s, appearing on flyers, merchandise, and club decor. The association stems from the psychedelic experience of electronic music events, where themes of otherness, cosmic travel, and altered states of consciousness converged. Alien-themed accessories became shorthand for the rave ethos of transcending ordinary reality.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** 
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 2
-
-
----
-
-## Connections
-
-**Ancestor:** 
+Aliens are rave culture's unofficial mascots -- when your whole scene is about altered states and feeling like you're from another planet, the little green guy fits right in.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** December 10, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Swag Score:** 2
+**Date Added:** 2024-12-10

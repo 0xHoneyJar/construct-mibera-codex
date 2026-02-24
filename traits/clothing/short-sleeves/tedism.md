@@ -8,62 +8,25 @@ date_added: "2024-12-10"
 
 # Tedism
 
-## Visual Properties
+## Visual Elements
 
+![Tedism](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)
 
-**Image Files:**
-![Tedism](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)/SS3_Tedism.webp)
-
-
-**Visual Description:** Black T-shirt with white text that reads “TEDISM”.
-
-**Dominant Colors:** Black
-
-
----
+Black T-shirt with white text that reads “TEDISM”.
 
 ## Cultural Context
 
+"Tedism" is a community meme from the Steady Teddy NFT project on Berachain, treating devotion to the Steady Teddy bears as a tongue-in-cheek ideology.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:** 
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** 
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 3
-
-
----
-
-## Connections
-
-**Ancestor:** 
+Ted Kaczynski's anti-technology philosophy has become an ironic touchstone in the same internet communities that run on technology 24/7. The contradiction is the entire point.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** December 10, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Swag Score:** 3
+**Date Added:** 2024-12-10

@@ -8,62 +8,26 @@ date_added: "2024-12-10"
 
 # Rainbow
 
-## Visual Properties
+## Visual Elements
 
+Stereotypical rainbow; a curved band of colors consisting of red, orange, yellow, green, blue, indigo, violet.
 
-**Image Files:**
-SS3_rainbow.png
-
-
-**Visual Description:** Stereotypical rainbow; a curved band of colors consisting of red, orange, yellow, green, blue, indigo, violet.
-
-**Dominant Colors:** Rainbow color
-
-
----
+Dominant colors: Rainbow color
 
 ## Cultural Context
 
+The rainbow flag, designed by Gilbert Baker in 1978, is a global symbol of LGBTQ+ pride and diversity. Its colors represent inclusivity, hope, and liberation, used in pride events and advocacy for LGBTQ+ rights.
 
-**Cultural Origin:** The rainbow flag, designed by Gilbert Baker in 1978, is a global symbol of LGBTQ+ pride and diversity. Its colors represent inclusivity, hope, and liberation, used in pride events and advocacy for LGBTQ+ rights.
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** 
-
-**Archetype Alignment:** In relation to pride and LGBTQ+ which is also a big part of rave culture.
-
-
-**Swag Score:** 3
-
-
----
-
-## Connections
-
-**Ancestor:** 
+The classic rainbow arc -- representing the LGBTQ+ roots that run through house music, rave culture, and the communities that built these scenes from the ground up.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** December 10, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Archetype:** **Archetype Alignment:** In relation to pride and LGBTQ+ which is also a big part of rave culture.
+**Swag Score:** 3
+**Date Added:** 2024-12-10

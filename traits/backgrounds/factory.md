@@ -6,36 +6,29 @@ date_added: "2024-08-14"
 
 # Factory
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
 ![Factory](https://mibera.fsn1.your-objectstorage.com/components/background__z10/factory.webp)
 
+Front-view from the street, of a building with windows and orange walls.
 
-**Visual Description:** Front-view from the street, of a building with windows and orange walls.
+Dominant colors: Orange, grey.
 
-**Dominant Colors:** Orange, grey.
+## Cultural Context
 
+80’s Manchester red brick factories & buildings.
 
----
+Red brick factories of 1980s Manchester — the Madchester scene and Factory Records, where acid house first exploded in the UK.
 
-## Context
+<!-- justification
+## Justification
 
-
-**Cultural Origin:** 80’s Manchester red brick factories & buildings.
-
-
-**Why This Matters:** Red brick factories of 1980s Manchester — the Madchester scene and Factory Records, where acid house first exploded in the UK.
+Manchester's factory district is the architectural backdrop of the Madchester and acid house scenes that shaped the Freetekno archetype.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** August 14, 2024
-
+**Date Added:** 2024-08-14
 **Introduced By:** Tez
-
-**Team Notes:** 
-
----

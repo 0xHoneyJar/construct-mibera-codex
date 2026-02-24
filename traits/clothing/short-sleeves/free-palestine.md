@@ -8,63 +8,28 @@ date_added: "2024-06-22"
 
 # Free Palestine
 
-## Visual Properties
+## Visual Elements
 
+![modern_palestine_Free Palestine](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)
 
-**Image Files:**
-![modern_palestine_Free Palestine](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)/SS2_milady_modern_palestine_Free%20Palestine.webp)
+Black t-shirt a graphic of a fist up in the colour of Palestine’s flag (green, red, white) and white text that reads “FREE PALESTINE”.
 
-
-**Visual Description:** Black t-shirt a graphic of a fist up in the colour of Palestine’s flag (green, red, white) and white text that reads “FREE PALESTINE”.
-
-**Dominant Colors:** Black, white, green, red
-
-
----
+Dominant colors: Black, white, green, red
 
 ## Cultural Context
+<!-- justification
+## Justification
 
-
-**Cultural Origin:** 
-
-**Era:** Modern
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [Milady](../../../core-lore/archetypes.md#milady)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 2
-
-
----
-
-## Connections
-
-**Ancestor:** Palestine
-
+Mibera pulls in symbology and slogans from many different political sides. The Palestinian solidarity movement is one of the most visible activist causes globally, and its visual language belongs in the collection.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** June 22, 2024
-
+**Archetype:** Milady
+**Ancestor:** Palestine
+**Swag Score:** 2
+**Date Added:** 2024-06-22
 **Introduced By:** Jani
-
 **Team Notes:** "imagine a mibera with a jewish hat, a free palestine shirt and a nazi necklace. that wood break brains" — Jani, Oct 2023, #tops
-
-**Sources:**
-
-
-**Summary:** 
-
----

@@ -8,59 +8,27 @@ date_added: "2024-06-18"
 
 # Swimming Goggles
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
 ![Swimming Goggles](https://mibera.fsn1.your-objectstorage.com/components/glasses__z140/acidhouse_Swimming Goggles.webp)
 
-
-**Visual Description:** Blue circular swimming goggles
-
-**Dominant Colors:** 
-
-
----
+Blue circular swimming goggles
 
 ## Cultural Context
 
+90s rave culture
 
-**Cultural Origin:** 90s rave culture
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [Acidhouse](../../../core-lore/archetypes.md#acidhouse)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 4
-
-## Connections
-
-**Ancestor:** 
+Swimming goggles at raves became one of those unexplainable but universally recognized customs of 1990s dance culture. Nobody remembers who started it, but everyone remembers seeing them.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** June 18, 2024
-
+**Archetype:** Acidhouse
+**Swag Score:** 4
+**Date Added:** 2024-06-18
 **Introduced By:** Fedor
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----

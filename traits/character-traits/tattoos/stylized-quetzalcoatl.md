@@ -8,62 +8,29 @@ date_added: "2024-08-09"
 
 # Stylized Quetzalcoatl
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
 ![Stylized Quetzalcoatl](https://mibera.fsn1.your-objectstorage.com/components/tattoos__z125/modern_mayan_Stylized%20Quetzalcoatl.webp)
 
+Line work of a flying entity Quetzalcōātl/Kukulkan’s face, front-view, clouds can be seen indicating the figure being in the sky.
 
-**Visual Description:** Line work of a flying entity Quetzalcōātl/Kukulkan’s face, front-view, clouds can be seen indicating the figure being in the sky.
-
-**Dominant Colors:** Black.
-
----
+Dominant colors: Black.
 
 ## Cultural Context
 
+Quetzalcoatl, a prominent deity in Mesoamerican mythology, particularly among the Aztecs, revered as the god of wind, air, learning, and priesthood. Also known as Kukulkan.
+<!-- justification
+## Justification
 
-**Cultural Origin:** Quetzalcoatl, a prominent deity in Mesoamerican mythology, particularly among the Aztecs, revered as the god of wind, air, learning, and priesthood. Also known as Kukulkan.
-
-**Era:** Modern
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** 
-
-**Archetype Alignment:** To showcase a modern rendering of an ancient deity.
-
-
-**Swag Score:** 
-
-
----
-
-## Connections
-
-**Ancestor:** [Mayan](../../../core-lore/ancestors/mayan.md)
-
+Quetzalcoatl is one of the most important deities in all of Mesoamerican religion -- a feathered serpent god of wind and learning whose worship spanned the Aztec, Toltec, and Maya civilizations. Rendering him in modern lineart keeps the Mayan ancestor lineage alive in contemporary visual language.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** August 9, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
+**Archetype:** **Archetype Alignment:** To showcase a modern rendering of an ancient deity.
+**Ancestor:** [Mayan](../../../core-lore/ancestors/mayan.md)
+**Date Added:** 2024-08-09
 **Sources:**
 - https://en.wikipedia.org/wiki/Quetzalc%C5%8D%C4%81tl
-
-**Summary:** 
-
----

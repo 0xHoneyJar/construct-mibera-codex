@@ -8,62 +8,25 @@ date_added: "2024-08-09"
 
 # Without Fear Without Hate
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
 ![Without Fear Without Hate](https://mibera.fsn1.your-objectstorage.com/components/tattoos__z125/modern_punjabi_Without%20Fear%20Without%20Hate.webp)
 
-
-**Visual Description:** Script written in Gurmukhi, “Nirbhau-Nirvair” ( ) meaning ਿਨਰਭਉਿਨਰਵੈਰੁ ‘without fear, without hate’ in black.
-
-**Dominant Colors:** black
-
----
+Script written in Gurmukhi, “Nirbhau-Nirvair” ( ) meaning ਿਨਰਭਉਿਨਰਵੈਰੁ ‘without fear, without hate’ in black.
 
 ## Cultural Context
 
+Sikhism / the Punjabis
+<!-- justification
+## Justification
 
-**Cultural Origin:** Sikhism / the Punjabis
-
-**Era:** Modern
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** 
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 
-
-
----
-
-## Connections
-
-**Ancestor:** [Punjabi](../../../core-lore/ancestors/punjabi.md)
-
+The opening words of Sikh scripture tattooed in Gurmukhi -- it carries the Punjabi ancestor lineage through a phrase that doubles as a life philosophy and a dare.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** August 9, 2024
-
+**Ancestor:** [Punjabi](../../../core-lore/ancestors/punjabi.md)
+**Date Added:** 2024-08-09
 **Introduced By:** Jani
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----

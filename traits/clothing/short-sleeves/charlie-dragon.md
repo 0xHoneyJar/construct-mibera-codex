@@ -8,63 +8,32 @@ date_added: "2024-12-10"
 
 # Charlie Dragon
 
-## Visual Properties
+## Visual Elements
 
+![Dragon](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)
 
-**Image Files:**
-![Dragon](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)/SS5_milady_Dragon.webp)
+Black short-sleeved shirt with silky texture and vibrant graphic of golden dragon with fire in the background.
 
-
-**Visual Description:** Black short-sleeved shirt with silky texture and vibrant graphic of golden dragon with fire in the background.
-
-**Dominant Colors:** Black, golden, red.
-
-
----
+Dominant colors: Black, golden, red.
 
 ## Cultural Context
 
+Charlotte Fang (also known as Charlie) is a controversial figure associated with the Milady Maker NFT project and Remilia Corporation. The golden dragon shirt references imagery from Fangs social media presence, particularly a dragon-themed post from 2022 that became iconic within the Milady community.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:** 
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [Milady](../../../core-lore/archetypes.md#milady)
-
-**Archetype Alignment:** Its relation to Charlie Fang, the founder of Milady Maker
-
-
-**Swag Score:** 5
-
-
----
-
-## Connections
-
-**Ancestor:** 
+Charlotte Fang is the most polarizing figure in Milady history, and this dragon shirt is a direct reference to her online persona. The collection documents the full Milady universe, including its most controversial architect.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** December 10, 2024
-
+**Archetype:** Milady
+**Swag Score:** 5
+**Date Added:** 2024-12-10
 **Introduced By:** Jani
-
-**Team Notes:** 
-
 **Sources:**
 - https://discord.com/channels/1133935527855399053/1143684645393797200/11674242752218
 - https://x.com/CharlotteFang77/status/1498804807976599555?s=20
-
-**Summary:** 
-
----

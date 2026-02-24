@@ -8,62 +8,28 @@ date_added: "2024-06-22"
 
 # Gay Liberation Front
 
-## Visual Properties
+## Visual Elements
 
+![modern_stonewall_Gay Liberation Front](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)
 
-**Image Files:**
-![modern_stonewall_Gay Liberation Front](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)/SS2_chicagodetroit_modern_stonewall_Gay%20Liberation%20Front.webp)
+White t-shirt with white text that reads “-IBERATION FRONT text rounding a graphic of female-male symbols connected to each other, all in red.
 
-
-**Visual Description:** White t-shirt with white text that reads “-IBERATION FRONT text rounding a graphic of female-male symbols connected to each other, all in red.
-
-**Dominant Colors:** White, red.
-
-
----
+Dominant colors: White, red.
 
 ## Cultural Context
+<!-- justification
+## Justification
 
-
-**Cultural Origin:** 
-
-**Era:** Modern
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [Chicago Detroit](../../../core-lore/archetypes.md#chicago-detroit)
-
-**Archetype Alignment:** In relation to LGBTQ+ community, liberation, love, and power.
-
-
-**Swag Score:** 2
-
-
----
-
-## Connections
-
-**Ancestor:** 
+The GLF emerged from Stonewall, and house music emerged from the same queer Black and Latino communities in Chicago and New York. This shirt honors the direct lineage between LGBTQ liberation and electronic music.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** June 22, 2024
-
+**Archetype:** Chicago Detroit
+**Swag Score:** 2
+**Date Added:** 2024-06-22
 **Introduced By:** Jani
-
-**Team Notes:** 
-
 **Sources:**
 - https://discord.com/channels/1133935527855399053/1143684645393797200/11696154020080
-
-**Summary:** 
-
----

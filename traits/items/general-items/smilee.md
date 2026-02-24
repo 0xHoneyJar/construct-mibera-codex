@@ -8,62 +8,25 @@ date_added: "2024-12-09"
 
 # smilee
 
-## Visual Properties
+## Visual Elements
 
+a plushie of manic looking bear / animal, in different shades of pink, wearing a strap on and rainbow-coloured dildo as its ears.
 
-**Image Files:**
-SS3_Smilee.PNG
-
-
-**Visual Description:** a plushie of manic looking bear / animal, in different shades of pink, wearing a strap on and rainbow-coloured dildo as its ears.
-
-**Dominant Colors:** shades of pink, rainbow
-
-
----
+Dominant colors: shades of pink, rainbow
 
 ## Cultural Context
 
+Smilee is a DeFi protocol within the Berachain ecosystem. The deliberately transgressive plushie design, with its manic expression and provocative accessories, reflects the boundary-pushing humor that characterizes many Berachain community projects.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** 
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 3
-
-
----
-
-## Connections
-
-**Ancestor:** 
+Deliberately transgressive design from a DeFi protocol. The provocative plushie embodies the boundary-pushing humor that defines Berachain community culture.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** December 9, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Swag Score:** 3
+**Date Added:** 2024-12-09

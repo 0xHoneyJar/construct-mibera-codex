@@ -7,56 +7,21 @@ date_added: null
 
 # Fruits Remilia Hat
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
-
-
-**Visual Description:**
-
-**Dominant Colors:**
-
----
 
 ## Cultural Context
 
+FRUiTS was a legendary Japanese street fashion magazine founded by Shoichi Aoki in 1997, documenting the wildly creative styles of Harajuku. Remilia Corporation is the entity behind the Milady NFT collection. This hat combines both references — the intersection of Japanese street fashion documentation and crypto-native internet culture.
 
-**Cultural Origin:**
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:**
-
-**Archetype Alignment:**
-
-
-**Swag Score:** 2
-
-## Connections
-
-**Ancestor:** 
+FRUiTS magazine meets Remilia Corporation — two pillars of the aesthetic universe that Milady culture draws from, merged into a single hat.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:**
-
-**Introduced By:**
-
-**Team Notes:**
-
-**Sources:**
-
-**Summary:**
-
----
+**Swag Score:** 2

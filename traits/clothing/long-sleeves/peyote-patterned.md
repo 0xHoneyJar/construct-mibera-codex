@@ -8,63 +8,32 @@ date_added: "2024-12-10"
 
 # Peyote Patterned
 
-## Visual Properties
+## Visual Elements
 
+![Peyote Patterned](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(LONG)
 
-**Image Files:**
-![Peyote Patterned](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(LONG)/SS3_freetekno_Peyote%20Patterned.webp)
+Dark muted brown long-sleeve shirt with unique cutting and tribal design in black, beige, and creamy white in the middle.
 
-
-**Visual Description:** Dark muted brown long-sleeve shirt with unique cutting and tribal design in black, beige, and creamy white in the middle.
-
-**Dominant Colors:** Dark grey / muted brown, beige, black, creamy white
-
-
----
+Dominant colors: Dark grey / muted brown, beige, black, creamy white
 
 ## Cultural Context
 
+Peyote is a small, spineless cactus (Lophophora williamsii) native to the southwestern U.S. and Mexico, containing the hallucinogenic alkaloid mescaline, used for millennia by indigenous peoples in religious and medicinal rituals.
 
-**Cultural Origin:** Peyote is a small, spineless cactus (Lophophora williamsii) native to the southwestern U.S. and Mexico, containing the hallucinogenic alkaloid mescaline, used for millennia by indigenous peoples in religious and medicinal rituals.
+<!-- justification
+## Justification
 
-**Era:** 
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [Freetekno](../../../core-lore/archetypes.md#freetekno)
-
-**Archetype Alignment:** In relation to the drug culture and usage within Mibera lore.
-
-
-**Swag Score:** 3
-
-
----
-
-## Connections
-
-**Ancestor:** 
+Peyote has been central to indigenous spiritual practice for millennia, and its patterns are among the oldest psychedelic visual traditions on earth. This garment connects the collection to the deep roots of altered-state culture.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** December 10, 2024
-
+**Archetype:** Freetekno
+**Swag Score:** 3
+**Date Added:** 2024-12-10
 **Introduced By:** Jani
-
-**Team Notes:** 
-
 **Sources:**
 - https://discord.com/channels/1133935527855399053/1159122178009210890/11591224412395
 - https://www.arkanainternational.com/blog/peyote
-
-**Summary:** 
-
----

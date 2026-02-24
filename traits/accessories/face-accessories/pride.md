@@ -8,62 +8,26 @@ date_added: "2024-12-10"
 
 # Pride
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
 ![Pride](https://mibera.fsn1.your-objectstorage.com/components/face%20accessories__z60/SS2_milady_pride.webp)
 
-
-**Visual Description:** Rainbow strokes in a rectangle shape. Symbolizing a pride flag.
-
-**Dominant Colors:** Rainbow
-
-
----
+Rainbow strokes in a rectangle shape. Symbolizing a pride flag.
 
 ## Cultural Context
 
+The rainbow pride flag was designed by Gilbert Baker in 1978 for the San Francisco Gay Freedom Day Parade. Originally featuring eight stripes (each with a specific meaning including life, healing, sunlight, nature, serenity, and spirit), it was simplified to six stripes for practical manufacturing. The flag became the universal symbol of LGBTQ+ pride and rights worldwide, and painting it on the face is a common gesture of solidarity at pride events and protests.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [Milady](../../../core-lore/archetypes.md#milady)
-
-**Archetype Alignment:** The pride flag's history began with the rainbow flag, designed by Gilbert Baker in 1978 for San Francisco's gay community, commissioned by Harvey Milk. Inspired by the rainbow's symbolism of diversity and Judy Garland's "Over the Rainbow,"
-
-
-**Swag Score:** 2
-
-
----
-
-## Connections
-
-**Ancestor:** 
+The pride flag on the face is a declaration that electronic music culture and the LGBTQ+ community have always been inseparable -- from disco to house to today, queer people built the dancefloor.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** December 10, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Archetype:** Milady
+**Swag Score:** 2
+**Date Added:** 2024-12-10

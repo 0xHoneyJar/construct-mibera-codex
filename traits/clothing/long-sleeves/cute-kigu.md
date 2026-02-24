@@ -8,62 +8,27 @@ date_added: "2024-12-09"
 
 # Cute Kigu
 
-## Visual Properties
+## Visual Elements
 
+![cute kigu](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(KIGU)
 
-**Image Files:**
-![cute kigu](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(KIGU)/SS4_milady_cute%20kigu.webp)
+Bear onesie with the hood up in light beige.
 
-
-**Visual Description:** Bear onesie with the hood up in light beige.
-
-**Dominant Colors:** Light beige
-
-
----
+Dominant colors: Light beige
 
 ## Cultural Context
 
+Part of the kigurumi (着ぐるみ) series. The light beige colorway is the softest of the set, leaning fully into the kawaii aesthetic — the Japanese culture of cuteness that permeates Harajuku fashion, anime, and by extension the Milady visual identity. The 'cute' label makes explicit what the other kigus imply.
+<!-- justification
+## Justification
 
-**Cultural Origin:** Part of the kigurumi (着ぐるみ) series. The light beige colorway is the softest of the set, leaning fully into the kawaii (かわいい) aesthetic — the Japanese culture of cuteness that permeates Harajuku fashion, anime, and by extension the Milady visual identity. The 'cute' label makes explicit what the other kigus imply.
-
-**Era:** 2000s-present (Japanese street fashion) 
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [Milady](../../../core-lore/archetypes.md#milady)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 4
-
-
----
-
-## Connections
-
-**Ancestor:** 
+This kigu was present at a Milady rave.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** December 9, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Archetype:** Milady
+**Swag Score:** 4
+**Date Added:** 2024-12-09

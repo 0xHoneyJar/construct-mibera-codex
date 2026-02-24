@@ -8,62 +8,29 @@ date_added: "2024-12-10"
 
 # Serotonin
 
-## Visual Properties
+## Visual Elements
 
+Earring in the molecular shape of ‘serotonin’ in silver / grey, a few lines connecting to each other forming open shapes in the middle.
 
-**Image Files:**
-SS3_serotonin.png
-
-
-**Visual Description:** Earring in the molecular shape of ‘serotonin’ in silver / grey, a few lines connecting to each other forming open shapes in the middle.
-
-**Dominant Colors:** Silver.
-
-
----
+Dominant colors: Silver.
 
 ## Cultural Context
 
+Serotonin is a neurotransmitter and hormone, primarily found in the brain, gut, and blood platelets, that regulates mood, sleep, appetite, and digestion. Low serotonin levels are linked to depression, anxiety, and sleep disorders.
 
-**Cultural Origin:** Serotonin is a neurotransmitter and hormone, primarily found in the brain, gut, and blood platelets, that regulates mood, sleep, appetite, and digestion. Low serotonin levels are linked to depression, anxiety, and sleep disorders.
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** 
-
-**Archetype Alignment:** Chemical that’s found in the brain, gut, and blood platelets. Related to many drugs and drug users behavior in general.
-
-
-**Swag Score:** 3
-
-
----
-
-## Connections
-
-**Ancestor:** 
+The companion piece to the dopamine earring -- wearing your brain chemistry as an accessory is peak Mibera, where neuroscience and drug culture are the same conversation.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** December 10, 2024
-
+**Archetype:** **Archetype Alignment:** Chemical that’s found in the brain, gut, and blood platelets. Related to many drugs and drug users behavior in general.
+**Swag Score:** 3
+**Date Added:** 2024-12-10
 **Introduced By:** Jani / Gumi
-
-**Team Notes:** 
-
 **Sources:**
 - https://id.wikipedia.org/wiki/Serotonin
-
-**Summary:** 
-
----

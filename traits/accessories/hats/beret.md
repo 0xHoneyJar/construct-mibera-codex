@@ -8,62 +8,28 @@ date_added: "2024-07-25"
 
 # Beret
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
 ![Beret](https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS3_milady_Beret.webp)
 
+Small beret in dark army green / dark grey.
 
-**Visual Description:** Small beret in dark army green / dark grey.
-
-**Dominant Colors:** Dark army green / dark grey.
-
-
----
+Dominant colors: Dark army green / dark grey.
 
 ## Cultural Context
 
+The beret has a centuries-long history as a symbol of artistic, intellectual, and revolutionary identity. From Basque shepherds to French Resistance fighters, from Che Guevara to Parisian art students, the beret carries associations with bohemian culture, political radicalism, and creative nonconformity. In internet culture, the beret became iconic through its association with the Milady aesthetic.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [Milady](../../../core-lore/archetypes.md#milady)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 3
-
-
----
-
-## Connections
-
-**Ancestor:** 
+The beret is THE classic Milady headpiece — straight from Parisian art school to the timeline, it signals taste and quiet cultural confidence.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** July 25, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Archetype:** Milady
+**Swag Score:** 3
+**Date Added:** 2024-07-25

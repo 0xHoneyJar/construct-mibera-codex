@@ -8,62 +8,28 @@ date_added: "2024-07-27"
 
 # Vaneck Intern
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
 ![vaneck intern](https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS2_freetekno_vaneck%20intern.webp)
 
+Black cap with white text that reads “vaneck intern”.
 
-**Visual Description:** Black cap with white text that reads “vaneck intern”.
-
-**Dominant Colors:** Black, white
-
-
----
+Dominant colors: Black, white
 
 ## Cultural Context
 
+VanEck is a global investment management firm known in the crypto space for its persistent attempts to launch Bitcoin and Ethereum ETFs. The firm's social media team became known for engaging with crypto culture, earning them a reputation as one of the more crypto-native traditional finance firms. The "VanEck intern" meme refers to the assumption that their unusually good crypto posts must be written by a young, extremely online intern.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [Freetekno](../../../core-lore/archetypes.md#freetekno)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 2
-
-
----
-
-## Connections
-
-**Ancestor:** 
+The legendary VanEck intern who posts like a degen but works at a trillion-dollar asset manager — this hat is for every Mibera who is secretly way more corporate than they let on.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** July 27, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Archetype:** Freetekno
+**Swag Score:** 2
+**Date Added:** 2024-07-27

@@ -1,90 +1,58 @@
-# Sprint Plan: Mibera Sets — Individual Token Entries
+# Sprint Plan: Reveal Timeline — Per-Mibera Fracture Images
 
-> **Cycle**: cycle-015
-> **Created**: 2026-02-20
-> **PRD**: `grimoires/loa/prd.md`
-> **SDD**: `grimoires/loa/sdd.md`
+**Cycle**: 017
+**Created**: 2026-02-24
 
 ---
 
-## Sprint 1: Fetch Metadata & Generate Token Entries (Global #23)
+## Sprint 1: Reveal Timeline Integration
 
-**Goal**: Fetch on-chain metadata for all 12 Mibera Set tokens and create individual codex entries.
+**Goal**: Add reveal timeline images to all 10,000 Mibera files and clean up legacy data.
 
-### Task 1: Write fetch-mibera-sets.py script
+### Task 1: Build the reveal timeline script
 
-**Description**: Create `_codex/scripts/fetch-mibera-sets.py` — stdlib-only Python script that:
-1. Makes `eth_call` to `uri(uint256)` on Optimism for token IDs 1-12
-2. Decodes ABI-encoded string response
-3. Resolves URI (handles `ar://`, `{id}` template, HTTPS)
-4. Fetches Arweave metadata JSON for each token
-5. Generates 12 individual markdown files in `mibera-sets/`
-6. Generates `mibera-sets/README.md` index
-7. Saves raw metadata cache to `_codex/data/mibera-sets-meta.json`
-
-**Acceptance Criteria**:
-- [x] Script runs with `python3 _codex/scripts/fetch-mibera-sets.py`
-- [x] Stdlib-only (no pip dependencies)
-- [x] ABI string decoding works for `uri()` return values
-- [x] Handles ERC-1155 template URIs with `{id}` substitution
-- [x] Retry logic (3x with backoff) on RPC/Arweave failures
-- [x] Stub entries with `<!-- GAP -->` for any tokens where metadata fetch fails
-- [x] Rate limiting: 0.5s between RPC calls, 1.0s between Arweave fetches
-
-### Task 2: Run script and verify output
-
-**Description**: Execute the script against live Optimism RPC and Arweave gateway. Verify all 12 token files are generated correctly. Review metadata content for accuracy against known token names from `_codex/data/mibera-sets.md`.
+**Description**: Create `_codex/scripts/add-reveal-timeline.py` that:
+- Loads `_codex/data/mibera-image-urls.json` and builds tokenId→hash mapping
+- Iterates all 10,000 `miberas/NNNN.md` files
+- Inserts a `## Reveal Timeline` section with a 9-column markdown image table
+- Phases in order: MiParcels, Miladies, #1.1, #2.2, #3.3, #4.20, #5.5, #6.9, #7.7
+- URL patterns: token-ID-based for parcels/miladies, hash-based for reveals
+- S3 base: `https://thj-assets.s3.us-west-2.amazonaws.com`
+- Idempotent: replaces existing `## Reveal Timeline` if present
+- Stdlib-only Python (project convention)
 
 **Acceptance Criteria**:
-- [x] All 12 token files created in `mibera-sets/`
-- [x] `mibera-sets/README.md` index lists all 12 tokens grouped by category
-- [x] `_codex/data/mibera-sets-meta.json` contains raw metadata for all tokens
-- [x] YAML frontmatter matches SDD schema (token_id, name, type, category, supply, image, metadata_uri)
-- [x] Backlink markers present in all files
-- [x] Token names from metadata match (or documented discrepancy with) existing names in mibera-sets.md
+- [ ] Script runs without errors on all 10,000 files
+- [ ] Produces correct S3 URLs for both token-ID and hash-based phases
+- [ ] Inserts between hero image and `## Traits` heading
+- [ ] Running twice produces identical output (idempotent)
+- [ ] Logs summary: files processed, skipped, errors
 
-### Task 3: Update _codex/data/mibera-sets.md
+### Task 2: Run script on all 10,000 Mibera files
 
-**Description**: Update the collection-level reference with resolved metadata information:
-- Replace Metadata section GAP comments with actual URI pattern and links
-- Add links from token tier table to individual entry files
-- Resolve GAP comments that are now answered by metadata
+**Description**: Execute the script across the full `miberas/` directory. Verify output on a sample before committing.
 
 **Acceptance Criteria**:
-- [x] Metadata section updated with resolved URI pattern
-- [x] Link to `mibera-sets-meta.json` for full metadata
-- [x] Token tier table rows link to individual entries
-- [x] Resolved GAP comments removed; any remaining GAPs still valid
+- [ ] All 10,000 files modified with `## Reveal Timeline` section
+- [ ] Spot-check 5 files (IDs 1, 42, 100, 5000, 9999) — correct URLs, correct phase order
+- [ ] Hero image (Irys URL) unchanged in all files
+- [ ] `## Traits` table and all content below unchanged
+- [ ] No regressions in frontmatter
 
-### Task 4: Update navigation indices
+### Task 3: Cleanup legacy mireveal data
 
-**Description**: Integrate `mibera-sets/` into codex navigation:
-- `manifest.json`: Add `mibera_set` entity type + `mibera_sets_meta` data export
-- `SUMMARY.md`: Add mibera-sets section
-- `CLAUDE.md`: Add to directory layout table and lookup patterns
-- `_codex/data/scope.json`: Add mibera-sets count
-- `llms.txt`: Add lookup pattern if space permits
+**Description**: Remove `mireveals/mireveal3.3/` directory (old CSV metadata, superseded by S3 URLs).
 
 **Acceptance Criteria**:
-- [x] `manifest.json` has `mibera_set` entity type with count 12, COMPLETE status
-- [x] `SUMMARY.md` lists mibera-sets directory with individual token links
-- [x] `CLAUDE.md` directory layout table includes `mibera-sets/`
-- [x] `_codex/data/scope.json` includes mibera-sets in tracked entities
+- [ ] `mireveals/` directory deleted
+- [ ] No broken references from other files (grep for `mireveals/`)
+- [ ] No manifest.json references (already confirmed: none exist)
 
-### Task 5: Validate
+### Task 4: Validation and spot-check
 
-**Description**: Run codex validation scripts to ensure new files are structurally correct and all links resolve.
+**Description**: Push a test branch, verify GitHub renders the images correctly on at least 3 Mibera files. Confirm S3 public access is working end-to-end.
 
 **Acceptance Criteria**:
-- [x] `_codex/scripts/audit-links.sh` passes (0 broken links)
-- [x] Internal links from README to individual files resolve
-- [x] Links from mibera-sets.md to individual files resolve
-- [x] YAML frontmatter parseable in all 12 files
-
----
-
-## Summary
-
-| Sprint | Global ID | Tasks | Goal |
-|--------|-----------|-------|------|
-| 1 | 23 | 5 | Fetch metadata & generate token entries |
+- [ ] Images render on GitHub (not broken)
+- [ ] Table layout is visually acceptable (9 thumbnails in a row)
+- [ ] Clicking an image opens the full-size S3 version

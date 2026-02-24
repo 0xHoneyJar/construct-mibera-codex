@@ -7,58 +7,24 @@ date_added: null
 
 # Autism Powered
 
-## Visual Properties
+## Visual Elements
 
+Black t-shirt with white text that says “AUTISM POWERED FUCK MACHINE”.
 
-**Image Files:**
-
-
-**Visual Description:** Black t-shirt with white text that says “AUTISM POWERED FUCK MACHINE”.
-
-**Dominant Colors:** Black, white.
-
-
----
+Dominant colors: Black, white.
 
 ## Cultural Context
 
+Neurodivergence has become a point of pride in online communities, particularly in crypto and tech spaces where hyperfocus and pattern recognition are valued. Autism-themed merch reclaims the diagnosis as identity rather than deficit.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:** 
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** 
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 1
-
-## Connections
-
-**Ancestor:** 
+Crypto culture openly celebrates neurodivergence as a superpower. This shirt is the community saying the quiet part loud.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** 
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Swag Score:** 1

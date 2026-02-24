@@ -8,62 +8,25 @@ date_added: "2024-07-28"
 
 # yeet bucket
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
 ![SS3 Yeet Bucket](https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS3_Yeet%20Bucket.webp)
 
-
-**Visual Description:** a pale yellow bucket hat with the Yeet logo and text in the middle. A graphic of a yellow creature’s head with uneven crossed eyes, ears, and a drooling mouth.
-
-**Dominant Colors:** pale yellow
-
-
----
+a pale yellow bucket hat with the Yeet logo and text in the middle. A graphic of a yellow creature’s head with uneven crossed eyes, ears, and a drooling mouth.
 
 ## Cultural Context
 
+Yeet is a Berachain ecosystem project featuring a distinctive yellow creature mascot with crossed eyes and a drooling expression. The deliberately derpy aesthetic is typical of Berachain community projects, where humor and absurdity are valued as much as technical innovation. Bucket hats are the preferred headwear format for ecosystem collabs in the collection.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** 
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 3
-
-
----
-
-## Connections
-
-**Ancestor:** 
+Yeet's derpy mascot on a bucket hat — another Berachain ecosystem project earning its place in the collection through sheer community personality.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** July 28, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Swag Score:** 3
+**Date Added:** 2024-07-28

@@ -8,59 +8,29 @@ date_added: "2024-12-10"
 
 # Tactical
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
 ![Tactical](https://mibera.fsn1.your-objectstorage.com/components/glasses__z140/milady_Tactical.webp)
 
-
-**Visual Description:** big turquoise visor with stats / readings on it, in black framing.
-
-**Dominant Colors:** 
-
-
----
+big turquoise visor with stats / readings on it, in black framing.
 
 ## Cultural Context
 
+Tactical HUD (heads-up display) visors originate from military aviation and have been a recurring element in science fiction and cyberpunk media. The aesthetic has been adopted in internet-native fashion as a symbol of information overload and augmented reality, themes central to post-ironic digital culture.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [Milady](../../../core-lore/archetypes.md#milady)
-
-**Archetype Alignment:** Based on a Bong Bear’s trait / art tactical glasses.
-
-
-**Swag Score:** 3
-
-## Connections
-
-**Ancestor:** 
+Data overlays on your field of vision. The Milady archetype already sees the world through layers of irony and metadata; the tactical visor just makes it literal.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** December 10, 2024
-
+**Archetype:** Milady
+**Swag Score:** 3
+**Date Added:** 2024-12-10
 **Introduced By:** Tez
-
-**Team Notes:** 
-
 **Sources:**
 - https://discord.com/channels/1133935527855399053/1143683806981800030/11516747625951
-
-**Summary:** 
-
----

@@ -7,42 +7,21 @@ element: Air
 
 # Aquarius
 
-
-## Sun Sign
-
+## Visual Elements
 
 ![Sun Aquarius](https://mibera.fsn1.your-objectstorage.com/components/Sun/Sun%20Aquarius.webp)
 
-**Date Range:** January 20 - February 18
 
-**Glyph:** ♒
+## Cultural Context
 
-**Element:** Air
+Aquarius (January 20 -- February 18) is the eleventh sign of the Western zodiac, an air sign ruled by Uranus (traditionally Saturn). Represented by the Water Bearer, it is associated with innovation, humanitarianism, and intellectual independence. In astrology, Aquarius natives are characterized as progressive, original thinkers who value freedom and community.
 
----
+<!-- justification
+## Justification
 
-
-## Moon Sign
-
-
-![Moon Aquarius](https://mibera.fsn1.your-objectstorage.com/components/Moon/Moon%20Aquarius.webp)
-
-**Glyph:** ♒
-
-**Element:** Air
+In the signal hierarchy, astrology sits at the modifier layer -- it does not define a Mibera but inflects how other signals express. An Aquarius overlay adds a note of unconventional thinking and detachment to whatever archetype and ancestor already shape the character.
+-->
 
 ---
 
-
-## Rising Sign
-
-
-![Rising Aquarius](https://mibera.fsn1.your-objectstorage.com/components/Rising/Rising%20Aquarius.webp)
-
-**Glyph:** ♒
-
-**Element:** Air
-
-**1/1 Grail:** [Aquarius Grail (#6805)](../../../grails/aquarius.md)
-
----
+## Attribution

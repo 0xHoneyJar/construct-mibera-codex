@@ -8,62 +8,26 @@ date_added: "2024-08-10"
 
 # Om
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
 ![Om](https://mibera.fsn1.your-objectstorage.com/components/tattoos__z125/ancient_hindu_Om.webp)
 
+An ‘om’ symbol in black.
 
-**Visual Description:** An ‘om’ symbol in black.
-
-**Dominant Colors:** Black.
-
----
+Dominant colors: Black.
 
 ## Cultural Context
 
+“Om” symbol (or Aum); a sacred sound and spiritual icon in Hinduism, Buddhism, and Jainism, representing the essence of the universe and the vibration of creation. Written as ॐ in Sanskrit, it combines the sounds "A," "U," and "M," symbolizing the waking, dreaming, and deep sleep states, with silence afterward representing transcendence. Used in meditation, mantras, and rituals, it signifies unity, peace, and the connection to the divine, often depicted in art and tattoos for its spiritual depth.
+<!-- justification
+## Justification
 
-**Cultural Origin:** “Om” symbol (or Aum); a sacred sound and spiritual icon in Hinduism, Buddhism, and Jainism, representing the essence of the universe and the vibration of creation. Written as ॐ in Sanskrit, it combines the sounds "A," "U," and "M," symbolizing the waking, dreaming, and deep sleep states, with silence afterward representing transcendence. Used in meditation, mantras, and rituals, it signifies unity, peace, and the connection to the divine, often depicted in art and tattoos for its spiritual depth.
-
-**Era:** Ancient ---
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** 
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 
-
-
----
-
-## Connections
-
-**Ancestor:** [Hindu](../../../core-lore/ancestors/hindu.md)
-
+Om is the foundational sacred syllable of Hinduism, Buddhism, and Jainism -- it is the single most widely recognized spiritual symbol in the world, and its presence grounds the Hindu ancestor lineage in the deepest layer of Vedic tradition.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** August 10, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Ancestor:** [Hindu](../../../core-lore/ancestors/hindu.md)
+**Date Added:** 2024-08-10

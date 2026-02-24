@@ -8,62 +8,30 @@ date_added: "2024-12-10"
 
 # Dark Side
 
-## Visual Properties
+## Visual Elements
 
+![Dark Side](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)
 
-**Image Files:**
-![Dark Side](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)/SS4_freetekno_Dark%20Side.webp)
+a black t-shirt with white outline of a triangle and a rainbow stroke.
 
-
-**Visual Description:** a black t-shirt with white outline of a triangle and a rainbow stroke.
-
-**Dominant Colors:** Black
-
-
----
+Dominant colors: Black
 
 ## Cultural Context
 
+The Dark Side of the Moon is a 1973 album by Pink Floyd, a landmark in progressive rock. Recorded at Abbey Road Studios, it explores themes like time, mortality, and mental illness. It became one of the best-selling albums ever, with over 45 million copies sold. It peaked at #1 in the US and stayed on charts for decades, earning critical acclaim for its lyrical depth and sonic experimentation.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:** 
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [Freetekno](../../../core-lore/archetypes.md#freetekno)
-
-**Archetype Alignment:** This is also a shirt that is included in the OG Bong Bears collection.
-
-
-**Swag Score:** 4
-
-
----
-
-## Connections
-
-**Ancestor:** 
+The Dark Side of the Moon prism is one of the most reproduced images in music history. Pink Floyd's psychedelic rock is a direct ancestor of the trance and ambient traditions that feed into electronic music.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** December 10, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
+**Archetype:** Freetekno
+**Swag Score:** 4
+**Date Added:** 2024-12-10
 **Sources:**
 - https://en.wikipedia.org/wiki/The_Dark_Side_of_the_Moon
-
-**Summary:** The Dark Side of the Moon is a 1973 album by Pink Floyd, a landmark in progressive rock. Recorded at Abbey Road Studios, it explores themes like time, mortality, and mental illness. It became one of the best-selling albums ever, with over 45 million copies sold. It peaked at #1 in the US and stayed on charts for decades, earning critical acclaim for its lyrical depth and sonic experimentation.
-
----

@@ -8,62 +8,29 @@ date_added: "2024-07-12"
 
 # sudoswap owen plushie
 
-## Visual Properties
+## Visual Elements
 
+Green plushie of a sewn green octopus with a smiley face and a few white lines on the head and body.
 
-**Image Files:**
-SS2_milady_Sudoswap Owen Plushie.png
-
-
-**Visual Description:** Green plushie of a sewn green octopus with a smiley face and a few white lines on the head and body.
-
-**Dominant Colors:** Green / teal-ish
-
-
----
+Dominant colors: Green / teal-ish
 
 ## Cultural Context
 
+Owen is the octopus mascot of Sudoswap, a decentralized NFT trading protocol on Ethereum. Sudoswap pioneered on-chain NFT AMM (automated market maker) pools. The plushie format is consistent with the collection's pattern of turning crypto project mascots into held collectibles.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [Milady](../../../core-lore/archetypes.md#milady)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 2
-
-
----
-
-## Connections
-
-**Ancestor:** 
+DeFi protocol mascot rendered as a plushie, part of the collection's pattern of turning crypto partners into kawaii collectibles.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** July 12, 2024
-
+**Archetype:** Milady
+**Swag Score:** 2
+**Date Added:** 2024-07-12
 **Introduced By:** Jani
-
-**Team Notes:** 
-
 **Sources:**
 - https://discord.com/channels/1133935527855399053/1143685538075902095/11674208723243
-
-**Summary:** 
-
----

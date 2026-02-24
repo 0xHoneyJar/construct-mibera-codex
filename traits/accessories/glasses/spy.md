@@ -8,59 +8,27 @@ date_added: "2024-06-16"
 
 # spy
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
 ![Spy](https://mibera.fsn1.your-objectstorage.com/components/glasses__z140/milady_Spy.webp)
 
-
-**Visual Description:** big sunglasses with vibrant green lenses and thick black frames, with a mic attached on one side.
-
-**Dominant Colors:** 
-
-
----
+big sunglasses with vibrant green lenses and thick black frames, with a mic attached on one side.
 
 ## Cultural Context
 
+Spy-themed eyewear with integrated microphones or cameras has been a recurring motif in popular culture since the James Bond franchise and 1960s spy-fi television. In internet culture, the surveillance aesthetic has been reappropriated as both a privacy commentary and an ironic fashion statement.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [milady](../../../core-lore/archetypes.md#milady)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 4
-
-## Connections
-
-**Ancestor:** 
+Surveillance chic meets post-ironic cool. The Milady archetype loves accessories that ask whether you are the watcher or the watched, and refuses to answer.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** June 16, 2024
-
+**Archetype:** milady
+**Swag Score:** 4
+**Date Added:** 2024-06-16
 **Introduced By:** tez / gumi
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----

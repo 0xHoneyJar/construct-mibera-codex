@@ -8,62 +8,28 @@ date_added: "2024-06-22"
 
 # Eth Waterloo
 
-## Visual Properties
+## Visual Elements
 
+![Eth Waterloo](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)
 
-**Image Files:**
-![Eth Waterloo](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)/SS3_Eth%20Waterloo.webp)
+White t-shirt with graphics of 2 bears and a bull, along with text that reads “ETH WATERLOO” at the top, and “WE’RE SO FKN BACK” at the bottom.
 
-
-**Visual Description:** White t-shirt with graphics of 2 bears and a bull, along with text that reads “ETH WATERLOO” at the top, and “WE’RE SO FKN BACK” at the bottom.
-
-**Dominant Colors:** White, brown
-
-
----
+Dominant colors: White, brown
 
 ## Cultural Context
 
+ETH Waterloo is an Ethereum hackathon held in Waterloo, Ontario, Canada, known as one of the premier events in the Ethereum developer community. It brings together builders, researchers, and community members in the collaborative, high-energy format that defines crypto culture.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:** 
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** 
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 3
-
-
----
-
-## Connections
-
-**Ancestor:** 
+Hackathon merch is the tribal gear of the Ethereum builder community. This shirt documents the culture of in-person crypto events where the next big protocol gets built over a weekend.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** June 22, 2024
-
+**Swag Score:** 3
+**Date Added:** 2024-06-22
 **Introduced By:** Jani
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----

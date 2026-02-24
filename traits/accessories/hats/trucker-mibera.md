@@ -8,62 +8,29 @@ date_added: "2024-12-10"
 
 # Trucker Mibera
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
 ![Trucker Mibera](https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS3_milady_Trucker%20Mibera.webp)
 
+White and yellow cap with Mibera logo in the middle; a yellow smiley face with bear ears.
 
-**Visual Description:** White and yellow cap with Mibera logo in the middle; a yellow smiley face with bear ears.
-
-**Dominant Colors:** Yellow, white
-
-
----
+Dominant colors: Yellow, white
 
 ## Cultural Context
 
+Trucker caps originated as promotional giveaways from agricultural and trucking companies in the 1960s and 1970s, featuring mesh backs for ventilation. They were adopted by punk, skate, and eventually mainstream fashion culture. The Mibera-branded trucker cap with the smiley bear logo turns the collection's identity into the most classic American hat format.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [Milady](../../../core-lore/archetypes.md#milady)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 3
-
-
----
-
-## Connections
-
-**Ancestor:** 
+Every collection needs its trucker cap — the Mibera smiley bear on a classic mesh-back is the straightforward way to rep the project.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** December 10, 2024
-
-**Introduced By:** 
-
+**Archetype:** Milady
+**Swag Score:** 3
+**Date Added:** 2024-12-10
 **Team Notes:** "we'll need a trucker cap too" — Tez, Sep 2023, #hats
-
-**Sources:**
-
-
-**Summary:** 
-
----

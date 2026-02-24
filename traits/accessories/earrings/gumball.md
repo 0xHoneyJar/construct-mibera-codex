@@ -8,63 +8,29 @@ date_added: "2024-12-10"
 
 # Gumball
 
-## Visual Properties
+## Visual Elements
 
+Circular shape in purple and blue with ‘GB’ on it and a liquidy texture dripping down from one side.
 
-**Image Files:**
-SS3_Gumball.PNG
-
-
-**Visual Description:** Circular shape in purple and blue with ‘GB’ on it and a liquidy texture dripping down from one side.
-
-**Dominant Colors:** Purple, blue
-
-
----
+Dominant colors: Purple, blue
 
 ## Cultural Context
 
+GumBall Protocol is a Berachaain ecosystem project powering multiple dApps.
 
-**Cultural Origin:** GumBall Protocol is a Berachaain ecosystem project powering multiple dApps.
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** 
-
-**Archetype Alignment:** Fellow bera brojekt
-
-
-**Swag Score:** 3
-
-
----
-
-## Connections
-
-**Ancestor:** 
+GumBall Protocol is a Berachain-native project, and ecosystem collaborations like this are how Mibera weaves itself into the broader bera culture.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** December 10, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
+**Archetype:** **Archetype Alignment:** Fellow bera brojekt
+**Swag Score:** 3
+**Date Added:** 2024-12-10
 **Sources:**
 - https://x.com/GumBallProtocol
 - https://www.gumballlabs.io/
-
-**Summary:** 
-
----

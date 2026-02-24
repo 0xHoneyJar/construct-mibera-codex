@@ -8,62 +8,28 @@ date_added: "2024-12-10"
 
 # Sailor
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
 ![Sailor](https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS3_milady_Sailor.webp)
 
+White sailor hat with a graphic of an anchor and a stripe on top of it in greyish tone.
 
-**Visual Description:** White sailor hat with a graphic of an anchor and a stripe on top of it in greyish tone.
-
-**Dominant Colors:** White, grey
-
-
----
+Dominant colors: White, grey
 
 ## Cultural Context
 
+The sailor hat (also known as a dixie cup or gob hat) has been standard issue in naval forces worldwide since the 19th century. In fashion, it has been adopted and reinterpreted through various aesthetics — from 1920s flapper style to Japanese sailor uniform (seifuku) fashion, which became deeply influential in anime and Milady-adjacent visual culture.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [Milady](../../../core-lore/archetypes.md#milady)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 3
-
-
----
-
-## Connections
-
-**Ancestor:** 
+The sailor hat bridges naval tradition and anime seifuku fashion — a clean, minimal piece that fits the Milady aesthetic's love of uniforms and costume.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** December 10, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Archetype:** Milady
+**Swag Score:** 3
+**Date Added:** 2024-12-10

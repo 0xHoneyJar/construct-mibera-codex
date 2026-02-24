@@ -6,31 +6,23 @@ date_added: "2024-12-10"
 
 # short green
 
-## Visual Properties
+## Visual Elements
 
+an oval pixie cut in soft pale green.
 
-**Image Files:**
-Short Green__w11.PNG
+## Cultural Context
 
+The short style is an oval pixie cut — close-cropped and rounded, one of the most iconic short hairstyles in fashion history. Popularized by figures from Audrey Hepburn to Mia Farrow, the pixie cut signals confidence, modernity, and a willingness to reject conventional femininity norms.
 
-**Visual Description:** an oval pixie cut in soft pale green.
+<!-- justification
+## Justification
 
-**Dominant Colors:** soft pale green
-
----
-
-## Connections
-
-**Ancestor:** 
+Bold and modern, the pixie cut signals confidence and a willingness to break with conventional norms.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** December 10, 2024
-
+**Date Added:** 2024-12-10
 **Introduced By:** Gumi
-
-**Team Notes:** 
-
----

@@ -8,62 +8,29 @@ date_added: "2024-12-10"
 
 # Henlo Jersey
 
-## Visual Properties
+## Visual Elements
 
+![Henlo](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(LONG)
 
-**Image Files:**
-![Henlo](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(LONG)/SS3_Henlo.webp)
+Muted purple jersey with 'HENLO' in gothic font, worn over a white t-shirt, topped with 2 thin gold chains.
 
-
-**Visual Description:** Muted purple jersey with 'HENLO' in gothic font, worn over a white t-shirt, topped with 2 thin gold chains.
-
-**Dominant Colors:** purple, white.
-
-
----
+Dominant colors: purple, white.
 
 ## Cultural Context
 
-
-**Cultural Origin:** Henlo is a project within the Berachain ecosystem. The gothic-font jersey over a white tee with gold chains blends sports jersey culture with streetwear aesthetics — a style rooted in 1990s hip-hop fashion where oversized jerseys became a wardrobe staple, from the NBA hardwood to the Wu-Tang Clan.
-
-**Era:** Contemporary (Berachain ecosystem) 
+Henlo is a project within the Berachain ecosystem. The gothic-font jersey over a white tee with gold chains blends sports jersey culture with streetwear aesthetics — a style rooted in 1990s hip-hop fashion where oversized jerseys became a wardrobe staple, from the NBA hardwood to the Wu-Tang Clan.
 
 
-**Why This Matters:**
 
+<!-- justification
+## Justification
 
----
-
-## Mibera Integration
-
-**Archetype:** 
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 3
-
-
----
-
-## Connections
-
-**Ancestor:** 
+Henlo is a Berachain ecosystem project. The gothic-font jersey with gold chains blends 1990s hip-hop jersey culture with web3 community identity.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** December 10, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Swag Score:** 3
+**Date Added:** 2024-12-10

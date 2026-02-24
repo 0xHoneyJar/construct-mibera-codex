@@ -8,62 +8,29 @@ date_added: "2024-07-27"
 
 # Green Mask
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
 ![Green Mask](https://mibera.fsn1.your-objectstorage.com/components/Masks/SS4_chicagodetroit_Green Mask.webp)
 
+Full-face green mask with a shape of a face and deep eye-sockets..
 
-**Visual Description:** Full-face green mask with a shape of a face and deep eye-sockets..
-
-**Dominant Colors:** Green.
-
-
----
+Dominant colors: Green.
 
 ## Cultural Context
 
+Illegal Covid Raves
 
-**Cultural Origin:** Illegal Covid Raves
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [Chicago Detroit](../../../core-lore/archetypes.md#chicago-detroit)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 4
-
-
----
-
-## Connections
-
-**Ancestor:** 
+Another artifact from the illegal COVID rave era. A featureless green mask at an underground party is equal parts practical, eerie, and committed to the bit.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** July 27, 2024
-
+**Archetype:** Chicago Detroit
+**Swag Score:** 4
+**Date Added:** 2024-07-27
 **Introduced By:** Jani
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----

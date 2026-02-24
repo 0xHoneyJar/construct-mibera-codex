@@ -6,31 +6,23 @@ date_added: "2024-06-22"
 
 # normal orange
 
-## Visual Properties
+## Visual Elements
 
+a short haircut with straight bangs and flat ends, in red copper / dark ginger / dark orange.
 
-**Image Files:**
-Normal Orange__w5.png Normal Orange__z-32.png
+## Cultural Context
 
+The normal style is a short haircut with straight bangs and flat ends — the collection's baseline hairstyle. Like the normal eyes and normal mouth, it serves as the neutral reference point from which all other hair styles deviate, clean and unadorned.
 
-**Visual Description:** a short haircut with straight bangs and flat ends, in red copper / dark ginger / dark orange.
+<!-- justification
+## Justification
 
-**Dominant Colors:** red copper / dark ginger / dark orange.
-
----
-
-## Connections
-
-**Ancestor:** 
+The baseline style — clean, unadorned, and neutral, letting other traits carry the visual identity.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** June 22, 2024
-
+**Date Added:** 2024-06-22
 **Introduced By:** Gumi
-
-**Team Notes:** 
-
----

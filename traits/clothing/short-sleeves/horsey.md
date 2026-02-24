@@ -8,62 +8,30 @@ date_added: "2024-06-22"
 
 # Horsey
 
-## Visual Properties
+## Visual Elements
 
+![horsey](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)
 
-**Image Files:**
-![horsey](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)/SS1_horsey.webp)
+White t-shirt with a colourful doodle of a brown horse running on a green grass under yellow sun with colourful text that reads “ketamine” above it.
 
-
-**Visual Description:** White t-shirt with a colourful doodle of a brown horse running on a green grass under yellow sun with colourful text that reads “ketamine” above it.
-
-**Dominant Colors:** White, brown, green
-
-
----
+Dominant colors: White, brown, green
 
 ## Cultural Context
 
+Ketamine, colloquially known as horse tranquilizer or Special K, has been widely used in rave culture since the 1990s as a dissociative anesthetic. The childlike drawing of a horse running with the word ketamine above it is a deliberately naive representation of a drug associated with k-holes and club culture.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:** 
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** 
-
-**Archetype Alignment:** Direct drug references.
-
-
-**Swag Score:** 1
-
-
----
-
-## Connections
-
-**Ancestor:** 
+A childlike drawing of a horse with the word ketamine on it is the kind of shirt you find at a rave merch stall. It is deliberately lowbrow, deliberately obvious, and perfectly on-brand.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** June 22, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
+**Archetype:** **Archetype Alignment:** Direct drug references.
+**Swag Score:** 1
+**Date Added:** 2024-06-22
 **Sources:**
 - https://recitethis.com/product/ketamin-horse-shirt/?srsltid=AfmBOooL9PU30gV2Yv5xFnKQJCz3
-
-**Summary:** 
-
----

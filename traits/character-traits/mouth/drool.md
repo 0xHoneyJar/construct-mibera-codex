@@ -6,31 +6,27 @@ date_added: "2024-06-05"
 
 # drool
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
 ![drool](https://mibera.fsn1.your-objectstorage.com/components/mouth__z90/drool__w3.webp)
 
+a slightly open mouth with a visible tongue and drool dripping off of it.
 
-**Visual Description:** a slightly open mouth with a visible tongue and drool dripping off of it.
+Dominant colors: pink
 
-**Dominant Colors:** pink
+## Cultural Context
 
----
+Drooling depicts involuntary saliva escaping the mouth, associated in character art with extreme desire, mindlessness, or being so overwhelmed by stimulation that basic motor control slips. The expression bridges the gap between the comedic and the visceral, suggesting a state where the body overrides the mind.
 
-## Connections
+<!-- justification
+## Justification
 
-**Ancestor:** 
+When the music hits so hard your body forgets itself — drool is pure overwhelm, the physical surrender to sensation.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** June 5, 2024
-
+**Date Added:** 2024-06-05
 **Introduced By:** Gumi
-
-**Team Notes:** 
-
----

@@ -8,62 +8,26 @@ date_added: "2024-12-09"
 
 # grateful dead tarot book
 
-## Visual Properties
+## Visual Elements
 
+a dark navy book with light yellow graphic and text that reads “GRATEFUL DEAD TAROT, GUIDEBOOK”.
 
-**Image Files:**
-SS2_acidhouse_Grateful Dead Tarot Book.PNG
-
-
-**Visual Description:** a dark navy book with light yellow graphic and text that reads “GRATEFUL DEAD TAROT, GUIDEBOOK”.
-
-**Dominant Colors:** dark navy, light yellow
-
-
----
+Dominant colors: dark navy, light yellow
 
 ## Cultural Context
 
+The Grateful Dead and tarot both carry deep connections to psychedelic culture and mysticism. This item sits at the crossroads of those two traditions, linking the Dead's legacy of communal psychedelic experience to the esoteric practice of divination.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:** The Grateful Dead and tarot both carry deep connections to psychedelic culture and mysticism. This item sits at the crossroads of those two traditions, linking the Dead's legacy of communal psychedelic experience to the esoteric practice of divination.
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [acidhouse](../../../core-lore/archetypes.md#acidhouse)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 2
-
-
----
-
-## Connections
-
-**Ancestor:** 
+Pairs two of the collection's trait dimensions — tarot and drug culture — into a single physical object, making it a crossover artifact.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** December 9, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Archetype:** acidhouse
+**Swag Score:** 2
+**Date Added:** 2024-12-09

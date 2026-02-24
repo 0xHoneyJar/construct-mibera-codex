@@ -8,62 +8,26 @@ date_added: "2025-01-16"
 
 # glass of whiskey
 
-## Visual Properties
+## Visual Elements
 
+a clear glass of whiskey; brownish liquid inside
 
-**Image Files:**
-SS2_chicagodetroit_glass of whiskey.PNG
-
-
-**Visual Description:** a clear glass of whiskey; brownish liquid inside
-
-**Dominant Colors:** clear white, brown.
-
-
----
+Dominant colors: clear white, brown.
 
 ## Cultural Context
 
+Whiskey is one of the oldest distilled spirits, with deep roots in Scottish, Irish, and American culture. As a nightlife staple that predates rave culture by centuries, it connects the modern dance floor to much older traditions of communal drinking.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:** Whiskey is one of the oldest distilled spirits, with deep roots in Scottish, Irish, and American culture. As a nightlife staple that predates rave culture by centuries, it connects the modern dance floor to much older traditions of communal drinking.
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [chicago detroit](../../../core-lore/archetypes.md#chicago-detroit)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 2
-
-
----
-
-## Connections
-
-**Ancestor:** 
+Not every substance in the collection arrived with electronic music. Whiskey grounds the drug taxonomy in the longer history of communal intoxication — the tavern before the warehouse.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** January 16, 2025
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Archetype:** chicago detroit
+**Swag Score:** 2
+**Date Added:** 2025-01-16

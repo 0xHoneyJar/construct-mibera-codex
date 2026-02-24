@@ -7,56 +7,21 @@ date_added: null
 
 # Grateful Dead Tarot
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
-
-
-**Visual Description:**
-
-**Dominant Colors:**
-
----
 
 ## Cultural Context
 
+The Grateful Dead have been intertwined with psychedelic culture since the 1960s acid tests. Pairing their iconography with tarot imagery bridges two traditions of seeking hidden meaning: one through music and chemistry, the other through symbolism and intuition.
 
-**Cultural Origin:**
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:** The Grateful Dead have been intertwined with psychedelic culture since the 1960s acid tests. Pairing their iconography with tarot imagery bridges two traditions of seeking hidden meaning: one through music and chemistry, the other through symbolism and intuition.
-
-
----
-
-## Mibera Integration
-
-**Archetype:**
-
-**Archetype Alignment:**
-
-
-**Swag Score:** 4
-
-## Connections
-
-**Ancestor:** 
+Two traditions of seeking hidden meaning merged into one object — psychedelic music culture and divinatory symbolism. The Dead's acid tests are part of the collection's countercultural ancestry.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:**
-
-**Introduced By:**
-
-**Team Notes:**
-
-**Sources:**
-
-**Summary:**
-
----
+**Swag Score:** 4

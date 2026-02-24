@@ -8,62 +8,25 @@ date_added: "2024-06-22"
 
 # Egg Brain
 
-## Visual Properties
+## Visual Elements
 
+![Egg Brain](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)
 
-**Image Files:**
-![Egg Brain](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)/SS3_Egg%20Brain.webp)
-
-
-**Visual Description:** Bone-white t-shirt with a simple illustration of a sunny-side up egg and a writing that says “this is my brain… any questions?”.
-
-**Dominant Colors:** Bone-white
-
-
----
+Bone-white t-shirt with a simple illustration of a sunny-side up egg and a writing that says “this is my brain… any questions?”.
 
 ## Cultural Context
 
+This is Your Brain on Drugs was a famous 1987 anti-drug PSA by the Partnership for a Drug-Free America, showing an egg frying in a pan. The campaign became one of the most parodied PSAs in history, spawning countless remixes and bootleg merch.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:** 
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** 
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 3
-
-
----
-
-## Connections
-
-**Ancestor:** 
+One of the most parodied anti-drug campaigns of all time, turned into a t-shirt. The egg-as-brain metaphor has been remixed by every generation since the 1980s.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** June 22, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Swag Score:** 3
+**Date Added:** 2024-06-22

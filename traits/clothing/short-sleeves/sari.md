@@ -8,62 +8,32 @@ date_added: "2024-12-10"
 
 # Sari
 
-## Visual Properties
+## Visual Elements
 
+![Sari](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)
 
-**Image Files:**
-![Sari](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)/SS3_milady_Sari.webp)
+Traditional female Indian attire in green. A green garment wrapped around one shoulder over a green t-shirt.
 
-
-**Visual Description:** Traditional female Indian attire in green. A green garment wrapped around one shoulder over a green t-shirt.
-
-**Dominant Colors:** Shades of green.
-
-
----
+Dominant colors: Shades of green.
 
 ## Cultural Context
 
+Sari / Saree
 
-**Cultural Origin:** Sari / Saree
+Sari (or saree) is a traditional South Asian women's garment, consisting of a single unstitched strip of cloth, draped elegantly around the body over a petticoat and blouse. Worn primarily in India, Bangladesh, Nepal, and Sri Lanka, it varies by region in fabric (cotton, silk, chiffon), draping style (e.g., Nivi, Bengali, Gujarati), and occasion. Dating back over 5,000 years, it symbolizes cultural identity and versatility.
 
-**Era:** 
+<!-- justification
+## Justification
 
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [Milady](../../../core-lore/archetypes.md#milady)
-
-**Archetype Alignment:** Cultural relevance with one of Mibera’s archetypes (Hindu) and several culture inspirations.
-
-
-**Swag Score:** 3
-
-
----
-
-## Connections
-
-**Ancestor:** 
+The sari is one of the oldest continuously worn garments on earth, with over 5,000 years of history. It represents the South Asian cultural tradition that fed into Goa trance and the global psychedelic music scene.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** December 10, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
+**Archetype:** Milady
+**Swag Score:** 3
+**Date Added:** 2024-12-10
 **Sources:**
 - https://en.wikipedia.org/wiki/Sari
-
-**Summary:** Sari (or saree) is a traditional South Asian women's garment, consisting of a single unstitched strip of cloth, draped elegantly around the body over a petticoat and blouse. Worn primarily in India, Bangladesh, Nepal, and Sri Lanka, it varies by region in fabric (cotton, silk, chiffon), draping style (e.g., Nivi, Bengali, Gujarati), and occasion. Dating back over 5,000 years, it symbolizes cultural identity and versatility.
-
----

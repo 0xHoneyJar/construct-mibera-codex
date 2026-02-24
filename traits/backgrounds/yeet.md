@@ -6,36 +6,26 @@ date_added: "2024-06-06"
 
 # Yeet
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
 ![Yeet](https://mibera.fsn1.your-objectstorage.com/components/background__z10/Yeet.webp)
 
+Golden yellow liquid dripping down in a few chunks.
 
-**Visual Description:** Golden yellow liquid dripping down in a few chunks.
+Dominant colors: golden yellow
 
-**Dominant Colors:** golden yellow
+## Cultural Context
 
+Highly engaging chaotic project with a cult-like community, founded by Lord Pemberton, the project launched an NFT collection and a ponzi game design.
 
----
+<!-- justification
+## Justification
 
-## Context
-
-
-**Cultural Origin:** Highly engaging chaotic project with a cult-like community, founded by Lord Pemberton, the project launched an NFT collection and a ponzi game design.
-
-
-**Why This Matters:** Fellow Bera brojekt
+Berachain ecosystem partner background — representing the chaotic, community-driven culture that Mibera exists within.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** June 6, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
----
+**Date Added:** 2024-06-06

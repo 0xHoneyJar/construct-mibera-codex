@@ -7,20 +7,27 @@ date_added: "2024-08"
 
 # Simple Purple
 
+## Visual Elements
 
-**Image Files:**
 ![Simple Purple](https://mibera.fsn1.your-objectstorage.com/components/simple/simples%20for%20shadows/149_simple%20purple.webp)
 
-**Visual Description:** A basic solid purple t-shirt.
+A basic solid purple t-shirt.
 
-**Dominant Colors:** Purple
+Dominant colors: Purple
 
-**Archetype Affinity:** None (archetype-neutral). Purple carries associations with psychedelia and altered consciousness across multiple archetypes — from Freetekno's DMT voyages to Acidhouse's synesthesia.
+## Cultural Context
 
-**Color Symbolism:** Psychedelia, mysticism, the visual field behind closed eyelids. Purple sits at the edge of visible light — the liminal color. In drug culture, it's the color of lean (codeine syrup), purple haze (Hendrix/cannabis), and the phosphene patterns of a DMT flash.
+Purple has long been associated with royalty, psychedelia, and the nocturnal. It is the signature color of many rave flyers and club interiors, sitting at the intersection of luxury and the underground.
 
-**Styling Notes:** A bold base that reads as countercultural without tribal specificity. Pairs well with gold accessories (earrings, chains) and lighter hair colors. Can read as regal or psychedelic depending on surrounding traits.
+<!-- justification
+## Justification
 
-**Date Added:** August 2024
+Purple is the most rave-coded color in the simple shirt set. It nods to UV lighting, psychedelic culture, and the nocturnal palette of electronic music.
+-->
 
 ---
+
+## Attribution
+
+**Swag Score:** 1
+**Date Added:** 2024-08

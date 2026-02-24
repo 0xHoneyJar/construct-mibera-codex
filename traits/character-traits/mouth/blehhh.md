@@ -6,31 +6,27 @@ date_added: "2024-06-05"
 
 # blehhh
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
 ![blehhh](https://mibera.fsn1.your-objectstorage.com/components/mouth__z90/blehhh__w5.webp)
 
+tongue out of a thin mouth in a playful manner.
 
-**Visual Description:** tongue out of a thin mouth in a playful manner.
+Dominant colors: pink
 
-**Dominant Colors:** pink
+## Cultural Context
 
----
+Sticking the tongue out in a playful manner is a gesture of teasing, defiance, or childlike irreverence found across cultures. The "blehhh" expression exaggerates this into a deliberate display of goofiness, rejecting seriousness in favor of playful provocation.
 
-## Connections
+<!-- justification
+## Justification
 
-**Ancestor:** 
+Pure irreverence — blehhh is the tongue-out energy of someone who refuses to take anything seriously.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** June 5, 2024
-
+**Date Added:** 2024-06-05
 **Introduced By:** Gumi
-
-**Team Notes:** 
-
----

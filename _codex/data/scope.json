@@ -16,9 +16,9 @@
     },
     {
       "entity_type": "trait",
-      "count": 1257,
+      "count": 1337,
       "completeness": "COMPLETE",
-      "note": "All visual traits across 18 subcategories"
+      "note": "1,337 unique visual traits (incl. 78 drugs); documented across traits/ and drugs-detailed/"
     },
     {
       "entity_type": "drug",

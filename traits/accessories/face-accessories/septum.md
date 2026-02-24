@@ -8,62 +8,28 @@ date_added: "2024-12-10"
 
 # Septum
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
 ![Septum](https://mibera.fsn1.your-objectstorage.com/components/face%20accessories__z60/SS1_freetekno_Septum.webp)
 
+Small circular ring resembling a ring..
 
-**Visual Description:** Small circular ring resembling a ring..
-
-**Dominant Colors:** Black.
-
-
----
+Dominant colors: Black.
 
 ## Cultural Context
 
+Septum piercings have been practiced across cultures for thousands of years, from the Kayan people of Borneo to Aboriginal Australians to Aztec and Mayan warriors. In contemporary Western culture, the septum ring was adopted by punk and alternative subcultures in the 1970s and 1980s before entering mainstream fashion in the 2010s. In rave and free party culture, septum rings are one of the most common piercings, signaling affiliation with alternative and countercultural communities.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [Freetekno](../../../core-lore/archetypes.md#freetekno)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 1
-
-
----
-
-## Connections
-
-**Ancestor:** 
+The septum ring is the single most common piercing in free party culture -- it is as much a uniform marker for the Freetekno archetype as fluorescent paint or a sound system hoodie.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** December 10, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Archetype:** Freetekno
+**Swag Score:** 1
+**Date Added:** 2024-12-10

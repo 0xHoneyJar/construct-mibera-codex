@@ -8,62 +8,25 @@ date_added: "2024-12-10"
 
 # Golden Cuff
 
-## Visual Properties
+## Visual Elements
 
+Long golden cuff, cylindrical in shape.
 
-**Image Files:**
-SS2_golden cuff.PNG
-
-
-**Visual Description:** Long golden cuff, cylindrical in shape.
-
-**Dominant Colors:** Gold
-
-
----
+Dominant colors: Gold
 
 ## Cultural Context
 
+Ear cuffs date back to ancient civilizations, with examples found in Minoan and Egyptian archaeological sites. They experienced a revival in 1980s and 1990s alternative fashion, becoming popular in punk, new wave, and rave subcultures as a way to accessorize without additional piercings. The cylindrical cuff style in particular became associated with futuristic and industrial aesthetics.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** 
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 2
-
-
----
-
-## Connections
-
-**Ancestor:** 
+Ear cuffs are the no-piercing-needed option that still signals subcultural membership -- practical and stylish across every archetype.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** December 10, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Swag Score:** 2
+**Date Added:** 2024-12-10

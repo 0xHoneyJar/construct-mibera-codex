@@ -8,62 +8,27 @@ date_added: "2024-07-25"
 
 # Got Autism
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
 ![SS3 Got Autism](https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS3_Got%20Autism.webp)
 
+Navy blue cap with white text on it saying “mibera got autism”.
 
-**Visual Description:** Navy blue cap with white text on it saying “mibera got autism”.
-
-**Dominant Colors:** Navy blue, white
-
-
----
+Dominant colors: Navy blue, white
 
 ## Cultural Context
 
+The "Please be patient I have autism" hat is a widely recognized internet meme, originally based on real awareness merchandise that was adopted and remixed by online communities. The phrase became a staple of post-ironic internet humor, particularly in spaces adjacent to Milady and 4chan culture, where self-deprecating neurodivergent humor is common.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** 
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 3
-
-
----
-
-## Connections
-
-**Ancestor:** 
+Self-referential internet humor at its finest — "mibera got autism" is the kind of self-aware shitpost that defines the community's sense of humor.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** July 25, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Swag Score:** 3
+**Date Added:** 2024-07-25

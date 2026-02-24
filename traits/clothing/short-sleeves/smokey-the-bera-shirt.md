@@ -8,62 +8,28 @@ date_added: "2025-03-10"
 
 # Smokey The Bera Shirt
 
-## Visual Properties
+## Visual Elements
 
+![smokey the bera shirt](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)
 
-**Image Files:**
-![smokey the bera shirt](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)/SS5_chicagodetroit_smokey%20the%20bera%20shirt.webp)
+Graphic shirt full of illustrations and writings.
 
-
-**Visual Description:** Graphic shirt full of illustrations and writings mainly in black, white, and brown. Focusing on a bear figure wearing an adventure hat.
-
-**Dominant Colors:** Black, white, brown
-
-
----
+Dominant colors: Black, white, brown
 
 ## Cultural Context
 
+Smokey Bear is the US Forest Service mascot created in 1944 to promote wildfire prevention, making it one of the longest-running public service campaigns in American history. Smokey is the chosen name of Berachain's founder. 
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:** 
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [Chicago Detroit](../../../core-lore/archetypes.md#chicago-detroit)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 5
-
-
----
-
-## Connections
-
-**Ancestor:** 
+Smokey Bear is one of the most recognizable bear characters in American culture. Turning it into Smokey the Bera is the kind of remix that a bear-themed blockchain community was always going to make.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** March 10, 2025
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Archetype:** Chicago Detroit
+**Swag Score:** 5
+**Date Added:** 2025-03-10

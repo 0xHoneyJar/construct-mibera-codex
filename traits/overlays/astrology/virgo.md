@@ -7,42 +7,21 @@ element: Earth
 
 # Virgo
 
-
-## Sun Sign
-
+## Visual Elements
 
 ![Sun Virgo](https://mibera.fsn1.your-objectstorage.com/components/Sun/Sun%20Virgo.webp)
 
-**Date Range:** August 23 - September 22
 
-**Glyph:** ♍
+## Cultural Context
 
-**Element:** Earth
+Virgo (August 23 -- September 22) is the sixth sign of the Western zodiac, an earth sign ruled by Mercury. Represented by the Maiden, it is associated with analysis, service, and meticulous attention to detail. Virgo natives are traditionally described as practical, observant, and dedicated to improvement.
 
----
+<!-- justification
+## Justification
 
-
-## Moon Sign
-
-
-![Moon Virgo](https://mibera.fsn1.your-objectstorage.com/components/Moon/Moon%20Virgo.webp)
-
-**Glyph:** ♍
-
-**Element:** Earth
+At the modifier layer, a Virgo overlay adds analytical precision and a service-oriented disposition to a Mibera's core signals, refining the archetype and ancestor without overriding them.
+-->
 
 ---
 
-
-## Rising Sign
-
-
-![Rising Virgo](https://mibera.fsn1.your-objectstorage.com/components/Rising/Rising%20Virgo.webp)
-
-**Glyph:** ♍
-
-**Element:** Earth
-
-**1/1 Grail:** [Virgo Grail (#8834)](../../../grails/virgo.md)
-
----
+## Attribution

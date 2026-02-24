@@ -8,62 +8,28 @@ date_added: "2024-06-22"
 
 # Autistic Fuck
 
-## Visual Properties
+## Visual Elements
 
+![Autistic Fuck](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)
 
-**Image Files:**
-![Autistic Fuck](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)/SS5_Autistic%20Fuck.webp)
+Black t-shirt with white text that says “AUTISTIC AND READY TO FUCK” in thin font.
 
-
-**Visual Description:** Black t-shirt with white text that says “AUTISTIC AND READY TO FUCK” in thin font.
-
-**Dominant Colors:** Black, white.
-
-
----
+Dominant colors: Black, white.
 
 ## Cultural Context
 
+Part of the autism-themed slogan tee series in the collection, these shirts emerge from the same post-ironic internet culture that produced Milady Maker and much of crypto Twitter's visual identity.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:** 
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** 
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 5
-
-
----
-
-## Connections
-
-**Ancestor:** 
+This is the most high-swag autism tee in the collection because it is the most unapologetic. The internet speaks in extremes, and so does this shirt.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** June 22, 2024
-
+**Swag Score:** 5
+**Date Added:** 2024-06-22
 **Introduced By:** Jani
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----

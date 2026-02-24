@@ -8,63 +8,32 @@ date_added: "2024-12-10"
 
 # DiY
 
-## Visual Properties
+## Visual Elements
 
+![DiY](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)
 
-**Image Files:**
-![DiY](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)/SS1_freetekno_DiY.webp)
+Black t-shirt with big white text that says “DiY” in bold font.
 
-
-**Visual Description:** Black t-shirt with big white text that says “DiY” in bold font.
-
-**Dominant Colors:** Black, white.
-
-
----
+Dominant colors: Black, white.
 
 ## Cultural Context
 
+DiY (Do It Yourself) was a legendary free party sound system collective based in Nottingham, UK, active from 1989 onwards. They were central to the UK free party scene, organizing illegal raves in fields, warehouses, and disused buildings. The collective embodied the anarchic, self-organized ethos that defined freetekno culture.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:** 
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [Freetekno](../../../core-lore/archetypes.md#freetekno)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 1
-
-
----
-
-## Connections
-
-**Ancestor:** 
+DiY is not just a slogan -- it is the name of one of the UK's most important free party sound systems. This shirt represents the literal founding ethos of the entire freetekno movement.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** December 10, 2024
-
+**Archetype:** Freetekno
+**Swag Score:** 1
+**Date Added:** 2024-12-10
 **Introduced By:** Jani
-
-**Team Notes:** 
-
 **Sources:**
 - https://discord.com/channels/1133935527855399053/1143684645393797200/11677997124186
 - https://alanlodge.co.uk/blog/?p=6182
-
-**Summary:** 
-
----

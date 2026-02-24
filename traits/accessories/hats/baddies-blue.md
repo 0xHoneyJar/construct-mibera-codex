@@ -8,62 +8,27 @@ date_added: "2024-07-28"
 
 # Baddies Blue
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
 ![SS3 Baddies Blue](https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS3_Baddies%20Blue.webp)
 
+Blue cap with a graphic of a brown bear with red ribbon on one ear holding a white flower.
 
-**Visual Description:** Blue cap with a graphic of a brown bear with red ribbon on one ear holding a white flower.
-
-**Dominant Colors:** Blue, brown
-
-
----
+Dominant colors: Blue, brown
 
 ## Cultural Context
 
+Baddies is a Berachain ecosystem project featuring bear-themed characters with a cute, kawaii-influenced aesthetic. The teddy bear with a ribbon and flower reflects the soft, feminine styling common in both Milady-adjacent culture and the broader Berachain community aesthetic.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** 
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 3
-
-
----
-
-## Connections
-
-**Ancestor:** 
+Baddies brings kawaii bear energy to the Berachain ecosystem — the blue variant is the chill one in the duo.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** July 28, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Swag Score:** 3
+**Date Added:** 2024-07-28

@@ -8,63 +8,31 @@ date_added: "2025-03-12"
 
 # Munitions
 
-## Visual Properties
+## Visual Elements
 
+![munitions](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)
 
-**Image Files:**
-![munitions](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)/SS5_freetekno_munitions.webp)
+Black t-shirt with white text with the head text being “WARNING”, followed with what looks like a barcode on the bottom part.
 
-
-**Visual Description:** Black t-shirt with white text with the head text being “WARNING”, followed with what looks like a barcode on the bottom part.
-
-**Dominant Colors:** White, black
-
-
----
+Dominant colors: White, black
 
 ## Cultural Context
 
+The Munitions T-shirt was created by Adam Back and other cypherpunks in the 1990s to protest US export restrictions on cryptographic software, which was classified as munitions under ITAR. Wearing the shirt -- which printed actual encryption source code -- was a form of civil disobedience, since exporting the shirt technically violated arms trafficking laws.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:** 
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [Freetekno](../../../core-lore/archetypes.md#freetekno)
-
-**Archetype Alignment:** Its relation with privacy, freedom, and political movement.
-
-
-**Swag Score:** 5
-
-
----
-
-## Connections
-
-**Ancestor:** 
+The original cypherpunk protest shirt. Printing encryption code on a t-shirt to challenge arms export laws is the most literal example of code as free speech in history.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** March 12, 2025
-
-**Introduced By:** 
-
-**Team Notes:** 
-
+**Archetype:** Freetekno
+**Swag Score:** 5
+**Date Added:** 2025-03-12
 **Sources:**
 - http://www.cypherspace.org/adam/uk-shirt.html
 - https://commons.wikimedia.org/wiki/File:Munitions_T-shirt_(front).jpg
-
-**Summary:** 
-
----

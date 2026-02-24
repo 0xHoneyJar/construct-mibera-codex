@@ -8,63 +8,32 @@ date_added: "2024-07-24"
 
 # Backwards
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
 ![Backwards](https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS2_milady_Backwards.webp)
 
+Back view of a cap light grey / beige, with the clippers and a half-circle hole.
 
-**Visual Description:** Back view of a cap light grey / beige, with the clippers and a half-circle hole.
-
-**Dominant Colors:** Light greyish beige
-
-
----
+Dominant colors: Light greyish beige
 
 ## Cultural Context
 
+The backwards cap has been a staple of youth culture since the 1990s, popularized by hip-hop artists, skaters, and ravers alike. In rave culture specifically, wearing a cap backwards became associated with the carefree, anti-establishment attitude of warehouse parties and illegal raves, where dress codes were nonexistent and comfort trumped convention.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [Milady](../../../core-lore/archetypes.md#milady)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 2
-
-
----
-
-## Connections
-
-**Ancestor:** 
+The backwards cap is the universal uniform of not giving a damn — every rave, every era, someone is wearing their hat the wrong way around and looking better for it.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** July 24, 2024
-
+**Archetype:** Milady
+**Swag Score:** 2
+**Date Added:** 2024-07-24
 **Introduced By:** Jani
-
-**Team Notes:** 
-
 **Sources:**
 - https://homegrown.co.in/homegrown-creators/inside-the-secret-daytime-raves-that-provided-spa
 - https://discord.com/channels/1133935527855399053/1160911774086873089/11609258723715
-
-**Summary:** 
-
----

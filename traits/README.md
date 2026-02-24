@@ -1,4 +1,4 @@
-<!-- codex-status: COMPLETE | entities: 1257 | last-verified: 2026-02-18 -->
+<!-- codex-status: COMPLETE | entities: 1337 | last-verified: 2026-02-24 -->
 # All Traits
 
 *Index of all 1,337+ visual traits in the Mibera collection.*

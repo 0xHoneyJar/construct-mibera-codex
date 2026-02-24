@@ -8,62 +8,25 @@ date_added: "2024-12-09"
 
 # vase
 
-## Visual Properties
+## Visual Elements
 
+an asymmetrical plain vase in the gradient of navy blue and black
 
-**Image Files:**
-SS3_Vase.PNG
-
-
-**Visual Description:** an asymmetrical plain vase in the gradient of navy blue and black
-
-**Dominant Colors:** dark navy blue, black
-
-
----
+Dominant colors: dark navy blue, black
 
 ## Cultural Context
 
+A simple asymmetrical vase in dark tones. Decorative vessels have appeared across virtually every human culture, making this one of the collection's most universal and least specific items.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** 
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 3
-
-
----
-
-## Connections
-
-**Ancestor:** 
+A generic decorative object with no specific cultural lineage. One of the collection's most universal and least loaded items — sometimes a vase is just a vase.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** December 9, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Swag Score:** 3
+**Date Added:** 2024-12-09

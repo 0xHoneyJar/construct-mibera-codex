@@ -8,59 +8,27 @@ date_added: "2024-12-10"
 
 # Cyber Punk 1
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
 ![Cyber Punk 1](https://mibera.fsn1.your-objectstorage.com/components/glasses__z140/freetekno_Cyber Punk 1.webp)
 
-
-**Visual Description:** Round glasses with a unique framing of a straight line only at the top part acting as the bridge, and its temples. Both the framing and the shades are in similar shade of dark grey.
-
-**Dominant Colors:** 
-
-
----
+Round glasses with a unique framing of a straight line only at the top part acting as the bridge, and its temples. Both the framing and the shades are in similar shade of dark grey.
 
 ## Cultural Context
 
+Cyberpunk fashion draws from the literary genre pioneered by William Gibson and Bruce Sterling in the 1980s, blending industrial minimalism with dystopian futurism. The aesthetic has influenced underground electronic music scenes, particularly free party and tekno culture, where DIY ethos meets technological resistance.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [Freetekno](../../../core-lore/archetypes.md#freetekno)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 1
-
-## Connections
-
-**Ancestor:** 
+Freetekno lives at the intersection of technology and resistance. Cyberpunk glasses are not cosplay here; they are a statement about building your own infrastructure outside the system.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** December 10, 2024
-
+**Archetype:** Freetekno
+**Swag Score:** 1
+**Date Added:** 2024-12-10
 **Introduced By:** Jani
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----

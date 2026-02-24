@@ -8,59 +8,26 @@ date_added: "2024-08-03"
 
 # Reflections
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
 ![Reflections](https://mibera.fsn1.your-objectstorage.com/components/glasses__z140/chicagodetroit_Reflections.webp)
 
-
-**Visual Description:** Classic aviator with black and white reflections on its lenses and thin black frames.
-
-**Dominant Colors:** 
-
-
----
+Classic aviator with black and white reflections on its lenses and thin black frames.
 
 ## Cultural Context
 
+Reflective aviator sunglasses have been a symbol of cool detachment since their adoption by military pilots in the 1930s and later by counterculture icons from Hunter S. Thompson to hip-hop artists. In electronic music culture, mirrored lenses serve a dual purpose: shielding the eyes and reflecting the light show back at the crowd.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [Chicago Detroit](../../../core-lore/archetypes.md#chicago-detroit)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 3
-
-## Connections
-
-**Ancestor:** 
+Mirrored lenses let you watch the room without the room watching you back. In Chicago and Detroit, where the DJ booth is a pulpit, that kind of controlled observation is a power move.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** August 3rd, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Archetype:** Chicago Detroit
+**Swag Score:** 3
+**Date Added:** 2024-08-03

@@ -8,62 +8,26 @@ date_added: "2024-12-10"
 
 # Toothy
 
-## Visual Properties
+## Visual Elements
 
+Earring with a piece of a molar tooth.
 
-**Image Files:**
-SS4_toothy.png
-
-
-**Visual Description:** Earring with a piece of a molar tooth.
-
-**Dominant Colors:** White
-
-
----
+Dominant colors: White
 
 ## Cultural Context
 
+In relation to Milady Maker figures in their community and culture.
 
-**Cultural Origin:** In relation to Milady Maker figures in their community and culture.
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** 
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 4
-
-
----
-
-## Connections
-
-**Ancestor:** 
+A nod to Milady Maker artist Shiro's tooth fixation -- the kind of specific community inside joke that makes a generative collection feel alive.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** December 10, 2024
-
-**Introduced By:** 
-
+**Swag Score:** 4
+**Date Added:** 2024-12-10
 **Team Notes:** Milady artist, Shiro, had a fixation on drawing teeth for a while.
-
-**Sources:**
-
-
-**Summary:** 
-
----

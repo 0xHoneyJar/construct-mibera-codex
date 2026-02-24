@@ -8,62 +8,27 @@ date_added: "2024-06-22"
 
 # Fuck Work
 
-## Visual Properties
+## Visual Elements
 
+![Fuck Work](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)
 
-**Image Files:**
-![Fuck Work](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)/SS3_Fuck%20Work.webp)
+Black shirt with white text that reads “FUCK WORK”.
 
-
-**Visual Description:** Black shirt with white text that reads “FUCK WORK”.
-
-**Dominant Colors:** Black, white
-
-
----
+Dominant colors: Black, white
 
 ## Cultural Context
 
+Anti-work sentiment has deep roots in counterculture, from the Situationist International's critique of commodity society to punk's rejection of the 9-to-5 grind. The slogan captures a feeling shared across rave, crypto, and internet culture.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:** 
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** 
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 3
-
-
----
-
-## Connections
-
-**Ancestor:** 
+Raves happen on weekends because the people at them have to work on Monday, and they resent it. This shirt says what everyone on the dancefloor is thinking.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** June 22, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Swag Score:** 3
+**Date Added:** 2024-06-22

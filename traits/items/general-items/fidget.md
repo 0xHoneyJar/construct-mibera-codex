@@ -8,62 +8,26 @@ date_added: "2024-07-06"
 
 # fidget
 
-## Visual Properties
+## Visual Elements
 
+a red and grey fidget spinner.
 
-**Image Files:**
-SS2_acidhouse_Fidget.png
-
-
-**Visual Description:** a red and grey fidget spinner.
-
-**Dominant Colors:** red, grey
-
-
----
+Dominant colors: red, grey
 
 ## Cultural Context
 
+Fidget toys connect to the tactile, sensory-seeking behavior common at raves, where touching textures and manipulating objects with your hands enhances the experience of being in an altered state.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:** Fidget toys connect to the tactile, sensory-seeking behavior common at raves, where touching textures and manipulating objects with your hands enhances the experience of being in an altered state.
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [acidhouse](../../../core-lore/archetypes.md#acidhouse)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 2
-
-
----
-
-## Connections
-
-**Ancestor:** 
+Tactile stimulation is a known feature of altered states. A fidget spinner is the modern, mass-produced version of the smooth stones and textured objects ravers have always carried.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** July 6, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Archetype:** acidhouse
+**Swag Score:** 2
+**Date Added:** 2024-07-06

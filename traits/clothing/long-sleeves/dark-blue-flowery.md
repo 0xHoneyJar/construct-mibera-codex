@@ -8,62 +8,27 @@ date_added: "2024-12-10"
 
 # Dark Blue Flowery
 
-## Visual Properties
+## Visual Elements
 
+![Dark Blue Flowery](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(LONG)
 
-**Image Files:**
-![Dark Blue Flowery](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(LONG)/SS5_milady_Dark%20Blue%20Flowery.webp)
+Dark navy blue vintage / lace dress with a big bow just below the collar followed with flowers graphic / embroidery in the middle down the ribbon and around the belt / waist area.
 
-
-**Visual Description:** Dark navy blue vintage / lace dress with a big bow just below the collar followed with flowers graphic / embroidery in the middle down the ribbon and around the belt / waist area.
-
-**Dominant Colors:** Dark navy blue, creamy white.
-
-
----
+Dominant colors: Dark navy blue, creamy white.
 
 ## Cultural Context
 
+The darker companion to the Light Blue Flowery — this navy lace dress with its prominent bow and floral detailing draws from the Gothic Lolita fashion subgenre that emerged in 1990s Harajuku, where Victorian silhouettes meet Japanese street style. The dark colorway produces an aesthetic of dark femininity that resonates with the Milady archetype's embrace of both elegance and edge.
+<!-- justification
+## Justification
 
-**Cultural Origin:** The darker companion to the Light Blue Flowery — this navy lace dress with its prominent bow and floral detailing draws from the Gothic Lolita fashion subgenre that emerged in 1990s Harajuku, where Victorian silhouettes meet Japanese street style. The dark colorway produces an aesthetic of dark femininity that resonates with the Milady archetype's embrace of both elegance and edge.
-
-**Era:** 1990s-present (Gothic Lolita / Harajuku) 
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [Milady](../../../core-lore/archetypes.md#milady)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 5
-
-
----
-
-## Connections
-
-**Ancestor:** 
+Gothic Lolita fashion is where Victorian elegance meets Harajuku edge. This dress represents the dark femininity that the Milady archetype channels, pulled straight from 1990s Harajuku.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** December 10, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Archetype:** Milady
+**Swag Score:** 5
+**Date Added:** 2024-12-10

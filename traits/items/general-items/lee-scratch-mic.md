@@ -8,62 +8,26 @@ date_added: "2024-07-10"
 
 # lee scratch mic
 
-## Visual Properties
+## Visual Elements
 
+a microphone that’s in the shape of 2 circles and a wire that goes down.
 
-**Image Files:**
-SS4_chicagodetroit_Lee Scratch Mic.png
-
-
-**Visual Description:** a microphone that’s in the shape of 2 circles and a wire that goes down.
-
-**Dominant Colors:** black, green, yellow
-
-
----
+Dominant colors: black, green, yellow
 
 ## Cultural Context
 
+Lee "Scratch" Perry was a Jamaican producer and pioneer of dub and reggae who influenced virtually every genre of electronic music that followed. His experimental studio techniques and willingness to destroy conventions prefigured the DJ and producer culture at the heart of raving.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:** Lee "Scratch" Perry was a Jamaican producer and pioneer of dub and reggae who influenced virtually every genre of electronic music that followed. His experimental studio techniques and willingness to destroy conventions prefigured the DJ and producer culture at the heart of raving.
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [chicago detroit](../../../core-lore/archetypes.md#chicago-detroit)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 4
-
-
----
-
-## Connections
-
-**Ancestor:** 
+A direct homage to the godfather of dub. Without Lee "Scratch" Perry's studio experiments in Jamaica, the production techniques that built house and techno would not exist.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** July 10, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Archetype:** chicago detroit
+**Swag Score:** 4
+**Date Added:** 2024-07-10

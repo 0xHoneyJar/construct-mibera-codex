@@ -8,62 +8,27 @@ date_added: "2024-07-23"
 
 # blue glowstick
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
-SS1_acidhouse_Blue Glowstick.png
-
-
-**Visual Description:** a soft light blue glowstick.
-
-**Dominant Colors:** light blue
-
-
----
+a soft light blue glowstick.
 
 ## Cultural Context
 
+In the dark spaces where raves happened, glowsticks turned every dancer into a moving light source. They bridged practical function (finding your way) with aesthetic expression (becoming part of the visual spectacle).
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:** In the dark spaces where raves happened, glowsticks turned every dancer into a moving light source. They bridged practical function (finding your way) with aesthetic expression (becoming part of the visual spectacle).
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [acidhouse](../../../core-lore/archetypes.md#acidhouse)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 1
-
-
----
-
-## Connections
-
-**Ancestor:** 
+The universal rave prop. Cheap, disposable, beautiful in motion, and useless outside the dark — glowsticks only make sense in the context of the party.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** July 23, 2024
-
+**Archetype:** acidhouse
+**Swag Score:** 1
+**Date Added:** 2024-07-23
 **Introduced By:** Jani
-
-**Team Notes:** 
-
 **Sources:**
 - https://discord.com/channels/1133935527855399053/1167452819809378386/11674698297505
-
-**Summary:** 
-
----

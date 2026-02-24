@@ -4,38 +4,26 @@ image: "https://mibera.fsn1.your-objectstorage.com/components/simple/simple%20ba
 date_added: null
 ---
 
-# Simple Background
+# Simple Backgrounds
 
-## Visual Properties
+## Visual Elements
 
+![Simple Background - TV Glitch](https://mibera.fsn1.your-objectstorage.com/components/simple/simple%20background/57_simple%20background(4)
 
-**Image Files:**
-![Simple Background - TV Glitch](https://mibera.fsn1.your-objectstorage.com/components/simple/simple%20background/57_simple%20background(4).webp)
+a stereotypical TV glitch in vibrant colors.
 
+Dominant colors: white, neon yellow, turquoise, green, fuschia, red, blue, and black.
 
-**Visual Description:** a stereotypical TV glitch in vibrant colors.
+## Cultural Context
 
-**Dominant Colors:** white, neon yellow, turquoise, green, fuschia, red, blue, and black. ---
+References the visual noise of early rave flyer art and VJ culture. Glitch-art sensibility of the Milady archetype.
 
+<!-- justification
+## Justification
 
----
-
-## Context
-
-
-**Cultural Origin:** 
-
-
-**Why This Matters:** References the visual noise of early rave flyer art and VJ culture. Glitch-art sensibility of the Milady archetype.
+Glitch-art and VJ culture aesthetics connect to the Milady archetype's visual language.
+-->
 
 ---
 
 ## Attribution
-
-**Date Added:** 
-
-**Introduced By:** 
-
-**Team Notes:** 
-
----

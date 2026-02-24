@@ -8,62 +8,26 @@ date_added: "2024-12-09"
 
 # sober water
 
-## Visual Properties
+## Visual Elements
 
+a bottle of beverage with blue label and clear white liquid.
 
-**Image Files:**
-SS2_milady_sober water.PNG
-
-
-**Visual Description:** a bottle of beverage with blue label and clear white liquid.
-
-**Dominant Colors:** white, blue
-
-
----
+Dominant colors: white, blue
 
 ## Cultural Context
 
+A water bottle branded "Sober Water," positioned as the non-intoxicant option among the collection's beverage items. Its inclusion acknowledges that sobriety is a valid choice within rave and party culture, and that hydration is a practical necessity at any event.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [milady](../../../core-lore/archetypes.md#milady)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 2
-
-
----
-
-## Connections
-
-**Ancestor:** 
+The straight-edge option at the rave — acknowledging that choosing not to partake is its own statement.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** December 9, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Archetype:** milady
+**Swag Score:** 2
+**Date Added:** 2024-12-09

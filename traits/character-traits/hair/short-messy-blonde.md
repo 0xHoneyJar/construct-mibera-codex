@@ -6,31 +6,23 @@ date_added: "2024-06-15"
 
 # short messy blonde
 
-## Visual Properties
+## Visual Elements
 
+a very short messy, voluminous, rounded hairstyle in orange-y blonde with soft outward-curving edges.
 
-**Image Files:**
-Short Messy Blonde__w20.png
+## Cultural Context
 
+Short messy hair is a very short, voluminous, rounded style with soft outward-curving edges and a deliberately unkempt texture. The look balances the practicality of short hair with the expressive energy of visible texture, suggesting someone who values movement and spontaneity over polish.
 
-**Visual Description:** a very short messy, voluminous, rounded hairstyle in orange-y blonde with soft outward-curving edges.
+<!-- justification
+## Justification
 
-**Dominant Colors:** orange-y blonde
-
----
-
-## Connections
-
-**Ancestor:** 
+Spontaneous and textured, short messy hair captures the energy of someone who values movement over polish.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** June 15, 2024
-
+**Date Added:** 2024-06-15
 **Introduced By:** Gumi
-
-**Team Notes:** 
-
----

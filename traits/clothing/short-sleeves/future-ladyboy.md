@@ -8,62 +8,30 @@ date_added: "2024-06-22"
 
 # Future Ladyboy
 
-## Visual Properties
+## Visual Elements
 
+![Future Ladyboy](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)
 
-**Image Files:**
-![Future Ladyboy](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)/SS2_milady_Future%20Ladyboy.webp)
+Black t-shirt with red text that says “THE FUTURE IS LADYBOY” in thin font.
 
-
-**Visual Description:** Black t-shirt with red text that says “THE FUTURE IS LADYBOY” in thin font.
-
-**Dominant Colors:** Black, red.
-
-
----
+Dominant colors: Black, red.
 
 ## Cultural Context
 
+The blog post linked spotlights 2024 Southeast Asian fashion finds, including Nalinchan Studio's "The Future Is Ladyboy" tees.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:** 
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [Milady](../../../core-lore/archetypes.md#milady)
-
-**Archetype Alignment:** Its cultural relevance to love and acceptance towards the LGBTQ+ community, which is very much aligned with Mibera’s values.
-
-
-**Swag Score:** 2
-
-
----
-
-## Connections
-
-**Ancestor:** 
+Southeast Asian gender culture and Milady's post-ironic aesthetics collide in this shirt. It documents a real fashion piece from Nalinchan Studio that found its way into the Milady visual orbit.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** June 22, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
+**Archetype:** Milady
+**Swag Score:** 2
+**Date Added:** 2024-06-22
 **Sources:**
 - https://www.fashionandmarket.net/home/occasional-obsessions/southeast-asian-discoveries
-
-**Summary:** The blog post spotlights 2024 Southeast Asian fashion finds, including Nalinchan Studio's "The Future Is Ladyboy" tees.
-
----

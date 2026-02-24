@@ -8,62 +8,24 @@ date_added: "2024-08-10"
 
 # Dragon
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
 ![Dragon](https://mibera.fsn1.your-objectstorage.com/components/tattoos__z125/ancient_chinese_Dragon.webp)
 
+The traditional hanzi alphabet of the word ‘lóng’ in red.(龍)
 
-**Visual Description:** The traditional hanzi alphabet of the word ‘lóng’ in red.(龍)
-
-**Dominant Colors:** Red
-
----
+Dominant colors: Red
 
 ## Cultural Context
+<!-- justification
+## Justification
 
-
-**Cultural Origin:** 
-
-**Era:** Ancient ---
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** 
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 
-
-
----
-
-## Connections
-
-**Ancestor:** [Chinese](../../../core-lore/ancestors/chinese.md)
-
+The dragon is the single most important mythological figure in Chinese culture, and writing it in hanzi rather than as a picture makes this tattoo about language and heritage rather than just imagery.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** August 10, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Ancestor:** [Chinese](../../../core-lore/ancestors/chinese.md)
+**Date Added:** 2024-08-10

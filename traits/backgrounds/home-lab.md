@@ -6,36 +6,26 @@ date_added: "2025-03-11"
 
 # Home Lab
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
 ![Home Lab](https://mibera.fsn1.your-objectstorage.com/components/background__z10%20%28SCENE%29/home%20lab.webp)
 
+Empty room with brownish accent and a half=opened curtain in the
 
-**Visual Description:** Empty room with brownish accent and a half=opened curtain in the
+Dominant colors: Shades of brown, golden brown.
 
-**Dominant Colors:** Shades of brown, golden brown.
+## Cultural Context
 
+Grassroots clandestine chemistry — from kitchen-sink LSD synthesis to bedroom MDMA production.
 
----
+<!-- justification
+## Justification
 
-## Context
-
-
-**Cultural Origin:** 
-
-
-**Why This Matters:** Grassroots clandestine chemistry — from kitchen-sink LSD synthesis to bedroom MDMA production.
+Clandestine chemistry backgrounds represent the grassroots production side of the drug-molecule dimension — where the substances that color Mibera identities originate.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** March 11, 2025
-
-**Introduced By:** ---
-
-**Team Notes:** 
-
----
+**Date Added:** 2025-03-11

@@ -8,62 +8,28 @@ date_added: "2024-12-10"
 
 # Whiskers
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
 ![Whiskers](https://mibera.fsn1.your-objectstorage.com/components/face%20accessories__z60/SS1_milady_Whiskers.webp)
 
+Six really thin lines resembling cat whiskers.
 
-**Visual Description:** Six really thin lines resembling cat whiskers.
-
-**Dominant Colors:** Black
-
-
----
+Dominant colors: Black
 
 ## Cultural Context
 
+Cat whiskers drawn on the face are a cornerstone of anime-inspired beauty and kawaii culture, popularized through cosplay, Harajuku street fashion, and the e-girl aesthetic. The motif connects to Japan's deep cultural affection for cats (neko), visible in everything from maneki-neko lucky cats to Hello Kitty to cat cafe culture. In PFP art, whiskers are a common trait that instantly codes a character as playful and anime-influenced.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [Milady](../../../core-lore/archetypes.md#milady)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 1
-
-
----
-
-## Connections
-
-**Ancestor:** 
+Whiskers are the fastest way to signal anime affiliation on a face -- they mark the Milady archetype's kawaii lineage in three quick strokes per cheek.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** December 10, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Archetype:** Milady
+**Swag Score:** 1
+**Date Added:** 2024-12-10

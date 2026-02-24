@@ -8,62 +8,25 @@ date_added: "2024-06-22"
 
 # Xiaoyun
 
-## Visual Properties
+## Visual Elements
 
+![Xiaoyun](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)
 
-**Image Files:**
-![Xiaoyun](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)/SS2_Xiaoyun.webp)
-
-
-**Visual Description:** White t-shirt with a thin table with a variety of combinations of letters and numbers in it.
-
-**Dominant Colors:** White
-
-
----
+White t-shirt with a thin table with a variety of combinations of letters and numbers in it.
 
 ## Cultural Context
 
+Wang Xiaoyun is a Chinese cryptographer famous for breaking the MD5 and SHA-1 hash functions in 2004-2005, work that fundamentally reshaped the field of cryptographic security. The table of letter-number combinations on this shirt represents the collision attacks she demonstrated against these widely-used hash algorithms.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:** 
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** 
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 2
-
-
----
-
-## Connections
-
-**Ancestor:** 
+Wang Xiaoyun broke two of the most important cryptographic hash functions in history. In a collection that honors the cypherpunk tradition, the woman who shattered SHA-1 deserves a shirt.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** June 22, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Swag Score:** 2
+**Date Added:** 2024-06-22

@@ -8,62 +8,27 @@ date_added: "2024-07-28"
 
 # Butterfly Beanie
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
 ![SS4 Butterfly Beanie](https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS4_Butterfly%20Beanie.webp)
 
+Black beanie with a black butterfly on a silver rectangular.
 
-**Visual Description:** Black beanie with a black butterfly on a silver rectangular.
-
-**Dominant Colors:** Black, silver
-
-
----
+Dominant colors: Black, silver
 
 ## Cultural Context
 
+The butterfly has been a recurring motif in rave and electronic music culture, symbolizing transformation, ephemerality, and the psychedelic experience. In fashion, butterfly accessories became especially prominent in late 1990s and Y2K aesthetics, and experienced a revival in both Milady-adjacent internet culture and contemporary streetwear.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** 
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 4
-
-
----
-
-## Connections
-
-**Ancestor:** 
+The butterfly is a symbol of transformation that keeps coming back — on a black beanie with a silver plate, it hits that sweet spot between rave nostalgia and dark fashion.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** July 28, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Swag Score:** 4
+**Date Added:** 2024-07-28

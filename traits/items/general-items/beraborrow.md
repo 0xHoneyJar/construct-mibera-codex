@@ -8,62 +8,25 @@ date_added: "2024-12-09"
 
 # beraborrow
 
-## Visual Properties
+## Visual Elements
 
+a figurine / plushie of of a big fat bear sitting down with closed eyes and content expression
 
-**Image Files:**
-SS3_Beraborrow.PNG
-
-
-**Visual Description:** a figurine / plushie of of a big fat bear sitting down with closed eyes and content expression
-
-**Dominant Colors:** brown, creamy white.
-
-
----
+Dominant colors: brown, creamy white.
 
 ## Cultural Context
 
+Beraborrow is a decentralized lending protocol built on Berachain. Rendering a DeFi protocol as a contented plush bear is characteristic of the Berachain community's approach to making financial infrastructure approachable.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** 
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 3
-
-
----
-
-## Connections
-
-**Ancestor:** 
+DeFi lending protocol rendered as a contented plush bear. Turns invisible financial infrastructure into something with a face and a personality.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** December 9, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Swag Score:** 3
+**Date Added:** 2024-12-09

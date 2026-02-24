@@ -8,63 +8,29 @@ date_added: "2024-06-22"
 
 # Arabs for Black Power
 
-## Visual Properties
+## Visual Elements
 
+![modern_arabs_Arabs For Black Power](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)
 
-**Image Files:**
-![modern_arabs_Arabs For Black Power](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)/SS2_acidhouse_modern_arabs_Arabs%20For%20Black%20Power.webp)
+Black t-shirt with white text that reads “ARABS for BLACK POWER” and an Arabic script under it.
 
-
-**Visual Description:** Black t-shirt with white text that reads “ARABS for BLACK POWER” and an Arabic script under it.
-
-**Dominant Colors:** Black, white.
-
-
----
+Dominant colors: Black, white.
 
 ## Cultural Context
+<!-- justification
+## Justification
 
-
-**Cultural Origin:** 
-
-**Era:** Modern
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [Acidhouse](../../../core-lore/archetypes.md#acidhouse)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 2
-
-
----
-
-## Connections
-
-**Ancestor:** [Arab](../../../core-lore/ancestors/arabs.md)
-
+Cross-cultural solidarity movements are a recurring theme in the collection. This shirt documents the real-world alliance between Arab and Black communities in the broader fight for civil rights.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** June 22, 2024
-
+**Archetype:** Acidhouse
+**Ancestor:** [Arab](../../../core-lore/ancestors/arabs.md)
+**Swag Score:** 2
+**Date Added:** 2024-06-22
 **Introduced By:** Jani
-
-**Team Notes:** 
-
 **Sources:**
 - https://discord.com/channels/1133935527855399053/1143684645393797200/11696105756392
-
-**Summary:** 
-
----

@@ -8,62 +8,28 @@ date_added: "2024-06-04"
 
 # Grateful Dead Forest Green
 
-## Visual Properties
+## Visual Elements
 
+Earring of a dancing / walking bear in forest green.
 
-**Image Files:**
-SS2_grateful dead forest green.png
-
-
-**Visual Description:** Earring of a dancing / walking bear in forest green.
-
-**Dominant Colors:** Dark / forest green
-
-
----
+Dominant colors: Dark / forest green
 
 ## Cultural Context
 
+The Grateful Dead was an American rock band formed in 1965, known for their improvisational live performances, psychedelic sound, and dedicated fanbase, the "Deadheads." Blending rock, folk, blues, and jazz, they became counterculture icons, led by Jerry Garcia until his death in 1995.
 
-**Cultural Origin:** The Grateful Dead was an American rock band formed in 1965, known for their improvisational live performances, psychedelic sound, and dedicated fanbase, the "Deadheads." Blending rock, folk, blues, and jazz, they became counterculture icons, led by Jerry Garcia until his death in 1995.
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** 
-
-**Archetype Alignment:** Grateful Dead has a big influence and part in Mibera’s lore.
-
-
-**Swag Score:** 2
-
-
----
-
-## Connections
-
-**Ancestor:** 
+The Grateful Dead dancing bear is one of counterculture's most enduring symbols, and it sits right at the root of the psychedelic lineage that Mibera traces through every archetype.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** June 4, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
+**Archetype:** **Archetype Alignment:** Grateful Dead has a big influence and part in Mibera’s lore.
+**Swag Score:** 2
+**Date Added:** 2024-06-04
 **Sources:**
 - https://en.wikipedia.org/wiki/Grateful_Dead
-
-**Summary:** 
-
----

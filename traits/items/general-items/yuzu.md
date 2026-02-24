@@ -8,62 +8,25 @@ date_added: "2024-12-09"
 
 # yuzu
 
-## Visual Properties
+## Visual Elements
 
+a plushie of a rectangular-shaped red fox with black ears and legs, white tummy and end of tail, sitting on a cloud.
 
-**Image Files:**
-SS3_Yuzu.PNG
-
-
-**Visual Description:** a plushie of a rectangular-shaped red fox with black ears and legs, white tummy and end of tail, sitting on a cloud.
-
-**Dominant Colors:** orange / ginger, black, white
-
-
----
+Dominant colors: orange / ginger, black, white
 
 ## Cultural Context
 
+Yuzu appears to be a project or character within the Berachain ecosystem or its partner network. The fox plushie form, distinct from the typical bear motif, suggests a separate identity within the broader community.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** 
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 3
-
-
----
-
-## Connections
-
-**Ancestor:** 
+A fox plushie in a bear-dominated ecosystem — a deliberately distinct identity within the broader Berachain community.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** December 9, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Swag Score:** 3
+**Date Added:** 2024-12-09

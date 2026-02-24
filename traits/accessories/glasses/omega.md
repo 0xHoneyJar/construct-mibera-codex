@@ -8,59 +8,29 @@ date_added: "2024-12-10"
 
 # Omega
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
 ![Omega](https://mibera.fsn1.your-objectstorage.com/components/glasses__z140/acidhouse_Omega.webp)
 
-
-**Visual Description:** Glasses with a hint of dark teal with Omega logos on them; a horseshoe shape or an upside down ‘U’ with a flat top and two vertical legs going outwards at the bottom.
-
-**Dominant Colors:** 
-
-
----
+Glasses with a hint of dark teal with Omega logos on them; a horseshoe shape or an upside down ‘U’ with a flat top and two vertical legs going outwards at the bottom.
 
 ## Cultural Context
 
+OlympusDAO was a pioneering DeFi protocol launched in 2021 that introduced the (3,3) game theory meme and OHM token. Several early Berachain community members, including the Bong Bears lineage, emerged from the OlympusDAO ecosystem. The omega symbol is the OlympusDAO logo.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** 
-
-**Archetype Alignment:** OlympusDAO in Berachain history. One of Bong Bear’s traits.
-
-
-**Swag Score:** 5
-
-## Connections
-
-**Ancestor:** 
+Berachain was born from the OlympusDAO community. The Omega glasses are a direct artifact of that lineage, marking the DeFi origins that eventually led to Bong Bears and everything that followed.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** December 10, 2024
-
+**Archetype:** **Archetype Alignment:** OlympusDAO in Berachain history. One of Bong Bear’s traits.
+**Swag Score:** 5
+**Date Added:** 2024-12-10
 **Introduced By:** Tez
-
-**Team Notes:** 
-
 **Sources:**
 - https://discord.com/channels/1133935527855399053/1143683806981800030/11513135764311
-
-**Summary:** 
-
----

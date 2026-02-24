@@ -8,63 +8,30 @@ date_added: "2024-07-27"
 
 # wolf head
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
 ![ancient mongolian Wolf Head](https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS5_milady_ancient_mongolian_Wolf%20Head.webp)
 
+a white-grey furry hat with visible snout and mouth that looks like it’s made of a wolf’s head.
 
-**Visual Description:** a white-grey furry hat with visible snout and mouth that looks like it’s made of a wolf’s head.
-
-**Dominant Colors:** white-grey, black
-
-
----
+Dominant colors: white-grey, black
 
 ## Cultural Context
 
+The Mongolian wolf holds deep cultural and spiritual significance in Mongolian tradition. According to "The Secret History of the Mongols," the Mongol people trace their ancestry to a blue-grey wolf (Borte Chino). Wolf-head headdresses were worn by shamans and warriors, symbolizing the fierce, protective spirit of the ancestor wolf. Wearing a wolf's head connects the wearer to the primal power of the steppe.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [milady](../../../core-lore/archetypes.md#milady)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 5
-
-
----
-
-## Connections
-
-**Ancestor:** [Mongolian](../../../core-lore/ancestors/mongolian.md)
-
+The Mongolian wolf ancestor headpiece at swag score 5 — wearing the head of the mythic wolf that founded the Mongol nation. The highest tier for the most primal hat in the collection.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** July 27, 2024
-
+**Archetype:** milady
+**Ancestor:** [Mongolian](../../../core-lore/ancestors/mongolian.md)
+**Swag Score:** 5
+**Date Added:** 2024-07-27
 **Introduced By:** Jani
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----

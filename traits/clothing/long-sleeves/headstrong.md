@@ -8,62 +8,31 @@ date_added: "2024-12-10"
 
 # Headstrong
 
-## Visual Properties
+## Visual Elements
 
+![Headstrong](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(LONG)
 
-**Image Files:**
-![Headstrong](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(LONG)/SS3_acidhouse_Headstrong.webp)
+Red and white long-sleeves with circular graphic in the middle and words in between them that reads "-FOR THE -EADSTRONG".
 
-
-**Visual Description:** Red and white long-sleeves with circular graphic in the middle and words in between them that reads "-FOR THE -EADSTRONG".
-
-**Dominant Colors:** Red, white
-
-
----
+Dominant colors: Red, white
 
 ## Cultural Context
 
+"Only For The Headstrong" is a landmark early rave track by UK duo Psychotropic, originally released in 1990 at the height of the acid house explosion. It also lent its name to a series of rave compilations starting in 1992 — "Only For The Headstrong: The Ultimate Rave Compilation" — which became one of the definitive compilation series of the UK rave era, featuring artists like Human Resource, Shaft, and Utah Saints.
 
-**Cultural Origin:** The slogan "For The Headstrong" evokes the defiant spirit of UK rave culture, where resilience in the face of legal crackdowns defined the scene. The Criminal Justice and Public Order Act of 1994 specifically targeted gatherings playing music "characterized by the emission of a succession of repetitive beats" — making the mere act of dancing an act of resistance. The bold red-and-white graphics recall the protest-poster aesthetic of that era.
+<!-- justification
+## Justification
 
-**Era:** 1990s UK rave 
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [Acidhouse](../../../core-lore/archetypes.md#acidhouse)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 3
-
-
----
-
-## Connections
-
-**Ancestor:** 
+This shirt references one of the most iconic early rave tracks and compilation series — "Only For The Headstrong" is a name that any veteran of the UK rave scene recognizes instantly.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** December 10, 2024
-
+**Archetype:** Acidhouse
+**Swag Score:** 3
+**Date Added:** 2024-12-10
 **Introduced By:** Tez
-
-**Team Notes:** 
-
 **Sources:**
 - https://discord.com/channels/1133935527855399053/1143684645393797200/11572435689398
-
-**Summary:** 
-
----

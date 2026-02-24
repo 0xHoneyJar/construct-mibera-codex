@@ -8,62 +8,24 @@ date_added: "2024-07-12"
 
 # thc mic
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
-SS4_milady_THC Mic.png
-
-
-**Visual Description:** a “podcast microphone” in black, with small stickers on the bottom part of a bear and a mic.
-
-**Dominant Colors:** black
-
-
----
+a “podcast microphone” in black, with small stickers on the bottom part of a bear and a mic.
 
 ## Cultural Context
 
+A podcast microphone with bear stickers, representing The Honey Cast (THC), a Berachain ecosystem podcast. The bear sticker reinforces the Berachain brand, and the mic-as-held-item turns content creation equipment into a personal accessory.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [milady](../../../core-lore/archetypes.md#milady)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 4
-
-
----
-
-## Connections
-
-**Ancestor:** 
+Content creation hardware as a held item, turning podcast production into a wearable Berachain identity marker.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** July 12, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Archetype:** milady
+**Swag Score:** 4
+**Date Added:** 2024-07-12

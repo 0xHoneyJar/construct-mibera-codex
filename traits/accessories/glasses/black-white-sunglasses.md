@@ -8,59 +8,26 @@ date_added: "2024-06-18"
 
 # black white sunglasses
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
 ![Black White Sunglasses](https://mibera.fsn1.your-objectstorage.com/components/glasses__z140/chicagodetroit_Black White Sunglasses.webp)
 
-
-**Visual Description:** a pair of sleek black sunglasses with a hint of white on the top frame.
-
-**Dominant Colors:** 
-
-
----
+a pair of sleek black sunglasses with a hint of white on the top frame.
 
 ## Cultural Context
 
+Monochrome sunglasses have been a mainstay of urban cool since the mid-twentieth century, associated with jazz musicians, soul artists, and later the hip-hop and electronic music scenes that emerged from American cities.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [chicago detroit](../../../core-lore/archetypes.md#chicago-detroit)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 3
-
-## Connections
-
-**Ancestor:** 
+Clean, minimal, timeless. The kind of shades you wear at an afterhours spot in Chicago where the music matters more than the look, but the look still has to be right.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** June 18, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Archetype:** chicago detroit
+**Swag Score:** 3
+**Date Added:** 2024-06-18

@@ -8,62 +8,27 @@ date_added: "2024-07-27"
 
 # THJ Globe
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
 ![SS3 THJ Globe](https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS3_THJ%20Globe.webp)
 
+Bone-white fisherman hat with strings. On it is a graphic of two bears holding a yellow globe on top of a cloud with black text “THJ” on it.
 
-**Visual Description:** Bone-white fisherman hat with strings. On it is a graphic of two bears holding a yellow globe on top of a cloud with black text “THJ” on it.
-
-**Dominant Colors:** White, yellow.
-
-
----
+Dominant colors: White, yellow.
 
 ## Cultural Context
 
+a Berachain-native community venture studio focused on building and supporting projects within the Berachain ecosystem. Their flagship project, Honeycomb NFT, is a perks aggregator that provides holders with whitelist access, airdrops, and other benefits across Berachain projects, acting as an "anti-hustle" entry point to the ecosystem. They also incubate DeFi and NFT projects like Henlo and ApiologyDAO, fostering community engagement, creativity, and liquidity through partnerships and public goods.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** 
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 3
-
-
----
-
-## Connections
-
-**Ancestor:** 
+Two bears holding a globe above the THJ logo — The Honey Jar's mission to support the entire Berachain ecosystem, rendered as a fisherman hat you can actually wear.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** July 27, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** a Berachain-native community venture studio focused on building and supporting projects within the Berachain ecosystem. Their flagship project, Honeycomb NFT, is a perks aggregator that provides holders with whitelist access, airdrops, and other benefits across Berachain projects, acting as an "anti-hustle" entry point to the ecosystem. They also incubate DeFi and NFT projects like Henlo and ApiologyDAO, fostering community engagement, creativity, and liquidity through partnerships and public goods. **Partner Relationship:**
-
----
+**Swag Score:** 3
+**Date Added:** 2024-07-27

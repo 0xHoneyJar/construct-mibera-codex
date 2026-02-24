@@ -6,31 +6,27 @@ date_added: "2024-06-05"
 
 # content
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
 ![content](https://mibera.fsn1.your-objectstorage.com/components/mouth__z90/content__w9.webp)
 
+Subtle smile portrayed by a thin, short, slightly-curved line.
 
-**Visual Description:** Subtle smile portrayed by a thin, short, slightly-curved line.
+Dominant colors: Black
 
-**Dominant Colors:** Black
+## Cultural Context
 
----
+A content expression shows a subtle, closed-mouth smile — the look of quiet satisfaction or inner peace. This is the expression of someone who has found their equilibrium, distinct from the more overt displays of happiness. In minimalist character art, a single curved line can convey profound emotional stability.
 
-## Connections
+<!-- justification
+## Justification
 
-**Ancestor:** 
+The most grounded expression in the collection — content is the calm center that all the more extreme mouths orbit around.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** June 5, 2024
-
+**Date Added:** 2024-06-05
 **Introduced By:** Gumi
-
-**Team Notes:** 
-
----

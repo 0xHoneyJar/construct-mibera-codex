@@ -8,62 +8,31 @@ date_added: "2024-06-22"
 
 # Legalize Catboys
 
-## Visual Properties
+## Visual Elements
 
+![Legalize Catboys](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)
 
-**Image Files:**
-![Legalize Catboys](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)/SS2_milady_Legalize%20Catboys.webp)
+Light grey t-shirt with a graphic of 2 male figures as cats with cat ears and cat tails. Above the graphic is written “LEGALIZE CATBOYS”.
 
-
-**Visual Description:** Light grey t-shirt with a graphic of 2 male figures as cats with cat ears and cat tails. Above the graphic is written “LEGALIZE CATBOYS”.
-
-**Dominant Colors:** Light grey, white, black
-
-
----
+Dominant colors: Light grey, white, black
 
 ## Cultural Context
 
+Daniel Howell is an English YouTuber, comedian, author, and former radio host. He rose to fame in the early 2010s under the handle "danisnotonfire," amassing over 6 million subscribers on his main channel (now simply Daniel Howell).
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:** 
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [Milady](../../../core-lore/archetypes.md#milady)
-
-**Archetype Alignment:** Its relation to one of Milady’s meme culture.
-
-
-**Swag Score:** 2
-
-
----
-
-## Connections
-
-**Ancestor:** 
+Catboy culture sits at the intersection of anime fandom, queer identity, and the Milady aesthetic. This shirt takes a niche internet subculture and gives it the activist slogan treatment.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** June 22, 2024
-
+**Archetype:** Milady
+**Swag Score:** 2
+**Date Added:** 2024-06-22
 **Introduced By:** Jani
-
-**Team Notes:** 
-
 **Sources:**
 - https://en.wikipedia.org/wiki/Daniel_Howell
-
-**Summary:** Daniel Howell is an English YouTuber, comedian, author, and former radio host. He rose to fame in the early 2010s under the handle "danisnotonfire," amassing over 6 million subscribers on his main channel (now simply Daniel Howell).
-
----

@@ -8,62 +8,28 @@ date_added: "2024-07-27"
 
 # Peyote Feather
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
 ![Peyote Feather](https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS4_freetekno_Peyote%20Feather.webp)
 
+Headband in bone-white and black with sharp consistent patterns, and a big feather standing in the middle of the headband.
 
-**Visual Description:** Headband in bone-white and black with sharp consistent patterns, and a big feather standing in the middle of the headband.
-
-**Dominant Colors:** Dirty bone-white, black
-
-
----
+Dominant colors: Dirty bone-white, black
 
 ## Cultural Context
 
+Feathered headbands are traditional adornments across many Indigenous American cultures, with specific feathers carrying spiritual significance related to honor, bravery, and connection to the natural world. In the context of peyote ceremonies, the combination of feathered headwear and sacred medicine represents a complete spiritual practice that predates European contact by millennia.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [Freetekno](../../../core-lore/archetypes.md#freetekno)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 4
-
-
----
-
-## Connections
-
-**Ancestor:** 
+A feathered headband rooted in Indigenous ceremony — the freetekno archetype draws a line from ancient spiritual practice to modern free party culture, and this hat sits right on that line.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** July 27, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Archetype:** Freetekno
+**Swag Score:** 4
+**Date Added:** 2024-07-27

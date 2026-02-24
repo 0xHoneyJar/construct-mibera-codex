@@ -8,62 +8,25 @@ date_added: "2024-07-16"
 
 # cody wilson ar-15
 
-## Visual Properties
+## Visual Elements
 
+a black ar-15 rifle with white accent near the handle.
 
-**Image Files:**
-SS5_Cody Wilson AR-15.png
-
-
-**Visual Description:** a black ar-15 rifle with white accent near the handle.
-
-**Dominant Colors:** black, white
-
-
----
+Dominant colors: black, white
 
 ## Cultural Context
 
+Cody Wilson demonstrated that firearms could be manufactured with consumer 3D printers, forcing a global confrontation between digital freedom and weapons regulation. His work applies cypherpunk principles to physical objects in the most provocative way possible.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:** Cody Wilson demonstrated that firearms could be manufactured with consumer 3D printers, forcing a global confrontation between digital freedom and weapons regulation. His work applies cypherpunk principles to physical objects in the most provocative way possible.
-
-
----
-
-## Mibera Integration
-
-**Archetype:** 
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 5
-
-
----
-
-## Connections
-
-**Ancestor:** 
+Extends the cypherpunk thread from information into physical fabrication. If code is speech, then a 3D-printed firearm is the most provocative sentence ever written.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** July 16, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Swag Score:** 5
+**Date Added:** 2024-07-16

@@ -8,62 +8,27 @@ date_added: "2024-12-09"
 
 # new york rave flyers
 
-## Visual Properties
+## Visual Elements
 
+A thin, neon green booklet that says “NEW YORK RAVE FLYERS 1991-1995” in black text.
 
-**Image Files:**
-SS3_chicagodetroit_New York Rave Flyers.PNG
-
-
-**Visual Description:** A thin, neon green booklet that says “NEW YORK RAVE FLYERS 1991-1995” in black text.
-
-**Dominant Colors:** Neon green.
-
-
----
+Dominant colors: Neon green.
 
 ## Cultural Context
 
+New York rave flyers document the city's unique electronic music scene, which blended warehouse parties, club culture, and the downtown art world. They capture a time when the city's nightlife was both genuinely dangerous and genuinely transformative.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:** New York rave flyers document the city's unique electronic music scene, which blended warehouse parties, club culture, and the downtown art world. They capture a time when the city's nightlife was both genuinely dangerous and genuinely transformative.
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [chicago detroit](../../../core-lore/archetypes.md#chicago-detroit)
-
-**Archetype Alignment:** Rave flyers are an important aesthetic influence on Mibera. It also examines
-
-
-**Swag Score:** 3
-
-
----
-
-## Connections
-
-**Ancestor:** 
+Primary-source artifacts. These flyers are the receipts — physical proof that a scene existed before it was documented, commercialized, or remembered correctly.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** December 9, 2024
-
+**Archetype:** chicago detroit
+**Swag Score:** 3
+**Date Added:** 2024-12-09
 **Introduced By:** babybera posted, jani suggested we include
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----

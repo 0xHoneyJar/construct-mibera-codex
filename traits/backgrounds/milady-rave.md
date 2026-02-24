@@ -6,36 +6,26 @@ date_added: "2024-06-06"
 
 # Milady Rave
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
 ![Milady Rave](https://mibera.fsn1.your-objectstorage.com/components/background__z10/Milady%20Rave.webp)
 
+Light pale green tone, with abstract figures, and a small female doll-like figure with big eyes being held on the far right side within the frame. Bright white light from the top.
 
-**Visual Description:** Light pale green tone, with abstract figures, and a small female doll-like figure with big eyes being held on the far right side within the frame. Bright white light from the top.
+Dominant colors: Light pale green, white.
 
-**Dominant Colors:** Light pale green, white.
+## Cultural Context
 
+Direct reference to the Milady archetype. The doll-like figure and ethereal green atmosphere capture the clearpill aesthetic where internet culture meets physical rave spaces.
 
----
+<!-- justification
+## Justification
 
-## Context
-
-
-**Cultural Origin:** 
-
-
-**Why This Matters:** Direct reference to the Milady archetype. The doll-like figure and ethereal green atmosphere capture the clearpill aesthetic where internet culture meets physical rave spaces.
+Direct visual representation of the Milady archetype's aesthetic environment.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** June 6, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
----
+**Date Added:** 2024-06-06

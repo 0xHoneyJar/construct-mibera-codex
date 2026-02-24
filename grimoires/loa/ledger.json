@@ -339,12 +339,12 @@
     {
       "id": "cycle-015",
       "label": "Mibera Sets — Individual Token Entries",
-      "status": "active",
+      "status": "archived",
       "created": "2026-02-20",
-      "archived": null,
-      "prd": "grimoires/loa/prd.md",
-      "sdd": "grimoires/loa/sdd.md",
-      "sprint_plan": "grimoires/loa/sprint.md",
+      "archived": "2026-02-22",
+      "prd": "grimoires/loa/archive/cycle-015/prd.md",
+      "sdd": "grimoires/loa/archive/cycle-015/sdd.md",
+      "sprint_plan": "grimoires/loa/archive/cycle-015/sprint.md",
       "sprints": [
         {
           "id": "sprint-1",
@@ -356,9 +356,77 @@
       ],
       "sprint_count": 1
     }
+    ,{
+      "id": "cycle-016",
+      "label": "Trait Enrichment — Cultural Context at Scale",
+      "status": "archived",
+      "created": "2026-02-22",
+      "archived": "2026-02-24",
+      "prd": "grimoires/loa/archive/cycle-016/prd.md",
+      "sdd": null,
+      "sprint_plan": "grimoires/loa/archive/cycle-016/sprint.md",
+      "sprints": [
+        {
+          "id": "sprint-1",
+          "global_id": 24,
+          "label": "Backgrounds",
+          "status": "planned",
+          "tasks": 4
+        },
+        {
+          "id": "sprint-2",
+          "global_id": 25,
+          "label": "General Items",
+          "status": "planned",
+          "tasks": 3
+        },
+        {
+          "id": "sprint-3",
+          "global_id": 26,
+          "label": "Hats + Earrings",
+          "status": "planned",
+          "tasks": 3
+        },
+        {
+          "id": "sprint-4",
+          "global_id": 27,
+          "label": "Clothing",
+          "status": "planned",
+          "tasks": 4
+        },
+        {
+          "id": "sprint-5",
+          "global_id": 28,
+          "label": "Tattoos + Remaining Accessories",
+          "status": "planned",
+          "tasks": 5
+        }
+      ],
+      "sprint_count": 5
+    },
+    {
+      "id": "cycle-017",
+      "label": "Reveal Timeline — Per-Mibera Fracture Images",
+      "status": "active",
+      "created": "2026-02-24",
+      "archived": null,
+      "prd": "grimoires/loa/prd.md",
+      "sdd": "grimoires/loa/sdd.md",
+      "sprint_plan": "grimoires/loa/sprint.md",
+      "sprints": [
+        {
+          "id": "sprint-1",
+          "global_id": 29,
+          "label": "Reveal Timeline Integration",
+          "status": "completed",
+          "tasks": 4
+        }
+      ],
+      "sprint_count": 1
+    }
   ],
-  "active_cycle": "cycle-015",
+  "active_cycle": "cycle-017",
   "active_bugfix": null,
-  "global_sprint_counter": 23,
+  "global_sprint_counter": 29,
   "bugfix_cycles": []
 }

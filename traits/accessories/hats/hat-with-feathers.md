@@ -8,64 +8,33 @@ date_added: "2024-07-26"
 
 # Hat With Feathers
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
 ![ancient mongolian Hat With Feathers](https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS4_acidhouse_ancient_mongolian_Hat%20With%20Feathers.webp)
 
+Big headpiece consisting of a brown base with thin flowy strings on the front part and down framing the face. Multiple feathers that are enormous in size are poking out of the top part of the hat.
 
-**Visual Description:** Big headpiece consisting of a brown base with thin flowy strings on the front part and down framing the face. Multiple feathers that are enormous in size are poking out of the top part of the hat.
-
-**Dominant Colors:** Brown, dirty white, light beige
-
-
----
+Dominant colors: Brown, dirty white, light beige
 
 ## Cultural Context
 
+Mongolian shamanic rituals; that were being revived after being banned for 70 years under communist rule. Protected by Mongolia’s constitution since 1992, these ancient practices involve shamans (buu) performing ceremonies, such as a summer solstice ritual near Ulaanbaatar.
 
-**Cultural Origin:** Mongolian shamanic rituals; that were being revived after being banned for 70 years under communist rule. Protected by Mongolia’s constitution since 1992, these ancient practices involve shamans (buu) performing ceremonies, such as a summer solstice ritual near Ulaanbaatar.
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [Acidhouse](../../../core-lore/archetypes.md#acidhouse)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 4
-
-
----
-
-## Connections
-
-**Ancestor:** [Mongolian](../../../core-lore/ancestors/mongolian.md)
-
+Mongolian shamanic headgear revived after 70 years of communist suppression — feathers and ceremony from the steppe, connecting ancient ritual practice to the acid house archetype's search for transcendence.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** July 26, 2024
-
+**Archetype:** Acidhouse
+**Ancestor:** [Mongolian](../../../core-lore/ancestors/mongolian.md)
+**Swag Score:** 4
+**Date Added:** 2024-07-26
 **Introduced By:** Jani
-
-**Team Notes:** 
-
 **Sources:**
 - https://discord.com/channels/1133935527855399053/1163467995549536397/11634680584850
 - https://www.theguardian.com/world/gallery/2018/jun/29/mongolias-shamanic-rituals-in-pictures
-
-**Summary:** 
-
----

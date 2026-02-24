@@ -8,62 +8,25 @@ date_added: "2024-08-07"
 
 # controlled substances
 
-## Visual Properties
+## Visual Elements
 
+a book in light muted blue with big title in black in the middle that reads “CONTROLLED SUBSTANCES”.
 
-**Image Files:**
-SS5_Controlled Substances.png
-
-
-**Visual Description:** a book in light muted blue with big title in black in the middle that reads “CONTROLLED SUBSTANCES”.
-
-**Dominant Colors:** light blue, black
-
-
----
+Dominant colors: light blue, black
 
 ## Cultural Context
 
+*Controlled Substances: A Chemical and Legal Guide to the Federal Drug Laws* by Alexander Shulgin and Tania Manning. Shulgin is the chemist who synthesized and self-tested over 200 psychoactive compounds, documenting them in PiHKAL and TiHKAL. This book catalogues the legal scheduling of drugs under US federal law — written by the same person who created many of the substances being scheduled.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:** Drug scheduling and controlled substance laws represent the legal framework that criminalizes many of the plants and compounds in this collection. Holding a book of drug laws as a physical item turns regulation itself into an artifact worth examining alongside the substances it tries to control.
-
-
----
-
-## Mibera Integration
-
-**Archetype:** 
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 5
-
-
----
-
-## Connections
-
-**Ancestor:** 
+Shulgin wrote the book on drug scheduling law — literally — after personally synthesizing many of the substances being scheduled. The irony is the point.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** August 7, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Swag Score:** 5
+**Date Added:** 2024-08-07

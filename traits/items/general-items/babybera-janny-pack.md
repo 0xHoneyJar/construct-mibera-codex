@@ -8,62 +8,24 @@ date_added: "2024-12-09"
 
 # babybera janny pack
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
-SS3_freetekno_Babybera Janny Pack.PNG
-
-
-**Visual Description:** a light grey fanny pack, with some graphics in a white rectangular shape on it and a black sling.
-
-**Dominant Colors:** grey
-
-
----
+a light grey fanny pack, with some graphics in a white rectangular shape on it and a black sling.
 
 ## Cultural Context
 
+Fanny packs (or bum bags in the UK) became a practical staple of rave culture because they keep hands free on the dance floor. The style fell out of mainstream fashion in the late 1990s but never left the free party scene, and has since cycled back into streetwear. This version is branded with Babybera, a Berachain community project.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [freetekno](../../../core-lore/archetypes.md#freetekno)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 3
-
-
----
-
-## Connections
-
-**Ancestor:** 
+Babybera is a key member of the Mibera team.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** December 9, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Archetype:** freetekno
+**Swag Score:** 3
+**Date Added:** 2024-12-09

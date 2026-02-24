@@ -8,62 +8,25 @@ date_added: "2024-12-09"
 
 # steady
 
-## Visual Properties
+## Visual Elements
 
+a plushie of a bear character wearing a red balaclava with small devil horns, white long sleeves with green text that says “OOGA”, blue trousers, and red sneakers.
 
-**Image Files:**
-SS3_Steady.PNG
-
-
-**Visual Description:** a plushie of a bear character wearing a red balaclava with small devil horns, white long sleeves with green text that says “OOGA”, blue trousers, and red sneakers.
-
-**Dominant Colors:** red, creamy white, blue
-
-
----
+Dominant colors: red, creamy white, blue
 
 ## Cultural Context
 
+Steady is a project within the Berachain ecosystem. The bear character wears a devil-horned balaclava and an "OOGA" shirt, referencing the Ooga Booga meme central to Berachain culture. The outfit combines street style with ecosystem in-jokes.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** 
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 3
-
-
----
-
-## Connections
-
-**Ancestor:** 
+Ecosystem project wearing its Berachain allegiance literally — "OOGA" branded shirt with devil-horned balaclava. Street style meets ecosystem in-jokes.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** December 9, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Swag Score:** 3
+**Date Added:** 2024-12-09

@@ -8,59 +8,29 @@ date_added: "2024-06-18"
 
 # Black Scifi
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
 ![Black Scifi](https://mibera.fsn1.your-objectstorage.com/components/glasses__z140/chicagodetroit_Black Scifi.webp)
 
-
-**Visual Description:** all-black glasses with slightly curved top-framing and triangular cut at the middle bottom part.
-
-**Dominant Colors:** 
-
-
----
+all-black glasses with slightly curved top-framing and triangular cut at the middle bottom part.
 
 ## Cultural Context
 
+The Chosen Few DJs, Lori Branch.
 
-**Cultural Origin:** The Chosen Few DJs, Lori Branch.
+The article focuses on the history of house music in Chicago from 1985 to 1990. Highlighting the genre's development, key figures like Larry Heard (Mr. Fingers) who pioneered deep house, and the emergence of sub-genres like soulful house and acid house. It also recognizes Lori Branch, the first female DJ in Chicago’s house scene, and her contributions. It is part of a broader retrospective on Chicago’s Black music history.
 
-**Era:**
+<!-- justification
+## Justification
 
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [Chicago detroit](../../../core-lore/archetypes.md#chicago-detroit)
-
-**Archetype Alignment:** Its relation to the house music history in Chicago, highlighting the birth of the first female DJ in Chicago’s house scene.
-
-
-**Swag Score:** 2
-
-## Connections
-
-**Ancestor:** 
+Chicago house was deeply intertwined with Black futurism. The sci-fi aesthetic channels the same energy that Larry Heard and Lori Branch brought to the genre: visionary, forward-looking, and unapologetically Black.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** June 18, 2024
-
+**Archetype:** Chicago detroit
+**Swag Score:** 2
+**Date Added:** 2024-06-18
 **Introduced By:** Jani
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** The article focuses on the history of house music in Chicago from 1985 to 1990. Highlighting the genre's development, key figures like Larry Heard (Mr. Fingers) who pioneered deep house, and the emergence of sub-genres like soulful house and acid house. It also recognizes Lori Branch, the first female DJ in Chicago’s house scene, and her contributions. It is part of a broader retrospective on Chicago’s Black music history.
-
----

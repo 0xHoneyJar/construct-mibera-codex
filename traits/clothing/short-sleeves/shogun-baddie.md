@@ -8,62 +8,27 @@ date_added: "2024-12-10"
 
 # Shogun Baddie
 
-## Visual Properties
+## Visual Elements
 
+![Shogun Baddie](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)
 
-**Image Files:**
-![Shogun Baddie](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)/SS2_Shogun%20Baddie.webp)
+Black t-shirt with a magenta graphic of a pretty female bear head with a ribbon, some Chinese characters on the side followed by the word “SHOGUN”.
 
-
-**Visual Description:** Black t-shirt with a magenta graphic of a pretty female bear head with a ribbon, some Chinese characters on the side followed by the word “SHOGUN”.
-
-**Dominant Colors:** Black, magenta
-
-
----
+Dominant colors: Black, magenta
 
 ## Cultural Context
 
+The Shogun Baddie design combines Japanese historical aesthetics (the shogun title) with contemporary internet slang (baddie). The female bear head with a ribbon and Japanese characters represents the fusion of East Asian visual culture with the Berachain bear identity.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:** 
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** 
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 2
-
-
----
-
-## Connections
-
-**Ancestor:** 
+Japanese aesthetics and internet slang fused into one graphic. The Shogun Baddie captures the Milady-adjacent side of Berachain culture where anime, history, and memes collide.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** December 10, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Swag Score:** 2
+**Date Added:** 2024-12-10

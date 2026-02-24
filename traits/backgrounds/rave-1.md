@@ -6,36 +6,27 @@ date_added: "2024-08-14"
 
 # Rave 1
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
 ![Rave 1](https://mibera.fsn1.your-objectstorage.com/components/background__z10/rave%201.webp)
 
+Abstract painterly style with solid black background and large bright blue spots dominated with white showing its brightness, a blood red stroke can be seen in the right corner.
 
-**Visual Description:** Abstract painterly style with solid black background and large bright blue spots dominated with white showing its brightness, a blood red stroke can be seen in the right corner.
+Dominant colors: Black, light blue, white.
 
-**Dominant Colors:** Black, light blue, white.
+## Cultural Context
 
+Evokes the earliest illegal warehouse raves — minimal production, maximum intensity.
 
----
+<!-- justification
+## Justification
 
-## Context
-
-
-**Cultural Origin:** 
-
-
-**Why This Matters:** Evokes the earliest illegal warehouse raves — minimal production, maximum intensity.
+Abstract rave backgrounds represent the raw sensory experience of electronic music events — the environments where all four archetypes converge.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** August 14, 2024
-
+**Date Added:** 2024-08-14
 **Introduced By:** Jani
-
-**Team Notes:** 
-
----

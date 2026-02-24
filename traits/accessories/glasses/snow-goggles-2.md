@@ -8,59 +8,25 @@ date_added: "2024-12-10"
 
 # snow goggles 2
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
 ![Snow Goggles 2](https://mibera.fsn1.your-objectstorage.com/components/glasses__z140/Snow Goggles 2.webp)
 
-
-**Visual Description:** white snow-goggles with thin opening in the middle and tribal art.
-
-**Dominant Colors:** 
-
-
----
+white snow-goggles with thin opening in the middle and tribal art.
 
 ## Cultural Context
 
+Snow goggles with narrow slit openings derive from traditional Inuit and Yupik designs, among the oldest known sun protection devices. The tribal art elements reference the indigenous origins of this technology, which predates modern eyewear by millennia.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** 
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 4
-
-## Connections
-
-**Ancestor:** 
+The tribal-art variant grounds these goggles in their indigenous origins rather than their ski-resort present. It is a reminder that the most functional designs often come from the oldest cultures.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** December 10, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Swag Score:** 4
+**Date Added:** 2024-12-10

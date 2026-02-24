@@ -5,58 +5,19 @@ date_added: null
 
 # Relaxed Blue
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
-
-
-**Visual Description:**
-
-**Dominant Colors:**
-
----
 
 ## Cultural Context
 
+The relaxed style features long, straight hair with straight bangs, slightly curved inward — smooth, unhurried, and effortlessly elegant. The name suggests both the hair treatment (chemical relaxing) and the emotional state, producing a look that is polished but never stiff.
 
-**Cultural Origin:**
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:**
-
-**Archetype Alignment:**
-
-
-**Swag Score:**
-
----
-
-## Connections
-
-**Ancestor:** 
+Smooth and unhurried, the relaxed style brings effortless elegance to the longer hair options.
+-->
 
 ---
 
 ## Attribution
-
-**Date Added:**
-
-**Introduced By:**
-
-**Team Notes:**
-
-**Sources:**
-
-**Summary:**
-
----

@@ -8,62 +8,29 @@ date_added: "2024-12-10"
 
 # Rug Core
 
-## Visual Properties
+## Visual Elements
 
+![Rug Core](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)
 
-**Image Files:**
-![Rug Core](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)/SS3_freetekno_Rug%20Core.webp)
+Black t-shirt with text in red in the middle that says “rug core” in a playful font.
 
-
-**Visual Description:** Black t-shirt with text in red in the middle that says “rug core” in a playful font.
-
-**Dominant Colors:** Black, red.
-
-
----
+Dominant colors: Black, red.
 
 ## Cultural Context
 
+Rugcore is a self-aware aesthetic movement within crypto culture that embraces the chaotic energy of memecoin trading and rug pulls. The term rug pull refers to a crypto scam where developers drain a token's liquidity and disappear. Rugcore turns the trauma into an identity.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:** 
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [Freetekno](../../../core-lore/archetypes.md#freetekno)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 3
-
-
----
-
-## Connections
-
-**Ancestor:** 
+Rugcore is crypto culture processing its own scam epidemic through fashion. When getting rugged is so common it becomes an aesthetic, you know the culture has reached a certain maturity.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** December 10, 2024
-
+**Archetype:** Freetekno
+**Swag Score:** 3
+**Date Added:** 2024-12-10
 **Introduced By:** Tez / Kata
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----

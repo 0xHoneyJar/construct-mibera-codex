@@ -8,62 +8,28 @@ date_added: "2024-07-28"
 
 # Forehead Kiss
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
 ![Forehead Kiss](https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS2_milady_Forehead%20Kiss.webp)
 
+Kiss stamp in red.
 
-**Visual Description:** Kiss stamp in red.
-
-**Dominant Colors:** Red
-
-
----
+Dominant colors: Red
 
 ## Cultural Context
 
+The forehead kiss is a universal gesture of affection, tenderness, and protection found across cultures. As a lipstick mark on the forehead, it evokes intimacy and the remnants of a moment — someone was here and left their mark. In the context of Milady aesthetics, the red kiss stamp reads as both romantic and slightly possessive.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [Milady](../../../core-lore/archetypes.md#milady)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 2
-
-
----
-
-## Connections
-
-**Ancestor:** 
+Someone kissed this Mibera's forehead and left the evidence — a tender moment frozen in red lipstick, very Milady energy.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** July 28, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Archetype:** Milady
+**Swag Score:** 2
+**Date Added:** 2024-07-28

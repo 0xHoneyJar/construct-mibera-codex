@@ -8,62 +8,29 @@ date_added: "2024-12-10"
 
 # Future is Accessible
 
-## Visual Properties
+## Visual Elements
 
+![Future Is Accessible](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)
 
-**Image Files:**
-![Future Is Accessible](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)/SS1_freetekno_Future%20Is%20Accessible.webp)
+Black t-shirt with white text that says “THE FUTURE IS ACCESSIBLE”.
 
-
-**Visual Description:** Black t-shirt with white text that says “THE FUTURE IS ACCESSIBLE”.
-
-**Dominant Colors:** Black, white.
-
-
----
+Dominant colors: Black, white.
 
 ## Cultural Context
 
+Disability rights activism has intersected with rave culture through campaigns for accessible venues, sensory-friendly events, and the broader principle that liberation movements must include everyone. The slogan echoes the format of activist tees like The Future is Female.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:** 
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [Freetekno](../../../core-lore/archetypes.md#freetekno)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 1
-
-
----
-
-## Connections
-
-**Ancestor:** 
+If the dancefloor is supposed to be for everyone, then accessibility is not optional. This shirt brings disability rights into the collection's broader catalog of liberation movements.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** December 10, 2024
-
+**Archetype:** Freetekno
+**Swag Score:** 1
+**Date Added:** 2024-12-10
 **Introduced By:** Jani
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----

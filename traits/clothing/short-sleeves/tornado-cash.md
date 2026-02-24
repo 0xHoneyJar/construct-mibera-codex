@@ -8,62 +8,29 @@ date_added: "2024-12-10"
 
 # Tornado Cash
 
-## Visual Properties
+## Visual Elements
 
+![Tornado Cash](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)
 
-**Image Files:**
-![Tornado Cash](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)/SS4_Tornado%20Cash.webp)
+Black t-shirt with simple spiral symbolism and text in soft light green, that reads “I helped violate international sanctions and all I got was this lousy t-shirt”.
 
-
-**Visual Description:** Black t-shirt with simple spiral symbolism and text in soft light green, that reads “I helped violate international sanctions and all I got was this lousy t-shirt”.
-
-**Dominant Colors:** Black, light green.
-
-
----
+Dominant colors: Black, light green.
 
 ## Cultural Context
 
+Tornado Cash is an open-source, non-custodial, decentralized cryptocurrency tumbler that operates on Ethereum Virtual Machine-compatible networks. It enhances transaction privacy by mixing potentially identifiable cryptocurrency funds with others, obscuring the trail to the original source using zero-knowledge proofs (zk-SNARKs).
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:** 
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** 
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 4
-
-
----
-
-## Connections
-
-**Ancestor:** 
+Tornado Cash is the most important privacy tool controversy in crypto history. The sarcastic shirt text about violating sanctions captures the community's defiant humor in the face of government enforcement.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** December 10, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
+**Swag Score:** 4
+**Date Added:** 2024-12-10
 **Sources:**
 - https://en.wikipedia.org/wiki/Tornado_Cash
-
-**Summary:** Tornado Cash is an open-source, non-custodial, decentralized cryptocurrency tumbler that operates on Ethereum Virtual Machine-compatible networks. It enhances transaction privacy by mixing potentially identifiable cryptocurrency funds with others, obscuring the trail to the original source using zero-knowledge proofs (zk-SNARKs).
-
----

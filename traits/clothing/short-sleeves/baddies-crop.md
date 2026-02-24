@@ -8,62 +8,27 @@ date_added: "2024-12-10"
 
 # Baddies Crop
 
-## Visual Properties
+## Visual Elements
 
+![Baddies Crop](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)
 
-**Image Files:**
-![Baddies Crop](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)/SS3_Baddies%20Crop.webp)
+White cropped tank top with v-neck and a small graphic of a bear with a ribbon. Paired with a dark brown skirt.
 
-
-**Visual Description:** White cropped tank top with v-neck and a small graphic of a bear with a ribbon. Paired with a dark brown skirt.
-
-**Dominant Colors:** White, dark brown.
-
-
----
+Dominant colors: White, dark brown.
 
 ## Cultural Context
 
+Crop tops and tank tops have been standard rave attire since the early 1990s, particularly for women. The cropped silhouette with a bear graphic merges club fashion with the Berachain bear motif, while the skirt pairing references the femme-forward styling of Y2K party culture.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:** 
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** 
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 3
-
-
----
-
-## Connections
-
-**Ancestor:** 
+Rave fashion has always had a femme lane, and the crop top with a bear ribbon graphic is Mibera's version of it. The baddie aesthetic is as real on the dancefloor as anywhere else.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** December 10, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Swag Score:** 3
+**Date Added:** 2024-12-10

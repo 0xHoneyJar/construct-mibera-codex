@@ -8,62 +8,31 @@ date_added: "2024-12-10"
 
 # Scum
 
-## Visual Properties
+## Visual Elements
 
+![SCUM](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)
 
-**Image Files:**
-![SCUM](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)/SS3_freetekno_SCUM.webp)
+White t-shirt with black text that reads “SCUM”.
 
-
-**Visual Description:** White t-shirt with black text that reads “SCUM”.
-
-**Dominant Colors:** White, black
-
-
----
+Dominant colors: White, black
 
 ## Cultural Context
 
+SCUM may reference the SCUM Manifesto, a radical feminist text written by Valerie Solanas in 1967, or it may function as a reclaimed insult in the tradition of counterculture groups embracing derogatory labels. The plain, bold typography on a white tee follows the provocative slogan shirt format.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:** 
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [Freetekno](../../../core-lore/archetypes.md#freetekno)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 3
-
-
----
-
-## Connections
-
-**Ancestor:** 
+Whether it references Valerie Solanas or functions as reclaimed slang, SCUM on a t-shirt is the kind of confrontational statement that counterculture has always worn as a badge.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** December 10, 2024
-
+**Archetype:** Freetekno
+**Swag Score:** 3
+**Date Added:** 2024-12-10
 **Introduced By:** Jani
-
-**Team Notes:** 
-
 **Sources:**
 - https://discord.com/channels/1133935527855399053/1143684645393797200/11674669807066
-
-**Summary:** 
-
----

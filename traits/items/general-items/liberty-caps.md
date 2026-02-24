@@ -8,62 +8,26 @@ date_added: "2024-07-06"
 
 # liberty caps
 
-## Visual Properties
+## Visual Elements
 
+a small umbrella-shaped mushroom in dark pale brown.
 
-**Image Files:**
-SS2_acidhouse_Liberty Caps.png
-
-
-**Visual Description:** a small umbrella-shaped mushroom in dark pale brown.
-
-**Dominant Colors:** dark brown
-
-
----
+Dominant colors: dark brown
 
 ## Cultural Context
 
+Liberty caps (Psilocybe semilanceata) are the most common wild psilocybin mushroom in Europe and the UK, growing in sheep pastures and wet meadows. They are the mushroom most closely tied to British free party and festival culture.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:** Liberty caps (Psilocybe semilanceata) are the most common wild psilocybin mushroom in Europe and the UK, growing in sheep pastures and wet meadows. They are the mushroom most closely tied to British free party and festival culture.
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [acidhouse](../../../core-lore/archetypes.md#acidhouse)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 2
-
-
----
-
-## Connections
-
-**Ancestor:** 
+The mushroom that grows wild in British sheep pastures fueled the UK's free party and festival scene, tying psilocybin to the same soil as acid house.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** July 6, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Archetype:** acidhouse
+**Swag Score:** 2
+**Date Added:** 2024-07-06

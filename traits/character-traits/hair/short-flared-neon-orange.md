@@ -6,31 +6,25 @@ date_added: "2024-06-22"
 
 # short flared neon orange
 
-## Visual Properties
+## Visual Elements
 
+a voluminous, rounded hairstyle in bright orange gradient, with smooth, layered texture and sharp-flat outward-curving edges at the end.
 
-**Image Files:**
-Short Flared Neon Orange__w16.png
+Dominant colors: vibrant orange gradient.
 
+## Cultural Context
 
-**Visual Description:** a voluminous, rounded hairstyle in bright orange gradient, with smooth, layered texture and sharp-flat outward-curving edges at the end.
+The short flared style is a voluminous, rounded cut with smooth layered texture and sharp, flat outward-curving edges at the ends. The flared tips create a retro-futuristic silhouette that references 1960s space-age fashion and the mod aesthetic, updated with contemporary color palettes.
 
-**Dominant Colors:** vibrant orange gradient.
+<!-- justification
+## Justification
 
----
-
-## Connections
-
-**Ancestor:** 
+Retro-futuristic flair — the flared tips reference space-age mod aesthetics updated for the contemporary palette.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** June 22, 2024
-
+**Date Added:** 2024-06-22
 **Introduced By:** Gumi
-
-**Team Notes:** 
-
----

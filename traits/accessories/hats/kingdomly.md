@@ -8,62 +8,27 @@ date_added: "2024-12-10"
 
 # Kingdomly
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
 ![SS3 Kingdomly](https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS3_Kingdomly.webp)
 
+Knight helmet with brown bear ears and red fur at the back, the helmet is wide opened.
 
-**Visual Description:** Knight helmet with brown bear ears and red fur at the back, the helmet is wide opened.
-
-**Dominant Colors:** Grey, red, brown
-
-
----
+Dominant colors: Grey, red, brown
 
 ## Cultural Context
 
+an NFT mint platform on Berachain that recently went multi-chain.
 
-**Cultural Origin:** an NFT mint platform on Berachain that recently went multi-chain.
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** 
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 3
-
-
----
-
-## Connections
-
-**Ancestor:** 
+Kingdomly is a Berachain-native NFT mint platform turned multi-chain — the knight helmet with bear ears is ecosystem infrastructure wearing its identity on its head.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** December 10, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Swag Score:** 3
+**Date Added:** 2024-12-10

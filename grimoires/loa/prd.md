@@ -1,185 +1,129 @@
-# PRD: Mibera Sets — Individual Token Entries
+# PRD: Reveal Timeline — Per-Mibera Fracture Images
 
-> **Cycle**: cycle-015
-> **Created**: 2026-02-20
-> **Status**: Draft
+**Cycle**: 017
+**Created**: 2026-02-24
+**Status**: Draft
 
 ---
 
 ## 1. Problem Statement
 
-The codex documents Mibera Sets at the collection level (`_codex/data/mibera-sets.md`) with contract data, tier structure, and on-chain activity. However, none of the 12 individual tokens have their own entries. The Arweave metadata — names, descriptions, images, attributes — has never been fetched because the contract isn't verified on any explorer and `uri()` must be called via RPC.
+Each Mibera file currently displays only the final reveal image (MiReveal #8.8). The 10-phase reveal journey — from sealed MiParcel envelope through progressive unveiling — is documented in `fractures/` as a collection-wide narrative, but individual Miberas have no visual record of *their* specific reveal progression.
 
-> Source: `_codex/data/mibera-sets.md` GAP comments (lines 96-102, 122-130)
+Holders participated in each reveal wave. The fracture images exist per-token on S3. They should be visible per-Mibera.
 
 ## 2. Goal
 
-Create an individual entry for each of the 12 Mibera Set ERC-1155 tokens, sourced from on-chain metadata. No narrative expansion — document what the metadata says.
+Add a **Reveal Timeline** section to all 10,000 Mibera files that displays the first 9 fracture phases as a horizontal image row. The final reveal (MiReveal #8.8) remains as the primary hero image at the top of the file — the timeline shows the journey that led to it.
 
-### Success Criteria
-
-- [ ] All 12 token metadata URIs fetched via RPC call to Optimism
-- [ ] Arweave metadata downloaded for all 12 tokens
-- [ ] Individual markdown files created at `mibera-sets/{slug}.md`
-- [ ] `mibera-sets/README.md` index created with links to all entries
-- [ ] `_codex/data/mibera-sets.md` updated with resolved metadata URIs
-- [ ] Navigation indices updated (SUMMARY.md, manifest.json, README.md)
-- [ ] GAP comments in `_codex/data/mibera-sets.md` resolved where applicable
-
-## 3. Users
-
-Same as codex-wide: humans and LLMs browsing on GitHub.
-
-## 4. Functional Requirements
-
-### FR-1: Fetch Metadata URIs via RPC
-
-Call `uri(uint256)` on contract `0x886D2176D899796cD1AfFA07Eff07B9b2B80f1be` on Optimism for token IDs 1-12.
-
-- **RPC endpoint**: `https://mainnet.optimism.io` (public)
-- **Function selector**: `0x0e89341c` (ERC-1155 `uri(uint256)`)
-- **Expected return**: Arweave URI (`ar://...`) or HTTPS gateway URL
-
-### FR-2: Fetch Arweave Metadata
-
-For each URI returned, fetch the JSON metadata via Arweave gateway (e.g. `https://arweave.net/{txid}`).
-
-Expected metadata fields (standard ERC-1155):
-- `name` — token name
-- `description` — token description
-- `image` — image URI (likely Arweave)
-- `attributes` — trait array (optional)
-
-### FR-3: Create Individual Token Files
-
-One file per token at `mibera-sets/{slug}.md`. Slug derived from metadata name (e.g. "Honey Road Set One" → `honey-road-set-one.md`).
-
-**Schema** (following grail/fracture conventions):
-
-```yaml
----
-token_id: 1
-name: "Honey Road Set One"
-type: mibera-set
-category: numbered  # or "media" or "completionist"
-supply: 65
-image: "ar://..."
-metadata_uri: "ar://..."
----
-```
-
-Body: description from Arweave metadata, plus a summary line with links. Backlink markers at bottom.
-
-```markdown
-# Honey Road Set One
-
-> **Token #1** · Numbered Set · Supply: 65 · [All Mibera Sets →](README.md)
-
-{description from metadata}
-
----
-
-<!-- @generated:backlinks-start -->
-<!-- @generated:backlinks-end -->
-```
-
-### FR-4: Create Index (README.md)
-
-`mibera-sets/README.md` following the pattern of `grails/README.md` and `fractures/README.md`:
-
-```markdown
-<!-- codex-status: COMPLETE | entities: 12 | last-verified: 2026-02-20 -->
-# Mibera Sets — Honey Road Artifacts
-
-*12 ERC-1155 tokens on Optimism representing artifacts from the Honey Road.*
-
----
-
-## Numbered Sets (7)
-
-- [Honey Road Set One](honey-road-set-one.md) · Token #1 · Supply: 65
-...
-
-## Media (4)
-
-...
-
-## Completionist (1)
-
-...
-```
-
-### FR-5: Update Existing References
-
-- **`_codex/data/mibera-sets.md`**: Replace GAP comments with resolved metadata URIs. Add links to individual token files.
-- **`manifest.json`**: Add `mibera-set` entity type with count and path
-- **`SUMMARY.md`**: Add mibera-sets section
-- **Root `README.md`**: Add to directory layout table if applicable
-
-## 5. Technical Approach
-
-### RPC Call
-
-Use Python `urllib` (stdlib-only, per codex conventions) to make JSON-RPC calls:
-
-```python
-import json, urllib.request
-
-rpc_url = "https://mainnet.optimism.io"
-contract = "0x886D2176D899796cD1AfFA07Eff07B9b2B80f1be"
-
-def call_uri(token_id):
-    # Encode uri(uint256) call
-    selector = "0x0e89341c"
-    token_hex = hex(token_id)[2:].zfill(64)
-    data = selector + token_hex
-
-    payload = {
-        "jsonrpc": "2.0",
-        "method": "eth_call",
-        "params": [{"to": contract, "data": data}, "latest"],
-        "id": 1
-    }
-    req = urllib.request.Request(rpc_url, json.dumps(payload).encode(),
-                                 {"Content-Type": "application/json"})
-    resp = json.loads(urllib.request.urlopen(req).read())
-    # Decode string from ABI-encoded response
-    return decode_abi_string(resp["result"])
-```
-
-### Arweave Fetch
-
-Standard HTTPS GET to `arweave.net` gateway. Parse JSON response.
-
-## 6. Scope
+## 3. Scope
 
 ### In Scope
 
-- RPC calls to fetch metadata URIs for tokens 1-12
-- Arweave metadata fetch for all 12 tokens
-- Individual token entry files in `mibera-sets/`
-- README index for the directory
-- Updates to navigation indices and mibera-sets.md
+- Add a "Reveal Timeline" section with a 9-column horizontal image table to all 10,000 Mibera files
+- Phases shown (in order): MiParcels → Miladies → #1.1 → #2.2 → #3.3 → #4.20 → #5.5 → #6.9 → #7.7
+- MiReveal #8.8 is **excluded** from the table (it's already the primary image)
+- Images served from public S3: `https://thj-assets.s3.us-west-2.amazonaws.com/`
+- Build a Python script (`_codex/scripts/add-reveal-timeline.py`) to process all 10,000 files
+- Remove existing `mireveals/mireveal3.3/` directory (old CSV data, superseded by S3)
 
 ### Out of Scope
 
-- Honey Road narrative expansion
-- Collector mechanic lore
-- Image downloads or hosting
-- On-chain activity analysis per token
-- Schema JSON file for mibera-set type (can add in a later cycle)
+- MiShadows (separate feature, incomplete data — only ~3,240 of 10,000)
+- Any changes to the `fractures/` documentation itself
+- Image resizing or optimization (S3 serves originals, GitHub camo proxies)
 
-## 7. Risks
+## 4. Technical Design
 
-| Risk | Likelihood | Mitigation |
-|------|-----------|------------|
-| RPC rate limit on public Optimism endpoint | Low | Retry with backoff; fallback to Alchemy/Infura free tier |
-| Arweave metadata not in expected format | Medium | Adapt schema to actual fields; document deviations |
-| `uri()` returns template URI with `{id}` placeholder | Medium | ERC-1155 spec allows this; substitute token ID |
-| Some tokens have no metadata on Arweave | Low | Create stub entries with on-chain data only, mark GAP |
+### 4.1 Image URL Patterns
 
-## 8. Dependencies
+**S3 Base**: `https://thj-assets.s3.us-west-2.amazonaws.com`
 
-- Public Optimism RPC access
-- Arweave gateway availability
-- Existing `_codex/data/mibera-sets.md` for supply/holder data
+| Phase | S3 Path | Filename |
+|-------|---------|----------|
+| MiParcels | `/parcels/parcelsImages/` | `{tokenId}.png` |
+| Miladies | `/fractures/miladies/images/` | `{tokenId}.png` |
+| MiReveal #1.1 | `/reveal_phase1_images/` | `{hash}.png` |
+| MiReveal #2.2 | `/reveal_phase2/reveal_phase2_images/` | `{hash}.png` |
+| MiReveal #3.3 | `/reveal_phase3/reveal_phase3_images/` | `{hash}.png` |
+| MiReveal #4.20 | `/reveal_phase4/images/` | `{hash}.png` |
+| MiReveal #5.5 | `/reveal_phase5/images/` | `{hash}.png` |
+| MiReveal #6.9 | `/reveal_phase6/images/` | `{hash}.png` |
+| MiReveal #7.7 | `/reveal_phase7/images/` | `{hash}.png` |
+
+- **Token-ID filenames**: MiParcels and Miladies (e.g., `42.png`)
+- **Hash filenames**: All 8 MiReveal phases use the same per-token SHA hash from `_codex/data/mibera-image-urls.json`
+
+### 4.2 Hash Mapping
+
+The existing `_codex/data/mibera-image-urls.json` maps every token ID to its Irys URL:
+```
+"1": "https://gateway.irys.xyz/.../8a7e39404ebf86073fab1d068d7037930298d121.png"
+```
+
+The filename hash (`8a7e39404ebf86073fab1d068d7037930298d121`) is the **same** across all 8 MiReveal phases on S3. Extract the hash from the URL, use it for all phase paths.
+
+### 4.3 Mibera File Layout (After)
+
+```markdown
+---
+(frontmatter unchanged)
+---
+
+# Mibera #N
+
+![Mibera #N](https://gateway.irys.xyz/.../{hash}.png)
+
+## Reveal Timeline
+
+| MiParcels | Miladies | #1.1 | #2.2 | #3.3 | #4.20 | #5.5 | #6.9 | #7.7 |
+|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+| ![MiParcels](s3url) | ![Miladies](s3url) | ![#1.1](s3url) | ![#2.2](s3url) | ![#3.3](s3url) | ![#4.20](s3url) | ![#5.5](s3url) | ![#6.9](s3url) | ![#7.7](s3url) |
+
+## Traits
+(unchanged)
+```
+
+**Placement**: Between the hero image and the Traits table. Users see the final form first, then scroll to discover the reveal journey.
+
+### 4.4 Edge Cases
+
+- **Miladies**: Has 9,999 files (1 missing token). Script must handle missing images gracefully — either skip the cell or show a placeholder alt text.
+- **Image sizes**: Reveal images are ~700KB–1.6MB. GitHub's camo proxy has a 5MB limit — all well under.
+- **9-column width**: On GitHub, each thumbnail will be ~100px wide. Small but recognizable. Users click to see full size.
+
+### 4.5 S3 Access
+
+**Already configured** (done during this session):
+- Bucket: `thj-assets` (us-west-2)
+- `BlockPublicPolicy` and `RestrictPublicBuckets` disabled
+- Scoped bucket policy grants `s3:GetObject` on all image prefixes listed above
+- Verified: both token-ID and hash-based URLs return HTTP 200
+
+### 4.6 Cleanup
+
+- Delete `mireveals/mireveal3.3/` directory and all contents (old CSV metadata, now superseded by S3 image URLs)
+- Update `manifest.json` if it references the mireveals directory
+
+## 5. Script Requirements
+
+**File**: `_codex/scripts/add-reveal-timeline.py`
+
+- Stdlib-only Python (project convention — no PyYAML, no external deps)
+- Reads `_codex/data/mibera-image-urls.json` for hash mapping
+- Processes all 10,000 files in `miberas/`
+- Inserts `## Reveal Timeline` section between hero image and `## Traits`
+- Idempotent: if `## Reveal Timeline` already exists, replaces it
+- Reports: files processed, files skipped, errors
+
+## 6. Acceptance Criteria
+
+1. All 10,000 Mibera files contain a `## Reveal Timeline` section with 9 phase images
+2. Images use correct S3 URLs (token-ID for parcels/miladies, hash for reveals)
+3. Phase order is: MiParcels → Miladies → #1.1 → #2.2 → #3.3 → #4.20 → #5.5 → #6.9 → #7.7
+4. MiReveal #8.8 is NOT in the table (remains as primary image)
+5. Primary hero image (Irys URL) is unchanged
+6. Traits table and all content below is unchanged
+7. `mireveals/mireveal3.3/` directory is deleted
+8. Script is idempotent — running twice produces the same result
+9. Spot-check: 5 random Mibera files render correctly on GitHub with visible images

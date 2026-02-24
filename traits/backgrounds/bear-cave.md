@@ -6,36 +6,26 @@ date_added: "2024-08-14"
 
 # Bear Cave
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
 ![Bear Cave](https://mibera.fsn1.your-objectstorage.com/components/background__z10/bear%20cave.webp)
 
+Flat stone grey wall with a hint of brown, a few thick cracks in the surface. Bright orange brushes are stroked around the surface.
 
-**Visual Description:** Flat stone grey wall with a hint of brown, a few thick branches dangling down / poking in. bright orange brushes are stroked around the surface.
+Dominant colors: Stone grey, beige, bright orange
 
-**Dominant Colors:** Stone grey, beige, bright orange
+## Cultural Context
 
+Where Beras hibernate, dream, and transform. Connects the bear identity to the prehistoric caves where early humans gathered and made art.
 
----
+<!-- justification
+## Justification
 
-## Context
-
-
-**Cultural Origin:** 
-
-
-**Why This Matters:** Where Beras hibernate, dream, and transform. Connects the bear identity to the prehistoric caves where early humans gathered and made art.
+The bear cave connects the Berachain bear identity to the primordial act of hibernation, dreaming, and emergence.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** August 14, 2024
-
-**Introduced By:** ---
-
-**Team Notes:** 
-
----
+**Date Added:** 2024-08-14

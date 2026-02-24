@@ -8,62 +8,27 @@ date_added: "2024-06-04"
 
 # Green Gummy Bear
 
-## Visual Properties
+## Visual Elements
 
+Earring with green gummy bear as the charm.
 
-**Image Files:**
-SS3_green gummy bear.png
-
-
-**Visual Description:** Earring with green gummy bear as the charm.
-
-**Dominant Colors:** Leafy green
-
-
----
+Dominant colors: Leafy green
 
 ## Cultural Context
 
+Gummy bears are often laced with drugs.
 
-**Cultural Origin:** Gummy bears are often laced with drugs.
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** 
-
-**Archetype Alignment:** Relation to drugs and a nod to Gumi’s name.
-
-
-**Swag Score:** 3
-
-
----
-
-## Connections
-
-**Ancestor:** 
+A playful double reference -- gummy bears as a well-known vehicle for laced substances in party culture, plus a nod to Gumi, the project's co-creator.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** June 4, 2024
-
+**Archetype:** **Archetype Alignment:** Relation to drugs and a nod to Gumi’s name.
+**Swag Score:** 3
+**Date Added:** 2024-06-04
 **Introduced By:** Babybera
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----

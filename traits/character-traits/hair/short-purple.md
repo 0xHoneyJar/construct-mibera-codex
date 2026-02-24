@@ -6,31 +6,25 @@ date_added: "2024-12-10"
 
 # short purple
 
-## Visual Properties
+## Visual Elements
 
+an oval pixie cut in bright purple.
 
-**Image Files:**
-Short Purple__w11.PNG
+Dominant colors: bright light purple
 
+## Cultural Context
 
-**Visual Description:** an oval pixie cut in bright purple.
+The short style is an oval pixie cut — close-cropped and rounded, one of the most iconic short hairstyles in fashion history. Popularized by figures from Audrey Hepburn to Mia Farrow, the pixie cut signals confidence, modernity, and a willingness to reject conventional femininity norms.
 
-**Dominant Colors:** bright light purple
+<!-- justification
+## Justification
 
----
-
-## Connections
-
-**Ancestor:** 
+Bold and modern, the pixie cut signals confidence and a willingness to break with conventional norms.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** December 10, 2024
-
+**Date Added:** 2024-12-10
 **Introduced By:** Gumi
-
-**Team Notes:** 
-
----

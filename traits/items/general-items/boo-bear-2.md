@@ -8,62 +8,28 @@ date_added: "2024-07-09"
 
 # boo bear 2
 
-## Visual Properties
+## Visual Elements
 
+a doll of a bear with dark brown fur wrapped in mummy’s bandages / costume.
 
-**Image Files:**
-SS3_milady_Boo Bear 2.png
-
-
-**Visual Description:** a doll of a bear with dark brown fur wrapped in mummy’s bandages / costume.
-
-**Dominant Colors:** dark brown, bone-white
-
-
----
+Dominant colors: dark brown, bone-white
 
 ## Cultural Context
 
+The second Boo Bear, wrapped in mummy bandages. Part of a four-piece horror-themed bear plushie series in the Berachain ecosystem items.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [milady](../../../core-lore/archetypes.md#milady)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 3
-
-
----
-
-## Connections
-
-**Ancestor:** 
+References a key Berachain rebase.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** July 9, 2024
-
+**Archetype:** milady
+**Swag Score:** 3
+**Date Added:** 2024-07-09
 **Introduced By:** Jani
-
 **Team Notes:** "want to confirm preference before locking in — should these also be treated like 1/1s? — apdao rings — band bear plushes — boo bear plushes" — Gumi, Mar 2025, #dev-mibera-assembly
-
-**Sources:**
-
-
-**Summary:** 
-
----

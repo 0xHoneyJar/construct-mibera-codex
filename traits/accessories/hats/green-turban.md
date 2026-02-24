@@ -8,62 +8,28 @@ date_added: "2024-07-25"
 
 # Green Turban
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
 ![Green Turban](https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS3_milady_Green%20Turban.webp)
 
+Plain green turban (a piece of garment / clothing), tied at the back.
 
-**Visual Description:** Plain green turban (a piece of garment / clothing), tied at the back.
-
-**Dominant Colors:** Green
-
-
----
+Dominant colors: Green
 
 ## Cultural Context
 
+The turban is worn across many cultures and religions worldwide, with the green turban holding particular significance in Islam, where it is traditionally associated with descendants of the Prophet Muhammad (Sayyids) and is considered a color of paradise. Turbans also appear in Sikh, Hindu, and various African traditions, each with distinct wrapping styles and cultural meanings.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [Milady](../../../core-lore/archetypes.md#milady)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 3
-
-
----
-
-## Connections
-
-**Ancestor:** 
+The green turban carries deep spiritual and cultural weight across multiple traditions — a hat that connects Mibera to centuries of global headwear history.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** July 25, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Archetype:** Milady
+**Swag Score:** 3
+**Date Added:** 2024-07-25

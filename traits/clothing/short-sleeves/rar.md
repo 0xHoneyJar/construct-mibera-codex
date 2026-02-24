@@ -8,62 +8,29 @@ date_added: "2024-06-22"
 
 # RAR
 
-## Visual Properties
+## Visual Elements
 
+![RAR](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)
 
-**Image Files:**
-![RAR](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)/SS2_acidhouse_RAR.webp)
+White t-shirt with a black star in the middle. On top of it is the word RAR and a flying pigeon. Under it is a text that reads “RAR IS Rave Age Records”.
 
-
-**Visual Description:** White t-shirt with a black star in the middle. On top of it is the word RAR and a flying pigeon. Under it is a text that reads “RAR IS Rave Age Records”.
-
-**Dominant Colors:** Black, white.
-
-
----
+Dominant colors: Black, white.
 
 ## Cultural Context
 
+RAR (Rave Age Records) references the record label and rave culture infrastructure that supported the UK free party scene. The star and pigeon imagery borrows from revolutionary and peace movement graphics, connecting rave culture to broader traditions of political dissent.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:** 
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [Acidhouse](../../../core-lore/archetypes.md#acidhouse)
-
-**Archetype Alignment:** It’s a parody of RAF about French ravers, which is very much Mibera.
-
-
-**Swag Score:** 2
-
-
----
-
-## Connections
-
-**Ancestor:** 
+Rave Age Records represents the DIY label infrastructure that kept the scene alive. In a collection about music subcultures, the labels and record shops are as important as the artists.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** June 22, 2024
-
+**Archetype:** Acidhouse
+**Swag Score:** 2
+**Date Added:** 2024-06-22
 **Introduced By:** Fedor
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----

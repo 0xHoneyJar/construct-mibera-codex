@@ -1,0 +1,778 @@
+{
+  "_meta": {
+    "description": "Mibera Drug-Tarot Codec — all 78 canonical pairings",
+    "source": "core-lore/tarot-cards/*.md frontmatter (authoritative)",
+    "total_cards": 78,
+    "generated": "2026-02-20"
+  },
+  "major_arcana": [
+    {
+      "card": "The Fool",
+      "number": 0,
+      "element": "Air",
+      "drug": "Ayahuasca",
+      "drug_type": "Ancient",
+      "molecule": "C12H16N2",
+      "meaning": "Spontaneity and openness. Be free."
+    },
+    {
+      "card": "The Magician",
+      "number": 1,
+      "element": "Air",
+      "drug": "Pituri",
+      "drug_type": "Ancient",
+      "molecule": "C10H14N2",
+      "meaning": "Charismatic. Impatient."
+    },
+    {
+      "card": "The High Priestess",
+      "number": 2,
+      "element": "Water",
+      "drug": "Psilacetin",
+      "drug_type": "Modern",
+      "molecule": "C14H18N2O2",
+      "meaning": "Inner peace. To trust in intuition."
+    },
+    {
+      "card": "The Empress",
+      "number": 3,
+      "element": "Earth",
+      "drug": "Estrogen",
+      "drug_type": "Modern",
+      "molecule": "C18H24O2",
+      "meaning": "Warmth and fertility. Creative longing."
+    },
+    {
+      "card": "The Emperor",
+      "number": 4,
+      "element": "Fire",
+      "drug": "Testosterone",
+      "drug_type": "Modern",
+      "molecule": "C19H28O2",
+      "meaning": "Leadership. Self-discipline. Possessive."
+    },
+    {
+      "card": "The Hierophant",
+      "number": 5,
+      "element": "Earth",
+      "drug": "Syrian Rue",
+      "drug_type": "Ancient",
+      "molecule": "C13H14N2O",
+      "meaning": "Spirituality, wisdom. A quest for truth."
+    },
+    {
+      "card": "The Lovers",
+      "number": 6,
+      "element": "Air",
+      "drug": "MDMA",
+      "drug_type": "Modern",
+      "molecule": "C11H15NO2",
+      "meaning": "Inner harmony, balance through love."
+    },
+    {
+      "card": "The Chariot",
+      "number": 7,
+      "element": "Water",
+      "drug": "Tabernaemontana",
+      "drug_type": "Ancient",
+      "molecule": "C21H26N2O3",
+      "meaning": "Optimism and confidence, looking ahead."
+    },
+    {
+      "card": "Strength",
+      "number": 8,
+      "element": "Fire",
+      "drug": "Kratom",
+      "drug_type": "Modern",
+      "molecule": "C23H30N2O4",
+      "meaning": "Inner strength and self-assuredness. Energy."
+    },
+    {
+      "card": "The Hermit",
+      "number": 9,
+      "element": "Earth",
+      "drug": "Ashwagandha",
+      "drug_type": "Ancient",
+      "molecule": "C28H40O8",
+      "meaning": "Maturity, self-knowledge. Isolated."
+    },
+    {
+      "card": "The Wheel of Fortune",
+      "number": 10,
+      "element": "Fire",
+      "drug": "Sugarcane",
+      "drug_type": "Ancient",
+      "molecule": "C12H22O11",
+      "meaning": "Sweetness of life. Accepting that which is."
+    },
+    {
+      "card": "Justice",
+      "number": 11,
+      "element": "Air",
+      "drug": "Lamotrigine",
+      "drug_type": "Modern",
+      "molecule": "C9H7Cl2N5",
+      "meaning": "Honesty, fairness, balance."
+    },
+    {
+      "card": "The Hanged Man",
+      "number": 12,
+      "element": "Water",
+      "drug": "Iboga",
+      "drug_type": "Ancient",
+      "molecule": "C20H26N2O",
+      "meaning": "Alternate perspective. Find redemption."
+    },
+    {
+      "card": "Death",
+      "number": 13,
+      "element": "Water",
+      "drug": "Ketamine",
+      "drug_type": "Modern",
+      "molecule": "C13H16ClNO",
+      "meaning": "Change. Shedding the past. New experiences."
+    },
+    {
+      "card": "Temperance",
+      "number": 14,
+      "element": "Fire",
+      "drug": "Kava",
+      "drug_type": "Ancient",
+      "molecule": "C14H16O3",
+      "meaning": "Playful energy with balance."
+    },
+    {
+      "card": "The Devil",
+      "number": 15,
+      "element": "Earth",
+      "drug": "Methamphetamine",
+      "drug_type": "Modern",
+      "molecule": "C10H15N",
+      "meaning": "Bondage. Abuse of power. Instinctual."
+    },
+    {
+      "card": "The Tower",
+      "number": 16,
+      "element": "Fire",
+      "drug": "Bufotenin",
+      "drug_type": "Both",
+      "molecule": "C12H16N2O",
+      "meaning": "Freedom. Sudden realizations. Unreasonable."
+    },
+    {
+      "card": "The Star",
+      "number": 17,
+      "element": "Air",
+      "drug": "LSD",
+      "drug_type": "Modern",
+      "molecule": "C20H25N3O",
+      "meaning": "Optimism. Connection to cosmos. New impulses."
+    },
+    {
+      "card": "The Moon",
+      "number": 18,
+      "element": "Water",
+      "drug": "Nutmeg",
+      "drug_type": "Ancient",
+      "molecule": "C11H12O3",
+      "meaning": "Visions. Imagination. Looking beyond. Explore."
+    },
+    {
+      "card": "The Sun",
+      "number": 19,
+      "element": "Fire",
+      "drug": "Caffeine",
+      "drug_type": "Modern",
+      "molecule": "C8H10N4O2",
+      "meaning": "Vitality and renewal. Egoism."
+    },
+    {
+      "card": "Judgment",
+      "number": 20,
+      "element": "Fire",
+      "drug": "Benadryl",
+      "drug_type": "Modern",
+      "molecule": "C17H21NO",
+      "meaning": "Entrapment. Awakening."
+    },
+    {
+      "card": "The World",
+      "number": 21,
+      "element": "Earth",
+      "drug": "Coca",
+      "drug_type": "Ancient",
+      "molecule": "C17H21NO4",
+      "meaning": "Joy. Recognition. The need to impress others."
+    }
+  ],
+  "minor_arcana": {
+    "cups": [
+      {
+        "card": "Ace of Cups",
+        "number": 1,
+        "suit": "Cups",
+        "element": "Water",
+        "drug": "Bhang",
+        "drug_type": "Ancient",
+        "molecule": "C21H30O2",
+        "meaning": "Emotional openness."
+      },
+      {
+        "card": "Two of Cups",
+        "number": 2,
+        "suit": "Cups",
+        "element": "Water",
+        "drug": "Tobacco",
+        "drug_type": "Ancient",
+        "molecule": "C10H14N2",
+        "meaning": "Erotic energy. Difficulties with boundaries."
+      },
+      {
+        "card": "Three of Cups",
+        "number": 3,
+        "suit": "Cups",
+        "element": "Water",
+        "drug": "Sassafras",
+        "drug_type": "Ancient",
+        "molecule": "C10H10O2",
+        "meaning": "Creative teamwork. Ease and harmony. Uncertainty."
+      },
+      {
+        "card": "Four of Cups",
+        "number": 4,
+        "suit": "Cups",
+        "element": "Water",
+        "drug": "Sertraline",
+        "drug_type": "Modern",
+        "molecule": "C17H17Cl2N",
+        "meaning": "Contentment. Incorruptible. Mistrust."
+      },
+      {
+        "card": "Five of Cups",
+        "number": 5,
+        "suit": "Cups",
+        "element": "Water",
+        "drug": "Sakae Na",
+        "drug_type": "Ancient",
+        "molecule": "C20H20O8",
+        "meaning": "Observant. Passivity."
+      },
+      {
+        "card": "Six of Cups",
+        "number": 6,
+        "suit": "Cups",
+        "element": "Water",
+        "drug": "Yohimbe",
+        "drug_type": "Ancient",
+        "molecule": "C21H26N2O3",
+        "meaning": "Love and devotion. Self-denial."
+      },
+      {
+        "card": "Seven of Cups",
+        "number": 7,
+        "suit": "Cups",
+        "element": "Water",
+        "drug": "Sildenafil",
+        "drug_type": "Modern",
+        "molecule": "C22H30N6O4S",
+        "meaning": "Awakening vital forces."
+      },
+      {
+        "card": "Eight of Cups",
+        "number": 8,
+        "suit": "Cups",
+        "element": "Water",
+        "drug": "THC Edibles",
+        "drug_type": "Modern",
+        "molecule": "C21H30O2",
+        "meaning": "Broadened horizons. Intentionally sneaky."
+      },
+      {
+        "card": "Nine of Cups",
+        "number": 9,
+        "suit": "Cups",
+        "element": "Water",
+        "drug": "Weed",
+        "drug_type": "Both",
+        "molecule": "C21H30O2",
+        "meaning": "Attractive to others. Smug."
+      },
+      {
+        "card": "Ten of Cups",
+        "number": 10,
+        "suit": "Cups",
+        "element": "Water",
+        "drug": "Kykeon",
+        "drug_type": "Ancient",
+        "molecule": "C33H35N5O5",
+        "meaning": "Visionary. Live like there is no tomorrow."
+      },
+      {
+        "card": "Page of Cups",
+        "number": 11,
+        "suit": "Cups",
+        "element": "Water",
+        "drug": "Psychotria viridis",
+        "drug_type": "Ancient",
+        "molecule": "C12H16N2",
+        "meaning": "Hidden connections. Creative fantasy."
+      },
+      {
+        "card": "Knight of Cups",
+        "number": 12,
+        "suit": "Cups",
+        "element": "Water",
+        "drug": "Ibogaine",
+        "drug_type": "Modern",
+        "molecule": "C20H26N2O",
+        "meaning": "New love. Sexuality."
+      },
+      {
+        "card": "Queen of Cups",
+        "number": 13,
+        "suit": "Cups",
+        "element": "Water",
+        "drug": "2C-B",
+        "drug_type": "Modern",
+        "molecule": "C10H14BrNO2",
+        "meaning": "Sensitivity and stability. Deep knowledge."
+      },
+      {
+        "card": "King of Cups",
+        "number": 14,
+        "suit": "Cups",
+        "element": "Water",
+        "drug": "Peyote",
+        "drug_type": "Ancient",
+        "molecule": "C11H17NO3",
+        "meaning": "Looking into the unpredictable depths."
+      }
+    ],
+    "pentacles": [
+      {
+        "card": "Ace of Pentacles",
+        "number": 1,
+        "suit": "Pentacles",
+        "element": "Earth",
+        "drug": "Sober",
+        "drug_type": "Both",
+        "molecule": "C10H12N2O",
+        "meaning": "Stable growth, maturity. Establishing habits."
+      },
+      {
+        "card": "Two of Pentacles",
+        "number": 2,
+        "suit": "Pentacles",
+        "element": "Earth",
+        "drug": "Kwao Krua",
+        "drug_type": "Ancient",
+        "molecule": "deoxymiroestrol",
+        "meaning": "Relaxation and balance."
+      },
+      {
+        "card": "Three of Pentacles",
+        "number": 3,
+        "suit": "Pentacles",
+        "element": "Earth",
+        "drug": "Clear Pill",
+        "drug_type": "Modern",
+        "molecule": "C8H11NO2",
+        "meaning": "Blossoming talents. Endurance. Clear goals."
+      },
+      {
+        "card": "Four of Pentacles",
+        "number": 4,
+        "suit": "Pentacles",
+        "element": "Earth",
+        "drug": "Coffee",
+        "drug_type": "Ancient",
+        "molecule": "C8H10N4O2",
+        "meaning": "Self confidence, diligence. Stubborn at times."
+      },
+      {
+        "card": "Five of Pentacles",
+        "number": 5,
+        "suit": "Pentacles",
+        "element": "Earth",
+        "drug": "Mimosa Tenuiflora",
+        "drug_type": "Ancient",
+        "molecule": "C12H16N2",
+        "meaning": "Growth through obstacles. Lonely."
+      },
+      {
+        "card": "Six of Pentacles",
+        "number": 6,
+        "suit": "Pentacles",
+        "element": "Earth",
+        "drug": "Shroom Tea",
+        "drug_type": "Modern",
+        "molecule": "C12H17N2O4P",
+        "meaning": "Balanced giving and taking. Accepting change."
+      },
+      {
+        "card": "Seven of Pentacles",
+        "number": 7,
+        "suit": "Pentacles",
+        "element": "Earth",
+        "drug": "CBD",
+        "drug_type": "Modern",
+        "molecule": "C21H30O2",
+        "meaning": "Grounded, growing. Patience and cultivation."
+      },
+      {
+        "card": "Eight of Pentacles",
+        "number": 8,
+        "suit": "Pentacles",
+        "element": "Earth",
+        "drug": "Brahmi",
+        "drug_type": "Ancient",
+        "molecule": "C41H68O13",
+        "meaning": "Independence and skill. In charge of your own fate."
+      },
+      {
+        "card": "Nine of Pentacles",
+        "number": 9,
+        "suit": "Pentacles",
+        "element": "Earth",
+        "drug": "MMDA",
+        "drug_type": "Modern",
+        "molecule": "C11H15NO3",
+        "meaning": "Intelligence, thoughtfulness. Security."
+      },
+      {
+        "card": "Ten of Pentacles",
+        "number": 10,
+        "suit": "Pentacles",
+        "element": "Earth",
+        "drug": "Mushrooms",
+        "drug_type": "Ancient",
+        "molecule": "C12H17N2O4P",
+        "meaning": "Sensitivity, making peace under difficult circumstances."
+      },
+      {
+        "card": "Page of Pentacles",
+        "number": 11,
+        "suit": "Pentacles",
+        "element": "Earth",
+        "drug": "Nicotine",
+        "drug_type": "Modern",
+        "molecule": "C10H14N2",
+        "meaning": "Friendship, sense of community."
+      },
+      {
+        "card": "Knight of Pentacles",
+        "number": 12,
+        "suit": "Pentacles",
+        "element": "Earth",
+        "drug": "Tea",
+        "drug_type": "Ancient",
+        "molecule": "C8H10N4O2",
+        "meaning": "Independence. Entrepreneurial spirit. Proud."
+      },
+      {
+        "card": "Queen of Pentacles",
+        "number": 13,
+        "suit": "Pentacles",
+        "element": "Earth",
+        "drug": "Lithium",
+        "drug_type": "Ancient",
+        "molecule": "Li2CO3",
+        "meaning": "Peace, obtaining inner harmony. Emotionally rich."
+      },
+      {
+        "card": "King of Pentacles",
+        "number": 14,
+        "suit": "Pentacles",
+        "element": "Earth",
+        "drug": "Alcohol",
+        "drug_type": "Modern",
+        "molecule": "CH3CH2OH",
+        "meaning": "Quiet pride. Self-serving, wasteful."
+      }
+    ],
+    "swords": [
+      {
+        "card": "Ace of Swords",
+        "number": 1,
+        "suit": "Swords",
+        "element": "Air",
+        "drug": "Piracetam",
+        "drug_type": "Modern",
+        "molecule": "C6H10N2O2",
+        "meaning": "Clarity. Intellectual breakthrough."
+      },
+      {
+        "card": "Two of Swords",
+        "number": 2,
+        "suit": "Swords",
+        "element": "Air",
+        "drug": "Xanax",
+        "drug_type": "Modern",
+        "molecule": "C17H13ClN4",
+        "meaning": "Indecision, numbing anxiety."
+      },
+      {
+        "card": "Three of Swords",
+        "number": 3,
+        "suit": "Swords",
+        "element": "Air",
+        "drug": "Iproniazid",
+        "drug_type": "Modern",
+        "molecule": "C9H13N3O",
+        "meaning": "Deep feelings. Repetition."
+      },
+      {
+        "card": "Four of Swords",
+        "number": 4,
+        "suit": "Swords",
+        "element": "Air",
+        "drug": "Mandrake",
+        "drug_type": "Ancient",
+        "molecule": "C17H21NO4",
+        "meaning": "Retreat. Afraid to reveal weakness."
+      },
+      {
+        "card": "Five of Swords",
+        "number": 5,
+        "suit": "Swords",
+        "element": "Air",
+        "drug": "Scopolamine",
+        "drug_type": "Modern",
+        "molecule": "C17H21NO4",
+        "meaning": "Readiness for conflict. Pressure by competition."
+      },
+      {
+        "card": "Six of Swords",
+        "number": 6,
+        "suit": "Swords",
+        "element": "Air",
+        "drug": "Grayanotoxin",
+        "drug_type": "Ancient",
+        "molecule": "C20H34O5",
+        "meaning": "Trust. Return to calmness."
+      },
+      {
+        "card": "Seven of Swords",
+        "number": 7,
+        "suit": "Swords",
+        "element": "Air",
+        "drug": "Henbane",
+        "drug_type": "Ancient",
+        "molecule": "C17H21NO4",
+        "meaning": "Humor. Full of tricks."
+      },
+      {
+        "card": "Eight of Swords",
+        "number": 8,
+        "suit": "Swords",
+        "element": "Air",
+        "drug": "Acacia",
+        "drug_type": "Ancient",
+        "molecule": "C12H16N2",
+        "meaning": "Patience, inner freedom."
+      },
+      {
+        "card": "Nine of Swords",
+        "number": 9,
+        "suit": "Swords",
+        "element": "Air",
+        "drug": "Ancestral Trance",
+        "drug_type": "Ancient",
+        "molecule": "C20H25N3O",
+        "meaning": "Intuition. Prophetic dreams."
+      },
+      {
+        "card": "Ten of Swords",
+        "number": 10,
+        "suit": "Swords",
+        "element": "Air",
+        "drug": "DMT",
+        "drug_type": "Modern",
+        "molecule": "C12H16N2",
+        "meaning": "Deep changes. Loss of balance."
+      },
+      {
+        "card": "Page of Swords",
+        "number": 11,
+        "suit": "Swords",
+        "element": "Air",
+        "drug": "Poppers",
+        "drug_type": "Modern",
+        "molecule": "C5H11ONO",
+        "meaning": "Carefree. Charming. Egoism and restlessness."
+      },
+      {
+        "card": "Knight of Swords",
+        "number": 12,
+        "suit": "Swords",
+        "element": "Air",
+        "drug": "Ethylene",
+        "drug_type": "Ancient",
+        "molecule": "C2H4",
+        "meaning": "Emotionally unattached. Independent thinking."
+      },
+      {
+        "card": "Queen of Swords",
+        "number": 13,
+        "suit": "Swords",
+        "element": "Air",
+        "drug": "Nymphaea caerulea",
+        "drug_type": "Ancient",
+        "molecule": "C17H17NO2",
+        "meaning": "Harmony, reason. Distance."
+      },
+      {
+        "card": "King of Swords",
+        "number": 14,
+        "suit": "Swords",
+        "element": "Air",
+        "drug": "Arundo Donax",
+        "drug_type": "Ancient",
+        "molecule": "C12H16N2",
+        "meaning": "Spiritual freedom."
+      }
+    ],
+    "wands": [
+      {
+        "card": "Ace of Wands",
+        "number": 1,
+        "suit": "Wands",
+        "element": "Fire",
+        "drug": "Ephedra",
+        "drug_type": "Ancient",
+        "molecule": "C10H15NO",
+        "meaning": "A fiery beginning. High spirits. Craving."
+      },
+      {
+        "card": "Two of Wands",
+        "number": 2,
+        "suit": "Wands",
+        "element": "Fire",
+        "drug": "Chewing Tobacco",
+        "drug_type": "Modern",
+        "molecule": "C10H14N2",
+        "meaning": "Level-headedness, anticipation."
+      },
+      {
+        "card": "Three of Wands",
+        "number": 3,
+        "suit": "Wands",
+        "element": "Fire",
+        "drug": "Cocaine",
+        "drug_type": "Modern",
+        "molecule": "C17H21NO4",
+        "meaning": "Confidence and courage. Escapism."
+      },
+      {
+        "card": "Four of Wands",
+        "number": 4,
+        "suit": "Wands",
+        "element": "Fire",
+        "drug": "MDA",
+        "drug_type": "Modern",
+        "molecule": "C10H13NO2",
+        "meaning": "Joy. Optimism. Superficiality."
+      },
+      {
+        "card": "Five of Wands",
+        "number": 5,
+        "suit": "Wands",
+        "element": "Fire",
+        "drug": "Dextroamphetamine",
+        "drug_type": "Modern",
+        "molecule": "C9H13N",
+        "meaning": "Conflict creating sparks."
+      },
+      {
+        "card": "Six of Wands",
+        "number": 6,
+        "suit": "Wands",
+        "element": "Fire",
+        "drug": "Euphoria",
+        "drug_type": "Both",
+        "molecule": "C8H11NO2",
+        "meaning": "Open heart. Decisive action."
+      },
+      {
+        "card": "Seven of Wands",
+        "number": 7,
+        "suit": "Wands",
+        "element": "Fire",
+        "drug": "Khat",
+        "drug_type": "Ancient",
+        "molecule": "C9H11NO",
+        "meaning": "Growth through challenges. Inner struggle."
+      },
+      {
+        "card": "Eight of Wands",
+        "number": 8,
+        "suit": "Wands",
+        "element": "Fire",
+        "drug": "St. John's Wort",
+        "drug_type": "Ancient",
+        "molecule": "C30H16O8",
+        "meaning": "Balancing. Ability to concentrate."
+      },
+      {
+        "card": "Nine of Wands",
+        "number": 9,
+        "suit": "Wands",
+        "element": "Fire",
+        "drug": "Ethanol",
+        "drug_type": "Both",
+        "molecule": "CH3CH2OH",
+        "meaning": "Alertness, foresight. Defensive."
+      },
+      {
+        "card": "Ten of Wands",
+        "number": 10,
+        "suit": "Wands",
+        "element": "Fire",
+        "drug": "NOS",
+        "drug_type": "Modern",
+        "molecule": "N2O",
+        "meaning": "Courage. Willingness to take risks."
+      },
+      {
+        "card": "Page of Wands",
+        "number": 11,
+        "suit": "Wands",
+        "element": "Fire",
+        "drug": "Ololiuqui",
+        "drug_type": "Ancient",
+        "molecule": "C20H25N3O",
+        "meaning": "Optimism, creativity."
+      },
+      {
+        "card": "Knight of Wands",
+        "number": 12,
+        "suit": "Wands",
+        "element": "Fire",
+        "drug": "Datura",
+        "drug_type": "Ancient",
+        "molecule": "C17H23NO3",
+        "meaning": "Careless. Hasty."
+      },
+      {
+        "card": "Queen of Wands",
+        "number": 13,
+        "suit": "Wands",
+        "element": "Fire",
+        "drug": "Mucuna pruriens",
+        "drug_type": "Ancient",
+        "molecule": "C9H11NO4",
+        "meaning": "Joy and optimism, sensuality."
+      },
+      {
+        "card": "King of Wands",
+        "number": 14,
+        "suit": "Wands",
+        "element": "Fire",
+        "drug": "M-CAT",
+        "drug_type": "Modern",
+        "molecule": "C11H15NO",
+        "meaning": "Inspiring leader. Envy and superiority."
+      }
+    ]
+  }
+}

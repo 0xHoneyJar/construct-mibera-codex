@@ -8,62 +8,28 @@ date_added: "2024-07-27"
 
 # Bera Bucket
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
 ![Bera Bucket](https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS3_milady_Bera%20Bucket.webp)
 
+Brown bucket hat with bear face with sparkly eyes and bear ears.
 
-**Visual Description:** Brown bucket hat with bear face with sparkly eyes and bear ears.
-
-**Dominant Colors:** brown, light beige
-
-
----
+Dominant colors: brown, light beige
 
 ## Cultural Context
 
+Bucket hats became iconic rave accessories in the late 1980s and 1990s, particularly in the UK acid house and Madchester scenes. The bear-face bucket hat merges this rave heritage with Berachain's bear branding, combining two distinct cultural threads — dance music fashion and crypto community identity.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [Milady](../../../core-lore/archetypes.md#milady)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 3
-
-
----
-
-## Connections
-
-**Ancestor:** 
+A bucket hat with bear ears — the crossover between rave fashion and Berachain branding that was always meant to happen.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** July 27, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Archetype:** Milady
+**Swag Score:** 3
+**Date Added:** 2024-07-27

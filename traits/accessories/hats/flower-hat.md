@@ -8,62 +8,27 @@ date_added: "2024-07-27"
 
 # Flower Hat
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
 ![SS2 Flower Hat](https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS2_Flower%20Hat.webp)
 
+Wide round hat with pink ribbon wrapped around it and a few small tulips on the other side. The hat is in the colour of beige / the sand.
 
-**Visual Description:** Wide round hat with pink ribbon wrapped around it and a few small tulips on the other side. The hat is in the colour of beige / the sand.
-
-**Dominant Colors:** beige, sandy
-
-
----
+Dominant colors: beige, sandy
 
 ## Cultural Context
 
+Wide-brimmed garden hats adorned with flowers have been a staple of feminine fashion since the Victorian era, associated with tea parties, garden gatherings, and pastoral leisure. The aesthetic carries a deliberate softness that contrasts with the harder edges of rave and crypto culture, creating visual tension within a generative collection.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** 
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 2
-
-
----
-
-## Connections
-
-**Ancestor:** 
+A garden party hat in a rave collection — the floral wide-brim brings a gentle, pastoral energy that plays beautifully against harder traits.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** July 27, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Swag Score:** 2
+**Date Added:** 2024-07-27

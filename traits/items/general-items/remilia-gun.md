@@ -8,62 +8,30 @@ date_added: "2024-07-13"
 
 # remilia gun
 
-## Visual Properties
+## Visual Elements
 
+Black rifle with a bunch of stickers on it, including the Remilia smiley face and 3 stars.
 
-**Image Files:**
-SS5_milady_Remilia Gun.png
-
-
-**Visual Description:** Black rifle with a bunch of stickers on it, including a smiley face and 3 stars.
-
-**Dominant Colors:** Black, yellow
-
-
----
+Dominant colors: Black, yellow
 
 ## Cultural Context
 
+The Remilia gun is a provocative held item that combines the Remilia brand with firearm imagery. It reflects the deliberately transgressive, boundary-pushing attitude that defines the broader Milady ecosystem.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:** The Remilia gun is a provocative held item that combines the Remilia brand with firearm imagery. It reflects the deliberately transgressive, boundary-pushing attitude that defines the broader Milady ecosystem.
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [Milady](../../../core-lore/archetypes.md#milady)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 5
-
-
----
-
-## Connections
-
-**Ancestor:** 
+An iconic design from the milady community
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** July 13, 2024
-
+**Archetype:** Milady
+**Swag Score:** 5
+**Date Added:** 2024-07-13
 **Introduced By:** Jani
-
 **Team Notes:** "remilia gun" — Jani, Oct 2023, #items-accessories
-
 **Sources:**
 - https://x.com/lilsketch/status/1712537626547466559?s=20
-
-**Summary:** 
-
----

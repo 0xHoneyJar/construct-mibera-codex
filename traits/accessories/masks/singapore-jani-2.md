@@ -7,50 +7,28 @@ date_added: null
 
 # Singapore Jani 2
 
-## Visual Properties
+## Visual Elements
 
-**Visual Description:** Custom-made mask worn by Jani (deepname99) at Token 2024 in Singapore. Second of two unique founder masks from the event.
+Custom-made mask worn by Jani (deepname99) at Token 2024 in Singapore. Second of two unique founder masks from the event.
 
-**Dominant Colors:** —
-
----
+Dominant colors: —
 
 ## Cultural Context
 
-**Cultural Origin:** Token 2024, Singapore
+Token 2024, Singapore
 
-**Era:** Modern
+One of only two masks in the entire 10,000 Mibera collection directly tied to the founder. Jani had two custom masks made for the Token conference in Singapore — both were subsequently stolen. The masks became an artifact of real-world loss woven into the generative collection. Both Singapore Jani masks landed on Rank D Miberas, compounding the bad luck that followed these pieces from Singapore.
+<!-- justification
+## Justification
 
-**Why This Matters:** One of only two masks in the entire 10,000 Mibera collection directly tied to the founder. Jani had two custom masks made for the Token conference in Singapore — both were subsequently stolen. The masks became an artifact of real-world loss woven into the generative collection. Both Singapore Jani masks landed on Rank D Miberas, compounding the bad luck that followed these pieces from Singapore.
-
----
-
-## Mibera Integration
-
-**Archetype:** Cross-Archetype
-
-**Archetype Alignment:** Founder tribute — not aligned to a specific rave tribe.
-
-**Swag Score:** 5
-
----
-
-## Rarity
-
-Only **1 out of 10,000** Miberas wears this mask: [#6426](../../../miberas/6426.md). Only 388 Miberas have masks at all.
-
----
-
-## Connections
-
-**Related Masks:** [Singapore Jani 1](singapore-jani-1.md), [Founders Mask](founders-mask.md)
+The second of the stolen Singapore masks, carrying the same curse of ending up on a Rank D Mibera. Two custom founder masks, both lost IRL, both assigned the worst luck by the algorithm. You cannot make this stuff up.
+-->
 
 ---
 
 ## Attribution
 
+**Archetype:** Cross-Archetype
+**Swag Score:** 5
 **Introduced By:** Jani (deepname99)
-
 **Team Notes:** Custom masks from Token 2024 Singapore. Both stolen IRL. Both assigned Rank D by the generative algorithm — truly bad luck all around.
-
----

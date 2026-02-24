@@ -8,62 +8,26 @@ date_added: "2024-07-13"
 
 # pepperoni pizza
 
-## Visual Properties
+## Visual Elements
 
+a slice of pizza with dripping melty cheese and pepperoni toppings.
 
-**Image Files:**
-SS5_freetekno_Pepperoni Pizza.png
-
-
-**Visual Description:** a slice of pizza with dripping melty cheese and pepperoni toppings.
-
-**Dominant Colors:** yellow, red, beige / golden
-
-
----
+Dominant colors: yellow, red, beige / golden
 
 ## Cultural Context
 
+Pizza is the universal fuel of late-night culture, ordered in bulk at after-parties and shared among strangers. It represents the communal, low-key moments between the peaks.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:** Pizza is the universal fuel of late-night culture, ordered in bulk at after-parties and shared among strangers. It represents the communal, low-key moments between the peaks.
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [freetekno](../../../core-lore/archetypes.md#freetekno)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 5
-
-
----
-
-## Connections
-
-**Ancestor:** 
+The great equalizer. Every after-party ends the same way, and this slice is the proof.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** July 13, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Archetype:** freetekno
+**Swag Score:** 5
+**Date Added:** 2024-07-13

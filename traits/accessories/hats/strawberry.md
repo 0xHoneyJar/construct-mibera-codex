@@ -8,62 +8,28 @@ date_added: "2024-07-24"
 
 # strawberry
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
 ![Strawberry](https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS2_milady_Strawberry.webp)
 
+a strawberry-shaped hat that covers the entire head but the face.
 
-**Visual Description:** a strawberry-shaped hat that covers the entire head but the face.
-
-**Dominant Colors:** red
-
-
----
+Dominant colors: red
 
 ## Cultural Context
 
+Fruit-shaped novelty hats are a staple of festival and rave fashion, part of the tradition of playful, absurdist accessories that define dance music culture. The full-head strawberry hat is maximally committed to the bit — not a subtle accessory but a complete transformation into a piece of fruit.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [milady](../../../core-lore/archetypes.md#milady)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 2
-
-
----
-
-## Connections
-
-**Ancestor:** 
+A full strawberry head covering — the kind of all-in novelty hat that only makes sense at 5am in a field, which is exactly when a Mibera would wear it.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** July 24, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Archetype:** milady
+**Swag Score:** 2
+**Date Added:** 2024-07-24

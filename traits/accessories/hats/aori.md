@@ -8,62 +8,27 @@ date_added: "2024-12-10"
 
 # aori
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
 ![SS3 Aori](https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS3_Aori.webp)
 
+a black cap with white graphic in the middle that looks like an ‘S’ and an ‘O’ connected with an ‘I’ inside of it.
 
-**Visual Description:** a black cap with white graphic in the middle that looks like an ‘S’ and an ‘O’ connected with an ‘I’ inside of it.
-
-**Dominant Colors:** black, white
-
-
----
+Dominant colors: black, white
 
 ## Cultural Context
 
+Aori is a brand and creative entity in the crypto-native fashion space, associated with the post-ironic aesthetic communities around NFT culture. The minimalist logo design reflects the clean, graphic-forward style common in web3-adjacent streetwear.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** 
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 3
-
-
----
-
-## Connections
-
-**Ancestor:** 
+Crypto-native streetwear brought into the collection — Aori represents the overlap between web3 culture and fashion that Mibera lives in.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** December 10, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Swag Score:** 3
+**Date Added:** 2024-12-10

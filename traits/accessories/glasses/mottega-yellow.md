@@ -8,59 +8,29 @@ date_added: "2024-06-05"
 
 # mottega yellow
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
 ![Mottega Yellow](https://mibera.fsn1.your-objectstorage.com/components/glasses__z140/milady_Mottega Yellow.webp)
 
-
-**Visual Description:** Glasses with dark lenses and thick yellow frames.
-
-**Dominant Colors:** 
-
-
----
+Glasses with dark lenses and thick yellow frames.
 
 ## Cultural Context
 
+Inspired trait from the Milady Maker NFT collection.
 
-**Cultural Origin:** Inspired trait from the Milady Maker NFT collection.
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [Milady](../../../core-lore/archetypes.md#milady)
-
-**Archetype Alignment:** This trait is “invisible” in the original Milady collection. https://opensea.io/collection/milady?traits=%5B%7B%22traitType%22:%22Glasses%22,%22val
-
-
-**Swag Score:** 3
-
-## Connections
-
-**Ancestor:** 
+A color variant of the Mottega series, doubling down on the Milady move of taking luxury house aesthetics and remixing them into something the original brand would never sanction.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** June 5, 2024
-
+**Archetype:** Milady
+**Swag Score:** 3
+**Date Added:** 2024-06-05
 **Introduced By:** Gumi
-
-**Team Notes:** 
-
 **Sources:**
 - https://opensea.io/collection/milady?traits=[{%22traitType%22:%22Glasses%22,%22values%22
-
-**Summary:** 
-
----

@@ -8,59 +8,27 @@ date_added: "2024-12-10"
 
 # Sunnies
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
 ![Sunnies](https://mibera.fsn1.your-objectstorage.com/components/glasses__z140/acidhouse_Sunnies.webp)
 
-
-**Visual Description:** Triangle-shaped glasses with grey lenses and grey frames
-
-**Dominant Colors:** 
-
-
----
+Triangle-shaped glasses with grey lenses and grey frames
 
 ## Cultural Context
 
+The term 'sunnies' is predominantly Australian and British slang for sunglasses. Triangular-frame designs gained popularity in the late 1990s and 2000s through the intersection of electronic dance music culture and streetwear, particularly in the UK garage and acid house scenes.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [acidhouse](../../../core-lore/archetypes.md#acidhouse)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 3
-
-## Connections
-
-**Ancestor:** 
+Calling them sunnies instead of sunglasses tells you everything about the vibe. Casual, irreverent, and probably being worn indoors at 4am.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** December 10, 2024
-
+**Archetype:** acidhouse
+**Swag Score:** 3
+**Date Added:** 2024-12-10
 **Introduced By:** Tez
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----

@@ -6,36 +6,26 @@ date_added: "2024-06-07"
 
 # Roadside
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
 ![Roadside](https://mibera.fsn1.your-objectstorage.com/components/background__z10/Roadside.webp)
 
+Painterly style of a roadside. Grey road with greeneries on each side of the road, under a clear blue sky.
 
-**Visual Description:** Painterly style of a roadside. Grey road with greeneries on each side of the road, under a clear blue sky.
+Dominant colors: Grey, blue, green
 
-**Dominant Colors:** Grey, blue, green
+## Cultural Context
 
+Sourced from Milady Maker's asset library. Anchors Mibera within the Milady archetype.
 
----
+<!-- justification
+## Justification
 
-## Context
-
-
-**Cultural Origin:** Related to Milady (one of Milady Maker’s assets)
-
-
-**Why This Matters:** Sourced from Milady Maker's asset library. Anchors Mibera within the Milady archetype.
+Shared visual lineage with Milady Maker.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** June 7, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
----
+**Date Added:** 2024-06-07

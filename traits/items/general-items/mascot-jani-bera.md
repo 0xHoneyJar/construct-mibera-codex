@@ -8,62 +8,25 @@ date_added: "2024-12-09"
 
 # mascot jani bera
 
-## Visual Properties
+## Visual Elements
 
+a plushie of Jani’s mascot; a brown bear wearing purple durag and red jacket with white inner t-shirt and a golden necklace.
 
-**Image Files:**
-SS3_Mascot Jani Bera.png
-
-
-**Visual Description:** a plushie of Jani’s mascot; a brown bear wearing purple durag and red jacket with white inner t-shirt and a golden necklace.
-
-**Dominant Colors:** yellow, rainbow-coloured
-
-
----
+Dominant colors: yellow, rainbow-coloured
 
 ## Cultural Context
 
+Jani is a founding team member and creator of Mibera, responsible for much of the collection's philosophical and cultural direction. This representation of Jani is from Project Puru-Puru
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** 
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 3
-
-
----
-
-## Connections
-
-**Ancestor:** 
+Gumi worked on Project Puru-Puru while drawing Mibera. This is Jani's character from that project embedded as a crossover item.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** December 9, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Swag Score:** 3
+**Date Added:** 2024-12-09

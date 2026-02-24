@@ -8,62 +8,27 @@ date_added: "2024-07-12"
 
 # radbro plushie
 
-## Visual Properties
+## Visual Elements
 
+a plushie of a character with big eyes wearing a frog suit.
 
-**Image Files:**
-SS4_milady_Radbro Plushie.png
-
-
-**Visual Description:** a plushie of a character with big eyes wearing a frog suit.
-
-**Dominant Colors:** green, porcelain, brown
-
-
----
+Dominant colors: green, porcelain, brown
 
 ## Cultural Context
 
+Radbro is a character from the broader Milady ecosystem, representing a laid-back, positive energy. The plushie format connects NFT culture to the tradition of physical mascot collectibles.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:** Radbro is a character from the broader Milady ecosystem, representing a laid-back, positive energy. The plushie format connects NFT culture to the tradition of physical mascot collectibles.
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [milady](../../../core-lore/archetypes.md#milady)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 4
-
-
----
-
-## Connections
-
-**Ancestor:** 
+Direct cross-reference to the Remilia ecosystem's Radbro character, sourced from an actual plush toy store.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** July 12, 2024
-
-**Introduced By:** 
-
+**Archetype:** milady
+**Swag Score:** 4
+**Date Added:** 2024-07-12
 **Team Notes:** Jani sourced the Radbro plushie from the Happy UFO store (happyufo.net) as a held-item reference. — Oct 2023, #items-accessories
-
-**Sources:**
-
-
-**Summary:** 
-
----

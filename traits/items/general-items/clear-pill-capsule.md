@@ -8,62 +8,27 @@ date_added: "2024-12-09"
 
 # clear pill capsule
 
-## Visual Properties
+## Visual Elements
 
+a barely visible capsule, nearly fully transparent.
 
-**Image Files:**
-SS3_milady_satanists_clear pill.PNG
-
-
-**Visual Description:** a barely visible capsule, nearly fully transparent.
-
-**Dominant Colors:** clear
-
-
----
+Dominant colors: clear
 
 ## Cultural Context
 
+The clear pill sits alongside the red, blue, and black pills of internet culture as a provocation about perception and ideology. In the collection's framework, it suggests seeing through all narratives rather than choosing between them.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:** The clear pill sits alongside the red, blue, and black pills of internet culture as a provocation about perception and ideology. In the collection's framework, it suggests seeing through all narratives rather than choosing between them.
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [milady](../../../core-lore/archetypes.md#milady)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 3
-
-
----
-
-## Connections
-
-**Ancestor:** 
+The nihilist's answer to the red/blue pill binary — reject all narratives instead of choosing one.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** December 9, 2024
-
+**Archetype:** milady
+**Swag Score:** 3
+**Date Added:** 2024-12-09
 **Introduced By:** babybera
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----

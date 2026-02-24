@@ -8,62 +8,28 @@ date_added: "2024-06-22"
 
 # Green Dungarees
 
-## Visual Properties
+## Visual Elements
 
+![Green Dungarees](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)
 
-**Image Files:**
-![Green Dungarees](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)/SS2_acidhouse_Green%20Dungarees.webp)
+White t-shirt with a tint of green with a leafy green dungarees over it.
 
-
-**Visual Description:** White t-shirt with a tint of green with a leafy green dungarees over it.
-
-**Dominant Colors:** Light green, green.
-
-
----
+Dominant colors: Light green, green.
 
 ## Cultural Context
 
+Dungarees (overalls) have been standard workwear since the 19th century and were adopted by the rave scene in the late 1980s and early 1990s as part of the casual, anything-goes dress code. The baggy, comfortable fit was ideal for all-night dancing in warehouses.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:** 
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [Acidhouse](../../../core-lore/archetypes.md#acidhouse)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 2
-
-
----
-
-## Connections
-
-**Ancestor:** 
+Dungarees were everywhere at acid house raves in the late 1980s. Comfortable, classless, and easy to dance in -- they are the original rave uniform before anyone thought to brand it.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** June 22, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Archetype:** Acidhouse
+**Swag Score:** 2
+**Date Added:** 2024-06-22

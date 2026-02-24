@@ -8,22 +8,6 @@
 
 Backgrounds set the environmental context for each Mibera, ranging from abstract patterns to specific cultural/historical references.
 
-### Background Categories
-
-| Category | Examples |
-|----------|----------|
-| **Rave Scenes** | Milady Rave, Milady Rave 2, DARE Rave, Rave 1-3 |
-| **Cultural Landmarks** | Stonehenge, Fyre Festival |
-| **Abstract/Color** | Rave Blonde, Rave Orange, Rave Purple, Rave Blue, Rave Green, Rave Red, Rave Brown, Rave Black, Rave Pink |
-| **Celestial** | [Starry](starry.md), Constellations, Ursa Minor |
-| **Partner/Collab** | [Boyco](boyco.md), various ecosystem integrations |
-
-### Notable Backgrounds
-
-- **Stonehenge** — Ancient monument associated with solstice gatherings and free festivals
-- **Fyre Festival** — Infamous failed luxury festival (ironic/meme reference)
-- **Milady Rave** — Direct reference to the Milady community rave events that catalyzed the culture
-
 ---
 
 
@@ -54,7 +38,7 @@ Backgrounds set the environmental context for each Mibera, ranging from abstract
 - [Mississippi River](mississippi-river.md)
 - [Freetekno](freetekno.md)
 - [River Boyne](river-boyne.md)
-- [Peyote](peyote.md)
+- [Peyote Desert](peyote-desert.md)
 - [Constellations](constellations.md)
 - [Detroit](detroit.md)
 - [Bullas](bullas.md)

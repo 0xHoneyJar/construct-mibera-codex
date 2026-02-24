@@ -8,63 +8,27 @@ date_added: "2025-01-10"
 
 # nymphaea caerulea plant
 
-## Visual Properties
+## Visual Elements
 
+a small stem of blue flower, pompom shaped.
 
-**Image Files:**
-SS3_chicagodetroit_ancient_greek_nymphaea caerulea.PNG
-
-
-**Visual Description:** a small stem of blue flower, pompom shaped.
-
-**Dominant Colors:** blue, green
-
-
----
+Dominant colors: blue, green
 
 ## Cultural Context
 
+The blue lotus was sacred in ancient Egypt, depicted in tomb paintings and temple art as a symbol of rebirth and altered consciousness. It contains mild psychoactive alkaloids and was likely used in ritual contexts, making it one of the earliest documented entheogens.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:** The blue lotus was sacred in ancient Egypt, depicted in tomb paintings and temple art as a symbol of rebirth and altered consciousness. It contains mild psychoactive alkaloids and was likely used in ritual contexts, making it one of the earliest documented entheogens.
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [chicago detroit](../../../core-lore/archetypes.md#chicago-detroit)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 4
-
-
----
-
-## Connections
-
-**Ancestor:** [greek](../../../core-lore/ancestors/greek.md)
-
+One of the oldest entheogens documented in human art. The blue lotus ties the collection's psychoactive thread all the way back to Egyptian tomb paintings. Paired with the Greek ancestor lineage.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** January 10, 2025
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Archetype:** chicago detroit
+**Ancestor:** [greek](../../../core-lore/ancestors/greek.md)
+**Swag Score:** 4
+**Date Added:** 2025-01-10

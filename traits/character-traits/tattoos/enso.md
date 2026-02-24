@@ -8,62 +8,26 @@ date_added: "2024-08-10"
 
 # Enso
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
 ![Enso](https://mibera.fsn1.your-objectstorage.com/components/tattoos__z125/ancient_buddhist_Enso.webp)
 
+Thick brush stroke that goes in nearly full circle.
 
-**Visual Description:** Thick brush stroke that goes in nearly full circle.
-
-**Dominant Colors:** Black.
-
----
+Dominant colors: Black.
 
 ## Cultural Context
+<!-- justification
+## Justification
 
-
-**Cultural Origin:** 
-
-**Era:** Ancient
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** 
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 
-
-
----
-
-## Connections
-
-**Ancestor:** [Buddhist](../../../core-lore/ancestors/buddhist.md)
-
+One brushstroke that captures an entire philosophy -- the enso is the Buddhist ancestor lineage distilled to its most essential gesture.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** August 10, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
+**Ancestor:** [Buddhist](../../../core-lore/ancestors/buddhist.md)
+**Date Added:** 2024-08-10
 **Sources:**
 - https://safety4sea.com/cm-enso-circle-letting-go-of-the-mind/
-
-**Summary:** 
-
----

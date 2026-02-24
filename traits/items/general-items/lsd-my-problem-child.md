@@ -8,62 +8,26 @@ date_added: "2024-07-12"
 
 # lsd my problem child
 
-## Visual Properties
+## Visual Elements
 
+a book with black cover and big text in gold that reads “LSD - MY PROBLEM CHILD” by Albert Hoffman, and his portrait in the middle.
 
-**Image Files:**
-SS4_LSD My Problem Child.png
-
-
-**Visual Description:** a book with black cover and big text in gold that reads “LSD - MY PROBLEM CHILD” by Albert Hoffman, and his portrait in the middle.
-
-**Dominant Colors:** black, golden
-
-
----
+Dominant colors: black, golden
 
 ## Cultural Context
 
+LSD: My Problem Child is Albert Hofmann's personal account of discovering LSD in 1943 and grappling with its cultural aftermath. Written by the chemist who accidentally created the most influential psychedelic ever made, it is both scientific memoir and philosophical meditation.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:** LSD: My Problem Child is Albert Hofmann's personal account of discovering LSD in 1943 and grappling with its cultural aftermath. Written by the chemist who accidentally created the most influential psychedelic ever made, it is both scientific memoir and philosophical meditation.
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [milady](../../../core-lore/archetypes.md#milady)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 4
-
-
----
-
-## Connections
-
-**Ancestor:** 
+The primary text of psychedelic literature — Hofmann's own words on what he unleashed, rendered as a book you can hold.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** July 12, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Archetype:** milady
+**Swag Score:** 4
+**Date Added:** 2024-07-12

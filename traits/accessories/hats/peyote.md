@@ -8,63 +8,31 @@ date_added: "2024-07-27"
 
 # Peyote
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
 ![Peyote Hat](https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS4_freetekno_Peyote%20Hat.webp)
 
+Wide round hat, flat in shape, with a bunch of grey feathers on top and a red-yellow pompom in the center. On the edge of the hat are dangling ornaments with patterns in blue and orange.
 
-**Visual Description:** Wide round hat, flat in shape, with a bunch of grey feathers on top and a red-yellow pompom in the center. On the edge of the hat are dangling ornaments with patterns in blue and orange.
-
-**Dominant Colors:** Red, blue, orange, red, yellow, grey
-
-
----
+Dominant colors: Red, blue, orange, red, yellow, grey
 
 ## Cultural Context
 
+Peyote is seen as a divine teacher, fostering unity and heart-opening experiences, requiring respect and ethical sourcing due to its slow growth and cultural significance. Peyote ceremony is a sacred, Indigenous ritual using the peyote cactus, a spiritual medicine containing mescaline. Conducted by tribes like the Huichol and Native American Church, it involves all-night ceremonies with prayer, music, and introspection for emotional and spiritual healing.
 
-**Cultural Origin:** Peyote is seen as a divine teacher, fostering unity and heart-opening experiences, requiring respect and ethical sourcing due to its slow growth and cultural significance. Peyote ceremony is a sacred, Indigenous ritual using the peyote cactus, a spiritual medicine containing mescaline. Conducted by tribes like the Huichol and Native American Church, it involves all-night ceremonies with prayer, music, and introspection for emotional and spiritual healing.
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [Freetekno](../../../core-lore/archetypes.md#freetekno)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 4
-
-
----
-
-## Connections
-
-**Ancestor:** 
+The ornate peyote ceremony hat with feathers and pompoms — a full ceremonial headpiece that carries the spiritual weight of Indigenous plant medicine tradition into the freetekno archetype.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** July 27, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
+**Archetype:** Freetekno
+**Swag Score:** 4
+**Date Added:** 2024-07-27
 **Sources:**
 - https://discord.com/channels/1133935527855399053/1159122178009210890/11591224412395
 - https://www.arkanainternational.com/blog/peyote
-
-**Summary:** 
-
----

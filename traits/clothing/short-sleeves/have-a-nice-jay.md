@@ -8,62 +8,28 @@ date_added: "2024-06-22"
 
 # Have a Nice Jay
 
-## Visual Properties
+## Visual Elements
 
+![Have a Nice Jay](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)
 
-**Image Files:**
-![Have a Nice Jay](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)/SS3_Have%20a%20Nice%20Jay.webp)
+Bone-white t-shirt with a simple illustration of a yellow smiley figure with curved ears, smoking a blunt / cigarette with a writing “Have a Nice JAY”, with the ‘JAY’ in capital red.
 
-
-**Visual Description:** Bone-white t-shirt with a simple illustration of a yellow smiley figure with curved ears, smoking a blunt / cigarette with a writing “Have a Nice JAY”, with the ‘JAY’ in capital red.
-
-**Dominant Colors:** Bone-white, yellow
-
-
----
+Dominant colors: Bone-white, yellow
 
 ## Cultural Context
 
+A play on the classic Have a Nice Day smiley face, replacing Day with Jay (slang for joint). The smiley face with bear ears smoking a blunt merges the acid house smiley tradition with cannabis culture.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:** 
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** 
-
-**Archetype Alignment:** Its relation to drugs, Jay=Joint, Joint=Weed.
-
-
-**Swag Score:** 3
-
-
----
-
-## Connections
-
-**Ancestor:** 
+The acid house smiley, bear ears, and a joint -- this shirt layers three core Mibera references into one image. It is the collection's visual language distilled into a single pun.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** June 22, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Archetype:** **Archetype Alignment:** Its relation to drugs, Jay=Joint, Joint=Weed.
+**Swag Score:** 3
+**Date Added:** 2024-06-22

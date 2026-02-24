@@ -7,56 +7,21 @@ date_added: null
 
 # Chulym Beekeeper Hat
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
-
-
-**Visual Description:**
-
-**Dominant Colors:**
-
----
 
 ## Cultural Context
 
+The Chulym are a Turkic indigenous people of Siberia, one of several ethnic groups represented in the music collective Otyken. Beekeeper-style veiled hats appear in various Siberian folk traditions and have been adopted into Otyken's distinctive stage costumes, connecting indigenous craft with contemporary performance.
 
-**Cultural Origin:**
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:**
-
-**Archetype Alignment:**
-
-
-**Swag Score:** 3
-
-## Connections
-
-**Ancestor:** 
+Beekeeping meets Siberian indigenous culture meets the bear theme that runs through the entire collection. The connections write themselves.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:**
-
-**Introduced By:**
-
-**Team Notes:**
-
-**Sources:**
-
-**Summary:**
-
----
+**Swag Score:** 3

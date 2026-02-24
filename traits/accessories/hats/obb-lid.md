@@ -8,62 +8,29 @@ date_added: "2024-07-27"
 
 # OBB Lid
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
 ![SS2 OBB Lid](https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS2_OBB%20Lid.webp)
 
+What looks like a jar lid, in light yellow.
 
-**Visual Description:** What looks like a jar lid, in light yellow.
-
-**Dominant Colors:** Light yellow
-
-
----
+Dominant colors: Light yellow
 
 ## Cultural Context
 
+Ooga Booga Bears
 
-**Cultural Origin:** Ooga Booga Bears
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** 
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 2
-
-
----
-
-## Connections
-
-**Ancestor:** 
+The clean OBB lid without the honey — a simpler nod to the Ooga Booga Bears project that helped build the Berachain ecosystem's community culture.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** July 27, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
+**Swag Score:** 2
+**Date Added:** 2024-07-27
 **Sources:**
 - https://x.com/oogaboogaberas
-
-**Summary:** 
-
----

@@ -8,62 +8,28 @@ date_added: "2024-07-26"
 
 # Rice Paddy
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
 ![Rice Paddy](https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS4_acidhouse_Rice%20Paddy.webp)
 
+Asian farmer’s hat, large in size shaping a wide cone facing downwards with strings dangling down the hat.
 
-**Visual Description:** Asian farmer’s hat, large in size shaping a wide cone facing downwards with strings dangling down the hat.
-
-**Dominant Colors:** Beige / light tan, red
-
-
----
+Dominant colors: Beige / light tan, red
 
 ## Cultural Context
 
+The non la (leaf hat) or rice paddy hat is a traditional conical hat from East and Southeast Asia, most commonly associated with Vietnam, China, Japan, and Korea. Made from palm leaves or straw, it has been used for centuries by farmers and laborers as protection from sun and rain. The hat has become a widely recognized symbol of Asian agricultural culture and rural life.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [Acidhouse](../../../core-lore/archetypes.md#acidhouse)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 4
-
-
----
-
-## Connections
-
-**Ancestor:** 
+The rice paddy hat connects the acid house archetype to Asian agricultural traditions — a hat worn by billions across centuries, now part of the collection's global headwear vocabulary.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** July 26, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Archetype:** Acidhouse
+**Swag Score:** 4
+**Date Added:** 2024-07-26

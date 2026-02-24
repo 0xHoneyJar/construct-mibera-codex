@@ -8,62 +8,25 @@ date_added: "2024-08-07"
 
 # sacred mirrors
 
-## Visual Properties
+## Visual Elements
 
+a black book with bright orange graphics of a human head and nerves, in front of a shiny circle, the book is titled “Sacred Mirrors”.
 
-**Image Files:**
-SS3_Sacred Mirrors.png
-
-
-**Visual Description:** a black book with bright orange graphics of a human head and nerves, in front of a shiny circle, the book is titled “Sacred Mirrors”.
-
-**Dominant Colors:** black, bright orange
-
-
----
+Dominant colors: black, bright orange
 
 ## Cultural Context
 
+The Sacred Mirrors are a series of paintings by Alex Grey depicting the human body in increasingly transcendent layers, from skeleton to universal energy. Grey's visionary art has become the dominant visual language of psychedelic culture, appearing on everything from album covers to festival stages.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:** The Sacred Mirrors are a series of paintings by Alex Grey depicting the human body in increasingly transcendent layers, from skeleton to universal energy. Grey's visionary art has become the dominant visual language of psychedelic culture, appearing on everything from album covers to festival stages.
-
-
----
-
-## Mibera Integration
-
-**Archetype:** 
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 3
-
-
----
-
-## Connections
-
-**Ancestor:** 
+Alex Grey defined the visual language that psychedelic culture still uses today. A direct bridge between visionary art and the rave scene the collection documents.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** August 7, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Swag Score:** 3
+**Date Added:** 2024-08-07

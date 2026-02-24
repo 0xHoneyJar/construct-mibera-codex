@@ -7,56 +7,22 @@ date_added: null
 
 # Babybera Jacket
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
-
-
-**Visual Description:**
-
-**Dominant Colors:**
-
----
 
 ## Cultural Context
 
+Baby Bera is a Berachain-native artist and DJ who has been active across the ecosystem's real-life events and digital culture. This variant of the Baby Bera merch exists as a short-sleeves piece distinct from the long-sleeves bomber jacket.
 
-**Cultural Origin:**
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:**
-
-**Archetype Alignment:**
-
-
-**Swag Score:** 3
-
-## Connections
-
-**Ancestor:** 
+Babybera is a key member of the Mibera team.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:**
-
-**Introduced By:**
-
+**Swag Score:** 3
 **Team Notes:** "just showed a friend this trait and we both swooned. I got him a shirt as a gift. No way I don't own one of these at any cost pretty much" — babybera, Jan 2024, #trait-updates
-
-**Sources:**
-
-**Summary:**
-
----

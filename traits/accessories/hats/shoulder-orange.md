@@ -8,62 +8,26 @@ date_added: "2024-07-28"
 
 # Shoulder Orange
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
 ![Shoulder Orange](https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS2_milady_Shoulder%20Orange.webp)
 
-
-**Visual Description:** Orange fruit with a tiny stem and one leaf.
-
-**Dominant Colors:** Orange
-
-
----
+Orange fruit with a tiny stem and one leaf.
 
 ## Cultural Context
 
+The shoulder orange is a playful, surrealist accessory — a literal fruit balanced on the head as if it just appeared there. Fruit as headwear has a long history from Carmen Miranda's elaborately fruit-laden turbans to modern festival and rave culture's embrace of absurdist accessories.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [Milady](../../../core-lore/archetypes.md#milady)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 2
-
-
----
-
-## Connections
-
-**Ancestor:** 
+Sometimes you just have an orange on your head and nobody knows why — the kind of unexplained accessory that makes generative collections delightful.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** July 28, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Archetype:** Milady
+**Swag Score:** 2
+**Date Added:** 2024-07-28

@@ -8,62 +8,25 @@ date_added: "2024-12-10"
 
 # Black Ring
 
-## Visual Properties
+## Visual Elements
 
+Thicker round black ring earring.
 
-**Image Files:**
-SS2_Black Ring.PNG
-
-
-**Visual Description:** Thicker round black ring earring.
-
-**Dominant Colors:** Black
-
-
----
+Dominant colors: Black
 
 ## Cultural Context
 
+Black hoop and ring earrings became staples of punk, goth, and industrial fashion from the late 1970s onward. Their minimalist, monochrome aesthetic carried into rave and underground club culture, where black jewelry signaled membership in alternative and subcultural communities. The simplicity of a black ring earring makes it one of the most versatile accessories across multiple subcultures.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** 
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 2
-
-
----
-
-## Connections
-
-**Ancestor:** 
+Sometimes the most basic piece says the most -- a plain black ring earring is the common thread across punk, goth, rave, and every subculture Mibera draws from.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** December 10, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Swag Score:** 2
+**Date Added:** 2024-12-10

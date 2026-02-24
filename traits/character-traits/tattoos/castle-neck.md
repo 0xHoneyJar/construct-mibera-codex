@@ -7,58 +7,19 @@ date_added: null
 
 # Castle Neck
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
-
-
-**Visual Description:**
-
-**Dominant Colors:**
-
----
 
 ## Cultural Context
 
+Neck tattoos of castles and architectural structures are a recurring motif in traditional and neo-traditional tattoo styles, often symbolizing strength, protection, and permanence. The placement on the neck is itself culturally significant -- historically associated with outlaws, prisoners, and counterculture figures who chose highly visible ink as an act of defiance.
 
-**Cultural Origin:**
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:**
-
-**Archetype Alignment:**
-
-
-**Swag Score:**
-
----
-
-## Connections
-
-**Ancestor:** 
+A castle on the neck is a statement that you have nothing left to hide. It represents the kind of visible, irreversible commitment that counterculture has always demanded.
+-->
 
 ---
 
 ## Attribution
-
-**Date Added:**
-
-**Introduced By:**
-
-**Team Notes:**
-
-**Sources:**
-
-**Summary:**
-
----

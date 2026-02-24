@@ -8,62 +8,27 @@ date_added: "2024-06-04"
 
 # Red Gummy Bear
 
-## Visual Properties
+## Visual Elements
 
+Earring with red gummy bear as the charm.
 
-**Image Files:**
-SS3_red gummy bear.png
-
-
-**Visual Description:** Earring with red gummy bear as the charm.
-
-**Dominant Colors:** Bright red
-
-
----
+Dominant colors: Bright red
 
 ## Cultural Context
 
+Gummy bears are often laced with drugs.
 
-**Cultural Origin:** Gummy bears are often laced with drugs.
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** 
-
-**Archetype Alignment:** Relation to drugs and a nod to Gumi’s name.
-
-
-**Swag Score:** 3
-
-
----
-
-## Connections
-
-**Ancestor:** 
+Same concept as the green variant -- gummy bears as a sly drug culture reference and a tip of the hat to co-creator Gumi's name.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** June 4, 2024
-
+**Archetype:** **Archetype Alignment:** Relation to drugs and a nod to Gumi’s name.
+**Swag Score:** 3
+**Date Added:** 2024-06-04
 **Introduced By:** Babybera
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----

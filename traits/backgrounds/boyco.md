@@ -5,35 +5,26 @@ date_added: "2024-12-10"
 
 # Boyco
 
-## Visual Properties
+## Visual Elements
 
+Visual of an online spreadsheet containing a list of Boyco participants.
 
-**Image Files:**
+Dominant colors: White
 
+## Cultural Context
 
-**Visual Description:** Visual of an online spreadsheet containing a list of Boyco participants.
+Boyco, https://boyco.berachain.com/
 
-**Dominant Colors:** White
+Core Berachain ecosystem protocol. Ecosystem partners embedded directly into the art layer.
 
+<!-- justification
+## Justification
 
----
-
-## Context
-
-
-**Cultural Origin:** Boyco, https://boyco.berachain.com/
-
-
-**Why This Matters:** Core Berachain ecosystem protocol. Ecosystem partners embedded directly into the art layer.
+Berachain ecosystem background — representing the on-chain community that Mibera exists within.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** December 10, 2024
-
-**Introduced By:** ---
-
-**Team Notes:** 
-
----
+**Date Added:** 2024-12-10

@@ -7,42 +7,21 @@ element: Fire
 
 # Sagittarius
 
-
-## Sun Sign
-
+## Visual Elements
 
 ![Sun Sagittarius](https://mibera.fsn1.your-objectstorage.com/components/Sun/Sun%20Sagittarius.webp)
 
-**Date Range:** November 22 - December 21
 
-**Glyph:** ♐
+## Cultural Context
 
-**Element:** Fire
+Sagittarius (November 22 -- December 21) is the ninth sign of the Western zodiac, a fire sign ruled by Jupiter. Represented by the Archer (a centaur), it is associated with exploration, philosophy, and the pursuit of truth. Sagittarius natives are traditionally characterized as optimistic, adventurous, and intellectually expansive.
 
----
+<!-- justification
+## Justification
 
-
-## Moon Sign
-
-
-![Moon Sagittarius](https://mibera.fsn1.your-objectstorage.com/components/Moon/Moon%20Sagittarius.webp)
-
-**Glyph:** ♐
-
-**Element:** Fire
+As a modifier in the signal hierarchy, the Sagittarius overlay adds restless curiosity and philosophical reach to a Mibera without overriding the core archetype and ancestor signals.
+-->
 
 ---
 
-
-## Rising Sign
-
-
-![Rising Sagittarius](https://mibera.fsn1.your-objectstorage.com/components/Rising/Rising%20Sagittarius.webp)
-
-**Glyph:** ♐
-
-**Element:** Fire
-
-**1/1 Grail:** [Sagittarius Grail (#7321)](../../../grails/sagittarius.md)
-
----
+## Attribution

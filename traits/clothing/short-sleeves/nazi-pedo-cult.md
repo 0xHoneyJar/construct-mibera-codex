@@ -8,63 +8,32 @@ date_added: "2024-06-22"
 
 # Nazi Pedo Cult
 
-## Visual Properties
+## Visual Elements
 
+![Nazi Pedo Cult](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)
 
-**Image Files:**
-![Nazi Pedo Cult](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)/SS4_Nazi%20Pedo%20Cult.webp)
+Black t-shirt with a bright red rectangle in the middle. In it is a lady with green hair wearing black outfit- swastika in between her eyes and big text in white next to her that reads “NAZI PEDO CULT”.
 
-
-**Visual Description:** Black t-shirt with a bright red rectangle in the middle. In it is a lady with green hair wearing black outfit- swastika in between her eyes and big text in white next to her that reads “NAZI PEDO CULT”.
-
-**Dominant Colors:** Black, red
-
-
----
+Dominant colors: Black, red
 
 ## Cultural Context
 
+The phrase Nazi Pedo Cult was used as a disparaging label against the Milady Maker community during the 2022 controversy surrounding Charlotte Fang and Remilia Corporation. The community subsequently reclaimed the phrase as ironic merch, turning an attack into an in-group signifier in the post-ironic tradition.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:** 
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** 
-
-**Archetype Alignment:** Its relation to Milady culture / community and lore
-
-
-**Swag Score:** 4
-
-
----
-
-## Connections
-
-**Ancestor:** 
+The community took the worst thing anyone ever called them and printed it on a shirt. Reclaiming hostile labels as ironic merchandise is exactly how post-ironic internet culture operates.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** June 22, 2024
-
+**Archetype:** **Archetype Alignment:** Its relation to Milady culture / community and lore
+**Swag Score:** 4
+**Date Added:** 2024-06-22
 **Introduced By:** Jani
-
-**Team Notes:** 
-
 **Sources:**
 - https://discord.com/channels/1133935527855399053/1143360444728348703/11696431518001
 - https://x.com/CharlotteFang77/status/1660963826068606978?s=20
-
-**Summary:** 
-
----

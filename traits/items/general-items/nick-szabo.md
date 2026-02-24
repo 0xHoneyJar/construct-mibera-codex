@@ -7,56 +7,21 @@ date_added: null
 
 # Nick Szabo
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
-
-
-**Visual Description:**
-
-**Dominant Colors:**
-
----
 
 ## Cultural Context
 
+Nick Szabo conceptualized "bit gold" in 1998, a decentralized digital currency that anticipated Bitcoin by a decade. He also invented the concept of smart contracts, which became the basis for Ethereum and the entire DeFi ecosystem.
 
-**Cultural Origin:**
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:** Nick Szabo conceptualized "bit gold" in 1998, a decentralized digital currency that anticipated Bitcoin by a decade. He also invented the concept of smart contracts, which became the basis for Ethereum and the entire DeFi ecosystem.
-
-
----
-
-## Mibera Integration
-
-**Archetype:**
-
-**Archetype Alignment:**
-
-
-**Swag Score:** 5
-
-## Connections
-
-**Ancestor:** 
+Invented both "bit gold" and the concept of smart contracts. Two ideas that became Bitcoin and Ethereum respectively — arguably the most influential cypherpunk by output.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:**
-
-**Introduced By:**
-
-**Team Notes:**
-
-**Sources:**
-
-**Summary:**
-
----
+**Swag Score:** 5

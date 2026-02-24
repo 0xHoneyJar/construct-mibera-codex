@@ -8,62 +8,26 @@ date_added: "2024-07-24"
 
 # Maid Head
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
 ![Maid Head](https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS2_milady_Maid%20Head.webp)
 
-
-**Visual Description:** White mob cap / maid headband, ruffly in shape.
-
-**Dominant Colors:** White
-
-
----
+White mob cap / maid headband, ruffly in shape.
 
 ## Cultural Context
 
+The maid headband (mob cap) originates from French domestic servant uniforms of the 18th and 19th centuries. In contemporary culture, maid headwear has been thoroughly recontextualized through Japanese maid cafe culture, anime cosplay, and the broader Milady aesthetic, where the maid outfit represents a deliberate play on servility, femininity, and ironic performance.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [Milady](../../../core-lore/archetypes.md#milady)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 2
-
-
----
-
-## Connections
-
-**Ancestor:** 
+The maid headband is core Milady iconography — where French domestic history meets anime maid cafe culture meets ironic internet performance.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** July 24, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Archetype:** Milady
+**Swag Score:** 2
+**Date Added:** 2024-07-24

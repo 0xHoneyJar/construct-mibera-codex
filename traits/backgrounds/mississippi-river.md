@@ -6,36 +6,28 @@ date_added: "2025-02-27"
 
 # Mississippi River
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
 ![Mississippi River](https://mibera.fsn1.your-objectstorage.com/components/background__z10/mississippi%20river.webp)
 
+Top view of the Mississippi river.
 
-**Visual Description:** Top view of the Mississippi river.
+Dominant colors: Muted green, dark grey
 
-**Dominant Colors:** Muted green, dark grey
+## Cultural Context
 
+Mississippi River; the second-longest river in North America, stretches about 2,340 miles (3,766 km) from Minnesota to the Gulf of Mexico. It drains 31 U.S. states and two Canadian provinces, forming a vast watershed.
 
----
+Traces the migration routes that carried blues, jazz, and gospel northward from the American South to Chicago — the musical DNA that evolved into house and techno.
 
-## Context
+<!-- justification
+## Justification
 
-
-**Cultural Origin:** Mississippi River; the second-longest river in North America, stretches about 2,340 miles (3,766 km) from Minnesota to the Gulf of Mexico. It drains 31 U.S. states and two Canadian provinces, forming a vast watershed.
-
-
-**Why This Matters:** Traces the migration routes that carried blues, jazz, and gospel northward from the American South to Chicago — the musical DNA that evolved into house and techno.
+The Mississippi connects to the Native American ancestor lineage and the geographic backbone of American music culture that fed into Chicago house and Detroit techno.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** February 27, 2025
-
-**Introduced By:** 
-
-**Team Notes:** 
-
----
+**Date Added:** 2025-02-27

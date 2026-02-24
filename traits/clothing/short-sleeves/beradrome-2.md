@@ -8,62 +8,28 @@ date_added: "2024-12-10"
 
 # Beradrome 2
 
-## Visual Properties
+## Visual Elements
 
+![Beradrome 2](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)
 
-**Image Files:**
-![Beradrome 2](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)/SS3_milady_Beradrome%202.webp)
+Vibrant dark purple t-shirt with graphic of a bear head wearing bike helmet slowly fading from right to left and white text under it that reads “FAHRRADFAHRERANZUG”
 
-
-**Visual Description:** Vibrant dark purple t-shirt with graphic of a bear head wearing bike helmet slowly fading from right to left and white text under it that reads “FAHRRADFAHRERANZUG”
-
-**Dominant Colors:** Vibrant purple, brown.
-
-
----
+Dominant colors: Vibrant purple, brown.
 
 ## Cultural Context
 
+The second Beradrome tee features the German word Fahrradfahreranzug (cyclist outfit), a nod to the cycling-themed DEX's European roots and the Kraftwerk tradition of German-language technology references in electronic music culture.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:** 
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [Milady](../../../core-lore/archetypes.md#milady)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 4
-
-
----
-
-## Connections
-
-**Ancestor:** 
+A second Beradrome variant with German text deepens the Kraftwerk connection that runs through the collection. The cycling metaphor for DeFi liquidity is surprisingly apt.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** December 10, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Archetype:** Milady
+**Swag Score:** 4
+**Date Added:** 2024-12-10

@@ -8,62 +8,24 @@ date_added: "2024-08-10"
 
 # Semilunar
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
 ![Semilunar](https://mibera.fsn1.your-objectstorage.com/components/tattoos__z125/modern_arabic_Semilunar.webp)
 
+Semilunar moon made of flowy lines and circular shapes.
 
-**Visual Description:** Semilunar moon made of flowy lines and circular shapes.
-
-**Dominant Colors:** Black.
-
----
+Dominant colors: Black.
 
 ## Cultural Context
+<!-- justification
+## Justification
 
-
-**Cultural Origin:** 
-
-**Era:** Modern
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** 
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 
-
-
----
-
-## Connections
-
-**Ancestor:** Arabic
-
+The crescent rendered in Arabic decorative style connects the Arabic ancestor lineage to one of the most enduring symbols in Islamic visual culture.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** August 10, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Ancestor:** Arabic
+**Date Added:** 2024-08-10

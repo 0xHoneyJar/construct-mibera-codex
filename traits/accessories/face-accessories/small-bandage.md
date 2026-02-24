@@ -8,62 +8,28 @@ date_added: "2024-12-10"
 
 # Small Bandage
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
 ![Small Bandage](https://mibera.fsn1.your-objectstorage.com/components/face%20accessories__z60/SS1_milady_small bandage.webp)
 
+Small bandage in white.
 
-**Visual Description:** Small bandage in white.
-
-**Dominant Colors:** White
-
-
----
+Dominant colors: White
 
 ## Cultural Context
 
+A small white bandage on the face is a minimal version of the injury-as-accessory motif found across anime, manga, and PFP art. Unlike larger bandages that suggest serious injury, the small bandage implies a minor scrape -- a character who gets into just enough trouble to be interesting without being dramatic about it.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [Milady](../../../core-lore/archetypes.md#milady)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 1
-
-
----
-
-## Connections
-
-**Ancestor:** 
+A tiny bandage says just enough -- the Milady archetype version of understatement, where even the signs of damage are kept cute and minimal.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** December 10, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Archetype:** Milady
+**Swag Score:** 1
+**Date Added:** 2024-12-10

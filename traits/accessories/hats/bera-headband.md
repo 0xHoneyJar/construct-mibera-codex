@@ -8,62 +8,31 @@ date_added: "2024-07-25"
 
 # Bera Headband
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
 ![Bera Headband](https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS3_milady_Bera%20Headband.webp)
 
+Brown headband of bear ears; curved ears with smaller half circle shapes inside in lighter color.
 
-**Visual Description:** Brown headband of bear ears; curved ears with smaller half circle shapes inside in lighter color.
-
-**Dominant Colors:** Brown, light pale brown
-
-
----
+Dominant colors: Brown, light pale brown
 
 ## Cultural Context
 
+Animal ear headbands have been a staple of kawaii fashion and festival culture, bridging Japanese street style and Western rave aesthetics. Bear ear headbands specifically nod to Berachain's ursine identity, turning ecosystem branding into a wearable accessory.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [Milady](../../../core-lore/archetypes.md#milady)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 3
-
-
----
-
-## Connections
-
-**Ancestor:** 
+Bear ears on a headband — the simplest possible way to rep Berachain culture, straight from the kawaii-meets-crypto playbook.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** July 25, 2024
-
+**Archetype:** Milady
+**Swag Score:** 3
+**Date Added:** 2024-07-25
 **Introduced By:** Tez
-
-**Team Notes:** 
-
 **Sources:**
 - https://discord.com/channels/1133935527855399053/1143684092467093684/11436862982389
-
-**Summary:** 
-
----

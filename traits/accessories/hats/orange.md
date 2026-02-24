@@ -8,62 +8,28 @@ date_added: "2024-07-25"
 
 # Orange
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
 ![Orange](https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS3_milady_Orange.webp)
 
+Small orange-shaped and coloured beret with 2 small green leaves standing out in the middle of it.
 
-**Visual Description:** Small orange-shaped and coloured beret with 2 small green leaves standing out in the middle of it.
-
-**Dominant Colors:** Orange, green.
-
-
----
+Dominant colors: Orange, green.
 
 ## Cultural Context
 
+Fruit-shaped hats and headwear have a long history in novelty fashion, from Carmen Miranda's iconic fruit-laden turbans to modern festival wear. The orange beret plays on the classic beret form by making it literally a fruit, blending the Milady aesthetic's love of European fashion with playful absurdity.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [Milady](../../../core-lore/archetypes.md#milady)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 3
-
-
----
-
-## Connections
-
-**Ancestor:** 
+A beret that is also an orange — the kind of playful, slightly surreal fashion choice that makes the Milady archetype smile.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** July 25, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Archetype:** Milady
+**Swag Score:** 3
+**Date Added:** 2024-07-25

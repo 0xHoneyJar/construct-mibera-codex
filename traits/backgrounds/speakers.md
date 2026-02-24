@@ -6,36 +6,26 @@ date_added: "2024-12-10"
 
 # Speakers
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
 ![Speakers](https://mibera.fsn1.your-objectstorage.com/components/background__z10/Speakers.webp)
 
+Stacked sound systems / speakers 
 
-**Visual Description:** Dark room with sound systems / speakers stacked in the background.
+Dominant colors: Dark grey, black.
 
-**Dominant Colors:** Dark grey, black.
+## Cultural Context
 
+The towering sound systems that define the freetekno movement — from Jamaican sound system roots to Spiral Tribe's rigs.
 
----
+<!-- justification
+## Justification
 
-## Context
-
-
-**Cultural Origin:** 
-
-
-**Why This Matters:** The towering sound systems that define the freetekno movement — from Jamaican sound system roots to Spiral Tribe's rigs.
+Sound systems are the defining infrastructure of freetekno — the portable architecture that turns any space into a rave.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** December 10, 2024
-
-**Introduced By:** ---
-
-**Team Notes:** 
-
----
+**Date Added:** 2024-12-10

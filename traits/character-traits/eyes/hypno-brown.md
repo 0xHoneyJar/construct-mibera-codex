@@ -6,31 +6,27 @@ date_added: "2024-06-03"
 
 # hypno brown
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
 ![Hypno Brown](https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/Hypno%20Brown__w7.webp)
 
+brown eyes with prominent white spirals.
 
-**Visual Description:** brown eyes with prominent white spirals.
+Dominant colors: black and white, brown
 
-**Dominant Colors:** black and white, brown
+## Cultural Context
 
----
+Hypno eyes feature prominent spiral patterns within the iris, evoking hypnosis, trance states, and mesmerism. The spiral-eye motif has deep roots in cartoon art and psychedelia, representing altered consciousness, suggestibility, or the absorbing pull of repetitive visual and auditory stimulation.
 
-## Connections
+<!-- justification
+## Justification
 
-**Ancestor:** 
+The spiral pull of trance states — hypno eyes visualize the absorbing, repetitive power of electronic music and psychedelia.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** June 3, 2024
-
+**Date Added:** 2024-06-03
 **Introduced By:** Gumi
-
-**Team Notes:** 
-
----

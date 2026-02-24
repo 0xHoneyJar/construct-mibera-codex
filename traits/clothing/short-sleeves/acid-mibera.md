@@ -8,62 +8,28 @@ date_added: "2024-06-22"
 
 # Acid Mibera
 
-## Visual Properties
+## Visual Elements
 
+![Acid Mibera](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)
 
-**Image Files:**
-![Acid Mibera](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)/SS3_acidhouse_Acid%20Mibera.webp)
+White t-shirt with black text that reads ‘ACID’ and a big yellow smiley with bear ears (mibera).
 
-
-**Visual Description:** White t-shirt with black text that reads ‘ACID’ and a big yellow smiley with bear ears (mibera).
-
-**Dominant Colors:** White, yellow.
-
-
----
+Dominant colors: White, yellow.
 
 ## Cultural Context
 
+The acid house smiley face is the most recognizable symbol of rave culture, originating from the Second Summer of Love in 1988 Britain. The yellow smiley became synonymous with MDMA-fueled warehouse parties and was adopted as the de facto logo of an entire generation's rebellion against Thatcher-era conservatism.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:** 
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [Acidhouse](../../../core-lore/archetypes.md#acidhouse)
-
-**Archetype Alignment:** Relation to rave culture and drugs.
-
-
-**Swag Score:** 3
-
-
----
-
-## Connections
-
-**Ancestor:** 
+A no brainer of a take on a classic design. 
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** June 22, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Archetype:** Acidhouse
+**Swag Score:** 3
+**Date Added:** 2024-06-22

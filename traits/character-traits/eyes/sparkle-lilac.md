@@ -6,31 +6,25 @@ date_added: "2024-06-03"
 
 # sparkle lilac
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
 ![Sparkle Lilac](https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/Sparkle%20Lilac__w15.webp)
 
+lilac eyes with three white dots between the iris and pupil.
 
-**Visual Description:** lilac eyes with three white dots between the iris and pupil.
+## Cultural Context
 
-**Dominant Colors:** lilac
+Sparkle eyes feature bright reflective dots within the iris, a technique borrowed from shoujo manga and anime where sparkling eyes indicate wonder, excitement, or an idealized emotional state. The three-point sparkle pattern suggests eyes catching light — alive with energy and attention.
 
----
+<!-- justification
+## Justification
 
-## Connections
-
-**Ancestor:** 
+Borrowed from shoujo manga, sparkle eyes radiate wonder and excitement — the wide-eyed magic of a first rave.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** June 3, 2024
-
+**Date Added:** 2024-06-03
 **Introduced By:** Gumi
-
-**Team Notes:** 
-
----

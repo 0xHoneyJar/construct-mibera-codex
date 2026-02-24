@@ -8,62 +8,31 @@ date_added: "2024-12-10"
 
 # Teardrops
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
 ![Teardrops](https://mibera.fsn1.your-objectstorage.com/components/face%20accessories__z60/SS3_milady_teardrops.webp)
 
+Three tear / liquid drops.
 
-**Visual Description:** Three tear / liquid drops.
-
-**Dominant Colors:** Clear / black
-
-
----
+Dominant colors: Clear / black
 
 ## Cultural Context
 
+Multiple teardrops as a face accessory draw from both prison tattoo culture and anime aesthetics. In Milady Maker and similar PFP collections, teardrops serve as a distinctive face decoration trait that adds emotional depth to character designs. The triple teardrop variant amplifies the motif from a single mark into a pattern, shifting it from tattoo culture reference toward pure decoration.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [Milady](../../../core-lore/archetypes.md#milady)
-
-**Archetype Alignment:** Teardrop tattoo is one of Milady’s traits.
-
-
-**Swag Score:** 3
-
-
----
-
-## Connections
-
-**Ancestor:** 
+Three teardrops instead of one transforms a loaded symbol into a pattern -- the Milady archetype takes the weight of the original and turns it into something closer to rain than grief.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** December 10, 2024
-
+**Archetype:** Milady
+**Swag Score:** 3
+**Date Added:** 2024-12-10
 **Introduced By:** Gumi
-
-**Team Notes:** 
-
 **Sources:**
 - https://opensea.io/collection/milady?traits=[{%22traitType%22:%22Face+Decoration%22,%22va
-
-**Summary:** 
-
----

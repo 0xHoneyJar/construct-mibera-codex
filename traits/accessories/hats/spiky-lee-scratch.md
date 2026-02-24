@@ -8,62 +8,29 @@ date_added: "2024-07-27"
 
 # Spiky Lee Scratch
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
 ![Lee Scratch](https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS5_chicagodetroit_Lee%20Scratch.webp)
 
+Red cap with black spikes coming out of it all around the body and along the edge of the cap.
 
-**Visual Description:** Red cap with black spikes coming out of it all around the body and along the edge of the cap.
-
-**Dominant Colors:** Red. black
-
-
----
+Dominant colors: Red. black
 
 ## Cultural Context
 
+Lee "Scratch" Perry (1936–2021) was a Jamaican music producer, singer, and songwriter, renowned for pioneering dub music in the 1970s. His innovative studio techniques, including remixing and sound effects, reshaped reggae, influencing artists like Bob Marley, The Clash, and Beastie Boys. Known for his eccentric persona, Perry won a Grammy in 2003 and continued creating until his death in Jamaica at age 85.
 
-**Cultural Origin:** Lee "Scratch" Perry (1936–2021) was a Jamaican music producer, singer, and songwriter, renowned for pioneering dub music in the 1970s. His innovative studio techniques, including remixing and sound effects, reshaped reggae, influencing artists like Bob Marley, The Clash, and Beastie Boys. Known for his eccentric persona, Perry won a Grammy in 2003 and continued creating until his death in Jamaica at age 85.
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [Chicago Detroit](../../../core-lore/archetypes.md#chicago-detroit)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 5
-
-
----
-
-## Connections
-
-**Ancestor:** 
+The spiky Lee Scratch Perry hat at swag score 5 — the most eccentric version of the dub pioneer's headwear, spikes and all. If you know Lee Perry, you know this hat is understated by his standards.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** July 27, 2024
-
+**Archetype:** Chicago Detroit
+**Swag Score:** 5
+**Date Added:** 2024-07-27
 **Introduced By:** Jani
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----

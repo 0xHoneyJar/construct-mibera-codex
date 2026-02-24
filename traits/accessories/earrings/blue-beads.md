@@ -7,56 +7,21 @@ date_added: null
 
 # Blue Beads
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
-
-
-**Visual Description:**
-
-**Dominant Colors:**
-
----
 
 ## Cultural Context
 
+Beaded earrings appear across numerous global cultures, from Native American seed bead traditions to West African waist bead practices to Central Asian nomadic jewelry. Blue beads in particular carry protective symbolism in Mediterranean and Middle Eastern traditions, where the 'evil eye' bead (nazar) is worn to ward off misfortune.
 
-**Cultural Origin:**
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:**
-
-**Archetype Alignment:**
-
-
-**Swag Score:** 5
-
-## Connections
-
-**Ancestor:** 
+Blue beads carry centuries of cross-cultural protective symbolism, and Mibera's ancestor system loves jewelry that connects global traditions to the collection's multicultural roots.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:**
-
-**Introduced By:**
-
-**Team Notes:**
-
-**Sources:**
-
-**Summary:**
-
----
+**Swag Score:** 5

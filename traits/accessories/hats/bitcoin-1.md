@@ -8,62 +8,28 @@ date_added: "2024-12-10"
 
 # Bitcoin 1
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
 ![Bitcoin 1](https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS3_acidhouse_Bitcoin%201.webp)
 
+Black cap with colourful graphics of a Sonic the Hedgehog with a Bitcoin logo and the text “Harry Potter OBAMA” framing it.
 
-**Visual Description:** Black cap with colourful graphics of a Sonic the Hedgehog with a Bitcoin logo and the text “Harry Potter OBAMA” framing it.
-
-**Dominant Colors:** Black, red, blue, yellow
-
-
----
+Dominant colors: Black, red, blue, yellow
 
 ## Cultural Context
 
+HarryPotterObamaSonic10Inu (Ticker: BITCOIN) is a meme-based cryptocurrency on Ethereum (ERC-20) and Binance Smart Chain (BSC), launched around late 2021. The token employs reflection, liquidity pool acquisition, and burn functions in trades.
 
-**Cultural Origin:** HarryPotterObamaSonic10Inu (Ticker: BITCOIN) is a meme-based cryptocurrency on Ethereum (ERC-20) and Binance Smart Chain (BSC), launched around late 2021. The token employs reflection, liquidity pool acquisition, and burn functions in trades.
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [Acidhouse](../../../core-lore/archetypes.md#acidhouse)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 3
-
-
----
-
-## Connections
-
-**Ancestor:** 
+HarryPotterObamaSonic10Inu is peak memecoin absurdism — the kind of thing that could only exist in crypto, and exactly the kind of thing a Mibera would wear unironically.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** December 10, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Archetype:** Acidhouse
+**Swag Score:** 3
+**Date Added:** 2024-12-10

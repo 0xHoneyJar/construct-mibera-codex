@@ -8,62 +8,27 @@ date_added: "2024-06-22"
 
 # Ruggy
 
-## Visual Properties
+## Visual Elements
 
+![Ruggy](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)
 
-**Image Files:**
-![Ruggy](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)/SS3_Ruggy.webp)
+White t-shirt with a print of a cartoon-style bear head in soft orange.
 
-
-**Visual Description:** White t-shirt with a print of a cartoon-style bear head in soft orange.
-
-**Dominant Colors:** White, soft- orange.
-
-
----
+Dominant colors: White, soft- orange.
 
 ## Cultural Context
 
+Ruggy appears to be a bear-themed character from the Berachain ecosystem, rendered in a soft, cartoon style. The name plays on rug (as in rug pull) while the cute bear graphic softens the crypto slang into something approachable and mascot-like.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:** 
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** 
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 3
-
-
----
-
-## Connections
-
-**Ancestor:** 
+A cute bear character whose name references rug pulls. It captures the Berachain community's ability to turn even the darkest parts of crypto culture into something endearing.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** June 22, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Swag Score:** 3
+**Date Added:** 2024-06-22

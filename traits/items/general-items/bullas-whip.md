@@ -8,62 +8,23 @@ date_added: "2024-12-09"
 
 # bullas whip
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
-SS3_Bullas Whip.PNG
-
-
-**Visual Description:** a plain black long folded whip
-
-**Dominant Colors:** black
-
-
----
+a plain black long folded whip
 
 ## Cultural Context
 
+The whip is associated with the Bullas NFT collection on Berachain. Bulls and whips have a long visual association in rodeo and ranching culture, making this a natural accessory for the bull-themed partner collection.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** 
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 3
-
-
----
-
-## Connections
-
-**Ancestor:** 
+Rodeo accessory for the bull-themed partner collection. A natural pairing — you can't have bulls without the whip.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** December 9, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Swag Score:** 3
+**Date Added:** 2024-12-09

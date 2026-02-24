@@ -8,63 +8,29 @@ date_added: "2023-11-28"
 
 # Spiral 2
 
-## Visual Properties
+## Visual Elements
 
+Thick swirl / spiral earring in black with white swirly tribal line-art on them.
 
-**Image Files:**
-SS3_freetekno_modern_aboriginal_Spiral 2.png
-
-
-**Visual Description:** Thick swirl / spiral earring in black with white swirly tribal line-art on them.
-
-**Dominant Colors:** Black, white
-
-
----
+Dominant colors: Black, white
 
 ## Cultural Context
 
+Spiral Tribe is a free party sound system and collective that emerged in the early 1990s in West London. Known for their nomadic lifestyle and anti-establishment ethos, they organized unlicensed raves and festivals, blending acid house
 
-**Cultural Origin:** Spiral Tribe is a free party sound system and collective that emerged in the early 1990s in West London. Known for their nomadic lifestyle and anti-establishment ethos, they organized unlicensed raves and festivals, blending acid house
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [Freetekno](../../../core-lore/archetypes.md#freetekno)
-
-**Archetype Alignment:** Aesthetically symbolizing ‘Spiral Tribe’ in a literal way. Spiral Tribe is a big influence within Mibera lore.
-
-
-**Swag Score:** 3
-
-
----
-
-## Connections
-
-**Ancestor:** [Aboriginal](../../../core-lore/ancestors/aboriginal.md)
-
+The tribal line-art on this spiral variant merges the Spiral Tribe reference with Aboriginal artistic traditions -- two nomadic cultures meeting through the earring's design.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** November 28, 2023
-
-**Introduced By:** 
-
-**Team Notes:** 
-
+**Archetype:** Freetekno
+**Ancestor:** [Aboriginal](../../../core-lore/ancestors/aboriginal.md)
+**Swag Score:** 3
+**Date Added:** 2023-11-28
 **Sources:**
 - https://discord.com/channels/1133935527855399053/1167452819809378386/11674681938209
-
-**Summary:** 
-
----

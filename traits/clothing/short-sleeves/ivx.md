@@ -8,62 +8,27 @@ date_added: "2024-12-10"
 
 # IVX
 
-## Visual Properties
+## Visual Elements
 
+![IVX](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)
 
-**Image Files:**
-![IVX](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)/SS3_IVX.webp)
+Vibrant indigo tee with white logo of what looks like a ‘v’ and an upside down ‘v’ next to it.
 
-
-**Visual Description:** Vibrant indigo tee with white logo of what looks like a ‘v’ and an upside down ‘v’ next to it.
-
-**Dominant Colors:** Vibrant indigo, white.
-
-
----
+Dominant colors: Vibrant indigo, white.
 
 ## Cultural Context
 
+IVX appears to reference a project or brand within the Berachain or broader crypto ecosystem. The minimalist logo design with geometric V shapes follows the clean, abstract branding style common to DeFi protocols and crypto-native companies.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:** 
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** 
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 3
-
-
----
-
-## Connections
-
-**Ancestor:** 
+Clean, minimal crypto protocol branding on a tee. The collection documents the visual language of the web3 ecosystem, and protocol logos are part of that vocabulary.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** December 10, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Swag Score:** 3
+**Date Added:** 2024-12-10

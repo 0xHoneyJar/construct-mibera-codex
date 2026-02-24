@@ -34,7 +34,7 @@ The codex contains 11,500+ markdown files across 20+ directories, 8 JSON Schema 
 The codex provides structured access to 9 entity types:
 
 - **10,000 Miberas** — individual identity files with 27 metadata fields in YAML frontmatter (`miberas/`)
-- **1,257 Visual Traits** — across 18 subcategories under 7 parent categories (`traits/`)
+- **1,337 Visual Traits** — across 18 subcategories under 7 parent categories (`traits/` and `drugs-detailed/`)
 - **78 Drugs** — molecules mapped 1:1 to tarot cards, each with archetype and ancestor associations (`drugs-detailed/`)
 - **78 Tarot Cards** — divination archetypes paired bijectively with drugs (`core-lore/tarot-cards/`)
 - **33 Ancestors** — cultural lineages from Aboriginal to Turkey spanning ancient and modern civilizations (`core-lore/ancestors/`)
@@ -77,7 +77,7 @@ Content follows a GitHub-first navigation pattern — `README.md` files in direc
 
 ```
 miberas/           10,000 identity files
-traits/            1,257 trait files (18 subcategories)
+traits/            1,337 visual traits (18 subcategories; 78 drugs in drugs-detailed/)
 drugs-detailed/    78 drug documentation files
 core-lore/         ~120 files (archetypes, ancestors, tarot, philosophy)
 browse/            8 faceted dimension indices
@@ -123,7 +123,7 @@ _codex/scripts/    14 audit/generation/maintenance scripts
 | Module | Files | Purpose | Documentation |
 |--------|-------|---------|---------------|
 | `miberas/` | 10,000 | Individual Mibera identity files | [manifest.json](manifest.json) |
-| `traits/` | 1,257 | Visual trait documentation (18 subcategories) | [traits/README.md](traits/README.md) |
+| `traits/` | 1,337 | Visual trait documentation (18 subcategories) | [traits/README.md](traits/README.md) |
 | `drugs-detailed/` | 78 | Drug/molecule lore and tarot mapping | — |
 | `core-lore/` | ~120 | Archetypes, ancestors, tarot cards, philosophy | [core-lore/README.md](core-lore/README.md) |
 | `browse/` | 8 | Faceted dimension indices | [browse/README.md](browse/README.md) |

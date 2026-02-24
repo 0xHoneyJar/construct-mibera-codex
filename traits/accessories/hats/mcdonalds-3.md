@@ -8,62 +8,29 @@ date_added: "2025-05-04"
 
 # McDonalds 3
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
 ![mcdonalds 3](https://mibera.fsn1.your-objectstorage.com/components/hats__z160/mcdonalds%203.webp)
 
+Visor hat in red with Mcdonalds logo in the center; a yellow ‘M’.
 
-**Visual Description:** Visor hat in red with Mcdonalds logo in the center; a yellow ‘M’.
-
-**Dominant Colors:** Red, yellow
-
-
----
+Dominant colors: Red, yellow
 
 ## Cultural Context
 
+The McDonald's visor hat represents the modern employee uniform era of the fast food chain. As part of a four-hat McDonald's series spanning different eras — one for each Mibera archetype — this visor represents the contemporary period. McDonald's as a cultural symbol transcends food, representing globalization, late capitalism, and the universal minimum-wage experience.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** 
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 4
-
-
----
-
-## Connections
-
-**Ancestor:** 
+The third McDonald's hat completes the era-spanning set — a modern visor for the Mibera who works the late shift and still makes it to the rave.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** May 4, 2025
-
+**Swag Score:** 4
+**Date Added:** 2025-05-04
 **Introduced By:** Jani
-
 **Team Notes:** See McDonalds 2 for era-mapping discussion. Jani proposed 4 McDonald's hats, one per tribe representing different eras of the brand. — Nov 2023, #hats
-
-**Sources:**
-
-
-**Summary:** 
-
----

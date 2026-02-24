@@ -8,63 +8,32 @@ date_added: "2024-06-29"
 
 # Green Baggy Jacket
 
-## Visual Properties
+## Visual Elements
 
+![Green Baggy Jacket](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(LONG)
 
-**Image Files:**
-![Green Baggy Jacket](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(LONG)/SS3_milady_Green%20Baggy%20Jacket.webp)
+Loose-fit green checkered shirt with a pocket, and many buttons.
 
-
-**Visual Description:** Loose-fit green checkered shirt with a pocket, and many buttons.
-
-**Dominant Colors:** Green
-
-
----
+Dominant colors: Green
 
 ## Cultural Context
 
+The piece is a direct reference from a photo in an article by Homegrown about the secret daytime raves that provides space for diasporic South Asians. Many youths are seen wearing loose / baggy outfits.
 
-**Cultural Origin:** The piece is a direct reference from a photo in an article by Homegrown about the secret daytime raves that provides space for diasporic South Asians. Many youths are seen wearing loose / baggy outfits.
+<!-- justification
+## Justification
 
-**Era:** 
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [Milady](../../../core-lore/archetypes.md#milady)
-
-**Archetype Alignment:** In relation to secret rave culture, scene, and fashion.
-
-
-**Swag Score:** 3
-
-
----
-
-## Connections
-
-**Ancestor:** 
+Pulled from a photo of a diasporic South Asian daytime rave. Loose, baggy clothing is practical dancefloor wear, and this shirt documents a rave scene most people have never heard of.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** June 29, 2024
-
+**Archetype:** Milady
+**Swag Score:** 3
+**Date Added:** 2024-06-29
 **Introduced By:** Jani
-
-**Team Notes:** 
-
 **Sources:**
 - https://discord.com/channels/1133935527855399053/1160911774086873089/11609258723715
 - https://homegrown.co.in/homegrown-creators/inside-the-secret-daytime-raves-that-provided-spa
-
-**Summary:** 
-
----

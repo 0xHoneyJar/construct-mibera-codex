@@ -8,62 +8,26 @@ date_added: "2025-03-15"
 
 # Founders Mask
 
-## Visual Properties
+## Visual Elements
 
+Large rounded mask with a pattern constructed of simple diamond shapes, going outwards from the center, in the color of black.
 
-**Image Files:**
-SS5_Founders Mask.PNG
-
-
-**Visual Description:** Large rounded mask with a pattern constructed of simple diamond shapes, going outwards from the center, in the color of black.
-
-**Dominant Colors:** Black
-
-
----
+Dominant colors: Black
 
 ## Cultural Context
 
+The Founders Mask is one of two custom masks worn by Jani (deepname99) at Token 2049 Singapore, a major crypto conference. In the Berachain and broader crypto community, founders often maintain pseudonymous identities, with masks serving as both practical anonymity tools and symbolic objects.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** 
-
-**Archetype Alignment:** Jani’s mask from Singapore (Token 2024)
-
-
-**Swag Score:** 5
-
-
----
-
-## Connections
-
-**Ancestor:** 
+Only two masks in the entire 10,000-piece collection are directly tied to the founder. This is a piece of Mibera origin mythology made wearable.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** March 15, 2025
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Archetype:** **Archetype Alignment:** Jani’s mask from Singapore (Token 2024)
+**Swag Score:** 5
+**Date Added:** 2025-03-15

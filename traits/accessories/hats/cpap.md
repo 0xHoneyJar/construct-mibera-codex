@@ -8,62 +8,32 @@ date_added: "2024-07-27"
 
 # CPAP
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
 ![CPAP](https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS4_freetekno_CPAP.webp)
 
+Head of the CPAP machine with a grey thick tube that goes back.
 
-**Visual Description:** Head of the CPAP machine with a grey thick tube that goes back.
-
-**Dominant Colors:** Clear white, dark grey
-
-
----
+Dominant colors: Clear white, dark grey
 
 ## Cultural Context
 
+A CPAP (Continuous Positive Airway Pressure) machine is a medical device used to treat sleep apnea by delivering a steady stream of air through a mask worn over the nose or mouth, keeping airways open during sleep to prevent breathing pauses and improve oxygen flow.
 
-**Cultural Origin:** A CPAP (Continuous Positive Airway Pressure) machine is a medical device used to treat sleep apnea by delivering a steady stream of air through a mask worn over the nose or mouth, keeping airways open during sleep to prevent breathing pauses and improve oxygen flow.
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [Freetekno](../../../core-lore/archetypes.md#freetekno)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 4
-
-
----
-
-## Connections
-
-**Ancestor:** 
+Part of the collection's commitment to disability representation — a CPAP machine as headwear because the rave does not stop for sleep apnea.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** July 27, 2024
-
+**Archetype:** Freetekno
+**Swag Score:** 4
+**Date Added:** 2024-07-27
 **Introduced By:** Jani
-
 **Team Notes:** "cpap machine" — Jani, Oct 2023, #hats | Part of Jani's initiative to introduce disabled traits into the collection: "wanna find some ways of introducing disabled traits into the collection" — Oct 2023
-
 **Sources:**
 - https://discord.com/channels/1133935527855399053/1152026958713081966/11678054971523
-
-**Summary:** 
-
----

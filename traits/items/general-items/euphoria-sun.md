@@ -8,63 +8,25 @@ date_added: "2024-12-09"
 
 # euphoria sun
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
-SS5_chicagodetroit_mongolian_Euphoria Sun.PNG
-
-
-**Visual Description:** a glowing ball in shades of yellow, radiating an aura of heat or some sort.
-
-**Dominant Colors:** shades of yellow
-
-
----
+a glowing ball in shades of yellow, radiating an aura of heat or some sort.
 
 ## Cultural Context
 
+Tengriism, the traditional spiritual practice of Mongolian and Central Asian nomadic peoples, centers on the Eternal Blue Sky (Tengri) and the sun as sources of divine energy. The sun held deep significance as a life-giving force in steppe cultures. In the context of the collection, the euphoria sun evokes both this ancient solar reverence and the intense sensory peaks of electronic music culture.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [chicago detroit](../../../core-lore/archetypes.md#chicago-detroit)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 5
-
-
----
-
-## Connections
-
-**Ancestor:** [mongolian](../../../core-lore/ancestors/mongolian.md)
-
+A visual glyph for the peak moment — the point where the set, the substance, and the crowd all lock in. Tied to the Mongolian ancestor through Tengriist solar reverence.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** December 9, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Archetype:** chicago detroit
+**Ancestor:** [mongolian](../../../core-lore/ancestors/mongolian.md)
+**Swag Score:** 5
+**Date Added:** 2024-12-09

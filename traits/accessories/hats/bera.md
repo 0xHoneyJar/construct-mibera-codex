@@ -8,62 +8,28 @@ date_added: "2024-07-27"
 
 # Bera
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
 ![Bera](https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS4_milady_Bera.webp)
 
+Brown cap with bear face, sparkly eyes, and bear ears
 
-**Visual Description:** Brown cap with bear face, sparkly eyes, and bear ears
-
-**Dominant Colors:** Brown, light beige
-
-
----
+Dominant colors: Brown, light beige
 
 ## Cultural Context
 
+The Bera cap is a direct reference to Berachain, the Layer 1 blockchain where the Mibera collection lives. The bear face design with sparkly eyes reflects the playful, community-driven branding that defines Berachain's culture, where bear imagery is central to ecosystem identity.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [Milady](../../../core-lore/archetypes.md#milady)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 4
-
-
----
-
-## Connections
-
-**Ancestor:** 
+The flagship Berachain hat — a bear-face cap at swag score 4 because repping the home chain at maximum cuteness deserves top marks.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** July 27, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Archetype:** Milady
+**Swag Score:** 4
+**Date Added:** 2024-07-27

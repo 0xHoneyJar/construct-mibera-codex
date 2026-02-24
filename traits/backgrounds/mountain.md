@@ -6,36 +6,26 @@ date_added: "2024-12-10"
 
 # Mountain
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
 ![Mountain](https://mibera.fsn1.your-objectstorage.com/components/background__z10/Mountain.webp)
 
+Big mountain in dark grey / black, on top of a grassy ground and under a bright blue sky.
 
-**Visual Description:** Big mountain in dark grey / black, on top of a grassy ground and under a bright blue sky.
+Dominant colors: Black / dark grey, green, blue
 
-**Dominant Colors:** Black / dark grey, green, blue
+## Cultural Context
 
+Based on one of Milady's background assets
 
----
+<!-- justification
+## Justification
 
-## Context
-
-
-**Cultural Origin:** 
-
-
-**Why This Matters:** Related to Milady (it’s one of the background assets)
+Natural landscape associated with the Milady archetype's visual vocabulary.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** December 10, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
----
+**Date Added:** 2024-12-10

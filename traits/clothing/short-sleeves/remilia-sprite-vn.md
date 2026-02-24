@@ -8,62 +8,28 @@ date_added: "2024-08-03"
 
 # Remilia Sprite VN
 
-## Visual Properties
+## Visual Elements
 
+![Remilia Sprite VN](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)
 
-**Image Files:**
-![Remilia Sprite VN](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)/SS2_milady_Remilia%20Sprite%20VN.webp)
+White t-shirt with a black line graphic of a young lady with huge sparkly eyes and text below it that reads “Remilia Corporation Ltd”.
 
-
-**Visual Description:** White t-shirt with a black line graphic of a young lady with huge sparkly eyes and text below it that reads “Remilia Corporation Ltd”.
-
-**Dominant Colors:** Black, white.
-
-
----
+Dominant colors: Black, white.
 
 ## Cultural Context
 
+Remilia Corporation Ltd printed on a VN-style sprite tee is the Milady universe at its most self-referential. The visual novel aesthetic is core to how this community sees itself.
 
-**Cultural Origin:** Remilia Scarlet (Touhou)
+<!-- justification
+## Justification
 
-**Era:** 
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [Milady](../../../core-lore/archetypes.md#milady)
-
-**Archetype Alignment:** In relation to Milady Maker as part of our archetypes.
-
-
-**Swag Score:** 2
-
-
----
-
-## Connections
-
-**Ancestor:** 
+Remilia Corporation Ltd printed on a VN-style sprite tee is the Milady universe at its most self-referential. The visual novel aesthetic is core to how this community sees itself.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** August 3, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Archetype:** Milady
+**Swag Score:** 2
+**Date Added:** 2024-08-03

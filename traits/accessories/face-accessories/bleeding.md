@@ -8,62 +8,29 @@ date_added: "2024-12-10"
 
 # Bleeding
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
 ![Bleeding](https://mibera.fsn1.your-objectstorage.com/components/face%20accessories__z60/SS3_milady_bleeding.webp)
 
+Blood dripping down from a neat cut.
 
-**Visual Description:** Blood dripping down from a neat cut.
-
-**Dominant Colors:** Red
-
-
----
+Dominant colors: Red
 
 ## Cultural Context
 
+The bleeding cut as a face accessory draws from multiple visual traditions: anime's wounded warriors, punk culture's celebration of physical damage, and the e-girl/post-ironic aesthetic where injury is rendered as decoration. In generative PFP collections, bleeding effects add dramatic rarity and visual intensity to character designs.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [Milady](../../../core-lore/archetypes.md#milady)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 3
-
-
----
-
-## Connections
-
-**Ancestor:** 
+Blood on the face makes any character look like they have a story worth hearing. In the Milady archetype, it captures the post-ironic aesthetic where damage is worn proudly as a badge.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** December 10, 2024
-
+**Archetype:** Milady
+**Swag Score:** 3
+**Date Added:** 2024-12-10
 **Introduced By:** Gumi
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----

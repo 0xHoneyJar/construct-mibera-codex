@@ -6,31 +6,23 @@ date_added: "2024-06-15"
 
 # short messy brown
 
-## Visual Properties
+## Visual Elements
 
+a very short messy, voluminous, rounded hairstyle in brown with soft outward-curving edges.
 
-**Image Files:**
-Short Messy Brown__w16.png
+## Cultural Context
 
+Short messy hair is a very short, voluminous, rounded style with soft outward-curving edges and a deliberately unkempt texture. The look balances the practicality of short hair with the expressive energy of visible texture, suggesting someone who values movement and spontaneity over polish.
 
-**Visual Description:** a very short messy, voluminous, rounded hairstyle in brown with soft outward-curving edges.
+<!-- justification
+## Justification
 
-**Dominant Colors:** brown
-
----
-
-## Connections
-
-**Ancestor:** 
+Spontaneous and textured, short messy hair captures the energy of someone who values movement over polish.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** June 15, 2024
-
+**Date Added:** 2024-06-15
 **Introduced By:** Gumi
-
-**Team Notes:** 
-
----

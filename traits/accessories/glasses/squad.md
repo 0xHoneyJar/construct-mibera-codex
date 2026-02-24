@@ -8,59 +8,27 @@ date_added: "2024-06-17"
 
 # squad
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
 ![Squad](https://mibera.fsn1.your-objectstorage.com/components/glasses__z140/acidhouse_Squad.webp)
 
-
-**Visual Description:** Pointed all black sunglasses.
-
-**Dominant Colors:** 
-
-
----
+Pointed all black sunglasses.
 
 ## Cultural Context
 
+Angular, aggressive sunglasses became a defining look of late 1980s and early 1990s rave culture, particularly in the UK acid house scene. The pointed frames evoked a futuristic edge that matched the forward-looking sound of the music, worn by both DJs and ravers at events from Shoom to Sunrise.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [Acidhouse](../../../core-lore/archetypes.md#acidhouse)
-
-**Archetype Alignment:** Seen in the OG Bong Bears collection, on Beartull’s 1/1 - which appears to be a Squirtle itself. - https://opensea.io/item/ethereum/0x495f947276749ce646f68ac8c248420045cb7b5e/66075445 032688988859229341194671037535804503065310441849644897976489592487937
-
-
-**Swag Score:** 3
-
-## Connections
-
-**Ancestor:** 
+Squad shades are the kind of thing an entire crew shows up wearing to a rave, and nobody planned it. When the energy is right, the accessories synchronize on their own.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** June 17, 2024
-
+**Archetype:** Acidhouse
+**Swag Score:** 3
+**Date Added:** 2024-06-17
 **Introduced By:** Tez
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----

@@ -8,62 +8,30 @@ date_added: "2024-07-27"
 
 # White Anonymous
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
 ![White Anonymous](https://mibera.fsn1.your-objectstorage.com/components/Masks/SS4_chicagodetroit_White Anonymous.webp)
 
+Classic white ‘Anonymous’ mask, with a smiling face with blushing cheeks, a thin mustache, and pointed beard
 
-**Visual Description:** Classic white ‘Anonymous’ mask, with a smiling face with blushing cheeks, a thin mustache, and pointed beard
-
-**Dominant Colors:** White, black.
-
-
----
+Dominant colors: White, black.
 
 ## Cultural Context
 
+The "Anonymous mask," commonly known as the Guy Fawkes mask, originated from the 1605 Gunpowder Plot, where Guy Fawkes planned to blow up the British Parliament. Its modern iconic design was created by illustrator David Lloyd for the 1982–1989 graphic novel V for Vendetta by Alan Moore.
 
-**Cultural Origin:** The "Anonymous mask," commonly known as the Guy Fawkes mask, originated from the 1605 Gunpowder Plot, where Guy Fawkes planned to blow up the British Parliament. Its modern iconic design was created by illustrator David Lloyd for the 1982–1989 graphic novel V for Vendetta by Alan Moore.
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [Chicago Detroit](../../../core-lore/archetypes.md#chicago-detroit)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 4
-
-
----
-
-## Connections
-
-**Ancestor:** 
+The Guy Fawkes mask is the most widely recognized symbol of digital-age anonymity, adopted by Anonymous, WikiLeaks supporters, and protest movements worldwide. In a crypto-native collection, it is less a reference and more a load-bearing pillar.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** July 27, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
+**Archetype:** Chicago Detroit
+**Swag Score:** 4
+**Date Added:** 2024-07-27
 **Sources:**
 - https://en.wikipedia.org/wiki/Guy_Fawkes_mask
-
-**Summary:** 
-
----

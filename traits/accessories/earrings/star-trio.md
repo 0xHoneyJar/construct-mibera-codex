@@ -8,62 +8,28 @@ date_added: "2024-12-10"
 
 # Star Trio
 
-## Visual Properties
+## Visual Elements
 
+Three small star shapes in linear placement, in black.
 
-**Image Files:**
-SS4_freetekno_stars.png
-
-
-**Visual Description:** Three small star shapes in linear placement, in black.
-
-**Dominant Colors:** Black / dark grey
-
-
----
+Dominant colors: Black / dark grey
 
 ## Cultural Context
 
+Star-shaped accessories — earrings, hair clips, glowing pendants — are common rave jewelry. The five-pointed star shows up across kandi, flyer art, and festival fashion.
 
-**Cultural Origin:** Star-shaped accessories — earrings, hair clips, glowing pendants — are common rave jewelry. The five-pointed star shows up across kandi, flyer art, and festival fashion.
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [Freetekno](../../../core-lore/archetypes.md#freetekno)
-
-**Archetype Alignment:** Its relation with rave culture which ties back to Mibera.
-
-
-**Swag Score:** 4
-
-
----
-
-## Connections
-
-**Ancestor:** 
+Stars are universal rave iconography -- they show up on flyers, kandi, and festival stages. Three of them in Freetekno black gives this earring an understated edge.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** December 10, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
+**Archetype:** Freetekno
+**Swag Score:** 4
+**Date Added:** 2024-12-10
 **Sources:**
 - https://cercle-festival.com/
-
-**Summary:** 
-
----

@@ -8,63 +8,29 @@ date_added: "2023-11-28"
 
 # White Thick
 
-## Visual Properties
+## Visual Elements
 
+Thick white ring shaped earring
 
-**Image Files:**
-SS2_freetekno_modern_nativeAmerican_White Thick.png
-
-
-**Visual Description:** Thick white ring shaped earring
-
-**Dominant Colors:** White
-
-
----
+Dominant colors: White
 
 ## Cultural Context
 
+White buffalo hoop earrings are a style of Native American jewelry usually featuring white buffalo stone, a rare white stone. Often set in sterling silver, these hoops showcase bold, creamy white cabochons or inlays, symbolizing purity, spirituality, and connection to Native American heritage, particularly among Plains tribes where the white buffalo is sacred.
 
-**Cultural Origin:** White buffalo hoop earrings are a style of Native American jewelry usually featuring white buffalo stone, a rare white stone. Often set in sterling silver, these hoops showcase bold, creamy white cabochons or inlays, symbolizing purity, spirituality, and connection to Native American heritage, particularly among Plains tribes where the white buffalo is sacred.
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [Freetekno](../../../core-lore/archetypes.md#freetekno)
-
-**Archetype Alignment:** In relation to modern culture of the Native American, which is one of Mibera’s ancestor traits.
-
-
-**Swag Score:** 2
-
-
----
-
-## Connections
-
-**Ancestor:** [Native American](../../../core-lore/ancestors/native-american.md)
-
+This thick white hoop draws from Native American jewelry traditions, connecting the Freetekno archetype to indigenous craftsmanship through the ancestor system.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** November 28, 2023
-
-**Introduced By:** 
-
-**Team Notes:** 
-
+**Archetype:** Freetekno
+**Ancestor:** [Native American](../../../core-lore/ancestors/native-american.md)
+**Swag Score:** 2
+**Date Added:** 2023-11-28
 **Sources:**
 - https://en.wikipedia.org/wiki/White_buffalo
-
-**Summary:** 
-
----

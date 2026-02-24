@@ -6,26 +6,25 @@ date_added: "2024-12-09"
 
 # Bong Bear 67
 
-## Visual Properties
+## Visual Elements
 
+Panda wearing a pink crown with 3 pink stones, and an unbuttoned shirt with gradient of shades of deep magenta with abstract patterns involving curves and dots. The panda is also holding a cigarette pipe with a symbol of marijuana leaf on it. A plushie based on [this Bong Bear](https://opensea.io/assets/ethereum/0x495f947276749ce646f68ac8c248420045cb7b5e/66075445032688988859229341194671037535804503065310441849644897934708150632449).
 
-**Image Files:**
-SS5_bongbear_Bong Bear 67.png
+Dominant colors: Red, orange , yellow, green
 
-**Visual Description:** Panda wearing a pink crown with 3 pink stones, and an unbuttoned shirt with gradient of shades of deep magenta with abstract patterns involving curves and dots. The panda is also holding a cigarette pipe with a symbol of marijuana leaf on it. A plushie based on [this Bong Bear](https://opensea.io/assets/ethereum/0x495f947276749ce646f68ac8c248420045cb7b5e/66075445032688988859229341194671037535804503065310441849644897934708150632449).
+## Cultural Context
 
-**Dominant Colors:** Red, orange , yellow, green
+Bong Bears is one of the earliest and most recognized NFT collections in the Berachain ecosystem, created as bear-themed characters on Ethereum's OpenSea platform before Berachain launched its own chain. The collection features a roster of stylized, cannabis-culture-inspired bears each with unique outfits, accessories, and color schemes. Bong Bears helped establish the bear identity that became central to Berachain's community branding, making them a foundational piece of the ecosystem's cultural history.
 
+<!-- justification
+## Justification
+
+As one of the OG Berachain ecosystem collections, Bong Bears appearing as held-item plushies in Mibera is a direct nod to the shared bear lineage that ties these communities together.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** December 9, 2024
-
+**Date Added:** 2024-12-09
 **Introduced By:** Jani
-
-**Team Notes:** 
-
-
----

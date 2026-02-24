@@ -6,31 +6,25 @@ date_added: "2024-06-03"
 
 # heart leaf
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
 ![Heart Leaf](https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/Heart%20Leaf__w15.webp)
 
+eyes with heart-shaped pupils in leafy green.
 
-**Visual Description:** eyes with heart-shaped pupils in leafy green.
+## Cultural Context
 
-**Dominant Colors:** leafy green
+Heart-shaped pupils replace the standard round pupil with a heart motif, a visual convention in anime, manga, and internet art used to express infatuation, adoration, or overwhelming affection. The heart-eye expression has become a ubiquitous emoji and reaction image in digital communication.
 
----
+<!-- justification
+## Justification
 
-## Connections
-
-**Ancestor:** 
+Infatuation as a visual motif — heart pupils channel anime and internet art to express overwhelming adoration.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** June 3, 2024
-
+**Date Added:** 2024-06-03
 **Introduced By:** Gumi
-
-**Team Notes:** 
-
----

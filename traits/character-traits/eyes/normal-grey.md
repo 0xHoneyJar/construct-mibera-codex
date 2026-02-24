@@ -6,43 +6,25 @@ date_added: "2024-06-03"
 
 # normal grey
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
 ![Normal Grey](https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/Normal%20Grey__w25.webp)
 
+normal eyes in grey.
 
-**Visual Description:** normal eyes in grey.
+## Cultural Context
 
-**Dominant Colors:** 
+Normal eyes present a standard, open gaze with clearly defined iris and pupil. They serve as the baseline eye type in the collection, representing a calm and composed state from which all other eye expressions deviate.
 
----
+<!-- justification
+## Justification
 
-## Mibera Integration
-
-**Archetype:** 
-
-**Archetype Alignment:** The normal eyes were primarily constructed the way they were to have more direct visual coherency with the Milady Maker eyes. Different enough to be Mibera, but still close enough to Milady to be recognized as such.
-
-
-**Swag Score:** 
-
-
----
-
-## Connections
-
-**Ancestor:** 
+The baseline gaze — every other eye type is a departure from normal, making it the foundation of the collection's expressive range.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** June 3, 2024
-
+**Date Added:** 2024-06-03
 **Introduced By:** Gumi
-
-**Team Notes:** 
-
----

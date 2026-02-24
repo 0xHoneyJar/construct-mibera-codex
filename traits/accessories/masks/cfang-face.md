@@ -8,62 +8,28 @@ date_added: "2024-07-27"
 
 # CFang Face
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
 ![CFang Face](https://mibera.fsn1.your-objectstorage.com/components/Masks/SS1_milady_Cfang Face.webp)
 
+Circular milky white mist, solid in color.
 
-**Visual Description:** Circular milky white mist, solid in color.
-
-**Dominant Colors:** Milky white.
-
-
----
+Dominant colors: Milky white.
 
 ## Cultural Context
 
+Charlotte Fang’s Mirror’s profile picture.
 
-**Cultural Origin:** Charlotte Fang’s Mirror’s profile picture.
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [Milady](../../../core-lore/archetypes.md#milady)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 1
-
-
----
-
-## Connections
-
-**Ancestor:** 
+Charlotte Fang is the pseudonymous founder of the Milady Maker project. Her ethereal, blurred profile image became iconic in crypto-native communities. Including it here is a direct tribute to one of the most polarizing and influential figures in NFT culture.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** July 27, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Archetype:** Milady
+**Swag Score:** 1
+**Date Added:** 2024-07-27

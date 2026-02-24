@@ -7,7 +7,7 @@ The codex follows a content-first layout optimized for GitHub rendering. Directo
 | Directory | Purpose | Files | Completeness |
 |-----------|---------|-------|--------------|
 | `miberas/` | Individual Mibera identity files | 10,000 | COMPLETE [`manifest.json:entity_types.mibera.completeness`] |
-| `traits/` | Visual trait documentation (18 subcategories) | 1,257 | COMPLETE [`manifest.json:entity_types.trait.completeness`] |
+| `traits/` | Visual trait documentation (18 subcategories) | 1,337 | COMPLETE [`manifest.json:entity_types.trait.completeness`] |
 | `drugs-detailed/` | Drug/molecule lore and tarot mapping | 78 | COMPLETE [`manifest.json:entity_types.drug.completeness`] |
 | `core-lore/` | Archetypes, ancestors, tarot cards, philosophy | ~120 | COMPLETE |
 | `birthdays/` | Birthday era classifications (11 eras) | 11 | COMPLETE [`manifest.json:entity_types.birthday_era.completeness`] |

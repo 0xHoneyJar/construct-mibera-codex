@@ -7,62 +7,27 @@ date_added: "2024-12-09"
 
 # ancestral trance vortex
 
-## Visual Properties
+## Visual Elements
 
+a vortex / spiral of forces that seems to be sucking you in leading to a deep black hole, in blue and white.
 
-**Image Files:**
-
-
-**Visual Description:** a vortex / spiral of forces that seems to be sucking you in leading to a deep black hole, in blue and white.
-
-**Dominant Colors:** blue, white
-
-
----
+Dominant colors: blue, white
 
 ## Cultural Context
 
+Spiral and vortex imagery appears across cultures as a representation of altered states of consciousness, from Aboriginal dreamtime art to Haitian Vodou veves to Sufi whirling. The visual motif of being pulled into a central point recurs in descriptions of deep meditation, psychedelic experience, and shamanic trance across unrelated traditions.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [freetekno](../../../core-lore/archetypes.md#freetekno)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 5
-
-
----
-
-## Connections
-
-**Ancestor:** [orthodox jews](../../../core-lore/ancestors/orthodox-jew.md), [aboriginial](../../../core-lore/ancestors/aboriginal.md), [haitians](../../../core-lore/ancestors/haitian.md)
-
+The visual motif that ties the collection together: rave culture's altered states are just the latest iteration of something humans have been chasing since prehistory.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** December 9, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Archetype:** freetekno
+**Ancestor:** [orthodox jews](../../../core-lore/ancestors/orthodox-jew.md), [aboriginial](../../../core-lore/ancestors/aboriginal.md), [haitians](../../../core-lore/ancestors/haitian.md)
+**Swag Score:** 5
+**Date Added:** 2024-12-09

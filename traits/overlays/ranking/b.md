@@ -8,16 +8,21 @@ color: a darker shade of yellow
 
 # B
 
-**Rank:** B
+## Visual Elements
 
 ![Rank B](https://mibera.fsn1.your-objectstorage.com/components/Ranking/B.webp)
 
-**Shape:** Circle
 
-**Color:** a darker shade of yellow
+## Cultural Context
 
-**Condition:** a circular pill with a letter 'B' on it, slightly cracked at the bottom right.
+B-rank represents above-average performance in the letter-grading system that originated in American education and was adopted into gaming tier lists. In the extended Japanese gaming hierarchy (F through SSS), B sits in the solid middle-upper range, indicating competence without reaching the elite tiers.
 
-**Ranking:** The most common out of all ranks.
+<!-- justification
+## Justification
+
+B-rank Miberas have above-average swag scores -- respectable trait combinations that hold their own without breaking into the top tiers of the scoring formula.
+-->
 
 ---
+
+## Attribution

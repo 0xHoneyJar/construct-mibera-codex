@@ -8,62 +8,31 @@ date_added: "2024-06-22"
 
 # True Love Found
 
-## Visual Properties
+## Visual Elements
 
+![True Love](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)
 
-**Image Files:**
-![True Love](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)/SS2_milady_True%20Love.webp)
+Black t-shirt with white text that reads “I FOUND TRUE LOVE AT THE MILADY RAVE” on it .
 
-
-**Visual Description:** Black t-shirt with white text that reads “I FOUND TRUE LOVE AT THE MILADY RAVE” on it .
-
-**Dominant Colors:** Black, white.
-
-
----
+Dominant colors: Black, white.
 
 ## Cultural Context
 
+Part of the Milady Rave souvenir tee series. Finding true love at a rave is one of the most common narratives in dance music culture -- the heightened emotional state of the dancefloor has launched countless real relationships.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:** 
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [Milady](../../../core-lore/archetypes.md#milady)
-
-**Archetype Alignment:** Its way of poking / referencing Milady Maker 333.
-
-
-**Swag Score:** 2
-
-
----
-
-## Connections
-
-**Ancestor:** 
+People genuinely do find true love at raves. This shirt documents the romantic dimension of the dancefloor alongside the spiritual, chemical, and identity-based dimensions.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** June 22, 2024
-
+**Archetype:** Milady
+**Swag Score:** 2
+**Date Added:** 2024-06-22
 **Introduced By:** Jani
-
-**Team Notes:** 
-
 **Sources:**
 - https://discord.com/channels/1133935527855399053/1153410250175676488/11699665482245
-
-**Summary:** 
-
----

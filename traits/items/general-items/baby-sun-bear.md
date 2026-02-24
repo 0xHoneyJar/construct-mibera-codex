@@ -8,62 +8,24 @@ date_added: "2024-07-11"
 
 # baby sun bear
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
-SS4_milady_Baby Sun Bear.png
-
-
-**Visual Description:** a plushie of a black bear, medium to big in size.
-
-**Dominant Colors:** black
-
-
----
+a plushie of a black bear, medium to big in size.
 
 ## Cultural Context
 
+Sun bears are the smallest bear species, native to Southeast Asia. This completes a four-species set of bear plushies (brown, panda, polar, sun) that catalog the bear family for Berachain's mascot ecosystem.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [milady](../../../core-lore/archetypes.md#milady)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 4
-
-
----
-
-## Connections
-
-**Ancestor:** 
+Completes the four-species bear set, ensuring the smallest and rarest real-world bear gets representation.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** July 11, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Archetype:** milady
+**Swag Score:** 4
+**Date Added:** 2024-07-11

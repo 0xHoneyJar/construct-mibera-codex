@@ -8,62 +8,27 @@ date_added: "2024-06-22"
 
 # Henlo with Chain
 
-## Visual Properties
+## Visual Elements
 
+![Henlo with Chain](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)
 
-**Image Files:**
-![Henlo with Chain](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)/SS4_Henlo%20with%20Chain.webp)
+Vibrant purple t-shirt with white “HENLO” text in the middle and a big golden chain with a huge charm in the shape of a honeycomb.
 
-
-**Visual Description:** Vibrant purple t-shirt with white “HENLO” text in the middle and a big golden chain with a huge charm in the shape of a honeycomb.
-
-**Dominant Colors:** Vibrant purple, yellow / gold, white.
-
-
----
+Dominant colors: Vibrant purple, yellow / gold, white.
 
 ## Cultural Context
 
+Henlo is a Berachain ecosystem project. This variant features the Henlo branding paired with an oversized gold chain and honeycomb charm, blending hip-hop jewelry culture with the Berachain honey motif.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:** 
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** 
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 4
-
-
----
-
-## Connections
-
-**Ancestor:** 
+The honeycomb chain on a Henlo tee fuses Berachain's honey theme with hip-hop's gold chain tradition. It is ecosystem merch that actually looks like something you would wear to a show.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** June 22, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Swag Score:** 4
+**Date Added:** 2024-06-22

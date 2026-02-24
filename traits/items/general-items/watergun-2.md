@@ -8,62 +8,26 @@ date_added: "2024-06-05"
 
 # watergun 2
 
-## Visual Properties
+## Visual Elements
 
+a watergun in orange, bright magenta, purple, and lime green.
 
-**Image Files:**
-SS3_acidhouse_Watergun 2.png
-
-
-**Visual Description:** a watergun in orange, bright magenta, purple, and lime green.
-
-**Dominant Colors:** orange, bright magenta, purple, lime green
-
-
----
+Dominant colors: orange, bright magenta, purple, lime green
 
 ## Cultural Context
 
+Spraying strangers with water at a rave is both a practical kindness and a social ritual.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:** Spraying strangers with water at a rave is both a practical kindness and a social ritual.
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [acidhouse](../../../core-lore/archetypes.md#acidhouse)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 4
-
-
----
-
-## Connections
-
-**Ancestor:** 
+A second, more colorful variant. Multiple watergun designs reflect how a practical kindness became an expressive accessory in its own right.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** June 5, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Archetype:** acidhouse
+**Swag Score:** 4
+**Date Added:** 2024-06-05

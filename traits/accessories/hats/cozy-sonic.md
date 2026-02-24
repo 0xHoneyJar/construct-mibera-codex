@@ -8,62 +8,28 @@ date_added: "2024-12-10"
 
 # Cozy Sonic
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
 ![Cozy Sonic](https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS3_acidhouse_Cozy%20Sonic.webp)
 
+Hat in the shape of Sonic the Hedgehog with the main color being blue and light-beige, two eyes, a little nose, and pointy ears.
 
-**Visual Description:** Hat in the shape of Sonic the Hedgehog with the main color being blue and light-beige, two eyes, a little nose, and pointy ears.
-
-**Dominant Colors:** Blue, light beige
-
-
----
+Dominant colors: Blue, light beige
 
 ## Cultural Context
 
+Inspired by Steady Teddys Sonic hat
 
-**Cultural Origin:** Inspired by Steady Teddys Sonic hat
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [Acidhouse](../../../core-lore/archetypes.md#acidhouse)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 3
-
-
----
-
-## Connections
-
-**Ancestor:** 
+Inspired by Steady Teddys' iconic Sonic hat from the acid house scene — a character hat that captures the playful, anything-goes spirit of early rave fashion.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** December 10, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Archetype:** Acidhouse
+**Swag Score:** 3
+**Date Added:** 2024-12-10

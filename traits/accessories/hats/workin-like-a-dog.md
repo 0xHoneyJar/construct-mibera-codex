@@ -7,56 +7,21 @@ date_added: null
 
 # Workin Like A Dog
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
-
-
-**Visual Description:**
-
-**Dominant Colors:**
-
----
 
 ## Cultural Context
 
+This is a variant entry for the "Working Like a Dog" hat, referencing the Remilia Corporation merch trucker cap that reads "WORKIN' LIKE A DOG ALL DAY ON MILADY." The phrase captures the grind culture of NFT communities, where contributors work obsessively on projects they believe in — often for free or for future token allocations.
 
-**Cultural Origin:**
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:**
-
-**Archetype Alignment:**
-
-
-**Swag Score:** 2
-
-## Connections
-
-**Ancestor:** 
+The alternate listing for the Remilia grind cap — "workin like a dog all day on Milady" is the crypto builder's anthem in hat form.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:**
-
-**Introduced By:**
-
-**Team Notes:**
-
-**Sources:**
-
-**Summary:**
-
----
+**Swag Score:** 2

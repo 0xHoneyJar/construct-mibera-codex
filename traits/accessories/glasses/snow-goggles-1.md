@@ -8,59 +8,26 @@ date_added: "2024-12-10"
 
 # snow goggles 1
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
 ![Snow Goggles 1](https://mibera.fsn1.your-objectstorage.com/components/glasses__z140/Snow Goggles 1.webp)
 
-
-**Visual Description:** white snow goggles with drawings that look like a mask / eye holes.
-
-**Dominant Colors:** 
-
-
----
+white snow goggles with drawings that look like a mask / eye holes.
 
 ## Cultural Context
 
+Snow goggles have been used by Arctic and Inuit peoples for thousands of years, carved from bone, antler, or wood with narrow slits to prevent snow blindness. Modern ski goggles evolved from this ancient technology. In crypto culture, bear-themed snow goggles carry additional resonance, connecting winter sports aesthetics with the Berachain bear identity.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** 
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 5
-
-## Connections
-
-**Ancestor:** 
+Bears and snow goggles go together. The Berachain community embraced winter aesthetics early, and goggles became part of the visual vocabulary alongside hibernation and ski masks.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** December 10, 2024
-
-**Introduced By:** 
-
+**Swag Score:** 5
+**Date Added:** 2024-12-10
 **Team Notes:** "like the side ways ski goggles" — Tez, Aug 2023, #eyewear
-
-**Sources:**
-
-
-**Summary:** 
-
----

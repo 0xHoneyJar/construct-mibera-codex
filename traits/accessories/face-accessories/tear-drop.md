@@ -8,62 +8,29 @@ date_added: "2024-12-10"
 
 # Tear Drop
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
 ![Tear Drop](https://mibera.fsn1.your-objectstorage.com/components/face%20accessories__z60/SS2_Milady_tear drop.webp)
 
+Face tattoo of a symmetrical form with a rounded wider base that tapers gradually to a pointed tip.
 
-**Visual Description:** Face tattoo of a symmetrical form with a rounded wider base that tapers gradually to a pointed tip.
-
-**Dominant Colors:** Black
-
-
----
+Dominant colors: Black
 
 ## Cultural Context
 
+The teardrop face tattoo originated in American prison culture, where it traditionally signified that the wearer had killed someone, lost a loved one, or served a long sentence. Over time, the meaning has become more ambiguous, adopted by hip-hop artists and mainstream culture as a general symbol of hardship, grief, or street credibility. Lil Wayne, Amy Winehouse, and other musicians helped popularize the teardrop as a fashion statement divorced from its original context.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [Milady](../../../core-lore/archetypes.md#milady)
-
-**Archetype Alignment:** Milady has tear drop as one of their traits.
-
-
-**Swag Score:** 2
-
-
----
-
-## Connections
-
-**Ancestor:** 
+The teardrop tattoo is one of the most culturally loaded face marks in existence -- its meaning shifts depending on who wears it, which makes it a perfect fit for the Milady archetype's embrace of ambiguity.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** December 10, 2024
-
+**Archetype:** Milady
+**Swag Score:** 2
+**Date Added:** 2024-12-10
 **Introduced By:** Gumi
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----

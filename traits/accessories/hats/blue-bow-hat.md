@@ -8,62 +8,27 @@ date_added: "2024-07-27"
 
 # Blue Bow Hat
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
 ![SS2 Blue Bow Hat](https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS2_Blue%20Bow%20Hat.webp)
 
+Round hat in soft blue, pretty flat in shape, with light blue tie around it and a bow.
 
-**Visual Description:** Round hat in soft blue, pretty flat in shape, with light blue tie around it and a bow.
-
-**Dominant Colors:** Soft blue, light blue
-
-
----
+Dominant colors: Soft blue, light blue
 
 ## Cultural Context
 
+Bow-adorned hats have a long history in feminine fashion, from Victorian bonnets to mid-century pillbox hats. The soft blue colorway and delicate bow evoke a vintage, ladylike aesthetic that contrasts with the harder edges of rave and streetwear culture, creating the kind of unexpected juxtaposition that defines generative art collections.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** 
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 2
-
-
----
-
-## Connections
-
-**Ancestor:** 
+Soft, feminine, deliberately out of place in a rave collection — the blue bow hat is the kind of contrast piece that makes a generative set interesting.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** July 27, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Swag Score:** 2
+**Date Added:** 2024-07-27

@@ -7,56 +7,21 @@ date_added: null
 
 # John Gilmore
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
-
-
-**Visual Description:**
-
-**Dominant Colors:**
-
----
 
 ## Cultural Context
 
+John Gilmore co-founded the Electronic Frontier Foundation and the Cypherpunks mailing list. He famously said "the Net interprets censorship as damage and routes around it," helping establish the principle that digital privacy is a fundamental right.
 
-**Cultural Origin:**
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:** John Gilmore co-founded the Electronic Frontier Foundation and the Cypherpunks mailing list. He famously said "the Net interprets censorship as damage and routes around it," helping establish the principle that digital privacy is a fundamental right.
-
-
----
-
-## Mibera Integration
-
-**Archetype:**
-
-**Archetype Alignment:**
-
-
-**Swag Score:** 5
-
-## Connections
-
-**Ancestor:** 
+Co-founded both the EFF and the Cypherpunks mailing list. "The Net interprets censorship as damage and routes around it" — one sentence that defined the ethos the collection inherits.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:**
-
-**Introduced By:**
-
-**Team Notes:**
-
-**Sources:**
-
-**Summary:**
-
----
+**Swag Score:** 5

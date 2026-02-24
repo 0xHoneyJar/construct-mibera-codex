@@ -8,62 +8,27 @@ date_added: "2024-06-22"
 
 # Wikipedia Editor
 
-## Visual Properties
+## Visual Elements
 
+![Wikipedia Editor](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)
 
-**Image Files:**
-![Wikipedia Editor](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)/SS3_Wikipedia%20Editor.webp)
+White t-shirt with big blue text that reads “Wikipedia Editor”.
 
-
-**Visual Description:** White t-shirt with big blue text that reads “Wikipedia Editor”.
-
-**Dominant Colors:** White, blue.
-
-
----
+Dominant colors: White, blue.
 
 ## Cultural Context
 
+Wikipedia editors are the volunteer contributors who maintain the world's largest encyclopedia. The Wikipedia Editor identity has become a meme in internet culture, associated with both earnest knowledge curation and obsessive, detail-oriented behavior. In crypto circles, editing Wikipedia articles about blockchain projects is a noted subculture.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:** 
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** 
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 3
-
-
----
-
-## Connections
-
-**Ancestor:** 
+Wearing Wikipedia Editor on a t-shirt is an identity statement about caring about facts more than most people. In a collection built on research and documentation, it is practically a mission statement.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** June 22, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Swag Score:** 3
+**Date Added:** 2024-06-22

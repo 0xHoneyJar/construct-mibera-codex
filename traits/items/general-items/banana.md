@@ -8,62 +8,26 @@ date_added: "2024-12-10"
 
 # banana
 
-## Visual Properties
+## Visual Elements
 
+a Cavendish banana with a sticker that says mibera
 
-**Image Files:**
-SS3_milady_banana.PNG
-
-
-**Visual Description:** a Cavendish banana
-
-**Dominant Colors:** yellow
-
-
----
+Dominant colors: yellow
 
 ## Cultural Context
 
+There is a semi-popular milady sticker design that has the milady eyes and "milady" on it. This is meant to be the mibera version of that.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:** The banana is an absurdist object that breaks the pattern of loaded cultural references. Not everything at the rave needs to carry deep meaning, and sometimes the funniest item is the most unexpected one.
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [milady](../../../core-lore/archetypes.md#milady)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 1
-
-
----
-
-## Connections
-
-**Ancestor:** 
+Mibera's version of the iconic Milady banana sticker — a direct lineage nod rebranded for the collection.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** December 10, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Archetype:** milady
+**Swag Score:** 1
+**Date Added:** 2024-12-10

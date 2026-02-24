@@ -6,43 +6,25 @@ date_added: "2024-06-22"
 
 # normal green
 
-## Visual Properties
+## Visual Elements
 
+Short haircut with straight bangs and flat ends, in forest green.
 
-**Image Files:**
-Normal Green__w4.png Normal Green__z-32.png
+Dominant colors: Forest green.
 
+## Cultural Context
 
-**Visual Description:** Short haircut with straight bangs and flat ends, in forest green.
+The normal style is a short haircut with straight bangs and flat ends — the collection's baseline hairstyle. Like the normal eyes and normal mouth, it serves as the neutral reference point from which all other hair styles deviate, clean and unadorned.
 
-**Dominant Colors:** Forest green.
+<!-- justification
+## Justification
 
----
-
-## Mibera Integration
-
-**Archetype:** 
-
-**Archetype Alignment:** There is green hair within the original milady collection. https://opensea.io/collection/milady?traits=%5B%7B%22traitType%22:%22Hair%22,%22values **%22:** %5B%22bowl+green%22%5D%7D%5D
-
-
-**Swag Score:** 
-
-
----
-
-## Connections
-
-**Ancestor:** 
+The baseline style — clean, unadorned, and neutral, letting other traits carry the visual identity.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** June 22, 2024
-
+**Date Added:** 2024-06-22
 **Introduced By:** Gumi
-
-**Team Notes:** 
-
----

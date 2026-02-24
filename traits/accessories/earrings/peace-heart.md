@@ -8,62 +8,26 @@ date_added: "2024-06-04"
 
 # Peace Heart
 
-## Visual Properties
+## Visual Elements
 
+Earring with the universal ‘peace’ symbol in a heart as a charm, very thin in frame; a line goes through the middle part of the heart with shorter lines symmetrically aligned diagonally mirroring each other at the bottom.
 
-**Image Files:**
-SS1_peace heart.png
-
-
-**Visual Description:** Earring with the universal ‘peace’ symbol in a heart as a charm, very thin in frame; a line goes through the middle part of the heart with shorter lines symmetrically aligned diagonally mirroring each other at the bottom.
-
-**Dominant Colors:** Red
-
-
----
+Dominant colors: Red
 
 ## Cultural Context
 
+Heart-and-peace-sign combo. Standard PLUR iconography — shows up on kandi, flyers, and rave jewelry since the early 90s.
 
-**Cultural Origin:** Heart-and-peace-sign combo. Standard PLUR iconography — shows up on kandi, flyers, and rave jewelry since the early 90s.
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** 
-
-**Archetype Alignment:** Its relation to the rave culture as an iconic symbolism and accessories.
-
-
-**Swag Score:** 1
-
-
----
-
-## Connections
-
-**Ancestor:** 
+PLUR -- Peace, Love, Unity, Respect -- is the rave scene's founding ethos, and this heart-meets-peace-sign earring is its most compact visual expression.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** June 4, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Archetype:** **Archetype Alignment:** Its relation to the rave culture as an iconic symbolism and accessories.
+**Swag Score:** 1
+**Date Added:** 2024-06-04

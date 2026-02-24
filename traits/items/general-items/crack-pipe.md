@@ -8,62 +8,24 @@ date_added: "2024-07-04"
 
 # crack pipe
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
-SS1_chicagodetroit_Crack Pipe.png
-
-
-**Visual Description:** a white glass pipe.
-
-**Dominant Colors:** white
-
-
----
+a white glass pipe.
 
 ## Cultural Context
 
+Crack cocaine devastated communities in the 1980s and 1990s, particularly in Black urban neighborhoods. The crack pipe's presence in the collection forces a confrontation with drug culture's most painful chapter.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:** Crack cocaine devastated communities in the 1980s and 1990s, particularly in Black urban neighborhoods. The crack pipe's presence in the collection forces a confrontation with drug culture's most painful chapter.
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [chicago detroit](../../../core-lore/archetypes.md#chicago-detroit)
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 1
-
-
----
-
-## Connections
-
-**Ancestor:** 
+The collection refuses to romanticize drug culture by only showing the fun parts. Crack devastated the same neighborhoods where house music was being born. You cannot tell one story without the other.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** July 4, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Archetype:** chicago detroit
+**Swag Score:** 1
+**Date Added:** 2024-07-04

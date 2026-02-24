@@ -6,36 +6,26 @@ date_added: "2024-06-07"
 
 # Milady Rave 2
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
 ![Milady Rave 2](https://mibera.fsn1.your-objectstorage.com/components/background__z10/Milady%20Rave%202.webp)
 
+Human face with big eyes and small mouth, short hair, in a suit. The figure is radiating light in contrast to the room's dark setting.
 
-**Visual Description:** Human face with big eyes and small mouth, short hair, in a suit. The figure is radiating light in contrast to the room's dark setting.
+Dominant colors: Black, muted brown, bright light yellow.
 
-**Dominant Colors:** Black, muted brown, bright light yellow.
+## Cultural Context
 
+Deepens the Milady archetype's visual language — the radiating figure in the dark room as DJ or performer.
 
----
+<!-- justification
+## Justification
 
-## Context
-
-
-**Cultural Origin:** 
-
-
-**Why This Matters:** Deepens the Milady archetype's visual language — the radiating figure in the dark room as DJ or performer.
+Extension of the Milady archetype's visual language into a darker, more intense register.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** June 7, 2024
-
-**Introduced By:** ---
-
-**Team Notes:** 
-
----
+**Date Added:** 2024-06-07

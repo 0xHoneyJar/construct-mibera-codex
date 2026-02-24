@@ -8,59 +8,27 @@ date_added: "2024-12-10"
 
 # Sick Sunglasses
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
 ![Sick Sunglasses](https://mibera.fsn1.your-objectstorage.com/components/glasses__z140/chicagodetroit_Sick Sunglasses.webp)
 
-
-**Visual Description:** Rounded glasses with slightly dark glasses and golden framing.
-
-**Dominant Colors:** 
-
-
----
+Rounded glasses with slightly dark glasses and golden framing.
 
 ## Cultural Context
 
+Yung Singh
 
-**Cultural Origin:** Yung Singh
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** [Chicago Detroit](../../../core-lore/archetypes.md#chicago-detroit)
-
-**Archetype Alignment:** music culture, and its association with Yung Singh who was known for his underground performance with his Punjabi Garage mix as his main niche.
-
-
-**Swag Score:** 4
-
-## Connections
-
-**Ancestor:** 
+Yung Singh is a Punjabi-British DJ who has become a figurehead for the South Asian electronic music diaspora, blending bhangra with house and techno. His signature rounded gold-frame shades are as much a part of his identity as his sets.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** December 10, 2024
-
+**Archetype:** Chicago Detroit
+**Swag Score:** 4
+**Date Added:** 2024-12-10
 **Introduced By:** Jani
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----

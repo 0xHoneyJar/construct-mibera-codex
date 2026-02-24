@@ -8,62 +8,27 @@ date_added: "2024-07-28"
 
 # Undiagnosed
 
-## Visual Properties
+## Visual Elements
 
-
-**Image Files:**
 ![SS2 Undiagnosed](https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS2_Undiagnosed.webp)
 
+Black cap with light yellow text that reads “Undiagnosed but I’m pretty sure…”
 
-**Visual Description:** Black cap with light yellow text that reads “Undiagnosed but I’m pretty sure…”
-
-**Dominant Colors:** Black, soft light yellow
-
-
----
+Dominant colors: Black, soft light yellow
 
 ## Cultural Context
 
+"Undiagnosed but I'm pretty sure..." is a continuation of the self-deprecating neurodivergent humor seen in the "Got Autism" and "I Have Mibera" hats. The phrase captures the experience of many in internet culture who identify with ADHD, autism, or other neurodivergent traits without formal diagnosis — a common theme in online communities where oversharing about mental health is the norm.
 
-**Cultural Origin:** 
+<!-- justification
+## Justification
 
-**Era:**
-
-
-**Why This Matters:**
-
-
----
-
-## Mibera Integration
-
-**Archetype:** 
-
-**Archetype Alignment:** 
-
-
-**Swag Score:** 2
-
-
----
-
-## Connections
-
-**Ancestor:** 
+The companion piece to "Got Autism" — for the Miberas who are self-aware enough to suspect something but not quite motivated enough to get the paperwork done.
+-->
 
 ---
 
 ## Attribution
 
-**Date Added:** July 28, 2024
-
-**Introduced By:** 
-
-**Team Notes:** 
-
-**Sources:**
-
-
-**Summary:** 
-
----
+**Swag Score:** 2
+**Date Added:** 2024-07-28
