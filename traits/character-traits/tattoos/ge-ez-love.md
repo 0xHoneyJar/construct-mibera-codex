@@ -17,6 +17,9 @@ What looks like a script; It is read: “ge’ez” meaning ‘love’ in ancien
 Dominant colors: Black
 
 ## Cultural Context
+
+Ge'ez is an ancient Semitic script from the Horn of Africa, serving as the liturgical language of the Ethiopian and Eritrean Orthodox Churches. The tattoo spells the word for "love" in a script tradition dating back over two thousand years — one of the oldest alphabets still in ceremonial use.
+
 <!-- justification
 ## Justification
 
