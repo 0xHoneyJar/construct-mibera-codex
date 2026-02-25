@@ -6,9 +6,11 @@
 
 ## Overview
 
-The Mibera Interface was not planned as a roadmap and executed on schedule. It was built in bursts — a seven-day prototype, an eight-month pause, then a feature storm that shipped a forum, a DeFi system, and ten fracture reveals in the span of weeks. The Silk Road parody wasn't a marketing angle applied after the fact. It was the founding intent, encoded in the very first component names.
+HoneyRoad — the frontend face of Mibera — was not planned as a roadmap and executed on schedule. It was built in bursts — a seven-day prototype, an eight-month pause, then a feature storm that shipped a forum, a DeFi system, and ten fracture reveals in the span of weeks. The Silk Road parody wasn't a marketing angle applied after the fact. It was the founding intent, encoded in the very first component names.
 
-This document traces the product's evolution from its first commit on December 9, 2023 through to the living marketplace that exists today. It is a companion to [Creative Process](creative-process.md) (the art) and [Team History](team-history.md) (the people). Where those documents end — roughly August 2024 — this one begins.
+The repo is `mibera-interface`. The product is **HoneyRoad**.
+
+This document traces HoneyRoad's evolution from its first commit on December 9, 2023 through to the living marketplace that exists today. It is a companion to [Creative Process](creative-process.md) (the art) and [Team History](team-history.md) (the people). Where those documents end — roughly August 2024 — this one begins.
 
 **Confidence markers**: ✅ Confirmed via git history (commit hash cited) · ⚠️ Inferred from code patterns or timing · ❓ Needs human validation
 
@@ -16,7 +18,7 @@ This document traces the product's evolution from its first commit on December 9
 
 ## I. The Seven-Day Marketplace (December 2023)
 
-The interface started on December 9, 2023 — a Next.js + wagmi + bun scaffold. ✅ `3cd8d8dc`
+HoneyRoad started on December 9, 2023 — a Next.js + wagmi + bun scaffold. ✅ `3cd8d8dc`
 
 What happened next was not a prototype in the exploratory sense. Within seven days, the core marketplace was functional:
 
@@ -78,7 +80,7 @@ In the same month, the auth stack migrated from Privy to RainbowKit ✅ `cd0b1e2
 
 ## V. The Berachain Wait (June 2024 – February 2025)
 
-Between June 26, 2024 (`4e304dd1`) and February 27, 2025 (`c0b60759`), the interface saw two commits. Both were infrastructure changes — image hosting migration. Eight months of near-silence.
+Between June 26, 2024 (`4e304dd1`) and February 27, 2025 (`c0b60759`), HoneyRoad saw two commits. Both were infrastructure changes — image hosting migration. Eight months of near-silence.
 
 This was The Long Wait referenced in [Team History](team-history.md) — the period when Berachain mainnet was delayed and the team held position. The art was complete (see [Creative Process](creative-process.md)). The prototype was functional. The contracts were being audited (audit fixes appear in the contracts repo around May 2024 ⚠️). But the chain wasn't live.
 
@@ -98,7 +100,7 @@ These were the first tangible Mibera product to reach holders, months before the
 
 ## VII. The Presale (February – March 2025)
 
-Berachain went live. The interface reactivated with a presale system:
+Berachain went live. HoneyRoad reactivated with a presale system:
 
 | Date | Milestone | Hash |
 |------|-----------|------|
@@ -175,7 +177,7 @@ Ten [fracture reveals](../fractures/README.md) — from MiParcels through miReve
 
 ## IX. The Living Market (August 2025 – Present)
 
-After the feature storm, the interface matured from prototype to production:
+After the feature storm, HoneyRoad matured from prototype to production:
 
 ### HoneyGPT Phase 2
 
@@ -272,7 +274,7 @@ The full stack as it exists today:
 
 ## Contributors
 
-The interface was built primarily by **soju (treblale/zksoju)** — 915 of 1,608 commits — with significant contributions from **jani (janitooor)** on full-stack and contract integration, **zerker (notzerker/zergucci)** on architecture and auth infrastructure, and **exp.table** on smart contracts, VM traits, and on-chain logic. See [Team History](team-history.md) for full profiles.
+HoneyRoad was built primarily by **soju (treblale/zksoju)** — 915 of 1,608 commits — with significant contributions from **jani (janitooor)** on full-stack and contract integration, **zerker (notzerker/zergucci)** on architecture and auth infrastructure, and **exp.table** on smart contracts, VM traits, and on-chain logic. See [Team History](team-history.md) for full profiles.
 
 ---
 
