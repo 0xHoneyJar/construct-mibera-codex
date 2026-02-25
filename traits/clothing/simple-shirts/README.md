@@ -6,9 +6,14 @@
 
 ## Overview
 
-Simple shirts are solid-colored base garments without graphics or patterns. They serve as neutral foundations that don't affect archetype coherence, functioning as a visual reset that lets other traits — hats, face accessories, items — carry the tribal signal. In a collection dense with cultural references, the simple shirt is deliberate restraint.
+Simple shirts are solid-colored base garments without graphics or patterns. They serve as neutral foundations that don't affect archetype coherence, functioning as a visual reset that lets other traits — hats, face accessories, items — carry the tribal signal.
 
 Because simples carry no archetype tag, they are scored at 0X in the Swag Score calculation (same as mouth, friend, and eyebrow traits). They neither help nor hurt tribal coherence, making them the only clothing layer that is truly archetype-neutral.
+
+### Chaos
+
+There was a fair amount of chaos injected into the process of ultimately deciding on the simple shirts. There are a variety of designs that are NOT recorded in the metadata which are visually present within the category. 
+
 
 ### Design Philosophy
 
