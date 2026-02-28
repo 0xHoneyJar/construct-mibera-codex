@@ -75,6 +75,6 @@
 
 ## Community (1)
 
-*Custom commissions for community members. Not yet on-chain.*
+*Custom commissions for community members.*
 
-- [Mijedi](mijedi.md) · for Miggs (@ruwaiting4)
+- [Mijedi](mijedi.md) · #4701 · for Miggs (@ruwaiting4)
