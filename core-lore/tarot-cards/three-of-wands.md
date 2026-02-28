@@ -10,6 +10,18 @@ molecule: C17H21NO4
 
 # Three of Wands
 
+## Interpretation
+
+The Three of Wands marks the point where vision becomes expansion. The plans of the Two have been set in motion; now the figure watches ships leave the harbor, confident that ventures will return multiplied. Traditional readings emphasize foresight, enterprise, and the courage required to commit resources to an uncertain horizon. Upright, this card radiates confidence, not the untested bravado of the Ace, but earned conviction born from having already taken the first steps. In its shadow aspect, the Three of Wands reveals the darker face of ambition: escapism dressed as exploration, the restless need to be anywhere but here, and an inner unrest that no expansion can satisfy.
+
+As a Fire card, the Three of Wands is flame that has found fuel and is now spreading. It is no longer a spark or a held torch but a fire with its own momentum. This card textures a bearer's expression with expansive confidence, sometimes magnetic, sometimes reckless. A Mibera carrying the Three of Wands will tend to project outward, to assume that the world has room for them and that distant possibilities are worth chasing. When this confidence meets certain archetypes or ancestral lines, it can produce visionary boldness. When it meets others, it can produce a restlessness that mistakes movement for meaning.
+
+## Drug Pairing
+
+Cocaine is the drug of empire and escapism simultaneously, a substance that arrived in Europe via the colonial extraction of South American coca traditions and went on to fuel both nineteenth-century medicine and twentieth-century excess. Its pharmacological signature is a surge of confidence, euphoria, and the conviction that one's current trajectory is not just correct but magnificent. This is the Three of Wands distilled into powder: the feeling that your ships will come in, that the horizon bends toward you.
+
+The pairing captures both the upright and shadow dimensions of the card. Cocaine's initial effect mirrors the Three's genuine courage and foresight, the user feels capable, articulate, expanded. But the drug's arc inevitably bends toward its shadow: the confidence curdles into grandiosity, the expansion becomes escapism, and the inner unrest the card warns of becomes the crash that follows every high. Coca leaves chewed by Andean laborers sustained genuine endurance; cocaine snorted in nightclub bathrooms sustains only the illusion of it. The Three of Wands asks which version of confidence you are carrying.
+
 ## Drug Association
 
 **Drug:** [Cocaine](../../drugs-detailed/cocaine.md)

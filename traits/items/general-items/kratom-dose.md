@@ -1,7 +1,7 @@
 ---
 name: kratom dose
 image: SS3_freetekno_thai_Kratom.PNG
-archetype: freetekno
+archetype: Freetekno
 swag_score: 3
 date_added: "2024-12-09"
 ---

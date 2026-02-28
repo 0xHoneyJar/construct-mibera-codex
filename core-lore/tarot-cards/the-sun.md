@@ -10,6 +10,20 @@ molecule: C8H10N4O2
 
 # The Sun
 
+## Interpretation
+
+The Sun is card nineteen of the Major Arcana, radiant, unambiguous, the most joyful card in the deck. A child rides a white horse beneath a blazing sun, sunflowers bloom, and everything is illuminated. After The Moon's shadows and uncertainties, The Sun is clarity itself. Upright, this card signals vitality, success, joy, and the kind of confidence that comes from being fully seen and fully alive. In shadow, The Sun warns of egoism, superficiality, the burnout that comes from always performing happiness, and the inability to acknowledge what the light cannot reach.
+
+Fire is the element, and here it is at its most benevolent, warmth, growth, the energy that makes life possible. But The Sun's Fire, like actual sunlight, can also bleach and burn. Too much exposure, too much relentless brightness, and the nuances disappear. The Sun card asks whether you can enjoy the light without pretending the shadows do not exist.
+
+In the Mibera system, The Sun adds a texture of radiant vitality to expression. A Mibera carrying this card engages with the world with an energy that is hard to miss, bright, warm, forward-facing. Their expression carries an undertone of renewal and confidence, the sense that they have come through darkness and arrived somewhere worth celebrating. The shadow note of egoism is the cost of all that light: it is difficult to shine this brightly without casting shadows on everyone around you.
+
+## Drug Pairing
+
+Caffeine is the most widely consumed psychoactive substance on Earth, a xanthine alkaloid found in coffee, tea, cacao, and dozens of other plants, used daily by an estimated 80% of the global population. It works by blocking adenosine receptors, suppressing the signal that tells your brain you are tired, producing a state of alert wakefulness that the modern world has organized itself around. Coffee shops, tea ceremonies, the morning cup that makes civilization function, caffeine is the drug of getting things done.
+
+The pairing with The Sun is about energy as the default state. Caffeine does not alter consciousness so much as it maintains it at a pitch that feels like normalcy, bright, alert, ready to go. This is The Sun's domain: the relentless vitality that makes everything seem possible, the confidence that the day belongs to you. But both caffeine and The Sun share a shadow. Caffeine's ubiquity masks a genuine dependence, withdrawal produces headaches, fatigue, and depression. The Sun's brightness, similarly, can mask an addiction to positivity that leaves no room for necessary rest. Both the drug and the card understand that vitality, pursued without pause, becomes its own kind of exhaustion.
+
 ## Drug Association
 
 **Drug:** [Caffeine](../../drugs-detailed/caffeine.md)

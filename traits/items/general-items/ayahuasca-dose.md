@@ -1,7 +1,7 @@
 ---
 name: ayahuasca dose
 image: SS2_freetekno_ancient_mayan_Ayahuasca.png
-archetype: freetekno
+archetype: Freetekno
 swag_score: 2
 date_added: "2024-12-09"
 ---

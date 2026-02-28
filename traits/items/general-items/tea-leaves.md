@@ -1,7 +1,7 @@
 ---
 name: tea leaves
 image: SS3_milady_ancient_chinese_japanese_Tea.PNG
-archetype: milady
+archetype: Milady
 swag_score: 3
 date_added: "2024-12-09"
 ---

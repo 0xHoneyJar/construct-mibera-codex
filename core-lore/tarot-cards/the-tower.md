@@ -10,6 +10,20 @@ molecule: C12H16N2O
 
 # The Tower
 
+## Interpretation
+
+The Tower is card sixteen of the Major Arcana, a lightning bolt strikes a tall structure, figures fall, flames erupt from the windows. This is the most dramatic card in the deck and the one most readers dread drawing. Upright, The Tower signals sudden, unavoidable disruption: the collapse of structures (beliefs, relationships, institutions) that were built on false foundations. The destruction is not arbitrary; it is corrective. What falls was going to fall. Lightning merely chose the moment. In shadow, The Tower warns of clinging to the ruins, of refusing to accept that the old structure cannot be repaired, and of the particular madness of rebuilding on the same faulty foundation.
+
+Fire is the element, and here it is at its most violent, the lightning strike, the uncontrolled blaze. This is not Fire as forge or engine; it is Fire as revelation through destruction, the sudden illumination that comes from seeing everything you built in flames and understanding, in that terrible light, what was real and what was pretense.
+
+In the Mibera system, The Tower adds a texture of disruptive clarity to expression. A Mibera carrying this card is not afraid of upheaval, or if they are, they understand that fear of The Tower does not prevent The Tower. Their expression carries an undertone of radical honesty, the willingness to let false structures collapse rather than prop them up, and the hard-won knowledge that freedom sometimes looks like rubble.
+
+## Drug Pairing
+
+Bufotenin (5-HO-DMT) is a tryptamine found in the skin secretions of certain toads (most famously Bufo alvarius), in the seeds of the yopo tree (Anadenanthera peregrina), and in trace amounts in human urine. It bridges ancient and modern use: Mesoamerican peoples used toad secretions and yopo snuff in ritual contexts, while modern psychonauts have rediscovered its brief, intense psychoactive effects, a rapid onset that can feel like being seized by something far larger than yourself.
+
+The pairing with The Tower is about the shock of sudden revelation. Bufotenin does not build slowly like psilocybin or unfold gradually like LSD; it arrives all at once, often overwhelmingly, with a physiological intensity (flushing, pressure, disorientation) that mirrors The Tower's lightning strike. Both the drug and the card share an unreasonable quality, they do not negotiate, they do not warn, they simply arrive and rearrange everything. The freedom on the other side of a bufotenin experience, like the freedom after The Tower, is real but earned through a moment of total destabilization.
+
 ## Drug Association
 
 **Drug:** [Bufotenin](../../drugs-detailed/bufotenin.md)

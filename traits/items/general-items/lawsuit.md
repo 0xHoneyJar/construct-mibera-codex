@@ -1,7 +1,7 @@
 ---
 name: lawsuit
 image: SS1_milady_Lawsuit.png
-archetype: milady
+archetype: Milady
 swag_score: 1
 date_added: "2024-12-09"
 ---

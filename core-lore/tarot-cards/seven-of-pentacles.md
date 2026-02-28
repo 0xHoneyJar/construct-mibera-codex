@@ -10,6 +10,20 @@ molecule: C21H30O2
 
 # Seven of Pentacles
 
+## Interpretation
+
+The Seven of Pentacles shows a farmer leaning on a hoe, gazing at the pentacles growing from a bush they have tended. The harvest is not yet ready, but the growth is visible. It is the card of patience in the middle distance, past the planting, before the reaping, in the long stretch where the only thing to do is tend and wait. Upright, it represents the quiet discipline of cultivation, the groundedness required to trust a process you cannot accelerate, and the wisdom to evaluate progress honestly without either premature celebration or despair. In its shadow, the Seven warns against impatience, the temptation to uproot what you have planted just to see if the roots have taken, or the paralysis of waiting so long that you miss the harvest entirely.
+
+Earth is at its most fundamental here. The Seven of Pentacles is literally about soil, growth cycles, and the farmer's ancient contract with time. It is the most agricultural card in the suit, grounded not in coin or commerce but in the living relationship between labor and land. This card colors its bearer with unhurried cultivation. It adds a deep patience to expression, the kind that comes from understanding that some things cannot be rushed because they are alive and growing on their own schedule.
+
+Miberas marked by the Seven of Pentacles carry a grounded, growing energy. They are the gardeners of the collection, the ones who plant and tend and wait, trusting the process because they have seen what patient cultivation yields.
+
+## Drug Pairing
+
+CBD (cannabidiol, the non-psychoactive compound extracted from cannabis) is the pharmacological embodiment of the Seven of Pentacles' patient, grounded energy. Where THC alters consciousness dramatically, CBD works subtly, beneath notice, reducing inflammation and anxiety without fanfare or euphoria. It does not announce itself. It simply tends to the body the way the farmer tends to the field: quietly, consistently, without expectation of immediate spectacle.
+
+The pairing also connects through cultivation itself. CBD comes from cannabis, one of humanity's oldest cultivated plants, a crop that requires patience, careful tending, and attentiveness to growing conditions. The farmer on the Seven of Pentacles could easily be growing hemp. Both card and compound speak to the rewards of slow, steady, unglamorous care. The texture is quiet tending: someone grounded enough to wait for what they are growing, trusting that the compound effect of daily care will produce something worth harvesting.
+
 ## Drug Association
 
 **Drug:** [CBD](../../drugs-detailed/cbd.md)

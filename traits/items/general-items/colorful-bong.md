@@ -1,7 +1,7 @@
 ---
 name: colorful bong
 image: SS2_chicagodetroit_Colorful Bong.PNG
-archetype: chicago detroit
+archetype: Chicago Detroit
 swag_score: 2
 date_added: "2024-07-10"
 ---

@@ -10,6 +10,20 @@ molecule: C20H26N2O
 
 # The Hanged Man
 
+## Interpretation
+
+The Hanged Man is card twelve of the Major Arcana, a figure suspended upside down by one foot, not in agony but in contemplation. His expression, in most depictions, is serene. This is not punishment; it is chosen perspective. Upright, The Hanged Man signals the willingness to see the world from an entirely different angle, to sacrifice comfort for understanding, and to find meaning in stillness when action has reached its limits. In shadow, he warns of martyrdom as identity, unnecessary self-sacrifice, and the paralysis of someone who has suspended themselves so long they have forgotten how to come down.
+
+Water is the element, and it suits the card's quality of surrender. The Hanged Man does not fight gravity; he works with it, letting the blood rush to his head and the world rearrange itself around him. This is the wisdom of reversal, the understanding that some truths are only visible when you stop trying to stand upright.
+
+In the Mibera system, The Hanged Man adds a texture of unconventional perception. A Mibera carrying this card sees things differently, not through contrarianism but through genuine willingness to invert their assumptions. Their expression carries an undertone of redemptive patience, the sense that understanding sometimes requires being willing to hang in uncertainty rather than grab the nearest answer.
+
+## Drug Pairing
+
+Iboga (Tabernanthe iboga) is the sacred root bark of the Bwiti religion of Central Africa, used in initiation ceremonies that can last days and involve intense physical and psychological ordeals. Ibogaine, its primary alkaloid, produces a prolonged visionary state that practitioners describe as a complete life review, a waking dream in which you witness your own history from outside yourself, seeing patterns and consequences that were invisible from within.
+
+The connection to The Hanged Man is structural. Iboga does not offer the gentle dissolution of psilocybin or the cosmic expansion of LSD; it forces a total inversion of perspective, often uncomfortable, always transformative. Like The Hanged Man, iboga demands that you hang in discomfort long enough for the new angle to reveal what it needs to reveal. Both the card and the plant understand that redemption is not given freely, it is earned through the willingness to see yourself as you actually are, which requires first being willing to see yourself upside down.
+
 ## Drug Association
 
 **Drug:** [Iboga](../../drugs-detailed/iboga.md)

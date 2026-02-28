@@ -1,7 +1,7 @@
 ---
 name: how to stay in hell
 image: SS1_milady_How to stay in hell.PNG
-archetype: milady
+archetype: Milady
 swag_score: 1
 date_added: "2024-12-09"
 ---

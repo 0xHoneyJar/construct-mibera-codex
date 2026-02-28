@@ -1,7 +1,7 @@
 ---
 name: sassafras plant
 image: SS3_milady_ancient_nativeAmerican_Sassafras.PNG
-archetype: milady
+archetype: Milady
 swag_score: 3
 date_added: "2025-01-10"
 ---

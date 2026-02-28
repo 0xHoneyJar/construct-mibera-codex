@@ -1,7 +1,7 @@
 ---
 name: clear pill capsule
 image: SS3_milady_satanists_clear pill.PNG
-archetype: milady
+archetype: Milady
 swag_score: 3
 date_added: "2024-12-09"
 ---

@@ -1,7 +1,7 @@
 ---
 name: syrian rue plant
 image: SS3_freetekno_ancient_sufi_syrian rue.PNG
-archetype: freetekno
+archetype: Freetekno
 swag_score: 3
 date_added: "2025-01-10"
 ---

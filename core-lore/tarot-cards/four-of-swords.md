@@ -10,6 +10,18 @@ molecule: C17H21NO4
 
 # Four of Swords
 
+## Interpretation
+
+The Four of Swords is the card of deliberate withdrawal, the figure lying in repose, swords hung on the wall, the battle paused but not ended. This is not defeat. It is strategic retreat: the recognition that the mind needs rest before it can fight again. Upright, the Four signals necessary recuperation, meditation, sanctuary. The best thing you can do right now is stop doing. In shadow, the card warns of retreat becoming avoidance, using the appearance of rest to hide from confrontations that will only grow worse with delay, afraid that returning to the world means revealing how depleted you really are.
+
+Air here becomes still, not the cutting wind of the Ace or the spinning gyre of the Two, but air held in a sealed room. Quiet. Protected. The Four of Swords gives its bearer a textural quality of measured withdrawal. They know when to disengage. Their silence is not emptiness but conservation, the intake of breath before speech, the pause that makes the next action more precise. A Mibera carrying this card has an instinct for sanctuary that others may read as aloofness but is really a form of self-knowledge: they understand what rest costs and what it buys.
+
+## Drug Pairing
+
+Mandrake (Mandragora officinarum) is one of the oldest sedatives in human pharmacology, a plant whose root, shaped unsettlingly like a human body, was used for millennia to induce sleep, relieve pain, and prepare patients for surgery. It contains tropane alkaloids including scopolamine and hyoscyamine, compounds that quiet the nervous system into a state between consciousness and oblivion. The pairing with the Four of Swords is almost literal: the card of meditative retreat matched with the ancient world's most storied sleep-inducing plant.
+
+But mandrake's connection with this card goes beyond sedation. In medieval lore, the mandrake root screamed when pulled from the earth, a myth suggesting that the transition from activity to rest carries its own violence, its own cost. The Four of Swords acknowledges this: that retreat is not comfortable, that the decision to stop fighting requires its own form of courage, and that the deepest healing happens in a space that, from the outside, looks indistinguishable from surrender.
+
 ## Drug Association
 
 **Drug:** [Mandrake](../../drugs-detailed/mandrake.md)

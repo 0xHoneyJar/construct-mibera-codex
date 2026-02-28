@@ -1,7 +1,7 @@
 ---
 name: euphoria sun
 image: SS5_chicagodetroit_mongolian_Euphoria Sun.PNG
-archetype: chicago detroit
+archetype: Chicago Detroit
 swag_score: 5
 date_added: "2024-12-09"
 ---

@@ -1,7 +1,7 @@
 ---
 name: devon head
 image: "https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS4_freetekno_Devon%20Head.webp"
-archetype: freetekno
+archetype: Freetekno
 swag_score: 4
 date_added: "2024-07-27"
 ---

@@ -1,7 +1,7 @@
 ---
 name: sherlock glass pipe
 image: SS3_acidhouse_Sherlock Glass Pipe.png
-archetype: acidhouse
+archetype: Acidhouse
 swag_score: 3
 date_added: "2024-07-23"
 ---

@@ -1,7 +1,7 @@
 ---
 name: phone
 image: SS1_freetekno_Phone.png
-archetype: acidhouse
+archetype: Acidhouse
 swag_score: 1
 date_added: "2024-12-09"
 ---

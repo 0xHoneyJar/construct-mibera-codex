@@ -1,7 +1,7 @@
 ---
 name: mibera sweat
 image: SS1_milady_Mibera Sweat.png
-archetype: milady
+archetype: Milady
 swag_score: 1
 date_added: "2024-07-04"
 ---

@@ -10,6 +10,18 @@ molecule: C2H4
 
 # Knight of Swords
 
+## Interpretation
+
+The Knight of Swords charges, this is the card of intellectual force in motion, the figure on horseback at full gallop, blade raised, riding directly into the storm. Where the Page investigates and the Queen adjudicates, the Knight acts on ideas with an urgency that borders on recklessness. Upright, the Knight signals decisive action, the courage of conviction, the willingness to pursue truth regardless of the consequences. In shadow, the Knight warns of intellectual arrogance, the belief that being right justifies any collateral damage, the charge into battle without checking whether the cause is just.
+
+Air as velocity, this is the mind that does not deliberate but strikes. The Knight of Swords gives its bearer an independence of thought that can feel like detachment. They form conclusions quickly and act on them without waiting for consensus. Their emotional unattachment is not coldness but a particular cognitive style: thinking first, feeling later, sometimes much later. There is an exhilarating quality to their certainty, and a loneliness in it too, the knight charges alone.
+
+## Drug Pairing
+
+Ethylene is one of the oldest intoxicants in recorded history, the gas that seeped from geological fissures beneath the Oracle at Delphi, inhaled by the Pythia as she delivered prophecies that shaped the ancient world. A simple molecule (C2H4), it produces lightheadedness, euphoria, and dissociative states at sufficient concentration. The pairing with the Knight of Swords operates through the connection between independent thought and oracular authority: both the Knight and the gas at Delphi represent knowledge that arrives from outside the normal channels of deliberation.
+
+The connection is between two forms of conviction that bypass the usual epistemic process. Ethylene did not teach the Pythia anything, it removed the filters that prevented her from speaking what she already knew, or what the god knew through her. The Knight of Swords similarly does not arrive at conclusions through patient analysis but through a flash of certainty that demands immediate action. Both card and substance suggest that some truths can only be accessed at speed, by minds willing to outrun their own caution.
+
 ## Drug Association
 
 **Drug:** [Ethylene](../../drugs-detailed/ethylene.md)

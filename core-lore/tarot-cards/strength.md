@@ -10,6 +10,20 @@ molecule: C23H30N2O4
 
 # Strength
 
+## Interpretation
+
+Strength is card eight of the Major Arcana (or eleven, depending on the deck tradition), and its imagery tells the whole story: a figure gently opening a lion's mouth, not through force but through calm, assured presence. This is not the strength of domination but of self-mastery, the ability to face raw, primal energy without flinching and without escalating. Upright, Strength signals courage, inner resolve, patience, and the kind of self-assuredness that does not need to prove itself. In shadow, it warns of self-doubt masquerading as humility, repressed anger, and the exhaustion that comes from holding everything together through willpower alone.
+
+Fire is the element, and here it burns as sustained inner heat rather than explosive outward force. Strength's fire is the kind that forges rather than consumes, the slow, steady intensity of someone who has learned that the most dangerous forces in their life are internal, and that mastering them is the real battle.
+
+Strength adds a texture of quiet resilience and grounded energy. A Mibera carrying this card does not need external validation of their power. Their expression carries an undertone of self-possession, the sense that they have already faced what frightens them and chosen not to be ruled by it. It is a deeply embodied card, less about what you think and more about what you can endure.
+
+## Drug Pairing
+
+Kratom (Mitragyna speciosa) is a Southeast Asian tree whose leaves have been chewed by laborers, farmers, and fishermen for centuries to manage pain, sustain energy, and endure long hours of physical work. At low doses it is a stimulant; at higher doses, a sedative and analgesic. This dual nature (energizing and soothing in the same plant) mirrors the Strength card's central paradox of power through gentleness.
+
+The pairing is grounded in practical endurance rather than visionary experience. Kratom is not a drug of revelation; it is a drug of getting through the day when the day is brutal. This is Strength's domain exactly, not the dramatic heroism of a single moment but the quiet, sustained capacity to keep going. Both kratom and the card understand that real strength is not spectacular. It is the laborer who chews a leaf and returns to work, the figure who opens the lion's mouth not because they are unafraid but because they have decided that fear will not make their choices for them.
+
 ## Drug Association
 
 **Drug:** [Kratom](../../drugs-detailed/kratom.md)

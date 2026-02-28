@@ -10,6 +10,18 @@ molecule: C20H26N2O
 
 # Knight of Cups
 
+## Interpretation
+
+The Knight of Cups is the romantic quester, the figure on horseback carrying a single cup across a landscape with the focused intensity of someone delivering a message they believe will change everything. In traditional tarot, the Knight signals the arrival of new love, the pursuit of a creative vision, or the onset of a passionate undertaking. Unlike the Page's passive receptivity, the Knight is emotion in motion, desire that has found a direction and is riding toward it. Upright, it carries the intoxicating energy of sexuality, courtship, and the willingness to follow feeling wherever it leads. In its shadow aspect, the Knight warns of seduction without substance, the charming figure whose intensity masks a fundamental restlessness, and the lover who is more in love with the pursuit than with the person being pursued.
+
+As a Water card, the Knight channels the element as a directed current, the river cutting through stone, the wave that has found its shore. Emotion here has momentum and purpose, even if that purpose is ultimately self-serving. The Knight of Cups colors expression with romantic intensity, sexual charge, and being perpetually in pursuit of something that feels like destiny. A Mibera carrying this signal tends toward passion as a mode of engagement, with people, with ideas, with experience itself. The card does not define their beliefs but inflects how they move through the world: with the urgency of someone who has somewhere important to be and the magnetism of someone convinced they are carrying something you need.
+
+## Drug Pairing
+
+Ibogaine (the psychoactive alkaloid derived from the root bark of the West African *Tabernanthe iboga* plant, used in Bwiti initiation ceremonies and more recently investigated as a treatment for addiction) pairs with the Knight of Cups through their shared theme of transformative encounter. Ibogaine is not a gentle drug. It produces a prolonged, often grueling visionary experience that practitioners describe as confronting the deepest truths about yourself, including the patterns of desire and attachment that drive your behavior. It is a journey into the underworld of your own psyche, undertaken in pursuit of liberation.
+
+The Knight of Cups' association with new love and sexuality connects with ibogaine's role in initiation, both describe a threshold crossing that changes your relationship to desire itself. In Bwiti tradition, iboga is taken to encounter the ancestors, to face death symbolically, and to return transformed. The Knight rides toward love; the ibogaine initiate rides toward self-knowledge. Both journeys require the same quality: the willingness to follow emotional truth into territory that may be beautiful, may be harrowing, and will certainly be different from where you started. The signal is passion as a transformative force, not merely a pleasant feeling.
+
 ## Drug Association
 
 **Drug:** [Ibogaine](../../drugs-detailed/ibogaine.md)

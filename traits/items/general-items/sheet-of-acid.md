@@ -1,7 +1,7 @@
 ---
 name: sheet of acid
 image: SS4_freetekno_Sheet Of Acid.png
-archetype: freetekno
+archetype: Freetekno
 swag_score: 4
 date_added: "2024-07-11"
 ---

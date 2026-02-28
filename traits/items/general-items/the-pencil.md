@@ -1,7 +1,7 @@
 ---
 name: the pencil
 image: SS3_milady_The Pencil.PNG
-archetype: milady
+archetype: Milady
 swag_score: 1
 date_added: "2024-12-09"
 ---

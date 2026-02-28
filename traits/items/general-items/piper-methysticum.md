@@ -1,7 +1,7 @@
 ---
 name: piper methysticum
 image: SS3_acidhouse_polynesian_aboriginal_Piper Methysticum.PNG
-archetype: acidhouse
+archetype: Acidhouse
 swag_score: 3
 date_added: "2024-12-09"
 ---

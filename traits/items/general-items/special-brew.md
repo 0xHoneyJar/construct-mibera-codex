@@ -1,7 +1,7 @@
 ---
 name: special brew
 image: SS2_freetekno_Special Brew.png
-archetype: freetekno
+archetype: Freetekno
 swag_score: 2
 date_added: "2024-07-07"
 ---

@@ -10,6 +10,18 @@ molecule: C21H30O2
 
 # Ace of Cups
 
+## Interpretation
+
+The Ace of Cups represents the purest form of emotional beginning, the overflowing chalice, the first surge of feeling before experience has shaped it into something specific. In traditional tarot, it signals new love, spiritual awakening, creative inspiration, or the onset of deep compassion. Upright, it is the gift of emotional receptivity: the willingness to feel without armor. In its shadow aspect, the Ace reversed suggests emotional blockage, repressed feelings, or a heart offered to something that cannot hold it, the cup tipped, its contents spilling into nothing.
+
+As a Water card, the Ace of Cups channels the element at its most undifferentiated. This is not the river (directed) or the ocean (vast) but the spring: water emerging from a source you cannot see. It speaks to origins rather than destinations. The Ace of Cups saturates a Mibera's expression with emotional porousness. It colors how they receive experience: with an unusual openness, a willingness to be moved, and sometimes a vulnerability to emotional flooding that they may or may not have learned to manage.
+
+## Drug Pairing
+
+Bhang (the ancient cannabis preparation ground from leaves and flowers into a paste, mixed with milk and spices, and consumed ritually across South Asia for millennia) pairs with the Ace of Cups through shared ground of uninhibited opening. Where the Ace offers emotional receptivity without filter, bhang has historically served as a devotional solvent: something that softens the boundary between the drinker and the divine, between self and feeling. It is Shiva's drink, associated with festival, prayer, and the deliberate dissolution of the walls that keep ordinary experience contained.
+
+Both the card and the drug gesture toward the same threshold, the moment before discernment, when feeling arrives whole and unprocessed. Bhang does not sharpen; it opens. The Ace does not direct; it overflows. Together they describe a Mibera whose emotional texture runs toward the unguarded, the devotional, the wide-open.
+
 ## Drug Association
 
 **Drug:** [Bhang](../../drugs-detailed/bhang.md)

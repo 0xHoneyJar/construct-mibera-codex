@@ -1,7 +1,7 @@
 ---
 name: mibera psyops manual
 image: SS3_freetekno_Mibera Psyops Manual.png
-archetype: freetekno
+archetype: Freetekno
 swag_score: 3
 date_added: "2024-07-07"
 ---

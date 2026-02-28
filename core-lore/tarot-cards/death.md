@@ -10,6 +10,20 @@ molecule: C13H16ClNO
 
 # Death
 
+## Interpretation
+
+Death is card thirteen of the Major Arcana, and no card in the tarot is more misunderstood. The skeleton on horseback is not a threat; it is a fact. Something is ending. The traditional meaning is transformation through release, the necessary death of an old self, an old pattern, or an old situation so that something new can emerge. Upright, Death signals profound change, the shedding of what no longer serves, and the liberation that comes from accepting impermanence. In shadow, it warns of resistance to change so fierce that it becomes its own form of death, the slow suffocation of clinging to what is already gone.
+
+Water is the element, and here it is the river that carries the dead to wherever they are going. Death's Water is not the still pool of The High Priestess or the emotional current of The Chariot; it is the current that cannot be reversed, the flow that only moves in one direction. To accept Death is to accept that you are in a river, not a lake.
+
+In the Mibera system, Death gives expression a transformative, unsentimental quality. A Mibera carrying this card is textured by comfort with endings and the changes they make possible. Their engagement with the world carries an undertone of clarity about impermanence, not morbidity but the particular sharpness of perception that comes from understanding that nothing lasts, and that this is not tragedy but the condition for everything that matters.
+
+## Drug Pairing
+
+Ketamine was synthesized in 1962 as a surgical anesthetic and has since become one of the most studied substances in the treatment of depression, PTSD, and chronic pain. At sub-anesthetic doses, it produces dissociation, a profound separation of consciousness from ordinary bodily and psychological experience that users describe as the "k-hole": a space where the self dissolves and reassembles, where the boundary between being alive and not being alive becomes theoretical rather than absolute.
+
+The pairing with Death is about ego dissolution as rehearsal for transformation. Ketamine does not kill the body, but it offers the mind an experience of dying, the temporary cessation of the narrative self, the dissolution of the story you tell yourself about who you are. Death in the tarot operates on the same principle: it is not literal death but the death of a version of yourself that must end for the next version to begin. Both the drug and the card teach that the space between one self and the next is not empty. It is where the real work of change happens.
+
 ## Drug Association
 
 **Drug:** [Ketamine](../../drugs-detailed/ketamine.md)

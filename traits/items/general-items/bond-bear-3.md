@@ -1,7 +1,7 @@
 ---
 name: bond bear 3
 image: SS4_milady_Bond Bear 3.png
-archetype: milady
+archetype: Milady
 swag_score: 4
 date_added: "2024-07-11"
 ---

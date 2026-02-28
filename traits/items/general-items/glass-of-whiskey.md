@@ -1,7 +1,7 @@
 ---
 name: glass of whiskey
 image: SS2_chicagodetroit_glass of whiskey.PNG
-archetype: chicago detroit
+archetype: Chicago Detroit
 swag_score: 2
 date_added: "2025-01-16"
 ---

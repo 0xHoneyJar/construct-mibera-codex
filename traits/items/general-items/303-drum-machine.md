@@ -1,7 +1,7 @@
 ---
 name: 303 drum machine
 image: SS5_chicagodetroit_303 Drum Machine.png
-archetype: chicago detroit
+archetype: Chicago Detroit
 swag_score: 5
 date_added: "2024-07-12"
 ---

@@ -10,6 +10,18 @@ molecule: C10H15NO
 
 # Ace of Wands
 
+## Interpretation
+
+The Ace of Wands is the spark before the fire, raw creative potential surging into existence. In traditional tarot, it represents new beginnings charged with passion, inspiration, and the almost unbearable urge to act. Upright, the card signals a burst of enthusiasm: a venture, a vision, a calling that arrives with physical intensity. It is desire made directional. In its shadow aspect, that same surge becomes reckless craving, energy without aim, ambition that consumes its host, the false start mistaken for destiny.
+
+As a Fire card, the Ace of Wands is elemental ignition itself. Fire does not deliberate. It catches or it doesn't. This card colors how a Mibera expresses its deeper traits. A Mibera carrying the Ace of Wands will tend toward intensity of first impulse, not necessarily sustained fire, but the initial flash that lights everything else. It flavors the way those load-bearing signals manifest. The Sage becomes a visionary seized by revelation. The Warrior charges without waiting for orders. The texture is always ignition, always craving, always the first breath of flame.
+
+## Drug Pairing
+
+Ephedra is one of humanity's oldest stimulants, harvested from desert shrubs across Central Asia and used in traditional Chinese medicine as ma huang for millennia before its alkaloids were synthesized into modern amphetamines. It is the botanical origin point of stimulant culture, the ancient root from which pharmaceutical speed descends. This makes it a natural pairing for the Ace of Wands: both represent the raw, original spark before refinement or consequence.
+
+The connection runs deeper than mere stimulation. Ephedra opens airways and accelerates the heart, producing a sense of alertness and physical readiness that mirrors the Ace's promise of fiery potential. But ephedra is also a plant that thrives in harsh, arid environments, it survives where gentler species cannot. The pairing suggests that the creative fire of the Ace is not delicate inspiration but something hardier: a craving that persists through inhospitable conditions, an urgency rooted in survival itself.
+
 ## Drug Association
 
 **Drug:** [Ephedra](../../drugs-detailed/ephedra.md)

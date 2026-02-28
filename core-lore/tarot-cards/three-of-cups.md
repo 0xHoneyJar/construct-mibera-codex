@@ -10,6 +10,18 @@ molecule: C10H10O2
 
 # Three of Cups
 
+## Interpretation
+
+The Three of Cups is the card of celebration, creative collaboration, and the particular joy that emerges when people come together in genuine harmony. Traditional imagery shows three figures raising their cups in toast, the party, the harvest feast, the moment when collective effort produces something none could have made alone. Upright, it signals friendship, artistic synergy, and the ease that comes from working with people who share your rhythm. In its shadow aspect, the Three warns of groupthink, superficial revelry that masks deeper problems, and the uncertainty that lurks beneath apparent harmony. Not every gathering is honest, and not every collaboration survives its first disagreement.
+
+As a Water card, the Three of Cups channels the element in its communal expression, the confluence of streams, water that mingles freely rather than flowing in a single channel. Emotion here is collective, shared, amplified by proximity. This card colors expression with a natural orientation toward creative community. A Mibera carrying this signal tends toward collaborative instincts and social fluidity, but may also carry an undertone of unease about whether the harmony is real or performed. The card does not define their worldview; it colors their mode of expression with both the warmth of belonging and the quiet question of whether it will last.
+
+## Drug Pairing
+
+Sassafras (the aromatic root bark used for centuries in folk medicine, tea, and eventually as the precursor to MDMA's key compound safrole) pairs with the Three of Cups through their shared association with communal warmth and sensory pleasure. Long before anyone understood its chemistry, sassafras was a gathering-point substance: brewed into teas at social events, flavoring root beer at community soda fountains, passed around as a tonic that brought people together over something pleasant and mildly stimulating.
+
+The connection runs deeper than social context. Sassafras carries a molecular echo of empathogenic experience, it is, chemically speaking, adjacent to the compounds that would later define rave culture and collective euphoria. Pairing it with the Three of Cups honors both the ancient tradition of communal celebration and the modern understanding that certain substances lower the walls between people, making creative harmony feel not just possible but inevitable. The shadow is there too: sassafras was banned in part because its warmth concealed real risks, just as the Three of Cups' harmony can conceal real uncertainty.
+
 ## Drug Association
 
 **Drug:** [Sassafras](../../drugs-detailed/sassafras.md)

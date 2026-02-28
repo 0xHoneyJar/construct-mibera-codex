@@ -1,7 +1,7 @@
 ---
 name: kwao krua dose
 image: SS2_milady_ancient_thai_kwao krua.PNG
-archetype: milady
+archetype: Milady
 swag_score: 2
 date_added: "2025-01-10"
 ---

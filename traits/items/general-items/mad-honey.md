@@ -1,7 +1,7 @@
 ---
 name: mad honey
 image: SS3_milady_ancient_nepal_turkey_Mad Honey.png
-archetype: milady
+archetype: Milady
 swag_score: 3
 date_added: "2024-12-09"
 ---

@@ -1,7 +1,7 @@
 ---
 name: purple glowstick
 image: SS1_acidhouse_Purple Glowstick.png
-archetype: acidhouse
+archetype: Acidhouse
 swag_score: 1
 date_added: "2024-07-23"
 ---

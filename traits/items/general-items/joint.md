@@ -1,7 +1,7 @@
 ---
 name: joint
 image: SS1_chicagodetroit_joint.png
-archetype: chicago detroit
+archetype: Chicago Detroit
 swag_score: 1
 date_added: "2024-12-09"
 ---

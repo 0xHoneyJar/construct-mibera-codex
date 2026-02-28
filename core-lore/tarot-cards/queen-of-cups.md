@@ -10,6 +10,18 @@ molecule: C10H14BrNO2
 
 # Queen of Cups
 
+## Interpretation
+
+The Queen of Cups sits at the threshold between the conscious and the unconscious, holding a sealed, ornate cup that she alone can read. She is the card of emotional mastery, not the suppression of feeling but its deep integration, the capacity to hold immense sensitivity within a structure stable enough to contain it. Upright, the Queen signals intuitive wisdom, emotional intelligence that functions as genuine knowledge, and the rare ability to remain compassionate without being consumed by what you feel. She knows things that cannot be learned through study, because she has learned them through sustained, unflinching contact with the full spectrum of human emotion. In her shadow aspect, the Queen warns of emotional manipulation, the psychic who uses their sensitivity as a weapon, and the danger of becoming so attuned to others' feelings that your own become a mystery even to yourself.
+
+As a Water card, the Queen channels the element at its deepest and most still, the underground lake, the aquifer that feeds everything above it without being visible from the surface. Emotion here is not displayed but held, not performed but known. The Queen of Cups colors expression with profound emotional depth operating beneath a calm exterior. A Mibera carrying this signal tends toward a sensitivity that registers as stability rather than fragility, and may possess an uncanny ability to read situations and people that others find either comforting or unnerving. The card does not define their worldview but gives their presence deep knowing, the sense that they have access to information the rest of the room does not.
+
+## Drug Pairing
+
+2C-B (the phenethylamine psychedelic synthesized by Alexander Shulgin in 1974, occupying the unusual pharmacological space between MDMA's empathogenic warmth and LSD's perceptual intensity) pairs with the Queen of Cups through their shared quality of sensitivity enhanced without stability sacrificed. 2C-B is often described as the "gentle psychedelic," not because it lacks power but because it allows the user to navigate its effects with unusual clarity. You feel more, see more, sense more, but you do not lose yourself in the process. This is the Queen's domain: expanded perception held within a coherent self.
+
+The connection extends to 2C-B's cultural position. It is a connoisseur's drug, favored by those who have enough psychedelic experience to know what they want from altered states and enough self-knowledge to navigate them with intention. Shulgin himself described it as one of his most important creations, a molecule that combined emotional depth with cognitive lucidity. The Queen of Cups embodies this combination, deep knowledge that does not destabilize, sensitivity that informs rather than overwhelms. The signal is someone whose emotional perception operates at a frequency most people cannot access, and who has learned to make that perception useful rather than disorienting.
+
 ## Drug Association
 
 **Drug:** [2C-B](../../drugs-detailed/2c-b.md)

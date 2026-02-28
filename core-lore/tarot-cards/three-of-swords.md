@@ -10,6 +10,18 @@ molecule: C9H13N3O
 
 # Three of Swords
 
+## Interpretation
+
+The Three of Swords is the card of heartbreak made visible, traditionally depicted as three blades piercing a heart against a storming sky. But this is not the surprise wound of betrayal. It is the pain you saw coming and could not prevent, the grief that arrives on schedule, the sorrow that comes not from ignorance but from understanding too well. Upright, the Three signals emotional pain as a teacher: the kind of suffering that, once processed, leaves you with knowledge you could not have gained any other way. In shadow, it warns of wallowing, replaying the wound until repetition becomes identity, confusing feeling deeply with refusing to heal.
+
+As an Air card, the Three of Swords reveals something counterintuitive: that the mind can be the source of emotional pain. This is not the heart's suffering (that would be Cups) but the mind's suffering, the pain of knowing, of analyzing, of understanding exactly why something hurts and being unable to think your way out of it. This card colors its bearer with an emotional depth that comes from intellectual honesty. They do not flinch from painful truths. They process feeling through thought and thought through feeling in cycles that eventually produce wisdom, or, when the cycle stalls, the deep repetitive ache the card's meaning describes.
+
+## Drug Pairing
+
+Iproniazid was the first modern antidepressant, discovered by accident in the 1950s when tuberculosis patients given the drug began showing unexpected euphoria. Its pairing with the Three of Swords is a story about repetition breaking open into transformation, the card's core teaching. Iproniazid works as a monoamine oxidase inhibitor, preventing the breakdown of serotonin, dopamine, and norepinephrine. It doesn't create new feelings; it stops the chemical cycle that destroys them before they can register.
+
+The connection is between two kinds of repetition: the Three's cycle of revisiting pain, and iproniazid's interruption of the enzymatic cycle that degrades mood. Both suggest that deep change comes not from adding something new but from stopping a destructive loop. The first antidepressant and the card of deep feeling share a lesson, that sometimes the breakthrough is not an arrival but a cessation.
+
 ## Drug Association
 
 **Drug:** [Iproniazid](../../drugs-detailed/iproniazid.md)

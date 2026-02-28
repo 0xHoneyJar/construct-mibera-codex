@@ -10,6 +10,18 @@ molecule: C20H25N3O
 
 # Page of Wands
 
+## Interpretation
+
+The Page of Wands stands holding a single wand like a staff, gazing at it with the fascination of someone who has just discovered fire for the first time. In traditional tarot, the Pages represent youth, potential, and the earliest stages of engagement with their suit's element. The Page of Wands is creative enthusiasm in its most untempered form, all spark, no ash. Upright, the card signals optimism, fresh creative energy, and the infectious excitement of a beginner who doesn't yet know what can't be done. There is genuine power in this naivety: the Page's ideas are unconstrained by experience. In its shadow aspect, the Page of Wands becomes the bluffer and the braggart, talent that announces itself before it has proven anything, creativity that performs rather than produces, the arrogance of someone who mistakes potential for achievement.
+
+As a Fire card, the Page of Wands is the first flame a child learns to kindle, wonderful, dangerous, not yet understood. Fire in young hands. This card colors its bearer with youthful creative energy regardless of other signals. A Mibera carrying the Page of Wands will approach its archetype with a beginner's enthusiasm that can be either refreshing or exhausting. The Sage who rediscovers wonder. The Trickster who hasn't yet learned which tricks have consequences. The texture is always potential, brilliant, unproven, and slightly too loud about itself.
+
+## Drug Pairing
+
+Ololiuqui, the Nahuatl name for the seeds of Turbina corymbosa, a morning glory vine used in Mesoamerican divination and healing rituals for centuries before European contact, is a psychedelic that occupies a unique position in ethnobotanical history. Its active compounds, closely related to LSD, produce visionary states that Aztec and Zapotec practitioners used to communicate with the divine. The Spanish colonial authorities, unable to comprehend the practice, condemned it as diabolical, a pattern of misunderstanding that mirrors the Page's tendency to be dismissed by those who do not share their vision.
+
+The pairing connects on multiple levels. Ololiuqui is a seed, literally the beginning of a plant, the Page's unmanifested potential made botanical. The psychedelic experience it produces is characterized by vivid imagery, creative insight, and a sense of expanded possibility that maps directly to the Page's optimism and creativity. But ololiuqui also carries the card's shadow: its visions can be grandiose and ungrounded, the spiritual equivalent of bluffing and boasting. The seed promises a vine it has not yet grown. The Page promises a fire it has not yet sustained.
+
 ## Drug Association
 
 **Drug:** [Ololiuqui](../../drugs-detailed/ololiuqui.md)

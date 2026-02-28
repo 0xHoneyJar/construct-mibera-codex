@@ -10,6 +10,20 @@ molecule: C10H15N
 
 # The Devil
 
+## Interpretation
+
+The Devil is card fifteen of the Major Arcana, the horned figure presiding over two chained humans who, upon closer inspection, could slip their chains at any time. This is the card's central insight: bondage is often voluntary. Upright (if "upright" even applies to The Devil), this card signals confrontation with shadow material, addiction, compulsion, the parts of yourself you would rather not acknowledge. It reveals the places where instinct has become prison, where pleasure has become dependence. In shadow (or rather, in deeper shadow), The Devil warns of complete surrender to base impulse, the abuse of power over others, and the refusal to examine the chains you have chosen.
+
+Earth is the element, grounding The Devil in the material world, the body, its hungers, its capacity for both ecstasy and degradation. This is not abstract evil; it is the very specific, very physical reality of what happens when desire operates without consciousness. The Devil does not tempt from outside; he reveals what was always inside.
+
+In the Mibera system, The Devil adds a texture of raw, instinctual energy to expression. A Mibera carrying this card does not shy from the darker registers of experience. Their engagement with the world carries an undertone of intensity, appetite, and confrontation with what polite society prefers to ignore. The question The Devil poses is not whether you have darkness but whether you are honest about it.
+
+## Drug Pairing
+
+Methamphetamine is perhaps the most feared substance in modern pharmacology, a potent central nervous system stimulant that floods the brain with dopamine, producing euphoria, hyperconfidence, and a sense of limitless energy that can last for days. First synthesized in 1893, it has been used as a military performance enhancer, a weight-loss drug, and a street-level stimulant whose trail of destruction through communities worldwide is well documented.
+
+The pairing with The Devil is unflinching. Methamphetamine is bondage made chemical, a substance that offers power and pleasure while systematically destroying the user's capacity to experience either without it. The Devil's chains are loose enough to escape, and so are methamphetamine's, at least at first. Both the card and the drug operate in the same territory: the space where instinct becomes compulsion, where the choice to indulge one more time stops being a choice and becomes a cage. The honesty of this pairing is the point. The Devil does not moralize; he shows you what you are doing and waits to see if you will stop.
+
 ## Drug Association
 
 **Drug:** [Methamphetamine](../../drugs-detailed/methamphetamine.md)

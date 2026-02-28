@@ -1,7 +1,7 @@
 ---
 name: chrome nails
 image: SS5_chicagodetroit_Chrome Nails.png
-archetype: chicago detroit
+archetype: Chicago Detroit
 swag_score: 5
 date_added: "2024-07-12"
 ---

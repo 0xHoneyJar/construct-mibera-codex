@@ -10,6 +10,18 @@ molecule: C12H16N2
 
 # Page of Cups
 
+## Interpretation
+
+The Page of Cups is the card of the young dreamer, the unexpected message, and the creative imagination that has not yet learned to censor itself. Traditional imagery shows a young figure gazing with surprise at a fish emerging from their cup, the intrusion of the unconscious into ordinary reality, the moment when something beneath the surface makes itself known. Upright, it signals hidden connections becoming visible, creative fantasy as a legitimate way of knowing, and the intuitive capacity to perceive relationships between things that logic insists are unrelated. The Page is the artist before they become professional, the mystic before they become dogmatic. In its shadow aspect, it warns of escapism, emotional immaturity, and the danger of living so deeply inside fantasy that the real world becomes an unwelcome interruption.
+
+As a Water card, the Page channels the element in its most playful and unpredictable form, the tide pool, the unexpected spring, water appearing where you did not look for it. Emotion here is spontaneous rather than cultivated, arriving in flashes of insight rather than sustained currents. The Page of Cups colors expression with an intuitive, slightly otherworldly quality. A Mibera carrying this signal tends to notice connections others miss, to operate on hunches that prove surprisingly accurate, and to maintain access to a creative interior life that has not been fully domesticated by experience. The card does not direct their worldview but gives their expression receptive wonder, the fish in the cup, the dream that turns out to be a message.
+
+## Drug Pairing
+
+Psychotria viridis (the chacruna leaf, one of the two essential ingredients in ayahuasca, providing the DMT that the brew's MAO inhibitor makes orally active) pairs with the Page of Cups through their shared function as a channel between hidden and visible worlds. Chacruna is not the vine; it is the visionary component, the part of the brew that produces the visions, the encounters with entities, the perception of connections that ordinary consciousness cannot access. Indigenous Amazonian traditions regard the plant itself as a teacher, a sentient being that reveals hidden truths to those willing to listen.
+
+The connection with the Page of Cups is direct: both describe the moment when something from beneath the surface breaks through into awareness. The fish in the cup is the vision in the brew, unexpected, alive, carrying information from a place you cannot reach through effort alone. Psychotria viridis is not a recreational drug; it is a plant of revelation, and the Page of Cups is not a card of entertainment but of genuine creative and spiritual perception. The signal is natural access to hidden layers of reality, coupled with the open question of whether they can integrate what they find there.
+
 ## Drug Association
 
 **Drug:** [Psychotria viridis](../../drugs-detailed/psychotria-viridis.md)

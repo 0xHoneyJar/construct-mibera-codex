@@ -10,6 +10,18 @@ molecule: C12H16N2
 
 # Eight of Swords
 
+## Interpretation
+
+The Eight of Swords is the card of perceived imprisonment, the figure blindfolded and bound, surrounded by eight blades planted in the ground, standing in shallow water. The traditional interpretation reveals the card's deeper teaching: the bindings are loose, the swords do not actually block every direction, the water is shallow enough to wade through. The prison is largely mental. Upright, the Eight signals a situation where the constraints feel absolute but are not, where patience and inner stillness can reveal the escape route that panic obscures. In shadow, it warns of learned helplessness, the comfort of captivity, the refusal to test the bonds because freedom carries its own terrifying responsibilities.
+
+Air in the Eight of Swords is the air inside the blindfold, close, dark, but present. The mind turned inward, not by choice but by circumstance, discovering that inner space contains its own form of liberty. This card colors its bearer with a paradoxical freedom: they have known constraint and discovered that the mind cannot truly be caged. Their patience is not passivity but a deep understanding that some bindings dissolve on their own if you stop struggling against them. Inner freedom, the card's meaning suggests, is not the absence of limitation but the refusal to let limitation define what the mind can do.
+
+## Drug Pairing
+
+Acacia (specifically Acacia confusa and related species) contains DMT (dimethyltryptamine) in its root bark, making it one of nature's hidden repositories of the most powerful psychedelic known to pharmacology. The plant is common, unassuming, often overlooked. It grows in disturbed soils, roadsides, wastelands. The pairing with the Eight of Swords is built on this fundamental irony: the key to the prison was growing in plain sight, in the most ordinary-looking container imaginable.
+
+The connection between card and plant centers on hiddenness and revelation. The Eight of Swords teaches that freedom exists within apparent captivity. Acacia teaches that transcendence grows in unremarkable bark, waiting for the right preparation to release it. Both describe a relationship between surface appearance and deeper truth where the most powerful liberation comes from the most unassuming source, and where patience, the card's core virtue, is what separates those who find the hidden door from those who never think to look.
+
 ## Drug Association
 
 **Drug:** [Acacia](../../drugs-detailed/acacia.md)

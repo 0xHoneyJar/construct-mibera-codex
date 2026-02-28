@@ -10,6 +10,18 @@ molecule: C5H11ONO
 
 # Page of Swords
 
+## Interpretation
+
+The Page of Swords is the card of restless intelligence, the youngest member of the Swords court, holding a single blade with more enthusiasm than skill, scanning the horizon for something to investigate. Pages in tarot represent beginnings, students, messengers. The Page of Swords brings the Air suit's intellectual energy in its rawest, most undisciplined form: curiosity without wisdom, cleverness without depth, the sharp mind that has not yet learned what not to say. Upright, this card signals new ideas, fresh perspectives, the kind of mental energy that asks questions experienced minds have stopped asking. In shadow, the Page warns of gossip, superficiality, and the particular cruelty of intelligence that hasn't yet developed empathy.
+
+The Page of Swords colors its bearer with youthful intellectual energy regardless of their other signals. There is something perpetually alert about them, a restlessness that can be charming or exhausting depending on context. They collect information the way some people collect objects: compulsively, omnivorously, without always knowing what to do with it. Their carefree quality is not ignorance but a particular relationship to knowledge, they treat ideas as playthings, turning them over and tossing them aside with equal ease.
+
+## Drug Pairing
+
+Poppers (alkyl nitrites, typically amyl or isobutyl nitrite) are the perfect pharmacological match for the Page of Swords: brief, intense, slightly reckless, and fundamentally unserious. Inhaled for a rush of vasodilation that lasts thirty to sixty seconds, poppers produce a head rush, lowered inhibitions, and a temporary sense of euphoric abandon. They are the drug of nightlife, of impulse, of the moment between deciding and doing, the chemical equivalent of the Page's blade held aloft before it's learned where to point.
+
+The pairing captures something specific about both card and substance: neither is interested in depth. The Page of Swords wants breadth, more information, more stimulation, more. Poppers deliver a hit of chemical excitement without the commitment of a longer journey. Both are gateways rather than destinations, and both carry the charm and the limitation of refusing to sit still long enough to go deep.
+
 ## Drug Association
 
 **Drug:** [Poppers](../../drugs-detailed/poppers.md)

@@ -10,6 +10,18 @@ molecule: C22H30N6O4S
 
 # Seven of Cups
 
+## Interpretation
+
+The Seven of Cups is the card of fantasy, illusion, and the overwhelming abundance of possibility. Traditional imagery shows seven cups floating in clouds, each containing a different vision, a castle, jewels, a serpent, a veiled figure, a dragon, a wreath, a glowing form. It is the moment when desire presents itself in so many forms that choosing becomes impossible, or when imagination becomes so vivid it substitutes for action. Upright, the Seven signals the awakening of vital forces: creative energy, sexual energy, the raw power of wanting something badly enough to see it everywhere. In its shadow aspect, it warns of delusion, wishful thinking, and the danger of mistaking the vision for the thing itself. Not every cup in the cloud contains what it promises.
+
+As a Water card, the Seven channels the element in its most vaporous state, mist, steam, the cloud that has not yet condensed into rain. Emotion here is diffuse, potent, and ungrounded. It carries enormous energy but no container. The Seven of Cups colors expression with imaginative intensity and a restless, sometimes chaotic vitality. A Mibera carrying this signal tends toward vividness in all things, vivid desire, vivid imagination, vivid susceptibility to the gap between what they dream and what they build. The card does not define direction; it defines the voltage of the inner life, and whether that voltage gets channeled or scattered is a question the rest of the identity must answer.
+
+## Drug Pairing
+
+Sildenafil (Viagra, the phosphodiesterase inhibitor that revolutionized the treatment of erectile dysfunction and, in doing so, became one of the most culturally loaded pharmaceuticals of the modern era) pairs with the Seven of Cups through their shared theme of vital force awakened, sometimes in excess of what the situation requires. Sildenafil does not create desire; it removes the obstacle between desire and its physical expression. It is a drug of potential made actual, fantasy given a body.
+
+The connection with the Seven of Cups is precise. The card shows vital forces awakening in a cloud of possibility; sildenafil ensures that at least one of those possibilities can be physically realized. But both carry the same warning: arousal without direction is not the same as fulfillment. Sildenafil became a recreational drug as much as a medical one, taken not out of need but out of appetite, the same appetite the Seven of Cups describes when it shows you seven visions and asks which one is real. The texture is raw vitality searching for a worthy vessel.
+
 ## Drug Association
 
 **Drug:** [Sildenafil](../../drugs-detailed/sildenafil.md)

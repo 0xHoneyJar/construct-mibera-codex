@@ -1,7 +1,7 @@
 ---
 name: peyote feather fan
 image: SS3_freetekno_Peyote Feather Fan.png
-archetype: freetekno
+archetype: Freetekno
 swag_score: 3
 date_added: "2024-07-07"
 ---

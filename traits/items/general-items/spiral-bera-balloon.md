@@ -1,7 +1,7 @@
 ---
 name: spiral bera balloon
 image: SS4_acidhouse_Spiral Bera Balloon.png
-archetype: acidhouse
+archetype: Acidhouse
 swag_score: 4
 date_added: "2024-07-10"
 ---

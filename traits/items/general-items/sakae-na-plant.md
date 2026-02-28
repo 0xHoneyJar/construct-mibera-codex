@@ -1,7 +1,7 @@
 ---
 name: Sakae Na Plant
 image: Ss4_milady_ancient_thai_sakae naa.PNG
-archetype: milady
+archetype: Milady
 swag_score: 4
 date_added: "2025-01-10"
 ---

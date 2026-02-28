@@ -10,6 +10,20 @@ molecule: C17H21NO4
 
 # The World
 
+## Interpretation
+
+The World is card twenty-one of the Major Arcana, the final card, the completion of the journey that began with The Fool's leap. A dancing figure is framed by a laurel wreath, and the four fixed signs of the zodiac occupy the corners. The circle is closed. Upright, The World signals fulfillment, integration, the joy of having come through every trial and arrived at wholeness. It is recognition, both self-recognition and the recognition of others, and the deep satisfaction of knowing that the work is done. In shadow, The World warns of the need to impress, the emptiness that can follow achievement, and the fear that completion means there is nothing left to strive for.
+
+Earth is the element, grounding this cosmic completion in the physical world. The World is not an abstract triumph; it is felt in the body, in the material reality of a life fully lived. The dancing figure is not ascending to heaven; she is dancing here, on Earth, celebrating the fact that embodiment itself is the achievement.
+
+In the Mibera system, The World adds a texture of completeness and celebratory energy to expression. A Mibera carrying this card engages with the world as someone who has, in some fundamental sense, arrived. Their expression carries an undertone of joyful confidence and the desire to be seen, not from insecurity but from the natural impulse to share what has been accomplished. The shadow note is important: The World's need for recognition can tip into performance, and the celebration of completion can mask the anxiety of not knowing what comes next.
+
+## Drug Pairing
+
+Coca (Erythroxylum coca) is the sacred leaf of the Andes, chewed by Incan laborers, offered to Pachamama, and woven so deeply into South American culture that its criminalization by outside powers remains one of the great colonial tragedies. The leaf itself (as distinct from its refined derivative, cocaine) produces mild stimulation, appetite suppression, and a sense of well-being and social confidence. It is the leaf you chew when the work is done and the community gathers.
+
+The pairing with The World operates on both the celebratory and shadow registers. Coca is the drug of recognition, the shared leaf passed in ceremony, the social lubricant that marks the completion of labor and the beginning of rest. This maps directly onto The World's upright meaning: joy, achievement, the satisfaction of arriving. But coca's history also carries The World's shadow. Refined into cocaine, the leaf that once symbolized community and completion became a symbol of excess, performance, and the desperate need to impress, the compulsive pursuit of a feeling of greatness that cocaine delivers chemically but cannot sustain. Both the card and the leaf understand that the line between genuine celebration and the need to perform celebration is the line between wholeness and its simulation.
+
 ## Drug Association
 
 **Drug:** [Coca](../../drugs-detailed/coca.md)

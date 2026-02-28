@@ -10,6 +10,18 @@ molecule: C17H23NO3
 
 # Knight of Wands
 
+## Interpretation
+
+The Knight of Wands charges forward on a rearing horse, wand raised, cloak billowing with the velocity of someone who left before the conversation was finished. In traditional tarot, the Knights represent the active, kinetic expression of their suit, and the Knight of Wands is arguably the most kinetic card in the entire deck. Upright, this card signals bold action, adventurous spirit, and the charismatic energy of someone who moves through the world on instinct rather than deliberation. There is a magnetic quality to this recklessness: the Knight draws followers precisely because they don't hesitate. In its shadow aspect, the Knight of Wands is haste without wisdom, the careless charge that overruns its own supply lines, the fruitless pursuit of fulfillment through constant motion, the lover who leaves every city before consequences arrive.
+
+As a Fire card, the Knight of Wands is wildfire, flame that moves faster than anything in its path can react to. It is fire uncontained, fire as pure velocity. This card colors its bearer with restless, impulsive energy. A Mibera carrying the Knight of Wands will express its archetype through action first, reflection never. The Nomad who never stays. The Rebel who fights every authority without distinguishing between tyrants and mentors. The texture is always motion, always forward, always slightly out of control.
+
+## Drug Pairing
+
+Datura (the genus of toxic, hallucinogenic nightshades found across the Americas, Europe, and Asia) is one of the most dangerous psychoactive plants humans have ever used. Known as jimsonweed, devil's trumpet, and toloache, Datura contains tropane alkaloids (scopolamine, atropine, hyoscyamine) that produce true delirium: not the expanded consciousness of classical psychedelics, but a state where the boundary between hallucination and reality dissolves completely. Users interact with phantom people, lose hours or days, and frequently injure themselves in states of confused wandering.
+
+The pairing with the Knight of Wands is a warning encoded in botany. Both the card and the plant embody the consequences of charging forward without caution. Datura has been used in indigenous coming-of-age rituals precisely because it is dangerous, the Chumash and Algonquin administered it to young men as an ordeal, a controlled recklessness that either produced wisdom or catastrophe. The Knight of Wands carries the same dual potential. The card's carelessness and the plant's delirium occupy the same territory: the place where fearlessness and foolishness become indistinguishable, where the fruitless pursuit of fulfillment leads you so far from the path that you forget you were ever on one.
+
 ## Drug Association
 
 **Drug:** [Datura](../../drugs-detailed/datura.md)

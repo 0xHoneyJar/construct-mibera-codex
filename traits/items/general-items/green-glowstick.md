@@ -1,7 +1,7 @@
 ---
 name: green glowstick
 image: SS3_acidhouse_Green Glowstick.png
-archetype: acidhouse
+archetype: Acidhouse
 swag_score: 3
 date_added: "2024-07-23"
 ---

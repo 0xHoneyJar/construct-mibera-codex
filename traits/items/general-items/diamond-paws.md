@@ -1,7 +1,7 @@
 ---
 name: diamond paws
 image: SS5_milady_Diamond Paws.png
-archetype: miady
+archetype: Milady
 swag_score: 5
 date_added: "2024-07-13"
 ---

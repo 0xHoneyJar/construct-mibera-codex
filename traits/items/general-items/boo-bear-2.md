@@ -1,7 +1,7 @@
 ---
 name: boo bear 2
 image: SS3_milady_Boo Bear 2.png
-archetype: milady
+archetype: Milady
 swag_score: 3
 date_added: "2024-07-09"
 ---

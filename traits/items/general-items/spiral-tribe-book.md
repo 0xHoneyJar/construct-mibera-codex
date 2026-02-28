@@ -1,7 +1,7 @@
 ---
 name: spiral tribe book
 image: SS3_freetekno_Spiral Tribe.png
-archetype: freetekno
+archetype: Freetekno
 swag_score: 3
 date_added: "2024-08-03"
 ---

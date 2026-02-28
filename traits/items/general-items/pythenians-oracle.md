@@ -1,7 +1,7 @@
 ---
 name: pythenians oracle
 image: SS3_pythenians oracle.png
-archetype: freetekno
+archetype: Freetekno
 swag_score: 3
 date_added: "2025-03-22"
 ---

@@ -10,6 +10,18 @@ molecule: C17H17Cl2N
 
 # Four of Cups
 
+## Interpretation
+
+The Four of Cups depicts a figure seated beneath a tree, arms crossed, contemplating three cups on the ground while a fourth is offered by an unseen hand from beyond. It is the card of emotional saturation, the point at which contentment curdles into apathy. Upright, the Four signals a stable emotional state that has become self-enclosed, contentment that no longer needs anything from the outside world, which can manifest as incorruptibility or as stagnation depending on the context. In its shadow aspect, it speaks to mistrust, disillusionment, and the refusal of gifts because you have stopped believing anything good can arrive without a cost. The offered cup goes unnoticed or deliberately ignored.
+
+As a Water card, the Four channels the element in its stillest form, the pond rather than the river, water that has stopped moving and may be starting to stagnate. There is depth here, but it is depth turned inward, reflective rather than responsive. The Four of Cups colors a Mibera's expression with emotional self-containment that borders on withdrawal. They are not easily swayed, not easily corrupted, but also not easily reached. The archetype defines what they stand for, but the Four of Cups defines the emotional temperature at which they operate: cool, measured, skeptical of unsolicited offerings.
+
+## Drug Pairing
+
+Sertraline (marketed as Zoloft, one of the most widely prescribed selective serotonin reuptake inhibitors in the world) pairs with the Four of Cups through their shared relationship to emotional flattening as a form of stability. Sertraline does not create joy; it raises the floor beneath despair. For millions, it is the pharmaceutical equivalent of the Four of Cups' contentment: a managed emotional state where the lows are less catastrophic but the highs are also muted. The cup is neither empty nor overflowing. It simply holds its level.
+
+The pairing carries deliberate tension. The Four of Cups asks whether contentment can become a prison, and sertraline participates in exactly that cultural debate, is emotional regulation liberation or sedation? Both the card and the drug occupy the ambiguous territory between incorruptible steadiness and a numbness that cannot recognize what is being offered. The signal is hard-won equilibrium that may come at the cost of being moved by anything at all.
+
 ## Drug Association
 
 **Drug:** [Sertraline](../../drugs-detailed/sertraline.md)

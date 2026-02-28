@@ -1,7 +1,7 @@
 ---
 name: syringe
 image: SS3_chicagodetroit_Syringe.png
-archetype: chicago detroit
+archetype: Chicago Detroit
 swag_score: 1
 date_added: "2024-07-07"
 ---

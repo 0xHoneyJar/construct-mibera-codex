@@ -1,7 +1,7 @@
 ---
 name: whippet cracker
 image: SS4_acidhouse_Whippet Cracker.png
-archetype: acidhouse
+archetype: Acidhouse
 swag_score: 4
 date_added: "2024-07-10"
 ---

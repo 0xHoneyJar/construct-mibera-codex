@@ -1,7 +1,7 @@
 ---
 name: cocaine baggie
 image: SS5_chicagodetroit_cocaine baggie.png
-archetype: chicago detroit
+archetype: Chicago Detroit
 swag_score: 5
 date_added: "2024-12-09"
 ---

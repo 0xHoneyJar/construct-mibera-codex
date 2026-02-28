@@ -1,7 +1,7 @@
 ---
 name: vape bag
 image: SS3_chicagodetroit_Vape Bag.png
-archetype: chicago detroit
+archetype: Chicago Detroit
 swag_score: 5
 date_added: "2024-07-07"
 ---

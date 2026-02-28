@@ -10,6 +10,18 @@ molecule: C20H34O5
 
 # Six of Swords
 
+## Interpretation
+
+The Six of Swords is the card of necessary passage, traditionally depicted as a figure being ferried across water, swords standing upright in the bow of the boat. The journey is not joyful. It is the movement from a known pain toward an unknown shore, the transition that must happen even though nothing about the destination has been promised. Upright, the Six signals recovery through motion, the healing that comes from leaving, the quiet courage of accepting that where you've been can no longer sustain you. In shadow, it warns of running from problems rather than resolving them, mistaking movement for progress, trusting fate as a way of avoiding agency.
+
+Air and Water merge in this card: the intellectual decision to leave (Air) carried out over emotional depths (the water beneath the boat). The Six of Swords gives its bearer a textural quality of transitional grace. They move through difficulty without dramatizing it. There is something ferried about them, a sense that they have crossed waters others have not, and that the crossing changed them in ways they do not need to explain. Their calmness is not the absence of turbulence but the evidence that turbulence has been survived.
+
+## Drug Pairing
+
+Grayanotoxin is the toxin found in "mad honey", honey produced by bees that feed on rhododendron flowers, known since antiquity for its intoxicating and sometimes dangerous effects. Xenophon documented Greek soldiers being incapacitated by it during the retreat from Persia. Pontic kings weaponized it against Roman legions. The honey looks ordinary. Its sweetness carries a hidden crossing, from sobriety to disorientation, from safety to vulnerability, that the consumer does not fully choose.
+
+The pairing with the Six of Swords connects through the theme of passage that cannot be fully controlled. Grayanotoxin enters the body as sweetness and becomes something else entirely. The Six of Swords depicts a crossing that is necessary but uncomfortable, a journey where the traveler must trust the ferryman and the current. Both card and substance describe transitions where surrender is not optional, you cannot navigate mad honey any more than you can steer a boat you're not rowing.
+
 ## Drug Association
 
 **Drug:** [Grayanotoxin](../../drugs-detailed/grayanotoxin.md)

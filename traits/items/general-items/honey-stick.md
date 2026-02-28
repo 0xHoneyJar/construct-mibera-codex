@@ -1,7 +1,7 @@
 ---
 name: honey stick
 image: SS3_milady_Honey Stick.png
-archetype: milady
+archetype: Milady
 swag_score: 3
 date_added: "2024-07-10"
 ---

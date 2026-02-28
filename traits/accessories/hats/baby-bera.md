@@ -1,7 +1,7 @@
 ---
 name: baby bera
 image: "https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS3_chicagodetroit_Baby%20Bera.webp"
-archetype: chicago detroit
+archetype: Chicago Detroit
 swag_score: 3
 date_added: "2024-07-24"
 ---

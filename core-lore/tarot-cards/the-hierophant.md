@@ -10,6 +10,20 @@ molecule: C13H14N2O
 
 # The Hierophant
 
+## Interpretation
+
+The Hierophant is the fifth card of the Major Arcana, the bridge between human understanding and divine mystery, the teacher who translates the ineffable into tradition, doctrine, and shared practice. Where The High Priestess guards personal, intuitive knowledge, The Hierophant makes knowledge communal. Upright, he represents spiritual wisdom passed through lineage, the comfort of belonging to something larger than yourself, and the genuine value of institutions that have survived centuries. In shadow, he becomes dogma: blind obedience to rules whose original purpose has been forgotten, spiritual authority wielded as control.
+
+Earth grounds this card, giving The Hierophant's spirituality a practical, embodied quality. This is not mysticism that floats free of the world, it is wisdom embedded in ritual, in the physical act of kneeling, chanting, or breaking bread. The Hierophant insists that truth must be lived, not merely known, and that the structures humans build around the sacred are themselves sacred.
+
+The Hierophant gives expression an earnest, seeking quality, a hunger for truth that takes tradition seriously without being enslaved by it. A Mibera carrying this card approaches the world as though meaning is real and findable, as though the accumulated wisdom of those who came before is worth learning before it is worth discarding.
+
+## Drug Pairing
+
+Syrian rue (Peganum harmala) is one of the oldest known psychoactive plants, with a documented history stretching back to ancient Persia, where it was burned as a sacred incense and woven into Zoroastrian ritual. Its seeds contain harmine and harmaline, MAO inhibitors that, when combined with DMT-containing plants, make ayahuasca possible. Syrian rue is, quite literally, the key that unlocks other medicines.
+
+This role as an enabler of deeper experience maps precisely onto The Hierophant's function. The Hierophant does not provide the revelation himself; he provides the framework (the tradition, the ritual, the accumulated practice) through which revelation becomes accessible. Syrian rue does the same pharmacologically: it does not produce visions on its own so much as it opens the door for other compounds to work. Both the card and the plant embody the principle that wisdom is transmitted, not invented, and that the quest for truth often requires a guide who has walked the path before.
+
 ## Drug Association
 
 **Drug:** [Syrian Rue](../../drugs-detailed/syrian-rue.md)

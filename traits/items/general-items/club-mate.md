@@ -1,7 +1,7 @@
 ---
 name: club mate
 image: SS3_freetekno_Club Mate.png
-archetype: freetekno
+archetype: Freetekno
 swag_score: 3
 date_added: "2024-07-07"
 ---

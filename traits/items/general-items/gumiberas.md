@@ -1,7 +1,7 @@
 ---
 name: gumiberas
 image: SS2_milady_Gumiberas.png
-archetype: milady
+archetype: Milady
 swag_score: 2
 date_added: "2024-07-07"
 ---

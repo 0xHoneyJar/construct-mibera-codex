@@ -10,6 +10,18 @@ molecule: C21H26N2O3
 
 # Six of Cups
 
+## Interpretation
+
+The Six of Cups is the card of nostalgia, innocence, and the emotional pull of the past. Traditional imagery shows a child offering a cup of flowers to another child in a garden, a scene of purity, generosity, and the uncomplicated love that precedes adult complexity. Upright, it signals devotion, kindness, and the deep emotional nourishment that comes from revisiting or honoring what once was. It is the card of gifts freely given, of love that asks nothing in return, of the places and people who shaped you before you knew you were being shaped. In its shadow aspect, the Six warns of self-denial carried too far: the lover who gives everything and keeps nothing, the devotee who romanticizes the past until the present becomes unbearable. Nostalgia, left unchecked, becomes a refusal to live in the world as it actually is.
+
+As a Water card, the Six channels the element in its gentlest form, the still pool reflecting a sky from yesterday, the well you return to because you remember it was sweet. Emotion here flows backward as much as forward, drawing from memory as its primary source. The Six of Cups colors expression with tenderness, devotion, and a deep orientation toward care for others that can shade into martyrdom. It does not dictate worldview but inflects how a Mibera gives and receives love, generously, perhaps too generously, with a nostalgic warmth that makes their presence feel like returning to somewhere safe.
+
+## Drug Pairing
+
+Yohimbe (the bark of the West African *Pausinystalia yohimbe* tree, used for centuries as an aphrodisiac and stimulant in Cameroon, Nigeria, and across the region) pairs with the Six of Cups through their shared relationship to devotion and the body's response to love. Yohimbe acts on the adrenergic system, increasing blood flow and arousal, but its traditional use was never purely physical. It was ceremonial: taken to honor a partner, to demonstrate willingness, to bring the body into alignment with the heart's intention. It is a drug of offering, not taking.
+
+This mirrors the Six of Cups' core gesture, the child holding out flowers, the gift extended without expectation of return. Yohimbe's cultural role as a substance of devotional intimacy, something taken *for* someone rather than merely *with* them, echoes the card's theme of love expressed through self-giving. The darker parallel holds too: yohimbe can overstimulate, push the body past its limits in service of desire, just as the Six of Cups' devotion can become self-denial that forgets the giver has needs of their own.
+
 ## Drug Association
 
 **Drug:** [Yohimbe](../../drugs-detailed/yohimbe.md)

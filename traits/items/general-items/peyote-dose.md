@@ -1,7 +1,7 @@
 ---
 name: peyote dose
 image: SS2_freetekno_Peyote.png
-archetype: freetekno
+archetype: Freetekno
 swag_score: 2
 date_added: "2024-07-07"
 ---

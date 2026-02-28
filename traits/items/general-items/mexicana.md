@@ -1,7 +1,7 @@
 ---
 name: mexicana
 image: SS2_acidhouse_Mexicana.png
-archetype: acidhouse
+archetype: Acidhouse
 swag_score: 2
 date_added: "2024-07-06"
 ---

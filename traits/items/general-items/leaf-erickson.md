@@ -1,7 +1,7 @@
 ---
 name: leaf erickson
 image: SS5_leaf erickson.PNG
-archetype: freetekno
+archetype: Freetekno
 swag_score: 5
 date_added: "2025-03-12"
 ---

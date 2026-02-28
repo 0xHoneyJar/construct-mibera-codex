@@ -1,7 +1,7 @@
 ---
 name: banana
 image: SS3_milady_banana.PNG
-archetype: milady
+archetype: Milady
 swag_score: 1
 date_added: "2024-12-10"
 ---

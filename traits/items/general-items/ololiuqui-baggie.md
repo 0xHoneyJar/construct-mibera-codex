@@ -1,7 +1,7 @@
 ---
 name: ololiuqui baggie
 image: SS1_acidhouse_ancient_mayan_ololiuqui.PNG
-archetype: acidhouse
+archetype: Acidhouse
 swag_score: 1
 date_added: "2025-01-10"
 ---

@@ -10,6 +10,20 @@ molecule: C17H21NO
 
 # Judgment
 
+## Interpretation
+
+Judgment is card twenty of the Major Arcana, the angel's trumpet sounds and the dead rise from their graves, arms outstretched, answering a call they cannot refuse. This is not the weighing of Justice or the turning of The Wheel; this is the final reckoning, the moment when everything you have been is summoned to account. Upright, Judgment signals awakening, the call to a higher purpose, absolution, and the recognition that you are more than the sum of your mistakes. In shadow, it warns of entrapment in self-judgment, the inability to forgive yourself or others, and the paralysis of someone who hears the trumpet but cannot bring themselves to rise.
+
+Fire is the element, and here it is purifying, the refiner's fire that burns away everything inessential and leaves only what is true. Judgment's Fire does not destroy; it clarifies. It asks: beneath all the roles you have played and all the compromises you have made, what remains? And can you stand behind it?
+
+In the Mibera system, Judgment adds a texture of reckoning and self-awareness to expression. A Mibera carrying this card is textured by the tension between entrapment and awakening, the sense that something within them is demanding to be heard, that the comfortable sleep of habit is being interrupted by a call they did not choose but cannot ignore. Their expression carries the weight of someone on the threshold of becoming more fully themselves.
+
+## Drug Pairing
+
+Benadryl (diphenhydramine) is an over-the-counter antihistamine that, at therapeutic doses, treats allergies and induces drowsiness. At higher doses, it becomes a deliriant, producing a state of confused wakefulness characterized by conversations with people who are not there, encounters with shadow figures, and a pervasive sense of being trapped in a reality that is simultaneously mundane and terrifying. It is the most commonly abused legal deliriant, particularly among young people with limited access to other substances.
+
+The pairing with Judgment is darker than most in this system, and deliberately so. Where Judgment calls for awakening, diphenhydramine at deliriant doses produces a grotesque parody of it, you are roused from ordinary consciousness not into clarity but into a waking nightmare where the boundaries between real and unreal dissolve in the worst possible way. The entrapment that Judgment warns of in shadow is diphenhydramine's primary territory: a substance that is supposed to help you sleep but, taken too far, traps you in a state that is neither sleep nor waking. Both the card and the drug ask the same question, will you answer the call or remain trapped?, but diphenhydramine shows what it looks like when the answer is wrong.
+
 ## Drug Association
 
 **Drug:** [Benadryl](../../drugs-detailed/benadryl.md)

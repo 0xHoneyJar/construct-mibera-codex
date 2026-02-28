@@ -10,6 +10,18 @@ molecule: C12H16N2
 
 # Ten of Swords
 
+## Interpretation
+
+The Ten of Swords is the card of absolute ending, traditionally depicted as a figure lying face-down with ten blades planted in their back, the sky dark above. There is no ambiguity here. This is rock bottom, the final collapse, the worst-case scenario made manifest. Yet the card's deepest teaching lives in what comes next: the horizon in many traditional depictions shows the first light of dawn. The Ten of Swords is not about death. It is about the death that precedes rebirth, the total dissolution that must happen before anything genuinely new can emerge. Upright, it signals that the worst has already happened, that the only remaining direction is up. In shadow, it warns of catastrophizing, of experiencing every setback as though it were ten swords in the back.
+
+Air in its most extreme form becomes the vacuum, the total absence of atmosphere that follows catastrophic decompression. The Ten of Swords gives its bearer the textural quality of someone who has touched the bottom and survived. There is a peculiar lightness to those who have lost everything and know it: they have nothing left to protect, nothing left to fear losing. The deep changes this card signals are not gentle, they are the kind that leave you unrecognizable to who you were before, and grateful for it.
+
+## Drug Pairing
+
+DMT (N,N-Dimethyltryptamine) is the molecule of ego death, a psychedelic so powerful and so fast-acting that users consistently describe the experience as dying, dissolving, being unmade and reassembled in ways that language cannot contain. Smoked or vaporized, it produces a complete departure from consensus reality in under thirty seconds, lasting roughly fifteen minutes that users report experiencing as hours, lifetimes, eternities. The pairing with the Ten of Swords is perhaps the most literal in the entire tarot-drug mapping: the card of total annihilation matched with the molecule of total annihilation.
+
+But the connection goes deeper than shared extremity. Both DMT and the Ten of Swords teach that dissolution is not the end of the story. DMT users consistently report that the ego death gives way to encounter, with entities, geometries, intelligences, or simply with a vastness that the ordinary self was too small to perceive. The Ten of Swords' dawn on the horizon is DMT's return from the void. Both describe a cycle in which the most terrifying thing that can happen is also the prerequisite for the most profound transformation.
+
 ## Drug Association
 
 **Drug:** [DMT](../../drugs-detailed/dmt.md)

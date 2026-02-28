@@ -10,6 +10,20 @@ molecule: C9H7Cl2N5
 
 # Justice
 
+## Interpretation
+
+Justice is card eleven of the Major Arcana (or eight, in some traditions), the blindfolded figure with a sword in one hand and scales in the other. Unlike The Wheel of Fortune, which deals in fate, Justice deals in consequence: you reap what you sow, and the scales do not lie. Upright, this card signals fairness, accountability, the arrival of truth after a period of confusion, and the deep satisfaction of knowing that the system, however slowly, works. In shadow, Justice warns of harsh judgment without mercy, bureaucratic coldness, and the devastating discovery that you have been unfair to yourself or others without realizing it.
+
+Air is the element, sharpening Justice into a card of intellectual precision. The sword cuts through ambiguity; the scales weigh evidence, not emotion. There is something clinical here, and that is intentional. Justice does not care about your feelings. It cares about what happened, what was promised, and whether the accounts balance.
+
+In the Mibera system, Justice gives expression a measured, truth-oriented quality. A Mibera carrying this card engages with the world through a lens of fairness and reciprocity. Their expression may carry a judicial undertone, the instinct to weigh all sides, to seek balance not as a compromise but as an accurate accounting of what is real. The shadow note is rigidity: sometimes mercy is more just than justice.
+
+## Drug Pairing
+
+Lamotrigine is an anticonvulsant and mood stabilizer, prescribed primarily for epilepsy and bipolar disorder. It works by inhibiting voltage-sensitive sodium channels and reducing the release of glutamate, effectively calming the electrical storms that produce seizures and the extreme mood swings of bipolar cycling. It does not elevate or suppress mood; it levels it.
+
+The pairing with Justice is pharmacologically elegant. Lamotrigine is, in chemical terms, a balancing agent, it takes a system that oscillates between dangerous extremes and brings it to equilibrium. This is what Justice does in the tarot: it does not punish or reward so much as it corrects, restoring the system to a state where the scales are even. Both the drug and the card share a commitment to stability that can feel cold from the outside but is experienced as profound relief by anyone who has lived through the chaos of imbalance.
+
 ## Drug Association
 
 **Drug:** [Lamotrigine](../../drugs-detailed/lamotrigine.md)

@@ -1,7 +1,7 @@
 ---
 name: jewelry
 image: SS4_acidhouse_Jewelry.png
-archetype: acidhouse
+archetype: Acidhouse
 swag_score: 4
 date_added: "2024-07-10"
 ---

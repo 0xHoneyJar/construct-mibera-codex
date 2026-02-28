@@ -1,7 +1,7 @@
 ---
 name: Sunnies
 image: "https://mibera.fsn1.your-objectstorage.com/components/glasses__z140/acidhouse_Sunnies.webp"
-archetype: acidhouse
+archetype: Acidhouse
 swag_score: 3
 date_added: "2024-12-10"
 ---

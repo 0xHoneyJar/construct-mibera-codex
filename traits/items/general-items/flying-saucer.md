@@ -1,7 +1,7 @@
 ---
 name: flying saucer
 image: SS3_acidhouse_Flying Saucer.png
-archetype: acidhouse
+archetype: Acidhouse
 swag_score: 3
 date_added: "2024-07-07"
 ---

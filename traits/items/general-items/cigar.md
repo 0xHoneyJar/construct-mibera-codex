@@ -1,7 +1,7 @@
 ---
 name: cigar
 image: SS1_chicagodetroit_Cigar.png
-archetype: chicago detroit
+archetype: Chicago Detroit
 swag_score: 1
 date_added: "2024-07-10"
 ---

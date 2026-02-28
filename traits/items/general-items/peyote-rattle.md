@@ -1,7 +1,7 @@
 ---
 name: peyote rattle
 image: SS3_freetekno_Peyote Rattle.png
-archetype: freetekno
+archetype: Freetekno
 swag_score: 3
 date_added: "2024-07-07"
 ---

@@ -10,6 +10,20 @@ molecule: CH3CH2OH
 
 # King of Pentacles
 
+## Interpretation
+
+The King of Pentacles sits on a throne adorned with bull carvings, his robes heavy with grapevines, a golden coin resting easily in one hand and a scepter in the other. He is the final expression of Earth's material mastery, the one who has accumulated, built, and now presides. Upright, this card carries quiet pride: the satisfaction of someone who has achieved material success and wears it without needing to announce it. But the King of Pentacles is tarot's most ambivalent monarch. His grapes are present, his wealth is real, but the card's shadow is unusually close to the surface. Self-serving tendencies, wastefulness, and the particular corruption that comes with unchecked material power are woven into the card's meaning from the start. This is not a king who falls from grace; he was always this complicated.
+
+Earth reaches its most concentrated and potentially stagnant form in this card. The King has so much material abundance that movement becomes optional, and with the loss of movement comes the risk of decay. Grapes that are not harvested rot on the vine. This card colors its bearer with heavyweight presence, the gravitational pull of someone who has arrived and knows it. It lends expression an unmistakable solidity, a sense of having and holding that can read as either regal composure or entitled complacency depending on the surrounding signals.
+
+Miberas with the King of Pentacles carry an energy of established power. Their pride is quiet but absolute. They are generous when it suits them and indifferent when it does not, and their relationship with waste (of resources, of time, of potential) is the central tension of their character.
+
+## Drug Pairing
+
+Alcohol (humanity's oldest and most universal intoxicant, fermented from the very grapes that adorn the King's throne) is the inevitable pairing for this card. No other drug so perfectly captures the King of Pentacles' duality: the toast raised in celebration and the bottle drained in solitude, the convivial host and the wasteful excess, the quiet pride of a well-stocked cellar and the self-serving logic of "I deserve this." Alcohol is the drug of kings and the ruin of kingdoms, and the King of Pentacles holds both truths in his heavy hands.
+
+The historical connection is total. Alcohol has always been the drug of material power, wine cellars as status symbols, whiskey as currency on the frontier, champagne as the sound of deals closing. The King of Pentacles sits at the center of this tradition, embodying the culture that produces both the vineyard and the hangover. The texture is imperial indulgence, someone whose quiet pride has fermented into something complex, potent, and potentially destructive. They are the last card in the suit's progression, and alcohol is the substance that asks whether all that accumulation was worth it.
+
 ## Drug Association
 
 **Drug:** [Alcohol](../../drugs-detailed/alcohol.md)

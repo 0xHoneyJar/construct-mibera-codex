@@ -1,7 +1,7 @@
 ---
 name: rolling tobacco tin
 image: SS2_freetekno_Rolling Tobacco Tin.png
-archetype: freetekno
+archetype: Freetekno
 swag_score: 2
 date_added: "2024-07-07"
 ---

@@ -10,6 +10,20 @@ molecule: C28H40O8
 
 # The Hermit
 
+## Interpretation
+
+The Hermit is card nine of the Major Arcana, the solitary figure on the mountaintop, holding a lantern that illuminates only the next step. This is the card of deliberate withdrawal: not the avoidance of life but the conscious choice to step away from its noise in order to hear something more essential. Upright, The Hermit signals maturity, introspection, self-knowledge, and the wisdom that comes only from sustained periods of solitude. In shadow, he warns of isolation that has curdled into loneliness, the refusal to rejoin the world, and the arrogance of believing that only your own company is worthy of your time.
+
+Earth is the element, grounding The Hermit's inward journey in physical reality. This is not abstract philosophizing, it is the monk in the cave, the elder who has walked far enough to know which paths lead nowhere. The Hermit's wisdom is earned through experience and distilled through silence. His lantern does not illuminate the whole mountain; it illuminates enough.
+
+In the Mibera system, The Hermit gives expression a contemplative, self-contained quality. A Mibera carrying this card is textured by the preference for depth over breadth, for understanding one thing thoroughly rather than sampling everything. Their engagement with the world may appear reserved, but it is reserve born of richness, not emptiness, the silence of someone who has a great deal to say but has learned the value of not saying it.
+
+## Drug Pairing
+
+Ashwagandha (Withania somnifera) has been a cornerstone of Ayurvedic medicine for over 3,000 years, classified as a rasayana, a rejuvenating tonic that promotes longevity and vitality. It is an adaptogen, meaning it helps the body adapt to stress by modulating cortisol and supporting the nervous system. It does not excite or sedate so much as it restores equilibrium, bringing the system back to its own center.
+
+The pairing with The Hermit is one of quiet restoration. Ashwagandha is not a drug of dramatic experience; it is a drug of coming home to yourself, of reducing the noise so that your own signal becomes audible again. This is The Hermit's teaching: that self-knowledge requires conditions of sufficient stillness, and that the body must be cared for in order for the mind to do its deeper work. Both the plant and the card understand that maturity is not a destination but a practice, and that the most important withdrawal is from the things that prevent you from hearing your own thinking.
+
 ## Drug Association
 
 **Drug:** [Ashwagandha](../../drugs-detailed/ashwagandha.md)

@@ -10,6 +10,18 @@ molecule: C10H14N2
 
 # Two of Wands
 
+## Interpretation
+
+The Two of Wands is the moment after ignition when the fire holder must choose a direction. Traditional tarot places this card at the threshold between vision and execution, a figure stands on a parapet, globe in hand, surveying distant horizons. Upright, it signals planning, anticipation, and the steady confidence of someone who has already committed internally but hasn't yet moved. There is level-headedness here, a deliberate patience that distinguishes strategy from hesitation. In its shadow aspect, the card warns of paralysis disguised as prudence, the endless weighing of options that becomes its own form of futility, the planner who never departs.
+
+As a Fire card, the Two of Wands channels flame into something directional without extinguishing it. Fire held between two points of focus. This card lends a textural quality of measured anticipation. A Mibera carrying the Two of Wands approaches its world with a surveyor's eye, not cold calculation, but the warm patience of someone who believes their moment is coming and is content to wait for the right wind. It colors expression with a sense of quiet readiness, the held breath before the leap.
+
+## Drug Pairing
+
+Chewing tobacco is perhaps the most unromantic drug in the deck, and that is precisely the point. Where other substances promise transcendence or oblivion, chewing tobacco offers something far more mundane: a low, sustained buzz that sharpens focus without disrupting function. It is the drug of sentries, long-haul drivers, baseball dugouts, and anyone who needs to stay alert through monotony. Its history stretches from Indigenous American ceremonial use to the lip-packed tins of modern blue-collar labor.
+
+This pairs with the Two of Wands because both occupy the space of watchful waiting. The card is about anticipation without action, and chewing tobacco is the substance of that exact state, the slow nicotine release that keeps you present during the long watch. There is no ecstasy here, no crash. Just the steady drip of readiness. The shadow side maps too: chewing tobacco's futility lies in its cyclical nature, the habit that sustains itself without ever arriving anywhere, much as the Two of Wands reversed warns of planning that never becomes doing.
+
 ## Drug Association
 
 **Drug:** [Chewing Tobacco](../../drugs-detailed/chewing-tobacco.md)

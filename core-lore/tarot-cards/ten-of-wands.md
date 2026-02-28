@@ -10,6 +10,18 @@ molecule: N2O
 
 # Ten of Wands
 
+## Interpretation
+
+The Ten of Wands depicts a figure carrying all ten wands at once, bent under their weight, struggling toward a distant settlement. Traditional tarot reads this as the burden of completion, the final stretch where everything you have accumulated, achieved, and committed to must be carried simultaneously. Upright, the card signals courage and the willingness to take on more than is comfortable because the destination justifies the load. There is genuine bravery in this exhaustion: the refusal to abandon any of the wands, the insistence on carrying the full weight of one's ambitions to the finish line. In its shadow aspect, the Ten of Wands warns of crushing self-imposed expectations, the martyr complex, the inability to delegate, the high expectations that transform ambition into servitude.
+
+As a Fire card, the Ten of Wands is flame straining under its own fuel, a fire so overfed it begins to choke. Too much wood smothers flame as surely as too little starves it. This card colors its bearer with the quality of ambitious overextension. A Mibera carrying the Ten of Wands approaches its world with maximum commitment, for better and worse. The Creator who takes on every commission. The Leader who refuses to share the weight. The texture is always intensity carried past the point of sustainability, the risk-taking that comes from believing you can bear more than anyone should.
+
+## Drug Pairing
+
+NOS (nitrous oxide, laughing gas, N2O) is a dissociative anesthetic that produces a brief, intense rush of euphoria and detachment followed by rapid return to baseline. Discovered in 1772 and used recreationally almost immediately, it has served as both dental anesthetic and party drug for over two centuries. Its signature quality is the willingness to take a risk for a momentary release: the balloon at the festival, the charger cracked in the parking lot, the brief vacation from the weight of consciousness.
+
+The pairing with the Ten of Wands captures the dynamic of burden and release. The card depicts someone carrying an impossible load; NOS offers the most compressed possible escape from that weight. The high lasts thirty seconds to two minutes, just long enough to remember what it feels like to not carry everything. Then the load returns. This mirrors the Ten's core tension: the courage to keep going requires occasional moments of surrender, but those moments of surrender (like NOS itself) are too brief to constitute actual rest. Both card and drug live in the space between heroic endurance and the desperate need for even a few seconds of weightlessness.
+
 ## Drug Association
 
 **Drug:** [NOS](../../drugs-detailed/nos.md)

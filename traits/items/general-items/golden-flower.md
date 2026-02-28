@@ -1,7 +1,7 @@
 ---
 name: golden flower
 image: SS2_milady_Golden Flower.PNG
-archetype: milady
+archetype: Milady
 swag_score: 2
 date_added: "2024-12-09"
 ---

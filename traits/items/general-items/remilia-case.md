@@ -1,7 +1,7 @@
 ---
 name: remilia case
 image: SS2_milady_Remilia Case.png
-archetype: milady
+archetype: Milady
 swag_score: 2
 date_added: "2024-07-23"
 ---

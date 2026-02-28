@@ -1,7 +1,7 @@
 ---
 name: blue glowstick
 image: SS1_acidhouse_Blue Glowstick.png
-archetype: acidhouse
+archetype: Acidhouse
 swag_score: 1
 date_added: "2024-07-23"
 ---

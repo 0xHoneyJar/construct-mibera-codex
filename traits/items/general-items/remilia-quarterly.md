@@ -1,7 +1,7 @@
 ---
 name: remilia quarterly
 image: SS3_milady_Remilia Quarterly.png
-archetype: milady
+archetype: Milady
 swag_score: 3
 date_added: "2024-08-02"
 ---

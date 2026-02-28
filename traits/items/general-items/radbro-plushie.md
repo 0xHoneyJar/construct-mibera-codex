@@ -1,7 +1,7 @@
 ---
 name: radbro plushie
 image: SS4_milady_Radbro Plushie.png
-archetype: milady
+archetype: Milady
 swag_score: 4
 date_added: "2024-07-12"
 ---

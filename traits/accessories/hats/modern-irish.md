@@ -1,7 +1,7 @@
 ---
 name: Modern Irish
 image: "https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS2_acidhouse_Modern%20Irish.webp"
-archetype: acidhouse
+archetype: Acidhouse
 swag_score: 2
 date_added: "2024-07-24"
 ---

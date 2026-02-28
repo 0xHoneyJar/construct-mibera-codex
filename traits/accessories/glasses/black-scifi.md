@@ -1,7 +1,7 @@
 ---
 name: Black Scifi
 image: "https://mibera.fsn1.your-objectstorage.com/components/glasses__z140/chicagodetroit_Black Scifi.webp"
-archetype: Chicago detroit
+archetype: Chicago Detroit
 swag_score: 2
 date_added: "2024-06-18"
 ---

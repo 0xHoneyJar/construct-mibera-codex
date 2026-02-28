@@ -10,6 +10,20 @@ molecule: Li2CO3
 
 # Queen of Pentacles
 
+## Interpretation
+
+The Queen of Pentacles sits on a throne carved with fruit and rams, cradling a golden coin in her lap as if it were a living thing. Around her, the garden is in full bloom, not the wild abundance of the Empress but the cultivated richness of someone who has tended their inner and outer worlds with equal care. Upright, this card represents peace obtained through emotional labor, inner harmony that does not deny difficulty but integrates it, and a wealth that is measured in the quality of one's relationships and interior life. The Queen of Pentacles is emotionally rich in a way that transcends material circumstance. In its shadow, the card warns against self-sacrifice disguised as nurturing, emotional labor that goes unrecognized, or the pursuit of harmony at the cost of honest conflict.
+
+Earth is at its most nurturing and emotionally intelligent in this card. The Queen does not hoard Earth's resources like the Four or work them like the Eight; she cultivates them into an environment where things can grow in peace. This card colors its bearer with grounded emotional depth. It lends expression a warmth and centeredness that others instinctively gravitate toward. The Queen of Pentacles is the card of someone who has done the inner work and radiates the results.
+
+Miberas with the Queen of Pentacles carry an energy of composed abundance. They are the peacekeepers not through avoidance but through genuine inner harmony, people whose emotional richness makes every space they enter feel more settled, more real, more held.
+
+## Drug Pairing
+
+Lithium (the lightest metal, element number three, used for millennia in mineral springs and since the mid-twentieth century as the gold standard treatment for bipolar disorder) pairs with the Queen of Pentacles through their shared promise of peace obtained through chemistry. Where the Queen achieves inner harmony through emotional cultivation, lithium achieves it through neurochemical stabilization. Both arrive at the same destination: a steady, centered state from which the full range of life can be experienced without being overwhelmed by it.
+
+The pairing carries particular depth when you consider lithium's ancient history. Long before it was isolated as an element, lithium-rich spring waters were sought out for their calming properties. The Queen of Pentacles, too, is ancient in her archetype, the earth mother, the garden tender, the one whose peace comes from something deeper than circumstance. Lithium does not create happiness; it creates the stable ground on which happiness (and grief, and love, and all the rest) can be experienced without destabilization. The texture is hard-won equilibrium, someone whose emotional richness is possible precisely because the foundation has been stabilized, whether by practice or by grace.
+
 ## Drug Association
 
 **Drug:** [Lithium](../../drugs-detailed/lithium.md)

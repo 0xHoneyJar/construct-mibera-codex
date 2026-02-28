@@ -1,7 +1,7 @@
 ---
 name: pitchfork
 image: SS1_freetekno_Pitchfork.png
-archetype: freetekno
+archetype: Freetekno
 swag_score: 1
 date_added: "2024-12-09"
 ---

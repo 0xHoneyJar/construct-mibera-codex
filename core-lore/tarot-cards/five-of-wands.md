@@ -10,6 +10,18 @@ molecule: C9H13N
 
 # Five of Wands
 
+## Interpretation
+
+The Five of Wands is controlled chaos, five figures brandishing wands in what might be combat, competition, or spirited debate. Traditional tarot reads this card as creative conflict: the friction that generates heat and, sometimes, light. Upright, it signals the productive tension of competing ideas, the sparring match that sharpens both fighters, the marketplace of visions jostling for dominance. There is energy here, not malice, the conflict creates sparks that can ignite new possibilities. In its shadow aspect, the Five of Wands becomes pointless struggle: ego-driven bickering, competition for its own sake, the exhausting cycle of fighting without resolution or growth.
+
+As a Fire card, the Five of Wands is flame meeting flame, combustion through collision. Fire does not negotiate; when two fires meet, they either merge into something larger or consume each other. This card colors its bearer with a combative vitality, an instinct to test ideas and identities through friction. A Mibera carrying the Five of Wands will express its archetype through challenge and contest. The Scholar debates. The Warrior trains. The Trickster provokes. The texture is always kinetic, always slightly adversarial, always generating more heat than the situation strictly requires.
+
+## Drug Pairing
+
+Dextroamphetamine (the right-handed isomer of amphetamine, marketed as Dexedrine and the active component of Adderall) is conflict's favorite fuel. Developed in the 1930s and distributed to soldiers in World War II to sustain combat readiness, it sharpens focus and accelerates thought while simultaneously inflating confidence and suppressing the social instincts that normally prevent confrontation. It is the drug that turns every interaction into a competition you intend to win.
+
+The pairing with the Five of Wands captures the productive and destructive faces of stimulant-driven conflict. Dextroamphetamine genuinely enhances performance under pressure, students pass exams, soldiers stay alert, programmers ship code. But it also strips away the collaborative instincts that make conflict generative rather than merely aggressive. The sparks the Five of Wands promises can become a fire that burns every bridge. Both card and drug occupy the same razor's edge: friction that forges, or friction that fragments.
+
 ## Drug Association
 
 **Drug:** [Dextroamphetamine](../../drugs-detailed/dextroamphetamine.md)

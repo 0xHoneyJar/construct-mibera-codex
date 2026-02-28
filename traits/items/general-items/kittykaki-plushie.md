@@ -1,7 +1,7 @@
 ---
 name: kittykaki plushie
 image: SS4_milady_Kittykaki Plushie.png
-archetype: milady
+archetype: Milady
 swag_score: 4
 date_added: "2024-07-12"
 ---

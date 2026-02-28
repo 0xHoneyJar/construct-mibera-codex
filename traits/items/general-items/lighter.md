@@ -1,7 +1,7 @@
 ---
 name: lighter
 image: SS1_freetekno_Lighter.png
-archetype: freetekno
+archetype: Freetekno
 swag_score: 1
 date_added: "2024-07-04"
 ---

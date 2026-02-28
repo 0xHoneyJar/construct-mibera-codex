@@ -1,7 +1,7 @@
 ---
 name: teal bong
 image: SS4_chicagodetroit_Teal Bong.PNG
-archetype: chicago detroit
+archetype: Chicago Detroit
 swag_score: 4
 date_added: "2024-07-10"
 ---

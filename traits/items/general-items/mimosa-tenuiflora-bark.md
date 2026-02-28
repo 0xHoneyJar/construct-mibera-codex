@@ -1,7 +1,7 @@
 ---
 name: mimosa tenuiflora bark
 image: SS1_freetekno_ancient_mayan_mimosa tenuiflora.PNG
-archetype: freetekno
+archetype: Freetekno
 swag_score: 1
 date_added: "2025-01-10"
 ---

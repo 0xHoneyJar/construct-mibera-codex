@@ -10,6 +10,20 @@ molecule: C12H22O11
 
 # The Wheel of Fortune
 
+## Interpretation
+
+The Wheel of Fortune is card ten of the Major Arcana, the great turning that no human hand controls. At the wheel's top sits a sphinx; ascending one side is a serpent or Anubis, descending the other is a demon. The message is structural: what rises will fall, what falls will rise, and the wheel itself never stops. Upright, this card signals a turning point, good fortune, the arrival of cycles that were set in motion long before you noticed them. In shadow, it warns of resistance to change, the false belief that you can stop the wheel, and the vertigo of realizing how much of life is beyond your control.
+
+Fire is the element, which gives The Wheel its kinetic energy. This is not the slow cycling of seasons (that would be Earth) but the sudden, dramatic turns that change everything, the unexpected promotion, the accident, the phone call that rearranges your entire life. Fire here is destiny's engine, indifferent to human preference.
+
+The Wheel of Fortune adds a texture of philosophical acceptance to expression. A Mibera carrying this card engages with the world as someone who understands that fortune is cyclical and impermanent. Their expression carries both sweetness and fatalism, the ability to enjoy what is good without clutching it, and to endure what is difficult without believing it will last forever.
+
+## Drug Pairing
+
+Sugarcane is perhaps the most unexpected entry in the Mibera drug system, but its inclusion is deliberate and historically grounded. Sugar (sucrose, C12H22O11) is the world's most widely consumed psychoactive substance by volume, a molecule that activates the same dopamine reward pathways as cocaine, and a commodity whose cultivation reshaped global history through colonialism, slavery, and the plantation economy. It is simultaneously the most innocent and most destructive substance on this list.
+
+The pairing with The Wheel of Fortune operates on multiple levels. Sugar is the sweetness of life, the immediate, uncomplicated pleasure that the card promises in its upright position. But sugar is also the wheel's shadow: addiction, exploitation, the way a simple pleasure becomes an empire built on suffering. The Wheel does not judge what rises and falls; it simply turns. Sugarcane, with its deep entanglement in both human joy and human cruelty, embodies that amoral rotation perfectly, sweetness and devastation cycling endlessly through history.
+
 ## Drug Association
 
 **Drug:** [Sugarcane](../../drugs-detailed/sugarcane.md)

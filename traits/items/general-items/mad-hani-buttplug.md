@@ -1,7 +1,7 @@
 ---
 name: mad hani buttplug
 image: SS5_milady_Mad Hani Buttplug.png
-archetype: milady
+archetype: Milady
 swag_score: 5
 date_added: "2024-07-13"
 ---

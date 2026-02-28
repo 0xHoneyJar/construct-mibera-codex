@@ -1,7 +1,7 @@
 ---
 name: bear alchemist tool
 image: SS1_acidhouse_Bear Alchemist Tool.png
-archetype: acidhouse
+archetype: Acidhouse
 swag_score: 1
 date_added: "2024-07-16"
 ---

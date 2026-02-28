@@ -10,6 +10,18 @@ molecule: C10H14N2
 
 # Two of Cups
 
+## Interpretation
+
+The Two of Cups is the card of mutual attraction, partnership, and the electric moment when two people recognize something of themselves in each other. Traditionally it signals romance, deep friendship, or any bond formed through genuine reciprocity. Upright, it carries erotic energy in its broadest sense, not merely sexual, but the pull of connection itself, the magnetism that draws two forces into alignment. In its shadow aspect, the Two of Cups warns of codependency, blurred boundaries, and the loss of self that can come from merging too completely with another. The cup shared can become the cup you cannot put down.
+
+As a Water card, the Two channels the element in its relational mode: two streams meeting, two tides responding to the same moon. Water here is not solitary depth but mirrored surface, the way emotion moves between people rather than within a single self. The Two of Cups colors a Mibera's expression with an orientation toward connection and exchange. It inflects how they engage with others: with intensity, with hunger for connection, and sometimes with a dangerous willingness to dissolve the line between where they end and someone else begins.
+
+## Drug Pairing
+
+Tobacco is one of humanity's oldest social drugs, and its pairing with the Two of Cups speaks to the ritual of shared presence. Long before it was commodified into cigarettes, tobacco was a ceremonial substance passed between people to seal agreements, mark alliances, and honor the gravity of being in relation. The peace pipe, the shared smoke, the offering of tobacco as gift, these are all expressions of the same impulse the Two of Cups describes: the act of meeting someone in a space that belongs to neither of you alone.
+
+The connection deepens when you consider tobacco's pharmacology: a simultaneous stimulant and relaxant, a substance that both heightens awareness and soothes anxiety. This duality mirrors the Two of Cups' own tension between erotic energy and boundary dissolution. Tobacco draws people together into shared ritual while subtly altering their capacity for presence, a fitting companion for a card about the pleasures and dangers of genuine intimacy.
+
 ## Drug Association
 
 **Drug:** [Tobacco](../../drugs-detailed/tobacco.md)

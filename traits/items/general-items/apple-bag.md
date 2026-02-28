@@ -1,7 +1,7 @@
 ---
 name: apple bag
 image: SS3_acidhouse_Apple Bag.png
-archetype: acidhouse
+archetype: Acidhouse
 swag_score: 5
 date_added: "2024-07-07"
 ---

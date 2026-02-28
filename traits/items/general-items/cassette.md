@@ -1,7 +1,7 @@
 ---
 name: cassette
 image: SS2_chicagodetroit_Cassette.png
-archetype: chicago detroit
+archetype: Chicago Detroit
 swag_score: 2
 date_added: "2024-07-07"
 ---

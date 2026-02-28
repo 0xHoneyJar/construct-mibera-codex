@@ -1,7 +1,7 @@
 ---
 name: black white sunglasses
 image: "https://mibera.fsn1.your-objectstorage.com/components/glasses__z140/chicagodetroit_Black White Sunglasses.webp"
-archetype: chicago detroit
+archetype: Chicago Detroit
 swag_score: 3
 date_added: "2024-06-18"
 ---

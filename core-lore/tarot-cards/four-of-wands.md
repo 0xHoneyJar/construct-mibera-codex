@@ -10,6 +10,18 @@ molecule: C10H13NO2
 
 # Four of Wands
 
+## Interpretation
+
+The Four of Wands is the celebration card, the harvest festival, the homecoming, the moment when effort crystallizes into shared joy. In traditional tarot, four wands form a canopy or gateway adorned with flowers, figures dancing beneath it. Upright, the card signals harmony, community, and the deep satisfaction of arriving somewhere worth being. It is optimism grounded in actual achievement: the party that follows real work. In its shadow aspect, the Four of Wands warns of superficiality, the celebration that substitutes for substance, the Instagram-perfect gathering that papers over emptiness, the compulsive need to perform happiness rather than feel it.
+
+As a Fire card, the Four of Wands represents flame in its most communal form: the bonfire, the hearth, the warmth that draws people together. Fire here is not destructive or solitary but social and stabilizing. This card colors its bearer with a natural inclination toward joy, festivity, and the creation of welcoming spaces. A Mibera carrying the Four of Wands will express its deeper traits through celebration and connection, the Rebel who throws the best underground parties, the Mystic whose rituals feel like festivals. The texture is warmth, but the shadow always lurks: the question of whether the joy is real or merely performed.
+
+## Drug Pairing
+
+MDA (3,4-methylenedioxyamphetamine, sometimes called "sass" or "the love drug") is the older, rougher cousin of MDMA. Synthesized in 1910 but not widely explored until Alexander Shulgin championed it in the 1960s, MDA produces empathogenic euphoria with a more psychedelic edge than its better-known descendant. It was the original entactogen: the substance that first demonstrated that a chemical could reliably produce feelings of emotional openness, interpersonal warmth, and communal bliss.
+
+The pairing with the Four of Wands is almost literal. MDA is the pharmacological equivalent of the celebration canopy, it generates the feeling of shared joy, of boundaries dissolving between self and community. But MDA also carries the card's shadow: the euphoria is chemically induced, the love is temporary, and the superficiality warning rings loud. The warmth is real in the moment and hollow in retrospect. Both the card and the drug ask the same question: can manufactured joy teach you something genuine about connection, or does it only show you the shape of what you are missing?
+
 ## Drug Association
 
 **Drug:** [MDA](../../drugs-detailed/mda.md)

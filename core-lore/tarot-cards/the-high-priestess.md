@@ -10,6 +10,20 @@ molecule: C14H18N2O2
 
 # The High Priestess
 
+## Interpretation
+
+The High Priestess sits between two pillars (one black, one white) guardian of the threshold between the seen and unseen. She is the second card of the Major Arcana and represents the deepest form of knowing: intuition that does not explain itself, wisdom that arrives whole rather than assembled through logic. Upright, she signals a time to listen inward, to trust the quiet voice beneath the noise. In shadow, she warns of secrets kept too long, withdrawal into isolation, and the paralysis that comes from knowing too much and acting too little.
+
+Water is her element, and it suits her perfectly. She is the subconscious itself, the still pool that reflects what the conscious mind refuses to see. Where The Magician acts, The High Priestess receives. Where he manipulates the external world, she navigates the internal one with absolute authority. Hers is the knowledge that cannot be taught, only recognized.
+
+The High Priestess adds a contemplative, inward-facing texture to expression. A Mibera carrying this card may be less concerned with proving what they know than with trusting it. Their engagement with the world carries an undercurrent of patience and perceptive stillness, the sense that they are listening to frequencies others have not learned to hear.
+
+## Drug Pairing
+
+Psilacetin (4-AcO-DMT) is a synthetic prodrug of psilocin, the active compound in psilocybin mushrooms. It represents a modern, laboratory-refined path to the same ancient territory the mushroom has always guarded: the dissolution of ego, the encounter with inner landscapes, the sense of profound knowing that emerges when ordinary cognition steps aside. The pairing with The High Priestess is almost literal, both are gatekeepers to hidden knowledge.
+
+Where psilocybin mushrooms carry millennia of indigenous context, psilacetin arrives stripped to its chemical essence, a modern key to an ancient door. This mirrors The High Priestess herself, who transcends any single tradition. She is not the ritual; she is the silence the ritual was designed to invoke. Psilacetin, like the card, offers not answers but the conditions under which answers arise on their own, inner peace not as passivity but as the prerequisite for genuine insight.
+
 ## Drug Association
 
 **Drug:** [Psilacetin](../../drugs-detailed/psilacetin.md)

@@ -1,7 +1,7 @@
 ---
 name: aum doomsday sign
 image: SS4_milady_modern_japanese_Aum Doomsday Sign.png
-archetype: milady
+archetype: Milady
 swag_score: 4
 date_added: "2024-07-12"
 ---

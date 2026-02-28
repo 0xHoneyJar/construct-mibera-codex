@@ -10,6 +10,18 @@ molecule: C20H20O8
 
 # Five of Cups
 
+## Interpretation
+
+The Five of Cups is the card of loss, regret, and the particular grief that comes from fixating on what has been spilled rather than noticing what remains. Traditional imagery shows a cloaked figure staring at three overturned cups while two full cups stand behind them, unseen. Upright, it signals mourning, disappointment, and the painful but necessary process of acknowledging what is gone. Its virtue is observation, the Five demands that you look at what has happened, that you not rush past grief. In its shadow aspect, it warns of passivity: the observer who becomes so absorbed in watching loss unfold that they forget they can still act. The two cups still standing are not going anywhere, but neither will they pour themselves.
+
+As a Water card, the Five channels the element in its melancholic register, rain, tears, the slow seepage of something draining away. Water here is loss made visible, emotion that has escaped its container. The Five of Cups colors expression with a watchful, contemplative quality that can read as either perceptive or paralyzed. A Mibera carrying this signal tends to notice what others miss, the crack in the foundation, the shift in someone's voice, but may also struggle with the gap between seeing clearly and acting on what they see. This is observance as both gift and burden, the textural coloring of someone who has learned that not all cups stay upright.
+
+## Drug Pairing
+
+Sakae Na, the Thai plant *Combretum quadrangulare*, traditionally chewed or brewed as a mild stimulant and mood modifier across Southeast Asia, pairs with the Five of Cups through their shared quality of quiet, sustained attention. Sakae Na is not a drug of dramatic alteration. It does not shatter perception or flood the brain with euphoria. It sharpens, subtly, the capacity to sit with what is in front of you. Thai farmers and laborers have used it for centuries as a way to remain present through long hours of repetitive work, an aid to endurance rather than escape.
+
+This connects deeply with the Five of Cups' central tension between observation and passivity. Sakae Na helps you watch without flinching, stay alert without acting, exactly the state the Five describes. The pairing suggests a Mibera whose emotional texture is one of sustained, clear-eyed witnessing: someone who can sit with loss or difficulty longer than most, drawing something useful from the act of paying attention, even when what they are watching is painful.
+
 ## Drug Association
 
 **Drug:** [Sakae Na](../../drugs-detailed/sakae-na.md)

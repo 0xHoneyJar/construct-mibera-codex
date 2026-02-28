@@ -1,7 +1,7 @@
 ---
 name: henbane sprig
 image: SS3_freetekno_ancient_greek_henbane.PNG
-archetype: freetekno
+archetype: Freetekno
 swag_score: 3
 date_added: "2025-01-10"
 ---

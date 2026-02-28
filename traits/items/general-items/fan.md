@@ -1,7 +1,7 @@
 ---
 name: fan
 image: SS3_chicagodetroit_Fan.png
-archetype: chicago detroit
+archetype: Chicago Detroit
 swag_score: 3
 date_added: "2024-07-07"
 ---

@@ -10,6 +10,18 @@ molecule: C8H11NO2
 
 # Six of Wands
 
+## Interpretation
+
+The Six of Wands is the victory parade, a figure on horseback crowned with a laurel wreath, wands raised in triumph by the surrounding crowd. Traditional tarot reads this as public recognition, decisive success, and the moment when effort is acknowledged by others. Upright, the card signals an open heart that has earned its triumph through genuine action. This is not inherited status but proven worth, the leader who led from the front and is now celebrated for it. In its shadow aspect, the Six of Wands warns of the darker companions of victory: arrogance, vanity, and the intoxicating danger of believing one's own press. The crowd's adoration becomes a drug in itself, and the victor begins performing triumph rather than embodying it.
+
+As a Fire card, the Six of Wands is flame that illuminates its bearer for all to see, the torch held high, the beacon on the hill. Fire here is public, declarative, impossible to ignore. This card colors its bearer with visible confidence and decisiveness. A Mibera carrying the Six of Wands will tend to draw attention, to act with conviction, and to expect acknowledgment. It colors the archetype with a performative dimension, the Mystic who prophesies publicly, the Creator whose work demands an audience. The texture is radiance, but radiance always casts shadows.
+
+## Drug Pairing
+
+Euphoria (the molecule here is dopamine itself (C8H11NO2), the neurotransmitter that underlies every experience of reward and pleasure) is less a substance one ingests than the state every substance chases. Naming the drug "Euphoria" is a deliberate abstraction: it points not to a specific plant or pill but to the neurochemical condition of triumph itself. Dopamine surges when you win, when the crowd cheers, when decisive action produces visible results.
+
+This pairing with the Six of Wands is almost tautological, and that is the point. The card depicts the feeling; the drug names the feeling. Both are about the open-hearted rush of earned victory, and both carry the same warning. Dopamine systems habituate. The victory parade that thrilled you the first time requires a bigger crowd the next. The decisive action that once came from genuine conviction begins to be performed for the neurochemical payoff of recognition. The Six of Wands paired with Euphoria asks whether you are acting from the heart or chasing the hit.
+
 ## Drug Association
 
 **Drug:** [Euphoria](../../drugs-detailed/euphoria.md)

@@ -1,7 +1,7 @@
 ---
 name: plum onigiri
 image: SS2_milady_Plum Onigiri.png
-archetype: milady
+archetype: Milady
 swag_score: 2
 date_added: "2024-07-07"
 ---

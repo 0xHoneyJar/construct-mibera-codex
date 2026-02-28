@@ -10,6 +10,18 @@ molecule: C11H17NO3
 
 # King of Cups
 
+## Interpretation
+
+The King of Cups sits on his throne surrounded by turbulent waters, yet remains composed. He is the card of emotional sovereignty, the figure who has descended into the depths and returned with the authority to navigate them. Upright, the King signals mastery over the unconscious, the ability to look into unpredictable emotional depths without being pulled under, and the mature capacity to hold space for the full range of human feeling without being destabilized. He is the therapist, the elder, the leader who makes decisions from a place of emotional clarity rather than reactive impulse. In his shadow aspect, the King warns of emotional tyranny, the patriarch who uses his composure as a form of control, and the danger of becoming so skilled at managing feeling that you lose the ability to be genuinely moved. The waters churn, but the King does not flinch, and sometimes that is exactly the problem.
+
+As a Water card, the King channels the element at its most powerful and least controllable, the open ocean, the abyss, the depths that contain things no one has named. Emotion here is vast, ancient, and fundamentally unknowable, and the King's role is not to control it but to remain present within it. The King of Cups colors expression with hard-won emotional authority and a willingness to engage with the parts of experience that most people avoid. A Mibera carrying this signal tends toward gravitas, psychological depth, and an unsettling comfort with uncertainty that others may find either deeply reassuring or deeply intimidating. The card does not define what they seek but how they face what they find: with steady eyes and the understanding that the depths do not owe you a safe return.
+
+## Drug Pairing
+
+Peyote (the small, spineless cactus *Lophophora williamsii*, sacred to the Huichol, Navajo, and other Indigenous peoples of North America for thousands of years, containing mescaline as its primary psychoactive compound) pairs with the King of Cups through their shared relationship to the navigation of overwhelming depth. Peyote ceremonies are not recreational experiences. They are ordeals: long, physically demanding, often frightening encounters with visionary states that the Huichol describe as journeying to Wirikuta, the place where the gods live and where the nature of reality can be witnessed directly. You do not take peyote to feel good. You take it to see what is there.
+
+This maps precisely to the King of Cups' essential quality: the willingness to look into unpredictable depths and remain present for whatever surfaces. Peyote demands exactly the emotional sovereignty the King represents, the capacity to encounter the numinous, the terrifying, and the incomprehensible without losing coherence. In Native American Church practice, the peyote ceremony is led by a roadman, a figure whose role is essentially the King of Cups made literal: someone who has navigated the depths enough times to guide others through them. The signal is someone built for the deep water, carrying the authority of someone who has looked into the abyss and found it not empty but alive.
+
 ## Drug Association
 
 **Drug:** [Peyote](../../drugs-detailed/peyote.md)

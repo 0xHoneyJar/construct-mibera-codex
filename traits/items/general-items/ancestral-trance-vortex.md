@@ -1,6 +1,6 @@
 ---
 name: ancestral trance vortex
-archetype: freetekno
+archetype: Freetekno
 swag_score: 5
 date_added: "2024-12-09"
 ---

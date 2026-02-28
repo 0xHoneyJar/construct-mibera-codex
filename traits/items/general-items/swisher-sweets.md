@@ -1,7 +1,7 @@
 ---
 name: swisher sweets
 image: SS3_chicagodetroit_Swisher Sweets.PNG
-archetype: chicago detroit
+archetype: Chicago Detroit
 swag_score: 1
 date_added: "2024-12-09"
 ---

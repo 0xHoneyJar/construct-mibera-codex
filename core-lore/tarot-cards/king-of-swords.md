@@ -10,6 +10,18 @@ molecule: C12H16N2
 
 # King of Swords
 
+## Interpretation
+
+The King of Swords is the master of the Air court, the figure on the throne who has integrated all the lessons of the suit: the Ace's clarity, the Queen's discernment, the Knight's courage, and something more. The King has moved beyond mere intellectual prowess into spiritual authority grounded in truth-telling. Upright, the King signals ethical leadership, clear judgment, the capacity to make difficult decisions without cruelty and without self-deception. In shadow, the King warns of authoritarianism, the belief that intellectual superiority grants the right to rule, the tyrant who justifies control through the language of reason.
+
+Air at its most evolved becomes the atmosphere itself, not a blade or a wind but the invisible medium that makes all thought possible. The King of Swords colors its bearer with quiet authority. They do not argue to win; they speak to clarify. Their freedom is not the Page's restlessness or the Knight's independence but something deeper, a liberation from the need to prove what they know, because knowing is no longer in question. Spiritual freedom, the card's meaning, is what remains when the mind has finished fighting with itself.
+
+## Drug Pairing
+
+Arundo Donax (giant reed) is a DMT-containing plant that grows as an invasive species across Mediterranean climates, a common, almost weedy reed that harbors one of the most powerful psychedelic molecules in nature within its tissues. The pairing with the King of Swords connects through the theme of spiritual authority concealed within ordinary form. The King does not need a crown to be recognized; Arundo Donax does not need to look exotic to contain transcendence.
+
+The deeper connection is in the concept of spiritual freedom itself. DMT, present in Arundo Donax as in many plants across the biosphere, has been called the "spirit molecule", the compound most consistently associated with experiences of ego dissolution, contact with non-ordinary intelligence, and the liberation of consciousness from its usual constraints. The King of Swords has achieved, through intellectual and ethical mastery, the same freedom that DMT offers chemically: a perspective unconstrained by the fears, biases, and territorial instincts that govern ordinary thought. Card and plant both suggest that the highest expression of mind is not more thinking but the freedom to think or not think, to hold the blade or set it down.
+
 ## Drug Association
 
 **Drug:** [Arundo Donax](../../drugs-detailed/arundo-donax.md)

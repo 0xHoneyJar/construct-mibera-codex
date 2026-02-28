@@ -1,7 +1,7 @@
 ---
 name: sunra
 image: "https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS5_chicagodetroit_Sunra.webp"
-archetype: chicago detroit
+archetype: Chicago Detroit
 swag_score: 5
 date_added: "2024-07-27"
 ---

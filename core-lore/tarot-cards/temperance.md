@@ -10,6 +10,20 @@ molecule: C14H16O3
 
 # Temperance
 
+## Interpretation
+
+Temperance is card fourteen of the Major Arcana, the angel pouring water between two cups, one foot on land and one in the water. This is the card of integration after Death's upheaval: the careful, patient blending of opposites into something new. Upright, Temperance signals moderation, patience, and the playful yet precise art of mixing elements that should not work together into something that does. In shadow, it warns of excess disguised as balance, impatience with the slow process of integration, and the frustration of someone who wants harmony now but is not willing to do the careful work it requires.
+
+Fire is the element, which gives Temperance a surprising vitality. This is not the cold balance of Justice but a warm, dynamic equilibrium, the alchemist's fire that transforms lead into gold not through force but through sustained, attentive heat. Temperance's fire is playful, experimental, willing to try combinations that more cautious minds would reject.
+
+In the Mibera system, Temperance adds a texture of creative balance to expression. A Mibera carrying this card engages with the world as a mixer, a blender, someone who sees connections between unlike things and has the patience to integrate them. Their expression carries an undertone of energetic equilibrium, not stillness but the dynamic balance of a dancer who is always in motion yet never off-center.
+
+## Drug Pairing
+
+Kava (Piper methysticum) has been the ceremonial and social drink of Pacific Island cultures for over 3,000 years. Prepared from the root of the plant, it produces a state of calm sociability, muscles relax, anxiety recedes, and conversation flows easily, but the mind remains clear. It is neither stimulant nor sedative in the traditional sense; it occupies a middle space that Western pharmacology struggles to classify.
+
+The pairing with Temperance is about the art of the middle path. Kava does not intoxicate the way alcohol does, and it does not sedate the way benzodiazepines do. It moderates, taking the edge off without dulling the blade. This is Temperance's domain: the space where opposites are held in creative tension rather than collapsed into either extreme. In Pacific cultures, kava is the drink of diplomacy, of conflict resolution, of the circle where enemies sit together and find enough common ground to continue. Both the plant and the card understand that balance is not passive, it is an active, ongoing negotiation that requires skill, patience, and a certain playful willingness to keep pouring between cups.
+
 ## Drug Association
 
 **Drug:** [Kava](../../drugs-detailed/kava.md)

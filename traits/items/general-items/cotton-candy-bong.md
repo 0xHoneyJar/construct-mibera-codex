@@ -1,7 +1,7 @@
 ---
 name: cotton candy bong
 image: SS1_chicagodetroit_Cotton Candy Bong.PNG
-archetype: chicago detroit
+archetype: Chicago Detroit
 swag_score: 1
 date_added: "2024-07-10"
 ---

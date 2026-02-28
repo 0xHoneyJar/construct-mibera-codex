@@ -1,7 +1,7 @@
 ---
 name: scifi
 image: "https://mibera.fsn1.your-objectstorage.com/components/glasses__z140/milady_Scifi.webp"
-archetype: milady
+archetype: Milady
 swag_score: 5
 date_added: "2024-12-10"
 ---

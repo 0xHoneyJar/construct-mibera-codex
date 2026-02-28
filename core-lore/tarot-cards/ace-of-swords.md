@@ -10,6 +10,20 @@ molecule: C6H10N2O2
 
 # Ace of Swords
 
+## Interpretation
+
+The Ace of Swords represents the purest expression of intellectual force, a single blade cutting through confusion to reach truth. Upright, it signals breakthrough clarity: the moment when a problem that seemed impossibly tangled suddenly resolves into clean logic. New ideas arrive fully formed. Arguments sharpen to a point. The mind operates at its highest capacity, unencumbered by emotional noise or habitual thinking. This is the card of the first incision, the opening argument, the thesis statement that reframes everything that follows.
+
+In its shadow aspect, the Ace of Swords warns against the tyranny of pure intellect. Clarity can become cruelty when wielded without compassion. The same blade that cuts through lies can sever connections worth preserving. Harsh truths delivered without care become weapons rather than instruments of liberation. The shadow Ace is the person who is technically correct but humanly devastating, all precision, no mercy.
+
+As an Air card, the Ace of Swords channels the element at its most concentrated: a single gust powerful enough to clear the sky. This card colors how a Mibera processes and communicates. It sharpens the lens through which they see. Miberas carrying this card tend toward moments of piercing insight, whether they are warriors, scholars, or wanderers.
+
+## Drug Pairing
+
+Piracetam is the quintessential nootropic, a synthetic compound developed in the 1960s with the explicit purpose of enhancing cognitive function without the side effects of traditional stimulants. It does not intoxicate or sedate. It simply makes the machinery of thought run cleaner. This is the pharmaceutical equivalent of the Ace of Swords: not a journey to altered consciousness, but a sharpening of the consciousness already present.
+
+The pairing connects because both card and drug operate on the same principle, that clarity is its own reward. Piracetam was the molecule that launched the entire concept of "smart drugs," a category built on the belief that the mind's default state is not its best state, and that chemistry can close the gap. The Ace of Swords makes the same argument through symbol rather than molecule: the breakthrough is always available, waiting for the right cut.
+
 ## Drug Association
 
 **Drug:** [Piracetam](../../drugs-detailed/piracetam.md)

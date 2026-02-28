@@ -10,6 +10,20 @@ molecule: C10H14N2
 
 # The Magician
 
+## Interpretation
+
+The Magician is card one of the Major Arcana, the first act of conscious will after The Fool's leap of faith. Before him lie the four suit symbols (cups, wands, swords, pentacles), representing all the raw materials of creation. One hand points to the sky, the other to the earth: as above, so below. Upright, The Magician embodies charisma, resourcefulness, and the power to manifest intention into reality. In shadow, this same power curdles into manipulation, impatience, and the trickster who uses skill without wisdom.
+
+Air is the element here, and it sharpens The Magician's nature. This is intellect made active, not contemplation but communication, persuasion, the quick mind that sees how pieces fit together before anyone else in the room. The Magician does not wait for permission; he acts, and the world rearranges itself around his confidence.
+
+The Magician gives a Mibera's expression an electric, charismatic charge. It colors how they act: with flair, with urgency, with the unshakable sense that willpower alone can bend circumstances. The shadow side (impatience, the tendency to cut corners or charm rather than commit) runs as an undertone, a reminder that talent without patience is a parlor trick.
+
+## Drug Pairing
+
+Pituri is the chewing tobacco of the Australian Aboriginal peoples, a plant preparation containing nicotine that has been traded across vast desert networks for thousands of years. It sharpens focus, suppresses hunger, and enables sustained effort under harsh conditions. The connection to The Magician is one of applied will: pituri is not a drug of visions or surrender but of doing, of keeping the mind clear and the body functional when the environment demands everything.
+
+Like The Magician, pituri represents resourcefulness drawn from the land itself. Aboriginal trade routes for pituri were among the most sophisticated exchange networks on the continent, requiring exactly the kind of social intelligence and persuasive skill The Magician embodies. Both the card and the drug speak to the power of using what is at hand, cleverly, decisively, and with full awareness that charisma and capability are tools that can build or destroy.
+
 ## Drug Association
 
 **Drug:** [Pituri](../../drugs-detailed/pituri.md)

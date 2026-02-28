@@ -1,7 +1,7 @@
 ---
 name: scatter cat
 image: SS3_milady_Scatter Cat.PNG
-archetype: milady
+archetype: Milady
 swag_score: 1
 date_added: "2024-12-09"
 ---

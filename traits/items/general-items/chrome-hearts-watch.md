@@ -1,7 +1,7 @@
 ---
 name: chrome hearts watch
 image: SS4_milady_Chrome Hearts Watch.png
-archetype: milady
+archetype: Milady
 swag_score: 4
 date_added: "2024-07-11"
 ---

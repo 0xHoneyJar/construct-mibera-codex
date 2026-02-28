@@ -1,7 +1,7 @@
 ---
 name: pepperoni pizza
 image: SS5_freetekno_Pepperoni Pizza.png
-archetype: freetekno
+archetype: Freetekno
 swag_score: 5
 date_added: "2024-07-13"
 ---

@@ -1,7 +1,7 @@
 ---
 name: normal bong
 image: SS3_chicagodetroit_Normal Bong.PNG
-archetype: chicago detroit
+archetype: Chicago Detroit
 swag_score: 3
 date_added: "2024-07-07"
 ---

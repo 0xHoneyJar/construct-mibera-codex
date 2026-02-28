@@ -10,6 +10,18 @@ molecule: C9H11NO
 
 # Seven of Wands
 
+## Interpretation
+
+The Seven of Wands depicts a solitary figure on high ground, defending a position against six wands rising from below. Traditional tarot reads this as the card of perseverance under pressure, the fight that comes after victory, when others challenge what you have won. Upright, it signals growth through adversity, the strengthening that only comes from being tested, and the courage required to hold your ground when it would be easier to retreat. There is dignity in this defense, a refusal to surrender hard-won territory. In its shadow aspect, the Seven of Wands reveals the toll of perpetual vigilance: inner struggle that becomes self-consuming, defensiveness that hardens into paranoia, and the exhausting posture of someone who has forgotten how to stop fighting.
+
+As a Fire card, the Seven of Wands is flame under siege, not spreading freely but burning stubbornly in hostile conditions. Fire that survives wind and rain is different from fire that blazes unchallenged; it is leaner, harder, more concentrated. This card colors its bearer with embattled resilience. A Mibera carrying the Seven of Wands will express its archetype through persistence and defiance, often against perceived odds. The Sage defends unpopular truths. The Outcast refuses to be erased. The texture is always struggle, always the sense of holding a position that matters precisely because it is contested.
+
+## Drug Pairing
+
+Khat (the East African and Arabian shrub whose fresh leaves have been chewed for centuries across Ethiopia, Yemen, Somalia, and Kenya) is a stimulant of endurance rather than ecstasy. Its active compound, cathinone, produces mild amphetamine-like effects: alertness, suppressed appetite, and a focused wakefulness that sustains long hours of work, conversation, or vigilance. Khat is the drug of the marketplace negotiation, the all-night guard post, the marathon social session where stamina matters more than intensity.
+
+The pairing with the Seven of Wands is rooted in this quality of sustained resistance. Khat does not produce the soaring confidence of cocaine or the euphoric surrender of MDMA, it produces the ability to keep going. Its cultural context reinforces the match: khat chewing is deeply communal but also deeply contested, banned in many Western nations while remaining central to daily life across the Horn of Africa. The plant itself is embattled, its users perpetually defending a tradition that outsiders condemn. Both the card and the drug embody the experience of holding ground, not glamorously, not triumphantly, but stubbornly, because the alternative is surrender.
+
 ## Drug Association
 
 **Drug:** [Khat](../../drugs-detailed/khat.md)

@@ -1,7 +1,7 @@
 ---
 name: coffee beans
 image: SS3_milady_ancient_ethiopian_arabs_coffee beans.PNG
-archetype: milady
+archetype: Milady
 swag_score: 3
 date_added: "2024-12-09"
 ---

@@ -1,7 +1,7 @@
 ---
 name: strawberry
 image: "https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS2_milady_Strawberry.webp"
-archetype: milady
+archetype: Milady
 swag_score: 2
 date_added: "2024-07-24"
 ---

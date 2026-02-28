@@ -1,7 +1,7 @@
 ---
 name: male tears mug
 image: SS2_freetekno_Male Tears Mug.png
-archetype: freetekno
+archetype: Freetekno
 swag_score: 2
 date_added: "2024-07-07"
 ---

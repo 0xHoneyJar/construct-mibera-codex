@@ -1,7 +1,7 @@
 ---
 name: brahmi sprig
 image: SS2_chicagoDetroit_ancient_hindu_brahmi.PNG
-archetype: chicago detroit
+archetype: Chicago Detroit
 swag_score: 2
 date_added: "2025-01-10"
 ---

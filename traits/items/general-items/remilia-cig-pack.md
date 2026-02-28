@@ -1,7 +1,7 @@
 ---
 name: remilia cig pack
 image: SS3_milady_Remilia Cig Pack.png
-archetype: milady
+archetype: Milady
 swag_score: 3
 date_added: "2024-07-10"
 ---

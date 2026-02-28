@@ -10,6 +10,20 @@ molecule: C21H26N2O3
 
 # The Chariot
 
+## Interpretation
+
+The Chariot is card seven of the Major Arcana, the triumphant figure steering two sphinxes (or horses, in some decks) in the same direction through sheer force of will. This is not the brute strength of the warrior but the disciplined confidence of the commander who has learned to harness opposing forces. Upright, The Chariot signals momentum, determination, and the optimism that comes from knowing you are moving in the right direction. In shadow, it warns of aggression disguised as ambition, the refusal to slow down even when the road demands it, and the particular arrogance of someone who mistakes motion for progress.
+
+Water is the element, which adds emotional depth to what might otherwise be a purely martial card. The Chariot's strength is not cold, it is driven by feeling, by the deep emotional conviction that the destination matters. The charioteer does not calculate his way forward; he believes his way forward, and that belief gives him the authority to command.
+
+The Chariot gives expression a forward-leaning, confident quality. A Mibera carrying this card does not dwell or second-guess. Their engagement with the world is kinetic, optimistic, oriented toward what comes next rather than what has already passed. The shadow note of overconfidence is the price of this momentum, sometimes the fastest way forward is to stop.
+
+## Drug Pairing
+
+Tabernaemontana is a genus of tropical plants used across Central Africa, South America, and Southeast Asia for purposes ranging from wound healing to ritual divination. Several species contain ibogaine-related alkaloids, connecting them to the powerful visionary traditions of the Bwiti religion. But unlike iboga's reputation for grueling psychospiritual ordeals, tabernaemontana preparations are often used for more practical purposes, endurance, clarity, and the stamina to keep going.
+
+This is what connects it to The Chariot. Tabernaemontana is the plant of forward motion: traditionally used by hunters, travelers, and those who needed to push through physical and mental barriers to reach their destination. The Chariot asks the same thing, not for surrender or reflection but for the disciplined optimism to keep driving even when the terrain is uncertain. Both the plant and the card embody the principle that confidence is not the absence of obstacles but the commitment to moving through them.
+
 ## Drug Association
 
 **Drug:** [Tabernaemontana](../../drugs-detailed/tabernaemontana.md)

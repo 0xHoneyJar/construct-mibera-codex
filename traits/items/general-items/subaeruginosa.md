@@ -1,7 +1,7 @@
 ---
 name: subaeruginosa
 image: SS2_acidhouse_Subaeruginosa.png
-archetype: acidhouse
+archetype: Acidhouse
 swag_score: 2
 date_added: "2024-07-06"
 ---

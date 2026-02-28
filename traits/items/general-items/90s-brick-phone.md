@@ -1,7 +1,7 @@
 ---
 name: 90s brick phone
 image: SS4_freetekno_90s Brick Phone.png
-archetype: freetekno
+archetype: Freetekno
 swag_score: 4
 date_added: "2024-07-10"
 ---

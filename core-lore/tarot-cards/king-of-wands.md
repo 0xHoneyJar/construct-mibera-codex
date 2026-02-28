@@ -10,6 +10,18 @@ molecule: C11H15NO
 
 # King of Wands
 
+## Interpretation
+
+The King of Wands sits forward on his throne, wand in hand, a salamander at his feet, the alchemical symbol of fire mastered. Unlike the Queen who draws others toward her warmth, the King projects his fire outward as command. In traditional tarot, the Kings represent the external, executive expression of their suit's element, and the King of Wands is fire wielded as authority. Upright, this card signals the inspiring leader, someone whose vision is so clear and whose conviction so total that others follow instinctively. He is the founder, the general, the creative director who shapes the world through sheer force of will. In its shadow aspect, the King of Wands reveals the tyrant within the visionary: envy of others' accomplishments, a superiority complex that tolerates no rivals, and the dangerous assumption that leadership means dominion rather than service.
+
+As a Fire card, the King of Wands is the forge, flame directed with absolute precision toward the transformation of raw material into something deliberate. This is fire as tool, fire as power, fire industrialized. This card colors its bearer with commanding presence and the expectation of influence. A Mibera carrying the King of Wands will express its archetype through leadership and authority, regardless of whether the archetype naturally trends that way. The Mystic becomes a cult founder. The Scholar becomes a dean. The texture is always dominance, always the assumption that one's fire should light the way for others, and always the danger of confusing illumination with control.
+
+## Drug Pairing
+
+M-CAT, mephedrone, 4-methylmethcathinone, is a synthetic cathinone that emerged in the late 2000s as a "legal high" before being banned across most jurisdictions. It produces a potent combination of euphoria, confidence, and social dominance that users frequently describe as feeling like "the best version of yourself", more articulate, more commanding, more certain. Its chemical structure bridges amphetamines and cathinone (the active compound in khat), producing a hybrid stimulant that is simultaneously empathogenic and ego-inflating.
+
+The pairing with the King of Wands captures the seductive danger of chemically amplified authority. M-CAT's signature effect is the feeling of being an inspiring leader, exactly the King's upright meaning. Users report increased charisma, decisiveness, and the conviction that their ideas are not just good but important. But M-CAT is also notorious for its comedown, which inverts every quality of the high: the confidence becomes paranoia, the superiority becomes crushing self-doubt, and the envy the card warns of emerges as the user realizes the kingdom was pharmaceutical. Both the King and M-CAT pose the same question about power: is the fire yours, or are you borrowing it, and what happens when the supply runs out?
+
 ## Drug Association
 
 **Drug:** [M-CAT](../../drugs-detailed/m-cat.md)

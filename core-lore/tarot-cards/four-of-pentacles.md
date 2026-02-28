@@ -10,6 +10,20 @@ molecule: C8H10N4O2
 
 # Four of Pentacles
 
+## Interpretation
+
+The Four of Pentacles shows a figure clutching four coins, one balanced on the head, one held to the chest, two pinned under the feet. It is the card of possession, control, and the fine line between security and suffocation. Upright, it represents self-confidence born of material stability, the diligence required to build and protect what is yours, and the deep satisfaction of financial or physical security. There is genuine wisdom in knowing what you have and holding it well. In its shadow, the Four becomes the miser's card, stubbornness calcified into rigidity, confidence curdled into defensiveness, the person so afraid of losing what they have that they cannot open their hands to receive anything new.
+
+As an Earth card, the Four of Pentacles is profoundly physical in its expression. The coins are not abstract; they are pressed against the body, felt as weight. Earth at its most stable can become Earth at its most immovable. This card colors its bearer with tenacious self-assurance. It lends their expression a certain gravitational pull, a solidity that can read as either reassuring dependability or stubborn refusal to budge.
+
+Miberas marked by the Four of Pentacles carry an unmistakable sense of ownership over their domain. They are diligent, self-possessed, and difficult to shake from a position once they have claimed it. Whether this manifests as admirable steadfastness or frustrating inflexibility depends on the other signals in their identity constellation.
+
+## Drug Pairing
+
+Coffee is the world's most ubiquitous productivity drug, the daily sacrament of the diligent, the fuel of early mornings and late nights, the substance that says "I have work to do and I will do it." Its pairing with the Four of Pentacles is almost too natural. Both card and drug speak to the same archetype of disciplined, self-reliant industry. The person who clutches their four coins is the same person who clutches their morning cup: determined, focused, perhaps a little too wound up to let go.
+
+There is a darker parallel here as well. Coffee's grip is famously stubborn, the headache of withdrawal, the ritual that becomes compulsion, the cup that was once a choice and is now a requirement. The Four of Pentacles holds its coins the same way: what began as confidence can become dependence on the feeling of control. The texture is caffeinated resolve: sharp, alert, productive, but perhaps holding on a little too tightly to the structures that make them feel safe.
+
 ## Drug Association
 
 **Drug:** [Coffee](../../drugs-detailed/coffee.md)

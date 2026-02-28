@@ -10,6 +10,18 @@ molecule: C17H21NO4
 
 # Seven of Swords
 
+## Interpretation
+
+The Seven of Swords is the card of cunning, the figure stealing away from camp with an armful of blades, glancing over their shoulder, half-smile suggesting they consider this a game. Traditionally this card signals deception, stealth, strategy that operates outside the rules. Upright, it speaks to the necessity of cleverness when brute force fails: sometimes the smartest move is the indirect one, the approach nobody expected. In shadow, the Seven warns of self-deception, the trickster who has told so many lies they can no longer distinguish performance from identity, the strategist who confuses being clever with being wise.
+
+Air here becomes the wind that carries rumors, the whisper, the misdirection. This is intelligence as sleight-of-hand. The Seven of Swords gives its bearer a textural quality of obliqueness. They approach problems from unexpected angles. Their humor has edges. They are difficult to pin down, not because they are dishonest, but because they understand that truth sometimes needs to be delivered sideways, and that the most interesting paths are rarely the most direct ones.
+
+## Drug Pairing
+
+Henbane (Hyoscyamus niger) is one of the most ancient and feared plants in the European pharmacopoeia, a member of the nightshade family that has served as poison, medicine, oracle fuel, and witch's flying ointment across millennia. Its tropane alkaloids produce hallucinations, delirium, and a sensation of flight or weightlessness that medieval practitioners attributed to demonic congress. The pairing with the Seven of Swords operates through shared trickster energy: henbane looks unremarkable, smells foul, and delivers an experience that defies every expectation the user brings to it.
+
+Both card and plant trade in the space between cunning and madness. Henbane was used by some accounts as one of several intoxicants that loosened the grip of ordinary reality for ancient oracles and medieval witches alike. The Seven of Swords steals truth from guarded places through methods that respectable minds would reject. The pairing suggests that access to certain kinds of knowledge requires a willingness to cheat, to bypass the front door and climb in through the window.
+
 ## Drug Association
 
 **Drug:** [Henbane](../../drugs-detailed/henbane.md)

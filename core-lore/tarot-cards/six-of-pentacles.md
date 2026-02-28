@@ -10,6 +10,20 @@ molecule: C12H17N2O4P
 
 # Six of Pentacles
 
+## Interpretation
+
+The Six of Pentacles depicts a wealthy figure holding a balanced scale in one hand while distributing coins to kneeling supplicants with the other. It is the card of generosity, reciprocity, and the complex power dynamics embedded in every act of giving. Upright, it represents balanced exchange, charity given and received with grace, resources flowing where they are needed, the understanding that wealth is not static but circulatory. It speaks to accepting change: the giver may one day kneel, and the receiver may one day hold the scale. In its shadow, the Six warns against charity as control, generosity with strings attached, or the subtle humiliation of always being the one who receives.
+
+Earth grounds this exchange in material reality. The coins are real; the scale measures actual weight. This is not abstract compassion but tangible redistribution, food shared, rent covered, labor compensated fairly. The Six of Pentacles lends its bearer a texture of relational awareness around material resources. It colors expression with sensitivity to imbalance and a natural inclination toward equitable exchange. The card does not dictate worldview but adds attentiveness to the flow of giving and taking in every interaction.
+
+Miberas with the Six of Pentacles often express a generosity that is neither performative nor naive. They understand that balance is not a fixed state but an ongoing negotiation, and they accept the changes in fortune that come with being part of a living economy of care.
+
+## Drug Pairing
+
+Shroom Tea (psilocybin dissolved in hot water, the most communal form of mushroom consumption) pairs with the Six of Pentacles through the shared ritual of passing the cup. Where mushrooms eaten alone are a private journey, shroom tea is brewed and shared. It is inherently an act of giving: someone prepares, someone pours, someone receives. The circle around the tea is a living image of the Six's balanced scale.
+
+Psilocybin's well-documented capacity to dissolve ego boundaries and increase feelings of interconnectedness mirrors the card's teaching about the fluidity of roles. Under the influence of shroom tea, the distinction between giver and receiver softens, everyone in the circle is both. The substance encourages acceptance of change, of dissolution, of the understanding that what you hold is not really yours but is passing through you. The texture is openhanded communion, someone whose generosity flows as naturally as tea poured from a shared pot.
+
 ## Drug Association
 
 **Drug:** [Shroom Tea](../../drugs-detailed/shroom-tea.md)

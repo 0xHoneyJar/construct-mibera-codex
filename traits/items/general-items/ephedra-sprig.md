@@ -1,7 +1,7 @@
 ---
 name: ephedra sprig
 image: SS3_milady_ancient_chinese_palestinian_ephedra.PNG
-archetype: milady
+archetype: Milady
 swag_score: 3
 date_added: "2024-12-09"
 ---
