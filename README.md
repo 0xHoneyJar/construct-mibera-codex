@@ -110,7 +110,7 @@ Explore the 10,000 Miberas through faceted search — filter by archetype, ances
 
 The codex is a living document. If something is wrong, missing, or could be better — [open an issue](https://github.com/0xHoneyJar/mibera-codex/issues/new).
 
-Corrections, lore additions, cultural context, trait documentation, broken links, grail history — all welcome. Just describe what you're seeing and what you think it should be.
+Corrections, lore additions, cultural context, trait documentation, broken links, grail history, or information you think should be here but isn't — all welcome. Just describe what you're seeing and what you think it should be.
 
 ---
 
