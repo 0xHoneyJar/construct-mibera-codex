@@ -41,7 +41,7 @@ Father of digital cash; created DigiCash and eCash in the 1980s.
 
 Cypherpunk contributor.
 
-**Trait file:** [DCF](../../traits/items/general-items/dcf.md)
+**Trait file:** [DCF](../../traits/items/bong-bears/dcf.md)
 
 ---
 
@@ -61,7 +61,7 @@ Received the first-ever Bitcoin transaction from Satoshi; created Reusable Proof
 
 Berachain community figure.
 
-**Trait file:** [Icebeargy](../../traits/items/general-items/icebeargy.md)
+**Trait file:** [Icebeargy](../../traits/items/bong-bears/icebeargy.md)
 
 ---
 
