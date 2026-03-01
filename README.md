@@ -99,7 +99,7 @@ Explore the 10,000 Miberas through faceted search — filter by archetype, ances
 | Hand-Drawn Grails | 42 |
 | Unique Traits | 1,337+ |
 | Archetypes | 4 |
-| Ancestors | 12+ |
+| Ancestors | 33 |
 | Tarot-Drug Mappings | 78 |
 | Ecosystem Contracts | 11 |
 | Birthday Range | 13,166 BCE – 2024 CE |
@@ -108,7 +108,9 @@ Explore the 10,000 Miberas through faceted search — filter by archetype, ances
 
 ## Contributing
 
-Submit a Pull Request.
+The codex is a living document. If something is wrong, missing, or could be better — [open an issue](https://github.com/0xHoneyJar/mibera-codex/issues/new).
+
+Corrections, lore additions, cultural context, trait documentation, broken links, grail history — all welcome. Just describe what you're seeing and what you think it should be.
 
 ---
 
