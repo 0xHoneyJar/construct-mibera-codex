@@ -49,9 +49,10 @@
     {
       "id": "EVT-005",
       "name": "Codex repository created",
-      "date": null,
+      "date": "2026-01-15",
       "notes": "GitHub repository 0xHoneyJar/mibera-codex",
-      "verified": false
+      "source": "GitHub API: gh repo view --json createdAt → 2026-01-15T20:19:41Z",
+      "verified": true
     },
     {
       "id": "EVT-006",

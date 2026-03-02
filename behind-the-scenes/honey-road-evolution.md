@@ -22,7 +22,7 @@ HoneyRoad started on December 9, 2023 — a Next.js + wagmi + bun scaffold. ✅ 
 
 What happened next was not a prototype in the exploratory sense. Within seven days, the core marketplace was functional:
 
-- **Day 1**: VerdanaPro fonts added ✅ `22247dc5` — the typography choice that telegraphed the dark market aesthetic before a single feature existed
+- **Day 1**: Verdana fonts added ✅ `22247dc5` — the typography choice that telegraphed the dark market aesthetic before a single feature existed
 - **Day 2**: `DrugCard` component ✅ `9dae4a8b` — "candies = drugs" made concrete in code. `DrugPage` for individual listings ✅ `343a8701`
 - **Day 3**: `VendorPage` for seller storefronts ✅ `e262b06d`. `CartPage` for the shopping cart ✅ `8c200e28`
 - **Day 4**: Supabase integration (PR #1) ✅ `24726065` — the first backend, providing the database for listings, reviews, and sellers
@@ -31,7 +31,7 @@ What happened next was not a prototype in the exploratory sense. Within seven da
 
 The naming is the tell. Not "items" and "shops" — *drugs* and *vendors*. Not "marketplace" — the *Honey Road*. The parody identity was never a pivot. It was the first architectural decision.
 
-⚠️ The VerdanaPro font choice on day 1 may have been inherited from an earlier prototype or design mockup. The intent is clear, but the origin of the font decision itself is undocumented.
+⚠️ The Verdana font files (`Verdana.ttf`, `Verdana-Bold.ttf`) are bundled as local fonts in the repo. The specific source of these font files — whether pulled from a system font export, an old web archive, or a design mockup — is undocumented. Zerker may have context on the origin.
 
 ---
 
@@ -50,7 +50,7 @@ With the core marketplace standing, the team built out the features that made it
 | Feb 5, 2024 | "parallelized gpt" — first GPT integration | ✅ `61444b53` |
 | Feb 6, 2024 | Mobile view (PR #18) | ✅ `af9f4f2b` |
 
-PGP-encrypted vendor messages. A buyer guide. Order finalization via on-chain review. These aren't marketplace features — they're *dark market* features, implemented with the fidelity of someone who understood the source material.
+PGP-encrypted vendor messages. A buyer guide. Order finalization via on-chain review. These aren't marketplace features — they're *dark market* features, driven by Jani's founding vision for the product. PGP was implemented by exp.table as cosmetic fidelity — the app detects PGP message headers but does not perform encryption/decryption itself. Many early features (captcha, PGP, buyer guide notes) prioritized the *feel* of the source material over functional parity.
 
 ---
 
@@ -84,7 +84,7 @@ Between June 26, 2024 (`4e304dd1`) and February 27, 2025 (`c0b60759`), HoneyRoad
 
 This was The Long Wait referenced in [Team History](team-history.md) — the period when Berachain mainnet was delayed and the team held position. The art was complete (see [Creative Process](creative-process.md)). The prototype was functional. The contracts were being audited (audit fixes appear in the contracts repo around May 2024 ⚠️). But the chain wasn't live.
 
-❓ What the team was doing during this period — contract development, community building, planning — is not documented in git. Discord archives or team memory may fill this gap.
+⚠️ The team was focused on community and ecosystem building — Discord engagement, partnerships, Mirror articles, and the MiberaSets deployment on Optimism (Section VI). The org was also working on other brands and products. The 8-month gap in mibera-interface git reflects a deliberate hold-position while Berachain was delayed, not inactivity.
 
 ---
 
@@ -111,13 +111,13 @@ Berachain went live. HoneyRoad reactivated with a presale system:
 | Mar 22, 2025 | "switch to berachain" — Berachain set as target chain | ✅ `d36cf1b6` |
 | Mar 25, 2025 | App pages unhidden — site goes live | ✅ (interface git) |
 
-The auth stack evolution tells its own story: SIWE → Privy → RainbowKit → Dynamic Labs. Four systems in two years, each migration driven by the chain's infrastructure requirements. ⚠️
+The auth stack evolution tells its own story: SIWE → Privy → RainbowKit → Dynamic Labs. Four systems in two years — not forced by chain requirements alone, but driven by the team's pragmatic exploration of wallet authentication. The team was new to web development, and each migration reflected learning what worked best: RainbowKit was a pure wallet solution; Privy and Dynamic explored authentication tied to features like the forum and server action tokens. Cost was never a factor — developer experience was. ⚠️
 
 ---
 
 ## VIII. The Feature Storm (March – May 2025)
 
-What followed the presale was the highest-velocity period in the project's history. In roughly six weeks, the team shipped:
+What followed the presale was the highest-velocity period in the project's history. In roughly six weeks, the team shipped — not as a planned launch sequence, but through organic momentum where one feature's completion naturally triggered the next:
 
 ### The Forum Clone
 
@@ -248,9 +248,9 @@ The full stack as it exists today:
 
 **Burst development.** A seven-day prototype. An eight-month pause. Then a six-week storm that shipped more features than the entire preceding year. The project moves in punctuated equilibria, not sprints.
 
-**The 42 motif is load-bearing.** Not decoration — every economic parameter in the Treasury and CandiesMarket contracts references 42 or its derivatives. 4.2 BERA mint price, 4.20% interest, 42% max discount, 69420 seized candy ID. The number is a design signature that makes Mibera contracts recognizable on-chain (see [The 42 Motif](../_codex/data/42-motif.md)).
+**The 42 motif is load-bearing.** Not decoration — every economic parameter in the Treasury and CandiesMarket contracts references 42 or its derivatives. 4.2 BERA mint price, 4.20% interest, 42% max discount, 69420 seized candy ID. These numbers are native to Berachain culture — 42, 420, 69, 69420 appear across the ecosystem as meme numbers. Mibera's systematic use of the motif is both cultural participation and design signature, making the contracts recognizable on-chain as Berachain-native (see [The 42 Motif](../_codex/data/42-motif.md)).
 
-**Auth stack churn was environmental, not indecisive.** Four auth systems in two years reflects building on an emerging chain where the infrastructure was still settling. Each migration was forced by the environment: SIWE was too raw, Privy didn't survive the RainbowKit era, RainbowKit didn't support Berachain, Dynamic did.
+**Auth stack churn was exploratory, not indecisive.** Four auth systems in two years reflects a team that was new to web development, pragmatically exploring what wallet authentication looks like. RainbowKit was a pure wallet connector; Privy and Dynamic explored authentication tied to product features (forum access, server action tokens). Berachain compatibility was one factor among many — developer experience drove most decisions. The team learned that many auth SDKs are overkill, extending their feature set beyond what's needed.
 
 **HoneyGPT evolved from toy to participant.** A cron-based forum poster in April 2024 became a threaded conversation agent with real database access and vendor tools by November 2025. The AI isn't bolted on — it's a vendor in the marketplace.
 
@@ -274,7 +274,7 @@ The full stack as it exists today:
 
 ## Contributors
 
-HoneyRoad was built primarily by **soju (treblale/zksoju)** — 915 of 1,608 commits — with significant contributions from **jani (janitooor)** on full-stack and contract integration, **zerker (notzerker/zergucci)** on architecture and auth infrastructure, and **exp.table** on smart contracts, VM traits, and on-chain logic. See [Team History](team-history.md) for full profiles.
+HoneyRoad was built primarily by **soju (treblale/zksoju)** — 915 of 1,608 commits — with significant contributions from **jani (janitooor)** on full-stack, contract integration, and product vision (the founding brainchild behind most of the feature set), **zerker (notzerker)** on architecture, design, and auth infrastructure, **zergucci** on assembly support and engine implementation, and **exp.table** on smart contracts, VM traits, and on-chain logic. See [Team History](team-history.md) for full profiles.
 
 ---
 
