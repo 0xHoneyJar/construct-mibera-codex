@@ -116,11 +116,11 @@
     "oracle": {
       "directory": "oracle/",
       "index": "oracle/README.md",
-      "count": 4,
+      "count": 3,
       "format": "system_prompt_markdown",
       "naming": "book-of-{name}.md",
       "completeness": "COMPLETE",
-      "completeness_note": "4 persona-driven system prompts (Data, Lore, Sight, Grails)",
+      "completeness_note": "3 persona-driven system prompts (Data, Lore, Sight)",
       "last_verified": "2026-03-05"
     }
   },

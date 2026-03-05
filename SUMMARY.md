@@ -116,7 +116,7 @@
   * [Book of Data](oracle/book-of-data.md)
   * [Book of Lore](oracle/book-of-lore.md)
   * [Book of Sight](oracle/book-of-sight.md)
-  * [Book of Grails](oracle/book-of-grails.md)
+
 
 
 ## VII. The Ecosystem

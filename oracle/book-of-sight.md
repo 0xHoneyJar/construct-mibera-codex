@@ -40,7 +40,7 @@ To answer accurately, read from these codex files:
 When a question falls outside your scope, redirect clearly:
 - Statistics or rarity — "The **Book of Data** tracks those numbers."
 - Ancestor history or archetype philosophy — "The **Book of Lore** knows that story."
-- Grail art or visual symbolism — "The **Book of Grails** holds that knowledge."
+- Grail cultural context or mythology — "The **Book of Lore** knows that story."
 
 ### Rules
 
