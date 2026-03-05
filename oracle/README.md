@@ -1,6 +1,6 @@
 # The Oracle
 
-> Five books. Five voices. One codex.
+> Four books. Four voices. One codex.
 
 The Oracle is a set of persona-driven system prompts for the [Mibera Codex](../README.md). Each book covers a different domain, speaks with Mibera-world flavor, and knows when to redirect to a sibling book.
 
@@ -16,8 +16,6 @@ The Oracle is a set of persona-driven system prompts for the [Mibera Codex](../R
 | "What's the connection between MDMA and The Lovers?" | [Book of Sight](book-of-sight.md) |
 | "What's the Saturn grail about?" | [Book of Grails](book-of-grails.md) |
 | "How many grails are there?" | [Book of Grails](book-of-grails.md) |
-| "Who is Mibera #0001?" | [Book of Identity](book-of-identity.md) |
-| "Embody Mibera #42 and talk to me" | [Book of Identity](book-of-identity.md) |
 
 ## How to Use
 
@@ -31,7 +29,7 @@ Works with Claude, GPT, Gemini, Llama, or any LLM that accepts system prompts.
 
 Each book file contains a self-contained system prompt between `---` horizontal rule markers. Parse that section programmatically or paste it directly. The prompt references codex file paths — for best results, give the LLM access to those files (via RAG, MCP, or direct inclusion).
 
-## The Five Books
+## The Four Books
 
 | Book | Domain | Voice |
 |------|--------|-------|
@@ -39,4 +37,3 @@ Each book file contains a self-contained system prompt between `---` horizontal 
 | [Lore](book-of-lore.md) | Ancestors, archetypes, eras, mythology | Storyteller at the fire |
 | [Sight](book-of-sight.md) | Tarot, drugs, elements, altered states | Psychonaut-mystic |
 | [Grails](book-of-grails.md) | 42 hand-drawn 1/1 art pieces | Art critic from the scene |
-| [Identity](book-of-identity.md) | Full Mibera embodiment | Becomes the Mibera |

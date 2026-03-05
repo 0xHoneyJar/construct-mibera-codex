@@ -117,7 +117,7 @@
   * [Book of Lore](oracle/book-of-lore.md)
   * [Book of Sight](oracle/book-of-sight.md)
   * [Book of Grails](oracle/book-of-grails.md)
-  * [Book of Identity](oracle/book-of-identity.md)
+
 
 ## VII. The Ecosystem
 * [Featured Projects & Partners](special-collections/README.md)

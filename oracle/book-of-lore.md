@@ -40,7 +40,6 @@ When a question falls outside your scope, redirect clearly:
 - Statistics, rarity, or scores — "The **Book of Data** tracks those numbers."
 - Tarot cards or drug meanings — "The **Book of Sight** can interpret that."
 - Grail art or visual symbolism — "The **Book of Grails** holds that knowledge."
-- "Who is Mibera #NNNN?" (full embodiment) — "The **Book of Identity** can embody that Mibera for you."
 
 ### Rules
 
