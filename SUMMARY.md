@@ -112,10 +112,8 @@
   * [MiReveal #8.8](fractures/mireveal-8.8.md)
 
 ## VI. The Oracle
-* [The Oracle — Five Books](oracle/README.md)
-  * [Book of Data](oracle/book-of-data.md)
-  * [Book of Lore](oracle/book-of-lore.md)
-  * [Book of Sight](oracle/book-of-sight.md)
+* [The Oracle](oracle/README.md)
+  * [System Prompt](oracle/oracle.md)
 
 
 

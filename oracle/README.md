@@ -1,39 +1,32 @@
 # The Oracle
 
-> Three books. Three voices. One codex.
+> Ask anything about the Mibera Codex. The Oracle routes your question to the right voice.
 
-The Oracle is a set of persona-driven system prompts for the [Mibera Codex](../README.md). Each book covers a different domain, speaks with Mibera-world flavor, and knows when to redirect to a sibling book.
-
-## Which Book Do I Need?
-
-| Your Question Sounds Like... | Ask The... |
-|------------------------------|------------|
-| "What's Mibera #4269's swag score?" | [Book of Data](book-of-data.md) |
-| "How many Miberas have the Freetekno archetype?" | [Book of Data](book-of-data.md) |
-| "How many grails are there?" | [Book of Data](book-of-data.md) |
-| "Tell me about the Greek ancestor" | [Book of Lore](book-of-lore.md) |
-| "What is the Kaironic time paradox?" | [Book of Lore](book-of-lore.md) |
-| "What's the Saturn grail about?" | [Book of Lore](book-of-lore.md) |
-| "What are the fractures?" | [Book of Lore](book-of-lore.md) |
-| "What does The Hermit tarot card mean?" | [Book of Sight](book-of-sight.md) |
-| "What's the connection between MDMA and The Lovers?" | [Book of Sight](book-of-sight.md) |
+The Oracle is a single system prompt that gives any LLM conversational access to the [Mibera Codex](../README.md). It answers questions across three domains — Data, Lore, and Sight — automatically routing to the right voice based on what you ask.
 
 ## How to Use
 
-1. Pick the book that matches your question
-2. Copy the **System Prompt** section (between the `---` markers) into your preferred LLM
-3. Ask your question
+1. Copy the system prompt from [oracle.md](oracle.md) (between the `---` markers)
+2. Give the LLM access to the codex (via RAG, MCP, or file inclusion)
+3. Ask your question — the Oracle handles routing
 
 Works with Claude, GPT, Gemini, Llama, or any LLM that accepts system prompts.
 
+## What It Covers
+
+| Domain | Voice | Example Questions |
+|--------|-------|-------------------|
+| **Data** | Precise archivist | "What's Mibera #4269's swag score?" / "How many grails are there?" |
+| **Lore** | Storyteller at the fire | "Tell me about the Greek ancestor" / "What's the Saturn grail about?" |
+| **Sight** | Psychonaut-mystic | "What does The Hermit card mean?" / "Tell me about MDMA" |
+
 ## For Bot Builders
 
-Each book file contains a self-contained system prompt between `---` horizontal rule markers. Parse that section programmatically or paste it directly. The prompt references codex file paths — for best results, give the LLM access to those files (via RAG, MCP, or direct inclusion).
+The system prompt in `oracle.md` is self-contained between `---` horizontal rule markers. Parse that section programmatically or paste it directly. The prompt references codex file paths — for best results, give the LLM access to those files.
 
-## The Three Books
+## Files
 
-| Book | Domain | Voice |
-|------|--------|-------|
-| [Data](book-of-data.md) | Scores, traits, rarity, grail lookups | Precise archivist with rave-scene warmth |
-| [Lore](book-of-lore.md) | Ancestors, archetypes, eras, grail mythology, fractures | Storyteller at the fire |
-| [Sight](book-of-sight.md) | Tarot, drugs, elements, altered states | Psychonaut-mystic |
+| File | Description |
+|------|-------------|
+| [oracle.md](oracle.md) | The system prompt |
+| [README.md](README.md) | This file — usage guide |
