@@ -1,58 +1,93 @@
-# Sprint Plan: Reveal Timeline — Per-Mibera Fracture Images
+# Sprint Plan: Mibera Oracle — The Five Books
 
-**Cycle**: 017
-**Created**: 2026-02-24
+**Cycle**: cycle-018
+**PRD**: [prd.md](prd.md)
+**SDD**: [sdd.md](sdd.md)
+**Review Gate**: Human review required before any commit/push
 
----
+## Sprint 1: Oracle Foundation + First Two Books (Global Sprint 30)
 
-## Sprint 1: Reveal Timeline Integration
+**Goal**: Create the oracle directory, README router, shared voice conventions, and the two highest-demand books (Data + Lore).
 
-**Goal**: Add reveal timeline images to all 10,000 Mibera files and clean up legacy data.
-
-### Task 1: Build the reveal timeline script
-
-**Description**: Create `_codex/scripts/add-reveal-timeline.py` that:
-- Loads `_codex/data/mibera-image-urls.json` and builds tokenId→hash mapping
-- Iterates all 10,000 `miberas/NNNN.md` files
-- Inserts a `## Reveal Timeline` section with a 9-column markdown image table
-- Phases in order: MiParcels, Miladies, #1.1, #2.2, #3.3, #4.20, #5.5, #6.9, #7.7
-- URL patterns: token-ID-based for parcels/miladies, hash-based for reveals
-- S3 base: `https://thj-assets.s3.us-west-2.amazonaws.com`
-- Idempotent: replaces existing `## Reveal Timeline` if present
-- Stdlib-only Python (project convention)
-
+### Task 1.1: Oracle Directory + README Router
 **Acceptance Criteria**:
-- [ ] Script runs without errors on all 10,000 files
-- [ ] Produces correct S3 URLs for both token-ID and hash-based phases
-- [ ] Inserts between hero image and `## Traits` heading
-- [ ] Running twice produces identical output (idempotent)
-- [ ] Logs summary: files processed, skipped, errors
+- Create `oracle/` directory
+- Create `oracle/README.md` with routing table, usage instructions for humans and bot builders
+- Routing table maps question types to book names
 
-### Task 2: Run script on all 10,000 Mibera files
-
-**Description**: Execute the script across the full `miberas/` directory. Verify output on a sample before committing.
-
+### Task 1.2: Book of Data
 **Acceptance Criteria**:
-- [ ] All 10,000 files modified with `## Reveal Timeline` section
-- [ ] Spot-check 5 files (IDs 1, 42, 100, 5000, 9999) — correct URLs, correct phase order
-- [ ] Hero image (Irys URL) unchanged in all files
-- [ ] `## Traits` table and all content below unchanged
-- [ ] No regressions in frontmatter
+- Create `oracle/book-of-data.md` following SDD template
+- System prompt under ~3,500 tokens
+- Includes shared Mibera voice block
+- References real data sources (`miberas.jsonl`, `browse/by-*.md`, `swag-scoring/`)
+- Cross-book routing section
+- Anti-hallucination rules
+- 3-5 example Q&A pairs using verified real Mibera data
 
-### Task 3: Cleanup legacy mireveal data
-
-**Description**: Remove `mireveals/mireveal3.3/` directory (old CSV metadata, superseded by S3 URLs).
-
+### Task 1.3: Book of Lore
 **Acceptance Criteria**:
-- [ ] `mireveals/` directory deleted
-- [ ] No broken references from other files (grep for `mireveals/`)
-- [ ] No manifest.json references (already confirmed: none exist)
+- Create `oracle/book-of-lore.md` following SDD template
+- System prompt under ~3,500 tokens
+- Includes shared Mibera voice block
+- References real data sources (`core-lore/ancestors/`, `core-lore/archetypes.md`, `birthdays/`)
+- Cross-book routing section
+- Anti-hallucination rules
+- 3-5 example Q&A pairs using verified real codex content
 
-### Task 4: Validation and spot-check
-
-**Description**: Push a test branch, verify GitHub renders the images correctly on at least 3 Mibera files. Confirm S3 public access is working end-to-end.
-
+### Task 1.4: Integration Updates
 **Acceptance Criteria**:
-- [ ] Images render on GitHub (not broken)
-- [ ] Table layout is visually acceptable (9 thumbnails in a row)
-- [ ] Clicking an image opens the full-size S3 version
+- Update `manifest.json` with oracle content type
+- Update `CLAUDE.md` with oracle lookup pattern
+- Update `llms.txt` with Oracle section
+- Update `SUMMARY.md` with Oracle navigation link
+
+## Sprint 2: Remaining Three Books (Global Sprint 31)
+
+**Goal**: Complete the oracle with Book of Sight, Book of Grails, and Book of Identity.
+
+### Task 2.1: Book of Sight
+**Acceptance Criteria**:
+- Create `oracle/book-of-sight.md` following SDD template
+- System prompt under ~3,500 tokens
+- References `drugs-detailed/`, `core-lore/tarot-cards/`, `core-lore/drug-tarot-system.md`
+- 3-5 example Q&A pairs using verified real codex content
+
+### Task 2.2: Book of Grails
+**Acceptance Criteria**:
+- Create `oracle/book-of-grails.md` following SDD template
+- System prompt under ~3,500 tokens
+- References `grails/`, `fractures/`
+- 3-5 example Q&A pairs using verified real codex content
+
+### Task 2.3: Book of Identity
+**Acceptance Criteria**:
+- Create `oracle/book-of-identity.md` following SDD template
+- Incorporates IDENTITY.md synthesis framework
+- System prompt under ~3,500 tokens (tightest budget — relies heavily on referenced files)
+- References `IDENTITY.md`, `miberas/{ID}.md`, and linked trait files
+- Signal hierarchy enforcement (load-bearing > textural > modifiers)
+- 3-5 example Q&A pairs with full Mibera embodiment demonstrations
+- At least one example showing temporal constraint handling (birthday/era voice)
+
+### Task 2.4: Final Validation
+**Acceptance Criteria**:
+- All 5 books follow consistent template
+- Cross-book routing is bidirectional and complete
+- All referenced file paths exist in the codex
+- Example Q&A data verified against source files
+- README router covers all 5 books
+- Token estimates validated (no book exceeds ~4K tokens for system prompt)
+
+## Dependencies
+
+- Sprint 2 depends on Sprint 1 (shared voice block and conventions established in Sprint 1)
+- No external dependencies
+
+## Estimated Scope
+
+| Sprint | Tasks | New Files | Modified Files |
+|--------|-------|-----------|----------------|
+| Sprint 1 | 4 | 3 | 4 |
+| Sprint 2 | 4 | 3 | 0 |
+| **Total** | **8** | **6** | **4** |

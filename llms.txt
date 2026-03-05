@@ -21,6 +21,7 @@
 | Birthday Era | birthdays/*.md | 11 | Structured headings |
 | Special Collection | special-collections/*.md | 32 | YAML frontmatter |
 | Grail | grails/{slug}.md | 42 | YAML frontmatter |
+| Oracle Book | oracle/book-of-{name}.md | 5 | System prompt markdown |
 
 ## Lookup Patterns
 
@@ -34,6 +35,11 @@
 
 ### Find all Miberas with a given trait
 1. Read `browse/by-{dimension}.md` for grouped listings
+
+### Ask the Oracle
+1. Pick a book: Data (scores/traits), Lore (ancestors/archetypes), Sight (tarot/drugs), Grails (1/1 art), Identity (embodiment)
+2. Read `oracle/book-of-{name}.md` for the system prompt
+3. Paste the system prompt into any LLM and ask your question
 
 ### Embody a Mibera
 1. Read `IDENTITY.md` for synthesis constraints
