@@ -112,6 +112,16 @@
       "completeness": "COMPLETE",
       "completeness_note": "All 12 Mibera Set ERC-1155 tokens on Optimism",
       "last_verified": "2026-02-20"
+    },
+    "oracle": {
+      "directory": "oracle/",
+      "index": "oracle/README.md",
+      "count": 1,
+      "format": "system_prompt_markdown",
+      "naming": "oracle.md",
+      "completeness": "COMPLETE",
+      "completeness_note": "Unified system prompt with three internal voices (Data, Lore, Sight)",
+      "last_verified": "2026-03-05"
     }
   },
   "browse": {

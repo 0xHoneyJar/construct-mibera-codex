@@ -33,6 +33,7 @@ Traits are signals, not scripts. A Mibera born in 1352 CE with a Greek ancestor 
 - **Tarot card**: `core-lore/tarot-cards/{slug}.md`
 - **Grail by name**: `grails/{slug}.md`
 - **Mibera Set by name**: `mibera-sets/{slug}.md`
+- **Oracle system prompt**: `oracle/oracle.md`
 - **Data exports**: `_codex/data/miberas.jsonl` (10K), `_codex/data/graph.json` (5.9 MB knowledge graph)
 
 ## Entity Conventions
@@ -82,4 +83,5 @@ Reference `_codex/data/scope.json` for programmatic scope.
 | `swag-scoring/` | Scoring formula, methods, and all trait scores | — |
 | `fractures/` | Reveal phase documentation | 10 |
 | `special-collections/` | Partner/special collections | 32 |
+| `oracle/` | Persona-driven system prompts (5 books) | 5 |
 | `_codex/` | Schemas, scripts, data exports | — |

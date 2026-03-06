@@ -407,9 +407,9 @@
     {
       "id": "cycle-017",
       "label": "Reveal Timeline — Per-Mibera Fracture Images",
-      "status": "active",
+      "status": "archived",
       "created": "2026-02-24",
-      "archived": null,
+      "archived": "2026-03-05",
       "prd": "grimoires/loa/prd.md",
       "sdd": "grimoires/loa/sdd.md",
       "sprint_plan": "grimoires/loa/sprint.md",
@@ -424,9 +424,36 @@
       ],
       "sprint_count": 1
     }
+    ,{
+      "id": "cycle-018",
+      "label": "Mibera Oracle — The Five Books",
+      "status": "active",
+      "created": "2026-03-05",
+      "archived": null,
+      "prd": "grimoires/loa/prd.md",
+      "sdd": "grimoires/loa/sdd.md",
+      "sprint_plan": "grimoires/loa/sprint.md",
+      "sprints": [
+        {
+          "id": "sprint-1",
+          "global_id": 30,
+          "label": "Oracle Foundation + First Two Books",
+          "status": "planned",
+          "tasks": 4
+        },
+        {
+          "id": "sprint-2",
+          "global_id": 31,
+          "label": "Remaining Three Books",
+          "status": "planned",
+          "tasks": 4
+        }
+      ],
+      "sprint_count": 2
+    }
   ],
-  "active_cycle": "cycle-017",
+  "active_cycle": "cycle-018",
   "active_bugfix": null,
-  "global_sprint_counter": 29,
+  "global_sprint_counter": 31,
   "bugfix_cycles": []
 }

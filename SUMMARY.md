@@ -111,17 +111,23 @@
   * [MiReveal #7.7](fractures/mireveal-7.7.md)
   * [MiReveal #8.8](fractures/mireveal-8.8.md)
 
-## VI. The Ecosystem
+## VI. The Oracle
+* [The Oracle](oracle/README.md)
+  * [System Prompt](oracle/oracle.md)
+
+
+
+## VII. The Ecosystem
 * [Featured Projects & Partners](special-collections/README.md)
 
-## VII. Schema & Validation
+## VIII. Schema & Validation
 * [Content Type Schemas](_codex/schema/README.md)
 
-## VIII. Behind the Scenes
+## IX. Behind the Scenes
 * [Creative Process](behind-the-scenes/creative-process.md)
 * [Team History](behind-the-scenes/team-history.md)
 
-## IX. On-Chain
+## X. On-Chain
 * [Contract Registry](_codex/data/contracts.json)
 * [Fractured Mibera](_codex/data/fractured-mibera.md) — 10 soulbound companion collections
 * [Shadow Traits](_codex/data/shadow-traits.md) — On-chain trait uniqueness
@@ -131,7 +137,7 @@
 * [The 42 Motif](_codex/data/42-motif.md) — Numerological easter eggs
 * [Contract ABIs](_codex/data/abis/README.md) — Machine-readable interfaces
 
-## X. Data & Research
+## XI. Data & Research
 * [Data Directory Index](_codex/data/README.md)
 * [Knowledge Graph](_codex/data/graph.json) — 10,279 nodes, 70,344 edges
 * [All Miberas (JSONL)](_codex/data/miberas.jsonl) — 10,000 entries
