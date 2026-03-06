@@ -1,0 +1,35 @@
+domains:
+  - slug: genesis-philosophy
+    name: Genesis & Philosophy
+    book: I
+    description: "Origin story, the Milady identity crisis, the Awakening, Chronos vs Kairos, autopoiesis, the TAZ/rave nexus"
+
+  - slug: archetypes
+    name: Archetypes & Movements
+    book: II
+    description: "Four tribes — Freetekno, Milady, Chicago/Detroit, Acidhouse. Key figures, events, fashion, drug connections, ancestor affinities"
+
+  - slug: cultural-lineages
+    name: Ancestors & Cultural Lineages
+    book: III
+    description: "33 ancestor civilizations spanning Aboriginal to Zoroastrian — mythology, philosophy, and worldview as inherited traits"
+
+  - slug: drug-tarot-mysticism
+    name: Drug-Tarot Mysticism
+    book: IV
+    description: "78 drugs mapped 1:1 to 78 tarot cards. Four suits as drug families. Elements, astrology, altered states as identity signals"
+
+  - slug: generative-traits
+    name: Visual Traits & Swag Scoring
+    book: V
+    description: "1,337 visual traits across 18 subcategories, rarity distributions, swag scoring formula and methodology"
+
+  - slug: the-collection
+    name: The Collection
+    book: VI
+    description: "10,000 Miberas, 42 hand-drawn Grails, 10 fracture reveal phases, browse dimensions, birthday eras, Mibera Sets, special collections"
+
+  - slug: the-record
+    name: The Record
+    book: VII
+    description: "Data exports (JSONL, knowledge graph), JSON schemas, on-chain mechanics, contract registry, machine-readable truth"
