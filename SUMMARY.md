@@ -126,6 +126,7 @@
 ## IX. Behind the Scenes
 * [Creative Process](behind-the-scenes/creative-process.md)
 * [Team History](behind-the-scenes/team-history.md)
+* [The Honey Road — Product Evolution](behind-the-scenes/honey-road-evolution.md)
 
 ## X. On-Chain
 * [Contract Registry](_codex/data/contracts.json)

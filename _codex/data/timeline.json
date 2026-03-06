@@ -1,13 +1,24 @@
 {
-  "version": "1.0.0",
-  "generated": "2026-02-18",
+  "version": "1.1.0",
+  "generated": "2026-02-25",
+  "note": "Dates marked verified=true are confirmed via git commit history. Dates marked verified=false need human validation (contract deployment dates, Discord events, etc.).",
   "events": [
+    {
+      "id": "EVT-000",
+      "name": "Mibera Interface first commit",
+      "date": "2023-12-09",
+      "chain": null,
+      "notes": "Next.js + wagmi + bun scaffold. DrugCard, VendorPage, CartPage within 48 hours.",
+      "source": "mibera-interface git: 3cd8d8dc",
+      "verified": true
+    },
     {
       "id": "EVT-001",
       "name": "Mibera Maker contract deployment",
       "date": null,
       "chain": "berachain",
-      "notes": "ERC-721C deployment of 10,000 tokens",
+      "notes": "ERC-721C deployment of 10,000 tokens. Forge init in mibera-contracts: 2023-11-30.",
+      "source": "mibera-contracts git (forge init only — deployment date unverified)",
       "verified": false
     },
     {
@@ -15,7 +26,8 @@
       "name": "Mibera mint",
       "date": null,
       "chain": "berachain",
-      "notes": "4.2 BERA mint price",
+      "notes": "4.2 BERA mint price. Presale system merged 2025-03-18. Mint added to site 2025-04-29.",
+      "source": "mibera-interface git: 6439b231 (presale), f3baebd6 (mint on site)",
       "verified": false
     },
     {
@@ -28,25 +40,91 @@
     {
       "id": "EVT-004",
       "name": "MiberaSets deployment",
-      "date": null,
+      "date": "2024-08-23",
       "chain": "optimism",
-      "notes": "12 tiered ERC-1155 tokens",
-      "verified": false
+      "notes": "12 tiered ERC-1155 tokens. Renamed 2024-09-04. 481 supply, 309 holders.",
+      "source": "mibera-lore git (first commit date)",
+      "verified": true
     },
     {
       "id": "EVT-005",
       "name": "Codex repository created",
-      "date": null,
+      "date": "2026-01-15",
       "notes": "GitHub repository 0xHoneyJar/mibera-codex",
-      "verified": false
+      "source": "GitHub API: gh repo view --json createdAt → 2026-01-15T20:19:41Z",
+      "verified": true
     },
     {
       "id": "EVT-006",
       "name": "Candies launch",
       "date": null,
       "chain": "berachain",
-      "notes": "ERC-1155 collectible candies",
+      "notes": "ERC-1155 collectible candies. Contract addresses updated in interface 2025-04-19.",
+      "source": "mibera-interface git: d4c35127",
       "verified": false
+    },
+    {
+      "id": "EVT-007",
+      "name": "Presale system live",
+      "date": "2025-03-18",
+      "chain": "berachain",
+      "notes": "Multi-phase presale with merkle trees, provably fair randomization (Fisher-Yates).",
+      "source": "mibera-interface git: 6439b231 (PR #30)",
+      "verified": true
+    },
+    {
+      "id": "EVT-008",
+      "name": "SMF Forum launched",
+      "date": "2025-03-31",
+      "chain": null,
+      "notes": "Simple Machines Forum clone — faithful typography, layout, and logo.",
+      "source": "mibera-interface git: df361b3a (smf styling), 7b5e820c (smf logo)",
+      "verified": true
+    },
+    {
+      "id": "EVT-009",
+      "name": "Fractured Mibera deployment",
+      "date": "2025-04-17",
+      "chain": "berachain",
+      "notes": "10 soulbound companion collections deployed April 17-21, 2025.",
+      "source": "mibera-contracts git (deployment scripts)",
+      "verified": true
+    },
+    {
+      "id": "EVT-010",
+      "name": "First miReveal (1.1)",
+      "date": "2025-04-23",
+      "chain": "berachain",
+      "notes": "First of 10 progressive artwork reveals.",
+      "source": "mibera-interface git: cec86b1c",
+      "verified": true
+    },
+    {
+      "id": "EVT-011",
+      "name": "Final miReveal (8.8)",
+      "date": "2025-05-20",
+      "chain": "berachain",
+      "notes": "Final reveal — full artwork resolution.",
+      "source": "mibera-interface git: 38bdb04f",
+      "verified": true
+    },
+    {
+      "id": "EVT-012",
+      "name": "HoneyGPT Phase 2",
+      "date": "2025-11-07",
+      "chain": null,
+      "notes": "Threaded conversations + real database tools — AI becomes a marketplace vendor.",
+      "source": "mibera-interface git: cb9867db, 71e1c6e7",
+      "verified": true
+    },
+    {
+      "id": "EVT-013",
+      "name": "Loa framework mounted",
+      "date": "2026-02-01",
+      "chain": null,
+      "notes": "Agent-driven development framework (v1.7.2).",
+      "source": "mibera-interface git: 2ac59594",
+      "verified": true
     }
   ]
 }
