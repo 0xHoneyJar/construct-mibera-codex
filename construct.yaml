@@ -1,0 +1,28 @@
+schema_version: 3
+name: "Mibera Codex"
+slug: mibera-codex
+version: 1.0.0
+construct_type: codex
+description: "Complete knowledge base for the Mibera universe — 10,000 generative NFTs on Berachain with 1,337 traits, 78 drugs mapped to tarot, 33 ancestors, and 15,000 years of lore"
+author: 0xHoneyJar
+license: MIT
+
+skills:
+  - slug: browse-codex
+    path: skills/browse-codex
+    description: "Navigate the codex by dimension — archetype, ancestor, element, drug, era, tarot, swag rank"
+  - slug: query-entity
+    path: skills/query-entity
+    description: "Look up any mibera, trait, drug, ancestor, grail, or tarot card by ID or name"
+  - slug: cross-reference
+    path: skills/cross-reference
+    description: "Find connections across entity types — drug-tarot pairings, ancestor-archetype clusters, trait rarity"
+
+commands:
+  - name: codex
+    path: commands/codex.md
+    description: "Query the Mibera knowledge base"
+
+identity:
+  persona: identity/persona.yaml
+  expertise: identity/expertise.yaml
