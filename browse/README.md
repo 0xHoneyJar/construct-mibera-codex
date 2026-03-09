@@ -75,6 +75,9 @@
 ### [Grails →](grails.md)
 *42 hand-drawn 1/1 art pieces across 8 thematic categories — elements, luminaries, zodiac signs, planets, ancestors, and more.*
 
+### [Vending Machine Exclusives →](../vending-machine/README.md)
+*102 exclusive traits available only through the Shadow Traits contract — not found in the generative 10K.*
+
 ---
 
 ## All Miberas
