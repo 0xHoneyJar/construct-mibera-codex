@@ -82,6 +82,7 @@ Reference `_codex/data/scope.json` for programmatic scope.
 | `mibera-sets/` | Honey Road ERC-1155 tokens (Optimism) | 12 |
 | `swag-scoring/` | Scoring formula, methods, and all trait scores | — |
 | `fractures/` | Reveal phase documentation | 10 |
+| `vending-machine/` | VM-exclusive Shadow Traits (11 categories) | 102 |
 | `special-collections/` | Partner/special collections | 32 |
 | `oracle/` | Persona-driven system prompts (5 books) | 5 |
 | `_codex/` | Schemas, scripts, data exports | — |

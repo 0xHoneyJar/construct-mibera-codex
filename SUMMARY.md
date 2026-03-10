@@ -62,6 +62,9 @@
 * [Ranking Tiers](traits/overlays/ranking/README.md)
 * [Molecules](traits/overlays/molecules.md)
 
+### Vending Machine Exclusives
+* [Mibera Shadows Vending Machine](vending-machine/README.md) — 102 exclusive traits not in the generative 10K
+
 ## V. The Collection
 * [Browse Miberas](browse/README.md)
   * [By Archetype](browse/by-archetype.md)

@@ -20,6 +20,7 @@
 | Tarot Card | core-lore/tarot-cards/*.md | 78 | YAML frontmatter |
 | Birthday Era | birthdays/*.md | 11 | Structured headings |
 | Special Collection | special-collections/*.md | 32 | YAML frontmatter |
+| VM Exclusive Trait | vending-machine/**/*.md | 102 | YAML frontmatter |
 | Grail | grails/{slug}.md | 42 | YAML frontmatter |
 | Oracle | oracle/oracle.md | 1 | System prompt markdown |
 
