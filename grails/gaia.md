@@ -21,7 +21,7 @@ Gaia is the Greek primordial goddess of the Earth — mother of the Titans, cons
 
 ## Visual Elements
 
-The earth.
+A green representation of the land of the Earth, with veins represented by flowing water. The veins are the same as in the Aquarius grail. 
 
 ## Justification
 
