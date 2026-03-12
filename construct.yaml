@@ -8,6 +8,7 @@ domain:
   - documentation
 author: 0xHoneyJar
 license: MIT
+visibility: public
 
 skills:
   - slug: browse-codex
