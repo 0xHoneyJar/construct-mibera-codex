@@ -3,6 +3,7 @@ name: "Mibera Codex"
 slug: mibera-codex
 version: 1.0.0
 construct_type: codex
+type: codex
 description: "Complete knowledge base for the Mibera universe — 10,000 generative NFTs on Berachain with 1,337 traits, 78 drugs mapped to tarot, 33 ancestors, and 15,000 years of lore"
 short_description: "Mibera universe knowledge"
 domain:
