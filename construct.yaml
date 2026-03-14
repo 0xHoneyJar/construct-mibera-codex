@@ -4,8 +4,8 @@ slug: mibera-codex
 version: 1.0.0
 construct_type: codex
 type: codex
-description: "Complete knowledge base for the Mibera universe — 10,000 generative NFTs on Berachain with 1,337 traits, 78 drugs mapped to tarot, 33 ancestors, and 15,000 years of lore"
-short_description: "Mibera universe knowledge"
+description: "Canonical source of truth for 10,000 time-travelling Beras and 15,000 years of lore. Traits are signals, not scripts \u2014 ask it about any Mibera and it synthesizes archetype, ancestor, drug, and tarot into identity that breathes. The oracle that remembers what the chain cannot."
+short_description: "Living lore for 10,000 Beras"
 domain:
   - documentation
 author: 0xHoneyJar
