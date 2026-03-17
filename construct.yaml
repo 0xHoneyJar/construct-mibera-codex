@@ -28,6 +28,17 @@ commands:
     path: commands/codex.md
     description: "Query the Mibera knowledge base"
 
+capabilities:
+  model_tier: haiku
+  danger_level: safe
+  effort_hint: small
+  downgrade_allowed: true
+  execution_hint: parallel
+  requires:
+    tool_calling: true
+    thinking_traces: false
+    vision: false
+
 identity:
   persona: identity/persona.yaml
   expertise: identity/expertise.yaml
