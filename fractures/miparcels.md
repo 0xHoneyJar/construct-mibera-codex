@@ -14,6 +14,16 @@ Sealed envelopes covered in various labels, stickers, and handwritten scrawl fro
 
 MiParcels is pure mystery. No hint of what's inside, no preview of the Mibera to come. The parcel itself is the art — a sealed container that asks you to trust the process.
 
+## Parcel Traits
+
+Each parcel is generative — 10,000 unique combinations of layered visual elements:
+
+| Trait | Description |
+|-------|-------------|
+| [**Scrawl**](miparcels/scrawl.md) | Gumi's handwriting — 206 unique lore fragments inked directly onto the envelope |
+| **Stickers** | *(coming soon)* |
+| **Labels** | *(coming soon)* |
+
 ---
 
 <!-- @generated:backlinks-start -->
