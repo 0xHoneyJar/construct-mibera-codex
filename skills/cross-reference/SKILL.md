@@ -1,3 +1,10 @@
+---
+name: cross-reference
+description: Find connections across entity types — drug-tarot pairings, ancestor-archetype clusters, trait rarity
+user-invocable: true
+allowed-tools: Read, Glob, Grep
+---
+
 # Cross-Reference
 
 Find connections across entity types in the Mibera Codex.
