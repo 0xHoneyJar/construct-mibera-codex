@@ -6,7 +6,7 @@
 
 ## All Entries (21)
 
-- [Carpenters Pane](carpenters-pane.md)
+- [Carpenter's Plane](carpenters-plane.md)
 - [SNL Photo](snl-photo.md)
 - [Candy Cane](candy-cane.md)
 - [Energy Stick](energy-stick.md)
