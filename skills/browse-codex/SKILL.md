@@ -1,3 +1,10 @@
+---
+name: browse-codex
+description: Navigate the codex by dimension — archetype, ancestor, element, drug, era, tarot, swag rank
+user-invocable: true
+allowed-tools: Read, Glob, Grep
+---
+
 # Browse Codex
 
 Navigate the Mibera Codex by dimension — find Miberas grouped by archetype, ancestor, drug, element, era, tarot, or swag rank.

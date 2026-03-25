@@ -1,3 +1,10 @@
+---
+name: query-entity
+description: Look up any mibera, trait, drug, ancestor, grail, or tarot card by ID or name
+user-invocable: true
+allowed-tools: Read, Glob, Grep
+---
+
 # Query Entity
 
 Look up any entity in the Mibera Codex by ID or name.
