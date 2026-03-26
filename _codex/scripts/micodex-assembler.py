@@ -2,18 +2,40 @@
 """
 Micodex NFT Image Assembler
 
-Composites NFT trait images onto template layers to generate character preview images.
+Composites NFT trait layer images onto template layers (background, body, arms)
+to generate preview images for the Mibera Codex. Each trait consists of one or
+more PNG layers at specific z-indices; the assembler stacks them in order to
+produce a final character portrait as a WebP file.
+
+Originally developed in the micodex-images repo (github.com/0xHoneyJar/micodex-images).
+Copied into the codex at _codex/scripts/ during Cycle 019 (Trait Image Embedding)
+so that future sessions can generate images without needing the external repo.
+
+Source files (not checked into this repo):
+    Templates:  ~/Downloads/micodex images/  (arms.PNG, body.PNG, background.PNG — 1848x2500)
+    Layers:     ~/Desktop/Mibera_ Actually Final/  (main trait layers, z-indexed folders)
+    VM layers:  ~/Downloads/Mibera_ Actually Final/new stuff for da vm/
+
+Output is uploaded to s3://mibera/traits/ and embedded into codex entries
+by _codex/scripts/embed-images.py.
 
 Usage:
-    python micodex_assembler.py -t TEMPLATES -i TRAITS -o OUTPUT
+    python3 _codex/scripts/micodex-assembler.py \\
+        --templates "~/Downloads/micodex images" \\
+        --traits "~/Desktop/Mibera_ Actually Final" \\
+        --output "~/micodex-images/output"
 
-    python micodex_assembler.py \\
-        --templates "/Users/gumi/Downloads/micodex images" \\
-        --traits "/Users/gumi/Desktop/Mibera_ Actually Final" \\
-        --output "./output"
+    # VM-only layers:
+    python3 _codex/scripts/micodex-assembler.py \\
+        --templates "~/Downloads/micodex images" \\
+        --traits "~/Downloads/Mibera_ Actually Final/new stuff for da vm" \\
+        --output "/tmp/vm-images"
 
 Dependencies:
     pip install Pillow tqdm
+
+Note: This is the ONE exception to the codex's stdlib-only Python convention.
+Image compositing requires Pillow; there is no stdlib alternative.
 """
 
 # /// script
