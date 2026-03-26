@@ -1,16 +1,20 @@
 ---
 name: Tornado Cash
-image: "https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT"
+image: "https://mibera.s3.amazonaws.com/traits/SS4_Tornado%20Cash.webp"
 archetype: "**Archetype Alignment:**"
 swag_score: 4
 date_added: "2024-12-10"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS4_Tornado%20Cash.webp" alt="Tornado Cash" width="320" />
+</div>
+
+
 # Tornado Cash
 
 ## Visual Elements
 
-![Tornado Cash](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)
 
 Black t-shirt with simple spiral symbolism and text in soft light green, that reads “I helped violate international sanctions and all I got was this lousy t-shirt”.
 

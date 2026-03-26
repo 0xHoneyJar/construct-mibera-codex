@@ -1,16 +1,20 @@
 ---
 name: Heart with Wings
-image: "https://mibera.fsn1.your-objectstorage.com/components/tattoos__z125/modern_sufi_Heart%20with%20Wings.webp"
+image: "https://mibera.s3.amazonaws.com/traits/modern_sufi_Heart%20with%20Wings.webp"
 archetype: "**Archetype Alignment:**"
 swag_score: null
 date_added: "2024-08-09"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/modern_sufi_Heart%20with%20Wings.webp" alt="Heart With Wings" width="320" />
+</div>
+
+
 # Heart with Wings
 
 ## Visual Elements
 
-![Heart with Wings](https://mibera.fsn1.your-objectstorage.com/components/tattoos__z125/modern_sufi_Heart%20with%20Wings.webp)
 
 Heart with a crescent moon facing upwards and a star on top of it, and a pair of wings extending out of the heart.
 

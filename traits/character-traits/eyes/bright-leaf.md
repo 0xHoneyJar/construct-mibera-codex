@@ -1,14 +1,18 @@
 ---
 name: bright leaf
-image: "https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/Bright%20Leaf__w13.webp"
+image: "https://mibera.s3.amazonaws.com/traits/Bright%20Leaf.webp"
 date_added: "2024-06-03"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Bright%20Leaf.webp" alt="Bright Leaf" width="320" />
+</div>
+
 
 # bright leaf
 
 ## Visual Elements
 
-![Bright Leaf](https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/Bright%20Leaf__w13.webp)
 
 bright leafy green eyes with a large white four pointed star within the pupil
 

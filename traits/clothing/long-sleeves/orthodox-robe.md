@@ -1,16 +1,20 @@
 ---
 name: Orthodox Robe
-image: "https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(ROBES"
+image: "https://mibera.s3.amazonaws.com/traits/SS5_Orthodox%20Robe.webp"
 archetype: "**Archetype Alignment:** Its relation to Orthodox beliefs."
 swag_score: 5
 date_added: "2025-01-02"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS5_Orthodox%20Robe.webp" alt="Orthodox Robe" width="320" />
+</div>
+
+
 # Orthodox Robe
 
 ## Visual Elements
 
-![Orthodox Robe](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(ROBES)
 
 Black long robe with white accents and lining, mainly of symbolism / scripts. Long sleeves, loose hood on.
 

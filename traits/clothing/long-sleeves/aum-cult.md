@@ -1,16 +1,20 @@
 ---
 name: Aum Cult
-image: "https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(LONG"
+image: "https://mibera.s3.amazonaws.com/traits/SS3_Aum%20Cult.webp"
 archetype: "**Archetype Alignment:** Aside from being a literal cult, the Aum cult is heavily tied to usage of drugs, especially LSD, which is very Mibera."
 swag_score: 3
 date_added: "2024-06-25"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_Aum%20Cult.webp" alt="Aum Cult" width="320" />
+</div>
+
+
 # Aum Cult
 
 ## Visual Elements
 
-![Aum Cult](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(LONG)
 
 Plain white long sleeves with silky complexion.
 

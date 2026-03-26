@@ -1,16 +1,20 @@
 ---
 name: S
 rank: S
-image: "https://mibera.fsn1.your-objectstorage.com/components/Ranking/S.webp"
+image: "https://mibera.s3.amazonaws.com/traits/S.webp"
 shape: Star
 color: a vibrant dark shade of blue
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/S.webp" alt="S" width="320" />
+</div>
+
 
 # S
 
 ## Visual Elements
 
-![Rank S](https://mibera.fsn1.your-objectstorage.com/components/Ranking/S.webp)
 
 
 ## Cultural Context

@@ -1,14 +1,18 @@
 ---
 name: sparkle forest
-image: "https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/Sparkle%20Forest__w15.webp"
+image: "https://mibera.s3.amazonaws.com/traits/Sparkle%20Forest.webp"
 date_added: "2024-06-03"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Sparkle%20Forest.webp" alt="Sparkle Forest" width="320" />
+</div>
+
 
 # sparkle forest
 
 ## Visual Elements
 
-![Sparkle Forest](https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/Sparkle%20Forest__w15.webp)
 
 deep-green eyes with three white dots between the iris and pupil.
 

@@ -1,16 +1,20 @@
 ---
 name: Chulym
-image: "https://mibera.fsn1.your-objectstorage.com/components/face%20accessories__z60/SS4_milady_chulym.webp"
+image: "https://mibera.s3.amazonaws.com/traits/SS4_milady_chulym.webp"
 archetype: Milady
 swag_score: 4
 date_added: "2024-12-10"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS4_milady_chulym.webp" alt="Chulym" width="320" />
+</div>
+
+
 # Chulym
 
 ## Visual Elements
 
-![Chulym](https://mibera.fsn1.your-objectstorage.com/components/face%20accessories__z60/SS4_milady_chulym.webp)
 
 White strokes with a slight hint of pink / rosy undertones. 1 line in the center with 2 dots symmetrically placed under it.
 

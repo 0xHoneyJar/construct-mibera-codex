@@ -1,16 +1,20 @@
 ---
 name: los bullas
-image: "https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS4_los%20bullas.webp"
+image: "https://mibera.s3.amazonaws.com/traits/SS4_los%20bullas.webp"
 archetype: "**Archetype Alignment:**"
 swag_score: 4
 date_added: "2025-03-11"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS4_los%20bullas.webp" alt="Los Bullas" width="320" />
+</div>
+
+
 # los bullas
 
 ## Visual Elements
 
-![SS4 los bullas](https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS4_los%20bullas.webp)
 
 a black cap with white text in fancy font that reads “Los Bullas”.
 

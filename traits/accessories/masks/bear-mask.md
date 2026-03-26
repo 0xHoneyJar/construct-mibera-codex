@@ -1,10 +1,15 @@
 ---
 name: Bear Mask
-image: SS4_freetekno_Bear Mask.PNG
+image: "https://mibera.s3.amazonaws.com/traits/SS4_freetekno_Bear%20Mask.webp"
 archetype: Freetekno
 swag_score: 4
 date_added: "2024-07-27"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS4_freetekno_Bear%20Mask.webp" alt="Bear Mask" width="320" />
+</div>
+
 
 # Bear Mask
 

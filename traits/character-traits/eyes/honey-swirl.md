@@ -1,14 +1,18 @@
 ---
 name: honey swirl
-image: "https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/Honey%20Swirl__w5.webp"
+image: "https://mibera.s3.amazonaws.com/traits/Honey%20Swirl.webp"
 date_added: "2024-06-03"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Honey%20Swirl.webp" alt="Honey Swirl" width="320" />
+</div>
+
 
 # honey swirl
 
 ## Visual Elements
 
-![Honey Swirl](https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/Honey%20Swirl__w5.webp)
 
 a pair of swirly yellow eyes that look like they’re made up of honey.
 

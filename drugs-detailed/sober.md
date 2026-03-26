@@ -6,9 +6,14 @@ origin: '---'
 archetype: Milady
 ancestor: Mongolian
 swag_score: 2
-image: milady_mongolian_sober.PNG
+image: "https://mibera.s3.amazonaws.com/traits/milady_mongolian_sober.webp"
 date_added: "2025-01-12"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/milady_mongolian_sober.webp" alt="Sober" width="320" />
+</div>
+
 
 # Sober
 

@@ -1,14 +1,18 @@
 ---
 name: crying ocean
-image: "https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/Crying%20Ocean__w6.webp"
+image: "https://mibera.s3.amazonaws.com/traits/Crying%20Ocean.webp"
 date_added: "2024-06-03"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Crying%20Ocean.webp" alt="Crying Ocean" width="320" />
+</div>
+
 
 # crying ocean
 
 ## Visual Elements
 
-![Crying Ocean](https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/Crying%20Ocean__w6.webp)
 
 teal eyes with tears in the corners.
 

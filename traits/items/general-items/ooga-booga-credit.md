@@ -1,10 +1,15 @@
 ---
 name: ooga booga credit
-image: SS4_Ooga Booga Credit.png
+image: "https://mibera.s3.amazonaws.com/traits/SS4_Ooga%20Booga%20Credit.webp"
 archetype: "**Archetype Alignment:**"
 swag_score: 4
 date_added: "2024-07-12"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS4_Ooga%20Booga%20Credit.webp" alt="Ooga Booga Credit" width="320" />
+</div>
+
 
 # ooga booga credit
 

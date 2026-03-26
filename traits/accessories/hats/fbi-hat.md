@@ -1,16 +1,20 @@
 ---
 name: FBI Hat
-image: "https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS5_milady_FBI%20Hat.webp"
+image: "https://mibera.s3.amazonaws.com/traits/SS5_milady_FBI%20Hat.webp"
 archetype: Milady
 swag_score: 5
 date_added: "2024-07-28"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS5_milady_FBI%20Hat.webp" alt="Fbi Hat" width="320" />
+</div>
+
+
 # FBI Hat
 
 ## Visual Elements
 
-![FBI Hat](https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS5_milady_FBI%20Hat.webp)
 
 Black and white cap with blood (red) splatters from one side towards the middle, and the word “FBI” in yellow inside of a navy blue rectangle in the middle.
 

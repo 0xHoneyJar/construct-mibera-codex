@@ -1,16 +1,20 @@
 ---
 name: Differently
-image: "https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT"
+image: "https://mibera.s3.amazonaws.com/traits/SS3_Differently.webp"
 archetype: "**Archetype Alignment:**"
 swag_score: 3
 date_added: "2024-12-10"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_Differently.webp" alt="Differently" width="320" />
+</div>
+
+
 # Differently
 
 ## Visual Elements
 
-![Differently](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)
 
 Black tee with rainbow-colored mushroom that’s bitten on one side and the text “Think Differently” under it.
 

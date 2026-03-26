@@ -1,16 +1,20 @@
 ---
 name: big 80s
-image: "https://mibera.fsn1.your-objectstorage.com/components/glasses__z140/chicagodetroit_Big 80s.webp"
+image: "https://mibera.s3.amazonaws.com/traits/chicagodetroit_Big%2080s.webp"
 archetype: Chicago Detroit
 swag_score: 5
 date_added: "2024-06-18"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/chicagodetroit_Big%2080s.webp" alt="Big 80S" width="320" />
+</div>
+
+
 # big 80s
 
 ## Visual Elements
 
-![Big 80s](https://mibera.fsn1.your-objectstorage.com/components/glasses__z140/chicagodetroit_Big 80s.webp)
 
 big rounded 80s style glasses with black frames and dark brownish lenses.
 

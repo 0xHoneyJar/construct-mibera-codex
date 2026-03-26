@@ -1,14 +1,18 @@
 ---
 name: content
-image: "https://mibera.fsn1.your-objectstorage.com/components/mouth__z90/content__w9.webp"
+image: "https://mibera.s3.amazonaws.com/traits/content.webp"
 date_added: "2024-06-05"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/content.webp" alt="Content" width="320" />
+</div>
+
 
 # content
 
 ## Visual Elements
 
-![content](https://mibera.fsn1.your-objectstorage.com/components/mouth__z90/content__w9.webp)
 
 Subtle smile portrayed by a thin, short, slightly-curved line.
 

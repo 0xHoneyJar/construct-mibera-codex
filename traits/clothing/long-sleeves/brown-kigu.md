@@ -1,16 +1,20 @@
 ---
 name: Brown Kigu
-image: "https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(KIGU"
+image: "https://mibera.s3.amazonaws.com/traits/SS5_milady_Brown%20Kigu.webp"
 archetype: Milady
 swag_score: 5
 date_added: "2024-07-31"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS5_milady_Brown%20Kigu.webp" alt="Brown Kigu" width="320" />
+</div>
+
+
 # Brown Kigu
 
 ## Visual Elements
 
-![Brown Kigu](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(KIGU)
 
 Bear onesie in darker brown with the hood up.
 

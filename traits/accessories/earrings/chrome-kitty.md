@@ -1,10 +1,15 @@
 ---
 name: Chrome Kitty
-image: SS3_milady_Chrome Kitty.png
+image: "https://mibera.s3.amazonaws.com/traits/SS3_milady_Chrome%20Kitty.webp"
 archetype: Milady
 swag_score: 3
 date_added: "2023-11-28"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_milady_Chrome%20Kitty.webp" alt="Chrome Kitty" width="320" />
+</div>
+
 
 # Chrome Kitty
 

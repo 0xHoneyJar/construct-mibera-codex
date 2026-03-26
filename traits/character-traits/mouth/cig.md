@@ -1,14 +1,18 @@
 ---
 name: cig
-image: "https://mibera.fsn1.your-objectstorage.com/components/mouth__z90/cig__w6.webp"
+image: "https://mibera.s3.amazonaws.com/traits/cig.webp"
 date_added: "2024-06-05"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/cig.webp" alt="Cig" width="320" />
+</div>
+
 
 # cig
 
 ## Visual Elements
 
-![cig](https://mibera.fsn1.your-objectstorage.com/components/mouth__z90/cig__w6.webp)
 
 a mouth portrayed by a line that’s slightly curved downward holding a lighted-up cigarette.
 

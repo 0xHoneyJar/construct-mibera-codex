@@ -1,16 +1,20 @@
 ---
 name: Black Turtleneck
-image: "https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(LONG"
+image: "https://mibera.s3.amazonaws.com/traits/SS2_chicagodetroit_Black%20Turtleneck.webp"
 archetype: Chicago Detroit
 swag_score: 2
 date_added: "2024-06-25"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS2_chicagodetroit_Black%20Turtleneck.webp" alt="Black Turtleneck" width="320" />
+</div>
+
+
 # Black Turtleneck
 
 ## Visual Elements
 
-![Black Turtleneck](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(LONG)
 
 Plain black turtleneck with long sleeves.
 

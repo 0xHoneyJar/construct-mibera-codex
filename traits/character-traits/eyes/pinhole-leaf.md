@@ -1,14 +1,18 @@
 ---
 name: pinhole leaf
-image: "https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/Pinhole%20Leaf__w7.webp"
+image: "https://mibera.s3.amazonaws.com/traits/Pinhole%20Leaf.webp"
 date_added: "2024-06-03"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Pinhole%20Leaf.webp" alt="Pinhole Leaf" width="320" />
+</div>
+
 
 # pinhole leaf
 
 ## Visual Elements
 
-![Pinhole Leaf](https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/Pinhole%20Leaf__w7.webp)
 
 leafy green eyes with constricted pupils, or usually known as pinpoint pupils.
 

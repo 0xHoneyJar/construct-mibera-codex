@@ -2,7 +2,13 @@
 name: "JVCR Hat"
 category: hats
 from: ""
+image: "https://mibera.s3.amazonaws.com/traits/jvcr%20hat.webp"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/jvcr%20hat.webp" alt="Jvcr Hat" width="320" />
+</div>
+
 
 # JVCR Hat
 

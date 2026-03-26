@@ -1,14 +1,18 @@
 ---
 name: normal sky
-image: "https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/Normal%20Sky__w25.webp"
+image: "https://mibera.s3.amazonaws.com/traits/Normal%20Sky.webp"
 date_added: "2024-06-03"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Normal%20Sky.webp" alt="Normal Sky" width="320" />
+</div>
+
 
 # normal sky
 
 ## Visual Elements
 
-![Normal Sky](https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/Normal%20Sky__w25.webp)
 
 normal eyes in a sky-blue.
 

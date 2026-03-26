@@ -1,8 +1,13 @@
 ---
 name: relaxed green
-image: Relaxed Green__w8.PNG Relaxed Green__z-32.PNG
+image: "https://mibera.s3.amazonaws.com/traits/Relaxed%20Green.webp"
 date_added: "2024-12-10"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Relaxed%20Green.webp" alt="Relaxed Green" width="320" />
+</div>
+
 
 # relaxed green
 

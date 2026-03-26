@@ -1,16 +1,20 @@
 ---
 name: Purple Glow
-image: "https://mibera.fsn1.your-objectstorage.com/components/glasses__z140/chicagodetroit_Purple Glow.webp"
+image: "https://mibera.s3.amazonaws.com/traits/chicagodetroit_Purple%20Glow.webp"
 archetype: Chicago Detroit
 swag_score: 2
 date_added: "2024-06-18"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/chicagodetroit_Purple%20Glow.webp" alt="Purple Glow" width="320" />
+</div>
+
+
 # Purple Glow
 
 ## Visual Elements
 
-![Purple Glow](https://mibera.fsn1.your-objectstorage.com/components/glasses__z140/chicagodetroit_Purple Glow.webp)
 
 Glow glasses mainly in purple, with yellow on the center and sides.
 

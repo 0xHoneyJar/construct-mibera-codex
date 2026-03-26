@@ -1,14 +1,18 @@
 ---
 name: Acid Test
-image: "https://mibera.fsn1.your-objectstorage.com/components/background__z10%20%28SCENE%29/acid%20test.webp"
+image: "https://mibera.s3.amazonaws.com/traits/acid%20test.webp"
 date_added: "2025-03-11"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/acid%20test.webp" alt="Acid Test" width="320" />
+</div>
+
 
 # Acid Test
 
 ## Visual Elements
 
-![Acid Test](https://mibera.fsn1.your-objectstorage.com/components/background__z10%20%28SCENE%29/acid%20test.webp)
 
 Venue full of speakers / sound systems, with a drum-set on the right side in the background; two big old cameras are placed in front, from a first-person point of view.
 

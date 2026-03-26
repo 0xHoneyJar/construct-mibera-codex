@@ -1,16 +1,20 @@
 ---
 name: Ethiopian Flat
-image: "https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS2_milady_Ethiopian%20Flat.webp"
+image: "https://mibera.s3.amazonaws.com/traits/SS2_milady_Ethiopian%20Flat.webp"
 archetype: Milady
 swag_score: 2
 date_added: "2024-07-24"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS2_milady_Ethiopian%20Flat.webp" alt="Ethiopian Flat" width="320" />
+</div>
+
+
 # Ethiopian Flat
 
 ## Visual Elements
 
-![Ethiopian Flat](https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS2_milady_Ethiopian%20Flat.webp)
 
 Tall sturdy hat in black and grey that’s flat in shape.
 

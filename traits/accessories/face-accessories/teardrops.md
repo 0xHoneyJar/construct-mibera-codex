@@ -1,16 +1,20 @@
 ---
 name: Teardrops
-image: "https://mibera.fsn1.your-objectstorage.com/components/face%20accessories__z60/SS3_milady_teardrops.webp"
+image: "https://mibera.s3.amazonaws.com/traits/SS3_milady_teardrops.webp"
 archetype: Milady
 swag_score: 3
 date_added: "2024-12-10"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_milady_teardrops.webp" alt="Teardrops" width="320" />
+</div>
+
+
 # Teardrops
 
 ## Visual Elements
 
-![Teardrops](https://mibera.fsn1.your-objectstorage.com/components/face%20accessories__z60/SS3_milady_teardrops.webp)
 
 Three tear / liquid drops.
 

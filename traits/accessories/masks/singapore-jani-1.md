@@ -3,7 +3,13 @@ name: Singapore Jani 1
 archetype: Cross-Archetype
 swag_score: 5
 date_added: null
+image: "https://mibera.s3.amazonaws.com/traits/singapore%20jani%201.webp"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/singapore%20jani%201.webp" alt="Singapore Jani 1" width="320" />
+</div>
+
 
 # Singapore Jani 1
 

@@ -1,10 +1,15 @@
 ---
 name: berave fan
-image: SS4_milady_BERAVE Fan.png
+image: "https://mibera.s3.amazonaws.com/traits/SS4_milady_BERAVE%20Fan.webp"
 archetype: Milady
 swag_score: 4
 date_added: "2024-07-15"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS4_milady_BERAVE%20Fan.webp" alt="Berave Fan" width="320" />
+</div>
+
 
 # berave fan
 

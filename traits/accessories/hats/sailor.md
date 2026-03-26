@@ -1,16 +1,20 @@
 ---
 name: Sailor
-image: "https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS3_milady_Sailor.webp"
+image: "https://mibera.s3.amazonaws.com/traits/SS3_milady_Sailor.webp"
 archetype: Milady
 swag_score: 3
 date_added: "2024-12-10"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_milady_Sailor.webp" alt="Sailor" width="320" />
+</div>
+
+
 # Sailor
 
 ## Visual Elements
 
-![Sailor](https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS3_milady_Sailor.webp)
 
 White sailor hat with a graphic of an anchor and a stripe on top of it in greyish tone.
 

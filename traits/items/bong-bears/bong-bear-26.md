@@ -1,8 +1,13 @@
 ---
 name: Bong Bear 26
-image: SS5_bongbear_Bong Bear 26.png
+image: "https://mibera.s3.amazonaws.com/traits/SS5_bongbear_Bong%20Bear%2026.webp"
 date_added: "2024-12-09"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS5_bongbear_Bong%20Bear%2026.webp" alt="Bong Bear 26" width="320" />
+</div>
+
 
 # Bong Bear 26
 

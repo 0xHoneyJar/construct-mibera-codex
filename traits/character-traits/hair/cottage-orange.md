@@ -1,8 +1,13 @@
 ---
 name: cottage orange
-image: Cottage Orange__w5.PNG
+image: "https://mibera.s3.amazonaws.com/traits/Cottage%20Orange.webp"
 date_added: "2024-06-15"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Cottage%20Orange.webp" alt="Cottage Orange" width="320" />
+</div>
+
 
 # cottage orange
 

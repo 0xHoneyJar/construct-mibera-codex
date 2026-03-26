@@ -1,14 +1,18 @@
 ---
 name: 7Eleven
-image: "https://mibera.fsn1.your-objectstorage.com/components/background__z10/7Eleven.webp"
+image: "https://mibera.s3.amazonaws.com/traits/7Eleven.webp"
 date_added: "2024-12-10"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/7Eleven.webp" alt="7Eleven" width="320" />
+</div>
+
 
 # 7Eleven
 
 ## Visual Elements
 
-![7Eleven](https://mibera.fsn1.your-objectstorage.com/components/background__z10/7Eleven.webp)
 
 Front view of a minimart with ‘7eleven’ sign on top with 3 thick stripes going across in orange, green, and red. Under it are glass windows / doors.
 

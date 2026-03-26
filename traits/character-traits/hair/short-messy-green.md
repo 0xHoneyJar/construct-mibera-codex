@@ -1,8 +1,13 @@
 ---
 name: short messy green
-image: Short Messy Green__w6.png
+image: "https://mibera.s3.amazonaws.com/traits/Short%20Messy%20Green.webp"
 date_added: "2024-06-15"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Short%20Messy%20Green.webp" alt="Short Messy Green" width="320" />
+</div>
+
 
 # short messy green
 

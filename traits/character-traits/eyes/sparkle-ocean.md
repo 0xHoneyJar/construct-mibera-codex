@@ -1,14 +1,18 @@
 ---
 name: sparkle ocean
-image: "https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/Sparkle%20Ocean__w15.webp"
+image: "https://mibera.s3.amazonaws.com/traits/Sparkle%20Ocean.webp"
 date_added: "2024-06-03"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Sparkle%20Ocean.webp" alt="Sparkle Ocean" width="320" />
+</div>
+
 
 # sparkle ocean
 
 ## Visual Elements
 
-![Sparkle Ocean](https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/Sparkle%20Ocean__w15.webp)
 
 teal eyes with three white dots between the iris and pupil.
 

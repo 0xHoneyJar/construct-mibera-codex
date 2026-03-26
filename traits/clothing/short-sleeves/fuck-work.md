@@ -1,16 +1,20 @@
 ---
 name: Fuck Work
-image: "https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT"
+image: "https://mibera.s3.amazonaws.com/traits/SS3_Fuck%20Work.webp"
 archetype: "**Archetype Alignment:**"
 swag_score: 3
 date_added: "2024-06-22"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_Fuck%20Work.webp" alt="Fuck Work" width="320" />
+</div>
+
+
 # Fuck Work
 
 ## Visual Elements
 
-![Fuck Work](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)
 
 Black shirt with white text that reads “FUCK WORK”.
 

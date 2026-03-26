@@ -6,9 +6,14 @@ origin: The US
 archetype: Freetekno
 ancestor: Greek
 swag_score: 2
-image: freetekno_greek_sertraline.PNG
+image: "https://mibera.s3.amazonaws.com/traits/freetekno_greek_sertraline.webp"
 date_added: "2025-01-12"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/freetekno_greek_sertraline.webp" alt="Sertraline" width="320" />
+</div>
+
 
 # Sertraline
 

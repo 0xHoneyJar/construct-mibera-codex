@@ -1,8 +1,13 @@
 ---
 name: Bong Bear 67
-image: SS5_bongbear_Bong Bear 67.png
+image: "https://mibera.s3.amazonaws.com/traits/SS5_bongbear_Bong%20Bear%2067.webp"
 date_added: "2024-12-09"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS5_bongbear_Bong%20Bear%2067.webp" alt="Bong Bear 67" width="320" />
+</div>
+
 
 # Bong Bear 67
 

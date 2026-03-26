@@ -1,16 +1,20 @@
 ---
 name: Party Hat Red
-image: "https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS4_Party%20Hat%20Red.webp"
+image: "https://mibera.s3.amazonaws.com/traits/SS4_Party%20Hat%20Red.webp"
 archetype: "**Archetype Alignment:**"
 swag_score: 4
 date_added: "2024-07-27"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS4_Party%20Hat%20Red.webp" alt="Party Hat Red" width="320" />
+</div>
+
+
 # Party Hat Red
 
 ## Visual Elements
 
-![SS4 Party Hat Red](https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS4_Party%20Hat%20Red.webp)
 
 Crown-shaped hat in deep red.
 

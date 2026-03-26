@@ -1,14 +1,18 @@
 ---
 name: ecstasy brown
-image: "https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/Ecstasy%20Brown__w8.webp"
+image: "https://mibera.s3.amazonaws.com/traits/Ecstasy%20Brown.webp"
 date_added: "2024-06-03"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Ecstasy%20Brown.webp" alt="Ecstasy Brown" width="320" />
+</div>
+
 
 # ecstasy brown
 
 ## Visual Elements
 
-![Ecstasy Brown](https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/Ecstasy%20Brown__w8.webp)
 
 brown eyes with heavily dilated pupils.
 

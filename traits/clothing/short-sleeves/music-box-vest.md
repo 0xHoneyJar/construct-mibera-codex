@@ -1,16 +1,20 @@
 ---
 name: Music Box Vest
-image: "https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT"
+image: "https://mibera.s3.amazonaws.com/traits/SS2_chicagodetroit_Music%20Box%20Vest.webp"
 archetype: Chicago Detroit
 swag_score: 2
 date_added: "2024-06-22"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS2_chicagodetroit_Music%20Box%20Vest.webp" alt="Music Box Vest" width="320" />
+</div>
+
+
 # Music Box Vest
 
 ## Visual Elements
 
-![Music Box Vest](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)
 
 White tank / vest with text in black that reads “MUSIC BOX”.
 

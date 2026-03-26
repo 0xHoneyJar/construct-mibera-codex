@@ -3,7 +3,13 @@ name: Bera Heart
 archetype: "**Archetype Alignment:**"
 swag_score: 3
 date_added: null
+image: "https://mibera.s3.amazonaws.com/traits/SS3_bera%20heart.webp"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_bera%20heart.webp" alt="Bera Heart" width="320" />
+</div>
+
 
 # Bera Heart
 

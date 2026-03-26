@@ -1,10 +1,15 @@
 ---
 name: handheld sickle
-image: SS3_milady_Handheld Sickle.png
+image: "https://mibera.s3.amazonaws.com/traits/SS3_milady_Handheld%20Sickle.webp"
 archetype: Milady
 swag_score: 3
 date_added: "2024-07-10"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_milady_Handheld%20Sickle.webp" alt="Handheld Sickle" width="320" />
+</div>
+
 
 # handheld sickle
 

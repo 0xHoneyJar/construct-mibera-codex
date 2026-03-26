@@ -1,14 +1,18 @@
 ---
 name: Honeyroad
-image: "https://mibera.fsn1.your-objectstorage.com/components/background__z10/honeyroad.webp"
+image: "https://mibera.s3.amazonaws.com/traits/honeyroad.webp"
 date_added: "2025-03-21"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/honeyroad.webp" alt="Honeyroad" width="320" />
+</div>
+
 
 # Honeyroad
 
 ## Visual Elements
 
-![Honeyroad](https://mibera.fsn1.your-objectstorage.com/components/background__z10/honeyroad.webp)
 
 Snap of a website page called ‘Honey Road’ anonymous market, offering wide selections of drugs.
 

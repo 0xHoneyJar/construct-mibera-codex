@@ -1,16 +1,20 @@
 ---
 name: Resilient
-image: "https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS3_freetekno_Resilient.webp"
+image: "https://mibera.s3.amazonaws.com/traits/SS3_freetekno_Resilient.webp"
 archetype: Freetekno
 swag_score: 3
 date_added: "2024-07-25"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_freetekno_Resilient.webp" alt="Resilient" width="320" />
+</div>
+
+
 # Resilient
 
 ## Visual Elements
 
-![Resilient](https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS3_freetekno_Resilient.webp)
 
 Black cap with red rectangular shape in the middle and the text “Resilient” in it.
 

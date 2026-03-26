@@ -1,16 +1,20 @@
 ---
 name: Jury Nullification
-image: "https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT"
+image: "https://mibera.s3.amazonaws.com/traits/SS2_freetekno_Jury%20Nullification.webp"
 archetype: Freetekno
 swag_score: 2
 date_added: "2024-06-22"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS2_freetekno_Jury%20Nullification.webp" alt="Jury Nullification" width="320" />
+</div>
+
+
 # Jury Nullification
 
 ## Visual Elements
 
-![Jury Nullification](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)
 
 White t-shirt with black text that reads “GOOGLE JURY NULLIFICATION” on a lime green rectangular shape.
 

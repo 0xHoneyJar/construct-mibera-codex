@@ -1,14 +1,18 @@
 ---
 name: gurn
-image: "https://mibera.fsn1.your-objectstorage.com/components/mouth__z90/gurn__w2.webp"
+image: "https://mibera.s3.amazonaws.com/traits/gurn.webp"
 date_added: "2024-06-05"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/gurn.webp" alt="Gurn" width="320" />
+</div>
+
 
 # gurn
 
 ## Visual Elements
 
-![gurn](https://mibera.fsn1.your-objectstorage.com/components/mouth__z90/gurn__w2.webp)
 
 a slightly open mouth showing teeth, heavily tilted.
 

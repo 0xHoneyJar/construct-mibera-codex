@@ -1,16 +1,20 @@
 ---
 name: Babybera
-image: "https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT"
+image: "https://mibera.s3.amazonaws.com/traits/SS4_Babybera.webp"
 archetype: "**Archetype Alignment:**"
 swag_score: 4
 date_added: "2025-01-02"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS4_Babybera.webp" alt="Babybera" width="320" />
+</div>
+
+
 # Babybera
 
 ## Visual Elements
 
-![Babybera](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)
 
 White t-shirt with a graphic of a grey figure with an eerie smile and animal-like nose / mouth / snout, and the words “BABY BERA” framing it.
 

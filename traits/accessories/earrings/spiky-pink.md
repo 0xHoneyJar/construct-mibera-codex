@@ -1,10 +1,15 @@
 ---
 name: Spiky Pink
-image: SS3_spiky pink.png
+image: "https://mibera.s3.amazonaws.com/traits/SS3_spiky%20pink.webp"
 archetype: "**Archetype Alignment:** In relation to the rave culture, especially in the 2000s, which is very much aligned with Mibera."
 swag_score: 3
 date_added: "2024-12-10"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_spiky%20pink.webp" alt="Spiky Pink" width="320" />
+</div>
+
 
 # Spiky Pink
 

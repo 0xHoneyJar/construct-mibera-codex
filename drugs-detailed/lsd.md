@@ -6,9 +6,14 @@ origin: Switzerland
 archetype: Freetekno
 ancestor: Aboriginals, Haitians
 swag_score: 1
-image: freetekno_aboriginals_haitians_LSD.PNG
+image: "https://mibera.s3.amazonaws.com/traits/freetekno_aboriginals_haitians_LSD.webp"
 date_added: "2025-01-12"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/freetekno_aboriginals_haitians_LSD.webp" alt="Lsd" width="320" />
+</div>
+
 
 # LSD
 

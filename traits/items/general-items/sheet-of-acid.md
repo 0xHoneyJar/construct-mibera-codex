@@ -1,10 +1,15 @@
 ---
 name: sheet of acid
-image: SS4_freetekno_Sheet Of Acid.png
+image: "https://mibera.s3.amazonaws.com/traits/SS4_freetekno_Sheet%20Of%20Acid.webp"
 archetype: Freetekno
 swag_score: 4
 date_added: "2024-07-11"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS4_freetekno_Sheet%20Of%20Acid.webp" alt="Sheet Of Acid" width="320" />
+</div>
+
 
 # sheet of acid
 

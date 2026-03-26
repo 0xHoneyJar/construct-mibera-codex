@@ -3,7 +3,13 @@ name: Workin Like A Dog
 archetype: "**Archetype Alignment:**"
 swag_score: 2
 date_added: null
+image: "https://mibera.s3.amazonaws.com/traits/SS2_acidhouse_Workin%20Like%20A%20Dog.webp"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS2_acidhouse_Workin%20Like%20A%20Dog.webp" alt="Workin Like A Dog" width="320" />
+</div>
+
 
 # Workin Like A Dog
 

@@ -1,8 +1,13 @@
 ---
 name: braided blonde
-image: Braided Blonde__w12.PNG
+image: "https://mibera.s3.amazonaws.com/traits/Braided%20Blonde.webp"
 date_added: "2024-06-04"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Braided%20Blonde.webp" alt="Braided Blonde" width="320" />
+</div>
+
 
 # braided blonde
 

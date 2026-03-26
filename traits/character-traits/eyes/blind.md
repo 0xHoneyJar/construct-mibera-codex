@@ -1,14 +1,18 @@
 ---
 name: blind
-image: "https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/Blind__w4.webp"
+image: "https://mibera.s3.amazonaws.com/traits/Blind.webp"
 date_added: "2024-06-03"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Blind.webp" alt="Blind" width="320" />
+</div>
+
 
 # blind
 
 ## Visual Elements
 
-![Blind](https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/Blind__w4.webp)
 
 complete white portraying a pair of blind eyes.
 

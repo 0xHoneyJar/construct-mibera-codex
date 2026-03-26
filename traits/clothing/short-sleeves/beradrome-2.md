@@ -1,16 +1,20 @@
 ---
 name: Beradrome 2
-image: "https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT"
+image: "https://mibera.s3.amazonaws.com/traits/SS3_milady_Beradrome%202.webp"
 archetype: Milady
 swag_score: 4
 date_added: "2024-12-10"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_milady_Beradrome%202.webp" alt="Beradrome 2" width="320" />
+</div>
+
+
 # Beradrome 2
 
 ## Visual Elements
 
-![Beradrome 2](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)
 
 Vibrant dark purple t-shirt with graphic of a bear head wearing bike helmet slowly fading from right to left and white text under it that reads “FAHRRADFAHRERANZUG”
 

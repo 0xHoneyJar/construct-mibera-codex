@@ -1,16 +1,20 @@
 ---
 name: I Have Mibera
-image: "https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS3_I%20Have%20Mibera.webp"
+image: "https://mibera.s3.amazonaws.com/traits/SS3_I%20Have%20Mibera.webp"
 archetype: "**Archetype Alignment:** In relation to a meme related to Milady, which is one of Mibera’s archetypes."
 swag_score: 3
 date_added: "2024-07-25"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_I%20Have%20Mibera.webp" alt="I Have Mibera" width="320" />
+</div>
+
+
 # I Have Mibera
 
 ## Visual Elements
 
-![SS3 I Have Mibera](https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS3_I%20Have%20Mibera.webp)
 
 Navy blue cap with white text on it saying “Please be patient I have Mibera”.
 

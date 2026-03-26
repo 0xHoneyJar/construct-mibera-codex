@@ -1,16 +1,20 @@
 ---
 name: Bera Bucket
-image: "https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS3_milady_Bera%20Bucket.webp"
+image: "https://mibera.s3.amazonaws.com/traits/SS3_milady_Bera%20Bucket.webp"
 archetype: Milady
 swag_score: 3
 date_added: "2024-07-27"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_milady_Bera%20Bucket.webp" alt="Bera Bucket" width="320" />
+</div>
+
+
 # Bera Bucket
 
 ## Visual Elements
 
-![Bera Bucket](https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS3_milady_Bera%20Bucket.webp)
 
 Brown bucket hat with bear face with sparkly eyes and bear ears.
 

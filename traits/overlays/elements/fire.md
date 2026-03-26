@@ -1,14 +1,18 @@
 ---
 name: Fire
-image: "https://mibera.fsn1.your-objectstorage.com/components/Elements/Fire.webp"
+image: "https://mibera.s3.amazonaws.com/traits/Fire.webp"
 quadrant: Southern (lat < 0) and Eastern (lon ≥ 0)
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Fire.webp" alt="Fire" width="320" />
+</div>
+
 
 # Fire
 
 ## Visual Elements
 
-![Fire](https://mibera.fsn1.your-objectstorage.com/components/Elements/Fire.webp)
 
 
 ## Cultural Context

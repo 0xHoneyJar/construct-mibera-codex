@@ -1,10 +1,15 @@
 ---
 name: purple glowstick
-image: SS1_acidhouse_Purple Glowstick.png
+image: "https://mibera.s3.amazonaws.com/traits/SS1_acidhouse_Purple%20Glowstick.webp"
 archetype: Acidhouse
 swag_score: 1
 date_added: "2024-07-23"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS1_acidhouse_Purple%20Glowstick.webp" alt="Purple Glowstick" width="320" />
+</div>
+
 
 # purple glowstick
 

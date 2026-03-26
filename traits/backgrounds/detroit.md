@@ -1,14 +1,18 @@
 ---
 name: Detroit
-image: "https://mibera.fsn1.your-objectstorage.com/components/background__z10/detroit.webp"
+image: "https://mibera.s3.amazonaws.com/traits/detroit.webp"
 date_added: "2024-08-14"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/detroit.webp" alt="Detroit" width="320" />
+</div>
+
 
 # Detroit
 
 ## Visual Elements
 
-![Detroit](https://mibera.fsn1.your-objectstorage.com/components/background__z10/detroit.webp)
 
 Red and white brick building with many windows in black from front-side point of view, with bright blue sky on top.
 

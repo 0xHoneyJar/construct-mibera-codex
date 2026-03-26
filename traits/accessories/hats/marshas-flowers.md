@@ -1,16 +1,20 @@
 ---
 name: Marsha's Flowers
-image: "https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS4_chicagodetroit_Marshas%20Flowers.webp"
+image: "https://mibera.s3.amazonaws.com/traits/SS4_chicagodetroit_Marshas%20Flowers.webp"
 archetype: Chicago Detroit
 swag_score: 4
 date_added: "2024-07-27"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS4_chicagodetroit_Marshas%20Flowers.webp" alt="Marshas Flowers" width="320" />
+</div>
+
+
 # Marsha's Flowers
 
 ## Visual Elements
 
-![Marshas Flowers](https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS4_chicagodetroit_Marshas%20Flowers.webp)
 
 Flower crowns made of different varieties of flowers in white, purple, red, yellow, and green from the leaves.
 

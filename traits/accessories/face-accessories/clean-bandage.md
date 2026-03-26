@@ -1,16 +1,20 @@
 ---
 name: Clean Bandage
-image: "https://mibera.fsn1.your-objectstorage.com/components/face%20accessories__z60/SS1_chicagodetroit_clean bandage.webp"
+image: "https://mibera.s3.amazonaws.com/traits/SS1_chicagodetroit_clean%20bandage.webp"
 archetype: Chicago Detroit
 swag_score: 1
 date_added: "2024-12-10"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS1_chicagodetroit_clean%20bandage.webp" alt="Clean Bandage" width="320" />
+</div>
+
+
 # Clean Bandage
 
 ## Visual Elements
 
-![Clean Bandage](https://mibera.fsn1.your-objectstorage.com/components/face%20accessories__z60/SS1_chicagodetroit_clean bandage.webp)
 
 Square-shaped bandage in white with a thin line cross on top of it securing the bandage in place.
 

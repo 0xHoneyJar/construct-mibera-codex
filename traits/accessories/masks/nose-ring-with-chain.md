@@ -1,16 +1,20 @@
 ---
 name: Nose Ring with Chain
-image: "https://mibera.fsn1.your-objectstorage.com/components/Masks/SS3_milady_Nose Ring With Chain.webp"
+image: "https://mibera.s3.amazonaws.com/traits/SS3_milady_Nose%20Ring%20With%20Chain.webp"
 archetype: Milady
 swag_score: 3
 date_added: "2024-06-19"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_milady_Nose%20Ring%20With%20Chain.webp" alt="Nose Ring With Chain" width="320" />
+</div>
+
+
 # Nose Ring with Chain
 
 ## Visual Elements
 
-![Nose Ring with Chain](https://mibera.fsn1.your-objectstorage.com/components/Masks/SS3_milady_Nose Ring With Chain.webp)
 
 Two golden slim chains connected to a ring on one end..
 

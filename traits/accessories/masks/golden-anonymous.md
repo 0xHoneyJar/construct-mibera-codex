@@ -1,16 +1,20 @@
 ---
 name: Golden Anonymous
-image: "https://mibera.fsn1.your-objectstorage.com/components/Masks/SS4_chicagodetroit_Golden Anonymous.webp"
+image: "https://mibera.s3.amazonaws.com/traits/SS4_chicagodetroit_Golden%20Anonymous.webp"
 archetype: Chicago Detroit
 swag_score: 4
 date_added: "2024-07-27"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS4_chicagodetroit_Golden%20Anonymous.webp" alt="Golden Anonymous" width="320" />
+</div>
+
+
 # Golden Anonymous
 
 ## Visual Elements
 
-![Golden Anonymous](https://mibera.fsn1.your-objectstorage.com/components/Masks/SS4_chicagodetroit_Golden Anonymous.webp)
 
 Golden ‘anonymous’ mask, with 2 eyeholes, defined nose, thin eyebrows, and thin mustache.
 

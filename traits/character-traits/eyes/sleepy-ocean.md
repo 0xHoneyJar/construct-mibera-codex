@@ -1,14 +1,18 @@
 ---
 name: sleepy ocean
-image: "https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/Sleepy%20Ocean__w9.webp"
+image: "https://mibera.s3.amazonaws.com/traits/Sleepy%20Ocean.webp"
 date_added: "2024-06-03"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Sleepy%20Ocean.webp" alt="Sleepy Ocean" width="320" />
+</div>
+
 
 # sleepy ocean
 
 ## Visual Elements
 
-![Sleepy Ocean](https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/Sleepy%20Ocean__w9.webp)
 
 tired eyes with vibrant teal iris
 

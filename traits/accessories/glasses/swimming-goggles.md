@@ -1,16 +1,20 @@
 ---
 name: Swimming Goggles
-image: "https://mibera.fsn1.your-objectstorage.com/components/glasses__z140/acidhouse_Swimming Goggles.webp"
+image: "https://mibera.s3.amazonaws.com/traits/acidhouse_Swimming%20Goggles.webp"
 archetype: Acidhouse
 swag_score: 4
 date_added: "2024-06-18"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/acidhouse_Swimming%20Goggles.webp" alt="Swimming Goggles" width="320" />
+</div>
+
+
 # Swimming Goggles
 
 ## Visual Elements
 
-![Swimming Goggles](https://mibera.fsn1.your-objectstorage.com/components/glasses__z140/acidhouse_Swimming Goggles.webp)
 
 Blue circular swimming goggles
 

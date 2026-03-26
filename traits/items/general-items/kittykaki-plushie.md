@@ -1,10 +1,15 @@
 ---
 name: kittykaki plushie
-image: SS4_milady_Kittykaki Plushie.png
+image: "https://mibera.s3.amazonaws.com/traits/SS4_milady_Kittykaki%20Plushie.webp"
 archetype: Milady
 swag_score: 4
 date_added: "2024-07-12"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS4_milady_Kittykaki%20Plushie.webp" alt="Kittykaki Plushie" width="320" />
+</div>
+
 
 # kittykaki plushie
 

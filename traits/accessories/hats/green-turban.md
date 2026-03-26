@@ -1,16 +1,20 @@
 ---
 name: Green Turban
-image: "https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS3_milady_Green%20Turban.webp"
+image: "https://mibera.s3.amazonaws.com/traits/SS3_milady_Green%20Turban.webp"
 archetype: Milady
 swag_score: 3
 date_added: "2024-07-25"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_milady_Green%20Turban.webp" alt="Green Turban" width="320" />
+</div>
+
+
 # Green Turban
 
 ## Visual Elements
 
-![Green Turban](https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS3_milady_Green%20Turban.webp)
 
 Plain green turban (a piece of garment / clothing), tied at the back.
 

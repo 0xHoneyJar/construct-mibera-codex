@@ -1,16 +1,20 @@
 ---
 name: Rice Paddy
-image: "https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS4_acidhouse_Rice%20Paddy.webp"
+image: "https://mibera.s3.amazonaws.com/traits/SS4_acidhouse_Rice%20Paddy.webp"
 archetype: Acidhouse
 swag_score: 4
 date_added: "2024-07-26"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS4_acidhouse_Rice%20Paddy.webp" alt="Rice Paddy" width="320" />
+</div>
+
+
 # Rice Paddy
 
 ## Visual Elements
 
-![Rice Paddy](https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS4_acidhouse_Rice%20Paddy.webp)
 
 Asian farmer’s hat, large in size shaping a wide cone facing downwards with strings dangling down the hat.
 

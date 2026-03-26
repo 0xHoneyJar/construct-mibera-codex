@@ -1,8 +1,13 @@
 ---
 name: Double Green
-image: Double Green__w2.png
+image: "https://mibera.s3.amazonaws.com/traits/Double%20Green.webp"
 date_added: "2024-06-15"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Double%20Green.webp" alt="Double Green" width="320" />
+</div>
+
 
 # Double Green
 

@@ -1,16 +1,20 @@
 ---
 name: Fluoro Pink
-image: "https://mibera.fsn1.your-objectstorage.com/components/face%20accessories__z60/SS3_freetekno_Fluoro Pink.webp"
+image: "https://mibera.s3.amazonaws.com/traits/SS3_freetekno_Fluoro%20Pink.webp"
 archetype: Freetekno
 swag_score: 3
 date_added: "2024-12-10"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_freetekno_Fluoro%20Pink.webp" alt="Fluoro Pink" width="320" />
+</div>
+
+
 # Fluoro Pink
 
 ## Visual Elements
 
-![Fluoro Pink](https://mibera.fsn1.your-objectstorage.com/components/face%20accessories__z60/SS3_freetekno_Fluoro Pink.webp)
 
 Three vibrant neon-pink strokes, one bigger than the other two.
 

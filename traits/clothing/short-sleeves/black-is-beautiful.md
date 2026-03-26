@@ -1,16 +1,20 @@
 ---
 name: Black is Beautiful
-image: "https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT"
+image: "https://mibera.s3.amazonaws.com/traits/SS3_freetekno_Black%20Is%20Beautiful.webp"
 archetype: Freetekno
 swag_score: 3
 date_added: "2024-06-22"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_freetekno_Black%20Is%20Beautiful.webp" alt="Black Is Beautiful" width="320" />
+</div>
+
+
 # Black is Beautiful
 
 ## Visual Elements
 
-![Black Is Beautiful](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)
 
 Black t-shirt with text in white that says “BLACK IS BEAUTIFUL”.
 

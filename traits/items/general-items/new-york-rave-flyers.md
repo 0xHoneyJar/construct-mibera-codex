@@ -1,10 +1,15 @@
 ---
 name: new york rave flyers
-image: SS3_chicagodetroit_New York Rave Flyers.PNG
+image: "https://mibera.s3.amazonaws.com/traits/SS3_chicagodetroit_New%20York%20Rave%20Flyers.webp"
 archetype: Chicago Detroit
 swag_score: 3
 date_added: "2024-12-09"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_chicagodetroit_New%20York%20Rave%20Flyers.webp" alt="New York Rave Flyers" width="320" />
+</div>
+
 
 # new york rave flyers
 

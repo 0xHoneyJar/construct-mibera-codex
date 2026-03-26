@@ -1,16 +1,20 @@
 ---
 name: Venetian Black
-image: "https://mibera.fsn1.your-objectstorage.com/components/Masks/SS4_Venetian Black.webp"
+image: "https://mibera.s3.amazonaws.com/traits/SS4_Venetian%20Black.webp"
 archetype: "**Archetype Alignment:**"
 swag_score: 4
 date_added: "2024-12-09"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS4_Venetian%20Black.webp" alt="Venetian Black" width="320" />
+</div>
+
+
 # Venetian Black
 
 ## Visual Elements
 
-![Venetian Black](https://mibera.fsn1.your-objectstorage.com/components/Masks/SS4_Venetian Black.webp)
 
 Rounded black mask with much bigger eyeholes compared to usual masks.
 

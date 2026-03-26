@@ -1,8 +1,13 @@
 ---
 name: classic purple
-image: Classic Purple__w4.PNG Classic Purple__z-32.png
+image: "https://mibera.s3.amazonaws.com/traits/Classic%20Purple.webp"
 date_added: "2024-06-22"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Classic%20Purple.webp" alt="Classic Purple" width="320" />
+</div>
+
 
 # classic purple
 

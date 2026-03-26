@@ -1,14 +1,18 @@
 ---
 name: concerned thick
-image: "https://mibera.fsn1.your-objectstorage.com/components/eyebrows__z95/Concerned%20Thick.webp"
+image: "https://mibera.s3.amazonaws.com/traits/Concerned%20Thick.webp"
 date_added: "2024-07-30"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Concerned%20Thick.webp" alt="Concerned Thick" width="320" />
+</div>
+
 
 # concerned thick
 
 ## Visual Elements
 
-![Concerned Thick](https://mibera.fsn1.your-objectstorage.com/components/eyebrows__z95/Concerned%20Thick.webp)
 
 thicker pair of tilted eyebrows slightly curved downwards
 

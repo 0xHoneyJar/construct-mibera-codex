@@ -1,10 +1,15 @@
 ---
 name: cassette
-image: SS2_chicagodetroit_Cassette.png
+image: "https://mibera.s3.amazonaws.com/traits/SS2_chicagodetroit_Cassette.webp"
 archetype: Chicago Detroit
 swag_score: 2
 date_added: "2024-07-07"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS2_chicagodetroit_Cassette.webp" alt="Cassette" width="320" />
+</div>
+
 
 # cassette
 

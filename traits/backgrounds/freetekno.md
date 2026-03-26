@@ -1,14 +1,18 @@
 ---
 name: Freetekno
-image: "https://mibera.fsn1.your-objectstorage.com/components/background__z10/freetekno.webp"
+image: "https://mibera.s3.amazonaws.com/traits/freetekno.webp"
 date_added: "2024-08-14"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/freetekno.webp" alt="Freetekno" width="320" />
+</div>
+
 
 # Freetekno
 
 ## Visual Elements
 
-![Freetekno](https://mibera.fsn1.your-objectstorage.com/components/background__z10/freetekno.webp)
 
 Dark background, with a red anarchy symbol on the top right (an ‘A’ inside of a circle) and brown foreground. There are 4 rectangular-shaped items in light teal with a big circle equivalent to the size of the 4 black squares next to it.
 

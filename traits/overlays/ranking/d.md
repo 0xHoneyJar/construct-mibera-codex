@@ -1,16 +1,20 @@
 ---
 name: D
 rank: D
-image: "https://mibera.fsn1.your-objectstorage.com/components/Ranking/D.webp"
+image: "https://mibera.s3.amazonaws.com/traits/D.webp"
 shape: Circle
 color: a darker muted shade of red
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/D.webp" alt="D" width="320" />
+</div>
+
 
 # D
 
 ## Visual Elements
 
-![Rank D](https://mibera.fsn1.your-objectstorage.com/components/Ranking/D.webp)
 
 
 ## Cultural Context

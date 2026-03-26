@@ -1,8 +1,13 @@
 ---
 name: normal blue
-image: Normal Blue__w22.png Normal Blue__z-32.png
+image: "https://mibera.s3.amazonaws.com/traits/Normal%20Blue.webp"
 date_added: "2024-06-22"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Normal%20Blue.webp" alt="Normal Blue" width="320" />
+</div>
+
 
 # normal blue
 

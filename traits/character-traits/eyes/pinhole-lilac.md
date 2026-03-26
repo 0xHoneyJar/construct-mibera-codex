@@ -1,14 +1,18 @@
 ---
 name: pinhole lilac
-image: "https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/Pinhole%20Lilac__w7.webp"
+image: "https://mibera.s3.amazonaws.com/traits/Pinhole%20Lilac.webp"
 date_added: "2024-06-03"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Pinhole%20Lilac.webp" alt="Pinhole Lilac" width="320" />
+</div>
+
 
 # pinhole lilac
 
 ## Visual Elements
 
-![Pinhole Lilac](https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/Pinhole%20Lilac__w7.webp)
 
 lilac eyes with constricted pupils, or usually known as pinpoint pupils.
 

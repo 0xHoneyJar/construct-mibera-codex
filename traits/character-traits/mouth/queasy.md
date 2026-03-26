@@ -1,14 +1,18 @@
 ---
 name: queasy
-image: "https://mibera.fsn1.your-objectstorage.com/components/mouth__z90/queasy__w5.webp"
+image: "https://mibera.s3.amazonaws.com/traits/queasy.webp"
 date_added: "2024-06-05"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/queasy.webp" alt="Queasy" width="320" />
+</div>
+
 
 # queasy
 
 ## Visual Elements
 
-![queasy](https://mibera.fsn1.your-objectstorage.com/components/mouth__z90/queasy__w5.webp)
 
 a mouth made of a squiggly / trembly line.
 

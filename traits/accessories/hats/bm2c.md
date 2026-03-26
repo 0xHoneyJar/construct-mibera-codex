@@ -1,16 +1,20 @@
 ---
 name: BM2C
-image: "https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS2_BM2C.webp"
+image: "https://mibera.s3.amazonaws.com/traits/SS2_BM2C.webp"
 archetype: "**Archetype Alignment:**"
 swag_score: 2
 date_added: "2025-03-18"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS2_BM2C.webp" alt="Bm2C" width="320" />
+</div>
+
+
 # BM2C
 
 ## Visual Elements
 
-![SS2 BM2C](https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS2_BM2C.webp)
 
 Soft pink cap with bm2c logo and text in white; a silhouette stickman of someone with curved ears running inside of a square frame.
 

@@ -1,10 +1,15 @@
 ---
 name: Red Lolipop
-image: SS2_red lolipop.png
+image: "https://mibera.s3.amazonaws.com/traits/SS2_red%20lolipop.webp"
 archetype: "**Archetype Alignment:** Relation to drug-use and users, as well as rave culture."
 swag_score: 2
 date_added: "2024-12-10"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS2_red%20lolipop.webp" alt="Red Lolipop" width="320" />
+</div>
+
 
 # Red Lolipop
 

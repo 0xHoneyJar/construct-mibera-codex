@@ -1,10 +1,15 @@
 ---
 name: crack pipe
-image: SS1_chicagodetroit_Crack Pipe.png
+image: "https://mibera.s3.amazonaws.com/traits/SS1_chicagodetroit_Crack%20Pipe.webp"
 archetype: Chicago Detroit
 swag_score: 1
 date_added: "2024-07-04"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS1_chicagodetroit_Crack%20Pipe.webp" alt="Crack Pipe" width="320" />
+</div>
+
 
 # crack pipe
 

@@ -1,16 +1,20 @@
 ---
 name: Pythia Bust
-image: "https://mibera.fsn1.your-objectstorage.com/components/tattoos__z125/ancient_pythia_Pythia%20Bust.webp"
+image: "https://mibera.s3.amazonaws.com/traits/ancient_pythia_Pythia%20Bust.webp"
 archetype: Pythia
 swag_score: null
 date_added: "2024-08-10"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/ancient_pythia_Pythia%20Bust.webp" alt="Pythia Bust" width="320" />
+</div>
+
+
 # Pythia Bust
 
 ## Visual Elements
 
-![Pythia Bust](https://mibera.fsn1.your-objectstorage.com/components/tattoos__z125/ancient_pythia_Pythia%20Bust.webp)
 
 A vague drawing mainly consisting of shading in the shape of a woman’s side profile.
 

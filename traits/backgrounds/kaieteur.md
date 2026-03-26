@@ -1,14 +1,18 @@
 ---
 name: Kaieteur
-image: "https://mibera.fsn1.your-objectstorage.com/components/background__z10/kaieteur.webp"
+image: "https://mibera.s3.amazonaws.com/traits/kaieteur.webp"
 date_added: "2025-02-27"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/kaieteur.webp" alt="Kaieteur" width="320" />
+</div>
+
 
 # Kaieteur
 
 ## Visual Elements
 
-![Kaieteur](https://mibera.fsn1.your-objectstorage.com/components/background__z10/kaieteur.webp)
 
 Painting-like scenery of a waterfall seen from behind some bushes.
 

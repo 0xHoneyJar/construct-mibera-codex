@@ -1,14 +1,18 @@
 ---
 name: sad
-image: "https://mibera.fsn1.your-objectstorage.com/components/mouth__z90/sad__w8.webp"
+image: "https://mibera.s3.amazonaws.com/traits/sad.webp"
 date_added: "2024-06-05"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/sad.webp" alt="Sad" width="320" />
+</div>
+
 
 # sad
 
 ## Visual Elements
 
-![sad](https://mibera.fsn1.your-objectstorage.com/components/mouth__z90/sad__w8.webp)
 
 a sad portrayed by a short thin line with a pronounced downward curve at one corner.
 

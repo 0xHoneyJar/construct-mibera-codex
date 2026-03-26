@@ -1,16 +1,20 @@
 ---
 name: RAR
-image: "https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT"
+image: "https://mibera.s3.amazonaws.com/traits/SS2_acidhouse_RAR.webp"
 archetype: Acidhouse
 swag_score: 2
 date_added: "2024-06-22"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS2_acidhouse_RAR.webp" alt="Rar" width="320" />
+</div>
+
+
 # RAR
 
 ## Visual Elements
 
-![RAR](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)
 
 White t-shirt with a black star in the middle. On top of it is the word RAR and a flying pigeon. Under it is a text that reads “RAR IS Rave Age Records”.
 

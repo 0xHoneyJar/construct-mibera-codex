@@ -1,16 +1,20 @@
 ---
 name: Headstrong
-image: "https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(LONG"
+image: "https://mibera.s3.amazonaws.com/traits/SS3_acidhouse_Headstrong.webp"
 archetype: Acidhouse
 swag_score: 3
 date_added: "2024-12-10"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_acidhouse_Headstrong.webp" alt="Headstrong" width="320" />
+</div>
+
+
 # Headstrong
 
 ## Visual Elements
 
-![Headstrong](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(LONG)
 
 Red and white long-sleeves with circular graphic in the middle and words in between them that reads "-FOR THE -EADSTRONG".
 

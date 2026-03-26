@@ -6,9 +6,14 @@ origin: Pacific Polynesia
 archetype: Acidhouse
 ancestor: Polynesian, Aboriginal
 swag_score: 1
-image: acidhouse_polynesian_aboriginal_kava.PNG
+image: "https://mibera.s3.amazonaws.com/traits/acidhouse_polynesian_aboriginal_kava.webp"
 date_added: "2025-01-12"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/acidhouse_polynesian_aboriginal_kava.webp" alt="Kava" width="320" />
+</div>
+
 
 # Kava
 

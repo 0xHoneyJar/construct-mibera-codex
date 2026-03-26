@@ -1,14 +1,18 @@
 ---
 name: Prison
-image: "https://mibera.fsn1.your-objectstorage.com/components/background__z10%20%28SCENE%29/prison.webp"
+image: "https://mibera.s3.amazonaws.com/traits/prison.webp"
 date_added: "2025-03-11"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/prison.webp" alt="Prison" width="320" />
+</div>
+
 
 # Prison
 
 ## Visual Elements
 
-![Prison](https://mibera.fsn1.your-objectstorage.com/components/background__z10%20%28SCENE%29/prison.webp)
 
 Simple grey background with prison bars in front with 3D effect.
 

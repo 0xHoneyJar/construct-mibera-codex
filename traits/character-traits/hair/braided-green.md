@@ -1,8 +1,13 @@
 ---
 name: braided green
-image: Braided Green__w16.PNG
+image: "https://mibera.s3.amazonaws.com/traits/Braided%20Green.webp"
 date_added: "2024-06-04"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Braided%20Green.webp" alt="Braided Green" width="320" />
+</div>
+
 
 # braided green
 

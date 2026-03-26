@@ -1,10 +1,15 @@
 ---
 name: Kim Jong Mask
-image: SS4_acidhouse_Kim Jong Mask.png
+image: "https://mibera.s3.amazonaws.com/traits/SS4_acidhouse_Kim%20Jong%20Mask.webp"
 archetype: Acidhouse
 swag_score: 4
 date_added: "2024-07-26"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS4_acidhouse_Kim%20Jong%20Mask.webp" alt="Kim Jong Mask" width="320" />
+</div>
+
 
 # Kim Jong Mask
 

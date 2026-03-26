@@ -1,8 +1,13 @@
 ---
 name: medium wavy magenta
-image: Medium Wavy Magenta__w2.png
+image: "https://mibera.s3.amazonaws.com/traits/Medium%20Wavy%20Magenta.webp"
 date_added: "2024-06-15"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Medium%20Wavy%20Magenta.webp" alt="Medium Wavy Magenta" width="320" />
+</div>
+
 
 # medium wavy magenta
 

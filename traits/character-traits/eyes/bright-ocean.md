@@ -1,14 +1,18 @@
 ---
 name: bright ocean
-image: "https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/Bright%20Ocean__w13.webp"
+image: "https://mibera.s3.amazonaws.com/traits/Bright%20Ocean.webp"
 date_added: "2024-06-03"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Bright%20Ocean.webp" alt="Bright Ocean" width="320" />
+</div>
+
 
 # bright ocean
 
 ## Visual Elements
 
-![Bright Ocean](https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/Bright%20Ocean__w13.webp)
 
 teal eyes with a large white four pointed star within the pupil
 

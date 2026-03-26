@@ -1,16 +1,20 @@
 ---
 name: Magenta Suit
-image: "https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(LONG"
+image: "https://mibera.s3.amazonaws.com/traits/SS3_milady_Magenta%20Suit.webp"
 archetype: Milady
 swag_score: 3
 date_added: "2024-06-29"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_milady_Magenta%20Suit.webp" alt="Magenta Suit" width="320" />
+</div>
+
+
 # Magenta Suit
 
 ## Visual Elements
 
-![Magenta Suit](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(LONG)
 
 Deep magenta suit with a tie with the same colour as the suit and white shirt underneath.
 

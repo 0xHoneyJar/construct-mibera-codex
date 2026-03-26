@@ -1,16 +1,20 @@
 ---
 name: Smokey The Bera Shirt
-image: "https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT"
+image: "https://mibera.s3.amazonaws.com/traits/SS5_chicagodetroit_smokey%20the%20bera%20shirt.webp"
 archetype: Chicago Detroit
 swag_score: 5
 date_added: "2025-03-10"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS5_chicagodetroit_smokey%20the%20bera%20shirt.webp" alt="Smokey The Bera Shirt" width="320" />
+</div>
+
+
 # Smokey The Bera Shirt
 
 ## Visual Elements
 
-![smokey the bera shirt](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)
 
 Graphic shirt full of illustrations and writings.
 

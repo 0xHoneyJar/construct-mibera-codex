@@ -1,14 +1,18 @@
 ---
 name: sleepy brown
-image: "https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/Sleepy%20Brown__w9.webp"
+image: "https://mibera.s3.amazonaws.com/traits/Sleepy%20Brown.webp"
 date_added: "2024-06-03"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Sleepy%20Brown.webp" alt="Sleepy Brown" width="320" />
+</div>
+
 
 # sleepy brown
 
 ## Visual Elements
 
-![Sleepy Brown](https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/Sleepy%20Brown__w9.webp)
 
 tired eyes with brown iris.
 

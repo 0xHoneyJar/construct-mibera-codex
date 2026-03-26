@@ -1,8 +1,13 @@
 ---
 name: hime blonde
-image: Hime Blonde__w14.png Hime Blonde__z-32.png
+image: "https://mibera.s3.amazonaws.com/traits/Hime%20Blonde.webp"
 date_added: "2024-06-22"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Hime%20Blonde.webp" alt="Hime Blonde" width="320" />
+</div>
+
 
 # hime blonde
 

@@ -1,16 +1,20 @@
 ---
 name: No Tattoos
-image: "https://mibera.fsn1.your-objectstorage.com/components/tattoos__z125/No%20tattoos.webp"
+image: "https://mibera.s3.amazonaws.com/traits/No%20tattoos.webp"
 archetype: "**Archetype Alignment:** Default option for characters without body art. ---"
 swag_score: null
 date_added: null
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/No%20tattoos.webp" alt="No Tattoos" width="320" />
+</div>
+
+
 # No Tattoos
 
 ## Visual Elements
 
-![No Tattoos](https://mibera.fsn1.your-objectstorage.com/components/tattoos__z125/No%20tattoos.webp)
 
 Represents the absence of tattoos on a Mibera character.
 

@@ -1,14 +1,18 @@
 ---
 name: Milady Rave
-image: "https://mibera.fsn1.your-objectstorage.com/components/background__z10/Milady%20Rave.webp"
+image: "https://mibera.s3.amazonaws.com/traits/Milady%20Rave.webp"
 date_added: "2024-06-06"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Milady%20Rave.webp" alt="Milady Rave" width="320" />
+</div>
+
 
 # Milady Rave
 
 ## Visual Elements
 
-![Milady Rave](https://mibera.fsn1.your-objectstorage.com/components/background__z10/Milady%20Rave.webp)
 
 Light pale green tone, with abstract figures, and a small female doll-like figure with big eyes being held on the far right side within the frame. Bright white light from the top.
 

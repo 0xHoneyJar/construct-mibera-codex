@@ -1,14 +1,18 @@
 ---
 name: Newgrange
-image: "https://mibera.fsn1.your-objectstorage.com/components/background__z10%20%28SCENE%29/newgrange.webp"
+image: "https://mibera.s3.amazonaws.com/traits/newgrange.webp"
 date_added: "2025-03-11"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/newgrange.webp" alt="Newgrange" width="320" />
+</div>
+
 
 # Newgrange
 
 ## Visual Elements
 
-![Newgrange](https://mibera.fsn1.your-objectstorage.com/components/background__z10%20%28SCENE%29/newgrange.webp)
 
 Background made of sandy-colored stones with some carvings on them, including 3 connected spirals. In front is stone with moss and mushrooms growing on it.
 

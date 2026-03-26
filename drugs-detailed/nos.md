@@ -6,9 +6,14 @@ origin: England
 archetype: Acidhouse
 ancestor: Pythia
 swag_score: 1
-image: acidhouse_pythia_NOS.PNG
+image: "https://mibera.s3.amazonaws.com/traits/acidhouse_pythia_NOS.webp"
 date_added: "2025-01-12"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/acidhouse_pythia_NOS.webp" alt="Nos" width="320" />
+</div>
+
 
 # NOS
 

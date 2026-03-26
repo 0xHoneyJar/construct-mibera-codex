@@ -1,8 +1,13 @@
 ---
 name: braided red
-image: Braided Red__w5.PNG
+image: "https://mibera.s3.amazonaws.com/traits/Braided%20Red.webp"
 date_added: "2024-06-04"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Braided%20Red.webp" alt="Braided Red" width="320" />
+</div>
+
 
 # braided red
 

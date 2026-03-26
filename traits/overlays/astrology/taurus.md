@@ -3,13 +3,20 @@ name: Taurus
 date_range: April 20 - May 20
 glyph: ♉
 element: Earth
+image: "https://mibera.s3.amazonaws.com/traits/Sun%20Taurus.webp"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Sun%20Taurus.webp" alt="Sun Taurus" width="200" />
+  <img src="https://mibera.s3.amazonaws.com/traits/Moon%20Taurus.webp" alt="Moon Taurus" width="200" />
+  <img src="https://mibera.s3.amazonaws.com/traits/Rising%20Taurus.webp" alt="Rising Taurus" width="200" />
+</div>
+
 
 # Taurus
 
 ## Visual Elements
 
-![Sun Taurus](https://mibera.fsn1.your-objectstorage.com/components/Sun/Sun%20Taurus.webp)
 
 
 ## Cultural Context

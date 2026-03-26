@@ -1,14 +1,18 @@
 ---
 name: Rock Walls
-image: "https://mibera.fsn1.your-objectstorage.com/components/background__z10/Rock%20Walls.webp"
+image: "https://mibera.s3.amazonaws.com/traits/Rock%20Walls.webp"
 date_added: "2024-06-08"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Rock%20Walls.webp" alt="Rock Walls" width="320" />
+</div>
+
 
 # Rock Walls
 
 ## Visual Elements
 
-![Rock Walls](https://mibera.fsn1.your-objectstorage.com/components/background__z10/Rock%20Walls.webp)
 
 Dark tunnel with yellow-ish rock walls with carvings on them.
 

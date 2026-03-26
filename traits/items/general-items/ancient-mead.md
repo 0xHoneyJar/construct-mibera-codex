@@ -1,10 +1,15 @@
 ---
 name: ancient mead
-image: SS5_acidhouse_ancient_greek_Ancient Mead.png
+image: "https://mibera.s3.amazonaws.com/traits/SS5_acidhouse_ancient_greek_Ancient%20Mead.webp"
 archetype: Acidhouse
 swag_score: 5
 date_added: "2024-07-12"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS5_acidhouse_ancient_greek_Ancient%20Mead.webp" alt="Ancient Mead" width="320" />
+</div>
+
 
 # ancient mead
 

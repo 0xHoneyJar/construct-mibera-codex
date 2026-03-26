@@ -1,14 +1,18 @@
 ---
 name: sparkle brown
-image: "https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/Sparkle%20Brown__w15.webp"
+image: "https://mibera.s3.amazonaws.com/traits/Sparkle%20Brown.webp"
 date_added: "2024-06-03"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Sparkle%20Brown.webp" alt="Sparkle Brown" width="320" />
+</div>
+
 
 # sparkle brown
 
 ## Visual Elements
 
-![Sparkle Brown](https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/Sparkle%20Brown__w15.webp)
 
 Brown eyes with three white dots between the iris and pupil.
 

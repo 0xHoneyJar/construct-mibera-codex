@@ -3,13 +3,20 @@ name: Libra
 date_range: September 23 - October 22
 glyph: ♎
 element: Air
+image: "https://mibera.s3.amazonaws.com/traits/Sun%20Libra.webp"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Sun%20Libra.webp" alt="Sun Libra" width="200" />
+  <img src="https://mibera.s3.amazonaws.com/traits/Moon%20Libra.webp" alt="Moon Libra" width="200" />
+  <img src="https://mibera.s3.amazonaws.com/traits/Rising%20Libra.webp" alt="Rising Libra" width="200" />
+</div>
+
 
 # Libra
 
 ## Visual Elements
 
-![Sun Libra](https://mibera.fsn1.your-objectstorage.com/components/Sun/Sun%20Libra.webp)
 
 
 ## Cultural Context

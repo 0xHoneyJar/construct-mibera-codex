@@ -1,16 +1,20 @@
 ---
 name: Amanita
-image: "https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS3_milady_amanita.webp"
+image: "https://mibera.s3.amazonaws.com/traits/SS3_milady_amanita.webp"
 archetype: Milady
 swag_score: 3
 date_added: "2024-12-10"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_milady_amanita.webp" alt="Amanita" width="320" />
+</div>
+
+
 # Amanita
 
 ## Visual Elements
 
-![amanita](https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS3_milady_amanita.webp)
 
 Big hat in the shape of a mushroom head in red with white spots.
 

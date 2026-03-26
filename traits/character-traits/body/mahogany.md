@@ -1,14 +1,18 @@
 ---
 name: mahogany
-image: "https://mibera.fsn1.your-objectstorage.com/components/body__z40/mahogany__z80.webp"
+image: "https://mibera.s3.amazonaws.com/traits/mahogany.webp"
 date_added: "2024-08-13"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/mahogany.webp" alt="Mahogany" width="320" />
+</div>
+
 
 # mahogany
 
 ## Visual Elements
 
-![Mahogany](https://mibera.fsn1.your-objectstorage.com/components/body__z40/mahogany__z80.webp)
 
 Mahogany skin, warm deep brown with reddish/coppery undertone.
 

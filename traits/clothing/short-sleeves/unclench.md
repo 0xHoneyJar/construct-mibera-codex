@@ -1,16 +1,20 @@
 ---
 name: Unclench
-image: "https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT"
+image: "https://mibera.s3.amazonaws.com/traits/SS4_Unclench.webp"
 archetype: "**Archetype Alignment:**"
 swag_score: 4
 date_added: "2024-12-10"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS4_Unclench.webp" alt="Unclench" width="320" />
+</div>
+
+
 # Unclench
 
 ## Visual Elements
 
-![Unclench](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)
 
 White t-shirt with graphic text that reads “UNCLENCH YOUR JAW” in a flowy shape, stars around the text, and a Mibera logo under it.
 

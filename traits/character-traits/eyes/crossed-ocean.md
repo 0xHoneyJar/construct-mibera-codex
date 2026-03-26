@@ -1,14 +1,18 @@
 ---
 name: crossed ocean
-image: "https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/Crossed%20Ocean__w6.webp"
+image: "https://mibera.s3.amazonaws.com/traits/Crossed%20Ocean.webp"
 date_added: "2024-06-03"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Crossed%20Ocean.webp" alt="Crossed Ocean" width="320" />
+</div>
+
 
 # crossed ocean
 
 ## Visual Elements
 
-![Crossed Ocean](https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/Crossed%20Ocean__w6.webp)
 
 crossed eyes with bright teal iris.
 

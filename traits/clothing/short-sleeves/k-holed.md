@@ -1,16 +1,20 @@
 ---
 name: K-Holed
-image: "https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT"
+image: "https://mibera.s3.amazonaws.com/traits/SS2_milady_K-holed.webp"
 archetype: "**Archetype Alignment:** Its way of poking / referencing Milady Maker 333."
 swag_score: 2
 date_added: "2024-06-22"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS2_milady_K-holed.webp" alt="K Holed" width="320" />
+</div>
+
+
 # K-Holed
 
 ## Visual Elements
 
-![K-holed](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)
 
 Black t-shirt with white text that reads “I K-HOLED AT THE MILADY RAVE” on it .
 

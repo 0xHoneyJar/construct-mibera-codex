@@ -1,10 +1,15 @@
 ---
 name: Dog Bone
-image: SS3_dog bone.PNG
+image: "https://mibera.s3.amazonaws.com/traits/SS3_dog%20bone.webp"
 archetype: "**Archetype Alignment:** In relation to the “Dog Bone Village” meme within the Milady Maker NFT community around the end of 2024"
 swag_score: 3
 date_added: "2024-12-10"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_dog%20bone.webp" alt="Dog Bone" width="320" />
+</div>
+
 
 # Dog Bone
 

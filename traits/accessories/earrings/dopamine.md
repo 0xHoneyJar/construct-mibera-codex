@@ -1,10 +1,15 @@
 ---
 name: Dopamine
-image: SS3_dopamine.png
+image: "https://mibera.s3.amazonaws.com/traits/SS3_dopamine.webp"
 archetype: "**Archetype Alignment:** “Feel-good” chemical produced by the brain itself that’s more related to driving behavior towards rewards than direct happiness."
 swag_score: 3
 date_added: "2024-12-10"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_dopamine.webp" alt="Dopamine" width="320" />
+</div>
+
 
 # Dopamine
 

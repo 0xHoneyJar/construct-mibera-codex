@@ -1,14 +1,18 @@
 ---
 name: Mississippi River
-image: "https://mibera.fsn1.your-objectstorage.com/components/background__z10/mississippi%20river.webp"
+image: "https://mibera.s3.amazonaws.com/traits/mississippi%20river.webp"
 date_added: "2025-02-27"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/mississippi%20river.webp" alt="Mississippi River" width="320" />
+</div>
+
 
 # Mississippi River
 
 ## Visual Elements
 
-![Mississippi River](https://mibera.fsn1.your-objectstorage.com/components/background__z10/mississippi%20river.webp)
 
 Top view of the Mississippi river.
 

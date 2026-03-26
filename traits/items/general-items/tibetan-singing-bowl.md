@@ -1,10 +1,15 @@
 ---
 name: tibetan singing bowl
-image: SS3_acidhouse_Tibetan Singing Bowl.png
+image: "https://mibera.s3.amazonaws.com/traits/SS3_acidhouse_Tibetan%20Singing%20Bowl.webp"
 archetype: Acidhouse
 swag_score: 3
 date_added: "2024-07-07"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_acidhouse_Tibetan%20Singing%20Bowl.webp" alt="Tibetan Singing Bowl" width="320" />
+</div>
+
 
 # tibetan singing bowl
 

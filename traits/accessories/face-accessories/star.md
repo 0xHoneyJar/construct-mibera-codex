@@ -1,16 +1,20 @@
 ---
 name: Star
-image: "https://mibera.fsn1.your-objectstorage.com/components/face%20accessories__z60/SS2_Milady_Star.webp"
+image: "https://mibera.s3.amazonaws.com/traits/SS3_acidhouse_star.webp"
 archetype: Milady
 swag_score: 3
 date_added: "2024-12-10"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS2_Milady_Star.webp" alt="Star" width="320" />
+</div>
+
+
 # Star
 
 ## Visual Elements
 
-![Star](https://mibera.fsn1.your-objectstorage.com/components/face%20accessories__z60/SS2_Milady_Star.webp)
 
 Small black star.
 

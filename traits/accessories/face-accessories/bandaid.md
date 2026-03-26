@@ -1,16 +1,20 @@
 ---
 name: Bandaid
-image: "https://mibera.fsn1.your-objectstorage.com/components/face%20accessories__z60/SS1_milady_bandaid.webp"
+image: "https://mibera.s3.amazonaws.com/traits/SS1_milady_bandaid.webp"
 archetype: Milady
 swag_score: 1
 date_added: "2024-12-10"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS1_milady_bandaid.webp" alt="Bandaid" width="320" />
+</div>
+
+
 # Bandaid
 
 ## Visual Elements
 
-![Bandaid](https://mibera.fsn1.your-objectstorage.com/components/face%20accessories__z60/SS1_milady_bandaid.webp)
 
 Small band-aid in their stereotypical light-brown color.
 

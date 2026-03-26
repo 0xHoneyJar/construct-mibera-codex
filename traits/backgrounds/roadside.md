@@ -1,14 +1,18 @@
 ---
 name: Roadside
-image: "https://mibera.fsn1.your-objectstorage.com/components/background__z10/Roadside.webp"
+image: "https://mibera.s3.amazonaws.com/traits/Roadside.webp"
 date_added: "2024-06-07"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Roadside.webp" alt="Roadside" width="320" />
+</div>
+
 
 # Roadside
 
 ## Visual Elements
 
-![Roadside](https://mibera.fsn1.your-objectstorage.com/components/background__z10/Roadside.webp)
 
 Painterly style of a roadside. Grey road with greeneries on each side of the road, under a clear blue sky.
 

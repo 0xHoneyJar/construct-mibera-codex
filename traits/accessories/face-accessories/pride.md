@@ -1,16 +1,20 @@
 ---
 name: Pride
-image: "https://mibera.fsn1.your-objectstorage.com/components/face%20accessories__z60/SS2_milady_pride.webp"
+image: "https://mibera.s3.amazonaws.com/traits/SS2_milady_pride.webp"
 archetype: Milady
 swag_score: 2
 date_added: "2024-12-10"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS2_milady_pride.webp" alt="Pride" width="320" />
+</div>
+
+
 # Pride
 
 ## Visual Elements
 
-![Pride](https://mibera.fsn1.your-objectstorage.com/components/face%20accessories__z60/SS2_milady_pride.webp)
 
 Rainbow strokes in a rectangle shape. Symbolizing a pride flag.
 

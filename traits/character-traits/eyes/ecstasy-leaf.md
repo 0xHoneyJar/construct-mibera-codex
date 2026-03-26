@@ -1,14 +1,18 @@
 ---
 name: ecstasy leaf
-image: "https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/Ecstasy%20Leaf__w8.webp"
+image: "https://mibera.s3.amazonaws.com/traits/Ecstasy%20Leaf.webp"
 date_added: "2024-06-03"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Ecstasy%20Leaf.webp" alt="Ecstasy Leaf" width="320" />
+</div>
+
 
 # ecstasy leaf
 
 ## Visual Elements
 
-![Ecstasy Leaf](https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/Ecstasy%20Leaf__w8.webp)
 
 green eyes with heavily dilated pupils
 

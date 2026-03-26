@@ -1,14 +1,18 @@
 ---
 name: Pisces
-image: "https://mibera.fsn1.your-objectstorage.com/components/Constellations/pisces.webp"
+image: "https://mibera.s3.amazonaws.com/traits/pisces.webp"
 date_added: "2024-11-23"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/pisces.webp" alt="Pisces" width="320" />
+</div>
+
 
 # Pisces
 
 ## Visual Elements
 
-![Pisces](https://mibera.fsn1.your-objectstorage.com/components/Constellations/pisces.webp)
 
 Deep blue night sky with bright white 4-points-stars connected by thin white lines forming a constellation (Pisces). Smaller stars in white dots are scattered in the background.
 

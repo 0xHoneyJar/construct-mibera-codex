@@ -1,14 +1,18 @@
 ---
 name: sparkle leaf
-image: "https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/Sparkle%20Leaf__w15.webp"
+image: "https://mibera.s3.amazonaws.com/traits/Sparkle%20Leaf.webp"
 date_added: "2024-06-03"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Sparkle%20Leaf.webp" alt="Sparkle Leaf" width="320" />
+</div>
+
 
 # sparkle leaf
 
 ## Visual Elements
 
-![Sparkle Leaf](https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/Sparkle%20Leaf__w15.webp)
 
 leafy-green eyes with three white dots between the iris and pupil.
 

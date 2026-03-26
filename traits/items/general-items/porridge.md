@@ -1,10 +1,15 @@
 ---
 name: porridge
-image: SS2_chicagodetroit_Porridge.png
+image: "https://mibera.s3.amazonaws.com/traits/SS2_chicagodetroit_Porridge.webp"
 archetype: Chicago Detroit
 swag_score: 2
 date_added: "2024-07-07"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS2_chicagodetroit_Porridge.webp" alt="Porridge" width="320" />
+</div>
+
 
 # porridge
 

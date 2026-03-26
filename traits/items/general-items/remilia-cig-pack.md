@@ -1,10 +1,15 @@
 ---
 name: remilia cig pack
-image: SS3_milady_Remilia Cig Pack.png
+image: "https://mibera.s3.amazonaws.com/traits/SS3_milady_Remilia%20Cig%20Pack.webp"
 archetype: Milady
 swag_score: 3
 date_added: "2024-07-10"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_milady_Remilia%20Cig%20Pack.webp" alt="Remilia Cig Pack" width="320" />
+</div>
+
 
 # remilia cig pack
 

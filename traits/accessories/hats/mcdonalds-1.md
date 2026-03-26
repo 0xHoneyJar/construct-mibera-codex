@@ -1,16 +1,20 @@
 ---
 name: Mcdonalds 1
-image: "https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS3_chicagodetroit_Mcdonalds%201.webp"
+image: "https://mibera.s3.amazonaws.com/traits/SS3_chicagodetroit_Mcdonalds%201.webp"
 archetype: Chicago Detroit
 swag_score: 3
 date_added: "2024-12-10"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_chicagodetroit_Mcdonalds%201.webp" alt="Mcdonalds 1" width="320" />
+</div>
+
+
 # Mcdonalds 1
 
 ## Visual Elements
 
-![Mcdonalds 1](https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS3_chicagodetroit_Mcdonalds%201.webp)
 
 Bright red and yellow newsboy cap with Mcdonalds’ logo on it, a vintage McDonald’s hat.
 

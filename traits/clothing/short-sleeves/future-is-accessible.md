@@ -1,16 +1,20 @@
 ---
 name: Future is Accessible
-image: "https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT"
+image: "https://mibera.s3.amazonaws.com/traits/SS1_freetekno_Future%20Is%20Accessible.webp"
 archetype: Freetekno
 swag_score: 1
 date_added: "2024-12-10"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS1_freetekno_Future%20Is%20Accessible.webp" alt="Future Is Accessible" width="320" />
+</div>
+
+
 # Future is Accessible
 
 ## Visual Elements
 
-![Future Is Accessible](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)
 
 Black t-shirt with white text that says “THE FUTURE IS ACCESSIBLE”.
 

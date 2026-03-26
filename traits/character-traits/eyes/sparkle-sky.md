@@ -1,14 +1,18 @@
 ---
 name: sparkle sky
-image: "https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/Sparkle%20Sky__w15.webp"
+image: "https://mibera.s3.amazonaws.com/traits/Sparkle%20Sky.webp"
 date_added: "2024-06-03"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Sparkle%20Sky.webp" alt="Sparkle Sky" width="320" />
+</div>
+
 
 # sparkle sky
 
 ## Visual Elements
 
-![Sparkle Sky](https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/Sparkle%20Sky__w15.webp)
 
 sky-blue eyes with three white dots between the iris and pupil.
 

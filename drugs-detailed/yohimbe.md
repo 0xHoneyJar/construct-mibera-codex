@@ -6,9 +6,14 @@ origin: Congo, Cameroon
 archetype: Chicago Detroit
 ancestor: Gabon
 swag_score: 4
-image: chicagodetroit_gabon_yohimbine.PNG
+image: "https://mibera.s3.amazonaws.com/traits/chicagodetroit_gabon_yohimbe.webp"
 date_added: "2025-01-12"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/chicagodetroit_gabon_yohimbe.webp" alt="Yohimbe" width="320" />
+</div>
+
 
 # Yohimbe
 

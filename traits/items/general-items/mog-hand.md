@@ -1,10 +1,15 @@
 ---
 name: mog hand
-image: SS4_milady_Mog Hand.png
+image: "https://mibera.s3.amazonaws.com/traits/SS4_milady_Mog%20Hand.webp"
 archetype: Milady
 swag_score: 4
 date_added: "2024-07-12"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS4_milady_Mog%20Hand.webp" alt="Mog Hand" width="320" />
+</div>
+
 
 # mog hand
 

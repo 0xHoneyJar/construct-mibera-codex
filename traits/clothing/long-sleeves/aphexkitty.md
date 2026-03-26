@@ -1,16 +1,20 @@
 ---
 name: Aphexkitty
-image: "https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(LONG"
+image: "https://mibera.s3.amazonaws.com/traits/SS3_aphexkitty.webp"
 archetype: "**Archetype Alignment:** Bootleg that Babybera bought in real life."
 swag_score: 3
 date_added: "2024-12-10"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_aphexkitty.webp" alt="Aphexkitty" width="320" />
+</div>
+
+
 # Aphexkitty
 
 ## Visual Elements
 
-![aphexkitty](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(LONG)
 
 Long sleeves in bone-white with a big hello-kitty graphic wearing pink clothing in the middle and red text on one of the sleeves that reads “APHEX TWIN”.
 

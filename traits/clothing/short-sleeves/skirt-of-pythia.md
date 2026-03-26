@@ -1,16 +1,20 @@
 ---
 name: Skirt of Pythia
-image: "https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT"
+image: "https://mibera.s3.amazonaws.com/traits/SS3_acidhouse_ancient_pythia_Skirt%20Of%20Pythia.webp"
 archetype: Acidhouse
 swag_score: 3
 date_added: "2025-03-13"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_acidhouse_ancient_pythia_Skirt%20Of%20Pythia.webp" alt="Skirt Of Pythia" width="320" />
+</div>
+
+
 # Skirt of Pythia
 
 ## Visual Elements
 
-![ancient_pythia_Skirt Of Pythia](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)
 
 Piece of brown sleeveless flowy garment, hooked only on one shoulder.
 

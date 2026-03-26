@@ -1,10 +1,15 @@
 ---
 name: ccru
-image: SS4_Ccru.png
+image: "https://mibera.s3.amazonaws.com/traits/SS4_Ccru.webp"
 archetype: "**Archetype Alignment:**"
 swag_score: 4
 date_added: "2024-08-07"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS4_Ccru.webp" alt="Ccru" width="320" />
+</div>
+
 
 # ccru
 

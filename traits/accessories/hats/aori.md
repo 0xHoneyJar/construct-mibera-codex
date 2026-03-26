@@ -1,16 +1,20 @@
 ---
 name: aori
-image: "https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS3_Aori.webp"
+image: "https://mibera.s3.amazonaws.com/traits/SS3_Aori.webp"
 archetype: "**Archetype Alignment:**"
 swag_score: 3
 date_added: "2024-12-10"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_Aori.webp" alt="Aori" width="320" />
+</div>
+
+
 # aori
 
 ## Visual Elements
 
-![SS3 Aori](https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS3_Aori.webp)
 
 a black cap with white graphic in the middle that looks like an ‘S’ and an ‘O’ connected with an ‘I’ inside of it.
 

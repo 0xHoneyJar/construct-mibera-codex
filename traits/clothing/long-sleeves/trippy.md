@@ -1,16 +1,20 @@
 ---
 name: Trippy
-image: "https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(LONG"
+image: "https://mibera.s3.amazonaws.com/traits/SS5_acidhouse_Trippy.webp"
 archetype: Acidhouse
 swag_score: 5
 date_added: "2024-12-10"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS5_acidhouse_Trippy.webp" alt="Trippy" width="320" />
+</div>
+
+
 # Trippy
 
 ## Visual Elements
 
-![Trippy](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(LONG)
 
 Long sleeves in dark grey / purple with trippy patterns; tiny red dots, blue lines and curves, and white almond shapes. All filling the shirt.
 

@@ -1,14 +1,18 @@
 ---
 name: ecstasy ocean
-image: "https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/Ecstasy%20Ocean__w8.webp"
+image: "https://mibera.s3.amazonaws.com/traits/Ecstasy%20Ocean.webp"
 date_added: "2024-06-03"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Ecstasy%20Ocean.webp" alt="Ecstasy Ocean" width="320" />
+</div>
+
 
 # ecstasy ocean
 
 ## Visual Elements
 
-![Ecstasy Ocean](https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/Ecstasy%20Ocean__w8.webp)
 
 teal eyes with heavily dilated pupils.
 

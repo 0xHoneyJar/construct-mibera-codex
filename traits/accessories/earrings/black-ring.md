@@ -1,10 +1,15 @@
 ---
 name: Black Ring
-image: SS2_Black Ring.PNG
+image: "https://mibera.s3.amazonaws.com/traits/SS2_Black%20Ring.webp"
 archetype: "**Archetype Alignment:**"
 swag_score: 2
 date_added: "2024-12-10"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS2_Black%20Ring.webp" alt="Black Ring" width="320" />
+</div>
+
 
 # Black Ring
 

@@ -6,9 +6,14 @@ origin: South America
 archetype: Chicago Detroit
 ancestor: Ballroom
 swag_score: 3
-image: chicagodetroit_ballroomScene_coca.PNG
+image: "https://mibera.s3.amazonaws.com/traits/chicagodetroit_ballroomScene_coca.webp"
 date_added: "2025-01-12"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/chicagodetroit_ballroomScene_coca.webp" alt="Coca" width="320" />
+</div>
+
 
 # Coca
 

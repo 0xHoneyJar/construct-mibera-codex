@@ -1,8 +1,13 @@
 ---
 name: cottage magenta
-image: Cottage Magenta__w12.PNG
+image: "https://mibera.s3.amazonaws.com/traits/Cottage%20Magenta.webp"
 date_added: "2024-06-15"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Cottage%20Magenta.webp" alt="Cottage Magenta" width="320" />
+</div>
+
 
 # cottage magenta
 

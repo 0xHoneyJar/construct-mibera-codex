@@ -1,16 +1,20 @@
 ---
 name: Velvet
-image: "https://mibera.fsn1.your-objectstorage.com/components/Masks/SS3_Velvet.webp"
+image: "https://mibera.s3.amazonaws.com/traits/SS3_Velvet.webp"
 archetype: "**Archetype Alignment:**"
 swag_score: 3
 date_added: "2024-12-09"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_Velvet.webp" alt="Velvet" width="320" />
+</div>
+
+
 # Velvet
 
 ## Visual Elements
 
-![Velvet](https://mibera.fsn1.your-objectstorage.com/components/Masks/SS3_Velvet.webp)
 
 Black full-face mask with velvet-y texture / complexion.
 

@@ -1,16 +1,20 @@
 ---
 name: Straight Edge
-image: "https://mibera.fsn1.your-objectstorage.com/components/tattoos__z125/Straight%20Edge.webp"
+image: "https://mibera.s3.amazonaws.com/traits/Straight%20Edge.webp"
 archetype: "**Archetype Alignment:**"
 swag_score: null
 date_added: "2024-08-06"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Straight%20Edge.webp" alt="Straight Edge" width="320" />
+</div>
+
+
 # Straight Edge
 
 ## Visual Elements
 
-![Straight Edge](https://mibera.fsn1.your-objectstorage.com/components/tattoos__z125/Straight%20Edge.webp)
 
 Two thick rectangular lines with clean edges crossing one another.
 

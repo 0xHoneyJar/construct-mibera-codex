@@ -1,16 +1,20 @@
 ---
 name: THJ Globe
-image: "https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS3_THJ%20Globe.webp"
+image: "https://mibera.s3.amazonaws.com/traits/SS3_THJ%20Globe.webp"
 archetype: "**Archetype Alignment:**"
 swag_score: 3
 date_added: "2024-07-27"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_THJ%20Globe.webp" alt="Thj Globe" width="320" />
+</div>
+
+
 # THJ Globe
 
 ## Visual Elements
 
-![SS3 THJ Globe](https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS3_THJ%20Globe.webp)
 
 Bone-white fisherman hat with strings. On it is a graphic of two bears holding a yellow globe on top of a cloud with black text “THJ” on it.
 

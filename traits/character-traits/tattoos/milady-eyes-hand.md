@@ -1,16 +1,20 @@
 ---
 name: Milady Eyes Hand
-image: "https://mibera.fsn1.your-objectstorage.com/components/tattoos__z125/Milady%20Eyes%20Hand.webp"
+image: "https://mibera.s3.amazonaws.com/traits/Milady%20Eyes%20Hand.webp"
 archetype: "**Archetype Alignment:**"
 swag_score: null
 date_added: "2024-08-06"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Milady%20Eyes%20Hand.webp" alt="Milady Eyes Hand" width="320" />
+</div>
+
+
 # Milady Eyes Hand
 
 ## Visual Elements
 
-![Milady Eyes Hand](https://mibera.fsn1.your-objectstorage.com/components/tattoos__z125/Milady%20Eyes%20Hand.webp)
 
 Pair of big (milady) eyes with 2 eyebrows tilting upwards from the inside, and a tiny mouth.
 

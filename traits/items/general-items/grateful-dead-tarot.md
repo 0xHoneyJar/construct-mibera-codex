@@ -3,7 +3,13 @@ name: Grateful Dead Tarot
 archetype: "**Archetype Alignment:**"
 swag_score: 4
 date_added: null
+image: "https://mibera.s3.amazonaws.com/traits/SS4_acidhouse_Grateful%20Dead%20Tarot.webp"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS4_acidhouse_Grateful%20Dead%20Tarot.webp" alt="Grateful Dead Tarot" width="320" />
+</div>
+
 
 # Grateful Dead Tarot
 

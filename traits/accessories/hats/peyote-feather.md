@@ -1,16 +1,20 @@
 ---
 name: Peyote Feather
-image: "https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS4_freetekno_Peyote%20Feather.webp"
+image: "https://mibera.s3.amazonaws.com/traits/SS4_freetekno_Peyote%20Feather.webp"
 archetype: Freetekno
 swag_score: 4
 date_added: "2024-07-27"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS4_freetekno_Peyote%20Feather.webp" alt="Peyote Feather" width="320" />
+</div>
+
+
 # Peyote Feather
 
 ## Visual Elements
 
-![Peyote Feather](https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS4_freetekno_Peyote%20Feather.webp)
 
 Headband in bone-white and black with sharp consistent patterns, and a big feather standing in the middle of the headband.
 

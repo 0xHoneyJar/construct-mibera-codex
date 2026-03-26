@@ -6,9 +6,14 @@ origin: Europe, Middle East
 archetype: Freetekno
 ancestor: Greek, Arabs
 swag_score: 5
-image: freetekno_greek_arabs_mandrake.PNG
+image: "https://mibera.s3.amazonaws.com/traits/freetekno_greek_arabs_mandrake.webp"
 date_added: "2025-01-12"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_freetekno_ancient_greek_arabs_mandrake.webp" alt="Mandrake" width="320" />
+</div>
+
 
 # Mandrake
 

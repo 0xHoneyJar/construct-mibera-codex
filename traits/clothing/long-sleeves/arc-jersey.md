@@ -1,16 +1,20 @@
 ---
 name: Arc Jersey
-image: "https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(LONG"
+image: "https://mibera.s3.amazonaws.com/traits/SS3_arc%20jersey.webp"
 archetype: "**Archetype Alignment:**"
 swag_score: 3
 date_added: "2025-03-22"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_arc%20jersey.webp" alt="Arc Jersey" width="320" />
+</div>
+
+
 # Arc Jersey
 
 ## Visual Elements
 
-![arc jersey](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(LONG)
 
 Black jersey with short sleeves and the number 69 big in the middle under the text "ARC" in purple. On each sleeve are thick stripes in light grey and purple.
 

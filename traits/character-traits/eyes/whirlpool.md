@@ -1,14 +1,18 @@
 ---
 name: whirlpool
-image: "https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/Whirlpool__w5.webp"
+image: "https://mibera.s3.amazonaws.com/traits/Whirlpool.webp"
 date_added: "2024-06-03"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Whirlpool.webp" alt="Whirlpool" width="320" />
+</div>
+
 
 # whirlpool
 
 ## Visual Elements
 
-![Whirlpool](https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/Whirlpool__w5.webp)
 
 bright blue eyes showcasing (or holding) whirlpools inside of them.
 

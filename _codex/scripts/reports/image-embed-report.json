@@ -1,0 +1,688 @@
+{
+  "matched": 1327,
+  "skipped": 4,
+  "orphaned": 132,
+  "updated": 1327,
+  "errors": 0,
+  "orphan_details": [
+    {
+      "file": "174_until sunrise.webp",
+      "slug": "174-until-sunrise",
+      "hint": null
+    },
+    {
+      "file": "26_gumball.webp",
+      "slug": "26-gumball",
+      "hint": null
+    },
+    {
+      "file": "Bright Forest.webp",
+      "slug": "bright-forest",
+      "hint": null
+    },
+    {
+      "file": "Classic Lime.webp",
+      "slug": "classic-lime",
+      "hint": null
+    },
+    {
+      "file": "Cottage Black.webp",
+      "slug": "cottage-black",
+      "hint": null
+    },
+    {
+      "file": "Cottage Vibrant.webp",
+      "slug": "cottage-vibrant",
+      "hint": null
+    },
+    {
+      "file": "Crossed Forest.webp",
+      "slug": "crossed-forest",
+      "hint": null
+    },
+    {
+      "file": "Crying Forest.webp",
+      "slug": "crying-forest",
+      "hint": null
+    },
+    {
+      "file": "Double Black.webp",
+      "slug": "double-black",
+      "hint": null
+    },
+    {
+      "file": "Double Blonde.webp",
+      "slug": "double-blonde",
+      "hint": null
+    },
+    {
+      "file": "Double Brown.webp",
+      "slug": "double-brown",
+      "hint": null
+    },
+    {
+      "file": "Double Orange.webp",
+      "slug": "double-orange",
+      "hint": null
+    },
+    {
+      "file": "Dreamy Black.webp",
+      "slug": "dreamy-black",
+      "hint": null
+    },
+    {
+      "file": "Dreamy Magenta.webp",
+      "slug": "dreamy-magenta",
+      "hint": null
+    },
+    {
+      "file": "Dreamy Orange.webp",
+      "slug": "dreamy-orange",
+      "hint": null
+    },
+    {
+      "file": "Ecstasy Forest.webp",
+      "slug": "ecstasy-forest",
+      "hint": null
+    },
+    {
+      "file": "Fauxhawk Black.webp",
+      "slug": "fauxhawk-black",
+      "hint": null
+    },
+    {
+      "file": "Fauxhawk Blue.webp",
+      "slug": "fauxhawk-blue",
+      "hint": null
+    },
+    {
+      "file": "Fauxhawk Purple.webp",
+      "slug": "fauxhawk-purple",
+      "hint": null
+    },
+    {
+      "file": "Grassy.webp",
+      "slug": "grassy",
+      "hint": null
+    },
+    {
+      "file": "Heart Forest.webp",
+      "slug": "heart-forest",
+      "hint": null
+    },
+    {
+      "file": "Hime Goth.webp",
+      "slug": "hime-goth",
+      "hint": null
+    },
+    {
+      "file": "Hime Peekaboo.webp",
+      "slug": "hime-peekaboo",
+      "hint": null
+    },
+    {
+      "file": "Hypno Forest.webp",
+      "slug": "hypno-forest",
+      "hint": null
+    },
+    {
+      "file": "Messy Bob Black.webp",
+      "slug": "messy-bob-black",
+      "hint": null
+    },
+    {
+      "file": "No Earrings.webp",
+      "slug": "no-earrings",
+      "hint": null
+    },
+    {
+      "file": "No face acc.webp",
+      "slug": "no-face-acc",
+      "hint": null
+    },
+    {
+      "file": "No glasses.webp",
+      "slug": "no-glasses",
+      "hint": null
+    },
+    {
+      "file": "No hats.webp",
+      "slug": "no-hats",
+      "hint": null
+    },
+    {
+      "file": "Normal Forest.webp",
+      "slug": "normal-forest",
+      "hint": null
+    },
+    {
+      "file": "Otto rothmund.webp",
+      "slug": "otto-rothmund",
+      "hint": null
+    },
+    {
+      "file": "Peekaboo Blue.webp",
+      "slug": "peekaboo-blue",
+      "hint": null
+    },
+    {
+      "file": "Pinhole Forest.webp",
+      "slug": "pinhole-forest",
+      "hint": null
+    },
+    {
+      "file": "Rave Brown.webp",
+      "slug": "rave-brown",
+      "hint": null
+    },
+    {
+      "file": "Rave Red.webp",
+      "slug": "rave-red",
+      "hint": null
+    },
+    {
+      "file": "Relaxed Black.webp",
+      "slug": "relaxed-black",
+      "hint": null
+    },
+    {
+      "file": "SS1_acidhouse_green puff.webp",
+      "slug": "green-puff",
+      "hint": null
+    },
+    {
+      "file": "SS1_dumb.webp",
+      "slug": "dumb",
+      "hint": null
+    },
+    {
+      "file": "SS1_milady_Akira Bucket.webp",
+      "slug": "akira-bucket",
+      "hint": null
+    },
+    {
+      "file": "SS1_milady_Blue Suit 2.webp",
+      "slug": "blue-suit-2",
+      "hint": null
+    },
+    {
+      "file": "SS1_milady_Drain Day.webp",
+      "slug": "drain-day",
+      "hint": null
+    },
+    {
+      "file": "SS2_Bunk Police.webp",
+      "slug": "bunk-police",
+      "hint": null
+    },
+    {
+      "file": "SS2_Der Bass.webp",
+      "slug": "der-bass",
+      "hint": null
+    },
+    {
+      "file": "SS2_THJ Red.webp",
+      "slug": "thj-red",
+      "hint": null
+    },
+    {
+      "file": "SS2_acidhouse_modern_palestine_Palestinians For Black Power.webp",
+      "slug": "palestine-palestinians-for-black-power",
+      "hint": null
+    },
+    {
+      "file": "SS2_ancient_arabs_nutmeg.webp",
+      "slug": "ancient-arabs-nutmeg",
+      "hint": null
+    },
+    {
+      "file": "SS2_coinslot.webp",
+      "slug": "coinslot",
+      "hint": null
+    },
+    {
+      "file": "SS2_freetekno_Bomber Jacket.webp",
+      "slug": "bomber-jacket",
+      "hint": null
+    },
+    {
+      "file": "SS2_freetekno_mayan_Ayahuasca Bowl.webp",
+      "slug": "mayan-ayahuasca-bowl",
+      "hint": null
+    },
+    {
+      "file": "SS2_henlo simple.webp",
+      "slug": "henlo-simple",
+      "hint": null
+    },
+    {
+      "file": "SS2_little spoon.webp",
+      "slug": "little-spoon",
+      "hint": null
+    },
+    {
+      "file": "SS2_milady_Security.webp",
+      "slug": "security",
+      "hint": null
+    },
+    {
+      "file": "SS2_milady_modern_palestine_Free Palestine.webp",
+      "slug": "palestine-free-palestine",
+      "hint": null
+    },
+    {
+      "file": "SS2_orange gummy bear.webp",
+      "slug": "orange-gummy-bear",
+      "hint": null
+    },
+    {
+      "file": "SS2_pink blossom.webp",
+      "slug": "pink-blossom",
+      "hint": null
+    },
+    {
+      "file": "SS2_shell fork bomb.webp",
+      "slug": "shell-fork-bomb",
+      "hint": null
+    },
+    {
+      "file": "SS2_spiky green.webp",
+      "slug": "spiky-green",
+      "hint": null
+    },
+    {
+      "file": "SS3_Dear Mama.webp",
+      "slug": "dear-mama",
+      "hint": null
+    },
+    {
+      "file": "SS3_Ohabera.webp",
+      "slug": "ohabera",
+      "hint": null
+    },
+    {
+      "file": "SS3_Oversized Pastel Green.webp",
+      "slug": "oversized-pastel-green",
+      "hint": null
+    },
+    {
+      "file": "SS3_Oversized Pink.webp",
+      "slug": "oversized-pink",
+      "hint": null
+    },
+    {
+      "file": "SS3_Rave Baddies.webp",
+      "slug": "rave-baddies",
+      "hint": null
+    },
+    {
+      "file": "SS3_THJ Stars.webp",
+      "slug": "thj-stars",
+      "hint": null
+    },
+    {
+      "file": "SS3_Trio Black.webp",
+      "slug": "trio-black",
+      "hint": null
+    },
+    {
+      "file": "SS3_acidhouse_polynesian_aboriginal_Piper Methysticum.webp",
+      "slug": "polynesian-aboriginal-piper-methysticum",
+      "hint": null
+    },
+    {
+      "file": "SS3_bridge.webp",
+      "slug": "bridge",
+      "hint": null
+    },
+    {
+      "file": "SS3_chicacgodetroit_ancient_ballroomScene_coca leaves.webp",
+      "slug": "chicacgodetroit-ancient-ballroomscene-coca-leaves",
+      "hint": null
+    },
+    {
+      "file": "SS3_chicagodetroit_Multiple Gold Rings.webp",
+      "slug": "multiple-gold-rings",
+      "hint": null
+    },
+    {
+      "file": "SS3_chicagodetroit_modern_orthodoxjew_Orthodox Fur Small.webp",
+      "slug": "orthodoxjew-orthodox-fur-small",
+      "hint": null
+    },
+    {
+      "file": "SS3_chicagodetroit_modern_rastafarian_Lee Scratch.webp",
+      "slug": "lee-scratch",
+      "hint": null
+    },
+    {
+      "file": "SS3_freetekno_thai_Kratom.webp",
+      "slug": "thai-kratom",
+      "hint": null
+    },
+    {
+      "file": "SS3_milady_Lava Lamp.webp",
+      "slug": "lava-lamp",
+      "hint": null
+    },
+    {
+      "file": "SS3_milady_Lizzy777.webp",
+      "slug": "lizzy777",
+      "hint": null
+    },
+    {
+      "file": "SS3_milady_ancient_irishDruid_Midsommar.webp",
+      "slug": "irishdruid-midsommar",
+      "hint": null
+    },
+    {
+      "file": "SS3_milady_hindu_ashwagandha.webp",
+      "slug": "hindu-ashwagandha",
+      "hint": null
+    },
+    {
+      "file": "SS3_milady_satanists_clear pill.webp",
+      "slug": "satanists-clear-pill",
+      "hint": null
+    },
+    {
+      "file": "SS3_modern_irish_Buckfast Bottle.webp",
+      "slug": "modern-irish-buckfast-bottle",
+      "hint": null
+    },
+    {
+      "file": "SS4_EDM Cum.webp",
+      "slug": "edm-cum",
+      "hint": null
+    },
+    {
+      "file": "SS4_Pharmacist.webp",
+      "slug": "pharmacist",
+      "hint": null
+    },
+    {
+      "file": "SS4_THJ Degnz.webp",
+      "slug": "thj-degnz",
+      "hint": null
+    },
+    {
+      "file": "SS4_THJ Frenz.webp",
+      "slug": "thj-frenz",
+      "hint": null
+    },
+    {
+      "file": "SS4_THJ Honey.webp",
+      "slug": "thj-honey",
+      "hint": null
+    },
+    {
+      "file": "SS4_acidhouse_Mcdonalds 4.webp",
+      "slug": "mcdonalds-4",
+      "hint": null
+    },
+    {
+      "file": "SS4_chicagodetroit_ancient_indian_Indian.webp",
+      "slug": "ancient-indian-indian",
+      "hint": null
+    },
+    {
+      "file": "SS4_chicagodetroit_modern_irish_Plastic Bag Mask.webp",
+      "slug": "irish-plastic-bag-mask",
+      "hint": null
+    },
+    {
+      "file": "SS4_chicagodetroit_modern_orthodoxjew_Orthodox Fur Large.webp",
+      "slug": "orthodoxjew-orthodox-fur-large",
+      "hint": null
+    },
+    {
+      "file": "SS4_freetekno_Paperclip 3.webp",
+      "slug": "paperclip-3",
+      "hint": null
+    },
+    {
+      "file": "SS4_freetekno_modern_irish_Plastic Bag Red.webp",
+      "slug": "irish-plastic-bag-red",
+      "hint": null
+    },
+    {
+      "file": "SS4_freetekno_modern_satanist_Crawley.webp",
+      "slug": "crawley",
+      "hint": null
+    },
+    {
+      "file": "SS4_milady_Beradrome 3.webp",
+      "slug": "beradrome-3",
+      "hint": null
+    },
+    {
+      "file": "SS4_milady_acidhouse_MDMA Handbook.webp",
+      "slug": "acidhouse-mdma-handbook",
+      "hint": null
+    },
+    {
+      "file": "SS4_milady_ziggy.webp",
+      "slug": "ziggy",
+      "hint": null
+    },
+    {
+      "file": "SS4_rocket pop.webp",
+      "slug": "rocket-pop",
+      "hint": null
+    },
+    {
+      "file": "SS5_THJ Thugs & Honey.webp",
+      "slug": "thj-thugs-honey",
+      "hint": null
+    },
+    {
+      "file": "SS5_chicagodetroit_Lee Scratch.webp",
+      "slug": "lee-scratch",
+      "hint": null
+    },
+    {
+      "file": "SS5_chicagodetroit_ancient_ethiopian_Ethiopian.webp",
+      "slug": "ancient-ethiopian-ethiopian",
+      "hint": null
+    },
+    {
+      "file": "SS5_chicagodetroit_mongolian_Euphoria Sun.webp",
+      "slug": "mongolian-euphoria-sun",
+      "hint": null
+    },
+    {
+      "file": "SS5_freetekno_Dinero Hoodie.webp",
+      "slug": "dinero-hoodie",
+      "hint": null
+    },
+    {
+      "file": "SS5_freetekno_orthodoxJews_aboriginal_haitians_ancestral trance vortex.webp",
+      "slug": "orthodoxjews-aboriginal-haitians-ancestral-trance-vortex",
+      "hint": null
+    },
+    {
+      "file": "Short Flared Dark Purple.webp",
+      "slug": "short-flared-dark-purple",
+      "hint": null
+    },
+    {
+      "file": "Short Flared Orange.webp",
+      "slug": "short-flared-orange",
+      "hint": null
+    },
+    {
+      "file": "Short Flared Pink.webp",
+      "slug": "short-flared-pink",
+      "hint": null
+    },
+    {
+      "file": "Short Flared Purple.webp",
+      "slug": "short-flared-purple",
+      "hint": null
+    },
+    {
+      "file": "Short Flared Red.webp",
+      "slug": "short-flared-red",
+      "hint": null
+    },
+    {
+      "file": "Short Flared Watermelon.webp",
+      "slug": "short-flared-watermelon",
+      "hint": null
+    },
+    {
+      "file": "Sleepy Forest.webp",
+      "slug": "sleepy-forest",
+      "hint": null
+    },
+    {
+      "file": "Stoned Forest.webp",
+      "slug": "stoned-forest",
+      "hint": null
+    },
+    {
+      "file": "ancient_arabic_Minimal Temple of Obodas.webp",
+      "slug": "ancient-arabic-minimal-temple-of-obodas",
+      "hint": null
+    },
+    {
+      "file": "ancient_ethiopian_ge_ez love.webp",
+      "slug": "ancient-ethiopian-ge-ez-love",
+      "hint": null
+    },
+    {
+      "file": "ancient_irish druids_Triskele Hand.webp",
+      "slug": "ancient-irish-druids-triskele-hand",
+      "hint": null
+    },
+    {
+      "file": "ancient_native american_Picture Cave.webp",
+      "slug": "ancient-native-american-picture-cave",
+      "hint": null
+    },
+    {
+      "file": "babyberas cup.webp",
+      "slug": "babyberas-cup",
+      "hint": null
+    },
+    {
+      "file": "bantony 2.webp",
+      "slug": "bantony-2",
+      "hint": null
+    },
+    {
+      "file": "bantony.webp",
+      "slug": "bantony",
+      "hint": null
+    },
+    {
+      "file": "censored.webp",
+      "slug": "censored",
+      "hint": null
+    },
+    {
+      "file": "chicacodetroit_3D.webp",
+      "slug": "chicacodetroit-3d",
+      "hint": null
+    },
+    {
+      "file": "collared for gumi.webp",
+      "slug": "collared-for-gumi",
+      "hint": null
+    },
+    {
+      "file": "drippy.webp",
+      "slug": "drippy",
+      "hint": null
+    },
+    {
+      "file": "freetekno_aboriginal_haitians_orthodoxJews.webp",
+      "slug": "orthodoxjews",
+      "hint": "drugs-detailed"
+    },
+    {
+      "file": "freetekno_greek_st. john\u2019s wort.webp",
+      "slug": "st-john-s-wort",
+      "hint": "drugs-detailed"
+    },
+    {
+      "file": "high drip milady.webp",
+      "slug": "high-drip-milady",
+      "hint": null
+    },
+    {
+      "file": "lazarus 2.webp",
+      "slug": "lazarus-2",
+      "hint": null
+    },
+    {
+      "file": "lazarus.webp",
+      "slug": "lazarus",
+      "hint": null
+    },
+    {
+      "file": "magyar tetov\u00e1l\u00e1s.webp",
+      "slug": "magyar-tetov-l-s",
+      "hint": null
+    },
+    {
+      "file": "miberapilled.webp",
+      "slug": "miberapilled",
+      "hint": null
+    },
+    {
+      "file": "modern_arabic_Semilunar.webp",
+      "slug": "modern-arabic-semilunar",
+      "hint": null
+    },
+    {
+      "file": "modern_native american_From the Full Moon fell Nokomis.webp",
+      "slug": "modern-native-american-from-the-full-moon-fell-nokomis",
+      "hint": null
+    },
+    {
+      "file": "pink face mask.webp",
+      "slug": "pink-face-mask",
+      "hint": null
+    },
+    {
+      "file": "stratt.webp",
+      "slug": "stratt",
+      "hint": null
+    },
+    {
+      "file": "todd fine.webp",
+      "slug": "todd-fine",
+      "hint": null
+    },
+    {
+      "file": "todd.webp",
+      "slug": "todd",
+      "hint": null
+    },
+    {
+      "file": "zorb.webp",
+      "slug": "zorb",
+      "hint": null
+    }
+  ],
+  "error_details": [],
+  "skip_details": [
+    {
+      "file": "madara cloak_overlay.webp",
+      "reason": "skip rule"
+    },
+    {
+      "file": "nun outfit_overlay.webp",
+      "reason": "skip rule"
+    },
+    {
+      "file": "sombrero_overlay.webp",
+      "reason": "skip rule"
+    },
+    {
+      "file": "whale kigu_overlay.webp",
+      "reason": "skip rule"
+    }
+  ]
+}

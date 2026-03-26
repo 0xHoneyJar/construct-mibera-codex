@@ -1,16 +1,20 @@
 ---
 name: Ibiza
-image: "https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT"
+image: "https://mibera.s3.amazonaws.com/traits/SS3_Ibiza.webp"
 archetype: "**Archetype Alignment:** Drug and party relevance."
 swag_score: 3
 date_added: "2024-12-10"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_Ibiza.webp" alt="Ibiza" width="320" />
+</div>
+
+
 # Ibiza
 
 ## Visual Elements
 
-![Ibiza](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)
 
 Creamy white t-shirt with a colourful graphic of a character in the middle and the writing “IBIZA KETAMINE CLUB” in blue and “Relaaax” underneath them in red.
 

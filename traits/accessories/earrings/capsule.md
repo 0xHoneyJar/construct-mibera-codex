@@ -1,10 +1,15 @@
 ---
 name: Capsule
-image: SS3_capsule.PNG
+image: "https://mibera.s3.amazonaws.com/traits/SS3_capsule.webp"
 archetype: "**Archetype Alignment:** Its relation to drugs / medication."
 swag_score: 3
 date_added: "2024-06-04"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_capsule.webp" alt="Capsule" width="320" />
+</div>
+
 
 # Capsule
 

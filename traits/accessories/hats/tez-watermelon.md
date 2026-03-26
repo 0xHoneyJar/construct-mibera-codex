@@ -1,16 +1,20 @@
 ---
 name: Tez Watermelon
-image: "https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS4_tez%20watermelon.webp"
+image: "https://mibera.s3.amazonaws.com/traits/SS4_tez%20watermelon.webp"
 archetype: "**Archetype Alignment:** Tez was a big part of Mibera building and creation."
 swag_score: 4
 date_added: "2025-03-11"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS4_tez%20watermelon.webp" alt="Tez Watermelon" width="320" />
+</div>
+
+
 # Tez Watermelon
 
 ## Visual Elements
 
-![SS4 tez watermelon](https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS4_tez%20watermelon.webp)
 
 Neatly cut watermelon as a hat.
 

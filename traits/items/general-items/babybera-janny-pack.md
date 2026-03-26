@@ -1,10 +1,15 @@
 ---
 name: babybera janny pack
-image: SS3_freetekno_Babybera Janny Pack.PNG
+image: "https://mibera.s3.amazonaws.com/traits/SS3_freetekno_Babybera%20Janny%20Pack.webp"
 archetype: Freetekno
 swag_score: 3
 date_added: "2024-12-09"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_freetekno_Babybera%20Janny%20Pack.webp" alt="Babybera Janny Pack" width="320" />
+</div>
+
 
 # babybera janny pack
 

@@ -1,10 +1,15 @@
 ---
 name: Pearl
-image: SS2_pearl.png
+image: "https://mibera.s3.amazonaws.com/traits/SS2_pearl.webp"
 archetype: "**Archetype Alignment:** Inspired by Ron Hardy’s look in an article with Redbull Music Academy, making it related to Chicago Detroit culture."
 swag_score: 2
 date_added: "2024-12-10"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS2_pearl.webp" alt="Pearl" width="320" />
+</div>
+
 
 # Pearl
 

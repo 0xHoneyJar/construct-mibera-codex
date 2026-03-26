@@ -1,16 +1,20 @@
 ---
 name: Tracksuit 1
-image: "https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(LONG"
+image: "https://mibera.s3.amazonaws.com/traits/SS3_acidhouse_Tracksuit%201.webp"
 archetype: Acidhouse
 swag_score: 3
 date_added: "2024-12-10"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_acidhouse_Tracksuit%201.webp" alt="Tracksuit 1" width="320" />
+</div>
+
+
 # Tracksuit 1
 
 ## Visual Elements
 
-![Tracksuit 1](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(LONG)
 
 Purple tracksuit in dark purple with old-school graphic in bright neon purple across the middle and soft light purple on each sleeve.
 

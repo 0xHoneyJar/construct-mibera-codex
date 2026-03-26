@@ -1,16 +1,20 @@
 ---
 name: green glow
-image: "https://mibera.fsn1.your-objectstorage.com/components/glasses__z140/chicagodetroit_Green Glow.webp"
+image: "https://mibera.s3.amazonaws.com/traits/chicagodetroit_Green%20Glow.webp"
 archetype: Chicago Detroit
 swag_score: 5
 date_added: "2024-06-18"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/chicagodetroit_Green%20Glow.webp" alt="Green Glow" width="320" />
+</div>
+
+
 # green glow
 
 ## Visual Elements
 
-![Green Glow](https://mibera.fsn1.your-objectstorage.com/components/glasses__z140/chicagodetroit_Green Glow.webp)
 
 Glow glasses mainly in neon green, with yellow on the center and sides.
 

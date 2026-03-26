@@ -1,10 +1,15 @@
 ---
 name: blue glowstick
-image: SS1_acidhouse_Blue Glowstick.png
+image: "https://mibera.s3.amazonaws.com/traits/SS1_acidhouse_Blue%20Glowstick.webp"
 archetype: Acidhouse
 swag_score: 1
 date_added: "2024-07-23"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS1_acidhouse_Blue%20Glowstick.webp" alt="Blue Glowstick" width="320" />
+</div>
+
 
 # blue glowstick
 

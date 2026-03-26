@@ -1,8 +1,13 @@
 ---
 name: messy bob blonde
-image: Messy Bob Blonde__w14.png
+image: "https://mibera.s3.amazonaws.com/traits/Messy%20Bob%20Blonde.webp"
 date_added: "2024-06-04"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Messy%20Bob%20Blonde.webp" alt="Messy Bob Blonde" width="320" />
+</div>
+
 
 # messy bob blonde
 

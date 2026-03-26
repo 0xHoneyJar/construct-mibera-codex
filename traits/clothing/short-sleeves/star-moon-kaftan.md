@@ -1,16 +1,20 @@
 ---
 name: Star Moon Kaftan
-image: "https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT"
+image: "https://mibera.s3.amazonaws.com/traits/SS4_chicagodetroit_Star%20Moon%20Kaftan.webp"
 archetype: Chicago Detroit
 swag_score: 4
 date_added: "2024-12-10"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS4_chicagodetroit_Star%20Moon%20Kaftan.webp" alt="Star Moon Kaftan" width="320" />
+</div>
+
+
 # Star Moon Kaftan
 
 ## Visual Elements
 
-![Star Moon Kaftan](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)
 
 Black kaftan with moon and star at the bottom and zigzag linings in silvery coloured fabric.
 

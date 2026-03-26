@@ -1,10 +1,15 @@
 ---
 name: bear alchemist tool
-image: SS1_acidhouse_Bear Alchemist Tool.png
+image: "https://mibera.s3.amazonaws.com/traits/SS1_acidhouse_Bear%20Alchemist%20Tool.webp"
 archetype: Acidhouse
 swag_score: 1
 date_added: "2024-07-16"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS1_acidhouse_Bear%20Alchemist%20Tool.webp" alt="Bear Alchemist Tool" width="320" />
+</div>
+
 
 # bear alchemist tool
 

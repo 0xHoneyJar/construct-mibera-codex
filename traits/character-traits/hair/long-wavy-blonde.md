@@ -1,8 +1,13 @@
 ---
 name: long wavy blonde
-image: Long Wavy Blonde__w14.png Long Wavy Blonde__z-32.png
+image: "https://mibera.s3.amazonaws.com/traits/Long%20Wavy%20Blonde.webp"
 date_added: "2024-06-22"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Long%20Wavy%20Blonde.webp" alt="Long Wavy Blonde" width="320" />
+</div>
+
 
 # long wavy blonde
 

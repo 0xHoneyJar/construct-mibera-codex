@@ -1,16 +1,20 @@
 ---
 name: Bitcoin Jacket
-image: "https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(LONG"
+image: "https://mibera.s3.amazonaws.com/traits/SS5_acidhouse_Bitcoin%20Jacket.webp"
 archetype: Acidhouse
 swag_score: 5
 date_added: "2024-12-10"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS5_acidhouse_Bitcoin%20Jacket.webp" alt="Bitcoin Jacket" width="320" />
+</div>
+
+
 # Bitcoin Jacket
 
 ## Visual Elements
 
-![Bitcoin Jacket](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(LONG)
 
 Bomber jacket in black and yellow with multiple words scattered around it. In the center is the number ‘10’ in black inside of a yellow circle. On the sleeves are bold letters in colorful font.
 

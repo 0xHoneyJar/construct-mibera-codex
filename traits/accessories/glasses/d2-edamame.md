@@ -1,16 +1,20 @@
 ---
 name: d2 edamame
-image: "https://mibera.fsn1.your-objectstorage.com/components/glasses__z140/d2 edamame.webp"
+image: "https://mibera.s3.amazonaws.com/traits/d2%20edamame.webp"
 archetype: "**Archetype Alignment:**"
 swag_score: 5
 date_added: "2024-02-28"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/d2%20edamame.webp" alt="D2 Edamame" width="320" />
+</div>
+
+
 # d2 edamame
 
 ## Visual Elements
 
-![D2 Edamame](https://mibera.fsn1.your-objectstorage.com/components/glasses__z140/d2 edamame.webp)
 
 aviator style glasses with light green framing and black lenses.
 

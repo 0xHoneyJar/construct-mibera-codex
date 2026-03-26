@@ -1,16 +1,20 @@
 ---
 name: Abusive
-image: "https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS1_Abusive.webp"
+image: "https://mibera.s3.amazonaws.com/traits/SS1_Abusive.webp"
 archetype: "**Archetype Alignment:**"
 swag_score: 1
 date_added: "2024-12-10"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS1_Abusive.webp" alt="Abusive" width="320" />
+</div>
+
+
 # Abusive
 
 ## Visual Elements
 
-![SS1 Abusive](https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS1_Abusive.webp)
 
 Black and white cap with black text that reads “I could be abusive”.
 

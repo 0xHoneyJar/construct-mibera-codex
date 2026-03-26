@@ -1,14 +1,18 @@
 ---
 name: River Boyne
-image: "https://mibera.fsn1.your-objectstorage.com/components/background__z10/river%20boyne.webp"
+image: "https://mibera.s3.amazonaws.com/traits/river%20boyne.webp"
 date_added: "2025-02-27"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/river%20boyne.webp" alt="River Boyne" width="320" />
+</div>
+
 
 # River Boyne
 
 ## Visual Elements
 
-![River Boyne](https://mibera.fsn1.your-objectstorage.com/components/background__z10/river%20boyne.webp)
 
 Painterly style scenery of a river, overlooking greeneries and a grey tall old-school looking building.
 

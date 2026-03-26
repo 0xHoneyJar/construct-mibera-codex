@@ -1,16 +1,20 @@
 ---
 name: Pink Vest
-image: "https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT"
+image: "https://mibera.s3.amazonaws.com/traits/SS1_chicagodetroit_Pink%20Vest.webp"
 archetype: Chicago Detroit
 swag_score: 1
 date_added: "2024-06-22"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS1_chicagodetroit_Pink%20Vest.webp" alt="Pink Vest" width="320" />
+</div>
+
+
 # Pink Vest
 
 ## Visual Elements
 
-![Pink Vest](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)
 
 Plain pink vest / tank top.
 

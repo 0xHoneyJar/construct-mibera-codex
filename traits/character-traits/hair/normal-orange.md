@@ -1,8 +1,13 @@
 ---
 name: normal orange
-image: Normal Orange__w5.png Normal Orange__z-32.png
+image: "https://mibera.s3.amazonaws.com/traits/Normal%20Orange.webp"
 date_added: "2024-06-22"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Normal%20Orange.webp" alt="Normal Orange" width="320" />
+</div>
+
 
 # normal orange
 

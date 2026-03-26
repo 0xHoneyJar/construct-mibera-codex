@@ -1,16 +1,20 @@
 ---
 name: Suzuha
-image: "https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT"
+image: "https://mibera.s3.amazonaws.com/traits/SS1_milady_Suzuha.webp"
 archetype: Milady
 swag_score: 1
 date_added: "2024-12-10"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS1_milady_Suzuha.webp" alt="Suzuha" width="320" />
+</div>
+
+
 # Suzuha
 
 ## Visual Elements
 
-![Suzuha](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)
 
 Black t-shirt with a big graphic in a rectangular frame of a lady wearing black glasses with a little smile and white text underneath it that reads “I have your IP address”.
 

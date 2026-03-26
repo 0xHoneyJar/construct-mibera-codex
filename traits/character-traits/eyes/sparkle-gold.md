@@ -1,14 +1,18 @@
 ---
 name: sparkle gold
-image: "https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/Sparkle%20Gold__w15.webp"
+image: "https://mibera.s3.amazonaws.com/traits/Sparkle%20Gold.webp"
 date_added: "2024-06-03"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Sparkle%20Gold.webp" alt="Sparkle Gold" width="320" />
+</div>
+
 
 # sparkle gold
 
 ## Visual Elements
 
-![Sparkle Gold](https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/Sparkle%20Gold__w15.webp)
 
 golden eyes with three white dots between the iris and pupil.
 

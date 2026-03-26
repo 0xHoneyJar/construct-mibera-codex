@@ -1,10 +1,15 @@
 ---
 name: babybera yeet pipe
-image: SS3_Babybera Yeet Pipe.PNG
+image: "https://mibera.s3.amazonaws.com/traits/SS3_Babybera%20Yeet%20Pipe.webp"
 archetype: "**Archetype Alignment:**"
 swag_score: 2
 date_added: "2024-12-09"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_Babybera%20Yeet%20Pipe.webp" alt="Babybera Yeet Pipe" width="320" />
+</div>
+
 
 # babybera yeet pipe
 

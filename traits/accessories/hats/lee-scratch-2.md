@@ -1,16 +1,20 @@
 ---
 name: Lee Scratch 2
-image: "https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS2_chicagodetroit_Lee%20Scratch%202.webp"
+image: "https://mibera.s3.amazonaws.com/traits/SS2_chicagodetroit_Lee%20Scratch%202.webp"
 archetype: Chicago Detroit
 swag_score: 2
 date_added: "2024-07-27"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS2_chicagodetroit_Lee%20Scratch%202.webp" alt="Lee Scratch 2" width="320" />
+</div>
+
+
 # Lee Scratch 2
 
 ## Visual Elements
 
-![Lee Scratch 2](https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS2_chicagodetroit_Lee%20Scratch%202.webp)
 
 Bright cap with white / silver base and dark purple cap. Purple gems wrapped in golden rings are filling the hat’s body.
 

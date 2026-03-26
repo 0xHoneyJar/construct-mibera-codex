@@ -1,16 +1,20 @@
 ---
 name: Face Hat with Feathers
-image: "https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS4_acidhouse_ancient_mongolian_Face%20Hat%20With%20Feathers.webp"
+image: "https://mibera.s3.amazonaws.com/traits/SS4_acidhouse_ancient_mongolian_Face%20Hat%20With%20Feathers.webp"
 archetype: Acidhouse
 swag_score: 4
 date_added: "2024-07-26"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS4_acidhouse_ancient_mongolian_Face%20Hat%20With%20Feathers.webp" alt="Face Hat With Feathers" width="320" />
+</div>
+
+
 # Face Hat with Feathers
 
 ## Visual Elements
 
-![ancient mongolian Face Hat With Feathers](https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS4_acidhouse_ancient_mongolian_Face%20Hat%20With%20Feathers.webp)
 
 Dark green hat with tall and sturdy base with a white doodle of a face on it; coming out of it stands multiple big feathers in dark colour (black / very dark green).
 

@@ -1,14 +1,18 @@
 ---
 name: Bullas
-image: "https://mibera.fsn1.your-objectstorage.com/components/background__z10/bullas.webp"
+image: "https://mibera.s3.amazonaws.com/traits/bullas.webp"
 date_added: "2025-02-27"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_Bullas.webp" alt="Bullas" width="320" />
+</div>
+
 
 # Bullas
 
 ## Visual Elements
 
-![Bullas](https://mibera.fsn1.your-objectstorage.com/components/background__z10/bullas.webp)
 
 Purple cosmic background with stars, in the middle is the Bullas logo.
 

@@ -1,16 +1,20 @@
 ---
 name: Nepalese Flag
-image: "https://mibera.fsn1.your-objectstorage.com/components/tattoos__z125/modern_nepal_Nepalese%20Flag.webp"
+image: "https://mibera.s3.amazonaws.com/traits/modern_nepal_Nepalese%20Flag.webp"
 archetype: "**Archetype Alignment:**"
 swag_score: null
 date_added: "2024-08-09"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/modern_nepal_Nepalese%20Flag.webp" alt="Nepalese Flag" width="320" />
+</div>
+
+
 # Nepalese Flag
 
 ## Visual Elements
 
-![Nepalese Flag](https://mibera.fsn1.your-objectstorage.com/components/tattoos__z125/modern_nepal_Nepalese%20Flag.webp)
 
 Nepalese flag, shaped in 2 connected triangles with red as the base color and 2 white symbols on it.
 

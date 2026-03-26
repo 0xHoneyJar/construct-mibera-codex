@@ -1,10 +1,15 @@
 ---
 name: honey comb
-image: SS3_Honey Comb.png
+image: "https://mibera.s3.amazonaws.com/traits/SS3_Honey%20Comb.webp"
 archetype: "**Archetype Alignment:**"
 swag_score: 3
 date_added: "2024-07-09"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_Honey%20Comb.webp" alt="Honey Comb" width="320" />
+</div>
+
 
 # honey comb
 

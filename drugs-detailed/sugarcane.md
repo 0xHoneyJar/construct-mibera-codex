@@ -6,9 +6,14 @@ origin: New Guinea
 archetype: Chicago Detroit
 ancestor: Hindu
 swag_score: 2
-image: chicagodetroit_hindu_sugarcane.PNG
+image: "https://mibera.s3.amazonaws.com/traits/chicagodetroit_hindu_sugarcane.webp"
 date_added: "2025-01-12"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_chicagodetroit_ancient_hindu_Sugarcane.webp" alt="Sugarcane" width="320" />
+</div>
+
 
 # Sugarcane
 

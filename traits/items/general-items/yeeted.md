@@ -1,10 +1,15 @@
 ---
 name: yeeted
-image: SS3_Yeeted.png
+image: "https://mibera.s3.amazonaws.com/traits/SS3_Yeeted.webp"
 archetype: "**Archetype Alignment:**"
 swag_score: 3
 date_added: "2024-07-10"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_Yeeted.webp" alt="Yeeted" width="320" />
+</div>
+
 
 # yeeted
 

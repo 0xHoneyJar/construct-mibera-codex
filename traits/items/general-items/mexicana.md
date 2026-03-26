@@ -1,10 +1,15 @@
 ---
 name: mexicana
-image: SS2_acidhouse_Mexicana.png
+image: "https://mibera.s3.amazonaws.com/traits/SS2_acidhouse_Mexicana.webp"
 archetype: Acidhouse
 swag_score: 2
 date_added: "2024-07-06"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS2_acidhouse_Mexicana.webp" alt="Mexicana" width="320" />
+</div>
+
 
 # mexicana
 

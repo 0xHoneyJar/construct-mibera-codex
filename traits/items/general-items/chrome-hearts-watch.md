@@ -1,10 +1,15 @@
 ---
 name: chrome hearts watch
-image: SS4_milady_Chrome Hearts Watch.png
+image: "https://mibera.s3.amazonaws.com/traits/SS4_milady_Chrome%20Hearts%20Watch.webp"
 archetype: Milady
 swag_score: 4
 date_added: "2024-07-11"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS4_milady_Chrome%20Hearts%20Watch.webp" alt="Chrome Hearts Watch" width="320" />
+</div>
+
 
 # chrome hearts watch
 

@@ -1,10 +1,15 @@
 ---
 name: Adderall
-image: SS4_adderall.png
+image: "https://mibera.s3.amazonaws.com/traits/SS4_adderall.webp"
 archetype: "**Archetype Alignment:** Drugs being a big part of Mibera’s culture."
 swag_score: 4
 date_added: "2024-06-04"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS4_adderall.webp" alt="Adderall" width="320" />
+</div>
+
 
 # Adderall
 

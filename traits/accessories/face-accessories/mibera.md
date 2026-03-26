@@ -1,16 +1,20 @@
 ---
 name: Mibera
-image: "https://mibera.fsn1.your-objectstorage.com/components/face%20accessories__z60/SS5_milady_Mibera.webp"
+image: "https://mibera.s3.amazonaws.com/traits/SS5_milady_Mibera.webp"
 archetype: Milady
 swag_score: 5
 date_added: "2024-12-10"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS5_milady_Mibera.webp" alt="Mibera" width="320" />
+</div>
+
+
 # Mibera
 
 ## Visual Elements
 
-![Mibera](https://mibera.fsn1.your-objectstorage.com/components/face%20accessories__z60/SS5_milady_Mibera.webp)
 
 Writing of ‘MIBERA’ in all capital letters.
 

@@ -1,16 +1,20 @@
 ---
 name: Tassles
-image: "https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(LONG"
+image: "https://mibera.s3.amazonaws.com/traits/SS2_chicagodetroit_tassles.webp"
 archetype: Chicago Detroit
 swag_score: 2
 date_added: "2024-12-10"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS2_chicagodetroit_tassles.webp" alt="Tassles" width="320" />
+</div>
+
+
 # Tassles
 
 ## Visual Elements
 
-![tassles](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(LONG)
 
 Garment in light beige to blue gradient with tassels dangling over the neck part, mainly in red, brown, and a bit of green.
 

@@ -6,9 +6,14 @@ origin: South America, Africa
 archetype: Freetekno
 ancestor: Gabon
 swag_score: 3
-image: freetekno_gabon_tabernaemontana.PNG
+image: "https://mibera.s3.amazonaws.com/traits/freetekno_gabon_tabernaemontana.webp"
 date_added: "2025-01-12"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS4_freetekno_ancient_gabon_tabernaemontana.webp" alt="Tabernaemontana" width="320" />
+</div>
+
 
 # Tabernaemontana
 

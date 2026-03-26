@@ -1,16 +1,20 @@
 ---
 name: bozito cave off
-image: "https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS4_bozito%20cave%20off.webp"
+image: "https://mibera.s3.amazonaws.com/traits/SS4_bozito%20cave%20off.webp"
 archetype: "**Archetype Alignment:**"
 swag_score: 4
 date_added: "2025-03-23"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS4_bozito%20cave%20off.webp" alt="Bozito Cave Off" width="320" />
+</div>
+
+
 # bozito cave off
 
 ## Visual Elements
 
-![SS4 bozito cave off](https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS4_bozito%20cave%20off.webp)
 
 a big hood in the shape of a dead bear head, seen through the ‘dead eyes’ and patched part in the middle. White bangs poke out of the hood on the front part.
 

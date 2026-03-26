@@ -1,16 +1,20 @@
 ---
 name: School Sucks
-image: "https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT"
+image: "https://mibera.s3.amazonaws.com/traits/SS2_School%20Sucks.webp"
 archetype: "**Archetype Alignment:**"
 swag_score: 2
 date_added: "2024-06-22"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS2_School%20Sucks.webp" alt="School Sucks" width="320" />
+</div>
+
+
 # School Sucks
 
 ## Visual Elements
 
-![School Sucks](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)
 
 Black t-shirt with white text that says “SCHOOL SUCKS” in bold font.
 

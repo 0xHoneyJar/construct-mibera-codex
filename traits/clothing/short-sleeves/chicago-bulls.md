@@ -1,16 +1,20 @@
 ---
 name: Chicago Bulls
-image: "https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT"
+image: "https://mibera.s3.amazonaws.com/traits/SS2_chicagodetroit_Chicago%20Bulls.webp"
 archetype: Chicago Detroit
 swag_score: 2
 date_added: "2024-06-22"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS2_chicagodetroit_Chicago%20Bulls.webp" alt="Chicago Bulls" width="320" />
+</div>
+
+
 # Chicago Bulls
 
 ## Visual Elements
 
-![Chicago Bulls](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)
 
 a black t-shirt with a bull logo and the text “CHICAGO BULLS” on top of it, both in red.
 

@@ -1,16 +1,20 @@
 ---
 name: IVX
-image: "https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT"
+image: "https://mibera.s3.amazonaws.com/traits/SS3_IVX.webp"
 archetype: "**Archetype Alignment:**"
 swag_score: 3
 date_added: "2024-12-10"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_IVX.webp" alt="Ivx" width="320" />
+</div>
+
+
 # IVX
 
 ## Visual Elements
 
-![IVX](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)
 
 Vibrant indigo tee with white logo of what looks like a ‘v’ and an upside down ‘v’ next to it.
 

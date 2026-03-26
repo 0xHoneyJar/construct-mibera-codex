@@ -1,16 +1,20 @@
 ---
 name: Have a Nice Jay
-image: "https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT"
+image: "https://mibera.s3.amazonaws.com/traits/SS3_Have%20a%20Nice%20Jay.webp"
 archetype: "**Archetype Alignment:** Its relation to drugs, Jay=Joint, Joint=Weed."
 swag_score: 3
 date_added: "2024-06-22"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_Have%20a%20Nice%20Jay.webp" alt="Have A Nice Jay" width="320" />
+</div>
+
+
 # Have a Nice Jay
 
 ## Visual Elements
 
-![Have a Nice Jay](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)
 
 Bone-white t-shirt with a simple illustration of a yellow smiley figure with curved ears, smoking a blunt / cigarette with a writing “Have a Nice JAY”, with the ‘JAY’ in capital red.
 

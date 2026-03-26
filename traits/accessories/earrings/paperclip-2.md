@@ -1,10 +1,15 @@
 ---
 name: Paperclip 2
-image: SS3_freetekno_Paperclip 2.png
+image: "https://mibera.s3.amazonaws.com/traits/SS3_freetekno_Paperclip%202.webp"
 archetype: Freetekno
 swag_score: 3
 date_added: "2023-11-28"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_freetekno_Paperclip%202.webp" alt="Paperclip 2" width="320" />
+</div>
+
 
 # Paperclip 2
 

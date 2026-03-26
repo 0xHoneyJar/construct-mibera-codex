@@ -1,16 +1,20 @@
 ---
 name: Owsley Stanley Foundation
-image: "https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT"
+image: "https://mibera.s3.amazonaws.com/traits/SS3_Owsley%20Stanley%20Foundation.webp"
 archetype: "**Archetype Alignment:**"
 swag_score: 3
 date_added: "2024-12-10"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_Owsley%20Stanley%20Foundation.webp" alt="Owsley Stanley Foundation" width="320" />
+</div>
+
+
 # Owsley Stanley Foundation
 
 ## Visual Elements
 
-![Owsley Stanley Foundation](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)
 
 Black t-shirt with a red-and-blue graphic with white outlines in the middle, of what looks like the combination of cassette rolls and a yin yang symbol.
 

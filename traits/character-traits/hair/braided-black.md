@@ -1,8 +1,13 @@
 ---
 name: braided black
-image: Braided Black__w11.PNG
+image: "https://mibera.s3.amazonaws.com/traits/Braided%20Black.webp"
 date_added: "2024-06-04"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Braided%20Black.webp" alt="Braided Black" width="320" />
+</div>
+
 
 # braided black
 

@@ -1,14 +1,18 @@
 ---
 name: crossed brown
-image: "https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/Crossed%20Brown__w6.webp"
+image: "https://mibera.s3.amazonaws.com/traits/Crossed%20Brown.webp"
 date_added: "2024-06-03"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Crossed%20Brown.webp" alt="Crossed Brown" width="320" />
+</div>
+
 
 # crossed brown
 
 ## Visual Elements
 
-![Crossed Brown](https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/Crossed%20Brown__w6.webp)
 
 crossed eyes with brown iris.
 

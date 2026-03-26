@@ -1,10 +1,15 @@
 ---
 name: Orange Slice
-image: SS3_milady_orange slice.png
+image: "https://mibera.s3.amazonaws.com/traits/SS3_milady_orange%20slice.webp"
 archetype: Milady
 swag_score: 3
 date_added: "2024-12-10"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_milady_orange%20slice.webp" alt="Orange Slice" width="320" />
+</div>
+
 
 # Orange Slice
 

@@ -1,16 +1,20 @@
 ---
 name: satan
-image: "https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS4_freetekno_modern_satanist_Satan.webp"
+image: "https://mibera.s3.amazonaws.com/traits/SS4_freetekno_modern_satanist_Satan.webp"
 archetype: Freetekno
 swag_score: 4
 date_added: "2024-07-27"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS4_freetekno_modern_satanist_Satan.webp" alt="Satan" width="320" />
+</div>
+
+
 # satan
 
 ## Visual Elements
 
-![modern satanist Satan](https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS4_freetekno_modern_satanist_Satan.webp)
 
 a deep red hood with white horn poking out on each side..
 

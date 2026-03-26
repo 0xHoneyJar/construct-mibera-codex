@@ -1,14 +1,18 @@
 ---
 name: toothpick
-image: "https://mibera.fsn1.your-objectstorage.com/components/mouth__z90/toothpick__w5.webp"
+image: "https://mibera.s3.amazonaws.com/traits/toothpick.webp"
 date_added: "2024-06-05"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/toothpick.webp" alt="Toothpick" width="320" />
+</div>
+
 
 # toothpick
 
 ## Visual Elements
 
-![toothpick](https://mibera.fsn1.your-objectstorage.com/components/mouth__z90/toothpick__w5.webp)
 
 a mouth portrayed by a nearly-straight line, holding a toothpick.
 

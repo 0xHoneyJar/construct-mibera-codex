@@ -1,16 +1,20 @@
 ---
 name: Nirvana
-image: "https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT"
+image: "https://mibera.s3.amazonaws.com/traits/SS2_freetekno_Nirvana.webp"
 archetype: Freetekno
 swag_score: 2
 date_added: "2024-06-22"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS2_freetekno_Nirvana.webp" alt="Nirvana" width="320" />
+</div>
+
+
 # Nirvana
 
 ## Visual Elements
 
-![Nirvana](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)
 
 Black t-shirt with a yellow outline of a smiley face with bear ears, “dead eyes”, and the tongue out.
 

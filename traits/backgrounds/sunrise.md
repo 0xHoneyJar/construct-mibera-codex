@@ -1,14 +1,18 @@
 ---
 name: Sunrise
-image: "https://mibera.fsn1.your-objectstorage.com/components/background__z10/Sunrise.webp"
+image: "https://mibera.s3.amazonaws.com/traits/Sunrise.webp"
 date_added: "2024-06-07"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_Sunrise.webp" alt="Sunrise" width="320" />
+</div>
+
 
 # Sunrise
 
 ## Visual Elements
 
-![Sunrise](https://mibera.fsn1.your-objectstorage.com/components/background__z10/Sunrise.webp)
 
 Blurry view of what appears to be a huge field of grass meeting a clear blue sky.
 

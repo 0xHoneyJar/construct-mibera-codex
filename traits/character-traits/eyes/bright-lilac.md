@@ -1,14 +1,18 @@
 ---
 name: bright lilac
-image: "https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/Bright%20Lilac__w13.webp"
+image: "https://mibera.s3.amazonaws.com/traits/Bright%20Lilac.webp"
 date_added: "2024-06-03"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Bright%20Lilac.webp" alt="Bright Lilac" width="320" />
+</div>
+
 
 # bright lilac
 
 ## Visual Elements
 
-![Bright Lilac](https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/Bright%20Lilac__w13.webp)
 
 bright purple eyes with a large white four pointed star within the pupil
 

@@ -1,8 +1,13 @@
 ---
 name: Bong Bear 88
-image: SS5_bongbear_Bong Bear 88.png
+image: "https://mibera.s3.amazonaws.com/traits/SS5_bongbear_Bong%20Bear%2088.webp"
 date_added: "2024-12-09"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS5_bongbear_Bong%20Bear%2088.webp" alt="Bong Bear 88" width="320" />
+</div>
+
 
 # Bong Bear 88
 

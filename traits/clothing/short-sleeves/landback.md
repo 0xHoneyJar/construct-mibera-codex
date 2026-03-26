@@ -1,16 +1,20 @@
 ---
 name: Landback
-image: "https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT"
+image: "https://mibera.s3.amazonaws.com/traits/SS3_freetekno_modern_nativeAmerican_Landback.webp"
 archetype: Freetekno
 swag_score: 3
 date_added: "2024-12-10"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_freetekno_modern_nativeAmerican_Landback.webp" alt="Landback" width="320" />
+</div>
+
+
 # Landback
 
 ## Visual Elements
 
-![modern_nativeAmerican_Landback](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)
 
 Bright orange t-shirt with graphic of the word “landback” lined up vertically.
 

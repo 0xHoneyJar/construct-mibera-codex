@@ -1,10 +1,15 @@
 ---
 name: Rainbow
-image: SS3_rainbow.png
+image: "https://mibera.s3.amazonaws.com/traits/SS3_rainbow.webp"
 archetype: "**Archetype Alignment:** In relation to pride and LGBTQ+ which is also a big part of rave culture."
 swag_score: 3
 date_added: "2024-12-10"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_rainbow.webp" alt="Rainbow" width="320" />
+</div>
+
 
 # Rainbow
 

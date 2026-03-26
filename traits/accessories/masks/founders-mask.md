@@ -1,10 +1,15 @@
 ---
 name: Founders Mask
-image: SS5_Founders Mask.PNG
+image: "https://mibera.s3.amazonaws.com/traits/SS5_Founders%20Mask.webp"
 archetype: "**Archetype Alignment:** Jani’s mask from Singapore (Token 2024)"
 swag_score: 5
 date_added: "2025-03-15"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS5_Founders%20Mask.webp" alt="Founders Mask" width="320" />
+</div>
+
 
 # Founders Mask
 

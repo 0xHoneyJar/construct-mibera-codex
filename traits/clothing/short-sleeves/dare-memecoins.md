@@ -1,16 +1,20 @@
 ---
 name: DARE Memecoins
-image: "https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT"
+image: "https://mibera.s3.amazonaws.com/traits/SS3_%20DARE%20Memecoins.webp"
 archetype: "**Archetype Alignment:**"
 swag_score: 3
 date_added: "2024-06-08"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_%20DARE%20Memecoins.webp" alt="Dare Memecoins" width="320" />
+</div>
+
+
 # DARE Memecoins
 
 ## Visual Elements
 
-![ DARE Memecoins](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)
 
 Black t-shirt with “D.A.R.E” in magenta written in the upper middle section. Below it is white text that reads “KEEPING KIDS OFF MEMECOINS”.
 

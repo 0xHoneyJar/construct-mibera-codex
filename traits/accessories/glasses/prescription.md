@@ -1,16 +1,20 @@
 ---
 name: prescription
-image: "https://mibera.fsn1.your-objectstorage.com/components/glasses__z140/chicagodetroit_Prescription.webp"
+image: "https://mibera.s3.amazonaws.com/traits/chicagodetroit_Prescription.webp"
 archetype: Chicago Detroit
 swag_score: 4
 date_added: null
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/chicagodetroit_Prescription.webp" alt="Prescription" width="320" />
+</div>
+
+
 # prescription
 
 ## Visual Elements
 
-![Prescription](https://mibera.fsn1.your-objectstorage.com/components/glasses__z140/chicagodetroit_Prescription.webp)
 
 oval-shaped glasses with clear lenses and black frames on the top half.
 

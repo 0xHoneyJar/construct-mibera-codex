@@ -1,14 +1,18 @@
 ---
 name: clay
-image: "https://mibera.fsn1.your-objectstorage.com/components/body__z40/clay__z80.webp"
+image: "https://mibera.s3.amazonaws.com/traits/clay.webp"
 date_added: "2024-08-13"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/clay.webp" alt="Clay" width="320" />
+</div>
+
 
 # clay
 
 ## Visual Elements
 
-![Clay](https://mibera.fsn1.your-objectstorage.com/components/body__z40/clay__z80.webp)
 
 Slightly tanned skin.
 

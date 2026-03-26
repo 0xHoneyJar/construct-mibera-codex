@@ -1,10 +1,15 @@
 ---
 name: Baddie Double Blue
-image: SS1_baddie double blue.png
+image: "https://mibera.s3.amazonaws.com/traits/SS1_baddie%20double%20blue.webp"
 archetype: "**Archetype Alignment:** Bera Baddies inspired item."
 swag_score: 1
 date_added: "2024-12-10"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS1_baddie%20double%20blue.webp" alt="Baddie Double Blue" width="320" />
+</div>
+
 
 # Baddie Double Blue
 

@@ -1,10 +1,15 @@
 ---
 name: walkman
-image: SS2_freetekno_Walkman.png
+image: "https://mibera.s3.amazonaws.com/traits/SS2_freetekno_Walkman.webp"
 archetype: Freetekno
 swag_score: 2
 date_added: "2024-12-09"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS2_freetekno_Walkman.webp" alt="Walkman" width="320" />
+</div>
+
 
 # walkman
 

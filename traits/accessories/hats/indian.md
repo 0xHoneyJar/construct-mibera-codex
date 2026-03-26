@@ -1,16 +1,20 @@
 ---
 name: indian
-image: "https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS4_chicagodetroit_Indian.webp"
+image: "https://mibera.s3.amazonaws.com/traits/SS4_chicagodetroit_Indian.webp"
 archetype: Chicago Detroit
 swag_score: 4
 date_added: "2024-07-27"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS4_chicagodetroit_Indian.webp" alt="Indian" width="320" />
+</div>
+
+
 # indian
 
 ## Visual Elements
 
-![Indian](https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS4_chicagodetroit_Indian.webp)
 
 a plain orange turban / dastar. Garment wrapped around the head.
 

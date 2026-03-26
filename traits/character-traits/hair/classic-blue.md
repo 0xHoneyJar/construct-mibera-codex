@@ -1,8 +1,13 @@
 ---
 name: classic blue
-image: Classic Blue__w12.PNG Classic Blue__z-32.png
+image: "https://mibera.s3.amazonaws.com/traits/Classic%20Blue.webp"
 date_added: "2024-06-22"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Classic%20Blue.webp" alt="Classic Blue" width="320" />
+</div>
+
 
 # classic blue
 

@@ -1,14 +1,18 @@
 ---
 name: Tree
-image: "https://mibera.fsn1.your-objectstorage.com/components/background__z10/Tree.webp"
+image: "https://mibera.s3.amazonaws.com/traits/Tree.webp"
 date_added: "2024-06-07"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Tree.webp" alt="Tree" width="320" />
+</div>
+
 
 # Tree
 
 ## Visual Elements
 
-![Tree](https://mibera.fsn1.your-objectstorage.com/components/background__z10/Tree.webp)
 
 Big tree from below / bottom point of view (looking up). Dark navy background with white in the middle right behind the tree.
 

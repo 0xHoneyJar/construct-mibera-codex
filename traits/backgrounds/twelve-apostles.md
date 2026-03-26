@@ -1,14 +1,18 @@
 ---
 name: Twelve Apostles
-image: "https://mibera.fsn1.your-objectstorage.com/components/background__z10/twelve%20apostles.webp"
+image: "https://mibera.s3.amazonaws.com/traits/twelve%20apostles.webp"
 date_added: "2025-02-27"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/twelve%20apostles.webp" alt="Twelve Apostles" width="320" />
+</div>
+
 
 # Twelve Apostles
 
 ## Visual Elements
 
-![Twelve Apostles](https://mibera.fsn1.your-objectstorage.com/components/background__z10/twelve%20apostles.webp)
 
 Abstract, painterly style of a coastal scene with tall brown rock formations. Muted blue and gray waves crashing. Sand can be seen on the bottom right.
 

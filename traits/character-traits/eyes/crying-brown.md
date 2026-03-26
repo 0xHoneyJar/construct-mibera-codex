@@ -1,14 +1,18 @@
 ---
 name: crying brown
-image: "https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/Crying%20Brown__w6.webp"
+image: "https://mibera.s3.amazonaws.com/traits/Crying%20Brown.webp"
 date_added: "2024-06-03"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Crying%20Brown.webp" alt="Crying Brown" width="320" />
+</div>
+
 
 # crying brown
 
 ## Visual Elements
 
-![Crying Brown](https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/Crying%20Brown__w6.webp)
 
 Brown eyes with tears in the corners.
 

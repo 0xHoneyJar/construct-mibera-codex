@@ -1,16 +1,20 @@
 ---
 name: Ottoman Tughra
-image: "https://mibera.fsn1.your-objectstorage.com/components/tattoos__z125/ancient_turkey_Ottoman%20Tughra.webp"
+image: "https://mibera.s3.amazonaws.com/traits/ancient_turkey_Ottoman%20Tughra.webp"
 archetype: "**Archetype Alignment:**"
 swag_score: null
 date_added: "2024-08-09"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/ancient_turkey_Ottoman%20Tughra.webp" alt="Ottoman Tughra" width="320" />
+</div>
+
+
 # Ottoman Tughra
 
 ## Visual Elements
 
-![Ottoman Tughra](https://mibera.fsn1.your-objectstorage.com/components/tattoos__z125/ancient_turkey_Ottoman%20Tughra.webp)
 
 Lines forming a monograph.
 

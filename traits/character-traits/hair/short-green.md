@@ -1,8 +1,13 @@
 ---
 name: short green
-image: Short Green__w11.PNG
+image: "https://mibera.s3.amazonaws.com/traits/Short%20Green.webp"
 date_added: "2024-12-10"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Short%20Green.webp" alt="Short Green" width="320" />
+</div>
+
 
 # short green
 

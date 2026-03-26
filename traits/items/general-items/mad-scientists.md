@@ -3,7 +3,13 @@ name: Mad Scientists
 archetype: "**Archetype Alignment:**"
 swag_score: 3
 date_added: null
+image: "https://mibera.s3.amazonaws.com/traits/SS3_mad%20scientists.webp"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_mad%20scientists.webp" alt="Mad Scientists" width="320" />
+</div>
+
 
 # Mad Scientists
 

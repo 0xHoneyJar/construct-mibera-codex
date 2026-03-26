@@ -1,16 +1,20 @@
 ---
 name: Aitoshi
-image: "https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS2_acidhouse_Aitoshi.webp"
+image: "https://mibera.s3.amazonaws.com/traits/SS2_acidhouse_Aitoshi.webp"
 archetype: Acidhouse
 swag_score: 2
 date_added: "2024-07-24"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS2_acidhouse_Aitoshi.webp" alt="Aitoshi" width="320" />
+</div>
+
+
 # Aitoshi
 
 ## Visual Elements
 
-![Aitoshi](https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS2_acidhouse_Aitoshi.webp)
 
 Beanie in pastel teal with rounded ears and black graphic of a bear and chains.
 

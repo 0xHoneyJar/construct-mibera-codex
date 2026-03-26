@@ -1,10 +1,15 @@
 ---
 name: come and take it
-image: SS2_Come and Take It.png
+image: "https://mibera.s3.amazonaws.com/traits/SS2_Come%20and%20Take%20It.webp"
 archetype: "**Archetype Alignment:**"
 swag_score: 2
 date_added: "2024-07-16"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS2_Come%20and%20Take%20It.webp" alt="Come And Take It" width="320" />
+</div>
+
 
 # come and take it
 

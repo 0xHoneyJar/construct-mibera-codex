@@ -1,14 +1,18 @@
 ---
 name: crying gold
-image: "https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/Crying%20Gold__w6.webp"
+image: "https://mibera.s3.amazonaws.com/traits/Crying%20Gold.webp"
 date_added: "2024-06-03"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Crying%20Gold.webp" alt="Crying Gold" width="320" />
+</div>
+
 
 # crying gold
 
 ## Visual Elements
 
-![Crying Gold](https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/Crying%20Gold__w6.webp)
 
 golden eyes with tears in the corners.
 

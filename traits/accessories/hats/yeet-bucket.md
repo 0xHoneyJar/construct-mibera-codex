@@ -1,16 +1,20 @@
 ---
 name: yeet bucket
-image: "https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS3_Yeet%20Bucket.webp"
+image: "https://mibera.s3.amazonaws.com/traits/SS3_Yeet%20Bucket.webp"
 archetype: "**Archetype Alignment:**"
 swag_score: 3
 date_added: "2024-07-28"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_Yeet%20Bucket.webp" alt="Yeet Bucket" width="320" />
+</div>
+
+
 # yeet bucket
 
 ## Visual Elements
 
-![SS3 Yeet Bucket](https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS3_Yeet%20Bucket.webp)
 
 a pale yellow bucket hat with the Yeet logo and text in the middle. A graphic of a yellow creature’s head with uneven crossed eyes, ears, and a drooling mouth.
 

@@ -1,14 +1,18 @@
 ---
 name: Mobile Records
-image: "https://mibera.fsn1.your-objectstorage.com/components/background__z10/Mobile%20Records.webp"
+image: "https://mibera.s3.amazonaws.com/traits/Mobile%20Records.webp"
 date_added: "2024-06-07"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Mobile%20Records.webp" alt="Mobile Records" width="320" />
+</div>
+
 
 # Mobile Records
 
 ## Visual Elements
 
-![Mobile Records](https://mibera.fsn1.your-objectstorage.com/components/background__z10/Mobile%20Records.webp)
 
 Black car with yellow stripe lining at the bottom, and an extending shack as the half part of the car. The car is parked / static.
 

@@ -1,10 +1,15 @@
 ---
 name: baggie of pills
-image: SS5_freetekno_Baggie Of Pills.png
+image: "https://mibera.s3.amazonaws.com/traits/SS5_freetekno_Baggie%20Of%20Pills.webp"
 archetype: Freetekno
 swag_score: 5
 date_added: "2024-07-13"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS5_freetekno_Baggie%20Of%20Pills.webp" alt="Baggie Of Pills" width="320" />
+</div>
+
 
 # baggie of pills
 

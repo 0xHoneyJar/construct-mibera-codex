@@ -1,16 +1,20 @@
 ---
 name: scifi
-image: "https://mibera.fsn1.your-objectstorage.com/components/glasses__z140/milady_Scifi.webp"
+image: "https://mibera.s3.amazonaws.com/traits/milady_Scifi.webp"
 archetype: Milady
 swag_score: 5
 date_added: "2024-12-10"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/milady_Scifi.webp" alt="Scifi" width="320" />
+</div>
+
+
 # scifi
 
 ## Visual Elements
 
-![Scifi](https://mibera.fsn1.your-objectstorage.com/components/glasses__z140/milady_Scifi.webp)
 
 hot-pink visor with thick white frames. Circles and lines can be seen on the visor.
 

@@ -1,14 +1,18 @@
 ---
 name: Scorpius
-image: "https://mibera.fsn1.your-objectstorage.com/components/Constellations/scorpius.webp"
+image: "https://mibera.s3.amazonaws.com/traits/scorpius.webp"
 date_added: "2024-11-23"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/scorpius.webp" alt="Scorpius" width="320" />
+</div>
+
 
 # Scorpius
 
 ## Visual Elements
 
-![Scorpius](https://mibera.fsn1.your-objectstorage.com/components/Constellations/scorpius.webp)
 
 Deep blue night sky with bright white 4-points-stars connected by thin white lines forming a constellation (Scorpius). Smaller stars in white dots are scattered in the background.
 

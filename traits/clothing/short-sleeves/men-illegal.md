@@ -1,16 +1,20 @@
 ---
 name: Men Illegal
-image: "https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT"
+image: "https://mibera.s3.amazonaws.com/traits/SS3_freetekno_Men%20Illegal.webp"
 archetype: Freetekno
 swag_score: 3
 date_added: "2024-06-22"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_freetekno_Men%20Illegal.webp" alt="Men Illegal" width="320" />
+</div>
+
+
 # Men Illegal
 
 ## Visual Elements
 
-![Men Illegal](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)
 
 White t-shirt with black lining on the neck and both ends of sleeves, and a writing that says “-on’t wait until -men are illegal”.
 

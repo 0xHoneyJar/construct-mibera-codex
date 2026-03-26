@@ -1,16 +1,20 @@
 ---
 name: THJ Bees
-image: "https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS4_THJ%20Bees.webp"
+image: "https://mibera.s3.amazonaws.com/traits/SS4_THJ%20Bees.webp"
 archetype: "**Archetype Alignment:**"
 swag_score: 4
 date_added: "2024-07-27"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS4_THJ%20Bees.webp" alt="Thj Bees" width="320" />
+</div>
+
+
 # THJ Bees
 
 ## Visual Elements
 
-![SS4 THJ Bees](https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS4_THJ%20Bees.webp)
 
 Light grey bucket hat with a graphic of a white bear wearing a purple hat eating honey out of a big jar surrounded by bees.
 

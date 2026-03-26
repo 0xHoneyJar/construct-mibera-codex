@@ -1,14 +1,18 @@
 ---
 name: acid
-image: "https://mibera.fsn1.your-objectstorage.com/components/mouth__z90/acid__w2.webp"
+image: "https://mibera.s3.amazonaws.com/traits/acid.webp"
 date_added: "2024-08-01"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/acid.webp" alt="Acid" width="320" />
+</div>
+
 
 # acid
 
 ## Visual Elements
 
-![acid](https://mibera.fsn1.your-objectstorage.com/components/mouth__z90/acid__w2.webp)
 
 a mouth with the tongue out with a square-shaped item on it.
 

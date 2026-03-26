@@ -1,14 +1,18 @@
 ---
 name: stoned ocean
-image: "https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/Stoned%20Ocean__w9.webp"
+image: "https://mibera.s3.amazonaws.com/traits/Stoned%20Ocean.webp"
 date_added: "2024-06-03"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Stoned%20Ocean.webp" alt="Stoned Ocean" width="320" />
+</div>
+
 
 # stoned ocean
 
 ## Visual Elements
 
-![Stoned Ocean](https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/Stoned%20Ocean__w9.webp)
 
 teal eyes. The whites of the eyes are red, eyelids partially lowered.
 

@@ -1,16 +1,20 @@
 ---
 name: squad
-image: "https://mibera.fsn1.your-objectstorage.com/components/glasses__z140/acidhouse_Squad.webp"
+image: "https://mibera.s3.amazonaws.com/traits/acidhouse_Squad.webp"
 archetype: Acidhouse
 swag_score: 3
 date_added: "2024-06-17"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/acidhouse_Squad.webp" alt="Squad" width="320" />
+</div>
+
+
 # squad
 
 ## Visual Elements
 
-![Squad](https://mibera.fsn1.your-objectstorage.com/components/glasses__z140/acidhouse_Squad.webp)
 
 Pointed all black sunglasses.
 

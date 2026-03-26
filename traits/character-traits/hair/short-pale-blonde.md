@@ -1,8 +1,13 @@
 ---
 name: short pale blonde
-image: Short Pale Blonde__w11.PNG
+image: "https://mibera.s3.amazonaws.com/traits/Short%20Pale%20Blonde.webp"
 date_added: "2024-12-10"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Short%20Pale%20Blonde.webp" alt="Short Pale Blonde" width="320" />
+</div>
+
 
 # short pale blonde
 

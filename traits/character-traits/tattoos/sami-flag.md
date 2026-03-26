@@ -1,16 +1,20 @@
 ---
 name: Sami Flag
-image: "https://mibera.fsn1.your-objectstorage.com/components/tattoos__z125/modern_sami_Sami%20Flag.webp"
+image: "https://mibera.s3.amazonaws.com/traits/modern_sami_Sami%20Flag.webp"
 archetype: "**Archetype Alignment:**"
 swag_score: null
 date_added: "2024-08-10"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/modern_sami_Sami%20Flag.webp" alt="Sami Flag" width="320" />
+</div>
+
+
 # Sami Flag
 
 ## Visual Elements
 
-![Sami Flag](https://mibera.fsn1.your-objectstorage.com/components/tattoos__z125/modern_sami_Sami%20Flag.webp)
 
 Sami flag with airbrush texture. Red on the left, blue on the right, 2 stripes in the middle- one green, one yellow, and topped with a circle- half in blue (left) and half in red (right).
 

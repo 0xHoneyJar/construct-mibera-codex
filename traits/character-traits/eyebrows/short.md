@@ -1,14 +1,18 @@
 ---
 name: short
-image: "https://mibera.fsn1.your-objectstorage.com/components/eyebrows__z95/Short.webp"
+image: "https://mibera.s3.amazonaws.com/traits/Short.webp"
 date_added: "2024-07-30"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Short.webp" alt="Short" width="320" />
+</div>
+
 
 # short
 
 ## Visual Elements
 
-![Short](https://mibera.fsn1.your-objectstorage.com/components/eyebrows__z95/Short.webp)
 
 short thick eyebrows that are thicker at the inner side and grow thinner towards the end. Slightly arched upwards on the outer ends.
 

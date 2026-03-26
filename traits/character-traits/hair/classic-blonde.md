@@ -1,8 +1,13 @@
 ---
 name: classic blonde
-image: Classic Blonde__w14.PNG Classic Blonde__z-32.png
+image: "https://mibera.s3.amazonaws.com/traits/Classic%20Blonde.webp"
 date_added: "2024-06-22"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Classic%20Blonde.webp" alt="Classic Blonde" width="320" />
+</div>
+
 
 # classic blonde
 

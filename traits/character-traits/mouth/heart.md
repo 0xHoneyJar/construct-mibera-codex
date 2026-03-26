@@ -1,14 +1,18 @@
 ---
 name: heart
-image: "https://mibera.fsn1.your-objectstorage.com/components/mouth__z90/heart__w2.webp"
+image: "https://mibera.s3.amazonaws.com/traits/heart.webp"
 date_added: "2024-08-01"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS2_milady_Heart.webp" alt="Heart" width="320" />
+</div>
+
 
 # heart
 
 ## Visual Elements
 
-![heart](https://mibera.fsn1.your-objectstorage.com/components/mouth__z90/heart__w2.webp)
 
 a mouth with the tongue out with a heart shaped item on it.
 

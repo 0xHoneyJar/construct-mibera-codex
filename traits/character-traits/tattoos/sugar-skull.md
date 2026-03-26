@@ -1,16 +1,20 @@
 ---
 name: Sugar Skull
-image: "https://mibera.fsn1.your-objectstorage.com/components/tattoos__z125/Sugar%20Skull.webp"
+image: "https://mibera.s3.amazonaws.com/traits/Sugar%20Skull.webp"
 archetype: "**Archetype Alignment:**"
 swag_score: null
 date_added: "2024-08-06"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Sugar%20Skull.webp" alt="Sugar Skull" width="320" />
+</div>
+
+
 # Sugar Skull
 
 ## Visual Elements
 
-![Sugar Skull](https://mibera.fsn1.your-objectstorage.com/components/tattoos__z125/Sugar%20Skull.webp)
 
 Intricate line art of a skull with insane amounts of details and flowers on the eye-sockets.
 

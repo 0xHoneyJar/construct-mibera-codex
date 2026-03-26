@@ -1,14 +1,18 @@
 ---
 name: pink
-image: "https://mibera.fsn1.your-objectstorage.com/components/body__z40/pink__z80.webp"
+image: "https://mibera.s3.amazonaws.com/traits/pink.webp"
 date_added: "2024-08-13"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/pink.webp" alt="Pink" width="320" />
+</div>
+
 
 # pink
 
 ## Visual Elements
 
-![Pink](https://mibera.fsn1.your-objectstorage.com/components/body__z40/pink__z80.webp)
 
 A very light, fair skin with cool rosy undertones that give it a soft, flushed appearance.
 

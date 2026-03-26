@@ -1,16 +1,20 @@
 ---
 name: Motor Detroit
-image: "https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT"
+image: "https://mibera.s3.amazonaws.com/traits/SS1_chicagodetroit_Motor%20Detroit.webp"
 archetype: Chicago Detroit
 swag_score: 1
 date_added: "2024-06-22"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS1_chicagodetroit_Motor%20Detroit.webp" alt="Motor Detroit" width="320" />
+</div>
+
+
 # Motor Detroit
 
 ## Visual Elements
 
-![Motor Detroit](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)
 
 Black t-shirt with a graphic and text that says “MOTOR Detroit” in the middle.
 

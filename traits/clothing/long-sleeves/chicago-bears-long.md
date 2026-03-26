@@ -1,16 +1,20 @@
 ---
 name: Chicago Bears Long
-image: "https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(LONG"
+image: "https://mibera.s3.amazonaws.com/traits/SS4_chicagodetroit_Chicago%20Bears%20Long.webp"
 archetype: Chicago Detroit
 swag_score: 4
 date_added: "2024-12-10"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS4_chicagodetroit_Chicago%20Bears%20Long.webp" alt="Chicago Bears Long" width="320" />
+</div>
+
+
 # Chicago Bears Long
 
 ## Visual Elements
 
-![Chicago Bears Long](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(LONG)
 
 Long sleeves in bright orange at the top part and white for the rest of it, with a bear graphic just below the text “CHICAGO BEARS”. White and blue stripes down the inner part and end of the sleeves.
 

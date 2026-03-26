@@ -1,16 +1,20 @@
 ---
 name: Cyber Punk 2
-image: "https://mibera.fsn1.your-objectstorage.com/components/glasses__z140/freetekno_Cyber Punk 2.webp"
+image: "https://mibera.s3.amazonaws.com/traits/freetekno_Cyber%20Punk%202.webp"
 archetype: Freetekno
 swag_score: 2
 date_added: "2024-06-18"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/freetekno_Cyber%20Punk%202.webp" alt="Cyber Punk 2" width="320" />
+</div>
+
+
 # Cyber Punk 2
 
 ## Visual Elements
 
-![Cyber Punk 2](https://mibera.fsn1.your-objectstorage.com/components/glasses__z140/freetekno_Cyber Punk 2.webp)
 
 All-black cyberpunk style glasses
 

@@ -1,10 +1,15 @@
 ---
 name: Purple Lolipop
-image: SS3_purple lolipop.png
+image: "https://mibera.s3.amazonaws.com/traits/SS3_purple%20lolipop.webp"
 archetype: "**Archetype Alignment:** Relation to drug-use and users, as well as rave culture."
 swag_score: 3
 date_added: "2024-12-10"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_purple%20lolipop.webp" alt="Purple Lolipop" width="320" />
+</div>
+
 
 # Purple Lolipop
 

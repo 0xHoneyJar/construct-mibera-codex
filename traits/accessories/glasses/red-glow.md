@@ -1,16 +1,20 @@
 ---
 name: Red Glow
-image: "https://mibera.fsn1.your-objectstorage.com/components/glasses__z140/chicagodetroit_Red Glow.webp"
+image: "https://mibera.s3.amazonaws.com/traits/chicagodetroit_Red%20Glow.webp"
 archetype: Chicago Detroit
 swag_score: 2
 date_added: "2024-06-18"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/chicagodetroit_Red%20Glow.webp" alt="Red Glow" width="320" />
+</div>
+
+
 # Red Glow
 
 ## Visual Elements
 
-![Red Glow](https://mibera.fsn1.your-objectstorage.com/components/glasses__z140/chicagodetroit_Red Glow.webp)
 
 Glow glasses mainly in red, with yellow on the center and sides.
 

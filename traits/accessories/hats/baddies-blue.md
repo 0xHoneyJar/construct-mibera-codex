@@ -1,16 +1,20 @@
 ---
 name: Baddies Blue
-image: "https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS3_Baddies%20Blue.webp"
+image: "https://mibera.s3.amazonaws.com/traits/SS3_Baddies%20Blue.webp"
 archetype: "**Archetype Alignment:**"
 swag_score: 3
 date_added: "2024-07-28"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_Baddies%20Blue.webp" alt="Baddies Blue" width="320" />
+</div>
+
+
 # Baddies Blue
 
 ## Visual Elements
 
-![SS3 Baddies Blue](https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS3_Baddies%20Blue.webp)
 
 Blue cap with a graphic of a brown bear with red ribbon on one ear holding a white flower.
 

@@ -1,14 +1,18 @@
 ---
 name: Sagittarius
-image: "https://mibera.fsn1.your-objectstorage.com/components/Constellations/sagittarius.webp"
+image: "https://mibera.s3.amazonaws.com/traits/sagittarius.webp"
 date_added: "2024-11-23"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/sagittarius.webp" alt="Sagittarius" width="320" />
+</div>
+
 
 # Sagittarius
 
 ## Visual Elements
 
-![Sagittarius](https://mibera.fsn1.your-objectstorage.com/components/Constellations/sagittarius.webp)
 
 Deep blue night sky with bright white 4-points-stars connected by thin white lines forming a constellation (Sagittarius). Smaller stars in white dots are scattered in the background.
 

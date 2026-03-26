@@ -1,14 +1,18 @@
 ---
 name: ecstasy sky
-image: "https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/Ecstasy%20Sky__w8.webp"
+image: "https://mibera.s3.amazonaws.com/traits/Ecstasy%20Sky.webp"
 date_added: "2024-06-03"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Ecstasy%20Sky.webp" alt="Ecstasy Sky" width="320" />
+</div>
+
 
 # ecstasy sky
 
 ## Visual Elements
 
-![Ecstasy Sky](https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/Ecstasy%20Sky__w8.webp)
 
 sky-blue eyes with heavily dilated pupils.
 

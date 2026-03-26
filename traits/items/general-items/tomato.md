@@ -1,10 +1,15 @@
 ---
 name: tomato
-image: SS2_tomato.PNG
+image: "https://mibera.s3.amazonaws.com/traits/SS2_tomato.webp"
 archetype: "**Archetype Alignment:**"
 swag_score: 2
 date_added: "2024-07-12"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS2_tomato.webp" alt="Tomato" width="320" />
+</div>
+
 
 # tomato
 

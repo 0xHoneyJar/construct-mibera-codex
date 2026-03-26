@@ -1,14 +1,18 @@
 ---
 name: Home Lab
-image: "https://mibera.fsn1.your-objectstorage.com/components/background__z10%20%28SCENE%29/home%20lab.webp"
+image: "https://mibera.s3.amazonaws.com/traits/home%20lab.webp"
 date_added: "2025-03-11"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/home%20lab.webp" alt="Home Lab" width="320" />
+</div>
+
 
 # Home Lab
 
 ## Visual Elements
 
-![Home Lab](https://mibera.fsn1.your-objectstorage.com/components/background__z10%20%28SCENE%29/home%20lab.webp)
 
 Empty room with brownish accent and a half=opened curtain in the
 

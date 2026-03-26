@@ -1,16 +1,20 @@
 ---
 name: sunra
-image: "https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS5_chicagodetroit_Sunra.webp"
+image: "https://mibera.s3.amazonaws.com/traits/SS5_chicagodetroit_Sunra.webp"
 archetype: Chicago Detroit
 swag_score: 5
 date_added: "2024-07-27"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS5_chicagodetroit_Sunra.webp" alt="Sunra" width="320" />
+</div>
+
+
 # sunra
 
 ## Visual Elements
 
-![Sunra](https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS5_chicagodetroit_Sunra.webp)
 
 a sun ra headdress; a headdress mainly in gold with cover / flap on each side covering the ear in stripy black and gold. Near the center front that frames the face is a carving of the letter ‘A’ in a circle with 2 wings on each side. On top of the headdress is a big circular shape charm.
 

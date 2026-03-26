@@ -427,12 +427,12 @@
     ,{
       "id": "cycle-018",
       "label": "Mibera Oracle — The Five Books",
-      "status": "active",
+      "status": "archived",
       "created": "2026-03-05",
-      "archived": null,
-      "prd": "grimoires/loa/prd.md",
-      "sdd": "grimoires/loa/sdd.md",
-      "sprint_plan": "grimoires/loa/sprint.md",
+      "archived": "2026-03-25",
+      "prd": "grimoires/loa/archive/cycle-018/prd.md",
+      "sdd": "grimoires/loa/archive/cycle-018/sdd.md",
+      "sprint_plan": "grimoires/loa/archive/cycle-018/sprint.md",
       "sprints": [
         {
           "id": "sprint-1",
@@ -451,9 +451,29 @@
       ],
       "sprint_count": 2
     }
+  ,{
+      "id": "cycle-019",
+      "label": "Trait Image Embedding — S3 Visual Layer",
+      "status": "active",
+      "created": "2026-03-25",
+      "archived": null,
+      "prd": "grimoires/loa/prd.md",
+      "sdd": "grimoires/loa/sdd.md",
+      "sprint_plan": "grimoires/loa/sprint.md",
+      "sprints": [
+        {
+          "id": "sprint-1",
+          "global_id": 32,
+          "label": "Embed Images",
+          "status": "in-progress",
+          "tasks": 3
+        }
+      ],
+      "sprint_count": 1
+    }
   ],
-  "active_cycle": "cycle-018",
+  "active_cycle": "cycle-019",
   "active_bugfix": null,
-  "global_sprint_counter": 31,
+  "global_sprint_counter": 32,
   "bugfix_cycles": []
 }

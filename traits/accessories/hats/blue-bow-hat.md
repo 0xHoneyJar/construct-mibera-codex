@@ -1,16 +1,20 @@
 ---
 name: Blue Bow Hat
-image: "https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS2_Blue%20Bow%20Hat.webp"
+image: "https://mibera.s3.amazonaws.com/traits/SS2_Blue%20Bow%20Hat.webp"
 archetype: "**Archetype Alignment:**"
 swag_score: 2
 date_added: "2024-07-27"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS2_Blue%20Bow%20Hat.webp" alt="Blue Bow Hat" width="320" />
+</div>
+
+
 # Blue Bow Hat
 
 ## Visual Elements
 
-![SS2 Blue Bow Hat](https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS2_Blue%20Bow%20Hat.webp)
 
 Round hat in soft blue, pretty flat in shape, with light blue tie around it and a bow.
 

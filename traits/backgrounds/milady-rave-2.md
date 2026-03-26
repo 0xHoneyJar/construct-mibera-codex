@@ -1,14 +1,18 @@
 ---
 name: Milady Rave 2
-image: "https://mibera.fsn1.your-objectstorage.com/components/background__z10/Milady%20Rave%202.webp"
+image: "https://mibera.s3.amazonaws.com/traits/Milady%20Rave%202.webp"
 date_added: "2024-06-07"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Milady%20Rave%202.webp" alt="Milady Rave 2" width="320" />
+</div>
+
 
 # Milady Rave 2
 
 ## Visual Elements
 
-![Milady Rave 2](https://mibera.fsn1.your-objectstorage.com/components/background__z10/Milady%20Rave%202.webp)
 
 Human face with big eyes and small mouth, short hair, in a suit. The figure is radiating light in contrast to the room's dark setting.
 

@@ -1,10 +1,15 @@
 ---
 name: bullas whip
-image: SS3_Bullas Whip.PNG
+image: "https://mibera.s3.amazonaws.com/traits/SS3_Bullas%20Whip.webp"
 archetype: "**Archetype Alignment:**"
 swag_score: 3
 date_added: "2024-12-09"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_Bullas%20Whip.webp" alt="Bullas Whip" width="320" />
+</div>
+
 
 # bullas whip
 

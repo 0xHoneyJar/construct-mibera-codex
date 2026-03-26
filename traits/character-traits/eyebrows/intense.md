@@ -1,14 +1,18 @@
 ---
 name: intense
-image: "https://mibera.fsn1.your-objectstorage.com/components/eyebrows__z95/Intense.webp"
+image: "https://mibera.s3.amazonaws.com/traits/Intense.webp"
 date_added: "2024-07-30"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Intense.webp" alt="Intense" width="320" />
+</div>
+
 
 # intense
 
 ## Visual Elements
 
-![Intense](https://mibera.fsn1.your-objectstorage.com/components/eyebrows__z95/Intense.webp)
 
 thick pair of eyebrows, almost straight in shape and slightly arched upwards at the outer ends.
 

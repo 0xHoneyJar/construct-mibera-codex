@@ -1,10 +1,15 @@
 ---
 name: Serotonin
-image: SS3_serotonin.png
+image: "https://mibera.s3.amazonaws.com/traits/SS3_serotonin.webp"
 archetype: "**Archetype Alignment:** Chemical that’s found in the brain, gut, and blood platelets. Related to many drugs and drug users behavior in general."
 swag_score: 3
 date_added: "2024-12-10"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_serotonin.webp" alt="Serotonin" width="320" />
+</div>
+
 
 # Serotonin
 

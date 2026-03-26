@@ -1,16 +1,20 @@
 ---
 name: Crypto Anarchist
-image: "https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT"
+image: "https://mibera.s3.amazonaws.com/traits/SS1_Crypto%20Anarchist.webp"
 archetype: "**Archetype Alignment:**"
 swag_score: 1
 date_added: "2024-12-10"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS1_Crypto%20Anarchist.webp" alt="Crypto Anarchist" width="320" />
+</div>
+
+
 # Crypto Anarchist
 
 ## Visual Elements
 
-![Crypto Anarchist](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)
 
 White t-shirt with barely visible lines or paragraphs, with the title that reads “The Crypto Anarchist Manifesto”.
 

@@ -1,14 +1,18 @@
 ---
 name: normal ocean
-image: "https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/Normal%20Ocean__w25.webp"
+image: "https://mibera.s3.amazonaws.com/traits/Normal%20Ocean.webp"
 date_added: "2024-06-03"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Normal%20Ocean.webp" alt="Normal Ocean" width="320" />
+</div>
+
 
 # normal ocean
 
 ## Visual Elements
 
-![Normal Ocean](https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/Normal%20Ocean__w25.webp)
 
 normal eyes in bright ocean blue.
 

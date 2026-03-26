@@ -1,10 +1,15 @@
 ---
 name: Green Gummy Bear
-image: SS3_green gummy bear.png
+image: "https://mibera.s3.amazonaws.com/traits/SS3_green%20gummy%20bear.webp"
 archetype: "**Archetype Alignment:** Relation to drugs and a nod to Gumi’s name."
 swag_score: 3
 date_added: "2024-06-04"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_green%20gummy%20bear.webp" alt="Green Gummy Bear" width="320" />
+</div>
+
 
 # Green Gummy Bear
 

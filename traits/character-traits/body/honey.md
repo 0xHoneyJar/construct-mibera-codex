@@ -1,8 +1,13 @@
 ---
 name: honey
-image: honey__w2.PNG honey__w2.PNG
+image: "https://mibera.s3.amazonaws.com/traits/honey.webp"
 date_added: "2024-08-13"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/honey.webp" alt="Honey" width="320" />
+</div>
+
 
 # honey
 

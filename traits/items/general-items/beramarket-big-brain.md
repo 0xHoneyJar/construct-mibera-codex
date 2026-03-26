@@ -1,10 +1,15 @@
 ---
 name: beramarket big brain
-image: SS2_Beramarket Big Brain.PNG
+image: "https://mibera.s3.amazonaws.com/traits/SS2_Beramarket%20Big%20Brain.webp"
 archetype: "**Archetype Alignment:**"
 swag_score: 2
 date_added: "2024-12-09"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS2_Beramarket%20Big%20Brain.webp" alt="Beramarket Big Brain" width="320" />
+</div>
+
 
 # beramarket big brain
 

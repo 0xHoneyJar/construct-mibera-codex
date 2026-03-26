@@ -1,10 +1,15 @@
 ---
 name: khat pipe
-image: SS3_freetekno_ancient_ethiopian_Khat Pipe.png
+image: "https://mibera.s3.amazonaws.com/traits/SS3_freetekno_ancient_ethiopian_Khat%20Pipe.webp"
 archetype: Freetekno
 swag_score: 3
 date_added: "2024-12-09"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_freetekno_ancient_ethiopian_Khat%20Pipe.webp" alt="Khat Pipe" width="320" />
+</div>
+
 
 # khat pipe
 

@@ -1,14 +1,18 @@
 ---
 name: Poppy Field
-image: "https://mibera.fsn1.your-objectstorage.com/components/background__z10%20%28SCENE%29/poppy%20field.webp"
+image: "https://mibera.s3.amazonaws.com/traits/poppy%20field.webp"
 date_added: "2025-03-11"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/poppy%20field.webp" alt="Poppy Field" width="320" />
+</div>
+
 
 # Poppy Field
 
 ## Visual Elements
 
-![Poppy Field](https://mibera.fsn1.your-objectstorage.com/components/background__z10%20%28SCENE%29/poppy%20field.webp)
 
 Simple scenery of a field of poppies that are yet to bloom. Bright blue sky in the background.
 

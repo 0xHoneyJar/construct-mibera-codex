@@ -1,16 +1,20 @@
 ---
 name: Reflections
-image: "https://mibera.fsn1.your-objectstorage.com/components/glasses__z140/chicagodetroit_Reflections.webp"
+image: "https://mibera.s3.amazonaws.com/traits/chicagodetroit_Reflections.webp"
 archetype: Chicago Detroit
 swag_score: 3
 date_added: "2024-08-03"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/chicagodetroit_Reflections.webp" alt="Reflections" width="320" />
+</div>
+
+
 # Reflections
 
 ## Visual Elements
 
-![Reflections](https://mibera.fsn1.your-objectstorage.com/components/glasses__z140/chicagodetroit_Reflections.webp)
 
 Classic aviator with black and white reflections on its lenses and thin black frames.
 

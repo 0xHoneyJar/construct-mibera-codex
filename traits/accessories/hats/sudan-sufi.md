@@ -1,16 +1,20 @@
 ---
 name: Sudan Sufi
-image: "https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS3_milady_Sudan%20Sufi.webp"
+image: "https://mibera.s3.amazonaws.com/traits/SS3_milady_Sudan%20Sufi.webp"
 archetype: Milady
 swag_score: 3
 date_added: "2024-07-25"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_milady_Sudan%20Sufi.webp" alt="Sudan Sufi" width="320" />
+</div>
+
+
 # Sudan Sufi
 
 ## Visual Elements
 
-![Sudan Sufi](https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS3_milady_Sudan%20Sufi.webp)
 
 Taqiyah cap in patterns of circular shapes and lines. A small rounded cap that fits tightly onto the head.
 

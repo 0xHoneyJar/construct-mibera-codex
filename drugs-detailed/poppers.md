@@ -6,9 +6,14 @@ origin: France
 archetype: Chicago Detroit
 ancestor: '**Swag Score:** 3'
 swag_score: 4
-image: chicagodetroit_stonewall_poppers.PNG
+image: "https://mibera.s3.amazonaws.com/traits/chicagodetroit_stonewall_poppers.webp"
 date_added: "2025-01-12"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/chicagodetroit_stonewall_poppers.webp" alt="Poppers" width="320" />
+</div>
+
 
 # Poppers
 

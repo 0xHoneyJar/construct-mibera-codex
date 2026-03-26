@@ -6,9 +6,14 @@ origin: Persia
 archetype: Chicago Detroit
 ancestor: Sicanje
 swag_score: 4
-image: chicagodetroit_sicanje_ethanol.PNG
+image: "https://mibera.s3.amazonaws.com/traits/chicagodetroit_sicanje_ethanol.webp"
 date_added: "2025-01-12"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/chicagodetroit_sicanje_ethanol.webp" alt="Ethanol" width="320" />
+</div>
+
 
 # Ethanol
 

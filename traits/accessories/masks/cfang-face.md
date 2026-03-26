@@ -1,16 +1,20 @@
 ---
 name: CFang Face
-image: "https://mibera.fsn1.your-objectstorage.com/components/Masks/SS1_milady_Cfang Face.webp"
+image: "https://mibera.s3.amazonaws.com/traits/SS1_milady_Cfang%20Face.webp"
 archetype: Milady
 swag_score: 1
 date_added: "2024-07-27"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS1_milady_Cfang%20Face.webp" alt="Cfang Face" width="320" />
+</div>
+
+
 # CFang Face
 
 ## Visual Elements
 
-![CFang Face](https://mibera.fsn1.your-objectstorage.com/components/Masks/SS1_milady_Cfang Face.webp)
 
 Circular milky white mist, solid in color.
 

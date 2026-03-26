@@ -1,16 +1,20 @@
 ---
 name: Sicanje
-image: "https://mibera.fsn1.your-objectstorage.com/components/tattoos__z125/modern_sicanje_Sicanje.webp"
+image: "https://mibera.s3.amazonaws.com/traits/modern_sicanje_Sicanje.webp"
 archetype: "**Archetype Alignment:**"
 swag_score: null
 date_added: "2024-08-10"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/modern_sicanje_Sicanje.webp" alt="Sicanje" width="320" />
+</div>
+
+
 # Sicanje
 
 ## Visual Elements
 
-![Sicanje](https://mibera.fsn1.your-objectstorage.com/components/tattoos__z125/modern_sicanje_Sicanje.webp)
 
 Line work that’s a combination of circular shapes, lines, and dots.
 

@@ -1,10 +1,15 @@
 ---
 name: cypherpunk
-image: SS3_Cypherpunk.png
+image: "https://mibera.s3.amazonaws.com/traits/SS3_Cypherpunk.webp"
 archetype: "**Archetype Alignment:**"
 swag_score: 4
 date_added: "2024-07-07"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_Cypherpunk.webp" alt="Cypherpunk" width="320" />
+</div>
+
 
 # cypherpunk
 

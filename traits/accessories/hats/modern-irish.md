@@ -1,16 +1,20 @@
 ---
 name: Modern Irish
-image: "https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS2_acidhouse_Modern%20Irish.webp"
+image: "https://mibera.s3.amazonaws.com/traits/SS2_acidhouse_Modern%20Irish.webp"
 archetype: Acidhouse
 swag_score: 2
 date_added: "2024-07-24"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS2_acidhouse_Modern%20Irish.webp" alt="Modern Irish" width="320" />
+</div>
+
+
 # Modern Irish
 
 ## Visual Elements
 
-![Modern Irish](https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS2_acidhouse_Modern%20Irish.webp)
 
 Green bucket hat / walking hat with patches of different garments with different colors and patterns on it and a small yellow feather.
 

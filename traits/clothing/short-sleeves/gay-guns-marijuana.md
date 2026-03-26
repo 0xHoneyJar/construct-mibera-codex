@@ -1,16 +1,20 @@
 ---
 name: Gay Guns Marijuana
-image: "https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT"
+image: "https://mibera.s3.amazonaws.com/traits/SS3_chicagodetroit_modern_stonewall_Gay%20Guns%20Marijuana.webp"
 archetype: Chicago Detroit
 swag_score: 3
 date_added: "2024-06-22"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_chicagodetroit_modern_stonewall_Gay%20Guns%20Marijuana.webp" alt="Gay Guns Marijuana" width="320" />
+</div>
+
+
 # Gay Guns Marijuana
 
 ## Visual Elements
 
-![modern_stonewall_Gay Guns Marijuana](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)
 
 White t-shirt with graphic in green, showing 2 guys in a circle with 1 holding a gun and another one holding a pot of plant. Outside of the circle is a text saying “- couples to be able to protect their marijuana plants with guns”.
 

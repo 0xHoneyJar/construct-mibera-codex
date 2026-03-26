@@ -6,9 +6,14 @@ origin: Central & South America, India
 archetype: Milady
 ancestor: Native American
 swag_score: 4
-image: milady_nativeAmerican_datura.PNG
+image: "https://mibera.s3.amazonaws.com/traits/milady_nativeAmerican_datura.webp"
 date_added: "2025-01-12"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS4_milady_ancient_nativeAmerican_datura.webp" alt="Datura" width="320" />
+</div>
+
 
 # Datura
 

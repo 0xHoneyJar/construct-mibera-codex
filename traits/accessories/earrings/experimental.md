@@ -1,10 +1,15 @@
 ---
 name: Experimental
-image: SS3_experimental.png
+image: "https://mibera.s3.amazonaws.com/traits/SS3_experimental.webp"
 archetype: "**Archetype Alignment:** Symbolizing the general process of drug creation. Drugs are a big part of Mibera culture in general."
 swag_score: 3
 date_added: "2024-12-10"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_experimental.webp" alt="Experimental" width="320" />
+</div>
+
 
 # Experimental
 

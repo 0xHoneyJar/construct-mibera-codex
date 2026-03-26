@@ -1,16 +1,20 @@
 ---
 name: Cypherpunk 2
-image: "https://mibera.fsn1.your-objectstorage.com/components/Masks/SS1_Cypherpunk 2.webp"
+image: "https://mibera.s3.amazonaws.com/traits/SS1_Cypherpunk%202.webp"
 archetype: "**Archetype Alignment:**"
 swag_score: 1
 date_added: "2024-07-17"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS1_Cypherpunk%202.webp" alt="Cypherpunk 2" width="320" />
+</div>
+
+
 # Cypherpunk 2
 
 ## Visual Elements
 
-![Cypherpunk 2](https://mibera.fsn1.your-objectstorage.com/components/Masks/SS1_Cypherpunk 2.webp)
 
 White mask with a few short lines that look like a barcode on the forehead.
 

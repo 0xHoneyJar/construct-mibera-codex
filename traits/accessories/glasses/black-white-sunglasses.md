@@ -1,16 +1,20 @@
 ---
 name: black white sunglasses
-image: "https://mibera.fsn1.your-objectstorage.com/components/glasses__z140/chicagodetroit_Black White Sunglasses.webp"
+image: "https://mibera.s3.amazonaws.com/traits/chicagodetroit_Black%20White%20Sunglasses.webp"
 archetype: Chicago Detroit
 swag_score: 3
 date_added: "2024-06-18"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/chicagodetroit_Black%20White%20Sunglasses.webp" alt="Black White Sunglasses" width="320" />
+</div>
+
+
 # black white sunglasses
 
 ## Visual Elements
 
-![Black White Sunglasses](https://mibera.fsn1.your-objectstorage.com/components/glasses__z140/chicagodetroit_Black White Sunglasses.webp)
 
 a pair of sleek black sunglasses with a hint of white on the top frame.
 

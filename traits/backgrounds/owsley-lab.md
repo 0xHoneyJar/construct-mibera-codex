@@ -1,14 +1,18 @@
 ---
 name: Owsley Lab
-image: "https://mibera.fsn1.your-objectstorage.com/components/background__z10%20%28SCENE%29/owsley%20lab.webp"
+image: "https://mibera.s3.amazonaws.com/traits/owsley%20lab.webp"
 date_added: "2025-03-11"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/owsley%20lab.webp" alt="Owsley Lab" width="320" />
+</div>
+
 
 # Owsley Lab
 
 ## Visual Elements
 
-![Owsley Lab](https://mibera.fsn1.your-objectstorage.com/components/background__z10%20%28SCENE%29/owsley%20lab.webp)
 
 Room in mainly the colour of beige / light brown. A poster is seen on the wall; along with a book, a few bottles, and a big jar on top of the table by the wall. On the front table, a jar, a big bottle, and a few smaller bottles / flasks can also be seen standing around an open book.
 

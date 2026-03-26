@@ -1,16 +1,20 @@
 ---
 name: Bear Down
-image: "https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS2_acidhouse_Bear%20Down.webp"
+image: "https://mibera.s3.amazonaws.com/traits/SS2_acidhouse_Bear%20Down.webp"
 archetype: Acidhouse
 swag_score: 2
 date_added: "2024-07-24"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS2_acidhouse_Bear%20Down.webp" alt="Bear Down" width="320" />
+</div>
+
+
 # Bear Down
 
 ## Visual Elements
 
-![Bear Down](https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS2_acidhouse_Bear%20Down.webp)
 
 Two-toned orange creamy white cap with big black text that reads “BEAR DOWN”.
 

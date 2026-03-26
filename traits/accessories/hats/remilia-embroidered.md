@@ -1,16 +1,20 @@
 ---
 name: Remilia Embroidered
-image: "https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS3_acidhouse_Remilia%20Embroidered.webp"
+image: "https://mibera.s3.amazonaws.com/traits/SS3_acidhouse_Remilia%20Embroidered.webp"
 archetype: Acidhouse
 swag_score: 3
 date_added: "2024-07-24"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_acidhouse_Remilia%20Embroidered.webp" alt="Remilia Embroidered" width="320" />
+</div>
+
+
 # Remilia Embroidered
 
 ## Visual Elements
 
-![Remilia Embroidered](https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS3_acidhouse_Remilia%20Embroidered.webp)
 
 Light orange with blue embroidery that reads “REMILIA” inside of an oval graphic with a star.
 

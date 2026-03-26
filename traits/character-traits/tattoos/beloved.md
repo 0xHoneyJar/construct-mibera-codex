@@ -1,16 +1,20 @@
 ---
 name: Beloved
-image: "https://mibera.fsn1.your-objectstorage.com/components/tattoos__z125/modern_greek_Beloved.webp"
+image: "https://mibera.s3.amazonaws.com/traits/modern_greek_Beloved.webp"
 archetype: "**Archetype Alignment:**"
 swag_score: null
 date_added: "2024-08-09"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/modern_greek_Beloved.webp" alt="Beloved" width="320" />
+</div>
+
+
 # Beloved
 
 ## Visual Elements
 
-![Beloved](https://mibera.fsn1.your-objectstorage.com/components/tattoos__z125/modern_greek_Beloved.webp)
 
 Simple straight writing of ‘beloved’ in Greek language and alphabet ‘αγαπητός’.
 

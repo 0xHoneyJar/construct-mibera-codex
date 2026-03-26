@@ -1,10 +1,15 @@
 ---
 name: Industrial
-image: SS4_industrial.png
+image: "https://mibera.s3.amazonaws.com/traits/SS4_industrial.webp"
 archetype: "**Archetype Alignment:** Its relation to rave culture, which aligns with Mibera."
 swag_score: 4
 date_added: "2024-12-10"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS4_industrial.webp" alt="Industrial" width="320" />
+</div>
+
 
 # Industrial
 

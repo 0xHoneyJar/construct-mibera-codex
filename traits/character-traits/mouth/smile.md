@@ -1,14 +1,18 @@
 ---
 name: smile
-image: "https://mibera.fsn1.your-objectstorage.com/components/mouth__z90/smile__w10.webp"
+image: "https://mibera.s3.amazonaws.com/traits/smile.webp"
 date_added: "2024-06-05"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/smile.webp" alt="Smile" width="320" />
+</div>
+
 
 # smile
 
 ## Visual Elements
 
-![smile](https://mibera.fsn1.your-objectstorage.com/components/mouth__z90/smile__w10.webp)
 
 a smile portrayed by a thin short curved line.
 

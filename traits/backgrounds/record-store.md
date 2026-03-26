@@ -1,14 +1,18 @@
 ---
 name: Record Store
-image: "https://mibera.fsn1.your-objectstorage.com/components/background__z10/Record%20Store.webp"
+image: "https://mibera.s3.amazonaws.com/traits/Record%20Store.webp"
 date_added: "2024-12-10"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Record%20Store.webp" alt="Record Store" width="320" />
+</div>
+
 
 # Record Store
 
 ## Visual Elements
 
-![Record Store](https://mibera.fsn1.your-objectstorage.com/components/background__z10/Record%20Store.webp)
 
 Vague monochrome painterly shot of a room with a few downlights, hanging decoration, and racks of items in square shapes.
 

@@ -1,16 +1,20 @@
 ---
 name: Green Dungarees
-image: "https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT"
+image: "https://mibera.s3.amazonaws.com/traits/SS2_acidhouse_Green%20Dungarees.webp"
 archetype: Acidhouse
 swag_score: 2
 date_added: "2024-06-22"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS2_acidhouse_Green%20Dungarees.webp" alt="Green Dungarees" width="320" />
+</div>
+
+
 # Green Dungarees
 
 ## Visual Elements
 
-![Green Dungarees](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)
 
 White t-shirt with a tint of green with a leafy green dungarees over it.
 

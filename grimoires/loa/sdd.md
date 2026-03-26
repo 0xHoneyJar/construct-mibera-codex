@@ -1,162 +1,142 @@
-# SDD: Mibera Oracle — The Five Books
+# SDD: Trait Image Embedding — S3 Visual Layer
 
-**Cycle**: cycle-018
-**Status**: Draft
-**Author**: Gumi + Claude
+**Cycle:** 019
+**Created:** 2026-03-25
 
-## Overview
+## Architecture
 
-The Oracle is a **content architecture** addition to the Mibera Codex — five system prompt files in a new `oracle/` directory, plus integration updates to existing navigation files. No code, no infrastructure.
+Single stdlib-only Python script (`_codex/scripts/embed-images.py`) that:
 
-## File Structure
+1. Walks `/Users/gumi/micodex-images/output/` to collect all `.webp` filenames
+2. Builds a lookup table: image filename → codex `.md` file path
+3. For each matched pair: updates `image:` frontmatter and inserts inline `<img>` HTML
+4. Reports: matched, skipped, orphaned, errors
+
+No external dependencies. No database. No API calls. One script, one pass.
+
+## Image-to-File Resolution
+
+The script builds a **slug index** by walking the codex directories and mapping `slug → file_path`:
 
 ```
-oracle/
-  README.md              # Router — which book for which question
-  book-of-data.md        # System prompt: scores, traits, rarity
-  book-of-lore.md        # System prompt: ancestors, archetypes, eras
-  book-of-sight.md       # System prompt: tarot, drugs, elements
-  book-of-grails.md      # System prompt: 42 hand-drawn 1/1s
-  book-of-identity.md    # System prompt: full Mibera embodiment
+traits/**/*.md      → slug from filename (e.g., traits/character-traits/hair/funky.md → "funky")
+drugs-detailed/*.md → slug from filename (e.g., drugs-detailed/acacia.md → "acacia")
+vending-machine/**/*.md → slug from filename
 ```
 
-## System Prompt Template
+Then for each image, applies mapping rules in priority order:
 
-Every book file follows this structure:
+### Priority 1: Special prefixes (most specific)
+- `SS5_bongbear_{name}.webp` → lookup `bong-bear-{slugify(name)}` in bong-bears/
+- `SS5_cypherpunk_{name}.webp` → lookup `{slugify(name)}` in general-items/
+- `{era}_{ancestor}_{tattoo}.webp` (era ∈ {ancient, modern}) → lookup `{slugify(tattoo)}` in tattoos/
 
-```markdown
-# Book of {Name}
+### Priority 2: Archetype combos (no SS prefix)
+- `{arch}_{ancestor}_{drug}.webp` → lookup `{slugify(drug)}` in drugs-detailed/ (molecule overlay)
+- `{arch}_{glasses}.webp` (2 components, arch known) → lookup `{slugify(glasses)}` in glasses/
 
-> {One-line description}
+### Priority 3: SS-prefixed traits
+- `SS{N}_{arch}_{era}_{ancestor}_{name}.webp` → lookup `{slugify(name)}` in slug index
+- `SS{N}_{arch}_{name}.webp` → lookup `{slugify(name)}` in slug index
+- `SS{N}_{name}.webp` → lookup `{slugify(name)}` in slug index
 
-## System Prompt
+### Priority 4: Astrology / Overlays / Elements
+- `Sun|Moon|Rising {sign}.webp` → `traits/overlays/astrology/{slugify(sign)}.md`
+- `Air|Earth|Fire|Water.webp` → `traits/overlays/elements/{lower}.md`
+- `A|B|C|D|F|S|SS|SSS.webp` → `traits/overlays/ranking/{lower}.md`
 
-{Copy-pasteable system prompt — everything between the horizontal rules}
+### Priority 5: Direct name match (broadest)
+- `{Name}.webp` → lookup `{slugify(Name)}` in slug index
 
----
+### Skip rules
+- `*_overlay.webp` → skip (deferred)
+- `IMG_*.webp` → skip (now renamed, but guard remains)
+- No match found → log to orphan report
 
-You are the Book of {Name}, one of five oracle books of the Mibera Codex...
+### Known archetypes list
+`acidhouse`, `chicagodetroit`, `freetekno`, `milady`
 
-### Voice
-{Persona description}
+### Known ancestors list
+Loaded from `core-lore/ancestors/` directory listing.
 
-### Scope
-{What this book covers}
+### Known eras
+`ancient`, `modern`
 
-### Data Sources
-{File paths to read from}
+## File Modification Strategy
 
-### Routing
-{When to redirect to sibling books}
+### Frontmatter update
 
-### Rules
-{Anti-hallucination constraints}
+Replace the `image:` field value (whether bare filename, old object storage URL, or absent) with the canonical S3 URL:
 
----
-
-## Examples
-
-### Q: {Example question}
-**A**: {Example answer demonstrating voice + scope}
-
-### Q: ...
+```yaml
+image: "https://mibera.s3.amazonaws.com/traits/{url_encoded_filename}.webp"
 ```
 
-## Token Budget
+If no `image:` field exists, insert it after the last existing frontmatter field (before closing `---`).
 
-Target: **~2,500-3,500 tokens** per book system prompt (between the `---` markers). This leaves room for:
-- The user's question (~100 tokens)
-- Retrieved codex content (~2,000-4,000 tokens depending on model context)
-- The answer (~500-1,000 tokens)
+### Inline image insertion
 
-Total per-book file including examples: ~4,000-5,000 tokens.
+Insert a centered `<img>` tag immediately after the closing `---` of frontmatter, before any existing content:
 
-## Shared Voice Block
+```html
 
-Every book includes a shared "Mibera Voice" paragraph to maintain universe consistency. This block is ~150 tokens and establishes:
-
-- You exist within the Mibera universe — 10,000 time-travelling Beras
-- Rave culture, altered states, the dancefloor as sacred space are your native context
-- You speak from within this world, not about it from outside
-- Chronic time (linear) and Kaironic time (the eternal now) coexist
-
-Each book then layers its specific persona on top of this shared foundation.
-
-## Cross-Book Routing Design
-
-Each book has a `### Routing` section with explicit redirect patterns:
-
-```markdown
-### Routing
-
-When the question falls outside your scope, redirect clearly:
-
-- Statistics or rarity → "The **Book of Data** tracks that."
-- Ancestor history or archetype philosophy → "The **Book of Lore** knows that story."
-- Tarot or drug meaning → "The **Book of Sight** can interpret that."
-- Grail art or visual symbolism → "The **Book of Grails** holds that knowledge."
-- "Who is Mibera #NNNN?" → "The **Book of Identity** can embody that Mibera for you."
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/{url_encoded_filename}.webp" alt="{name}" width="320" />
+</div>
 ```
 
-Routing uses **bold book names** so they're visually distinct in any interface.
+For astrology files (3 images per file):
 
-## Anti-Hallucination Design
+```html
 
-Every book includes these rules:
+<div align="center">
+  <img src="...Sun%20{Sign}.webp" alt="Sun {Sign}" width="200" />
+  <img src="...Moon%20{Sign}.webp" alt="Moon {Sign}" width="200" />
+  <img src="...Rising%20{Sign}.webp" alt="Rising {Sign}" width="200" />
+</div>
+```
 
-1. **Read before answering** — Always reference the specific file path. If you can't read the file, say so.
-2. **Never invent traits** — If a Mibera's traits aren't in the source file, don't guess.
-3. **Never invent entities** — If an entity isn't in `manifest.json`, it doesn't exist.
-4. **Scope boundaries** — The codex does NOT track ownership, prices, or on-chain state. Say so clearly.
-5. **"I don't know"** — When uncertain, say "I don't have that information in the codex" rather than guessing.
+### Idempotency
 
-## Book-Specific Design Notes
+- If file already contains `<div align="center">` with an `<img>` tag pointing to `mibera.s3.amazonaws.com`, skip the inline insertion
+- If file already contains an `<img>` pointing to old object storage, replace it
+- Frontmatter `image:` is always overwritten to canonical URL
 
-### Book of Data
-- References `_codex/data/miberas.jsonl` for structured lookups
-- References `browse/by-*.md` for pre-computed groupings
-- References `swag-scoring/` for score methodology
-- Voice: precise numbers + Mibera-world framing ("this Bera carries S-rank swag")
+### Safety
 
-### Book of Lore
-- References `core-lore/ancestors/*.md` (33 files)
-- References `core-lore/archetypes.md` and `core-lore/philosophy.md`
-- References `birthdays/*.md` (11 eras)
-- Voice: narrative, mythic, draws connections across time
+- Never modify content between `<!-- @generated:backlinks-start -->` and `<!-- @generated:backlinks-end -->`
+- Parse frontmatter with regex (stdlib-only, no PyYAML) — same pattern as all codex scripts
+- Write to a temp file, then atomic rename
 
-### Book of Sight
-- References `drugs-detailed/*.md` (78 files)
-- References `core-lore/tarot-cards/*.md` (78 files)
-- References `core-lore/drug-tarot-system.md` for the mapping
-- Voice: experiential, poetic, treats drugs as character fuel not pharmacology
+## URL Encoding
 
-### Book of Grails
-- References `grails/*.md` (42 files)
-- References `fractures/*.md` (10 files)
-- Voice: art-literate, culturally grounded, scene-native
+```python
+from urllib.parse import quote
+url = f"https://mibera.s3.amazonaws.com/traits/{quote(filename, safe='')}"
+```
 
-### Book of Identity
-- Incorporates `IDENTITY.md` synthesis framework directly
-- References `miberas/{ID}.md` then follows links to all trait files
-- Voice: chameleon — adapts to each Mibera's signals. Only book that *becomes* someone.
-- Must follow signal hierarchy: Archetype > Ancestor > Birthday/Era (load-bearing), then textural, then modifiers
+Spaces → `%20`, special chars encoded. `urllib.parse` is stdlib.
 
-## README Router Design
+## Output
 
-The `oracle/README.md` serves as the entry point with a question-to-book routing table and usage instructions for both humans and bot builders.
+The script prints a summary:
 
-## Integration Points
+```
+Matched:  1,160
+Skipped:  105 (orphans + deferred)
+Updated:  1,160
+Errors:   0
 
-| File | Change |
-|------|--------|
-| `manifest.json` | Add `oracle` content type with 5 entries |
-| `CLAUDE.md` | Add oracle lookup pattern |
-| `llms.txt` | Add Oracle section with routing table |
-| `SUMMARY.md` | Add Oracle link in navigation |
+Orphan images (no codex match):
+  - Bright Forest.webp
+  - ...
+```
 
-## Conventions
+And writes `_codex/scripts/reports/image-embed-report.json` with full details.
 
-- File naming: `book-of-{name}.md` (kebab-case, consistent with codex conventions)
-- No YAML frontmatter on oracle files (they're prompts, not entities)
-- Internal links use relative paths from repo root
-- Examples use real Mibera IDs and real trait values (verified against source files)
+## Sprint Plan Recommendation
+
+Single sprint, 3 tasks:
+1. Write `embed-images.py` script
+2. Run script, review output in Obsidian
+3. Validate (spot-check URLs, audit-links.sh)

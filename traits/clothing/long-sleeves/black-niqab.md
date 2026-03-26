@@ -1,16 +1,16 @@
 ---
 name: Black Niqab
-image: "https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(ROBES"
+image: ""
 archetype: Milady
 swag_score: 5
 date_added: "2024-07-28"
 ---
 
+
 # Black Niqab
 
 ## Visual Elements
 
-![Black Niqab](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(ROBES)
 
 Plain black niqab. Head and face cover that drapes down the head.
 

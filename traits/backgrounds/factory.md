@@ -1,14 +1,18 @@
 ---
 name: Factory
-image: "https://mibera.fsn1.your-objectstorage.com/components/background__z10/factory.webp"
+image: "https://mibera.s3.amazonaws.com/traits/factory.webp"
 date_added: "2024-08-14"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/factory.webp" alt="Factory" width="320" />
+</div>
+
 
 # Factory
 
 ## Visual Elements
 
-![Factory](https://mibera.fsn1.your-objectstorage.com/components/background__z10/factory.webp)
 
 Front-view from the street, of a building with windows and orange walls.
 

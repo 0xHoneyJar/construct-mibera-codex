@@ -1,14 +1,18 @@
 ---
 name: tongue
-image: "https://mibera.fsn1.your-objectstorage.com/components/mouth__z90/tongue__w8.webp"
+image: "https://mibera.s3.amazonaws.com/traits/tongue.webp"
 date_added: "2024-08-01"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/tongue.webp" alt="Tongue" width="320" />
+</div>
+
 
 # tongue
 
 ## Visual Elements
 
-![tongue](https://mibera.fsn1.your-objectstorage.com/components/mouth__z90/tongue__w8.webp)
 
 a small tongue, out of an open mouth.
 

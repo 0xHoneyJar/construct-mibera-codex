@@ -1,16 +1,20 @@
 ---
 name: hamas
-image: "https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS5_Hamas.webp"
+image: "https://mibera.s3.amazonaws.com/traits/SS5_Hamas.webp"
 archetype: "**Archetype Alignment:**"
 swag_score: 5
 date_added: "2024-07-28"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS5_Hamas.webp" alt="Hamas" width="320" />
+</div>
+
+
 # hamas
 
 ## Visual Elements
 
-![SS5 Hamas](https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS5_Hamas.webp)
 
 a face cover made of red and white scarf showing only the eyes part, with green garment with arabic script written on it going across the forehead.
 

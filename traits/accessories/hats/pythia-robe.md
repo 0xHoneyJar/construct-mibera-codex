@@ -1,16 +1,20 @@
 ---
 name: Pythia Robe
-image: "https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS4_chicagodetroit_ancient_pythia_Pythia%20Robe.webp"
+image: "https://mibera.s3.amazonaws.com/traits/SS4_chicagodetroit_ancient_pythia_Pythia%20Robe.webp"
 archetype: Chicago Detroit
 swag_score: 4
 date_added: "2024-07-26"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS4_chicagodetroit_ancient_pythia_Pythia%20Robe.webp" alt="Pythia Robe" width="320" />
+</div>
+
+
 # Pythia Robe
 
 ## Visual Elements
 
-![ancient pythia Pythia Robe](https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS4_chicagodetroit_ancient_pythia_Pythia%20Robe.webp)
 
 Red scarf draping down and folded around the bottom part.
 

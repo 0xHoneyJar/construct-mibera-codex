@@ -1,16 +1,20 @@
 ---
 name: Tie Dye
-image: "https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT"
+image: "https://mibera.s3.amazonaws.com/traits/SS2_freetekno_Tie%20Dye.webp"
 archetype: Freetekno
 swag_score: 2
 date_added: "2024-12-10"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS2_freetekno_Tie%20Dye.webp" alt="Tie Dye" width="320" />
+</div>
+
+
 # Tie Dye
 
 ## Visual Elements
 
-![Tie Dye](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)
 
 Tie dye t-shirt in rainbow colour (from center going outwards), with a Mibera logo in the center, of a smiley face with curved ears.
 

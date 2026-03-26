@@ -1,10 +1,15 @@
 ---
 name: baby panda bear
-image: SS4_milady_Baby Panda Bear.png
+image: "https://mibera.s3.amazonaws.com/traits/SS4_milady_Baby%20Panda%20Bear.webp"
 archetype: Milady
 swag_score: 4
 date_added: "2024-07-11"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS4_milady_Baby%20Panda%20Bear.webp" alt="Baby Panda Bear" width="320" />
+</div>
+
 
 # baby panda bear
 

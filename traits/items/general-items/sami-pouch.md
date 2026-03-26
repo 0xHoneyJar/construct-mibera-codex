@@ -1,10 +1,15 @@
 ---
 name: sami pouch
-image: SS5_acidhouse_modern_sami_Sami Pouch.png
+image: "https://mibera.s3.amazonaws.com/traits/SS5_acidhouse_modern_sami_Sami%20Pouch.webp"
 archetype: Acidhouse
 swag_score: 5
 date_added: "2024-07-12"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS5_acidhouse_modern_sami_Sami%20Pouch.webp" alt="Sami Pouch" width="320" />
+</div>
+
 
 # sami pouch
 

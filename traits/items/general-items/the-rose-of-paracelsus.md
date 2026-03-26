@@ -1,10 +1,15 @@
 ---
 name: the rose of paracelsus
-image: SS2_The Rose of Paracelsus.png
+image: "https://mibera.s3.amazonaws.com/traits/SS2_The%20Rose%20of%20Paracelsus.webp"
 archetype: "**Archetype Alignment:**"
 swag_score: 2
 date_added: "2024-07-16"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS2_The%20Rose%20of%20Paracelsus.webp" alt="The Rose Of Paracelsus" width="320" />
+</div>
+
 
 # the rose of paracelsus
 

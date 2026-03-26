@@ -1,16 +1,20 @@
 ---
 name: Blue Velvet Suit
-image: "https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(LONG"
+image: "https://mibera.s3.amazonaws.com/traits/SS3_chicagodetroit_Blue%20Velvet%20Suit.webp"
 archetype: Chicago Detroit
 swag_score: 3
 date_added: "2024-06-26"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_chicagodetroit_Blue%20Velvet%20Suit.webp" alt="Blue Velvet Suit" width="320" />
+</div>
+
+
 # Blue Velvet Suit
 
 ## Visual Elements
 
-![Blue Velvet Suit](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(LONG)
 
 Vibrant blue suit with velvet-y texture. Tie with the same colour as the suit and white shirt underneath.
 

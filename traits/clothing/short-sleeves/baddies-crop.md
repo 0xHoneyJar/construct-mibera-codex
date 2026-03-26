@@ -1,16 +1,20 @@
 ---
 name: Baddies Crop
-image: "https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT"
+image: "https://mibera.s3.amazonaws.com/traits/SS3_Baddies%20Crop.webp"
 archetype: "**Archetype Alignment:**"
 swag_score: 3
 date_added: "2024-12-10"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_Baddies%20Crop.webp" alt="Baddies Crop" width="320" />
+</div>
+
+
 # Baddies Crop
 
 ## Visual Elements
 
-![Baddies Crop](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)
 
 White cropped tank top with v-neck and a small graphic of a bear with a ribbon. Paired with a dark brown skirt.
 

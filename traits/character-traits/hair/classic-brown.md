@@ -1,8 +1,13 @@
 ---
 name: classic brown
-image: Classic Brown__w20.PNG Classic Brown__z-32.png
+image: "https://mibera.s3.amazonaws.com/traits/Classic%20Brown.webp"
 date_added: "2024-06-22"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Classic%20Brown.webp" alt="Classic Brown" width="320" />
+</div>
+
 
 # classic brown
 

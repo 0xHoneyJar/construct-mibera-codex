@@ -1,16 +1,20 @@
 ---
 name: Grateful Dead Mushroom
-image: "https://mibera.fsn1.your-objectstorage.com/components/tattoos__z125/Grateful%20Dead%20Mushroom.webp"
+image: "https://mibera.s3.amazonaws.com/traits/Grateful%20Dead%20Mushroom.webp"
 archetype: "**Archetype Alignment:**"
 swag_score: null
 date_added: "2024-12-10"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Grateful%20Dead%20Mushroom.webp" alt="Grateful Dead Mushroom" width="320" />
+</div>
+
+
 # Grateful Dead Mushroom
 
 ## Visual Elements
 
-![Grateful Dead Mushroom](https://mibera.fsn1.your-objectstorage.com/components/tattoos__z125/Grateful%20Dead%20Mushroom.webp)
 
 Pink bear posing in front of stereotypical cartoon-ish mushrooms in red and white.
 

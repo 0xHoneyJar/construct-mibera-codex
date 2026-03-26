@@ -1,8 +1,13 @@
 ---
 name: Bong Bear 9
-image: SS5_bongbear_Bong Bear 9.png
+image: "https://mibera.s3.amazonaws.com/traits/SS5_bongbear_Bong%20Bear%209.webp"
 date_added: "2024-12-09"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS5_bongbear_Bong%20Bear%209.webp" alt="Bong Bear 9" width="320" />
+</div>
+
 
 # Bong Bear 9
 

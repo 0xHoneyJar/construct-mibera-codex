@@ -1,16 +1,20 @@
 ---
 name: Grateful Dead 1
-image: "https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT"
+image: "https://mibera.s3.amazonaws.com/traits/SS2_acidhouse_Grateful%20Dead%201.webp"
 archetype: Acidhouse
 swag_score: 2
 date_added: "2024-12-10"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS2_acidhouse_Grateful%20Dead%201.webp" alt="Grateful Dead 1" width="320" />
+</div>
+
+
 # Grateful Dead 1
 
 ## Visual Elements
 
-![Grateful Dead 1](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)
 
 White t-shirt with multiple bears in each of the rainbow’s colors, holding a magician hat and a cane, lined up at the bottom part of the t-shirt.
 

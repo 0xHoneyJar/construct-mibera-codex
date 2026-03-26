@@ -1,10 +1,15 @@
 ---
 name: puffpaw thj
-image: SS3_Puffpaw THJ.PNG
+image: "https://mibera.s3.amazonaws.com/traits/SS3_Puffpaw%20THJ.webp"
 archetype: "**Archetype Alignment:**"
 swag_score: 3
 date_added: "2024-12-09"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_Puffpaw%20THJ.webp" alt="Puffpaw Thj" width="320" />
+</div>
+
 
 # puffpaw thj
 

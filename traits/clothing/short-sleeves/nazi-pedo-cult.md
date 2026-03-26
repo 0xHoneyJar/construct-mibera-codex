@@ -1,16 +1,20 @@
 ---
 name: Nazi Pedo Cult
-image: "https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT"
+image: "https://mibera.s3.amazonaws.com/traits/SS4_Nazi%20Pedo%20Cult.webp"
 archetype: "**Archetype Alignment:** Its relation to Milady culture / community and lore"
 swag_score: 4
 date_added: "2024-06-22"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS4_Nazi%20Pedo%20Cult.webp" alt="Nazi Pedo Cult" width="320" />
+</div>
+
+
 # Nazi Pedo Cult
 
 ## Visual Elements
 
-![Nazi Pedo Cult](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)
 
 Black t-shirt with a bright red rectangle in the middle. In it is a lady with green hair wearing black outfit- swastika in between her eyes and big text in white next to her that reads “NAZI PEDO CULT”.
 

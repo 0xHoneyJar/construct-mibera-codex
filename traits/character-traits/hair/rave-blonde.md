@@ -1,8 +1,13 @@
 ---
 name: rave blonde
-image: Rave Blonde__w2.png
+image: "https://mibera.s3.amazonaws.com/traits/Rave%20Blonde.webp"
 date_added: "2024-06-15"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Rave%20Blonde.webp" alt="Rave Blonde" width="320" />
+</div>
+
 
 # rave blonde
 

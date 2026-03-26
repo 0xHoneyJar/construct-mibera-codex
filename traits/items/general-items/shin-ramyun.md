@@ -1,10 +1,15 @@
 ---
 name: shin ramyun
-image: SS3_freetekno_Shin Ramyun.png
+image: "https://mibera.s3.amazonaws.com/traits/SS3_freetekno_Shin%20Ramyun.webp"
 archetype: Freetekno
 swag_score: 1
 date_added: "2024-07-09"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_freetekno_Shin%20Ramyun.webp" alt="Shin Ramyun" width="320" />
+</div>
+
 
 # shin ramyun
 

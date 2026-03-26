@@ -1,14 +1,18 @@
 ---
 name: Libra
-image: "https://mibera.fsn1.your-objectstorage.com/components/Constellations/libra.webp"
+image: "https://mibera.s3.amazonaws.com/traits/libra.webp"
 date_added: "2024-11-23"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/libra.webp" alt="Libra" width="320" />
+</div>
+
 
 # Libra
 
 ## Visual Elements
 
-![Libra](https://mibera.fsn1.your-objectstorage.com/components/Constellations/libra.webp)
 
 Deep blue night sky with bright white 4-points-stars connected by thin white lines forming a constellation (Libra). Smaller stars in white dots are scattered in the background.
 

@@ -1,16 +1,20 @@
 ---
 name: Cute Kigu
-image: "https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(KIGU"
+image: "https://mibera.s3.amazonaws.com/traits/SS4_milady_cute%20kigu.webp"
 archetype: Milady
 swag_score: 4
 date_added: "2024-12-09"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS4_milady_cute%20kigu.webp" alt="Cute Kigu" width="320" />
+</div>
+
+
 # Cute Kigu
 
 ## Visual Elements
 
-![cute kigu](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(KIGU)
 
 Bear onesie with the hood up in light beige.
 

@@ -1,16 +1,20 @@
 ---
 name: Mother Shirt
-image: "https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT"
+image: "https://mibera.s3.amazonaws.com/traits/SS2_Mother%20Shirt.webp"
 archetype: "**Archetype Alignment:** Its relation to Iggi Azalea $MOTHER merch and its cultural relevance in the web3 industry"
 swag_score: 2
 date_added: "2024-07-19"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS2_Mother%20Shirt.webp" alt="Mother Shirt" width="320" />
+</div>
+
+
 # Mother Shirt
 
 ## Visual Elements
 
-![Mother Shirt](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)
 
 White t-shirt with a semi-realism graphic of a koala and its baby in the center and text in black that reads “I SAVED A KOALA FROM CHLAMYDIA”.
 

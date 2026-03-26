@@ -1,7 +1,13 @@
 ---
 name: normal lilac
 date_added: "2024-06-03"
+image: "https://mibera.s3.amazonaws.com/traits/Normal%20Lilac.webp"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Normal%20Lilac.webp" alt="Normal Lilac" width="320" />
+</div>
+
 
 # normal lilac
 

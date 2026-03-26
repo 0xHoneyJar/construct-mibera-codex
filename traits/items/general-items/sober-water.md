@@ -1,10 +1,15 @@
 ---
 name: sober water
-image: SS2_milady_sober water.PNG
+image: "https://mibera.s3.amazonaws.com/traits/SS2_milady_sober%20water.webp"
 archetype: Milady
 swag_score: 2
 date_added: "2024-12-09"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS2_milady_sober%20water.webp" alt="Sober Water" width="320" />
+</div>
+
 
 # sober water
 

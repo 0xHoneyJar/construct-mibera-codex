@@ -1,10 +1,15 @@
 ---
 name: plum onigiri
-image: SS2_milady_Plum Onigiri.png
+image: "https://mibera.s3.amazonaws.com/traits/SS2_milady_Plum%20Onigiri.webp"
 archetype: Milady
 swag_score: 2
 date_added: "2024-07-07"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS2_milady_Plum%20Onigiri.webp" alt="Plum Onigiri" width="320" />
+</div>
+
 
 # plum onigiri
 

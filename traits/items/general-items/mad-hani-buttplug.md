@@ -1,10 +1,15 @@
 ---
 name: mad hani buttplug
-image: SS5_milady_Mad Hani Buttplug.png
+image: "https://mibera.s3.amazonaws.com/traits/SS5_milady_Mad%20Hani%20Buttplug.webp"
 archetype: Milady
 swag_score: 5
 date_added: "2024-07-13"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS5_milady_Mad%20Hani%20Buttplug.webp" alt="Mad Hani Buttplug" width="320" />
+</div>
+
 
 # mad hani buttplug
 

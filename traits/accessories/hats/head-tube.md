@@ -1,16 +1,20 @@
 ---
 name: Head Tube
-image: "https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS3_chicagodetroit_Head%20Tube.webp"
+image: "https://mibera.s3.amazonaws.com/traits/SS3_chicagodetroit_Head%20Tube.webp"
 archetype: Chicago Detroit
 swag_score: 3
 date_added: "2024-07-24"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_chicagodetroit_Head%20Tube.webp" alt="Head Tube" width="320" />
+</div>
+
+
 # Head Tube
 
 ## Visual Elements
 
-![Head Tube](https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS3_chicagodetroit_Head%20Tube.webp)
 
 Plain black turban.
 

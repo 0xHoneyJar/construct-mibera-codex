@@ -1,14 +1,18 @@
 ---
 name: No More Walls
-image: "https://mibera.fsn1.your-objectstorage.com/components/background__z10/no%20more%20walls.webp"
+image: "https://mibera.s3.amazonaws.com/traits/no%20more%20walls.webp"
 date_added: "2025-03-22"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/no%20more%20walls.webp" alt="No More Walls" width="320" />
+</div>
+
 
 # No More Walls
 
 ## Visual Elements
 
-![No More Walls](https://mibera.fsn1.your-objectstorage.com/components/background__z10/no%20more%20walls.webp)
 
 Glimpse of a starry night sky in dark navy blue with a hue of white.
 

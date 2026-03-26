@@ -1,10 +1,15 @@
 ---
 name: Pyramid
-image: SS3_pyramid.png
+image: "https://mibera.s3.amazonaws.com/traits/SS3_pyramid.webp"
 archetype: "**Archetype Alignment:** In relation / within an aligned aesthetic to ancient Egyptian as one of Mibera’s ancestors. Also in relation to Sun Ra."
 swag_score: 3
 date_added: "2024-06-04"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_pyramid.webp" alt="Pyramid" width="320" />
+</div>
+
 
 # Pyramid
 

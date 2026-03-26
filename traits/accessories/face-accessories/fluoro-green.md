@@ -1,16 +1,20 @@
 ---
 name: Fluoro Green
-image: "https://mibera.fsn1.your-objectstorage.com/components/face%20accessories__z60/SS3_freetekno_Fluoro Green.webp"
+image: "https://mibera.s3.amazonaws.com/traits/SS3_freetekno_Fluoro%20Green.webp"
 archetype: Freetekno
 swag_score: 3
 date_added: "2024-12-10"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_freetekno_Fluoro%20Green.webp" alt="Fluoro Green" width="320" />
+</div>
+
+
 # Fluoro Green
 
 ## Visual Elements
 
-![Fluoro Green](https://mibera.fsn1.your-objectstorage.com/components/face%20accessories__z60/SS3_freetekno_Fluoro Green.webp)
 
 Three vibrant-neon green strokes, one bigger than the other two.
 

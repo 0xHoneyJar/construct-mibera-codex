@@ -1,14 +1,18 @@
 ---
 name: Earth
-image: "https://mibera.fsn1.your-objectstorage.com/components/Elements/Earth.webp"
+image: "https://mibera.s3.amazonaws.com/traits/Earth.webp"
 quadrant: Northern (lat ≥ 0) and Western (lon < 0)
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Earth.webp" alt="Earth" width="320" />
+</div>
+
 
 # Earth
 
 ## Visual Elements
 
-![Earth](https://mibera.fsn1.your-objectstorage.com/components/Elements/Earth.webp)
 
 
 ## Cultural Context

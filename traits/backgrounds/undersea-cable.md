@@ -1,14 +1,18 @@
 ---
 name: Undersea Cable
-image: "https://mibera.fsn1.your-objectstorage.com/components/background__z10/undersea%20cable.webp"
+image: "https://mibera.s3.amazonaws.com/traits/undersea%20cable.webp"
 date_added: "2025-02-27"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/undersea%20cable.webp" alt="Undersea Cable" width="320" />
+</div>
+
 
 # Undersea Cable
 
 ## Visual Elements
 
-![Undersea Cable](https://mibera.fsn1.your-objectstorage.com/components/background__z10/undersea%20cable.webp)
 
 Very thick blue cable with thin yellow stripes on it cut / snapped into two, showing smaller wires poking out of them. The background setting is soft ocean-blue.
 

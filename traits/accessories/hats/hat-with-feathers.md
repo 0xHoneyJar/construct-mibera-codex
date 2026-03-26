@@ -1,16 +1,20 @@
 ---
 name: Hat With Feathers
-image: "https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS4_acidhouse_ancient_mongolian_Hat%20With%20Feathers.webp"
+image: "https://mibera.s3.amazonaws.com/traits/SS4_acidhouse_ancient_mongolian_Hat%20With%20Feathers.webp"
 archetype: Acidhouse
 swag_score: 4
 date_added: "2024-07-26"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS4_acidhouse_ancient_mongolian_Hat%20With%20Feathers.webp" alt="Hat With Feathers" width="320" />
+</div>
+
+
 # Hat With Feathers
 
 ## Visual Elements
 
-![ancient mongolian Hat With Feathers](https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS4_acidhouse_ancient_mongolian_Hat%20With%20Feathers.webp)
 
 Big headpiece consisting of a brown base with thin flowy strings on the front part and down framing the face. Multiple feathers that are enormous in size are poking out of the top part of the hat.
 

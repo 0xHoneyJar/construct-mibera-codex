@@ -1,16 +1,20 @@
 ---
 name: Vaneck Intern
-image: "https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS2_freetekno_vaneck%20intern.webp"
+image: "https://mibera.s3.amazonaws.com/traits/SS2_freetekno_vaneck%20intern.webp"
 archetype: Freetekno
 swag_score: 2
 date_added: "2024-07-27"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS2_freetekno_vaneck%20intern.webp" alt="Vaneck Intern" width="320" />
+</div>
+
+
 # Vaneck Intern
 
 ## Visual Elements
 
-![vaneck intern](https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS2_freetekno_vaneck%20intern.webp)
 
 Black cap with white text that reads “vaneck intern”.
 

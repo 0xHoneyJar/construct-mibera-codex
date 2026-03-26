@@ -1,16 +1,20 @@
 ---
 name: Horsey
-image: "https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT"
+image: "https://mibera.s3.amazonaws.com/traits/SS1_horsey.webp"
 archetype: "**Archetype Alignment:** Direct drug references."
 swag_score: 1
 date_added: "2024-06-22"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS1_horsey.webp" alt="Horsey" width="320" />
+</div>
+
+
 # Horsey
 
 ## Visual Elements
 
-![horsey](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)
 
 White t-shirt with a colourful doodle of a brown horse running on a green grass under yellow sun with colourful text that reads “ketamine” above it.
 

@@ -1,16 +1,20 @@
 ---
 name: Stylized Quetzalcoatl
-image: "https://mibera.fsn1.your-objectstorage.com/components/tattoos__z125/modern_mayan_Stylized%20Quetzalcoatl.webp"
+image: "https://mibera.s3.amazonaws.com/traits/modern_mayan_Stylized%20Quetzalcoatl.webp"
 archetype: "**Archetype Alignment:** To showcase a modern rendering of an ancient deity."
 swag_score: null
 date_added: "2024-08-09"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/modern_mayan_Stylized%20Quetzalcoatl.webp" alt="Stylized Quetzalcoatl" width="320" />
+</div>
+
+
 # Stylized Quetzalcoatl
 
 ## Visual Elements
 
-![Stylized Quetzalcoatl](https://mibera.fsn1.your-objectstorage.com/components/tattoos__z125/modern_mayan_Stylized%20Quetzalcoatl.webp)
 
 Line work of a flying entity Quetzalcōātl/Kukulkan’s face, front-view, clouds can be seen indicating the figure being in the sky.
 

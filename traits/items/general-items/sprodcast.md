@@ -1,10 +1,15 @@
 ---
 name: sprodcast
-image: SS3_sprodcast.PNG
+image: "https://mibera.s3.amazonaws.com/traits/SS3_sprodcast.webp"
 archetype: "**Archetype Alignment:**"
 swag_score: 3
 date_added: "2025-03-11"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_sprodcast.webp" alt="Sprodcast" width="320" />
+</div>
+
 
 # sprodcast
 

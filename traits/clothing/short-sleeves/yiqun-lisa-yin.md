@@ -1,16 +1,20 @@
 ---
 name: Yiqun Lisa Yin
-image: "https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT"
+image: "https://mibera.s3.amazonaws.com/traits/SS2_Yiqun%20Lisa%20Yin.webp"
 archetype: "**Archetype Alignment:**"
 swag_score: 2
 date_added: "2024-06-22"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS2_Yiqun%20Lisa%20Yin.webp" alt="Yiqun Lisa Yin" width="320" />
+</div>
+
+
 # Yiqun Lisa Yin
 
 ## Visual Elements
 
-![Yiqun Lisa Yin](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)
 
 White t-shirt with a thin graphic made of circles and lines connected to one another forming some sort of a pyramid / scheme.
 

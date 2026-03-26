@@ -1,16 +1,20 @@
 ---
 name: stars
-image: "https://mibera.fsn1.your-objectstorage.com/components/glasses__z140/freetekno_Stars.webp"
+image: "https://mibera.s3.amazonaws.com/traits/freetekno_Stars.webp"
 archetype: Freetekno
 swag_score: 5
 date_added: "2024-06-17"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS4_freetekno_stars.webp" alt="Stars" width="320" />
+</div>
+
+
 # stars
 
 ## Visual Elements
 
-![Stars](https://mibera.fsn1.your-objectstorage.com/components/glasses__z140/freetekno_Stars.webp)
 
 Star-shaped rimless glasses in deep dark pink.
 

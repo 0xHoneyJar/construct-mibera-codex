@@ -1,16 +1,20 @@
 ---
 name: Camo
-image: "https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS3_milady_Camo.webp"
+image: "https://mibera.s3.amazonaws.com/traits/SS3_milady_Camo.webp"
 archetype: Milady
 swag_score: 3
 date_added: "2024-07-25"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_milady_Camo.webp" alt="Camo" width="320" />
+</div>
+
+
 # Camo
 
 ## Visual Elements
 
-![Camo](https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS3_milady_Camo.webp)
 
 Mushroom shaped beret with camo patterns with army green color.
 

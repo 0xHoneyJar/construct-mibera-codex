@@ -6,9 +6,14 @@ origin: Central Asia, Indian subcontinent
 archetype: Acidhouse
 ancestor: Chinese, Native American
 swag_score: 5
-image: acidhouse_chinese_nativeAmerican_CBD.PNG
+image: "https://mibera.s3.amazonaws.com/traits/acidhouse_chinese_nativeAmerican_CBD.webp"
 date_added: "2025-01-12"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/acidhouse_chinese_nativeAmerican_CBD.webp" alt="Cbd" width="320" />
+</div>
+
 
 # CBD
 

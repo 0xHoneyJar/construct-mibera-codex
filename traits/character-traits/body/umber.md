@@ -1,14 +1,18 @@
 ---
 name: umber
-image: "https://mibera.fsn1.your-objectstorage.com/components/body__z40/umber__z80.webp"
+image: "https://mibera.s3.amazonaws.com/traits/umber.webp"
 date_added: "2024-08-13"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/umber.webp" alt="Umber" width="320" />
+</div>
+
 
 # umber
 
 ## Visual Elements
 
-![Umber](https://mibera.fsn1.your-objectstorage.com/components/body__z40/umber__z80.webp)
 
 A slightly darker tone than tanned skin, with warm-neutral depth.
 

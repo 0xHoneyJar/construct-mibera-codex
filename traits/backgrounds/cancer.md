@@ -1,14 +1,18 @@
 ---
 name: Cancer
-image: "https://mibera.fsn1.your-objectstorage.com/components/Constellations/cancer.webp"
+image: "https://mibera.s3.amazonaws.com/traits/cancer.webp"
 date_added: "2024-11-23"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/cancer.webp" alt="Cancer" width="320" />
+</div>
+
 
 # Cancer
 
 ## Visual Elements
 
-![Cancer](https://mibera.fsn1.your-objectstorage.com/components/Constellations/cancer.webp)
 
 Deep blue night sky with bright white 4-points-stars connected by thin white lines forming a constellation (Cancer). Smaller stars in white dots are scattered in the background.
 

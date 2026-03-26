@@ -1,14 +1,18 @@
 ---
 name: chuffed
-image: "https://mibera.fsn1.your-objectstorage.com/components/mouth__z90/chuffed__w3.webp"
+image: "https://mibera.s3.amazonaws.com/traits/chuffed.webp"
 date_added: "2024-06-05"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/chuffed.webp" alt="Chuffed" width="320" />
+</div>
+
 
 # chuffed
 
 ## Visual Elements
 
-![chuffed](https://mibera.fsn1.your-objectstorage.com/components/mouth__z90/chuffed__w3.webp)
 
 a short curved line showcasing a puffing cheek, and another one portraying a smile.
 

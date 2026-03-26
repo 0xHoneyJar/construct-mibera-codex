@@ -6,9 +6,14 @@ origin: USA
 archetype: Milady
 ancestor: Nepal, Turkey
 swag_score: 3
-image: milady_nepal_turkey_ketamine.PNG
+image: "https://mibera.s3.amazonaws.com/traits/milady_nepal_turkey_ketamine.webp"
 date_added: "2025-01-12"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/milady_nepal_turkey_ketamine.webp" alt="Ketamine" width="320" />
+</div>
+
 
 # Ketamine
 

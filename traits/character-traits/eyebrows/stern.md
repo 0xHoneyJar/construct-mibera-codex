@@ -1,14 +1,18 @@
 ---
 name: stern
-image: "https://mibera.fsn1.your-objectstorage.com/components/eyebrows__z95/Stern.webp"
+image: "https://mibera.s3.amazonaws.com/traits/Stern.webp"
 date_added: "2024-07-30"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Stern.webp" alt="Stern" width="320" />
+</div>
+
 
 # stern
 
 ## Visual Elements
 
-![Stern](https://mibera.fsn1.your-objectstorage.com/components/eyebrows__z95/Stern.webp)
 
 a pair of straight, slightly angled downward eyebrows. Shape is flat and rigid.
 

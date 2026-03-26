@@ -1,16 +1,20 @@
 ---
 name: F
 rank: F
-image: "https://mibera.fsn1.your-objectstorage.com/components/Ranking/F.webp"
+image: "https://mibera.s3.amazonaws.com/traits/F.webp"
 shape: Panda
 color: "black, white, blue"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/F.webp" alt="F" width="320" />
+</div>
+
 
 # F
 
 ## Visual Elements
 
-![Rank F](https://mibera.fsn1.your-objectstorage.com/components/Ranking/F.webp)
 
 
 ## Cultural Context

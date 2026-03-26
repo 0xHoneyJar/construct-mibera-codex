@@ -1,10 +1,15 @@
 ---
 name: radio
-image: SS2_milady_Radio.png
+image: "https://mibera.s3.amazonaws.com/traits/SS2_milady_Radio.webp"
 archetype: Milady
 swag_score: 2
 date_added: "2025-07-07"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS2_milady_Radio.webp" alt="Radio" width="320" />
+</div>
+
 
 # radio
 

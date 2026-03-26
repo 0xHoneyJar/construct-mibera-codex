@@ -1,10 +1,15 @@
 ---
 name: bera pudgy plushie
-image: SS3_bera pudgy plushie.png
+image: "https://mibera.s3.amazonaws.com/traits/SS3_bera%20pudgy%20plushie.webp"
 archetype: "**Archetype Alignment:**"
 swag_score: 3
 date_added: "2025-03-22"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_bera%20pudgy%20plushie.webp" alt="Bera Pudgy Plushie" width="320" />
+</div>
+
 
 # bera pudgy plushie
 

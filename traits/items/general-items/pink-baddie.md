@@ -1,10 +1,15 @@
 ---
 name: pink baddie
-image: SS3_Pink Baddie.PNG
+image: "https://mibera.s3.amazonaws.com/traits/SS3_Pink%20Baddie.webp"
 archetype: "**Archetype Alignment:**"
 swag_score: 3
 date_added: "2024-12-09"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_Pink%20Baddie.webp" alt="Pink Baddie" width="320" />
+</div>
+
 
 # pink baddie
 

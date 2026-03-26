@@ -1,8 +1,13 @@
 ---
 name: braided purple
-image: Braided Purple__w6.PNG
+image: "https://mibera.s3.amazonaws.com/traits/Braided%20Purple.webp"
 date_added: "2024-06-04"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Braided%20Purple.webp" alt="Braided Purple" width="320" />
+</div>
+
 
 # braided purple
 

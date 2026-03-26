@@ -1,16 +1,20 @@
 ---
 name: Future Rug Core
-image: "https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT"
+image: "https://mibera.s3.amazonaws.com/traits/SS2_freetekno_Future%20Rug%20Core.webp"
 archetype: Freetekno
 swag_score: 2
 date_added: "2024-06-22"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS2_freetekno_Future%20Rug%20Core.webp" alt="Future Rug Core" width="320" />
+</div>
+
+
 # Future Rug Core
 
 ## Visual Elements
 
-![Future Rug Core](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)
 
 Black t-shirt with red text that says “THE FUTURE IS RUGCORE” in thin font.
 

@@ -1,16 +1,20 @@
 ---
 name: Remcon
-image: "https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS3_acidhouse_Remcon.webp"
+image: "https://mibera.s3.amazonaws.com/traits/SS3_acidhouse_Remcon.webp"
 archetype: Acidhouse
 swag_score: 3
 date_added: "2024-07-24"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_acidhouse_Remcon.webp" alt="Remcon" width="320" />
+</div>
+
+
 # Remcon
 
 ## Visual Elements
 
-![Remcon](https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS3_acidhouse_Remcon.webp)
 
 White and soft bright pink cap with “REMILIA-CON TOKYO 2023” text in black, under graphic of a pair of wings outlined.
 

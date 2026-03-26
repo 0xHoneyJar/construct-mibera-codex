@@ -1,16 +1,20 @@
 ---
 name: Mottega Blue
-image: "https://mibera.fsn1.your-objectstorage.com/components/glasses__z140/milady_Mottega Blue.webp"
+image: "https://mibera.s3.amazonaws.com/traits/milady_Mottega%20Blue.webp"
 archetype: Milady
 swag_score: 1
 date_added: "2024-06-05"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/milady_Mottega%20Blue.webp" alt="Mottega Blue" width="320" />
+</div>
+
+
 # Mottega Blue
 
 ## Visual Elements
 
-![Mottega Blue](https://mibera.fsn1.your-objectstorage.com/components/glasses__z140/milady_Mottega Blue.webp)
 
 Glasses with light blue lenses and thick blue frames.
 

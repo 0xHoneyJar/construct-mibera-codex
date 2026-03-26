@@ -1,14 +1,18 @@
 ---
 name: ecstasy grey
-image: "https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/Ecstasy%20Grey__w8.webp"
+image: "https://mibera.s3.amazonaws.com/traits/Ecstasy%20Grey.webp"
 date_added: "2024-06-03"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Ecstasy%20Grey.webp" alt="Ecstasy Grey" width="320" />
+</div>
+
 
 # ecstasy grey
 
 ## Visual Elements
 
-![Ecstasy Grey](https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/Ecstasy%20Grey__w8.webp)
 
 grey eyes with heavily dilated pupils.
 

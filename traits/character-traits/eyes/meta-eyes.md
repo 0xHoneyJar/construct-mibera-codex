@@ -1,14 +1,18 @@
 ---
 name: meta eyes
-image: "https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/Meta%20eyes__w3.webp"
+image: "https://mibera.s3.amazonaws.com/traits/Meta%20eyes.webp"
 date_added: "2024-06-03"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Meta%20eyes.webp" alt="Meta Eyes" width="320" />
+</div>
+
 
 # meta eyes
 
 ## Visual Elements
 
-![Meta eyes](https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/Meta%20eyes__w3.webp)
 
 "eyes" written in sloppy black text instead of actual eyes
 

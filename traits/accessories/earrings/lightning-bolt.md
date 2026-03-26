@@ -1,10 +1,15 @@
 ---
 name: Lightning Bolt
-image: SS3_lightning bolt.png
+image: "https://mibera.s3.amazonaws.com/traits/SS3_lightning%20bolt.webp"
 archetype: "**Archetype Alignment:** In relation to the rave culture as well as a slight Zeus reference."
 swag_score: 3
 date_added: "2024-06-04"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_lightning%20bolt.webp" alt="Lightning Bolt" width="320" />
+</div>
+
 
 # Lightning Bolt
 

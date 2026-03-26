@@ -1,14 +1,18 @@
 ---
 name: Bear Cave
-image: "https://mibera.fsn1.your-objectstorage.com/components/background__z10/bear%20cave.webp"
+image: "https://mibera.s3.amazonaws.com/traits/bear%20cave.webp"
 date_added: "2024-08-14"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/bear%20cave.webp" alt="Bear Cave" width="320" />
+</div>
+
 
 # Bear Cave
 
 ## Visual Elements
 
-![Bear Cave](https://mibera.fsn1.your-objectstorage.com/components/background__z10/bear%20cave.webp)
 
 Flat stone grey wall with a hint of brown, a few thick cracks in the surface. Bright orange brushes are stroked around the surface.
 

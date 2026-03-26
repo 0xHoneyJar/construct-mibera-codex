@@ -1,8 +1,13 @@
 ---
 name: Bong Bear 80
-image: SS5_bongbear_Bong Bear 80.png
+image: "https://mibera.s3.amazonaws.com/traits/SS5_bongbear_Bong%20Bear%2080.webp"
 date_added: "2024-12-09"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS5_bongbear_Bong%20Bear%2080.webp" alt="Bong Bear 80" width="320" />
+</div>
+
 
 # Bong Bear 80
 

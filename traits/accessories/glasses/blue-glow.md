@@ -1,16 +1,20 @@
 ---
 name: blue glow
-image: "https://mibera.fsn1.your-objectstorage.com/components/glasses__z140/chicagodetroit_Blue Glow.webp"
+image: "https://mibera.s3.amazonaws.com/traits/chicagodetroit_Blue%20Glow.webp"
 archetype: Chicago Detroit
 swag_score: 5
 date_added: "2024-06-18"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/chicagodetroit_Blue%20Glow.webp" alt="Blue Glow" width="320" />
+</div>
+
+
 # blue glow
 
 ## Visual Elements
 
-![Blue Glow](https://mibera.fsn1.your-objectstorage.com/components/glasses__z140/chicagodetroit_Blue Glow.webp)
 
 Glow glasses mainly in neon blue, with yellow on the center and sides.
 

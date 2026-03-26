@@ -1,16 +1,20 @@
 ---
 name: Sharaku
-image: "https://mibera.fsn1.your-objectstorage.com/components/tattoos__z125/ancient_japanese_Sharaku.webp"
+image: "https://mibera.s3.amazonaws.com/traits/ancient_japanese_Sharaku.webp"
 archetype: "**Archetype Alignment:**"
 swag_score: null
 date_added: "2024-08-10"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/ancient_japanese_Sharaku.webp" alt="Sharaku" width="320" />
+</div>
+
+
 # Sharaku
 
 ## Visual Elements
 
-![Sharaku](https://mibera.fsn1.your-objectstorage.com/components/tattoos__z125/ancient_japanese_Sharaku.webp)
 
 Outline of a figure of a Japanese man, specifically Sharaku.
 

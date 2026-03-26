@@ -1,10 +1,15 @@
 ---
 name: ps1 controller
-image: SS4_freetekno_PS1 Controller.png
+image: "https://mibera.s3.amazonaws.com/traits/SS4_freetekno_PS1%20Controller.webp"
 archetype: Freetekno
 swag_score: 4
 date_added: "2024-07-11"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS4_freetekno_PS1%20Controller.webp" alt="Ps1 Controller" width="320" />
+</div>
+
 
 # ps1 controller
 

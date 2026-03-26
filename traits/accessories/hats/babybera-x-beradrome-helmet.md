@@ -3,7 +3,13 @@ name: babybera x beradrome helmet
 archetype: "**Archetype Alignment:**"
 swag_score: 4
 date_added: null
+image: "https://mibera.s3.amazonaws.com/traits/SS4_babybera%20x%20beradrome%20helmet.webp"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS4_babybera%20x%20beradrome%20helmet.webp" alt="Babybera X Beradrome Helmet" width="320" />
+</div>
+
 
 # babybera x beradrome helmet
 

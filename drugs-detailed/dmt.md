@@ -6,9 +6,14 @@ origin: South America
 archetype: Acidhouse
 ancestor: Mayan, Aboriginal, Native American
 swag_score: 2
-image: acidhouse_mayan_aboriginal_nativeAmerican_DMT.PNG
+image: "https://mibera.s3.amazonaws.com/traits/acidhouse_mayan_aboriginal_nativeAmerican_DMT.webp"
 date_added: "2025-01-12"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/acidhouse_mayan_aboriginal_nativeAmerican_DMT.webp" alt="Dmt" width="320" />
+</div>
+
 
 # DMT
 

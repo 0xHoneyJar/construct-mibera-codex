@@ -1,8 +1,13 @@
 ---
 name: short flared blue
-image: Short Flared Blue__w20.PNG
+image: "https://mibera.s3.amazonaws.com/traits/Short%20Flared%20Blue.webp"
 date_added: "2024-06-22"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Short%20Flared%20Blue.webp" alt="Short Flared Blue" width="320" />
+</div>
+
 
 # short flared blue
 

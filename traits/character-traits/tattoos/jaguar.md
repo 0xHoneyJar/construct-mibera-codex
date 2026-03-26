@@ -1,16 +1,20 @@
 ---
 name: Jaguar
-image: "https://mibera.fsn1.your-objectstorage.com/components/tattoos__z125/ancient_mayan_Jaguar.webp"
+image: "https://mibera.s3.amazonaws.com/traits/ancient_mayan_Jaguar.webp"
 archetype: "**Archetype Alignment:**"
 swag_score: null
 date_added: "2024-08-09"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/ancient_mayan_Jaguar.webp" alt="Jaguar" width="320" />
+</div>
+
+
 # Jaguar
 
 ## Visual Elements
 
-![Jaguar](https://mibera.fsn1.your-objectstorage.com/components/tattoos__z125/ancient_mayan_Jaguar.webp)
 
 Line drawing of what looks like an upside down cat-like animal in a distinct style.
 

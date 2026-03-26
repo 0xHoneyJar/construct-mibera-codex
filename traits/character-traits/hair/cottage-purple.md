@@ -1,8 +1,13 @@
 ---
 name: cottage purple
-image: Cottage Purple__w4.PNG
+image: "https://mibera.s3.amazonaws.com/traits/Cottage%20Purple.webp"
 date_added: "2024-06-15"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Cottage%20Purple.webp" alt="Cottage Purple" width="320" />
+</div>
+
 
 # cottage purple
 

@@ -1,14 +1,18 @@
 ---
 name: Ford
-image: "https://mibera.fsn1.your-objectstorage.com/components/background__z10/ford.webp"
+image: "https://mibera.s3.amazonaws.com/traits/ford.webp"
 date_added: "2024-08-14"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/ford.webp" alt="Ford" width="320" />
+</div>
+
 
 # Ford
 
 ## Visual Elements
 
-![Ford](https://mibera.fsn1.your-objectstorage.com/components/background__z10/ford.webp)
 
 View of what looks like the front side of a building, and a huge ‘FORD’ sign standing tall.
 

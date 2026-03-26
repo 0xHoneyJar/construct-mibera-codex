@@ -1,16 +1,20 @@
 ---
 name: Polar Kigu
-image: "https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(KIGU"
+image: "https://mibera.s3.amazonaws.com/traits/SS5_milady_Polar%20Kigu.webp"
 archetype: Milady
 swag_score: 5
 date_added: "2024-07-31"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS5_milady_Polar%20Kigu.webp" alt="Polar Kigu" width="320" />
+</div>
+
+
 # Polar Kigu
 
 ## Visual Elements
 
-![Polar Kigu](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(KIGU)
 
 Polar bear onesie in white with the hood up and sparkly eyes.
 

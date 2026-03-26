@@ -1,16 +1,20 @@
 ---
 name: Red Forehead
-image: "https://mibera.fsn1.your-objectstorage.com/components/face%20accessories__z60/SS3_milady_modern_nepal_Red Forehead.webp"
+image: "https://mibera.s3.amazonaws.com/traits/SS3_milady_modern_nepal_Red%20Forehead.webp"
 archetype: Milady
 swag_score: 3
 date_added: "2024-12-10"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_milady_modern_nepal_Red%20Forehead.webp" alt="Red Forehead" width="320" />
+</div>
+
+
 # Red Forehead
 
 ## Visual Elements
 
-![Red Forehead](https://mibera.fsn1.your-objectstorage.com/components/face%20accessories__z60/SS3_milady_modern_nepal_Red Forehead.webp)
 
 vibrant red strokes going upwards.
 

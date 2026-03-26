@@ -1,10 +1,15 @@
 ---
 name: yuzu
-image: SS3_Yuzu.PNG
+image: "https://mibera.s3.amazonaws.com/traits/SS3_Yuzu.webp"
 archetype: "**Archetype Alignment:**"
 swag_score: 3
 date_added: "2024-12-09"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_Yuzu.webp" alt="Yuzu" width="320" />
+</div>
+
 
 # yuzu
 

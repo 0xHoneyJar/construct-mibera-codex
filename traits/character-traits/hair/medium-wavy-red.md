@@ -1,8 +1,13 @@
 ---
 name: medium wavy red
-image: Medium Wavy Red__w4.png
+image: "https://mibera.s3.amazonaws.com/traits/Medium%20Wavy%20Red.webp"
 date_added: "2024-06-15"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Medium%20Wavy%20Red.webp" alt="Medium Wavy Red" width="320" />
+</div>
+
 
 # medium wavy red
 

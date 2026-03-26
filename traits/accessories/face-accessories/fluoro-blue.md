@@ -1,16 +1,20 @@
 ---
 name: Fluoro Blue
-image: "https://mibera.fsn1.your-objectstorage.com/components/face%20accessories__z60/SS3_freetekno_Fluoro Blue.webp"
+image: "https://mibera.s3.amazonaws.com/traits/SS3_freetekno_Fluoro%20Blue.webp"
 archetype: Freetekno
 swag_score: 3
 date_added: "2024-12-10"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_freetekno_Fluoro%20Blue.webp" alt="Fluoro Blue" width="320" />
+</div>
+
+
 # Fluoro Blue
 
 ## Visual Elements
 
-![Fluoro Blue](https://mibera.fsn1.your-objectstorage.com/components/face%20accessories__z60/SS3_freetekno_Fluoro Blue.webp)
 
 Three vibrant neon-blue (almost turquoise) strokes, one bigger than the other two.
 

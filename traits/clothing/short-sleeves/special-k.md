@@ -1,16 +1,20 @@
 ---
 name: Special K
-image: "https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT"
+image: "https://mibera.s3.amazonaws.com/traits/SS3_acidhouse_Special%20K.webp"
 archetype: Acidhouse
 swag_score: 3
 date_added: "2024-12-10"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_acidhouse_Special%20K.webp" alt="Special K" width="320" />
+</div>
+
+
 # Special K
 
 ## Visual Elements
 
-![Special K](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)
 
 White t-shirt with white text that reads “special K.” with the ‘K’ being a big letter in red and curvy-shaped lettering.
 

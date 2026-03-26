@@ -1,14 +1,18 @@
 ---
 name: demonic
-image: "https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/Demonic__w4.webp"
+image: "https://mibera.s3.amazonaws.com/traits/Demonic.webp"
 date_added: "2024-06-03"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Demonic.webp" alt="Demonic" width="320" />
+</div>
+
 
 # demonic
 
 ## Visual Elements
 
-![Demonic](https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/Demonic__w4.webp)
 
 plain red eyes with no visible iris. Somewhat demonic and soulless.
 

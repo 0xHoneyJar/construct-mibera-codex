@@ -1,16 +1,20 @@
 ---
 name: Acid Mibera
-image: "https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT"
+image: "https://mibera.s3.amazonaws.com/traits/SS3_acidhouse_Acid%20Mibera.webp"
 archetype: Acidhouse
 swag_score: 3
 date_added: "2024-06-22"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_acidhouse_Acid%20Mibera.webp" alt="Acid Mibera" width="320" />
+</div>
+
+
 # Acid Mibera
 
 ## Visual Elements
 
-![Acid Mibera](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)
 
 White t-shirt with black text that reads ‘ACID’ and a big yellow smiley with bear ears (mibera).
 

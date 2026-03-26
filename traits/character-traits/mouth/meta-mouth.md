@@ -1,14 +1,18 @@
 ---
 name: meta mouth
-image: "https://mibera.fsn1.your-objectstorage.com/components/mouth__z90/meta mouth__w1.webp"
+image: "https://mibera.s3.amazonaws.com/traits/meta%20mouth.webp"
 date_added: "2024-06-05"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/meta%20mouth.webp" alt="Meta Mouth" width="320" />
+</div>
+
 
 # meta mouth
 
 ## Visual Elements
 
-![meta mouth](https://mibera.fsn1.your-objectstorage.com/components/mouth__z90/meta mouth__w1.webp)
 
 a mouth made of the writing of the word ‘mouth’.
 

@@ -1,16 +1,20 @@
 ---
 name: C
 rank: C
-image: "https://mibera.fsn1.your-objectstorage.com/components/Ranking/C.webp"
+image: "https://mibera.s3.amazonaws.com/traits/SS3_freetekno_C.webp"
 shape: Circle
 color: a darker shade of orange
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/C.webp" alt="C" width="320" />
+</div>
+
 
 # C
 
 ## Visual Elements
 
-![Rank C](https://mibera.fsn1.your-objectstorage.com/components/Ranking/C.webp)
 
 
 ## Cultural Context

@@ -1,10 +1,15 @@
 ---
 name: apdao ring 1
-image: SS5_apDAO Ring 1.PNG
+image: "https://mibera.s3.amazonaws.com/traits/SS5_apDAO%20Ring%201.webp"
 archetype: "**Archetype Alignment:**"
 swag_score: 5
 date_added: "2024-12-09"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS5_apDAO%20Ring%201.webp" alt="Apdao Ring 1" width="320" />
+</div>
+
 
 # apdao ring 1
 

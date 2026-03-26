@@ -1,16 +1,20 @@
 ---
 name: Spiral Tee
-image: "https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT"
+image: "https://mibera.s3.amazonaws.com/traits/SS3_acidhouse_Spiral%20Tee.webp"
 archetype: Acidhouse
 swag_score: 3
 date_added: "2024-06-22"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_acidhouse_Spiral%20Tee.webp" alt="Spiral Tee" width="320" />
+</div>
+
+
 # Spiral Tee
 
 ## Visual Elements
 
-![Spiral Tee](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)
 
 Black t-shirt with white spiral leading to Mibera logo in the center.
 

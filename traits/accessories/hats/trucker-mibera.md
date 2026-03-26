@@ -1,16 +1,20 @@
 ---
 name: Trucker Mibera
-image: "https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS3_milady_Trucker%20Mibera.webp"
+image: "https://mibera.s3.amazonaws.com/traits/SS3_milady_Trucker%20Mibera.webp"
 archetype: Milady
 swag_score: 3
 date_added: "2024-12-10"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_milady_Trucker%20Mibera.webp" alt="Trucker Mibera" width="320" />
+</div>
+
+
 # Trucker Mibera
 
 ## Visual Elements
 
-![Trucker Mibera](https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS3_milady_Trucker%20Mibera.webp)
 
 White and yellow cap with Mibera logo in the middle; a yellow smiley face with bear ears.
 

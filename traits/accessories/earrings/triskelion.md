@@ -1,10 +1,15 @@
 ---
 name: Triskelion
-image: SS4_acidhouse_Triskelion.png
+image: "https://mibera.s3.amazonaws.com/traits/SS4_acidhouse_Triskelion.webp"
 archetype: Acidhouse
 swag_score: 4
 date_added: "2024-12-10"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS4_acidhouse_Triskelion.webp" alt="Triskelion" width="320" />
+</div>
+
 
 # Triskelion
 

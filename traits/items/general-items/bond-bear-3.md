@@ -1,10 +1,15 @@
 ---
 name: bond bear 3
-image: SS4_milady_Bond Bear 3.png
+image: "https://mibera.s3.amazonaws.com/traits/SS4_milady_Bond%20Bear%203.webp"
 archetype: Milady
 swag_score: 4
 date_added: "2024-07-11"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS4_milady_Bond%20Bear%203.webp" alt="Bond Bear 3" width="320" />
+</div>
+
 
 # bond bear 3
 

@@ -1,10 +1,15 @@
 ---
 name: blunt
-image: SS3_chicagodetroit_Blunt.png
+image: "https://mibera.s3.amazonaws.com/traits/blunt.webp"
 archetype: Chicago Detroit
 swag_score: 2
 date_added: "2024-06-05"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_chicagodetroit_Blunt.webp" alt="Blunt" width="320" />
+</div>
+
 
 # blunt
 

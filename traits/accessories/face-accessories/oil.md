@@ -1,16 +1,20 @@
 ---
 name: Oil
-image: "https://mibera.fsn1.your-objectstorage.com/components/face%20accessories__z60/SS2_freetekno_Oil.webp"
+image: "https://mibera.s3.amazonaws.com/traits/SS2_freetekno_Oil.webp"
 archetype: Freetekno
 swag_score: 2
 date_added: "2024-12-10"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS2_freetekno_Oil.webp" alt="Oil" width="320" />
+</div>
+
+
 # Oil
 
 ## Visual Elements
 
-![Oil](https://mibera.fsn1.your-objectstorage.com/components/face%20accessories__z60/SS2_freetekno_Oil.webp)
 
 Black smudges, 1 bigger in size and 2 small ones.
 

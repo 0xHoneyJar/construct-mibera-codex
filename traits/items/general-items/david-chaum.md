@@ -3,7 +3,13 @@ name: David Chaum
 archetype: "**Archetype Alignment:**"
 swag_score: 5
 date_added: null
+image: "https://mibera.s3.amazonaws.com/traits/SS5_cypherpunk_David%20Chaum.webp"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS5_cypherpunk_David%20Chaum.webp" alt="David Chaum" width="320" />
+</div>
+
 
 # David Chaum
 

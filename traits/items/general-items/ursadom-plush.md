@@ -1,10 +1,15 @@
 ---
 name: ursadom plush
-image: SS2_milady_Ursadom Plush.png
+image: "https://mibera.s3.amazonaws.com/traits/SS2_milady_Ursadom%20Plush.webp"
 archetype: Milady
 swag_score: 2
 date_added: "2024-06-04"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS2_milady_Ursadom%20Plush.webp" alt="Ursadom Plush" width="320" />
+</div>
+
 
 # ursadom plush
 

@@ -1,10 +1,15 @@
 ---
 name: Beramilia
-image: SS3_acidhouse_Beramilia.png
+image: "https://mibera.s3.amazonaws.com/traits/SS3_acidhouse_Beramilia.webp"
 archetype: Acidhouse
 swag_score: 3
 date_added: "2024-12-10"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_acidhouse_Beramilia.webp" alt="Beramilia" width="320" />
+</div>
+
 
 # Beramilia
 
