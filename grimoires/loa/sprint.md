@@ -26,3 +26,25 @@
 - Verify backlink sections untouched
 
 **Acceptance:** Zero broken links, zero corrupted backlinks.
+
+## Sprint 2: Vending Machine Gap Fill (Global ID: 33)
+
+### Task 1: Generate missing VM images from layers
+- Add `necklaces` z-index (45) to micodex_assembler.py
+- Run assembler against `new stuff for da vm` layers folder
+- Generate 24 images (19 necklaces + great, beras-jersey, carpenters-plane, MBGA, magyar-tetovalas)
+
+**Acceptance:** 24 new webp images generated, all rendering correctly.
+
+### Task 2: Upload and embed
+- Copy to micodex-images/output, sync to S3
+- Re-run embed-images.py + manually embed MBGA and magyar-tetovalas (slug mismatch)
+- Verify all S3 URLs return 200
+
+**Acceptance:** 98/102 VM entries have images (4 remaining need source art: propeller, cancer-crab, closed, waleswoosh-pink-face-mask).
+
+### Task 3: Archive assembler to codex
+- Copy micodex_assembler.py into the codex for future session access
+- Note template and layer file locations
+
+**Acceptance:** Future sessions can generate images without external dependencies.

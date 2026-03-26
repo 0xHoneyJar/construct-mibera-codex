@@ -1,8 +1,13 @@
 ---
 name: "Magyar Tetovalas"
+image: "https://mibera.s3.amazonaws.com/traits/magyar%20tetov%C3%A1l%C3%A1s.webp"
 category: tattoos
 from: ""
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/magyar%20tetov%C3%A1l%C3%A1s.webp" alt="Magyar Tetovalas" width="320" />
+</div>
 
 # Magyar Tetovalas
 

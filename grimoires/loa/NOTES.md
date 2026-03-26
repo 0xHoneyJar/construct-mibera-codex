@@ -20,6 +20,8 @@
 ## Next Cycle Fixes
 
 - **black-niqab.md** — image needs fixing before embedding (currently at `traits/clothing/long-sleeves/black-niqab.md`, image field cleared)
+- **4 VM entries still need source art**: propeller (hat), cancer-crab (item), closed (eyes), waleswoosh-pink-face-mask (mask)
+- **132 orphan images** from sprint-1 still need codex entries or mapping fixes (color variants, SS-vending, misc)
 
 ## Blockers
 

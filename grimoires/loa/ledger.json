@@ -465,15 +465,22 @@
           "id": "sprint-1",
           "global_id": 32,
           "label": "Embed Images",
+          "status": "complete",
+          "tasks": 3
+        },
+        {
+          "id": "sprint-2",
+          "global_id": 33,
+          "label": "Vending Machine Gap Fill",
           "status": "in-progress",
           "tasks": 3
         }
       ],
-      "sprint_count": 1
+      "sprint_count": 2
     }
   ],
   "active_cycle": "cycle-019",
   "active_bugfix": null,
-  "global_sprint_counter": 32,
+  "global_sprint_counter": 33,
   "bugfix_cycles": []
 }
