@@ -1,16 +1,20 @@
 ---
 name: Future Ladyboy
-image: "https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT"
+image: "https://mibera.s3.amazonaws.com/traits/SS2_milady_Future%20Ladyboy.webp"
 archetype: Milady
 swag_score: 2
 date_added: "2024-06-22"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS2_milady_Future%20Ladyboy.webp" alt="Future Ladyboy" width="320" />
+</div>
+
+
 # Future Ladyboy
 
 ## Visual Elements
 
-![Future Ladyboy](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)
 
 Black t-shirt with red text that says “THE FUTURE IS LADYBOY” in thin font.
 

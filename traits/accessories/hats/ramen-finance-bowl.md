@@ -1,16 +1,20 @@
 ---
 name: ramen finance bowl
-image: "https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS3_Ramen%20Finance%20Bowl.webp"
+image: "https://mibera.s3.amazonaws.com/traits/SS3_Ramen%20Finance%20Bowl.webp"
 archetype: "**Archetype Alignment:**"
 swag_score: 3
 date_added: "2024-12-10"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_Ramen%20Finance%20Bowl.webp" alt="Ramen Finance Bowl" width="320" />
+</div>
+
+
 # ramen finance bowl
 
 ## Visual Elements
 
-![SS3 Ramen Finance Bowl](https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS3_Ramen%20Finance%20Bowl.webp)
 
 an upside down white bowl with red logo on it that looks like a bowl in front of a flower. A yellow line runs across the edge of the bowl.
 

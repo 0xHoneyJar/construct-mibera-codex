@@ -1,16 +1,20 @@
 ---
 name: Barbed Wire
-image: "https://mibera.fsn1.your-objectstorage.com/components/tattoos__z125/Barbed%20Wire.webp"
+image: "https://mibera.s3.amazonaws.com/traits/Barbed%20Wire.webp"
 archetype: "**Archetype Alignment:**"
 swag_score: null
 date_added: "2024-08-06"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Barbed%20Wire.webp" alt="Barbed Wire" width="320" />
+</div>
+
+
 # Barbed Wire
 
 ## Visual Elements
 
-![Barbed Wire](https://mibera.fsn1.your-objectstorage.com/components/tattoos__z125/Barbed%20Wire.webp)
 
 A barbed wire
 

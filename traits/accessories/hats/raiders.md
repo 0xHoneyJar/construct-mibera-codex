@@ -1,16 +1,20 @@
 ---
 name: Raiders
-image: "https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS4_chicagodetroit_Raiders.webp"
+image: "https://mibera.s3.amazonaws.com/traits/SS4_chicagodetroit_Raiders.webp"
 archetype: Chicago Detroit
 swag_score: 4
 date_added: "2024-08-02"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS4_chicagodetroit_Raiders.webp" alt="Raiders" width="320" />
+</div>
+
+
 # Raiders
 
 ## Visual Elements
 
-![Raiders](https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS4_chicagodetroit_Raiders.webp)
 
 Cap in grey gradient with white graphic of a face of a man with an eyepatch, two swords crossed behind him, and text that says “RAIDERS”.
 

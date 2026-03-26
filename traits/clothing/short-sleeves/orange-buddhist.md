@@ -1,16 +1,20 @@
 ---
 name: Orange Buddhist
-image: "https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT"
+image: "https://mibera.s3.amazonaws.com/traits/SS3_acidhouse_Orange%20Buddhist.webp"
 archetype: Acidhouse
 swag_score: 3
 date_added: "2024-12-10"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_acidhouse_Orange%20Buddhist.webp" alt="Orange Buddhist" width="320" />
+</div>
+
+
 # Orange Buddhist
 
 ## Visual Elements
 
-![Orange Buddhist](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)
 
 Orange monk attire. Orange garment wrapped around the body and thrown over one shoulder.
 

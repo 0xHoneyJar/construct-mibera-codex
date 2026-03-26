@@ -1,16 +1,20 @@
 ---
 name: Aum Headwear
-image: "https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS3_acidhouse_modern_japanese_Aum%20Headwear.webp"
+image: "https://mibera.s3.amazonaws.com/traits/SS3_acidhouse_modern_japanese_Aum%20Headwear.webp"
 archetype: Acidhouse
 swag_score: 3
 date_added: "2024-07-24"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_acidhouse_modern_japanese_Aum%20Headwear.webp" alt="Aum Headwear" width="320" />
+</div>
+
+
 # Aum Headwear
 
 ## Visual Elements
 
-![modern japanese Aum Headwear](https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS3_acidhouse_modern_japanese_Aum%20Headwear.webp)
 
 What looks like white bandages going around the head and tiny wires in yellow, blue, and red in between them.
 

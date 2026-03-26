@@ -1,16 +1,20 @@
 ---
 name: Virgin
-image: "https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT"
+image: "https://mibera.s3.amazonaws.com/traits/SS3_Virgin.webp"
 archetype: "**Archetype Alignment:**"
 swag_score: 3
 date_added: "2024-06-22"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_Virgin.webp" alt="Virgin" width="320" />
+</div>
+
+
 # Virgin
 
 ## Visual Elements
 
-![Virgin](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)
 
 Black t-shirt with white text that reads “CRYPTO IS FOR VIRGINS” in bold font.
 

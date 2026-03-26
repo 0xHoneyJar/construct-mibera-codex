@@ -1,10 +1,15 @@
 ---
 name: Golden Cuff
-image: SS2_golden cuff.PNG
+image: "https://mibera.s3.amazonaws.com/traits/SS2_golden%20cuff.webp"
 archetype: "**Archetype Alignment:**"
 swag_score: 2
 date_added: "2024-12-10"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS2_golden%20cuff.webp" alt="Golden Cuff" width="320" />
+</div>
+
 
 # Golden Cuff
 

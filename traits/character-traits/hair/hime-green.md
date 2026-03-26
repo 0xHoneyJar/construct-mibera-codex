@@ -1,8 +1,13 @@
 ---
 name: hime green
-image: Hime Green__w4.png Hime Green__z-32.png
+image: "https://mibera.s3.amazonaws.com/traits/Hime%20Green.webp"
 date_added: "2024-06-22"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Hime%20Green.webp" alt="Hime Green" width="320" />
+</div>
+
 
 # hime green
 

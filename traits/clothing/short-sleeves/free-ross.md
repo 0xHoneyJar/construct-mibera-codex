@@ -1,16 +1,20 @@
 ---
 name: Free Ross
-image: "https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT"
+image: "https://mibera.s3.amazonaws.com/traits/SS4_Free%20Ross.webp"
 archetype: "**Archetype Alignment:** Its symbolism in freeing Ross, referring to Ross Ulbricht and The Silk Road which were huge inspirations for Mibera’s website and culture."
 swag_score: 4
 date_added: "2024-06-22"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS4_Free%20Ross.webp" alt="Free Ross" width="320" />
+</div>
+
+
 # Free Ross
 
 ## Visual Elements
 
-![Honey Road](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)
 
 Black t-shirt with neon green silkroad logo as the graphic. The logo is of a man riding a camel.
 

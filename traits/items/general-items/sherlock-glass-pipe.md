@@ -1,10 +1,15 @@
 ---
 name: sherlock glass pipe
-image: SS3_acidhouse_Sherlock Glass Pipe.png
+image: "https://mibera.s3.amazonaws.com/traits/SS3_acidhouse_Sherlock%20Glass%20Pipe.webp"
 archetype: Acidhouse
 swag_score: 3
 date_added: "2024-07-23"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_acidhouse_Sherlock%20Glass%20Pipe.webp" alt="Sherlock Glass Pipe" width="320" />
+</div>
+
 
 # sherlock glass pipe
 

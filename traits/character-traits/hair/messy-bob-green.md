@@ -1,8 +1,13 @@
 ---
 name: messy bob green
-image: Messy Bob Green__w8.png
+image: "https://mibera.s3.amazonaws.com/traits/Messy%20Bob%20Green.webp"
 date_added: "2024-06-04"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Messy%20Bob%20Green.webp" alt="Messy Bob Green" width="320" />
+</div>
+
 
 # messy bob green
 

@@ -1,16 +1,20 @@
 ---
 name: Jani Jacket
-image: "https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(LONG"
+image: "https://mibera.s3.amazonaws.com/traits/SS4_chicagodetroit_Jani%20Jacket.webp"
 archetype: Chicago Detroit
 swag_score: 4
 date_added: "2024-12-10"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS4_chicagodetroit_Jani%20Jacket.webp" alt="Jani Jacket" width="320" />
+</div>
+
+
 # Jani Jacket
 
 ## Visual Elements
 
-![Jani Jacket](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(LONG)
 
 Red tracksuit with white stripes on the sleeves. Underneath it is white t-shirt with a golden chain with a big 'peace' symbol as its charm.
 

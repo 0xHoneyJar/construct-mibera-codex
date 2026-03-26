@@ -1,10 +1,15 @@
 ---
 name: the liberator
-image: SS5_The Liberator.png
+image: "https://mibera.s3.amazonaws.com/traits/SS5_The%20Liberator.webp"
 archetype: "**Archetype Alignment:**"
 swag_score: 5
 date_added: "2024-07-16"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS5_The%20Liberator.webp" alt="The Liberator" width="320" />
+</div>
+
 
 # the liberator
 

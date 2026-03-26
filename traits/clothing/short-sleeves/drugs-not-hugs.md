@@ -1,16 +1,20 @@
 ---
 name: Drugs Not Hugs
-image: "https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT"
+image: "https://mibera.s3.amazonaws.com/traits/SS2_Drugs%20Not%20Hugs.webp"
 archetype: "**Archetype Alignment:** Its relation with drugs, especially weed as shown by the graphics."
 swag_score: 2
 date_added: "2024-06-22"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS2_Drugs%20Not%20Hugs.webp" alt="Drugs Not Hugs" width="320" />
+</div>
+
+
 # Drugs Not Hugs
 
 ## Visual Elements
 
-![Drugs Not Hugs](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)
 
 Black t-shirt with text in green that reads “Drugs not Hugs” in a playful font and a marijuana leaf in between the words.
 

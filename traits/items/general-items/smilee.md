@@ -1,10 +1,15 @@
 ---
 name: smilee
-image: SS3_Smilee.PNG
+image: "https://mibera.s3.amazonaws.com/traits/SS3_Smilee.webp"
 archetype: "**Archetype Alignment:**"
 swag_score: 3
 date_added: "2024-12-09"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_Smilee.webp" alt="Smilee" width="320" />
+</div>
+
 
 # smilee
 

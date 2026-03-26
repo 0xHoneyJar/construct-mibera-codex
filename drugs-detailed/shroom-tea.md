@@ -6,9 +6,14 @@ origin: Mexico
 archetype: Acidhouse
 ancestor: Greek
 swag_score: 1
-image: acidhouse_greekAncients_shroom tea.PNG
+image: "https://mibera.s3.amazonaws.com/traits/acidhouse_greekAncients_shroom%20tea.webp"
 date_added: "2025-01-12"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/acidhouse_greekAncients_shroom%20tea.webp" alt="Shroom Tea" width="320" />
+</div>
+
 
 # Shroom Tea
 

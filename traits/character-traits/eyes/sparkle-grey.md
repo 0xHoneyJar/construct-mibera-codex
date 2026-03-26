@@ -1,14 +1,18 @@
 ---
 name: sparkle grey
-image: "https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/Sparkle%20Grey__w15.webp"
+image: "https://mibera.s3.amazonaws.com/traits/Sparkle%20Grey.webp"
 date_added: "2024-06-03"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Sparkle%20Grey.webp" alt="Sparkle Grey" width="320" />
+</div>
+
 
 # sparkle grey
 
 ## Visual Elements
 
-![Sparkle Grey](https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/Sparkle%20Grey__w15.webp)
 
 grey eyes with three white dots between the iris and pupil.
 

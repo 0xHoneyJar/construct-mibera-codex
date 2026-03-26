@@ -1,10 +1,15 @@
 ---
 name: sex health and long life
-image: SS1_milady_sex health and long life.PNG
+image: "https://mibera.s3.amazonaws.com/traits/SS1_milady_sex%20health%20and%20long%20life.webp"
 archetype: Milady
 swag_score: 1
 date_added: "2024-12-09"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS1_milady_sex%20health%20and%20long%20life.webp" alt="Sex Health And Long Life" width="320" />
+</div>
+
 
 # sex health and long life
 

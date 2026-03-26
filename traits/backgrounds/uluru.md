@@ -1,14 +1,18 @@
 ---
 name: Uluru
-image: "https://mibera.fsn1.your-objectstorage.com/components/background__z10/Uluru.webp"
+image: "https://mibera.s3.amazonaws.com/traits/Uluru.webp"
 date_added: "2024-06-07"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Uluru.webp" alt="Uluru" width="320" />
+</div>
+
 
 # Uluru
 
 ## Visual Elements
 
-![Uluru](https://mibera.fsn1.your-objectstorage.com/components/background__z10/Uluru.webp)
 
 Big red mountain of rock / sandstone in a smooth rounded shape, surrounded by dry grasses, with a clear blue sky with white clouds.
 

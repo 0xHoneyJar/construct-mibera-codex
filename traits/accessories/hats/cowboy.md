@@ -1,16 +1,20 @@
 ---
 name: Cowboy
-image: "https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS4_milady_Cowboy.webp"
+image: "https://mibera.s3.amazonaws.com/traits/SS4_milady_Cowboy.webp"
 archetype: Milady
 swag_score: 4
 date_added: "2024-07-27"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS4_milady_Cowboy.webp" alt="Cowboy" width="320" />
+</div>
+
+
 # Cowboy
 
 ## Visual Elements
 
-![Cowboy](https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS4_milady_Cowboy.webp)
 
 Black cowboy hat with red tie / rope around it.
 

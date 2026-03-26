@@ -1,10 +1,15 @@
 ---
 name: subaeruginosa
-image: SS2_acidhouse_Subaeruginosa.png
+image: "https://mibera.s3.amazonaws.com/traits/SS2_acidhouse_Subaeruginosa.webp"
 archetype: Acidhouse
 swag_score: 2
 date_added: "2024-07-06"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS2_acidhouse_Subaeruginosa.webp" alt="Subaeruginosa" width="320" />
+</div>
+
 
 # subaeruginosa
 

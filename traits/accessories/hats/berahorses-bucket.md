@@ -1,16 +1,20 @@
 ---
 name: berahorses bucket
-image: "https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS3_Berahorses%20Bucket.webp"
+image: "https://mibera.s3.amazonaws.com/traits/SS3_Berahorses%20Bucket.webp"
 archetype: "**Archetype Alignment:**"
 swag_score: 3
 date_added: "2024-12-10"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_Berahorses%20Bucket.webp" alt="Berahorses Bucket" width="320" />
+</div>
+
+
 # berahorses bucket
 
 ## Visual Elements
 
-![SS3 Berahorses Bucket](https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS3_Berahorses%20Bucket.webp)
 
 an orange bucket hat with lighter orange text with black outline that reads “Neigh”
 

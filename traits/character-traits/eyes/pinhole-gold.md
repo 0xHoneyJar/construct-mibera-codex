@@ -1,14 +1,18 @@
 ---
 name: pinhole gold
-image: "https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/Pinhole%20Gold__w7.webp"
+image: "https://mibera.s3.amazonaws.com/traits/Pinhole%20Gold.webp"
 date_added: "2024-06-03"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Pinhole%20Gold.webp" alt="Pinhole Gold" width="320" />
+</div>
+
 
 # pinhole gold
 
 ## Visual Elements
 
-![Pinhole Gold](https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/Pinhole%20Gold__w7.webp)
 
 golden eyes with constricted pupils, or usually known as pinpoint pupils.
 

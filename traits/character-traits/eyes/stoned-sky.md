@@ -1,14 +1,18 @@
 ---
 name: stoned sky
-image: "https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/Stoned%20Sky__w9.webp"
+image: "https://mibera.s3.amazonaws.com/traits/Stoned%20Sky.webp"
 date_added: "2024-06-03"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Stoned%20Sky.webp" alt="Stoned Sky" width="320" />
+</div>
+
 
 # stoned sky
 
 ## Visual Elements
 
-![Stoned Sky](https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/Stoned%20Sky__w9.webp)
 
 bright-blue eyes. The whites of the eyes are red, eyelids partially lowered.
 

@@ -6,9 +6,14 @@ origin: Congo, Gabon
 archetype: Chicago Detroit
 ancestor: Gabon
 swag_score: 2
-image: chicagodetroit_gabon_ibogaine.PNG
+image: "https://mibera.s3.amazonaws.com/traits/chicagodetroit_gabon_ibogaine.webp"
 date_added: "2025-01-12"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/chicagodetroit_gabon_ibogaine.webp" alt="Ibogaine" width="320" />
+</div>
+
 
 # Ibogaine
 

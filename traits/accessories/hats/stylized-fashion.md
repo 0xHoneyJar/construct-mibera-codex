@@ -1,16 +1,20 @@
 ---
 name: Stylized Fashion
-image: "https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS3_chicagodetroit_Stylized%20Fashion.webp"
+image: "https://mibera.s3.amazonaws.com/traits/SS3_chicagodetroit_Stylized%20Fashion.webp"
 archetype: Chicago Detroit
 swag_score: 3
 date_added: "2024-07-25"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_chicagodetroit_Stylized%20Fashion.webp" alt="Stylized Fashion" width="320" />
+</div>
+
+
 # Stylized Fashion
 
 ## Visual Elements
 
-![Stylized Fashion](https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS3_chicagodetroit_Stylized%20Fashion.webp)
 
 Flat, asymmetrical hat in red maroon.
 

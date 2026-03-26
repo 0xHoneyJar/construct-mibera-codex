@@ -1,10 +1,15 @@
 ---
 name: berachain mentioned
-image: SS3_berachain mentioned.PNG
+image: "https://mibera.s3.amazonaws.com/traits/SS3_berachain%20mentioned.webp"
 archetype: "**Archetype Alignment:**"
 swag_score: 3
 date_added: "2025-03-23"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_berachain%20mentioned.webp" alt="Berachain Mentioned" width="320" />
+</div>
+
 
 # berachain mentioned
 

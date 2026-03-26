@@ -1,10 +1,15 @@
 ---
 name: Grateful Dead Forest Green
-image: SS2_grateful dead forest green.png
+image: "https://mibera.s3.amazonaws.com/traits/SS2_grateful%20dead%20forest%20green.webp"
 archetype: "**Archetype Alignment:** Grateful Dead has a big influence and part in Mibera’s lore."
 swag_score: 2
 date_added: "2024-06-04"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS2_grateful%20dead%20forest%20green.webp" alt="Grateful Dead Forest Green" width="320" />
+</div>
+
 
 # Grateful Dead Forest Green
 

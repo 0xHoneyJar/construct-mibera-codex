@@ -1,16 +1,20 @@
 ---
 name: Ohabera Jani
-image: "https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT"
+image: "https://mibera.s3.amazonaws.com/traits/SS4_Ohabera%20Jani.webp"
 archetype: "**Archetype Alignment:**"
 swag_score: 4
 date_added: "2024-12-10"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS4_Ohabera%20Jani.webp" alt="Ohabera Jani" width="320" />
+</div>
+
+
 # Ohabera Jani
 
 ## Visual Elements
 
-![Ohabera Jani](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)
 
 Milky white t-shirt with a cute bear wearing a purple durag and red jacket and Japanese text in a red text-bubble.
 

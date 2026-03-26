@@ -1,14 +1,18 @@
 ---
 name: Ophiuchus
-image: "https://mibera.fsn1.your-objectstorage.com/components/Constellations/ophiuchus.webp"
+image: "https://mibera.s3.amazonaws.com/traits/ophiuchus.webp"
 date_added: "2024-11-23"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/ophiuchus.webp" alt="Ophiuchus" width="320" />
+</div>
+
 
 # Ophiuchus
 
 ## Visual Elements
 
-![Ophiuchus](https://mibera.fsn1.your-objectstorage.com/components/Constellations/ophiuchus.webp)
 
 Deep blue night sky with bright white 4-points-stars connected by thin white lines forming a constellation (Ophiuchus).Smaller stars in white dots are scattered in the background.
 

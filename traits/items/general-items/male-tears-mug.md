@@ -1,10 +1,15 @@
 ---
 name: male tears mug
-image: SS2_freetekno_Male Tears Mug.png
+image: "https://mibera.s3.amazonaws.com/traits/SS2_freetekno_Male%20Tears%20Mug.webp"
 archetype: Freetekno
 swag_score: 2
 date_added: "2024-07-07"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS2_freetekno_Male%20Tears%20Mug.webp" alt="Male Tears Mug" width="320" />
+</div>
+
 
 # male tears mug
 

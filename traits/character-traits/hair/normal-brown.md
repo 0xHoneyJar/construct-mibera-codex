@@ -1,8 +1,13 @@
 ---
 name: normal brown
-image: Normal Brown__w24.png Normal Brown__z-32.png
+image: "https://mibera.s3.amazonaws.com/traits/Normal%20Brown.webp"
 date_added: "2024-06-22"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Normal%20Brown.webp" alt="Normal Brown" width="320" />
+</div>
+
 
 # normal brown
 

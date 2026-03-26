@@ -1,16 +1,20 @@
 ---
 name: Shameless Misandrist
-image: "https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT"
+image: "https://mibera.s3.amazonaws.com/traits/SS3_freetekno_Shameless%20Misandrist.webp"
 archetype: Freetekno
 swag_score: 3
 date_added: "2024-06-22"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_freetekno_Shameless%20Misandrist.webp" alt="Shameless Misandrist" width="320" />
+</div>
+
+
 # Shameless Misandrist
 
 ## Visual Elements
 
-![Shameless Misandrist](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)
 
 Pink t-shirt with blood-red writing that reads “SHAMELESS MISANDRIST” inside of a heart outline with a cross on top.
 

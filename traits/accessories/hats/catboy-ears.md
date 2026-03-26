@@ -1,16 +1,20 @@
 ---
 name: Catboy Ears
-image: "https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS3_milady_Catboy%20Ears.webp"
+image: "https://mibera.s3.amazonaws.com/traits/SS3_milady_Catboy%20Ears.webp"
 archetype: Milady
 swag_score: 3
 date_added: "2024-07-25"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_milady_Catboy%20Ears.webp" alt="Catboy Ears" width="320" />
+</div>
+
+
 # Catboy Ears
 
 ## Visual Elements
 
-![Catboy Ears](https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS3_milady_Catboy%20Ears.webp)
 
 Black headband of cat ears; pointed triangular shape with soft edges, light pink in color on the inner part.
 

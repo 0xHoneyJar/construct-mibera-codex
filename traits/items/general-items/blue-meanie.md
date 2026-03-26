@@ -3,7 +3,13 @@ name: Blue Meanie
 archetype: "**Archetype Alignment:**"
 swag_score: 3
 date_added: null
+image: "https://mibera.s3.amazonaws.com/traits/SS3_acidhouse_Blue%20Meanie.webp"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_acidhouse_Blue%20Meanie.webp" alt="Blue Meanie" width="320" />
+</div>
+
 
 # Blue Meanie
 

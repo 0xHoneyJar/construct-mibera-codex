@@ -1,16 +1,20 @@
 ---
 name: Mibera Spiral Hockey
-image: "https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(LONG"
+image: "https://mibera.s3.amazonaws.com/traits/SS2_Mibera%20Spiral%20Hockey.webp"
 archetype: "**Archetype Alignment:**"
 swag_score: 2
 date_added: "2024-12-10"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS2_Mibera%20Spiral%20Hockey.webp" alt="Mibera Spiral Hockey" width="320" />
+</div>
+
+
 # Mibera Spiral Hockey
 
 ## Visual Elements
 
-![Mibera Spiral Hockey](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(LONG)
 
 Hockey jersey in white with thick yellow, green, and blue stripes around the neck, end of sleeves, and at the bottom part of the jersey. Mibera Spiral Tribe logo is seen in the center.
 

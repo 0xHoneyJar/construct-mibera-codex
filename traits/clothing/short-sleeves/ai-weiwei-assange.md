@@ -1,16 +1,20 @@
 ---
 name: Ai Weiwei Assange
-image: "https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT"
+image: "https://mibera.s3.amazonaws.com/traits/SS4_Ai%20Weiwei%20Assange.webp"
 archetype: "**Archetype Alignment:** Its relation to movement, freedom, and art."
 swag_score: 4
 date_added: "2024-06-22"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS4_Ai%20Weiwei%20Assange.webp" alt="Ai Weiwei Assange" width="320" />
+</div>
+
+
 # Ai Weiwei Assange
 
 ## Visual Elements
 
-![Ai Weiwei Assange](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)
 
 Hot fuschia t-shirt with a semi-realism graphic of Julian Assange and Ai Weiwei with their middle fingers up, and the text “FREE ASSANGE” under it..
 

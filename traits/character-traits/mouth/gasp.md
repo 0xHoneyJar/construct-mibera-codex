@@ -1,14 +1,18 @@
 ---
 name: gasp
-image: "https://mibera.fsn1.your-objectstorage.com/components/mouth__z90/gasp__w4.webp"
+image: "https://mibera.s3.amazonaws.com/traits/gasp.webp"
 date_added: "2024-06-05"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/gasp.webp" alt="Gasp" width="320" />
+</div>
+
 
 # gasp
 
 ## Visual Elements
 
-![gasp](https://mibera.fsn1.your-objectstorage.com/components/mouth__z90/gasp__w4.webp)
 
 a gasping mouth, forming an oval shape, showing the teeth and the tongue.
 

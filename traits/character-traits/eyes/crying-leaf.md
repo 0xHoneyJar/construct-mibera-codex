@@ -1,14 +1,18 @@
 ---
 name: crying leaf
-image: "https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/Crying%20Leaf__w6.webp"
+image: "https://mibera.s3.amazonaws.com/traits/Crying%20Leaf.webp"
 date_added: "2024-06-03"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Crying%20Leaf.webp" alt="Crying Leaf" width="320" />
+</div>
+
 
 # crying leaf
 
 ## Visual Elements
 
-![Crying Leaf](https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/Crying%20Leaf__w6.webp)
 
 green eyes with tears in the corners.
 

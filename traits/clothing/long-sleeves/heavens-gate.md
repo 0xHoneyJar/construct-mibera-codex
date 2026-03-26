@@ -1,16 +1,20 @@
 ---
 name: Heavens Gate
-image: "https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(LONG"
+image: "https://mibera.s3.amazonaws.com/traits/SS3_Heavens%20Gate.webp"
 archetype: "**Archetype Alignment:**"
 swag_score: 3
 date_added: "2024-06-28"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_Heavens%20Gate.webp" alt="Heavens Gate" width="320" />
+</div>
+
+
 # Heavens Gate
 
 ## Visual Elements
 
-![Heavens Gate](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(LONG)
 
 Plain pink long-sleeves with a button by the neck..
 

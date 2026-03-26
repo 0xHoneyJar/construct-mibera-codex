@@ -1,16 +1,20 @@
 ---
 name: Black Scifi
-image: "https://mibera.fsn1.your-objectstorage.com/components/glasses__z140/chicagodetroit_Black Scifi.webp"
+image: "https://mibera.s3.amazonaws.com/traits/chicagodetroit_Black%20Scifi.webp"
 archetype: Chicago Detroit
 swag_score: 2
 date_added: "2024-06-18"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/chicagodetroit_Black%20Scifi.webp" alt="Black Scifi" width="320" />
+</div>
+
+
 # Black Scifi
 
 ## Visual Elements
 
-![Black Scifi](https://mibera.fsn1.your-objectstorage.com/components/glasses__z140/chicagodetroit_Black Scifi.webp)
 
 all-black glasses with slightly curved top-framing and triangular cut at the middle bottom part.
 

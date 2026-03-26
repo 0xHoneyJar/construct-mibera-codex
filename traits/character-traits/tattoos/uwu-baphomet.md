@@ -1,16 +1,20 @@
 ---
 name: Uwu Baphomet
-image: "https://mibera.fsn1.your-objectstorage.com/components/tattoos__z125/modern_satanist_uwu%20baphomet.webp"
+image: "https://mibera.s3.amazonaws.com/traits/modern_satanist_uwu%20baphomet.webp"
 archetype: "**Archetype Alignment:**"
 swag_score: null
 date_added: "2024-08-09"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/modern_satanist_uwu%20baphomet.webp" alt="Uwu Baphomet" width="320" />
+</div>
+
+
 # Uwu Baphomet
 
 ## Visual Elements
 
-![uwu baphomet](https://mibera.fsn1.your-objectstorage.com/components/tattoos__z125/modern_satanist_uwu%20baphomet.webp)
 
 Linework of a goat with long horns in a very cute style.
 

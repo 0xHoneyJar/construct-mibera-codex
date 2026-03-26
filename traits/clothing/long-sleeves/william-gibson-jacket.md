@@ -1,16 +1,20 @@
 ---
 name: William Gibson Jacket
-image: "https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(LONG"
+image: "https://mibera.s3.amazonaws.com/traits/SS4_freetekno_William%20Gibson%20Jacket.webp"
 archetype: Freetekno
 swag_score: 4
 date_added: "2024-12-10"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS4_freetekno_William%20Gibson%20Jacket.webp" alt="William Gibson Jacket" width="320" />
+</div>
+
+
 # William Gibson Jacket
 
 ## Visual Elements
 
-![William Gibson Jacket](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(LONG)
 
 Plain bomber jacket in black, zipper in the middle and a small leather-brown patch.
 

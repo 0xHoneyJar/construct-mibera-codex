@@ -1,16 +1,20 @@
 ---
 name: McDonalds 2
-image: "https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS3_milady_Mcdonalds%202.webp"
+image: "https://mibera.s3.amazonaws.com/traits/SS3_milady_Mcdonalds%202.webp"
 archetype: Milady
 swag_score: 3
 date_added: "2024-07-27"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_milady_Mcdonalds%202.webp" alt="Mcdonalds 2" width="320" />
+</div>
+
+
 # McDonalds 2
 
 ## Visual Elements
 
-![Mcdonalds 2](https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS3_milady_Mcdonalds%202.webp)
 
 Cap with stripy colours of a burger, light brown, dark brown, and green. In the middle is a big ‘M’ logo with a small text that reads ‘mibera’.
 

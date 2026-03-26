@@ -1,16 +1,20 @@
 ---
 name: Blush
-image: "https://mibera.fsn1.your-objectstorage.com/components/face%20accessories__z60/SS1_milady_blush.webp"
+image: "https://mibera.s3.amazonaws.com/traits/SS1_milady_blush.webp"
 archetype: Milady
 swag_score: 3
 date_added: "2024-12-10"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS1_milady_blush.webp" alt="Blush" width="320" />
+</div>
+
+
 # Blush
 
 ## Visual Elements
 
-![Blush](https://mibera.fsn1.your-objectstorage.com/components/face%20accessories__z60/SS1_milady_blush.webp)
 
 Very subtle warm pink blush, translucent.
 

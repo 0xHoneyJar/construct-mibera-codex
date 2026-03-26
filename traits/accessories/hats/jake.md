@@ -1,16 +1,20 @@
 ---
 name: Jake
-image: "https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS3_acidhouse_Jake.webp"
+image: "https://mibera.s3.amazonaws.com/traits/SS3_acidhouse_Jake.webp"
 archetype: Acidhouse
 swag_score: 3
 date_added: "2024-07-24"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_acidhouse_Jake.webp" alt="Jake" width="320" />
+</div>
+
+
 # Jake
 
 ## Visual Elements
 
-![Jake](https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS3_acidhouse_Jake.webp)
 
 Yellow hat with earflaps in the shape of Jake the dog from Adventure time. A yellow dog with round white eyes, droopy snout, and red tongue out..
 

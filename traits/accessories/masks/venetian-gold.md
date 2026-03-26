@@ -1,16 +1,20 @@
 ---
 name: Venetian Gold
-image: "https://mibera.fsn1.your-objectstorage.com/components/Masks/SS5_Venetian Gold.webp"
+image: "https://mibera.s3.amazonaws.com/traits/SS5_Venetian%20Gold.webp"
 archetype: "**Archetype Alignment:**"
 swag_score: 5
 date_added: "2024-12-09"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS5_Venetian%20Gold.webp" alt="Venetian Gold" width="320" />
+</div>
+
+
 # Venetian Gold
 
 ## Visual Elements
 
-![Venetian Gold](https://mibera.fsn1.your-objectstorage.com/components/Masks/SS5_Venetian Gold.webp)
 
 Rounded golden mask with much bigger eyeholes compared to usual masks.
 

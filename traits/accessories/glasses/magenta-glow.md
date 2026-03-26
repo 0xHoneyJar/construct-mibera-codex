@@ -1,16 +1,20 @@
 ---
 name: Magenta Glow
-image: "https://mibera.fsn1.your-objectstorage.com/components/glasses__z140/chicagodetroit_Magenta Glow.webp"
+image: "https://mibera.s3.amazonaws.com/traits/chicagodetroit_Magenta%20Glow.webp"
 archetype: Chicago Detroit
 swag_score: 1
 date_added: "2024-06-18"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/chicagodetroit_Magenta%20Glow.webp" alt="Magenta Glow" width="320" />
+</div>
+
+
 # Magenta Glow
 
 ## Visual Elements
 
-![Magenta Glow](https://mibera.fsn1.your-objectstorage.com/components/glasses__z140/chicagodetroit_Magenta Glow.webp)
 
 Glow glasses mainly in magenta, with yellow parts on its bridge and temples.
 

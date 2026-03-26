@@ -1,16 +1,20 @@
 ---
 name: snow goggles 1
-image: "https://mibera.fsn1.your-objectstorage.com/components/glasses__z140/Snow Goggles 1.webp"
+image: "https://mibera.s3.amazonaws.com/traits/Snow%20Goggles%201.webp"
 archetype: "**Archetype Alignment:**"
 swag_score: 5
 date_added: "2024-12-10"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Snow%20Goggles%201.webp" alt="Snow Goggles 1" width="320" />
+</div>
+
+
 # snow goggles 1
 
 ## Visual Elements
 
-![Snow Goggles 1](https://mibera.fsn1.your-objectstorage.com/components/glasses__z140/Snow Goggles 1.webp)
 
 white snow goggles with drawings that look like a mask / eye holes.
 

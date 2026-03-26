@@ -1,10 +1,15 @@
 ---
 name: White Thick
-image: SS2_freetekno_modern_nativeAmerican_White Thick.png
+image: "https://mibera.s3.amazonaws.com/traits/SS2_freetekno_modern_nativeAmerican_White%20Thick.webp"
 archetype: Freetekno
 swag_score: 2
 date_added: "2023-11-28"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS2_freetekno_modern_nativeAmerican_White%20Thick.webp" alt="White Thick" width="320" />
+</div>
+
 
 # White Thick
 

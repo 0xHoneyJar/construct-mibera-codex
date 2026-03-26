@@ -1,16 +1,20 @@
 ---
 name: I Met God
-image: "https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT"
+image: "https://mibera.s3.amazonaws.com/traits/SS3_milady_I%20Met%20God.webp"
 archetype: Milady
 swag_score: 3
 date_added: "2024-06-22"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_milady_I%20Met%20God.webp" alt="I Met God" width="320" />
+</div>
+
+
 # I Met God
 
 ## Visual Elements
 
-![I Met God](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)
 
 Black shirt with white text that reads “I MET GOD AT THE MILADY RAVE”.
 

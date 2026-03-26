@@ -1,16 +1,20 @@
 ---
 name: Den Hopium
-image: "https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS2_Den%20Hopium.webp"
+image: "https://mibera.s3.amazonaws.com/traits/SS2_Den%20Hopium.webp"
 archetype: "**Archetype Alignment:**"
 swag_score: 2
 date_added: "2024-12-10"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS2_Den%20Hopium.webp" alt="Den Hopium" width="320" />
+</div>
+
+
 # Den Hopium
 
 ## Visual Elements
 
-![SS2 Den Hopium](https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS2_Den%20Hopium.webp)
 
 Vibrant green cap with the letter “L” inside of a white circle in the middle.
 

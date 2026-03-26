@@ -1,10 +1,15 @@
 ---
 name: chillum
-image: SS2_acidhouse_Chillum.png
+image: "https://mibera.s3.amazonaws.com/traits/SS2_acidhouse_Chillum.webp"
 archetype: Acidhouse
 swag_score: 2
 date_added: "2024-07-04"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS2_acidhouse_Chillum.webp" alt="Chillum" width="320" />
+</div>
+
 
 # chillum
 

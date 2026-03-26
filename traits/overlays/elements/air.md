@@ -1,14 +1,18 @@
 ---
 name: Air
-image: "https://mibera.fsn1.your-objectstorage.com/components/Elements/Air.webp"
+image: "https://mibera.s3.amazonaws.com/traits/Air.webp"
 quadrant: Northern (lat ≥ 0) and Eastern (lon ≥ 0)
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Air.webp" alt="Air" width="320" />
+</div>
+
 
 # Air
 
 ## Visual Elements
 
-![Air](https://mibera.fsn1.your-objectstorage.com/components/Elements/Air.webp)
 
 
 ## Cultural Context

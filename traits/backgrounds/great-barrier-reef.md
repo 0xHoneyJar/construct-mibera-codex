@@ -1,14 +1,18 @@
 ---
 name: Great Barrier Reef
-image: "https://mibera.fsn1.your-objectstorage.com/components/background__z10/great%20barrier%20reef.webp"
+image: "https://mibera.s3.amazonaws.com/traits/great%20barrier%20reef.webp"
 date_added: "2025-02-27"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/great%20barrier%20reef.webp" alt="Great Barrier Reef" width="320" />
+</div>
+
 
 # Great Barrier Reef
 
 ## Visual Elements
 
-![Great Barrier Reef](https://mibera.fsn1.your-objectstorage.com/components/background__z10/great%20barrier%20reef.webp)
 
 Different shades of blue as the ocean with a linear beige sandy ground cutting across the middle, and a blue sky.
 

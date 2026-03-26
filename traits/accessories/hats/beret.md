@@ -1,16 +1,20 @@
 ---
 name: Beret
-image: "https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS3_milady_Beret.webp"
+image: "https://mibera.s3.amazonaws.com/traits/SS3_milady_Beret.webp"
 archetype: Milady
 swag_score: 3
 date_added: "2024-07-25"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_milady_Beret.webp" alt="Beret" width="320" />
+</div>
+
+
 # Beret
 
 ## Visual Elements
 
-![Beret](https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS3_milady_Beret.webp)
 
 Small beret in dark army green / dark grey.
 

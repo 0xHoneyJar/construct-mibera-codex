@@ -1,10 +1,15 @@
 ---
 name: ooga booga bera
-image: SS3_Ooga Booga Bera.png
+image: "https://mibera.s3.amazonaws.com/traits/SS3_Ooga%20Booga%20Bera.webp"
 archetype: "**Archetype Alignment:**"
 swag_score: 3
 date_added: "2024-12-09"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_Ooga%20Booga%20Bera.webp" alt="Ooga Booga Bera" width="320" />
+</div>
+
 
 # ooga booga bera
 

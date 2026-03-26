@@ -3,7 +3,13 @@ name: Blue Beads
 archetype: "**Archetype Alignment:**"
 swag_score: 5
 date_added: null
+image: "https://mibera.s3.amazonaws.com/traits/SS5_chicagodetroit_modern_mongolian_Blue%20Beads.webp"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS5_chicagodetroit_modern_mongolian_Blue%20Beads.webp" alt="Blue Beads" width="320" />
+</div>
+
 
 # Blue Beads
 

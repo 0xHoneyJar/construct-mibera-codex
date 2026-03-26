@@ -1,16 +1,20 @@
 ---
 name: Orange
-image: "https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS3_milady_Orange.webp"
+image: "https://mibera.s3.amazonaws.com/traits/SS3_milady_Orange.webp"
 archetype: Milady
 swag_score: 3
 date_added: "2024-07-25"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_milady_Orange.webp" alt="Orange" width="320" />
+</div>
+
+
 # Orange
 
 ## Visual Elements
 
-![Orange](https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS3_milady_Orange.webp)
 
 Small orange-shaped and coloured beret with 2 small green leaves standing out in the middle of it.
 

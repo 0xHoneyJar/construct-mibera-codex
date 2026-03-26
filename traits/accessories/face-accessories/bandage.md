@@ -1,16 +1,20 @@
 ---
 name: Bandage
-image: "https://mibera.fsn1.your-objectstorage.com/components/face%20accessories__z60/SS1_chicagodetroit_bandage.webp"
+image: "https://mibera.s3.amazonaws.com/traits/SS1_chicagodetroit_bandage.webp"
 archetype: Chicago Detroit
 swag_score: 1
 date_added: "2024-12-10"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS1_chicagodetroit_bandage.webp" alt="Bandage" width="320" />
+</div>
+
+
 # Bandage
 
 ## Visual Elements
 
-![Bandage](https://mibera.fsn1.your-objectstorage.com/components/face%20accessories__z60/SS1_chicagodetroit_bandage.webp)
 
 Square-shaped bandage in white, tiny reddish spot in the middle covered under a thin line cross on top of it.
 

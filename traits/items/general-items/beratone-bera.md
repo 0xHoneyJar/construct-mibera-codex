@@ -1,10 +1,15 @@
 ---
 name: beratone bera
-image: SS3_Beratone Bera.PNG
+image: "https://mibera.s3.amazonaws.com/traits/SS3_Beratone%20Bera.webp"
 archetype: "**Archetype Alignment:**"
 swag_score: 3
 date_added: "2024-12-09"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_Beratone%20Bera.webp" alt="Beratone Bera" width="320" />
+</div>
+
 
 # beratone bera
 

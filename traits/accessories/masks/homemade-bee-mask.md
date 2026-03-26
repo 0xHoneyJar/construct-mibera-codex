@@ -1,16 +1,20 @@
 ---
 name: Homemade Bee Mask
-image: "https://mibera.fsn1.your-objectstorage.com/components/Masks/SS3_milady_Homemade Bee Mask.webp"
+image: "https://mibera.s3.amazonaws.com/traits/SS3_milady_Homemade%20Bee%20Mask.webp"
 archetype: Milady
 swag_score: 3
 date_added: "2024-07-27"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_milady_Homemade%20Bee%20Mask.webp" alt="Homemade Bee Mask" width="320" />
+</div>
+
+
 # Homemade Bee Mask
 
 ## Visual Elements
 
-![Homemade Bee Mask](https://mibera.fsn1.your-objectstorage.com/components/Masks/SS3_milady_Homemade Bee Mask.webp)
 
 Bee mask, portrayed by thick net in brown and transparent milky white cover over it.
 

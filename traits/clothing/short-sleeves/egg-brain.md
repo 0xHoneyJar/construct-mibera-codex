@@ -1,16 +1,20 @@
 ---
 name: Egg Brain
-image: "https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT"
+image: "https://mibera.s3.amazonaws.com/traits/SS3_Egg%20Brain.webp"
 archetype: "**Archetype Alignment:**"
 swag_score: 3
 date_added: "2024-06-22"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_Egg%20Brain.webp" alt="Egg Brain" width="320" />
+</div>
+
+
 # Egg Brain
 
 ## Visual Elements
 
-![Egg Brain](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)
 
 Bone-white t-shirt with a simple illustration of a sunny-side up egg and a writing that says “this is my brain… any questions?”.
 

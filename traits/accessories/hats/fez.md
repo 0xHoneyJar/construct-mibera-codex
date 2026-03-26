@@ -1,16 +1,20 @@
 ---
 name: Fez
-image: "https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS2_milady_Fez.webp"
+image: "https://mibera.s3.amazonaws.com/traits/SS2_milady_Fez.webp"
 archetype: Milady
 swag_score: 2
 date_added: "2024-12-10"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS2_milady_Fez.webp" alt="Fez" width="320" />
+</div>
+
+
 # Fez
 
 ## Visual Elements
 
-![Fez](https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS2_milady_Fez.webp)
 
 Small fez hat in deep red; a tube-shaped hat with yellow string dangling down the top center part.
 

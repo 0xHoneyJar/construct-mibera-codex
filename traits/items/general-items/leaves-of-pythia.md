@@ -1,10 +1,15 @@
 ---
 name: leaves of pythia
-image: SS4_acidhouse_ancient_pythia_Leaves Of Pythia.png
+image: "https://mibera.s3.amazonaws.com/traits/SS4_acidhouse_ancient_pythia_Leaves%20Of%20Pythia.webp"
 archetype: Acidhouse
 swag_score: 4
 date_added: "2024-12-09"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS4_acidhouse_ancient_pythia_Leaves%20Of%20Pythia.webp" alt="Leaves Of Pythia" width="320" />
+</div>
+
 
 # leaves of pythia
 

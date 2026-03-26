@@ -1,16 +1,20 @@
 ---
 name: Nyan Cat
-image: "https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT"
+image: "https://mibera.s3.amazonaws.com/traits/SS4_Nyan%20Cat.webp"
 archetype: "**Archetype Alignment:** Its cultural relevance, internet culture, and very rave-coded based on its rainbow based color."
 swag_score: 4
 date_added: "2024-06-08"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS4_Nyan%20Cat.webp" alt="Nyan Cat" width="320" />
+</div>
+
+
 # Nyan Cat
 
 ## Visual Elements
 
-![Nyan Cat](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)
 
 Dark blue t-shirt with a big nyan cat on it. A grey cat with a biscuit body with pink sprinkles and a rainbow trail.
 

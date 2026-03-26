@@ -6,9 +6,14 @@ origin: France
 archetype: Freetekno
 ancestor: Ethiopians
 swag_score: 1
-image: freetekno_ethiopians_M-CAT.PNG
+image: "https://mibera.s3.amazonaws.com/traits/freetekno_ethiopians_M-CAT.webp"
 date_added: "2025-01-12"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/freetekno_ethiopians_M-CAT.webp" alt="M Cat" width="320" />
+</div>
+
 
 # M-Cat
 

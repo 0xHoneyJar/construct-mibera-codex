@@ -1,16 +1,20 @@
 ---
 name: Fluoro White
-image: "https://mibera.fsn1.your-objectstorage.com/components/face%20accessories__z60/SS2_freetekno_Fluoro White.webp"
+image: "https://mibera.s3.amazonaws.com/traits/SS2_freetekno_Fluoro%20White.webp"
 archetype: Freetekno
 swag_score: 2
 date_added: "2024-12-10"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS2_freetekno_Fluoro%20White.webp" alt="Fluoro White" width="320" />
+</div>
+
+
 # Fluoro White
 
 ## Visual Elements
 
-![Fluoro White](https://mibera.fsn1.your-objectstorage.com/components/face%20accessories__z60/SS2_freetekno_Fluoro White.webp)
 
 Three white strokes, one bigger than the other two.
 

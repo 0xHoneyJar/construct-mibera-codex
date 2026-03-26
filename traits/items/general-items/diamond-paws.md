@@ -1,10 +1,15 @@
 ---
 name: diamond paws
-image: SS5_milady_Diamond Paws.png
+image: "https://mibera.s3.amazonaws.com/traits/SS5_milady_Diamond%20Paws.webp"
 archetype: Milady
 swag_score: 5
 date_added: "2024-07-13"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS5_milady_Diamond%20Paws.webp" alt="Diamond Paws" width="320" />
+</div>
+
 
 # diamond paws
 

@@ -1,14 +1,18 @@
 ---
 name: normal gold
-image: "https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/Normal%20Gold__w25.webp"
+image: "https://mibera.s3.amazonaws.com/traits/Normal%20Gold.webp"
 date_added: "2024-06-03"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Normal%20Gold.webp" alt="Normal Gold" width="320" />
+</div>
+
 
 # normal gold
 
 ## Visual Elements
 
-![Normal Gold](https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/Normal%20Gold__w25.webp)
 
 normal eyes, brighter than brown.
 

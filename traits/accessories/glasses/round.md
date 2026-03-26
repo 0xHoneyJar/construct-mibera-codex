@@ -1,16 +1,20 @@
 ---
 name: Round
-image: "https://mibera.fsn1.your-objectstorage.com/components/glasses__z140/acidhouse_Round.webp"
+image: "https://mibera.s3.amazonaws.com/traits/acidhouse_Round.webp"
 archetype: Acidhouse
 swag_score: 2
 date_added: "2024-06-18"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/acidhouse_Round.webp" alt="Round" width="320" />
+</div>
+
+
 # Round
 
 ## Visual Elements
 
-![Round](https://mibera.fsn1.your-objectstorage.com/components/glasses__z140/acidhouse_Round.webp)
 
 Silver, circular framed glasses with clear lenses.
 

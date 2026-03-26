@@ -1,10 +1,15 @@
 ---
 name: sudoswap owen plushie
-image: SS2_milady_Sudoswap Owen Plushie.png
+image: "https://mibera.s3.amazonaws.com/traits/SS2_milady_Sudoswap%20Owen%20Plushie.webp"
 archetype: Milady
 swag_score: 2
 date_added: "2024-07-12"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS2_milady_Sudoswap%20Owen%20Plushie.webp" alt="Sudoswap Owen Plushie" width="320" />
+</div>
+
 
 # sudoswap owen plushie
 

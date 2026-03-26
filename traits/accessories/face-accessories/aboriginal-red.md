@@ -1,16 +1,20 @@
 ---
 name: Aboriginal Red
-image: "https://mibera.fsn1.your-objectstorage.com/components/face%20accessories__z60/SS5_freetekno_ancient_aboriginal_Aboriginal Red.webp"
+image: "https://mibera.s3.amazonaws.com/traits/SS5_freetekno_ancient_aboriginal_Aboriginal%20Red.webp"
 archetype: Freetekno
 swag_score: 5
 date_added: "2024-12-10"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS5_freetekno_ancient_aboriginal_Aboriginal%20Red.webp" alt="Aboriginal Red" width="320" />
+</div>
+
+
 # Aboriginal Red
 
 ## Visual Elements
 
-![Aboriginal Red](https://mibera.fsn1.your-objectstorage.com/components/face%20accessories__z60/SS5_freetekno_ancient_aboriginal_Aboriginal Red.webp)
 
 Red slightly curved horizontal red paint above (or framed within) a white one, with black stroke underneath.
 

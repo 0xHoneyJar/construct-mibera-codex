@@ -1,10 +1,15 @@
 ---
 name: pihkal
-image: SS4_freetekno_Pihkal.png
+image: "https://mibera.s3.amazonaws.com/traits/SS4_freetekno_Pihkal.webp"
 archetype: Freetekno
 swag_score: 4
 date_added: "2024-07-10"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS4_freetekno_Pihkal.webp" alt="Pihkal" width="320" />
+</div>
+
 
 # pihkal
 

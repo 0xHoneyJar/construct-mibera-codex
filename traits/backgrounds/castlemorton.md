@@ -1,14 +1,18 @@
 ---
 name: Castlemorton
-image: "https://mibera.fsn1.your-objectstorage.com/components/background__z10%20%28SCENE%29/castlemorton.webp"
+image: "https://mibera.s3.amazonaws.com/traits/castlemorton.webp"
 date_added: "2025-03-11"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/castlemorton.webp" alt="Castlemorton" width="320" />
+</div>
+
 
 # Castlemorton
 
 ## Visual Elements
 
-![Castlemorton](https://mibera.fsn1.your-objectstorage.com/components/background__z10%20%28SCENE%29/castlemorton.webp)
 
 Field of grass with a bus in the background with a painting of a pink man wearing neon green t-shirt and a magenta bottom, as well as the writing “party people”. In front is a sheriff’s hat resting on a fence’s corner.
 

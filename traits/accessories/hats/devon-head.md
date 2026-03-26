@@ -1,16 +1,20 @@
 ---
 name: devon head
-image: "https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS4_freetekno_Devon%20Head.webp"
+image: "https://mibera.s3.amazonaws.com/traits/SS4_freetekno_Devon%20Head.webp"
 archetype: Freetekno
 swag_score: 4
 date_added: "2024-07-27"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS4_freetekno_Devon%20Head.webp" alt="Devon Head" width="320" />
+</div>
+
+
 # devon head
 
 ## Visual Elements
 
-![Devon Head](https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS4_freetekno_Devon%20Head.webp)
 
 an oversized bear head in the colour of bright beige / light shade of brown.
 

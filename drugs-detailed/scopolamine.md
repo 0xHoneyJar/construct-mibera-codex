@@ -6,9 +6,14 @@ origin: Europe, Middle East
 archetype: Freetekno
 ancestor: Greek, Arabs
 swag_score: 4
-image: freetekno_greek_arabs_scopolamine.PNG
+image: "https://mibera.s3.amazonaws.com/traits/freetekno_greek_arabs_scopolamine.webp"
 date_added: "2025-01-12"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/freetekno_greek_arabs_scopolamine.webp" alt="Scopolamine" width="320" />
+</div>
+
 
 # Scopolamine
 

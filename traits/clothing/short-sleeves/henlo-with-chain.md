@@ -1,16 +1,20 @@
 ---
 name: Henlo with Chain
-image: "https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT"
+image: "https://mibera.s3.amazonaws.com/traits/SS4_Henlo%20with%20Chain.webp"
 archetype: "**Archetype Alignment:**"
 swag_score: 4
 date_added: "2024-06-22"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS4_Henlo%20with%20Chain.webp" alt="Henlo With Chain" width="320" />
+</div>
+
+
 # Henlo with Chain
 
 ## Visual Elements
 
-![Henlo with Chain](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)
 
 Vibrant purple t-shirt with white “HENLO” text in the middle and a big golden chain with a huge charm in the shape of a honeycomb.
 

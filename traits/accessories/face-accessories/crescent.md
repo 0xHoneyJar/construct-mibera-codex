@@ -1,16 +1,20 @@
 ---
 name: Crescent
-image: "https://mibera.fsn1.your-objectstorage.com/components/face%20accessories__z60/SS4_milady_Crescent.webp"
+image: "https://mibera.s3.amazonaws.com/traits/SS4_milady_Crescent.webp"
 archetype: Milady
 swag_score: 4
 date_added: "2024-12-10"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS4_milady_Crescent.webp" alt="Crescent" width="320" />
+</div>
+
+
 # Crescent
 
 ## Visual Elements
 
-![Crescent](https://mibera.fsn1.your-objectstorage.com/components/face%20accessories__z60/SS4_milady_Crescent.webp)
 
 Black crescent moon shape, facing north.
 

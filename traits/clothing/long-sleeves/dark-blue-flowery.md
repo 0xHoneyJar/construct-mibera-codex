@@ -1,16 +1,20 @@
 ---
 name: Dark Blue Flowery
-image: "https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(LONG"
+image: "https://mibera.s3.amazonaws.com/traits/SS5_milady_Dark%20Blue%20Flowery.webp"
 archetype: Milady
 swag_score: 5
 date_added: "2024-12-10"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS5_milady_Dark%20Blue%20Flowery.webp" alt="Dark Blue Flowery" width="320" />
+</div>
+
+
 # Dark Blue Flowery
 
 ## Visual Elements
 
-![Dark Blue Flowery](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(LONG)
 
 Dark navy blue vintage / lace dress with a big bow just below the collar followed with flowers graphic / embroidery in the middle down the ribbon and around the belt / waist area.
 

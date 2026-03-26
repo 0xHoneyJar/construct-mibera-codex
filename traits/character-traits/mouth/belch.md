@@ -1,14 +1,18 @@
 ---
 name: belch
-image: "https://mibera.fsn1.your-objectstorage.com/components/mouth__z90/belch__w3.webp"
+image: "https://mibera.s3.amazonaws.com/traits/belch.webp"
 date_added: "2024-06-05"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/belch.webp" alt="Belch" width="320" />
+</div>
+
 
 # belch
 
 ## Visual Elements
 
-![belch](https://mibera.fsn1.your-objectstorage.com/components/mouth__z90/belch__w3.webp)
 
 an open mouth with squiggly outline, portraying air movement.
 

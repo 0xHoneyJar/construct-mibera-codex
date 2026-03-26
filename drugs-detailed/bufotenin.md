@@ -6,9 +6,14 @@ origin: Central & South America
 archetype: Acidhouse
 ancestor: Native Americans
 swag_score: 1
-image: acidhouse_nativeAmerican_bufotenine.PNG
+image: "https://mibera.s3.amazonaws.com/traits/acidhouse_nativeAmerican_bufotenin.webp"
 date_added: "2025-01-12"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/acidhouse_nativeAmerican_bufotenin.webp" alt="Bufotenin" width="320" />
+</div>
+
 
 # Bufotenin
 

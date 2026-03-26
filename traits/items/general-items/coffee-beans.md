@@ -1,10 +1,15 @@
 ---
 name: coffee beans
-image: SS3_milady_ancient_ethiopian_arabs_coffee beans.PNG
+image: "https://mibera.s3.amazonaws.com/traits/SS3_milady_ancient_ethiopian_arabs_coffee%20beans.webp"
 archetype: Milady
 swag_score: 3
 date_added: "2024-12-09"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_milady_ancient_ethiopian_arabs_coffee%20beans.webp" alt="Coffee Beans" width="320" />
+</div>
+
 
 # coffee beans
 

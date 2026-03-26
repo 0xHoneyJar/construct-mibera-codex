@@ -1,14 +1,18 @@
 ---
 name: Fyre Festival
-image: "https://mibera.fsn1.your-objectstorage.com/components/background__z10/fyre%20festival.webp"
+image: "https://mibera.s3.amazonaws.com/traits/fyre%20festival.webp"
 date_added: "2025-02-27"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/fyre%20festival.webp" alt="Fyre Festival" width="320" />
+</div>
+
 
 # Fyre Festival
 
 ## Visual Elements
 
-![Fyre Festival](https://mibera.fsn1.your-objectstorage.com/components/background__z10/fyre%20festival.webp)
 
 Top point-of-view of the ocean and a huge pool going across the frame. Almost-white sand and concrete, with a bunch of trees around too..
 

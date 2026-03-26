@@ -1,16 +1,20 @@
 ---
 name: Ber Tsetseg
-image: "https://mibera.fsn1.your-objectstorage.com/components/tattoos__z125/modern_mongolian_Ber%20Tsetseg.webp"
+image: "https://mibera.s3.amazonaws.com/traits/modern_mongolian_Ber%20Tsetseg.webp"
 archetype: "**Archetype Alignment:**"
 swag_score: null
 date_added: "2024-08-10"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/modern_mongolian_Ber%20Tsetseg.webp" alt="Ber Tsetseg" width="320" />
+</div>
+
+
 # Ber Tsetseg
 
 ## Visual Elements
 
-![Ber Tsetseg](https://mibera.fsn1.your-objectstorage.com/components/tattoos__z125/modern_mongolian_Ber%20Tsetseg.webp)
 
 Line work of 3 flowers with leaves, portraying Mongolia’s national
 

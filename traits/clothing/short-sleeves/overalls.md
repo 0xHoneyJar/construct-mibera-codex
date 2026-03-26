@@ -3,7 +3,13 @@ name: Overalls
 archetype: "**Archetype Alignment:**"
 swag_score: 2
 date_added: null
+image: "https://mibera.s3.amazonaws.com/traits/SS2_Overalls.webp"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS2_Overalls.webp" alt="Overalls" width="320" />
+</div>
+
 
 # Overalls
 

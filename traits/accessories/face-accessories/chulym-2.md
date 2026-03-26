@@ -1,16 +1,20 @@
 ---
 name: Chulym 2
-image: "https://mibera.fsn1.your-objectstorage.com/components/face%20accessories__z60/SS4_milady_chulym 2.webp"
+image: "https://mibera.s3.amazonaws.com/traits/SS4_milady_chulym%202.webp"
 archetype: Milady
 swag_score: 4
 date_added: "2024-12-10"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS4_milady_chulym%202.webp" alt="Chulym 2" width="320" />
+</div>
+
+
 # Chulym 2
 
 ## Visual Elements
 
-![Chulym 2](https://mibera.fsn1.your-objectstorage.com/components/face%20accessories__z60/SS4_milady_chulym 2.webp)
 
 Five small white dots at the top forming a slight arc, two red upward chevrons and a small red stroke.
 

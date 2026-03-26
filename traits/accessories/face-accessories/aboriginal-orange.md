@@ -1,16 +1,20 @@
 ---
 name: Aboriginal Orange
-image: "https://mibera.fsn1.your-objectstorage.com/components/face%20accessories__z60/SS5_freetekno_ancient_aboriginal_Aboriginal Orange.webp"
+image: "https://mibera.s3.amazonaws.com/traits/SS5_freetekno_ancient_aboriginal_Aboriginal%20Orange.webp"
 archetype: Freetekno
 swag_score: 5
 date_added: "2024-12-10"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS5_freetekno_ancient_aboriginal_Aboriginal%20Orange.webp" alt="Aboriginal Orange" width="320" />
+</div>
+
+
 # Aboriginal Orange
 
 ## Visual Elements
 
-![Aboriginal Orange](https://mibera.fsn1.your-objectstorage.com/components/face%20accessories__z60/SS5_freetekno_ancient_aboriginal_Aboriginal Orange.webp)
 
 An orange, slightly curved, orange thick horizontal stroke, with scattered yellow and black dots on top of it. Under it, a dark black line stroke with fewer yellow spots on it.
 

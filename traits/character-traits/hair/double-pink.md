@@ -1,8 +1,13 @@
 ---
 name: Double Pink
-image: Double Pink__w2.png
+image: "https://mibera.s3.amazonaws.com/traits/Double%20Pink.webp"
 date_added: "2024-06-15"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Double%20Pink.webp" alt="Double Pink" width="320" />
+</div>
+
 
 # Double Pink
 

@@ -1,16 +1,20 @@
 ---
 name: Red Sunglasses
-image: "https://mibera.fsn1.your-objectstorage.com/components/glasses__z140/chicagodetroit_Red Sunglasses.webp"
+image: "https://mibera.s3.amazonaws.com/traits/chicagodetroit_Red%20Sunglasses.webp"
 archetype: Chicago Detroit
 swag_score: 2
 date_added: "2024-12-10"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/chicagodetroit_Red%20Sunglasses.webp" alt="Red Sunglasses" width="320" />
+</div>
+
+
 # Red Sunglasses
 
 ## Visual Elements
 
-![Red Sunglasses](https://mibera.fsn1.your-objectstorage.com/components/glasses__z140/chicagodetroit_Red Sunglasses.webp)
 
 Round transparent sunglasses with a thin red framing.
 

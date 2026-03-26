@@ -1,16 +1,20 @@
 ---
 name: Gay Liberation Front
-image: "https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT"
+image: "https://mibera.s3.amazonaws.com/traits/SS2_chicagodetroit_modern_stonewall_Gay%20Liberation%20Front.webp"
 archetype: Chicago Detroit
 swag_score: 2
 date_added: "2024-06-22"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS2_chicagodetroit_modern_stonewall_Gay%20Liberation%20Front.webp" alt="Gay Liberation Front" width="320" />
+</div>
+
+
 # Gay Liberation Front
 
 ## Visual Elements
 
-![modern_stonewall_Gay Liberation Front](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)
 
 White t-shirt with white text that reads “-IBERATION FRONT text rounding a graphic of female-male symbols connected to each other, all in red.
 

@@ -1,16 +1,20 @@
 ---
 name: Erowid
-image: "https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT"
+image: "https://mibera.s3.amazonaws.com/traits/SS3_Erowid.webp"
 archetype: "**Archetype Alignment:**"
 swag_score: 3
 date_added: "2024-06-22"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_Erowid.webp" alt="Erowid" width="320" />
+</div>
+
+
 # Erowid
 
 ## Visual Elements
 
-![Erowid](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)
 
 White t-shirt with Erowid-themed print on it, in navy blue and orange. On the print is written ‘KNOWLEDGE’ in light orange, and a quote in navy blue that reads ”Know your Body, Know your Mind, Know your Substance, Know your Source”.
 

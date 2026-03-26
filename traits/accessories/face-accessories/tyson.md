@@ -1,16 +1,20 @@
 ---
 name: Tyson
-image: "https://mibera.fsn1.your-objectstorage.com/components/face%20accessories__z60/SS3_Milady_tyson.webp"
+image: "https://mibera.s3.amazonaws.com/traits/SS3_Milady_tyson.webp"
 archetype: Milady
 swag_score: 3
 date_added: "2024-12-10"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_Milady_tyson.webp" alt="Tyson" width="320" />
+</div>
+
+
 # Tyson
 
 ## Visual Elements
 
-![Tyson](https://mibera.fsn1.your-objectstorage.com/components/face%20accessories__z60/SS3_Milady_tyson.webp)
 
 Tribal tattoo; featuring bold, flowing black lines with an asymmetrical abstract design. Incorporating sharp angles, curves, and pointed tips.
 

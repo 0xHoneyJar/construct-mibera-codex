@@ -1,10 +1,15 @@
 ---
 name: Grateful Dead Magenta
-image: SS4_grateful dead magenta.png
+image: "https://mibera.s3.amazonaws.com/traits/SS4_grateful%20dead%20magenta.webp"
 archetype: "**Archetype Alignment:** Grateful Dead has a big influence and part in Mibera’s lore."
 swag_score: 4
 date_added: "2024-06-04"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS4_grateful%20dead%20magenta.webp" alt="Grateful Dead Magenta" width="320" />
+</div>
+
 
 # Grateful Dead Magenta
 

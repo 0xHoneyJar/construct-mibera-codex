@@ -1,16 +1,20 @@
 ---
 name: Hugs Not Drugs
-image: "https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT"
+image: "https://mibera.s3.amazonaws.com/traits/SS2_Hugs%20Not%20Drugs.webp"
 archetype: "**Archetype Alignment:** In relation to drugs, music, and Grateful Dead character graphic reference. Which heavily ties back to drugs and music culture."
 swag_score: 2
 date_added: "2024-12-10"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS2_Hugs%20Not%20Drugs.webp" alt="Hugs Not Drugs" width="320" />
+</div>
+
+
 # Hugs Not Drugs
 
 ## Visual Elements
 
-![Hugs Not Drugs](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)
 
 Red t-shirt with a graphic of 3 bears hugging each other and text under it that reads “HUGS NOT DRUGS” inside of a slightly curved-upwards banner frame.
 

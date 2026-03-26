@@ -1,14 +1,18 @@
 ---
 name: ecstasy lilac
-image: "https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/Ecstasy%20Lilac__w8.webp"
+image: "https://mibera.s3.amazonaws.com/traits/Ecstasy%20Lilac.webp"
 date_added: "2024-06-03"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Ecstasy%20Lilac.webp" alt="Ecstasy Lilac" width="320" />
+</div>
+
 
 # ecstasy lilac
 
 ## Visual Elements
 
-![Ecstasy Lilac](https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/Ecstasy%20Lilac__w8.webp)
 
 purple eyes with heavily dilated pupils.
 

@@ -1,14 +1,18 @@
 ---
 name: heart leaf
-image: "https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/Heart%20Leaf__w15.webp"
+image: "https://mibera.s3.amazonaws.com/traits/Heart%20Leaf.webp"
 date_added: "2024-06-03"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Heart%20Leaf.webp" alt="Heart Leaf" width="320" />
+</div>
+
 
 # heart leaf
 
 ## Visual Elements
 
-![Heart Leaf](https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/Heart%20Leaf__w15.webp)
 
 eyes with heart-shaped pupils in leafy green.
 

@@ -1,16 +1,20 @@
 ---
 name: Time
-image: "https://mibera.fsn1.your-objectstorage.com/components/tattoos__z125/ancient_mongolian_Time.webp"
+image: "https://mibera.s3.amazonaws.com/traits/ancient_mongolian_Time.webp"
 archetype: "**Archetype Alignment:**"
 swag_score: null
 date_added: "2024-08-10"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Time.webp" alt="Time" width="320" />
+</div>
+
+
 # Time
 
 ## Visual Elements
 
-![Time](https://mibera.fsn1.your-objectstorage.com/components/tattoos__z125/ancient_mongolian_Time.webp)
 
 (would like to take a bit more time thinking of a desc for this one).
 

@@ -3,7 +3,13 @@ name: 80s Chicago Jersey
 archetype: "**Archetype Alignment:**"
 swag_score: 3
 date_added: null
+image: "https://mibera.s3.amazonaws.com/traits/SS3_chicagodetroit_80s%20Chicago%20Jersey.webp"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_chicagodetroit_80s%20Chicago%20Jersey.webp" alt="80S Chicago Jersey" width="320" />
+</div>
+
 
 # 80s Chicago Jersey
 

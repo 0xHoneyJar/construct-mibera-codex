@@ -1,16 +1,20 @@
 ---
 name: DARE Rave
-image: "https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT"
+image: "https://mibera.s3.amazonaws.com/traits/SS3_DARE%20Rave.webp"
 archetype: "**Archetype Alignment:**"
 swag_score: 3
 date_added: "2024-06-08"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_DARE%20Rave.webp" alt="Dare Rave" width="320" />
+</div>
+
+
 # DARE Rave
 
 ## Visual Elements
 
-![DARE Rave](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)
 
 Black t-shirt with “D.A.R.E” in red written in the upper middle section. Below it is white text that spells “DRUG ABUSE RAVES ETHEREUM”.
 

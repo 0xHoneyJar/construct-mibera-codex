@@ -1,16 +1,20 @@
 ---
 name: Remiliaco
-image: "https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS3_acidhouse_Remiliaco.webp"
+image: "https://mibera.s3.amazonaws.com/traits/SS3_acidhouse_Remiliaco.webp"
 archetype: Acidhouse
 swag_score: 3
 date_added: "2024-07-25"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_acidhouse_Remiliaco.webp" alt="Remiliaco" width="320" />
+</div>
+
+
 # Remiliaco
 
 ## Visual Elements
 
-![Remiliaco](https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS3_acidhouse_Remiliaco.webp)
 
 White and black cap with “REMILIA CORPORATION” text in black, surrounded by a lot of little stars in full-black and thin outline.
 

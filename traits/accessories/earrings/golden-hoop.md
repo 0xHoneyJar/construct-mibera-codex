@@ -1,10 +1,15 @@
 ---
 name: Golden Hoop
-image: SS3_golden hoop.PNG
+image: "https://mibera.s3.amazonaws.com/traits/SS3_golden%20hoop.webp"
 archetype: "**Archetype Alignment:** Aligned culture, related to the 90s rave"
 swag_score: 3
 date_added: "2024-12-09"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_golden%20hoop.webp" alt="Golden Hoop" width="320" />
+</div>
+
 
 # Golden Hoop
 

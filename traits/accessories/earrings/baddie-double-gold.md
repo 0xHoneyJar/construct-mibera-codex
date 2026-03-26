@@ -1,10 +1,15 @@
 ---
 name: Baddie Double Gold
-image: SS3_baddie double gold.png
+image: "https://mibera.s3.amazonaws.com/traits/SS3_baddie%20double%20gold.webp"
 archetype: "**Archetype Alignment:** Bera Baddies inspired item."
 swag_score: 3
 date_added: "2024-12-10"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_baddie%20double%20gold.webp" alt="Baddie Double Gold" width="320" />
+</div>
+
 
 # Baddie Double Gold
 

@@ -1,10 +1,15 @@
 ---
 name: boo bear 3
-image: SS3_milady_Boo Bear 3.png
+image: "https://mibera.s3.amazonaws.com/traits/SS3_milady_Boo%20Bear%203.webp"
 archetype: Milady
 swag_score: 3
 date_added: "2024-07-09"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_milady_Boo%20Bear%203.webp" alt="Boo Bear 3" width="320" />
+</div>
+
 
 # boo bear 3
 

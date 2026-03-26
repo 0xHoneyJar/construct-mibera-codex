@@ -1,14 +1,18 @@
 ---
 name: El Dorado
-image: "https://mibera.fsn1.your-objectstorage.com/components/background__z10/el%20dorado.webp"
+image: "https://mibera.s3.amazonaws.com/traits/el%20dorado.webp"
 date_added: "2025-02-27"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/el%20dorado.webp" alt="El Dorado" width="320" />
+</div>
+
 
 # El Dorado
 
 ## Visual Elements
 
-![El Dorado](https://mibera.fsn1.your-objectstorage.com/components/background__z10/el%20dorado.webp)
 
 Golden pyramid-like site in the background, red-brown stone building, warm orange sky, and green trees / bushes.
 

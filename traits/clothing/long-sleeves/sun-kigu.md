@@ -1,16 +1,20 @@
 ---
 name: Sun Kigu
-image: "https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(KIGU"
+image: "https://mibera.s3.amazonaws.com/traits/SS5_milady_Sun%20Kigu.webp"
 archetype: Milady
 swag_score: 5
 date_added: "2024-07-31"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS5_milady_Sun%20Kigu.webp" alt="Sun Kigu" width="320" />
+</div>
+
+
 # Sun Kigu
 
 ## Visual Elements
 
-![Sun Kigu](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(KIGU)
 
 Bear onesie in dark brown with the hood up and sparkly eyes.
 

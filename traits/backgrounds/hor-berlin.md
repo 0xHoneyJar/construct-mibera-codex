@@ -1,14 +1,18 @@
 ---
 name: Hor Berlin
-image: "https://mibera.fsn1.your-objectstorage.com/components/background__z10%20%28SCENE%29/hor%20berlin.webp"
+image: "https://mibera.s3.amazonaws.com/traits/hor%20berlin.webp"
 date_added: "2025-03-11"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/hor%20berlin.webp" alt="Hor Berlin" width="320" />
+</div>
+
 
 # Hor Berlin
 
 ## Visual Elements
 
-![Hor Berlin](https://mibera.fsn1.your-objectstorage.com/components/background__z10%20%28SCENE%29/hor%20berlin.webp)
 
 Dim moody room with yellow tiled walls, black grid, and red door at the back. In front is a DJ set.
 

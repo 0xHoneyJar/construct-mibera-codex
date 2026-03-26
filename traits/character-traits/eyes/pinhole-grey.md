@@ -1,14 +1,18 @@
 ---
 name: pinhole grey
-image: "https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/Pinhole%20Grey__w7.webp"
+image: "https://mibera.s3.amazonaws.com/traits/Pinhole%20Grey.webp"
 date_added: "2024-06-03"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Pinhole%20Grey.webp" alt="Pinhole Grey" width="320" />
+</div>
+
 
 # pinhole grey
 
 ## Visual Elements
 
-![Pinhole Grey](https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/Pinhole%20Grey__w7.webp)
 
 grey eyes with constricted pupils, or usually known as pinpoint pupils.
 

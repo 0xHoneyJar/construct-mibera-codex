@@ -1,10 +1,15 @@
 ---
 name: buy bitcoin
-image: SS3_milady_Buy Bitcoin.png
+image: "https://mibera.s3.amazonaws.com/traits/SS3_milady_Buy%20Bitcoin.webp"
 archetype: Milady
 swag_score: 3
 date_added: "2024-07-10"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_milady_Buy%20Bitcoin.webp" alt="Buy Bitcoin" width="320" />
+</div>
+
 
 # buy bitcoin
 

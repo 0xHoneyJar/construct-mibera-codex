@@ -1,14 +1,18 @@
 ---
 name: stoned lilac
-image: "https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/Stoned%20Lilac__w9.webp"
+image: "https://mibera.s3.amazonaws.com/traits/Stoned%20Lilac.webp"
 date_added: "2024-06-03"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Stoned%20Lilac.webp" alt="Stoned Lilac" width="320" />
+</div>
+
 
 # stoned lilac
 
 ## Visual Elements
 
-![Stoned Lilac](https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/Stoned%20Lilac__w9.webp)
 
 bright-purple eyes. The whites of the eyes are red, eyelids partially lowered.
 

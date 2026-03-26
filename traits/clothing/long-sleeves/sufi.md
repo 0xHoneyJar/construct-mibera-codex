@@ -1,16 +1,20 @@
 ---
 name: Sufi
-image: "https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(LONG"
+image: "https://mibera.s3.amazonaws.com/traits/SS4_freetekno_Sufi.webp"
 archetype: Freetekno
 swag_score: 4
 date_added: "2024-07-28"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS4_freetekno_Sufi.webp" alt="Sufi" width="320" />
+</div>
+
+
 # Sufi
 
 ## Visual Elements
 
-![Sufi](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(LONG)
 
 Garments and robes in vibrant red and green with cool tone, draping over with white stripe / accent by the neck and the end of the visible sleeve.
 

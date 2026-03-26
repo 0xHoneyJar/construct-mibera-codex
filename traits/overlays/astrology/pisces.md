@@ -3,13 +3,20 @@ name: Pisces
 date_range: February 19 - March 20
 glyph: ♓
 element: Water
+image: "https://mibera.s3.amazonaws.com/traits/Sun%20Pisces.webp"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Sun%20Pisces.webp" alt="Sun Pisces" width="200" />
+  <img src="https://mibera.s3.amazonaws.com/traits/Moon%20Pisces.webp" alt="Moon Pisces" width="200" />
+  <img src="https://mibera.s3.amazonaws.com/traits/Rising%20Pisces.webp" alt="Rising Pisces" width="200" />
+</div>
+
 
 # Pisces
 
 ## Visual Elements
 
-![Sun Pisces](https://mibera.fsn1.your-objectstorage.com/components/Sun/Sun%20Pisces.webp)
 
 
 ## Cultural Context

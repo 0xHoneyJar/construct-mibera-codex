@@ -1,16 +1,20 @@
 ---
 name: Without Fear Without Hate
-image: "https://mibera.fsn1.your-objectstorage.com/components/tattoos__z125/modern_punjabi_Without%20Fear%20Without%20Hate.webp"
+image: "https://mibera.s3.amazonaws.com/traits/modern_punjabi_Without%20Fear%20Without%20Hate.webp"
 archetype: "**Archetype Alignment:**"
 swag_score: null
 date_added: "2024-08-09"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/modern_punjabi_Without%20Fear%20Without%20Hate.webp" alt="Without Fear Without Hate" width="320" />
+</div>
+
+
 # Without Fear Without Hate
 
 ## Visual Elements
 
-![Without Fear Without Hate](https://mibera.fsn1.your-objectstorage.com/components/tattoos__z125/modern_punjabi_Without%20Fear%20Without%20Hate.webp)
 
 Script written in Gurmukhi, “Nirbhau-Nirvair” ( ) meaning ਿਨਰਭਉਿਨਰਵੈਰੁ ‘without fear, without hate’ in black.
 

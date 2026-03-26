@@ -1,16 +1,20 @@
 ---
 name: Wikipedia Editor
-image: "https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT"
+image: "https://mibera.s3.amazonaws.com/traits/SS3_Wikipedia%20Editor.webp"
 archetype: "**Archetype Alignment:**"
 swag_score: 3
 date_added: "2024-06-22"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_Wikipedia%20Editor.webp" alt="Wikipedia Editor" width="320" />
+</div>
+
+
 # Wikipedia Editor
 
 ## Visual Elements
 
-![Wikipedia Editor](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)
 
 White t-shirt with big blue text that reads “Wikipedia Editor”.
 

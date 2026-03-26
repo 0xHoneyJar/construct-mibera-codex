@@ -1,10 +1,15 @@
 ---
 name: Tribal Bera
-image: SS5_tribal bera.png
+image: "https://mibera.s3.amazonaws.com/traits/SS5_tribal%20bera.webp"
 archetype: "**Archetype Alignment:** Its alignment in theme with the Berachain ecosystem and partially Mibera’s tribal aesthetic."
 swag_score: 5
 date_added: "2024-12-10"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS5_tribal%20bera.webp" alt="Tribal Bera" width="320" />
+</div>
+
 
 # Tribal Bera
 

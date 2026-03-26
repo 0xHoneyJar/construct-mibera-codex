@@ -1,14 +1,18 @@
 ---
 name: Cave Art
-image: "https://mibera.fsn1.your-objectstorage.com/components/background__z10/cave%20art.webp"
+image: "https://mibera.s3.amazonaws.com/traits/cave%20art.webp"
 date_added: "2024-08-14"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/cave%20art.webp" alt="Cave Art" width="320" />
+</div>
+
 
 # Cave Art
 
 ## Visual Elements
 
-![Cave Art](https://mibera.fsn1.your-objectstorage.com/components/background__z10/cave%20art.webp)
 
 Brown and beige gradient background with central lighting and 3 vague human figures in darker shade.
 

@@ -3,7 +3,13 @@ name: Nick Szabo
 archetype: "**Archetype Alignment:**"
 swag_score: 5
 date_added: null
+image: "https://mibera.s3.amazonaws.com/traits/SS5_cypherpunk_Nick%20Szabo.webp"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS5_cypherpunk_Nick%20Szabo.webp" alt="Nick Szabo" width="320" />
+</div>
+
 
 # Nick Szabo
 

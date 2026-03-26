@@ -1,16 +1,20 @@
 ---
 name: Inverted Pentagram
-image: "https://mibera.fsn1.your-objectstorage.com/components/tattoos__z125/ancient_Satanist_Inverted%20Pentagram.webp"
+image: "https://mibera.s3.amazonaws.com/traits/ancient_Satanist_Inverted%20Pentagram.webp"
 archetype: "**Archetype Alignment:**"
 swag_score: null
 date_added: "2024-08-09"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/ancient_Satanist_Inverted%20Pentagram.webp" alt="Inverted Pentagram" width="320" />
+</div>
+
+
 # Inverted Pentagram
 
 ## Visual Elements
 
-![Inverted Pentagram](https://mibera.fsn1.your-objectstorage.com/components/tattoos__z125/ancient_Satanist_Inverted%20Pentagram.webp)
 
 Line work of an upside down star inside of a circle.
 

@@ -1,16 +1,20 @@
 ---
 name: SSS
 rank: SSS
-image: "https://mibera.fsn1.your-objectstorage.com/components/Ranking/SSS.webp"
+image: "https://mibera.s3.amazonaws.com/traits/SSS.webp"
 shape: Bear Head
 color: a vibrant shade of bright purple
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SSS.webp" alt="Sss" width="320" />
+</div>
+
 
 # SSS
 
 ## Visual Elements
 
-![Rank SSS](https://mibera.fsn1.your-objectstorage.com/components/Ranking/SSS.webp)
 
 
 ## Cultural Context

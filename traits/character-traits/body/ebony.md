@@ -1,14 +1,18 @@
 ---
 name: ebony
-image: "https://mibera.fsn1.your-objectstorage.com/components/body__z40/ebony__z80.webp"
+image: "https://mibera.s3.amazonaws.com/traits/ebony.webp"
 date_added: "2024-08-13"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/ebony.webp" alt="Ebony" width="320" />
+</div>
+
 
 # ebony
 
 ## Visual Elements
 
-![Ebony](https://mibera.fsn1.your-objectstorage.com/components/body__z40/ebony__z80.webp)
 
 Ebony skin, a deep, rich, dark brown to near-black shade. Intense brown with cool/neutral undertones.
 

@@ -1,10 +1,15 @@
 ---
 name: Green Lolipop
-image: SS1_green lolipop.png
+image: "https://mibera.s3.amazonaws.com/traits/SS1_green%20lolipop.webp"
 archetype: "**Archetype Alignment:** Relation to drug-use and users, as well as rave culture."
 swag_score: 1
 date_added: "2024-12-10"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS1_green%20lolipop.webp" alt="Green Lolipop" width="320" />
+</div>
+
 
 # Green Lolipop
 

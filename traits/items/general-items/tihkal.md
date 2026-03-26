@@ -1,10 +1,15 @@
 ---
 name: tihkal
-image: SS4_freetekno_Tihkal.png
+image: "https://mibera.s3.amazonaws.com/traits/SS4_freetekno_Tihkal.webp"
 archetype: Freetekno
 swag_score: 4
 date_added: "2024-07-11"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS4_freetekno_Tihkal.webp" alt="Tihkal" width="320" />
+</div>
+
 
 # tihkal
 

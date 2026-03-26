@@ -1,14 +1,18 @@
 ---
 name: bright sky
-image: "https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/Bright%20Sky__w13.webp"
+image: "https://mibera.s3.amazonaws.com/traits/Bright%20Sky.webp"
 date_added: "2024-06-03"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Bright%20Sky.webp" alt="Bright Sky" width="320" />
+</div>
+
 
 # bright sky
 
 ## Visual Elements
 
-![Bright Sky](https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/Bright%20Sky__w13.webp)
 
 blue eyes with a large white four pointed star within the pupil
 

@@ -1,16 +1,20 @@
 ---
 name: HTRK Night Faces
-image: "https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT"
+image: "https://mibera.s3.amazonaws.com/traits/SS3_HTRK%20Night%20Faces.webp"
 archetype: "**Archetype Alignment:**"
 swag_score: 3
 date_added: "2025-01-02"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_HTRK%20Night%20Faces.webp" alt="Htrk Night Faces" width="320" />
+</div>
+
+
 # HTRK Night Faces
 
 ## Visual Elements
 
-![HTRK Night Faces](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)
 
 Charcoal grey t-shirt with line doodles of faces and a screaming man with his mouth wide open.
 

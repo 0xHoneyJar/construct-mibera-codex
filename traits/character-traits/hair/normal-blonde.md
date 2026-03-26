@@ -1,8 +1,13 @@
 ---
 name: normal blonde
-image: Normal Blonde__w20.png Normal Blonde__z-32.png
+image: "https://mibera.s3.amazonaws.com/traits/Normal%20Blonde.webp"
 date_added: "2024-06-22"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Normal%20Blonde.webp" alt="Normal Blonde" width="320" />
+</div>
+
 
 # normal blonde
 

@@ -1,16 +1,20 @@
 ---
 name: Tonka
-image: "https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT"
+image: "https://mibera.s3.amazonaws.com/traits/SS4_freetekno_Tonka.webp"
 archetype: Freetekno
 swag_score: 4
 date_added: "2024-06-22"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS4_freetekno_Tonka.webp" alt="Tonka" width="320" />
+</div>
+
+
 # Tonka
 
 ## Visual Elements
 
-![Tonka](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)
 
 Creamy white t-shirt with red lining on the neck and sleeves, and a graphic lettering of the word “Tonka” in the middle.
 

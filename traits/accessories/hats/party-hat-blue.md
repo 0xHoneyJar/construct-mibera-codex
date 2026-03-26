@@ -1,16 +1,20 @@
 ---
 name: Party Hat Blue
-image: "https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS5_Party%20Hat%20Blue.webp"
+image: "https://mibera.s3.amazonaws.com/traits/SS5_Party%20Hat%20Blue.webp"
 archetype: "**Archetype Alignment:**"
 swag_score: 5
 date_added: "2024-06-15"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS5_Party%20Hat%20Blue.webp" alt="Party Hat Blue" width="320" />
+</div>
+
+
 # Party Hat Blue
 
 ## Visual Elements
 
-![SS5 Party Hat Blue](https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS5_Party%20Hat%20Blue.webp)
 
 Crown-shaped hat in vibrant blue.
 

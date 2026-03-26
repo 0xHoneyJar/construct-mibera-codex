@@ -1,14 +1,18 @@
 ---
 name: drool
-image: "https://mibera.fsn1.your-objectstorage.com/components/mouth__z90/drool__w3.webp"
+image: "https://mibera.s3.amazonaws.com/traits/drool.webp"
 date_added: "2024-06-05"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/drool.webp" alt="Drool" width="320" />
+</div>
+
 
 # drool
 
 ## Visual Elements
 
-![drool](https://mibera.fsn1.your-objectstorage.com/components/mouth__z90/drool__w3.webp)
 
 a slightly open mouth with a visible tongue and drool dripping off of it.
 

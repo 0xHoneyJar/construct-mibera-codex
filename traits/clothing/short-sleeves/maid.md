@@ -1,16 +1,20 @@
 ---
 name: Maid
-image: "https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT"
+image: "https://mibera.s3.amazonaws.com/traits/SS5_milady_Maid.webp"
 archetype: Milady
 swag_score: 5
 date_added: "2024-06-05"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS5_milady_Maid.webp" alt="Maid" width="320" />
+</div>
+
+
 # Maid
 
 ## Visual Elements
 
-![Maid](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)
 
 “Maid dress” in black and white. A dress with puffy shoulders and ribbons around the waist. Low neck cutting.
 

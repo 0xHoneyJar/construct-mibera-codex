@@ -1,16 +1,20 @@
 ---
 name: B
 rank: B
-image: "https://mibera.fsn1.your-objectstorage.com/components/Ranking/B.webp"
+image: "https://mibera.s3.amazonaws.com/traits/B.webp"
 shape: Circle
 color: a darker shade of yellow
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/B.webp" alt="B" width="320" />
+</div>
+
 
 # B
 
 ## Visual Elements
 
-![Rank B](https://mibera.fsn1.your-objectstorage.com/components/Ranking/B.webp)
 
 
 ## Cultural Context

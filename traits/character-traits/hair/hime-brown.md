@@ -1,8 +1,13 @@
 ---
 name: hime brown
-image: Hime Brown__w16.png Hime Brown__z-32.png
+image: "https://mibera.s3.amazonaws.com/traits/Hime%20Brown.webp"
 date_added: "2024-06-22"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Hime%20Brown.webp" alt="Hime Brown" width="320" />
+</div>
+
 
 # hime brown
 

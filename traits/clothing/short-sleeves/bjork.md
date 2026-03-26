@@ -1,16 +1,20 @@
 ---
 name: Bjork
-image: "https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT"
+image: "https://mibera.s3.amazonaws.com/traits/SS3_Bjork.webp"
 archetype: "**Archetype Alignment:**"
 swag_score: 3
 date_added: "2024-06-22"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_Bjork.webp" alt="Bjork" width="320" />
+</div>
+
+
 # Bjork
 
 ## Visual Elements
 
-![Bjork](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)
 
 Red t-shirt with white text that reads “Enjoy COCK”.
 

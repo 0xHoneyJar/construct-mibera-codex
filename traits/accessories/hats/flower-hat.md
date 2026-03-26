@@ -1,16 +1,20 @@
 ---
 name: Flower Hat
-image: "https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS2_Flower%20Hat.webp"
+image: "https://mibera.s3.amazonaws.com/traits/SS2_Flower%20Hat.webp"
 archetype: "**Archetype Alignment:**"
 swag_score: 2
 date_added: "2024-07-27"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS2_Flower%20Hat.webp" alt="Flower Hat" width="320" />
+</div>
+
+
 # Flower Hat
 
 ## Visual Elements
 
-![SS2 Flower Hat](https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS2_Flower%20Hat.webp)
 
 Wide round hat with pink ribbon wrapped around it and a few small tulips on the other side. The hat is in the colour of beige / the sand.
 

@@ -1,16 +1,20 @@
 ---
 name: Caria Tyche
-image: "https://mibera.fsn1.your-objectstorage.com/components/tattoos__z125/ancient_greek_Caria%20Tyche.webp"
+image: "https://mibera.s3.amazonaws.com/traits/ancient_greek_Caria%20Tyche.webp"
 archetype: "**Archetype Alignment:**"
 swag_score: null
 date_added: "2024-08-09"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/ancient_greek_Caria%20Tyche.webp" alt="Caria Tyche" width="320" />
+</div>
+
+
 # Caria Tyche
 
 ## Visual Elements
 
-![Caria Tyche](https://mibera.fsn1.your-objectstorage.com/components/tattoos__z125/ancient_greek_Caria%20Tyche.webp)
 
 an intricate line drawing of Tyche, Greek Goddess of Fame and Fortune.
 

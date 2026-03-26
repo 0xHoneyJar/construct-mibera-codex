@@ -1,14 +1,18 @@
 ---
 name: Speakers
-image: "https://mibera.fsn1.your-objectstorage.com/components/background__z10/Speakers.webp"
+image: "https://mibera.s3.amazonaws.com/traits/Speakers.webp"
 date_added: "2024-12-10"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Speakers.webp" alt="Speakers" width="320" />
+</div>
+
 
 # Speakers
 
 ## Visual Elements
 
-![Speakers](https://mibera.fsn1.your-objectstorage.com/components/background__z10/Speakers.webp)
 
 Stacked sound systems / speakers 
 

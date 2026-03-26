@@ -1,10 +1,15 @@
 ---
 name: mibera psyops manual
-image: SS3_freetekno_Mibera Psyops Manual.png
+image: "https://mibera.s3.amazonaws.com/traits/SS3_freetekno_Mibera%20Psyops%20Manual.webp"
 archetype: Freetekno
 swag_score: 3
 date_added: "2024-07-07"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_freetekno_Mibera%20Psyops%20Manual.webp" alt="Mibera Psyops Manual" width="320" />
+</div>
+
 
 # mibera psyops manual
 

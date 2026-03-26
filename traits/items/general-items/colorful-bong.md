@@ -1,10 +1,15 @@
 ---
 name: colorful bong
-image: SS2_chicagodetroit_Colorful Bong.PNG
+image: "https://mibera.s3.amazonaws.com/traits/SS2_chicagodetroit_Colorful%20Bong.webp"
 archetype: Chicago Detroit
 swag_score: 2
 date_added: "2024-07-10"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS2_chicagodetroit_Colorful%20Bong.webp" alt="Colorful Bong" width="320" />
+</div>
+
 
 # colorful bong
 

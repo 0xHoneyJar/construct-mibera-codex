@@ -1,8 +1,13 @@
 ---
 name: classic orange
-image: Classic Orange__w5.PNG Classic Orange__z-32.png
+image: "https://mibera.s3.amazonaws.com/traits/Classic%20Orange.webp"
 date_added: "2024-06-22"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Classic%20Orange.webp" alt="Classic Orange" width="320" />
+</div>
+
 
 # classic orange
 

@@ -1,16 +1,20 @@
 ---
 name: Stylized Dharma Wheel
-image: "https://mibera.fsn1.your-objectstorage.com/components/tattoos__z125/modern_buddhist_Stylized%20Dharma%20Wheel.webp"
+image: "https://mibera.s3.amazonaws.com/traits/modern_buddhist_Stylized%20Dharma%20Wheel.webp"
 archetype: "**Archetype Alignment:**"
 swag_score: null
 date_added: "2024-08-10"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/modern_buddhist_Stylized%20Dharma%20Wheel.webp" alt="Stylized Dharma Wheel" width="320" />
+</div>
+
+
 # Stylized Dharma Wheel
 
 ## Visual Elements
 
-![Stylized Dharma Wheel](https://mibera.fsn1.your-objectstorage.com/components/tattoos__z125/modern_buddhist_Stylized%20Dharma%20Wheel.webp)
 
 Dharmachakra; looks like a sailing wheel, in light brown.
 

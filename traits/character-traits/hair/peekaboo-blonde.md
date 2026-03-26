@@ -1,8 +1,13 @@
 ---
 name: peekaboo blonde
-image: Peekaboo Blonde__w8.png Peekaboo Blonde__z-32.png
+image: "https://mibera.s3.amazonaws.com/traits/Peekaboo%20Blonde.webp"
 date_added: "2024-06-04"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Peekaboo%20Blonde.webp" alt="Peekaboo Blonde" width="320" />
+</div>
+
 
 # peekaboo blonde
 

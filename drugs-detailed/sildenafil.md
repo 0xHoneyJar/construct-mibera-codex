@@ -6,9 +6,14 @@ origin: UK
 archetype: Chicago Detroit
 ancestor: Gabon
 swag_score: 1
-image: chicagodetroit_gabon_sildenafil.PNG
+image: "https://mibera.s3.amazonaws.com/traits/chicagodetroit_gabon_sildenafil.webp"
 date_added: "2025-01-12"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/chicagodetroit_gabon_sildenafil.webp" alt="Sildenafil" width="320" />
+</div>
+
 
 # Sildenafil
 

@@ -1,16 +1,20 @@
 ---
 name: Om
-image: "https://mibera.fsn1.your-objectstorage.com/components/tattoos__z125/ancient_hindu_Om.webp"
+image: "https://mibera.s3.amazonaws.com/traits/ancient_hindu_Om.webp"
 archetype: "**Archetype Alignment:**"
 swag_score: null
 date_added: "2024-08-10"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/ancient_hindu_Om.webp" alt="Om" width="320" />
+</div>
+
+
 # Om
 
 ## Visual Elements
 
-![Om](https://mibera.fsn1.your-objectstorage.com/components/tattoos__z125/ancient_hindu_Om.webp)
 
 An ‘om’ symbol in black.
 

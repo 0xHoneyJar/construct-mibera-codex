@@ -1,16 +1,20 @@
 ---
 name: Not Gay
-image: "https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT"
+image: "https://mibera.s3.amazonaws.com/traits/SS1_Not%20Gay.webp"
 archetype: "**Archetype Alignment:**"
 swag_score: 1
 date_added: "2024-07-22"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS1_Not%20Gay.webp" alt="Not Gay" width="320" />
+</div>
+
+
 # Not Gay
 
 ## Visual Elements
 
-![Not Gay](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)
 
 Black t-shirt with white text that says “I’M NOT GAY BUT WHEN I LOOK AT NAKED DUDES I GET HORNY AND JACK OFF” in thin font.
 

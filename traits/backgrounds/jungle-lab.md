@@ -1,14 +1,18 @@
 ---
 name: Jungle Lab
-image: "https://mibera.fsn1.your-objectstorage.com/components/background__z10%20%28SCENE%29/jungle%20lab.webp"
+image: "https://mibera.s3.amazonaws.com/traits/jungle%20lab.webp"
 date_added: "2025-03-11"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/jungle%20lab.webp" alt="Jungle Lab" width="320" />
+</div>
+
 
 # Jungle Lab
 
 ## Visual Elements
 
-![Jungle Lab](https://mibera.fsn1.your-objectstorage.com/components/background__z10%20%28SCENE%29/jungle%20lab.webp)
 
 Jungle setting with four blue drums / barrels, a black tarp on the ground, a snake wrapped around one of the trees, and a pair of bright yellow eyes peeking from the dark. In front are mountains of white powder and an empty glass jar. Thin log and some leaves are framing the scene nicely.
 

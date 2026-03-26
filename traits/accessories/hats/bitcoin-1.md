@@ -1,16 +1,20 @@
 ---
 name: Bitcoin 1
-image: "https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS3_acidhouse_Bitcoin%201.webp"
+image: "https://mibera.s3.amazonaws.com/traits/SS3_acidhouse_Bitcoin%201.webp"
 archetype: Acidhouse
 swag_score: 3
 date_added: "2024-12-10"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_acidhouse_Bitcoin%201.webp" alt="Bitcoin 1" width="320" />
+</div>
+
+
 # Bitcoin 1
 
 ## Visual Elements
 
-![Bitcoin 1](https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS3_acidhouse_Bitcoin%201.webp)
 
 Black cap with colourful graphics of a Sonic the Hedgehog with a Bitcoin logo and the text “Harry Potter OBAMA” framing it.
 

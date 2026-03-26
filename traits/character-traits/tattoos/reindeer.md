@@ -1,16 +1,20 @@
 ---
 name: Reindeer
-image: "https://mibera.fsn1.your-objectstorage.com/components/tattoos__z125/ancient_sami_Reindeer.webp"
+image: "https://mibera.s3.amazonaws.com/traits/ancient_sami_Reindeer.webp"
 archetype: "**Archetype Alignment:**"
 swag_score: null
 date_added: "2024-08-10"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/ancient_sami_Reindeer.webp" alt="Reindeer" width="320" />
+</div>
+
+
 # Reindeer
 
 ## Visual Elements
 
-![Reindeer](https://mibera.fsn1.your-objectstorage.com/components/tattoos__z125/ancient_sami_Reindeer.webp)
 
 Line doodle of a reindeer, small in size.
 

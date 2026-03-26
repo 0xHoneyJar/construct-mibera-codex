@@ -1,16 +1,20 @@
 ---
 name: smokey durag
-image: "https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS5_Smokey%20Durag.webp"
+image: "https://mibera.s3.amazonaws.com/traits/SS5_Smokey%20Durag.webp"
 archetype: "**Archetype Alignment:**"
 swag_score: 5
 date_added: "2025-03-10"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS5_Smokey%20Durag.webp" alt="Smokey Durag" width="320" />
+</div>
+
+
 # smokey durag
 
 ## Visual Elements
 
-![SS5 Smokey Durag](https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS5_Smokey%20Durag.webp)
 
 a tight black durag with small white text that reads “OOGA BOOGA” with funky font on it.
 

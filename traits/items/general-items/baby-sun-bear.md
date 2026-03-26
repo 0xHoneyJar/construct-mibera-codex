@@ -1,10 +1,15 @@
 ---
 name: baby sun bear
-image: SS4_milady_Baby Sun Bear.png
+image: "https://mibera.s3.amazonaws.com/traits/SS4_milady_Baby%20Sun%20Bear.webp"
 archetype: Milady
 swag_score: 4
 date_added: "2024-07-11"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS4_milady_Baby%20Sun%20Bear.webp" alt="Baby Sun Bear" width="320" />
+</div>
+
 
 # baby sun bear
 

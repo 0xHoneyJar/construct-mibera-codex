@@ -1,10 +1,15 @@
 ---
 name: Bera Flower
-image: SS2_bera flower.png
+image: "https://mibera.s3.amazonaws.com/traits/SS2_bera%20flower.webp"
 archetype: "**Archetype Alignment:**"
 swag_score: 2
 date_added: "2024-12-10"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS2_bera%20flower.webp" alt="Bera Flower" width="320" />
+</div>
+
 
 # Bera Flower
 

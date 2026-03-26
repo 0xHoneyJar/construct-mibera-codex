@@ -1,10 +1,15 @@
 ---
 name: Red Black Feather
-image: SS4_acidhouse_ancient_nativeAmerican_Red Black Feather.png
+image: "https://mibera.s3.amazonaws.com/traits/SS4_acidhouse_ancient_nativeAmerican_Red%20Black%20Feather.webp"
 archetype: Acidhouse
 swag_score: 4
 date_added: "2023-11-28"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS4_acidhouse_ancient_nativeAmerican_Red%20Black%20Feather.webp" alt="Red Black Feather" width="320" />
+</div>
+
 
 # Red Black Feather
 

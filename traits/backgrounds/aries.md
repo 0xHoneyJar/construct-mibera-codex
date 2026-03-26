@@ -1,14 +1,18 @@
 ---
 name: Aries
-image: "https://mibera.fsn1.your-objectstorage.com/components/Constellations/aries.webp"
+image: "https://mibera.s3.amazonaws.com/traits/aries.webp"
 date_added: "2024-11-23"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/aries.webp" alt="Aries" width="320" />
+</div>
+
 
 # Aries
 
 ## Visual Elements
 
-![Aries](https://mibera.fsn1.your-objectstorage.com/components/Constellations/aries.webp)
 
 Deep blue night sky with bright white 4-points-stars connected by thin white lines forming a constellation (Aries). Smaller stars in white dots are scattered in the background.
 

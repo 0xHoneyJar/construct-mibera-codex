@@ -1,16 +1,20 @@
 ---
 name: obb dripping honey
-image: "https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS5_OBB%20Dripping%20Honey.webp"
+image: "https://mibera.s3.amazonaws.com/traits/SS5_OBB%20Dripping%20Honey.webp"
 archetype: "**Archetype Alignment:**"
 swag_score: 5
 date_added: "2024-07-27"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS5_OBB%20Dripping%20Honey.webp" alt="Obb Dripping Honey" width="320" />
+</div>
+
+
 # obb dripping honey
 
 ## Visual Elements
 
-![SS5 OBB Dripping Honey](https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS5_OBB%20Dripping%20Honey.webp)
 
 a lid of a clear jar with a dripping yellow liquid that seems to be honey.
 

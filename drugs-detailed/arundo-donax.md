@@ -6,9 +6,14 @@ origin: Mediterranean Basin, Middle East
 archetype: Acidhouse
 ancestor: Native American
 swag_score: 5
-image: acidhouse_nativeAmerican_arundo donax.PNG
+image: "https://mibera.s3.amazonaws.com/traits/acidhouse_nativeAmerican_arundo%20donax.webp"
 date_added: "2025-01-12"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS1_acidhouse_ancient_nativeAmerican_arundo%20donax.webp" alt="Arundo Donax" width="320" />
+</div>
+
 
 # Arundo Donax
 

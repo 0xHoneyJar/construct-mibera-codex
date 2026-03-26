@@ -1,8 +1,13 @@
 ---
 name: middle black
-image: Middle Black__w6.png
+image: "https://mibera.s3.amazonaws.com/traits/Middle%20Black.webp"
 date_added: "2024-06-15"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Middle%20Black.webp" alt="Middle Black" width="320" />
+</div>
+
 
 # middle black
 

@@ -1,10 +1,15 @@
 ---
 name: fishing rod
-image: SS3_freetekno_Fishing Rod.png
+image: "https://mibera.s3.amazonaws.com/traits/SS3_freetekno_Fishing%20Rod.webp"
 archetype: Freetekno
 swag_score: 5
 date_added: "2024-07-07"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_freetekno_Fishing%20Rod.webp" alt="Fishing Rod" width="320" />
+</div>
+
 
 # fishing rod
 

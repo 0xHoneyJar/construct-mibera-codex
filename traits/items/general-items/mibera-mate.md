@@ -1,10 +1,15 @@
 ---
 name: mibera mate
-image: SS2_milady_Mibera Mate.png
+image: "https://mibera.s3.amazonaws.com/traits/SS2_milady_Mibera%20Mate.webp"
 archetype: Milady
 swag_score: 2
 date_added: "2024-07-07"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS2_milady_Mibera%20Mate.webp" alt="Mibera Mate" width="320" />
+</div>
+
 
 # mibera mate
 

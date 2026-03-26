@@ -1,10 +1,15 @@
 ---
 name: Gold Hoop
-image: SS4_acidhouse_ancient_greek_Gold Hoop.png
+image: "https://mibera.s3.amazonaws.com/traits/SS4_acidhouse_ancient_greek_Gold%20Hoop.webp"
 archetype: Acidhouse
 swag_score: 4
 date_added: "2024-12-10"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS4_acidhouse_ancient_greek_Gold%20Hoop.webp" alt="Gold Hoop" width="320" />
+</div>
+
 
 # Gold Hoop
 

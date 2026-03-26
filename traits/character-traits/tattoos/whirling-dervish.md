@@ -1,16 +1,20 @@
 ---
 name: Whirling Dervish
-image: "https://mibera.fsn1.your-objectstorage.com/components/tattoos__z125/ancient_sufi_Whirling%20Dervish.webp"
+image: "https://mibera.s3.amazonaws.com/traits/ancient_sufi_Whirling%20Dervish.webp"
 archetype: "**Archetype Alignment:**"
 swag_score: null
 date_added: "2024-08-06"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/ancient_sufi_Whirling%20Dervish.webp" alt="Whirling Dervish" width="320" />
+</div>
+
+
 # Whirling Dervish
 
 ## Visual Elements
 
-![Whirling Dervish](https://mibera.fsn1.your-objectstorage.com/components/tattoos__z125/ancient_sufi_Whirling%20Dervish.webp)
 
 Simple line-work of a dancing woman in a long dress.
 

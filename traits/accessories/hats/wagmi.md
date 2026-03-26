@@ -1,16 +1,20 @@
 ---
 name: WAGMI
-image: "https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS3_milady_WAGMI.webp"
+image: "https://mibera.s3.amazonaws.com/traits/SS3_milady_WAGMI.webp"
 archetype: Milady
 swag_score: 3
 date_added: "2024-07-25"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_milady_WAGMI.webp" alt="Wagmi" width="320" />
+</div>
+
+
 # WAGMI
 
 ## Visual Elements
 
-![WAGMI](https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS3_milady_WAGMI.webp)
 
 Dark green cap with white text on it saying “WAGMI” crossed with a line.
 

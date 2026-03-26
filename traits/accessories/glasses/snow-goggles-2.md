@@ -1,16 +1,20 @@
 ---
 name: snow goggles 2
-image: "https://mibera.fsn1.your-objectstorage.com/components/glasses__z140/Snow Goggles 2.webp"
+image: "https://mibera.s3.amazonaws.com/traits/Snow%20Goggles%202.webp"
 archetype: "**Archetype Alignment:**"
 swag_score: 4
 date_added: "2024-12-10"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Snow%20Goggles%202.webp" alt="Snow Goggles 2" width="320" />
+</div>
+
+
 # snow goggles 2
 
 ## Visual Elements
 
-![Snow Goggles 2](https://mibera.fsn1.your-objectstorage.com/components/glasses__z140/Snow Goggles 2.webp)
 
 white snow-goggles with thin opening in the middle and tribal art.
 

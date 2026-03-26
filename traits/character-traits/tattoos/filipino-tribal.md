@@ -1,16 +1,20 @@
 ---
 name: Filipino Tribal
-image: "https://mibera.fsn1.your-objectstorage.com/components/tattoos__z125/Filipino%20Tribal.webp"
+image: "https://mibera.s3.amazonaws.com/traits/Filipino%20Tribal.webp"
 archetype: "**Archetype Alignment:**"
 swag_score: null
 date_added: "2024-08-06"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Filipino%20Tribal.webp" alt="Filipino Tribal" width="320" />
+</div>
+
+
 # Filipino Tribal
 
 ## Visual Elements
 
-![Filipino Tribal](https://mibera.fsn1.your-objectstorage.com/components/tattoos__z125/Filipino%20Tribal.webp)
 
 Filipino tribal line-work.
 

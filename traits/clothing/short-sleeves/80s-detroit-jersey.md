@@ -1,16 +1,20 @@
 ---
 name: 80s Detroit Jersey
-image: "https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(LONG"
+image: "https://mibera.s3.amazonaws.com/traits/SS3_chicagodetroit_80s%20Detroit%20Jersey.webp"
 archetype: Chicago Detroit
 swag_score: 3
 date_added: "2024-12-10"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_chicagodetroit_80s%20Detroit%20Jersey.webp" alt="80S Detroit Jersey" width="320" />
+</div>
+
+
 # 80s Detroit Jersey
 
 ## Visual Elements
 
-![80s Detroit Jersey](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(LONG)
 
 Blue basketball jersey with white lining around the neck and sleeves with the word “DETROIT” on it.
 

@@ -1,16 +1,20 @@
 ---
 name: Rilakkuma
-image: "https://mibera.fsn1.your-objectstorage.com/components/tattoos__z125/modern_japanese_Rilakkuma.webp"
+image: "https://mibera.s3.amazonaws.com/traits/modern_japanese_Rilakkuma.webp"
 archetype: "**Archetype Alignment:**"
 swag_score: null
 date_added: "2024-08-10"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/modern_japanese_Rilakkuma.webp" alt="Rilakkuma" width="320" />
+</div>
+
+
 # Rilakkuma
 
 ## Visual Elements
 
-![Rilakkuma](https://mibera.fsn1.your-objectstorage.com/components/tattoos__z125/modern_japanese_Rilakkuma.webp)
 
 Line drawing of a bear with a big head lying on its side with the hand (paw) supporting its head.
 

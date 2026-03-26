@@ -1,16 +1,20 @@
 ---
 name: White Mask
-image: "https://mibera.fsn1.your-objectstorage.com/components/Masks/SS2_chicagodetroit_White Mask.webp"
+image: "https://mibera.s3.amazonaws.com/traits/SS2_chicagodetroit_White%20Mask.webp"
 archetype: Chicago Detroit
 swag_score: 2
 date_added: "2024-12-09"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS2_chicagodetroit_White%20Mask.webp" alt="White Mask" width="320" />
+</div>
+
+
 # White Mask
 
 ## Visual Elements
 
-![White Mask](https://mibera.fsn1.your-objectstorage.com/components/Masks/SS2_chicagodetroit_White Mask.webp)
 
 Round white mask with 2 eye-holes and stripy holes on the mouth side.
 

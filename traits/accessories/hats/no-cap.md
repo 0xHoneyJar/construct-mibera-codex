@@ -1,16 +1,20 @@
 ---
 name: No Cap
-image: "https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS2_No%20Cap.webp"
+image: "https://mibera.s3.amazonaws.com/traits/SS2_No%20Cap.webp"
 archetype: "**Archetype Alignment:**"
 swag_score: 2
 date_added: "2024-07-24"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS2_No%20Cap.webp" alt="No Cap" width="320" />
+</div>
+
+
 # No Cap
 
 ## Visual Elements
 
-![SS2 No Cap](https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS2_No%20Cap.webp)
 
 Black cap with small text in white that reads “no cap”.
 

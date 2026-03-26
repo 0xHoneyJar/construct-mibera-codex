@@ -1,14 +1,18 @@
 ---
 name: biting lip
-image: "https://mibera.fsn1.your-objectstorage.com/components/mouth__z90/biting lip__w2.webp"
+image: "https://mibera.s3.amazonaws.com/traits/biting%20lip.webp"
 date_added: "2024-06-05"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/biting%20lip.webp" alt="Biting Lip" width="320" />
+</div>
+
 
 # biting lip
 
 ## Visual Elements
 
-![biting lip](https://mibera.fsn1.your-objectstorage.com/components/mouth__z90/biting lip__w2.webp)
 
 a mouth showing the bottom lip being bitten, with a bit of teeth exposed through the gap.
 

@@ -1,16 +1,20 @@
 ---
 name: Dragon
-image: "https://mibera.fsn1.your-objectstorage.com/components/tattoos__z125/ancient_chinese_Dragon.webp"
+image: "https://mibera.s3.amazonaws.com/traits/ancient_chinese_Dragon.webp"
 archetype: "**Archetype Alignment:**"
 swag_score: null
 date_added: "2024-08-10"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS5_milady_Dragon.webp" alt="Dragon" width="320" />
+</div>
+
+
 # Dragon
 
 ## Visual Elements
 
-![Dragon](https://mibera.fsn1.your-objectstorage.com/components/tattoos__z125/ancient_chinese_Dragon.webp)
 
 The traditional hanzi alphabet of the word ‘lóng’ in red.(龍)
 

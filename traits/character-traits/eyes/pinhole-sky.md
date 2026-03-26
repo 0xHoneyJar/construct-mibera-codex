@@ -1,14 +1,18 @@
 ---
 name: pinhole sky
-image: "https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/Pinhole%20Sky__w7.webp"
+image: "https://mibera.s3.amazonaws.com/traits/Pinhole%20Sky.webp"
 date_added: "2024-06-03"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Pinhole%20Sky.webp" alt="Pinhole Sky" width="320" />
+</div>
+
 
 # pinhole sky
 
 ## Visual Elements
 
-![Pinhole Sky](https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/Pinhole%20Sky__w7.webp)
 
 sky-blue eyes with constricted pupils, or usually known as pinpoint pupils.
 

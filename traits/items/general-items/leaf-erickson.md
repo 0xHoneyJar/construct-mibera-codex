@@ -1,10 +1,15 @@
 ---
 name: leaf erickson
-image: SS5_leaf erickson.PNG
+image: "https://mibera.s3.amazonaws.com/traits/SS5_leaf%20erickson.webp"
 archetype: Freetekno
 swag_score: 5
 date_added: "2025-03-12"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS5_leaf%20erickson.webp" alt="Leaf Erickson" width="320" />
+</div>
+
 
 # leaf erickson
 

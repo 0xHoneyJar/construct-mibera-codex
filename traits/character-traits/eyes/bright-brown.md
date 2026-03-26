@@ -1,14 +1,18 @@
 ---
 name: bright brown
-image: "https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/Bright%20Brown__w13.webp"
+image: "https://mibera.s3.amazonaws.com/traits/Bright%20Brown.webp"
 date_added: "2024-06-03"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Bright%20Brown.webp" alt="Bright Brown" width="320" />
+</div>
+
 
 # bright brown
 
 ## Visual Elements
 
-![Bright Brown](https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/Bright%20Brown__w13.webp)
 
 brown eyes with a large white four pointed star within the pupil
 

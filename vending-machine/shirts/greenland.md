@@ -2,7 +2,13 @@
 name: "Greenland"
 category: shirts
 from: ""
+image: "https://mibera.s3.amazonaws.com/traits/greenland.webp"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/greenland.webp" alt="Greenland" width="320" />
+</div>
+
 
 # Greenland
 

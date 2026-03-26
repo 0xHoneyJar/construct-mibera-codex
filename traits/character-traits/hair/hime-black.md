@@ -1,8 +1,13 @@
 ---
 name: hime black
-image: Hime Black__w4.png Hime Black__z-32.png
+image: "https://mibera.s3.amazonaws.com/traits/Hime%20Black.webp"
 date_added: "2024-06-22"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Hime%20Black.webp" alt="Hime Black" width="320" />
+</div>
+
 
 # hime black
 

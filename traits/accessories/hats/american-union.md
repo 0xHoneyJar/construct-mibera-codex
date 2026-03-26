@@ -1,16 +1,20 @@
 ---
 name: American Union
-image: "https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS3_milady_American%20Union.webp"
+image: "https://mibera.s3.amazonaws.com/traits/SS3_milady_American%20Union.webp"
 archetype: Milady
 swag_score: 3
 date_added: "2024-07-25"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_milady_American%20Union.webp" alt="American Union" width="320" />
+</div>
+
+
 # American Union
 
 ## Visual Elements
 
-![American Union](https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS3_milady_American%20Union.webp)
 
 Fisherman hat in blue with a red star in the middle and white dots.
 

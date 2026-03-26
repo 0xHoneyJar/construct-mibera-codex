@@ -1,16 +1,20 @@
 ---
 name: IMGNAI Catgirl
-image: "https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT"
+image: "https://mibera.s3.amazonaws.com/traits/SS2_IMGNAI%20Catgirl.webp"
 archetype: "**Archetype Alignment:** Its indirect ties to Milady Maker as well as its unconventional and provocative nature."
 swag_score: 2
 date_added: "2024-07-20"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS2_IMGNAI%20Catgirl.webp" alt="Imgnai Catgirl" width="320" />
+</div>
+
+
 # IMGNAI Catgirl
 
 ## Visual Elements
 
-![IMGNAI Catgirl](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)
 
 Black t-shirt with pink graphic of a girl with cat ears on a laptop / computer, japanese / chinese script, and text that reads “ACCELERATE IMGNAI CATGIRL RESEARCH”
 

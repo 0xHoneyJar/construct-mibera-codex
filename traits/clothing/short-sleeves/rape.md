@@ -1,16 +1,20 @@
 ---
 name: Rape
-image: "https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT"
+image: "https://mibera.s3.amazonaws.com/traits/SS3_milady_Rape.webp"
 archetype: Milady
 swag_score: 3
 date_added: null
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_milady_Rape.webp" alt="Rape" width="320" />
+</div>
+
+
 # Rape
 
 ## Visual Elements
 
-![Rape](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)
 
 Black shirt with white text that reads “RAPE”.
 

@@ -1,8 +1,13 @@
 ---
 name: Bearmo
-image: SS5_bongbear_Bearmo.png
+image: "https://mibera.s3.amazonaws.com/traits/SS5_bongbear_Bearmo.webp"
 date_added: "2024-12-09"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS5_bongbear_Bearmo.webp" alt="Bearmo" width="320" />
+</div>
+
 
 # Bearmo
 

@@ -1,16 +1,20 @@
 ---
 name: ketamine kneecap up the ra balaclava
-image: "https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS4_%20ketamine%20kneecap%20up%20the%20ra%20balaclava%20.webp"
+image: "https://mibera.s3.amazonaws.com/traits/SS4_%20ketamine%20kneecap%20up%20the%20ra%20balaclava.webp"
 archetype: "**Archetype Alignment:**"
 swag_score: 4
 date_added: "2025-03-14"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS4_%20ketamine%20kneecap%20up%20the%20ra%20balaclava.webp" alt="Ketamine Kneecap Up The Ra Balaclava" width="320" />
+</div>
+
+
 # ketamine kneecap up the ra balaclava
 
 ## Visual Elements
 
-![SS4  ketamine kneecap up the ra balaclava ](https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS4_%20ketamine%20kneecap%20up%20the%20ra%20balaclava%20.webp)
 
 a balaclava in the Irish flag colour and pattern; green, white, orange.
 

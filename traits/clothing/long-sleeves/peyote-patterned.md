@@ -1,16 +1,20 @@
 ---
 name: Peyote Patterned
-image: "https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(LONG"
+image: "https://mibera.s3.amazonaws.com/traits/SS3_freetekno_Peyote%20Patterned.webp"
 archetype: Freetekno
 swag_score: 3
 date_added: "2024-12-10"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_freetekno_Peyote%20Patterned.webp" alt="Peyote Patterned" width="320" />
+</div>
+
+
 # Peyote Patterned
 
 ## Visual Elements
 
-![Peyote Patterned](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(LONG)
 
 Dark muted brown long-sleeve shirt with unique cutting and tribal design in black, beige, and creamy white in the middle.
 

@@ -1,14 +1,18 @@
 ---
 name: hypno lilac
-image: "https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/Hypno%20Lilac__w7.webp"
+image: "https://mibera.s3.amazonaws.com/traits/Hypno%20Lilac.webp"
 date_added: "2024-06-03"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Hypno%20Lilac.webp" alt="Hypno Lilac" width="320" />
+</div>
+
 
 # hypno lilac
 
 ## Visual Elements
 
-![Hypno Lilac](https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/Hypno%20Lilac__w7.webp)
 
 purple eyes with prominent white spirals.
 

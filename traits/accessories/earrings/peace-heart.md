@@ -1,10 +1,15 @@
 ---
 name: Peace Heart
-image: SS1_peace heart.png
+image: "https://mibera.s3.amazonaws.com/traits/SS1_peace%20heart.webp"
 archetype: "**Archetype Alignment:** Its relation to the rave culture as an iconic symbolism and accessories."
 swag_score: 1
 date_added: "2024-06-04"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS1_peace%20heart.webp" alt="Peace Heart" width="320" />
+</div>
+
 
 # Peace Heart
 

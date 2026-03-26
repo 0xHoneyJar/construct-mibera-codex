@@ -1,10 +1,15 @@
 ---
 name: Rainbow Ring
-image: SS3_rainbow ring.png
+image: "https://mibera.s3.amazonaws.com/traits/SS3_rainbow%20ring.webp"
 archetype: "**Archetype Alignment:** In relation to pride and LGBTQ+ which is also a big part of rave culture."
 swag_score: 3
 date_added: "2024-06-04"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_rainbow%20ring.webp" alt="Rainbow Ring" width="320" />
+</div>
+
 
 # Rainbow Ring
 

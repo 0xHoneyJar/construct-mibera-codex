@@ -1,16 +1,20 @@
 ---
 name: I Eat Ass
-image: "https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS3_chicagodetroit_I%20Eat%20Ass.webp"
+image: "https://mibera.s3.amazonaws.com/traits/SS3_chicagodetroit_I%20Eat%20Ass.webp"
 archetype: Chicago Detroit
 swag_score: 3
 date_added: "2024-07-25"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_chicagodetroit_I%20Eat%20Ass.webp" alt="I Eat Ass" width="320" />
+</div>
+
+
 # I Eat Ass
 
 ## Visual Elements
 
-![I Eat Ass](https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS3_chicagodetroit_I%20Eat%20Ass.webp)
 
 Red cap with bold white text that reads “I EAT ASS”.
 

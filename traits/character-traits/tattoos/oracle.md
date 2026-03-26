@@ -1,16 +1,20 @@
 ---
 name: Oracle
-image: "https://mibera.fsn1.your-objectstorage.com/components/tattoos__z125/modern_pythia_Oracle.webp"
+image: "https://mibera.s3.amazonaws.com/traits/modern_pythia_Oracle.webp"
 archetype: "**Archetype Alignment:**"
 swag_score: null
 date_added: "2024-08-10"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/modern_pythia_Oracle.webp" alt="Oracle" width="320" />
+</div>
+
+
 # Oracle
 
 ## Visual Elements
 
-![Oracle](https://mibera.fsn1.your-objectstorage.com/components/tattoos__z125/modern_pythia_Oracle.webp)
 
 Magic-8-ball drawn in blue, with 3 small sparks on it and short lines depicting the ball radiating some sort of light / shine from it.
 

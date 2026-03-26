@@ -1,16 +1,20 @@
 ---
 name: SS
 rank: SS
-image: "https://mibera.fsn1.your-objectstorage.com/components/Ranking/SS.webp"
+image: "https://mibera.s3.amazonaws.com/traits/SS.webp"
 shape: Heart
 color: a vibrant dark shade of purple
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS.webp" alt="Ss" width="320" />
+</div>
+
 
 # SS
 
 ## Visual Elements
 
-![Rank SS](https://mibera.fsn1.your-objectstorage.com/components/Ranking/SS.webp)
 
 
 ## Cultural Context

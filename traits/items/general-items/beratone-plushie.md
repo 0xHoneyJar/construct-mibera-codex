@@ -1,10 +1,15 @@
 ---
 name: beratone plushie
-image: SS3_milady_Beratone Plushie.png
+image: "https://mibera.s3.amazonaws.com/traits/SS3_milady_Beratone%20Plushie.webp"
 archetype: Milady
 swag_score: 3
 date_added: "2024-07-09"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_milady_Beratone%20Plushie.webp" alt="Beratone Plushie" width="320" />
+</div>
+
 
 # beratone plushie
 

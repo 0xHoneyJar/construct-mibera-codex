@@ -1,16 +1,20 @@
 ---
 name: Russian
-image: "https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS3_milady_Russian.webp"
+image: "https://mibera.s3.amazonaws.com/traits/SS3_milady_Russian.webp"
 archetype: Milady
 swag_score: 3
 date_added: "2024-07-25"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_milady_Russian.webp" alt="Russian" width="320" />
+</div>
+
+
 # Russian
 
 ## Visual Elements
 
-![Russian](https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS3_milady_Russian.webp)
 
 Dark grey ushanka / Russian winter hat with ear flaps and fluffy front framing the face part.
 

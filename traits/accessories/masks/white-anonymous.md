@@ -1,16 +1,20 @@
 ---
 name: White Anonymous
-image: "https://mibera.fsn1.your-objectstorage.com/components/Masks/SS4_chicagodetroit_White Anonymous.webp"
+image: "https://mibera.s3.amazonaws.com/traits/SS4_chicagodetroit_White%20Anonymous.webp"
 archetype: Chicago Detroit
 swag_score: 4
 date_added: "2024-07-27"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS4_chicagodetroit_White%20Anonymous.webp" alt="White Anonymous" width="320" />
+</div>
+
+
 # White Anonymous
 
 ## Visual Elements
 
-![White Anonymous](https://mibera.fsn1.your-objectstorage.com/components/Masks/SS4_chicagodetroit_White Anonymous.webp)
 
 Classic white ‘Anonymous’ mask, with a smiling face with blushing cheeks, a thin mustache, and pointed beard
 

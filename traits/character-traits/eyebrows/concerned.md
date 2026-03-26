@@ -1,14 +1,18 @@
 ---
 name: concerned
-image: "https://mibera.fsn1.your-objectstorage.com/components/eyebrows__z95/Concerned.webp"
+image: "https://mibera.s3.amazonaws.com/traits/Concerned.webp"
 date_added: "2024-07-30"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Concerned.webp" alt="Concerned" width="320" />
+</div>
+
 
 # concerned
 
 ## Visual Elements
 
-![Concerned](https://mibera.fsn1.your-objectstorage.com/components/eyebrows__z95/Concerned.webp)
 
 thinner pair of tilted eyebrows slightly curved downwards
 

@@ -1,16 +1,20 @@
 ---
 name: Sick Sunglasses
-image: "https://mibera.fsn1.your-objectstorage.com/components/glasses__z140/chicagodetroit_Sick Sunglasses.webp"
+image: "https://mibera.s3.amazonaws.com/traits/chicagodetroit_Sick%20Sunglasses.webp"
 archetype: Chicago Detroit
 swag_score: 4
 date_added: "2024-12-10"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/chicagodetroit_Sick%20Sunglasses.webp" alt="Sick Sunglasses" width="320" />
+</div>
+
+
 # Sick Sunglasses
 
 ## Visual Elements
 
-![Sick Sunglasses](https://mibera.fsn1.your-objectstorage.com/components/glasses__z140/chicagodetroit_Sick Sunglasses.webp)
 
 Rounded glasses with slightly dark glasses and golden framing.
 

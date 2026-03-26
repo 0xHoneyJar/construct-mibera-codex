@@ -1,8 +1,13 @@
 ---
 name: Icebeargy
-image: SS5_bongbear_Icebeargy.png
+image: "https://mibera.s3.amazonaws.com/traits/SS5_bongbear_Icebeargy.webp"
 date_added: "2024-12-09"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS5_bongbear_Icebeargy.webp" alt="Icebeargy" width="320" />
+</div>
+
 
 # Icebeargy
 

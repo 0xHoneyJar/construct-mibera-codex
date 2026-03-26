@@ -1,16 +1,20 @@
 ---
 name: Ruggy
-image: "https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT"
+image: "https://mibera.s3.amazonaws.com/traits/SS3_Ruggy.webp"
 archetype: "**Archetype Alignment:**"
 swag_score: 3
 date_added: "2024-06-22"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_Ruggy.webp" alt="Ruggy" width="320" />
+</div>
+
+
 # Ruggy
 
 ## Visual Elements
 
-![Ruggy](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)
 
 White t-shirt with a print of a cartoon-style bear head in soft orange.
 

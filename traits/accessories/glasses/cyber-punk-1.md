@@ -1,16 +1,20 @@
 ---
 name: Cyber Punk 1
-image: "https://mibera.fsn1.your-objectstorage.com/components/glasses__z140/freetekno_Cyber Punk 1.webp"
+image: "https://mibera.s3.amazonaws.com/traits/freetekno_Cyber%20Punk%201.webp"
 archetype: Freetekno
 swag_score: 1
 date_added: "2024-12-10"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/freetekno_Cyber%20Punk%201.webp" alt="Cyber Punk 1" width="320" />
+</div>
+
+
 # Cyber Punk 1
 
 ## Visual Elements
 
-![Cyber Punk 1](https://mibera.fsn1.your-objectstorage.com/components/glasses__z140/freetekno_Cyber Punk 1.webp)
 
 Round glasses with a unique framing of a straight line only at the top part acting as the bridge, and its temples. Both the framing and the shades are in similar shade of dark grey.
 

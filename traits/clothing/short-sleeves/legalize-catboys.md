@@ -1,16 +1,20 @@
 ---
 name: Legalize Catboys
-image: "https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT"
+image: "https://mibera.s3.amazonaws.com/traits/SS2_milady_Legalize%20Catboys.webp"
 archetype: Milady
 swag_score: 2
 date_added: "2024-06-22"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS2_milady_Legalize%20Catboys.webp" alt="Legalize Catboys" width="320" />
+</div>
+
+
 # Legalize Catboys
 
 ## Visual Elements
 
-![Legalize Catboys](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)
 
 Light grey t-shirt with a graphic of 2 male figures as cats with cat ears and cat tails. Above the graphic is written “LEGALIZE CATBOYS”.
 

@@ -6,9 +6,14 @@ origin: China
 archetype: Milady
 ancestor: Chinese, Palestinian
 swag_score: 4
-image: milady_chinese_palestinian_ephedra.PNG
+image: "https://mibera.s3.amazonaws.com/traits/milady_chinese_palestinian_ephedra.webp"
 date_added: "2025-01-12"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_milady_ancient_chinese_palestinian_ephedra.webp" alt="Ephedra" width="320" />
+</div>
+
 
 # Ephedra
 

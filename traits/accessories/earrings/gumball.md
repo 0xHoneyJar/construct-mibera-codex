@@ -1,10 +1,15 @@
 ---
 name: Gumball
-image: SS3_Gumball.PNG
+image: "https://mibera.s3.amazonaws.com/traits/SS3_Gumball.webp"
 archetype: "**Archetype Alignment:** Fellow bera brojekt"
 swag_score: 3
 date_added: "2024-12-10"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_Gumball.webp" alt="Gumball" width="320" />
+</div>
+
 
 # Gumball
 

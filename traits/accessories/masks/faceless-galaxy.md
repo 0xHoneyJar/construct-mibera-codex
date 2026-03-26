@@ -1,16 +1,20 @@
 ---
 name: Faceless Galaxy
-image: "https://mibera.fsn1.your-objectstorage.com/components/Masks/SS5_acidhouse_Faceless Galaxy.webp"
+image: "https://mibera.s3.amazonaws.com/traits/SS5_acidhouse_Faceless%20Galaxy.webp"
 archetype: Acidhouse
 swag_score: 5
 date_added: "2024-07-27"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS5_acidhouse_Faceless%20Galaxy.webp" alt="Faceless Galaxy" width="320" />
+</div>
+
+
 # Faceless Galaxy
 
 ## Visual Elements
 
-![Faceless Galaxy](https://mibera.fsn1.your-objectstorage.com/components/Masks/SS5_acidhouse_Faceless Galaxy.webp)
 
 Glimpse of a galaxy with stars portrayed by the color of dark blue and magenta merging together in a circular shape with smudged edges.
 

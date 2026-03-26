@@ -6,9 +6,14 @@ origin: Germany, Switzerland
 archetype: Milady
 ancestor: Hindu
 swag_score: 3
-image: milady_hindu_testosterone.PNG
+image: "https://mibera.s3.amazonaws.com/traits/milady_hindu_testosterone.webp"
 date_added: "2025-01-12"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/milady_hindu_testosterone.webp" alt="Testosterone" width="320" />
+</div>
+
 
 # Testosterone
 

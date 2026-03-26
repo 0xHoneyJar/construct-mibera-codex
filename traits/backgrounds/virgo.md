@@ -1,14 +1,18 @@
 ---
 name: Virgo
-image: "https://mibera.fsn1.your-objectstorage.com/components/Constellations/virgo.webp"
+image: "https://mibera.s3.amazonaws.com/traits/virgo.webp"
 date_added: "2024-11-23"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/virgo.webp" alt="Virgo" width="320" />
+</div>
+
 
 # Virgo
 
 ## Visual Elements
 
-![Virgo](https://mibera.fsn1.your-objectstorage.com/components/Constellations/virgo.webp)
 
 Deep blue night sky with bright white 4-points-stars connected by thin white lines forming a constellation (Virgo). Smaller stars in white dots are scattered in the background.
 

@@ -1,16 +1,20 @@
 ---
 name: Bleeding
-image: "https://mibera.fsn1.your-objectstorage.com/components/face%20accessories__z60/SS3_milady_bleeding.webp"
+image: "https://mibera.s3.amazonaws.com/traits/SS3_milady_bleeding.webp"
 archetype: Milady
 swag_score: 3
 date_added: "2024-12-10"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_milady_bleeding.webp" alt="Bleeding" width="320" />
+</div>
+
+
 # Bleeding
 
 ## Visual Elements
 
-![Bleeding](https://mibera.fsn1.your-objectstorage.com/components/face%20accessories__z60/SS3_milady_bleeding.webp)
 
 Blood dripping down from a neat cut.
 

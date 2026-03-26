@@ -1,16 +1,20 @@
 ---
 name: Rasta
-image: "https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(LONG"
+image: "https://mibera.s3.amazonaws.com/traits/SS3_chicagodetroit_Rasta.webp"
 archetype: Chicago Detroit
 swag_score: 3
 date_added: "2024-12-10"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_chicagodetroit_Rasta.webp" alt="Rasta" width="320" />
+</div>
+
+
 # Rasta
 
 ## Visual Elements
 
-![Rasta](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(LONG)
 
 Tri-color long sleeves in red, yellow, and green, in order from left to right.
 

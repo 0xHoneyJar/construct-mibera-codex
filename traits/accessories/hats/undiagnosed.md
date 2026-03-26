@@ -1,16 +1,20 @@
 ---
 name: Undiagnosed
-image: "https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS2_Undiagnosed.webp"
+image: "https://mibera.s3.amazonaws.com/traits/SS2_Undiagnosed.webp"
 archetype: "**Archetype Alignment:**"
 swag_score: 2
 date_added: "2024-07-28"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS2_Undiagnosed.webp" alt="Undiagnosed" width="320" />
+</div>
+
+
 # Undiagnosed
 
 ## Visual Elements
 
-![SS2 Undiagnosed](https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS2_Undiagnosed.webp)
 
 Black cap with light yellow text that reads “Undiagnosed but I’m pretty sure…”
 

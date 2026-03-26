@@ -1,14 +1,18 @@
 ---
 name: Midas in Pactolus
-image: "https://mibera.fsn1.your-objectstorage.com/components/background__z10/midas%20in%20pactolus.webp"
+image: "https://mibera.s3.amazonaws.com/traits/midas%20in%20pactolus.webp"
 date_added: "2025-02-27"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/midas%20in%20pactolus.webp" alt="Midas In Pactolus" width="320" />
+</div>
+
 
 # Midas in Pactolus
 
 ## Visual Elements
 
-![Midas in Pactolus](https://mibera.fsn1.your-objectstorage.com/components/background__z10/midas%20in%20pactolus.webp)
 
 Painterly scenery of a pond / lake with greenish water, surrounded by rocks and greeneries. An old man wearing all earthy-brown clothing can be seen scooping the water.
 

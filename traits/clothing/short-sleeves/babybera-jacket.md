@@ -3,7 +3,13 @@ name: Babybera Jacket
 archetype: "**Archetype Alignment:**"
 swag_score: 3
 date_added: null
+image: "https://mibera.s3.amazonaws.com/traits/SS3_Babybera%20Jacket.webp"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_Babybera%20Jacket.webp" alt="Babybera Jacket" width="320" />
+</div>
+
 
 # Babybera Jacket
 

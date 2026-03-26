@@ -1,16 +1,20 @@
 ---
 name: reimu syndicate
-image: "https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS2_Reimu%20Syndicate.webp"
+image: "https://mibera.s3.amazonaws.com/traits/SS2_Reimu%20Syndicate.webp"
 archetype: "**Archetype Alignment:**"
 swag_score: 2
 date_added: "2024-12-10"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS2_Reimu%20Syndicate.webp" alt="Reimu Syndicate" width="320" />
+</div>
+
+
 # reimu syndicate
 
 ## Visual Elements
 
-![SS2 Reimu Syndicate](https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS2_Reimu%20Syndicate.webp)
 
 greyish white cap with blue graphic of hearts and the text “REiMU syndicate” on it.
 

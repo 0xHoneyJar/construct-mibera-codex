@@ -1,16 +1,20 @@
 ---
 name: Gadsden Flag
-image: "https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT"
+image: "https://mibera.s3.amazonaws.com/traits/SS3_freetekno_Gadsden%20Flag.webp"
 archetype: Freetekno
 swag_score: 3
 date_added: "2024-06-22"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_freetekno_Gadsden%20Flag.webp" alt="Gadsden Flag" width="320" />
+</div>
+
+
 # Gadsden Flag
 
 ## Visual Elements
 
-![Gadsden Flag](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)
 
 Yellow t-shirt of the Gadsden Flag. a graphic of a coiled rattlesnake on a green grass with the text “DONT TREAD ON ME” under it.
 

@@ -1,16 +1,20 @@
 ---
 name: Kingdomly
-image: "https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS3_Kingdomly.webp"
+image: "https://mibera.s3.amazonaws.com/traits/SS3_Kingdomly.webp"
 archetype: "**Archetype Alignment:**"
 swag_score: 3
 date_added: "2024-12-10"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_Kingdomly.webp" alt="Kingdomly" width="320" />
+</div>
+
+
 # Kingdomly
 
 ## Visual Elements
 
-![SS3 Kingdomly](https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS3_Kingdomly.webp)
 
 Knight helmet with brown bear ears and red fur at the back, the helmet is wide opened.
 

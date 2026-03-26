@@ -1,14 +1,18 @@
 ---
 name: crossed leaf
-image: "https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/Crossed%20Leaf__w6.webp"
+image: "https://mibera.s3.amazonaws.com/traits/Crossed%20Leaf.webp"
 date_added: "2024-06-03"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Crossed%20Leaf.webp" alt="Crossed Leaf" width="320" />
+</div>
+
 
 # crossed leaf
 
 ## Visual Elements
 
-![Crossed Leaf](https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/Crossed%20Leaf__w6.webp)
 
 crossed eyes with bright green iris.
 

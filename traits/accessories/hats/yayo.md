@@ -1,16 +1,20 @@
 ---
 name: Yayo
-image: "https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS2_Yayo.webp"
+image: "https://mibera.s3.amazonaws.com/traits/SS2_Yayo.webp"
 archetype: "**Archetype Alignment:**"
 swag_score: 2
 date_added: "2024-07-27"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS2_Yayo.webp" alt="Yayo" width="320" />
+</div>
+
+
 # Yayo
 
 ## Visual Elements
 
-![SS2 Yayo](https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS2_Yayo.webp)
 
 Black and white cap with graphic of a shooting star and the text “YAYO the world is yours” in a funky font.
 

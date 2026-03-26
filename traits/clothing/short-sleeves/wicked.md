@@ -1,16 +1,20 @@
 ---
 name: Wicked
-image: "https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT"
+image: "https://mibera.s3.amazonaws.com/traits/SS2_freetekno_Wicked.webp"
 archetype: Freetekno
 swag_score: 2
 date_added: "2024-06-22"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS2_freetekno_Wicked.webp" alt="Wicked" width="320" />
+</div>
+
+
 # Wicked
 
 ## Visual Elements
 
-![Wicked](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)
 
 Black t-shirt with white text that says “WICKED” in graffiti style.
 

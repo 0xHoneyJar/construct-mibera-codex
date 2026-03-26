@@ -1,14 +1,18 @@
 ---
 name: Rave 2
-image: "https://mibera.fsn1.your-objectstorage.com/components/background__z10/rave%202.webp"
+image: "https://mibera.s3.amazonaws.com/traits/rave%202.webp"
 date_added: "2024-08-14"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/rave%202.webp" alt="Rave 2" width="320" />
+</div>
+
 
 # Rave 2
 
 ## Visual Elements
 
-![Rave 2](https://mibera.fsn1.your-objectstorage.com/components/background__z10/rave%202.webp)
 
 Bright white light in the center with a vibrant turquoise background, and black shadowy figures filling half the frame.
 

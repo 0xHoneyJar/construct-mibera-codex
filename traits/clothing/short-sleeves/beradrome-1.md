@@ -1,16 +1,20 @@
 ---
 name: Beradrome 1
-image: "https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT"
+image: "https://mibera.s3.amazonaws.com/traits/SS3_milady_Beradrome%201.webp"
 archetype: Milady
 swag_score: 3
 date_added: "2024-12-10"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_milady_Beradrome%201.webp" alt="Beradrome 1" width="320" />
+</div>
+
+
 # Beradrome 1
 
 ## Visual Elements
 
-![Beradrome 1](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)
 
 Black t-shirt with a beraland logo on it. A bear head with sparkly almond eyes wearing a purple-green bike helmet..
 

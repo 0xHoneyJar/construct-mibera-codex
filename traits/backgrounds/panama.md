@@ -1,14 +1,18 @@
 ---
 name: Panama
-image: "https://mibera.fsn1.your-objectstorage.com/components/background__z10/panama.webp"
+image: "https://mibera.s3.amazonaws.com/traits/panama.webp"
 date_added: "2025-02-27"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/panama.webp" alt="Panama" width="320" />
+</div>
+
 
 # Panama
 
 ## Visual Elements
 
-![Panama](https://mibera.fsn1.your-objectstorage.com/components/background__z10/panama.webp)
 
 Large deep blue area that looks like water that stretches across the frame in between a pavement road and a grassy park.
 

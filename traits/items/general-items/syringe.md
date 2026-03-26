@@ -1,10 +1,15 @@
 ---
 name: syringe
-image: SS3_chicagodetroit_Syringe.png
+image: "https://mibera.s3.amazonaws.com/traits/SS3_chicagodetroit_Syringe.webp"
 archetype: Chicago Detroit
 swag_score: 1
 date_added: "2024-07-07"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_chicagodetroit_Syringe.webp" alt="Syringe" width="320" />
+</div>
+
 
 # syringe
 

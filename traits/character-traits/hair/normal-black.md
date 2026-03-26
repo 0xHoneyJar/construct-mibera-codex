@@ -1,8 +1,13 @@
 ---
 name: normal black
-image: Normal Black__w11.png Normal Black__z-32.png
+image: "https://mibera.s3.amazonaws.com/traits/Normal%20Black.webp"
 date_added: "2024-06-22"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Normal%20Black.webp" alt="Normal Black" width="320" />
+</div>
+
 
 # normal black
 

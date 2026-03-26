@@ -1,10 +1,15 @@
 ---
 name: yohimbe bark
-image: SS3_Yohimbe Bark.PNG
+image: "https://mibera.s3.amazonaws.com/traits/SS3_Yohimbe%20Bark.webp"
 archetype: "**Archetype Alignment:**"
 swag_score: 3
 date_added: "2024-12-09"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_Yohimbe%20Bark.webp" alt="Yohimbe Bark" width="320" />
+</div>
+
 
 # yohimbe bark
 

@@ -1,14 +1,18 @@
 ---
 name: normal leaf
-image: "https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/Normal%20Leaf__w25.webp"
+image: "https://mibera.s3.amazonaws.com/traits/Normal%20Leaf.webp"
 date_added: "2024-06-03"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Normal%20Leaf.webp" alt="Normal Leaf" width="320" />
+</div>
+
 
 # normal leaf
 
 ## Visual Elements
 
-![Normal Leaf](https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/Normal%20Leaf__w25.webp)
 
 normal leafy-green eyes
 

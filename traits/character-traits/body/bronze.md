@@ -1,14 +1,18 @@
 ---
 name: bronze
-image: "https://mibera.fsn1.your-objectstorage.com/components/body__z40/bronze__z80.webp"
+image: "https://mibera.s3.amazonaws.com/traits/bronze.webp"
 date_added: "2024-08-13"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/bronze.webp" alt="Bronze" width="320" />
+</div>
+
 
 # bronze
 
 ## Visual Elements
 
-![Bronze](https://mibera.fsn1.your-objectstorage.com/components/body__z40/bronze__z80.webp)
 
 Bronze skin, darker than a tan with warm metallic depth.
 

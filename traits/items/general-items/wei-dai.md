@@ -3,7 +3,13 @@ name: Wei Dai
 archetype: "**Archetype Alignment:**"
 swag_score: 5
 date_added: null
+image: "https://mibera.s3.amazonaws.com/traits/SS5_cypherpunk_Wei%20Dai.webp"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS5_cypherpunk_Wei%20Dai.webp" alt="Wei Dai" width="320" />
+</div>
+
 
 # Wei Dai
 

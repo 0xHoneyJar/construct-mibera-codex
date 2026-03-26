@@ -1,7 +1,13 @@
 ---
 name: funky
 date_added: "2024-06-15"
+image: "https://mibera.s3.amazonaws.com/traits/Funky.webp"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Funky.webp" alt="Funky" width="320" />
+</div>
+
 
 # funky
 

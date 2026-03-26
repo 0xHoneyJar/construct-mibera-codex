@@ -1,10 +1,15 @@
 ---
 name: Hiberanation Eye Mask
-image: SS3_chicagodetroit_Hiberanation Eye Mask.png
+image: "https://mibera.s3.amazonaws.com/traits/SS3_chicagodetroit_Hiberanation%20Eye%20Mask.webp"
 archetype: Chicago Detroit
 swag_score: 3
 date_added: "2024-07-24"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_chicagodetroit_Hiberanation%20Eye%20Mask.webp" alt="Hiberanation Eye Mask" width="320" />
+</div>
+
 
 # Hiberanation Eye Mask
 

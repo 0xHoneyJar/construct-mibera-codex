@@ -1,16 +1,20 @@
 ---
 name: Bindi
-image: "https://mibera.fsn1.your-objectstorage.com/components/face%20accessories__z60/SS1_milady_modern_nepal_Bindi.webp"
+image: "https://mibera.s3.amazonaws.com/traits/SS1_milady_modern_nepal_Bindi.webp"
 archetype: Milady
 swag_score: 3
 date_added: "2024-12-10"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS1_milady_modern_nepal_Bindi.webp" alt="Bindi" width="320" />
+</div>
+
+
 # Bindi
 
 ## Visual Elements
 
-![Bindi](https://mibera.fsn1.your-objectstorage.com/components/face%20accessories__z60/SS1_milady_modern_nepal_Bindi.webp)
 
 Red dot
 

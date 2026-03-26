@@ -1,10 +1,15 @@
 ---
 name: golden flower
-image: SS2_milady_Golden Flower.PNG
+image: "https://mibera.s3.amazonaws.com/traits/SS2_milady_Golden%20Flower.webp"
 archetype: Milady
 swag_score: 2
 date_added: "2024-12-09"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS2_milady_Golden%20Flower.webp" alt="Golden Flower" width="320" />
+</div>
+
 
 # golden flower
 

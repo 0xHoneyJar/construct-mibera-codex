@@ -1,10 +1,15 @@
 ---
 name: peyote rattle
-image: SS3_freetekno_Peyote Rattle.png
+image: "https://mibera.s3.amazonaws.com/traits/SS3_freetekno_Peyote%20Rattle.webp"
 archetype: Freetekno
 swag_score: 3
 date_added: "2024-07-07"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_freetekno_Peyote%20Rattle.webp" alt="Peyote Rattle" width="320" />
+</div>
+
 
 # peyote rattle
 

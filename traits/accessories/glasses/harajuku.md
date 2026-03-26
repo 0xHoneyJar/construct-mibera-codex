@@ -1,16 +1,20 @@
 ---
 name: Harajuku
-image: "https://mibera.fsn1.your-objectstorage.com/components/glasses__z140/milady_Harajuku.webp"
+image: "https://mibera.s3.amazonaws.com/traits/milady_Harajuku.webp"
 archetype: Milady
 swag_score: 2
 date_added: "2024-06-16"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/milady_Harajuku.webp" alt="Harajuku" width="320" />
+</div>
+
+
 # Harajuku
 
 ## Visual Elements
 
-![Harajuku](https://mibera.fsn1.your-objectstorage.com/components/glasses__z140/milady_Harajuku.webp)
 
 red frames with orange lenses.
 

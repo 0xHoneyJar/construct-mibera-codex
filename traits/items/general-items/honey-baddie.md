@@ -1,10 +1,15 @@
 ---
 name: honey baddie
-image: SS3_Honey Baddie.PNG
+image: "https://mibera.s3.amazonaws.com/traits/SS3_Honey%20Baddie.webp"
 archetype: "**Archetype Alignment:**"
 swag_score: 5
 date_added: "2024-12-09"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_Honey%20Baddie.webp" alt="Honey Baddie" width="320" />
+</div>
+
 
 # honey baddie
 

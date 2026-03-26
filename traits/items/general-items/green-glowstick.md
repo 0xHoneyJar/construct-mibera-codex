@@ -1,10 +1,15 @@
 ---
 name: green glowstick
-image: SS3_acidhouse_Green Glowstick.png
+image: "https://mibera.s3.amazonaws.com/traits/SS3_acidhouse_Green%20Glowstick.webp"
 archetype: Acidhouse
 swag_score: 3
 date_added: "2024-07-23"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_acidhouse_Green%20Glowstick.webp" alt="Green Glowstick" width="320" />
+</div>
+
 
 # green glowstick
 

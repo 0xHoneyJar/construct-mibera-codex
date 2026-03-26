@@ -1,16 +1,20 @@
 ---
 name: Silver Mask
-image: "https://mibera.fsn1.your-objectstorage.com/components/Masks/SS1_freetekno_Silver Mask.webp"
+image: "https://mibera.s3.amazonaws.com/traits/SS1_freetekno_Silver%20Mask.webp"
 archetype: Freetekno
 swag_score: 1
 date_added: "2024-12-09"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS1_freetekno_Silver%20Mask.webp" alt="Silver Mask" width="320" />
+</div>
+
+
 # Silver Mask
 
 ## Visual Elements
 
-![Silver Mask](https://mibera.fsn1.your-objectstorage.com/components/Masks/SS1_freetekno_Silver Mask.webp)
 
 Rounded-shaped full-face silver mask with a shape of a face and metallic complexion.
 

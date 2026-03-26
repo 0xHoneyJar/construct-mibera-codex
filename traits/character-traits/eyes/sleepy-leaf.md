@@ -1,14 +1,18 @@
 ---
 name: sleepy leaf
-image: "https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/Sleepy%20Leaf__w9.webp"
+image: "https://mibera.s3.amazonaws.com/traits/Sleepy%20Leaf.webp"
 date_added: "2024-06-03"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Sleepy%20Leaf.webp" alt="Sleepy Leaf" width="320" />
+</div>
+
 
 # sleepy leaf
 
 ## Visual Elements
 
-![Sleepy Leaf](https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/Sleepy%20Leaf__w9.webp)
 
 tired eyes with leafy green iris.
 

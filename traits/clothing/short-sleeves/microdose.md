@@ -1,16 +1,20 @@
 ---
 name: Microdose
-image: "https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT"
+image: "https://mibera.s3.amazonaws.com/traits/SS3_acidhouse_microdose.webp"
 archetype: Acidhouse
 swag_score: 3
 date_added: "2024-06-22"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_acidhouse_microdose.webp" alt="Microdose" width="320" />
+</div>
+
+
 # Microdose
 
 ## Visual Elements
 
-![microdose](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)
 
 White t-shirt with red graphic of a smiley face with bear ears and text that says “THAT WASN’T A MICRODOSE”.
 

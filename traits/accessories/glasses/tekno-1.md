@@ -1,16 +1,20 @@
 ---
 name: tekno 1
-image: "https://mibera.fsn1.your-objectstorage.com/components/glasses__z140/freetekno_Tekno 1.webp"
+image: "https://mibera.s3.amazonaws.com/traits/freetekno_Tekno%201.webp"
 archetype: Freetekno
 swag_score: 3
 date_added: "2024-06-18"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/freetekno_Tekno%201.webp" alt="Tekno 1" width="320" />
+</div>
+
+
 # tekno 1
 
 ## Visual Elements
 
-![Tekno 1](https://mibera.fsn1.your-objectstorage.com/components/glasses__z140/freetekno_Tekno 1.webp)
 
 all-black round glasses.
 

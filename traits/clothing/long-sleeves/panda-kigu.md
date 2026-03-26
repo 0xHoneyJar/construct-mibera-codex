@@ -1,16 +1,20 @@
 ---
 name: Panda Kigu
-image: "https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(KIGU"
+image: "https://mibera.s3.amazonaws.com/traits/SS5_milady_Panda%20Kigu.webp"
 archetype: Milady
 swag_score: 5
 date_added: "2024-07-31"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS5_milady_Panda%20Kigu.webp" alt="Panda Kigu" width="320" />
+</div>
+
+
 # Panda Kigu
 
 ## Visual Elements
 
-![Panda Kigu](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(KIGU)
 
 Panda onesie in black and white with the hood up.
 

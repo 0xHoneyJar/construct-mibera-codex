@@ -6,9 +6,14 @@ origin: USA
 archetype: Freetekno
 ancestor: Native American
 swag_score: 1
-image: freetekno_nativeAmerican_2C-B.PNG
+image: "https://mibera.s3.amazonaws.com/traits/freetekno_nativeAmerican_2C-B.webp"
 date_added: "2025-01-12"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/freetekno_nativeAmerican_2C-B.webp" alt="2C B" width="320" />
+</div>
+
 
 # 2C-B
 

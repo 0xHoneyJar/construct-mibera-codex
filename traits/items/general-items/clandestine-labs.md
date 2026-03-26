@@ -1,10 +1,15 @@
 ---
 name: clandestine labs
-image: SS3_Clandestine Labs.png
+image: "https://mibera.s3.amazonaws.com/traits/SS3_Clandestine%20Labs.webp"
 archetype: "**Archetype Alignment:**"
 swag_score: 3
 date_added: "2024-07-07"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_Clandestine%20Labs.webp" alt="Clandestine Labs" width="320" />
+</div>
+
 
 # clandestine labs
 

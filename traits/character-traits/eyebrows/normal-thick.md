@@ -1,14 +1,18 @@
 ---
 name: normal thick
-image: "https://mibera.fsn1.your-objectstorage.com/components/eyebrows__z95/Normal%20Thick.webp"
+image: "https://mibera.s3.amazonaws.com/traits/Normal%20Thick.webp"
 date_added: "2024-07-30"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Normal%20Thick.webp" alt="Normal Thick" width="320" />
+</div>
+
 
 # normal thick
 
 ## Visual Elements
 
-![Normal Thick](https://mibera.fsn1.your-objectstorage.com/components/eyebrows__z95/Normal%20Thick.webp)
 
 thicker eyebrows, slightly curved with no arch.
 

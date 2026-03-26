@@ -1,14 +1,18 @@
 ---
 name: heart grey
-image: "https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/Heart%20Grey__w15.webp"
+image: "https://mibera.s3.amazonaws.com/traits/Heart%20Grey.webp"
 date_added: "2024-06-03"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Heart%20Grey.webp" alt="Heart Grey" width="320" />
+</div>
+
 
 # heart grey
 
 ## Visual Elements
 
-![Heart Grey](https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/Heart%20Grey__w15.webp)
 
 Eyes with heart-shaped pupils in grey.
 

@@ -1,16 +1,20 @@
 ---
 name: LSD Made Me a Prostitute
-image: "https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT"
+image: "https://mibera.s3.amazonaws.com/traits/SS4_freetekno_LSD%20Made%20Me%20A%20Prostitute.webp"
 archetype: Freetekno
 swag_score: 4
 date_added: "2024-06-22"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS4_freetekno_LSD%20Made%20Me%20A%20Prostitute.webp" alt="Lsd Made Me A Prostitute" width="320" />
+</div>
+
+
 # LSD Made Me a Prostitute
 
 ## Visual Elements
 
-![LSD Made Me A Prostitute](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)
 
 Black t-shirt with old-school graphic that focuses on the text “LSD MADE ME A PROSTITUTE”.
 

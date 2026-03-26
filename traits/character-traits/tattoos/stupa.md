@@ -1,16 +1,20 @@
 ---
 name: Stupa
-image: "https://mibera.fsn1.your-objectstorage.com/components/tattoos__z125/ancient_nepal_Stupa.webp"
+image: "https://mibera.s3.amazonaws.com/traits/ancient_nepal_Stupa.webp"
 archetype: "**Archetype Alignment:**"
 swag_score: null
 date_added: "2024-08-09"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/ancient_nepal_Stupa.webp" alt="Stupa" width="320" />
+</div>
+
+
 # Stupa
 
 ## Visual Elements
 
-![Stupa](https://mibera.fsn1.your-objectstorage.com/components/tattoos__z125/ancient_nepal_Stupa.webp)
 
 Black and white drawing of a shrine with shading.
 

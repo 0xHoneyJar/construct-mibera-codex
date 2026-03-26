@@ -1,14 +1,18 @@
 ---
 name: sparkle lilac
-image: "https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/Sparkle%20Lilac__w15.webp"
+image: "https://mibera.s3.amazonaws.com/traits/Sparkle%20Lilac.webp"
 date_added: "2024-06-03"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Sparkle%20Lilac.webp" alt="Sparkle Lilac" width="320" />
+</div>
+
 
 # sparkle lilac
 
 ## Visual Elements
 
-![Sparkle Lilac](https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/Sparkle%20Lilac__w15.webp)
 
 lilac eyes with three white dots between the iris and pupil.
 

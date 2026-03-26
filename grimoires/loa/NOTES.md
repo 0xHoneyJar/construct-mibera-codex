@@ -17,6 +17,10 @@
 - ~6 trait files had Discord/Amazon URLs appended to swag_score — extracted leading integer
 - `llms-full.txt` is 534KB (exceeds 300KB target) because drug/ancestor files have rich content
 
+## Next Cycle Fixes
+
+- **black-niqab.md** — image needs fixing before embedding (currently at `traits/clothing/long-sleeves/black-niqab.md`, image field cleared)
+
 ## Blockers
 
 ### Remaining content gaps

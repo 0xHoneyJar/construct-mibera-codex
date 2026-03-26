@@ -1,10 +1,15 @@
 ---
 name: beads
-image: SS3_milady_Beads.png
+image: "https://mibera.s3.amazonaws.com/traits/SS3_milady_Beads.webp"
 archetype: Milady
 swag_score: 3
 date_added: "2024-07-09"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_milady_Beads.webp" alt="Beads" width="320" />
+</div>
+
 
 # beads
 

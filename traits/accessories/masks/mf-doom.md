@@ -1,16 +1,20 @@
 ---
 name: MF Doom
-image: "https://mibera.fsn1.your-objectstorage.com/components/Masks/SS4_freetekno_MF doom.webp"
+image: "https://mibera.s3.amazonaws.com/traits/SS4_freetekno_MF%20doom.webp"
 archetype: Freetekno
 swag_score: 4
 date_added: "2024-07-27"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS4_freetekno_MF%20doom.webp" alt="Mf Doom" width="320" />
+</div>
+
+
 # MF Doom
 
 ## Visual Elements
 
-![MF Doom](https://mibera.fsn1.your-objectstorage.com/components/Masks/SS4_freetekno_MF doom.webp)
 
 Silver mask with a lot of defined edges, depths, and unique shape. Covering half the face with big eye holes and a rectangular shape on each side extending towards inner-downwards.
 

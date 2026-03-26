@@ -1,14 +1,18 @@
 ---
 name: true love
-image: "https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/True%20Love__w5.webp"
+image: "https://mibera.s3.amazonaws.com/traits/True%20Love.webp"
 date_added: "2024-06-03"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS2_milady_True%20Love.webp" alt="True Love" width="320" />
+</div>
+
 
 # true love
 
 ## Visual Elements
 
-![True Love](https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/True%20Love__w5.webp)
 
 pink iris with hearty details showcasing eyes that seem to be in love.
 

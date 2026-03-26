@@ -1,16 +1,20 @@
 ---
 name: mottega yellow
-image: "https://mibera.fsn1.your-objectstorage.com/components/glasses__z140/milady_Mottega Yellow.webp"
+image: "https://mibera.s3.amazonaws.com/traits/milady_Mottega%20Yellow.webp"
 archetype: Milady
 swag_score: 3
 date_added: "2024-06-05"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/milady_Mottega%20Yellow.webp" alt="Mottega Yellow" width="320" />
+</div>
+
+
 # mottega yellow
 
 ## Visual Elements
 
-![Mottega Yellow](https://mibera.fsn1.your-objectstorage.com/components/glasses__z140/milady_Mottega Yellow.webp)
 
 Glasses with dark lenses and thick yellow frames.
 

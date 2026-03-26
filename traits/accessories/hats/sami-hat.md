@@ -1,16 +1,20 @@
 ---
 name: Sami Hat
-image: "https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS3_acidhouse_ancient_Sami%20Hat.webp"
+image: "https://mibera.s3.amazonaws.com/traits/SS3_acidhouse_ancient_Sami%20Hat.webp"
 archetype: Acidhouse
 swag_score: 3
 date_added: "2024-07-27"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_acidhouse_ancient_Sami%20Hat.webp" alt="Sami Hat" width="320" />
+</div>
+
+
 # Sami Hat
 
 ## Visual Elements
 
-![ancient Sami Hat](https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS3_acidhouse_ancient_Sami%20Hat.webp)
 
 Red tall, sturdy, hat in almost rectangular shape with green linings on it.
 

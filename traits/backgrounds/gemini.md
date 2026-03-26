@@ -1,14 +1,18 @@
 ---
 name: Gemini
-image: "https://mibera.fsn1.your-objectstorage.com/components/Constellations/gemini.webp"
+image: "https://mibera.s3.amazonaws.com/traits/gemini.webp"
 date_added: "2024-11-23"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/gemini.webp" alt="Gemini" width="320" />
+</div>
+
 
 # Gemini
 
 ## Visual Elements
 
-![Gemini](https://mibera.fsn1.your-objectstorage.com/components/Constellations/gemini.webp)
 
 Deep blue night sky with bright white 4-points-stars connected by thin white lines forming a constellation (Gemini). Smaller stars in white dots are scattered in the background.
 

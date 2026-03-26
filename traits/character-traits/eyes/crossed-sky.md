@@ -1,14 +1,18 @@
 ---
 name: crossed sky
-image: "https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/Crossed%20Sky__w6.webp"
+image: "https://mibera.s3.amazonaws.com/traits/Crossed%20Sky.webp"
 date_added: "2024-06-03"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Crossed%20Sky.webp" alt="Crossed Sky" width="320" />
+</div>
+
 
 # crossed sky
 
 ## Visual Elements
 
-![Crossed Sky](https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/Crossed%20Sky__w6.webp)
 
 crossed eyes with sky-blue iris.
 

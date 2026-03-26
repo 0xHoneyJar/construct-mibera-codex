@@ -1,14 +1,18 @@
 ---
 name: anxious
-image: "https://mibera.fsn1.your-objectstorage.com/components/eyebrows__z95/Anxious.webp"
+image: "https://mibera.s3.amazonaws.com/traits/Anxious.webp"
 date_added: "2024-07-30"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Anxious.webp" alt="Anxious" width="320" />
+</div>
+
 
 # anxious
 
 ## Visual Elements
 
-![Anxious](https://mibera.fsn1.your-objectstorage.com/components/eyebrows__z95/Anxious.webp)
 
 Thin pair of eyebrows, arched with a slight upward tilt at the inner ends.
 

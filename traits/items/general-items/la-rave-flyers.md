@@ -1,10 +1,15 @@
 ---
 name: la rave flyers
-image: SS3_freetekno_LA Rave Flyers.PNG
+image: "https://mibera.s3.amazonaws.com/traits/SS3_freetekno_LA%20Rave%20Flyers.webp"
 archetype: Freetekno
 swag_score: 3
 date_added: "2024-12-09"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_freetekno_LA%20Rave%20Flyers.webp" alt="La Rave Flyers" width="320" />
+</div>
+
 
 # la rave flyers
 

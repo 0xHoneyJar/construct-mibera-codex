@@ -1,16 +1,20 @@
 ---
 name: Autism and a Gun
-image: "https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT"
+image: "https://mibera.s3.amazonaws.com/traits/SS1_Autism%20and%20a%20Gun.webp"
 archetype: "**Archetype Alignment:**"
 swag_score: 1
 date_added: "2024-07-22"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS1_Autism%20and%20a%20Gun.webp" alt="Autism And A Gun" width="320" />
+</div>
+
+
 # Autism and a Gun
 
 ## Visual Elements
 
-![Autism and a Gun](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)
 
 White t-shirt with black text that says “PLEASE BE PATIENT I HAVE AUTISM AND A GUN IN MY POCKET”.
 

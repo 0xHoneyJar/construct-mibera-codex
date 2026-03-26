@@ -1,16 +1,20 @@
 ---
 name: Tactical
-image: "https://mibera.fsn1.your-objectstorage.com/components/glasses__z140/milady_Tactical.webp"
+image: "https://mibera.s3.amazonaws.com/traits/milady_Tactical.webp"
 archetype: Milady
 swag_score: 3
 date_added: "2024-12-10"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/milady_Tactical.webp" alt="Tactical" width="320" />
+</div>
+
+
 # Tactical
 
 ## Visual Elements
 
-![Tactical](https://mibera.fsn1.your-objectstorage.com/components/glasses__z140/milady_Tactical.webp)
 
 big turquoise visor with stats / readings on it, in black framing.
 

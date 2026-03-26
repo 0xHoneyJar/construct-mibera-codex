@@ -1,16 +1,20 @@
 ---
 name: Egg on Head
-image: "https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS2_Egg%20on%20Head.webp"
+image: "https://mibera.s3.amazonaws.com/traits/SS2_Egg%20on%20Head.webp"
 archetype: "**Archetype Alignment:**"
 swag_score: 2
 date_added: "2024-07-28"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS2_Egg%20on%20Head.webp" alt="Egg On Head" width="320" />
+</div>
+
+
 # Egg on Head
 
 ## Visual Elements
 
-![SS2 Egg on Head](https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS2_Egg%20on%20Head.webp)
 
 The inside of an egg, intact, drooping down.
 

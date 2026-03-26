@@ -3,7 +3,13 @@ name: Tim C May
 archetype: "**Archetype Alignment:**"
 swag_score: 5
 date_added: null
+image: "https://mibera.s3.amazonaws.com/traits/SS5_cypherpunk_Tim%20C%20May.webp"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS5_cypherpunk_Tim%20C%20May.webp" alt="Tim C May" width="320" />
+</div>
+
 
 # Tim C May
 

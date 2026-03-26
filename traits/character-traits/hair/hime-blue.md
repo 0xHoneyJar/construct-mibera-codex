@@ -1,8 +1,13 @@
 ---
 name: hime blue
-image: Hime Blue__w12.png Hime Blue__z-32.png
+image: "https://mibera.s3.amazonaws.com/traits/Hime%20Blue.webp"
 date_added: "2024-06-22"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Hime%20Blue.webp" alt="Hime Blue" width="320" />
+</div>
+
 
 # hime blue
 

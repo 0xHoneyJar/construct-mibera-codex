@@ -1,16 +1,20 @@
 ---
 name: THJ Dark Gray
-image: "https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS5_THJ%20Dark%20Gray.webp"
+image: "https://mibera.s3.amazonaws.com/traits/SS5_THJ%20Dark%20Gray.webp"
 archetype: "**Archetype Alignment:**"
 swag_score: 5
 date_added: "2024-07-27"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS5_THJ%20Dark%20Gray.webp" alt="Thj Dark Gray" width="320" />
+</div>
+
+
 # THJ Dark Gray
 
 ## Visual Elements
 
-![SS5 THJ Dark Gray](https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS5_THJ%20Dark%20Gray.webp)
 
 Dark grey wide bucket hat with strings and a graphic of a bear in a relaxed pose on top / behind the text “THJ” in yellow graffiti font.
 

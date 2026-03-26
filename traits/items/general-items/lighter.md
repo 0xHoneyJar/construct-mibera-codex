@@ -1,10 +1,15 @@
 ---
 name: lighter
-image: SS1_freetekno_Lighter.png
+image: "https://mibera.s3.amazonaws.com/traits/SS1_freetekno_Lighter.webp"
 archetype: Freetekno
 swag_score: 1
 date_added: "2024-07-04"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS1_freetekno_Lighter.webp" alt="Lighter" width="320" />
+</div>
+
 
 # lighter
 

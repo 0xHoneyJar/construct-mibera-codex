@@ -1,14 +1,18 @@
 ---
 name: Pacioli
-image: "https://mibera.fsn1.your-objectstorage.com/components/background__z10%20%28SCENE%29/pacioli.webp"
+image: "https://mibera.s3.amazonaws.com/traits/pacioli.webp"
 date_added: "2025-03-11"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/pacioli.webp" alt="Pacioli" width="320" />
+</div>
+
 
 # Pacioli
 
 ## Visual Elements
 
-![Pacioli](https://mibera.fsn1.your-objectstorage.com/components/background__z10%20%28SCENE%29/pacioli.webp)
 
 Black room that includes a black board in the background. In front is a green table with an open book, some geometrical tools, and a dodecahedron model resting on top of a red book; a clear / transparent rhombicuboctahedron is hanging from the ceiling.
 

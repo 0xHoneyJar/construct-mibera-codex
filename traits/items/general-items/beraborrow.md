@@ -1,10 +1,15 @@
 ---
 name: beraborrow
-image: SS3_Beraborrow.PNG
+image: "https://mibera.s3.amazonaws.com/traits/SS3_Beraborrow.webp"
 archetype: "**Archetype Alignment:**"
 swag_score: 3
 date_added: "2024-12-09"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_Beraborrow.webp" alt="Beraborrow" width="320" />
+</div>
+
 
 # beraborrow
 

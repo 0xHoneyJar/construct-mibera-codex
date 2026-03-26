@@ -1,16 +1,20 @@
 ---
 name: Bera Headband
-image: "https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS3_milady_Bera%20Headband.webp"
+image: "https://mibera.s3.amazonaws.com/traits/SS3_milady_Bera%20Headband.webp"
 archetype: Milady
 swag_score: 3
 date_added: "2024-07-25"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_milady_Bera%20Headband.webp" alt="Bera Headband" width="320" />
+</div>
+
+
 # Bera Headband
 
 ## Visual Elements
 
-![Bera Headband](https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS3_milady_Bera%20Headband.webp)
 
 Brown headband of bear ears; curved ears with smaller half circle shapes inside in lighter color.
 

@@ -1,16 +1,20 @@
 ---
 name: star goggles
-image: "https://mibera.fsn1.your-objectstorage.com/components/glasses__z140/freetekno_Star Goggles.webp"
+image: "https://mibera.s3.amazonaws.com/traits/freetekno_Star%20Goggles.webp"
 archetype: Freetekno
 swag_score: 2
 date_added: "2024-06-16"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/freetekno_Star%20Goggles.webp" alt="Star Goggles" width="320" />
+</div>
+
+
 # star goggles
 
 ## Visual Elements
 
-![Star Goggles](https://mibera.fsn1.your-objectstorage.com/components/glasses__z140/freetekno_Star Goggles.webp)
 
 Black goggles with a white star on one side.
 

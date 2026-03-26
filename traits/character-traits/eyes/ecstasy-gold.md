@@ -1,14 +1,18 @@
 ---
 name: ecstasy gold
-image: "https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/Ecstasy%20Gold__w8.webp"
+image: "https://mibera.s3.amazonaws.com/traits/Ecstasy%20Gold.webp"
 date_added: "2024-06-03"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Ecstasy%20Gold.webp" alt="Ecstasy Gold" width="320" />
+</div>
+
 
 # ecstasy gold
 
 ## Visual Elements
 
-![Ecstasy Gold](https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/Ecstasy%20Gold__w8.webp)
 
 golden eyes with heavily dilated pupils.
 

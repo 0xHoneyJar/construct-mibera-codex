@@ -1,14 +1,18 @@
 ---
 name: hypno sky
-image: "https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/Hypno%20Sky__w7.webp"
+image: "https://mibera.s3.amazonaws.com/traits/Hypno%20Sky.webp"
 date_added: "2024-06-03"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Hypno%20Sky.webp" alt="Hypno Sky" width="320" />
+</div>
+
 
 # hypno sky
 
 ## Visual Elements
 
-![Hypno Sky](https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/Hypno%20Sky__w7.webp)
 
 blue eyes with prominent white spirals.
 

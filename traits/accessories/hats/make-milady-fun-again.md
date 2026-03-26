@@ -1,16 +1,20 @@
 ---
 name: Make Milady Fun Again
-image: "https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS2_Make%20Milady%20Fun%20Again.webp"
+image: "https://mibera.s3.amazonaws.com/traits/SS2_Make%20Milady%20Fun%20Again.webp"
 archetype: "**Archetype Alignment:**"
 swag_score: 2
 date_added: "2024-07-27"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS2_Make%20Milady%20Fun%20Again.webp" alt="Make Milady Fun Again" width="320" />
+</div>
+
+
 # Make Milady Fun Again
 
 ## Visual Elements
 
-![SS2 Make Milady Fun Again](https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS2_Make%20Milady%20Fun%20Again.webp)
 
 Two-toned cap in navy blue and white and black text that reads “Make Milady Fun Again” followed by a little heart.
 

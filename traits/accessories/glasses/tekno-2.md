@@ -1,16 +1,20 @@
 ---
 name: Tekno 2
-image: "https://mibera.fsn1.your-objectstorage.com/components/glasses__z140/freetekno_Tekno 2.webp"
+image: "https://mibera.s3.amazonaws.com/traits/freetekno_Tekno%202.webp"
 archetype: Freetekno
 swag_score: 1
 date_added: "2024-06-18"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/freetekno_Tekno%202.webp" alt="Tekno 2" width="320" />
+</div>
+
+
 # Tekno 2
 
 ## Visual Elements
 
-![Tekno 2](https://mibera.fsn1.your-objectstorage.com/components/glasses__z140/freetekno_Tekno 2.webp)
 
 Black retro round glasses, with pure black shades and rusty looking frames in a very dark brown, framing half top part of the glasses..
 

@@ -1,16 +1,20 @@
 ---
 name: Got Autism
-image: "https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS3_Got%20Autism.webp"
+image: "https://mibera.s3.amazonaws.com/traits/SS3_Got%20Autism.webp"
 archetype: "**Archetype Alignment:**"
 swag_score: 3
 date_added: "2024-07-25"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_Got%20Autism.webp" alt="Got Autism" width="320" />
+</div>
+
+
 # Got Autism
 
 ## Visual Elements
 
-![SS3 Got Autism](https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS3_Got%20Autism.webp)
 
 Navy blue cap with white text on it saying “mibera got autism”.
 

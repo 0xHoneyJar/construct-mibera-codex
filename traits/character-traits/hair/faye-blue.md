@@ -1,7 +1,13 @@
 ---
 name: Faye Blue
 date_added: null
+image: "https://mibera.s3.amazonaws.com/traits/faye%20blue.webp"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/faye%20blue.webp" alt="Faye Blue" width="320" />
+</div>
+
 
 # Faye Blue
 

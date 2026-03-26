@@ -1,14 +1,18 @@
 ---
 name: Constellations
-image: "https://mibera.fsn1.your-objectstorage.com/components/background__z10/Constellations.webp"
+image: "https://mibera.s3.amazonaws.com/traits/Constellations.webp"
 date_added: "2024-06-07"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Constellations.webp" alt="Constellations" width="320" />
+</div>
+
 
 # Constellations
 
 ## Visual Elements
 
-![Constellations](https://mibera.fsn1.your-objectstorage.com/components/background__z10/Constellations.webp)
 
 Dark blue night sky that meets a pink horizon, with bright constellations with connected dots (stars) and dark silhouette at the bottom.
 

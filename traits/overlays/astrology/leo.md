@@ -3,13 +3,20 @@ name: Leo
 date_range: July 23 - August 22
 glyph: ♌
 element: Fire
+image: "https://mibera.s3.amazonaws.com/traits/Sun%20Leo.webp"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Sun%20Leo.webp" alt="Sun Leo" width="200" />
+  <img src="https://mibera.s3.amazonaws.com/traits/Moon%20Leo.webp" alt="Moon Leo" width="200" />
+  <img src="https://mibera.s3.amazonaws.com/traits/Rising%20Leo.webp" alt="Rising Leo" width="200" />
+</div>
+
 
 # Leo
 
 ## Visual Elements
 
-![Sun Leo](https://mibera.fsn1.your-objectstorage.com/components/Sun/Sun%20Leo.webp)
 
 
 ## Cultural Context

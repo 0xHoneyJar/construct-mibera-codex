@@ -1,8 +1,13 @@
 ---
 name: short pink
-image: Short Pink__w11.PNG
+image: "https://mibera.s3.amazonaws.com/traits/Short%20Pink.webp"
 date_added: "2024-12-10"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Short%20Pink.webp" alt="Short Pink" width="320" />
+</div>
+
 
 # short pink
 

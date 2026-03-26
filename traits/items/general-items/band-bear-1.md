@@ -3,7 +3,13 @@ name: Band Bear 1
 archetype: "**Archetype Alignment:**"
 swag_score: 3
 date_added: null
+image: "https://mibera.s3.amazonaws.com/traits/SS3_milady_Band%20Bear%201.webp"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_milady_Band%20Bear%201.webp" alt="Band Bear 1" width="320" />
+</div>
+
 
 # Band Bear 1
 

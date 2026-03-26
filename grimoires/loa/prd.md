@@ -1,193 +1,142 @@
-# PRD: Mibera Oracle — The Five Books
+# PRD: Trait Image Embedding — S3 Visual Layer
 
-**Cycle**: cycle-018
-**Status**: Draft
-**Author**: Gumi + Claude
-**Origin**: Teammate suggestion (soju) — community members asking questions in Discord that the codex already answers
+**Cycle:** 019
+**Created:** 2026-03-25
+**Status:** Draft
 
-## Problem Statement
+## 1. Problem Statement
 
-The Mibera Codex contains deep, structured knowledge about 10,000 generative NFTs — traits, scores, lore, ancestors, tarot, drugs, grails, and more. Community members regularly ask questions in Discord that the codex already answers, but:
+The Mibera Codex has 1,487 trait/overlay/drug images available as `.webp` files, now hosted at `s3://mibera/traits/`. Currently:
 
-1. **Discovery barrier** — The codex is a 10K+ file GitHub repo. Non-technical community members don't know how to navigate it.
-2. **No conversational interface** — The data is structured for humans reading markdown and LLMs reading frontmatter, but there's no guided "ask a question, get an answer" layer.
-3. **No voice** — The codex is a reference work. It doesn't *speak*. The Mibera universe has rich personality (rave culture, time travel, altered states) that the data doesn't express.
+- 635 trait files reference an old object storage URL (`mibera.fsn1.your-objectstorage.com`)
+- 532 trait files have bare filenames (no URL) in their `image:` frontmatter
+- 78 trait files have no `image:` field at all
+- Drug files use bare filenames referencing `.PNG` extensions
+- **No images are visually displayed** in the markdown body — they're metadata-only in frontmatter
 
-## Vision
+The images exist. The hosting exists. But the codex doesn't show them.
 
-**The Oracle**: A set of five persona-driven system prompts — "books" — that any LLM-based interface can consume. Each book covers a different domain of the codex, speaks with Mibera-world flavor, and knows when to redirect to a sibling book.
+## 2. Goal
 
-The Oracle lives *in the repo* as markdown files. No infrastructure. No hosted service. Any chatbot, MCP server, or Discord bot can point at these files and immediately gain structured, persona-aware access to the codex.
+Embed S3-hosted images into every matching codex entry so that trait/drug/overlay pages display their art visually when viewed on GitHub or in Obsidian.
 
-> "There are different books that can answer — Book of Data, Book of Lore..." — soju
+### Success Criteria
 
-## Goals & Success Metrics
+- Every image in `s3://mibera/traits/` is linked from its corresponding codex entry
+- Images render inline below the frontmatter on GitHub and in Obsidian
+- `image:` frontmatter field updated to the canonical S3 URL
+- No broken links, no orphaned references
 
-| Goal | Metric | Target |
-|------|--------|--------|
-| Reduce unanswered codex questions in Discord | Community self-service rate | Qualitative — people using the books |
-| Make the codex conversational | Each book produces coherent, in-character answers | 3-5 example Q&A pairs per book |
-| Enable bot builders | System prompts are copy-pasteable into any LLM | Works with Claude, GPT, Gemini, Llama |
-| Preserve codex accuracy | Books never hallucinate — they cite or redirect | Zero invented data in examples |
-
-## The Five Books
-
-### 1. Book of Data
-
-**Domain**: Scores, traits, rarity, statistics, collections, sets
-**Voice**: Precise but warm. A knowledgeable archivist who speaks in Mibera-world terms. Not clinical — more like a rave scene encyclopedist who happens to love spreadsheets.
-**Scope**:
-- Swag scores and rankings
-- Trait distribution and rarity
-- Collection membership
-- Mibera-to-Mibera comparisons
-- Lookup by ID, trait, or dimension
-
-**Key data sources**: `miberas.jsonl`, `manifest.json`, `browse/by-*.md`, `swag-scoring/`
-
-**Redirects to**: Book of Lore (for ancestor/archetype meaning), Book of Sight (for drug/tarot interpretation)
-
-### 2. Book of Lore
-
-**Domain**: Ancestors, archetypes, eras, philosophy, mythology, cultural lineage
-**Voice**: A storyteller at the fire. Speaks with the weight of 15,000 years of time-travelling Bera history. Draws connections between eras and movements. Mibera-world flavor is strongest here.
-**Scope**:
-- Ancestor histories and cultural meaning
-- Archetype philosophy (Freetekno, Milady, Chicago Detroit, Acidhouse)
-- Birthday eras and temporal context
-- The Kaironic time paradox
-- Genesis mythology and philosophy
-
-**Key data sources**: `core-lore/ancestors/`, `core-lore/archetypes.md`, `core-lore/philosophy.md`, `birthdays/`
-
-**Redirects to**: Book of Data (for trait statistics), Book of Identity (for specific Mibera embodiment)
-
-### 3. Book of Sight
-
-**Domain**: Tarot cards, drugs/molecules, elements, altered states, the drug-tarot mapping system
-**Voice**: A psychonaut-mystic. Speaks about consciousness, states of being, the relationship between substance and symbol. Not clinical pharmacology — experiential, poetic, grounded in the codex's drug-as-character-fuel philosophy.
-**Scope**:
-- Tarot card meanings (traditional + Mibera context)
-- Drug/molecule profiles as identity signals
-- Element associations
-- The 78-card drug-tarot mapping system
-- How textural signals color identity
-
-**Key data sources**: `drugs-detailed/`, `core-lore/tarot-cards/`, `core-lore/drug-tarot-system.md`
-
-**Redirects to**: Book of Lore (for archetype context), Book of Identity (for how signals synthesize in a specific Mibera)
-
-### 4. Book of Grails
-
-**Domain**: The 42 hand-drawn 1/1 art pieces, artist context, visual symbolism
-**Voice**: An art critic who grew up in the scene. Speaks about visual language, cultural symbolism, and the relationship between grails and the broader Mibera mythology. Reverent but not pretentious.
-**Scope**:
-- Individual grail descriptions and cultural context
-- Visual symbolism and artistic references
-- Grail categories (zodiac, planets, ancestors, elements)
-- Connection between grails and the identity system
-- Fracture/reveal imagery
-
-**Key data sources**: `grails/`, `fractures/`
-
-**Redirects to**: Book of Lore (for ancestor/mythology connections), Book of Sight (for elemental/tarot associations)
-
-### 5. Book of Identity
-
-**Domain**: Full Mibera embodiment — synthesizing all signals into a living character
-**Voice**: This book doesn't just *describe* a Mibera — it *becomes* one. Uses the IDENTITY.md synthesis framework. The only book that performs full embodiment.
-**Scope**:
-- "Who is Mibera #NNNN?" — full signal synthesis
-- Signal hierarchy explanation (load-bearing vs textural vs modifiers)
-- Temporal constraints and the Kaironic paradox
-- Trait interaction and contradiction
-- Embodiment demonstration
-
-**Key data sources**: `IDENTITY.md`, `miberas/{ID}.md`, all trait/ancestor/drug files (followed via links)
-
-**Redirects to**: Book of Data (for raw stats), Book of Lore (for ancestor deep-dives), Book of Sight (for drug/tarot deep-dives)
-
-## Shared Book Properties
-
-Every book includes:
-
-1. **Mibera-world flavor** — All books speak from within the universe. Rave culture, time travel, altered states, the dancefloor as sacred space. Not forced — woven into how they explain things.
-2. **Scope boundaries** — Each book knows what it covers and what it doesn't. When a question falls outside scope, it names the right sibling book.
-3. **Codex grounding** — Books reference specific file paths and lookup patterns so the LLM can retrieve real data. No hallucination.
-4. **Example Q&A pairs** — 3-5 examples per book showing the voice, scope, and answer style.
-5. **Anti-hallucination rules** — Explicit instructions to read source files, never invent data, and say "I don't know" when appropriate.
-
-## File Structure
-
-```
-oracle/
-  README.md              # What the Oracle is, how to use it, which book for what
-  book-of-data.md        # System prompt + examples
-  book-of-lore.md        # System prompt + examples
-  book-of-sight.md       # System prompt + examples
-  book-of-grails.md      # System prompt + examples
-  book-of-identity.md    # System prompt + examples
-```
-
-Each book file contains:
-- System prompt (copy-pasteable into any LLM)
-- Scope definition
-- Voice/persona description
-- Data source references (file paths)
-- Cross-book routing rules
-- 3-5 example Q&A pairs
-
-## Technical Constraints
-
-1. **System prompts only** — No code, no infrastructure, no API keys. Pure markdown that works when pasted into any LLM.
-2. **Token budget** — Each book's system prompt should be under ~4K tokens. Dense enough to be useful, small enough to leave room for conversation.
-3. **Codex-relative paths** — All file references use paths relative to the repo root, consistent with existing `llms.txt` patterns.
-4. **No duplication** — Books reference existing codex files, they don't duplicate content. The persona is the value-add, not copied data.
-5. **Works without the full repo** — A book's system prompt should be useful even if the user only has the prompt + a few relevant codex files. Degrade gracefully.
-
-## Scope
+## 3. Scope
 
 ### In Scope
 
-| Deliverable | Files | Nature |
-|-------------|-------|--------|
-| Oracle directory + README | 1 | New directory with routing guide |
-| Five book system prompts | 5 | New persona-driven prompt files |
-| Example Q&A pairs | 15-25 total | Embedded in each book file |
-| manifest.json update | 1 | Register oracle as a content type |
-| CLAUDE.md update | 1 | Add oracle lookup pattern |
-| llms.txt update | 1 | Reference oracle in LLM context |
-| Navigation updates | 1-2 | Link from SUMMARY.md / browse/ |
+| Category | Image Count | Destination |
+|----------|-------------|-------------|
+| Direct trait matches | 466 | `traits/` subdirectories |
+| SS-prefixed trait variants | 813 | `traits/` subdirectories (map to base trait) |
+| Archetype+ancestor+drug combos | 79 | `drugs-detailed/` |
+| Astrology layers (Sun/Moon/Rising) | 36 | `traits/overlays/astrology/` |
+| Ranking letters (A-SSS) | 8 | `traits/overlays/ranking/` |
+| Element overlays | 4 | `traits/overlays/elements/` |
+| Era+ancestor tattoo images | 35 | `traits/character-traits/tattoos/` |
+| Archetype+glasses combos | 34 | `traits/accessories/glasses/` |
+| Overlay variants (`_overlay`) | 4 | **Deferred** — need compositing with body template |
+| Misc identifiable | 4 | Various |
+| **Total mapped** | **~1,483** | |
 
 ### Out of Scope
 
-- MCP server implementation (future cycle)
-- Discord bot implementation (future cycle — soju's domain)
-- Hosted chatbot UI
-- Fine-tuning or embeddings
-- Token-counting automation
-- Automated testing of prompt quality
+- 3 `IMG_` files (unidentified camera photos — need manual ID from artist)
+- Creating new `.md` files for the ~57 images with no codex entry (separate cycle)
+- Migrating away from S3 (this establishes S3 as the canonical image host)
 
-## Risks
+### Key Decision: Image Semantics (from artist clarification)
 
-| Risk | Impact | Mitigation |
-|------|--------|------------|
-| Prompts too long for some LLMs | Books don't fit in context window | Keep each under 4K tokens; test with smaller models |
-| Voice inconsistency across books | Oracle feels disjointed | Shared "Mibera voice" section included in every book |
-| Hallucination despite guardrails | Wrong answers erode trust | Strong anti-hallucination rules + "I don't know" instructions |
-| Maintenance burden | Books drift from codex updates | Books reference paths, not content — minimal drift surface |
-| Community doesn't adopt | Effort wasted | Zero-infra approach means low cost; books are useful as internal docs too |
+The naming convention encodes distinct semantic roles:
 
-## Dependencies
+- **No-SS prefix combos** (`archetype_ancestor_drug.webp`) = **molecule overlay** — the drug's visual effect layer. Maps to `drugs-detailed/{drug}.md`.
+- **SS-prefixed combos** (`SS{N}_archetype_era_ancestor_name.webp`) = **held items / accessories / clothing** — physical objects the Mibera carries or wears. Maps to `traits/` entries.
+- **`_overlay` suffix images** = overlay layers that need compositing with a body template. **Deferred** to a future cycle.
+- **Astrology images** (`Sun/Moon/Rising {Sign}.webp`) = three **separate trait categories** (Sun Sign, Moon Sign, Rising Sign), NOT variants of one trait. Each maps to its own file.
 
-- Existing codex structure (stable, COMPLETE for core entity types)
-- `llms.txt` patterns (established)
-- `IDENTITY.md` synthesis framework (established)
-- No external dependencies
+### Key Decision: One Image Per Entry
 
-## Future Considerations
+Each codex entry gets exactly one primary image displayed. No "variants" sections — the SS-prefixed and non-SS images map to *different* codex entries (held item vs molecule overlay). Astrology layers map to separate files.
 
-- **MCP Server** (cycle-019+): Wrap the oracle in an MCP server for Claude Desktop / Cursor integration
-- **Discord Bot**: soju's suggestion — point a bot at the oracle for in-Discord Q&A
-- **Dynamic book selection**: A "librarian" prompt that reads the question and routes to the right book automatically
-- **Community books**: Let community members create specialized books (e.g., Book of Swag for fashion-focused queries)
+### Key Decision: URL Format
+
+All `image:` frontmatter fields and inline markdown images will use the full S3 URL:
+```
+https://mibera.s3.amazonaws.com/traits/{filename}.webp
+```
+
+This replaces both the old object storage URLs and bare filenames.
+
+### Key Decision: Filename Encoding
+
+S3 URLs with spaces need URL encoding (spaces → `%20`). The embed script must handle this for filenames like `Keith Haring Shirt.webp`.
+
+## 4. Image Display Format
+
+Below the frontmatter (after the closing `---`), before any existing content:
+
+```markdown
+---
+name: Funky
+image: "https://mibera.s3.amazonaws.com/traits/Funky.webp"
+...
+---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Funky.webp" alt="Funky" width="320" />
+</div>
+
+# Funky
+...
+```
+
+For multi-image entries (e.g., astrology with 3 layers):
+
+```markdown
+<div align="center">
+  <img src=".../Sun%20Aries.webp" alt="Sun Aries" width="200" />
+  <img src=".../Moon%20Aries.webp" alt="Moon Aries" width="200" />
+  <img src=".../Rising%20Aries.webp" alt="Rising Aries" width="200" />
+</div>
+```
+
+## 5. Image-to-File Mapping Rules
+
+| Image Pattern | Maps To | Rule |
+|---------------|---------|------|
+| `{Name}.webp` | `traits/{subcat}/{slug}.md` | Slugify name, find in manifest |
+| `SS{N}_{archetype}_{Name}.webp` | `traits/{subcat}/{slug}.md` | Strip SS prefix + archetype, slugify remainder |
+| `SS{N}_{Name}.webp` | `traits/{subcat}/{slug}.md` | Strip SS prefix, slugify remainder |
+| `{arch}_{ancestor}_{drug}.webp` | `drugs-detailed/{drug-slug}.md` | Molecule overlay — last component is drug name |
+| `SS{N}_{arch}_{era}_{ancestor}_{Name}.webp` | `traits/{subcat}/{slug}.md` | Held item/accessory — last component is trait name |
+| `SS5_bongbear_{Name}.webp` | `traits/items/bong-bears/{slug}.md` | Strip prefix |
+| `SS5_cypherpunk_{Name}.webp` | `traits/items/general-items/{slug}.md` | Strip prefix |
+| `{era}_{ancestor}_{Tattoo}.webp` | `traits/character-traits/tattoos/{slug}.md` | Last component is tattoo name |
+| `{arch}_{Glasses}.webp` | `traits/accessories/glasses/{slug}.md` | Last component is glasses name |
+| `Sun/Moon/Rising {Sign}.webp` | `traits/overlays/astrology/{sign}.md` | All 3 layers displayed on same sign file (current structure: 12 files, not split by layer) |
+| `{Letter}.webp` (A-SSS) | `traits/overlays/ranking/{letter}.md` | Direct match |
+| `Air/Earth/Fire/Water.webp` | `traits/overlays/elements/{el}.md` | Direct match |
+| `{name}_overlay.webp` | **Deferred** | Needs compositing with body template |
+
+## 6. Risks
+
+| Risk | Mitigation |
+|------|------------|
+| GitHub camo proxy 5MB limit | WebP files are small (~50-200KB each) — no risk |
+| Broken S3 URLs | Validate all URLs return 200 before embedding |
+| Filename encoding issues | URL-encode spaces and special chars |
+| Backlink markers disrupted | Insert image ABOVE any existing content, BELOW frontmatter |
+| Wrong trait matched | Use manifest.json for authoritative slug→file mapping |
+
+## 7. Non-Goals
+
+- Resizing or optimizing images (they're already webp)
+- Creating a CDN/CloudFront layer (direct S3 is fine for now)
+- Building an image pipeline or automation (one-time batch operation)
+- Updating the graph.json or miberas.jsonl exports (no schema change needed)

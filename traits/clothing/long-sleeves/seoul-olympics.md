@@ -1,16 +1,20 @@
 ---
 name: Seoul Olympics
-image: "https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(LONG"
+image: "https://mibera.s3.amazonaws.com/traits/SS3_acidhouse_Seoul%20Olympics.webp"
 archetype: Acidhouse
 swag_score: 3
 date_added: "2024-12-10"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_acidhouse_Seoul%20Olympics.webp" alt="Seoul Olympics" width="320" />
+</div>
+
+
 # Seoul Olympics
 
 ## Visual Elements
 
-![Seoul Olympics](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(LONG)
 
 Black cropped long-sleeves with “SEO- OLYMPICS” and the olympics symbol on it (5 conjoined rings in black, yellow, white, green, and red in order from left to right); as well as the number 19 on the left side and 8 on the right side. Underneath it is a bright yellow long sleeve.
 

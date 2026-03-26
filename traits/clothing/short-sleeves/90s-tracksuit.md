@@ -2,7 +2,13 @@
 name: 90S Tracksuit
 swag_score: 1
 date_added: "2025-02-24"
+image: "https://mibera.s3.amazonaws.com/traits/SS3_chicagodetroit_90s%20Tracksuit.webp"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_chicagodetroit_90s%20Tracksuit.webp" alt="90S Tracksuit" width="320" />
+</div>
+
 
 # 90S Tracksuit
 

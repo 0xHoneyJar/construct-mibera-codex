@@ -1,16 +1,20 @@
 ---
 name: Aboriginal
-image: "https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT"
+image: "https://mibera.s3.amazonaws.com/traits/SS2_freetekno_Aboriginal.webp"
 archetype: Freetekno
 swag_score: 2
 date_added: "2024-12-10"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS2_freetekno_Aboriginal.webp" alt="Aboriginal" width="320" />
+</div>
+
+
 # Aboriginal
 
 ## Visual Elements
 
-![Aboriginal](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)
 
 Black t-shirt with a graphic of an aboriginal flag; black and red flag with yellow circle in the middle.
 

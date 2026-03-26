@@ -1,16 +1,20 @@
 ---
 name: darkfi
-image: "https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS3_Darkfi.webp"
+image: "https://mibera.s3.amazonaws.com/traits/SS3_Darkfi.webp"
 archetype: "**Archetype Alignment:**"
 swag_score: 3
 date_added: "2024-12-10"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_Darkfi.webp" alt="Darkfi" width="320" />
+</div>
+
+
 # darkfi
 
 ## Visual Elements
 
-![SS3 Darkfi](https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS3_Darkfi.webp)
 
 a black cap with white graphic of an upside down triangle with an eye in the middle of it, and a text in old-school gothic font on the side that reads “Dark-fi”
 

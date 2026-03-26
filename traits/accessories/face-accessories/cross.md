@@ -1,16 +1,20 @@
 ---
 name: Cross
-image: "https://mibera.fsn1.your-objectstorage.com/components/face%20accessories__z60/SS3_milady_Cross.webp"
+image: "https://mibera.s3.amazonaws.com/traits/SS3_milady_Cross.webp"
 archetype: Milady
 swag_score: 3
 date_added: "2024-12-10"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_milady_Cross.webp" alt="Cross" width="320" />
+</div>
+
+
 # Cross
 
 ## Visual Elements
 
-![Cross](https://mibera.fsn1.your-objectstorage.com/components/face%20accessories__z60/SS3_milady_Cross.webp)
 
 Slightly transparent upside down cross.
 

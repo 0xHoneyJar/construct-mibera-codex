@@ -1,16 +1,20 @@
 ---
 name: YY
-image: "https://mibera.fsn1.your-objectstorage.com/components/glasses__z140/milady_YY.webp"
+image: "https://mibera.s3.amazonaws.com/traits/milady_YY.webp"
 archetype: Milady
 swag_score: 3
 date_added: "2024-06-17"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/milady_YY.webp" alt="Yy" width="320" />
+</div>
+
+
 # YY
 
 ## Visual Elements
 
-![YY](https://mibera.fsn1.your-objectstorage.com/components/glasses__z140/milady_YY.webp)
 
 Dark shades of purple glasses with dark grey framing.
 

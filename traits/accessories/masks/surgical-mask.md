@@ -1,16 +1,20 @@
 ---
 name: Surgical Mask
-image: "https://mibera.fsn1.your-objectstorage.com/components/Masks/SS1_acidhouse_Surgical Mask.webp"
+image: "https://mibera.s3.amazonaws.com/traits/SS1_acidhouse_Surgical%20Mask.webp"
 archetype: Acidhouse
 swag_score: 1
 date_added: "2024-07-24"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS1_acidhouse_Surgical%20Mask.webp" alt="Surgical Mask" width="320" />
+</div>
+
+
 # Surgical Mask
 
 ## Visual Elements
 
-![Surgical Mask](https://mibera.fsn1.your-objectstorage.com/components/Masks/SS1_acidhouse_Surgical Mask.webp)
 
 Stereotypical green surgical mask, with lighter colored lining.
 

@@ -1,16 +1,20 @@
 ---
 name: Green Mask
-image: "https://mibera.fsn1.your-objectstorage.com/components/Masks/SS4_chicagodetroit_Green Mask.webp"
+image: "https://mibera.s3.amazonaws.com/traits/SS4_chicagodetroit_Green%20Mask.webp"
 archetype: Chicago Detroit
 swag_score: 4
 date_added: "2024-07-27"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS4_chicagodetroit_Green%20Mask.webp" alt="Green Mask" width="320" />
+</div>
+
+
 # Green Mask
 
 ## Visual Elements
 
-![Green Mask](https://mibera.fsn1.your-objectstorage.com/components/Masks/SS4_chicagodetroit_Green Mask.webp)
 
 Full-face green mask with a shape of a face and deep eye-sockets..
 

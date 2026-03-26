@@ -1,10 +1,15 @@
 ---
 name: the pencil
-image: SS3_milady_The Pencil.PNG
+image: "https://mibera.s3.amazonaws.com/traits/SS3_milady_The%20Pencil.webp"
 archetype: Milady
 swag_score: 1
 date_added: "2024-12-09"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_milady_The%20Pencil.webp" alt="The Pencil" width="320" />
+</div>
+
 
 # the pencil
 

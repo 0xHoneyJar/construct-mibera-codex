@@ -1,14 +1,18 @@
 ---
 name: normal
-image: "https://mibera.fsn1.your-objectstorage.com/components/mouth__z90/normal__w10.webp"
+image: "https://mibera.s3.amazonaws.com/traits/normal.webp"
 date_added: "2024-12-10"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/normal.webp" alt="Normal" width="320" />
+</div>
+
 
 # normal
 
 ## Visual Elements
 
-![normal](https://mibera.fsn1.your-objectstorage.com/components/mouth__z90/normal__w10.webp)
 
 a mouth portrayed by a short thin stroke.
 

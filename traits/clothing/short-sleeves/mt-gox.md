@@ -1,16 +1,20 @@
 ---
 name: Mt Gox
-image: "https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT"
+image: "https://mibera.s3.amazonaws.com/traits/SS2_Mt%20Gox.webp"
 archetype: "**Archetype Alignment:** Its cultural relevance in web3"
 swag_score: 2
 date_added: "2024-06-22"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS2_Mt%20Gox.webp" alt="Mt Gox" width="320" />
+</div>
+
+
 # Mt Gox
 
 ## Visual Elements
 
-![Mt Gox](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)
 
 Creamy white t-shirt with a graphic text that reads “MT.GOX in orange and light grey.
 

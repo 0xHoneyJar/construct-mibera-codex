@@ -1,14 +1,18 @@
 ---
 name: Volcano
-image: "https://mibera.fsn1.your-objectstorage.com/components/background__z10/volcano.webp"
+image: "https://mibera.s3.amazonaws.com/traits/volcano.webp"
 date_added: "2025-02-28"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/volcano.webp" alt="Volcano" width="320" />
+</div>
+
 
 # Volcano
 
 ## Visual Elements
 
-![Volcano](https://mibera.fsn1.your-objectstorage.com/components/background__z10/volcano.webp)
 
 An erupted volcanic mountain. Bright red lava puking out of the mountain as a big ball of smoke in dark grey can be seen in the sky.
 

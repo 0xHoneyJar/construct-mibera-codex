@@ -1,16 +1,20 @@
 ---
 name: Trans Flag
-image: "https://mibera.fsn1.your-objectstorage.com/components/face%20accessories__z60/SS2_milady_trans flag.webp"
+image: "https://mibera.s3.amazonaws.com/traits/SS2_milady_trans%20flag.webp"
 archetype: Milady
 swag_score: 2
 date_added: "2024-12-10"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS2_milady_trans%20flag.webp" alt="Trans Flag" width="320" />
+</div>
+
+
 # Trans Flag
 
 ## Visual Elements
 
-![Trans Flag](https://mibera.fsn1.your-objectstorage.com/components/face%20accessories__z60/SS2_milady_trans flag.webp)
 
 Strokes of bright blue, pink, and white in a rectangle shape. Symbolizing a trans flag.
 

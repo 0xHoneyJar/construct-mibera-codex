@@ -1,16 +1,20 @@
 ---
 name: Arabs for Black Power
-image: "https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT"
+image: "https://mibera.s3.amazonaws.com/traits/SS2_acidhouse_modern_arabs_Arabs%20For%20Black%20Power.webp"
 archetype: Acidhouse
 swag_score: 2
 date_added: "2024-06-22"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS2_acidhouse_modern_arabs_Arabs%20For%20Black%20Power.webp" alt="Arabs For Black Power" width="320" />
+</div>
+
+
 # Arabs for Black Power
 
 ## Visual Elements
 
-![modern_arabs_Arabs For Black Power](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)
 
 Black t-shirt with white text that reads “ARABS for BLACK POWER” and an Arabic script under it.
 

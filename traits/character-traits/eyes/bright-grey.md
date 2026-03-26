@@ -1,14 +1,18 @@
 ---
 name: bright grey
-image: "https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/Bright%20Grey__w13.webp"
+image: "https://mibera.s3.amazonaws.com/traits/Bright%20Grey.webp"
 date_added: "2024-06-03"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Bright%20Grey.webp" alt="Bright Grey" width="320" />
+</div>
+
 
 # bright grey
 
 ## Visual Elements
 
-![Bright Grey](https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/Bright%20Grey__w13.webp)
 
 grey eyes with a large white four pointed star within the pupil
 

@@ -1,10 +1,15 @@
 ---
 name: maracas
-image: SS2_acidhouse_Maracas.png
+image: "https://mibera.s3.amazonaws.com/traits/SS2_acidhouse_Maracas.webp"
 archetype: Acidhouse
 swag_score: 2
 date_added: "2024-07-06"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS2_acidhouse_Maracas.webp" alt="Maracas" width="320" />
+</div>
+
 
 # maracas
 

@@ -1,14 +1,18 @@
 ---
 name: Taurus
-image: "https://mibera.fsn1.your-objectstorage.com/components/Constellations/taurus.webp"
+image: "https://mibera.s3.amazonaws.com/traits/taurus.webp"
 date_added: "2024-11-23"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/taurus.webp" alt="Taurus" width="320" />
+</div>
+
 
 # Taurus
 
 ## Visual Elements
 
-![Taurus](https://mibera.fsn1.your-objectstorage.com/components/Constellations/taurus.webp)
 
 Deep blue night sky with bright white 4-points-stars connected by thin white lines forming a constellation (Taurus). Smaller stars in white dots are scattered in the background.
 

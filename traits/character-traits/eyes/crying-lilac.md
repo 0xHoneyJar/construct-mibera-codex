@@ -1,14 +1,18 @@
 ---
 name: crying lilac
-image: "https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/Crying%20Lilac__w6.webp"
+image: "https://mibera.s3.amazonaws.com/traits/Crying%20Lilac.webp"
 date_added: "2024-06-03"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Crying%20Lilac.webp" alt="Crying Lilac" width="320" />
+</div>
+
 
 # crying lilac
 
 ## Visual Elements
 
-![Crying Lilac](https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/Crying%20Lilac__w6.webp)
 
 lilac eyes with tears in the corners.
 

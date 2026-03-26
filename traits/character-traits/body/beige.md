@@ -1,14 +1,18 @@
 ---
 name: beige
-image: "https://mibera.fsn1.your-objectstorage.com/components/body__z40/beige__z80.webp"
+image: "https://mibera.s3.amazonaws.com/traits/beige.webp"
 date_added: "2024-08-13"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/beige.webp" alt="Beige" width="320" />
+</div>
+
 
 # beige
 
 ## Visual Elements
 
-![Beige](https://mibera.fsn1.your-objectstorage.com/components/body__z40/beige__z80.webp)
 
 Beige skin, warm light to medium shade, neutral appearance resembling a pale tan or light sand. Subtle golden-yellowish undertones.
 

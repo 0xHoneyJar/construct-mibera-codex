@@ -1,16 +1,20 @@
 ---
 name: Sunnies
-image: "https://mibera.fsn1.your-objectstorage.com/components/glasses__z140/acidhouse_Sunnies.webp"
+image: "https://mibera.s3.amazonaws.com/traits/acidhouse_Sunnies.webp"
 archetype: Acidhouse
 swag_score: 3
 date_added: "2024-12-10"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/acidhouse_Sunnies.webp" alt="Sunnies" width="320" />
+</div>
+
+
 # Sunnies
 
 ## Visual Elements
 
-![Sunnies](https://mibera.fsn1.your-objectstorage.com/components/glasses__z140/acidhouse_Sunnies.webp)
 
 Triangle-shaped glasses with grey lenses and grey frames
 

@@ -1,16 +1,20 @@
 ---
 name: Fruits Remilia Hoodie
-image: "https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(LONG"
+image: "https://mibera.s3.amazonaws.com/traits/SS3_milady_Fruits%20Remilia%20Hoodie.webp"
 archetype: Milady
 swag_score: 3
 date_added: "2024-12-10"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_milady_Fruits%20Remilia%20Hoodie.webp" alt="Fruits Remilia Hoodie" width="320" />
+</div>
+
+
 # Fruits Remilia Hoodie
 
 ## Visual Elements
 
-![Fruits Remilia Hoodie](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(LONG)
 
 Pale purple hoodie with red graphic of a heart and the text “FRUITS REMILIA” in the middle.
 

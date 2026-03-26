@@ -1,10 +1,15 @@
 ---
 name: cigar
-image: SS1_chicagodetroit_Cigar.png
+image: "https://mibera.s3.amazonaws.com/traits/SS1_chicagodetroit_Cigar.webp"
 archetype: Chicago Detroit
 swag_score: 1
 date_added: "2024-07-10"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS1_chicagodetroit_Cigar.webp" alt="Cigar" width="320" />
+</div>
+
 
 # cigar
 

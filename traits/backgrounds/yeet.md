@@ -1,14 +1,18 @@
 ---
 name: Yeet
-image: "https://mibera.fsn1.your-objectstorage.com/components/background__z10/Yeet.webp"
+image: "https://mibera.s3.amazonaws.com/traits/Yeet.webp"
 date_added: "2024-06-06"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Yeet.webp" alt="Yeet" width="320" />
+</div>
+
 
 # Yeet
 
 ## Visual Elements
 
-![Yeet](https://mibera.fsn1.your-objectstorage.com/components/background__z10/Yeet.webp)
 
 Golden yellow liquid dripping down in a few chunks.
 

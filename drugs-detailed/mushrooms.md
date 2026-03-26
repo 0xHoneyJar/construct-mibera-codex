@@ -6,9 +6,14 @@ origin: Mexico
 archetype: acidhouse
 ancestor: Irish druids, Buddhist, Sami
 swag_score: 5
-image: acidhouse_irishDruids_buddhists_sami_mushrooms.PNG
+image: "https://mibera.s3.amazonaws.com/traits/acidhouse_irishDruids_buddhists_sami_mushrooms.webp"
 date_added: "2025-01-12"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/acidhouse_irishDruids_buddhists_sami_mushrooms.webp" alt="Mushrooms" width="320" />
+</div>
+
 
 # Mushrooms
 

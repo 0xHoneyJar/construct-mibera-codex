@@ -1,14 +1,18 @@
 ---
 name: heart sky
-image: "https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/Heart%20Sky__w14.webp"
+image: "https://mibera.s3.amazonaws.com/traits/Heart%20Sky.webp"
 date_added: "2024-06-03"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Heart%20Sky.webp" alt="Heart Sky" width="320" />
+</div>
+
 
 # heart sky
 
 ## Visual Elements
 
-![Heart Sky](https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/Heart%20Sky__w14.webp)
 
 eyes with heart-shaped pupils in blue.
 

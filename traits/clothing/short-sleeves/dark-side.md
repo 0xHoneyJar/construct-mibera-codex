@@ -1,16 +1,20 @@
 ---
 name: Dark Side
-image: "https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT"
+image: "https://mibera.s3.amazonaws.com/traits/SS4_freetekno_Dark%20Side.webp"
 archetype: Freetekno
 swag_score: 4
 date_added: "2024-12-10"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS4_freetekno_Dark%20Side.webp" alt="Dark Side" width="320" />
+</div>
+
+
 # Dark Side
 
 ## Visual Elements
 
-![Dark Side](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)
 
 a black t-shirt with white outline of a triangle and a rainbow stroke.
 

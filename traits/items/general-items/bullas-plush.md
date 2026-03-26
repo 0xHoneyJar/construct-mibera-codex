@@ -1,10 +1,15 @@
 ---
 name: bullas plush
-image: SS3_Bullas Plush.PNG
+image: "https://mibera.s3.amazonaws.com/traits/SS3_Bullas%20Plush.webp"
 archetype: "**Archetype Alignment:**"
 swag_score: 3
 date_added: "2024-12-09"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_Bullas%20Plush.webp" alt="Bullas Plush" width="320" />
+</div>
+
 
 # bullas plush
 

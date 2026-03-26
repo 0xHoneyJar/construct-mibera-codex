@@ -1,16 +1,20 @@
 ---
 name: OBB Lid
-image: "https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS2_OBB%20Lid.webp"
+image: "https://mibera.s3.amazonaws.com/traits/SS2_OBB%20Lid.webp"
 archetype: "**Archetype Alignment:**"
 swag_score: 2
 date_added: "2024-07-27"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS2_OBB%20Lid.webp" alt="Obb Lid" width="320" />
+</div>
+
+
 # OBB Lid
 
 ## Visual Elements
 
-![SS2 OBB Lid](https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS2_OBB%20Lid.webp)
 
 What looks like a jar lid, in light yellow.
 

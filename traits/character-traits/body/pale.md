@@ -1,14 +1,18 @@
 ---
 name: pale
-image: "https://mibera.fsn1.your-objectstorage.com/components/body__z40/pale__z80.webp"
+image: "https://mibera.s3.amazonaws.com/traits/pale.webp"
 date_added: "2024-08-13"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/pale.webp" alt="Pale" width="320" />
+</div>
+
 
 # pale
 
 ## Visual Elements
 
-![Pale](https://mibera.fsn1.your-objectstorage.com/components/body__z40/pale__z80.webp)
 
 Pale skin, a very light, fair shade with minimal pigmentation, very porcelain-like.
 

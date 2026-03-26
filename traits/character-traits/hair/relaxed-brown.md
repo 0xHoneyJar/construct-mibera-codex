@@ -1,8 +1,13 @@
 ---
 name: relaxed brown
-image: Relaxed Brown__w10.PNG Relaxed Brown__z-32.PNG
+image: "https://mibera.s3.amazonaws.com/traits/Relaxed%20Brown.webp"
 date_added: "2024-12-10"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Relaxed%20Brown.webp" alt="Relaxed Brown" width="320" />
+</div>
+
 
 # relaxed brown
 

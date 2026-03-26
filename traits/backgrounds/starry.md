@@ -1,14 +1,18 @@
 ---
 name: Starry
-image: "https://mibera.fsn1.your-objectstorage.com/components/background__z10/Starry.webp"
+image: "https://mibera.s3.amazonaws.com/traits/Starry.webp"
 date_added: "2024-06-07"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Starry.webp" alt="Starry" width="320" />
+</div>
+
 
 # Starry
 
 ## Visual Elements
 
-![Starry](https://mibera.fsn1.your-objectstorage.com/components/background__z10/Starry.webp)
 
 Solid black background with four shiny 4-points stars, and 9 glowing dots.
 

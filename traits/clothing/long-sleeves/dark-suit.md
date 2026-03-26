@@ -1,16 +1,20 @@
 ---
 name: Dark Suit
-image: "https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(LONG"
+image: "https://mibera.s3.amazonaws.com/traits/SS5_Dark%20Suit.webp"
 archetype: "**Archetype Alignment:** Suit and tie reflect Milady’s ‘corporation’ vibe satirically. Milady being one of our archetypes."
 swag_score: 5
 date_added: "2024-12-10"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS5_Dark%20Suit.webp" alt="Dark Suit" width="320" />
+</div>
+
+
 # Dark Suit
 
 ## Visual Elements
 
-![Dark Suit](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(LONG)
 
 Sleek almost-black suit with a hint of blue. Underneath is a dark navy tie and a white shirt.
 

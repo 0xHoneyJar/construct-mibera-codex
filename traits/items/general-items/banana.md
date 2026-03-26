@@ -1,10 +1,15 @@
 ---
 name: banana
-image: SS3_milady_banana.PNG
+image: "https://mibera.s3.amazonaws.com/traits/SS3_milady_banana.webp"
 archetype: Milady
 swag_score: 1
 date_added: "2024-12-10"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_milady_banana.webp" alt="Banana" width="320" />
+</div>
+
 
 # banana
 

@@ -1,14 +1,18 @@
 ---
 name: Techno City
-image: "https://mibera.fsn1.your-objectstorage.com/components/background__z10/techno%20city.webp"
+image: "https://mibera.s3.amazonaws.com/traits/techno%20city.webp"
 date_added: "2024-08-14"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/techno%20city.webp" alt="Techno City" width="320" />
+</div>
+
 
 # Techno City
 
 ## Visual Elements
 
-![Techno City](https://mibera.fsn1.your-objectstorage.com/components/background__z10/techno%20city.webp)
 
 Front view of a building with many windows and a huge banner in
 

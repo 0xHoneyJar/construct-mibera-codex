@@ -1,14 +1,18 @@
 ---
 name: hypno grey
-image: "https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/Hypno%20Grey__w7.webp"
+image: "https://mibera.s3.amazonaws.com/traits/Hypno%20Grey.webp"
 date_added: "2024-06-03"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Hypno%20Grey.webp" alt="Hypno Grey" width="320" />
+</div>
+
 
 # hypno grey
 
 ## Visual Elements
 
-![Hypno Grey](https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/Hypno%20Grey__w7.webp)
 
 grey eyes with prominent white spirals.
 

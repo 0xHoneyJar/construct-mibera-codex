@@ -6,9 +6,14 @@ origin: Switzerland
 archetype: Acidhouse
 ancestor: Irish Druids, Buddhist, Sami
 swag_score: 4
-image: acidhouse_irishDruids_buddhists_sami_psilacetin.PNG
+image: "https://mibera.s3.amazonaws.com/traits/acidhouse_irishDruids_buddhists_sami_psilacetin.webp"
 date_added: "2025-01-12"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/acidhouse_irishDruids_buddhists_sami_psilacetin.webp" alt="Psilacetin" width="320" />
+</div>
+
 
 # Psilacetin
 

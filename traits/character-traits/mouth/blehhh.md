@@ -1,14 +1,18 @@
 ---
 name: blehhh
-image: "https://mibera.fsn1.your-objectstorage.com/components/mouth__z90/blehhh__w5.webp"
+image: "https://mibera.s3.amazonaws.com/traits/blehhh.webp"
 date_added: "2024-06-05"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/blehhh.webp" alt="Blehhh" width="320" />
+</div>
+
 
 # blehhh
 
 ## Visual Elements
 
-![blehhh](https://mibera.fsn1.your-objectstorage.com/components/mouth__z90/blehhh__w5.webp)
 
 tongue out of a thin mouth in a playful manner.
 

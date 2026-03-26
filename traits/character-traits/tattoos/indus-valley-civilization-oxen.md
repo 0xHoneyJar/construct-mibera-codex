@@ -1,16 +1,20 @@
 ---
 name: Indus Valley Civilization Oxen
-image: "https://mibera.fsn1.your-objectstorage.com/components/tattoos__z125/ancient_punjabi_Indus%20Valley%20Civilization%20Oxen.webp"
+image: "https://mibera.s3.amazonaws.com/traits/ancient_punjabi_Indus%20Valley%20Civilization%20Oxen.webp"
 archetype: "**Archetype Alignment:**"
 swag_score: null
 date_added: "2024-08-09"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/ancient_punjabi_Indus%20Valley%20Civilization%20Oxen.webp" alt="Indus Valley Civilization Oxen" width="320" />
+</div>
+
+
 # Indus Valley Civilization Oxen
 
 ## Visual Elements
 
-![Indus Valley Civilization Oxen](https://mibera.fsn1.your-objectstorage.com/components/tattoos__z125/ancient_punjabi_Indus%20Valley%20Civilization%20Oxen.webp)
 
 Simple shape made of lines, irregular outline resembling an Ox, with a slight curve, a small circular dot near the top center, and a jagged edge on the right side..
 

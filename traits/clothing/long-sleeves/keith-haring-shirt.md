@@ -1,16 +1,20 @@
 ---
 name: Keith Haring Shirt
-image: "https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(LONG"
+image: "https://mibera.s3.amazonaws.com/traits/SS3_chicagodetroit_Keith%20Haring%20Shirt.webp"
 archetype: Chicago Detroit
 swag_score: 3
 date_added: "2024-12-10"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_chicagodetroit_Keith%20Haring%20Shirt.webp" alt="Keith Haring Shirt" width="320" />
+</div>
+
+
 # Keith Haring Shirt
 
 ## Visual Elements
 
-![Keith Harding Shirt](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(LONG)
 
 Loose fit clothing in black with orange tribal graphic / patterns.
 

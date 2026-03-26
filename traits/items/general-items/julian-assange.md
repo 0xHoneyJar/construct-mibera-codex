@@ -3,7 +3,13 @@ name: Julian Assange
 archetype: "**Archetype Alignment:**"
 swag_score: 5
 date_added: null
+image: "https://mibera.s3.amazonaws.com/traits/SS5_cypherpunk_Julian%20Assange.webp"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS5_cypherpunk_Julian%20Assange.webp" alt="Julian Assange" width="320" />
+</div>
+
 
 # Julian Assange
 

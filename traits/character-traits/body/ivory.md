@@ -1,14 +1,18 @@
 ---
 name: ivory
-image: "https://mibera.fsn1.your-objectstorage.com/components/body__z40/ivory__z80.webp"
+image: "https://mibera.s3.amazonaws.com/traits/ivory.webp"
 date_added: "2024-08-13"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/ivory.webp" alt="Ivory" width="320" />
+</div>
+
 
 # ivory
 
 ## Visual Elements
 
-![Ivory](https://mibera.fsn1.your-objectstorage.com/components/body__z40/ivory__z80.webp)
 
 Fair skin with slightly warm or neutral undertone.
 

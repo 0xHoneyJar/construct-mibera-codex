@@ -1,16 +1,20 @@
 ---
 name: Lineart Lotus
-image: "https://mibera.fsn1.your-objectstorage.com/components/tattoos__z125/modern_hindu_Lineart%20Lotus.webp"
+image: "https://mibera.s3.amazonaws.com/traits/modern_hindu_Lineart%20Lotus.webp"
 archetype: "**Archetype Alignment:**"
 swag_score: null
 date_added: "2024-08-10"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/modern_hindu_Lineart%20Lotus.webp" alt="Lineart Lotus" width="320" />
+</div>
+
+
 # Lineart Lotus
 
 ## Visual Elements
 
-![Lineart Lotus](https://mibera.fsn1.your-objectstorage.com/components/tattoos__z125/modern_hindu_Lineart%20Lotus.webp)
 
 Simple line-art connecting a few curves, a lotus, and a few dots.
 

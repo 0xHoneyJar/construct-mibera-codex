@@ -1,14 +1,18 @@
 ---
 name: stoned leaf
-image: "https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/Stoned%20Leaf__w9.webp"
+image: "https://mibera.s3.amazonaws.com/traits/Stoned%20Leaf.webp"
 date_added: "2024-06-03"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Stoned%20Leaf.webp" alt="Stoned Leaf" width="320" />
+</div>
+
 
 # stoned leaf
 
 ## Visual Elements
 
-![Stoned Leaf](https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/Stoned%20Leaf__w9.webp)
 
 leafy-green eyes. The whites of the eyes are red, eyelids partially lowered.
 

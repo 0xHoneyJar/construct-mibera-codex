@@ -1,8 +1,13 @@
 ---
 name: hime experimental
-image: Hime Experimental__w2.png Hime Experimental__z-32.png
+image: "https://mibera.s3.amazonaws.com/traits/Hime%20Experimental.webp"
 date_added: "2024-06-22"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Hime%20Experimental.webp" alt="Hime Experimental" width="320" />
+</div>
+
 
 # hime experimental
 

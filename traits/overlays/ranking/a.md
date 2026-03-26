@@ -1,16 +1,20 @@
 ---
 name: A
 rank: A
-image: "https://mibera.fsn1.your-objectstorage.com/components/Ranking/A.webp"
+image: "https://mibera.s3.amazonaws.com/traits/A.webp"
 shape: Hexagonal
 color: Green / Lime Green
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/A.webp" alt="A" width="320" />
+</div>
+
 
 # A
 
 ## Visual Elements
 
-![Rank A](https://mibera.fsn1.your-objectstorage.com/components/Ranking/A.webp)
 
 
 ## Cultural Context

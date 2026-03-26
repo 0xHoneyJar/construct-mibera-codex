@@ -6,9 +6,14 @@ origin: North America
 archetype: Milady
 ancestor: Native American
 swag_score: 3
-image: milady_nativeAmerican_sassafras.PNG
+image: "https://mibera.s3.amazonaws.com/traits/milady_nativeAmerican_sassafras.webp"
 date_added: "2025-01-12"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_milady_ancient_nativeAmerican_Sassafras.webp" alt="Sassafras" width="320" />
+</div>
+
 
 # Sassafras
 

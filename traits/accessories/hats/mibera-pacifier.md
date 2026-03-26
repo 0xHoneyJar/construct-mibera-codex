@@ -1,16 +1,20 @@
 ---
 name: Mibera Pacifier
-image: "https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS2_chicagodetroit_Mibera%20Pacifier.webp"
+image: "https://mibera.s3.amazonaws.com/traits/SS2_chicagodetroit_Mibera%20Pacifier.webp"
 archetype: Chicago Detroit
 swag_score: 2
 date_added: "2024-06-19"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS2_chicagodetroit_Mibera%20Pacifier.webp" alt="Mibera Pacifier" width="320" />
+</div>
+
+
 # Mibera Pacifier
 
 ## Visual Elements
 
-![Mibera Pacifier](https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS2_chicagodetroit_Mibera%20Pacifier.webp)
 
 White pacifier with Mibera logo on it; a yellow smiley with bear ears.
 

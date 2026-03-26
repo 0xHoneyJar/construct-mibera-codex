@@ -1,16 +1,20 @@
 ---
 name: Modern Sami
-image: "https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(LONG"
+image: "https://mibera.s3.amazonaws.com/traits/SS2_acidhouse_Modern%20Sami.webp"
 archetype: Acidhouse
 swag_score: 2
 date_added: "2024-12-10"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS2_acidhouse_Modern%20Sami.webp" alt="Modern Sami" width="320" />
+</div>
+
+
 # Modern Sami
 
 ## Visual Elements
 
-![Modern Sami](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(LONG)
 
 Full sleeves clothing in dull brown with green lining around the neck and near the sleeve. Red accent in the middle just below the collar. A brown sling-bag is worn.
 

@@ -1,16 +1,20 @@
 ---
 name: McDonalds 3
-image: "https://mibera.fsn1.your-objectstorage.com/components/hats__z160/mcdonalds%203.webp"
+image: "https://mibera.s3.amazonaws.com/traits/mcdonalds%203.webp"
 archetype: "**Archetype Alignment:**"
 swag_score: 4
 date_added: "2025-05-04"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/mcdonalds%203.webp" alt="Mcdonalds 3" width="320" />
+</div>
+
+
 # McDonalds 3
 
 ## Visual Elements
 
-![mcdonalds 3](https://mibera.fsn1.your-objectstorage.com/components/hats__z160/mcdonalds%203.webp)
 
 Visor hat in red with Mcdonalds logo in the center; a yellow ‘M’.
 

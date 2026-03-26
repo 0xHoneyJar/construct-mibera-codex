@@ -1,10 +1,15 @@
 ---
 name: spodumene
-image: SS4_acidhouse_ancient_irishDruids_spodumene.PNG
+image: "https://mibera.s3.amazonaws.com/traits/SS4_acidhouse_ancient_irishDruids_spodumene.webp"
 archetype: Acidhouse
 swag_score: 4
 date_added: "2025-01-16"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS4_acidhouse_ancient_irishDruids_spodumene.webp" alt="Spodumene" width="320" />
+</div>
+
 
 # spodumene
 

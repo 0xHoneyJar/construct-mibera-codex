@@ -1,16 +1,20 @@
 ---
 name: Cypherpunk 3
-image: "https://mibera.fsn1.your-objectstorage.com/components/Masks/SS3_Cypherpunk 3.webp"
+image: "https://mibera.s3.amazonaws.com/traits/SS3_Cypherpunk%203.webp"
 archetype: "**Archetype Alignment:**"
 swag_score: 3
 date_added: "2024-07-17"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_Cypherpunk%203.webp" alt="Cypherpunk 3" width="320" />
+</div>
+
+
 # Cypherpunk 3
 
 ## Visual Elements
 
-![Cypherpunk 3](https://mibera.fsn1.your-objectstorage.com/components/Masks/SS3_Cypherpunk 3.webp)
 
 White mask with ‘10D7C7’ written on the forehead.
 

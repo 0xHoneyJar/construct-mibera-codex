@@ -1,16 +1,20 @@
 ---
 name: RAF
-image: "https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT"
+image: "https://mibera.s3.amazonaws.com/traits/SS3_freetekno_RAF.webp"
 archetype: Freetekno
 swag_score: 3
 date_added: "2024-06-22"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_freetekno_RAF.webp" alt="Raf" width="320" />
+</div>
+
+
 # RAF
 
 ## Visual Elements
 
-![RAF](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)
 
 Black t-shirt with “RAF” in bold white written in the middle, in front of a graphic of a gun, on top of a bright red star.
 

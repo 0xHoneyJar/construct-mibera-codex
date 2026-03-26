@@ -1,16 +1,20 @@
 ---
 name: Joker
-image: "https://mibera.fsn1.your-objectstorage.com/components/face%20accessories__z60/SS5_joker.webp"
+image: "https://mibera.s3.amazonaws.com/traits/SS5_joker.webp"
 archetype: "**Archetype Alignment:**"
 swag_score: 5
 date_added: "2025-03-26"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS5_joker.webp" alt="Joker" width="320" />
+</div>
+
+
 # Joker
 
 ## Visual Elements
 
-![Joker](https://mibera.fsn1.your-objectstorage.com/components/face%20accessories__z60/SS5_joker.webp)
 
 Roughly circular, white face with smudged outline. On it are: two blue, upward-pointing triangles above the eyes with other two pointing downwards below the eyes. a red, diamond-shaped nose, and a wide red curved smile.
 

@@ -1,8 +1,13 @@
 ---
 name: short messy black
-image: Short Messy Black__w24.png
+image: "https://mibera.s3.amazonaws.com/traits/Short%20Messy%20Black.webp"
 date_added: "2024-06-15"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Short%20Messy%20Black.webp" alt="Short Messy Black" width="320" />
+</div>
+
 
 # short messy black
 

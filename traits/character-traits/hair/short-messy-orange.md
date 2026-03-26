@@ -1,8 +1,13 @@
 ---
 name: short messy orange
-image: Short Messy Orange__w2.png
+image: "https://mibera.s3.amazonaws.com/traits/Short%20Messy%20Orange.webp"
 date_added: "2024-06-15"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Short%20Messy%20Orange.webp" alt="Short Messy Orange" width="320" />
+</div>
+
 
 # short messy orange
 

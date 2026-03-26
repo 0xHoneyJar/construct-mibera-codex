@@ -1,8 +1,13 @@
 ---
 name: long wavy magenta
-image: Long Wavy Magenta__w2.png Long Wavy Magenta__z-32.png
+image: "https://mibera.s3.amazonaws.com/traits/Long%20Wavy%20Magenta.webp"
 date_added: "2024-06-22"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Long%20Wavy%20Magenta.webp" alt="Long Wavy Magenta" width="320" />
+</div>
+
 
 # long wavy magenta
 

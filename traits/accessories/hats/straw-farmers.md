@@ -1,16 +1,20 @@
 ---
 name: Straw Farmers
-image: "https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS3_acidhouse_Straw%20Farmers.webp"
+image: "https://mibera.s3.amazonaws.com/traits/SS3_acidhouse_Straw%20Farmers.webp"
 archetype: Acidhouse
 swag_score: 3
 date_added: "2024-07-24"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_acidhouse_Straw%20Farmers.webp" alt="Straw Farmers" width="320" />
+</div>
+
+
 # Straw Farmers
 
 ## Visual Elements
 
-![Straw Farmers](https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS3_acidhouse_Straw%20Farmers.webp)
 
 Straw hat with thick red stripe around it.
 

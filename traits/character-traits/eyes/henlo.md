@@ -1,14 +1,18 @@
 ---
 name: henlo
-image: "https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/henlo__w1.webp"
+image: "https://mibera.s3.amazonaws.com/traits/henlo.webp"
 date_added: "2024-06-03"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_Henlo.webp" alt="Henlo" width="320" />
+</div>
+
 
 # henlo
 
 ## Visual Elements
 
-![henlo](https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/henlo__w1.webp)
 
 a pair of ‘henlo’ eyes.
 

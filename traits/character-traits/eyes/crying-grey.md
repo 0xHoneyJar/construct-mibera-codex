@@ -1,14 +1,18 @@
 ---
 name: crying grey
-image: "https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/Crying%20Grey__w6.webp"
+image: "https://mibera.s3.amazonaws.com/traits/Crying%20Grey.webp"
 date_added: "2024-06-03"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Crying%20Grey.webp" alt="Crying Grey" width="320" />
+</div>
+
 
 # crying grey
 
 ## Visual Elements
 
-![Crying Grey](https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/Crying%20Grey__w6.webp)
 
 grey eyes with tears in the corners.
 

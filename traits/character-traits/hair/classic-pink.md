@@ -1,8 +1,13 @@
 ---
 name: classic pink
-image: Classic Pink__w4.PNG Classic Pink__z-32.png
+image: "https://mibera.s3.amazonaws.com/traits/Classic%20Pink.webp"
 date_added: "2024-06-22"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Classic%20Pink.webp" alt="Classic Pink" width="320" />
+</div>
+
 
 # classic pink
 

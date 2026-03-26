@@ -1,14 +1,18 @@
 ---
 name: normal grey
-image: "https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/Normal%20Grey__w25.webp"
+image: "https://mibera.s3.amazonaws.com/traits/Normal%20Grey.webp"
 date_added: "2024-06-03"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Normal%20Grey.webp" alt="Normal Grey" width="320" />
+</div>
+
 
 # normal grey
 
 ## Visual Elements
 
-![Normal Grey](https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/Normal%20Grey__w25.webp)
 
 normal eyes in grey.
 

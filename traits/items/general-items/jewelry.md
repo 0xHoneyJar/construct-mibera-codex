@@ -1,10 +1,15 @@
 ---
 name: jewelry
-image: SS4_acidhouse_Jewelry.png
+image: "https://mibera.s3.amazonaws.com/traits/SS4_acidhouse_Jewelry.webp"
 archetype: Acidhouse
 swag_score: 4
 date_added: "2024-07-10"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS4_acidhouse_Jewelry.webp" alt="Jewelry" width="320" />
+</div>
+
 
 # jewelry
 

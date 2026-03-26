@@ -1,14 +1,18 @@
 ---
 name: Aquarius
-image: "https://mibera.fsn1.your-objectstorage.com/components/Constellations/aquarius.webp"
+image: "https://mibera.s3.amazonaws.com/traits/aquarius.webp"
 date_added: "2024-11-23"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/aquarius.webp" alt="Aquarius" width="320" />
+</div>
+
 
 # Aquarius
 
 ## Visual Elements
 
-![Aquarius](https://mibera.fsn1.your-objectstorage.com/components/Constellations/aquarius.webp)
 
 Deep blue night sky with bright white 4-points-stars connected by thin white lines forming a constellation (Aquarius). Smaller stars in white dots are scattered in the background.
 

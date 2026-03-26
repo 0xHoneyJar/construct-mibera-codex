@@ -1,14 +1,18 @@
 ---
 name: Clouds
-image: "https://mibera.fsn1.your-objectstorage.com/components/background__z10/Clouds.webp"
+image: "https://mibera.s3.amazonaws.com/traits/Clouds.webp"
 date_added: "2024-06-07"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Clouds.webp" alt="Clouds" width="320" />
+</div>
+
 
 # Clouds
 
 ## Visual Elements
 
-![Clouds](https://mibera.fsn1.your-objectstorage.com/components/background__z10/Clouds.webp)
 
 Grassfield and cloudy sky.
 

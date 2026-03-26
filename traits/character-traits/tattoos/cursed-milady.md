@@ -1,16 +1,20 @@
 ---
 name: Cursed Milady
-image: "https://mibera.fsn1.your-objectstorage.com/components/tattoos__z125/Cursed%20Milady.webp"
+image: "https://mibera.s3.amazonaws.com/traits/Cursed%20Milady.webp"
 archetype: "**Archetype Alignment:**"
 swag_score: null
 date_added: "2024-08-06"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Cursed%20Milady.webp" alt="Cursed Milady" width="320" />
+</div>
+
+
 # Cursed Milady
 
 ## Visual Elements
 
-![Cursed Milady](https://mibera.fsn1.your-objectstorage.com/components/tattoos__z125/Cursed%20Milady.webp)
 
 Rough linework in red of a short-haired woman wearing a French beret.
 

@@ -1,16 +1,20 @@
 ---
 name: Backwards
-image: "https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS2_milady_Backwards.webp"
+image: "https://mibera.s3.amazonaws.com/traits/SS2_milady_Backwards.webp"
 archetype: Milady
 swag_score: 2
 date_added: "2024-07-24"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS2_milady_Backwards.webp" alt="Backwards" width="320" />
+</div>
+
+
 # Backwards
 
 ## Visual Elements
 
-![Backwards](https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS2_milady_Backwards.webp)
 
 Back view of a cap light grey / beige, with the clippers and a half-circle hole.
 

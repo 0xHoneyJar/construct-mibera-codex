@@ -1,16 +1,20 @@
 ---
 name: Dots
-image: "https://mibera.fsn1.your-objectstorage.com/components/face%20accessories__z60/SS3_milady_Dots.webp"
+image: "https://mibera.s3.amazonaws.com/traits/SS3_milady_Dots.webp"
 archetype: Milady
 swag_score: 3
 date_added: "2024-12-10"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_milady_Dots.webp" alt="Dots" width="320" />
+</div>
+
+
 # Dots
 
 ## Visual Elements
 
-![Dots](https://mibera.fsn1.your-objectstorage.com/components/face%20accessories__z60/SS3_milady_Dots.webp)
 
 Three small black dots under each eye.
 

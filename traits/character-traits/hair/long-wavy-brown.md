@@ -1,8 +1,13 @@
 ---
 name: long wavy brown
-image: Long Wavy Brown__w16.png Long Wavy Brown__z-32.png
+image: "https://mibera.s3.amazonaws.com/traits/Long%20Wavy%20Brown.webp"
 date_added: "2024-06-22"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Long%20Wavy%20Brown.webp" alt="Long Wavy Brown" width="320" />
+</div>
+
 
 # long wavy brown
 

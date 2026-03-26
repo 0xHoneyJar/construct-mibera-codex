@@ -1,14 +1,18 @@
 ---
 name: sleepy lilac
-image: "https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/Sleepy%20Lilac__w9.webp"
+image: "https://mibera.s3.amazonaws.com/traits/Sleepy%20Lilac.webp"
 date_added: "2024-06-03"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Sleepy%20Lilac.webp" alt="Sleepy Lilac" width="320" />
+</div>
+
 
 # sleepy lilac
 
 ## Visual Elements
 
-![Sleepy Lilac](https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/Sleepy%20Lilac__w9.webp)
 
 tired eyes with bright purple iris
 

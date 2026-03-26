@@ -1,16 +1,20 @@
 ---
 name: Scum
-image: "https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT"
+image: "https://mibera.s3.amazonaws.com/traits/SS3_freetekno_SCUM.webp"
 archetype: Freetekno
 swag_score: 3
 date_added: "2024-12-10"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_freetekno_SCUM.webp" alt="Scum" width="320" />
+</div>
+
+
 # Scum
 
 ## Visual Elements
 
-![SCUM](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)
 
 White t-shirt with black text that reads “SCUM”.
 

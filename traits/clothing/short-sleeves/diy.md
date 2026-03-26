@@ -1,16 +1,20 @@
 ---
 name: DiY
-image: "https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT"
+image: "https://mibera.s3.amazonaws.com/traits/SS1_freetekno_DiY.webp"
 archetype: Freetekno
 swag_score: 1
 date_added: "2024-12-10"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS1_freetekno_DiY.webp" alt="Diy" width="320" />
+</div>
+
+
 # DiY
 
 ## Visual Elements
 
-![DiY](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)
 
 Black t-shirt with big white text that says “DiY” in bold font.
 

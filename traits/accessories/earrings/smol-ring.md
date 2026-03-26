@@ -1,10 +1,15 @@
 ---
 name: Smol Ring
-image: SS2_smol ring.PNG
+image: "https://mibera.s3.amazonaws.com/traits/SS2_smol%20ring.webp"
 archetype: "**Archetype Alignment:**"
 swag_score: 2
 date_added: "2024-12-10"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS2_smol%20ring.webp" alt="Smol Ring" width="320" />
+</div>
+
 
 # Smol Ring
 

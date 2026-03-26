@@ -1,16 +1,20 @@
 ---
 name: baby bera
-image: "https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS3_chicagodetroit_Baby%20Bera.webp"
+image: "https://mibera.s3.amazonaws.com/traits/SS3_chicagodetroit_Baby%20Bera.webp"
 archetype: Chicago Detroit
 swag_score: 3
 date_added: "2024-07-24"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_chicagodetroit_Baby%20Bera.webp" alt="Baby Bera" width="320" />
+</div>
+
+
 # baby bera
 
 ## Visual Elements
 
-![Baby Bera](https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS3_chicagodetroit_Baby%20Bera.webp)
 
 a black cap with babybera graphic in the middle; a dark grey bear in relaxed pose and smiley expression
 

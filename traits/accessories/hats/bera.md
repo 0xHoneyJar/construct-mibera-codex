@@ -1,16 +1,20 @@
 ---
 name: Bera
-image: "https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS4_milady_Bera.webp"
+image: "https://mibera.s3.amazonaws.com/traits/SS4_milady_Bera.webp"
 archetype: Milady
 swag_score: 4
 date_added: "2024-07-27"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS4_milady_Bera.webp" alt="Bera" width="320" />
+</div>
+
+
 # Bera
 
 ## Visual Elements
 
-![Bera](https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS4_milady_Bera.webp)
 
 Brown cap with bear face, sparkly eyes, and bear ears
 

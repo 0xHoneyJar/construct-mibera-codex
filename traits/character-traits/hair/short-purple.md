@@ -1,8 +1,13 @@
 ---
 name: short purple
-image: Short Purple__w11.PNG
+image: "https://mibera.s3.amazonaws.com/traits/Short%20Purple.webp"
 date_added: "2024-12-10"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Short%20Purple.webp" alt="Short Purple" width="320" />
+</div>
+
 
 # short purple
 

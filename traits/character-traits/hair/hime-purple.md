@@ -1,8 +1,13 @@
 ---
 name: hime purple
-image: Hime Purple__w2.png Hime Purple__z-32.png
+image: "https://mibera.s3.amazonaws.com/traits/Hime%20Purple.webp"
 date_added: "2024-06-22"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Hime%20Purple.webp" alt="Hime Purple" width="320" />
+</div>
+
 
 # hime purple
 

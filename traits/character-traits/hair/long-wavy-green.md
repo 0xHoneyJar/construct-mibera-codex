@@ -1,8 +1,13 @@
 ---
 name: long wavy green
-image: Long Wavy Green__w6.png Long Wavy Green__z-32.png
+image: "https://mibera.s3.amazonaws.com/traits/Long%20Wavy%20Green.webp"
 date_added: "2024-06-22"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Long%20Wavy%20Green.webp" alt="Long Wavy Green" width="320" />
+</div>
+
 
 # long wavy green
 

@@ -1,16 +1,20 @@
 ---
 name: Star and Crescent Hand
-image: "https://mibera.fsn1.your-objectstorage.com/components/tattoos__z125/modern_turkey_Star%20and%20Crescent%20Hand.webp"
+image: "https://mibera.s3.amazonaws.com/traits/modern_turkey_Star%20and%20Crescent%20Hand.webp"
 archetype: "**Archetype Alignment:**"
 swag_score: null
 date_added: "2024-08-09"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/modern_turkey_Star%20and%20Crescent%20Hand.webp" alt="Star And Crescent Hand" width="320" />
+</div>
+
+
 # Star and Crescent Hand
 
 ## Visual Elements
 
-![Star and Crescent Hand](https://mibera.fsn1.your-objectstorage.com/components/tattoos__z125/modern_turkey_Star%20and%20Crescent%20Hand.webp)
 
 The star and crescent of Turkey’s flag, directly on top of Mibera’s hand. It is entirely red.
 

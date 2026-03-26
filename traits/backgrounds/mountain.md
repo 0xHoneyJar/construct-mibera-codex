@@ -1,14 +1,18 @@
 ---
 name: Mountain
-image: "https://mibera.fsn1.your-objectstorage.com/components/background__z10/Mountain.webp"
+image: "https://mibera.s3.amazonaws.com/traits/Mountain.webp"
 date_added: "2024-12-10"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Mountain.webp" alt="Mountain" width="320" />
+</div>
+
 
 # Mountain
 
 ## Visual Elements
 
-![Mountain](https://mibera.fsn1.your-objectstorage.com/components/background__z10/Mountain.webp)
 
 Big mountain in dark grey / black, on top of a grassy ground and under a bright blue sky.
 

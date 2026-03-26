@@ -1,10 +1,15 @@
 ---
 name: penis envy
-image: SS2_acidhouse_Penis Envy.png
+image: "https://mibera.s3.amazonaws.com/traits/SS2_acidhouse_Penis%20Envy.webp"
 archetype: Acidhouse
 swag_score: 2
 date_added: "2024-07-06"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS2_acidhouse_Penis%20Envy.webp" alt="Penis Envy" width="320" />
+</div>
+
 
 # penis envy
 

@@ -1,7 +1,13 @@
 ---
 name: Relaxed Blue
 date_added: null
+image: "https://mibera.s3.amazonaws.com/traits/Relaxed%20Blue.webp"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Relaxed%20Blue.webp" alt="Relaxed Blue" width="320" />
+</div>
+
 
 # Relaxed Blue
 

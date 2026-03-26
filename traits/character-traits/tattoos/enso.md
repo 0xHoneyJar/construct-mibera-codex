@@ -1,16 +1,20 @@
 ---
 name: Enso
-image: "https://mibera.fsn1.your-objectstorage.com/components/tattoos__z125/ancient_buddhist_Enso.webp"
+image: "https://mibera.s3.amazonaws.com/traits/ancient_buddhist_Enso.webp"
 archetype: "**Archetype Alignment:**"
 swag_score: null
 date_added: "2024-08-10"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/ancient_buddhist_Enso.webp" alt="Enso" width="320" />
+</div>
+
+
 # Enso
 
 ## Visual Elements
 
-![Enso](https://mibera.fsn1.your-objectstorage.com/components/tattoos__z125/ancient_buddhist_Enso.webp)
 
 Thick brush stroke that goes in nearly full circle.
 

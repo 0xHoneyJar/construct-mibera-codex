@@ -6,9 +6,14 @@ origin: Germany
 archetype: Milady
 ancestor: Native Americans
 swag_score: 2
-image: milady_nativeAmerican_MDA.PNG
+image: "https://mibera.s3.amazonaws.com/traits/milady_nativeAmerican_MDA.webp"
 date_added: "2025-01-12"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/milady_nativeAmerican_MDA.webp" alt="Mda" width="320" />
+</div>
+
 
 # MDA
 

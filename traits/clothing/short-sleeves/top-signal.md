@@ -1,16 +1,20 @@
 ---
 name: Top Signal
-image: "https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT"
+image: "https://mibera.s3.amazonaws.com/traits/SS1_milady_top%20signal.webp"
 archetype: Milady
 swag_score: 1
 date_added: "2024-12-10"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS1_milady_top%20signal.webp" alt="Top Signal" width="320" />
+</div>
+
+
 # Top Signal
 
 ## Visual Elements
 
-![top signal](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)
 
 Black t-shirt with white text that reads ”APY 1,420,690,808,000%”.
 

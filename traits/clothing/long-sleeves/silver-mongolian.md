@@ -1,16 +1,20 @@
 ---
 name: Silver Mongolian
-image: "https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(LONG"
+image: "https://mibera.s3.amazonaws.com/traits/SS3_chicagodetroit_Silver%20Mongolian.webp"
 archetype: Chicago Detroit
 swag_score: 3
 date_added: "2025-04-03"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_chicagodetroit_Silver%20Mongolian.webp" alt="Silver Mongolian" width="320" />
+</div>
+
+
 # Silver Mongolian
 
 ## Visual Elements
 
-![Silver Mongolian__w6](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(LONG)
 
 Silver long sleeve shirt with mandarin neck and button, with subtle patterns on its shiny complexion.
 

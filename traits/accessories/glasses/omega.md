@@ -1,16 +1,20 @@
 ---
 name: Omega
-image: "https://mibera.fsn1.your-objectstorage.com/components/glasses__z140/acidhouse_Omega.webp"
+image: "https://mibera.s3.amazonaws.com/traits/acidhouse_Omega.webp"
 archetype: "**Archetype Alignment:** OlympusDAO in Berachain history. One of Bong Bear’s traits."
 swag_score: 5
 date_added: "2024-12-10"
 ---
 
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/acidhouse_Omega.webp" alt="Omega" width="320" />
+</div>
+
+
 # Omega
 
 ## Visual Elements
 
-![Omega](https://mibera.fsn1.your-objectstorage.com/components/glasses__z140/acidhouse_Omega.webp)
 
 Glasses with a hint of dark teal with Omega logos on them; a horseshoe shape or an upside down ‘U’ with a flat top and two vertical legs going outwards at the bottom.
 

@@ -1,14 +1,18 @@
 ---
 name: pinhole ocean
-image: "https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/Pinhole%20Ocean__w7.webp"
+image: "https://mibera.s3.amazonaws.com/traits/Pinhole%20Ocean.webp"
 date_added: "2024-06-03"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Pinhole%20Ocean.webp" alt="Pinhole Ocean" width="320" />
+</div>
+
 
 # pinhole ocean
 
 ## Visual Elements
 
-![Pinhole Ocean](https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/Pinhole%20Ocean__w7.webp)
 
 teal eyes with constricted pupils, or usually known as pinpoint pupils.
 

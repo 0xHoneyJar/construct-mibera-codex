@@ -1,10 +1,15 @@
 ---
 name: berakin
-image: SS3_Berakin.PNG
+image: "https://mibera.s3.amazonaws.com/traits/SS3_Berakin.webp"
 archetype: "**Archetype Alignment:**"
 swag_score: 3
 date_added: "2024-12-09"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/SS3_Berakin.webp" alt="Berakin" width="320" />
+</div>
+
 
 # berakin
 

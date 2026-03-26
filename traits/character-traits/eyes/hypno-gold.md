@@ -1,14 +1,18 @@
 ---
 name: hypno gold
-image: "https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/Hypno%20Gold__w7.webp"
+image: "https://mibera.s3.amazonaws.com/traits/Hypno%20Gold.webp"
 date_added: "2024-06-03"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Hypno%20Gold.webp" alt="Hypno Gold" width="320" />
+</div>
+
 
 # hypno gold
 
 ## Visual Elements
 
-![Hypno Gold](https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/Hypno%20Gold__w7.webp)
 
 golden brown eyes with prominent white spirals.
 

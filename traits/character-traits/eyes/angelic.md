@@ -1,14 +1,18 @@
 ---
 name: angelic
-image: "https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/Angelic__w4.webp"
+image: "https://mibera.s3.amazonaws.com/traits/Angelic.webp"
 date_added: "2024-06-03"
 ---
+
+<div align="center">
+  <img src="https://mibera.s3.amazonaws.com/traits/Angelic.webp" alt="Angelic" width="320" />
+</div>
+
 
 # angelic
 
 ## Visual Elements
 
-![Angelic](https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/Angelic__w4.webp)
 
 iridescent eyes, perhaps showcasing one’s angelic nature.
 
