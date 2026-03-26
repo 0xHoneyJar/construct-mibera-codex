@@ -1,6 +1,6 @@
 # Scripts
 
-Maintenance and generation scripts for the Mibera Codex. All scripts require **Python 3** and **Bash**.
+Maintenance and generation scripts for the Mibera Codex. All scripts require **Python 3** and **Bash** (stdlib-only, except `micodex-assembler.py` which requires Pillow).
 
 Run from the repo root:
 
@@ -28,6 +28,13 @@ Run from the repo root:
 | `generate-graph.py` | Generate relationship graph data |
 | `generate-llms-full.py` | Generate `llms-full.txt` — complete codex content for LLM ingestion |
 | `generate-stats.py` | Generate codex statistics |
+
+## Images
+
+| Script | Description |
+|--------|-------------|
+| `embed-images.py` | Map S3-hosted trait images to codex entries, update `image:` frontmatter and insert inline `<img>` HTML. Reads from `s3://mibera/traits/`, outputs report to `reports/image-embed-report.json` |
+| `micodex-assembler.py` | Composite trait layer PNGs onto template images (background, body, arms) to produce final character portraits as WebP. Requires **Pillow** and **tqdm** (`pip install Pillow tqdm`). See script header for template/layer file locations. Originally from [micodex-images](https://github.com/0xHoneyJar/micodex-images) |
 
 ## Data Maintenance
 
