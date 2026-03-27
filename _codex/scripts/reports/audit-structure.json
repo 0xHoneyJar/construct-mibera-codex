@@ -1,17 +1,26 @@
 {
-  "timestamp": "2026-02-18T12:17:57Z",
-  "total_files": 11477,
-  "errors": 0,
+  "timestamp": "2026-03-27T18:17:09Z",
+  "total_files": 11435,
+  "errors": 10,
   "warnings": 0,
   "by_type": {
     "mibera": {"total": 10000},
-    "trait": {"total": 1256, "issues": 0},
+    "trait": {"total": 1245, "issues": 10},
     "drug": {"total": 78, "issues": 0},
     "ancestor": {"total": 33, "issues": 0},
     "tarot_card": {"total": 78, "issues": 0},
-    "special_collection": {"total": 32, "issues": 0}
+    "special_collection": {"total": 1, "issues": 0}
   },
   "issues": [
-
+    {"severity":"error","file":"traits/clothing/short-sleeves/90s-tracksuit.md","message":"Missing YAML field: archetype","type":"trait"},
+    {"severity":"error","file":"traits/clothing/short-sleeves/blue-ribbon-tank.md","message":"Missing YAML field: archetype","type":"trait"},
+    {"severity":"error","file":"traits/clothing/short-sleeves/cactus-shirt.md","message":"Missing YAML field: archetype","type":"trait"},
+    {"severity":"error","file":"traits/clothing/short-sleeves/knit-sweater.md","message":"Missing YAML field: archetype","type":"trait"},
+    {"severity":"error","file":"traits/clothing/short-sleeves/plain-air.md","message":"Missing YAML field: archetype","type":"trait"},
+    {"severity":"error","file":"traits/clothing/short-sleeves/plain-earth.md","message":"Missing YAML field: archetype","type":"trait"},
+    {"severity":"error","file":"traits/clothing/short-sleeves/plain-fire.md","message":"Missing YAML field: archetype","type":"trait"},
+    {"severity":"error","file":"traits/clothing/short-sleeves/plain-water.md","message":"Missing YAML field: archetype","type":"trait"},
+    {"severity":"error","file":"traits/clothing/short-sleeves/ribbon-lolita.md","message":"Missing YAML field: archetype","type":"trait"},
+    {"severity":"error","file":"traits/clothing/short-sleeves/tennis-outfit.md","message":"Missing YAML field: archetype","type":"trait"}
   ]
 }

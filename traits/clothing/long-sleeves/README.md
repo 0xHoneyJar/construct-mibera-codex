@@ -57,7 +57,7 @@ Long sleeve garments include suits, jackets, robes, and outerwear that define ch
 - [Bitcoin Jacket](bitcoin-jacket.md)
 - [Trippy](trippy.md)
 - [Henlo Jersey](henlo-jersey.md)
-- [80s Detroit Jersey](80s-detroit-jersey.md)
+- [80s Detroit Jersey](../short-sleeves/80s-detroit-jersey.md)
 - [Arc Jersey](arc-jersey.md)
 - [Mibera Spiral Hockey](mibera-spiral-hockey.md)
 - [Baby Bera Hockey](baby-bera-hockey.md)
@@ -82,5 +82,5 @@ Long sleeve garments include suits, jackets, robes, and outerwear that define ch
 - [Modern Sami](modern-sami.md)
 - [Light Blue Flowery](light-blue-flowery.md)
 - [Dark Blue Flowery](dark-blue-flowery.md)
-- [80s Chicago Jersey](80s-chicago-jersey.md)
+- [80s Chicago Jersey](../short-sleeves/80s-chicago-jersey.md)
 
