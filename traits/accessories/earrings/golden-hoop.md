@@ -1,7 +1,6 @@
 ---
 name: Golden Hoop
 image: "https://mibera.s3.amazonaws.com/traits/SS3_golden%20hoop.webp"
-archetype: "**Archetype Alignment:** Aligned culture, related to the 90s rave"
 swag_score: 3
 date_added: "2024-12-09"
 ---
@@ -31,7 +30,7 @@ Hoop earrings were everywhere in the 90s rave scene, and this one specifically r
 
 ## Attribution
 
-**Archetype:** **Archetype Alignment:** Aligned culture, related to the 90s rave
+**Archetype:** Aligned culture, related to the 90s rave
 **Swag Score:** 3
 **Date Added:** 2024-12-09
 **Introduced By:** Jani

@@ -1,7 +1,6 @@
 ---
 name: I Have Mibera
 image: "https://mibera.s3.amazonaws.com/traits/SS3_I%20Have%20Mibera.webp"
-archetype: "**Archetype Alignment:** In relation to a meme related to Milady, which is one of Mibera’s archetypes."
 swag_score: 3
 date_added: "2024-07-25"
 ---
@@ -34,7 +33,7 @@ The collection breaking the fourth wall — "Please be patient I have Mibera" is
 
 ## Attribution
 
-**Archetype:** **Archetype Alignment:** In relation to a meme related to Milady, which is one of Mibera’s archetypes.
+**Archetype:** In relation to a meme related to Milady, which is one of Mibera’s archetypes.
 **Swag Score:** 3
 **Date Added:** 2024-07-25
 **Introduced By:** Jani

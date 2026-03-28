@@ -1,7 +1,6 @@
 ---
 name: buckfast bottle
 image: SS3_modern_irish_Buckfast Bottle.png
-archetype: "**Archetype Alignment:**"
 swag_score: 3
 date_added: "2024-07-10"
 ---

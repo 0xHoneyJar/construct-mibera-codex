@@ -1,6 +1,5 @@
 ---
 name: kodiak disposable camera
-archetype: "**Archetype Alignment:**"
 swag_score: 3
 date_added: null
 ---

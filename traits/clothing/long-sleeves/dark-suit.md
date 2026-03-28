@@ -1,7 +1,6 @@
 ---
 name: Dark Suit
 image: "https://mibera.s3.amazonaws.com/traits/SS5_Dark%20Suit.webp"
-archetype: "**Archetype Alignment:** Suit and tie reflect Milady’s ‘corporation’ vibe satirically. Milady being one of our archetypes."
 swag_score: 5
 date_added: "2024-12-10"
 ---
@@ -33,6 +32,6 @@ The darkest, most corporate suit in the collection. When a bear in a near-black 
 
 ## Attribution
 
-**Archetype:** **Archetype Alignment:** Suit and tie reflect Milady’s ‘corporation’ vibe satirically. Milady being one of our archetypes.
+**Archetype:** Suit and tie reflect Milady’s ‘corporation’ vibe satirically. Milady being one of our archetypes.
 **Swag Score:** 5
 **Date Added:** 2024-12-10

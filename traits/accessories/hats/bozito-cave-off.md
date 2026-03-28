@@ -1,7 +1,6 @@
 ---
 name: bozito cave off
 image: "https://mibera.s3.amazonaws.com/traits/SS4_bozito%20cave%20off.webp"
-archetype: "**Archetype Alignment:**"
 swag_score: 4
 date_added: "2025-03-23"
 ---

@@ -1,7 +1,6 @@
 ---
 name: Semilunar
 image: "https://mibera.fsn1.your-objectstorage.com/components/tattoos__z125/modern_arabic_Semilunar.webp"
-archetype: "**Archetype Alignment:**"
 swag_score: null
 date_added: "2024-08-10"
 ---

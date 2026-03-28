@@ -1,7 +1,6 @@
 ---
 name: THJ Bees
 image: "https://mibera.s3.amazonaws.com/traits/SS4_THJ%20Bees.webp"
-archetype: "**Archetype Alignment:**"
 swag_score: 4
 date_added: "2024-07-27"
 ---

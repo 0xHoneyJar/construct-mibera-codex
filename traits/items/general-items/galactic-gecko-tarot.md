@@ -1,7 +1,6 @@
 ---
 name: galactic gecko tarot
 image: "https://mibera.s3.amazonaws.com/traits/SS3_galactic%20gecko%20tarot.webp"
-archetype: "**Archetype Alignment:**"
 swag_score: 4
 date_added: "2025-03-22"
 ---

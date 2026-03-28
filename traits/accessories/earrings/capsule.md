@@ -1,7 +1,6 @@
 ---
 name: Capsule
 image: "https://mibera.s3.amazonaws.com/traits/SS3_capsule.webp"
-archetype: "**Archetype Alignment:** Its relation to drugs / medication."
 swag_score: 3
 date_added: "2024-06-04"
 ---
@@ -33,6 +32,6 @@ The capsule is a universal symbol of substance culture -- pharmaceutical, recrea
 
 ## Attribution
 
-**Archetype:** **Archetype Alignment:** Its relation to drugs / medication.
+**Archetype:** Its relation to drugs / medication.
 **Swag Score:** 3
 **Date Added:** 2024-06-04

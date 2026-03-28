@@ -1,7 +1,6 @@
 ---
 name: Cursed Milady
 image: "https://mibera.s3.amazonaws.com/traits/Cursed%20Milady.webp"
-archetype: "**Archetype Alignment:**"
 swag_score: null
 date_added: "2024-08-06"
 ---

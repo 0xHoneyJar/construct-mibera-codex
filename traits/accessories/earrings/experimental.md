@@ -1,7 +1,6 @@
 ---
 name: Experimental
 image: "https://mibera.s3.amazonaws.com/traits/SS3_experimental.webp"
-archetype: "**Archetype Alignment:** Symbolizing the general process of drug creation. Drugs are a big part of Mibera culture in general."
 swag_score: 3
 date_added: "2024-12-10"
 ---
@@ -33,6 +32,6 @@ A lab flask dangling from your ear is a wink at the chemistry behind every subst
 
 ## Attribution
 
-**Archetype:** **Archetype Alignment:** Symbolizing the general process of drug creation. Drugs are a big part of Mibera culture in general.
+**Archetype:** Symbolizing the general process of drug creation. Drugs are a big part of Mibera culture in general.
 **Swag Score:** 3
 **Date Added:** 2024-12-10

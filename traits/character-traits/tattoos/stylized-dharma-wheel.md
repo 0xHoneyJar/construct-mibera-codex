@@ -1,7 +1,6 @@
 ---
 name: Stylized Dharma Wheel
 image: "https://mibera.s3.amazonaws.com/traits/modern_buddhist_Stylized%20Dharma%20Wheel.webp"
-archetype: "**Archetype Alignment:**"
 swag_score: null
 date_added: "2024-08-10"
 ---

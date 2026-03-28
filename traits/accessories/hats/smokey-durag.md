@@ -1,7 +1,6 @@
 ---
 name: smokey durag
 image: "https://mibera.s3.amazonaws.com/traits/SS5_Smokey%20Durag.webp"
-archetype: "**Archetype Alignment:**"
 swag_score: 5
 date_added: "2025-03-10"
 ---

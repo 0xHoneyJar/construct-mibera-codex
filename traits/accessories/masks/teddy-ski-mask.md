@@ -1,7 +1,6 @@
 ---
 name: Teddy Ski Mask
 image: "https://mibera.s3.amazonaws.com/traits/SS3_Teddy%20Ski%20Mask.webp"
-archetype: "**Archetype Alignment:**"
 swag_score: 3
 date_added: "2024-12-10"
 ---

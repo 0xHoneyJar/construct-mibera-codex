@@ -1,7 +1,6 @@
 ---
 name: los bullas
 image: "https://mibera.s3.amazonaws.com/traits/SS4_los%20bullas.webp"
-archetype: "**Archetype Alignment:**"
 swag_score: 4
 date_added: "2025-03-11"
 ---

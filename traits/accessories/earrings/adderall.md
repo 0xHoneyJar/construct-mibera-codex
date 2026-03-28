@@ -1,7 +1,6 @@
 ---
 name: Adderall
 image: "https://mibera.s3.amazonaws.com/traits/SS4_adderall.webp"
-archetype: "**Archetype Alignment:** Drugs being a big part of Mibera’s culture."
 swag_score: 4
 date_added: "2024-06-04"
 ---
@@ -33,7 +32,7 @@ Drugs are core to Mibera's identity, and Adderall sits at the intersection of pr
 
 ## Attribution
 
-**Archetype:** **Archetype Alignment:** Drugs being a big part of Mibera’s culture.
+**Archetype:** Drugs being a big part of Mibera’s culture.
 **Swag Score:** 4
 **Date Added:** 2024-06-04
 **Sources:**

@@ -1,7 +1,6 @@
 ---
 name: Aum Cult
 image: "https://mibera.s3.amazonaws.com/traits/SS3_Aum%20Cult.webp"
-archetype: "**Archetype Alignment:** Aside from being a literal cult, the Aum cult is heavily tied to usage of drugs, especially LSD, which is very Mibera."
 swag_score: 3
 date_added: "2024-06-25"
 ---
@@ -34,7 +33,7 @@ Cults sit at the dark edge of counterculture, and Aum Shinrikyo represents the e
 
 ## Attribution
 
-**Archetype:** **Archetype Alignment:** Aside from being a literal cult, the Aum cult is heavily tied to usage of drugs, especially LSD, which is very Mibera.
+**Archetype:** Aside from being a literal cult, the Aum cult is heavily tied to usage of drugs, especially LSD, which is very Mibera.
 **Swag Score:** 3
 **Date Added:** 2024-06-25
 **Team Notes:** 

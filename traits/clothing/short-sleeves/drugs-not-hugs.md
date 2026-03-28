@@ -1,7 +1,6 @@
 ---
 name: Drugs Not Hugs
 image: "https://mibera.s3.amazonaws.com/traits/SS2_Drugs%20Not%20Hugs.webp"
-archetype: "**Archetype Alignment:** Its relation with drugs, especially weed as shown by the graphics."
 swag_score: 2
 date_added: "2024-06-22"
 ---
@@ -34,6 +33,6 @@ Inverting a well-known anti-drug slogan is one of the oldest tricks in the rave 
 
 ## Attribution
 
-**Archetype:** **Archetype Alignment:** Its relation with drugs, especially weed as shown by the graphics.
+**Archetype:** Its relation with drugs, especially weed as shown by the graphics.
 **Swag Score:** 2
 **Date Added:** 2024-06-22

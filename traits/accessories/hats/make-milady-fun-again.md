@@ -1,7 +1,6 @@
 ---
 name: Make Milady Fun Again
 image: "https://mibera.s3.amazonaws.com/traits/SS2_Make%20Milady%20Fun%20Again.webp"
-archetype: "**Archetype Alignment:**"
 swag_score: 2
 date_added: "2024-07-27"
 ---

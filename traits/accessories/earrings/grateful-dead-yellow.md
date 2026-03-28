@@ -1,7 +1,6 @@
 ---
 name: Grateful Dead Yellow
 image: "https://mibera.s3.amazonaws.com/traits/SS4_grateful%20dead%20yellow.webp"
-archetype: "**Archetype Alignment:** Grateful Dead has a big influence and part in Mibera’s lore."
 swag_score: 4
 date_added: "2024-06-04"
 ---
@@ -33,7 +32,7 @@ Three colorways of the dancing bear earring because the Dead's visual language i
 
 ## Attribution
 
-**Archetype:** **Archetype Alignment:** Grateful Dead has a big influence and part in Mibera’s lore.
+**Archetype:** Grateful Dead has a big influence and part in Mibera’s lore.
 **Swag Score:** 4
 **Date Added:** 2024-06-04
 **Sources:**

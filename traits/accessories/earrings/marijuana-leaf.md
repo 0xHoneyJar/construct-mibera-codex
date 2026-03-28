@@ -1,7 +1,6 @@
 ---
 name: Marijuana Leaf
 image: "https://mibera.s3.amazonaws.com/traits/SS3_marijuana%20leaf.webp"
-archetype: "**Archetype Alignment:** Bong bear leaning aesthetics."
 swag_score: 3
 date_added: "2024-12-10"
 ---
@@ -33,7 +32,7 @@ The cannabis leaf connects directly to Bong Bear, the genesis NFT project of the
 
 ## Attribution
 
-**Archetype:** **Archetype Alignment:** Bong bear leaning aesthetics.
+**Archetype:** Bong bear leaning aesthetics.
 **Swag Score:** 3
 **Date Added:** 2024-12-10
 **Sources:**

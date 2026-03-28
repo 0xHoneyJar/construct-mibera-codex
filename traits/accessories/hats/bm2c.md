@@ -1,7 +1,6 @@
 ---
 name: BM2C
 image: "https://mibera.s3.amazonaws.com/traits/SS2_BM2C.webp"
-archetype: "**Archetype Alignment:**"
 swag_score: 2
 date_added: "2025-03-18"
 ---

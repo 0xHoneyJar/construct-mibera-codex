@@ -1,7 +1,6 @@
 ---
 name: Heavens Gate
 image: "https://mibera.s3.amazonaws.com/traits/SS3_Heavens%20Gate.webp"
-archetype: "**Archetype Alignment:**"
 swag_score: 3
 date_added: "2024-06-28"
 ---

@@ -1,6 +1,5 @@
 ---
 name: Peyote Hat
-archetype: "**Archetype Alignment:**"
 swag_score: 4
 date_added: null
 image: "https://mibera.s3.amazonaws.com/traits/SS4_freetekno_Peyote%20Hat.webp"

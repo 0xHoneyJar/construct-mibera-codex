@@ -1,6 +1,5 @@
 ---
 name: Hearts
-archetype: "**Archetype Alignment:**"
 swag_score: 2
 date_added: null
 ---

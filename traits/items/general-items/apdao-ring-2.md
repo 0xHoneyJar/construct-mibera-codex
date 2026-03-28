@@ -1,7 +1,6 @@
 ---
 name: apdao ring 2
 image: "https://mibera.s3.amazonaws.com/traits/SS5_apDAO%20Ring%202.webp"
-archetype: "**Archetype Alignment:**"
 swag_score: 5
 date_added: "2024-12-09"
 ---

@@ -1,7 +1,6 @@
 ---
 name: Dragon
 image: "https://mibera.s3.amazonaws.com/traits/ancient_chinese_Dragon.webp"
-archetype: "**Archetype Alignment:**"
 swag_score: null
 date_added: "2024-08-10"
 ---

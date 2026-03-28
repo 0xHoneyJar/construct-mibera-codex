@@ -1,7 +1,6 @@
 ---
 name: mbga
 image: "https://mibera.s3.amazonaws.com/traits/SS1_MBGA.webp"
-archetype: "**Archetype Alignment:**"
 swag_score: 1
 date_added: "2024-12-10"
 ---

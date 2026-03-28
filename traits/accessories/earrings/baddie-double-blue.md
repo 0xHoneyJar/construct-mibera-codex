@@ -1,7 +1,6 @@
 ---
 name: Baddie Double Blue
 image: "https://mibera.s3.amazonaws.com/traits/SS1_baddie%20double%20blue.webp"
-archetype: "**Archetype Alignment:** Bera Baddies inspired item."
 swag_score: 1
 date_added: "2024-12-10"
 ---
@@ -33,7 +32,7 @@ A direct nod to Bera Baddies, one of the Berachain ecosystem's community project
 
 ## Attribution
 
-**Archetype:** **Archetype Alignment:** Bera Baddies inspired item.
+**Archetype:** Bera Baddies inspired item.
 **Swag Score:** 1
 **Date Added:** 2024-12-10
 **Sources:**

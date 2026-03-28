@@ -1,7 +1,6 @@
 ---
 name: rape sourcebook
 image: "https://mibera.s3.amazonaws.com/traits/SS3_Rape%20Sourcebook.webp"
-archetype: "**Archetype Alignment:**"
 swag_score: 3
 date_added: "2025-01-02"
 ---

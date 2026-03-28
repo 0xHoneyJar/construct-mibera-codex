@@ -1,6 +1,5 @@
 ---
 name: Trucker Oasis
-archetype: "**Archetype Alignment:**"
 swag_score: null
 date_added: null
 ---

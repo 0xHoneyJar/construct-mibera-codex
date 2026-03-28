@@ -1,7 +1,6 @@
 ---
 name: Honey Road
 image: "https://mibera.s3.amazonaws.com/traits/SS4_Honey%20Road.webp"
-archetype: "**Archetype Alignment:** The official website for Mibera under The Honey Jar."
 swag_score: 4
 date_added: "2024-06-22"
 ---
@@ -36,7 +35,7 @@ Honey Road is the official Mibera marketplace, directly inspired by the Silk Roa
 
 ## Attribution
 
-**Archetype:** **Archetype Alignment:** The official website for Mibera under The Honey Jar.
+**Archetype:** The official website for Mibera under The Honey Jar.
 **Swag Score:** 4
 **Date Added:** 2024-06-22
 **Sources:**

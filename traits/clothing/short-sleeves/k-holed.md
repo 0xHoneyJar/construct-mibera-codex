@@ -1,7 +1,6 @@
 ---
 name: K-Holed
 image: "https://mibera.s3.amazonaws.com/traits/SS2_milady_K-holed.webp"
-archetype: "**Archetype Alignment:** Its way of poking / referencing Milady Maker 333."
 swag_score: 2
 date_added: "2024-06-22"
 ---
@@ -34,7 +33,7 @@ Part of the Milady Rave confessional tee set. K-holing at a rave is a specific, 
 
 ## Attribution
 
-**Archetype:** **Archetype Alignment:** Its way of poking / referencing Milady Maker 333.
+**Archetype:** Its way of poking / referencing Milady Maker 333.
 **Swag Score:** 2
 **Date Added:** 2024-06-22
 **Introduced By:** Jani

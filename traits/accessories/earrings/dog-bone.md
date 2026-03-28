@@ -1,7 +1,6 @@
 ---
 name: Dog Bone
 image: "https://mibera.s3.amazonaws.com/traits/SS3_dog%20bone.webp"
-archetype: "**Archetype Alignment:** In relation to the “Dog Bone Village” meme within the Milady Maker NFT community around the end of 2024"
 swag_score: 3
 date_added: "2024-12-10"
 ---
@@ -33,7 +32,7 @@ A direct reference to the Milady Maker community's "Dog Bone Village" meme -- th
 
 ## Attribution
 
-**Archetype:** **Archetype Alignment:** In relation to the “Dog Bone Village” meme within the Milady Maker NFT community around the end of 2024
+**Archetype:** In relation to the “Dog Bone Village” meme within the Milady Maker NFT community around the end of 2024
 **Swag Score:** 3
 **Date Added:** 2024-12-10
 **Sources:**

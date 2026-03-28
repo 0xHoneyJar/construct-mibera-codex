@@ -1,7 +1,6 @@
 ---
 name: Grateful Dead Magenta
 image: "https://mibera.s3.amazonaws.com/traits/SS4_grateful%20dead%20magenta.webp"
-archetype: "**Archetype Alignment:** Grateful Dead has a big influence and part in Mibera’s lore."
 swag_score: 4
 date_added: "2024-06-04"
 ---
@@ -33,7 +32,7 @@ Same iconic dancing bear, different colorway. The Grateful Dead's influence on r
 
 ## Attribution
 
-**Archetype:** **Archetype Alignment:** Grateful Dead has a big influence and part in Mibera’s lore.
+**Archetype:** Grateful Dead has a big influence and part in Mibera’s lore.
 **Swag Score:** 4
 **Date Added:** 2024-06-04
 **Sources:**

@@ -1,7 +1,6 @@
 ---
 name: Stylized Quetzalcoatl
 image: "https://mibera.s3.amazonaws.com/traits/modern_mayan_Stylized%20Quetzalcoatl.webp"
-archetype: "**Archetype Alignment:** To showcase a modern rendering of an ancient deity."
 swag_score: null
 date_added: "2024-08-09"
 ---
@@ -33,7 +32,7 @@ Quetzalcoatl is one of the most important deities in all of Mesoamerican religio
 
 ## Attribution
 
-**Archetype:** **Archetype Alignment:** To showcase a modern rendering of an ancient deity.
+**Archetype:** To showcase a modern rendering of an ancient deity.
 **Ancestor:** [Mayan](../../../core-lore/ancestors/mayan.md)
 **Date Added:** 2024-08-09
 **Sources:**

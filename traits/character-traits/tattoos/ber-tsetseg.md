@@ -1,7 +1,6 @@
 ---
 name: Ber Tsetseg
 image: "https://mibera.s3.amazonaws.com/traits/modern_mongolian_Ber%20Tsetseg.webp"
-archetype: "**Archetype Alignment:**"
 swag_score: null
 date_added: "2024-08-10"
 ---

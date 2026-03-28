@@ -1,6 +1,5 @@
 ---
 name: Chulym Beekeeper Hat
-archetype: "**Archetype Alignment:**"
 swag_score: 3
 date_added: null
 image: "https://mibera.s3.amazonaws.com/traits/SS3_Chulym%20Beekeeper%20Hat.webp"

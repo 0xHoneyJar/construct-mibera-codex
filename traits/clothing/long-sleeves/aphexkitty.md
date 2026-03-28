@@ -1,7 +1,6 @@
 ---
 name: Aphexkitty
 image: "https://mibera.s3.amazonaws.com/traits/SS3_aphexkitty.webp"
-archetype: "**Archetype Alignment:** Bootleg that Babybera bought in real life."
 swag_score: 3
 date_added: "2024-12-10"
 ---
@@ -34,7 +33,7 @@ Aphex Twin is one of electronic music's most important figures, and mashing him 
 
 ## Attribution
 
-**Archetype:** **Archetype Alignment:** Bootleg that Babybera bought in real life.
+**Archetype:** Bootleg that Babybera bought in real life.
 **Swag Score:** 3
 **Date Added:** 2024-12-10
 **Sources:**

@@ -1,7 +1,6 @@
 ---
 name: Ge Ez Love
 image: "https://mibera.fsn1.your-objectstorage.com/components/tattoos__z125/ancient_ethiopian_ge_ez%20love.webp"
-archetype: "**Archetype Alignment:**"
 swag_score: null
 date_added: "2024-08-09"
 ---

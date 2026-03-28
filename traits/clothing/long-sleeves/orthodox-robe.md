@@ -1,7 +1,6 @@
 ---
 name: Orthodox Robe
 image: "https://mibera.s3.amazonaws.com/traits/SS5_Orthodox%20Robe.webp"
-archetype: "**Archetype Alignment:** Its relation to Orthodox beliefs."
 swag_score: 5
 date_added: "2025-01-02"
 ---
@@ -34,7 +33,7 @@ Monastic robes represent the most extreme form of spiritual surrender and renunc
 
 ## Attribution
 
-**Archetype:** **Archetype Alignment:** Its relation to Orthodox beliefs.
+**Archetype:** Its relation to Orthodox beliefs.
 **Swag Score:** 5
 **Date Added:** 2025-01-02
 **Sources:**

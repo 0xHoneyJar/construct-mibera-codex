@@ -1,6 +1,5 @@
 ---
 name: Weed Nug
-archetype: "**Archetype Alignment:**"
 swag_score: 2
 date_added: null
 image: "https://mibera.s3.amazonaws.com/traits/SS3_chicagodetroit_Weed%20Nug.webp"

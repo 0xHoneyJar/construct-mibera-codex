@@ -1,7 +1,6 @@
 ---
 name: Nepalese Flag
 image: "https://mibera.s3.amazonaws.com/traits/modern_nepal_Nepalese%20Flag.webp"
-archetype: "**Archetype Alignment:**"
 swag_score: null
 date_added: "2024-08-09"
 ---

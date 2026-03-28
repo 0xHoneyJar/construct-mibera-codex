@@ -1,7 +1,6 @@
 ---
 name: Grateful Dead Forest Green
 image: "https://mibera.s3.amazonaws.com/traits/SS2_grateful%20dead%20forest%20green.webp"
-archetype: "**Archetype Alignment:** Grateful Dead has a big influence and part in Mibera’s lore."
 swag_score: 2
 date_added: "2024-06-04"
 ---
@@ -33,7 +32,7 @@ The Grateful Dead dancing bear is one of counterculture's most enduring symbols,
 
 ## Attribution
 
-**Archetype:** **Archetype Alignment:** Grateful Dead has a big influence and part in Mibera’s lore.
+**Archetype:** Grateful Dead has a big influence and part in Mibera’s lore.
 **Swag Score:** 2
 **Date Added:** 2024-06-04
 **Sources:**

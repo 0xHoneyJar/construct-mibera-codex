@@ -1,7 +1,6 @@
 ---
 name: Tez Watermelon
 image: "https://mibera.s3.amazonaws.com/traits/SS4_tez%20watermelon.webp"
-archetype: "**Archetype Alignment:** Tez was a big part of Mibera building and creation."
 swag_score: 4
 date_added: "2025-03-11"
 ---
@@ -34,6 +33,6 @@ A watermelon hat honoring Tez, one of the builders who helped create Mibera — 
 
 ## Attribution
 
-**Archetype:** **Archetype Alignment:** Tez was a big part of Mibera building and creation.
+**Archetype:** Tez was a big part of Mibera building and creation.
 **Swag Score:** 4
 **Date Added:** 2025-03-11

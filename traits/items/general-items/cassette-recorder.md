@@ -1,6 +1,5 @@
 ---
 name: cassette recorder
-archetype: "**Archetype Alignment:**"
 swag_score: 5
 date_added: null
 ---

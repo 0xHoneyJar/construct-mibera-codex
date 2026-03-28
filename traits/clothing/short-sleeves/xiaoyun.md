@@ -1,7 +1,6 @@
 ---
 name: Xiaoyun
 image: "https://mibera.s3.amazonaws.com/traits/SS2_Xiaoyun.webp"
-archetype: "**Archetype Alignment:**"
 swag_score: 2
 date_added: "2024-06-22"
 ---

@@ -1,7 +1,6 @@
 ---
 name: Ai Weiwei Assange
 image: "https://mibera.s3.amazonaws.com/traits/SS4_Ai%20Weiwei%20Assange.webp"
-archetype: "**Archetype Alignment:** Its relation to movement, freedom, and art."
 swag_score: 4
 date_added: "2024-06-22"
 ---
@@ -34,7 +33,7 @@ Two of the most prominent figures in the fight for free information, flipping th
 
 ## Attribution
 
-**Archetype:** **Archetype Alignment:** Its relation to movement, freedom, and art.
+**Archetype:** Its relation to movement, freedom, and art.
 **Swag Score:** 4
 **Date Added:** 2024-06-22
 **Sources:**

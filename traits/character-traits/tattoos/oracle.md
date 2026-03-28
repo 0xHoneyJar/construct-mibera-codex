@@ -1,7 +1,6 @@
 ---
 name: Oracle
 image: "https://mibera.s3.amazonaws.com/traits/modern_pythia_Oracle.webp"
-archetype: "**Archetype Alignment:**"
 swag_score: null
 date_added: "2024-08-10"
 ---

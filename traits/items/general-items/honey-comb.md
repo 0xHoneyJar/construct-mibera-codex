@@ -1,7 +1,6 @@
 ---
 name: honey comb
 image: "https://mibera.s3.amazonaws.com/traits/SS3_Honey%20Comb.webp"
-archetype: "**Archetype Alignment:**"
 swag_score: 3
 date_added: "2024-07-09"
 ---

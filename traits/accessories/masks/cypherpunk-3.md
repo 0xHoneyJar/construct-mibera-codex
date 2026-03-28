@@ -1,7 +1,6 @@
 ---
 name: Cypherpunk 3
 image: "https://mibera.s3.amazonaws.com/traits/SS3_Cypherpunk%203.webp"
-archetype: "**Archetype Alignment:**"
 swag_score: 3
 date_added: "2024-07-17"
 ---

@@ -1,7 +1,6 @@
 ---
 name: Mother Shirt
 image: "https://mibera.s3.amazonaws.com/traits/SS2_Mother%20Shirt.webp"
-archetype: "**Archetype Alignment:** Its relation to Iggi Azalea $MOTHER merch and its cultural relevance in the web3 industry"
 swag_score: 2
 date_added: "2024-07-19"
 ---
@@ -34,7 +33,7 @@ Iggy Azalea's MOTHER token was one of the most talked-about celebrity memecoins 
 
 ## Attribution
 
-**Archetype:** **Archetype Alignment:** Its relation to Iggi Azalea $MOTHER merch and its cultural relevance in the web3 industry
+**Archetype:** Its relation to Iggi Azalea $MOTHER merch and its cultural relevance in the web3 industry
 **Swag Score:** 2
 **Date Added:** 2024-07-19
 **Sources:**

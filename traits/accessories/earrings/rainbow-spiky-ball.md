@@ -1,7 +1,6 @@
 ---
 name: Rainbow Spiky Ball
 image: "https://mibera.s3.amazonaws.com/traits/SS5_rainbow%20spiky%20ball.webp"
-archetype: "**Archetype Alignment:** In relation to pride and LGBTQ+ which is also a big part of rave culture."
 swag_score: 5
 date_added: "2024-12-10"
 ---
@@ -31,6 +30,6 @@ Combines the pride rainbow with spiky rave aesthetics -- a high-swag fusion of L
 
 ## Attribution
 
-**Archetype:** **Archetype Alignment:** In relation to pride and LGBTQ+ which is also a big part of rave culture.
+**Archetype:** In relation to pride and LGBTQ+ which is also a big part of rave culture.
 **Swag Score:** 5
 **Date Added:** 2024-12-10

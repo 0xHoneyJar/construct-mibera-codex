@@ -1,7 +1,6 @@
 ---
 name: Venetian Gold
 image: "https://mibera.s3.amazonaws.com/traits/SS5_Venetian%20Gold.webp"
-archetype: "**Archetype Alignment:**"
 swag_score: 5
 date_added: "2024-12-09"
 ---

@@ -1,7 +1,6 @@
 ---
 name: babybera yeet pipe
 image: "https://mibera.s3.amazonaws.com/traits/SS3_Babybera%20Yeet%20Pipe.webp"
-archetype: "**Archetype Alignment:**"
 swag_score: 2
 date_added: "2024-12-09"
 ---

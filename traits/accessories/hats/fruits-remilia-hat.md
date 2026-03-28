@@ -1,6 +1,5 @@
 ---
 name: Fruits Remilia Hat
-archetype: "**Archetype Alignment:**"
 swag_score: 2
 date_added: null
 image: "https://mibera.s3.amazonaws.com/traits/SS2_milady_Fruits%20Remilia%20Hat.webp"

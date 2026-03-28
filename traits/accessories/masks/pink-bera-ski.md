@@ -1,7 +1,6 @@
 ---
 name: Pink Bera Ski
 image: "https://mibera.s3.amazonaws.com/traits/SS4_pink%20bera%20ski.webp"
-archetype: "**Archetype Alignment:**"
 swag_score: 4
 date_added: "2025-03-26"
 ---

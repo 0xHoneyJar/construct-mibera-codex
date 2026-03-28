@@ -1,7 +1,6 @@
 ---
 name: Fable
 image: "https://mibera.s3.amazonaws.com/traits/SS5_Fable.webp"
-archetype: "**Archetype Alignment:** Fable is one of projects building in the Berachain ecosystem."
 swag_score: 5
 date_added: "2025-03-11"
 ---
@@ -34,7 +33,7 @@ Fable is a part of the Berachain eco and were partners at the time the trait was
 
 ## Attribution
 
-**Archetype:** **Archetype Alignment:** Fable is one of projects building in the Berachain ecosystem.
+**Archetype:** Fable is one of projects building in the Berachain ecosystem.
 **Swag Score:** 5
 **Date Added:** 2025-03-11
 **Sources:**

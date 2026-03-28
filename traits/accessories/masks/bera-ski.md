@@ -1,7 +1,6 @@
 ---
 name: Bera Ski
 image: "https://mibera.s3.amazonaws.com/traits/SS4_Bera%20Ski.webp"
-archetype: "**Archetype Alignment:**"
 swag_score: 4
 date_added: "2024-07-28"
 ---

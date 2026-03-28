@@ -1,7 +1,6 @@
 ---
 name: Nazi Pedo Cult
 image: "https://mibera.s3.amazonaws.com/traits/SS4_Nazi%20Pedo%20Cult.webp"
-archetype: "**Archetype Alignment:** Its relation to Milady culture / community and lore"
 swag_score: 4
 date_added: "2024-06-22"
 ---
@@ -34,7 +33,7 @@ The community took the worst thing anyone ever called them and printed it on a s
 
 ## Attribution
 
-**Archetype:** **Archetype Alignment:** Its relation to Milady culture / community and lore
+**Archetype:** Its relation to Milady culture / community and lore
 **Swag Score:** 4
 **Date Added:** 2024-06-22
 **Introduced By:** Jani

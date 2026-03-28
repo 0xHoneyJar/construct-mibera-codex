@@ -1,7 +1,6 @@
 ---
 name: Autism and a Gun
 image: "https://mibera.s3.amazonaws.com/traits/SS1_Autism%20and%20a%20Gun.webp"
-archetype: "**Archetype Alignment:**"
 swag_score: 1
 date_added: "2024-07-22"
 ---

@@ -1,7 +1,6 @@
 ---
 name: Bera Flower
 image: "https://mibera.s3.amazonaws.com/traits/SS2_bera%20flower.webp"
-archetype: "**Archetype Alignment:**"
 swag_score: 2
 date_added: "2024-12-10"
 ---

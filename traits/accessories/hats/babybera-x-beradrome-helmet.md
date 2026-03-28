@@ -1,6 +1,5 @@
 ---
 name: babybera x beradrome helmet
-archetype: "**Archetype Alignment:**"
 swag_score: 4
 date_added: null
 image: "https://mibera.s3.amazonaws.com/traits/SS4_babybera%20x%20beradrome%20helmet.webp"

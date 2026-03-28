@@ -102,8 +102,8 @@ check_yaml_dir() {
 echo "Auditing trait files..." >&2
 trait_total=0; trait_issues=0
 
-# Full schema: accessories, clothing, items (have archetype + swag_score)
-TRAIT_FULL_REQ=("name" "archetype" "swag_score" "date_added")
+# Full schema: accessories, clothing, items (have swag_score; archetype is optional)
+TRAIT_FULL_REQ=("name" "swag_score" "date_added")
 for subdir in \
   "$REPO_ROOT/traits/accessories/earrings" \
   "$REPO_ROOT/traits/accessories/face-accessories" \

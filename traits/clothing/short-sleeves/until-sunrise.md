@@ -1,7 +1,6 @@
 ---
 name: Until Sunrise
 image: "https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT"
-archetype: "**Archetype Alignment:**"
 swag_score: 3
 date_added: "2025-04-13"
 ---

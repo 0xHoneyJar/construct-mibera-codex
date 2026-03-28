@@ -1,7 +1,6 @@
 ---
 name: Heart with Wings
 image: "https://mibera.s3.amazonaws.com/traits/modern_sufi_Heart%20with%20Wings.webp"
-archetype: "**Archetype Alignment:**"
 swag_score: null
 date_added: "2024-08-09"
 ---

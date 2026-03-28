@@ -1,7 +1,6 @@
 ---
 name: Peace Heart
 image: "https://mibera.s3.amazonaws.com/traits/SS1_peace%20heart.webp"
-archetype: "**Archetype Alignment:** Its relation to the rave culture as an iconic symbolism and accessories."
 swag_score: 1
 date_added: "2024-06-04"
 ---
@@ -33,6 +32,6 @@ PLUR -- Peace, Love, Unity, Respect -- is the rave scene's founding ethos, and t
 
 ## Attribution
 
-**Archetype:** **Archetype Alignment:** Its relation to the rave culture as an iconic symbolism and accessories.
+**Archetype:** Its relation to the rave culture as an iconic symbolism and accessories.
 **Swag Score:** 1
 **Date Added:** 2024-06-04

@@ -1,7 +1,6 @@
 ---
 name: Rainbow
 image: "https://mibera.s3.amazonaws.com/traits/SS3_rainbow.webp"
-archetype: "**Archetype Alignment:** In relation to pride and LGBTQ+ which is also a big part of rave culture."
 swag_score: 3
 date_added: "2024-12-10"
 ---
@@ -33,6 +32,6 @@ The classic rainbow arc -- representing the LGBTQ+ roots that run through house 
 
 ## Attribution
 
-**Archetype:** **Archetype Alignment:** In relation to pride and LGBTQ+ which is also a big part of rave culture.
+**Archetype:** In relation to pride and LGBTQ+ which is also a big part of rave culture.
 **Swag Score:** 3
 **Date Added:** 2024-12-10

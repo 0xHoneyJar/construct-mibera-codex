@@ -1,7 +1,6 @@
 ---
 name: Mt Gox
 image: "https://mibera.s3.amazonaws.com/traits/SS2_Mt%20Gox.webp"
-archetype: "**Archetype Alignment:** Its cultural relevance in web3"
 swag_score: 2
 date_added: "2024-06-22"
 ---
@@ -34,7 +33,7 @@ Mt. Gox is the original crypto catastrophe, the event that taught an entire gene
 
 ## Attribution
 
-**Archetype:** **Archetype Alignment:** Its cultural relevance in web3
+**Archetype:** Its cultural relevance in web3
 **Swag Score:** 2
 **Date Added:** 2024-06-22
 **Sources:**

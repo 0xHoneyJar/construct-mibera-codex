@@ -1,7 +1,6 @@
 ---
 name: Picture Cave
 image: "https://mibera.fsn1.your-objectstorage.com/components/tattoos__z125/ancient_native%20american_Picture%20Cave.webp"
-archetype: "**Archetype Alignment:**"
 swag_score: null
 date_added: "2024-08-09"
 ---

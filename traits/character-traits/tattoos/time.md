@@ -1,7 +1,6 @@
 ---
 name: Time
 image: "https://mibera.s3.amazonaws.com/traits/ancient_mongolian_Time.webp"
-archetype: "**Archetype Alignment:**"
 swag_score: null
 date_added: "2024-08-10"
 ---

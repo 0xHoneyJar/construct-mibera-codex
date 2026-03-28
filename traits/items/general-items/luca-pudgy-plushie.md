@@ -1,7 +1,6 @@
 ---
 name: luca pudgy plushie
 image: "https://mibera.s3.amazonaws.com/traits/SS3_luca%20pudgy%20plushie.webp"
-archetype: "**Archetype Alignment:**"
 swag_score: 3
 date_added: "2025-03-22"
 ---

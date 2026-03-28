@@ -1,7 +1,6 @@
 ---
 name: Baddie Double Gold
 image: "https://mibera.s3.amazonaws.com/traits/SS3_baddie%20double%20gold.webp"
-archetype: "**Archetype Alignment:** Bera Baddies inspired item."
 swag_score: 3
 date_added: "2024-12-10"
 ---
@@ -33,7 +32,7 @@ The gold variant gives Bera Baddies a second colorway in the collection, because
 
 ## Attribution
 
-**Archetype:** **Archetype Alignment:** Bera Baddies inspired item.
+**Archetype:** Bera Baddies inspired item.
 **Swag Score:** 3
 **Date Added:** 2024-12-10
 **Sources:**

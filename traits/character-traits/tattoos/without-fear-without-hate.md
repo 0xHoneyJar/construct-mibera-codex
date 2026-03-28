@@ -1,7 +1,6 @@
 ---
 name: Without Fear Without Hate
 image: "https://mibera.s3.amazonaws.com/traits/modern_punjabi_Without%20Fear%20Without%20Hate.webp"
-archetype: "**Archetype Alignment:**"
 swag_score: null
 date_added: "2024-08-09"
 ---

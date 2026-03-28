@@ -1,7 +1,6 @@
 ---
 name: sprodcast
 image: "https://mibera.s3.amazonaws.com/traits/SS3_sprodcast.webp"
-archetype: "**Archetype Alignment:**"
 swag_score: 3
 date_added: "2025-03-11"
 ---

@@ -1,7 +1,6 @@
 ---
 name: Hindu Swastika
 image: "https://mibera.s3.amazonaws.com/traits/SS4_Hindu%20swastika.webp"
-archetype: "**Archetype Alignment:**"
 swag_score: 4
 date_added: "2024-12-10"
 ---

@@ -1,7 +1,6 @@
 ---
 name: Red Gummy Bear
 image: "https://mibera.s3.amazonaws.com/traits/SS3_red%20gummy%20bear.webp"
-archetype: "**Archetype Alignment:** Relation to drugs and a nod to Gumi’s name."
 swag_score: 3
 date_added: "2024-06-04"
 ---
@@ -33,7 +32,7 @@ Same concept as the green variant -- gummy bears as a sly drug culture reference
 
 ## Attribution
 
-**Archetype:** **Archetype Alignment:** Relation to drugs and a nod to Gumi’s name.
+**Archetype:** Relation to drugs and a nod to Gumi’s name.
 **Swag Score:** 3
 **Date Added:** 2024-06-04
 **Introduced By:** Babybera

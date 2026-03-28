@@ -1,7 +1,6 @@
 ---
 name: Serotonin
 image: "https://mibera.s3.amazonaws.com/traits/SS3_serotonin.webp"
-archetype: "**Archetype Alignment:** Chemical that’s found in the brain, gut, and blood platelets. Related to many drugs and drug users behavior in general."
 swag_score: 3
 date_added: "2024-12-10"
 ---
@@ -33,7 +32,7 @@ The companion piece to the dopamine earring -- wearing your brain chemistry as a
 
 ## Attribution
 
-**Archetype:** **Archetype Alignment:** Chemical that’s found in the brain, gut, and blood platelets. Related to many drugs and drug users behavior in general.
+**Archetype:** Chemical that’s found in the brain, gut, and blood platelets. Related to many drugs and drug users behavior in general.
 **Swag Score:** 3
 **Date Added:** 2024-12-10
 **Introduced By:** Jani / Gumi

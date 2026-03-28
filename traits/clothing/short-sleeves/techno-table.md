@@ -1,7 +1,6 @@
 ---
 name: Techno Table
 image: "https://mibera.s3.amazonaws.com/traits/SS4_Techno%20Table.webp"
-archetype: "**Archetype Alignment:**"
 swag_score: 4
 date_added: "2024-12-10"
 ---

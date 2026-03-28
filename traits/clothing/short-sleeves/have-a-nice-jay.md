@@ -1,7 +1,6 @@
 ---
 name: Have a Nice Jay
 image: "https://mibera.s3.amazonaws.com/traits/SS3_Have%20a%20Nice%20Jay.webp"
-archetype: "**Archetype Alignment:** Its relation to drugs, Jay=Joint, Joint=Weed."
 swag_score: 3
 date_added: "2024-06-22"
 ---
@@ -34,6 +33,6 @@ The acid house smiley, bear ears, and a joint -- this shirt layers three core Mi
 
 ## Attribution
 
-**Archetype:** **Archetype Alignment:** Its relation to drugs, Jay=Joint, Joint=Weed.
+**Archetype:** Its relation to drugs, Jay=Joint, Joint=Weed.
 **Swag Score:** 3
 **Date Added:** 2024-06-22

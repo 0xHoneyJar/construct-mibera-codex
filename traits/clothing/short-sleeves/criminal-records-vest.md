@@ -1,6 +1,5 @@
 ---
 name: Criminal Records Vest
-archetype: "**Archetype Alignment:**"
 swag_score: 3
 date_added: null
 image: "https://mibera.s3.amazonaws.com/traits/SS3_chicagodetroit_Criminal%20Records%20Vest.webp"

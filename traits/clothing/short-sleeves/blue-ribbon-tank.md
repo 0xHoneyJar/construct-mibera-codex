@@ -1,5 +1,6 @@
 ---
 name: Blue Ribbon Tank
+archetype: Milady
 swag_score: 1
 date_added: "2025-02-24"
 ---

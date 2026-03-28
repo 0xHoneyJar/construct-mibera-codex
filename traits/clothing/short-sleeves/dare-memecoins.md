@@ -1,7 +1,6 @@
 ---
 name: DARE Memecoins
 image: "https://mibera.s3.amazonaws.com/traits/SS3_%20DARE%20Memecoins.webp"
-archetype: "**Archetype Alignment:**"
 swag_score: 3
 date_added: "2024-06-08"
 ---

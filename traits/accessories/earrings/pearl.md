@@ -1,7 +1,6 @@
 ---
 name: Pearl
 image: "https://mibera.s3.amazonaws.com/traits/SS2_pearl.webp"
-archetype: "**Archetype Alignment:** Inspired by Ron Hardy’s look in an article with Redbull Music Academy, making it related to Chicago Detroit culture."
 swag_score: 2
 date_added: "2024-12-10"
 ---
@@ -33,7 +32,7 @@ Inspired by Ron Hardy's signature look at the Music Box -- wearing a pearl earri
 
 ## Attribution
 
-**Archetype:** **Archetype Alignment:** Inspired by Ron Hardy’s look in an article with Redbull Music Academy, making it related to Chicago Detroit culture.
+**Archetype:** Inspired by Ron Hardy’s look in an article with Redbull Music Academy, making it related to Chicago Detroit culture.
 **Swag Score:** 2
 **Date Added:** 2024-12-10
 **Sources:**

@@ -1,7 +1,6 @@
 ---
 name: Dopamine
 image: "https://mibera.s3.amazonaws.com/traits/SS3_dopamine.webp"
-archetype: "**Archetype Alignment:** “Feel-good” chemical produced by the brain itself that’s more related to driving behavior towards rewards than direct happiness."
 swag_score: 3
 date_added: "2024-12-10"
 ---
@@ -33,7 +32,7 @@ Wearing the molecular structure of your own reward system as jewelry is exactly 
 
 ## Attribution
 
-**Archetype:** **Archetype Alignment:** “Feel-good” chemical produced by the brain itself that’s more related to driving behavior towards rewards than direct happiness.
+**Archetype:** “Feel-good” chemical produced by the brain itself that’s more related to driving behavior towards rewards than direct happiness.
 **Swag Score:** 3
 **Date Added:** 2024-12-10
 **Introduced By:** Jani / Gumi

@@ -1,7 +1,6 @@
 ---
 name: Omega
 image: "https://mibera.s3.amazonaws.com/traits/acidhouse_Omega.webp"
-archetype: "**Archetype Alignment:** OlympusDAO in Berachain history. One of Bong Bear’s traits."
 swag_score: 5
 date_added: "2024-12-10"
 ---
@@ -32,7 +31,7 @@ Berachain was born from the OlympusDAO community. The Omega glasses are a direct
 
 ## Attribution
 
-**Archetype:** **Archetype Alignment:** OlympusDAO in Berachain history. One of Bong Bear’s traits.
+**Archetype:** OlympusDAO in Berachain history. One of Bong Bear’s traits.
 **Swag Score:** 5
 **Date Added:** 2024-12-10
 **Introduced By:** Tez

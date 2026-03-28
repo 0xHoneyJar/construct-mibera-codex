@@ -1,7 +1,6 @@
 ---
 name: Jaguar
 image: "https://mibera.s3.amazonaws.com/traits/ancient_mayan_Jaguar.webp"
-archetype: "**Archetype Alignment:**"
 swag_score: null
 date_added: "2024-08-09"
 ---

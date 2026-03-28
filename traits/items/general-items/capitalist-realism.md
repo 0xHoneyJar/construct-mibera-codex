@@ -1,7 +1,6 @@
 ---
 name: capitalist realism
 image: "https://mibera.s3.amazonaws.com/traits/SS2_Capitalist%20Realism.webp"
-archetype: "**Archetype Alignment:**"
 swag_score: 2
 date_added: "2024-08-07"
 ---

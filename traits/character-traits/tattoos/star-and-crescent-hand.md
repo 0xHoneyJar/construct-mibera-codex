@@ -1,7 +1,6 @@
 ---
 name: Star and Crescent Hand
 image: "https://mibera.s3.amazonaws.com/traits/modern_turkey_Star%20and%20Crescent%20Hand.webp"
-archetype: "**Archetype Alignment:**"
 swag_score: null
 date_added: "2024-08-09"
 ---

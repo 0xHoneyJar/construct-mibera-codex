@@ -1,7 +1,6 @@
 ---
 name: Tribal Bera
 image: "https://mibera.s3.amazonaws.com/traits/SS5_tribal%20bera.webp"
-archetype: "**Archetype Alignment:** Its alignment in theme with the Berachain ecosystem and partially Mibera’s tribal aesthetic."
 swag_score: 5
 date_added: "2024-12-10"
 ---
@@ -33,6 +32,6 @@ A Berachain bear in full tribal regalia -- this earring is where the ecosystem's
 
 ## Attribution
 
-**Archetype:** **Archetype Alignment:** Its alignment in theme with the Berachain ecosystem and partially Mibera’s tribal aesthetic.
+**Archetype:** Its alignment in theme with the Berachain ecosystem and partially Mibera’s tribal aesthetic.
 **Swag Score:** 5
 **Date Added:** 2024-12-10

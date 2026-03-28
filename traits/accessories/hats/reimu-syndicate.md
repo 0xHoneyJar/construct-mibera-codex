@@ -1,7 +1,6 @@
 ---
 name: reimu syndicate
 image: "https://mibera.s3.amazonaws.com/traits/SS2_Reimu%20Syndicate.webp"
-archetype: "**Archetype Alignment:**"
 swag_score: 2
 date_added: "2024-12-10"
 ---

@@ -1,7 +1,6 @@
 ---
 name: Purple Blossom
 image: "https://mibera.s3.amazonaws.com/traits/SS2_purple%20blossom.webp"
-archetype: "**Archetype Alignment:**"
 swag_score: 2
 date_added: "2024-12-10"
 ---

@@ -1,7 +1,6 @@
 ---
 name: berachain mentioned
 image: "https://mibera.s3.amazonaws.com/traits/SS3_berachain%20mentioned.webp"
-archetype: "**Archetype Alignment:**"
 swag_score: 3
 date_added: "2025-03-23"
 ---

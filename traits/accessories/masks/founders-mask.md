@@ -1,7 +1,6 @@
 ---
 name: Founders Mask
 image: "https://mibera.s3.amazonaws.com/traits/SS5_Founders%20Mask.webp"
-archetype: "**Archetype Alignment:** Jani’s mask from Singapore (Token 2024)"
 swag_score: 5
 date_added: "2025-03-15"
 ---
@@ -33,6 +32,6 @@ Only two masks in the entire 10,000-piece collection are directly tied to the fo
 
 ## Attribution
 
-**Archetype:** **Archetype Alignment:** Jani’s mask from Singapore (Token 2024)
+**Archetype:** Jani’s mask from Singapore (Token 2024)
 **Swag Score:** 5
 **Date Added:** 2025-03-15

@@ -1,7 +1,6 @@
 ---
 name: Nyan Cat
 image: "https://mibera.s3.amazonaws.com/traits/SS4_Nyan%20Cat.webp"
-archetype: "**Archetype Alignment:** Its cultural relevance, internet culture, and very rave-coded based on its rainbow based color."
 swag_score: 4
 date_added: "2024-06-08"
 ---
@@ -34,7 +33,7 @@ Nyan Cat is a foundational internet meme that was also one of the first major NF
 
 ## Attribution
 
-**Archetype:** **Archetype Alignment:** Its cultural relevance, internet culture, and very rave-coded based on its rainbow based color.
+**Archetype:** Its cultural relevance, internet culture, and very rave-coded based on its rainbow based color.
 **Swag Score:** 4
 **Date Added:** 2024-06-08
 **Sources:**

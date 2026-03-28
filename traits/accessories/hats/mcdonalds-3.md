@@ -1,7 +1,6 @@
 ---
 name: McDonalds 3
 image: "https://mibera.s3.amazonaws.com/traits/mcdonalds%203.webp"
-archetype: "**Archetype Alignment:**"
 swag_score: 4
 date_added: "2025-05-04"
 ---

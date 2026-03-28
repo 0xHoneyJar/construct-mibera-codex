@@ -1,7 +1,6 @@
 ---
 name: Filipino Tribal
 image: "https://mibera.s3.amazonaws.com/traits/Filipino%20Tribal.webp"
-archetype: "**Archetype Alignment:**"
 swag_score: null
 date_added: "2024-08-06"
 ---

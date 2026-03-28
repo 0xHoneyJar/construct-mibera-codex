@@ -1,7 +1,6 @@
 ---
 name: Indus Valley Civilization Oxen
 image: "https://mibera.s3.amazonaws.com/traits/ancient_punjabi_Indus%20Valley%20Civilization%20Oxen.webp"
-archetype: "**Archetype Alignment:**"
 swag_score: null
 date_added: "2024-08-09"
 ---

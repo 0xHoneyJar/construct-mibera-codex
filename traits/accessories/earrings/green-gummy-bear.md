@@ -1,7 +1,6 @@
 ---
 name: Green Gummy Bear
 image: "https://mibera.s3.amazonaws.com/traits/SS3_green%20gummy%20bear.webp"
-archetype: "**Archetype Alignment:** Relation to drugs and a nod to Gumi’s name."
 swag_score: 3
 date_added: "2024-06-04"
 ---
@@ -33,7 +32,7 @@ A playful double reference -- gummy bears as a well-known vehicle for laced subs
 
 ## Attribution
 
-**Archetype:** **Archetype Alignment:** Relation to drugs and a nod to Gumi’s name.
+**Archetype:** Relation to drugs and a nod to Gumi’s name.
 **Swag Score:** 3
 **Date Added:** 2024-06-04
 **Introduced By:** Babybera

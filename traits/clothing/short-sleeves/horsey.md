@@ -1,7 +1,6 @@
 ---
 name: Horsey
 image: "https://mibera.s3.amazonaws.com/traits/SS1_horsey.webp"
-archetype: "**Archetype Alignment:** Direct drug references."
 swag_score: 1
 date_added: "2024-06-22"
 ---
@@ -34,7 +33,7 @@ A childlike drawing of a horse with the word ketamine on it is the kind of shirt
 
 ## Attribution
 
-**Archetype:** **Archetype Alignment:** Direct drug references.
+**Archetype:** Direct drug references.
 **Swag Score:** 1
 **Date Added:** 2024-06-22
 **Sources:**

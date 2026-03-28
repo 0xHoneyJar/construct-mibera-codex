@@ -1,7 +1,6 @@
 ---
 name: snow goggles 2
 image: "https://mibera.s3.amazonaws.com/traits/Snow%20Goggles%202.webp"
-archetype: "**Archetype Alignment:**"
 swag_score: 4
 date_added: "2024-12-10"
 ---

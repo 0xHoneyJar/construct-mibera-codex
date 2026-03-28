@@ -1,6 +1,5 @@
 ---
 name: Afraid of Women
-archetype: "**Archetype Alignment:**"
 swag_score: 1
 date_added: null
 ---

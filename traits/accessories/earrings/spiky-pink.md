@@ -1,7 +1,6 @@
 ---
 name: Spiky Pink
 image: "https://mibera.s3.amazonaws.com/traits/SS3_spiky%20pink.webp"
-archetype: "**Archetype Alignment:** In relation to the rave culture, especially in the 2000s, which is very much aligned with Mibera."
 swag_score: 3
 date_added: "2024-12-10"
 ---
@@ -33,7 +32,7 @@ Spiky accessories are rave culture's version of wearable attitude -- cute enough
 
 ## Attribution
 
-**Archetype:** **Archetype Alignment:** In relation to the rave culture, especially in the 2000s, which is very much aligned with Mibera.
+**Archetype:** In relation to the rave culture, especially in the 2000s, which is very much aligned with Mibera.
 **Swag Score:** 3
 **Date Added:** 2024-12-10
 **Sources:**

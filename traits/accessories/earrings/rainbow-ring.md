@@ -1,7 +1,6 @@
 ---
 name: Rainbow Ring
 image: "https://mibera.s3.amazonaws.com/traits/SS3_rainbow%20ring.webp"
-archetype: "**Archetype Alignment:** In relation to pride and LGBTQ+ which is also a big part of rave culture."
 swag_score: 3
 date_added: "2024-06-04"
 ---
@@ -33,6 +32,6 @@ Rave culture and LGBTQ+ communities have been intertwined since the beginning --
 
 ## Attribution
 
-**Archetype:** **Archetype Alignment:** In relation to pride and LGBTQ+ which is also a big part of rave culture.
+**Archetype:** In relation to pride and LGBTQ+ which is also a big part of rave culture.
 **Swag Score:** 3
 **Date Added:** 2024-06-04

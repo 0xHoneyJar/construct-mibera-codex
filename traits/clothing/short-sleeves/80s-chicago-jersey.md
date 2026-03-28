@@ -1,6 +1,5 @@
 ---
 name: 80s Chicago Jersey
-archetype: "**Archetype Alignment:**"
 swag_score: 3
 date_added: null
 image: "https://mibera.s3.amazonaws.com/traits/SS3_chicagodetroit_80s%20Chicago%20Jersey.webp"

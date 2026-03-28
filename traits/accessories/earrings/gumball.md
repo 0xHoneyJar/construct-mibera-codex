@@ -1,7 +1,6 @@
 ---
 name: Gumball
 image: "https://mibera.s3.amazonaws.com/traits/SS3_Gumball.webp"
-archetype: "**Archetype Alignment:** Fellow bera brojekt"
 swag_score: 3
 date_added: "2024-12-10"
 ---
@@ -33,7 +32,7 @@ GumBall Protocol is a Berachain-native project, and ecosystem collaborations lik
 
 ## Attribution
 
-**Archetype:** **Archetype Alignment:** Fellow bera brojekt
+**Archetype:** Fellow bera brojekt
 **Swag Score:** 3
 **Date Added:** 2024-12-10
 **Sources:**

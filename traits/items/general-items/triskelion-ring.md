@@ -1,7 +1,6 @@
 ---
 name: triskelion ring
 image: "https://mibera.s3.amazonaws.com/traits/SS3_Triskelion%20Ring.webp"
-archetype: "**Archetype Alignment:**"
 swag_score: 3
 date_added: "2024-07-10"
 ---

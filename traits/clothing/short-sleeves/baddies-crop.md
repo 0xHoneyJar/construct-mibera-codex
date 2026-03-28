@@ -1,7 +1,6 @@
 ---
 name: Baddies Crop
 image: "https://mibera.s3.amazonaws.com/traits/SS3_Baddies%20Crop.webp"
-archetype: "**Archetype Alignment:**"
 swag_score: 3
 date_added: "2024-12-10"
 ---

@@ -1,7 +1,6 @@
 ---
 name: Pyramid
 image: "https://mibera.s3.amazonaws.com/traits/SS3_pyramid.webp"
-archetype: "**Archetype Alignment:** In relation / within an aligned aesthetic to ancient Egyptian as one of Mibera’s ancestors. Also in relation to Sun Ra."
 swag_score: 3
 date_added: "2024-06-04"
 ---
@@ -33,7 +32,7 @@ Pyramids tie together two of Mibera's threads at once -- the Egyptian ancestor l
 
 ## Attribution
 
-**Archetype:** **Archetype Alignment:** In relation / within an aligned aesthetic to ancient Egyptian as one of Mibera’s ancestors. Also in relation to Sun Ra.
+**Archetype:** In relation / within an aligned aesthetic to ancient Egyptian as one of Mibera’s ancestors. Also in relation to Sun Ra.
 **Swag Score:** 3
 **Date Added:** 2024-06-04
 **Sources:**

@@ -1,7 +1,6 @@
 ---
 name: HTRK Night Faces
 image: "https://mibera.s3.amazonaws.com/traits/SS3_HTRK%20Night%20Faces.webp"
-archetype: "**Archetype Alignment:**"
 swag_score: 3
 date_added: "2025-01-02"
 ---

@@ -1,7 +1,6 @@
 ---
 name: monster ultra
 image: "https://mibera.s3.amazonaws.com/traits/SS1_Monster%20Ultra.webp"
-archetype: "**Archetype Alignment:**"
 swag_score: 1
 date_added: "2024-07-24"
 ---

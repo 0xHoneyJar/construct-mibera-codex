@@ -1,7 +1,6 @@
 ---
 name: Minimal Temple of Obodas
 image: "https://mibera.fsn1.your-objectstorage.com/components/tattoos__z125/ancient_arabic_Minimal%20Temple%20of%20Obodas.webp"
-archetype: "**Archetype Alignment:**"
 swag_score: null
 date_added: "2024-08-09"
 ---

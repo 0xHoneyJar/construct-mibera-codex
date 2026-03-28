@@ -1,7 +1,6 @@
 ---
 name: Red Lolipop
 image: "https://mibera.s3.amazonaws.com/traits/SS2_red%20lolipop.webp"
-archetype: "**Archetype Alignment:** Relation to drug-use and users, as well as rave culture."
 swag_score: 2
 date_added: "2024-12-10"
 ---
@@ -33,7 +32,7 @@ The red variant rounds out the lollipop trio, keeping the rave-culture oral fixa
 
 ## Attribution
 
-**Archetype:** **Archetype Alignment:** Relation to drug-use and users, as well as rave culture.
+**Archetype:** Relation to drug-use and users, as well as rave culture.
 **Swag Score:** 2
 **Date Added:** 2024-12-10
 **Sources:**

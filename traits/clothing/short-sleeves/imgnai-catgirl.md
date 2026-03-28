@@ -1,7 +1,6 @@
 ---
 name: IMGNAI Catgirl
 image: "https://mibera.s3.amazonaws.com/traits/SS2_IMGNAI%20Catgirl.webp"
-archetype: "**Archetype Alignment:** Its indirect ties to Milady Maker as well as its unconventional and provocative nature."
 swag_score: 2
 date_added: "2024-07-20"
 ---
@@ -34,7 +33,7 @@ ImgnAI sits at the intersection of AI, crypto, and the Milady aesthetic universe
 
 ## Attribution
 
-**Archetype:** **Archetype Alignment:** Its indirect ties to Milady Maker as well as its unconventional and provocative nature.
+**Archetype:** Its indirect ties to Milady Maker as well as its unconventional and provocative nature.
 **Swag Score:** 2
 **Date Added:** 2024-07-20
 **Sources:**

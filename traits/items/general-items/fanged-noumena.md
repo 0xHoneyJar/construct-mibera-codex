@@ -1,7 +1,6 @@
 ---
 name: fanged noumena
 image: "https://mibera.s3.amazonaws.com/traits/SS3_Fanged%20Noumena.webp"
-archetype: "**Archetype Alignment:**"
 swag_score: 2
 date_added: "2024-08-07"
 ---

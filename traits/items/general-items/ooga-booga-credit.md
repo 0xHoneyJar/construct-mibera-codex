@@ -1,7 +1,6 @@
 ---
 name: ooga booga credit
 image: "https://mibera.s3.amazonaws.com/traits/SS4_Ooga%20Booga%20Credit.webp"
-archetype: "**Archetype Alignment:**"
 swag_score: 4
 date_added: "2024-07-12"
 ---

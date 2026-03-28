@@ -1,7 +1,6 @@
 ---
 name: Stupa
 image: "https://mibera.s3.amazonaws.com/traits/ancient_nepal_Stupa.webp"
-archetype: "**Archetype Alignment:**"
 swag_score: null
 date_added: "2024-08-09"
 ---

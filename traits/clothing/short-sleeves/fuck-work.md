@@ -1,7 +1,6 @@
 ---
 name: Fuck Work
 image: "https://mibera.s3.amazonaws.com/traits/SS3_Fuck%20Work.webp"
-archetype: "**Archetype Alignment:**"
 swag_score: 3
 date_added: "2024-06-22"
 ---

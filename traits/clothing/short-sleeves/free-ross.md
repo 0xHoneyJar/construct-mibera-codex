@@ -1,7 +1,6 @@
 ---
 name: Free Ross
 image: "https://mibera.s3.amazonaws.com/traits/SS4_Free%20Ross.webp"
-archetype: "**Archetype Alignment:** Its symbolism in freeing Ross, referring to Ross Ulbricht and The Silk Road which were huge inspirations for Mibera’s website and culture."
 swag_score: 4
 date_added: "2024-06-22"
 ---
@@ -36,7 +35,7 @@ The Silk Road is the single biggest inspiration for Mibera's Honey Road marketpl
 
 ## Attribution
 
-**Archetype:** **Archetype Alignment:** Its symbolism in freeing Ross, referring to Ross Ulbricht and The Silk Road which were huge inspirations for Mibera’s website and culture.
+**Archetype:** Its symbolism in freeing Ross, referring to Ross Ulbricht and The Silk Road which were huge inspirations for Mibera’s website and culture.
 **Swag Score:** 4
 **Date Added:** 2024-06-22
 **Sources:**

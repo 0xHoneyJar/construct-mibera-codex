@@ -1,7 +1,6 @@
 ---
 name: Ibiza
 image: "https://mibera.s3.amazonaws.com/traits/SS3_Ibiza.webp"
-archetype: "**Archetype Alignment:** Drug and party relevance."
 swag_score: 3
 date_added: "2024-12-10"
 ---
@@ -34,7 +33,7 @@ Ibiza Ketamine Club is exactly the kind of absurd, specific merch that only exis
 
 ## Attribution
 
-**Archetype:** **Archetype Alignment:** Drug and party relevance.
+**Archetype:** Drug and party relevance.
 **Swag Score:** 3
 **Date Added:** 2024-12-10
 **Sources:**

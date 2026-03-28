@@ -1,7 +1,6 @@
 ---
 name: ramen finance bowl
 image: "https://mibera.s3.amazonaws.com/traits/SS3_Ramen%20Finance%20Bowl.webp"
-archetype: "**Archetype Alignment:**"
 swag_score: 3
 date_added: "2024-12-10"
 ---

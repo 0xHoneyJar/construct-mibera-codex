@@ -1,7 +1,6 @@
 ---
 name: No Tattoos
 image: "https://mibera.s3.amazonaws.com/traits/No%20tattoos.webp"
-archetype: "**Archetype Alignment:** Default option for characters without body art. ---"
 swag_score: null
 date_added: null
 ---
@@ -32,4 +31,4 @@ Not every Mibera needs ink. Including the blank option means the tattoo slot is 
 
 ## Attribution
 
-**Archetype:** **Archetype Alignment:** Default option for characters without body art. ---
+**Archetype:** Default option for characters without body art. ---

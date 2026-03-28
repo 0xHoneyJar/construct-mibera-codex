@@ -1,7 +1,6 @@
 ---
 name: yuzu
 image: "https://mibera.s3.amazonaws.com/traits/SS3_Yuzu.webp"
-archetype: "**Archetype Alignment:**"
 swag_score: 3
 date_added: "2024-12-09"
 ---

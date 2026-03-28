@@ -1,7 +1,6 @@
 ---
 name: Industrial
 image: "https://mibera.s3.amazonaws.com/traits/SS4_industrial.webp"
-archetype: "**Archetype Alignment:** Its relation to rave culture, which aligns with Mibera."
 swag_score: 4
 date_added: "2024-12-10"
 ---
@@ -33,6 +32,6 @@ The industrial piercing is punk's contribution to rave fashion -- a piece of met
 
 ## Attribution
 
-**Archetype:** **Archetype Alignment:** Its relation to rave culture, which aligns with Mibera.
+**Archetype:** Its relation to rave culture, which aligns with Mibera.
 **Swag Score:** 4
 **Date Added:** 2024-12-10

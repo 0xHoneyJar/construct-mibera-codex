@@ -1,7 +1,6 @@
 ---
 name: ketamine kneecap up the ra balaclava
 image: "https://mibera.s3.amazonaws.com/traits/SS4_%20ketamine%20kneecap%20up%20the%20ra%20balaclava.webp"
-archetype: "**Archetype Alignment:**"
 swag_score: 4
 date_added: "2025-03-14"
 ---

@@ -1,7 +1,6 @@
 ---
 name: regal crown
 image: "https://mibera.s3.amazonaws.com/traits/SS5_Regal%20Crown.webp"
-archetype: "**Archetype Alignment:**"
 swag_score: 5
 date_added: "2024-07-27"
 ---

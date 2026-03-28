@@ -1,7 +1,6 @@
 ---
 name: DARE Rave
 image: "https://mibera.s3.amazonaws.com/traits/SS3_DARE%20Rave.webp"
-archetype: "**Archetype Alignment:**"
 swag_score: 3
 date_added: "2024-06-08"
 ---

@@ -1,7 +1,6 @@
 ---
 name: Green Lolipop
 image: "https://mibera.s3.amazonaws.com/traits/SS1_green%20lolipop.webp"
-archetype: "**Archetype Alignment:** Relation to drug-use and users, as well as rave culture."
 swag_score: 1
 date_added: "2024-12-10"
 ---
@@ -33,7 +32,7 @@ Lollipops are a functional rave accessory as much as a fashion statement -- anyo
 
 ## Attribution
 
-**Archetype:** **Archetype Alignment:** Relation to drug-use and users, as well as rave culture.
+**Archetype:** Relation to drug-use and users, as well as rave culture.
 **Swag Score:** 1
 **Date Added:** 2024-12-10
 **Sources:**

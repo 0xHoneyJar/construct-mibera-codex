@@ -1,7 +1,6 @@
 ---
 name: clandestine labs
 image: "https://mibera.s3.amazonaws.com/traits/SS3_Clandestine%20Labs.webp"
-archetype: "**Archetype Alignment:**"
 swag_score: 3
 date_added: "2024-07-07"
 ---

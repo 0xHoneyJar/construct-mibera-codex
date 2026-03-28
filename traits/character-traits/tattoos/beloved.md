@@ -1,7 +1,6 @@
 ---
 name: Beloved
 image: "https://mibera.s3.amazonaws.com/traits/modern_greek_Beloved.webp"
-archetype: "**Archetype Alignment:**"
 swag_score: null
 date_added: "2024-08-09"
 ---

@@ -1,7 +1,6 @@
 ---
 name: Purple Lolipop
 image: "https://mibera.s3.amazonaws.com/traits/SS3_purple%20lolipop.webp"
-archetype: "**Archetype Alignment:** Relation to drug-use and users, as well as rave culture."
 swag_score: 3
 date_added: "2024-12-10"
 ---
@@ -33,7 +32,7 @@ Another color in the lollipop series -- because rave culture's relationship with
 
 ## Attribution
 
-**Archetype:** **Archetype Alignment:** Relation to drug-use and users, as well as rave culture.
+**Archetype:** Relation to drug-use and users, as well as rave culture.
 **Swag Score:** 3
 **Date Added:** 2024-12-10
 **Sources:**

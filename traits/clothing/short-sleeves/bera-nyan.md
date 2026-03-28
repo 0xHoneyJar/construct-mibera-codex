@@ -1,6 +1,5 @@
 ---
 name: Bera Nyan
-archetype: "**Archetype Alignment:** Bera version of Nyan Cat, cultural relevance and impact in the space."
 swag_score: 5
 date_added: null
 ---
@@ -27,7 +26,7 @@ Nyan Cat was one of the first memes sold as an NFT, and this Berachain remix rep
 
 ## Attribution
 
-**Archetype:** **Archetype Alignment:** Bera version of Nyan Cat, cultural relevance and impact in the space.
+**Archetype:** Bera version of Nyan Cat, cultural relevance and impact in the space.
 **Swag Score:** 5
 **Sources:**
 - https://en.wikipedia.org/wiki/Nyan_Cat

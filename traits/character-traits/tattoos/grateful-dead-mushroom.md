@@ -1,7 +1,6 @@
 ---
 name: Grateful Dead Mushroom
 image: "https://mibera.s3.amazonaws.com/traits/Grateful%20Dead%20Mushroom.webp"
-archetype: "**Archetype Alignment:**"
 swag_score: null
 date_added: "2024-12-10"
 ---

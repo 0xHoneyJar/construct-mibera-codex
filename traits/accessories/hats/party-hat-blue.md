@@ -1,7 +1,6 @@
 ---
 name: Party Hat Blue
 image: "https://mibera.s3.amazonaws.com/traits/SS5_Party%20Hat%20Blue.webp"
-archetype: "**Archetype Alignment:**"
 swag_score: 5
 date_added: "2024-06-15"
 ---

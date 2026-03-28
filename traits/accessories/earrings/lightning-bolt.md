@@ -1,7 +1,6 @@
 ---
 name: Lightning Bolt
 image: "https://mibera.s3.amazonaws.com/traits/SS3_lightning%20bolt.webp"
-archetype: "**Archetype Alignment:** In relation to the rave culture as well as a slight Zeus reference."
 swag_score: 3
 date_added: "2024-06-04"
 ---
@@ -33,6 +32,6 @@ Lightning bolts are one of rave culture's most recycled visual motifs -- energy,
 
 ## Attribution
 
-**Archetype:** **Archetype Alignment:** In relation to the rave culture as well as a slight Zeus reference.
+**Archetype:** In relation to the rave culture as well as a slight Zeus reference.
 **Swag Score:** 3
 **Date Added:** 2024-06-04

@@ -1,7 +1,6 @@
 ---
 name: Sugar Skull
 image: "https://mibera.s3.amazonaws.com/traits/Sugar%20Skull.webp"
-archetype: "**Archetype Alignment:**"
 swag_score: null
 date_added: "2024-08-06"
 ---

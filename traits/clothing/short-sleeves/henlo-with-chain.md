@@ -1,7 +1,6 @@
 ---
 name: Henlo with Chain
 image: "https://mibera.s3.amazonaws.com/traits/SS4_Henlo%20with%20Chain.webp"
-archetype: "**Archetype Alignment:**"
 swag_score: 4
 date_added: "2024-06-22"
 ---

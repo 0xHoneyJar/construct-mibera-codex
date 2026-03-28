@@ -1,7 +1,6 @@
 ---
 name: Blue Bow Hat
 image: "https://mibera.s3.amazonaws.com/traits/SS2_Blue%20Bow%20Hat.webp"
-archetype: "**Archetype Alignment:**"
 swag_score: 2
 date_added: "2024-07-27"
 ---
