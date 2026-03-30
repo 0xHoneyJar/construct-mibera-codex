@@ -1,6 +1,6 @@
 ---
 name: Midsommar
-image: "https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS3_milady_ancient_irishDruid_Midsommar.webp"
+image: ""
 archetype: Milady
 swag_score: 3
 date_added: "2024-12-10"
@@ -10,7 +10,6 @@ date_added: "2024-12-10"
 
 ## Visual Elements
 
-![ancient irishDruid Midsommar](https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS3_milady_ancient_irishDruid_Midsommar.webp)
 
 Flower crown with soft red, yellow, and white flowers, and a bunch of leaves.
 

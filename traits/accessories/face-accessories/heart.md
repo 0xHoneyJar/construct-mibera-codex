@@ -1,6 +1,6 @@
 ---
 name: Heart
-image: "https://mibera.fsn1.your-objectstorage.com/components/face%20accessories__z60/SS2_milady_Heart.webp"
+image: ""
 archetype: Milady
 swag_score: 2
 date_added: "2024-12-10"
@@ -10,7 +10,6 @@ date_added: "2024-12-10"
 
 ## Visual Elements
 
-![Heart](https://mibera.fsn1.your-objectstorage.com/components/face%20accessories__z60/SS2_milady_Heart.webp)
 
 Two tiny hearts in black.
 

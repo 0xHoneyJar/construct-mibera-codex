@@ -1,7 +1,7 @@
 ---
 name: Simple Purple
 swag_score: 1
-image: "https://mibera.fsn1.your-objectstorage.com/components/simple/simples%20for%20shadows/149_simple%20purple.webp"
+image: ""
 date_added: "2024-08"
 ---
 
@@ -9,7 +9,6 @@ date_added: "2024-08"
 
 ## Visual Elements
 
-![Simple Purple](https://mibera.fsn1.your-objectstorage.com/components/simple/simples%20for%20shadows/149_simple%20purple.webp)
 
 A basic solid purple t-shirt.
 

@@ -1,6 +1,6 @@
 ---
 name: Charlie Dragon
-image: "https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT"
+image: ""
 archetype: Milady
 swag_score: 5
 date_added: "2024-12-10"
@@ -10,7 +10,6 @@ date_added: "2024-12-10"
 
 ## Visual Elements
 
-![Dragon](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)
 
 Black short-sleeved shirt with silky texture and vibrant graphic of golden dragon with fire in the background.
 

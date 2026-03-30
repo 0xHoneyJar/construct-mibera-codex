@@ -1,6 +1,6 @@
 ---
 name: Plastic Bag Mask
-image: "https://mibera.fsn1.your-objectstorage.com/components/Masks/SS4_chicagodetroit_modern_irish_Plastic Bag Mask.webp"
+image: ""
 archetype: Chicago Detroit
 swag_score: 4
 date_added: "2024-07-27"
@@ -10,7 +10,6 @@ date_added: "2024-07-27"
 
 ## Visual Elements
 
-![Plastic Bag Mask](https://mibera.fsn1.your-objectstorage.com/components/Masks/SS4_chicagodetroit_modern_irish_Plastic Bag Mask.webp)
 
 Plain white semi-transparent plastic bag mask.
 

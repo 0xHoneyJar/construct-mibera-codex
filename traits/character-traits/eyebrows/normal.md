@@ -1,6 +1,6 @@
 ---
 name: normal
-image: "https://mibera.fsn1.your-objectstorage.com/components/eyebrows__z95/Normal.webp"
+image: ""
 date_added: "2024-07-30"
 ---
 
@@ -8,7 +8,6 @@ date_added: "2024-07-30"
 
 ## Visual Elements
 
-![Normal](https://mibera.fsn1.your-objectstorage.com/components/eyebrows__z95/Normal.webp)
 
 thin eyebrows, slightly curved with no arch.
 

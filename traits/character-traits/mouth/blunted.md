@@ -1,6 +1,6 @@
 ---
 name: blunted
-image: "https://mibera.fsn1.your-objectstorage.com/components/mouth__z90/blunt__w6.webp"
+image: ""
 date_added: "2024-06-05"
 ---
 
@@ -8,7 +8,6 @@ date_added: "2024-06-05"
 
 ## Visual Elements
 
-![blunt](https://mibera.fsn1.your-objectstorage.com/components/mouth__z90/blunt__w6.webp)
 
 a mouth portrayed by a line that’s slightly curved downward holding a lighted blunt.
 

@@ -1,6 +1,6 @@
 ---
 name: clocks
-image: "https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/Time__w5.webp"
+image: ""
 date_added: "2024-06-03"
 ---
 
@@ -8,7 +8,6 @@ date_added: "2024-06-03"
 
 ## Visual Elements
 
-![Time](https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/Time__w5.webp)
 
 a pair of bright yellow eyes showing a clock from each one of them.
 

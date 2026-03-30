@@ -31,7 +31,6 @@ Molecules contribute to the Swag Score: `total_ss = item_score * shirt_score * m
 
 **See Also:** [Detailed Profile](../../drugs-detailed/acacia.md) | [Acacia x DMT](../../drugs-detailed/drug-pairings.md#acacia-x-dmt)
 
-![Acacia](https://mibera.fsn1.your-objectstorage.com/components/Molecule%20%28new%29/acidhouse_aboriginals_acacia.webp)
 
 ---
 
@@ -47,7 +46,6 @@ Molecules contribute to the Swag Score: `total_ss = item_score * shirt_score * m
 
 **See Also:** [Detailed Profile](../../drugs-detailed/alcohol.md) | [Ethanol x Alcohol](../../drugs-detailed/drug-pairings.md#ethanol-x-alcohol)
 
-![Alcohol](https://mibera.fsn1.your-objectstorage.com/components/Molecule%20%28new%29/chicagodetroit_sicanje_alcohol.webp)
 
 ---
 
@@ -63,7 +61,6 @@ Molecules contribute to the Swag Score: `total_ss = item_score * shirt_score * m
 
 **See Also:** [Detailed Profile](../../drugs-detailed/ancestral-trance.md) | [Ancestral Trance x LSD](../../drugs-detailed/drug-pairings.md#ancestral-trance-x-lsd)
 
-![Ancestral Trance](https://mibera.fsn1.your-objectstorage.com/components/Molecule%20%28new%29/freetekno_orthodoxJews_aboriginal_haitians_ancestral%20trance.webp)
 
 ---
 
@@ -79,7 +76,6 @@ Molecules contribute to the Swag Score: `total_ss = item_score * shirt_score * m
 
 **See Also:** [Detailed Profile](../../drugs-detailed/arundo-donax.md) | [Arundo Donax x DMT](../../drugs-detailed/drug-pairings.md#arundo-donax-x-dmt)
 
-![Arundo Donax](https://mibera.fsn1.your-objectstorage.com/components/Molecule%20%28new%29/acidhouse_nativeAmerican_arundo%20donax.webp)
 
 ---
 
@@ -95,7 +91,6 @@ Molecules contribute to the Swag Score: `total_ss = item_score * shirt_score * m
 
 **See Also:** [Detailed Profile](../../drugs-detailed/ashwagandha.md) | [Ashwagandha x Testosterone](../../drugs-detailed/drug-pairings.md#ashwagandha-x-testosterone)
 
-![Ashwagandha](https://mibera.fsn1.your-objectstorage.com/components/Molecule%20%28new%29/milady_hindu_ashwagandha.webp)
 
 ---
 
@@ -111,7 +106,6 @@ Molecules contribute to the Swag Score: `total_ss = item_score * shirt_score * m
 
 **See Also:** [Detailed Profile](../../drugs-detailed/ayahuasca.md) | [Ayahuasca x DMT](../../drugs-detailed/drug-pairings.md#ayahuasca-x-dmt)
 
-![Ayahuasca](https://mibera.fsn1.your-objectstorage.com/components/Molecule%20%28new%29/freetekno_mayan_ayahuasca.webp)
 
 ---
 
@@ -127,7 +121,6 @@ Molecules contribute to the Swag Score: `total_ss = item_score * shirt_score * m
 
 **See Also:** [Detailed Profile](../../drugs-detailed/benadryl.md) | [Datura x Benadryl](../../drugs-detailed/drug-pairings.md#datura-x-benadryl)
 
-![Benadryl](https://mibera.fsn1.your-objectstorage.com/components/Molecule%20%28new%29/milady_nativeAmerican_benadryl.webp)
 
 ---
 
@@ -143,7 +136,6 @@ Molecules contribute to the Swag Score: `total_ss = item_score * shirt_score * m
 
 **See Also:** [Detailed Profile](../../drugs-detailed/bhang.md) | [Bhang x THC Edibles](../../drugs-detailed/drug-pairings.md#bhang-x-thc-edibles)
 
-![Bhang](https://mibera.fsn1.your-objectstorage.com/components/Molecule%20%28new%29/chicagodetroit_hindu_bhang.webp)
 
 ---
 
@@ -159,7 +151,6 @@ Molecules contribute to the Swag Score: `total_ss = item_score * shirt_score * m
 
 **See Also:** [Detailed Profile](../../drugs-detailed/brahmi.md) | [Brahmi x Piracetam](../../drugs-detailed/drug-pairings.md#brahmi-x-piracetam)
 
-![Brahmi](https://mibera.fsn1.your-objectstorage.com/components/Molecule%20%28new%29/chicagodetroit_hindu_brahmi.webp)
 
 ---
 
@@ -175,7 +166,6 @@ Molecules contribute to the Swag Score: `total_ss = item_score * shirt_score * m
 
 **See Also:** [Detailed Profile](../../drugs-detailed/bufotenin.md) | [Bufotenine x Bufotenin](../../drugs-detailed/drug-pairings.md#bufotenine-x-bufotenin)
 
-![Bufotenin](https://mibera.fsn1.your-objectstorage.com/components/Molecule%20%28new%29/acidhouse_nativeAmerican_bufotenine.webp)
 
 ---
 
@@ -191,7 +181,6 @@ Molecules contribute to the Swag Score: `total_ss = item_score * shirt_score * m
 
 **See Also:** [Detailed Profile](../../drugs-detailed/caffeine.md) | [Tea x Caffeine](../../drugs-detailed/drug-pairings.md#tea-x-caffeine) | [Coffee x Caffeine](../../drugs-detailed/drug-pairings.md#coffee-x-caffeine)
 
-![Caffeine](https://mibera.fsn1.your-objectstorage.com/components/Molecule%20%28new%29/milady_ethiopian_arabs_traveller_chinese_japanese_caffeine.webp)
 
 ---
 
@@ -207,7 +196,6 @@ Molecules contribute to the Swag Score: `total_ss = item_score * shirt_score * m
 
 **See Also:** [Detailed Profile](../../drugs-detailed/cbd.md) | [Kava x CBD](../../drugs-detailed/drug-pairings.md#kava-x-cbd)
 
-![CBD](https://mibera.fsn1.your-objectstorage.com/components/Molecule%20%28new%29/acidhouse_chinese_nativeAmerican_CBD.webp)
 
 ---
 
@@ -223,7 +211,6 @@ Molecules contribute to the Swag Score: `total_ss = item_score * shirt_score * m
 
 **See Also:** [Detailed Profile](../../drugs-detailed/chewing-tobacco.md) | [Pituri x Chewing Tobacco](../../drugs-detailed/drug-pairings.md#pituri-x-chewing-tobacco)
 
-![Chewing Tobacco](https://mibera.fsn1.your-objectstorage.com/components/Molecule%20%28new%29/chicagodetroit_hindu_nativeAmerican_chewing%20tobacco.webp)
 
 ---
 
@@ -239,7 +226,6 @@ Molecules contribute to the Swag Score: `total_ss = item_score * shirt_score * m
 
 **See Also:** [Detailed Profile](../../drugs-detailed/clear-pill.md) | [Sober x Clear Pill](../../drugs-detailed/drug-pairings.md#sober-x-clear-pill)
 
-![Clear Pill](https://mibera.fsn1.your-objectstorage.com/components/Molecule%20%28new%29/milady_satanists_clear%20pill.webp)
 
 ---
 
@@ -255,7 +241,6 @@ Molecules contribute to the Swag Score: `total_ss = item_score * shirt_score * m
 
 **See Also:** [Detailed Profile](../../drugs-detailed/coca.md) | [Coca x Cocaine](../../drugs-detailed/drug-pairings.md#coca-x-cocaine)
 
-![Coca](https://mibera.fsn1.your-objectstorage.com/components/Molecule%20%28new%29/chicagodetroit_ballroomScene_coca.webp)
 
 ---
 
@@ -271,7 +256,6 @@ Molecules contribute to the Swag Score: `total_ss = item_score * shirt_score * m
 
 **See Also:** [Detailed Profile](../../drugs-detailed/cocaine.md) | [Coca x Cocaine](../../drugs-detailed/drug-pairings.md#coca-x-cocaine)
 
-![Cocaine](https://mibera.fsn1.your-objectstorage.com/components/Molecule%20%28new%29/chicagodetroit_ballroomScene_cocaine.webp)
 
 ---
 
@@ -287,7 +271,6 @@ Molecules contribute to the Swag Score: `total_ss = item_score * shirt_score * m
 
 **See Also:** [Detailed Profile](../../drugs-detailed/coffee.md) | [Coffee x Caffeine](../../drugs-detailed/drug-pairings.md#coffee-x-caffeine)
 
-![Coffee](https://mibera.fsn1.your-objectstorage.com/components/Molecule%20%28new%29/milady_ethiopian_arabs_traveller_coffee.webp)
 
 ---
 
@@ -303,7 +286,6 @@ Molecules contribute to the Swag Score: `total_ss = item_score * shirt_score * m
 
 **See Also:** [Detailed Profile](../../drugs-detailed/datura.md) | [Psychotria Viridis x Datura](../../drugs-detailed/drug-pairings.md#pyschotria-viridis-x-datura) | [Datura x Benadryl](../../drugs-detailed/drug-pairings.md#datura-x-benadryl)
 
-![Datura](https://mibera.fsn1.your-objectstorage.com/components/Molecule%20%28new%29/milady_nativeAmerican_datura.webp)
 
 ---
 
@@ -319,7 +301,6 @@ Molecules contribute to the Swag Score: `total_ss = item_score * shirt_score * m
 
 **See Also:** [Detailed Profile](../../drugs-detailed/dextroamphetamine.md) | [Ephedra x Dextroamphetamine](../../drugs-detailed/drug-pairings.md#ephedra-x-dextroamphetamine)
 
-![Dextroamphetamine](https://mibera.fsn1.your-objectstorage.com/components/Molecule%20%28new%29/milady_chinese_palestinian_dextroamphetamine.webp)
 
 ---
 
@@ -335,7 +316,6 @@ Molecules contribute to the Swag Score: `total_ss = item_score * shirt_score * m
 
 **See Also:** [Detailed Profile](../../drugs-detailed/dmt.md) | [Ayahuasca x DMT](../../drugs-detailed/drug-pairings.md#ayahuasca-x-dmt) | [Mimosa Tenuiflora x DMT](../../drugs-detailed/drug-pairings.md#mimosa-tenuiflora-x-dmt) | [Acacia x DMT](../../drugs-detailed/drug-pairings.md#acacia-x-dmt) | [Arundo Donax x DMT](../../drugs-detailed/drug-pairings.md#arundo-donax-x-dmt) | [Mucuna Pruriens x DMT](../../drugs-detailed/drug-pairings.md#mucuna-pruriens-x-dmt)
 
-![DMT](https://mibera.fsn1.your-objectstorage.com/components/Molecule%20%28new%29/acidhouse_mayan_aboriginal_nativeAmerican_DMT.webp)
 
 ---
 
@@ -351,7 +331,6 @@ Molecules contribute to the Swag Score: `total_ss = item_score * shirt_score * m
 
 **See Also:** [Detailed Profile](../../drugs-detailed/ephedra.md) | [Ephedra x Dextroamphetamine](../../drugs-detailed/drug-pairings.md#ephedra-x-dextroamphetamine) | [Ephedra x Methamphetamine](../../drugs-detailed/drug-pairings.md#ephedra-x-methamphetamine)
 
-![Ephedra](https://mibera.fsn1.your-objectstorage.com/components/Molecule%20%28new%29/milady_chinese_palestinian_ephedra.webp)
 
 ---
 
@@ -367,7 +346,6 @@ Molecules contribute to the Swag Score: `total_ss = item_score * shirt_score * m
 
 **See Also:** [Detailed Profile](../../drugs-detailed/estrogen.md) | [Kwao Krua x Estrogen](../../drugs-detailed/drug-pairings.md#kwao-krua-x-estrogen)
 
-![Estrogen](https://mibera.fsn1.your-objectstorage.com/components/Molecule%20%28new%29/milady_thai_estrogen.webp)
 
 ---
 
@@ -383,7 +361,6 @@ Molecules contribute to the Swag Score: `total_ss = item_score * shirt_score * m
 
 **See Also:** [Detailed Profile](../../drugs-detailed/ethanol.md) | [Sugarcane x Ethanol](../../drugs-detailed/drug-pairings.md#sugarcane-x-ethanol) | [Ethanol x Alcohol](../../drugs-detailed/drug-pairings.md#ethanol-x-alcohol)
 
-![Ethanol](https://mibera.fsn1.your-objectstorage.com/components/Molecule%20%28new%29/chicagodetroit_sicanje_ethanol.webp)
 
 ---
 
@@ -399,7 +376,6 @@ Molecules contribute to the Swag Score: `total_ss = item_score * shirt_score * m
 
 **See Also:** [Detailed Profile](../../drugs-detailed/ethylene.md) | [Ethylene x NOS](../../drugs-detailed/drug-pairings.md#ethylene-x-nos)
 
-![Ethylene](https://mibera.fsn1.your-objectstorage.com/components/Molecule%20%28new%29/acidhouse_pythia_ethylene.webp)
 
 ---
 
@@ -415,7 +391,6 @@ Molecules contribute to the Swag Score: `total_ss = item_score * shirt_score * m
 
 **See Also:** [Detailed Profile](../../drugs-detailed/euphoria.md) | [Euphoria x Sober](../../drugs-detailed/drug-pairings.md#euphoria-x-sober)
 
-![Euphoria](https://mibera.fsn1.your-objectstorage.com/components/Molecule%20%28new%29/chicagodetroit_mongolian_euphoria.webp)
 
 ---
 
@@ -431,7 +406,6 @@ Molecules contribute to the Swag Score: `total_ss = item_score * shirt_score * m
 
 **See Also:** [Detailed Profile](../../drugs-detailed/grayanotoxin.md) | [Grayanotoxin x Ketamine](../../drugs-detailed/drug-pairings.md#grayanotoxin-x-ketamine)
 
-![Grayanotoxin](https://mibera.fsn1.your-objectstorage.com/components/Molecule%20%28new%29/milady_nepal_turkey_grayanotoxin.webp)
 
 ---
 
@@ -447,7 +421,6 @@ Molecules contribute to the Swag Score: `total_ss = item_score * shirt_score * m
 
 **See Also:** [Detailed Profile](../../drugs-detailed/henbane.md) | [Henbane x Scopolamine](../../drugs-detailed/drug-pairings.md#henbane-x-scopolamine)
 
-![Henbane](https://mibera.fsn1.your-objectstorage.com/components/Molecule%20%28new%29/freetekno_greek_henbane.webp)
 
 ---
 
@@ -463,7 +436,6 @@ Molecules contribute to the Swag Score: `total_ss = item_score * shirt_score * m
 
 **See Also:** [Detailed Profile](../../drugs-detailed/iboga.md) | [Iboga x Ibogaine](../../drugs-detailed/drug-pairings.md#iboga-x-ibogaine)
 
-![Iboga](https://mibera.fsn1.your-objectstorage.com/components/Molecule%20%28new%29/chicagodetroit_gabon_iboga.webp)
 
 ---
 
@@ -479,7 +451,6 @@ Molecules contribute to the Swag Score: `total_ss = item_score * shirt_score * m
 
 **See Also:** [Detailed Profile](../../drugs-detailed/ibogaine.md) | [Iboga x Ibogaine](../../drugs-detailed/drug-pairings.md#iboga-x-ibogaine) | [Tabernaemontana x Ibogaine](../../drugs-detailed/drug-pairings.md#tabernaemontana-x-ibogaine)
 
-![Ibogaine](https://mibera.fsn1.your-objectstorage.com/components/Molecule%20%28new%29/chicagodetroit_gabon_ibogaine.webp)
 
 ---
 
@@ -495,7 +466,6 @@ Molecules contribute to the Swag Score: `total_ss = item_score * shirt_score * m
 
 **See Also:** [Detailed Profile](../../drugs-detailed/iproniazid.md) | [Syrian Rue x Iproniazid](../../drugs-detailed/drug-pairings.md#syrian-rue-x-iproniazid)
 
-![Iproniazid](https://mibera.fsn1.your-objectstorage.com/components/Molecule%20%28new%29/freetekno_nativeAmerican_iproniazid.webp)
 
 ---
 
@@ -511,7 +481,6 @@ Molecules contribute to the Swag Score: `total_ss = item_score * shirt_score * m
 
 **See Also:** [Detailed Profile](../../drugs-detailed/kava.md) | [Kava x CBD](../../drugs-detailed/drug-pairings.md#kava-x-cbd)
 
-![Kava](https://mibera.fsn1.your-objectstorage.com/components/Molecule%20%28new%29/acidhouse_polynesian_aboriginal_kava.webp)
 
 ---
 
@@ -527,7 +496,6 @@ Molecules contribute to the Swag Score: `total_ss = item_score * shirt_score * m
 
 **See Also:** [Detailed Profile](../../drugs-detailed/ketamine.md) | [Grayanotoxin x Ketamine](../../drugs-detailed/drug-pairings.md#grayanotoxin-x-ketamine)
 
-![Ketamine](https://mibera.fsn1.your-objectstorage.com/components/Molecule%20%28new%29/milady_nepal_turkey_ketamine.webp)
 
 ---
 
@@ -543,7 +511,6 @@ Molecules contribute to the Swag Score: `total_ss = item_score * shirt_score * m
 
 **See Also:** [Detailed Profile](../../drugs-detailed/khat.md) | [Khat x M-Cat](../../drugs-detailed/drug-pairings.md#khat-x-m-cat)
 
-![Khat](https://mibera.fsn1.your-objectstorage.com/components/Molecule%20%28new%29/freetekno_ethiopian_khat.webp)
 
 ---
 
@@ -559,7 +526,6 @@ Molecules contribute to the Swag Score: `total_ss = item_score * shirt_score * m
 
 **See Also:** [Detailed Profile](../../drugs-detailed/kratom.md) | [Sakae Na x Kratom](../../drugs-detailed/drug-pairings.md#sakae-naa-x-kratom)
 
-![Kratom](https://mibera.fsn1.your-objectstorage.com/components/Molecule%20%28new%29/milady_thai_kratom.webp)
 
 ---
 
@@ -575,7 +541,6 @@ Molecules contribute to the Swag Score: `total_ss = item_score * shirt_score * m
 
 **See Also:** [Detailed Profile](../../drugs-detailed/kwao-krua.md) | [Kwao Krua x Estrogen](../../drugs-detailed/drug-pairings.md#kwao-krua-x-estrogen)
 
-![Kwao Krua](https://mibera.fsn1.your-objectstorage.com/components/Molecule%20%28new%29/milady_thai_kwao%20krua.webp)
 
 ---
 
@@ -591,7 +556,6 @@ Molecules contribute to the Swag Score: `total_ss = item_score * shirt_score * m
 
 **See Also:** [Detailed Profile](../../drugs-detailed/kykeon.md) | [Kykeon x Shroom Tea](../../drugs-detailed/drug-pairings.md#kykeon-x-shroom-tea)
 
-![Kykeon](https://mibera.fsn1.your-objectstorage.com/components/Molecule%20%28new%29/acidhouse_greekAncients_kykeon.webp)
 
 ---
 
@@ -607,7 +571,6 @@ Molecules contribute to the Swag Score: `total_ss = item_score * shirt_score * m
 
 **See Also:** [Detailed Profile](../../drugs-detailed/lamotrigine.md) | [Lithium x Lamotrigine](../../drugs-detailed/drug-pairings.md#lithium-x-lamotrigine)
 
-![Lamotrigine](https://mibera.fsn1.your-objectstorage.com/components/Molecule%20%28new%29/acidhouse_irishDruids_lamotrigine.webp)
 
 ---
 
@@ -623,7 +586,6 @@ Molecules contribute to the Swag Score: `total_ss = item_score * shirt_score * m
 
 **See Also:** [Detailed Profile](../../drugs-detailed/lithium.md) | [Lithium x Lamotrigine](../../drugs-detailed/drug-pairings.md#lithium-x-lamotrigine)
 
-![Lithium](https://mibera.fsn1.your-objectstorage.com/components/Molecule%20%28new%29/acidhouse_irishDruids_lithium.webp)
 
 ---
 
@@ -639,7 +601,6 @@ Molecules contribute to the Swag Score: `total_ss = item_score * shirt_score * m
 
 **See Also:** [Detailed Profile](../../drugs-detailed/lsd.md) | [Ancestral Trance x LSD](../../drugs-detailed/drug-pairings.md#ancestral-trance-x-lsd) | [Ololiuqui x LSD](../../drugs-detailed/drug-pairings.md#ololiuqui-x-lsd)
 
-![LSD](https://mibera.fsn1.your-objectstorage.com/components/Molecule%20%28new%29/freetekno_aboriginals_haitians_LSD.webp)
 
 ---
 
@@ -655,7 +616,6 @@ Molecules contribute to the Swag Score: `total_ss = item_score * shirt_score * m
 
 **See Also:** [Detailed Profile](../../drugs-detailed/m-cat.md) | [Khat x M-Cat](../../drugs-detailed/drug-pairings.md#khat-x-m-cat)
 
-![M-CAT](https://mibera.fsn1.your-objectstorage.com/components/Molecule%20%28new%29/freetekno_ethiopians_M-CAT.webp)
 
 ---
 
@@ -671,7 +631,6 @@ Molecules contribute to the Swag Score: `total_ss = item_score * shirt_score * m
 
 **See Also:** [Detailed Profile](../../drugs-detailed/mandrake.md) | [Mandrake x Xanax](../../drugs-detailed/drug-pairings.md#mandrake-x-xanax)
 
-![Mandrake](https://mibera.fsn1.your-objectstorage.com/components/Molecule%20%28new%29/freetekno_greek_arabs_mandrake.webp)
 
 ---
 
@@ -687,7 +646,6 @@ Molecules contribute to the Swag Score: `total_ss = item_score * shirt_score * m
 
 **See Also:** [Detailed Profile](../../drugs-detailed/mda.md) | [Sassafras x MDA](../../drugs-detailed/drug-pairings.md#sassafras-x-mda)
 
-![MDA](https://mibera.fsn1.your-objectstorage.com/components/Molecule%20%28new%29/milady_nativeAmerican_MDA.webp)
 
 ---
 
@@ -703,7 +661,6 @@ Molecules contribute to the Swag Score: `total_ss = item_score * shirt_score * m
 
 **See Also:** [Detailed Profile](../../drugs-detailed/mdma.md) | [Sassafras x MDMA](../../drugs-detailed/drug-pairings.md#sassafras-x-mdma)
 
-![MDMA](https://mibera.fsn1.your-objectstorage.com/components/Molecule%20%28new%29/milady_nativeAmerican_MDMA.webp)
 
 ---
 
@@ -719,7 +676,6 @@ Molecules contribute to the Swag Score: `total_ss = item_score * shirt_score * m
 
 **See Also:** [Detailed Profile](../../drugs-detailed/methamphetamine.md) | [Ephedra x Methamphetamine](../../drugs-detailed/drug-pairings.md#ephedra-x-methamphetamine)
 
-![Methamphetamine](https://mibera.fsn1.your-objectstorage.com/components/Molecule%20%28new%29/milady_chinese_palestinian_methamphetamine.webp)
 
 ---
 
@@ -735,7 +691,6 @@ Molecules contribute to the Swag Score: `total_ss = item_score * shirt_score * m
 
 **See Also:** [Detailed Profile](../../drugs-detailed/mimosa-tenuiflora.md) | [Mimosa Tenuiflora x DMT](../../drugs-detailed/drug-pairings.md#mimosa-tenuiflora-x-dmt)
 
-![Mimosa Tenuiflora](https://mibera.fsn1.your-objectstorage.com/components/Molecule%20%28new%29/acidhouse_mayan_Mimosa%20Tenuiflora.webp)
 
 ---
 
@@ -751,7 +706,6 @@ Molecules contribute to the Swag Score: `total_ss = item_score * shirt_score * m
 
 **See Also:** [Detailed Profile](../../drugs-detailed/mmda.md) | [Nutmeg x MMDA](../../drugs-detailed/drug-pairings.md#nutmeg-x-mmda)
 
-![MMDA](https://mibera.fsn1.your-objectstorage.com/components/Molecule%20%28new%29/acidhouse_arabs_MMDA.webp)
 
 ---
 
@@ -767,7 +721,6 @@ Molecules contribute to the Swag Score: `total_ss = item_score * shirt_score * m
 
 **See Also:** [Detailed Profile](../../drugs-detailed/mucuna-pruriens.md) | [Mucuna Pruriens x DMT](../../drugs-detailed/drug-pairings.md#mucuna-pruriens-x-dmt)
 
-![Mucuna pruriens](https://mibera.fsn1.your-objectstorage.com/components/Molecule%20%28new%29/acidhouse_hindu_mucana%20pruriens.webp)
 
 ---
 
@@ -783,7 +736,6 @@ Molecules contribute to the Swag Score: `total_ss = item_score * shirt_score * m
 
 **See Also:** [Detailed Profile](../../drugs-detailed/mushrooms.md) | [Mushroom x Psilacetin](../../drugs-detailed/drug-pairings.md#mushroom-x-psicaletin)
 
-![Mushrooms](https://mibera.fsn1.your-objectstorage.com/components/Molecule%20%28new%29/acidhouse_irishDruids_buddhists_sami_mushrooms.webp)
 
 ---
 
@@ -799,7 +751,6 @@ Molecules contribute to the Swag Score: `total_ss = item_score * shirt_score * m
 
 **See Also:** [Detailed Profile](../../drugs-detailed/nicotine.md) | [Tobacco x Nicotine](../../drugs-detailed/drug-pairings.md#tobacco-x-nicotine)
 
-![Nicotine](https://mibera.fsn1.your-objectstorage.com/components/Molecule%20%28new%29/chicagodetroit_nativeAmerican_aboriginal_nicotine.webp)
 
 ---
 
@@ -815,7 +766,6 @@ Molecules contribute to the Swag Score: `total_ss = item_score * shirt_score * m
 
 **See Also:** [Detailed Profile](../../drugs-detailed/nos.md) | [Ethylene x NOS](../../drugs-detailed/drug-pairings.md#ethylene-x-nos)
 
-![NOS](https://mibera.fsn1.your-objectstorage.com/components/Molecule%20%28new%29/acidhouse_pythia_NOS.webp)
 
 ---
 
@@ -831,7 +781,6 @@ Molecules contribute to the Swag Score: `total_ss = item_score * shirt_score * m
 
 **See Also:** [Detailed Profile](../../drugs-detailed/nutmeg.md) | [Nutmeg x MMDA](../../drugs-detailed/drug-pairings.md#nutmeg-x-mmda)
 
-![Nutmeg](https://mibera.fsn1.your-objectstorage.com/components/Molecule%20%28new%29/acidhouse_arabs_nutmeg.webp)
 
 ---
 
@@ -847,7 +796,6 @@ Molecules contribute to the Swag Score: `total_ss = item_score * shirt_score * m
 
 **See Also:** [Detailed Profile](../../drugs-detailed/nymphaea-caerulea.md) | [Nymphaea Caerulea x Poppers](../../drugs-detailed/drug-pairings.md#nymphaea-caerulea-x-poppers)
 
-![Nymphaea caerulea](https://mibera.fsn1.your-objectstorage.com/components/Molecule%20%28new%29/chicagodetroit_greek_nymphaea%20caerulea.webp)
 
 ---
 
@@ -863,7 +811,6 @@ Molecules contribute to the Swag Score: `total_ss = item_score * shirt_score * m
 
 **See Also:** [Detailed Profile](../../drugs-detailed/ololiuqui.md) | [Ololiuqui x LSD](../../drugs-detailed/drug-pairings.md#ololiuqui-x-lsd)
 
-![Ololiuqui](https://mibera.fsn1.your-objectstorage.com/components/Molecule%20%28new%29/acidhouse_mayan_ololiuqui.webp)
 
 ---
 
@@ -879,7 +826,6 @@ Molecules contribute to the Swag Score: `total_ss = item_score * shirt_score * m
 
 **See Also:** [Detailed Profile](../../drugs-detailed/peyote.md) | [Peyote x 2C-B](../../drugs-detailed/drug-pairings.md#peyote-x-2c-b)
 
-![Peyote](https://mibera.fsn1.your-objectstorage.com/components/Molecule%20%28new%29/freetekno_nativeAmerican_peyote.webp)
 
 ---
 
@@ -895,7 +841,6 @@ Molecules contribute to the Swag Score: `total_ss = item_score * shirt_score * m
 
 **See Also:** [Detailed Profile](../../drugs-detailed/piracetam.md) | [Brahmi x Piracetam](../../drugs-detailed/drug-pairings.md#brahmi-x-piracetam)
 
-![Piracetam](https://mibera.fsn1.your-objectstorage.com/components/Molecule%20%28new%29/chicagodetroit_hindu_piracetam.webp)
 
 ---
 
@@ -911,7 +856,6 @@ Molecules contribute to the Swag Score: `total_ss = item_score * shirt_score * m
 
 **See Also:** [Detailed Profile](../../drugs-detailed/pituri.md) | [Pituri x Chewing Tobacco](../../drugs-detailed/drug-pairings.md#pituri-x-chewing-tobacco)
 
-![Pituri](https://mibera.fsn1.your-objectstorage.com/components/Molecule%20%28new%29/chicagodetroit_aboriginal_pituri.webp)
 
 ---
 
@@ -927,7 +871,6 @@ Molecules contribute to the Swag Score: `total_ss = item_score * shirt_score * m
 
 **See Also:** [Detailed Profile](../../drugs-detailed/poppers.md) | [Nymphaea Caerulea x Poppers](../../drugs-detailed/drug-pairings.md#nymphaea-caerulea-x-poppers)
 
-![Poppers](https://mibera.fsn1.your-objectstorage.com/components/Molecule%20%28new%29/chicagodetroit_stonewall_poppers.webp)
 
 ---
 
@@ -943,7 +886,6 @@ Molecules contribute to the Swag Score: `total_ss = item_score * shirt_score * m
 
 **See Also:** [Detailed Profile](../../drugs-detailed/psilacetin.md) | [Mushroom x Psilacetin](../../drugs-detailed/drug-pairings.md#mushroom-x-psicaletin)
 
-![Psilacetin](https://mibera.fsn1.your-objectstorage.com/components/Molecule%20%28new%29/acidhouse_irishDruids_buddhists_sami_psilacetin.webp)
 
 ---
 
@@ -959,7 +901,6 @@ Molecules contribute to the Swag Score: `total_ss = item_score * shirt_score * m
 
 **See Also:** [Detailed Profile](../../drugs-detailed/psychotria-viridis.md) | [Psychotria Viridis x Datura](../../drugs-detailed/drug-pairings.md#pyschotria-viridis-x-datura)
 
-![Psychotria viridis](https://mibera.fsn1.your-objectstorage.com/components/Molecule%20%28new%29/freetekno_nativeAmericans_mayan_psychotria%20viridis.webp)
 
 ---
 
@@ -975,7 +916,6 @@ Molecules contribute to the Swag Score: `total_ss = item_score * shirt_score * m
 
 **See Also:** [Detailed Profile](../../drugs-detailed/sakae-na.md) | [Sakae Na x Kratom](../../drugs-detailed/drug-pairings.md#sakae-naa-x-kratom)
 
-![Sakae Na](https://mibera.fsn1.your-objectstorage.com/components/Molecule%20%28new%29/milady_thai_sakae%20naa.webp)
 
 ---
 
@@ -991,7 +931,6 @@ Molecules contribute to the Swag Score: `total_ss = item_score * shirt_score * m
 
 **See Also:** [Detailed Profile](../../drugs-detailed/sassafras.md) | [Sassafras x MDMA](../../drugs-detailed/drug-pairings.md#sassafras-x-mdma) | [Sassafras x MDA](../../drugs-detailed/drug-pairings.md#sassafras-x-mda)
 
-![Sassafras](https://mibera.fsn1.your-objectstorage.com/components/Molecule%20%28new%29/milady_nativeAmerican_sassafras.webp)
 
 ---
 
@@ -1007,7 +946,6 @@ Molecules contribute to the Swag Score: `total_ss = item_score * shirt_score * m
 
 **See Also:** [Detailed Profile](../../drugs-detailed/scopolamine.md) | [Henbane x Scopolamine](../../drugs-detailed/drug-pairings.md#henbane-x-scopolamine)
 
-![Scopolamine](https://mibera.fsn1.your-objectstorage.com/components/Molecule%20%28new%29/freetekno_greek_arabs_scopolamine.webp)
 
 ---
 
@@ -1023,7 +961,6 @@ Molecules contribute to the Swag Score: `total_ss = item_score * shirt_score * m
 
 **See Also:** [Detailed Profile](../../drugs-detailed/sertraline.md) | [St. John's Wort x Sertraline](../../drugs-detailed/drug-pairings.md#st-johns-wort-x-sertraline)
 
-![Sertraline](https://mibera.fsn1.your-objectstorage.com/components/Molecule%20%28new%29/freetekno_greek_sertraline.webp)
 
 ---
 
@@ -1039,7 +976,6 @@ Molecules contribute to the Swag Score: `total_ss = item_score * shirt_score * m
 
 **See Also:** [Detailed Profile](../../drugs-detailed/shroom-tea.md) | [Kykeon x Shroom Tea](../../drugs-detailed/drug-pairings.md#kykeon-x-shroom-tea)
 
-![Shroom Tea](https://mibera.fsn1.your-objectstorage.com/components/Molecule%20%28new%29/acidhouse_greekAncients_shroom%20tea.webp)
 
 ---
 
@@ -1055,7 +991,6 @@ Molecules contribute to the Swag Score: `total_ss = item_score * shirt_score * m
 
 **See Also:** [Detailed Profile](../../drugs-detailed/sildenafil.md) | [Yohimbe x Sildenafil](../../drugs-detailed/drug-pairings.md#yohimbe-x-sildenafil)
 
-![Sildenafil](https://mibera.fsn1.your-objectstorage.com/components/Molecule%20%28new%29/chicagodetroit_gabon_sildenafil.webp)
 
 ---
 
@@ -1071,7 +1006,6 @@ Molecules contribute to the Swag Score: `total_ss = item_score * shirt_score * m
 
 **See Also:** [Detailed Profile](../../drugs-detailed/sober.md) | [Euphoria x Sober](../../drugs-detailed/drug-pairings.md#euphoria-x-sober) | [Sober x Clear Pill](../../drugs-detailed/drug-pairings.md#sober-x-clear-pill)
 
-![Sober](https://mibera.fsn1.your-objectstorage.com/components/Molecule%20%28new%29/milady_mongolian_sober.webp)
 
 ---
 
@@ -1087,7 +1021,6 @@ Molecules contribute to the Swag Score: `total_ss = item_score * shirt_score * m
 
 **See Also:** [Detailed Profile](../../drugs-detailed/st-johns-wort.md) | [St. John's Wort x Sertraline](../../drugs-detailed/drug-pairings.md#st-johns-wort-x-sertraline)
 
-![St. John's Wort](https://mibera.fsn1.your-objectstorage.com/components/Molecule%20%28new%29/freetekno_greek_st.%20john%27s%20wort.webp)
 
 ---
 
@@ -1103,7 +1036,6 @@ Molecules contribute to the Swag Score: `total_ss = item_score * shirt_score * m
 
 **See Also:** [Detailed Profile](../../drugs-detailed/sugarcane.md) | [Sugarcane x Ethanol](../../drugs-detailed/drug-pairings.md#sugarcane-x-ethanol)
 
-![Sugarcane](https://mibera.fsn1.your-objectstorage.com/components/Molecule%20%28new%29/chicagodetroit_hindu_sugarcane.webp)
 
 ---
 
@@ -1119,7 +1051,6 @@ Molecules contribute to the Swag Score: `total_ss = item_score * shirt_score * m
 
 **See Also:** [Detailed Profile](../../drugs-detailed/syrian-rue.md) | [Syrian Rue x Iproniazid](../../drugs-detailed/drug-pairings.md#syrian-rue-x-iproniazid)
 
-![Syrian Rue](https://mibera.fsn1.your-objectstorage.com/components/Molecule%20%28new%29/freetekno_sufi_syrian%20rue.webp)
 
 ---
 
@@ -1135,7 +1066,6 @@ Molecules contribute to the Swag Score: `total_ss = item_score * shirt_score * m
 
 **See Also:** [Detailed Profile](../../drugs-detailed/tabernaemontana.md) | [Tabernaemontana x Ibogaine](../../drugs-detailed/drug-pairings.md#tabernaemontana-x-ibogaine)
 
-![Tabernaemontana](https://mibera.fsn1.your-objectstorage.com/components/Molecule%20%28new%29/freetekno_gabon_tabernaemontana.webp)
 
 ---
 
@@ -1151,7 +1081,6 @@ Molecules contribute to the Swag Score: `total_ss = item_score * shirt_score * m
 
 **See Also:** [Detailed Profile](../../drugs-detailed/tea.md) | [Tea x Caffeine](../../drugs-detailed/drug-pairings.md#tea-x-caffeine)
 
-![Tea](https://mibera.fsn1.your-objectstorage.com/components/Molecule%20%28new%29/milady_chinese_japanese_tea.webp)
 
 ---
 
@@ -1167,7 +1096,6 @@ Molecules contribute to the Swag Score: `total_ss = item_score * shirt_score * m
 
 **See Also:** [Detailed Profile](../../drugs-detailed/testosterone.md) | [Ashwagandha x Testosterone](../../drugs-detailed/drug-pairings.md#ashwagandha-x-testosterone)
 
-![Testosterone](https://mibera.fsn1.your-objectstorage.com/components/Molecule%20%28new%29/milady_hindu_testosterone.webp)
 
 ---
 
@@ -1183,7 +1111,6 @@ Molecules contribute to the Swag Score: `total_ss = item_score * shirt_score * m
 
 **See Also:** [Detailed Profile](../../drugs-detailed/thc-edibles.md) | [Bhang x THC Edibles](../../drugs-detailed/drug-pairings.md#bhang-x-thc-edibles)
 
-![THC Edibles](https://mibera.fsn1.your-objectstorage.com/components/Molecule%20%28new%29/chicagodetroit_hindu_THC%20edibles.webp)
 
 ---
 
@@ -1199,7 +1126,6 @@ Molecules contribute to the Swag Score: `total_ss = item_score * shirt_score * m
 
 **See Also:** [Detailed Profile](../../drugs-detailed/tobacco.md) | [Tobacco x Nicotine](../../drugs-detailed/drug-pairings.md#tobacco-x-nicotine)
 
-![Tobacco](https://mibera.fsn1.your-objectstorage.com/components/Molecule%20%28new%29/chicagodetroit_hindu_tobacco.webp)
 
 ---
 
@@ -1215,7 +1141,6 @@ Molecules contribute to the Swag Score: `total_ss = item_score * shirt_score * m
 
 **See Also:** [Detailed Profile](../../drugs-detailed/weed.md) | [Weed x Weed](../../drugs-detailed/drug-pairings.md#weed-x-weed)
 
-![Weed](https://mibera.fsn1.your-objectstorage.com/components/Molecule%20%28new%29/chicagodetroit_rastafarians_weed.webp)
 
 ---
 
@@ -1231,7 +1156,6 @@ Molecules contribute to the Swag Score: `total_ss = item_score * shirt_score * m
 
 **See Also:** [Detailed Profile](../../drugs-detailed/xanax.md) | [Mandrake x Xanax](../../drugs-detailed/drug-pairings.md#mandrake-x-xanax)
 
-![Xanax](https://mibera.fsn1.your-objectstorage.com/components/Molecule%20%28new%29/freetekno_hindu_xanax.webp)
 
 ---
 
@@ -1247,7 +1171,6 @@ Molecules contribute to the Swag Score: `total_ss = item_score * shirt_score * m
 
 **See Also:** [Detailed Profile](../../drugs-detailed/yohimbe.md) | [Yohimbe x Sildenafil](../../drugs-detailed/drug-pairings.md#yohimbe-x-sildenafil)
 
-![Yohimbe](https://mibera.fsn1.your-objectstorage.com/components/Molecule%20%28new%29/chicagodetroit_gabon_yohimbine.webp)
 
 ---
 
@@ -1263,6 +1186,5 @@ Molecules contribute to the Swag Score: `total_ss = item_score * shirt_score * m
 
 **See Also:** [Detailed Profile](../../drugs-detailed/2c-b.md) | [Peyote x 2C-B](../../drugs-detailed/drug-pairings.md#peyote-x-2c-b)
 
-![2C-B](https://mibera.fsn1.your-objectstorage.com/components/Molecule%20%28new%29/freetekno_nativeAmerican_2C-B.webp)
 
 ---

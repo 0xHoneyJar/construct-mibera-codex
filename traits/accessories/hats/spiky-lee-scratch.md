@@ -1,6 +1,6 @@
 ---
 name: Spiky Lee Scratch
-image: "https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS5_chicagodetroit_Lee%20Scratch.webp"
+image: ""
 archetype: Chicago Detroit
 swag_score: 5
 date_added: "2024-07-27"
@@ -10,7 +10,6 @@ date_added: "2024-07-27"
 
 ## Visual Elements
 
-![Lee Scratch](https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS5_chicagodetroit_Lee%20Scratch.webp)
 
 Red cap with black spikes coming out of it all around the body and along the edge of the cap.
 

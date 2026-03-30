@@ -1,6 +1,6 @@
 ---
 name: Picture Cave
-image: "https://mibera.fsn1.your-objectstorage.com/components/tattoos__z125/ancient_native%20american_Picture%20Cave.webp"
+image: ""
 swag_score: null
 date_added: "2024-08-09"
 ---
@@ -9,7 +9,6 @@ date_added: "2024-08-09"
 
 ## Visual Elements
 
-![ancient_native american_Picture Cave](https://mibera.fsn1.your-objectstorage.com/components/tattoos__z125/ancient_native%20american_Picture%20Cave.webp)
 
 Line work of a naked prehistoric man with what looks like arrows.
 

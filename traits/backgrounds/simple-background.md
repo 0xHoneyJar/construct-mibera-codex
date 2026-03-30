@@ -1,6 +1,6 @@
 ---
 name: Simple Background
-image: "https://mibera.fsn1.your-objectstorage.com/components/simple/simple%20background/57_simple%20background(4"
+image: ""
 date_added: null
 ---
 
@@ -8,7 +8,6 @@ date_added: null
 
 ## Visual Elements
 
-![Simple Background - TV Glitch](https://mibera.fsn1.your-objectstorage.com/components/simple/simple%20background/57_simple%20background(4)
 
 a stereotypical TV glitch in vibrant colors.
 

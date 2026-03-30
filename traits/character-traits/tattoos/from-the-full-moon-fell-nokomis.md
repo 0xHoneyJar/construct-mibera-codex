@@ -1,6 +1,6 @@
 ---
 name: From the Full Moon Fell Nokomis
-image: "https://mibera.fsn1.your-objectstorage.com/components/tattoos__z125/modern_native%20american_From%20the%20Full%20Moon%20fell%20Nokomis.webp"
+image: ""
 swag_score: null
 date_added: "2024-08-09"
 ---
@@ -9,7 +9,6 @@ date_added: "2024-08-09"
 
 ## Visual Elements
 
-![modern_native american_From the Full Moon fell Nokomis](https://mibera.fsn1.your-objectstorage.com/components/tattoos__z125/modern_native%20american_From%20the%20Full%20Moon%20fell%20Nokomis.webp)
 
 Line work of a woman looking up with her hair floating and vines.
 

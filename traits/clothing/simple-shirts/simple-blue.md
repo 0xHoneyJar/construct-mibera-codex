@@ -1,7 +1,7 @@
 ---
 name: Simple Blue
 swag_score: 1
-image: "https://mibera.fsn1.your-objectstorage.com/components/simple/simples%20for%20shadows/146_simple%20blue.webp"
+image: ""
 date_added: "2024-08"
 ---
 
@@ -9,7 +9,6 @@ date_added: "2024-08"
 
 ## Visual Elements
 
-![Simple Blue](https://mibera.fsn1.your-objectstorage.com/components/simple/simples%20for%20shadows/146_simple%20blue.webp)
 
 A basic solid blue t-shirt.
 

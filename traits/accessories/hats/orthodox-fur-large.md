@@ -1,6 +1,6 @@
 ---
 name: Orthodox Fur Large
-image: "https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS4_chicagodetroit_modern_orthodoxjew_Orthodox%20Fur%20Large.webp"
+image: ""
 archetype: Chicago Detroit
 swag_score: 4
 date_added: "2024-07-26"
@@ -10,7 +10,6 @@ date_added: "2024-07-26"
 
 ## Visual Elements
 
-![modern orthodoxjew Orthodox Fur Large](https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS4_chicagodetroit_modern_orthodoxjew_Orthodox%20Fur%20Large.webp)
 
 Round furry hat in black, large in size.
 

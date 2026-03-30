@@ -1,7 +1,7 @@
 ---
 name: Simple Black
 swag_score: 1
-image: "https://mibera.fsn1.your-objectstorage.com/components/simple/simples%20for%20shadows/145_simple%20black.webp"
+image: ""
 date_added: "2024-08"
 ---
 
@@ -9,7 +9,6 @@ date_added: "2024-08"
 
 ## Visual Elements
 
-![Simple Black](https://mibera.fsn1.your-objectstorage.com/components/simple/simples%20for%20shadows/145_simple%20black.webp)
 
 A basic solid black t-shirt.
 

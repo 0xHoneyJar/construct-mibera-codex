@@ -1,6 +1,6 @@
 ---
 name: Palestinians For Black Power
-image: "https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT"
+image: ""
 archetype: Acidhouse
 swag_score: 2
 date_added: "2024-06-22"
@@ -10,7 +10,6 @@ date_added: "2024-06-22"
 
 ## Visual Elements
 
-![modern_palestine_Palestinians For Black Power](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)
 
 a black t-shirt with white text that reads “PALESTINIANS for BLACK POWER” and an Arabic script under it.
 

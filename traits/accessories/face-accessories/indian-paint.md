@@ -1,6 +1,6 @@
 ---
 name: Indian Paint
-image: "https://mibera.fsn1.your-objectstorage.com/components/face%20accessories__z60/SS4_chicagodetroit_ancient_indian_Indian.webp"
+image: ""
 archetype: Chicago Detroit
 swag_score: 4
 date_added: "2024-12-10"
@@ -10,7 +10,6 @@ date_added: "2024-12-10"
 
 ## Visual Elements
 
-![Indian Paint](https://mibera.fsn1.your-objectstorage.com/components/face%20accessories__z60/SS4_chicagodetroit_ancient_indian_Indian.webp)
 
 Brush strokes and smudges of bright red and yellow stripes with a darker red / maroon stripe in the center.
 

@@ -1,6 +1,6 @@
 ---
 name: Ge Ez Love
-image: "https://mibera.fsn1.your-objectstorage.com/components/tattoos__z125/ancient_ethiopian_ge_ez%20love.webp"
+image: ""
 swag_score: null
 date_added: "2024-08-09"
 ---
@@ -9,7 +9,6 @@ date_added: "2024-08-09"
 
 ## Visual Elements
 
-![ez love](https://mibera.fsn1.your-objectstorage.com/components/tattoos__z125/ancient_ethiopian_ge_ez%20love.webp)
 
 What looks like a script; It is read: “ge’ez” meaning ‘love’ in ancient Semitic language of Ethiopia and Eritrea.
 

@@ -1,6 +1,6 @@
 ---
 name: Semilunar
-image: "https://mibera.fsn1.your-objectstorage.com/components/tattoos__z125/modern_arabic_Semilunar.webp"
+image: ""
 swag_score: null
 date_added: "2024-08-10"
 ---
@@ -9,7 +9,6 @@ date_added: "2024-08-10"
 
 ## Visual Elements
 
-![Semilunar](https://mibera.fsn1.your-objectstorage.com/components/tattoos__z125/modern_arabic_Semilunar.webp)
 
 Semilunar moon made of flowy lines and circular shapes.
 

@@ -1,7 +1,7 @@
 ---
 name: Simple Brown
 swag_score: 1
-image: "https://mibera.fsn1.your-objectstorage.com/components/simple/simples%20for%20shadows/147_simple%20brown.webp"
+image: ""
 date_added: "2024-08"
 ---
 
@@ -9,7 +9,6 @@ date_added: "2024-08"
 
 ## Visual Elements
 
-![Simple Brown](https://mibera.fsn1.your-objectstorage.com/components/simple/simples%20for%20shadows/147_simple%20brown.webp)
 
 A basic solid brown t-shirt.
 

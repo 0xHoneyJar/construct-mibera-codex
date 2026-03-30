@@ -1,6 +1,6 @@
 ---
 name: Peyote Desert
-image: "https://mibera.fsn1.your-objectstorage.com/components/background__z10/peyote.webp"
+image: ""
 date_added: "2024-08-14"
 ---
 
@@ -8,7 +8,6 @@ date_added: "2024-08-14"
 
 ## Visual Elements
 
-![Peyote Desert](https://mibera.fsn1.your-objectstorage.com/components/background__z10/peyote.webp)
 
 Painterly abstract style of a bright red and orange gradient, with white horizontal smudgy band near top and subtle squiggly grid pattern that’s semi transparent.
 

@@ -1,7 +1,7 @@
 ---
 name: Simple White
 swag_score: 1
-image: "https://mibera.fsn1.your-objectstorage.com/components/simple/simples%20for%20shadows/151_simple%20white.webp"
+image: ""
 date_added: "2024-08"
 ---
 
@@ -9,7 +9,6 @@ date_added: "2024-08"
 
 ## Visual Elements
 
-![Simple White](https://mibera.fsn1.your-objectstorage.com/components/simple/simples%20for%20shadows/151_simple%20white.webp)
 
 A basic solid white t-shirt.
 

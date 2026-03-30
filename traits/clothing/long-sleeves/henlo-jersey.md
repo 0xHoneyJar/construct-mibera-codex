@@ -1,6 +1,6 @@
 ---
 name: Henlo Jersey
-image: "https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(LONG"
+image: ""
 swag_score: 3
 date_added: "2024-12-10"
 ---
@@ -9,7 +9,6 @@ date_added: "2024-12-10"
 
 ## Visual Elements
 
-![Henlo](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(LONG)
 
 Muted purple jersey with 'HENLO' in gothic font, worn over a white t-shirt, topped with 2 thin gold chains.
 

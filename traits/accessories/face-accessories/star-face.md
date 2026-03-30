@@ -1,6 +1,6 @@
 ---
 name: Star Face
-image: "https://mibera.fsn1.your-objectstorage.com/components/face%20accessories__z60/SS3_acidhouse_star.webp"
+image: ""
 archetype: Acidhouse
 swag_score: 3
 date_added: "2024-12-10"
@@ -10,7 +10,6 @@ date_added: "2024-12-10"
 
 ## Visual Elements
 
-![Star Face](https://mibera.fsn1.your-objectstorage.com/components/face%20accessories__z60/SS3_acidhouse_star.webp)
 
 Black star.
 

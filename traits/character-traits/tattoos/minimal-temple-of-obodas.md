@@ -1,6 +1,6 @@
 ---
 name: Minimal Temple of Obodas
-image: "https://mibera.fsn1.your-objectstorage.com/components/tattoos__z125/ancient_arabic_Minimal%20Temple%20of%20Obodas.webp"
+image: ""
 swag_score: null
 date_added: "2024-08-09"
 ---
@@ -9,7 +9,6 @@ date_added: "2024-08-09"
 
 ## Visual Elements
 
-![Minimal Temple of Obodas](https://mibera.fsn1.your-objectstorage.com/components/tattoos__z125/ancient_arabic_Minimal%20Temple%20of%20Obodas.webp)
 
 Simple line art of buildings, resembling a city.
 

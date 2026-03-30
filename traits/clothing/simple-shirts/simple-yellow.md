@@ -1,7 +1,7 @@
 ---
 name: Simple Yellow
 swag_score: 1
-image: "https://mibera.fsn1.your-objectstorage.com/components/simple/simples%20for%20shadows/152_simple%20yellow.webp"
+image: ""
 date_added: "2024-08"
 ---
 
@@ -9,7 +9,6 @@ date_added: "2024-08"
 
 ## Visual Elements
 
-![Simple Yellow](https://mibera.fsn1.your-objectstorage.com/components/simple/simples%20for%20shadows/152_simple%20yellow.webp)
 
 A basic solid yellow t-shirt.
 

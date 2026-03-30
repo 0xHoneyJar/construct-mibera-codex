@@ -1,6 +1,6 @@
 ---
 name: Peyote
-image: "https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS4_freetekno_Peyote%20Hat.webp"
+image: ""
 archetype: Freetekno
 swag_score: 4
 date_added: "2024-07-27"
@@ -10,7 +10,6 @@ date_added: "2024-07-27"
 
 ## Visual Elements
 
-![Peyote Hat](https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS4_freetekno_Peyote%20Hat.webp)
 
 Wide round hat, flat in shape, with a bunch of grey feathers on top and a red-yellow pompom in the center. On the edge of the hat are dangling ornaments with patterns in blue and orange.
 

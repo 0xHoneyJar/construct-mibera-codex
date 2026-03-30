@@ -1,6 +1,6 @@
 ---
 name: normal brown
-image: "https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/Normal%20Ocean__w25.webp"
+image: ""
 date_added: "2024-06-03"
 ---
 
@@ -8,7 +8,6 @@ date_added: "2024-06-03"
 
 ## Visual Elements
 
-![Normal Ocean](https://mibera.fsn1.your-objectstorage.com/components/eyes__z69/Normal%20Ocean__w25.webp)
 
 normal eyes in earthy brown.
 

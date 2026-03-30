@@ -1,6 +1,6 @@
 ---
 name: Ethiopian
-image: "https://mibera.fsn1.your-objectstorage.com/components/face%20accessories__z60/SS5_chicagodetroit_ancient_ethiopian_Ethiopian.webp"
+image: ""
 archetype: Chicago Detroit
 swag_score: 5
 date_added: "2024-12-10"
@@ -10,7 +10,6 @@ date_added: "2024-12-10"
 
 ## Visual Elements
 
-![Ethiopian](https://mibera.fsn1.your-objectstorage.com/components/face%20accessories__z60/SS5_chicagodetroit_ancient_ethiopian_Ethiopian.webp)
 
 White base with smudged outline, and messy circular-rectangular shape doodles in black on top of it.
 

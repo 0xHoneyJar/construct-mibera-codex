@@ -1,6 +1,6 @@
 ---
 name: All Seeing Bullas
-image: "https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT"
+image: ""
 swag_score: 3
 date_added: "2024-12-10"
 ---
@@ -9,7 +9,6 @@ date_added: "2024-12-10"
 
 ## Visual Elements
 
-![Bullas](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)
 
 Deep teal t-shirt with the “Bullas” logo and lettering. A triangle with bull horns extending out of it with an open eyeball.
 

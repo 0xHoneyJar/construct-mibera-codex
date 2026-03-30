@@ -1,6 +1,6 @@
 ---
 name: Cincinnati Reds
-image: "https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS3_freetekno_C.webp"
+image: ""
 archetype: Freetekno
 swag_score: 3
 date_added: "2024-07-25"
@@ -10,7 +10,6 @@ date_added: "2024-07-25"
 
 ## Visual Elements
 
-![C](https://mibera.fsn1.your-objectstorage.com/components/hats__z160/SS3_freetekno_C.webp)
 
 Red cap with big yellow letter ‘C’ in the middle.
 

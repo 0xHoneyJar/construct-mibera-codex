@@ -1,7 +1,7 @@
 ---
 name: Simple Red
 swag_score: 1
-image: "https://mibera.fsn1.your-objectstorage.com/components/simple/simples%20for%20shadows/150_simple%20red.webp"
+image: ""
 date_added: "2024-08"
 ---
 
@@ -9,7 +9,6 @@ date_added: "2024-08"
 
 ## Visual Elements
 
-![Simple Red](https://mibera.fsn1.your-objectstorage.com/components/simple/simples%20for%20shadows/150_simple%20red.webp)
 
 A basic solid red t-shirt.
 

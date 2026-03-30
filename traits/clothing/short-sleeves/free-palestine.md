@@ -1,6 +1,6 @@
 ---
 name: Free Palestine
-image: "https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT"
+image: ""
 archetype: Milady
 swag_score: 2
 date_added: "2024-06-22"
@@ -10,7 +10,6 @@ date_added: "2024-06-22"
 
 ## Visual Elements
 
-![modern_palestine_Free Palestine](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)
 
 Black t-shirt a graphic of a fist up in the colour of Palestine’s flag (green, red, white) and white text that reads “FREE PALESTINE”.
 

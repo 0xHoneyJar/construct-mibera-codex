@@ -1,6 +1,6 @@
 ---
 name: Capricornus
-image: "https://mibera.fsn1.your-objectstorage.com/components/Constellations/capricorn.webp"
+image: ""
 date_added: "2024-11-23"
 ---
 
@@ -8,7 +8,6 @@ date_added: "2024-11-23"
 
 ## Visual Elements
 
-![Capricornus](https://mibera.fsn1.your-objectstorage.com/components/Constellations/capricorn.webp)
 
 Deep blue night sky with bright white 4-points-stars connected by thin white lines forming a constellation (Capricorn). Smaller stars in white dots are scattered in the background.
 

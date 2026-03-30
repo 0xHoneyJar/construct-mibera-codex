@@ -1,6 +1,6 @@
 ---
 name: True Love Found
-image: "https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT"
+image: ""
 archetype: Milady
 swag_score: 2
 date_added: "2024-06-22"
@@ -10,7 +10,6 @@ date_added: "2024-06-22"
 
 ## Visual Elements
 
-![True Love](https://mibera.fsn1.your-objectstorage.com/components/shirts__z50%20(SHORT)
 
 Black t-shirt with white text that reads “I FOUND TRUE LOVE AT THE MILADY RAVE” on it .
 
