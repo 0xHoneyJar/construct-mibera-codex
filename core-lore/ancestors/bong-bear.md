@@ -1,6 +1,6 @@
 ---
 name: Bong Bear
-period_ancient: '- **Modern:** 2021 - 2024'
+period_ancient: null
 period_modern: 2021 - 2024
 locations: Ethereum blockchain, Berachain L1, digital realm
 ---

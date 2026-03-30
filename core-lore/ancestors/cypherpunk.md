@@ -1,6 +1,6 @@
 ---
 name: Cypherpunk
-period_ancient: '- **Modern:** 1988 - 2024'
+period_ancient: null
 period_modern: 1988 - 2024
 locations: San Francisco Bay Area, the Internet, global digital networks
 ---

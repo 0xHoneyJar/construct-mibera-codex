@@ -1,6 +1,6 @@
 ---
 name: Ballroom
-period_ancient: '- **Modern:** 1970 - 2024'
+period_ancient: null
 period_modern: 1970 - 2024
 locations: New York City (Harlem), major US cities, global
 ---

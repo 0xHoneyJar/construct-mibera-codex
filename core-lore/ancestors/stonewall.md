@@ -1,6 +1,6 @@
 ---
 name: Stonewall
-period_ancient: '- **Modern:** 1969 - 1979'
+period_ancient: null
 period_modern: 1969 - 1979
 locations: New York City (Greenwich Village), Christopher Street, Stonewall Inn
 ---

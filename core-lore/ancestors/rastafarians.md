@@ -1,6 +1,6 @@
 ---
 name: Rastafarians
-period_ancient: '- **Modern:** 1930 - 2024'
+period_ancient: null
 period_modern: 1930 - 2024
 locations: Jamaica
 ---
