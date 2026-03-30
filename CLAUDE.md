@@ -84,5 +84,5 @@ Reference `_codex/data/scope.json` for programmatic scope.
 | `fractures/` | Reveal phase documentation | 10 |
 | `vending-machine/` | VM-exclusive Shadow Traits (11 categories) | 102 |
 | `special-collections/` | Partner/special collections | 32 |
-| `oracle/` | Persona-driven system prompts (5 books) | 5 |
+| `oracle/` | Persona-driven system prompt | 1 |
 | `_codex/` | Schemas, scripts, data exports | — |

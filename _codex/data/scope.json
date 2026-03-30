@@ -10,9 +10,9 @@
     },
     {
       "entity_type": "grail",
-      "count": 42,
+      "count": 43,
       "completeness": "COMPLETE",
-      "note": "All 42 hand-drawn 1/1 art pieces. These are specific token IDs within the same contract."
+      "note": "42 canonical hand-drawn 1/1 art pieces + 1 community commission (Mijedi). These are specific token IDs within the same contract."
     },
     {
       "entity_type": "trait",

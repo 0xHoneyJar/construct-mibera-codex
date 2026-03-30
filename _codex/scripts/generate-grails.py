@@ -26,6 +26,7 @@ HEADER = f"<!-- generated: {TIMESTAMP} by _codex/scripts/generate-grails.py -->"
 CATEGORY_ORDER = [
     "element", "luminary", "concept", "zodiac",
     "planet", "ancestor", "primordial", "special",
+    "community",
 ]
 
 CATEGORY_LABELS = {
@@ -37,6 +38,7 @@ CATEGORY_LABELS = {
     "ancestor": "Ancestor",
     "primordial": "Primordial",
     "special": "Special",
+    "community": "Community",
 }
 
 REQUIRED_FIELDS = {"id", "name", "type", "category"}

@@ -36,8 +36,8 @@
         "character-traits/hair": 129,
         "character-traits/mouth": 21,
         "character-traits/tattoos": 44,
-        "clothing/long-sleeves": 51,
-        "clothing/short-sleeves": 128,
+        "clothing/long-sleeves": 49,
+        "clothing/short-sleeves": 130,
         "clothing/simple-shirts": 8,
         "items/bong-bears": 107,
         "items/general-items": 250,
@@ -96,12 +96,12 @@
     "grail": {
       "directory": "grails/",
       "index": "grails/README.md",
-      "count": 42,
+      "count": 43,
       "format": "yaml_frontmatter",
       "naming": "{slug}.md",
       "completeness": "COMPLETE",
-      "completeness_note": "All 42 canonical hand-drawn 1/1 Grails",
-      "last_verified": "2026-02-18"
+      "completeness_note": "42 canonical hand-drawn 1/1 Grails + 1 community (Mijedi)",
+      "last_verified": "2026-03-30"
     },
     "mibera_set": {
       "directory": "mibera-sets/",

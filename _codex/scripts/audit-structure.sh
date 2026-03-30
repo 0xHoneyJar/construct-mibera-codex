@@ -190,11 +190,16 @@ result=$(check_yaml_dir "tarot_card" "$REPO_ROOT/core-lore/tarot-cards" "${TAROT
 read -r tarot_total tarot_issues <<< "$result"
 echo "  $tarot_total files checked, $tarot_issues issues" >&2
 
-# Special collections
+# Special collections (includes nested subdirectories)
 echo "Auditing special collection files..." >&2
 COLLECTION_REQ=("name" "type")
-result=$(check_yaml_dir "special_collection" "$REPO_ROOT/special-collections" "${COLLECTION_REQ[@]}")
-read -r collection_total collection_issues <<< "$result"
+collection_total=0; collection_issues=0
+while IFS= read -r scdir; do
+  result=$(check_yaml_dir "special_collection" "$scdir" "${COLLECTION_REQ[@]}")
+  read -r t i <<< "$result"
+  ((collection_total += t)) || true
+  ((collection_issues += i)) || true
+done < <(find "$REPO_ROOT/special-collections" -type d)
 echo "  $collection_total files checked, $collection_issues issues" >&2
 
 # --- 3. Generate report ---

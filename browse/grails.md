@@ -1,8 +1,8 @@
-<!-- generated: 2026-02-18T04:14:45Z by _codex/scripts/generate-grails.py -->
+<!-- generated: 2026-03-30T19:36:28Z by _codex/scripts/generate-grails.py -->
 
 # Browse: Grails
 
-*42 hand-drawn 1/1 art pieces across 8 categories.*
+*43 hand-drawn 1/1 art pieces across 9 categories.*
 
 ---
 
@@ -37,3 +37,7 @@
 ## Special (1)
 
 [Satoshi as Hermes](../grails/satoshi-as-hermes.md)
+
+## Community (1)
+
+[Mijedi](../grails/mijedi.md)

@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-03-28T16:34:02Z",
-  "total_files": 11435,
+  "timestamp": "2026-03-30T19:34:14Z",
+  "total_files": 11467,
   "errors": 0,
   "warnings": 0,
   "by_type": {
@@ -9,7 +9,7 @@
     "drug": {"total": 78, "issues": 0},
     "ancestor": {"total": 33, "issues": 0},
     "tarot_card": {"total": 78, "issues": 0},
-    "special_collection": {"total": 1, "issues": 0}
+    "special_collection": {"total": 33, "issues": 0}
   },
   "issues": [
 

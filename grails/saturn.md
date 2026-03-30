@@ -14,7 +14,7 @@ description: "Goya's Saturn Devouring His Son — cfang as Saturn"
 
 ## Cultural Context
 
-"Saturn Devouring His Son" is one of Francisco Goya's Black Paintings (c. 1819–1823), found on the walls of his house after his death. It depicts the titan Cronus (Roman: Saturn) consuming one of his children to prevent a prophecy that he would be overthrown by his own son. Charlotte Fang is the founder of Milady Maker. Milady Mfers is a derivative project within the Milady ecosystem.
+"Saturn Devouring His Son" is one of Francisco Goya's Black Paintings (c. 1819–1823), found on the walls of his house after his death. It depicts the titan Cronus (Roman: Saturn) consuming one of his children to prevent a prophecy that he would be overthrown by his own son. Charlotte Fang is the founder of Milady Maker. Milady Mfers is a derivative project within the Milady ecosystem, created by Gumibera.
 
 ## Visual Elements
 
