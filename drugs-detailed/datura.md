@@ -11,7 +11,7 @@ date_added: "2025-01-12"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS4_milady_ancient_nativeAmerican_datura.webp" alt="Datura" width="320" />
+  <img src="https://mibera.s3.amazonaws.com/traits/milady_nativeAmerican_datura.webp" alt="Datura" width="320" />
 </div>
 
 

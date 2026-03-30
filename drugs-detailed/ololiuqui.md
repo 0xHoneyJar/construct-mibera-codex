@@ -11,7 +11,7 @@ date_added: "2025-01-12"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS1_acidhouse_ancient_mayan_ololiuqui.webp" alt="Ololiuqui" width="320" />
+  <img src="https://mibera.s3.amazonaws.com/traits/acidhouse_mayan_ololiuqui.webp" alt="Ololiuqui" width="320" />
 </div>
 
 

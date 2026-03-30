@@ -11,7 +11,7 @@ date_added: "2025-01-12"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS2_chicagodetroit_ancient_aboriginal_pituri.webp" alt="Pituri" width="320" />
+  <img src="https://mibera.s3.amazonaws.com/traits/chicagodetroit_aboriginal_pituri.webp" alt="Pituri" width="320" />
 </div>
 
 

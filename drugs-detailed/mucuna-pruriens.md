@@ -11,7 +11,7 @@ date_added: "2025-01-12"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS2_acidhouse_ancient_hindu_mucuna%20pruriens.webp" alt="Mucuna Pruriens" width="320" />
+  <img src="https://mibera.s3.amazonaws.com/traits/acidhouse_hindu_mucuna%20pruriens.webp" alt="Mucuna Pruriens" width="320" />
 </div>
 
 

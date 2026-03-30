@@ -11,7 +11,7 @@ date_added: "2025-01-12"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS1_freetekno_ancient_nativeAmerican_mayan_psychotria%20viridis.webp" alt="Psychotria Viridis" width="320" />
+  <img src="https://mibera.s3.amazonaws.com/traits/freetekno_nativeAmericans_mayan_psychotria%20viridis.webp" alt="Psychotria Viridis" width="320" />
 </div>
 
 

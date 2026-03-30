@@ -11,7 +11,7 @@ date_added: "2025-01-12"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS2_milady_ancient_thai_kwao%20krua.webp" alt="Kwao Krua" width="320" />
+  <img src="https://mibera.s3.amazonaws.com/traits/milady_thai_kwao%20krua.webp" alt="Kwao Krua" width="320" />
 </div>
 
 

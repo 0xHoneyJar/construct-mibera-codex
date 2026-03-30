@@ -11,7 +11,7 @@ date_added: "2025-01-12"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS1_freetekno_ancient_mayan_mimosa%20tenuiflora.webp" alt="Mimosa Tenuiflora" width="320" />
+  <img src="https://mibera.s3.amazonaws.com/traits/acidhouse_mayan_Mimosa%20Tenuiflora.webp" alt="Mimosa Tenuiflora" width="320" />
 </div>
 
 

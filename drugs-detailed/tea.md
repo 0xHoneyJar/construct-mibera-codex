@@ -11,7 +11,7 @@ date_added: "2025-01-12"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS3_milady_ancient_chinese_japanese_Tea.webp" alt="Tea" width="320" />
+  <img src="https://mibera.s3.amazonaws.com/traits/milady_chinese_japanese_tea.webp" alt="Tea" width="320" />
 </div>
 
 

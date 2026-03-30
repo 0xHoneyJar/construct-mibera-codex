@@ -11,7 +11,7 @@ date_added: "2025-01-12"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS3_freetekno_ancient_greek_henbane.webp" alt="Henbane" width="320" />
+  <img src="https://mibera.s3.amazonaws.com/traits/freetekno_greek_henbane.webp" alt="Henbane" width="320" />
 </div>
 
 

@@ -11,7 +11,7 @@ date_added: "2025-01-12"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS3_chicagodetroit_ancient_greek_nymphaea%20caerulea.webp" alt="Nymphaea Caerulea" width="320" />
+  <img src="https://mibera.s3.amazonaws.com/traits/chicagodetroit_greek_nymphaea%20caerulea.webp" alt="Nymphaea Caerulea" width="320" />
 </div>
 
 

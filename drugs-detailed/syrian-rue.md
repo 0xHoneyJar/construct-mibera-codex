@@ -11,7 +11,7 @@ date_added: "2025-01-12"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS3_freetekno_ancient_sufi_syrian%20rue.webp" alt="Syrian Rue" width="320" />
+  <img src="https://mibera.s3.amazonaws.com/traits/freetekno_sufi_syrian%20rue.webp" alt="Syrian Rue" width="320" />
 </div>
 
 
