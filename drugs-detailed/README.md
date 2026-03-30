@@ -1,7 +1,7 @@
-<!-- codex-status: COMPLETE | entities: 78 | last-verified: 2026-02-18 -->
+<!-- codex-status: COMPLETE | entities: 78 | last-verified: 2026-03-30 -->
 # Drugs
 
-*79 substances documented in the Mibera Codex.*
+*78 substances documented in the Mibera Codex.*
 
 ## All Entries
 
@@ -66,7 +66,6 @@
 - [Psilacetin](psilacetin.md)
 - [Psychotria Viridis](psychotria-viridis.md)
 - [Sakae Na](sakae-na.md)
-- [Sakae Na](sakae-na.md)
 - [Sassafras](sassafras.md)
 - [Scopolamine](scopolamine.md)
 - [Sertraline](sertraline.md)
@@ -87,11 +86,7 @@
 
 ## By Archetype
 
-### **Archetype Alignment:**
-
-- [Sakae Na](sakae-na.md)
-
-### Acidhouse
+### Acidhouse (19)
 
 - [Acacia](acacia.md)
 - [Arundo Donax](arundo-donax.md)
@@ -106,13 +101,14 @@
 - [Mimosa Tenuiflora](mimosa-tenuiflora.md)
 - [MMDA](mmda.md)
 - [Mucuna Pruriens](mucuna-pruriens.md)
+- [Mushrooms](mushrooms.md)
 - [NOS](nos.md)
 - [Nutmeg](nutmeg.md)
 - [Ololiuqui](ololiuqui.md)
 - [Psilacetin](psilacetin.md)
 - [Shroom Tea](shroom-tea.md)
 
-### Chicago Detroit
+### Chicago Detroit (21)
 
 - [Alcohol](alcohol.md)
 - [Bhang](bhang.md)
@@ -121,6 +117,7 @@
 - [Coca](coca.md)
 - [Cocaine](cocaine.md)
 - [Ethanol](ethanol.md)
+- [Euphoria](euphoria.md)
 - [Iboga](iboga.md)
 - [Ibogaine](ibogaine.md)
 - [Nicotine](nicotine.md)
@@ -135,11 +132,7 @@
 - [Weed](weed.md)
 - [Yohimbe](yohimbe.md)
 
-### Chicago detroit
-
-- [Euphoria](euphoria.md)
-
-### Freetekno
+### Freetekno (17)
 
 - [2C-B](2c-b.md)
 - [Ancestral Trance](ancestral-trance.md)
@@ -159,7 +152,7 @@
 - [Tabernaemontana](tabernaemontana.md)
 - [Xanax](xanax.md)
 
-### Milady
+### Milady (21)
 
 - [Ashwagandha](ashwagandha.md)
 - [Benadryl](benadryl.md)
@@ -183,6 +176,3 @@
 - [Tea](tea.md)
 - [Testosterone](testosterone.md)
 
-### acidhouse
-
-- [Mushrooms](mushrooms.md)

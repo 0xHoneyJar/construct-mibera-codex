@@ -3,7 +3,7 @@ name: Euphoria
 molecule: C8H11NO2
 era: Modern
 origin: '---'
-archetype: Chicago detroit
+archetype: Chicago Detroit
 ancestor: Mongolian
 swag_score: 2
 image: "https://mibera.s3.amazonaws.com/traits/chicagodetroit_mongolian_euphoria.webp"

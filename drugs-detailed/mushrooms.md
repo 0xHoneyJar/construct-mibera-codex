@@ -3,7 +3,7 @@ name: Mushrooms
 molecule: C12H17N2O4P
 era: Ancient
 origin: Mexico
-archetype: acidhouse
+archetype: Acidhouse
 ancestor: Irish druids, Buddhist, Sami
 swag_score: 5
 image: "https://mibera.s3.amazonaws.com/traits/acidhouse_irishDruids_buddhists_sami_mushrooms.webp"
