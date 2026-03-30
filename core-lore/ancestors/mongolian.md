@@ -23,7 +23,6 @@ locations: Mongolia, Central Asia, Siberia
 
 **Fashion Icons / Symbolism:** Headdresses and jewelries with beads mostly in turquoise and red, headdress with feathers, wolf head, tassels outfit, deel (traditional robe)
 
-Drugs Representations / Associated
 
 ## Drug Connections
 

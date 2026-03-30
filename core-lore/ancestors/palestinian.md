@@ -21,7 +21,6 @@ locations: Palestine, Gaza, West Bank, diaspora communities worldwide
 
 **Fashion Icons / Symbolism:** Keffiyeh, thobe (traditional embroidered dress), tatreez embroidery patterns, olive branch, key symbol (representing the right of return)
 
-Drugs Representations / Associated
 
 ## Drug Connections
 

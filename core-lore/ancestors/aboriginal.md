@@ -25,7 +25,6 @@ locations: Australia, Siberia, Russia
 
 **Fashion Icons / Symbolism:** Spiral, dots, facepaint, cave paint,
 
-Drugs Representations / Associated
 
 ## Drug Connections
 

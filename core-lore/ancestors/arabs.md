@@ -22,7 +22,6 @@ locations: Avdat "The Temple of Obodas" (Negev Desert, Israel), Arabian Peninsul
 
 **Fashion Icons / Symbolism:** Semilunar and Stars symbol, Keffiyeh, geometric arabesque patterns, calligraphy
 
-Drugs Representations / Associated
 
 ## Drug Connections
 

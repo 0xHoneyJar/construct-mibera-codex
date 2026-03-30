@@ -18,7 +18,6 @@ locations: Turkey
 
 **Fashion Icons / Symbolism:** Robe, traditional sufi hat, beads, niqab
 
-Drugs Representations / Associated
 
 ## Drug Connections
 

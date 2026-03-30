@@ -19,7 +19,6 @@ locations: Delphi (Greece), Mount Parnassus
 
 **Fashion Icons / Symbolism:** Oracle Ball / Magic Ball, Skirt of Pythia, laurel wreath, tripod seat, temple serpent imagery
 
-Drugs Representations / Associated
 
 ## Drug Connections
 

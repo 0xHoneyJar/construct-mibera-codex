@@ -18,7 +18,6 @@ locations: India, Nepal
 
 **Fashion Icons / Symbolism:** Chillum pipes, Shiva trident (trishul), Om symbol, henna patterns, sari fabrics, bindis
 
-Drugs Representations / Associated
 
 ## Drug Connections
 

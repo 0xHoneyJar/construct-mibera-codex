@@ -21,7 +21,6 @@ locations: Israel, Eastern Europe (historical shtetls), New York, global diaspor
 
 **Fashion Icons / Symbolism:** Black hat, fur hat (shtreimel), black suit, prayer shawl (tallit), tefillin, Star of David, menorah
 
-Drugs Representations / Associated
 
 ## Drug Connections
 

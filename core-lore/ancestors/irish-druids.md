@@ -21,7 +21,6 @@ locations: Newgrange (Ireland),
 
 **Fashion Icons / Symbolism:** Triskele, Celtic knots, oak leaf and mistletoe motifs, ogham script, cloak and torc (neck ring)
 
-Drugs Representations / Associated
 
 ## Drug Connections
 

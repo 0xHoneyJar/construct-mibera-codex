@@ -21,7 +21,6 @@ locations: Punjab (India and Pakistan), diaspora communities in UK, Canada, USA
 
 **Fashion Icons / Symbolism:** Turban (dastar), phulkari embroidery, juttis (traditional shoes), Khanda symbol, vibrant color combinations
 
-Drugs Representations / Associated
 
 ## Drug Connections
 

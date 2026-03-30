@@ -21,7 +21,6 @@ locations: Nepal, Kathmandu Valley, Himalayas
 
 **Fashion Icons / Symbolism:** Mandala patterns, prayer flags, third eye tilaka, Dhaka fabric, khukuri knife
 
-Drugs Representations / Associated
 
 ## Drug Connections
 

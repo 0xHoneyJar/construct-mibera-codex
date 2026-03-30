@@ -17,7 +17,6 @@ locations: Bosnia, Croatia, Albania, Greece
 
 **Fashion Icons / Symbolism:** Sicanje Tattoo,
 
-Drugs Representations / Associated
 
 ## Drug Connections
 

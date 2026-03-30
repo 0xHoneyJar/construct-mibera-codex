@@ -19,7 +19,6 @@ locations: Greece, Mediterranean
 
 **Fashion Icons / Symbolism:** Greek Gods & Goddesses, laurel wreaths, Doric columns, meander patterns
 
-Drugs Representations / Associated
 
 ## Drug Connections
 

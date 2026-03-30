@@ -20,7 +20,6 @@ locations: '---'
 
 **Fashion Icons / Symbolism:** Dharma Wheel, Enso, orange robe, black robe, singing bowl, prayer beads
 
-Drugs Representations / Associated
 
 ## Drug Connections
 

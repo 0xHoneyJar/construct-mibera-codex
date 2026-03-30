@@ -25,7 +25,6 @@ locations: San Francisco Bay Area, the Internet, global digital networks
 
 **Fashion Icons / Symbolism:** Bitcoin logo, cryptographic hash visualizations, Guy Fawkes mask (Anonymous), hoodie culture, cyberpunk aesthetic, circuit board patterns
 
-Drugs Representations / Associated
 
 ## Drug Connections
 

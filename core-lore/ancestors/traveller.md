@@ -17,7 +17,6 @@ locations: TBD
 
 **Fashion Icons / Symbolism:** *To be documented*
 
-Drugs Representations / Associated
 
 ## Drug Connections
 

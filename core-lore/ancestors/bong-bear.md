@@ -21,7 +21,6 @@ locations: Ethereum blockchain, Berachain L1, digital realm
 
 **Fashion Icons / Symbolism:** Bear imagery, bong motifs, honey/honeycomb patterns, 420/69 number references, Berachain logo, stoner bear aesthetic
 
-Drugs Representations / Associated
 
 ## Drug Connections
 

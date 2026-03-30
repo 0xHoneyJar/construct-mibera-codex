@@ -21,7 +21,6 @@ locations: Turkey, Anatolia, Constantinople/Istanbul
 
 **Fashion Icons / Symbolism:** Star Crescent symbol, Ottoman Tughra, evil eye (nazar), tulip motifs, Turkish carpet patterns
 
-Drugs Representations / Associated
 
 ## Drug Connections
 

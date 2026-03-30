@@ -21,7 +21,6 @@ locations: Ethiopia
 
 **Fashion Icons / Symbolism:** Floral headpieces, face paint, Orthodox Christian cross designs, lion of Judah, coffee plant motifs, white shamma cloth
 
-Drugs Representations / Associated
 
 ## Drug Connections
 

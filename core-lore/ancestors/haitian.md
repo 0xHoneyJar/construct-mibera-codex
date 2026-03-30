@@ -21,7 +21,6 @@ locations: Haiti, Hispaniola, Caribbean
 
 **Fashion Icons / Symbolism:** Veve symbols, sequined flags, headwraps, white ceremonial dress
 
-Drugs Representations / Associated
 
 ## Drug Connections
 

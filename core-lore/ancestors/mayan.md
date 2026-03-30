@@ -21,7 +21,6 @@ locations: Maya Region, Mesoamerica (Guatemala, Mexico, Belize, Honduras)
 
 **Fashion Icons / Symbolism:** Jaguar tattoo, Quetzalcoatl tattoo,
 
-Drugs Representations / Associated
 
 ## Drug Connections
 

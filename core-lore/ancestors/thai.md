@@ -21,7 +21,6 @@ locations: Thailand, Southeast Asia
 
 **Fashion Icons / Symbolism:** Thai silk patterns, elephant motifs, Buddhist amulets, flower garlands
 
-Drugs Representations / Associated
 
 ## Drug Connections
 

@@ -21,7 +21,6 @@ locations: Norway, Sweden, Finland, Russia
 
 **Fashion Icons / Symbolism:** Sámi hat,
 
-Drugs Representations / Associated
 
 ## Drug Connections
 

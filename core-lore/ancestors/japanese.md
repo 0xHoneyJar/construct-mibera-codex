@@ -21,7 +21,6 @@ locations: Japan
 
 **Fashion Icons / Symbolism:** Rilakkuma, kawaii aesthetics, rising sun motifs, sakura patterns, kanji text
 
-Drugs Representations / Associated
 
 ## Drug Connections
 

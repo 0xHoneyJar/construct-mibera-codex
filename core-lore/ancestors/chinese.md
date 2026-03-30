@@ -23,7 +23,6 @@ locations: China
 
 **Fashion Icons / Symbolism:** Dragon tattoo, Hanzi script tees, Yin-Yang symbolism, jade pendants
 
-Drugs Representations / Associated
 
 ## Drug Connections
 

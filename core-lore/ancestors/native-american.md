@@ -19,7 +19,6 @@ locations: USA
 
 **Fashion Icons / Symbolism:** Jaguar tattoo, Quetzalcoatl tattoo,
 
-Drugs Representations / Associated
 
 ## Drug Connections
 

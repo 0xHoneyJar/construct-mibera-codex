@@ -21,7 +21,6 @@ locations: New York City (Greenwich Village), Christopher Street, Stonewall Inn
 
 **Fashion Icons / Symbolism:** Stonewall shirt, rainbow flag (created 1978), liberation buttons, protest signs, leather and denim
 
-Drugs Representations / Associated
 
 ## Drug Connections
 

@@ -23,7 +23,6 @@ locations: The first Church of Satan (California, USA)
 
 **Fashion Icons / Symbolism:** Pentagram, Baphomet, devil horns, cape, black robes, inverted cross, Sigil of Baphomet
 
-Drugs Representations / Associated
 
 ## Drug Connections
 

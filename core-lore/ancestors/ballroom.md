@@ -21,7 +21,6 @@ locations: New York City (Harlem), major US cities, global
 
 **Fashion Icons / Symbolism:** Ballroom hat, embroidered hat, fan, tassels, high fashion runway looks, exaggerated glamour
 
-Drugs Representations / Associated
 
 ## Drug Connections
 

@@ -19,7 +19,6 @@ locations: Nepal, India,
 
 **Fashion Icons / Symbolism:** Om symbol, bindi, hindu swastika,
 
-Drugs Representations / Associated
 
 ## Drug Connections
 

@@ -22,7 +22,6 @@ locations: Hawaii, Samoa, Tonga, Tahiti, New Zealand (Aotearoa), Easter Island (
 
 **Fashion Icons / Symbolism:** Tapa cloth patterns, tiki carvings, tribal tattoo motifs, lei flower garlands, bone hook pendants
 
-Drugs Representations / Associated
 
 ## Drug Connections
 
