@@ -27,6 +27,4 @@ Chicago sports culture ran parallel to the birth of house music in the same city
 
 ---
 
-## Attribution
-
 **Swag Score:** 3

@@ -17,8 +17,6 @@ date_added: "2024-06-22"
 
 Black shirt with white text that reads “FUCK WORK”.
 
-Dominant colors: Black, white
-
 ## Cultural Context
 
 Anti-work sentiment has deep roots in counterculture, from the Situationist International's critique of commodity society to punk's rejection of the 9-to-5 grind. The slogan captures a feeling shared across rave, crypto, and internet culture.
@@ -31,7 +29,6 @@ Raves happen on weekends because the people at them have to work on Monday, and 
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Black, white
 **Swag Score:** 3
 **Date Added:** 2024-06-22

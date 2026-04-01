@@ -21,4 +21,3 @@ Oasis and rave culture collided in Manchester in the 1990s — this trucker cap 
 
 ---
 
-## Attribution

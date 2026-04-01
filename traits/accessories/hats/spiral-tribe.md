@@ -18,8 +18,6 @@ date_added: "2024-07-25"
 
 Black cap with a tribal Mibera logo in the middle, in white. The logo is in the shape of a bear head with tribal-style design on the inside.
 
-Dominant colors: Black, white
-
 ## Cultural Context
 
 Spiral Tribe was a UK-based free party sound system and arts collective formed in 1990, pivotal in the teknival movement. After the Castlemorton Common Festival in 1992 — the largest illegal rave in UK history — and subsequent legal battles, they relocated to mainland Europe and became legendary across the continental free party scene. Their ethos of "free music for free people" defined a generation of underground electronic music culture.
@@ -32,8 +30,7 @@ Spiral Tribe is the soul of the free party movement — their tribal bear logo o
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Black, white
 **Archetype:** Milady
 **Swag Score:** 3
 **Date Added:** 2024-07-25

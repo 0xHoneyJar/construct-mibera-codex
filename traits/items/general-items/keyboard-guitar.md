@@ -29,8 +29,6 @@ The keytar is a transitional fossil — the moment rock showmanship met synthesi
 
 ---
 
-## Attribution
-
 **Archetype:** chicago detroit
 **Swag Score:** 5
 **Date Added:** 2024-07-13

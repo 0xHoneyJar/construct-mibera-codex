@@ -17,8 +17,6 @@ date_added: "2023-11-28"
 
 Two paperclips / safety pins in light-grey.
 
-Dominant colors: Light grey / silver
-
 ## Cultural Context
 
 Paper-clip symbolizes resilience, strength, and overcoming challenges while embracing one's unique identity.
@@ -31,8 +29,7 @@ Safety pins and paperclips are the DIY punk jewelry that crossed over into free 
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Light grey / silver
 **Archetype:** Freetekno
 **Swag Score:** 3
 **Date Added:** 2023-11-28

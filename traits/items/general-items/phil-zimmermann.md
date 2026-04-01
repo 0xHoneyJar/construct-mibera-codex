@@ -27,6 +27,4 @@ Created PGP and faced federal prosecution for the crime of making strong encrypt
 
 ---
 
-## Attribution
-
 **Swag Score:** 5

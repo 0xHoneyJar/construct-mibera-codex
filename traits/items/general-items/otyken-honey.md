@@ -17,8 +17,6 @@ date_added: "2024-07-13"
 
 a wooden jar made of light coloured / shaved wood, with some carvings on it.
 
-Dominant colors: light beige
-
 ## Cultural Context
 
 Otyken is a Siberian indigenous music group from the Chulym people of Russia. This carved wooden honey vessel references both the group's cultural heritage and Berachain's honey motif. The connection was sourced by team member Jani.
@@ -31,8 +29,7 @@ Siberian indigenous vessel discovered by the team, connecting the honey motif to
 
 ---
 
-## Attribution
-
+**Dominant Colors:** light beige
 **Archetype:** milady
 **Swag Score:** 4
 **Date Added:** 2024-07-13

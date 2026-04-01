@@ -17,8 +17,6 @@ date_added: "2024-06-22"
 
 Hot fuschia t-shirt with a semi-realism graphic of Julian Assange and Ai Weiwei with their middle fingers up, and the text “FREE ASSANGE” under it..
 
-Dominant colors: Fuschia, black
-
 ## Cultural Context
 
 Ai Weiwei is a Chinese contemporary artist and activist known for his outspoken criticism of government censorship and human rights abuses. Julian Assange is the founder of WikiLeaks who spent years in asylum and prison for publishing classified documents. Together they represent the intersection of art, transparency activism, and political defiance.
@@ -31,8 +29,7 @@ Two of the most prominent figures in the fight for free information, flipping th
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Fuschia, black
 **Archetype:** Its relation to movement, freedom, and art.
 **Swag Score:** 4
 **Date Added:** 2024-06-22

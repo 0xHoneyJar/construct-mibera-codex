@@ -17,8 +17,6 @@ date_added: "2024-07-28"
 
 Blue cap with a graphic of a brown bear with red ribbon on one ear holding a white flower.
 
-Dominant colors: Blue, brown
-
 ## Cultural Context
 
 Baddies is a Berachain ecosystem project featuring bear-themed characters with a cute, kawaii-influenced aesthetic. The teddy bear with a ribbon and flower reflects the soft, feminine styling common in both Milady-adjacent culture and the broader Berachain community aesthetic.
@@ -31,7 +29,6 @@ Baddies brings kawaii bear energy to the Berachain ecosystem — the blue varian
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Blue, brown
 **Swag Score:** 3
 **Date Added:** 2024-07-28

@@ -18,8 +18,6 @@ date_added: "2024-07-25"
 
 White and black cap with “REMILIA CORPORATION” text in black, surrounded by a lot of little stars in full-black and thin outline.
 
-Dominant colors: Black, white
-
 ## Cultural Context
 
 Remilia Corporation is the decentralized collective and digital art organization behind Milady Maker, one of the most culturally significant NFT projects. The "Remilia Corporation" branding surrounded by stars reflects the group's distinctive visual identity, which blends corporate aesthetics with anime-influenced internet culture in a deliberately ambiguous way.
@@ -32,8 +30,7 @@ The Remilia Corporation cap surrounded by stars — wearing the name of the coll
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Black, white
 **Archetype:** Acidhouse
 **Swag Score:** 3
 **Date Added:** 2024-07-25

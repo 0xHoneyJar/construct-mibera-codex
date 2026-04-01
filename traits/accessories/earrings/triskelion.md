@@ -17,8 +17,6 @@ date_added: "2024-12-10"
 
 Silver triskelion; 3 spirals connected into one in the middle.
 
-Dominant colors: Silver / grey
-
 ## Cultural Context
 
 Derived from the Greek "triskelḗs" (meaning "three-legged"), Triskelion represents concepts like progress, cycles, or the trinity, appearing in cultures from Neolithic Malta to Celtic Ireland.
@@ -31,8 +29,7 @@ An ancient Celtic and Mediterranean symbol that resonates with the Acidhouse arc
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Silver / grey
 **Archetype:** Acidhouse
 **Swag Score:** 4
 **Date Added:** 2024-12-10

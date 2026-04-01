@@ -29,8 +29,6 @@ Babybera is a key member of the Mibera team.
 
 ---
 
-## Attribution
-
 **Archetype:** freetekno
 **Swag Score:** 3
 **Date Added:** 2024-12-09

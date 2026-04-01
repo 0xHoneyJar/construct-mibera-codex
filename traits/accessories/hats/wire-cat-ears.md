@@ -17,8 +17,6 @@ date_added: "2024-07-28"
 
 Headband made of blinking LED wires shaped in cat ears; in purple / pink.
 
-Dominant colors: Purple, pink
-
 ## Cultural Context
 
 Wired cat ears; are popular accessories at raves and music festivals, complementing the vibrant, expressive fashion of the scene.
@@ -31,8 +29,7 @@ LED wire cat ears are the neon-lit upgrade to the classic cat ear headband — a
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Purple, pink
 **Swag Score:** 2
 **Date Added:** 2024-07-28
 **Introduced By:** Jani

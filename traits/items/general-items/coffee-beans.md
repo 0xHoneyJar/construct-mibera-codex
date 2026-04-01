@@ -17,8 +17,6 @@ date_added: "2024-12-09"
 
 a full stem with a bunch of coffee fruits and a few coffee leaves on it.
 
-Dominant colors: red orange-ish, green, dark red /.brown
-
 ## Cultural Context
 
 Coffee is the world's most popular psychoactive substance, a legal stimulant that fuels productivity in ways that parallel the stimulants used at raves. Its inclusion is a reminder that the line between "drug" and "beverage" is culturally drawn, not pharmacologically.
@@ -31,8 +29,7 @@ Blurs the line between "drug" and "daily ritual," reminding that the world's mos
 
 ---
 
-## Attribution
-
+**Dominant Colors:** red orange-ish, green, dark red /.brown
 **Archetype:** milady
 **Ancestor:** [ethiopian](../../../core-lore/ancestors/ethiopian.md), [arab](../../../core-lore/ancestors/arabs.md)
 **Swag Score:** 3

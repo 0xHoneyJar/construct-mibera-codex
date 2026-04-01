@@ -29,7 +29,5 @@ The Bitcoin maxi MAGA hat — a red cap that says you believe in one chain to ru
 
 ---
 
-## Attribution
-
 **Swag Score:** 1
 **Date Added:** 2024-12-10

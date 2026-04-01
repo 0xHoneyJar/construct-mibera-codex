@@ -17,8 +17,6 @@ date_added: "2024-07-12"
 
 a plushie of a character with big eyes wearing a frog suit.
 
-Dominant colors: green, porcelain, brown
-
 ## Cultural Context
 
 Radbro is a character from the broader Milady ecosystem, representing a laid-back, positive energy. The plushie format connects NFT culture to the tradition of physical mascot collectibles.
@@ -31,8 +29,7 @@ Direct cross-reference to the Remilia ecosystem's Radbro character, sourced from
 
 ---
 
-## Attribution
-
+**Dominant Colors:** green, porcelain, brown
 **Archetype:** milady
 **Swag Score:** 4
 **Date Added:** 2024-07-12

@@ -12,8 +12,6 @@ date_added: "2025-01-10"
 
 a clear white bag of dark brown seeds.
 
-Dominant colors: clear white, dark brown
-
 ## Cultural Context
 
 Ololiuqui is the Aztec name for morning glory seeds, which contain LSA, a compound chemically related to LSD. They were used in Mesoamerican divination ceremonies, making them one of the oldest known sources of ergine-type psychedelics.
@@ -26,8 +24,7 @@ LSA in a morning glory seed links LSD's molecular family tree back to Mesoameric
 
 ---
 
-## Attribution
-
+**Dominant Colors:** clear white, dark brown
 **Archetype:** acidhouse
 **Ancestor:** [mayan](../../../core-lore/ancestors/mayan.md)
 **Swag Score:** 1

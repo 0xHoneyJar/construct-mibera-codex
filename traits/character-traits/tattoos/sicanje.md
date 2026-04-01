@@ -17,8 +17,6 @@ date_added: "2024-08-10"
 
 Line work that’s a combination of circular shapes, lines, and dots.
 
-Dominant colors: Black
-
 ## Cultural Context
 
 Sicanje tattoo; a traditional tattooing practice among Catholic Croats in Bosnia and Herzegovina, particularly in the Rama region, believed to protect against forced marriages, abductions, or conversions to Islam. Performed mainly on girls aged 10-15, the tattoos were made off of a mixture of soot, honey, and milk, often on hands or chests.
@@ -30,8 +28,7 @@ A tattooing tradition created specifically to protect young women from forced co
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Black
 **Ancestor:** [Sicanje](../../../core-lore/ancestors/sicanje.md)
 **Date Added:** 2024-08-10
 **Introduced By:** Jani

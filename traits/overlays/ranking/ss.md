@@ -29,4 +29,3 @@ In the swag scoring formula, SS-rank signals near-peak rarity and visual cohesio
 
 ---
 
-## Attribution

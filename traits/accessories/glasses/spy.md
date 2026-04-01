@@ -30,8 +30,6 @@ Surveillance chic meets post-ironic cool. The Milady archetype loves accessories
 
 ---
 
-## Attribution
-
 **Archetype:** milady
 **Swag Score:** 4
 **Date Added:** 2024-06-16

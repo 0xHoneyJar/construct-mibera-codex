@@ -30,8 +30,6 @@ Darker, heavier, more utilitarian than its sibling variant. For the kind of tekn
 
 ---
 
-## Attribution
-
 **Archetype:** Freetekno
 **Swag Score:** 2
 **Date Added:** 2024-06-18

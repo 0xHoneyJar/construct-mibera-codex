@@ -16,8 +16,6 @@ date_added: "2024-06-05"
 
 a tightly closed mouth with the teeth pressed firmly together.
 
-Dominant colors: white
-
 ## Cultural Context
 
 Gritting the teeth — pressing them firmly together with the jaw clenched — expresses determination, tension, frustration, or endurance. The expression is associated with pushing through difficulty and is commonly depicted in action-oriented character art. Jaw clenching is also a noted physical effect of stimulant substances.
@@ -30,7 +28,6 @@ Determination meets jaw tension — grit is the clenched-teeth energy of pushing
 
 ---
 
-## Attribution
-
+**Dominant Colors:** white
 **Date Added:** 2024-06-05
 **Introduced By:** Gumi

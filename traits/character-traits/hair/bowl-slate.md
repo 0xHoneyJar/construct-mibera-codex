@@ -20,4 +20,3 @@ Deliberately unfashionable turned fashion statement — the bowl cut's journey f
 
 ---
 
-## Attribution

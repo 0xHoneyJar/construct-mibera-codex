@@ -17,8 +17,6 @@ date_added: "2024-12-09"
 
 an old-school thick phone in black, green LED screen with black text that says “mibera” on it, and light grey buttons.
 
-Dominant colors: black, light grey, green
-
 ## Cultural Context
 
 The smartphone changed how rave culture operates, replacing flyers and phone trees with social media and encrypted group chats. It is both the tool that makes modern underground events possible and the surveillance device that threatens the anonymity raves once relied on.
@@ -31,8 +29,7 @@ Displays "mibera" on screen, making it an in-universe communication device. The 
 
 ---
 
-## Attribution
-
+**Dominant Colors:** black, light grey, green
 **Archetype:** acidhouse
 **Swag Score:** 1
 **Date Added:** 2024-12-09

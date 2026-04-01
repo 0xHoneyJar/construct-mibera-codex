@@ -18,8 +18,6 @@ date_added: "2024-07-24"
 
 Stereotypical green surgical mask, with lighter colored lining.
 
-Dominant colors: Green.
-
 ## Cultural Context
 
 Surgical masks entered mainstream fashion and subcultural signaling well before the COVID-19 pandemic, notably in Japanese street fashion since the 2000s and in the UK grime scene. In rave culture, they served as both dust protection at outdoor events and a visual symbol of anonymity and collective identity.
@@ -32,8 +30,7 @@ The surgical mask was rave-adjacent long before it was pandemic-mandatory. In ac
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Green.
 **Archetype:** Acidhouse
 **Swag Score:** 1
 **Date Added:** 2024-07-24

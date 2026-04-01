@@ -12,8 +12,6 @@ date_added: "2024-08"
 
 A basic solid red t-shirt.
 
-Dominant colors: Red
-
 ## Cultural Context
 
 Red is the color of urgency, passion, and political action. In rave culture, red lighting and red clothing carry associations with intensity and the peak of the night.
@@ -26,7 +24,6 @@ Red is the most intense color in the simple set. It brings heat and energy to an
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Red
 **Swag Score:** 1
 **Date Added:** 2024-08

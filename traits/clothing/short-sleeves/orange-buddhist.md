@@ -32,8 +32,6 @@ Buddhist monks in saffron robes are among the most recognizable spiritual figure
 
 ---
 
-## Attribution
-
 **Archetype:** Acidhouse
 **Swag Score:** 3
 **Date Added:** 2024-12-10

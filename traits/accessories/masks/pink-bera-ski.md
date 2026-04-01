@@ -16,8 +16,6 @@ date_added: "2025-03-26"
 
 Ski mask in a very light soft pink with curved ears and holes across the eyes-part.
 
-Dominant colors: Light soft-pink.
-
 ## Cultural Context
 
 The pink variant of the Bera Ski mask recolors the bear-eared balaclava in soft pink, a color choice that references both kawaii aesthetics and the playful side of Berachain community culture. Pink balaclavas gained visibility in protest movements and internet culture as a subversion of the traditionally aggressive ski mask image.
@@ -30,8 +28,7 @@ Same bear-eared anonymity as the original Bera Ski, but in pink. It softens the 
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Light soft-pink.
 **Swag Score:** 4
 **Date Added:** 2025-03-26
 **Sources:**

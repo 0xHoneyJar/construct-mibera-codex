@@ -17,8 +17,6 @@ date_added: "2024-12-10"
 
 Vibrant indigo tee with white logo of what looks like a ‘v’ and an upside down ‘v’ next to it.
 
-Dominant colors: Vibrant indigo, white.
-
 ## Cultural Context
 
 IVX appears to reference a project or brand within the Berachain or broader crypto ecosystem. The minimalist logo design with geometric V shapes follows the clean, abstract branding style common to DeFi protocols and crypto-native companies.
@@ -31,7 +29,6 @@ Clean, minimal crypto protocol branding on a tee. The collection documents the v
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Vibrant indigo, white.
 **Swag Score:** 3
 **Date Added:** 2024-12-10

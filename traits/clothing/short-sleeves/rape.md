@@ -32,8 +32,6 @@ Boyd Rice is one of the most controversial figures in industrial music, and his 
 
 ---
 
-## Attribution
-
 **Archetype:** Milady
 **Swag Score:** 3
 **Introduced By:** Fedor

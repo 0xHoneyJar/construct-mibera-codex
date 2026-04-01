@@ -27,7 +27,5 @@ The baseline style — clean, unadorned, and neutral, letting other traits carry
 
 ---
 
-## Attribution
-
 **Date Added:** 2024-06-22
 **Introduced By:** Gumi

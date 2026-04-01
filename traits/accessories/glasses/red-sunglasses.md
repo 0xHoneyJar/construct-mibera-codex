@@ -30,8 +30,6 @@ The Warehouse was literally where house music got its name. Red-tinted glasses c
 
 ---
 
-## Attribution
-
 **Archetype:** Chicago Detroit
 **Swag Score:** 2
 **Date Added:** 2024-12-10

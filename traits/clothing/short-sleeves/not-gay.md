@@ -17,8 +17,6 @@ date_added: "2024-07-22"
 
 Black t-shirt with white text that says “I’M NOT GAY BUT WHEN I LOOK AT NAKED DUDES I GET HORNY AND JACK OFF” in thin font.
 
-Dominant colors: Black, white.
-
 ## Cultural Context
 
 Ironic confession tees that contradict their own message are a staple of internet humor culture. The format -- declaring one thing while describing the opposite -- is a classic template in post-ironic fashion that has circulated in online communities since the early 2010s.
@@ -31,7 +29,6 @@ The shirt says one thing and means the opposite, which is the entire operating p
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Black, white.
 **Swag Score:** 1
 **Date Added:** 2024-07-22

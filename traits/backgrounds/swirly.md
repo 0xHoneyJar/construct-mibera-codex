@@ -16,8 +16,6 @@ date_added: "2024-08-14"
 
 Dark grey background with green and red semi-transparent wavy lines overlapping each other in a swirly / flowy manner.
 
-Dominant colors: Black, neon green, red
-
 ## Cultural Context
 
 Psychedelic visual pattern — closed-eye visuals, synesthesia. Acidhouse archetype.
@@ -30,6 +28,5 @@ Psychedelic visual patterns connect to the drug-molecule dimension — closed-ey
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Black, neon green, red
 **Date Added:** 2024-08-14

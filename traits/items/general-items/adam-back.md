@@ -27,6 +27,4 @@ Cypherpunk pioneer who invented Hashcash, the proof-of-work system directly cite
 
 ---
 
-## Attribution
-
 **Swag Score:** 5

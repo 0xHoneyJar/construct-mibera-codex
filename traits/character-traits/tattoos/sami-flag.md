@@ -17,8 +17,6 @@ date_added: "2024-08-10"
 
 Sami flag with airbrush texture. Red on the left, blue on the right, 2 stripes in the middle- one green, one yellow, and topped with a circle- half in blue (left) and half in red (right).
 
-Dominant colors: Red, blue, green, yellow.
-
 ## Cultural Context
 
 Indigenous peoples of the Nordic countries and the Kola Peninsula of the Russian Federation.
@@ -30,8 +28,7 @@ A flag for a people whose nation has no borders -- it represents the Sami ancest
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Red, blue, green, yellow.
 **Ancestor:** [Sami](../../../core-lore/ancestors/sami.md)
 **Date Added:** 2024-08-10
 **Introduced By:** Jani

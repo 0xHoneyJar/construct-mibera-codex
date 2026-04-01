@@ -18,8 +18,6 @@ date_added: "2024-06-22"
 
 White t-shirt with a red dungarees over it..
 
-Dominant colors: White, red.
-
 ## Cultural Context
 
 Dungarees in bright colors were a staple of the acid house era in the late 1980s and early 1990s UK. The combination of red dungarees over a white tee was a common look at warehouse raves, reflecting the casual, colorful dress code of the Second Summer of Love.
@@ -32,8 +30,7 @@ Red dungarees over a white tee is a classic acid house look. If you have seen ph
 
 ---
 
-## Attribution
-
+**Dominant Colors:** White, red.
 **Archetype:** Acidhouse
 **Swag Score:** 3
 **Date Added:** 2024-06-22

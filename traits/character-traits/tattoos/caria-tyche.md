@@ -17,8 +17,6 @@ date_added: "2024-08-09"
 
 an intricate line drawing of Tyche, Greek Goddess of Fame and Fortune.
 
-Dominant colors: Black
-
 ## Cultural Context
 
 Tyche is the Greek Goddess of Fortune and Fame, as ‘caria’ means "graceful" or "she who flows like water"
@@ -32,8 +30,7 @@ A goddess of fortune and fate tattooed on characters navigating the speculative 
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Black
 **Ancestor:** [Greek](../../../core-lore/ancestors/greek.md)
 **Date Added:** 2024-08-09
 **Sources:**

@@ -27,7 +27,5 @@ Cottagecore meets rave — the cottage style bridges pastoral internet aesthetic
 
 ---
 
-## Attribution
-
 **Date Added:** 2024-06-15
 **Introduced By:** Gumi

@@ -16,8 +16,6 @@ date_added: "2024-12-10"
 
 Front view of a minimart with ‘7eleven’ sign on top with 3 thick stripes going across in orange, green, and red. Under it are glass windows / doors.
 
-Dominant colors: White / grey, orange, green
-
 ## Cultural Context
 
 7-Eleven is a global convenience store chain, originating in the U.S. in 1927 as Tote'm Stores. Known for Slurpee drinks and 24/7 operations in many locations, it has over 80,000 stores worldwide.
@@ -32,7 +30,6 @@ Convenience store culture as a touchpoint for the everyday mundane backdrop of s
 
 ---
 
-## Attribution
-
+**Dominant Colors:** White / grey, orange, green
 **Date Added:** 2024-12-10
 **Introduced By:** Tez

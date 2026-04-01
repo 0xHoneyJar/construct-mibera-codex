@@ -29,8 +29,6 @@ Its nickname doubles as a nod to psychedelic culture's long flirtation with UFO 
 
 ---
 
-## Attribution
-
 **Archetype:** acidhouse
 **Swag Score:** 3
 **Date Added:** 2024-07-07

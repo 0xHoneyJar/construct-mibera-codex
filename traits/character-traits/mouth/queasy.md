@@ -16,8 +16,6 @@ date_added: "2024-06-05"
 
 a mouth made of a squiggly / trembly line.
 
-Dominant colors: black
-
 ## Cultural Context
 
 A queasy mouth is rendered as a squiggly, trembling line conveying nausea, unease, or discomfort. The wavy distortion of the line suggests instability — the face of someone whose stomach is not cooperating. Queasiness is a common side effect of many substances and a familiar companion to the comeup and comedown.
@@ -30,7 +28,6 @@ The comeup jitters made visible — queasy captures that unsettled moment when t
 
 ---
 
-## Attribution
-
+**Dominant Colors:** black
 **Date Added:** 2024-06-05
 **Introduced By:** Fedor

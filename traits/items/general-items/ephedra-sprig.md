@@ -12,8 +12,6 @@ date_added: "2024-12-09"
 
 a handful of sprigs, the flower buds are in red.
 
-Dominant colors: green, red
-
 ## Cultural Context
 
 Ephedra is one of the oldest known stimulants, used for thousands of years in Chinese and Central Asian medicine. Its active compound ephedrine became the basis for amphetamines, which fueled all-night dancing from Northern Soul to acid house.
@@ -26,8 +24,7 @@ The botanical ancestor of amphetamines, bridging thousand-year-old medicine to m
 
 ---
 
-## Attribution
-
+**Dominant Colors:** green, red
 **Archetype:** milady
 **Ancestor:** [chinese](../../../core-lore/ancestors/chinese.md), [palestinian](../../../core-lore/ancestors/palestinian.md)
 **Swag Score:** 3

@@ -17,8 +17,6 @@ date_added: "2024-08-09"
 
 Line drawing of what looks like an upside down cat-like animal in a distinct style.
 
-Dominant colors: Black
-
 ## Cultural Context
 
 Mayan Tribe; a Mayan jaguar tattoo generally symbolizes strength, power, and transformation, reflecting the jaguar's revered status in Mayan culture as a sacred animal and guardian of the spirit world. Associated with courage, protection, and rebirth, it was often linked to warriors and nobles who wore jaguar skins for battle prowess.
@@ -30,8 +28,7 @@ The jaguar was the most powerful spiritual animal in Mesoamerican cosmology, wor
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Black
 **Date Added:** 2024-08-09
 **Introduced By:** Jani
 **Sources:**

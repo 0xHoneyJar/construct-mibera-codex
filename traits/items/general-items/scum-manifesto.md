@@ -29,8 +29,6 @@ The most confrontational text in the collection. Mibera's bookshelf includes rad
 
 ---
 
-## Attribution
-
 **Archetype:** Freetekno
 **Swag Score:** 3
 **Date Added:** 2024-12-09

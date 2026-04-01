@@ -17,8 +17,6 @@ date_added: "2024-08-09"
 
 Line work of a flying entity Quetzalcōātl/Kukulkan’s face, front-view, clouds can be seen indicating the figure being in the sky.
 
-Dominant colors: Black.
-
 ## Cultural Context
 
 Quetzalcoatl, a prominent deity in Mesoamerican mythology, particularly among the Aztecs, revered as the god of wind, air, learning, and priesthood. Also known as Kukulkan.
@@ -30,8 +28,7 @@ Quetzalcoatl is one of the most important deities in all of Mesoamerican religio
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Black.
 **Archetype:** To showcase a modern rendering of an ancient deity.
 **Ancestor:** [Mayan](../../../core-lore/ancestors/mayan.md)
 **Date Added:** 2024-08-09

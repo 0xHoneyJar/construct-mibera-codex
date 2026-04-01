@@ -18,8 +18,6 @@ date_added: "2024-12-10"
 
 Full sleeves clothing in dull brown with green lining around the neck and near the sleeve. Red accent in the middle just below the collar. A brown sling-bag is worn.
 
-Dominant colors: Dull brown, green, red.
-
 ## Cultural Context
 
 The Sámi (also Sami or Saami) are the indigenous people of Sápmi, spanning northern Norway, Sweden, Finland, and Russia's Kola Peninsula. They speak nine related Uralic languages (many bilingual in national languages) and traditionally lived as semi-nomadic reindeer herders, hunters, and fishers for millennia.
@@ -32,8 +30,7 @@ Indigenous cultures worldwide have traditions of rhythmic spiritual practice tha
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Dull brown, green, red.
 **Archetype:** Acidhouse
 **Swag Score:** 2
 **Date Added:** 2024-12-10

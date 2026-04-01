@@ -18,8 +18,6 @@ date_added: "2024-12-10"
 
 Blood dripping down from a neat cut.
 
-Dominant colors: Red
-
 ## Cultural Context
 
 The bleeding cut as a face accessory draws from multiple visual traditions: anime's wounded warriors, punk culture's celebration of physical damage, and the e-girl/post-ironic aesthetic where injury is rendered as decoration. In generative PFP collections, bleeding effects add dramatic rarity and visual intensity to character designs.
@@ -32,8 +30,7 @@ Blood on the face makes any character look like they have a story worth hearing.
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Red
 **Archetype:** Milady
 **Swag Score:** 3
 **Date Added:** 2024-12-10

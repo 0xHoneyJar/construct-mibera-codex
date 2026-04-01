@@ -29,8 +29,6 @@ Content creation hardware as a held item, turning podcast production into a wear
 
 ---
 
-## Attribution
-
 **Archetype:** milady
 **Swag Score:** 4
 **Date Added:** 2024-07-12

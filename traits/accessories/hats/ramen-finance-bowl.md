@@ -17,8 +17,6 @@ date_added: "2024-12-10"
 
 an upside down white bowl with red logo on it that looks like a bowl in front of a flower. A yellow line runs across the edge of the bowl.
 
-Dominant colors: white, red
-
 ## Cultural Context
 
 Ramen Finance is a DeFi project in the Berachain ecosystem, playing on the crypto meme that during bear markets, degens survive on ramen noodles. The upside-down bowl as headwear is a playful nod to this survival narrative, turning the symbol of crypto poverty into wearable ecosystem identity.
@@ -31,7 +29,6 @@ Ramen Finance turned the bear market survival meme into a Berachain ecosystem pr
 
 ---
 
-## Attribution
-
+**Dominant Colors:** white, red
 **Swag Score:** 3
 **Date Added:** 2024-12-10

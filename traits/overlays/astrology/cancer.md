@@ -31,4 +31,3 @@ At the modifier layer, a Cancer overlay gives a Mibera an undercurrent of emotio
 
 ---
 
-## Attribution

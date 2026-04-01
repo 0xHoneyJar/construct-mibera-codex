@@ -29,7 +29,5 @@ The tribal-art variant grounds these goggles in their indigenous origins rather 
 
 ---
 
-## Attribution
-
 **Swag Score:** 4
 **Date Added:** 2024-12-10

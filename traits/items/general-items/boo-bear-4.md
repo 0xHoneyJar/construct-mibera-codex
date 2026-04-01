@@ -17,8 +17,6 @@ date_added: "2024-07-09"
 
 a doll of a bear wearing a stereotypical nun’s clothing in dominantly black with white accent; wearing an upside down cross necklace and black smudges under the eyes.
 
-Dominant colors: black, brown
-
 ## Cultural Context
 
 A bear in nun's clothing with an inverted cross necklace and black smudges under the eyes. The most transgressive of the four Boo Bear variants, referencing horror-film nun imagery.
@@ -31,8 +29,7 @@ References a key Berachain rebase.
 
 ---
 
-## Attribution
-
+**Dominant Colors:** black, brown
 **Archetype:** milady
 **Swag Score:** 3
 **Date Added:** 2024-07-09

@@ -28,7 +28,5 @@ The baseline gaze — every other eye type is a departure from normal, making it
 
 ---
 
-## Attribution
-
 **Date Added:** 2024-06-03
 **Introduced By:** Gumi

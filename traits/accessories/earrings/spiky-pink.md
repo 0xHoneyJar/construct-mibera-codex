@@ -16,8 +16,6 @@ date_added: "2024-12-10"
 
 Spiky pink small ring-shaped earring
 
-Dominant colors: Pink
-
 ## Cultural Context
 
 In the 2000s, cute spiky earrings were a staple in rave culture, reflecting its bold, rebellious aesthetic. Popularized in the late '90s and early 2000s club scenes, these edgy accessories are often seen in the DIY nature of fashion of the ravers.
@@ -30,8 +28,7 @@ Spiky accessories are rave culture's version of wearable attitude -- cute enough
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Pink
 **Archetype:** In relation to the rave culture, especially in the 2000s, which is very much aligned with Mibera.
 **Swag Score:** 3
 **Date Added:** 2024-12-10

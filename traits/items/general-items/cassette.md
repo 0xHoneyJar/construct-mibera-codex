@@ -17,8 +17,6 @@ date_added: "2024-07-07"
 
 a black cassette tape.
 
-Dominant colors: black, silver.
-
 ## Cultural Context
 
 Mixtapes on cassette were how rave culture spread before the internet, with DJs recording live sets and passing them hand to hand. A single tape could travel across a city and build an entire underground following.
@@ -31,8 +29,7 @@ Before SoundCloud, before Napster, before CDs — the dubbed cassette was the in
 
 ---
 
-## Attribution
-
+**Dominant Colors:** black, silver.
 **Archetype:** chicago detroit
 **Swag Score:** 2
 **Date Added:** 2024-07-07

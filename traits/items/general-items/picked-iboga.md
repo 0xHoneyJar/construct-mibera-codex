@@ -24,8 +24,6 @@ A plant that can both open a spiritual doorway and interrupt opioid addiction. I
 
 ---
 
-## Attribution
-
 **Archetype:** chicago detroit
 **Ancestor:** [gabon](../../../core-lore/ancestors/gabon.md)
 **Swag Score:** 2

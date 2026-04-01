@@ -21,6 +21,4 @@ Variant of the Heart face accessory -- see heart.md for full context on this kaw
 
 ---
 
-## Attribution
-
 **Swag Score:** 2

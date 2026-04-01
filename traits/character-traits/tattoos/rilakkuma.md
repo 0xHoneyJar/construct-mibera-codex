@@ -17,8 +17,6 @@ date_added: "2024-08-10"
 
 Line drawing of a bear with a big head lying on its side with the hand (paw) supporting its head.
 
-Dominant colors: Black
-
 ## Cultural Context
 
 Rilakkuma (a Japanese fictional character)
@@ -30,7 +28,6 @@ A lazy bear from Japanese kawaii culture -- Rilakkuma bridges the Japanese ances
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Black
 **Ancestor:** [Japanese](../../../core-lore/ancestors/japanese.md)
 **Date Added:** 2024-08-10

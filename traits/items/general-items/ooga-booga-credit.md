@@ -16,8 +16,6 @@ date_added: "2024-07-12"
 
 a silver metallic credit card with black text “OOGA BOOGA EXPRESS”.
 
-Dominant colors: silver, black
-
 ## Cultural Context
 
 Ooga Booga is a decentralized exchange aggregator on Berachain. The "Ooga Booga Express" credit card parodies traditional financial instruments, a common joke format in crypto communities that highlights the tension between decentralized finance and legacy banking.
@@ -30,7 +28,6 @@ DeFi rendered as a parody of traditional finance — a credit card for a decentr
 
 ---
 
-## Attribution
-
+**Dominant Colors:** silver, black
 **Swag Score:** 4
 **Date Added:** 2024-07-12

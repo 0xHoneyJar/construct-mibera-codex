@@ -13,8 +13,6 @@ date_added: "2024-12-10"
 
 White base with smudged outline, and messy circular-rectangular shape doodles in black on top of it.
 
-Dominant colors: White, black
-
 ## Cultural Context
 
 The face paint in the image is associated with the Surma (or Suri) people, an ethnic group in Ethiopia's Omo Valley. The distinctive white base with black geometric patterns, often ovals or circles, is made from a mixture of chalk, ash, or local clay, applied during ceremonies, rites of passage, or adornment. This tradition, dating back centuries, signifies beauty, identity, and social status, with designs varying by individual or occasion. The Surma, including subgroups like the Mursi, also use natural materials like flowers and fruits in their headgear, reflecting their connection to the land.
@@ -27,8 +25,7 @@ Surma face painting from Ethiopia's Omo Valley is among the most visually striki
 
 ---
 
-## Attribution
-
+**Dominant Colors:** White, black
 **Archetype:** Chicago Detroit
 **Ancestor:** [Ethiopian](../../../core-lore/ancestors/ethiopian.md)
 **Swag Score:** 5

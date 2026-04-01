@@ -16,8 +16,6 @@ date_added: "2024-12-10"
 
 Vague monochrome painterly shot of a room with a few downlights, hanging decoration, and racks of items in square shapes.
 
-Dominant colors: Black and white with a slight hue of sepia.
-
 ## Cultural Context
 
 Where DJs discovered tracks and scenes cross-pollinated — from Detroit's Record Time to London's Black Market Records.
@@ -30,7 +28,6 @@ Record stores are where DJs discovered tracks and scenes cross-pollinated — th
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Black and white with a slight hue of sepia.
 **Date Added:** 2024-12-10
 **Introduced By:** Jani

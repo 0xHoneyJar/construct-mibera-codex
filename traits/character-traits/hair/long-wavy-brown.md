@@ -27,7 +27,5 @@ Flowing and natural, long wavy hair brings bohemian beauty and effortless femini
 
 ---
 
-## Attribution
-
 **Date Added:** 2024-06-22
 **Introduced By:** Gumi

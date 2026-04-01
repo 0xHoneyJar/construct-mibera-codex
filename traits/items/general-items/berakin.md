@@ -28,7 +28,5 @@ A Birkin bag parody that outlived the project it referenced. Honestly gumi would
 
 ---
 
-## Attribution
-
 **Swag Score:** 3
 **Date Added:** 2024-12-09

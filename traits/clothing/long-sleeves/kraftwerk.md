@@ -18,8 +18,6 @@ date_added: "2024-12-10"
 
 Blood red shirt with long sleeves and a black tie.
 
-Dominant colors: Red, black.
-
 ## Cultural Context
 
 Kraftwerk is a German electronic music pioneers, profoundly influenced the development of house music in Chicago and techno in Detroit during the 1980s. In Chicago, Kraftwerk’s albums like Trans-Europe Express (1977) and Computer World (1981) were staples in the DJ sets of early house music innovators like Frankie Knuckles at the Warehouse. In Detroit, Kraftwerk’s impact was even more direct, shaping the “Detroit techno” sound pioneered by Juan Atkins, Derrick May, and Kevin Saunderson (the Belleville Three). Atkins, inspired by * Autobahn* and Man-Machine, coined the term “techno” after hearing Kraftwerk’s blend of mechanical rhythms and futuristic themes, which mirrored Detroit’s auto industry and post-industrial decay.
@@ -32,8 +30,7 @@ Without Kraftwerk there is no Detroit techno, no Chicago house, no electronic mu
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Red, black.
 **Archetype:** Chicago Detroit
 **Swag Score:** 3
 **Date Added:** 2024-12-10

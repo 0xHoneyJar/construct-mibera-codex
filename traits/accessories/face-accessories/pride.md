@@ -30,8 +30,6 @@ The pride flag on the face is a declaration that electronic music culture and th
 
 ---
 
-## Attribution
-
 **Archetype:** Milady
 **Swag Score:** 2
 **Date Added:** 2024-12-10

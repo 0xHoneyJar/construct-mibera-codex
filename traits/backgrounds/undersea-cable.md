@@ -16,8 +16,6 @@ date_added: "2025-02-27"
 
 Very thick blue cable with thin yellow stripes on it cut / snapped into two, showing smaller wires poking out of them. The background setting is soft ocean-blue.
 
-Dominant colors: Blue
-
 ## Cultural Context
 
 The physical backbone of the internet — hidden infrastructure that makes crypto networks and online communities possible. A severed cable.
@@ -30,6 +28,5 @@ The physical infrastructure of the internet — the hidden architecture that mak
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Blue
 **Date Added:** 2025-02-27

@@ -16,8 +16,6 @@ date_added: "2025-03-26"
 
 An army green balaclava with two curved ears, thin silver chains and the word ‘HENLO’ dangling on one of the chains as charms. two rings above the eye hole, and four rings on one of the ears.
 
-Dominant colors: Army green.
-
 ## Cultural Context
 
 Was created for an irl Mibera rave. [look up context gumi]
@@ -30,7 +28,6 @@ Created for a real-world Mibera rave, this mask bridges the gap between on-chain
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Army green.
 **Swag Score:** 5
 **Date Added:** 2025-03-26

@@ -17,8 +17,6 @@ date_added: "2024-12-10"
 
 Long sleeves in bone-white with a big hello-kitty graphic wearing pink clothing in the middle and red text on one of the sleeves that reads “APHEX TWIN”.
 
-Dominant colors: White, pink
-
 ## Cultural Context
 
 Aphex Twin, born Richard David James in 1971 in Limerick, Ireland, is a pioneering electronic musician known for his innovative and genre-defying work in IDM, techno, ambient, and experimental music. Hello Kitty is a Japanese cartoon character.
@@ -31,8 +29,7 @@ Aphex Twin is one of electronic music's most important figures, and mashing him 
 
 ---
 
-## Attribution
-
+**Dominant Colors:** White, pink
 **Archetype:** Bootleg that Babybera bought in real life.
 **Swag Score:** 3
 **Date Added:** 2024-12-10

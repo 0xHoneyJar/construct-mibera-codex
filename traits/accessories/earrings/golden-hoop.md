@@ -28,8 +28,6 @@ Hoop earrings were everywhere in the 90s rave scene, and this one specifically r
 
 ---
 
-## Attribution
-
 **Archetype:** Aligned culture, related to the 90s rave
 **Swag Score:** 3
 **Date Added:** 2024-12-09

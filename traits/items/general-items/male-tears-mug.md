@@ -17,8 +17,6 @@ date_added: "2024-07-07"
 
 a white mug with the text “MALE TEARS” in black on it.
 
-Dominant colors: white, black
-
 ## Cultural Context
 
 The "Male Tears" mug became an iconic accessory of online feminist culture in the 2010s, designed to provoke and amuse in equal measure. Its inclusion places internet-era gender politics alongside the collection's other countercultural artifacts.
@@ -31,8 +29,7 @@ Internet-era provocation sitting next to ancient plants and rave gear. The colle
 
 ---
 
-## Attribution
-
+**Dominant Colors:** white, black
 **Archetype:** freetekno
 **Swag Score:** 2
 **Date Added:** 2024-07-07

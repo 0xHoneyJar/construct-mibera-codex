@@ -28,7 +28,5 @@ Abstract rave backgrounds represent the raw sensory experience of electronic mus
 
 ---
 
-## Attribution
-
 **Date Added:** 2024-08-14
 **Introduced By:** Jani

@@ -18,8 +18,6 @@ date_added: "2024-07-27"
 
 a deep red hood with white horn poking out on each side..
 
-Dominant colors: red, white
-
 ## Cultural Context
 
 The red devil hood with horns references both the Christian iconography of Satan and the modern Satanist movement, which ranges from LaVeyan Satanism (atheistic self-empowerment philosophy) to The Satanic Temple (political activism using religious imagery). In rave culture, Satanic and occult imagery has been used since the 1990s as a form of transgression and anti-establishment signaling.
@@ -32,8 +30,7 @@ The rave has everything in it — fascists next to anarchists, devout believers 
 
 ---
 
-## Attribution
-
+**Dominant Colors:** red, white
 **Archetype:** freetekno
 **Swag Score:** 4
 **Date Added:** 2024-07-27

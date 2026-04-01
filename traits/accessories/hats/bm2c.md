@@ -17,8 +17,6 @@ date_added: "2025-03-18"
 
 Soft pink cap with bm2c logo and text in white; a silhouette stickman of someone with curved ears running inside of a square frame.
 
-Dominant colors: Soft pink, white
-
 ## Cultural Context
 
 BM2C is an art project on Berachain with a very quirky sense of humour and distinct online persona. Launched an NFT collection that was available for minting on February 11th.
@@ -31,7 +29,6 @@ BM2C is one of Berachain's quirkier art projects — the kind of weird, endearin
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Soft pink, white
 **Swag Score:** 2
 **Date Added:** 2025-03-18

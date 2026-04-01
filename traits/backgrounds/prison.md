@@ -16,8 +16,6 @@ date_added: "2025-03-11"
 
 Simple grey background with prison bars in front with 3D effect.
 
-Dominant colors: Dark grey, grey.
-
 ## Cultural Context
 
 The shadow side of rave and drug culture — from Ross Ulbricht to the countless ravers, producers, and chemists who have done time.
@@ -30,6 +28,5 @@ Prison represents the shadow side of rave and drug culture — the cost of the s
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Dark grey, grey.
 **Date Added:** 2025-03-11

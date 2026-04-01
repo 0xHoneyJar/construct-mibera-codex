@@ -31,8 +31,6 @@ The hex fragments on this mask are not decoration, they are an identity system. 
 
 ---
 
-## Attribution
-
 **Swag Score:** 4
 **Date Added:** 2024-07-17
 **Introduced By:** Jani

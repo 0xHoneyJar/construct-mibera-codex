@@ -18,8 +18,6 @@ date_added: "2025-03-10"
 
 Graphic shirt full of illustrations and writings.
 
-Dominant colors: Black, white, brown
-
 ## Cultural Context
 
 Smokey Bear is the US Forest Service mascot created in 1944 to promote wildfire prevention, making it one of the longest-running public service campaigns in American history. Smokey is the chosen name of Berachain's founder. 
@@ -32,8 +30,7 @@ Smokey Bear is one of the most recognizable bear characters in American culture.
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Black, white, brown
 **Archetype:** Chicago Detroit
 **Swag Score:** 5
 **Date Added:** 2025-03-10

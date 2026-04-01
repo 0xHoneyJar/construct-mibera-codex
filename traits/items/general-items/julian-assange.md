@@ -27,6 +27,4 @@ Put cypherpunk ideals of radical transparency into global practice through WikiL
 
 ---
 
-## Attribution
-
 **Swag Score:** 5

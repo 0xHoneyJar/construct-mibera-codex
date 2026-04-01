@@ -12,8 +12,6 @@ date_added: "2025-01-10"
 
 a handful of pinnately compound leaves.
 
-Dominant colors: green
-
 ## Cultural Context
 
 Syrian rue contains harmine, one of the same MAO inhibitors found in ayahuasca. It has been used as a psychoactive sacrament across the Middle East and Central Asia for millennia, and some researchers believe it may be the legendary soma of ancient Vedic texts.
@@ -26,8 +24,7 @@ The Middle Eastern cousin of ayahuasca's MAO inhibitor. Its presence makes the c
 
 ---
 
-## Attribution
-
+**Dominant Colors:** green
 **Archetype:** freetekno
 **Ancestor:** [sufi](../../../core-lore/ancestors/sufis.md), syrian
 **Swag Score:** 3

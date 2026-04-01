@@ -18,8 +18,6 @@ date_added: "2024-06-22"
 
 Plain pink vest / tank top.
 
-Dominant colors: Pink
-
 ## Cultural Context
 
 Pink tank tops and vests were common in early Chicago house clubs, where the heat of packed dancefloors made minimal, lightweight clothing a practical necessity. The color pink in this context carries no particular subcultural signal -- it is simply a garment color referenced from period photography of Chicago's house scene.
@@ -32,8 +30,7 @@ Sourced from Chicago house scene photography. The plain pink vest is what people
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Pink
 **Archetype:** Chicago Detroit
 **Swag Score:** 1
 **Date Added:** 2024-06-22

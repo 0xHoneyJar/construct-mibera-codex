@@ -17,8 +17,6 @@ date_added: "2024-06-22"
 
 Black t-shirt with neon green Honeyroad graphic.
 
-Dominant colors: Black, green.
-
 ## Cultural Context
 
 Silk Road, Ross Ulbricht.
@@ -33,8 +31,7 @@ Honey Road is the official Mibera marketplace, directly inspired by the Silk Roa
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Black, green.
 **Archetype:** The official website for Mibera under The Honey Jar.
 **Swag Score:** 4
 **Date Added:** 2024-06-22

@@ -16,8 +16,6 @@ date_added: "2024-11-23"
 
 Deep blue night sky with bright white 4-points-stars connected by thin white lines forming a constellation (Libra). Smaller stars in white dots are scattered in the background.
 
-Dominant colors: Deep blue, white.
-
 ## Cultural Context
 
 Libra, the seventh zodiac sign (September 23 - October 22), is an air sign ruled by Venus. Symbolized by the Scales, it represents balance, harmony, and justice. Libras are known for their diplomatic, charming, and sociable nature, often seeking fairness and beauty in relationships and surroundings. Generally, they can be indecisive but are cooperative and value partnerships.
@@ -32,6 +30,5 @@ Zodiac constellation backgrounds place Miberas in the visual context of their as
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Deep blue, white.
 **Date Added:** 2024-11-23

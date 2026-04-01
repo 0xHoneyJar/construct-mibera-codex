@@ -17,8 +17,6 @@ date_added: "2024-08-10"
 
 Line doodle of a reindeer, small in size.
 
-Dominant colors: Black
-
 ## Cultural Context
 
 Sami Reindeer Herders of Lapland
@@ -32,8 +30,7 @@ The reindeer is the foundation of Sami survival -- food, shelter, clothing, tran
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Black
 **Ancestor:** [Sami](../../../core-lore/ancestors/sami.md)
 **Date Added:** 2024-08-10
 **Sources:**

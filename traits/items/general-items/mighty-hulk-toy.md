@@ -17,8 +17,6 @@ date_added: "2024-12-09"
 
 a Hulk toy / figurine, raising its left arm.
 
-Dominant colors: green
-
 ## Cultural Context
 
 Tribe Called Red
@@ -31,8 +29,7 @@ A mainstream toy sitting among sacred plants and revolutionary texts. The absurd
 
 ---
 
-## Attribution
-
+**Dominant Colors:** green
 **Archetype:** Freetekno
 **Swag Score:** 2
 **Date Added:** 2024-12-09

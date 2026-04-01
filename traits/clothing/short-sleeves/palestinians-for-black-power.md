@@ -13,8 +13,6 @@ date_added: "2024-06-22"
 
 a black t-shirt with white text that reads “PALESTINIANS for BLACK POWER” and an Arabic script under it.
 
-Dominant colors: black, white.
-
 ## Cultural Context
 
 Solidarity between Palestinian and Black liberation movements dates back to the 1960s, when figures in the Black Panther Party and the Student Nonviolent Coordinating Committee (SNCC) drew parallels between the African American struggle and the Palestinian cause. This cross-movement alliance has persisted through decades of shared organizing, with both communities framing their struggles in terms of anti-colonialism, self-determination, and resistance to state violence.
@@ -27,8 +25,7 @@ Cross-cultural solidarity between Palestinian and Black liberation movements is 
 
 ---
 
-## Attribution
-
+**Dominant Colors:** black, white.
 **Archetype:** Acidhouse
 **Ancestor:** Palestine
 **Swag Score:** 2

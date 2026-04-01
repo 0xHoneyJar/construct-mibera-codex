@@ -17,8 +17,6 @@ date_added: "2024-07-07"
 
 a white fan with black bones and handle.
 
-Dominant colors: black, white
-
 ## Cultural Context
 
 Fans are both a practical and expressive accessory in rave culture, used to cool down on crowded dance floors and as flow toys for visual performance. They bridge centuries of Asian cultural tradition with modern electronic music scenes.
@@ -31,8 +29,7 @@ A dance floor survival tool that doubles as a performance prop. The fan bridges 
 
 ---
 
-## Attribution
-
+**Dominant Colors:** black, white
 **Archetype:** chicago detroit
 **Swag Score:** 3
 **Date Added:** 2024-07-07

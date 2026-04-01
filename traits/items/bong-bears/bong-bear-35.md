@@ -15,8 +15,6 @@ date_added: "2024-12-09"
 
 White bear with white grayish mohawk and a smile on its face. Wearing a short-sleeved hoodie in bone white with dark beige abstract lines and strokes. The bear is wearing a white joint / rollie. A plushie based on [this Bong Bear](https://opensea.io/assets/ethereum/0x495f947276749ce646f68ac8c248420045cb7b5e/66075445032688988859229341194671037535804503065310441849644897899523778543617).
 
-Dominant colors: White, bone-white, dark beige.
-
 ## Cultural Context
 
 Bong Bears is one of the earliest and most recognized NFT collections in the Berachain ecosystem, created as bear-themed characters on Ethereum's OpenSea platform before Berachain launched its own chain. The collection features a roster of stylized, cannabis-culture-inspired bears each with unique outfits, accessories, and color schemes. Bong Bears helped establish the bear identity that became central to Berachain's community branding, making them a foundational piece of the ecosystem's cultural history.
@@ -29,7 +27,6 @@ As one of the OG Berachain ecosystem collections, Bong Bears appearing as held-i
 
 ---
 
-## Attribution
-
+**Dominant Colors:** White, bone-white, dark beige.
 **Date Added:** 2024-12-09
 **Introduced By:** Jani

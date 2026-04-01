@@ -12,8 +12,6 @@ date_added: "2024-08"
 
 A basic solid brown t-shirt.
 
-Dominant colors: Brown
-
 ## Cultural Context
 
 Brown is an earthy, grounded tone associated with natural materials and working-class clothing. In the collection, it adds warmth to the base-layer palette.
@@ -26,7 +24,6 @@ The brown tee brings an earthy, understated warmth to the simple shirt set. It p
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Brown
 **Swag Score:** 1
 **Date Added:** 2024-08

@@ -27,6 +27,4 @@ Co-founded both the EFF and the Cypherpunks mailing list. "The Net interprets ce
 
 ---
 
-## Attribution
-
 **Swag Score:** 5

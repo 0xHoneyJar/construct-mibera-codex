@@ -18,8 +18,6 @@ date_added: "2024-12-10"
 
 Small bandage in white.
 
-Dominant colors: White
-
 ## Cultural Context
 
 A small white bandage on the face is a minimal version of the injury-as-accessory motif found across anime, manga, and PFP art. Unlike larger bandages that suggest serious injury, the small bandage implies a minor scrape -- a character who gets into just enough trouble to be interesting without being dramatic about it.
@@ -32,8 +30,7 @@ A tiny bandage says just enough -- the Milady archetype version of understatemen
 
 ---
 
-## Attribution
-
+**Dominant Colors:** White
 **Archetype:** Milady
 **Swag Score:** 1
 **Date Added:** 2024-12-10

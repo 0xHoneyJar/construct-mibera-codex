@@ -30,8 +30,6 @@ The saffron dastar carries the weight of Sikh martial tradition and spiritual de
 
 ---
 
-## Attribution
-
 **Archetype:** chicago detroit
 **Swag Score:** 4
 **Date Added:** 2024-07-27

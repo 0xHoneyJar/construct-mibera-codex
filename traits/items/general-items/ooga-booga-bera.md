@@ -16,8 +16,6 @@ date_added: "2024-12-09"
 
 a figurine of an Ooga Booga bear; a yellow bear with a head that ends with a jar lid, wearing a rainbow coloured top with a marijuana leaf on it.
 
-Dominant colors: yellow, rainbow-coloured
-
 ## Cultural Context
 
 Ooga Booga is a decentralized exchange aggregator built on Berachain. "Ooga Booga" is also a widely used phrase in the Berachain community. The figurine combines the project's bear mascot with a cannabis leaf, reflecting the overlap between crypto culture and drug culture that the collection documents.
@@ -30,7 +28,6 @@ Ooga Booga is a decentralized exchange aggregator built on Berachain. "Ooga Boog
 
 ---
 
-## Attribution
-
+**Dominant Colors:** yellow, rainbow-coloured
 **Swag Score:** 3
 **Date Added:** 2024-12-09

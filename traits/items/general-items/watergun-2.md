@@ -17,8 +17,6 @@ date_added: "2024-06-05"
 
 a watergun in orange, bright magenta, purple, and lime green.
 
-Dominant colors: orange, bright magenta, purple, lime green
-
 ## Cultural Context
 
 Spraying strangers with water at a rave is both a practical kindness and a social ritual.
@@ -31,8 +29,7 @@ A second, more colorful variant. Multiple watergun designs reflect how a practic
 
 ---
 
-## Attribution
-
+**Dominant Colors:** orange, bright magenta, purple, lime green
 **Archetype:** acidhouse
 **Swag Score:** 4
 **Date Added:** 2024-06-05

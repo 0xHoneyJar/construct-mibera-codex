@@ -16,8 +16,6 @@ date_added: "2024-07-07"
 
 a soft blue book with black text that reads “The Construction and Operation of CLANDESTINE DRUG LABORATORIES”.
 
-Dominant colors: soft blue, black
-
 ## Cultural Context
 
 Clandestine chemistry labs are where many of the substances that fueled rave culture were actually made, from MDMA to LSD. This item pays tribute to the underground chemists whose work, legal or not, shaped the psychedelic landscape.
@@ -30,7 +28,6 @@ The supply side of the rave. Without underground chemists, there is no MDMA, no 
 
 ---
 
-## Attribution
-
+**Dominant Colors:** soft blue, black
 **Swag Score:** 3
 **Date Added:** 2024-07-07

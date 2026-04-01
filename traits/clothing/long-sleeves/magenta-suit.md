@@ -18,8 +18,6 @@ date_added: "2024-06-29"
 
 Deep magenta suit with a tie with the same colour as the suit and white shirt underneath.
 
-Dominant colors: Deep magenta, white.
-
 ## Cultural Context
 
 Part of the Milady suit series — colored suits have deep roots in the dandy tradition, from 18th century macaronis to zoot suits to the power-suit era. Dressing 'too well' in a bold color becomes its own form of subversion. The magenta tone specifically recalls the flamboyant suiting of 1970s disco and glam rock, where the suit-and-tie uniform was bent toward excess.
@@ -31,8 +29,7 @@ A bold magenta suit is the dandy tradition pushed to its limit. It belongs in th
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Deep magenta, white.
 **Archetype:** Milady
 **Swag Score:** 3
 **Date Added:** 2024-06-29

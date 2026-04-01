@@ -30,8 +30,6 @@ Calling them sunnies instead of sunglasses tells you everything about the vibe. 
 
 ---
 
-## Attribution
-
 **Archetype:** acidhouse
 **Swag Score:** 3
 **Date Added:** 2024-12-10

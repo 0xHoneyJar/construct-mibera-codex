@@ -18,8 +18,6 @@ date_added: "2024-06-22"
 
 Black t-shirt with red text that says “THE FUTURE IS RUGCORE” in thin font.
 
-Dominant colors: Black, red.
-
 ## Cultural Context
 
 Rugcore is a tongue-in-cheek aesthetic movement within crypto culture that embraces the chaotic, scam-adjacent energy of memecoin trading. The term rug refers to a rug pull, where a token creator drains liquidity and disappears with investor funds.
@@ -32,8 +30,7 @@ Declaring the future is rugcore is crypto culture laughing at itself. In a colle
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Black, red.
 **Archetype:** Freetekno
 **Swag Score:** 2
 **Date Added:** 2024-06-22

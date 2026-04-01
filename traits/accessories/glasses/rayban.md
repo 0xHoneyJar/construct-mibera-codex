@@ -30,8 +30,6 @@ Ron Hardy, the legendary Music Box DJ, helped define the raw, ecstatic sound of 
 
 ---
 
-## Attribution
-
 **Archetype:** Chicago Detroit
 **Swag Score:** 1
 **Date Added:** 2024-06-18

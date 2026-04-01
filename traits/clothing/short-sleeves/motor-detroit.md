@@ -18,8 +18,6 @@ date_added: "2024-06-22"
 
 Black t-shirt with a graphic and text that says “MOTOR Detroit” in the middle.
 
-Dominant colors: Black, muted golden, white, navy blue.
-
 ## Cultural Context
 
 Motor City is Detroit's most famous nickname, earned from the city's dominance of the American automobile industry throughout the 20th century. The same post-industrial infrastructure -- abandoned factories, cheap warehouse space, working-class resilience -- that defined the auto industry's decline also created the conditions for Detroit techno to emerge.
@@ -32,8 +30,7 @@ You cannot talk about Detroit techno without talking about the auto industry tha
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Black, muted golden, white, navy blue.
 **Archetype:** Chicago Detroit
 **Swag Score:** 1
 **Date Added:** 2024-06-22

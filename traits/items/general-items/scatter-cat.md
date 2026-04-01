@@ -17,8 +17,6 @@ date_added: "2024-12-09"
 
 a box with cartoonish looking black cat in it with light yellow eyes.
 
-Dominant colors: light brown, very dark navy (almost black), light yellow
-
 ## Cultural Context
 
 A cartoonish black cat in a box. Cats are a recurring motif in internet culture and the broader Milady aesthetic. The "scatter" name and box presentation suggest a collectible or gacha-style figure.
@@ -31,8 +29,7 @@ Gacha-style boxed figure adding feline energy to a collection dominated by bear 
 
 ---
 
-## Attribution
-
+**Dominant Colors:** light brown, very dark navy (almost black), light yellow
 **Archetype:** milady
 **Swag Score:** 1
 **Date Added:** 2024-12-09

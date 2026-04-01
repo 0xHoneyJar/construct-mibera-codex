@@ -16,8 +16,6 @@ date_added: "2024-12-10"
 
 Circular shape in purple and blue with ‘GB’ on it and a liquidy texture dripping down from one side.
 
-Dominant colors: Purple, blue
-
 ## Cultural Context
 
 GumBall Protocol is a Berachaain ecosystem project powering multiple dApps.
@@ -30,8 +28,7 @@ GumBall Protocol is a Berachain-native project, and ecosystem collaborations lik
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Purple, blue
 **Archetype:** Fellow bera brojekt
 **Swag Score:** 3
 **Date Added:** 2024-12-10

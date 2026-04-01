@@ -18,8 +18,6 @@ date_added: "2024-07-27"
 
 Plain black turban that looks tightly wrapped.
 
-Dominant colors: Black
-
 ## Cultural Context
 
 Yung Singh; a British-Punjabi DJ and producer known for blending UK garage, jungle, grime, and Punjabi music. Rising to fame with his 2020 Punjabi Garage Mix, he won DJ Mag’s Breakthrough DJ of 2021. His eclectic sets, featured at festivals like Glastonbury and Boiler Room, fuse dance music with South Asian influences.
@@ -32,8 +30,7 @@ Yung Singh proved that Punjabi music and UK dance culture are the same conversat
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Black
 **Archetype:** chicago detroit
 **Ancestor:** [Sufi](../../../core-lore/ancestors/sufis.md)
 **Swag Score:** 2

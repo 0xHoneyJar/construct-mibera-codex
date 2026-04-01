@@ -18,8 +18,6 @@ date_added: "2024-07-27"
 
 Full-face green mask with a shape of a face and deep eye-sockets..
 
-Dominant colors: Green.
-
 ## Cultural Context
 
 Illegal Covid Raves
@@ -32,8 +30,7 @@ Another artifact from the illegal COVID rave era. A featureless green mask at an
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Green.
 **Archetype:** Chicago Detroit
 **Swag Score:** 4
 **Date Added:** 2024-07-27

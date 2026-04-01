@@ -17,8 +17,6 @@ date_added: "2024-07-04"
 
 a chillum; a dark brown smoking pipe, smoke coming out of it.
 
-Dominant colors: dark brown, black
-
 ## Cultural Context
 
 The chillum is a straight pipe traditionally used by Hindu sadhus (holy men) to smoke cannabis as a spiritual practice. It connects modern recreational cannabis use to centuries of sacred use in South Asian traditions.
@@ -31,8 +29,7 @@ Bridges modern cannabis culture back to its oldest ritual form, where smoking wa
 
 ---
 
-## Attribution
-
+**Dominant Colors:** dark brown, black
 **Archetype:** acidhouse
 **Swag Score:** 2
 **Date Added:** 2024-07-04

@@ -19,8 +19,6 @@ date_added: "2024-07-28"
 
 Plain black niqab. Head and face cover that drapes down the head.
 
-Dominant colors: Black
-
 ## Cultural Context
 
 The niqab is a face-covering veil commonly worn by some Muslim women, particularly in conservative Islamic communities, to cover the face except for the eyes, as an expression of modesty or religious devotion.
@@ -33,8 +31,7 @@ Niqabi are popular within the Milady/Remilio scene as it exists within Remilio a
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Black
 **Archetype:** Milady
 **Swag Score:** 5
 **Date Added:** 2024-07-28

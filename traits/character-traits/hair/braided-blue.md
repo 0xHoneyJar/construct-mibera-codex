@@ -27,7 +27,5 @@ One of humanity's oldest hairstyling traditions, braids connect the collection t
 
 ---
 
-## Attribution
-
 **Date Added:** 2024-06-04
 **Introduced By:** Gumi

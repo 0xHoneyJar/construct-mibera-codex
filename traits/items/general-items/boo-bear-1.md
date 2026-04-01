@@ -29,8 +29,6 @@ References a key Berachain rebase.
 
 ---
 
-## Attribution
-
 **Archetype:** milady
 **Swag Score:** 3
 **Date Added:** 2024-07-09

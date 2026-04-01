@@ -16,8 +16,6 @@ date_added: "2025-03-22"
 
 a plushie of a yellow penguin wearing an orange-y shirt with white triangles scattered and a headband in red, white, and blue.
 
-Dominant colors: yellow, orange, red, white, blue
-
 ## Cultural Context
 
 Luca is a character from the Pudgy Penguins NFT collection, which expanded into physical plush toys. This item represents cross-community ties between the Pudgy Penguins and Berachain ecosystems.
@@ -30,7 +28,6 @@ Cross-collection NFT reference from Pudgy Penguins. Part of the collection's pra
 
 ---
 
-## Attribution
-
+**Dominant Colors:** yellow, orange, red, white, blue
 **Swag Score:** 3
 **Date Added:** 2025-03-22

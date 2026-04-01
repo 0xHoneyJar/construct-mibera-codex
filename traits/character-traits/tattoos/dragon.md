@@ -17,8 +17,6 @@ date_added: "2024-08-10"
 
 The traditional hanzi alphabet of the word ‘lóng’ in red.(龍)
 
-Dominant colors: Red
-
 ## Cultural Context
 <!-- justification
 ## Justification
@@ -28,7 +26,6 @@ The dragon is the single most important mythological figure in Chinese culture, 
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Red
 **Ancestor:** [Chinese](../../../core-lore/ancestors/chinese.md)
 **Date Added:** 2024-08-10

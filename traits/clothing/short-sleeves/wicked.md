@@ -18,8 +18,6 @@ date_added: "2024-06-22"
 
 Black t-shirt with white text that says “WICKED” in graffiti style.
 
-Dominant colors: Black, white.
-
 ## Cultural Context
 
 Inspired by Wicked Sound System, a legendary UK free party crew founded by Garth in the late 1980s. Wicked ran some of the most iconic illegal raves and squat parties in London through the early 1990s, alongside crews like Spiral Tribe and DiY. They were central to the UK's free party movement before and after the Criminal Justice Act crackdown, and their name became synonymous with underground sound system culture.
@@ -32,8 +30,7 @@ Wicked is the one-word review of every great night out. In graffiti lettering on
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Black, white.
 **Archetype:** Freetekno
 **Swag Score:** 2
 **Date Added:** 2024-06-22

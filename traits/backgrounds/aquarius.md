@@ -16,8 +16,6 @@ date_added: "2024-11-23"
 
 Deep blue night sky with bright white 4-points-stars connected by thin white lines forming a constellation (Aquarius). Smaller stars in white dots are scattered in the background.
 
-Dominant colors: Deep blue, white.
-
 ## Cultural Context
 
 Aquarius, the eleventh zodiac sign (January 20 - February 18), is an air sign ruled by Uranus. Symbolized by the Water Bearer, it represents innovation, independence, and humanitarianism. Aquarians are known for their progressive, intellectual, and unconventional nature, often valuing freedom and social causes. They can be eccentric yet aloof, with a strong focus on individuality and community betterment.
@@ -32,6 +30,5 @@ Zodiac constellation backgrounds place Miberas in the visual context of their as
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Deep blue, white.
 **Date Added:** 2024-11-23

@@ -17,8 +17,6 @@ date_added: "2024-12-10"
 
 Black tee with rainbow-colored mushroom that’s bitten on one side and the text “Think Differently” under it.
 
-Dominant colors: Black, rainbow.
-
 ## Cultural Context
 
 The design parodies Apple's Think Different campaign by replacing the Apple logo bite mark with a psychedelic mushroom. The mashup of Silicon Valley branding with psychedelic culture reflects a real historical connection -- Steve Jobs credited LSD as one of the most important experiences of his life.
@@ -31,8 +29,7 @@ Steve Jobs openly credited psychedelics for shaping his worldview. This shirt ma
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Black, rainbow.
 **Swag Score:** 3
 **Date Added:** 2024-12-10
 **Sources:**

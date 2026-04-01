@@ -17,8 +17,6 @@ date_added: "2024-07-12"
 
 a plushie of a pale female character with big blue eyes, cat-like mouth, short blue hair with bangs and cat-like ears; wearing black / very dark green clothing with white fur / accent.
 
-Dominant colors: black, blue, dusky pink
-
 ## Cultural Context
 
 Kittykaki is a character from the Berachain ecosystem, depicted as a pale female figure with blue hair and cat-like features. The plushie format follows the collection's pattern of rendering ecosystem mascots as kawaii collectibles.
@@ -31,8 +29,7 @@ Berachain ecosystem character bridging the bear world with anime cat-girl aesthe
 
 ---
 
-## Attribution
-
+**Dominant Colors:** black, blue, dusky pink
 **Archetype:** milady
 **Swag Score:** 4
 **Date Added:** 2024-07-12

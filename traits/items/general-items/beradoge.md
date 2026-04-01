@@ -17,8 +17,6 @@ date_added: "2024-07-11"
 
 a plushie of a shiba inu’s head with its mouth open aggressively but with a bear body.
 
-Dominant colors: brown, light beige
-
 ## Cultural Context
 
 Beradoge combines the Doge meme (based on the Shiba Inu "Kabosu") with a bear body, referencing both the Dogecoin memecoin phenomenon and Berachain.
@@ -31,8 +29,7 @@ Beradoge was one of THJ's partners.
 
 ---
 
-## Attribution
-
+**Dominant Colors:** brown, light beige
 **Archetype:** milady
 **Swag Score:** 4
 **Date Added:** 2024-07-11

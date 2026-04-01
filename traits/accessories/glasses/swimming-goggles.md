@@ -30,8 +30,6 @@ Swimming goggles at raves became one of those unexplainable but universally reco
 
 ---
 
-## Attribution
-
 **Archetype:** Acidhouse
 **Swag Score:** 4
 **Date Added:** 2024-06-18

@@ -28,7 +28,5 @@ The white can became a meme signifier for specific internet subcultures. A legal
 
 ---
 
-## Attribution
-
 **Swag Score:** 1
 **Date Added:** 2024-07-24

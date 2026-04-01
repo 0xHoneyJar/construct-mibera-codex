@@ -18,8 +18,6 @@ date_added: "2024-07-25"
 
 All-black hat with wide brim.
 
-Dominant colors: Black
-
 ## Cultural Context
 
 Wide-brimmed black hats have been associated with various countercultures and subcultures, from the Quaker broad-brimmed hat to the bohemian artist's hat to modern goth and dark fashion. In the Chicago and Detroit scenes, a wide-brim black hat carries the same understated cool as a well-chosen pair of sunglasses — minimal, deliberate, and effortlessly stylish.
@@ -32,8 +30,7 @@ An all-black wide brim is the hat equivalent of a power move — minimal, intent
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Black
 **Archetype:** Chicago Detroit
 **Swag Score:** 3
 **Date Added:** 2024-07-25

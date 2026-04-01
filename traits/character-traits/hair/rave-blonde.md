@@ -27,7 +27,5 @@ Low-maintenance and dance-floor-ready, the rave buzz-cut is the most directly su
 
 ---
 
-## Attribution
-
 **Date Added:** 2024-06-15
 **Introduced By:** Gumi

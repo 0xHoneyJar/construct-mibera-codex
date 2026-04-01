@@ -15,8 +15,6 @@ image: "https://mibera.s3.amazonaws.com/traits/Normal%20Lilac.webp"
 
 Normal eyes with a purple hue.
 
-Dominant colors: Lilac
-
 ## Cultural Context
 
 Normal eyes present a standard, open gaze with clearly defined iris and pupil. They serve as the baseline eye type in the collection, representing a calm and composed state from which all other eye expressions deviate.
@@ -29,7 +27,6 @@ The baseline gaze — every other eye type is a departure from normal, making it
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Lilac
 **Date Added:** 2024-06-03
 **Introduced By:** Gumi

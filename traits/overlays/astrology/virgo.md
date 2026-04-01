@@ -31,4 +31,3 @@ At the modifier layer, a Virgo overlay adds analytical precision and a service-o
 
 ---
 
-## Attribution

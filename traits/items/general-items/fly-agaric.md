@@ -17,8 +17,6 @@ date_added: "2024-12-09"
 
 a mushroom, medium in size, with white stem and red head with white dots on it.
 
-Dominant colors: red, white
-
 ## Cultural Context
 
 The fly agaric (Amanita muscaria) is the iconic red-and-white mushroom of fairy tales and folklore. Unlike psilocybin mushrooms, it contains muscimol and produces a deliriant rather than psychedelic experience. Some scholars believe it may be the ancient soma described in Vedic texts.
@@ -31,8 +29,7 @@ The most visually iconic mushroom in human culture doubles as a candidate for so
 
 ---
 
-## Attribution
-
+**Dominant Colors:** red, white
 **Archetype:** acidhouse
 **Swag Score:** 4
 **Date Added:** 2024-12-09

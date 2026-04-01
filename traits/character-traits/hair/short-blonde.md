@@ -27,7 +27,5 @@ Bold and modern, the pixie cut signals confidence and a willingness to break wit
 
 ---
 
-## Attribution
-
 **Date Added:** 2024-12-10
 **Introduced By:** Gumi

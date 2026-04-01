@@ -17,8 +17,6 @@ date_added: "2024-07-07"
 
 ‘Peyote Rattle’ by Nishkû´ntu; blue thin handle bar with stripes in darker blue and white, brown yellow dry coconut coloured and shaped head, and yellow tassels at the bottom with a little bell.
 
-Dominant colors: dark yellow, blue, light yellow
-
 ## Cultural Context
 
 The peyote rattle is a sacred tool used in Native American Church ceremonies to guide participants through mescaline visions. It represents one of the oldest documented traditions of communal psychedelic experience.
@@ -31,8 +29,7 @@ The sonic guide through mescaline space. Paired with the feather fan, it complet
 
 ---
 
-## Attribution
-
+**Dominant Colors:** dark yellow, blue, light yellow
 **Archetype:** freetekno
 **Swag Score:** 3
 **Date Added:** 2024-07-07

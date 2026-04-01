@@ -18,8 +18,6 @@ date_added: "2024-06-22"
 
 White t-shirt with black text that reads “GOOGLE JURY NULLIFICATION” on a lime green rectangular shape.
 
-Dominant colors: White, light lime-green, black
-
 ## Cultural Context
 
 (Quoted directly from Jani’s note on old Discord) “these are hyperlinks to deep lore conversations in and around cfangs milieu so are meant to agitate. we're also walking right up to the edge of politics given milady are so adamantly not left wing or right wing. mibera are also not right wing or left wing, but pull in symbology and slogans from many different sides so are taking the aesthetic and narrative even deeper in”
@@ -32,8 +30,7 @@ Google Jury Nullification is a provocative political statement designed to agita
 
 ---
 
-## Attribution
-
+**Dominant Colors:** White, light lime-green, black
 **Archetype:** Freetekno
 **Swag Score:** 2
 **Date Added:** 2024-06-22

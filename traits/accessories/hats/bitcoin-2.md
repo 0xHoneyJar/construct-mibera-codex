@@ -18,8 +18,6 @@ date_added: "2024-12-10"
 
 Black cap with colourful graphics lined up in order of: sonic, bitcoin, 10, HP (Harry Potter), and Inu- as well as colourful text that reads “Harry Potter Obama” above them.
 
-Dominant colors: Black, red, blue, yellow
-
 ## Cultural Context
 
 HarryPotterObamaSonic10Inu (Ticker: BITCOIN) is a meme-based cryptocurrency on Ethereum (ERC-20) and Binance Smart Chain (BSC), launched around late 2021. The token employs reflection, liquidity pool acquisition, and burn functions in trades.
@@ -32,8 +30,7 @@ The premium version of the HPOS10I hat — more graphics, higher swag score, sam
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Black, red, blue, yellow
 **Archetype:** Acidhouse
 **Swag Score:** 4
 **Date Added:** 2024-12-10

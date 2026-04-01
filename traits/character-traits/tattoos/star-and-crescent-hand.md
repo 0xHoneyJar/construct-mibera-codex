@@ -17,8 +17,6 @@ date_added: "2024-08-09"
 
 The star and crescent of Turkey’s flag, directly on top of Mibera’s hand. It is entirely red.
 
-Dominant colors: Red
-
 ## Cultural Context
 <!-- justification
 ## Justification
@@ -28,7 +26,6 @@ The Turkish flag as hand ink -- it turns a national symbol into a personal state
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Red
 **Ancestor:** [Turkey](../../../core-lore/ancestors/turkey.md)
 **Date Added:** 2024-08-09

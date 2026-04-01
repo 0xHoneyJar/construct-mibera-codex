@@ -16,8 +16,6 @@ date_added: "2024-12-10"
 
 Earring with a leafy green lollipop as the charm.
 
-Dominant colors: Leafy green
-
 ## Cultural Context
 
 Rave culture is closely tied to drugs like MDMA, but often leads to involuntary jaw tension and grinding; to mitigate this discomfort and potential dental damage, ravers commonly suck on lollipops, chew gum, or use pacifiers, items that provide oral stimulation and reduce strain. Additionally, some illicit MDMA is distributed as lollipops, either coated or infused to disguise it as candy for easier transport and consumption at events
@@ -30,8 +28,7 @@ Lollipops are a functional rave accessory as much as a fashion statement -- anyo
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Leafy green
 **Archetype:** Relation to drug-use and users, as well as rave culture.
 **Swag Score:** 1
 **Date Added:** 2024-12-10

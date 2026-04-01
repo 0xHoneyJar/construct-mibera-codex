@@ -16,8 +16,6 @@ date_added: "2024-06-07"
 
 Black car with yellow stripe lining at the bottom, and an extending shack as the half part of the car. The car is parked / static.
 
-Dominant colors: Black, yellow, hues of muted purple
-
 ## Cultural Context
 
 Charlie Ace, born Valdene Dixon in 1945, was a pivotal figure in Jamaican music, known for his work as a DJ, producer, and entrepreneur. His Swing-A-Ling Mobile Record Shack, a converted Morris van, brought reggae and dancehall records directly to Kingston's streets in the 1970s, becoming a cultural icon. It promoted new music and artists, featured in media like Jamaican tourist magazines and a Channel 4 documentary.
@@ -32,7 +30,6 @@ Charlie Ace's mobile record shop brought Jamaican music to London — a direct a
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Black, yellow, hues of muted purple
 **Date Added:** 2024-06-07
 **Introduced By:** Jani

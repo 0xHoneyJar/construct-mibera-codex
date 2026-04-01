@@ -29,7 +29,5 @@ One of the most parodied anti-drug campaigns of all time, turned into a t-shirt.
 
 ---
 
-## Attribution
-
 **Swag Score:** 3
 **Date Added:** 2024-06-22

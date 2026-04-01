@@ -31,4 +31,3 @@ As a modifier signal, the Taurus overlay lends grounded persistence and sensory 
 
 ---
 
-## Attribution

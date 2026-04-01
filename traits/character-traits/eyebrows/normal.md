@@ -11,8 +11,6 @@ date_added: "2024-07-30"
 
 thin eyebrows, slightly curved with no arch.
 
-Dominant colors: Black
-
 ## Cultural Context
 
 Normal eyebrows present a neutral, slightly curved shape with no pronounced arch or tilt. This resting position serves as the baseline from which all other eyebrow expressions deviate, conveying calm composure or emotional neutrality.
@@ -25,7 +23,6 @@ The neutral baseline — every expressive eyebrow is a departure from normal, ma
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Black
 **Date Added:** 2024-07-30
 **Introduced By:** Gumi

@@ -30,8 +30,6 @@ Mirrored lenses let you watch the room without the room watching you back. In Ch
 
 ---
 
-## Attribution
-
 **Archetype:** Chicago Detroit
 **Swag Score:** 3
 **Date Added:** 2024-08-03

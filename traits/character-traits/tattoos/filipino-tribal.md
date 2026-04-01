@@ -17,8 +17,6 @@ date_added: "2024-08-06"
 
 Filipino tribal line-work.
 
-Dominant colors: Black.
-
 ## Cultural Context
 
 Filipino tribal tattooing, known as batok or patik, is one of the oldest continuous tattoo traditions in the world. Practiced by groups such as the Kalinga, Visayan, and Igorot peoples, these tattoos marked social status, bravery in battle, and spiritual protection. The tradition nearly disappeared under Spanish colonization but has seen a revival through practitioners like Whang-Od Oggay, the last mambabatok of Kalinga, who began tattooing at age fifteen.
@@ -31,7 +29,6 @@ One of the oldest living tattoo lineages on the planet, kept alive by a single c
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Black.
 **Date Added:** 2024-08-06
 **Team Notes:** "Filo" — Tez, Jul 2024, #tattoos

@@ -30,8 +30,6 @@ Red glow in a dark room reads as both warning and invitation. The boldest color 
 
 ---
 
-## Attribution
-
 **Archetype:** Chicago Detroit
 **Swag Score:** 2
 **Date Added:** 2024-06-18

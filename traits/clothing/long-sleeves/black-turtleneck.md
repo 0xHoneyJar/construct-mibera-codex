@@ -18,8 +18,6 @@ date_added: "2024-06-25"
 
 Plain black turtleneck with long sleeves.
 
-Dominant colors: Black
-
 ## Cultural Context
 
 The clothing piece is directly referenced from a header photo in an article by CDM about the emergence of Detroit Techno, told by Wax Poetics. The image used is of Derrick May in the Michigan Theatre parking garage, 1988, taken by Bart Everly.
@@ -32,8 +30,7 @@ Directly referenced from a photo of Derrick May in a Detroit parking garage in 1
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Black
 **Archetype:** Chicago Detroit
 **Swag Score:** 2
 **Date Added:** 2024-06-25

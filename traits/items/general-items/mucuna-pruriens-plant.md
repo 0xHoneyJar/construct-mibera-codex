@@ -12,8 +12,6 @@ date_added: "2025-01-10"
 
 a small bunch of leaves and a strip of beans with yellow skin.
 
-Dominant colors: green, black, yellow
-
 ## Cultural Context
 
 Mucuna pruriens, the velvet bean, naturally contains L-DOPA, a direct precursor to dopamine. It has been used in Ayurvedic medicine for centuries to treat mood and neurological conditions, connecting ancient plant knowledge to modern neurochemistry.
@@ -26,8 +24,7 @@ A plant that naturally produces a dopamine precursor represents the collection's
 
 ---
 
-## Attribution
-
+**Dominant Colors:** green, black, yellow
 **Archetype:** acidhouse
 **Ancestor:** [hindu](../../../core-lore/ancestors/hindu.md)
 **Swag Score:** 2

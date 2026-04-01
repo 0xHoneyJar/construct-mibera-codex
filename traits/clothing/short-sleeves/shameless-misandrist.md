@@ -18,8 +18,6 @@ date_added: "2024-06-22"
 
 Pink t-shirt with blood-red writing that reads “SHAMELESS MISANDRIST” inside of a heart outline with a cross on top.
 
-Dominant colors: Pink, blood-red
-
 ## Cultural Context
 
 The piece was made by Ollie Henderson mentioned in an article he wrote himself about it called heapsgay.com. The article argues that misandry (hatred of men) and misogyny (hatred of women) are not equivalents due to systemic power imbalances: misogyny reinforces women's oppression, while misandry is a powerless, reactive pushback lacking institutional harm.
@@ -32,8 +30,7 @@ This is a real piece by Ollie Henderson, sourced from heapsgay.com. The collecti
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Pink, blood-red
 **Archetype:** Freetekno
 **Swag Score:** 3
 **Date Added:** 2024-06-22

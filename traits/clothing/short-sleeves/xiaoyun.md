@@ -29,7 +29,5 @@ Wang Xiaoyun broke two of the most important cryptographic hash functions in his
 
 ---
 
-## Attribution
-
 **Swag Score:** 2
 **Date Added:** 2024-06-22

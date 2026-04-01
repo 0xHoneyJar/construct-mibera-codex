@@ -17,8 +17,6 @@ date_added: "2024-07-10"
 
 a big glassy bong with gradients of warm pastel pink and yellow
 
-Dominant colors: warm pink, pastel yellow
-
 ## Cultural Context
 
 The evolution of bongs from simple smoking tools into colorful, hand-blown glass art parallels the way rave culture transforms functional spaces into aesthetic experiences.
@@ -31,8 +29,7 @@ Part of a four-piece bong set that tracks the evolution of paraphernalia from to
 
 ---
 
-## Attribution
-
+**Dominant Colors:** warm pink, pastel yellow
 **Archetype:** chicago detroit
 **Swag Score:** 2
 **Date Added:** 2024-07-10

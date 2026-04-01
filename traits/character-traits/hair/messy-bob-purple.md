@@ -27,7 +27,5 @@ Deliberately imperfect, the messy bob captures the creative, anti-perfectionist 
 
 ---
 
-## Attribution
-
 **Date Added:** 2024-06-04
 **Introduced By:** Gumi

@@ -17,8 +17,6 @@ date_added: "2024-07-27"
 
 Huge face mask in the shape of a bear head.
 
-Dominant colors: Brown.
-
 ## Cultural Context
 
 Smokey, the founder of Berachain, and Berachain.
@@ -31,8 +29,7 @@ The bear is the spirit animal of Berachain. A full bear-head mask in the Freetek
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Brown.
 **Archetype:** Freetekno
 **Swag Score:** 4
 **Date Added:** 2024-07-27

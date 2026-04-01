@@ -18,8 +18,6 @@ date_added: "2024-07-24"
 
 Tall sturdy hat in black and grey that’s flat in shape.
 
-Dominant colors: Black, grey
-
 ## Cultural Context
 
 Traditional Ethiopian headwear varies by region and ethnicity, with flat-topped caps being common across several Ethiopian cultures. The kofia-style flat hat has particular significance in Ethiopian Orthodox Christian communities, where headcoverings carry religious and cultural meaning. Ethiopia's long history as an independent African nation gives its traditional dress a unique significance in the broader African diaspora.
@@ -32,8 +30,7 @@ Ethiopian headwear represents one of Africa's oldest continuous cultures — a f
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Black, grey
 **Archetype:** Milady
 **Swag Score:** 2
 **Date Added:** 2024-07-24

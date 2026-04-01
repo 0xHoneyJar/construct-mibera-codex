@@ -17,8 +17,6 @@ date_added: "2024-12-09"
 
 a bottle of beverage with blue label and clear white liquid.
 
-Dominant colors: white, blue
-
 ## Cultural Context
 
 A water bottle branded "Sober Water," positioned as the non-intoxicant option among the collection's beverage items. Its inclusion acknowledges that sobriety is a valid choice within rave and party culture, and that hydration is a practical necessity at any event.
@@ -31,8 +29,7 @@ The straight-edge option at the rave — acknowledging that choosing not to part
 
 ---
 
-## Attribution
-
+**Dominant Colors:** white, blue
 **Archetype:** milady
 **Swag Score:** 2
 **Date Added:** 2024-12-09

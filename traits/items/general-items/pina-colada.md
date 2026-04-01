@@ -29,8 +29,6 @@ The collection needs a beach — this is it. Not every substance reference has t
 
 ---
 
-## Attribution
-
 **Archetype:** milady
 **Swag Score:** 2
 **Date Added:** 2024-07-07

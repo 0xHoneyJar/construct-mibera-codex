@@ -16,8 +16,6 @@ date_added: "2025-03-11"
 
 Jungle setting with four blue drums / barrels, a black tarp on the ground, a snake wrapped around one of the trees, and a pair of bright yellow eyes peeking from the dark. In front are mountains of white powder and an empty glass jar. Thin log and some leaves are framing the scene nicely.
 
-Dominant colors: Silver / grey
-
 ## Cultural Context
 
 Clandestine cocaine and ayahuasca production of South America. The watching eyes and snake imagery hint at the dangers.
@@ -30,6 +28,5 @@ Clandestine chemistry backgrounds represent the production side of the drug-mole
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Silver / grey
 **Date Added:** 2025-03-11

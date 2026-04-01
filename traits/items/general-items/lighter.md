@@ -29,8 +29,6 @@ The one item every subculture in the collection shares. If you only carry one th
 
 ---
 
-## Attribution
-
 **Archetype:** freetekno
 **Swag Score:** 1
 **Date Added:** 2024-07-04

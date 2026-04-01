@@ -27,4 +27,3 @@ At the textural layer of the signal hierarchy, the Fire element adds intensity a
 
 ---
 
-## Attribution

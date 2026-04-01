@@ -19,7 +19,7 @@ a 303 drum machine in light grey; a technical device with a bunch of small butto
 
 ## Cultural Context
 
-The Roland TB-303 was designed as a bass accompaniment tool for solo guitarists and was a commercial failure. DJs in Chicago repurposed its squelchy, resonant sound into the defining voice of acid house, making it one of the most important accidents in music history.
+The Roland TB-303 was designed as a bass accompaniment tool for solo guitarists and was a commercial failure. DJs in Chicago repurposed its squelchy, resonant sound into the defining voice of acid house.
 
 <!-- justification
 ## Justification
@@ -28,8 +28,6 @@ The happiest accident in electronic music. A failed bass guitar simulator that b
 -->
 
 ---
-
-## Attribution
 
 **Archetype:** chicago detroit
 **Swag Score:** 5

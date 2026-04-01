@@ -18,8 +18,6 @@ date_added: "2024-06-22"
 
 Black t-shirt with white text that reads “I HELD HANDS WITH MILADY SONORA AT THE MILADY RAVE” on it .
 
-Dominant colors: Black, white.
-
 ## Cultural Context
 
 Part of the Milady Rave souvenir tee series. Milady Sonora is a specific character or figure within the Milady Maker universe. The confessional format -- I held hands with Milady Sonora at the rave -- treats the Milady characters as real people you might meet on the dancefloor.
@@ -32,8 +30,7 @@ Holding hands with a specific Milady character at a rave. This shirt treats NFT 
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Black, white.
 **Archetype:** Milady
 **Swag Score:** 2
 **Date Added:** 2024-06-22

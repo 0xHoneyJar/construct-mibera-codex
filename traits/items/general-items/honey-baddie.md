@@ -16,8 +16,6 @@ date_added: "2024-12-09"
 
 Baddie’s mask in honey color; a female bear face with feminine eyes, red lips, heart nose, and a ribbon on one ear.
 
-Dominant colors: shades of yellow
-
 ## Cultural Context
 
 Bera Baddies is a women centric org within the Berachain ecosystem. This item is a reference to the bera baddie face designed by Gumibera. 
@@ -30,7 +28,6 @@ Bera Baddies and THJ collaborated closely, especially at the time of the incepti
 
 ---
 
-## Attribution
-
+**Dominant Colors:** shades of yellow
 **Swag Score:** 5
 **Date Added:** 2024-12-09

@@ -12,8 +12,6 @@ date_added: "2024-12-09"
 
 a sugarcane stick.
 
-Dominant colors: green
-
 ## Cultural Context
 
 Sugarcane has been fermented into alcohol across tropical regions for thousands of years, producing everything from rum to cachaca. It connects to the deep history of communal drinking rituals that preceded modern rave culture by millennia.
@@ -26,8 +24,7 @@ The raw ingredient behind rum, cachaca, and millennia of tropical fermentation. 
 
 ---
 
-## Attribution
-
+**Dominant Colors:** green
 **Archetype:** chicago detroit
 **Ancestor:** [hindu](../../../core-lore/ancestors/hindu.md)
 **Swag Score:** 4

@@ -27,7 +27,5 @@ Playful geometry meets cultural tradition — funky's mini-buns bring festival f
 
 ---
 
-## Attribution
-
 **Date Added:** 2024-06-15
 **Introduced By:** Gumi

@@ -29,4 +29,3 @@ D-rank Miberas score below average in the swag formula -- their trait combinatio
 
 ---
 
-## Attribution

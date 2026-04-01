@@ -17,8 +17,6 @@ date_added: "2024-07-07"
 
 a glass bottle of beverage with light orange liquid that appears fizzy, and a blue bottle lid. The beverage is labeled “CLUB-MATE”.
 
-Dominant colors: light orange, blue
-
 ## Cultural Context
 
 Club-Mate is a caffeinated mate tea that became the unofficial drink of Berlin's techno scene and hacker culture. It fuels late-night coding sessions and all-night raves equally, symbolizing the overlap between tech and electronic music.
@@ -31,8 +29,7 @@ Where techno culture and hacker culture share a fridge. Mibera sits at the same 
 
 ---
 
-## Attribution
-
+**Dominant Colors:** light orange, blue
 **Archetype:** freetekno
 **Swag Score:** 3
 **Date Added:** 2024-07-07

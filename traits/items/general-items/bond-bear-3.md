@@ -17,8 +17,6 @@ date_added: "2024-07-11"
 
 a plushie of a panda wearing black hat and navy suit with an inner white shirt.
 
-Dominant colors: black, white, navy.
-
 ## Cultural Context
 
 A panda bear in a navy suit and black hat. 
@@ -31,8 +29,7 @@ References a key Berachain rebase.
 
 ---
 
-## Attribution
-
+**Dominant Colors:** black, white, navy.
 **Archetype:** milady
 **Swag Score:** 4
 **Date Added:** 2024-07-11

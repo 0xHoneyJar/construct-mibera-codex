@@ -30,8 +30,6 @@ Milady culture lives where high fashion and shitposting coexist. Referencing Bot
 
 ---
 
-## Attribution
-
 **Archetype:** Milady
 **Swag Score:** 1
 **Date Added:** 2024-06-05

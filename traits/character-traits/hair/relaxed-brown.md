@@ -27,7 +27,5 @@ Smooth and unhurried, the relaxed style brings effortless elegance to the longer
 
 ---
 
-## Attribution
-
 **Date Added:** 2024-12-10
 **Introduced By:** Gumi

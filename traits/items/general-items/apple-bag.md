@@ -17,8 +17,6 @@ date_added: "2024-07-07"
 
 a bag in the realistic shape of apple with a brown sling.
 
-Dominant colors: red, green, brown
-
 ## Cultural Context
 
 Apple-shaped bags and fruit-themed accessories appeared in 1990s rave and club fashion as part of a broader trend toward bright, cartoonish, deliberately childish styling. The look rejected mainstream adult fashion in favor of playfulness and absurdity.
@@ -31,8 +29,7 @@ Rave fashion deliberately rejected adult aesthetics. An apple-shaped bag is absu
 
 ---
 
-## Attribution
-
+**Dominant Colors:** red, green, brown
 **Archetype:** acidhouse
 **Swag Score:** 5
 **Date Added:** 2024-07-07

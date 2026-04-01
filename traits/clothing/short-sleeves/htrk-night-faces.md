@@ -17,8 +17,6 @@ date_added: "2025-01-02"
 
 Charcoal grey t-shirt with line doodles of faces and a screaming man with his mouth wide open.
 
-Dominant colors: Charcoal grey, white
-
 ## Cultural Context
 
 HTRK (an Australian rock band)
@@ -33,8 +31,7 @@ HTRK represents the experimental post-punk and industrial sound that fed directl
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Charcoal grey, white
 **Swag Score:** 3
 **Date Added:** 2025-01-02
 **Introduced By:** Jani

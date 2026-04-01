@@ -30,8 +30,6 @@ Squad shades are the kind of thing an entire crew shows up wearing to a rave, an
 
 ---
 
-## Attribution
-
 **Archetype:** Acidhouse
 **Swag Score:** 3
 **Date Added:** 2024-06-17

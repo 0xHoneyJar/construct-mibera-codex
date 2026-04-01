@@ -29,8 +29,6 @@ The most democratic way to get high. No glass, no battery, no brand — just pap
 
 ---
 
-## Attribution
-
 **Archetype:** chicago detroit
 **Swag Score:** 1
 **Date Added:** 2024-12-09

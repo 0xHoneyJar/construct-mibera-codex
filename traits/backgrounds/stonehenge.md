@@ -16,8 +16,6 @@ date_added: "2024-06-07"
 
 Painting-like view of the Stonehenge (basically stacked gigantic stones) on a fresh field of grass.
 
-Dominant colors: Blue, green, grey.
-
 ## Cultural Context
 
 The Stonehenge, a prehistoric monument in Wiltshire, England, built between 3000 and 2000 BCE. It consists of a ring of massive standing stones, some weighing up to 25 tons, arranged in a circular pattern. Constructed in phases, it likely served as a ceremonial or religious site, possibly for burial rituals or astronomical observations, aligning with the solstices.
@@ -32,7 +30,6 @@ Stonehenge connects to ancient ceremonial practices and the free festival moveme
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Blue, green, grey.
 **Date Added:** 2024-06-07
 **Introduced By:** Tez

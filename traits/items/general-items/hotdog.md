@@ -16,8 +16,6 @@ date_added: "2025-03-25"
 
 a hot dog with mustard.
 
-Dominant colors: brown, dark red, yellow
-
 ## Cultural Context
 
 Jani is a hotdog.
@@ -30,7 +28,6 @@ Jani is a hotdog.
 
 ---
 
-## Attribution
-
+**Dominant Colors:** brown, dark red, yellow
 **Swag Score:** 4
 **Date Added:** 2025-03-25

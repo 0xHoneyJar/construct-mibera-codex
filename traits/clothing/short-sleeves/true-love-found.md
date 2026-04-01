@@ -13,8 +13,6 @@ date_added: "2024-06-22"
 
 Black t-shirt with white text that reads “I FOUND TRUE LOVE AT THE MILADY RAVE” on it .
 
-Dominant colors: Black, white.
-
 ## Cultural Context
 
 Part of the Milady Rave souvenir tee series. Finding true love at a rave is one of the most common narratives in dance music culture -- the heightened emotional state of the dancefloor has launched countless real relationships.
@@ -27,8 +25,7 @@ People genuinely do find true love at raves. This shirt documents the romantic d
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Black, white.
 **Archetype:** Milady
 **Swag Score:** 2
 **Date Added:** 2024-06-22

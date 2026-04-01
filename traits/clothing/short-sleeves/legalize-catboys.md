@@ -18,8 +18,6 @@ date_added: "2024-06-22"
 
 Light grey t-shirt with a graphic of 2 male figures as cats with cat ears and cat tails. Above the graphic is written “LEGALIZE CATBOYS”.
 
-Dominant colors: Light grey, white, black
-
 ## Cultural Context
 
 Daniel Howell is an English YouTuber, comedian, author, and former radio host. He rose to fame in the early 2010s under the handle "danisnotonfire," amassing over 6 million subscribers on his main channel (now simply Daniel Howell).
@@ -32,8 +30,7 @@ Catboy culture sits at the intersection of anime fandom, queer identity, and the
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Light grey, white, black
 **Archetype:** Milady
 **Swag Score:** 2
 **Date Added:** 2024-06-22

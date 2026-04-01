@@ -18,8 +18,6 @@ date_added: "2024-07-25"
 
 Mushroom shaped beret with camo patterns with army green color.
 
-Dominant colors: Dark green, light pale green, brown
-
 ## Cultural Context
 
 Camouflage pattern clothing became a staple of free party and teknival culture in the 1990s, particularly associated with groups like Spiral Tribe. The military surplus aesthetic reflected both the nomadic, survivalist lifestyle of traveling sound systems and an ironic repurposing of military imagery by anti-establishment countercultures.
@@ -32,8 +30,7 @@ Camo is the uniform of the free party circuit — Spiral Tribe wore it, teknival
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Dark green, light pale green, brown
 **Archetype:** Milady
 **Swag Score:** 3
 **Date Added:** 2024-07-25

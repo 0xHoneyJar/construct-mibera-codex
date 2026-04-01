@@ -30,8 +30,6 @@ A black crescent on the face collapses occult symbolism and internet aesthetics 
 
 ---
 
-## Attribution
-
 **Archetype:** Milady
 **Swag Score:** 4
 **Date Added:** 2024-12-10

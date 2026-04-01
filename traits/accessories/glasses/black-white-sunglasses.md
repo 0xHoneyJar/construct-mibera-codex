@@ -30,8 +30,6 @@ Clean, minimal, timeless. The kind of shades you wear at an afterhours spot in C
 
 ---
 
-## Attribution
-
 **Archetype:** chicago detroit
 **Swag Score:** 3
 **Date Added:** 2024-06-18

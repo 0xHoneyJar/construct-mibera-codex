@@ -18,8 +18,6 @@ date_added: "2024-12-10"
 
 Couple of bandages.
 
-Dominant colors: Bone white
-
 ## Cultural Context
 
 In free party and sound system culture, minor injuries are a badge of honor from building rigs, hauling speakers, and setting up in abandoned buildings or open fields. The DIY ethos of freetekno means participants are often their own medics, patching up cuts and scrapes with whatever is on hand before getting back to work.
@@ -32,8 +30,7 @@ Multiple bandages on the face say you were building something, not just attendin
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Bone white
 **Archetype:** Freetekno
 **Swag Score:** 2
 **Date Added:** 2024-12-10

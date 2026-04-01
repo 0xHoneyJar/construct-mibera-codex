@@ -18,8 +18,6 @@ date_added: "2024-06-22"
 
 White t-shirt with a tint of green with a leafy green dungarees over it.
 
-Dominant colors: Light green, green.
-
 ## Cultural Context
 
 Dungarees (overalls) have been standard workwear since the 19th century and were adopted by the rave scene in the late 1980s and early 1990s as part of the casual, anything-goes dress code. The baggy, comfortable fit was ideal for all-night dancing in warehouses.
@@ -32,8 +30,7 @@ Dungarees were everywhere at acid house raves in the late 1980s. Comfortable, cl
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Light green, green.
 **Archetype:** Acidhouse
 **Swag Score:** 2
 **Date Added:** 2024-06-22

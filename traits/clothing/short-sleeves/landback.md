@@ -18,8 +18,6 @@ date_added: "2024-12-10"
 
 Bright orange t-shirt with graphic of the word “landback” lined up vertically.
 
-Dominant colors: White, yellow.
-
 ## Cultural Context
 
 Original Landlords
@@ -31,8 +29,7 @@ Land Back represents Indigenous sovereignty -- the most fundamental territorial 
 
 ---
 
-## Attribution
-
+**Dominant Colors:** White, yellow.
 **Archetype:** Freetekno
 **Ancestor:** [Native American](../../../core-lore/ancestors/native-american.md)
 **Swag Score:** 3

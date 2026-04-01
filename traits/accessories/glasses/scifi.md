@@ -30,8 +30,6 @@ The Milady archetype already lives online more than offline. Sci-fi visors just 
 
 ---
 
-## Attribution
-
 **Archetype:** milady
 **Swag Score:** 5
 **Date Added:** 2024-12-10

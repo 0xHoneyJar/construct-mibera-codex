@@ -29,4 +29,3 @@ S-rank marks the threshold where a Mibera's swag score enters elite territory --
 
 ---
 
-## Attribution

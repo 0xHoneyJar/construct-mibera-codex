@@ -27,7 +27,5 @@ Enchantment and mischief — fae hair brings Celtic folklore energy to the colle
 
 ---
 
-## Attribution
-
 **Date Added:** 2024-06-15
 **Introduced By:** Gumi

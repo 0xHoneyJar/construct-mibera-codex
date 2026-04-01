@@ -22,6 +22,4 @@ Dilated pupils are the unmistakable visual signature of MDMA — a direct nod to
 
 ---
 
-## Attribution
-
 **Date Added:** 2026-02-15

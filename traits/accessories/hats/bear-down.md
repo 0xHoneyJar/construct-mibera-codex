@@ -18,8 +18,6 @@ date_added: "2024-07-24"
 
 Two-toned orange creamy white cap with big black text that reads “BEAR DOWN”.
 
-Dominant colors: Orange, white with a hint of orange
-
 ## Cultural Context
 
 "Bear Down" is a rallying cry in the Berachain community, used as both a greeting and a declaration of commitment to the ecosystem. The phrase plays on the chain's bear branding, functioning similarly to "WAGMI" in broader crypto culture but with distinctly ursine flavor.
@@ -32,8 +30,7 @@ The rallying cry of Berachain put on a cap — "Bear Down" is what you say when 
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Orange, white with a hint of orange
 **Archetype:** Acidhouse
 **Swag Score:** 2
 **Date Added:** 2024-07-24

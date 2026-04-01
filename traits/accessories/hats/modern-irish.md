@@ -18,8 +18,6 @@ date_added: "2024-07-24"
 
 Green bucket hat / walking hat with patches of different garments with different colors and patterns on it and a small yellow feather.
 
-Dominant colors: Green, yellow, blue, red
-
 ## Cultural Context
 
 The Irish walking hat (or patchwork cap) is a traditional piece of Irish headwear, typically made from tweed with colorful patchwork sections. It represents rural Irish craft traditions and has become associated with both heritage tourism and the broader Celtic identity. The feather detail is a traditional adornment, while the patchwork style connects to the DIY aesthetic of acid house culture.
@@ -32,8 +30,7 @@ An Irish walking hat in the acid house archetype — because the Irish rave scen
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Green, yellow, blue, red
 **Archetype:** acidhouse
 **Swag Score:** 2
 **Date Added:** 2024-07-24

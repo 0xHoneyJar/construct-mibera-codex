@@ -16,8 +16,6 @@ date_added: "2024-12-10"
 
 Plain gradient of dark orange, black, and dark teal (colour in order from bottom left to top right)
 
-Dominant colors: Dark orange, black, dark teal.
-
 ## Cultural Context
 
 Berachain ecosystem DAO. Background represents the project's visual identity.
@@ -30,7 +28,6 @@ Berachain ecosystem partner background — representing the on-chain community t
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Dark orange, black, dark teal.
 **Date Added:** 2024-12-10
 **Introduced By:** Jani, with Gods being responsible for the original inspiration.

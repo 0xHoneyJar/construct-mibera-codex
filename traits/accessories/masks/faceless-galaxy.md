@@ -18,8 +18,6 @@ date_added: "2024-07-27"
 
 Glimpse of a galaxy with stars portrayed by the color of dark blue and magenta merging together in a circular shape with smudged edges.
 
-Dominant colors: Dark blue, magenta.
-
 ## Cultural Context
 
 The faceless or void-face motif appears across mythology and contemporary art, representing the dissolution of individual identity into something larger. In psychedelic and rave culture, the experience of ego dissolution on the dancefloor is a recurring theme, where personal identity gives way to collective energy.
@@ -32,8 +30,7 @@ Replacing a face with a galaxy is about as direct a visual metaphor for ego deat
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Dark blue, magenta.
 **Archetype:** Acidhouse
 **Swag Score:** 5
 **Date Added:** 2024-07-27

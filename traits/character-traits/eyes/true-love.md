@@ -28,7 +28,5 @@ Where heart eyes are a crush, true love eyes are devotion — a deeper, more com
 
 ---
 
-## Attribution
-
 **Date Added:** 2024-06-03
 **Introduced By:** Gumi

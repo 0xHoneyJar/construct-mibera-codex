@@ -28,7 +28,5 @@ Infatuation as a visual motif — heart pupils channel anime and internet art to
 
 ---
 
-## Attribution
-
 **Date Added:** 2024-06-03
 **Introduced By:** Gumi

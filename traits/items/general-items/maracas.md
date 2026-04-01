@@ -29,8 +29,6 @@ Rhythm instruments from Indigenous Caribbean traditions represent the cross-cult
 
 ---
 
-## Attribution
-
 **Archetype:** acidhouse
 **Swag Score:** 2
 **Date Added:** 2024-07-06

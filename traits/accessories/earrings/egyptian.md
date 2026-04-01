@@ -29,8 +29,6 @@ Ancient Egypt is one of Mibera's ancestor civilizations, and this earring channe
 
 ---
 
-## Attribution
-
 **Archetype:** Milady
 **Ancestor:** [Mayan](../../../core-lore/ancestors/mayan.md)
 **Swag Score:** 3

@@ -18,8 +18,6 @@ date_added: "2024-06-22"
 
 Black t-shirt with red text that says “THE FUTURE IS LADYBOY” in thin font.
 
-Dominant colors: Black, red.
-
 ## Cultural Context
 
 The blog post linked spotlights 2024 Southeast Asian fashion finds, including Nalinchan Studio's "The Future Is Ladyboy" tees.
@@ -32,8 +30,7 @@ Southeast Asian gender culture and Milady's post-ironic aesthetics collide in th
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Black, red.
 **Archetype:** Milady
 **Swag Score:** 2
 **Date Added:** 2024-06-22

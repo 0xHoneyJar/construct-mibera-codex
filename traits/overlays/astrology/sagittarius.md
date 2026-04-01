@@ -31,4 +31,3 @@ As a modifier in the signal hierarchy, the Sagittarius overlay adds restless cur
 
 ---
 
-## Attribution

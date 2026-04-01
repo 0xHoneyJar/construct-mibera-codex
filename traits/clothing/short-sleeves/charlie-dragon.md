@@ -13,8 +13,6 @@ date_added: "2024-12-10"
 
 Black short-sleeved shirt with silky texture and vibrant graphic of golden dragon with fire in the background.
 
-Dominant colors: Black, golden, red.
-
 ## Cultural Context
 
 Charlotte Fang (also known as Charlie) is a controversial figure associated with the Milady Maker NFT project and Remilia Corporation. The golden dragon shirt references imagery from Fangs social media presence, particularly a dragon-themed post from 2022 that became iconic within the Milady community.
@@ -27,8 +25,7 @@ Charlotte Fang is the most polarizing figure in Milady history, and this dragon 
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Black, golden, red.
 **Archetype:** Milady
 **Swag Score:** 5
 **Date Added:** 2024-12-10

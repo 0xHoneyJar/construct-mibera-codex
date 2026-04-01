@@ -12,8 +12,6 @@ date_added: "2025-01-10"
 
 a small stem of leaves and white flowers, one is half bloomed and one is still a bud.
 
-Dominant colors: white, green
-
 ## Cultural Context
 
 Datura is a powerful and dangerous deliriant used in shamanic traditions across the Americas, India, and Europe. Unlike most psychedelics, it produces true hallucinations indistinguishable from reality, representing the darker and more dangerous edges of the psychedelic spectrum.
@@ -26,8 +24,7 @@ Marks the lethal edge of the drug catalog — the one plant that can kill you be
 
 ---
 
-## Attribution
-
+**Dominant Colors:** white, green
 **Archetype:** milady
 **Ancestor:** [native american](../../../core-lore/ancestors/native-american.md)
 **Swag Score:** 4

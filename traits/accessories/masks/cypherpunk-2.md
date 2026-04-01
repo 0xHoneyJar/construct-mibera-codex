@@ -31,8 +31,6 @@ A barcode on the forehead is surveillance turned inside out. The cypherpunks fou
 
 ---
 
-## Attribution
-
 **Swag Score:** 1
 **Date Added:** 2024-07-17
 **Introduced By:** Jani

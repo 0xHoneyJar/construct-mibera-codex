@@ -27,6 +27,4 @@ Sacred ceremonial headwear from one of the oldest psychedelic traditions on eart
 
 ---
 
-## Attribution
-
 **Swag Score:** 4

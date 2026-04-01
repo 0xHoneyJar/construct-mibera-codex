@@ -18,8 +18,6 @@ date_added: "2024-06-26"
 
 Vibrant blue suit with velvet-y texture. Tie with the same colour as the suit and white shirt underneath.
 
-Dominant colors: Vibrant blue, white.
-
 ## Cultural Context
 
 The reference was taken directly from an article by #312Soul about House Music History in Chicago between 1984 - 1990. The era cemented Chicago as house music’s birthplace, transforming it from a local underground phenomenon into a cornerstone of electronic dance music.
@@ -32,8 +30,7 @@ Sourced from a photo in a Chicago house music history article, this suit capture
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Vibrant blue, white.
 **Archetype:** Chicago Detroit
 **Swag Score:** 3
 **Date Added:** 2024-06-26

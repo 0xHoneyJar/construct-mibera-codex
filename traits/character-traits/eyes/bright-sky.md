@@ -28,7 +28,5 @@ An inner light made visible — bright eyes convey heightened awareness and the 
 
 ---
 
-## Attribution
-
 **Date Added:** 2024-06-03
 **Introduced By:** Gumi

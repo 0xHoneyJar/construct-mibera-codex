@@ -29,8 +29,6 @@ The establishment's vice sitting next to the counterculture's. The collection do
 
 ---
 
-## Attribution
-
 **Archetype:** chicago detroit
 **Swag Score:** 1
 **Date Added:** 2024-07-10

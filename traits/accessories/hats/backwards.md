@@ -18,8 +18,6 @@ date_added: "2024-07-24"
 
 Back view of a cap light grey / beige, with the clippers and a half-circle hole.
 
-Dominant colors: Light greyish beige
-
 ## Cultural Context
 
 The backwards cap has been a staple of youth culture since the 1990s, popularized by hip-hop artists, skaters, and ravers alike. In rave culture specifically, wearing a cap backwards became associated with the carefree, anti-establishment attitude of warehouse parties and illegal raves, where dress codes were nonexistent and comfort trumped convention.
@@ -32,8 +30,7 @@ The backwards cap is the universal uniform of not giving a damn — every rave, 
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Light greyish beige
 **Archetype:** Milady
 **Swag Score:** 2
 **Date Added:** 2024-07-24

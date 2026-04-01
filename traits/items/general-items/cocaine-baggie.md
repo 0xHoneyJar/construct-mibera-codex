@@ -17,8 +17,6 @@ date_added: "2024-12-09"
 
 a bag of white powder, the bag has a big yellow smiley face with bear ears on it.
 
-Dominant colors: white, yellow
-
 ## Cultural Context
 
 Cocaine has been present in nightlife culture from Studio 54 to the modern club scene, existing alongside but distinct from the psychedelics more closely associated with raving. Its inclusion reflects the reality that rave spaces contain the full spectrum of drug use.
@@ -31,8 +29,7 @@ The smiley-face branding on the baggie is the tell. It marks where rave iconogra
 
 ---
 
-## Attribution
-
+**Dominant Colors:** white, yellow
 **Archetype:** chicago detroit
 **Swag Score:** 5
 **Date Added:** 2024-12-09

@@ -31,8 +31,6 @@ Taoist longevity text placing bodily transcendence and sexuality alongside the c
 
 ---
 
-## Attribution
-
 **Archetype:** Milady
 **Swag Score:** 1
 **Date Added:** 2024-12-09

@@ -18,8 +18,6 @@ date_added: "2024-12-10"
 
 Small black star.
 
-Dominant colors: Black
-
 ## Cultural Context
 
 Stars as face decorations appear across fashion, music, and PFP art traditions. In Japanese street fashion and gyaru culture, adhesive face stars were popular accessories. The motif was adopted by the Milady Maker collection and e-girl aesthetics as a minimal but distinctive face decoration that adds visual interest without overwhelming the character design.
@@ -32,8 +30,7 @@ A small black star on the cheek is the kind of detail that makes a character fee
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Black
 **Archetype:** Milady
 **Swag Score:** 3
 **Date Added:** 2024-12-10

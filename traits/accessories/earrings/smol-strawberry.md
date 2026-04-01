@@ -12,8 +12,6 @@ date_added: "2024-12-10"
 
 Strawberry.
 
-Dominant colors: Red
-
 ## Cultural Context
 
 Milady Maker is a 2021 Ethereum NFT collection of 10,000 generative neochibi-style PFPs inspired by 2000s Tokyo street fashion, created by pseudonymous Remilia Collective.
@@ -26,8 +24,7 @@ Cute fruit charms are classic Milady-adjacent fashion -- the kind of hyper-femin
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Red
 **Archetype:** Milady
 **Swag Score:** 3
 **Date Added:** 2024-12-10

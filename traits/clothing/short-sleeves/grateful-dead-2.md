@@ -18,8 +18,6 @@ date_added: "2024-12-10"
 
 Tie-dye t-shirt with graphic of a yellow bear bigger in size in front and a pink bear that appears smaller at the back. Both bears are wearing some sort of electronic device on what looks like the surface of a planet in the color of orange. Around them are red roses with vibrant green stems and leaves. The background is space-like and on top of them, within the frame, are the words “Grateful Dead” in capital and colorful font in yellow, red, and green with white outlines.
 
-Dominant colors: Shades of purple, red, magenta, green, yellow.
-
 ## Cultural Context
 
 Grateful Dead, an American Rock Band.
@@ -34,8 +32,7 @@ The tie-dye Grateful Dead shirt is the original psychedelic band tee. This elabo
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Shades of purple, red, magenta, green, yellow.
 **Archetype:** Acidhouse
 **Swag Score:** 4
 **Date Added:** 2024-12-10

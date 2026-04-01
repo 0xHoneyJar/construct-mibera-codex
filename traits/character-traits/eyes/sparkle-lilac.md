@@ -28,7 +28,5 @@ Borrowed from shoujo manga, sparkle eyes radiate wonder and excitement — the w
 
 ---
 
-## Attribution
-
 **Date Added:** 2024-06-03
 **Introduced By:** Gumi

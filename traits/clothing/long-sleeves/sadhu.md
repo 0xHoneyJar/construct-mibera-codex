@@ -18,8 +18,6 @@ date_added: "2024-12-10"
 
 Plain long sleeve orange sadhu / maxi clothing.
 
-Dominant colors: Orange
-
 ## Cultural Context
 
 A sadhu is a Hindu ascetic or holy person who renounces worldly life to pursue spiritual liberation (moksha) through meditation, yoga, and austerity, often living as a wandering monk or hermit in India.
@@ -32,8 +30,7 @@ Sadhus are the original psychedelic practitioners, using cannabis and meditation
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Orange
 **Archetype:** Chicago Detroit
 **Swag Score:** 2
 **Date Added:** 2024-12-10

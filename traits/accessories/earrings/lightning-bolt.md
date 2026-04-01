@@ -16,8 +16,6 @@ date_added: "2024-06-04"
 
 Earring of a lightning bolt in bright yellow, pointed sharp edges.
 
-Dominant colors: Bright yellow.
-
 ## Cultural Context
 
 Lightning Bolt shaped accessory was a very common rave accessory.
@@ -30,8 +28,7 @@ Lightning bolts are one of rave culture's most recycled visual motifs -- energy,
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Bright yellow.
 **Archetype:** In relation to the rave culture as well as a slight Zeus reference.
 **Swag Score:** 3
 **Date Added:** 2024-06-04

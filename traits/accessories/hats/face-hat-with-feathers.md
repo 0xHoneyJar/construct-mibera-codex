@@ -18,8 +18,6 @@ date_added: "2024-07-26"
 
 Dark green hat with tall and sturdy base with a white doodle of a face on it; coming out of it stands multiple big feathers in dark colour (black / very dark green).
 
-Dominant colors: Shades of green, white
-
 ## Cultural Context
 
 Mongolian shamanic traditions involve elaborate headdresses used in ritual ceremonies, often featuring feathers, animal motifs, and symbolic face imagery. These headdresses serve as conduits between the physical and spiritual worlds in Tengriist practice. Modern interest in Mongolian shamanism has grown alongside the global psychedelic and spiritual revival movements.
@@ -32,8 +30,7 @@ Mongolian shamanic headgear channels the oldest form of altered consciousness â€
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Shades of green, white
 **Archetype:** Acidhouse
 **Ancestor:** [Mongolian](../../../core-lore/ancestors/mongolian.md)
 **Swag Score:** 4

@@ -16,8 +16,6 @@ date_added: "2024-12-10"
 
 Long golden cuff, cylindrical in shape.
 
-Dominant colors: Gold
-
 ## Cultural Context
 
 Ear cuffs date back to ancient civilizations, with examples found in Minoan and Egyptian archaeological sites. They experienced a revival in 1980s and 1990s alternative fashion, becoming popular in punk, new wave, and rave subcultures as a way to accessorize without additional piercings. The cylindrical cuff style in particular became associated with futuristic and industrial aesthetics.
@@ -30,7 +28,6 @@ Ear cuffs are the no-piercing-needed option that still signals subcultural membe
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Gold
 **Swag Score:** 2
 **Date Added:** 2024-12-10

@@ -17,8 +17,6 @@ date_added: "2024-07-12"
 
 a pouch in light reddish brown colour, red, and blue, and a string.
 
-Dominant colors: reddish-brown, blue, red
-
 ## Cultural Context
 
 The Sami are the indigenous Finno-Ugric people of northern Scandinavia, Finland, and the Kola Peninsula. Their shamanic tradition, centered on the noaidi (shaman) and the use of drums for trance-journeying, is one of the best-documented European shamanic practices. Some scholars have connected Sami reindeer herding traditions to the use of Amanita muscaria, noting that reindeer consume the mushrooms and that the Sami observed and may have utilized this behavior.
@@ -31,8 +29,7 @@ Connects the collection to one of Europe's best-documented shamanic traditions, 
 
 ---
 
-## Attribution
-
+**Dominant Colors:** reddish-brown, blue, red
 **Archetype:** acidhouse
 **Ancestor:** [sami](../../../core-lore/ancestors/sami.md)
 **Swag Score:** 5

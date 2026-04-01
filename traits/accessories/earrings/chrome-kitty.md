@@ -17,8 +17,6 @@ date_added: "2023-11-28"
 
 Earring with a hello kitty outline silver charm
 
-Dominant colors: Chrome silver
-
 ## Cultural Context
 
 Baby Bera is an artist and a project based on the Berachain ecosystem creating music, NFTs, physical products, and a community. As for Hello Kitty, it is a globally iconic, mouthless, white cat with a red bow created by Sanrio in 1974 with commercial purpose and no clear backstory.
@@ -31,8 +29,7 @@ Hello Kitty's kawaii aesthetic is a staple of the Milady archetype's Y2K interne
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Chrome silver
 **Archetype:** Milady
 **Swag Score:** 3
 **Date Added:** 2023-11-28

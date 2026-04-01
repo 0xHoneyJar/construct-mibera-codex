@@ -17,8 +17,6 @@ date_added: "2024-12-10"
 
 greyish white cap with blue graphic of hearts and the text “REiMU syndicate” on it.
 
-Dominant colors: greyish white, blue
-
 ## Cultural Context
 
 Reimu Hakurei is the main character from the Touhou Project, a series of Japanese bullet hell games that became a massive fandom and creative community. The "Syndicate" addition reflects the post-ironic internet culture practice of turning anime references into pseudo-corporate or pseudo-criminal branding. Reimu's influence on Milady culture is direct — Remilia Corporation itself is named after another Touhou character.
@@ -31,7 +29,6 @@ Reimu Syndicate channels the Touhou-to-crypto pipeline — the anime fandom root
 
 ---
 
-## Attribution
-
+**Dominant Colors:** greyish white, blue
 **Swag Score:** 2
 **Date Added:** 2024-12-10

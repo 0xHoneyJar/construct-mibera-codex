@@ -29,8 +29,6 @@ Berachain was born from the OlympusDAO community. The Omega glasses are a direct
 
 ---
 
-## Attribution
-
 **Archetype:** OlympusDAO in Berachain history. One of Bong Bear’s traits.
 **Swag Score:** 5
 **Date Added:** 2024-12-10

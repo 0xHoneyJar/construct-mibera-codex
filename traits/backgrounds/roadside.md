@@ -16,8 +16,6 @@ date_added: "2024-06-07"
 
 Painterly style of a roadside. Grey road with greeneries on each side of the road, under a clear blue sky.
 
-Dominant colors: Grey, blue, green
-
 ## Cultural Context
 
 Sourced from Milady Maker's asset library. Anchors Mibera within the Milady archetype.
@@ -30,6 +28,5 @@ Shared visual lineage with Milady Maker.
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Grey, blue, green
 **Date Added:** 2024-06-07

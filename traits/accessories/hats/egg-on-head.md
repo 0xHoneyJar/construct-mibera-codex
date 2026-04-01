@@ -17,8 +17,6 @@ date_added: "2024-07-28"
 
 The inside of an egg, intact, drooping down.
 
-Dominant colors: Transparent white, egg
-
 ## Cultural Context
 
 The image of an egg cracked on someone's head is a universal symbol of embarrassment and public humiliation — "having egg on your face." In internet culture, the egg also became associated with default Twitter profile pictures (the "egg avatar"), representing anonymous or new accounts before the platform changed its default icon in 2017.
@@ -31,7 +29,6 @@ Egg on your head — the universal symbol of taking an L. Whether you got rugged
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Transparent white, egg
 **Swag Score:** 2
 **Date Added:** 2024-07-28

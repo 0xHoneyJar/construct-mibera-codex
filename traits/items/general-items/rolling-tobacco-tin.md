@@ -17,8 +17,6 @@ date_added: "2024-07-07"
 
 a tin in yellowish colour, with little text that reads “HAND ROLLING TOBACCO”.
 
-Dominant colors: tin yellow
-
 ## Cultural Context
 
 Hand-rolled cigarettes are a staple of European free party culture, cheaper and more communal to share than manufactured ones. The tin itself becomes a ritual object, passed around at after-parties.
@@ -31,8 +29,7 @@ The social currency of the European free party scene. You don't buy a pack; you 
 
 ---
 
-## Attribution
-
+**Dominant Colors:** tin yellow
 **Archetype:** freetekno
 **Swag Score:** 2
 **Date Added:** 2024-07-07

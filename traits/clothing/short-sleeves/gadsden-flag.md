@@ -18,8 +18,6 @@ date_added: "2024-06-22"
 
 Yellow t-shirt of the Gadsden Flag. a graphic of a coiled rattlesnake on a green grass with the text “DONT TREAD ON ME” under it.
 
-Dominant colors: Yellow, black.
-
 ## Cultural Context
 
 The Gadsden Flag, Metallica.
@@ -34,8 +32,7 @@ The Gadsden flag has been co-opted by everyone from libertarians to metalheads. 
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Yellow, black.
 **Archetype:** Freetekno
 **Swag Score:** 3
 **Date Added:** 2024-06-22

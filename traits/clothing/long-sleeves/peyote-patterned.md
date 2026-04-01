@@ -18,8 +18,6 @@ date_added: "2024-12-10"
 
 Dark muted brown long-sleeve shirt with unique cutting and tribal design in black, beige, and creamy white in the middle.
 
-Dominant colors: Dark grey / muted brown, beige, black, creamy white
-
 ## Cultural Context
 
 Peyote is a small, spineless cactus (Lophophora williamsii) native to the southwestern U.S. and Mexico, containing the hallucinogenic alkaloid mescaline, used for millennia by indigenous peoples in religious and medicinal rituals.
@@ -32,8 +30,7 @@ Peyote has been central to indigenous spiritual practice for millennia, and its 
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Dark grey / muted brown, beige, black, creamy white
 **Archetype:** Freetekno
 **Swag Score:** 3
 **Date Added:** 2024-12-10

@@ -27,8 +27,6 @@ A culturally significant hairstyle that connects the collection to Black heritag
 
 ---
 
-## Attribution
-
 **Date Added:** 2024-12-10
 **Introduced By:** Gumi
 **Team Notes:** Gumi documented afro as "BLACK ONLY HAIR + NO HATS" — distinct from most hairstyles which support hat layering. Afro with Pick also in this category. — Jun 2024, #trait-updates

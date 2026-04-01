@@ -27,4 +27,3 @@ In the signal hierarchy, elements sit at the textural layer -- they color how a 
 
 ---
 
-## Attribution

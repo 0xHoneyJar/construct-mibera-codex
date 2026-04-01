@@ -26,4 +26,3 @@ Vivid unnatural color as identity — magenta waves bring the bold self-expressi
 
 ---
 
-## Attribution

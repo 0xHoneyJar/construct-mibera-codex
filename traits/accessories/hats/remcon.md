@@ -18,8 +18,6 @@ date_added: "2024-07-24"
 
 White and soft bright pink cap with “REMILIA-CON TOKYO 2023” text in black, under graphic of a pair of wings outlined.
 
-Dominant colors: Pink, white, black
-
 ## Cultural Context
 
 Inspired by a merch from Remilia-con that was held in Tokyo in 2023.
@@ -32,8 +30,7 @@ Remilia-Con Tokyo 2023 was the IRL convergence of Milady internet culture — a 
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Pink, white, black
 **Archetype:** Acidhouse
 **Swag Score:** 3
 **Date Added:** 2024-07-24

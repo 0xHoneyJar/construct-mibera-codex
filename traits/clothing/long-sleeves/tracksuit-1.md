@@ -18,8 +18,6 @@ date_added: "2024-12-10"
 
 Purple tracksuit in dark purple with old-school graphic in bright neon purple across the middle and soft light purple on each sleeve.
 
-Dominant colors: Purple, vibrant purple with hue of pink, pale purple.
-
 ## Cultural Context
 
 The tracksuit was directly referenced from an article by Redbull Music Academy about the origins and evolutions of Chicago house and Detroit techno, two pivotal electronic music genres. The genres spread globally, influencing modern electronic music, despite initial resistance from mainstream media.
@@ -32,8 +30,7 @@ Sourced from a Red Bull Music Academy article on Chicago house and Detroit techn
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Purple, vibrant purple with hue of pink, pale purple.
 **Archetype:** Acidhouse
 **Swag Score:** 3
 **Date Added:** 2024-12-10

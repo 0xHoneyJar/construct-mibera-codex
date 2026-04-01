@@ -17,8 +17,6 @@ date_added: "2024-07-07"
 
 an onigiri.
 
-Dominant colors: white, dark green, almost black.
-
 ## Cultural Context
 
 Onigiri (rice balls) are a staple of Japanese everyday life and a recurring comfort food in anime culture. Their inclusion ties the collection to the Japanese cultural influences that run through the Milady lineage.
@@ -31,8 +29,7 @@ Simple Japanese comfort food connecting the Milady lineage to everyday anime-cul
 
 ---
 
-## Attribution
-
+**Dominant Colors:** white, dark green, almost black.
 **Archetype:** milady
 **Swag Score:** 2
 **Date Added:** 2024-07-07

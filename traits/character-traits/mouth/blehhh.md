@@ -16,8 +16,6 @@ date_added: "2024-06-05"
 
 tongue out of a thin mouth in a playful manner.
 
-Dominant colors: pink
-
 ## Cultural Context
 
 Sticking the tongue out in a playful manner is a gesture of teasing, defiance, or childlike irreverence found across cultures. The "blehhh" expression exaggerates this into a deliberate display of goofiness, rejecting seriousness in favor of playful provocation.
@@ -30,7 +28,6 @@ Pure irreverence — blehhh is the tongue-out energy of someone who refuses to t
 
 ---
 
-## Attribution
-
+**Dominant Colors:** pink
 **Date Added:** 2024-06-05
 **Introduced By:** Gumi

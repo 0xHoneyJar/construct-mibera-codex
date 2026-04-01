@@ -12,8 +12,6 @@ date_added: "2024-08"
 
 A basic solid purple t-shirt.
 
-Dominant colors: Purple
-
 ## Cultural Context
 
 Purple has long been associated with royalty, psychedelia, and the nocturnal. It is the signature color of many rave flyers and club interiors, sitting at the intersection of luxury and the underground.
@@ -26,7 +24,6 @@ Purple is the most rave-coded color in the simple shirt set. It nods to UV light
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Purple
 **Swag Score:** 1
 **Date Added:** 2024-08

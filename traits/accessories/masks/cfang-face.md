@@ -18,8 +18,6 @@ date_added: "2024-07-27"
 
 Circular milky white mist, solid in color.
 
-Dominant colors: Milky white.
-
 ## Cultural Context
 
 Charlotte Fang’s Mirror’s profile picture.
@@ -32,8 +30,7 @@ Charlotte Fang is the pseudonymous founder of the Milady Maker project. Her ethe
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Milky white.
 **Archetype:** Milady
 **Swag Score:** 1
 **Date Added:** 2024-07-27

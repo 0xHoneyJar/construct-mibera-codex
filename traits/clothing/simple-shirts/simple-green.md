@@ -12,8 +12,6 @@ date_added: "2024-08"
 
 A basic solid green t-shirt.
 
-Dominant colors: Green
-
 ## Cultural Context
 
 Green carries associations ranging from nature and ecology to cannabis culture and Irish identity. As a simple shirt, it provides a base layer that subtly shifts the mood of any Mibera wearing it.
@@ -26,7 +24,6 @@ Green is loaded with subcultural meaning depending on context. As a blank tee, i
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Green
 **Swag Score:** 1
 **Date Added:** 2024-08

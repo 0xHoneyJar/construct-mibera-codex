@@ -18,8 +18,6 @@ date_added: "2024-06-22"
 
 a black t-shirt with a bull logo and the text “CHICAGO BULLS” on top of it, both in red.
 
-Dominant colors: Black, red.
-
 ## Cultural Context
 
 The Chicago Bulls are one of the most iconic franchises in NBA history, led by Michael Jordan during their 1990s dynasty. The Bulls logo and merchandise became global streetwear staples, transcending basketball to become symbols of Chicago itself.
@@ -32,8 +30,7 @@ Bulls and Bears are Chicago's two iconic sports mascots, and both share the city
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Black, red.
 **Archetype:** Chicago Detroit
 **Swag Score:** 2
 **Date Added:** 2024-06-22

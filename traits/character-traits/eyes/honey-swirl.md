@@ -28,7 +28,5 @@ A Berachain-native eye type — honey swirl eyes are where the collection's rave
 
 ---
 
-## Attribution
-
 **Date Added:** 2024-06-03
 **Introduced By:** Gumi

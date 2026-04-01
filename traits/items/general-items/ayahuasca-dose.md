@@ -24,8 +24,6 @@ Proof that Indigenous pharmacology was centuries ahead of Western chemistry. The
 
 ---
 
-## Attribution
-
 **Archetype:** freetekno
 **Ancestor:** [mayan](../../../core-lore/ancestors/mayan.md)
 **Swag Score:** 2

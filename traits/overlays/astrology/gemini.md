@@ -31,4 +31,3 @@ As a modifier in the signal hierarchy, the Gemini overlay gives a Mibera a restl
 
 ---
 
-## Attribution

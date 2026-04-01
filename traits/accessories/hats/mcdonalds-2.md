@@ -18,8 +18,6 @@ date_added: "2024-07-27"
 
 Cap with stripy colours of a burger, light brown, dark brown, and green. In the middle is a big ‘M’ logo with a small text that reads ‘mibera’.
 
-Dominant colors: Light brown, dark brown, green, yellow.
-
 ## Cultural Context
 
 The Mibera-branded McDonald's cap replaces the golden arches' "M" with "mibera" text, blending corporate fast food aesthetics with NFT community identity. The burger-stripe colorway references the Big Mac, while the overall design channels the irreverent brand-parody tradition common in both streetwear and internet culture.
@@ -32,8 +30,7 @@ McDonald's but make it Mibera — the Big Mac color scheme with the collection's
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Light brown, dark brown, green, yellow.
 **Archetype:** Milady
 **Swag Score:** 3
 **Date Added:** 2024-07-27

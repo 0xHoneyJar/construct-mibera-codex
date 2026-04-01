@@ -29,7 +29,5 @@ Ted Kaczynski's anti-technology philosophy has become an ironic touchstone in th
 
 ---
 
-## Attribution
-
 **Swag Score:** 3
 **Date Added:** 2024-12-10

@@ -17,8 +17,6 @@ date_added: "2024-12-09"
 
 a pipe with unique shapes in dark greyish colour.
 
-Dominant colors: dark grey, light beige, black
-
 ## Cultural Context
 
 Khat is a stimulant plant chewed across East Africa and the Arabian Peninsula for centuries, producing effects similar to amphetamines. It represents one of many regional stimulant traditions that parallel the energy-seeking impulse at the heart of rave culture.
@@ -31,8 +29,7 @@ Every culture found its stimulant. Including East Africa's centuries-old traditi
 
 ---
 
-## Attribution
-
+**Dominant Colors:** dark grey, light beige, black
 **Archetype:** freetekno
 **Ancestor:** [ethiopian](../../../core-lore/ancestors/ethiopian.md)
 **Swag Score:** 3

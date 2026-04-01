@@ -16,8 +16,6 @@ date_added: "2024-06-05"
 
 a slightly open mouth showing teeth, heavily tilted.
 
-Dominant colors: white
-
 ## Cultural Context
 
 Gurning refers to the involuntary jaw movements and facial contortions caused by MDMA and other stimulants, a well-documented pharmacological effect of serotonin release on motor control. The gurn became one of the most visually recognizable markers of rave culture, appearing in photographs, memes, and art from the Second Summer of Love onward.
@@ -30,7 +28,6 @@ The defining facial expression of rave culture — if ecstasy eyes are the pupil
 
 ---
 
-## Attribution
-
+**Dominant Colors:** white
 **Date Added:** 2024-06-05
 **Introduced By:** Jani

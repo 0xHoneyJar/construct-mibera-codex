@@ -17,8 +17,6 @@ date_added: "2024-07-24"
 
 Sleeping mask that looks like a sleeping bear; in brown, with two closed eyes, two curved ears, and a snout. ‘zzz’ going upwards from the nose part of the mask.
 
-Dominant colors: Brown
-
 ## Cultural Context
 
 Hibernation operates as a Berachain-centric community initiative from Retard Global, channeling a perpetual hibernation theme through bear emojis and sleep motifs.
@@ -31,8 +29,7 @@ Hiberanation is a Berachain community initiative built around the idea that bear
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Brown
 **Archetype:** Chicago Detroit
 **Swag Score:** 3
 **Date Added:** 2024-07-24

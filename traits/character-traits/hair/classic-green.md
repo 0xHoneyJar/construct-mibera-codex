@@ -27,7 +27,5 @@ A timeless, versatile cut that serves as the approachable everyday hairstyle in 
 
 ---
 
-## Attribution
-
 **Date Added:** 2024-06-22
 **Introduced By:** Gumi

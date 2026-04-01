@@ -17,8 +17,6 @@ date_added: "2024-07-10"
 
 a big glassy bong with gradients of vibrant blue and magenta / purple
 
-Dominant colors: vibrant bright blue and magenta / purple
-
 ## Cultural Context
 
 The playful, candy-colored aesthetics of modern glass art challenge the grimy stereotypes around drug culture. A cotton candy bong insists that getting high can be whimsical and joyful.
@@ -31,8 +29,7 @@ The lowest swag-score bong variant. Its candy coloring insists that drug culture
 
 ---
 
-## Attribution
-
+**Dominant Colors:** vibrant bright blue and magenta / purple
 **Archetype:** chicago detroit
 **Swag Score:** 1
 **Date Added:** 2024-07-10

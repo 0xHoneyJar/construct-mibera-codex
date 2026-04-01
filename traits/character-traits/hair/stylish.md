@@ -27,6 +27,4 @@ Dreads and a beanie — a look that bridges reggae sound system culture with UK 
 
 ---
 
-## Attribution
-
 **Date Added:** 2024-12-10

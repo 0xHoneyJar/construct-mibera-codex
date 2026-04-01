@@ -17,8 +17,6 @@ date_added: "2024-07-27"
 
 What looks like a jar lid, in light yellow.
 
-Dominant colors: Light yellow
-
 ## Cultural Context
 
 Ooga Booga Bears
@@ -31,8 +29,7 @@ The clean OBB lid without the honey — a simpler nod to the Ooga Booga Bears pr
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Light yellow
 **Swag Score:** 2
 **Date Added:** 2024-07-27
 **Sources:**

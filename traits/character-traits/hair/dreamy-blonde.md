@@ -27,7 +27,5 @@ Soft and minimal, the dreamy cut evokes the ethereal aesthetic of dream-pop and 
 
 ---
 
-## Attribution
-
 **Date Added:** 2024-06-15
 **Introduced By:** Gumi

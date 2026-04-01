@@ -15,8 +15,6 @@ date_added: "2024-06-15"
 
 a red copper / dark orange hair braided traditionally on one side, with short curtain bangs curved inwards.
 
-Dominant colors: red copper / dark orange / dark ginger
-
 ## Cultural Context
 
 The cottage style pairs traditional side-braiding with curtain bangs, evoking the romanticized rural aesthetic of cottagecore — an internet-born aesthetic movement celebrating pastoral life, handcraft, and pre-industrial simplicity. The style blends practical country braiding with the polished bangs of contemporary hair fashion.
@@ -29,7 +27,6 @@ Cottagecore meets rave — the cottage style bridges pastoral internet aesthetic
 
 ---
 
-## Attribution
-
+**Dominant Colors:** red copper / dark orange / dark ginger
 **Date Added:** 2024-06-15
 **Introduced By:** Gumi

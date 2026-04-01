@@ -30,8 +30,6 @@ Oil on the face means you were under the hood of the generator or wiring the rig
 
 ---
 
-## Attribution
-
 **Archetype:** Freetekno
 **Swag Score:** 2
 **Date Added:** 2024-12-10

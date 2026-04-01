@@ -30,8 +30,6 @@ The Mongol empire connected East and West along trade routes that prefigured glo
 
 ---
 
-## Attribution
-
 **Archetype:** Chicago Detroit
 **Swag Score:** 3
 **Date Added:** 2025-04-03

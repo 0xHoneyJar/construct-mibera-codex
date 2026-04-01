@@ -17,8 +17,6 @@ date_added: "2024-08-06"
 
 Intricate line art of a skull with insane amounts of details and flowers on the eye-sockets.
 
-Dominant colors: Black.
-
 ## Cultural Context
 
 Sugar Skull is generally an iconic symbol of Día de los Muertos (Day of the Dead), a Mexican holiday celebrated on November 1-2 to honor deceased loved ones. Originating from ancient Meso-American traditions, sugar skulls (calaveras) were crafted from abundant sugar as a substitute for real skulls, a practice banned by Spanish colonizers who imposed Catholic rituals. Today, these colorful, decorated skulls symbolize the celebration of life and death, connecting modern Meso-Americans to their ancestors. In contemporary culture, sugar skulls are popular in tattoos, art, and decor, embraced globally for their vibrant, intricate designs.
@@ -31,8 +29,7 @@ The sugar skull became the defining tattoo trend of the 2010s -- a Dia de los Mu
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Black.
 **Date Added:** 2024-08-06
 **Introduced By:** Tez
 **Team Notes:** "sugar skulls, 2010s cliche" — Tez, Jul 2024, #tattoos

@@ -30,8 +30,6 @@ The Magic 8-Ball reimagined through the Pythia ancestor lineage -- it collapses 
 
 ---
 
-## Attribution
-
 **Ancestor:** [Pythia](../../../core-lore/ancestors/pythia.md)
 **Date Added:** 2024-08-10
 **Sources:**

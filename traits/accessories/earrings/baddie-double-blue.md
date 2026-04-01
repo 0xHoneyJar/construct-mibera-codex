@@ -16,8 +16,6 @@ date_added: "2024-12-10"
 
 Two balls (studs) in bright blue linear in placement to one another.
 
-Dominant colors: Bright blue, aquatic
-
 ## Cultural Context
 
 Bera Baddies is a community-driven project led and focused on providing a supportive and exclusive space for the female in the Berachain ecosystem.
@@ -30,8 +28,7 @@ A direct nod to Bera Baddies, one of the Berachain ecosystem's community project
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Bright blue, aquatic
 **Archetype:** Bera Baddies inspired item.
 **Swag Score:** 1
 **Date Added:** 2024-12-10

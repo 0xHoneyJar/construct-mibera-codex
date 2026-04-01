@@ -17,8 +17,6 @@ date_added: "2024-07-27"
 
 Wide round hat with pink ribbon wrapped around it and a few small tulips on the other side. The hat is in the colour of beige / the sand.
 
-Dominant colors: beige, sandy
-
 ## Cultural Context
 
 Wide-brimmed garden hats adorned with flowers have been a staple of feminine fashion since the Victorian era, associated with tea parties, garden gatherings, and pastoral leisure. The aesthetic carries a deliberate softness that contrasts with the harder edges of rave and crypto culture, creating visual tension within a generative collection.
@@ -31,7 +29,6 @@ A garden party hat in a rave collection — the floral wide-brim brings a gentle
 
 ---
 
-## Attribution
-
+**Dominant Colors:** beige, sandy
 **Swag Score:** 2
 **Date Added:** 2024-07-27

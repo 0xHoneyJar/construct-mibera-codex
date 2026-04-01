@@ -17,8 +17,6 @@ date_added: "2024-12-10"
 
 White t-shirt with barely visible lines or paragraphs, with the title that reads “The Crypto Anarchist Manifesto”.
 
-Dominant colors: White, black.
-
 ## Cultural Context
 
 The Crypto Anarchist Manifesto was written by Timothy C. May in 1988 and distributed at a crypto conference. It predicted that cryptographic technology would fundamentally alter the nature of government regulation, the ability to tax, and the ability to control economic interactions. It is considered a founding document of the cypherpunk movement.
@@ -31,8 +29,7 @@ The Crypto Anarchist Manifesto is one of the foundational texts of the cypherpun
 
 ---
 
-## Attribution
-
+**Dominant Colors:** White, black.
 **Swag Score:** 1
 **Date Added:** 2024-12-10
 **Introduced By:** Jani

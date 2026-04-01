@@ -30,8 +30,6 @@ Catboy ears are core Milady — the anime-internet crossover accessory that went
 
 ---
 
-## Attribution
-
 **Archetype:** Milady
 **Swag Score:** 3
 **Date Added:** 2024-07-25

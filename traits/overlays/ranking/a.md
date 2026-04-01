@@ -29,4 +29,3 @@ In the swag scoring system, A-rank Miberas carry solid trait combinations that s
 
 ---
 
-## Attribution

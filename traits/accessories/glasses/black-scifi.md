@@ -32,8 +32,6 @@ Chicago house was deeply intertwined with Black futurism. The sci-fi aesthetic c
 
 ---
 
-## Attribution
-
 **Archetype:** Chicago detroit
 **Swag Score:** 2
 **Date Added:** 2024-06-18

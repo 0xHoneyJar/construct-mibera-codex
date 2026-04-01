@@ -16,8 +16,6 @@ date_added: "2024-07-30"
 
 thicker pair of eyebrows, arched with a slight upward tilt at the inner ends.
 
-Dominant colors: black
-
 ## Cultural Context
 
 Anxious eyebrows are characterized by an upward tilt at the inner ends, creating the universally recognized expression of worry or unease. The thicker variant adds visual weight to the expression, making the emotional signal more prominent and legible even at small display sizes.
@@ -30,7 +28,6 @@ The thick variant amplifies the anxious expression, ensuring the emotional signa
 
 ---
 
-## Attribution
-
+**Dominant Colors:** black
 **Date Added:** 2024-07-30
 **Introduced By:** Gumi

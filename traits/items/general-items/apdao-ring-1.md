@@ -16,8 +16,6 @@ date_added: "2024-12-09"
 
 a golden ring with rounded shape and no charm.
 
-Dominant colors: dark gold
-
 ## Cultural Context
 
 apDAO is a decentralized autonomous organization operating within the Berachain ecosystem. DAO rings function as membership or governance tokens in physical artifact form, a common motif in crypto communities that echoes older traditions of signet rings as markers of allegiance.
@@ -30,7 +28,6 @@ Ecosystem partner embedded as a wearable artifact. DAO governance rendered as a 
 
 ---
 
-## Attribution
-
+**Dominant Colors:** dark gold
 **Swag Score:** 5
 **Date Added:** 2024-12-09

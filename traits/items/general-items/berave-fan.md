@@ -17,8 +17,6 @@ date_added: "2024-07-15"
 
 White hand-fan with pink graphic of a female character wearing sunnies with her tongue out. Black fan handle and bones.
 
-Dominant colors: white, pink, black
-
 ## Cultural Context
 
 A hand fan branded "Berave," a portmanteau of "Bera" (Berachain) and "rave." Hand fans are practical accessories at raves and music festivals for cooling down. The pink character design is Mila, a mascot designed by Gumi and Tez. 
@@ -31,8 +29,7 @@ Real merch from the Singapore Berave event, making this a documented physical ar
 
 ---
 
-## Attribution
-
+**Dominant Colors:** white, pink, black
 **Archetype:** Milady
 **Swag Score:** 4
 **Date Added:** 2024-07-15

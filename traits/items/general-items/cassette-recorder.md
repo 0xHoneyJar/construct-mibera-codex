@@ -10,8 +10,6 @@ date_added: null
 
 a black cassette recorder with accents of red and white.
 
-Dominant colors: black, white, red
-
 ## Cultural Context
 
 The cassette recorder was the tool that democratized music distribution, letting anyone capture and share a live set or pirate radio broadcast. In rave culture, it was the original peer-to-peer technology.
@@ -24,6 +22,5 @@ The original peer-to-peer distribution technology. Before file sharing, this is 
 
 ---
 
-## Attribution
-
+**Dominant Colors:** black, white, red
 **Swag Score:** 5

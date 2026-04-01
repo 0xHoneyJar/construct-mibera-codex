@@ -28,7 +28,5 @@ The pull of the deep — whirlpool eyes capture the immersive, all-consuming qua
 
 ---
 
-## Attribution
-
 **Date Added:** 2024-06-03
 **Introduced By:** Gumi

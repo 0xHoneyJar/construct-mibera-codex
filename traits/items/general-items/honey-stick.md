@@ -17,8 +17,6 @@ date_added: "2024-07-10"
 
 a brown honey dipper glazed with what appears to be honey, light yellow sticky liquid.
 
-Dominant colors: yellow, rainbow-coloured
-
 ## Cultural Context
 
 A honey stirrer (honey dipper) — a wooden stick with grooved ridges used to drizzle honey. Part of the collection's recurring honey motif tied to Berachain and The Honey Jar ecosystem.
@@ -31,8 +29,7 @@ Humble kitchen utensil that grounds the honey motif in something ordinary and ta
 
 ---
 
-## Attribution
-
+**Dominant Colors:** yellow, rainbow-coloured
 **Archetype:** milady
 **Swag Score:** 3
 **Date Added:** 2024-07-10

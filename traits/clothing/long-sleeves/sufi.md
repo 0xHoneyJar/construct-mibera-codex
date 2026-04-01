@@ -18,8 +18,6 @@ date_added: "2024-07-28"
 
 Garments and robes in vibrant red and green with cool tone, draping over with white stripe / accent by the neck and the end of the visible sleeve.
 
-Dominant colors: Black
-
 ## Cultural Context
 
 Sufis are practitioners of Sufism, a mystical Islamic tradition seeking spiritual closeness to God through practices like meditation, chanting (dhikr), poetry, and music, emphasizing love and inner purification, found worldwide, especially in South Asia, the Middle East, and North Africa.
@@ -32,8 +30,7 @@ Sufi whirling is arguably the oldest form of trance dance on earth. The connecti
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Black
 **Archetype:** Freetekno
 **Swag Score:** 4
 **Date Added:** 2024-07-28

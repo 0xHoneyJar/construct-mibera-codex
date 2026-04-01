@@ -18,8 +18,6 @@ date_added: "2024-07-31"
 
 Bear onesie in darker brown with the hood up.
 
-Dominant colors: Brown, light brown
-
 ## Cultural Context
 
 Part of the kigurumi (着ぐるみ) series — character onesies from Japanese cosplay and Harajuku street fashion. The brown bear is the most classic and literal bear form in the set, directly evoking the Berachain bear identity. Kigus blur the line between costume and comfort wear, much as rave culture blurs the line between performance and participation.
@@ -31,8 +29,7 @@ A literal bear onesie on a bear-themed blockchain collection. The kigurumi serie
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Brown, light brown
 **Archetype:** Milady
 **Swag Score:** 5
 **Date Added:** 2024-07-31

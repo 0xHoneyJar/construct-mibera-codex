@@ -12,8 +12,6 @@ date_added: "2024-08"
 
 A basic solid black t-shirt.
 
-Dominant colors: Black
-
 ## Cultural Context
 
 Black is the default color of nightlife and the most common t-shirt color on any dancefloor. In the collection, it serves as the base layer that lets other traits -- accessories, headwear, necklaces -- do the talking.
@@ -26,7 +24,6 @@ Every collection needs a blank canvas. The simple black tee is the lowest swag s
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Black
 **Swag Score:** 1
 **Date Added:** 2024-08

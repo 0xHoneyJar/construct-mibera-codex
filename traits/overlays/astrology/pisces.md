@@ -31,4 +31,3 @@ At the modifier layer, a Pisces overlay infuses a Mibera with dreamy intuition a
 
 ---
 
-## Attribution

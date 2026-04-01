@@ -17,8 +17,6 @@ date_added: "2024-12-10"
 
 a Cavendish banana with a sticker that says mibera
 
-Dominant colors: yellow
-
 ## Cultural Context
 
 There is a semi-popular milady sticker design that has the milady eyes and "milady" on it. This is meant to be the mibera version of that.
@@ -31,8 +29,7 @@ Mibera's version of the iconic Milady banana sticker — a direct lineage nod re
 
 ---
 
-## Attribution
-
+**Dominant Colors:** yellow
 **Archetype:** milady
 **Swag Score:** 1
 **Date Added:** 2024-12-10

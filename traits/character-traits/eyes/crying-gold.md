@@ -28,7 +28,5 @@ Emotional release made visible — tears can mean sadness, joy, or the catharsis
 
 ---
 
-## Attribution
-
 **Date Added:** 2024-06-03
 **Introduced By:** Gumi

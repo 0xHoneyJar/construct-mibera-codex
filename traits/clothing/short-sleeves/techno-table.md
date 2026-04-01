@@ -17,8 +17,6 @@ date_added: "2024-12-10"
 
 Bone-white t-shirt with a blue graphic of periodic tables of Tellurium, Carbon, Hydrogen, and Nobelium, spelling out the word “techno”.
 
-Dominant colors: White, blue.
-
 ## Cultural Context
 
 Periodic Table of Elements used to spell the word ‘Techno’
@@ -31,7 +29,6 @@ Spelling TECHNO with periodic table elements is the nerd version of a band tee. 
 
 ---
 
-## Attribution
-
+**Dominant Colors:** White, blue.
 **Swag Score:** 4
 **Date Added:** 2024-12-10

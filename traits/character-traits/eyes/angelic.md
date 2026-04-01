@@ -16,8 +16,6 @@ date_added: "2024-06-03"
 
 iridescent eyes, perhaps showcasing one’s angelic nature.
 
-Dominant colors: gold, yellow, turquoise
-
 ## Cultural Context
 
 Angelic eyes display an iridescent, gold-turquoise coloration evoking the halos and divine radiance depicted in religious iconography across multiple traditions. Iridescence in the iris suggests an otherworldly nature — eyes that see beyond the physical plane, or that belong to a being touched by the divine.
@@ -30,7 +28,6 @@ A rare, luminous eye type that brings a touch of the transcendent — not every 
 
 ---
 
-## Attribution
-
+**Dominant Colors:** gold, yellow, turquoise
 **Date Added:** 2024-06-03
 **Introduced By:** Gumi

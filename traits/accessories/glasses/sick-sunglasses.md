@@ -30,8 +30,6 @@ Yung Singh is a Punjabi-British DJ who has become a figurehead for the South Asi
 
 ---
 
-## Attribution
-
 **Archetype:** Chicago Detroit
 **Swag Score:** 4
 **Date Added:** 2024-12-10

@@ -16,8 +16,6 @@ date_added: "2024-06-05"
 
 a mouth showing the bottom lip being bitten, with a bit of teeth exposed through the gap.
 
-Dominant colors: white
-
 ## Cultural Context
 
 Lip biting is a microexpression associated with nervousness, anticipation, concentration, or flirtation. In visual media, the bitten lip has become a widely recognized signal of tension or desire — the moment before something happens, when emotion is being physically contained.
@@ -30,7 +28,6 @@ Anticipation, tension, desire — the bitten lip captures the charged moment rig
 
 ---
 
-## Attribution
-
+**Dominant Colors:** white
 **Date Added:** 2024-06-05
 **Introduced By:** Fedor

@@ -27,6 +27,4 @@ Cross-collection cameo from Band Bears. The bear motif is the visual lingua fran
 
 ---
 
-## Attribution
-
 **Swag Score:** 3

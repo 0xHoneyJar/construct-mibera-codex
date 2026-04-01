@@ -29,8 +29,6 @@ Retro tech nostalgia meets ecosystem media — an iPod frozen in time playing Th
 
 ---
 
-## Attribution
-
 **Archetype:** milady
 **Swag Score:** 4
 **Date Added:** 2024-07-12

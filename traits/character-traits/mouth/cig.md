@@ -16,8 +16,6 @@ date_added: "2024-06-05"
 
 a mouth portrayed by a line that’s slightly curved downward holding a lighted-up cigarette.
 
-Dominant colors: white
-
 ## Cultural Context
 
 The cigarette is a ubiquitous prop in character design, associated with coolness, nonchalance, and countercultural identity. In rave and club culture, the cigarette break became a social ritual — the smokers' area as a space for conversation, connection, and comedown between sets.
@@ -30,7 +28,6 @@ The cig break is a rave social ritual — half the best conversations happen in 
 
 ---
 
-## Attribution
-
+**Dominant Colors:** white
 **Date Added:** 2024-06-05
 **Introduced By:** Gumi

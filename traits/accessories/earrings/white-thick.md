@@ -17,8 +17,6 @@ date_added: "2023-11-28"
 
 Thick white ring shaped earring
 
-Dominant colors: White
-
 ## Cultural Context
 
 White buffalo hoop earrings are a style of Native American jewelry usually featuring white buffalo stone, a rare white stone. Often set in sterling silver, these hoops showcase bold, creamy white cabochons or inlays, symbolizing purity, spirituality, and connection to Native American heritage, particularly among Plains tribes where the white buffalo is sacred.
@@ -31,8 +29,7 @@ This thick white hoop draws from Native American jewelry traditions, connecting 
 
 ---
 
-## Attribution
-
+**Dominant Colors:** White
 **Archetype:** Freetekno
 **Ancestor:** [Native American](../../../core-lore/ancestors/native-american.md)
 **Swag Score:** 2

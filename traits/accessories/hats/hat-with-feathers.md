@@ -18,8 +18,6 @@ date_added: "2024-07-26"
 
 Big headpiece consisting of a brown base with thin flowy strings on the front part and down framing the face. Multiple feathers that are enormous in size are poking out of the top part of the hat.
 
-Dominant colors: Brown, dirty white, light beige
-
 ## Cultural Context
 
 Mongolian shamanic rituals; that were being revived after being banned for 70 years under communist rule. Protected by Mongolia’s constitution since 1992, these ancient practices involve shamans (buu) performing ceremonies, such as a summer solstice ritual near Ulaanbaatar.
@@ -32,8 +30,7 @@ Mongolian shamanic headgear revived after 70 years of communist suppression — 
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Brown, dirty white, light beige
 **Archetype:** Acidhouse
 **Ancestor:** [Mongolian](../../../core-lore/ancestors/mongolian.md)
 **Swag Score:** 4

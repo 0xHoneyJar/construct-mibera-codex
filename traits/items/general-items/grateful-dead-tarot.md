@@ -27,6 +27,4 @@ Two traditions of seeking hidden meaning merged into one object — psychedelic 
 
 ---
 
-## Attribution
-
 **Swag Score:** 4

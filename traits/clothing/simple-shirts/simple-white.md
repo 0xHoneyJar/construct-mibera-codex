@@ -12,8 +12,6 @@ date_added: "2024-08"
 
 A basic solid white t-shirt.
 
-Dominant colors: White
-
 ## Cultural Context
 
 White is the color of the blank page, the clean slate, and the plain tee that has served as the canvas for DIY screen printing since punk.
@@ -26,7 +24,6 @@ The white tee is arguably the most important garment in counterculture. Every sl
 
 ---
 
-## Attribution
-
+**Dominant Colors:** White
 **Swag Score:** 1
 **Date Added:** 2024-08

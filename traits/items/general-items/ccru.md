@@ -16,8 +16,6 @@ date_added: "2024-08-07"
 
 a book with green cover, graphic and text in white that says “Ccru 1997 - 2003”
 
-Dominant colors: green, white
-
 ## Cultural Context
 
 The CCRU (Cybernetic Culture Research Unit) was a rogue academic collective at Warwick University in the 1990s that fused philosophy, electronic music, and occultism into a new form of theory-fiction. Its ideas about hyperstition and cultural engineering are woven into both Milady and Mibera's philosophical foundations.
@@ -30,8 +28,7 @@ Direct philosophical ancestor of both Milady and Mibera. The project explicitly 
 
 ---
 
-## Attribution
-
+**Dominant Colors:** green, white
 **Swag Score:** 4
 **Date Added:** 2024-08-07
 **Introduced By:** Jani

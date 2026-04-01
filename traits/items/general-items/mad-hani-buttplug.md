@@ -17,8 +17,6 @@ date_added: "2024-07-13"
 
 a yellow buttplug with bee sting shaped attachment; black stripes and a silver sting.
 
-Dominant colors: black, yellow, silver
-
 ## Cultural Context
 
 References both the Berachain ecosystem's honey motif and the deliberately provocative, NSFW humor that runs through crypyo culture. It is the highest swag score (5) general item alongside the Remilia gun and diamond paws.
@@ -31,8 +29,7 @@ Peak provocation item — the highest swag score tier exists for items that push
 
 ---
 
-## Attribution
-
+**Dominant Colors:** black, yellow, silver
 **Archetype:** milady
 **Swag Score:** 5
 **Date Added:** 2024-07-13

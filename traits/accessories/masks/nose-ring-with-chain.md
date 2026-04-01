@@ -18,8 +18,6 @@ date_added: "2024-06-19"
 
 Two golden slim chains connected to a ring on one end..
 
-Dominant colors: Gold
-
 ## Cultural Context
 
 Grime, hip-hop, Punjabi garage party scene.
@@ -32,8 +30,7 @@ Nose chains sit where grime, hip-hop, and Punjabi party culture overlap. The Mil
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Gold
 **Archetype:** Milady
 **Swag Score:** 3
 **Date Added:** 2024-06-19

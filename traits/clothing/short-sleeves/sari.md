@@ -18,8 +18,6 @@ date_added: "2024-12-10"
 
 Traditional female Indian attire in green. A green garment wrapped around one shoulder over a green t-shirt.
 
-Dominant colors: Shades of green.
-
 ## Cultural Context
 
 Sari / Saree
@@ -34,8 +32,7 @@ The sari is one of the oldest continuously worn garments on earth, with over 5,0
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Shades of green.
 **Archetype:** Milady
 **Swag Score:** 3
 **Date Added:** 2024-12-10

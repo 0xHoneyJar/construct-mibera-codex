@@ -16,8 +16,6 @@ date_added: "2025-03-11"
 
 Empty room with brownish accent and a half=opened curtain in the
 
-Dominant colors: Shades of brown, golden brown.
-
 ## Cultural Context
 
 Grassroots clandestine chemistry — from kitchen-sink LSD synthesis to bedroom MDMA production.
@@ -30,6 +28,5 @@ Clandestine chemistry backgrounds represent the grassroots production side of th
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Shades of brown, golden brown.
 **Date Added:** 2025-03-11

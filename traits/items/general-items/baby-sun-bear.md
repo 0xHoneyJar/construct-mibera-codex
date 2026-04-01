@@ -29,8 +29,6 @@ Completes the four-species bear set, ensuring the smallest and rarest real-world
 
 ---
 
-## Attribution
-
 **Archetype:** milady
 **Swag Score:** 4
 **Date Added:** 2024-07-11

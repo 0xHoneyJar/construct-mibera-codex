@@ -30,8 +30,6 @@ Magenta sits between pink and purple, neither one nor the other. At a rave, ambi
 
 ---
 
-## Attribution
-
 **Archetype:** Chicago Detroit
 **Swag Score:** 1
 **Date Added:** 2024-06-18

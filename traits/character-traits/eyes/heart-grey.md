@@ -16,8 +16,6 @@ date_added: "2024-06-03"
 
 Eyes with heart-shaped pupils in grey.
 
-Dominant colors: Grey
-
 ## Cultural Context
 
 Heart-shaped pupils replace the standard round pupil with a heart motif, a visual convention in anime, manga, and internet art used to express infatuation, adoration, or overwhelming affection. The heart-eye expression has become a ubiquitous emoji and reaction image in digital communication.
@@ -30,7 +28,6 @@ Infatuation as a visual motif — heart pupils channel anime and internet art to
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Grey
 **Date Added:** 2024-06-03
 **Introduced By:** Gumi

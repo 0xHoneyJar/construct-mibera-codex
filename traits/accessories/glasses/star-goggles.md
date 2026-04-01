@@ -30,8 +30,6 @@ The star on these goggles is not a brand. It is the opposite of a brand. Freetek
 
 ---
 
-## Attribution
-
 **Archetype:** Freetekno
 **Swag Score:** 2
 **Date Added:** 2024-06-16

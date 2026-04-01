@@ -17,8 +17,6 @@ date_added: "2024-07-10"
 
 a cigarette pack in white and vibrant blue with yellow accent in the top middle.
 
-Dominant colors: vibrant blue, white, yellow
-
 ## Cultural Context
 
 The Remilia cigarette pack is sourced directly from Remilia's own merch store, embedding the parent project's branding into the collection as a held item. It turns corporate identity into a rave accessory.
@@ -31,8 +29,7 @@ Official Remilia merch store product turned into a held item — the parent proj
 
 ---
 
-## Attribution
-
+**Dominant Colors:** vibrant blue, white, yellow
 **Archetype:** milady
 **Swag Score:** 3
 **Date Added:** 2024-07-10

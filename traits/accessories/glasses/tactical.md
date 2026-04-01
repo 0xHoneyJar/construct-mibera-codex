@@ -30,8 +30,6 @@ Data overlays on your field of vision. The Milady archetype already sees the wor
 
 ---
 
-## Attribution
-
 **Archetype:** Milady
 **Swag Score:** 3
 **Date Added:** 2024-12-10

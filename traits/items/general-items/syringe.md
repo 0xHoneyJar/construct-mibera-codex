@@ -17,8 +17,6 @@ date_added: "2024-07-07"
 
 a syringe.
 
-Dominant colors: white, bright blue, black
-
 ## Cultural Context
 
 The syringe represents the harder edges of drug culture that rave scenes have always existed alongside. Its inclusion is an unflinching acknowledgment that the line between celebration and addiction is not always clear.
@@ -31,8 +29,7 @@ The collection draws no line between acceptable and unacceptable substances. The
 
 ---
 
-## Attribution
-
+**Dominant Colors:** white, bright blue, black
 **Archetype:** chicago detroit
 **Swag Score:** 1
 **Date Added:** 2024-07-07

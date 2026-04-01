@@ -30,8 +30,6 @@ All-black round glasses are the unofficial uniform of European tekno sound syste
 
 ---
 
-## Attribution
-
 **Archetype:** freetekno
 **Swag Score:** 3
 **Date Added:** 2024-06-18

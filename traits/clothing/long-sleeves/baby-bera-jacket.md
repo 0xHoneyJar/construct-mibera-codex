@@ -12,8 +12,6 @@ date_added: "2024-12-10"
 
 Soft-looking bomber jacket in soft pink and creamy white. On it can be seen the text in cursive of “Her” and “Baby Bera”
 
-Dominant colors: Soft pink, creamy white.
-
 ## Cultural Context
 
 Baby Bera is an artist with impactful creation amongst the Berachain ecosystem, he also DJ in a few of the real-life events and raves held by Berachain in the past. His art ranges from music to physical objects.
@@ -26,8 +24,7 @@ Babybera is a key member of the Mibera team.
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Soft pink, creamy white.
 **Archetype:** Baby Bera merch
 **Swag Score:** 3
 **Date Added:** 2024-12-10

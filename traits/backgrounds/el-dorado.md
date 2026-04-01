@@ -16,8 +16,6 @@ date_added: "2025-02-27"
 
 Golden pyramid-like site in the background, red-brown stone building, warm orange sky, and green trees / bushes.
 
-Dominant colors: Yellow, green.
-
 ## Cultural Context
 
 El Dorado, meaning "the golden one" in Spanish, is a legendary city or kingdom of immense wealth, often associated with gold, sought by Spanish conquistadors in the 16th century. Originating from Muisca rituals in modern-day Colombia, where a chief covered in gold dust made offerings in Lake Guatavita, the myth grew into tales of a hidden city.
@@ -32,6 +30,5 @@ The Muisca gold rituals and the myth of El Dorado connect to Mesoamerican and So
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Yellow, green.
 **Date Added:** 2025-02-27

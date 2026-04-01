@@ -27,6 +27,4 @@ Received the first-ever Bitcoin transaction and kept building even after his ALS
 
 ---
 
-## Attribution
-
 **Swag Score:** 5

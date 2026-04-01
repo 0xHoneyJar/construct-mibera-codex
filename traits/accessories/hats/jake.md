@@ -18,8 +18,6 @@ date_added: "2024-07-24"
 
 Yellow hat with earflaps in the shape of Jake the dog from Adventure time. A yellow dog with round white eyes, droopy snout, and red tongue out..
 
-Dominant colors: Yellow, white, black, red
-
 ## Cultural Context
 
 Jake the Dog is a main character from the animated series Adventure Time (2010-2018), created by Pendleton Ward for Cartoon Network. The show became a cultural touchstone for millennials and Gen Z, blending psychedelic imagery, existential themes, and absurdist humor. Jake's stretchy, easygoing character and iconic yellow design made him one of the most recognizable cartoon characters of the 2010s.
@@ -32,8 +30,7 @@ Adventure Time is the cartoon that raised a generation on psychedelic absurdism 
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Yellow, white, black, red
 **Archetype:** Acidhouse
 **Swag Score:** 3
 **Date Added:** 2024-07-24

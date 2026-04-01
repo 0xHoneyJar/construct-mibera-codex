@@ -16,8 +16,6 @@ date_added: "2024-12-10"
 
 Earring with a white flower with pointed petals and 2 leaves.
 
-Dominant colors: White, green
-
 ## Cultural Context
 
 Flower motifs have been associated with counterculture since the 1960s flower power movement, which promoted peace and nonviolence. In rave culture, floral accessories became part of the festival aesthetic, often seen at events like outdoor trance gatherings and free parties. The 'Bera' prefix ties this to the Berachain ecosystem's bear-themed identity.
@@ -30,7 +28,6 @@ A flower earring with the Bera name on it -- bridging the flower-power lineage o
 
 ---
 
-## Attribution
-
+**Dominant Colors:** White, green
 **Swag Score:** 2
 **Date Added:** 2024-12-10

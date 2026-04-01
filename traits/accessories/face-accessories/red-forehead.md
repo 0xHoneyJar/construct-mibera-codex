@@ -18,8 +18,6 @@ date_added: "2024-12-10"
 
 vibrant red strokes going upwards.
 
-Dominant colors: Red
-
 ## Cultural Context
 
 In Nepali culture, the red forehead mark, or "tika," is a Hindu tradition made from vermilion, rice, and yogurt, applied during ceremonies and festivals like Dashain. It symbolizes purity, devotion, and good fortune, marking the "third eye" for spiritual energy. For married women, it also signifies commitment.
@@ -32,8 +30,7 @@ The tika is one of the most important ritual marks in Nepali Hindu culture, appl
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Red
 **Archetype:** Milady
 **Ancestor:** [Nepal](../../../core-lore/ancestors/nepal.md)
 **Swag Score:** 3

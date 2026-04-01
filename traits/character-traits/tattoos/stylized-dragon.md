@@ -17,8 +17,6 @@ date_added: "2024-08-10"
 
 Line work of a dragon’s face, front-view.
 
-Dominant colors: Black.
-
 ## Cultural Context
 <!-- justification
 ## Justification
@@ -28,7 +26,6 @@ The dragon rendered as a modern front-facing portrait rather than a traditional 
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Black.
 **Ancestor:** [Chinese](../../../core-lore/ancestors/chinese.md)
 **Date Added:** 2024-08-10

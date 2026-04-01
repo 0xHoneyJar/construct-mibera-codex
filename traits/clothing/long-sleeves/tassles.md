@@ -18,8 +18,6 @@ date_added: "2024-12-10"
 
 Garment in light beige to blue gradient with tassels dangling over the neck part, mainly in red, brown, and a bit of green.
 
-Dominant colors: Light beige, red, brown.
-
 ## Cultural Context
 
 Traditional Mongolian ceremonial dress (deel) often features ornamental tassels and fringe work, particularly in shamanic ritual garments. These tassels serve both decorative and spiritual purposes in Mongolian nomadic culture — believed to ward off evil spirits and mark the wearer's status. The Mongol shamanic tradition, with its drum-driven trance ceremonies, represents one of the oldest forms of rhythmic spiritual practice, predating electronic music's use of repetitive beats by millennia.
@@ -31,8 +29,7 @@ Mongolian shamanic dress with its rhythmic tassels represents one of the oldest 
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Light beige, red, brown.
 **Archetype:** Chicago Detroit
 **Swag Score:** 2
 **Date Added:** 2024-12-10

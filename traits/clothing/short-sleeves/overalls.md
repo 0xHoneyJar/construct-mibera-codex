@@ -27,6 +27,4 @@ A companion to the Overall piece, expanding the collection's coverage of the mos
 
 ---
 
-## Attribution
-
 **Swag Score:** 2

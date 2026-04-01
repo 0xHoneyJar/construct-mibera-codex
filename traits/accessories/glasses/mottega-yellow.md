@@ -30,8 +30,6 @@ A color variant of the Mottega series, doubling down on the Milady move of takin
 
 ---
 
-## Attribution
-
 **Archetype:** Milady
 **Swag Score:** 3
 **Date Added:** 2024-06-05

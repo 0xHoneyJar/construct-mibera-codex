@@ -18,8 +18,6 @@ date_added: "2024-07-27"
 
 Head of the CPAP machine with a grey thick tube that goes back.
 
-Dominant colors: Clear white, dark grey
-
 ## Cultural Context
 
 A CPAP (Continuous Positive Airway Pressure) machine is a medical device used to treat sleep apnea by delivering a steady stream of air through a mask worn over the nose or mouth, keeping airways open during sleep to prevent breathing pauses and improve oxygen flow.
@@ -32,8 +30,7 @@ Part of the collection's commitment to disability representation — a CPAP mach
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Clear white, dark grey
 **Archetype:** Freetekno
 **Swag Score:** 4
 **Date Added:** 2024-07-27

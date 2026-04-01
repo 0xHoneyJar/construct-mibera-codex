@@ -17,8 +17,6 @@ date_added: "2024-07-07"
 
 a big glassy bong.
 
-Dominant colors: glassy white / slight silver
-
 ## Cultural Context
 
 The bong uses water filtration to cool and filter smoke, a principle that originated in Asia centuries ago. It has become one of the most recognizable symbols of cannabis culture worldwide.
@@ -31,8 +29,7 @@ The baseline bong in a four-variant set. No custom color, no art-glass flourish 
 
 ---
 
-## Attribution
-
+**Dominant Colors:** glassy white / slight silver
 **Archetype:** chicago detroit
 **Swag Score:** 3
 **Date Added:** 2024-07-07

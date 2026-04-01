@@ -27,6 +27,4 @@ The grandfather of cryptocurrency. Without DigiCash in the 1980s, there is no Bi
 
 ---
 
-## Attribution
-
 **Swag Score:** 5

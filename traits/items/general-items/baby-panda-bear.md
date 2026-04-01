@@ -17,8 +17,6 @@ date_added: "2024-07-11"
 
 a plushie of a panda bear, medium to big in size.
 
-Dominant colors: white, black
-
 ## Cultural Context
 
 A panda variant of the Berachain bear plushie lineup. Panda bears, while not true bears taxonomically in older classifications, are confirmed members of the bear family and fit the collection's bear-centric branding.
@@ -31,8 +29,7 @@ Expands the bear plushie lineup across real-world species, giving visual variety
 
 ---
 
-## Attribution
-
+**Dominant Colors:** white, black
 **Archetype:** milady
 **Swag Score:** 4
 **Date Added:** 2024-07-11

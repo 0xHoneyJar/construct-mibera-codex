@@ -17,8 +17,6 @@ date_added: "2024-08-09"
 
 Lines forming a monograph.
 
-Dominant colors: Black.
-
 ## Cultural Context
 
 Ottoman / Tughra
@@ -32,8 +30,7 @@ The tughra is calligraphy as power -- each sultan's unique monogram was an unfor
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Black.
 **Ancestor:** [Turkey](../../../core-lore/ancestors/turkey.md)
 **Date Added:** 2024-08-09
 **Sources:**

@@ -16,8 +16,6 @@ date_added: "2024-12-09"
 
 a figurine / plushie of of a big fat bear sitting down with closed eyes and content expression
 
-Dominant colors: brown, creamy white.
-
 ## Cultural Context
 
 Beraborrow is a decentralized lending protocol built on Berachain. Rendering a DeFi protocol as a contented plush bear is characteristic of the Berachain community's approach to making financial infrastructure approachable.
@@ -30,7 +28,6 @@ DeFi lending protocol rendered as a contented plush bear. Turns invisible financ
 
 ---
 
-## Attribution
-
+**Dominant Colors:** brown, creamy white.
 **Swag Score:** 3
 **Date Added:** 2024-12-09

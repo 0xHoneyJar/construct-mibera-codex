@@ -17,8 +17,6 @@ date_added: "2024-07-23"
 
 a black case with stickers on it including a blue textbook with white text that reads “RemiliaCo” on the top part.
 
-Dominant colors: black, blue
-
 ## Cultural Context
 
 The Remilia phone case is branded merchandise from the parent Remilia ecosystem. Turning a utilitarian tech accessory into a held item collapses the boundary between personal device, brand loyalty, and collection trait.
@@ -31,8 +29,7 @@ Remilia branding on a personal everyday object, collapsing merch, identity, and 
 
 ---
 
-## Attribution
-
+**Dominant Colors:** black, blue
 **Archetype:** milady
 **Swag Score:** 2
 **Date Added:** 2024-07-23

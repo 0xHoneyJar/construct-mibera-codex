@@ -18,11 +18,9 @@ date_added: "2024-06-22"
 
 Black t-shirt with white spiral leading to Mibera logo in the center.
 
-Dominant colors: Black, white
-
 ## Cultural Context
 
-The spiral is a recurring symbol in psychedelic and rave culture, representing altered states of consciousness, hypnotic patterns, and the cyclical nature of the dancefloor experience. In the Mibera context, spirals also reference Spiral Tribe, the legendary UK free party sound system. The Mibera logo at the center anchors the design to the project.
+The spiral is a recurring symbol in psychedelic and rave culture, representing altered states of consciousness, hypnotic patterns, and the cyclical nature of the dance floor experience. In the Mibera context, spirals also reference Spiral Tribe, the legendary UK free party sound system. 
 
 <!-- justification
 ## Justification
@@ -32,8 +30,7 @@ A spiral leading to the Mibera logo at the center. The spiral is the visual lang
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Black, white
 **Archetype:** Acidhouse
 **Swag Score:** 3
 **Date Added:** 2024-06-22

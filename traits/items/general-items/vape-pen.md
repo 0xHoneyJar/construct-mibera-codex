@@ -17,8 +17,6 @@ date_added: "2024-07-07"
 
 a thin cylindrical yellow vape pen.
 
-Dominant colors: shades of yellow
-
 ## Cultural Context
 
 The vape pen represents the modern evolution of smoking culture, replacing combustion with vapor. In rave settings, it has become as ubiquitous as the cigarette once was.
@@ -31,8 +29,7 @@ The modern endpoint of the collection's smoking evolution. What the joint and th
 
 ---
 
-## Attribution
-
+**Dominant Colors:** shades of yellow
 **Archetype:** chicago detroit
 **Swag Score:** 2
 **Date Added:** 2024-07-07

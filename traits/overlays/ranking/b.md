@@ -29,4 +29,3 @@ B-rank Miberas have above-average swag scores -- respectable trait combinations 
 
 ---
 
-## Attribution
