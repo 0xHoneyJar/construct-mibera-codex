@@ -17,8 +17,6 @@ date_added: "2025-03-11"
 
 Neatly cut watermelon as a hat.
 
-Dominant colors: Shades of green
-
 ## Cultural Context
 
 Tez was a core contributor to the Mibera project during its building and creation phase. The watermelon hat is a personal tribute — a fun, fruit-themed headpiece that represents a team member's contribution to the collection. Personal tributes embedded as traits are a common practice in NFT projects, rewarding the people who helped build them.
@@ -31,8 +29,7 @@ A watermelon hat honoring Tez, one of the builders who helped create Mibera — 
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Shades of green
 **Archetype:** Tez was a big part of Mibera building and creation.
 **Swag Score:** 4
 **Date Added:** 2025-03-11

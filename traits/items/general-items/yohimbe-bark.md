@@ -28,7 +28,5 @@ West African ethnobotany represented in the collection's pharmacological catalog
 
 ---
 
-## Attribution
-
 **Swag Score:** 3
 **Date Added:** 2024-12-09

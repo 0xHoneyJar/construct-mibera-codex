@@ -16,8 +16,6 @@ date_added: "2024-06-06"
 
 Golden yellow liquid dripping down in a few chunks.
 
-Dominant colors: golden yellow
-
 ## Cultural Context
 
 Highly engaging chaotic project with a cult-like community, founded by Lord Pemberton, the project launched an NFT collection and a ponzi game design.
@@ -30,6 +28,5 @@ Berachain ecosystem partner background — representing the chaotic, community-d
 
 ---
 
-## Attribution
-
+**Dominant Colors:** golden yellow
 **Date Added:** 2024-06-06

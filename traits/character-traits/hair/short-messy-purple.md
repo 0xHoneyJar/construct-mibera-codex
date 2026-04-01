@@ -27,7 +27,5 @@ Spontaneous and textured, short messy hair captures the energy of someone who va
 
 ---
 
-## Attribution
-
 **Date Added:** 2024-06-15
 **Introduced By:** Gumi

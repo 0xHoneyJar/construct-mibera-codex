@@ -16,8 +16,6 @@ date_added: "2025-03-21"
 
 Snap of a website page called ‘Honey Road’ anonymous market, offering wide selections of drugs.
 
-Dominant colors: White, grey, green
-
 ## Cultural Context
 
 The ‘official’ website for Mibera Maker.
@@ -32,6 +30,5 @@ Mibera's own darknet-styled marketplace aesthetic — a self-referential backgro
 
 ---
 
-## Attribution
-
+**Dominant Colors:** White, grey, green
 **Date Added:** 2025-03-21

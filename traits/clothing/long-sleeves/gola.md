@@ -18,8 +18,6 @@ date_added: "2024-12-10"
 
 Indigo tracksuit with zipper in the middle; teal and red accents going pass the shoulders and a small ‘GOLA’ brand graphic.
 
-Dominant colors: Indigo, teal, red.
-
 ## Cultural Context
 
 The GOLA jacket is directly referenced from a header photo in an article by DJ Mag about Irish acts and underground talents.
@@ -32,8 +30,7 @@ Sourced from a DJ Mag photo of the Irish underground scene. The tracksuit is a s
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Indigo, teal, red.
 **Archetype:** Acidhouse
 **Swag Score:** 3
 **Date Added:** 2024-12-10

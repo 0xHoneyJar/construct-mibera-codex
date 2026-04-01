@@ -17,8 +17,6 @@ date_added: "2024-12-09"
 
 A thin, yellow booklet that says “LOS ANGELES RAVE FLYERS 1991-1996” in black text.
 
-Dominant colors: Yellow.
-
 ## Cultural Context
 
 UK rave flyers from the late 1980s and early 1990s are some of the most iconic pieces of underground graphic design ever produced. They served the practical purpose of communicating secret party locations while becoming an art form of their own, with bold typography and psychedelic imagery defining a visual language for the entire movement.
@@ -31,8 +29,7 @@ The original rave propaganda. Before the internet, these hand-designed flyers we
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Yellow.
 **Archetype:** Freetekno
 **Swag Score:** 4
 **Date Added:** 2024-12-09

@@ -11,8 +11,6 @@ date_added: "2024-12-09"
 
 a vortex / spiral of forces that seems to be sucking you in leading to a deep black hole, in blue and white.
 
-Dominant colors: blue, white
-
 ## Cultural Context
 
 Spiral and vortex imagery appears across cultures as a representation of altered states of consciousness, from Aboriginal dreamtime art to Haitian Vodou veves to Sufi whirling. The visual motif of being pulled into a central point recurs in descriptions of deep meditation, psychedelic experience, and shamanic trance across unrelated traditions.
@@ -25,8 +23,7 @@ The visual motif that ties the collection together: rave culture's altered state
 
 ---
 
-## Attribution
-
+**Dominant Colors:** blue, white
 **Archetype:** freetekno
 **Ancestor:** [orthodox jews](../../../core-lore/ancestors/orthodox-jew.md), [aboriginial](../../../core-lore/ancestors/aboriginal.md), [haitians](../../../core-lore/ancestors/haitian.md)
 **Swag Score:** 5

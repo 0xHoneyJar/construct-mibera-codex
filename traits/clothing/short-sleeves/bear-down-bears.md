@@ -18,8 +18,6 @@ date_added: "2024-06-22"
 
 Dark navy t-shirt with old-school graphic text that reads “Bear Down Chicago Bears” in white and orange.
 
-Dominant colors: Dark navy, white, orange.
-
 ## Cultural Context
 
 Chicago Bears NFL team, Al Hoffman.
@@ -34,8 +32,7 @@ Bear Down is the Chicago Bears rallying cry since 1941. In a collection on Berac
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Dark navy, white, orange.
 **Archetype:** Chicago Detroit
 **Swag Score:** 3
 **Date Added:** 2024-06-22

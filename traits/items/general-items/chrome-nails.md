@@ -29,8 +29,6 @@ Wearable club culture. Chrome flame nails carry the energy of getting ready for 
 
 ---
 
-## Attribution
-
 **Archetype:** chicago detroit
 **Swag Score:** 5
 **Date Added:** 2024-07-12

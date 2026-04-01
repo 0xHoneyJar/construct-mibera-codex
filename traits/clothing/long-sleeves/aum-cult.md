@@ -17,8 +17,6 @@ date_added: "2024-06-25"
 
 Plain white long sleeves with silky complexion.
 
-Dominant colors: White
-
 ## Cultural Context
 
 Aum Shinrikyo (now Aleph) is a Japanese doomsday cult founded in 1987 by Shoko Asahara, blending Buddhism, mysticism, and apocalyptic prophecies. It orchestrated the 1995 Tokyo subway sarin gas attack, killing 13 and injuring over 5,000, plus earlier incidents like the 1994 Matsumoto sarin attack (8 dead). Asahara and key members were executed in 2018; remnants persist under surveillance as a terrorist group.
@@ -31,8 +29,7 @@ Cults sit at the dark edge of counterculture, and Aum Shinrikyo represents the e
 
 ---
 
-## Attribution
-
+**Dominant Colors:** White
 **Archetype:** Aside from being a literal cult, the Aum cult is heavily tied to usage of drugs, especially LSD, which is very Mibera.
 **Swag Score:** 3
 **Date Added:** 2024-06-25

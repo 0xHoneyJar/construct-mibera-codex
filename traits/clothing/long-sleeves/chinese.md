@@ -18,8 +18,6 @@ date_added: "2024-12-10"
 
 Black tang suit (long sleeve shirt with mandarin collar and buttons), rolled on one side showing a blue sleeve underneath.
 
-Dominant colors: Black, blue
-
 ## Cultural Context
 
 The tang suit, or tangzhuang, is a traditional Chinese jacket characterized by a stand-up collar and buttoned front, often made of silk or cotton. Popularized during the Tang dynasty but modernized in the 20th century, it’s often worn for formal occasions, cultural events, or festivals.
@@ -32,8 +30,7 @@ Global garments ground the collection in real cultural traditions. The tang suit
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Black, blue
 **Archetype:** Acidhouse
 **Swag Score:** 3
 **Date Added:** 2024-12-10

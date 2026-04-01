@@ -16,8 +16,6 @@ date_added: "2024-12-10"
 
 Black bear wearing a colorful regalia.
 
-Dominant colors: Black, white, yellow, red, purple, turquoise
-
 ## Cultural Context
 
 The term 'tribal' in jewelry and fashion broadly references indigenous artistic traditions from around the world, including geometric patterns, bold colors, and symbolic motifs. In the context of Berachain, the bear mascot dressed in colorful regalia merges the blockchain's identity with the multicultural ancestral heritage that Mibera's trait system represents.
@@ -30,8 +28,7 @@ A Berachain bear in full tribal regalia -- this earring is where the ecosystem's
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Black, white, yellow, red, purple, turquoise
 **Archetype:** Its alignment in theme with the Berachain ecosystem and partially Mibera’s tribal aesthetic.
 **Swag Score:** 5
 **Date Added:** 2024-12-10

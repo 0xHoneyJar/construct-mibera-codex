@@ -16,8 +16,6 @@ date_added: "2024-06-04"
 
 Earring of a dancing / walking bear in yellow, with a pink scarf.
 
-Dominant colors: Yellow, pink
-
 ## Cultural Context
 
 The Grateful Dead was an American rock band formed in 1965, known for their improvisational live performances, psychedelic sound, and dedicated fanbase, the "Deadheads." Blending rock, folk, blues, and jazz, they became counterculture icons, led by Jerry Garcia until his death in 1995.
@@ -30,8 +28,7 @@ Three colorways of the dancing bear earring because the Dead's visual language i
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Yellow, pink
 **Archetype:** Grateful Dead has a big influence and part in Mibera’s lore.
 **Swag Score:** 4
 **Date Added:** 2024-06-04

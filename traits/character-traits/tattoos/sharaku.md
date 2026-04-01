@@ -17,8 +17,6 @@ date_added: "2024-08-10"
 
 Outline of a figure of a Japanese man, specifically Sharaku.
 
-Dominant colors: Black
-
 ## Cultural Context
 
 Toshusai Sharaku, description below.
@@ -32,8 +30,7 @@ Sharaku appeared from nowhere, produced some of the most psychologically intense
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Black
 **Ancestor:** [Japanese](../../../core-lore/ancestors/japanese.md)
 **Date Added:** 2024-08-10
 **Sources:**

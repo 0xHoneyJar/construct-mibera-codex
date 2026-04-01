@@ -21,4 +21,3 @@ A direct quote of a specific Milady Maker -- including it by number is the deepe
 
 ---
 
-## Attribution

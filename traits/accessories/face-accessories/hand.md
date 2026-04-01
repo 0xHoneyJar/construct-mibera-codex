@@ -30,8 +30,6 @@ A red handprint on the face is impossible to ignore and impossible to assign a s
 
 ---
 
-## Attribution
-
 **Archetype:** Milady
 **Swag Score:** 3
 **Date Added:** 2024-12-10

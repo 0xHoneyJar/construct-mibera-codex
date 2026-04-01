@@ -16,8 +16,6 @@ date_added: "2024-07-16"
 
 a black book with some graphic and white text in thin font that reads “COME AND TAKE IT”.
 
-Dominant colors: black, white
-
 ## Cultural Context
 
 *Come and Take It* (2016) is Cody Wilson's memoir about creating the Liberator, the world's first 3D-printed firearm, and his legal battles with the US State Department over the right to publish the files. The title references the defiant slogan from the Texas Revolution. Wilson is also the founder of Defense Distributed and Dark Wallet, a Bitcoin privacy tool.
@@ -30,7 +28,6 @@ Companion piece to the Liberator item. Wilson's memoir documents the legal and p
 
 ---
 
-## Attribution
-
+**Dominant Colors:** black, white
 **Swag Score:** 2
 **Date Added:** 2024-07-16

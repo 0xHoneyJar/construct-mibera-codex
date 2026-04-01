@@ -27,7 +27,5 @@ Caught mid-styling with the pick still in — prepared captures a moment of self
 
 ---
 
-## Attribution
-
 **Date Added:** 2024-12-10
 **Introduced By:** Gumi

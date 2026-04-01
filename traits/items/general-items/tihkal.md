@@ -17,8 +17,6 @@ date_added: "2024-07-11"
 
 a book with black and blue cover, with its title in red that reads “TiHKAL”, and smaller text in white below it that reads “THE CONTINUATION”.
 
-Dominant colors: black, blue, red
-
 ## Cultural Context
 
 TiHKAL (Tryptamines I Have Known And Loved) is the companion to PiHKAL, covering the tryptamine family including DMT, psilocybin, and their analogs. Together the two books form the most comprehensive personal exploration of psychoactive chemistry ever published.
@@ -31,8 +29,7 @@ PiHKAL's other half. You can't claim to document psychoactive chemistry and leav
 
 ---
 
-## Attribution
-
+**Dominant Colors:** black, blue, red
 **Archetype:** freetekno
 **Swag Score:** 4
 **Date Added:** 2024-07-11

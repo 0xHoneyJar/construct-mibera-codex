@@ -12,8 +12,6 @@ date_added: "2025-01-10"
 
 a small plant with thin stem, small leaves, and a small white flower
 
-Dominant colors: white, green.
-
 ## Cultural Context
 
 Pituri is a nicotine-rich plant used by Aboriginal Australians for tens of thousands of years as a stimulant and trade good. It represents one of the oldest known psychoactive plant traditions on Earth.
@@ -26,8 +24,7 @@ Possibly the oldest psychoactive plant tradition on Earth — tens of thousands 
 
 ---
 
-## Attribution
-
+**Dominant Colors:** white, green.
 **Archetype:** chicago detroit
 **Ancestor:** [aboriginal](../../../core-lore/ancestors/aboriginal.md)
 **Swag Score:** 2

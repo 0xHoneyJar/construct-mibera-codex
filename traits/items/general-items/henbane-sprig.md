@@ -12,8 +12,6 @@ date_added: "2025-01-10"
 
 a handful of sprigs, the flowers aren’t fully bloomed yet in the colour of very light yellow, nearly white.
 
-Dominant colors: green, light yellow / white
-
 ## Cultural Context
 
 Henbane is a deliriant nightshade used by European witches, oracles, and healers for centuries. Some historians believe it was a key ingredient in the "flying ointments" of medieval witchcraft, connecting it to the occult threads that run through the collection.
@@ -26,8 +24,7 @@ Bridges the collection's pharmacological thread all the way back to medieval wit
 
 ---
 
-## Attribution
-
+**Dominant Colors:** green, light yellow / white
 **Archetype:** freetekno
 **Ancestor:** [greek](../../../core-lore/ancestors/greek.md)
 **Swag Score:** 3

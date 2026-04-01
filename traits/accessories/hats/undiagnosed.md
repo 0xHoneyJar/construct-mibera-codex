@@ -17,8 +17,6 @@ date_added: "2024-07-28"
 
 Black cap with light yellow text that reads “Undiagnosed but I’m pretty sure…”
 
-Dominant colors: Black, soft light yellow
-
 ## Cultural Context
 
 "Undiagnosed but I'm pretty sure..." is a continuation of the self-deprecating neurodivergent humor seen in the "Got Autism" and "I Have Mibera" hats. The phrase captures the experience of many in internet culture who identify with ADHD, autism, or other neurodivergent traits without formal diagnosis — a common theme in online communities where oversharing about mental health is the norm.
@@ -31,7 +29,6 @@ The companion piece to "Got Autism" — for the Miberas who are self-aware enoug
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Black, soft light yellow
 **Swag Score:** 2
 **Date Added:** 2024-07-28

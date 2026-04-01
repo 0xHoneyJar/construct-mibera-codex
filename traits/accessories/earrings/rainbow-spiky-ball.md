@@ -28,8 +28,6 @@ Combines the pride rainbow with spiky rave aesthetics -- a high-swag fusion of L
 
 ---
 
-## Attribution
-
 **Archetype:** In relation to pride and LGBTQ+ which is also a big part of rave culture.
 **Swag Score:** 5
 **Date Added:** 2024-12-10

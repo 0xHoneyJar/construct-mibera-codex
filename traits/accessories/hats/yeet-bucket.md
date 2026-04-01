@@ -29,7 +29,5 @@ Yeet's derpy mascot on a bucket hat — another Berachain ecosystem project earn
 
 ---
 
-## Attribution
-
 **Swag Score:** 3
 **Date Added:** 2024-07-28

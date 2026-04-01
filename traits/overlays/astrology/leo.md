@@ -31,4 +31,3 @@ At the modifier layer, a Leo overlay lends warmth, creative confidence, and a fl
 
 ---
 
-## Attribution

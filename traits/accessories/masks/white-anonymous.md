@@ -18,8 +18,6 @@ date_added: "2024-07-27"
 
 Classic white ‘Anonymous’ mask, with a smiling face with blushing cheeks, a thin mustache, and pointed beard
 
-Dominant colors: White, black.
-
 ## Cultural Context
 
 The "Anonymous mask," commonly known as the Guy Fawkes mask, originated from the 1605 Gunpowder Plot, where Guy Fawkes planned to blow up the British Parliament. Its modern iconic design was created by illustrator David Lloyd for the 1982–1989 graphic novel V for Vendetta by Alan Moore.
@@ -32,8 +30,7 @@ The Guy Fawkes mask is the most widely recognized symbol of digital-age anonymit
 
 ---
 
-## Attribution
-
+**Dominant Colors:** White, black.
 **Archetype:** Chicago Detroit
 **Swag Score:** 4
 **Date Added:** 2024-07-27

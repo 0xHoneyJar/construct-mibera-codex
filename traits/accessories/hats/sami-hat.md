@@ -18,8 +18,6 @@ date_added: "2024-07-27"
 
 Red tall, sturdy, hat in almost rectangular shape with green linings on it.
 
-Dominant colors: Red, green
-
 ## Cultural Context
 
 The Sámi are an Indigenous people of northern Europe, primarily in Norway, Sweden, Finland, and Russia’s Kola Peninsula, with a population of about 80,000–100,000. Traditionally nomadic, they’ve historically relied on reindeer herding, fishing, and hunting, with a rich culture featuring unique languages (9–11 dialects), joik singing, and duodji crafts. Facing centuries of forced assimilation, including bans on their language and land dispossession, they’ve maintained their identity through activism since the 1970s, gaining cultural protections and political representation like the Sámi Parliaments.
@@ -32,8 +30,7 @@ The Sami four winds hat carries the cultural weight of Europe's own Indigenous p
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Red, green
 **Archetype:** Acidhouse
 **Swag Score:** 3
 **Date Added:** 2024-07-27

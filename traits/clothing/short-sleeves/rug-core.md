@@ -18,8 +18,6 @@ date_added: "2024-12-10"
 
 Black t-shirt with text in red in the middle that says “rug core” in a playful font.
 
-Dominant colors: Black, red.
-
 ## Cultural Context
 
 Rugcore is a self-aware aesthetic movement within crypto culture that embraces the chaotic energy of memecoin trading and rug pulls. The term rug pull refers to a crypto scam where developers drain a token's liquidity and disappear. Rugcore turns the trauma into an identity.
@@ -32,8 +30,7 @@ Rugcore is crypto culture processing its own scam epidemic through fashion. When
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Black, red.
 **Archetype:** Freetekno
 **Swag Score:** 3
 **Date Added:** 2024-12-10

@@ -18,8 +18,6 @@ date_added: "2024-06-29"
 
 Loose-fit green checkered shirt with a pocket, and many buttons.
 
-Dominant colors: Green
-
 ## Cultural Context
 
 The piece is a direct reference from a photo in an article by Homegrown about the secret daytime raves that provides space for diasporic South Asians. Many youths are seen wearing loose / baggy outfits.
@@ -32,8 +30,7 @@ Pulled from a photo of a diasporic South Asian daytime rave. Loose, baggy clothi
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Green
 **Archetype:** Milady
 **Swag Score:** 3
 **Date Added:** 2024-06-29

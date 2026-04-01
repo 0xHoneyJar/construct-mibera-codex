@@ -30,8 +30,6 @@ Sometimes you just have an orange on your head and nobody knows why — the kind
 
 ---
 
-## Attribution
-
 **Archetype:** Milady
 **Swag Score:** 2
 **Date Added:** 2024-07-28

@@ -12,8 +12,6 @@ date_added: "2025-01-10"
 
 a small stem of white flowers and buds, radiant in color
 
-Dominant colors: white, green
-
 ## Cultural Context
 
 Tabernaemontana species are related to iboga and contain alkaloids used in traditional medicine across tropical regions. They represent the lesser-known branches of psychoactive botany that the collection deliberately highlights.
@@ -26,8 +24,7 @@ Most people know iboga; almost nobody knows its botanical relatives. The collect
 
 ---
 
-## Attribution
-
+**Dominant Colors:** white, green
 **Archetype:** freetekno
 **Ancestor:** [gabon](../../../core-lore/ancestors/gabon.md)
 **Swag Score:** 4

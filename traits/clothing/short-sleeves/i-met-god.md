@@ -18,8 +18,6 @@ date_added: "2024-06-22"
 
 Black shirt with white text that reads “I MET GOD AT THE MILADY RAVE”.
 
-Dominant colors: Black, white
-
 ## Cultural Context
 
 Part of the Milady Rave souvenir tee series, a set of shirts that read like confessional postcards from a night out. Each shirt describes a different transformative experience at a Milady rave, ranging from spiritual to romantic to chemical.
@@ -32,8 +30,7 @@ Meeting God at a rave is not metaphorical for a lot of people. This shirt captur
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Black, white
 **Archetype:** Milady
 **Swag Score:** 3
 **Date Added:** 2024-06-22

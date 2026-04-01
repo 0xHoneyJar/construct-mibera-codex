@@ -18,8 +18,6 @@ date_added: "2024-12-10"
 
 Vibrant dark purple t-shirt with graphic of a bear head wearing bike helmet slowly fading from right to left and white text under it that reads “FAHRRADFAHRERANZUG”
 
-Dominant colors: Vibrant purple, brown.
-
 ## Cultural Context
 
 The second Beradrome tee features the German word Fahrradfahreranzug (cyclist outfit), a nod to the cycling-themed DEX's European roots and the Kraftwerk tradition of German-language technology references in electronic music culture.
@@ -32,8 +30,7 @@ A second Beradrome variant with German text deepens the Kraftwerk connection tha
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Vibrant purple, brown.
 **Archetype:** Milady
 **Swag Score:** 4
 **Date Added:** 2024-12-10

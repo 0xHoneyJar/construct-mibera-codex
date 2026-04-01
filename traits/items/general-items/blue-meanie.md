@@ -27,6 +27,4 @@ Named after a Beatles villain, bridging psychedelic music history to mycology. T
 
 ---
 
-## Attribution
-
 **Swag Score:** 3

@@ -12,8 +12,6 @@ date_added: "2025-01-10"
 
 a small stem of leaves and one small flower that’s most likely not fully bloomed yet.
 
-Dominant colors: green, white
-
 ## Cultural Context
 
 Brahmi is a nootropic herb used in Ayurvedic medicine for thousands of years to enhance memory and cognitive function. It connects ancient plant wisdom to the modern interest in cognitive enhancement and "smart drugs."
@@ -26,8 +24,7 @@ The collection traces psychoactive plants across civilizations. Brahmi anchors t
 
 ---
 
-## Attribution
-
+**Dominant Colors:** green, white
 **Archetype:** chicago detroit
 **Ancestor:** [hindu](../../../core-lore/ancestors/hindu.md)
 **Swag Score:** 2

@@ -18,8 +18,6 @@ date_added: "2024-12-10"
 
 Small circular ring resembling a ring..
 
-Dominant colors: Black.
-
 ## Cultural Context
 
 Septum piercings have been practiced across cultures for thousands of years, from the Kayan people of Borneo to Aboriginal Australians to Aztec and Mayan warriors. In contemporary Western culture, the septum ring was adopted by punk and alternative subcultures in the 1970s and 1980s before entering mainstream fashion in the 2010s. In rave and free party culture, septum rings are one of the most common piercings, signaling affiliation with alternative and countercultural communities.
@@ -32,8 +30,7 @@ The septum ring is the single most common piercing in free party culture -- it i
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Black.
 **Archetype:** Freetekno
 **Swag Score:** 1
 **Date Added:** 2024-12-10

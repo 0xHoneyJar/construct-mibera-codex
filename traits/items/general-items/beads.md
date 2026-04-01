@@ -17,8 +17,6 @@ date_added: "2024-07-09"
 
 prayer beads in brown with red string.
 
-Dominant colors: brown, red
-
 ## Cultural Context
 
 Tibetan prayer beads (mala) are used in Buddhist meditation practice, typically consisting of 108 beads used to count mantras or breaths. They have been adopted across spiritual and countercultural contexts worldwide.
@@ -31,8 +29,7 @@ Spiritual accessory grounding the collection's consciousness-exploration theme i
 
 ---
 
-## Attribution
-
+**Dominant Colors:** brown, red
 **Archetype:** milady
 **Swag Score:** 3
 **Date Added:** 2024-07-09

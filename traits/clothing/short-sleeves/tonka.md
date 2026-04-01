@@ -18,8 +18,6 @@ date_added: "2024-06-22"
 
 Creamy white t-shirt with red lining on the neck and sleeves, and a graphic lettering of the word “Tonka” in the middle.
 
-Dominant colors: Creamy white, black, red
-
 ## Cultural Context
 
 Tonka Sound System is a legendary UK free party collective that was active from the late 1980s through the 1990s. Based in the Bristol area, Tonka helped define the UK free party scene alongside crews like Spiral Tribe, DiY, and Circus Warp. Their events were known for combining techno with dub and breakbeat in outdoor and warehouse settings.
@@ -32,8 +30,7 @@ Tonka Sound System is one of the foundational crews in UK free party history. Th
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Creamy white, black, red
 **Archetype:** Freetekno
 **Swag Score:** 4
 **Date Added:** 2024-06-22

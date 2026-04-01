@@ -17,8 +17,6 @@ date_added: "2024-07-12"
 
 a vintage jug with caveman drawing style graphic; in a very dark green and light lime green.
 
-Dominant colors: dark green, light lime green
-
 ## Cultural Context
 
 Mead, fermented honey wine, is one of the oldest alcoholic drinks in human history, dating back at least 9,000 years. It ties the collection's honey and bear themes to the deep past of communal intoxication.
@@ -31,8 +29,7 @@ Honey fermented into humanity's oldest intoxicant is a triple-lock on Berachain 
 
 ---
 
-## Attribution
-
+**Dominant Colors:** dark green, light lime green
 **Archetype:** acidhouse
 **Ancestor:** [greek](../../../core-lore/ancestors/greek.md)
 **Swag Score:** 5

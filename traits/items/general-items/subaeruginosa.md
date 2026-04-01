@@ -17,8 +17,6 @@ date_added: "2024-07-06"
 
 a mushroom with light brown head and darker brown stem / body.
 
-Dominant colors: light brown, dark brown
-
 ## Cultural Context
 
 Psilocybe subaeruginosa is a potent psilocybin mushroom native to Australia and New Zealand. Its inclusion represents the Southern Hemisphere's unique contribution to psychedelic culture.
@@ -31,8 +29,7 @@ Ensures the collection's psychedelic mushroom catalog is global, not just Northe
 
 ---
 
-## Attribution
-
+**Dominant Colors:** light brown, dark brown
 **Archetype:** acidhouse
 **Swag Score:** 2
 **Date Added:** 2024-07-06

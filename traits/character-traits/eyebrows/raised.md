@@ -9,8 +9,6 @@ date_added: null
 
 Lifted eyebrows with an upward arch, conveying surprise or skepticism.
 
-Dominant colors: Black
-
 ## Cultural Context
 
 Raised eyebrows lift upward in an arch, universally signaling surprise, curiosity, or skepticism. The raised brow is one of the most readable human expressions, functioning as a social signal across cultures — from genuine shock to the deliberate skeptical arch of a single brow.
@@ -23,7 +21,6 @@ Surprise, disbelief, or the skeptical eyebrow raise — a fundamental expressive
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Black
 **Introduced By:** Gumi
 **Team Notes:** Referenced in the overview expression types table. May correspond to one of the existing thin/thick variants rendered at a higher angle.

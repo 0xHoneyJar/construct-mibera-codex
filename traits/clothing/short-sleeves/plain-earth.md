@@ -16,8 +16,6 @@ image: "https://mibera.s3.amazonaws.com/traits/SS1_plain_earth.webp"
 
 A simple plain shirt with the Earth element color overlay.
 
-Dominant colors: Brown, earthy tones.
-
 ## Cultural Context
 
 The Plain shirts are element-colored base garments that let the Mibera's elemental alignment show through their clothing. Plain Earth uses the collection's Earth element palette, grounding the wearer in the terrestrial dimension. With 83 wearers across multiple archetypes and ancestors, it is the most common of the four elemental plain shirts — fitting for the most grounded element.
@@ -30,7 +28,6 @@ Elemental plain shirts are the collection's baseline clothing, letting element c
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Brown, earthy tones.
 **Swag Score:** 1
 **Date Added:** 2025-02-24

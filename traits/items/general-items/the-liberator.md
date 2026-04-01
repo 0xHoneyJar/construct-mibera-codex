@@ -16,8 +16,6 @@ date_added: "2024-07-16"
 
 a small white and black gun, simple and rectangular design.
 
-Dominant colors: black, white
-
 ## Cultural Context
 
 The Liberator was the first fully 3D-printed firearm, released as open-source files by Defense Distributed in 2013. It proved that digital fabrication can route around physical regulation, a cypherpunk idea with deeply uncomfortable implications.
@@ -30,7 +28,6 @@ The first fully 3D-printed firearm, released as open-source files. Extends cyphe
 
 ---
 
-## Attribution
-
+**Dominant Colors:** black, white
 **Swag Score:** 5
 **Date Added:** 2024-07-16

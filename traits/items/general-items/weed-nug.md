@@ -27,6 +27,4 @@ The universal symbol of counterculture — present at every rave, festival, and 
 
 ---
 
-## Attribution
-
 **Swag Score:** 2

@@ -18,8 +18,6 @@ date_added: "2024-07-24"
 
 Black mask covering just the mouth and nose part..
 
-Dominant colors: Black.
-
 ## Cultural Context
 
 Simple black face coverings have been used across cultures and movements for anonymity and protection, from nineteenth-century labor protests to modern-day black bloc tactics. In rave and free party culture, face masks serve a practical purpose against dust and cold at outdoor events while also enabling the anonymity central to the scene.
@@ -32,8 +30,7 @@ The simplest mask in the collection, and maybe the most honest. In freetekno, yo
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Black.
 **Archetype:** Freetekno
 **Swag Score:** 2
 **Date Added:** 2024-07-24

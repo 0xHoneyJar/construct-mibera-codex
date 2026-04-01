@@ -17,8 +17,6 @@ date_added: "2024-06-22"
 
 Black t-shirt with white text that reads “CRYPTO IS FOR VIRGINS” in bold font.
 
-Dominant colors: Black, white.
-
 ## Cultural Context
 
 Crypto is for Virgins is a self-deprecating joke from within the crypto community, playing on the stereotype of crypto enthusiasts as socially awkward tech obsessives. 
@@ -31,7 +29,6 @@ The crypto community's willingness to roast itself is one of its most endearing 
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Black, white.
 **Swag Score:** 3
 **Date Added:** 2024-06-22

@@ -17,8 +17,6 @@ date_added: "2024-07-10"
 
 a beige colored striped paper with writing that says “Buy Bitcoin”.
 
-Dominant colors: beige, black
-
 ## Cultural Context
 
 The "Buy Bitcoin" meme became one of crypto culture's most recognizable moments when a sign with those words appeared behind Janet Yellen during a 2017 Congressional hearing. 
@@ -30,8 +28,7 @@ Canonical crypto-culture moment turned into a physical prop — one of the few i
 
 ---
 
-## Attribution
-
+**Dominant Colors:** beige, black
 **Archetype:** milady
 **Swag Score:** 3
 **Date Added:** 2024-07-10

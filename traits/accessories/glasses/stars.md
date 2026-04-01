@@ -30,8 +30,6 @@ Wearing star-shaped glasses at a muddy teknival in a forest is the kind of joyfu
 
 ---
 
-## Attribution
-
 **Archetype:** Freetekno
 **Swag Score:** 5
 **Date Added:** 2024-06-17

@@ -31,4 +31,3 @@ As a modifier in the signal hierarchy, the Aries overlay lends an assertive, pio
 
 ---
 
-## Attribution

@@ -18,8 +18,6 @@ date_added: "2024-06-22"
 
 Black t-shirt with a yellow outline of a smiley face with bear ears, “dead eyes”, and the tongue out.
 
-Dominant colors: Black, yellow
-
 ## Cultural Context
 
 Nirvana
@@ -34,8 +32,7 @@ Nirvana's smiley logo is one of the most bootlegged images in music history. Gru
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Black, yellow
 **Archetype:** Freetekno
 **Swag Score:** 2
 **Date Added:** 2024-06-22

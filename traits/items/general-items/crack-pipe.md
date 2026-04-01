@@ -29,8 +29,6 @@ The collection refuses to romanticize drug culture by only showing the fun parts
 
 ---
 
-## Attribution
-
 **Archetype:** chicago detroit
 **Swag Score:** 1
 **Date Added:** 2024-07-04

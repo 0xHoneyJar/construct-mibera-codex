@@ -26,4 +26,3 @@ Smooth and unhurried, the relaxed style brings effortless elegance to the longer
 
 ---
 
-## Attribution

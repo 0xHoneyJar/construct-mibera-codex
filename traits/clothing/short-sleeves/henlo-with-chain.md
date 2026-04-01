@@ -17,8 +17,6 @@ date_added: "2024-06-22"
 
 Vibrant purple t-shirt with white “HENLO” text in the middle and a big golden chain with a huge charm in the shape of a honeycomb.
 
-Dominant colors: Vibrant purple, yellow / gold, white.
-
 ## Cultural Context
 
 Henlo is a Berachain ecosystem project. This variant features the Henlo branding paired with an oversized gold chain and honeycomb charm, blending hip-hop jewelry culture with the Berachain honey motif.
@@ -31,7 +29,6 @@ The honeycomb chain on a Henlo tee fuses Berachain's honey theme with hip-hop's 
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Vibrant purple, yellow / gold, white.
 **Swag Score:** 4
 **Date Added:** 2024-06-22

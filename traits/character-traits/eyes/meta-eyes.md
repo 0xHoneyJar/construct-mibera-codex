@@ -28,7 +28,5 @@ The ultimate self-referential trait — meta eyes ask what it means to have eyes
 
 ---
 
-## Attribution
-
 **Date Added:** 2024-06-03
 **Introduced By:** Gumi

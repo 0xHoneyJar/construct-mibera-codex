@@ -23,7 +23,5 @@ Time perception is central to the rave experience — clock eyes visualize the w
 
 ---
 
-## Attribution
-
 **Date Added:** 2024-06-03
 **Introduced By:** Gumi

@@ -27,6 +27,4 @@ Blue beads carry centuries of cross-cultural protective symbolism, and Mibera's 
 
 ---
 
-## Attribution
-
 **Swag Score:** 5

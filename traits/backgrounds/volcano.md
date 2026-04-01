@@ -16,8 +16,6 @@ date_added: "2025-02-28"
 
 An erupted volcanic mountain. Bright red lava puking out of the mountain as a big ball of smoke in dark grey can be seen in the sky.
 
-Dominant colors: Bright red, dark grey, muted pale blue
-
 ## Cultural Context
 
 Raw energy bursting through the surface.
@@ -30,6 +28,5 @@ Raw geological energy as atmospheric backdrop — elemental force breaking throu
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Bright red, dark grey, muted pale blue
 **Date Added:** 2025-02-28

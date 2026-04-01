@@ -32,8 +32,6 @@ The ushanka is cold-weather headwear that crossed from Soviet military surplus i
 
 ---
 
-## Attribution
-
 **Archetype:** Milady
 **Swag Score:** 3
 **Date Added:** 2024-07-25

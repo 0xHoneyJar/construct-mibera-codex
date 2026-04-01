@@ -27,6 +27,4 @@ Invented both "bit gold" and the concept of smart contracts. Two ideas that beca
 
 ---
 
-## Attribution
-
 **Swag Score:** 5

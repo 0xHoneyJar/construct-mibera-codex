@@ -13,8 +13,6 @@ date_added: "2024-07-27"
 
 Wide round hat, flat in shape, with a bunch of grey feathers on top and a red-yellow pompom in the center. On the edge of the hat are dangling ornaments with patterns in blue and orange.
 
-Dominant colors: Red, blue, orange, red, yellow, grey
-
 ## Cultural Context
 
 Peyote is seen as a divine teacher, fostering unity and heart-opening experiences, requiring respect and ethical sourcing due to its slow growth and cultural significance. Peyote ceremony is a sacred, Indigenous ritual using the peyote cactus, a spiritual medicine containing mescaline. Conducted by tribes like the Huichol and Native American Church, it involves all-night ceremonies with prayer, music, and introspection for emotional and spiritual healing.
@@ -27,8 +25,7 @@ The ornate peyote ceremony hat with feathers and pompoms — a full ceremonial h
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Red, blue, orange, red, yellow, grey
 **Archetype:** Freetekno
 **Swag Score:** 4
 **Date Added:** 2024-07-27

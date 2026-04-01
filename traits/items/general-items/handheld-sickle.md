@@ -17,8 +17,6 @@ date_added: "2024-07-10"
 
 a small sickle.
 
-Dominant colors: dark grey and dark brown
-
 ## Cultural Context
 
 References the honey hunting tradition of Nepal's Gurung people, who use sickles to harvest honeycomb from towering cliff faces in the Annapurna mountain ranges. The Gurung descend on handmade rope ladders and cut the combs from jagged overhangs using long poles with sickle blades. In spring, the honey contains grayanotoxin from rhododendron flowers, producing intoxicating and hallucinogenic effects — known as "mad honey."
@@ -31,8 +29,7 @@ The physical tool that connects the mad honey item to the dangerous cliff-face h
 
 ---
 
-## Attribution
-
+**Dominant Colors:** dark grey and dark brown
 **Archetype:** milady
 **Swag Score:** 3
 **Date Added:** 2024-07-10

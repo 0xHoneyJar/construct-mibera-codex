@@ -18,8 +18,6 @@ date_added: "2024-07-25"
 
 Fisherman hat in blue with a red star in the middle and white dots.
 
-Dominant colors: Blue, red, white.
-
 ## Cultural Context
 
 Ron Hardy, a pioneering Chicago DJ, shaped house music at The Music Box club in the 1980s. Known for his high-energy, experimental style, he mixed disco, soul, and early house tracks, often playing them at fast tempos or backwards, creating an electrifying atmosphere. His innovative edits and residency at the club, which featured unique amenities like a fruit bar, helped define Chicago's house music scene.
@@ -32,8 +30,7 @@ The fisherman hat channels working-class Americana through the lens of Chicago h
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Blue, red, white.
 **Archetype:** Milady
 **Swag Score:** 3
 **Date Added:** 2024-07-25

@@ -17,8 +17,6 @@ date_added: "2024-12-09"
 
 a stern stem with leaves on it.
 
-Dominant colors: green
-
 ## Cultural Context
 
 The Pythia was the Oracle at Delphi, who delivered prophecies while inhaling vapors from a chasm in the earth. Some scholars believe these vapors were psychoactive, making the Oracle one of the earliest documented cases of divination through altered states.
@@ -31,8 +29,7 @@ Represents the ancient precedent for chemically-assisted prophecy, linking the c
 
 ---
 
-## Attribution
-
+**Dominant Colors:** green
 **Archetype:** acidhouse
 **Ancestor:** [pythia](../../../core-lore/ancestors/pythia.md)
 **Swag Score:** 4

@@ -31,4 +31,3 @@ At the modifier layer, a Scorpio overlay introduces intensity and transformative
 
 ---
 
-## Attribution

@@ -18,8 +18,6 @@ date_added: "2024-12-10"
 
 White t-shirt with multiple bears in each of the rainbow’s colors, holding a magician hat and a cane, lined up at the bottom part of the t-shirt.
 
-Dominant colors: White, rainbow
-
 ## Cultural Context
 
 Grateful Dead, an American Rock Band.
@@ -34,8 +32,7 @@ The Grateful Dead's dancing bears are among the most iconic images in psychedeli
 
 ---
 
-## Attribution
-
+**Dominant Colors:** White, rainbow
 **Archetype:** Acidhouse
 **Swag Score:** 2
 **Date Added:** 2024-12-10

@@ -17,8 +17,6 @@ date_added: "2025-01-02"
 
 Black long robe with white accents and lining, mainly of symbolism / scripts. Long sleeves, loose hood on.
 
-Dominant colors: Black, white
-
 ## Cultural Context
 
 The robe is a direct reference from a Youtube video that includes images of Orthodox Schema monks. Orthodox schema monks (or schemamonks) are advanced Eastern Orthodox monastics who have attained the highest rank, the Great Schema (Megaloschemos), after progressing through novice, lesser schema (Stavrophore), and other stages of monastic life. This tonsure signifies a profound spiritual commitment, involving stricter vows of poverty, chastity, obedience, and seclusion for intense prayer, fasting, and asceticism to achieve union with God.
@@ -31,8 +29,7 @@ Monastic robes represent the most extreme form of spiritual surrender and renunc
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Black, white
 **Archetype:** Its relation to Orthodox beliefs.
 **Swag Score:** 5
 **Date Added:** 2025-01-02

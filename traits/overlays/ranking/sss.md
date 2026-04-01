@@ -29,4 +29,3 @@ Swag Rank is a core signal in the Mibera collection -- SSS marks the rarest and 
 
 ---
 
-## Attribution

@@ -27,6 +27,4 @@ The reason the entire crypto ecosystem exists. The ultimate cypherpunk — chang
 
 ---
 
-## Attribution
-
 **Swag Score:** 5

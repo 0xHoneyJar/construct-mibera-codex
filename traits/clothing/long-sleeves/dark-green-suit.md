@@ -18,8 +18,6 @@ date_added: "2024-12-10"
 
 Suit in forest green with a tie with the same colour, over a white shirt with a hue of green.
 
-Dominant colors: Forest green.
-
 ## Cultural Context
 
 Part of the Milady suit series. The forest green tone recalls the institutional fashion of mid-century banking and government — power dressed in the color of money. As with the other Milady suits, the corporate uniform is worn as parody, inverting the symbol of professional conformity into a costume for the dancefloor.
@@ -31,8 +29,7 @@ The corporate uniform worn as parody. Milady culture inverts the suit-and-tie in
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Forest green.
 **Archetype:** Milady
 **Swag Score:** 2
 **Date Added:** 2024-12-10

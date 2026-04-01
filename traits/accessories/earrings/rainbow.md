@@ -16,8 +16,6 @@ date_added: "2024-12-10"
 
 Stereotypical rainbow; a curved band of colors consisting of red, orange, yellow, green, blue, indigo, violet.
 
-Dominant colors: Rainbow color
-
 ## Cultural Context
 
 The rainbow flag, designed by Gilbert Baker in 1978, is a global symbol of LGBTQ+ pride and diversity. Its colors represent inclusivity, hope, and liberation, used in pride events and advocacy for LGBTQ+ rights.
@@ -30,8 +28,7 @@ The classic rainbow arc -- representing the LGBTQ+ roots that run through house 
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Rainbow color
 **Archetype:** In relation to pride and LGBTQ+ which is also a big part of rave culture.
 **Swag Score:** 3
 **Date Added:** 2024-12-10

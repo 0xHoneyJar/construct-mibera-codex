@@ -17,8 +17,6 @@ date_added: "2024-12-10"
 
 Pink bear posing in front of stereotypical cartoon-ish mushrooms in red and white.
 
-Dominant colors: Pink, red, white.
-
 ## Cultural Context
 
 Grateful Dead Mushroom, formed in 1965 in Palo Alto, California, was a pioneering psychedelic rock band led by Jerry Garcia, Bob Weir, and Phil Lesh. Known for their improvisational live performances, eclectic style blending rock, folk, and jazz, and a devoted fanbase ("Deadheads"), they released 13 studio albums, with hits like "Truckin'" and "Touch of Grey."
@@ -31,7 +29,6 @@ The Grateful Dead were the house band of the psychedelic counterculture, and the
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Pink, red, white.
 **Date Added:** 2024-12-10
 **Introduced By:** Jani

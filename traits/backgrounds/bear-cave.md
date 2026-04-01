@@ -16,8 +16,6 @@ date_added: "2024-08-14"
 
 Flat stone grey wall with a hint of brown, a few thick cracks in the surface. Bright orange brushes are stroked around the surface.
 
-Dominant colors: Stone grey, beige, bright orange
-
 ## Cultural Context
 
 Where Beras hibernate, dream, and transform. Connects the bear identity to the prehistoric caves where early humans gathered and made art.
@@ -30,6 +28,5 @@ The bear cave connects the Berachain bear identity to the primordial act of hibe
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Stone grey, beige, bright orange
 **Date Added:** 2024-08-14

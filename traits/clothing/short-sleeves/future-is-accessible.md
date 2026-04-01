@@ -18,8 +18,6 @@ date_added: "2024-12-10"
 
 Black t-shirt with white text that says “THE FUTURE IS ACCESSIBLE”.
 
-Dominant colors: Black, white.
-
 ## Cultural Context
 
 Disability rights activism has intersected with rave culture through campaigns for accessible venues, sensory-friendly events, and the broader principle that liberation movements must include everyone. The slogan echoes the format of activist tees like The Future is Female.
@@ -32,8 +30,7 @@ If the dancefloor is supposed to be for everyone, then accessibility is not opti
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Black, white.
 **Archetype:** Freetekno
 **Swag Score:** 1
 **Date Added:** 2024-12-10

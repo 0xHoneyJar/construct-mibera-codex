@@ -16,8 +16,6 @@ date_added: "2025-02-27"
 
 Large deep blue area that looks like water that stretches across the frame in between a pavement road and a grassy park.
 
-Dominant colors: Muted dark navy blue
-
 ## Cultural Context
 
 The Panama Canal is a 50-mile, man-made waterway connecting the Atlantic and Pacific Oceans, pivotal for global trade. Completed in 1914 by the U.S. after Panama’s independence from Colombia, it uses a lock system to handle 14,000+ ships annually, carrying over 300 million tons of cargo.
@@ -32,6 +30,5 @@ The Panama Canal represents the intersection of engineering ambition and geograp
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Muted dark navy blue
 **Date Added:** 2025-02-27

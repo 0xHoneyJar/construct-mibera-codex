@@ -16,8 +16,6 @@ date_added: "2024-08-01"
 
 a mouth with the tongue out with a square-shaped item on it.
 
-Dominant colors: pink
-
 ## Cultural Context
 
 The acid tongue depicts a tab of LSD (lysergic acid diethylamide) placed on the tongue, referencing the most common method of ingesting the psychedelic. LSD blotter art — the decorative paper squares that carry doses — became an art form in its own right, with iconic designs circulating through rave and festival culture since the 1960s.
@@ -30,6 +28,5 @@ A direct reference to acid house culture's namesake substance — the blotter on
 
 ---
 
-## Attribution
-
+**Dominant Colors:** pink
 **Date Added:** 2024-08-01

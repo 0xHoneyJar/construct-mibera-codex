@@ -30,8 +30,6 @@ Duct tape is the ultimate DIY flex — when your sound system is held together w
 
 ---
 
-## Attribution
-
 **Archetype:** Chicago Detroit
 **Swag Score:** 1
 **Date Added:** 2024-06-05

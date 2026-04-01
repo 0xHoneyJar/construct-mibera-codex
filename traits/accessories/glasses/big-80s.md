@@ -30,8 +30,6 @@ The 1980s were the exact years house music was born in Chicago and techno in Det
 
 ---
 
-## Attribution
-
 **Archetype:** chicago detroit.
 **Swag Score:** 5
 **Date Added:** 2024-06-18

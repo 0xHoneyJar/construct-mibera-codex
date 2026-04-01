@@ -16,8 +16,6 @@ date_added: "2024-12-10"
 
 Big mountain in dark grey / black, on top of a grassy ground and under a bright blue sky.
 
-Dominant colors: Black / dark grey, green, blue
-
 ## Cultural Context
 
 Based on one of Milady's background assets
@@ -30,6 +28,5 @@ Natural landscape associated with the Milady archetype's visual vocabulary.
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Black / dark grey, green, blue
 **Date Added:** 2024-12-10

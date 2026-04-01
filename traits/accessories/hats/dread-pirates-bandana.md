@@ -30,8 +30,6 @@ The Dread Pirate Roberts brought crypto-anarchism from theory to practice — th
 
 ---
 
-## Attribution
-
 **Archetype:** chicago detroit
 **Swag Score:** 4
 **Date Added:** 2024-07-27

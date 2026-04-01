@@ -18,8 +18,6 @@ date_added: "2024-06-22"
 
 Black t-shirt with white text that reads “I WAS REBORN AT THE MILADY RAVE” on it .
 
-Dominant colors: Black, white.
-
 ## Cultural Context
 
 Part of the Milady Rave souvenir tee series, where each shirt describes a different transformative experience at a Milady rave. The rebirth claim connects to the spiritual and ego-dissolving dimension of the dancefloor experience.
@@ -32,8 +30,7 @@ Being reborn at a rave is the oldest story in the scene. This shirt captures the
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Black, white.
 **Archetype:** Milady
 **Swag Score:** 2
 **Date Added:** 2024-06-22

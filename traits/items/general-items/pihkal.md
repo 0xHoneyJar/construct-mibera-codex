@@ -17,8 +17,6 @@ date_added: "2024-07-10"
 
 a book with black and blue cover, with its title in red that reads “PiHKAL”, and smaller text in white below it that reads “A CHEMICAL LOVE STORY”.
 
-Dominant colors: black, blue, red
-
 ## Cultural Context
 
 PiHKAL (Phenethylamines I Have Known And Loved) is Alexander and Ann Shulgin's 1991 book cataloging over 170 psychoactive compounds they personally synthesized and tested. It is the encyclopedia of psychedelic chemistry and a foundational text for harm reduction.
@@ -31,8 +29,7 @@ The cookbook that changed everything. If the collection tracks humanity's relati
 
 ---
 
-## Attribution
-
+**Dominant Colors:** black, blue, red
 **Archetype:** freetekno
 **Swag Score:** 4
 **Date Added:** 2024-07-10

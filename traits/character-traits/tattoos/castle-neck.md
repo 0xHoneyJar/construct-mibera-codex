@@ -21,4 +21,3 @@ A castle on the neck is a statement that you have nothing left to hide. It repre
 
 ---
 
-## Attribution

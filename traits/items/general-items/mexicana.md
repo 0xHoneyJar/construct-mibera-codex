@@ -29,8 +29,6 @@ The species where Western psychedelic science begins: Hofmann isolated psilocybi
 
 ---
 
-## Attribution
-
 **Archetype:** acidhouse
 **Swag Score:** 2
 **Date Added:** 2024-07-06

@@ -16,8 +16,6 @@ date_added: "2024-12-10"
 
 Thin bar with two spiky studs, one on each end.
 
-Dominant colors: Black
-
 ## Cultural Context
 
 Industrial piercings gained popularity in the late 20th century within punk and alternative subcultures, which share roots with rave culture’s emphasis on nonconformity and self-expression. In rave culture, body modifications like industrial piercings align with the scene’s DIY ethos and visual rebellion against mainstream norms.
@@ -30,8 +28,7 @@ The industrial piercing is punk's contribution to rave fashion -- a piece of met
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Black
 **Archetype:** Its relation to rave culture, which aligns with Mibera.
 **Swag Score:** 4
 **Date Added:** 2024-12-10

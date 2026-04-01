@@ -27,6 +27,4 @@ FRUiTS magazine meets Remilia Corporation — two pillars of the aesthetic unive
 
 ---
 
-## Attribution
-
 **Swag Score:** 2

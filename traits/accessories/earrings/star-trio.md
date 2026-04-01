@@ -12,8 +12,6 @@ date_added: "2024-12-10"
 
 Three small star shapes in linear placement, in black.
 
-Dominant colors: Black / dark grey
-
 ## Cultural Context
 
 Star-shaped accessories — earrings, hair clips, glowing pendants — are common rave jewelry. The five-pointed star shows up across kandi, flyer art, and festival fashion.
@@ -26,8 +24,7 @@ Stars are universal rave iconography -- they show up on flyers, kandi, and festi
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Black / dark grey
 **Archetype:** Freetekno
 **Swag Score:** 4
 **Date Added:** 2024-12-10

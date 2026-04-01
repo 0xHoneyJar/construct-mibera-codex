@@ -16,8 +16,6 @@ date_added: "2024-08-14"
 
 Abstract combination of vibrant color that looks like stroking lights in red, blue, pink, green, and yellow, with black at the bottom that looks like the crowds.
 
-Dominant colors: Red, hot-pink / magenta, blue, green, yellow.
-
 ## Cultural Context
 
 Strobing lights, silhouetted crowds, chromatic chaos — the dancefloor experience across all four tribes.
@@ -30,7 +28,6 @@ Abstract rave backgrounds represent the raw sensory experience of electronic mus
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Red, hot-pink / magenta, blue, green, yellow.
 **Date Added:** 2024-08-14
 **Introduced By:** Jani

@@ -12,8 +12,6 @@ date_added: "2024-07-27"
 
 White bag covering the entire face with holes on the eyes and mouth, on it are strokes in vibrant red.
 
-Dominant colors: White, red.
-
 ## Cultural Context
 
 The Blindboy Podcast, hosted by Blindboy Boatclub (Dave Chambers) of the Rubberbandits, is an eclectic Irish podcast launched in 2017. It blends short fiction, interviews, and comedy, exploring topics like mental health, politics, culture, and history, often with personal stories and absurdist commentary. It has since then gained a cult-following.
@@ -26,8 +24,7 @@ The Blindboy Podcast proved that a man in a plastic bag could be one of the most
 
 ---
 
-## Attribution
-
+**Dominant Colors:** White, red.
 **Archetype:** Freetekno
 **Ancestor:** [Irish](../../../core-lore/ancestors/irish-druids.md)
 **Swag Score:** 4

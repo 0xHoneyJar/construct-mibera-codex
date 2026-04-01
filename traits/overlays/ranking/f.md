@@ -29,4 +29,3 @@ F-rank Miberas sit at the bottom of the swag scoring formula, but their low scor
 
 ---
 
-## Attribution

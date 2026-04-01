@@ -31,4 +31,3 @@ As a modifier signal, the Libra overlay adds a sense of equilibrium and social g
 
 ---
 
-## Attribution

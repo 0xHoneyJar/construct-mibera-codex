@@ -17,8 +17,6 @@ date_added: "2024-08-06"
 
 Rough linework in red of a short-haired woman wearing a French beret.
 
-Dominant colors: Red
-
 ## Cultural Context
 
 Milady Maker is a 10,000-piece generative PFP collection on Ethereum created by the Remilia Collective in 2021, known for its neochibi anime aesthetic inspired by 2000s Tokyo street fashion. A 'cursed' variant refers to the internet culture practice of creating intentionally rough, unsettling, or low-fidelity versions of recognizable imagery -- a hallmark of post-ironic online aesthetics.
@@ -31,7 +29,6 @@ Milady is the spiritual godmother of the Milady archetype in Mibera. Drawing her
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Red
 **Date Added:** 2024-08-06
 **Introduced By:** Tez

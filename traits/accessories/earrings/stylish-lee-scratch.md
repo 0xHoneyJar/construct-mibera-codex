@@ -12,8 +12,6 @@ date_added: "2024-12-10"
 
 Two triangles with one upside-down colliding on top of each other forming what’s commonly known as the Star of David, with a blue colored eyeball in the middle.
 
-Dominant colors: Silver, blue
-
 ## Cultural Context
 
 Lee "Scratch" Perry was a Jamaican reggae and dub music pioneer, renowned for his innovative production techniques and eccentric personality. Born Rainford Hugh Perry, he gained fame in the 1960s and 1970s, producing for The Wailers and creating hits like "Upsetter" with his Upsetters band. Known for his experimental studio work, including remixing and effects, he won a Grammy in 2003 for Jamaican E.T.
@@ -26,8 +24,7 @@ Lee "Scratch" Perry's dub production innovations directly influenced electronic 
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Silver, blue
 **Archetype:** Chicago Detroit
 **Ancestor:** [Rastafarian](../../../core-lore/ancestors/rastafarians.md)
 **Swag Score:** 3

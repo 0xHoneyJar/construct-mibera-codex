@@ -16,8 +16,6 @@ date_added: "2024-12-10"
 
 Earring with a piece of a molar tooth.
 
-Dominant colors: White
-
 ## Cultural Context
 
 In relation to Milady Maker figures in their community and culture.
@@ -30,8 +28,7 @@ A nod to Milady Maker artist Shiro's tooth fixation -- the kind of specific comm
 
 ---
 
-## Attribution
-
+**Dominant Colors:** White
 **Swag Score:** 4
 **Date Added:** 2024-12-10
 **Team Notes:** Milady artist, Shiro, had a fixation on drawing teeth for a while.

@@ -17,8 +17,6 @@ date_added: "2024-08-09"
 
 Heart with a crescent moon facing upwards and a star on top of it, and a pair of wings extending out of the heart.
 
-Dominant colors: Black.
-
 ## Cultural Context
 <!-- justification
 ## Justification
@@ -28,7 +26,6 @@ The official emblem of universal Sufism -- it carries the Sufi ancestor lineage 
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Black.
 **Ancestor:** [Sufi](../../../core-lore/ancestors/sufis.md)
 **Date Added:** 2024-08-09

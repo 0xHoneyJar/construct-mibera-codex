@@ -16,8 +16,6 @@ date_added: "2024-06-05"
 
 a gasping mouth, forming an oval shape, showing the teeth and the tongue.
 
-Dominant colors: pink, white
-
 ## Cultural Context
 
 A gasp is the involuntary inhalation of surprise, shock, or awe — the mouth forming an open oval as the body reflexively draws in air. In character art, the gasp expression signals a sudden emotional shift: something unexpected has happened, and the character is caught in the moment of processing it.
@@ -30,7 +28,6 @@ The moment of shock or wonder — the gasp captures that split second when the u
 
 ---
 
-## Attribution
-
+**Dominant Colors:** pink, white
 **Date Added:** 2024-06-05
 **Introduced By:** Gumi

@@ -18,8 +18,6 @@ date_added: "2024-12-10"
 
 Hat in the shape of Sonic the Hedgehog with the main color being blue and light-beige, two eyes, a little nose, and pointy ears.
 
-Dominant colors: Blue, light beige
-
 ## Cultural Context
 
 Inspired by Steady Teddys Sonic hat
@@ -32,8 +30,7 @@ Inspired by Steady Teddys' iconic Sonic hat from the acid house scene — a char
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Blue, light beige
 **Archetype:** Acidhouse
 **Swag Score:** 3
 **Date Added:** 2024-12-10

@@ -29,8 +29,6 @@ Yiqun Lisa Yin helped break SHA-1 alongside Wang Xiaoyun. The cryptographers who
 
 ---
 
-## Attribution
-
 **Swag Score:** 2
 **Date Added:** 2024-06-22
 **Sources:**

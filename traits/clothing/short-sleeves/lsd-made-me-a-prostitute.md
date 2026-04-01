@@ -18,8 +18,6 @@ date_added: "2024-06-22"
 
 Black t-shirt with old-school graphic that focuses on the text “LSD MADE ME A PROSTITUTE”.
 
-Dominant colors: Black, white.
-
 ## Cultural Context
 
 Sensationalist anti-drug headlines from mid-20th century tabloids have been recycled as ironic t-shirt slogans since the punk era. The format -- outrageous drug claim in bold type -- is one of the oldest templates in counterculture merch, turning moral panic into wearable comedy.
@@ -32,8 +30,7 @@ Tabloid drug scare headlines turned into t-shirts is one of the oldest moves in 
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Black, white.
 **Archetype:** Freetekno
 **Swag Score:** 4
 **Date Added:** 2024-06-22

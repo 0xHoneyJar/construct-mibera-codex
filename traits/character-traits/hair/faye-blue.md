@@ -26,4 +26,3 @@ Cowboy Bebop is canon — Faye's blue hair connects the collection to one of ani
 
 ---
 
-## Attribution

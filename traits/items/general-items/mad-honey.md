@@ -17,8 +17,6 @@ date_added: "2024-12-09"
 
 a raw chunk of bee hive.
 
-Dominant colors: shades of yellow
-
 ## Cultural Context
 
 Mad honey is produced by bees that feed on rhododendron nectar in Turkey's Black Sea region and Nepal. It contains grayanotoxin, which in small doses causes a mild intoxication, and has been used as both a weapon and a delicacy since the time of the ancient Greeks.
@@ -31,8 +29,7 @@ The item where the collection's honey motif and drug catalog collide — honey t
 
 ---
 
-## Attribution
-
+**Dominant Colors:** shades of yellow
 **Archetype:** milady
 **Ancestor:** [nepal](../../../core-lore/ancestors/nepal.md), [turkey](../../../core-lore/ancestors/turkey.md)
 **Swag Score:** 3

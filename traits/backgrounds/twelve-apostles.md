@@ -16,8 +16,6 @@ date_added: "2025-02-27"
 
 Abstract, painterly style of a coastal scene with tall brown rock formations. Muted blue and gray waves crashing. Sand can be seen on the bottom right.
 
-Dominant colors: Blue, beige, white
-
 ## Cultural Context
 
 ‘Twelve Apostles’, limestone stacks off the shore of Port Campbell National Park in Victoria, Australia, along the Great Ocean Road. Despite the name, there were never twelve stacks. They were originally nine, with seven remaining after collapses in 2005 and 2009.
@@ -30,6 +28,5 @@ The Twelve Apostles connect to Australia's geographic and Aboriginal cultural la
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Blue, beige, white
 **Date Added:** 2025-02-27

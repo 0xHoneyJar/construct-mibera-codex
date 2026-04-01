@@ -17,8 +17,6 @@ date_added: "2024-12-09"
 
 a golden book with delicate graphics of flowers and a text box in light yellow in the middle, titled “THE SECRET OF THE GOLDENFLOWER”.
 
-Dominant colors: golden, light yellow
-
 ## Cultural Context
 
 The Secret of the Golden Flower is a Chinese Taoist alchemical text about meditation and spiritual transformation. It connects to the collection's recurring theme of ancient practices that sought transcendence and altered consciousness.
@@ -31,8 +29,7 @@ Taoist meditation manual as a held object, placing inner alchemy alongside the c
 
 ---
 
-## Attribution
-
+**Dominant Colors:** golden, light yellow
 **Archetype:** milady
 **Swag Score:** 2
 **Date Added:** 2024-12-09

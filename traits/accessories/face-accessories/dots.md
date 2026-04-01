@@ -18,8 +18,6 @@ date_added: "2024-12-10"
 
 Three small black dots under each eye.
 
-Dominant colors: Black
-
 ## Cultural Context
 
 Three dots under the eye is a motif with roots in multiple subcultures. In Chicano and prison tattoo culture, three dots arranged in a triangle represent 'mi vida loca' (my crazy life). In anime and PFP art, under-eye dots serve as a purely decorative element that adds visual interest to minimal face designs. The motif was notably used in the Milady Maker collection as a face decoration trait.
@@ -32,8 +30,7 @@ Under-eye dots are a direct visual link to the Milady Maker collection that insp
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Black
 **Archetype:** Milady
 **Swag Score:** 3
 **Date Added:** 2024-12-10

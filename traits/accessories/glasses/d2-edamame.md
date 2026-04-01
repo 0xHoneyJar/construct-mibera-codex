@@ -29,7 +29,5 @@ High fashion meets internet-age irony. Naming luxury aviators after a soybean sn
 
 ---
 
-## Attribution
-
 **Swag Score:** 5
 **Date Added:** 2024-02-28

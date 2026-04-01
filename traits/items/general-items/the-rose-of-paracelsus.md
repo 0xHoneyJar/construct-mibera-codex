@@ -16,8 +16,6 @@ date_added: "2024-07-16"
 
 a black book with gradient of purple and blue, and graphic of geomatrical lines on the top part of the book and white text that reads “THE ROSE OF PARACELSUS”.
 
-Dominant colors: black, purple, blue
-
 ## Cultural Context
 
 Paracelsus (1493-1541) was a Swiss physician and alchemist who established the principle that "the dose makes the poison," founding modern toxicology and pharmacology. "The Rose of Paracelsus" by William Leonard Pickard is a novel about the LSD underground, connecting Renaissance alchemy to modern psychedelic chemistry. Its inclusion ties together the collection's alchemical, pharmaceutical, and counterculture threads.
@@ -30,8 +28,7 @@ William Leonard Pickard's novel about the LSD underground, named for the Renaiss
 
 ---
 
-## Attribution
-
+**Dominant Colors:** black, purple, blue
 **Swag Score:** 2
 **Date Added:** 2024-07-16
 **Introduced By:** babybera

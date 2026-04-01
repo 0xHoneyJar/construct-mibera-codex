@@ -10,11 +10,9 @@ date_added: null
 
 Dark purple t-shirt with white text that reads “I AM AFRAID OF WOMEN”.
 
-Dominant colors: dark puprle, white.
-
 ## Cultural Context
 
-Ironic confession tees are a staple of internet humor culture, particularly within the post-ironic online communities adjacent to Milady. These shirts weaponize vulnerability as comedy, turning private anxieties into public statements.
+Ironic confession tees are a staple of internet humor culture, particularly within the post-ironic online communities adjacent to Milady. These shirts weaponize vulnerability as comedy.
 
 <!-- justification
 ## Justification
@@ -24,6 +22,5 @@ The collection embraces the full range of internet confession culture. This shir
 
 ---
 
-## Attribution
-
+**Dominant Colors:** dark purple, white.
 **Swag Score:** 1

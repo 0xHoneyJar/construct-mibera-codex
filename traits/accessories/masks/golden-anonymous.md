@@ -18,8 +18,6 @@ date_added: "2024-07-27"
 
 Golden ‘anonymous’ mask, with 2 eyeholes, defined nose, thin eyebrows, and thin mustache.
 
-Dominant colors: Golden, black.
-
 ## Cultural Context
 
 Illegal Covid Rave
@@ -32,8 +30,7 @@ During COVID lockdowns, underground raves went fully illegal again for the first
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Golden, black.
 **Archetype:** Chicago Detroit
 **Swag Score:** 4
 **Date Added:** 2024-07-27

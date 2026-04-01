@@ -17,8 +17,6 @@ date_added: "2024-12-10"
 
 Slice of lemon facing down
 
-Dominant colors: Yellow
-
 ## Cultural Context
 
 Fruit-shaped jewelry became a fashion trend in the early 2000s, popularized by Japanese Harajuku street fashion and later adopted by Western Y2K aesthetics. Citrus slice earrings in particular became associated with the playful, maximalist accessorizing style that defined both Harajuku and the Milady Maker neochibi visual language. The lemon slice also carries associations with refreshment and vitality in festival culture.
@@ -31,8 +29,7 @@ Fruit slice earrings are peak Y2K Harajuku fashion -- exactly the kind of playfu
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Yellow
 **Archetype:** Milady
 **Swag Score:** 2
 **Date Added:** 2024-12-10

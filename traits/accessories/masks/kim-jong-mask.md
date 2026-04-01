@@ -17,8 +17,6 @@ date_added: "2024-07-26"
 
 Pale face of an Asian man (Kim Jong Un) with yellow undertone and an ‘ambition hairstyle’.
 
-Dominant colors: White with yellow undertone.
-
 ## Cultural Context
 
 DJ Bus Replacement Service, aka Doris Woo, a retired DJ known for her eclectic, genre-blending sets and playful persona.
@@ -31,8 +29,7 @@ DJ Bus Replacement Service performed in absurdist disguises including political 
 
 ---
 
-## Attribution
-
+**Dominant Colors:** White with yellow undertone.
 **Archetype:** Acidhouse
 **Swag Score:** 4
 **Date Added:** 2024-07-26

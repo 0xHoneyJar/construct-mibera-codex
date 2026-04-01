@@ -18,8 +18,6 @@ date_added: "2024-12-10"
 
 Two medium-sized triangles in red, pointed downward.
 
-Dominant colors: Red
-
 ## Cultural Context
 
 Princess Mononoke (1997)
@@ -34,8 +32,7 @@ Princess Mononoke's face paint is one of the most recognizable images in anime h
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Red
 **Archetype:** Milady
 **Swag Score:** 4
 **Date Added:** 2024-12-10

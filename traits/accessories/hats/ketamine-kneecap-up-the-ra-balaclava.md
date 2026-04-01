@@ -29,7 +29,5 @@ Irish rave culture, republican imagery, and ketamine all collide in one balaclav
 
 ---
 
-## Attribution
-
 **Swag Score:** 4
 **Date Added:** 2025-03-14

@@ -18,8 +18,6 @@ date_added: "2024-12-10"
 
 Plain bomber jacket in black, zipper in the middle and a small leather-brown patch.
 
-Dominant colors: Black
-
 ## Cultural Context
 
 William Gibson is a speculative fiction writer and essayist widely credited with pioneering the science fiction subgenre known as cyberpunk.
@@ -32,8 +30,7 @@ William Gibson coined the word cyberspace and invented the cyberpunk genre. His 
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Black
 **Archetype:** Freetekno
 **Swag Score:** 4
 **Date Added:** 2024-12-10

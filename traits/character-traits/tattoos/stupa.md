@@ -17,8 +17,6 @@ date_added: "2024-08-09"
 
 Black and white drawing of a shrine with shading.
 
-Dominant colors: Black, grey.
-
 ## Cultural Context
 <!-- justification
 ## Justification
@@ -28,8 +26,7 @@ The stupa is Buddhism's most fundamental architectural form, and Nepal's example
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Black, grey.
 **Ancestor:** [Nepal](../../../core-lore/ancestors/nepal.md)
 **Date Added:** 2024-08-09
 **Sources:**

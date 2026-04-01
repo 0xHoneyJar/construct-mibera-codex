@@ -18,8 +18,6 @@ date_added: "2024-07-25"
 
 Flat, asymmetrical hat in red maroon.
 
-Dominant colors: Red Maroon
-
 ## Cultural Context
 
 Asymmetrical and avant-garde hats have a long history in high fashion, from the sculptural millinery of Philip Treacy to the deconstructed designs of Comme des Garcons. In the Chicago Detroit context, this kind of bold, fashion-forward headwear connects to the tradition of Black excellence in style — from the sharp dressing of Chicago's South Side to Detroit's legendary fashion sense.
@@ -32,8 +30,7 @@ Avant-garde fashion meets Chicago Detroit style — a maroon hat that says you c
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Red Maroon
 **Archetype:** Chicago Detroit
 **Swag Score:** 3
 **Date Added:** 2024-07-25

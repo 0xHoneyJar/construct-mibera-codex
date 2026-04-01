@@ -18,8 +18,6 @@ date_added: "2024-12-10"
 
 Smiley face with bear ears made of thin lines.
 
-Dominant colors: Black
-
 ## Cultural Context
 
 The acid smiley face is one of the most iconic symbols of rave culture, originating in the late 1980s Second Summer of Love in the UK. The yellow smiley was adopted by acid house promoters and ravers as a symbol of euphoria and communal joy. Adding bear ears transforms the universal rave symbol into a Mibera-specific and Berachain-coded variant, merging electronic music heritage with the bear motif central to the Berachain ecosystem.
@@ -32,8 +30,7 @@ The acid smiley with bear ears is Mibera's own logo gene -- it fuses the most re
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Black
 **Archetype:** Freetekno
 **Swag Score:** 3
 **Date Added:** 2024-12-10

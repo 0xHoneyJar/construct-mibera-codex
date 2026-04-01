@@ -18,8 +18,6 @@ date_added: "2024-12-10"
 
 Black kimono / robe with green scarf with leaves pattern on it.
 
-Dominant colors: Black, green.
-
 ## Cultural Context
 
 This outfit is a direct reference to Gyosen Asakura, a Japanese Buddhist monk and techno DJ who performs in traditional Buddhist robes. Asakura bridges ancient spiritual practice with electronic music, spinning techno sets while dressed in full monastic attire, embodying the convergence of repetitive beats and meditative ritual.
@@ -32,8 +30,7 @@ This is Gyosen Asakura's outfit — a Buddhist monk who DJs techno in his robes,
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Black, green.
 **Archetype:** Acidhouse
 **Swag Score:** 4
 **Date Added:** 2024-12-10

@@ -29,8 +29,6 @@ Bears and snow goggles go together. The Berachain community embraced winter aest
 
 ---
 
-## Attribution
-
 **Swag Score:** 5
 **Date Added:** 2024-12-10
 **Team Notes:** "like the side ways ski goggles" — Tez, Aug 2023, #eyewear

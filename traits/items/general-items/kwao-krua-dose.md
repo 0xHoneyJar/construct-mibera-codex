@@ -12,8 +12,6 @@ date_added: "2025-01-10"
 
 a sliced fruit with white meat and brown skin.
 
-Dominant colors: creamy white, brown
-
 ## Cultural Context
 
 Kwao krua is a Thai medicinal plant traditionally used for vitality and rejuvenation. Its inclusion represents the Southeast Asian thread in the collection's global map of ethnobotany.
@@ -26,8 +24,7 @@ Obscure Thai rejuvenation plant that most viewers will have to look up — the c
 
 ---
 
-## Attribution
-
+**Dominant Colors:** creamy white, brown
 **Archetype:** milady
 **Ancestor:** [thai](../../../core-lore/ancestors/thai.md)
 **Swag Score:** 2

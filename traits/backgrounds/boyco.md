@@ -9,8 +9,6 @@ date_added: "2024-12-10"
 
 Visual of an online spreadsheet containing a list of Boyco participants.
 
-Dominant colors: White
-
 ## Cultural Context
 
 Boyco, https://boyco.berachain.com/
@@ -25,6 +23,5 @@ Berachain ecosystem background — representing the on-chain community that Mibe
 
 ---
 
-## Attribution
-
+**Dominant Colors:** White
 **Date Added:** 2024-12-10

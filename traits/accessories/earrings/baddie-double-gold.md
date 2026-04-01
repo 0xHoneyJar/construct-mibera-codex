@@ -16,8 +16,6 @@ date_added: "2024-12-10"
 
 Two balls (studs) in gold, linear in placement to one another.
 
-Dominant colors: Gold
-
 ## Cultural Context
 
 Bera Baddies is a community-driven project led and focused on providing a supportive and exclusive space for the female in the Berachain ecosystem.
@@ -30,8 +28,7 @@ The gold variant gives Bera Baddies a second colorway in the collection, because
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Gold
 **Archetype:** Bera Baddies inspired item.
 **Swag Score:** 3
 **Date Added:** 2024-12-10

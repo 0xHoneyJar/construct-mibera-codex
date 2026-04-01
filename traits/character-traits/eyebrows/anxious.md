@@ -16,8 +16,6 @@ date_added: "2024-07-30"
 
 Thin pair of eyebrows, arched with a slight upward tilt at the inner ends.
 
-Dominant colors: Black
-
 ## Cultural Context
 
 Anxious eyebrows are characterized by an upward tilt at the inner ends, creating the universally recognized expression of worry or unease. This brow position is one of the key action units identified in the Facial Action Coding System (FACS), reliably signaling distress across all human cultures.
@@ -30,7 +28,6 @@ Facial expressions are the most immediate form of nonverbal communication — an
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Black
 **Date Added:** 2024-07-30
 **Introduced By:** Gumi

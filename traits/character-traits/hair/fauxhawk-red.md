@@ -27,7 +27,5 @@ Punk edge without the full commitment — the fauxhawk bridges countercultural a
 
 ---
 
-## Attribution
-
 **Date Added:** 2024-06-15
 **Introduced By:** Gumi

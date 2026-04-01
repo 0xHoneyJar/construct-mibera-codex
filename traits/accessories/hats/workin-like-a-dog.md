@@ -27,6 +27,4 @@ The alternate listing for the Remilia grind cap — "workin like a dog all day o
 
 ---
 
-## Attribution
-
 **Swag Score:** 2

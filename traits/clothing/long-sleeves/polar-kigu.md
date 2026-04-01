@@ -18,8 +18,6 @@ date_added: "2024-07-31"
 
 Polar bear onesie in white with the hood up and sparkly eyes.
 
-Dominant colors: White
-
 ## Cultural Context
 
 Part of the kigurumi (着ぐるみ) series — character onesies from Japanese cosplay and Harajuku street fashion that became standard rave and festival wear for their playful anonymity. The polar bear variant references Berachain's bear motif.
@@ -32,8 +30,7 @@ The most literal bear-themed item on a bear-themed chain — a polar bear onesie
 
 ---
 
-## Attribution
-
+**Dominant Colors:** White
 **Archetype:** Milady
 **Swag Score:** 5
 **Date Added:** 2024-07-31

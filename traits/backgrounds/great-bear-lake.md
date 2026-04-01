@@ -16,8 +16,6 @@ date_added: "2025-02-27"
 
 Large snowy landscape with a few houses in terracotta and brown in the background, extending to what looks like a forest.
 
-Dominant colors: White with a hint of blue, terracotta, brown
-
 ## Cultural Context
 
 Great Bear Lake, located in Canada’s Northwest Territories on the Arctic Circle, is the largest lake entirely within Canada and the fourth largest in North America. The lake, frozen from November to July, supports the Sahtu Dene community of
@@ -32,6 +30,5 @@ Great Bear Lake connects to the Native American ancestor lineage and the bear sy
 
 ---
 
-## Attribution
-
+**Dominant Colors:** White with a hint of blue, terracotta, brown
 **Date Added:** 2025-02-27

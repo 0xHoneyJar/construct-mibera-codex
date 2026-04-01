@@ -17,8 +17,6 @@ date_added: "2024-07-06"
 
 a small umbrella-shaped mushroom in dark pale brown.
 
-Dominant colors: dark brown
-
 ## Cultural Context
 
 Liberty caps (Psilocybe semilanceata) are the most common wild psilocybin mushroom in Europe and the UK, growing in sheep pastures and wet meadows. They are the mushroom most closely tied to British free party and festival culture.
@@ -31,8 +29,7 @@ The mushroom that grows wild in British sheep pastures fueled the UK's free part
 
 ---
 
-## Attribution
-
+**Dominant Colors:** dark brown
 **Archetype:** acidhouse
 **Swag Score:** 2
 **Date Added:** 2024-07-06

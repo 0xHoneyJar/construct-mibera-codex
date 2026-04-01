@@ -16,8 +16,6 @@ date_added: "2025-03-22"
 
 a plushie of a penguin wearing a pink sweater and a brown bear hat.
 
-Dominant colors: white, soft pink, brown
-
 ## Cultural Context
 
 Pudgy Penguins is a major NFT collection that expanded into physical plush toys sold at retail. This item combines the Pudgy Penguin form with a bear hat.
@@ -30,7 +28,6 @@ Cross-community artifact merging two NFT ecosystems — Pudgy Penguins and Berac
 
 ---
 
-## Attribution
-
+**Dominant Colors:** white, soft pink, brown
 **Swag Score:** 3
 **Date Added:** 2025-03-22

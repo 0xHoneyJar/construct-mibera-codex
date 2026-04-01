@@ -16,8 +16,6 @@ date_added: "2024-08-14"
 
 View of what looks like the front side of a building, and a huge ‘FORD’ sign standing tall.
 
-Dominant colors: Grey, green, light-sky blue.
-
 ## Cultural Context
 
 Abandoned Ford Factory
@@ -32,7 +30,6 @@ Abandoned automotive factories became the physical spaces where techno was born 
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Grey, green, light-sky blue.
 **Date Added:** 2024-08-14
 **Introduced By:** Jani

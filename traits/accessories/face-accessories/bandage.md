@@ -18,8 +18,6 @@ date_added: "2024-12-10"
 
 Square-shaped bandage in white, tiny reddish spot in the middle covered under a thin line cross on top of it.
 
-Dominant colors: White, semi-transparent red.
-
 ## Cultural Context
 
 Bandages on the face are a recurring visual motif in urban culture, anime, and hip-hop imagery, often signaling toughness, street credibility, or a story of conflict. In the context of Chicago and Detroit's electronic music scenes, the bandage references the real physical risks of warehouse parties, underground venues, and neighborhoods where the music was born.
@@ -32,8 +30,7 @@ A square bandage on the cheek tells a story without words -- it grounds the Chic
 
 ---
 
-## Attribution
-
+**Dominant Colors:** White, semi-transparent red.
 **Archetype:** Chicago Detroit
 **Swag Score:** 1
 **Date Added:** 2024-12-10

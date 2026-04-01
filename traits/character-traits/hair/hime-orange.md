@@ -27,7 +27,5 @@ A direct line from Heian-period Japanese nobility to modern internet aesthetics 
 
 ---
 
-## Attribution
-
 **Date Added:** 2024-06-22
 **Introduced By:** Gumi

@@ -18,8 +18,6 @@ date_added: "2024-06-22"
 
 White t-shirt with a black star in the middle. On top of it is the word RAR and a flying pigeon. Under it is a text that reads “RAR IS Rave Age Records”.
 
-Dominant colors: Black, white.
-
 ## Cultural Context
 
 RAR (Rave Age Records) references the record label and rave culture infrastructure that supported the UK free party scene. The star and pigeon imagery borrows from revolutionary and peace movement graphics, connecting rave culture to broader traditions of political dissent.
@@ -32,8 +30,7 @@ Rave Age Records represents the DIY label infrastructure that kept the scene ali
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Black, white.
 **Archetype:** Acidhouse
 **Swag Score:** 2
 **Date Added:** 2024-06-22

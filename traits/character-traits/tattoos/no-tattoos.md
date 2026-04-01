@@ -29,6 +29,4 @@ Not every Mibera needs ink. Including the blank option means the tattoo slot is 
 
 ---
 
-## Attribution
-
 **Archetype:** Default option for characters without body art. ---

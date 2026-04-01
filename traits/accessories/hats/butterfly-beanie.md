@@ -17,8 +17,6 @@ date_added: "2024-07-28"
 
 Black beanie with a black butterfly on a silver rectangular.
 
-Dominant colors: Black, silver
-
 ## Cultural Context
 
 The butterfly has been a recurring motif in rave and electronic music culture, symbolizing transformation, ephemerality, and the psychedelic experience. In fashion, butterfly accessories became especially prominent in late 1990s and Y2K aesthetics, and experienced a revival in both Milady-adjacent internet culture and contemporary streetwear.
@@ -31,7 +29,6 @@ The butterfly is a symbol of transformation that keeps coming back — on a blac
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Black, silver
 **Swag Score:** 4
 **Date Added:** 2024-07-28

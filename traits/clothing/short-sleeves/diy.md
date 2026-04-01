@@ -18,8 +18,6 @@ date_added: "2024-12-10"
 
 Black t-shirt with big white text that says “DiY” in bold font.
 
-Dominant colors: Black, white.
-
 ## Cultural Context
 
 DiY (Do It Yourself) was a legendary free party sound system collective based in Nottingham, UK, active from 1989 onwards. They were central to the UK free party scene, organizing illegal raves in fields, warehouses, and disused buildings. The collective embodied the anarchic, self-organized ethos that defined freetekno culture.
@@ -32,8 +30,7 @@ DiY is not just a slogan -- it is the name of one of the UK's most important fre
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Black, white.
 **Archetype:** Freetekno
 **Swag Score:** 1
 **Date Added:** 2024-12-10

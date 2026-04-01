@@ -17,8 +17,6 @@ date_added: "2024-07-13"
 
 Black rifle with a bunch of stickers on it, including the Remilia smiley face and 3 stars.
 
-Dominant colors: Black, yellow
-
 ## Cultural Context
 
 The Remilia gun is a provocative held item that combines the Remilia brand with firearm imagery. It reflects the deliberately transgressive, boundary-pushing attitude that defines the broader Milady ecosystem.
@@ -31,8 +29,7 @@ An iconic design from the milady community
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Black, yellow
 **Archetype:** Milady
 **Swag Score:** 5
 **Date Added:** 2024-07-13

@@ -16,8 +16,6 @@ date_added: "2024-07-30"
 
 thicker eyebrows, slightly curved with no arch.
 
-Dominant colors: Black
-
 ## Cultural Context
 
 Normal eyebrows in a thicker weight present a neutral, slightly curved shape with no pronounced arch or tilt. Thicker brows became a prominent fashion trend in the 2010s and carry associations with natural beauty, youthful vitality, and bold self-presentation.
@@ -30,7 +28,6 @@ The thick neutral variant offers a bolder resting expression, reflecting trends 
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Black
 **Date Added:** 2024-07-30
 **Introduced By:** Gumi

@@ -16,8 +16,6 @@ date_added: "2024-06-07"
 
 Solid black background with four shiny 4-points stars, and 9 glowing dots.
 
-Dominant colors: Black, white.
-
 ## Cultural Context
 
 The night sky is the backdrop for outdoor raves and free parties — Freetekno teknivals under the stars.
@@ -30,7 +28,6 @@ The night sky is the natural backdrop for outdoor free parties — freetekno's d
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Black, white.
 **Date Added:** 2024-06-07
 **Introduced By:** Gumi

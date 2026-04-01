@@ -16,8 +16,6 @@ date_added: "2024-06-04"
 
 Earring with a small pyramid as the charm.
 
-Dominant colors: Sandy beige
-
 ## Cultural Context
 
 Pyramids, iconic Egyptian structures, symbolize ancient engineering and spiritual beliefs, often linked to the sun god Ra. Sun Ra, the jazz musician, drew inspiration from Egyptian mythology, incorporating pyramid imagery into his Afrofuturist aesthetic to signify cosmic connection and Black empowerment.
@@ -30,8 +28,7 @@ Pyramids tie together two of Mibera's threads at once -- the Egyptian ancestor l
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Sandy beige
 **Archetype:** In relation / within an aligned aesthetic to ancient Egyptian as one of Mibera’s ancestors. Also in relation to Sun Ra.
 **Swag Score:** 3
 **Date Added:** 2024-06-04

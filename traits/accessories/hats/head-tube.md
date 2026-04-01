@@ -18,8 +18,6 @@ date_added: "2024-07-24"
 
 Plain black turban.
 
-Dominant colors: Black
-
 ## Cultural Context
 
 Head tubes (also called buff or neck gaiters) became essential rave accessories in the 1990s, serving as both fashion statements and practical items for dusty outdoor events or anonymity at illegal parties. In the Chicago and Detroit electronic music scenes, simple black headwear carried a utilitarian cool that contrasted with the more flamboyant styles of other scenes.
@@ -32,8 +30,7 @@ A plain black head tube is the no-nonsense headwear of someone who came to dance
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Black
 **Archetype:** Chicago Detroit
 **Swag Score:** 3
 **Date Added:** 2024-07-24

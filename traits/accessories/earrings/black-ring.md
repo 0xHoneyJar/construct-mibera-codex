@@ -16,8 +16,6 @@ date_added: "2024-12-10"
 
 Thicker round black ring earring.
 
-Dominant colors: Black
-
 ## Cultural Context
 
 Black hoop and ring earrings became staples of punk, goth, and industrial fashion from the late 1970s onward. Their minimalist, monochrome aesthetic carried into rave and underground club culture, where black jewelry signaled membership in alternative and subcultural communities. The simplicity of a black ring earring makes it one of the most versatile accessories across multiple subcultures.
@@ -30,7 +28,6 @@ Sometimes the most basic piece says the most -- a plain black ring earring is th
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Black
 **Swag Score:** 2
 **Date Added:** 2024-12-10

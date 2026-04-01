@@ -29,8 +29,6 @@ Disposable light for disposable nights. The glowstick's planned obsolescence mir
 
 ---
 
-## Attribution
-
 **Archetype:** acidhouse
 **Swag Score:** 3
 **Date Added:** 2024-07-23

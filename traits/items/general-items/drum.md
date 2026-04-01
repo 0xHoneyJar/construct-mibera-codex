@@ -17,8 +17,6 @@ date_added: "2024-07-10"
 
 a hand-drum.
 
-Dominant colors: dirty light beige
-
 ## Cultural Context
 
 Drums are the oldest musical instrument tied to communal trance states, used in every culture from West African ceremony to Native American ritual. The beat that drives a rave connects to the same primal impulse that has moved human bodies for millennia.
@@ -31,8 +29,7 @@ The root instrument. Every four-on-the-floor kick drum in the collection's world
 
 ---
 
-## Attribution
-
+**Dominant Colors:** dirty light beige
 **Archetype:** chicago detroit
 **Swag Score:** 4
 **Date Added:** 2024-07-10

@@ -16,8 +16,6 @@ date_added: "2024-06-05"
 
 a short curved line showcasing a puffing cheek, and another one portraying a smile.
 
-Dominant colors: black
-
 ## Cultural Context
 
 "Chuffed" is British slang for pleased or delighted, and the expression shows a puffed cheek alongside a smile — the look of someone holding in a laugh or bursting with quiet satisfaction. The term is deeply embedded in UK English and carries the understated warmth of British celebration.
@@ -30,7 +28,6 @@ A very British expression of delight — chuffed captures the quiet satisfaction
 
 ---
 
-## Attribution
-
+**Dominant Colors:** black
 **Date Added:** 2024-06-05
 **Introduced By:** Gumi

@@ -29,8 +29,6 @@ White colorway variant that reads differently against dark and light backgrounds
 
 ---
 
-## Attribution
-
 **Archetype:** milady
 **Swag Score:** 4
 **Date Added:** 2024-07-11

@@ -30,8 +30,6 @@ Green glow glasses cut through fog machines and darkness like nothing else. A ra
 
 ---
 
-## Attribution
-
 **Archetype:** Chicago Detroit
 **Swag Score:** 5
 **Date Added:** 2024-06-18

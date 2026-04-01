@@ -18,8 +18,6 @@ date_added: "2024-12-10"
 
 Tri-color long sleeves in red, yellow, and green, in order from left to right.
 
-Dominant colors: Red, yellow, green.
-
 ## Cultural Context
 
 Rastafari, often called Rasta culture, is a spiritual and cultural movement that emerged in Jamaica in the 1930s among African descendants.
@@ -32,8 +30,7 @@ Rastafari culture shaped reggae, dub, and through them the entire trajectory of 
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Red, yellow, green.
 **Archetype:** Chicago Detroit
 **Swag Score:** 3
 **Date Added:** 2024-12-10

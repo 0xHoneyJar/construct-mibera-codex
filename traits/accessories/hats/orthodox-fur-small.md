@@ -13,8 +13,6 @@ date_added: "2024-07-26"
 
 Round furry hat in black.
 
-Dominant colors: Black
-
 ## Cultural Context
 
 Ultra-Orthodox Jewish groups; like Neturei Karta and Satmar Hasidim, who oppose Zionism and the State of Israel on religious grounds. They view the establishment of Israel as an anti-messianic act, believing Jews are forbidden to return collectively to the Holy Land or establish sovereignty until divine redemption by the Messiah. This stems from a Midrash interpretation that Jews must wait passively for divine intervention rather than pursue human-driven political efforts like Zionism. These groups see Israel’s existence as a violation of Jewish law and anticipate its divine dissolution.
@@ -27,8 +25,7 @@ The smaller variant of the Orthodox fur hat — same cultural depth, different s
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Black
 **Archetype:** Chicago Detroit
 **Ancestor:** [Orthodox Jew](../../../core-lore/ancestors/orthodox-jew.md)
 **Swag Score:** 3

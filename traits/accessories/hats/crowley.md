@@ -13,8 +13,6 @@ date_added: "2024-07-27"
 
 Triangle-shaped hat in black with white graphic of a triangle radiating
 
-Dominant colors: Black, white
-
 ## Cultural Context
 
 Aleister Crowley, an English occultist, mystic, and writer, often called the "wickedest man in the world."
@@ -29,8 +27,7 @@ He founded the religion of Thelema, emphasizing the principle "Do what thou wilt
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Black, white
 **Archetype:** Freetekno
 **Ancestor:** [Satanist](../../../core-lore/ancestors/satanist.md)
 **Swag Score:** 4

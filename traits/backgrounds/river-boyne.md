@@ -16,8 +16,6 @@ date_added: "2025-02-27"
 
 Painterly style scenery of a river, overlooking greeneries and a grey tall old-school looking building.
 
-Dominant colors: Green, blue, grey
-
 ## Cultural Context
 
 River Boyne is located in Eastern Ireland, notably as the site of the 1690 Battle of the Boyne.
@@ -32,6 +30,5 @@ The River Boyne connects to the Celtic/Irish ancestor lineage and the landscape 
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Green, blue, grey
 **Date Added:** 2025-02-27

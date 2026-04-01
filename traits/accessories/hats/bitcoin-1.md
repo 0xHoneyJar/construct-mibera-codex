@@ -18,8 +18,6 @@ date_added: "2024-12-10"
 
 Black cap with colourful graphics of a Sonic the Hedgehog with a Bitcoin logo and the text “Harry Potter OBAMA” framing it.
 
-Dominant colors: Black, red, blue, yellow
-
 ## Cultural Context
 
 HarryPotterObamaSonic10Inu (Ticker: BITCOIN) is a meme-based cryptocurrency on Ethereum (ERC-20) and Binance Smart Chain (BSC), launched around late 2021. The token employs reflection, liquidity pool acquisition, and burn functions in trades.
@@ -32,8 +30,7 @@ HarryPotterObamaSonic10Inu is peak memecoin absurdism — the kind of thing that
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Black, red, blue, yellow
 **Archetype:** Acidhouse
 **Swag Score:** 3
 **Date Added:** 2024-12-10

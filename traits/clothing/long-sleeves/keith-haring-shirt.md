@@ -18,8 +18,6 @@ date_added: "2024-12-10"
 
 Loose fit clothing in black with orange tribal graphic / patterns.
 
-Dominant colors: Black, orange
-
 ## Cultural Context
 
 Keith Haring (1958-1990) was an American artist whose bold, energetic line drawings emerged from the 1980s New York underground — the same downtown nightlife scene that birthed NYC house music. A regular at Club 57 and Paradise Garage, Haring's art was inseparable from the dance floor. His accessible, graffiti-rooted style broke the boundary between street art and gallery art, much as house music broke the boundary between underground and mainstream.
@@ -33,8 +31,7 @@ Keith Haring made art on the same dancefloors where house music was invented. Hi
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Black, orange
 **Archetype:** Chicago Detroit
 **Swag Score:** 3
 **Date Added:** 2024-12-10

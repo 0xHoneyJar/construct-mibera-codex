@@ -17,8 +17,6 @@ date_added: "2024-06-22"
 
 Black t-shirt with neon green silkroad logo as the graphic. The logo is of a man riding a camel.
 
-Dominant colors: Black, green.
-
 ## Cultural Context
 
 Silk Road, Ross Ulbricht.
@@ -33,8 +31,7 @@ The Silk Road is the single biggest inspiration for Mibera's Honey Road marketpl
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Black, green.
 **Archetype:** Its symbolism in freeing Ross, referring to Ross Ulbricht and The Silk Road which were huge inspirations for Mibera’s website and culture.
 **Swag Score:** 4
 **Date Added:** 2024-06-22

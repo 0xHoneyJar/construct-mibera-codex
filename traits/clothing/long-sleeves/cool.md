@@ -18,8 +18,6 @@ date_added: "2024-06-29"
 
 
 
-Dominant colors: Yellow, black, white
-
 ## Cultural Context
 
 WIP
@@ -32,8 +30,7 @@ WIP
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Yellow, black, white
 **Archetype:** Milady
 **Swag Score:** 3
 **Date Added:** 2024-06-29

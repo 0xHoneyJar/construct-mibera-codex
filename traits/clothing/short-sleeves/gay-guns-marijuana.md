@@ -18,8 +18,6 @@ date_added: "2024-06-22"
 
 White t-shirt with graphic in green, showing 2 guys in a circle with 1 holding a gun and another one holding a pot of plant. Outside of the circle is a text saying “- couples to be able to protect their marijuana plants with guns”.
 
-Dominant colors: White, green.
-
 ## Cultural Context
 <!-- justification
 ## Justification
@@ -29,8 +27,7 @@ This shirt is the political Rorschach test of the collection. It combines positi
 
 ---
 
-## Attribution
-
+**Dominant Colors:** White, green.
 **Archetype:** Chicago Detroit
 **Ancestor:** [Stonewall](../../../core-lore/ancestors/stonewall.md)
 **Swag Score:** 3

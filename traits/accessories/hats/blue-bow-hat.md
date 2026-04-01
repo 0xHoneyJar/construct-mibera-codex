@@ -17,8 +17,6 @@ date_added: "2024-07-27"
 
 Round hat in soft blue, pretty flat in shape, with light blue tie around it and a bow.
 
-Dominant colors: Soft blue, light blue
-
 ## Cultural Context
 
 Bow-adorned hats have a long history in feminine fashion, from Victorian bonnets to mid-century pillbox hats. The soft blue colorway and delicate bow evoke a vintage, ladylike aesthetic that contrasts with the harder edges of rave and streetwear culture, creating the kind of unexpected juxtaposition that defines generative art collections.
@@ -31,7 +29,6 @@ Soft, feminine, deliberately out of place in a rave collection — the blue bow 
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Soft blue, light blue
 **Swag Score:** 2
 **Date Added:** 2024-07-27

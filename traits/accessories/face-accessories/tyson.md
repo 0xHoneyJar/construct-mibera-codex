@@ -18,8 +18,6 @@ date_added: "2024-12-10"
 
 Tribal tattoo; featuring bold, flowing black lines with an asymmetrical abstract design. Incorporating sharp angles, curves, and pointed tips.
 
-Dominant colors: Black
-
 ## Cultural Context
 
 Mike Tyson
@@ -32,8 +30,7 @@ Mike Tyson's face tattoo is arguably the single most recognizable face tattoo on
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Black
 **Archetype:** Milady
 **Swag Score:** 3
 **Date Added:** 2024-12-10

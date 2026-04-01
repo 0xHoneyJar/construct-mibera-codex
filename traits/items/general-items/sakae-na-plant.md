@@ -24,8 +24,6 @@ Deep-cut Thai stimulant that even kratom enthusiasts may not know — the collec
 
 ---
 
-## Attribution
-
 **Archetype:** milady
 **Ancestor:** [thai](../../../core-lore/ancestors/thai.md)
 **Swag Score:** 4

@@ -17,8 +17,6 @@ date_added: "2024-08-10"
 
 Line work of 3 flowers with leaves, portraying Mongolia’s national
 
-Dominant colors: Black.
-
 ## Cultural Context
 
 Mongolia’s national flower, Ber Tsetseg (Scabiosa comosa), declared in October 2014, symbolizes resilience and tolerance. Known as the Pincushion Flower, its lavender-blue blooms thrive in Mongolia’s harsh climate, reflecting the nation’s enduring spirit. It’s culturally significant, used in equestrian traditions like saddle decorations, and plays an ecological role by attracting pollinators.
@@ -30,8 +28,7 @@ Mongolia's national flower tattooed on a character whose name starts with 'Ber' 
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Black.
 **Ancestor:** [Mongolian](../../../core-lore/ancestors/mongolian.md)
 **Date Added:** 2024-08-10
 **Sources:**

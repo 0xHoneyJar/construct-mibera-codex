@@ -27,6 +27,4 @@ Duplicate entry for the Mad Scientist mushroom strain. Same cultural reference a
 
 ---
 
-## Attribution
-
 **Swag Score:** 3

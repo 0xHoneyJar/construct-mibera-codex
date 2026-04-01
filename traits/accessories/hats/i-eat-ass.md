@@ -18,8 +18,6 @@ date_added: "2024-07-25"
 
 Red cap with bold white text that reads “I EAT ASS”.
 
-Dominant colors: Red, white.
-
 ## Cultural Context
 
 Crude slogan hats are a staple of internet humor and provocative streetwear, part of a tradition of shock-value fashion that runs from punk through to modern meme culture. The bold, declarative format on a baseball cap follows the template of trucker hats bearing provocative or absurd statements.
@@ -32,8 +30,7 @@ Sometimes a hat just says what it says — bold, crude, unapologetic, and exactl
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Red, white.
 **Archetype:** Chicago Detroit
 **Swag Score:** 3
 **Date Added:** 2024-07-25

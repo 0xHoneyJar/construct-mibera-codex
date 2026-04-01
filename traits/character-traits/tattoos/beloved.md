@@ -17,8 +17,6 @@ date_added: "2024-08-09"
 
 Simple straight writing of ‘beloved’ in Greek language and alphabet ‘αγαπητός’.
 
-Dominant colors: Red
-
 ## Cultural Context
 <!-- justification
 ## Justification
@@ -28,7 +26,6 @@ A love letter written in the language of philosophy -- it ties the Greek ancesto
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Red
 **Ancestor:** [Greek](../../../core-lore/ancestors/greek.md)
 **Date Added:** 2024-08-09

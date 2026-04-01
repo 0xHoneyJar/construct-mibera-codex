@@ -27,6 +27,4 @@ Wrote "The Crypto Anarchist Manifesto" in 1988 — predicting dark markets, encr
 
 ---
 
-## Attribution
-
 **Swag Score:** 5

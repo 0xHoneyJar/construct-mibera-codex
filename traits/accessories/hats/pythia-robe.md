@@ -30,8 +30,6 @@ The Oracle at Delphi delivered prophecies in a trance state for over a thousand 
 
 ---
 
-## Attribution
-
 **Archetype:** Chicago Detroit
 **Ancestor:** [Pythia](../../../core-lore/ancestors/pythia.md)
 **Swag Score:** 4

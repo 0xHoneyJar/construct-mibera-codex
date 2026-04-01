@@ -17,8 +17,6 @@ date_added: "2024-12-09"
 
 a paperwork
 
-Dominant colors: white, black
-
 ## Cultural Context
 
 The Remilia lawsuit documents the legal fallout surrounding Milady and Charlotte Fang, turning corporate legal proceedings into a cultural artifact. Holding the PDF as a physical item insists that this messy drama is as much a part of the story as the art itself.
@@ -31,8 +29,7 @@ Preserves the messiest chapter of Remilia history as a canonical held item, insi
 
 ---
 
-## Attribution
-
+**Dominant Colors:** white, black
 **Archetype:** milady
 **Swag Score:** 1
 **Date Added:** 2024-12-09

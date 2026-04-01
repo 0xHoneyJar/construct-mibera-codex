@@ -18,8 +18,6 @@ date_added: "2024-12-10"
 
 Three vibrant neon-blue (almost turquoise) strokes, one bigger than the other two.
 
-Dominant colors: Turquoise
-
 ## Cultural Context
 
 In the 90s, fluorescent colors were a key part of rave culture, symbolizing freedom and self-expression. This aesthetic was a visual representation of the rave scene's spirit of liberation and individuality.
@@ -34,8 +32,7 @@ Fluorescent face paint under UV light is the universal visual signature of rave 
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Turquoise
 **Archetype:** Freetekno
 **Swag Score:** 3
 **Date Added:** 2024-12-10

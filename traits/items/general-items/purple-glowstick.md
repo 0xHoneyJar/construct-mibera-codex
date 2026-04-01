@@ -17,8 +17,6 @@ date_added: "2024-07-23"
 
 a bright light purple glowstick.
 
-Dominant colors: bright purple
-
 ## Cultural Context
 
 Glowstick colors became part of rave identity, with different hues signaling mood, style, or simply personal preference.
@@ -31,8 +29,7 @@ Color variants let the same iconic rave prop express individual identity. Three 
 
 ---
 
-## Attribution
-
+**Dominant Colors:** bright purple
 **Archetype:** acidhouse
 **Swag Score:** 1
 **Date Added:** 2024-07-23

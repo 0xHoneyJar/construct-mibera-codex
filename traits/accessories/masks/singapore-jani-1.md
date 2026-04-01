@@ -17,8 +17,6 @@ image: "https://mibera.s3.amazonaws.com/traits/singapore%20jani%201.webp"
 
 Custom-made mask worn by Jani (deepname99) at Token 2024 in Singapore. First of two unique founder masks from the event.
 
-Dominant colors: —
-
 ## Cultural Context
 
 Token 2024, Singapore
@@ -32,8 +30,7 @@ One of the rarest masks in the collection and one with a real-world story: custo
 
 ---
 
-## Attribution
-
+**Dominant Colors:** —
 **Archetype:** Cross-Archetype
 **Swag Score:** 5
 **Introduced By:** Jani (deepname99)

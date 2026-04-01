@@ -16,8 +16,6 @@ date_added: "2024-08-13"
 
 A very light, fair skin with cool rosy undertones that give it a soft, flushed appearance.
 
-Dominant colors: Rosy cream, cool pink
-
 ## Cultural Context
 
 Pink as a skin descriptor refers to a very light, fair complexion with cool rosy undertones that give it a soft, flushed appearance. The flushed quality can evoke heightened physical states — exertion, embarrassment, or the vasodilation caused by stimulants like MDMA. Pink skin reads as visibly alive in a way that cooler or more neutral tones do not.
@@ -30,8 +28,7 @@ The rosy flush adds a living, dynamic quality to the skin palette — a subtle n
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Rosy cream, cool pink
 **Ancestor:** The flushed quality evokes heightened states — exertion, embarrassment, or vasodilation from MDMA.
 **Date Added:** 2024-08-13
 **Introduced By:** Gumi

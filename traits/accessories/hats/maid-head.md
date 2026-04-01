@@ -30,8 +30,6 @@ The maid headband is core Milady iconography — where French domestic history m
 
 ---
 
-## Attribution
-
 **Archetype:** Milady
 **Swag Score:** 2
 **Date Added:** 2024-07-24

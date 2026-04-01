@@ -16,8 +16,6 @@ date_added: "2024-12-10"
 
 White pearl.
 
-Dominant colors: Pearly white
-
 ## Cultural Context
 
 Ron Hardy was a legendary Chicago DJ who helped define house music at the Music Box nightclub from 1983 to 1987. Known for his intense, genre-blending DJ sets and flamboyant personal style, Hardy was as influential as Frankie Knuckles in shaping Chicago's electronic music identity. His look, including pearl earrings, became iconic in the scene.
@@ -30,8 +28,7 @@ Inspired by Ron Hardy's signature look at the Music Box -- wearing a pearl earri
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Pearly white
 **Archetype:** Inspired by Ron Hardy’s look in an article with Redbull Music Academy, making it related to Chicago Detroit culture.
 **Swag Score:** 2
 **Date Added:** 2024-12-10

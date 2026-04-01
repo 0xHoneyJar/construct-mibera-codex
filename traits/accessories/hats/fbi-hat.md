@@ -18,8 +18,6 @@ date_added: "2024-07-28"
 
 Black and white cap with blood (red) splatters from one side towards the middle, and the word “FBI” in yellow inside of a navy blue rectangle in the middle.
 
-Dominant colors: White, black, navy blue, yellow
-
 ## Cultural Context
 
 The FBI cap is an iconic piece of American law enforcement imagery, widely recognized from film, television, and news coverage of federal raids. In crypto and internet culture, the FBI carries particular significance due to operations like the Silk Road takedown, various exchange investigations, and the broader tension between state surveillance and digital privacy advocates. The blood splatters add an anarchic, defiant edge.
@@ -32,8 +30,7 @@ The bloodied FBI hat at swag score 5 — the highest possible — because nothin
 
 ---
 
-## Attribution
-
+**Dominant Colors:** White, black, navy blue, yellow
 **Archetype:** Milady
 **Swag Score:** 5
 **Date Added:** 2024-07-28

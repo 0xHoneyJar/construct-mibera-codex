@@ -29,8 +29,6 @@ The universal rave prop. Cheap, disposable, beautiful in motion, and useless out
 
 ---
 
-## Attribution
-
 **Archetype:** acidhouse
 **Swag Score:** 1
 **Date Added:** 2024-07-23

@@ -16,8 +16,6 @@ date_added: "2024-12-09"
 
 a plushie of Jani’s mascot; a brown bear wearing purple durag and red jacket with white inner t-shirt and a golden necklace.
 
-Dominant colors: yellow, rainbow-coloured
-
 ## Cultural Context
 
 Jani is a founding team member and creator of Mibera, responsible for much of the collection's philosophical and cultural direction. This representation of Jani is from Project Puru-Puru
@@ -30,7 +28,6 @@ Gumi worked on Project Puru-Puru while drawing Mibera. This is Jani's character 
 
 ---
 
-## Attribution
-
+**Dominant Colors:** yellow, rainbow-coloured
 **Swag Score:** 3
 **Date Added:** 2024-12-09

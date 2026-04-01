@@ -17,8 +17,6 @@ date_added: "2024-07-11"
 
 a plushie of a dark brown bear wearing glasses and a black suit with white inner shirt and blue tie with white stripes.
 
-Dominant colors: black, white, navy.
-
 ## Cultural Context
 
 The second Bond Bear variant, wearing a dark suit with a blue striped tie. Part of the four-piece spy-themed bear plushie set within the Berachain ecosystem items.
@@ -31,8 +29,7 @@ References a key Berachain rebase.
 
 ---
 
-## Attribution
-
+**Dominant Colors:** black, white, navy.
 **Archetype:** milady
 **Swag Score:** 4
 **Date Added:** 2024-07-11

@@ -23,7 +23,5 @@ Anchors the collection's drug theme to ancient tradition — communal intoxicati
 
 ---
 
-## Attribution
-
 **Swag Score:** 3
 **Date Added:** 2024-12-09

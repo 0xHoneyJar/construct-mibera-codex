@@ -18,8 +18,6 @@ date_added: "2024-12-10"
 
 White t-shirt with black text that reads “SCUM”.
 
-Dominant colors: White, black
-
 ## Cultural Context
 
 SCUM may reference the SCUM Manifesto, a radical feminist text written by Valerie Solanas in 1967, or it may function as a reclaimed insult in the tradition of counterculture groups embracing derogatory labels. The plain, bold typography on a white tee follows the provocative slogan shirt format.
@@ -32,8 +30,7 @@ Whether it references Valerie Solanas or functions as reclaimed slang, SCUM on a
 
 ---
 
-## Attribution
-
+**Dominant Colors:** White, black
 **Archetype:** Freetekno
 **Swag Score:** 3
 **Date Added:** 2024-12-10

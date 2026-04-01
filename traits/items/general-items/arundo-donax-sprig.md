@@ -12,8 +12,6 @@ date_added: "2025-01-10"
 
 a handful of brittly sprig / plant
 
-Dominant colors: green
-
 ## Cultural Context
 
 Arundo donax, or giant reed, contains trace amounts of DMT and related tryptamines. Some researchers have speculated it may have been used in ancient Mediterranean psychedelic preparations, though this remains debated.
@@ -26,8 +24,7 @@ A common Mediterranean reed hiding trace tryptamines represents the collection's
 
 ---
 
-## Attribution
-
+**Dominant Colors:** green
 **Archetype:** acidhouse
 **Ancestor:** [native american](../../../core-lore/ancestors/native-american.md)
 **Swag Score:** 1

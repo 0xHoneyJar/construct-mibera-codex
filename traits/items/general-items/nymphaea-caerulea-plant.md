@@ -12,8 +12,6 @@ date_added: "2025-01-10"
 
 a small stem of blue flower, pompom shaped.
 
-Dominant colors: blue, green
-
 ## Cultural Context
 
 The blue lotus was sacred in ancient Egypt, depicted in tomb paintings and temple art as a symbol of rebirth and altered consciousness. It contains mild psychoactive alkaloids and was likely used in ritual contexts, making it one of the earliest documented entheogens.
@@ -26,8 +24,7 @@ One of the oldest entheogens documented in human art. The blue lotus ties the co
 
 ---
 
-## Attribution
-
+**Dominant Colors:** blue, green
 **Archetype:** chicago detroit
 **Ancestor:** [greek](../../../core-lore/ancestors/greek.md)
 **Swag Score:** 4

@@ -17,8 +17,6 @@ date_added: "2024-07-27"
 
 Dark grey wide bucket hat with strings and a graphic of a bear in a relaxed pose on top / behind the text “THJ” in yellow graffiti font.
 
-Dominant colors: Dark grey, yellow, dark brown
-
 ## Cultural Context
 
 The Honey Jar (THJ) is the central community hub and validator of the Berachain ecosystem, instrumental in building pre-launch community culture and ecosystem coordination. The dark gray bucket hat with THJ graffiti-style branding and a relaxed bear represents the premium tier of ecosystem representation — THJ at its most understated and exclusive.
@@ -31,7 +29,6 @@ THJ at swag score 5 — the dark gray bucket hat is the premium variant of The H
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Dark grey, yellow, dark brown
 **Swag Score:** 5
 **Date Added:** 2024-07-27

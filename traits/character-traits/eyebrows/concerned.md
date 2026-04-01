@@ -16,8 +16,6 @@ date_added: "2024-07-30"
 
 thinner pair of tilted eyebrows slightly curved downwards
 
-Dominant colors: Black
-
 ## Cultural Context
 
 Concerned eyebrows tilt slightly downward with a subtle curve, producing an expression of empathy, sympathy, or thoughtful worry. Unlike anxious brows that arch upward, concerned brows draw inward and down — a microexpression associated with focused attention on another's distress.
@@ -30,7 +28,6 @@ Concern reads as empathy rather than personal anxiety — a quieter, more direct
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Black
 **Date Added:** 2024-07-30
 **Introduced By:** Gumi

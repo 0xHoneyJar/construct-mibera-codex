@@ -12,8 +12,6 @@ date_added: "2024-08-10"
 
 Semilunar moon made of flowy lines and circular shapes.
 
-Dominant colors: Black.
-
 ## Cultural Context
 <!-- justification
 ## Justification
@@ -23,7 +21,6 @@ The crescent rendered in Arabic decorative style connects the Arabic ancestor li
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Black.
 **Ancestor:** Arabic
 **Date Added:** 2024-08-10

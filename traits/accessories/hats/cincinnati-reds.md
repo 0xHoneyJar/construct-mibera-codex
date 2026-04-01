@@ -13,8 +13,6 @@ date_added: "2024-07-25"
 
 Red cap with big yellow letter ‘C’ in the middle.
 
-Dominant colors: Red, yellow
-
 ## Cultural Context
 
 The Cincinnati Reds, founded in 1881, are the oldest professional baseball team in the United States. Their iconic red cap with the wishbone "C" logo has been a staple of American sportswear and streetwear culture. In the context of rave and sound system culture, sports caps were commonly worn as casual everyday headwear by scene participants.
@@ -27,8 +25,7 @@ A classic American sports cap that found its way into the free party scene — r
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Red, yellow
 **Archetype:** Freetekno
 **Swag Score:** 3
 **Date Added:** 2024-07-25

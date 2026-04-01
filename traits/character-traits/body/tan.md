@@ -16,8 +16,6 @@ date_added: "2024-08-13"
 
 Tan skin, medium brown with warm/neutral undertones.
 
-Dominant colors: Medium warm brown, natural leather
-
 ## Cultural Context
 
 Tan derives from the tanning of leather — one of humanity's oldest technologies, practiced across every culture and continent. As a skin tone, it describes a medium brown complexion with warm or neutral undertones. Tan sits near the center of the human complexion spectrum and is one of the most universally recognized skin tone descriptors.
@@ -30,8 +28,7 @@ The warm middle of the spectrum — tan serves as the palette's center point fro
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Medium warm brown, natural leather
 **Ancestor:** From the tanning of leather — one of humanity's oldest technologies, practiced across every ancestral lineage in the collection.
 **Date Added:** 2024-08-13
 **Introduced By:** Gumi

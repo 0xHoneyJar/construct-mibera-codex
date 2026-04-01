@@ -27,6 +27,4 @@ Published the "b-money" proposal directly cited in the Bitcoin whitepaper. Ether
 
 ---
 
-## Attribution
-
 **Swag Score:** 5

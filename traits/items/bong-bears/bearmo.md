@@ -27,7 +27,5 @@ Bearmo's red fur and bangs make the Elmo connection unmistakable, and as a named
 
 ---
 
-## Attribution
-
 **Date Added:** 2024-12-09
 **Introduced By:** Jani

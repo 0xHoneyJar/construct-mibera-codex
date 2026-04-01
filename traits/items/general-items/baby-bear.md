@@ -29,8 +29,6 @@ The default Berachain plushie — the most direct way to put the ecosystem's mas
 
 ---
 
-## Attribution
-
 **Archetype:** milady
 **Swag Score:** 4
 **Date Added:** 2024-07-11

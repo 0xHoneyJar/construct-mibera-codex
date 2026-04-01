@@ -18,8 +18,6 @@ date_added: "2024-07-25"
 
 Brown headband of bear ears; curved ears with smaller half circle shapes inside in lighter color.
 
-Dominant colors: Brown, light pale brown
-
 ## Cultural Context
 
 Animal ear headbands have been a staple of kawaii fashion and festival culture, bridging Japanese street style and Western rave aesthetics. Bear ear headbands specifically nod to Berachain's ursine identity, turning ecosystem branding into a wearable accessory.
@@ -32,8 +30,7 @@ Bear ears on a headband — the simplest possible way to rep Berachain culture, 
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Brown, light pale brown
 **Archetype:** Milady
 **Swag Score:** 3
 **Date Added:** 2024-07-25

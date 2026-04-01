@@ -18,8 +18,6 @@ date_added: "2024-12-10"
 
 Three white strokes, one bigger than the other two.
 
-Dominant colors: White
-
 ## Cultural Context
 
 In the 90s, fluorescent colors were a key part of rave culture, symbolizing freedom and self-expression. Rave fashion, characterized by its bold and eclectic style, embraced fluorescent clothing and accessories like glow sticks, often under ultraviolet lights, to create a vibrant and energetic atmosphere. This aesthetic was a visual representation of the rave scene's spirit of liberation and individuality. Fluorescent accessories like glow sticks, bracelets, and even face and body paint were integral to the rave look.
@@ -32,8 +30,7 @@ White face paint is the DIY free party look -- covered in paint from setting up 
 
 ---
 
-## Attribution
-
+**Dominant Colors:** White
 **Archetype:** Freetekno
 **Swag Score:** 2
 **Date Added:** 2024-12-10

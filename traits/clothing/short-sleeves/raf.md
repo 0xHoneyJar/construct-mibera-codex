@@ -18,8 +18,6 @@ date_added: "2024-06-22"
 
 Black t-shirt with “RAF” in bold white written in the middle, in front of a graphic of a gun, on top of a bright red star.
 
-Dominant colors: Black, red, white.
-
 ## Cultural Context
 
 Red Army Faction / Rote Armee Fraktion
@@ -34,8 +32,7 @@ The Red Army Faction's anti-capitalist violence and Berlin's techno scene both e
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Black, red, white.
 **Archetype:** Freetekno
 **Swag Score:** 3
 **Date Added:** 2024-06-22

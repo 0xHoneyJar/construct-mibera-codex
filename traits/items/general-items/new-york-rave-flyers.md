@@ -17,8 +17,6 @@ date_added: "2024-12-09"
 
 A thin, neon green booklet that says “NEW YORK RAVE FLYERS 1991-1995” in black text.
 
-Dominant colors: Neon green.
-
 ## Cultural Context
 
 New York rave flyers document the city's unique electronic music scene, which blended warehouse parties, club culture, and the downtown art world. They capture a time when the city's nightlife was both genuinely dangerous and genuinely transformative.
@@ -31,8 +29,7 @@ Primary-source artifacts. These flyers are the receipts — physical proof that 
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Neon green.
 **Archetype:** chicago detroit
 **Swag Score:** 3
 **Date Added:** 2024-12-09

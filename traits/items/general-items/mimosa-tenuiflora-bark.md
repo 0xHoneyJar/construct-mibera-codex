@@ -24,8 +24,6 @@ The Amazonian DMT source that connects Brazilian jurema ceremony to the global p
 
 ---
 
-## Attribution
-
 **Archetype:** freetekno
 **Ancestor:** [mayan](../../../core-lore/ancestors/mayan.md)
 **Swag Score:** 1

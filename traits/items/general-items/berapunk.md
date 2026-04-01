@@ -16,8 +16,6 @@ date_added: "2024-12-09"
 
 a plushie of a brown bear wearing big spectacles and a short orange beanie.
 
-Dominant colors: brown, orange
-
 ## Cultural Context
 
 Berapunk is a project within the Berachain ecosystem. The combination of spectacles and beanie on a bear plush gives it a distinctly indie or intellectual character, fitting the "-punk" suffix that implies DIY subculture.
@@ -30,7 +28,6 @@ Ecosystem partner carrying the "-punk" suffix that connects it to the broader DI
 
 ---
 
-## Attribution
-
+**Dominant Colors:** brown, orange
 **Swag Score:** 3
 **Date Added:** 2024-12-09

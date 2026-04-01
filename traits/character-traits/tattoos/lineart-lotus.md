@@ -17,8 +17,6 @@ date_added: "2024-08-10"
 
 Simple line-art connecting a few curves, a lotus, and a few dots.
 
-Dominant colors: Black.
-
 ## Cultural Context
 <!-- justification
 ## Justification
@@ -28,7 +26,6 @@ The lotus is Hinduism's most universal visual metaphor, and rendering it in mini
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Black.
 **Ancestor:** [Hindu](../../../core-lore/ancestors/hindu.md)
 **Date Added:** 2024-08-10

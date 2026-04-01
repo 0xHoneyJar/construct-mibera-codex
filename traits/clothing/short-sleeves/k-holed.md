@@ -17,8 +17,6 @@ date_added: "2024-06-22"
 
 Black t-shirt with white text that reads “I K-HOLED AT THE MILADY RAVE” on it .
 
-Dominant colors: Black, white.
-
 ## Cultural Context
 
 K-holing refers to the dissociative state caused by high doses of ketamine, where the user experiences intense hallucinations and a feeling of detachment from reality. The term is widely used in rave and club culture. This shirt is part of the Milady Rave souvenir tee series.
@@ -31,8 +29,7 @@ Part of the Milady Rave confessional tee set. K-holing at a rave is a specific, 
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Black, white.
 **Archetype:** Its way of poking / referencing Milady Maker 333.
 **Swag Score:** 2
 **Date Added:** 2024-06-22

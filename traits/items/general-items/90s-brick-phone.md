@@ -17,11 +17,9 @@ date_added: "2024-07-10"
 
 an old-school phone; big in size with an antenna and buttons.
 
-Dominant colors: black, white
-
 ## Cultural Context
 
-The chunky mobile phones of the 1990s were how ravers received last-minute text messages with party locations and warehouse addresses. Before smartphones and social media, a chain of SMS messages was the infrastructure that made illegal raves possible.
+The chunky mobile phones of the 1990s were how ravers received last-minute text messages with party locations and warehouse addresses. 
 
 <!-- justification
 ## Justification
@@ -31,8 +29,7 @@ The communication backbone of illegal raves. Before smartphones, SMS chains on t
 
 ---
 
-## Attribution
-
+**Dominant Colors:** black, white
 **Archetype:** freetekno
 **Swag Score:** 4
 **Date Added:** 2024-07-10

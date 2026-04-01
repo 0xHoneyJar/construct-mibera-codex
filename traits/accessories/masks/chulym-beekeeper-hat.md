@@ -27,6 +27,4 @@ Beekeeping meets Siberian indigenous culture meets the bear theme that runs thro
 
 ---
 
-## Attribution
-
 **Swag Score:** 3

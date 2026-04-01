@@ -16,8 +16,6 @@ date_added: "2024-12-09"
 
 a small black device with a screen and some buttons.
 
-Dominant colors: black, light blue
-
 ## Cultural Context
 
 The Gold Apollo pager became internationally notorious after the 2024 Lebanon pager attacks, in which communication devices were allegedly weaponized by intelligence services. It represents the dark potential of everyday technology being turned against its users.
@@ -30,7 +28,6 @@ A mundane communication device turned weapon of state violence. Fits the collect
 
 ---
 
-## Attribution
-
+**Dominant Colors:** black, light blue
 **Swag Score:** 4
 **Date Added:** 2024-12-09

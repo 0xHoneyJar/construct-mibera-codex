@@ -18,8 +18,6 @@ date_added: "2024-12-10"
 
 Black t-shirt with a beraland logo on it. A bear head with sparkly almond eyes wearing a purple-green bike helmet..
 
-Dominant colors: Black, brown, purple.
-
 ## Cultural Context
 
 Beradrome is a decentralized exchange and liquidity hub in the Berachain ecosystem. The name is a portmanteau of Bera and Velodrome, referencing the cycling-themed DEX model. The bear head with a bike helmet reflects this cycling motif.
@@ -32,8 +30,7 @@ Beradrome is core Berachain DeFi infrastructure. Representing ecosystem protocol
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Black, brown, purple.
 **Archetype:** Milady
 **Swag Score:** 3
 **Date Added:** 2024-12-10

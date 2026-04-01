@@ -27,6 +27,4 @@ A Bong Bear named after a finance valuation model is the perfect collision of Wa
 
 ---
 
-## Attribution
-
 **Swag Score:** 5

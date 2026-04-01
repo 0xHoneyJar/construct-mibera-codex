@@ -18,8 +18,6 @@ date_added: "2024-06-22"
 
 Black t-shirt with text in white that says “BLACK IS BEAUTIFUL”.
 
-Dominant colors: Black, white.
-
 ## Cultural Context
 
 Black is Beautiful is a cultural movement that began in the 1960s United States, affirming that Black peoples natural features and cultural heritage are inherently beautiful. The slogan became a rallying cry for civil rights and Black pride, influencing art, fashion, and music globally.
@@ -32,8 +30,7 @@ The Black is Beautiful movement is foundational to the culture that produced hou
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Black, white.
 **Archetype:** Freetekno
 **Swag Score:** 3
 **Date Added:** 2024-06-22

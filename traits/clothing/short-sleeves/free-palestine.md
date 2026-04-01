@@ -13,8 +13,6 @@ date_added: "2024-06-22"
 
 Black t-shirt a graphic of a fist up in the colour of Palestine’s flag (green, red, white) and white text that reads “FREE PALESTINE”.
 
-Dominant colors: Black, white, green, red
-
 ## Cultural Context
 <!-- justification
 ## Justification
@@ -24,8 +22,7 @@ Mibera pulls in symbology and slogans from many different political sides. The P
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Black, white, green, red
 **Archetype:** Milady
 **Ancestor:** Palestine
 **Swag Score:** 2

@@ -18,8 +18,6 @@ date_added: "2024-06-22"
 
 Black t-shirt with white text that reads “I WAS MIBERA AT THE MILADY RAVE” on it .
 
-Dominant colors: Black, white.
-
 ## Cultural Context
 
 Part of the Milady Rave souvenir tee series. This variant claims the wearer was literally Mibera at the rave, blurring the line between identity and avatar in the way that NFT culture does by design.
@@ -32,8 +30,7 @@ The identity claim -- I was Mibera -- captures the way NFT holders identify with
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Black, white.
 **Archetype:** Milady
 **Swag Score:** 2
 **Date Added:** 2024-06-22

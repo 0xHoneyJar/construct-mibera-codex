@@ -30,8 +30,6 @@ Purple glow carries a psychedelic edge. Under UV light, these become the most vi
 
 ---
 
-## Attribution
-
 **Archetype:** Chicago Detroit
 **Swag Score:** 2
 **Date Added:** 2024-06-18

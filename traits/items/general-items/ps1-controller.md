@@ -17,8 +17,6 @@ date_added: "2024-07-11"
 
 a grey PS1 controller with a black wire.
 
-Dominant colors: light grey, black
-
 ## Cultural Context
 
 The original PlayStation launched in 1994, the same era when rave culture was exploding worldwide. The PS1 controller represents the parallel rise of gaming and electronic music, two cultures that have only grown more intertwined.
@@ -31,8 +29,7 @@ Gaming and rave culture were twin children of the same 1990s moment. Both ran on
 
 ---
 
-## Attribution
-
+**Dominant Colors:** light grey, black
 **Archetype:** freetekno
 **Swag Score:** 4
 **Date Added:** 2024-07-11

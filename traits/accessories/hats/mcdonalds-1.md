@@ -18,8 +18,6 @@ date_added: "2024-12-10"
 
 Bright red and yellow newsboy cap with Mcdonalds’ logo on it, a vintage McDonald’s hat.
 
-Dominant colors: Red, yellow
-
 ## Cultural Context
 
 McDonald's was founded in Chicago in 1940, making it deeply tied to the Chicago Detroit archetype. The vintage newsboy-style employee cap references the earlier era of McDonald's branding, before the chain's aesthetic was modernized. Fast food worker uniforms have been adopted as ironic fashion statements in various subcultures.
@@ -32,8 +30,7 @@ McDonald's was born in the same city as house music — the vintage employee cap
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Red, yellow
 **Archetype:** Chicago Detroit
 **Swag Score:** 3
 **Date Added:** 2024-12-10

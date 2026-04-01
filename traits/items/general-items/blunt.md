@@ -29,8 +29,6 @@ Where hip-hop meets the dance floor. The blunt ties the collection to the cultur
 
 ---
 
-## Attribution
-
 **Archetype:** chicago detroit
 **Swag Score:** 2
 **Date Added:** 2024-06-05

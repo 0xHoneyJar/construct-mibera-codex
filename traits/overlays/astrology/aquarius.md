@@ -31,4 +31,3 @@ In the signal hierarchy, astrology sits at the modifier layer -- it does not def
 
 ---
 
-## Attribution

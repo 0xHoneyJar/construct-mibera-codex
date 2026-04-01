@@ -16,8 +16,6 @@ date_added: "2024-07-16"
 
 a black ar-15 rifle with white accent near the handle.
 
-Dominant colors: black, white
-
 ## Cultural Context
 
 Cody Wilson demonstrated that firearms could be manufactured with consumer 3D printers, forcing a global confrontation between digital freedom and weapons regulation. His work applies cypherpunk principles to physical objects in the most provocative way possible.
@@ -30,7 +28,6 @@ Extends the cypherpunk thread from information into physical fabrication. If cod
 
 ---
 
-## Attribution
-
+**Dominant Colors:** black, white
 **Swag Score:** 5
 **Date Added:** 2024-07-16

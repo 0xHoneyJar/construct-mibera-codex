@@ -16,8 +16,6 @@ date_added: "2025-03-11"
 
 Simple scenery of a field of poppies that are yet to bloom. Bright blue sky in the background.
 
-Dominant colors: Green, blue.
-
 ## Cultural Context
 
 Source of opium, one of humanity's oldest psychoactive substances.
@@ -30,6 +28,5 @@ The poppy is the source of opium, one of humanity's oldest psychoactive substanc
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Green, blue.
 **Date Added:** 2025-03-11

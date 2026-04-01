@@ -30,8 +30,6 @@ The Second Summer of Love explicitly borrowed from 1960s counterculture, and rou
 
 ---
 
-## Attribution
-
 **Archetype:** Acidhouse
 **Swag Score:** 2
 **Date Added:** 2024-06-18

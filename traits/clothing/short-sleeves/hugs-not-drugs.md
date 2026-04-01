@@ -17,8 +17,6 @@ date_added: "2024-12-10"
 
 Red t-shirt with a graphic of 3 bears hugging each other and text under it that reads “HUGS NOT DRUGS” inside of a slightly curved-upwards banner frame.
 
-Dominant colors: Red, white, black.
-
 ## Cultural Context
 
 The Grateful Dead
@@ -33,8 +31,7 @@ The Grateful Dead bears giving hugs under a Hugs Not Drugs banner is peak irony 
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Red, white, black.
 **Archetype:** In relation to drugs, music, and Grateful Dead character graphic reference. Which heavily ties back to drugs and music culture.
 **Swag Score:** 2
 **Date Added:** 2024-12-10

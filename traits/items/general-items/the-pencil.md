@@ -29,8 +29,6 @@ The artist's own tool placed in the subject's hand — a fourth-wall break betwe
 
 ---
 
-## Attribution
-
 **Archetype:** milady
 **Swag Score:** 1
 **Date Added:** 2024-12-09

@@ -17,8 +17,6 @@ date_added: "2024-06-22"
 
 Black t-shirt with white text that says “SCHOOL SUCKS” in bold font.
 
-Dominant colors: Black, white.
-
 ## Cultural Context
 
 Anti-school sentiment is a perennial theme in youth counterculture, from punk's rejection of institutional authority to the crypto community's skepticism of traditional education. The plain black tee with bold white text follows the standard format of protest slogan shirts.
@@ -31,7 +29,6 @@ School Sucks is the most basic, most universal countercultural opinion. It belon
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Black, white.
 **Swag Score:** 2
 **Date Added:** 2024-06-22

@@ -18,8 +18,6 @@ date_added: "2024-07-31"
 
 Bear onesie in dark brown with the hood up and sparkly eyes.
 
-Dominant colors: Dark brown, light beige
-
 ## Cultural Context
 
 Kigurumi (着ぐるみ) are character-themed onesies originating from Japanese cosplay and Harajuku street fashion. Popular at anime conventions and in kawaii culture since the early 2000s, kigus became a fixture at raves and music festivals worldwide — where the playful, anonymizing full-body costume mirrors the masked, identity-dissolving experience of the dancefloor. The bear form directly references Berachain's bear motif. The 'Sun' variant with sparkly eyes evokes warmth and daylight energy.
@@ -31,8 +29,7 @@ The warmest-toned kigu in the bear onesie series, with sparkly eyes that catch l
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Dark brown, light beige
 **Archetype:** Milady
 **Swag Score:** 5
 **Date Added:** 2024-07-31

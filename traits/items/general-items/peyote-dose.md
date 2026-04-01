@@ -24,8 +24,6 @@ Anchors the collection's psychedelic thread in the oldest documented tradition. 
 
 ---
 
-## Attribution
-
 **Archetype:** freetekno
 **Swag Score:** 2
 **Date Added:** 2024-07-07

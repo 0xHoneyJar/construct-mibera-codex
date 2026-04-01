@@ -10,8 +10,6 @@ date_added: null
 
 Vibrant blue tee with a “HENLO” logo in the middle in front of a circular shape with grids made of thin lines in the middle.
 
-Dominant colors: Vibrant blue, white
-
 ## Cultural Context
 
 Henlo is a community project in the Berachain ecosystem. This variant of the Henlo tee features a more relaxed, casual design compared to the jersey and chain versions, emphasizing the comfortable, accessible side of the brand.
@@ -24,6 +22,5 @@ A laid-back Henlo tee for the Berachain community member who prefers comfort ove
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Vibrant blue, white
 **Swag Score:** 3

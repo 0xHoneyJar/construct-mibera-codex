@@ -18,8 +18,6 @@ date_added: "2025-03-13"
 
 Piece of brown sleeveless flowy garment, hooked only on one shoulder.
 
-Dominant colors: Brown
-
 ## Cultural Context
 
 Pythia
@@ -31,8 +29,7 @@ The Oracle of Delphi was arguably the first person in recorded history to get hi
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Brown
 **Archetype:** Acidhouse
 **Ancestor:** [Pythia](../../../core-lore/ancestors/pythia.md)
 **Swag Score:** 3

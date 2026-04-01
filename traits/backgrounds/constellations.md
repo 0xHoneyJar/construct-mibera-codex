@@ -16,8 +16,6 @@ date_added: "2024-06-07"
 
 Dark blue night sky that meets a pink horizon, with bright constellations with connected dots (stars) and dark silhouette at the bottom.
 
-Dominant colors: dark blue, pink, white
-
 ## Cultural Context
 
 Depicts Ursa Major and Ursa Minor — the Great Bear and Little Bear constellations. The bear connection ties directly to Berachain's identity.
@@ -30,7 +28,6 @@ Bear constellations as celestial backdrop — connecting the astrological layer 
 
 ---
 
-## Attribution
-
+**Dominant Colors:** dark blue, pink, white
 **Date Added:** 2024-06-07
 **Introduced By:** Tez

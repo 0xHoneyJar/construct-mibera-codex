@@ -18,8 +18,6 @@ date_added: "2024-07-27"
 
 Flower crowns made of different varieties of flowers in white, purple, red, yellow, and green from the leaves.
 
-Dominant colors: Purple, white, red, green, yellow
-
 ## Cultural Context
 
 Marsha P Johnson; a Black transgender activist and drag performer, pivotal in the gay liberation movement. A key figure at the 1969 Stonewall uprising, she co-founded the Gay Liberation Front and STAR (Street Transvestite Action Revolutionaries) to support homeless queer youth. Known for her vibrant personality and advocacy for transgender rights.
@@ -32,8 +30,7 @@ Marsha P. Johnson's flower crowns were as iconic as her activism — this hat ho
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Purple, white, red, green, yellow
 **Archetype:** Chicago Detroit
 **Swag Score:** 4
 **Date Added:** 2024-07-27

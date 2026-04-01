@@ -18,8 +18,6 @@ date_added: "2024-07-27"
 
 Headband in bone-white and black with sharp consistent patterns, and a big feather standing in the middle of the headband.
 
-Dominant colors: Dirty bone-white, black
-
 ## Cultural Context
 
 Feathered headbands are traditional adornments across many Indigenous American cultures, with specific feathers carrying spiritual significance related to honor, bravery, and connection to the natural world. In the context of peyote ceremonies, the combination of feathered headwear and sacred medicine represents a complete spiritual practice that predates European contact by millennia.
@@ -32,8 +30,7 @@ A feathered headband rooted in Indigenous ceremony — the freetekno archetype d
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Dirty bone-white, black
 **Archetype:** Freetekno
 **Swag Score:** 4
 **Date Added:** 2024-07-27

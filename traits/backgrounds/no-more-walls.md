@@ -16,8 +16,6 @@ date_added: "2025-03-22"
 
 Glimpse of a starry night sky in dark navy blue with a hue of white.
 
-Dominant colors: Navy blue, white.
-
 ## Cultural Context
 
 Ross Ulbricht
@@ -32,7 +30,6 @@ Ross Ulbricht and the cypherpunk ethos of freedom from institutional control —
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Navy blue, white.
 **Date Added:** 2025-03-22
 **Introduced By:** Jani

@@ -16,8 +16,6 @@ date_added: "2024-07-30"
 
 a pair of straight, slightly angled downward eyebrows. Shape is flat and rigid.
 
-Dominant colors: black
-
 ## Cultural Context
 
 Stern eyebrows sit straight and slightly angled downward, with a flat, rigid shape that conveys authority, disapproval, or serious determination. This brow position is cross-culturally associated with dominance signals and is a staple of the "don't mess with me" expression in character design.
@@ -30,7 +28,6 @@ The stern look brings authority and edge to the collection — not every Mibera 
 
 ---
 
-## Attribution
-
+**Dominant Colors:** black
 **Date Added:** 2024-07-30
 **Introduced By:** Gumi

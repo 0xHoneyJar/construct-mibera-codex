@@ -18,8 +18,6 @@ date_added: "2024-12-10"
 
 Light blue vintage / lace dress with white flowers on each side of the buttons section in the middle.
 
-Dominant colors: Light blue, white.
-
 ## Cultural Context
 
 The vintage lace dress with floral embroidery references the Edwardian and Victorian-era feminine aesthetic that the Milady archetype channels — a deliberate callback to hyper-feminine dress codes, here reclaimed and recontextualized. The light blue-and-white palette also evokes the cottagecore and "old money" aesthetics that circulate in online fashion communities adjacent to the Milady scene.
@@ -31,8 +29,7 @@ Victorian-era femininity reclaimed through Harajuku street fashion. This lace dr
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Light blue, white.
 **Archetype:** Milady
 **Swag Score:** 4
 **Date Added:** 2024-12-10

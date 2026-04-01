@@ -27,6 +27,4 @@ A heart earring stamped with Bera identity -- straightforward ecosystem pride fo
 
 ---
 
-## Attribution
-
 **Swag Score:** 3

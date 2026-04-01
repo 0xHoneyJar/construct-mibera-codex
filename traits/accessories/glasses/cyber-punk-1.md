@@ -30,8 +30,6 @@ Freetekno lives at the intersection of technology and resistance. Cyberpunk glas
 
 ---
 
-## Attribution
-
 **Archetype:** Freetekno
 **Swag Score:** 1
 **Date Added:** 2024-12-10

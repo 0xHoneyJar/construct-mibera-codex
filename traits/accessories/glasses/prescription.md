@@ -30,7 +30,5 @@ Not everyone at the club is there just to dance. Some people are there to study 
 
 ---
 
-## Attribution
-
 **Archetype:** chicago detroit.
 **Swag Score:** 4

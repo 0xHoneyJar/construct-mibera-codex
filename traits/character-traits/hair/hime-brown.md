@@ -15,8 +15,6 @@ date_added: "2024-06-22"
 
 sleek, straight long hair with straight bangs across the forehead and two symmetrical sections framing the face, in soft brown.
 
-Dominant colors: soft-brown
-
 ## Cultural Context
 
 The hime cut is a traditional Japanese hairstyle featuring straight, blunt bangs with two longer sections framing the face and long hair in the back. Originating in the Heian period (794-1185 CE) among Japanese nobility, it was the signature look of court princesses (hime means "princess"). The style has experienced a major revival through anime, J-fashion, and internet aesthetics.
@@ -29,7 +27,6 @@ A direct line from Heian-period Japanese nobility to modern internet aesthetics 
 
 ---
 
-## Attribution
-
+**Dominant Colors:** soft-brown
 **Date Added:** 2024-06-22
 **Introduced By:** Gumi

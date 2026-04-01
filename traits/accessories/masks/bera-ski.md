@@ -16,8 +16,6 @@ date_added: "2024-07-28"
 
 Ski mask in darker shades of brown with curved ears and holes across the eyes-part.
 
-Dominant colors: Brown.
-
 ## Cultural Context
 
 Ski masks (balaclavas) have a long history in both utilitarian and countercultural contexts, from military use to hip-hop culture to UK drill music. In the Berachain ecosystem, the bear-eared ski mask became a recognizable community symbol, merging crypto pseudonymity with the visual language of underground music scenes.
@@ -30,8 +28,7 @@ A bear-eared balaclava is peak Berachain energy: anonymous, slightly menacing, u
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Brown.
 **Swag Score:** 4
 **Date Added:** 2024-07-28
 **Sources:**

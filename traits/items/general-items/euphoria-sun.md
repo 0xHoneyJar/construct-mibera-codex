@@ -24,8 +24,6 @@ A visual glyph for the peak moment — the point where the set, the substance, a
 
 ---
 
-## Attribution
-
 **Archetype:** chicago detroit
 **Ancestor:** [mongolian](../../../core-lore/ancestors/mongolian.md)
 **Swag Score:** 5

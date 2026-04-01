@@ -17,8 +17,6 @@ date_added: "2024-12-09"
 
 a pitchfork with brown handle.
 
-Dominant colors: dark grey, brown
-
 ## Cultural Context
 
 The pitchfork is a symbol of populist uprising and rural rebellion, from medieval peasant revolts to American frontier justice. It represents the power of the crowd to challenge established order.
@@ -31,8 +29,7 @@ Mob justice, peasant revolt, rural rage. The freetekno movement was built on the
 
 ---
 
-## Attribution
-
+**Dominant Colors:** dark grey, brown
 **Archetype:** freetekno
 **Swag Score:** 1
 **Date Added:** 2024-12-09

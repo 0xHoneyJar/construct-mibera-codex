@@ -18,8 +18,6 @@ date_added: "2024-06-25"
 
 Plain white long sleeves with shiny complexion.
 
-Dominant colors: White
-
 ## Cultural Context
 
 The pristine white garment with its synthetic sheen evokes the uniformed aesthetics of new religious movements and utopian communes. In the freetekno context, the 'cult' label is reclaimed — free party sound systems like Spiral Tribe and Teknival collectives deliberately embraced cult-like communal living, nomadic existence, and shared identity. The shiny fabric nods to the synthetic materials of early rave fashion, where nylon and polyester caught UV light on the dancefloor.
@@ -31,8 +29,7 @@ Free party sound systems deliberately embraced cult-like communal living and sha
 
 ---
 
-## Attribution
-
+**Dominant Colors:** White
 **Archetype:** Freetekno
 **Swag Score:** 3
 **Date Added:** 2024-06-25

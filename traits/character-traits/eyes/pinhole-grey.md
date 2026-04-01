@@ -16,8 +16,6 @@ date_added: "2024-06-03"
 
 grey eyes with constricted pupils, or usually known as pinpoint pupils.
 
-Dominant colors: matte grey
-
 ## Cultural Context
 
 Pinhole eyes feature constricted, pinpoint pupils — the opposite of dilation. Pupil constriction (miosis) is a physiological effect of opioids and certain other substances, and in character art conveys shock, fear, or an intensely narrowed focus.
@@ -30,7 +28,6 @@ Constricted pupils signal shock or opioid influence — the pharmacological oppo
 
 ---
 
-## Attribution
-
+**Dominant Colors:** matte grey
 **Date Added:** 2024-06-03
 **Introduced By:** Gumi

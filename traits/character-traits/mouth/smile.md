@@ -16,8 +16,6 @@ date_added: "2024-06-05"
 
 a smile portrayed by a thin short curved line.
 
-Dominant colors: black
-
 ## Cultural Context
 
 The smile is humanity's most universal positive expression, a curved line that crosses every cultural and linguistic boundary. In the collection's minimalist style, the smile is reduced to a short, gently curved stroke — yet it remains immediately readable as happiness, warmth, or contentment.
@@ -30,7 +28,6 @@ The simplest and most powerful expression — a smile needs no cultural context 
 
 ---
 
-## Attribution
-
+**Dominant Colors:** black
 **Date Added:** 2024-06-05
 **Introduced By:** Gumi

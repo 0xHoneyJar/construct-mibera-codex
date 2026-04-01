@@ -17,8 +17,6 @@ date_added: "2024-06-28"
 
 Plain pink long-sleeves with a button by the neck..
 
-Dominant colors: Pink
-
 ## Cultural Context
 
 Heaven's Gate was an American UFO cult founded in the 1970s by Marshall Applewhite and Bonnie Nettles. In March 1997, 39 members committed mass suicide in Rancho Santa Fe, California, believing a spacecraft trailing the Hale-Bopp comet would carry their souls to a higher plane. Members wore matching outfits — a uniformity reflected in this plain, cult-like garment. The group's blend of New Age spirituality, sci-fi mythology, and communal living places them in the same countercultural lineage that produced rave's own utopian communes.
@@ -32,8 +30,7 @@ The collection documents cults alongside raves because both involve communal sur
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Pink
 **Swag Score:** 3
 **Date Added:** 2024-06-28
 **Introduced By:** Fedor

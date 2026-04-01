@@ -30,8 +30,6 @@ The bindi is one of the most widely recognized marks in South Asian visual cultu
 
 ---
 
-## Attribution
-
 **Archetype:** Milady
 **Ancestor:** [Nepal](../../../core-lore/ancestors/nepal.md)
 **Swag Score:** 3

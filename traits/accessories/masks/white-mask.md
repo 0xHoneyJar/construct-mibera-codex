@@ -18,8 +18,6 @@ date_added: "2024-12-09"
 
 Round white mask with 2 eye-holes and stripy holes on the mouth side.
 
-Dominant colors: White.
-
 ## Cultural Context
 
 Plain white masks have been used in theater, protest, and performance art for centuries, from Japanese Noh drama to the Commedia dell'arte to contemporary street protest movements. The featureless white surface represents a blank slate, inviting projection and interpretation while concealing individual identity.
@@ -32,8 +30,7 @@ A white mask with nothing on it is the most democratic disguise available. No al
 
 ---
 
-## Attribution
-
+**Dominant Colors:** White.
 **Archetype:** Chicago Detroit
 **Swag Score:** 2
 **Date Added:** 2024-12-09

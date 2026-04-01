@@ -17,8 +17,6 @@ date_added: "2024-06-22"
 
 Black t-shirt with white text that says “AUTISTIC AND READY TO FUCK” in thin font.
 
-Dominant colors: Black, white.
-
 ## Cultural Context
 
 Part of the autism-themed slogan tee series in the collection, these shirts emerge from the same post-ironic internet culture that produced Milady Maker and much of crypto Twitter's visual identity.
@@ -31,8 +29,7 @@ This is the most high-swag autism tee in the collection because it is the most u
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Black, white.
 **Swag Score:** 5
 **Date Added:** 2024-06-22
 **Introduced By:** Jani

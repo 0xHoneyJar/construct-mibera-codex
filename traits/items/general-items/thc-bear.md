@@ -16,8 +16,6 @@ date_added: "2025-03-23"
 
 a plushie of a dark brown bear wearing an oversized tee in black, colourful flowers necklace, and sunnies with white frames. The hands are pointed outwards in a unique manner.
 
-Dominant colors: dark brown, black, white
-
 ## Cultural Context
 
 THC (tetrahydrocannabinol) is the primary psychoactive compound in cannabis. The bear wearing a flower necklace and oversized tee in a relaxed pose visually represents stoner culture merged with the Berachain bear identity.
@@ -30,7 +28,6 @@ Cannabis culture merged with the Berachain bear identity. The flower necklace an
 
 ---
 
-## Attribution
-
+**Dominant Colors:** dark brown, black, white
 **Swag Score:** 3
 **Date Added:** 2025-03-23

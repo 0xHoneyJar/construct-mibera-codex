@@ -18,8 +18,6 @@ date_added: "2024-12-10"
 
 Dark navy blue vintage / lace dress with a big bow just below the collar followed with flowers graphic / embroidery in the middle down the ribbon and around the belt / waist area.
 
-Dominant colors: Dark navy blue, creamy white.
-
 ## Cultural Context
 
 The darker companion to the Light Blue Flowery — this navy lace dress with its prominent bow and floral detailing draws from the Gothic Lolita fashion subgenre that emerged in 1990s Harajuku, where Victorian silhouettes meet Japanese street style. The dark colorway produces an aesthetic of dark femininity that resonates with the Milady archetype's embrace of both elegance and edge.
@@ -31,8 +29,7 @@ Gothic Lolita fashion is where Victorian elegance meets Harajuku edge. This dres
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Dark navy blue, creamy white.
 **Archetype:** Milady
 **Swag Score:** 5
 **Date Added:** 2024-12-10

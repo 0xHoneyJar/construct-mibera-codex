@@ -28,7 +28,5 @@ A simple flower earring that works across every archetype -- floral accessories 
 
 ---
 
-## Attribution
-
 **Swag Score:** 2
 **Date Added:** 2024-12-10

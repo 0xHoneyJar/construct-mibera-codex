@@ -17,8 +17,6 @@ date_added: "2025-07-07"
 
 a small hand-held radio with an antenna.
 
-Dominant colors: grey, black
-
 ## Cultural Context
 
 Pirate radio stations were the lifeline of early rave culture in the UK, broadcasting illegal sets and event locations to listeners who could not find the scene any other way. The radio represents that whole history of unauthorized transmission.
@@ -31,8 +29,7 @@ The tool that made illegal raves findable — pirate radio as the original decen
 
 ---
 
-## Attribution
-
+**Dominant Colors:** grey, black
 **Archetype:** milady
 **Swag Score:** 2
 **Date Added:** 2025-07-07

@@ -17,8 +17,6 @@ date_added: "2024-12-09"
 
 Black full-face mask with velvet-y texture / complexion.
 
-Dominant colors: Black.
-
 ## Cultural Context
 
 Cyberphunk, Tim May (?).
@@ -31,8 +29,7 @@ A velvet mask is anonymity with texture. The cypherpunk connection makes it abou
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Black.
 **Swag Score:** 3
 **Date Added:** 2024-12-09
 **Introduced By:** Jani

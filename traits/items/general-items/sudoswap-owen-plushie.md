@@ -17,8 +17,6 @@ date_added: "2024-07-12"
 
 Green plushie of a sewn green octopus with a smiley face and a few white lines on the head and body.
 
-Dominant colors: Green / teal-ish
-
 ## Cultural Context
 
 Owen is the octopus mascot of Sudoswap, a decentralized NFT trading protocol on Ethereum. Sudoswap pioneered on-chain NFT AMM (automated market maker) pools. The plushie format is consistent with the collection's pattern of turning crypto project mascots into held collectibles.
@@ -31,8 +29,7 @@ DeFi protocol mascot rendered as a plushie, part of the collection's pattern of 
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Green / teal-ish
 **Archetype:** Milady
 **Swag Score:** 2
 **Date Added:** 2024-07-12

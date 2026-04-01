@@ -18,11 +18,7 @@ date_added: "2024-12-10"
 
 Black t-shirt with a graphic of an aboriginal flag; black and red flag with yellow circle in the middle.
 
-Dominant colors: Black, yellow, red.
-
 ## Cultural Context
-
-The Australian Aboriginal Flag
 
 The Australian Aboriginal Flag is a symbol of Indigenous identity and pride. The Black (top half) represents Aboriginal people, the Red (bottom half) represents red earth, ochre, and spiritual connection to the land, and the Yellow circle (in the center) represents the sun, giver of life. The general meaning of it is unity, strength, and survival of Aboriginal Australians.
 
@@ -34,8 +30,7 @@ Indigenous rights movements are part of the broader counterculture that Mibera d
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Black, yellow, red.
 **Archetype:** Freetekno
 **Swag Score:** 2
 **Date Added:** 2024-12-10

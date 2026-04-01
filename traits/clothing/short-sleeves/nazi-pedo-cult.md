@@ -17,8 +17,6 @@ date_added: "2024-06-22"
 
 Black t-shirt with a bright red rectangle in the middle. In it is a lady with green hair wearing black outfit- swastika in between her eyes and big text in white next to her that reads “NAZI PEDO CULT”.
 
-Dominant colors: Black, red
-
 ## Cultural Context
 
 The phrase Nazi Pedo Cult was used as a disparaging label against the Milady Maker community during the 2022 controversy surrounding Charlotte Fang and Remilia Corporation. The community subsequently reclaimed the phrase as ironic merch, turning an attack into an in-group signifier in the post-ironic tradition.
@@ -31,8 +29,7 @@ The community took the worst thing anyone ever called them and printed it on a s
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Black, red
 **Archetype:** Its relation to Milady culture / community and lore
 **Swag Score:** 4
 **Date Added:** 2024-06-22

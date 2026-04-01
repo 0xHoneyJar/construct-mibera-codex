@@ -17,8 +17,6 @@ date_added: "2024-12-10"
 
 an orange bucket hat with lighter orange text with black outline that reads “Neigh”
 
-Dominant colors: orange, light orange
-
 ## Cultural Context
 
 BeraHorses is a community NFT project on Berachain featuring horse-themed characters. The bucket hat with "Neigh" text is a playful reference to the project's equine identity, representing the kind of cross-pollination between ecosystem projects that makes Berachain's community culture distinctive.
@@ -31,7 +29,6 @@ BeraHorses said "Neigh" and put it on a bucket hat — ecosystem collab energy a
 
 ---
 
-## Attribution
-
+**Dominant Colors:** orange, light orange
 **Swag Score:** 3
 **Date Added:** 2024-12-10

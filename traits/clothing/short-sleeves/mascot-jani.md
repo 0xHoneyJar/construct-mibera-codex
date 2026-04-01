@@ -17,8 +17,6 @@ date_added: "2024-12-10"
 
 Vibrant red t-shirt with a big graphic of a cute bear head wearing a purple durag.
 
-Dominant colors: Red, brown.
-
 ## Cultural Context
 
 Jani is the founder of The Honey Jar and a principal architect of Mibera's lore and creative direction. The mascot version renders Jani as a cute bear head wearing a purple durag -- Jani's main representation in Project Puru-Puru.
@@ -31,7 +29,6 @@ The project founder rendered as a cute bear mascot. Every great NFT collection h
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Red, brown.
 **Swag Score:** 2
 **Date Added:** 2024-12-10

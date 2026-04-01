@@ -30,8 +30,6 @@ Devon is sacred ground for UK free party culture — this oversized bear head ch
 
 ---
 
-## Attribution
-
 **Archetype:** freetekno
 **Swag Score:** 4
 **Date Added:** 2024-07-27

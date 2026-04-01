@@ -17,8 +17,6 @@ date_added: "2024-12-09"
 
 A thin, neon yellow booklet that says “LOS ANGELES RAVE FLYERS 1991-1994” in black text.
 
-Dominant colors: Neon yellow.
-
 ## Cultural Context
 
 Los Angeles rave flyers from the early 1990s documented a scene that blended West Coast psychedelia with electronic music imported from the UK and Europe. These flyers are now collected as folk art, capturing a moment when underground culture communicated through paper instead of screens.
@@ -31,8 +29,7 @@ The West Coast chapter of the global rave story. Including LA alongside UK flyer
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Neon yellow.
 **Archetype:** Freetekno
 **Swag Score:** 3
 **Date Added:** 2024-12-09

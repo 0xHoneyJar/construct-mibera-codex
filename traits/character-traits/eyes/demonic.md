@@ -28,8 +28,6 @@ Every collection needs its dark side — demonic eyes bring an edge of menace an
 
 ---
 
-## Attribution
-
 **Date Added:** 2024-06-03
 **Introduced By:** Gumi
 **Team Notes:** "glowing demon eyes could be cool" — Tez, Sep 2023, #eyewear

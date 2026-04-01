@@ -18,8 +18,6 @@ date_added: "2024-07-25"
 
 Dark green cap with white text on it saying “WAGMI” crossed with a line.
 
-Dominant colors: Dark green, white
-
 ## Cultural Context
 
 WAGMI, short for "We're All Gonna Make It", is a popular phrase in crypto culture, especially on platforms like X. It expresses optimism, camaraderie, and collective confidence in the success of a cryptocurrency project or the broader market, often used to boost morale during volatile times.
@@ -32,8 +30,7 @@ WAGMI crossed out — the team explicitly rejected blind crypto optimism and put
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Dark green, white
 **Archetype:** Milady
 **Swag Score:** 3
 **Date Added:** 2024-07-25

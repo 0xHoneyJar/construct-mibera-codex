@@ -27,7 +27,5 @@ Controlled rebellion — the slicked-back mohawk bridges punk attitude with poli
 
 ---
 
-## Attribution
-
 **Date Added:** 2024-06-15
 **Introduced By:** Gumi

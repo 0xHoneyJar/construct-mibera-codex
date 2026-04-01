@@ -12,8 +12,6 @@ date_added: "2024-08-09"
 
 Simple line art of buildings, resembling a city.
 
-Dominant colors: Black
-
 ## Cultural Context
 
 King Obodas
@@ -27,8 +25,7 @@ A Nabataean temple on the Incense Route -- it represents the Arabic ancestor lin
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Black
 **Ancestor:** Arabic
 **Date Added:** 2024-08-09
 **Introduced By:** Jani

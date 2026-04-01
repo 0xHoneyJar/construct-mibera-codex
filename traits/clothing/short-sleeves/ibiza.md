@@ -17,8 +17,6 @@ date_added: "2024-12-10"
 
 Creamy white t-shirt with a colourful graphic of a character in the middle and the writing “IBIZA KETAMINE CLUB” in blue and “Relaaax” underneath them in red.
 
-Dominant colors: Creamy white, blue, red, yellow.
-
 ## Cultural Context
 
 Ibiza has been the global capital of club culture since the 1980s, when DJs like Alfredo Fiorito began mixing house, new wave, and Balearic beats at clubs like Amnesia. The island's open-air clubs and extended party season made it a pilgrimage site for ravers worldwide. Ketamine became increasingly prevalent in Ibiza's club scene through the 2000s and 2010s.
@@ -31,8 +29,7 @@ Ibiza Ketamine Club is exactly the kind of absurd, specific merch that only exis
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Creamy white, blue, red, yellow.
 **Archetype:** Drug and party relevance.
 **Swag Score:** 3
 **Date Added:** 2024-12-10

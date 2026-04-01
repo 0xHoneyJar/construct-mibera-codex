@@ -30,8 +30,6 @@ The Milady archetype channels the same energy as Harajuku street style: fearless
 
 ---
 
-## Attribution
-
 **Archetype:** Milady
 **Swag Score:** 2
 **Date Added:** 2024-06-16

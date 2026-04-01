@@ -17,8 +17,6 @@ date_added: "2024-06-22"
 
 White t-shirt with big blue text that reads “Wikipedia Editor”.
 
-Dominant colors: White, blue.
-
 ## Cultural Context
 
 Wikipedia editors are the volunteer contributors who maintain the world's largest encyclopedia. The Wikipedia Editor identity has become a meme in internet culture, associated with both earnest knowledge curation and obsessive, detail-oriented behavior. In crypto circles, editing Wikipedia articles about blockchain projects is a noted subculture.
@@ -31,7 +29,6 @@ Wearing Wikipedia Editor on a t-shirt is an identity statement about caring abou
 
 ---
 
-## Attribution
-
+**Dominant Colors:** White, blue.
 **Swag Score:** 3
 **Date Added:** 2024-06-22

@@ -10,8 +10,6 @@ date_added: null
 
 a fuzzy earmuffs with white band and a pink ribbon on top of it in the center, and pink ear covers..
 
-Dominant colors: white, pink
-
 ## Cultural Context
 
 Fuzzy earmuffs with bows are a staple of Y2K and kawaii winter fashion, blending practical cold-weather wear with deliberately cute, feminine styling. The pink-and-white colorway and ribbon detail reflect the soft, hyper-feminine aesthetic that bridges Japanese street fashion and Western e-girl culture.
@@ -24,4 +22,5 @@ Cute winter accessories are part of the fashion vocabulary — fuzzy pink earmuf
 
 ---
 
-## Attribution
+**Dominant Colors:** white, pink
+

@@ -16,8 +16,6 @@ date_added: "2025-02-27"
 
 Top view of the Mississippi river.
 
-Dominant colors: Muted green, dark grey
-
 ## Cultural Context
 
 Mississippi River; the second-longest river in North America, stretches about 2,340 miles (3,766 km) from Minnesota to the Gulf of Mexico. It drains 31 U.S. states and two Canadian provinces, forming a vast watershed.
@@ -32,6 +30,5 @@ The Mississippi connects to the Native American ancestor lineage and the geograp
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Muted green, dark grey
 **Date Added:** 2025-02-27

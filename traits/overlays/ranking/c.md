@@ -29,4 +29,3 @@ C-rank Miberas sit at the midpoint of the swag distribution -- perfectly average
 
 ---
 
-## Attribution

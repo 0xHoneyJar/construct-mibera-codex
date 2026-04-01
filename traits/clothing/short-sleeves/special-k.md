@@ -18,8 +18,6 @@ date_added: "2024-12-10"
 
 White t-shirt with white text that reads “special K.” with the ‘K’ being a big letter in red and curvy-shaped lettering.
 
-Dominant colors: White, red.
-
 ## Cultural Context
 
 Special K is widely recognized slang for ketamine, a dissociative anesthetic that became prevalent in rave and club culture from the 1990s onward. The design mimics the Kelloggs Special K cereal branding, a visual pun that has circulated as bootleg merch in rave communities for decades.
@@ -32,8 +30,7 @@ The Special K cereal logo as ketamine merch is one of the oldest visual puns in 
 
 ---
 
-## Attribution
-
+**Dominant Colors:** White, red.
 **Archetype:** Acidhouse
 **Swag Score:** 3
 **Date Added:** 2024-12-10

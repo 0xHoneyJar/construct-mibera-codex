@@ -27,6 +27,4 @@ A vest variant of the Criminal Records tee. Record shops were the distribution n
 
 ---
 
-## Attribution
-
 **Swag Score:** 3

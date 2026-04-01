@@ -16,8 +16,6 @@ date_added: "2025-02-27"
 
 Purple cosmic background with stars, in the middle is the Bullas logo.
 
-Dominant colors: Shades of purple, yellow.
-
 ## Cultural Context
 
 Having built a cult-like following, Bullas is one of Berachain’s OG projects shipping NFT collections and a play-to-earn ponzi web game.
@@ -30,7 +28,6 @@ Berachain ecosystem partner background — representing the OG projects and cult
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Shades of purple, yellow.
 **Date Added:** 2025-02-27
 **Introduced By:** Gods, Gumi (for the cosmic concept)

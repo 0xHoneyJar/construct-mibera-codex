@@ -29,4 +29,3 @@ As a modifier signal, the Capricorn overlay introduces a tone of discipline and 
 
 ---
 
-## Attribution

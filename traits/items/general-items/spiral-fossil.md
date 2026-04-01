@@ -29,8 +29,6 @@ The origin of Spiral Tribe's entire visual identity pulled straight from deep ti
 
 ---
 
-## Attribution
-
 **Archetype:** freetekno
 **Swag Score:** 4
 **Date Added:** 2024-07-11

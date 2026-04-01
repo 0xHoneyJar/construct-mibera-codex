@@ -16,8 +16,6 @@ date_added: "2024-06-04"
 
 White and red capsule.
 
-Dominant colors: White, red
-
 ## Cultural Context
 
 A capsule is a small, enclosed container, often used for medicine, supplements, or space modules, designed to be swallowed or deployed easily.
@@ -30,8 +28,7 @@ The capsule is a universal symbol of substance culture -- pharmaceutical, recrea
 
 ---
 
-## Attribution
-
+**Dominant Colors:** White, red
 **Archetype:** Its relation to drugs / medication.
 **Swag Score:** 3
 **Date Added:** 2024-06-04

@@ -18,8 +18,6 @@ date_added: "2024-06-22"
 
 White t-shirt with white text that reads “-IBERATION FRONT text rounding a graphic of female-male symbols connected to each other, all in red.
 
-Dominant colors: White, red.
-
 ## Cultural Context
 <!-- justification
 ## Justification
@@ -29,8 +27,7 @@ The GLF emerged from Stonewall, and house music emerged from the same queer Blac
 
 ---
 
-## Attribution
-
+**Dominant Colors:** White, red.
 **Archetype:** Chicago Detroit
 **Swag Score:** 2
 **Date Added:** 2024-06-22

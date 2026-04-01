@@ -17,8 +17,6 @@ date_added: "2024-08-10"
 
 Thick brush stroke that goes in nearly full circle.
 
-Dominant colors: Black.
-
 ## Cultural Context
 <!-- justification
 ## Justification
@@ -28,8 +26,7 @@ One brushstroke that captures an entire philosophy -- the enso is the Buddhist a
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Black.
 **Ancestor:** [Buddhist](../../../core-lore/ancestors/buddhist.md)
 **Date Added:** 2024-08-10
 **Sources:**

@@ -18,8 +18,6 @@ date_added: "2024-07-27"
 
 a sun ra headdress; a headdress mainly in gold with cover / flap on each side covering the ear in stripy black and gold. Near the center front that frames the face is a carving of the letter ‘A’ in a circle with 2 wings on each side. On top of the headdress is a big circular shape charm.
 
-Dominant colors: black, grey
-
 ## Cultural Context
 
 Sun Ra (1914-1993) was a visionary jazz musician, composer, and philosopher from Birmingham, Alabama, who later became central to the Chicago music scene. He claimed to be from Saturn and developed Afrofuturism decades before the term existed, blending jazz, electronic music, and cosmic philosophy. His elaborate Egyptian-inspired headdresses and costumes were integral to his artistic identity and performances with the Arkestra.
@@ -32,8 +30,7 @@ Sun Ra's headdress at swag score 5 — the highest honor for the cosmic philosop
 
 ---
 
-## Attribution
-
+**Dominant Colors:** black, grey
 **Archetype:** chicago detroit
 **Swag Score:** 5
 **Date Added:** 2024-07-27

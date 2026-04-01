@@ -17,8 +17,6 @@ date_added: "2025-03-23"
 
 a big hood in the shape of a dead bear head, seen through the ‘dead eyes’ and patched part in the middle. White bangs poke out of the hood on the front part.
 
-Dominant colors: shades of brown, white
-
 ## Cultural Context
 
 Bozito is a character and project within the Berachain ecosystem. The "cave off" variant features a dead bear head hood, a darker and more surreal take on the typically cute bear aesthetics of the Berachain community. The patched-up, lifeless eyes give it a post-apocalyptic or outsider art quality.
@@ -31,7 +29,6 @@ Bozito went dark mode — a dead bear hood at swag score 4 for the Miberas who l
 
 ---
 
-## Attribution
-
+**Dominant Colors:** shades of brown, white
 **Swag Score:** 4
 **Date Added:** 2025-03-23

@@ -17,8 +17,6 @@ date_added: "2024-07-10"
 
 a microphone that’s in the shape of 2 circles and a wire that goes down.
 
-Dominant colors: black, green, yellow
-
 ## Cultural Context
 
 Lee "Scratch" Perry was a Jamaican producer and pioneer of dub and reggae who influenced virtually every genre of electronic music that followed. His experimental studio techniques and willingness to destroy conventions prefigured the DJ and producer culture at the heart of raving.
@@ -31,8 +29,7 @@ A direct homage to the godfather of dub. Without Lee "Scratch" Perry's studio ex
 
 ---
 
-## Attribution
-
+**Dominant Colors:** black, green, yellow
 **Archetype:** chicago detroit
 **Swag Score:** 4
 **Date Added:** 2024-07-10

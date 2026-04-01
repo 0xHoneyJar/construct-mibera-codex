@@ -28,7 +28,5 @@ Rodeo accessory for the bull-themed partner collection. A natural pairing — yo
 
 ---
 
-## Attribution
-
 **Swag Score:** 3
 **Date Added:** 2024-12-09

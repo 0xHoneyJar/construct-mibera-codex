@@ -16,8 +16,6 @@ date_added: "2024-12-10"
 
 Ski mask in vibrant red with tiny horn-shaped ears and wide holes across the eyes-part.
 
-Dominant colors: Red.
-
 ## Cultural Context
 
 Steady Teddy is one of the biggest, if not the biggest NFT to stand on Berachain when it comes to hype, community, and volume. The Teddys are known for spreading ‘Tedism’ on the TL, onboarding dozens of new community members by doing so.
@@ -30,8 +28,7 @@ Steady Teddy is one of Berachain's flagship NFT communities, and their ski mask 
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Red.
 **Swag Score:** 3
 **Date Added:** 2024-12-10
 **Introduced By:** Jani

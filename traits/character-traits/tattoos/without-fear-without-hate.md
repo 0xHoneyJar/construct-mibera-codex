@@ -28,8 +28,6 @@ The opening words of Sikh scripture tattooed in Gurmukhi -- it carries the Punja
 
 ---
 
-## Attribution
-
 **Ancestor:** [Punjabi](../../../core-lore/ancestors/punjabi.md)
 **Date Added:** 2024-08-09
 **Introduced By:** Jani

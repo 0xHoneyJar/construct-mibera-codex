@@ -24,8 +24,6 @@ The substance where stimulant culture meets meditative ceremony — caffeine wra
 
 ---
 
-## Attribution
-
 **Archetype:** milady
 **Ancestor:** [chinese](../../../core-lore/ancestors/chinese.md), [japanese](../../../core-lore/ancestors/japanese.md)
 **Swag Score:** 3

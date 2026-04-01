@@ -17,8 +17,6 @@ date_added: "2024-07-28"
 
 a face cover made of red and white scarf showing only the eyes part, with green garment with arabic script written on it going across the forehead.
 
-Dominant colors: red, white, dark army green
-
 ## Cultural Context
 
 The keffiyeh face covering with Arabic script headband is associated with Palestinian resistance movements and has become one of the most politically charged pieces of headwear in the world. The keffiyeh itself has a longer history as traditional Middle Eastern headwear, but its use as a face covering with militant insignia carries specific political connotations related to the Israeli-Palestinian conflict.
@@ -31,8 +29,7 @@ The most provocative hat in the collection at swag score 5 — Mibera does not s
 
 ---
 
-## Attribution
-
+**Dominant Colors:** red, white, dark army green
 **Swag Score:** 5
 **Date Added:** 2024-07-28
 **Introduced By:** Gods

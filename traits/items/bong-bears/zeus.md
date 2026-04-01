@@ -27,6 +27,4 @@ Naming a Bong Bear after the king of the gods signals top-tier status in the col
 
 ---
 
-## Attribution
-
 **Swag Score:** 5

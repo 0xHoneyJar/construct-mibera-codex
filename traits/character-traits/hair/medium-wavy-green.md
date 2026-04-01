@@ -27,7 +27,5 @@ The practical sweet spot — medium waves offer expressiveness without excess, a
 
 ---
 
-## Attribution
-
 **Date Added:** 2024-06-15
 **Introduced By:** Gumi

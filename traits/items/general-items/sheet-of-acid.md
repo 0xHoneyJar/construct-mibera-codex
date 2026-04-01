@@ -17,8 +17,6 @@ date_added: "2024-07-11"
 
 a sheet of acid; a sheet of small patches that can be torn apart individually.
 
-Dominant colors: white, deep purple.
-
 ## Cultural Context
 
 A sheet of LSD blotter paper contains dozens of individual doses, often printed with distinctive artwork that becomes a signature of the chemist or distributor. Blotter art is its own underground art form, combining psychedelic aesthetics with functional drug delivery.
@@ -31,8 +29,7 @@ Where chemistry becomes art. Blotter paper is a drug delivery system that double
 
 ---
 
-## Attribution
-
+**Dominant Colors:** white, deep purple.
 **Archetype:** freetekno
 **Swag Score:** 4
 **Date Added:** 2024-07-11

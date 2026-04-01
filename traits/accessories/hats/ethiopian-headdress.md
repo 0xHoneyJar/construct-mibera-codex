@@ -18,8 +18,6 @@ date_added: "2024-07-27"
 
 Headdress made of different varieties of leaves, white flowers, and yellow fruits.
 
-Dominant colors: Green, yellow, white.
-
 ## Cultural Context
 
 The Suri tribe in Ethiopia’s Omo Valley is known for their intricate face paint and stunning floral headpieces, using natural materials like clay, mud, and flowers to create artistic designs. These traditions, showcased for tourists, reflect their deep connection to nature amid challenges like regional violence and cattle raiding.
@@ -32,8 +30,7 @@ The Suri floral headdress is living art — natural materials turned into wearab
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Green, yellow, white.
 **Archetype:** Milady
 **Swag Score:** 3
 **Date Added:** 2024-07-27

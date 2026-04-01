@@ -30,8 +30,6 @@ If you were at a warehouse party in the 1990s and did not see someone wearing gl
 
 ---
 
-## Attribution
-
 **Archetype:** Chicago Detroit
 **Swag Score:** 5
 **Date Added:** 2024-06-18

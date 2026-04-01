@@ -16,8 +16,6 @@ date_added: "2024-06-07"
 
 Blurry view of greenery in deep green on the half bottom, and a sky on the top half with a hint of yellowish light where the green ends.
 
-Dominant colors: Green, sky-blue, hue of yellow.
-
 ## Cultural Context
 
 Sourced from Milady Maker's background assets. The sunset over greenery also evokes the beginning of a rave — the transition from daylight into the nocturnal world of the dancefloor.
@@ -30,7 +28,6 @@ Shared visual lineage with Milady Maker.
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Green, sky-blue, hue of yellow.
 **Date Added:** 2024-06-07
 **Introduced By:** Gumi

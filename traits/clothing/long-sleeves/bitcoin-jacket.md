@@ -18,8 +18,6 @@ date_added: "2024-12-10"
 
 Bomber jacket in black and yellow with multiple words scattered around it. In the center is the number ‘10’ in black inside of a yellow circle. On the sleeves are bold letters in colorful font.
 
-Dominant colors: Black, yellow
-
 ## Cultural Context
 
 HarryPotterObamaSonic10Inu (ticker $Bitcoin) is a community driven meme-coin on the Ethereum blockchain that was launched in late 2023.
@@ -32,8 +30,7 @@ HarryPotterObamaSonic10Inu is peak absurdist memecoin culture -- a project whose
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Black, yellow
 **Archetype:** Acidhouse
 **Swag Score:** 5
 **Date Added:** 2024-12-10

@@ -27,4 +27,3 @@ As a textural signal in the hierarchy, the Earth element gives a Mibera a ground
 
 ---
 
-## Attribution

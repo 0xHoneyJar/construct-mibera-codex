@@ -12,8 +12,6 @@ date_added: "2024-12-10"
 
 Muted purple jersey with 'HENLO' in gothic font, worn over a white t-shirt, topped with 2 thin gold chains.
 
-Dominant colors: purple, white.
-
 ## Cultural Context
 
 Henlo is a project within the Berachain ecosystem. The gothic-font jersey over a white tee with gold chains blends sports jersey culture with streetwear aesthetics — a style rooted in 1990s hip-hop fashion where oversized jerseys became a wardrobe staple, from the NBA hardwood to the Wu-Tang Clan.
@@ -28,7 +26,6 @@ Henlo is a Berachain ecosystem project. The gothic-font jersey with gold chains 
 
 ---
 
-## Attribution
-
+**Dominant Colors:** purple, white.
 **Swag Score:** 3
 **Date Added:** 2024-12-10

@@ -16,8 +16,6 @@ date_added: "2024-08-14"
 
 Front-view from the street, of a building with windows and orange walls.
 
-Dominant colors: Orange, grey.
-
 ## Cultural Context
 
 80’s Manchester red brick factories & buildings.
@@ -32,7 +30,6 @@ Manchester's factory district is the architectural backdrop of the Madchester an
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Orange, grey.
 **Date Added:** 2024-08-14
 **Introduced By:** Tez

@@ -17,8 +17,6 @@ date_added: "2025-03-11"
 
 a black cap with white text in fancy font that reads “Los Bullas”.
 
-Dominant colors: black, white
-
 ## Cultural Context
 
 Los Bullas is a community group within the Berachain ecosystem, drawing on Latin-flavored branding with the "Los" prefix and fancy script typography. The name plays on "bulls" (bullas) — a nod to bullish market sentiment — while the stylized presentation reflects the personality-driven community culture that distinguishes Berachain projects.
@@ -31,7 +29,6 @@ Los Bullas brings Latin flair to Berachain community culture — a crew hat with
 
 ---
 
-## Attribution
-
+**Dominant Colors:** black, white
 **Swag Score:** 4
 **Date Added:** 2025-03-11

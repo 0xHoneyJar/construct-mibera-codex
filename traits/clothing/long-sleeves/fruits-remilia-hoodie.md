@@ -18,8 +18,6 @@ date_added: "2024-12-10"
 
 Pale purple hoodie with red graphic of a heart and the text “FRUITS REMILIA” in the middle.
 
-Dominant colors: Pale purple, red
-
 ## Cultural Context
 
 FRUiTS x REMiLiA is a 2024 collaboration between FRUiTS Magazine, a legendary Japanese street fashion publication founded in 1997 by photographer Shoichi Aoki, known for documenting Harajuku's avant-garde styles; and Remilia Corporation, a net art collective behind the Milady Maker NFT project. This project blends physical merchandise, digital art, and NFTs, celebrating Tokyo's early-2000s street fashion through Remilia's digital characters.
@@ -32,8 +30,7 @@ FRUiTS x REMiLiA is a real 2024 collaboration between legendary Harajuku street 
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Pale purple, red
 **Archetype:** Milady
 **Swag Score:** 3
 **Date Added:** 2024-12-10

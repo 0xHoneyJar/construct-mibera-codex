@@ -27,4 +27,3 @@ As a textural signal in the hierarchy, the Water element lends emotional depth a
 
 ---
 
-## Attribution

@@ -18,8 +18,6 @@ date_added: "2024-07-27"
 
 Bright cap with white / silver base and dark purple cap. Purple gems wrapped in golden rings are filling the hat’s body.
 
-Dominant colors: Brown, light beige
-
 ## Cultural Context
 
 Lee "Scratch" Perry (1936–2021) was a Jamaican music producer, singer, and songwriter, renowned for pioneering dub music in the 1970s. His innovative studio techniques, including remixing and sound effects, reshaped reggae, influencing artists like Bob Marley, The Clash, and Beastie Boys. Known for his eccentric persona, Perry won a Grammy in 2003 and continued creating until his death in Jamaica at age 85.
@@ -32,8 +30,7 @@ Lee "Scratch" Perry invented dub and rewired how we think about the studio as an
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Brown, light beige
 **Archetype:** Chicago Detroit
 **Swag Score:** 2
 **Date Added:** 2024-07-27

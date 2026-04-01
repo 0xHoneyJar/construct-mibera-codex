@@ -17,8 +17,6 @@ date_added: "2024-12-10"
 
 Hindu Swastika in red; a symmetrical shape with four identical arms bent at right angles, extending clockwise in a pinwheel-like pattern, with dots at the arm intersections.
 
-Dominant colors: Red
-
 ## Cultural Context
 
 The Hindu swastika is a 5,000-year-old symbol from the Indus Valley Civilization, means "well-being" in Sanskrit and represents prosperity and the cycle of life, linked to Ganesha. Used in Hindu, Jain, and Buddhist rituals. Its positive meaning was tainted by the Nazis' reversed version, but it remains sacred in these cultures.
@@ -31,8 +29,7 @@ Including the Hindu swastika is a deliberate act of cultural reclamation -- rest
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Red
 **Swag Score:** 4
 **Date Added:** 2024-12-10
 **Introduced By:** Jani / Fedor

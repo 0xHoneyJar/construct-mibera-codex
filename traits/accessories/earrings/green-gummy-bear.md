@@ -16,8 +16,6 @@ date_added: "2024-06-04"
 
 Earring with green gummy bear as the charm.
 
-Dominant colors: Leafy green
-
 ## Cultural Context
 
 Gummy bears are often laced with drugs.
@@ -30,8 +28,7 @@ A playful double reference -- gummy bears as a well-known vehicle for laced subs
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Leafy green
 **Archetype:** Relation to drugs and a nod to Gumi’s name.
 **Swag Score:** 3
 **Date Added:** 2024-06-04

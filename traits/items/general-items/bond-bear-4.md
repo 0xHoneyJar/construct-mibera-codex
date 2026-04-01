@@ -17,8 +17,6 @@ date_added: "2024-07-11"
 
 a plushie of a panda with a grey hat and a dirty white long coat.
 
-Dominant colors: white, black, grey, dirty white
-
 ## Cultural Context
 
 A panda plushie in a grey hat and long coat, the most casual of the four Bond Bear variants. 
@@ -31,8 +29,7 @@ References a key Berachain rebase.
 
 ---
 
-## Attribution
-
+**Dominant Colors:** white, black, grey, dirty white
 **Archetype:** milady
 **Swag Score:** 4
 **Date Added:** 2024-07-11

@@ -17,8 +17,6 @@ date_added: "2024-07-06"
 
 a red and grey fidget spinner.
 
-Dominant colors: red, grey
-
 ## Cultural Context
 
 Fidget toys connect to the tactile, sensory-seeking behavior common at raves, where touching textures and manipulating objects with your hands enhances the experience of being in an altered state.
@@ -31,8 +29,7 @@ Tactile stimulation is a known feature of altered states. A fidget spinner is th
 
 ---
 
-## Attribution
-
+**Dominant Colors:** red, grey
 **Archetype:** acidhouse
 **Swag Score:** 2
 **Date Added:** 2024-07-06

@@ -16,8 +16,6 @@ date_added: "2024-06-03"
 
 normal eyes in bright ocean blue.
 
-Dominant colors: teal-blue
-
 ## Cultural Context
 
 Normal eyes present a standard, open gaze with clearly defined iris and pupil. They serve as the baseline eye type in the collection, representing a calm and composed state from which all other eye expressions deviate.
@@ -30,7 +28,6 @@ The baseline gaze — every other eye type is a departure from normal, making it
 
 ---
 
-## Attribution
-
+**Dominant Colors:** teal-blue
 **Date Added:** 2024-06-03
 **Introduced By:** Gumi

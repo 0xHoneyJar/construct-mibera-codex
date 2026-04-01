@@ -17,8 +17,6 @@ date_added: "2025-05-04"
 
 Visor hat in red with Mcdonalds logo in the center; a yellow ‘M’.
 
-Dominant colors: Red, yellow
-
 ## Cultural Context
 
 The McDonald's visor hat represents the modern employee uniform era of the fast food chain. As part of a four-hat McDonald's series spanning different eras — one for each Mibera archetype — this visor represents the contemporary period. McDonald's as a cultural symbol transcends food, representing globalization, late capitalism, and the universal minimum-wage experience.
@@ -31,8 +29,7 @@ The third McDonald's hat completes the era-spanning set — a modern visor for t
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Red, yellow
 **Swag Score:** 4
 **Date Added:** 2025-05-04
 **Introduced By:** Jani

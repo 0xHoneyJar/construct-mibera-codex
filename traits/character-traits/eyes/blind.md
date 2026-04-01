@@ -28,8 +28,6 @@ Disability representation matters. Blind eyes were an intentional addition to en
 
 ---
 
-## Attribution
-
 **Date Added:** 2024-06-03
 **Introduced By:** Gumi
 **Team Notes:** "wanna find some ways of introducing disabled traits into the collection. so fink we can add blind eyes which are like creamy white, this CPAP one" — Jani, Oct 2023, #hats

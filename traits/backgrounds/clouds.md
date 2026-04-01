@@ -16,8 +16,6 @@ date_added: "2024-06-07"
 
 Grassfield and cloudy sky.
 
-Dominant colors: Blue, white, and green
-
 ## Cultural Context
 
 Sourced from Milady Maker's background assets. Worth noting that fields under open sky are reminiscent of where the freetekno tribe gathers — from Castlemorton Common to Czech teknivals.
@@ -30,6 +28,5 @@ Shared visual lineage with Milady Maker.
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Blue, white, and green
 **Date Added:** 2024-06-07

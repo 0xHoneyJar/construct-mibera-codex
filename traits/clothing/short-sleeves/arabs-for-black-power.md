@@ -18,8 +18,6 @@ date_added: "2024-06-22"
 
 Black t-shirt with white text that reads “ARABS for BLACK POWER” and an Arabic script under it.
 
-Dominant colors: Black, white.
-
 ## Cultural Context
 <!-- justification
 ## Justification
@@ -29,8 +27,7 @@ Cross-cultural solidarity movements are a recurring theme in the collection. Thi
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Black, white.
 **Archetype:** Acidhouse
 **Ancestor:** [Arab](../../../core-lore/ancestors/arabs.md)
 **Swag Score:** 2

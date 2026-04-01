@@ -17,8 +17,6 @@ date_added: "2024-12-10"
 
 Knight helmet with brown bear ears and red fur at the back, the helmet is wide opened.
 
-Dominant colors: Grey, red, brown
-
 ## Cultural Context
 
 an NFT mint platform on Berachain that recently went multi-chain.
@@ -31,7 +29,6 @@ Kingdomly is a Berachain-native NFT mint platform turned multi-chain — the kni
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Grey, red, brown
 **Swag Score:** 3
 **Date Added:** 2024-12-10

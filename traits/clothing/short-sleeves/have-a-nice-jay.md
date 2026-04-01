@@ -17,8 +17,6 @@ date_added: "2024-06-22"
 
 Bone-white t-shirt with a simple illustration of a yellow smiley figure with curved ears, smoking a blunt / cigarette with a writing “Have a Nice JAY”, with the ‘JAY’ in capital red.
 
-Dominant colors: Bone-white, yellow
-
 ## Cultural Context
 
 A play on the classic Have a Nice Day smiley face, replacing Day with Jay (slang for joint). The smiley face with bear ears smoking a blunt merges the acid house smiley tradition with cannabis culture.
@@ -31,8 +29,7 @@ The acid house smiley, bear ears, and a joint -- this shirt layers three core Mi
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Bone-white, yellow
 **Archetype:** Its relation to drugs, Jay=Joint, Joint=Weed.
 **Swag Score:** 3
 **Date Added:** 2024-06-22

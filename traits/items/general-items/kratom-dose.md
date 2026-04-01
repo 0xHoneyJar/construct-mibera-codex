@@ -12,8 +12,6 @@ date_added: "2024-12-09"
 
 a white cup with leafy green liquid inside.
 
-Dominant colors: white, green
-
 ## Cultural Context
 
 Kratom is a Southeast Asian plant that acts as a stimulant at low doses and a sedative at high ones. It occupies a contested space between traditional medicine and modern drug culture, legal in some places and banned in others.
@@ -26,8 +24,7 @@ The grey-zone substance that governments can't agree on. Its presence here refle
 
 ---
 
-## Attribution
-
+**Dominant Colors:** white, green
 **Archetype:** freetekno
 **Ancestor:** [Thai](../../../core-lore/ancestors/thai.md)
 **Swag Score:** 3

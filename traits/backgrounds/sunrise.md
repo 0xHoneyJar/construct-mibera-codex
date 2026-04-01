@@ -16,8 +16,6 @@ date_added: "2024-06-07"
 
 Blurry view of what appears to be a huge field of grass meeting a clear blue sky.
 
-Dominant colors: Green, sky-blue.
-
 ## Cultural Context
 
 Sourced from Milady Maker's background assets. The sunrise over an open field also evokes the end of a rave — the moment of collective survival and emergence that defines the experience.
@@ -30,7 +28,6 @@ Shared visual lineage with Milady Maker.
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Green, sky-blue.
 **Date Added:** 2024-06-07
 **Introduced By:** Gumi

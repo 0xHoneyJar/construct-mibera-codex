@@ -18,8 +18,6 @@ date_added: "2024-08-10"
 
 A vague drawing mainly consisting of shading in the shape of a woman’s side profile.
 
-Dominant colors: Black
-
 ## Cultural Context
 
 Pythia
@@ -33,8 +31,7 @@ The Pythia was the original oracle -- her shadowed profile as a tattoo anchors t
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Black
 **Archetype:** Pythia
 **Ancestor:** [Pythia](../../../core-lore/ancestors/pythia.md)
 **Date Added:** 2024-08-10

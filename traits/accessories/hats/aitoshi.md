@@ -18,8 +18,6 @@ date_added: "2024-07-24"
 
 Beanie in pastel teal with rounded ears and black graphic of a bear and chains.
 
-Dominant colors: Black, light pastel teal
-
 ## Cultural Context
 
 Aitoshi is a bear-themed character associated with the Berachain ecosystem, blending crypto culture with kawaii aesthetics. The bear ears on the beanie nod to Berachain's ursine branding, while the chains reference blockchain technology.
@@ -32,8 +30,7 @@ A Berachain ecosystem hat that merges the bear mascot with cute accessories — 
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Black, light pastel teal
 **Archetype:** Acidhouse
 **Swag Score:** 2
 **Date Added:** 2024-07-24

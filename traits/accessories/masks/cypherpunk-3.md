@@ -31,8 +31,6 @@ Cypherpunk is an individual who uses strong cryptography to enhance privacy and 
 
 ---
 
-## Attribution
-
 **Swag Score:** 3
 **Date Added:** 2024-07-17
 **Introduced By:** Jani

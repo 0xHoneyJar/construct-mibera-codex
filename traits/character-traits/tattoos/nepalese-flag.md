@@ -17,8 +17,6 @@ date_added: "2024-08-09"
 
 Nepalese flag, shaped in 2 connected triangles with red as the base color and 2 white symbols on it.
 
-Dominant colors: Red, white
-
 ## Cultural Context
 
 The national flag of Nepal
@@ -32,8 +30,7 @@ The only non-rectangular national flag in the world -- it is instantly recogniza
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Red, white
 **Ancestor:** [Nepal](../../../core-lore/ancestors/nepal.md)
 **Date Added:** 2024-08-09
 **Sources:**

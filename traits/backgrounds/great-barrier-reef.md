@@ -16,8 +16,6 @@ date_added: "2025-02-27"
 
 Different shades of blue as the ocean with a linear beige sandy ground cutting across the middle, and a blue sky.
 
-Dominant colors: Shades of blue, sandy beige
-
 ## Cultural Context
 
 The Great Barrier Reef, off Australia's northeastern coast, is the world's largest coral reef system, spanning over 2,300 km with thousands of reefs and islands. A UNESCO World Heritage Site, it supports immense biodiversity, including corals, fish, and marine life.
@@ -32,6 +30,5 @@ The Great Barrier Reef connects to the Aboriginal ancestor lineage and Australia
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Shades of blue, sandy beige
 **Date Added:** 2025-02-27

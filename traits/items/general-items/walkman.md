@@ -17,8 +17,6 @@ date_added: "2024-12-09"
 
 a walkman in navy blue and an accent of light grey on its design; a round device with a few buttons
 
-Dominant colors: navy blue, light grey
-
 ## Cultural Context
 
 The Sony Walkman made music portable and personal for the first time, changing how people related to listening. For ravers, it meant the music did not have to stop when the party ended.
@@ -33,8 +31,7 @@ The first device that let you carry the rave home in your pocket. Personal, port
 
 ---
 
-## Attribution
-
+**Dominant Colors:** navy blue, light grey
 **Archetype:** freetekno
 **Swag Score:** 2
 **Date Added:** 2024-12-09

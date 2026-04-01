@@ -16,8 +16,6 @@ date_added: "2024-07-10"
 
 a plushie of a patched up yellow bear wearing a red cropped top with a drooly mouth, and crossed eyes.
 
-Dominant colors: yellow, red
-
 ## Cultural Context
 
 "Yeet" is internet slang meaning to throw something with great force. The patched-up, cross-eyed bear plushie appears to have been through some damage, visually representing the slang term. In crypto culture, "yeeted" often describes reckless trades or investments.
@@ -30,7 +28,6 @@ A patched-up, cross-eyed bear that has clearly been through it. "Yeeted" in cryp
 
 ---
 
-## Attribution
-
+**Dominant Colors:** yellow, red
 **Swag Score:** 3
 **Date Added:** 2024-07-10

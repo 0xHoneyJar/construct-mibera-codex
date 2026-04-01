@@ -11,8 +11,6 @@ date_added: "2025-01-10"
 
 a cracked open nutmeg showing its inside.
 
-Dominant colors: reddish brown, light yellow, green
-
 ## Cultural Context
 
 Nutmeg contains myristicin, a compound that in large doses produces psychoactive effects sometimes compared to MDMA. It has been used as a folk intoxicant for centuries by people without access to other substances, from medieval Europeans to prisoners.
@@ -25,8 +23,7 @@ A kitchen spice that doubles as a psychoactive in high doses. Represents the eth
 
 ---
 
-## Attribution
-
+**Dominant Colors:** reddish brown, light yellow, green
 **Ancestor:** [arab](../../../core-lore/ancestors/arabs.md)
 **Swag Score:** 2
 **Date Added:** 2025-01-10

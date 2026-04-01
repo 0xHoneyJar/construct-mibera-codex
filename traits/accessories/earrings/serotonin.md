@@ -16,8 +16,6 @@ date_added: "2024-12-10"
 
 Earring in the molecular shape of ‘serotonin’ in silver / grey, a few lines connecting to each other forming open shapes in the middle.
 
-Dominant colors: Silver.
-
 ## Cultural Context
 
 Serotonin is a neurotransmitter and hormone, primarily found in the brain, gut, and blood platelets, that regulates mood, sleep, appetite, and digestion. Low serotonin levels are linked to depression, anxiety, and sleep disorders.
@@ -30,8 +28,7 @@ The companion piece to the dopamine earring -- wearing your brain chemistry as a
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Silver.
 **Archetype:** Chemical that’s found in the brain, gut, and blood platelets. Related to many drugs and drug users behavior in general.
 **Swag Score:** 3
 **Date Added:** 2024-12-10

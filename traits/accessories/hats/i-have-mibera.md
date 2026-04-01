@@ -17,8 +17,6 @@ date_added: "2024-07-25"
 
 Navy blue cap with white text on it saying “Please be patient I have Mibera”.
 
-Dominant colors: Navy blue, white
-
 ## Cultural Context
 
 This hat is a direct riff on the "Please be patient I have autism" meme hat, replacing "autism" with "Mibera." The original meme format became a widely remixed template in internet culture, and this version turns it into a self-referential community in-joke — wearing your collection allegiance as a faux-disability disclosure.
@@ -31,8 +29,7 @@ The collection breaking the fourth wall — "Please be patient I have Mibera" is
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Navy blue, white
 **Archetype:** In relation to a meme related to Milady, which is one of Mibera’s archetypes.
 **Swag Score:** 3
 **Date Added:** 2024-07-25

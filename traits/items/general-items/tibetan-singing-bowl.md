@@ -17,8 +17,6 @@ date_added: "2024-07-07"
 
 a golden singing bowl.
 
-Dominant colors: golden yellow
-
 ## Cultural Context
 
 Tibetan singing bowls produce harmonic overtones used in meditation and sound healing practices. Their resonant frequencies are said to induce altered states of consciousness, connecting them to the broader theme of achieving transcendence through sound.
@@ -31,8 +29,7 @@ Links the acid house ethos of transcendence through sound to a centuries-old pra
 
 ---
 
-## Attribution
-
+**Dominant Colors:** golden yellow
 **Archetype:** acidhouse
 **Swag Score:** 3
 **Date Added:** 2024-07-07

@@ -18,8 +18,6 @@ date_added: "2024-12-10"
 
 a black t-shirt with white outline of a triangle and a rainbow stroke.
 
-Dominant colors: Black
-
 ## Cultural Context
 
 The Dark Side of the Moon is a 1973 album by Pink Floyd, a landmark in progressive rock. Recorded at Abbey Road Studios, it explores themes like time, mortality, and mental illness. It became one of the best-selling albums ever, with over 45 million copies sold. It peaked at #1 in the US and stayed on charts for decades, earning critical acclaim for its lyrical depth and sonic experimentation.
@@ -32,8 +30,7 @@ The Dark Side of the Moon prism is one of the most reproduced images in music hi
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Black
 **Archetype:** Freetekno
 **Swag Score:** 4
 **Date Added:** 2024-12-10

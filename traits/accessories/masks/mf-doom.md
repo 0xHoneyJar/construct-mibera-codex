@@ -30,8 +30,6 @@ DOOM proved that a mask could be more recognizable than a face. In a collection 
 
 ---
 
-## Attribution
-
 **Archetype:** Freetekno
 **Swag Score:** 4
 **Date Added:** 2024-07-27

@@ -18,8 +18,6 @@ date_added: "2024-12-10"
 
 Tie dye t-shirt in rainbow colour (from center going outwards), with a Mibera logo in the center, of a smiley face with curved ears.
 
-Dominant colors: Yellow, rainbow.
-
 ## Cultural Context
 
 Tie-dye is the oldest continuous psychedelic fashion tradition, originating in 1960s San Francisco counterculture and persisting through every subsequent wave of psychedelic culture. The technique became synonymous with the Grateful Dead scene and was later adopted by rave culture in the 1990s.
@@ -32,8 +30,7 @@ Tie-dye with the Mibera smiley logo is the collection's most direct connection t
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Yellow, rainbow.
 **Archetype:** Freetekno
 **Swag Score:** 2
 **Date Added:** 2024-12-10

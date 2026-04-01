@@ -27,6 +27,4 @@ Loud colors, no apologies. The kind of accessory that says you treat getting dre
 
 ---
 
-## Attribution
-
 **Swag Score:** 4

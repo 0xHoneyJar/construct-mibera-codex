@@ -13,8 +13,6 @@ date_added: "2024-12-10"
 
 Brush strokes and smudges of bright red and yellow stripes with a darker red / maroon stripe in the center.
 
-Dominant colors: Bright red, yellow, dark red (maroon)
-
 ## Cultural Context
 
 Traditional Indian paint includes the use of natural substances like turmeric, sandalwood, vermilion (sindoor), and henna to create decorative markings on the body and face. These paints are applied during festivals (e.g., Holi), weddings, and rituals, symbolizing prosperity, protection, and spiritual connection.
@@ -27,8 +25,7 @@ Traditional Indian face paint connects the Chicago Detroit archetype to the cere
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Bright red, yellow, dark red (maroon)
 **Archetype:** Chicago Detroit
 **Ancestor:** [Indian](../../../core-lore/ancestors/indian.md)
 **Swag Score:** 4

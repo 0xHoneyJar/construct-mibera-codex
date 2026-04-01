@@ -16,8 +16,6 @@ date_added: "2024-07-30"
 
 short thick eyebrows that are thicker at the inner side and grow thinner towards the end. Slightly arched upwards on the outer ends.
 
-Dominant colors: Black
-
 ## Cultural Context
 
 Short eyebrows are truncated in length, thicker at the inner side and tapering toward the end. Short brows create a more open, youthful facial impression by leaving more visible brow bone. The style has appeared in various beauty trends and is associated with a clean, modern aesthetic.
@@ -30,7 +28,6 @@ Short brows open up the face, giving the character a clean, modern look that pai
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Black
 **Date Added:** 2024-07-30
 **Introduced By:** Gumi

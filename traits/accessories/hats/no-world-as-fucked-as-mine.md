@@ -18,8 +18,6 @@ date_added: "2024-07-24"
 
 White cap with black text in thin font that reads “no world as fucked as mine” with no capitalization.
 
-Dominant colors: White, black
-
 ## Cultural Context
 
 Kai Whiston’s upbringing in the New Age Traveller community. Set in Shaftesbury, Dorset, it traces the grassroots, neo-hippy rave scene led by groups like Spiral Tribe in the 1980s and 1990s, against Thatcher’s Britain. It also touches on folkloric traditions inspiring modern “rave mysticism” in electronic music.
@@ -32,8 +30,7 @@ Kai Whiston's traveller upbringing, Spiral Tribe's free party legacy, and Thatch
 
 ---
 
-## Attribution
-
+**Dominant Colors:** White, black
 **Archetype:** Acidhouse
 **Ancestor:** Traveller
 **Swag Score:** 3

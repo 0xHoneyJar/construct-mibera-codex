@@ -18,8 +18,6 @@ date_added: "2024-07-27"
 
 Bee mask, portrayed by thick net in brown and transparent milky white cover over it.
 
-Dominant colors: Brown, transparent white.
-
 ## Cultural Context
 
 Beekeeping veils and masks are among the oldest protective garments in agriculture, with depictions dating back to ancient Egypt. The DIY construction of this mask echoes both the handmade ethos of underground music scenes and the bee/honey motifs central to the Berachain ecosystem, where The Honey Jar (THJ) serves as a core community hub.
@@ -32,8 +30,7 @@ Homemade, bee-themed, and rough around the edges. This mask sits at the intersec
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Brown, transparent white.
 **Archetype:** Milady
 **Swag Score:** 3
 **Date Added:** 2024-07-27

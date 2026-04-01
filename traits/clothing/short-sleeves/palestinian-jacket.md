@@ -18,8 +18,6 @@ date_added: "2024-12-10"
 
 Red Tasqireh / Palestinian short-sleeves jacket in bright red, with funky patterns in yellow, orange, and green.
 
-Dominant colors: Bright red, yellow, green
-
 ## Cultural Context
 
 The Tasqireh is a traditional Palestinian embroidered jacket, part of the rich textile heritage of Palestinian women. Palestinian embroidery (tatreez) is a UNESCO-recognized form of intangible cultural heritage, with patterns that encode village identity, marital status, and regional affiliation.
@@ -32,8 +30,7 @@ Palestinian embroidery is a living cultural practice recognized by UNESCO. This 
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Bright red, yellow, green
 **Archetype:** Freetekno
 **Swag Score:** 4
 **Date Added:** 2024-12-10

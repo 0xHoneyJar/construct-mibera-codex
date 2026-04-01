@@ -30,8 +30,6 @@ The rusty-looking frames are not a design choice, they are a lifestyle indicator
 
 ---
 
-## Attribution
-
 **Archetype:** Freetekno
 **Swag Score:** 1
 **Date Added:** 2024-06-18

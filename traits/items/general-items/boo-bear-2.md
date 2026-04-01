@@ -17,8 +17,6 @@ date_added: "2024-07-09"
 
 a doll of a bear with dark brown fur wrapped in mummy’s bandages / costume.
 
-Dominant colors: dark brown, bone-white
-
 ## Cultural Context
 
 The second Boo Bear, wrapped in mummy bandages. Part of a four-piece horror-themed bear plushie series in the Berachain ecosystem items.
@@ -31,8 +29,7 @@ References a key Berachain rebase.
 
 ---
 
-## Attribution
-
+**Dominant Colors:** dark brown, bone-white
 **Archetype:** milady
 **Swag Score:** 3
 **Date Added:** 2024-07-09

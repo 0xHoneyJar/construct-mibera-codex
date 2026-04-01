@@ -18,8 +18,6 @@ date_added: "2024-07-25"
 
 Light green alien headband with 3 eye balls, an antenna, and 2 pointy ears.
 
-Dominant colors: Green, white with slight tint of green
-
 ## Cultural Context
 
 Alien headbands became a staple of rave and festival fashion from the 1990s onward, part of a broader tradition of playful, extraterrestrial-themed accessories embraced by electronic music subcultures. The aesthetic connects to themes of otherness, psychedelic experience, and sci-fi futurism prevalent in dance music culture.
@@ -32,8 +30,7 @@ Raves have always been a little alien — this headband is the kind of weird par
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Green, white with slight tint of green
 **Archetype:** Milady
 **Swag Score:** 3
 **Date Added:** 2024-07-25

@@ -18,8 +18,6 @@ date_added: "2024-06-28"
 
 Plain tight-fitting black jacket with leathery texture and white v-neck underneath.
 
-Dominant colors: Black, white
-
 ## Cultural Context
 
 In Chicago, where house music emerged from Black, urban communities at venues like the Warehouse, leather jackets were a staple for club-goers, blending punk’s edge with the city’s harsh winters.
@@ -32,8 +30,7 @@ The leather jacket was standard issue at Chicago's early house clubs, blending p
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Black, white
 **Archetype:** Chicago Detroit
 **Swag Score:** 3
 **Date Added:** 2024-06-28

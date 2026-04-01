@@ -16,8 +16,6 @@ date_added: "2024-07-10"
 
 a silver ring with yellow carvings of a triskelon; 3 spirals connected in the center.
 
-Dominant colors: dark silver, yellow
-
 ## Cultural Context
 
 The triskelion is a three-armed spiral symbol found across Celtic, Greek, and Sicilian traditions, representing cycles of movement and progress. Its spiral form echoes the collection's recurring spiral motif and the Spiral Tribe lineage.
@@ -30,8 +28,7 @@ An ancient triple-spiral symbol that appears across Celtic, Greek, and Sicilian 
 
 ---
 
-## Attribution
-
+**Dominant Colors:** dark silver, yellow
 **Swag Score:** 3
 **Date Added:** 2024-07-10
 **Introduced By:** Jani / Gods

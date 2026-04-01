@@ -17,8 +17,6 @@ date_added: "2023-11-28"
 
 Thick swirl / spiral earring in black with white swirly tribal line-art on them.
 
-Dominant colors: Black, white
-
 ## Cultural Context
 
 Spiral Tribe is a free party sound system and collective that emerged in the early 1990s in West London. Known for their nomadic lifestyle and anti-establishment ethos, they organized unlicensed raves and festivals, blending acid house
@@ -31,8 +29,7 @@ The tribal line-art on this spiral variant merges the Spiral Tribe reference wit
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Black, white
 **Archetype:** Freetekno
 **Ancestor:** [Aboriginal](../../../core-lore/ancestors/aboriginal.md)
 **Swag Score:** 3

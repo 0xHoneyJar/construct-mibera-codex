@@ -21,4 +21,3 @@ Variant placement of the triskele on the hand -- see the primary triskele entry 
 
 ---
 
-## Attribution

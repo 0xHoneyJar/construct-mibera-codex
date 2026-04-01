@@ -28,7 +28,5 @@ Dazed and disoriented — crossed eyes capture the sensory overload of the dance
 
 ---
 
-## Attribution
-
 **Date Added:** 2024-06-03
 **Introduced By:** Gumi

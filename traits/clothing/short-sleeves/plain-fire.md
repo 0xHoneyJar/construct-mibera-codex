@@ -16,8 +16,6 @@ image: "https://mibera.s3.amazonaws.com/traits/SS1_plain_fire.webp"
 
 A simple plain shirt with the Fire element color overlay.
 
-Dominant colors: Red, orange, warm tones.
-
 ## Cultural Context
 
 The Plain shirts are element-colored base garments that let the Mibera's elemental alignment show through their clothing. Plain Fire uses the collection's Fire element palette, bringing warmth and intensity through color alone. With 77 wearers across multiple archetypes and ancestors, it functions as the heated counterpart to the cooler elemental plain shirts.
@@ -30,7 +28,6 @@ Elemental plain shirts are the collection's baseline clothing, letting element c
 
 ---
 
-## Attribution
-
+**Dominant Colors:** Red, orange, warm tones.
 **Swag Score:** 1
 **Date Added:** 2025-02-24

@@ -15,8 +15,6 @@ date_added: "2024-06-22"
 
 a voluminous, rounded hairstyle in teal, with smooth, layered texture and sharp-flat outward-curving edges at the end.
 
-Dominant colors: light vibrant teal.
-
 ## Cultural Context
 
 The short flared style is a voluminous, rounded cut with smooth layered texture and sharp, flat outward-curving edges at the ends. The flared tips create a retro-futuristic silhouette that references 1960s space-age fashion and the mod aesthetic, updated with contemporary color palettes.
@@ -29,7 +27,6 @@ Retro-futuristic flair — the flared tips reference space-age mod aesthetics up
 
 ---
 
-## Attribution
-
+**Dominant Colors:** light vibrant teal.
 **Date Added:** 2024-06-22
 **Introduced By:** Gumi

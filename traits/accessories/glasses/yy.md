@@ -30,8 +30,6 @@ Yohji Yamamoto is the designer for people who think fashion should ask questions
 
 ---
 
-## Attribution
-
 **Archetype:** Milady
 **Swag Score:** 3
 **Date Added:** 2024-06-17

@@ -20,4 +20,3 @@ A piece of the collection's own history — the OG blonde is preserved as a nod 
 
 ---
 
-## Attribution
