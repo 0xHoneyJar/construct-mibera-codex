@@ -18,7 +18,7 @@ Earring with a white flower with pointed petals and 2 leaves.
 
 ## Cultural Context
 
-Flower motifs have been associated with counterculture since the 1960s flower power movement, which promoted peace and nonviolence. In rave culture, floral accessories became part of the festival aesthetic, often seen at events like outdoor trance gatherings and free parties. The 'Bera' prefix ties this to the Berachain ecosystem's bear-themed identity.
+An earring based on flower patterns seen in the Bong Bear collection.
 
 <!-- justification
 ## Justification

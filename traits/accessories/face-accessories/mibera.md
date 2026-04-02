@@ -20,7 +20,7 @@ Writing of ‘MIBERA’ in all capital letters.
 
 ## Cultural Context
 
-The word MIBERA is the name of the collection itself, a portmanteau that merges music subculture identity with the Berachain ecosystem. Writing the project name directly on a character's face is a self-referential move common in PFP collections, functioning as both branding and in-world identity. It is the highest swag-score face accessory in the Milady archetype, reflecting its status as a project-specific marker.
+MIBERA is the name of the collection itself.
 
 <!-- justification
 ## Justification

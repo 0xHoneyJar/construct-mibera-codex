@@ -18,7 +18,7 @@ Two balls (studs) in bright blue linear in placement to one another.
 
 ## Cultural Context
 
-Bera Baddies is a community-driven project led and focused on providing a supportive and exclusive space for the female in the Berachain ecosystem.
+Berabaddies is a women-centric project within the Berachain ecosystem. These earrings exist in the OG Baddie head assets.
 
 <!-- justification
 ## Justification

@@ -18,7 +18,7 @@ eyes in steady teddy’s style
 
 ## Cultural Context
 
-Teddy eyes reference the button-eye aesthetic of stuffed teddy bears, with simple round shapes in black and grey. The teddy bear connection carries special resonance in the Berachain ecosystem, where bear iconography is foundational. Button eyes on a humanoid character create an uncanny, doll-like quality that bridges the cute and the unsettling.
+Eyes in the style of the Steady Teddy NFT collection on Berachain.
 
 <!-- justification
 ## Justification

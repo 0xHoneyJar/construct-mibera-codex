@@ -18,7 +18,7 @@ Ski mask in darker shades of brown with curved ears and holes across the eyes-pa
 
 ## Cultural Context
 
-Ski masks (balaclavas) have a long history in both utilitarian and countercultural contexts, from military use to hip-hop culture to UK drill music. In the Berachain ecosystem, the bear-eared ski mask became a recognizable community symbol, merging crypto pseudonymity with the visual language of underground music scenes.
+Ski masks are a good way to conceal anonymity, something important within crypto and sometimes at raves.
 
 <!-- justification
 ## Justification

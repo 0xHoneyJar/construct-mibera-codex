@@ -18,7 +18,7 @@ a pair of swirly yellow eyes that look like they’re made up of honey.
 
 ## Cultural Context
 
-Honey swirl eyes feature a golden, spiraling pattern that evokes liquid honey being stirred or poured. The motif directly references the Berachain ecosystem's HONEY token and bear-themed identity. The swirl pattern combines the hypnotic quality of spiral eyes with the warm golden tones of the ecosystem's signature substance.
+A swirl of honey, tying into the spiral themes within Mibera.
 
 <!-- justification
 ## Justification

@@ -20,7 +20,7 @@ Bee mask, portrayed by thick net in brown and transparent milky white cover over
 
 ## Cultural Context
 
-Beekeeping veils and masks are among the oldest protective garments in agriculture, with depictions dating back to ancient Egypt. The DIY construction of this mask echoes both the handmade ethos of underground music scenes and the bee/honey motifs central to the Berachain ecosystem, where The Honey Jar (THJ) serves as a core community hub.
+Beekeeping veils and masks are among the oldest protective garments in agriculture, with depictions dating back to ancient Egypt.
 
 <!-- justification
 ## Justification

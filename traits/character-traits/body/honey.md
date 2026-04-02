@@ -17,7 +17,7 @@ Honey skin, a warm medium-light-toned shade with rich, golden undertones. A hint
 
 ## Cultural Context
 
-Honey as a skin tone describes a warm, medium-light shade with rich golden undertones reminiscent of the natural substance. The term carries particular significance in the Berachain ecosystem, where HONEY is a core identity marker and tokenomic element. Golden-amber complexions appear across a wide range of ethnic backgrounds globally.
+Honey as a skin tone describes a warm, medium-light shade with rich golden undertones.
 
 <!-- justification
 ## Justification

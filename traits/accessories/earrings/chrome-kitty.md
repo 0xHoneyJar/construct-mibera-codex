@@ -19,7 +19,7 @@ Earring with a hello kitty outline silver charm
 
 ## Cultural Context
 
-Baby Bera is an artist and a project based on the Berachain ecosystem creating music, NFTs, physical products, and a community. As for Hello Kitty, it is a globally iconic, mouthless, white cat with a red bow created by Sanrio in 1974 with commercial purpose and no clear backstory.
+This earring was suggested by Babybera. It is a silhouette of the Hello Kitty mascot, the globally iconic cat created by Sanrio in 1974.
 
 <!-- justification
 ## Justification
