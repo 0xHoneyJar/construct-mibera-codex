@@ -18,7 +18,7 @@ Circular shape in purple and blue with ‘GB’ on it and a liquidy texture drip
 
 ## Cultural Context
 
-GumBall Protocol is a Berachaain ecosystem project powering multiple dApps.
+GumBall Protocol is a Berachain ecosystem project powering multiple dApps.
 
 <!-- justification
 ## Justification
