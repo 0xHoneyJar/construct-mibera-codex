@@ -19,7 +19,7 @@ a plushie of a pale female character with big blue eyes, cat-like mouth, short b
 
 ## Cultural Context
 
-Kittykaki is a character from the Berachain ecosystem, depicted as a pale female figure with blue hair and cat-like features. The plushie format follows the collection's pattern of rendering ecosystem mascots as kawaii collectibles.
+Kittykaki is a mascot from Oekaki Connect, a project from the Milady ecosystem.
 
 <!-- justification
 ## Justification

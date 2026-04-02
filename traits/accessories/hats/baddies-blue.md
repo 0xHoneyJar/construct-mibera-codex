@@ -19,7 +19,7 @@ Blue cap with a graphic of a brown bear with red ribbon on one ear holding a whi
 
 ## Cultural Context
 
-Baddies is a Berachain ecosystem project featuring bear-themed characters with a cute, kawaii-influenced aesthetic. The teddy bear with a ribbon and flower reflects the soft, feminine styling common in both Milady-adjacent culture and the broader Berachain community aesthetic.
+Berabaddies is a women-centric project within the Berachain ecosystem.
 
 <!-- justification
 ## Justification

@@ -19,7 +19,7 @@ Soft bright pink cap with a graphic of a brown bear with red ribbon on one ear h
 
 ## Cultural Context
 
-Baddies is a Berachain ecosystem project featuring bear-themed characters with a cute, kawaii-influenced aesthetic. The pink variant of the Baddies cap uses the same teddy bear design as the blue version, with the bright pink colorway adding a more playful, Y2K-inspired energy.
+Berabaddies is a women-centric project within the Berachain ecosystem.
 
 <!-- justification
 ## Justification

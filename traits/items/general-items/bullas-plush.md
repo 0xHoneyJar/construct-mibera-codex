@@ -18,7 +18,7 @@ a plushie of a smiling bull with a big head in light brown, wearing a muted teal
 
 ## Cultural Context
 
-Bullas is an NFT collection within the Berachain ecosystem featuring anthropomorphic bulls. The bull is a natural counterpart to bears in financial market terminology, and the plush format follows the collection's pattern for rendering partner projects.
+Bullas is an NFT collection within the Berachain ecosystem featuring anthropomorphic bulls.
 
 <!-- justification
 ## Justification

@@ -18,7 +18,7 @@ a plushie of a bear character wearing a red balaclava with small devil horns, wh
 
 ## Cultural Context
 
-Steady is a project within the Berachain ecosystem. The bear character wears a devil-horned balaclava and an "OOGA" shirt, referencing the Ooga Booga meme central to Berachain culture. The outfit combines street style with ecosystem in-jokes.
+Steady is a mascot from the Steady Teddy NFT collection on Berachain. The "OOGA" shirt references the Ooga Booga meme central to Berachain culture.
 
 <!-- justification
 ## Justification

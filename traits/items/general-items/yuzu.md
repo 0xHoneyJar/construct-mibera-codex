@@ -18,7 +18,7 @@ a plushie of a rectangular-shaped red fox with black ears and legs, white tummy 
 
 ## Cultural Context
 
-Yuzu appears to be a project or character within the Berachain ecosystem or its partner network. The fox plushie form, distinct from the typical bear motif, suggests a separate identity within the broader community.
+Yuzu is a mascot from UNE.
 
 <!-- justification
 ## Justification
