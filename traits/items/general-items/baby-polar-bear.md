@@ -15,7 +15,7 @@ date_added: "2024-07-11"
 
 ## Visual Elements
 
-a plushie of white polar bear, medium to big in size.
+a stylized plushie of white polar bear which emphasizes round eyes
 
 ## Cultural Context
 
