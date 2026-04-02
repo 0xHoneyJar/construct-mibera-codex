@@ -18,7 +18,7 @@ a plushie of a grey bear with content expression, small pink round blushes
 
 ## Cultural Context
 
-Babybera is a project within the Berachain ecosystem. Its plush representation follows the collection's pattern of rendering ecosystem partners as physical toy-like objects, grounding digital projects in tangible form.
+Babybera is a project within the Berachain ecosystem. 
 
 <!-- justification
 ## Justification

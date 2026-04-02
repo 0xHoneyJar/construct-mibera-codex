@@ -15,11 +15,11 @@ date_added: "2024-12-09"
 
 ## Visual Elements
 
-a light grey fanny pack, with some graphics in a white rectangular shape on it and a black sling.
+a white fanny pack, with some graphics in a white rectangular shape on it and a black sling.
 
 ## Cultural Context
 
-Fanny packs (or bum bags in the UK) became a practical staple of rave culture because they keep hands free on the dance floor. The style fell out of mainstream fashion in the late 1990s but never left the free party scene, and has since cycled back into streetwear. This version is branded with Babybera, a Berachain community project.
+Fanny packs (or bum bags in the UK) became a practical staple of rave culture because they keep hands free on the dance floor. The style fell out of mainstream fashion in the late 1990s but never left the free party scene, and has since cycled back into streetwear. This version is branded with Babybera and Jani.
 
 <!-- justification
 ## Justification

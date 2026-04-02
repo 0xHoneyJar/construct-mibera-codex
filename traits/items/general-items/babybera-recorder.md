@@ -18,7 +18,7 @@ a tape recorder in bone-white, dark grey, and buttons in black except for one be
 
 ## Cultural Context
 
-Babybera is a Berachain ecosystem project. The tape recorder form factor connects to the collection's recurring motif of analog audio equipment, from cassette recorders to mixtapes, as tools of DIY media distribution.
+Babybera is a Berachain ecosystem project. The tape recorder form factor was a popular tool of DIY media distribution.
 
 <!-- justification
 ## Justification
