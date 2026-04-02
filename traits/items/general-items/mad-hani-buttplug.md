@@ -19,7 +19,7 @@ a yellow buttplug with bee sting shaped attachment; black stripes and a silver s
 
 ## Cultural Context
 
-References both the Berachain ecosystem's honey motif and the deliberately provocative, NSFW humor that runs through crypyo culture. It is the highest swag score (5) general item alongside the Remilia gun and diamond paws.
+References both the Berachain ecosystem's honey motif and the deliberately provocative, NSFW humor that runs through crypto culture. It is the highest swag score (5) general item alongside the Remilia gun and diamond paws.
 
 <!-- justification
 ## Justification

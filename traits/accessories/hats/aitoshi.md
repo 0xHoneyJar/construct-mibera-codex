@@ -20,7 +20,7 @@ Beanie in pastel teal with rounded ears and black graphic of a bear and chains.
 
 ## Cultural Context
 
-Aitoshi is a bear-themed character associated with the Berachain ecosystem, blending crypto culture with kawaii aesthetics. The bear ears on the beanie nod to Berachain's ursine branding, while the chains reference blockchain technology.
+This is a reference to an infamous rug.
 
 <!-- justification
 ## Justification

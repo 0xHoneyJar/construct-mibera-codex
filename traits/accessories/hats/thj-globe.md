@@ -19,7 +19,7 @@ Bone-white fisherman hat with strings. On it is a graphic of two bears holding a
 
 ## Cultural Context
 
-a Berachain-native community venture studio focused on building and supporting projects within the Berachain ecosystem. Their flagship project, Honeycomb NFT, is a perks aggregator that provides holders with whitelist access, airdrops, and other benefits across Berachain projects, acting as an "anti-hustle" entry point to the ecosystem. They also incubate DeFi and NFT projects like Henlo and ApiologyDAO, fostering community engagement, creativity, and liquidity through partnerships and public goods.
+The Honey Jar (THJ) is a Berachain-native community venture studio focused on building and supporting projects within the Berachain ecosystem. Their flagship project, Honeycomb NFT, is a perks aggregator that provides holders with whitelist access, airdrops, and other benefits across Berachain projects.
 
 <!-- justification
 ## Justification

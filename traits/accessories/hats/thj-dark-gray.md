@@ -19,7 +19,7 @@ Dark grey wide bucket hat with strings and a graphic of a bear in a relaxed pose
 
 ## Cultural Context
 
-The Honey Jar (THJ) is the central community hub and validator of the Berachain ecosystem, instrumental in building pre-launch community culture and ecosystem coordination. The dark gray bucket hat with THJ graffiti-style branding and a relaxed bear represents the premium tier of ecosystem representation — THJ at its most understated and exclusive.
+The Honey Jar (THJ) is a Berachain-native community venture studio focused on building and supporting projects within the Berachain ecosystem.
 
 <!-- justification
 ## Justification

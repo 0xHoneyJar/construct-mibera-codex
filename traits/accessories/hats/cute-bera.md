@@ -19,7 +19,7 @@ Brown hat in the shape of a bear face; a tiny face in the middle, big curved ear
 
 ## Cultural Context
 
-The Cute Bera hat features a bear character design that is part of the broader Berachain ecosystem aesthetic. Bear-themed headwear with exaggerated cute features — big ears, tiny face, extending paws — reflects the kawaii-influenced design language that pervades Berachain community culture.
+A Berachain bear hat. This felt fitting as a very Milady-aligned representation of a bear.
 
 <!-- justification
 ## Justification

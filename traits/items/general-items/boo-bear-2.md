@@ -19,7 +19,7 @@ a doll of a bear with dark brown fur wrapped in mummy’s bandages / costume.
 
 ## Cultural Context
 
-The second Boo Bear, wrapped in mummy bandages. Part of a four-piece horror-themed bear plushie series in the Berachain ecosystem items.
+Boo Bears were one of the rebases of the Bong Bears NFT collection on Berachain. This is the second Boo Bear, wrapped in mummy bandages.
 
 <!-- justification
 ## Justification

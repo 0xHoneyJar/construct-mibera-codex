@@ -14,7 +14,7 @@ Soft-looking bomber jacket in soft pink and creamy white. On it can be seen the 
 
 ## Cultural Context
 
-Baby Bera is an artist with impactful creation amongst the Berachain ecosystem, he also DJ in a few of the real-life events and raves held by Berachain in the past. His art ranges from music to physical objects.
+Babybera is a key member of the Mibera team and a Berachain ecosystem artist known for DJing at the chain's real-life events.
 
 <!-- justification
 ## Justification

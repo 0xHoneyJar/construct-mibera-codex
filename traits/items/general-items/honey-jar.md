@@ -19,7 +19,7 @@ a jar of honey / yellow liquid; closed with brown paper tied with white string t
 
 ## Cultural Context
 
-A jar of honey sealed with brown paper and string. Honey is a foundational symbol in the Berachain ecosystem, most prominently through The Honey Jar (THJ).
+A quaint, blunt representation of The Honey Jar (THJ) itself. Honey is a foundational symbol in the Berachain ecosystem.
 
 <!-- justification
 ## Justification
