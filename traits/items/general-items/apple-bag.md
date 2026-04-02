@@ -15,7 +15,7 @@ date_added: "2024-07-07"
 
 ## Visual Elements
 
-a bag in the realistic shape of apple with a brown sling.
+a bag in the realistic shape of a red apple with a green leaf, held by a brown sling.
 
 ## Cultural Context
 
