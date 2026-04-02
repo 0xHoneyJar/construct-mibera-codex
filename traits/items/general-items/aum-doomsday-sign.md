@@ -15,7 +15,7 @@ date_added: "2024-07-12"
 
 ## Visual Elements
 
-a big white sign with japanese scripture in black, held by the wooden stick attached to it.
+a big white sign with japanese scripture in black, held by a flat wooden stick attached to it.
 
 ## Cultural Context
 
