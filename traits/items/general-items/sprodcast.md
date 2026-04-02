@@ -18,7 +18,7 @@ a plushie of a blue creature with a funny face; sleepy eyes and a tongue out, we
 
 ## Cultural Context
 
-Sprodcast appears to be a podcast or media project within the Berachain community. The blue creature plushie with its sleepy expression and exaggerated fingers reflects the laid-back, absurdist tone common in crypto community media.
+Sprodcast is a collaboration between The HoneyCast and Sproto Gremlins.
 
 <!-- justification
 ## Justification

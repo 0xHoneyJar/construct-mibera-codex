@@ -20,7 +20,7 @@ a black cap with babybera graphic in the middle; a dark grey bear in relaxed pos
 
 ## Cultural Context
 
-BabyBera is a community project within the Berachain ecosystem, featuring a cartoon bear mascot. The project represents the playful, meme-driven culture that defines the Berachain community, where bear-themed branding is central to ecosystem identity.
+Babybera is a key member of the Mibera team.
 
 <!-- justification
 ## Justification

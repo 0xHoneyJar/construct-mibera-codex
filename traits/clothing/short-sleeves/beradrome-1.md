@@ -20,7 +20,7 @@ Black t-shirt with a beraland logo on it. A bear head with sparkly almond eyes w
 
 ## Cultural Context
 
-Beradrome is a decentralized exchange and liquidity hub in the Berachain ecosystem. The name is a portmanteau of Bera and Velodrome, referencing the cycling-themed DEX model. The bear head with a bike helmet reflects this cycling motif.
+Beradrome is a decentralized exchange and liquidity hub in the Berachain ecosystem. The name is a portmanteau of Bera and Velodrome.
 
 <!-- justification
 ## Justification

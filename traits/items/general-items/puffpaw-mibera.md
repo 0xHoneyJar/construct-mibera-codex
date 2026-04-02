@@ -18,7 +18,7 @@ a vaping device in gradient of black, blue, and dusky pink that’s branded “P
 
 ## Cultural Context
 
-Puffpaw is a vaping-related project within the Berachain ecosystem. This Mibera-branded variant features female characters on the device, representing the direct partnership between Puffpaw and the Mibera collection.
+Puffpaw is a vaping-related project within the Berachain ecosystem. This Mibera-branded variant features a few Mibera on the device.
 
 <!-- justification
 ## Justification

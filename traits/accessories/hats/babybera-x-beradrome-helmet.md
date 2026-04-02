@@ -18,7 +18,7 @@ a biking helmet in baby teal and pink, with black accent underneath.
 
 ## Cultural Context
 
-BabyBera and Beradrome are both projects in the Berachain ecosystem. Beradrome is a decentralized exchange (DEX) on Berachain, and this collaborative helmet merges the playful BabyBera aesthetic with Beradrome's identity. Cross-project collaborations are common in the Berachain community, reflecting its tight-knit ecosystem culture.
+A collab between Babybera and Beradrome, both projects in the Berachain ecosystem. Beradrome is a decentralized exchange (DEX) on Berachain.
 
 <!-- justification
 ## Justification

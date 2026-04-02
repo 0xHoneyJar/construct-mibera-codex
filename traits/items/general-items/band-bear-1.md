@@ -17,7 +17,7 @@ image: "https://mibera.s3.amazonaws.com/traits/SS3_milady_Band%20Bear%201.webp"
 
 ## Cultural Context
 
-Band Bears is a collection within the Berachain ecosystem. Bear-themed collectibles are a core visual element of the Berachain community, which takes its name and mascot from the bear.
+Band Bears were one of the rebases of the Bong Bears NFT collection on Berachain.
 
 <!-- justification
 ## Justification

@@ -18,7 +18,7 @@ a dark navy blue vaping device that’s branded “PUFFPAW” with a sticker of 
 
 ## Cultural Context
 
-Puffpaw is a vaping-related project within the Berachain ecosystem. The "Smokey" variant features a man with a bear head, blending human and ursine imagery consistent with the broader Berachain visual language.
+Puffpaw is a vaping-related project within the Berachain ecosystem. The "Smokey" variant features Smokey the Bera, the founder of Berachain.
 
 <!-- justification
 ## Justification

@@ -18,7 +18,7 @@ a plushie of manic looking bear / animal, in different shades of pink, wearing a
 
 ## Cultural Context
 
-Smilee is a DeFi protocol within the Berachain ecosystem. The deliberately transgressive plushie design, with its manic expression and provocative accessories, reflects the boundary-pushing humor that characterizes many Berachain community projects.
+Smilee is a DeFi protocol within the Berachain ecosystem.
 
 <!-- justification
 ## Justification

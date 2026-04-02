@@ -18,7 +18,7 @@ a baddie’s head plushie in warm pink color; a female bear face with feminine e
 
 ## Cultural Context
 
-Baddies is an NFT collection within the Berachain ecosystem featuring feminine bear characters with distinctive masks. The pink color variant provides visual differentiation within the Baddie lineup, with the same design elements: feminine eyes, heart nose, red lips, and ear ribbon.
+Berabaddies is a women-centric project within the Berachain ecosystem.
 
 <!-- justification
 ## Justification

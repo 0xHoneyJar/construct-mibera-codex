@@ -19,7 +19,7 @@ Milky white t-shirt with a cute bear wearing a purple durag and red jacket and J
 
 ## Cultural Context
 
-"Ohabera" was a slogan of Project Puru-Puru. The character on the shirt is "APAC Jani" — a mascot version of Jani (Mibera's founder) rendered as a kawaii bear in a purple durag and red jacket, with Japanese text in a speech bubble. The mascot design bridges Japanese internet culture with the Berachain ecosystem's bear identity.
+"Ohabera" was a slogan of Project Purupuru. The character on the shirt is "APAC Jani" — a mascot version of Jani (Mibera's founder) rendered as a kawaii bear in a purple durag and red jacket, with Japanese text in a speech bubble.
 
 <!-- justification
 ## Justification

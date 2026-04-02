@@ -18,7 +18,7 @@ a silver ring with a square magenta / pink gem.
 
 ## Cultural Context
 
-apDAO is a decentralized autonomous organization operating within the Berachain ecosystem. This second ring variant, distinguished by its pink gem, provides visual differentiation for a different tier or role within the DAO's membership structure.
+apDAO is a decentralized autonomous organization operating within the Berachain ecosystem.
 
 <!-- justification
 ## Justification

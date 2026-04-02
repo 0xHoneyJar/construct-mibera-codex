@@ -19,7 +19,7 @@ Pale purple t-shirt with a big graphic of Beraland logo, a white bear head in th
 
 ## Cultural Context
 
-Beraland is a community project in the Berachain ecosystem. The globe-shaped bear head logo suggests a metaverse or virtual world ambition, common among Berachain community projects that blend gaming with DeFi.
+Beraland is a community project in the Berachain ecosystem. It was one of the main onboarding points into the Berachain ecosystem at one point.
 
 <!-- justification
 ## Justification

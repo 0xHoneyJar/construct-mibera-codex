@@ -20,7 +20,7 @@ Brown cap with bear face, sparkly eyes, and bear ears
 
 ## Cultural Context
 
-The Bera cap is a direct reference to Berachain, the Layer 1 blockchain where the Mibera collection lives. The bear face design with sparkly eyes reflects the playful, community-driven branding that defines Berachain's culture, where bear imagery is central to ecosystem identity.
+The Bera cap is a direct reference to Berachain, the Layer 1 blockchain where the Mibera collection lives.
 
 <!-- justification
 ## Justification

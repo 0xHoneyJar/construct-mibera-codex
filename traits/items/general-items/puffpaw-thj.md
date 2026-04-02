@@ -18,7 +18,7 @@ a yellow vaping device that’s branded “PUFFPAW” with a sticker of a black 
 
 ## Cultural Context
 
-Puffpaw is a vaping-related project and The Honey Jar (THJ) is a central community hub, both within the Berachain ecosystem. This variant combines both brands, representing the inter-project collaborations common in the ecosystem.
+Puffpaw is a vaping-related project and The Honey Jar (THJ) is a central community hub, both within the Berachain ecosystem.
 
 <!-- justification
 ## Justification

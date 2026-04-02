@@ -18,7 +18,7 @@ a golden ring with rounded shape and no charm.
 
 ## Cultural Context
 
-apDAO is a decentralized autonomous organization operating within the Berachain ecosystem. DAO rings function as membership or governance tokens in physical artifact form, a common motif in crypto communities that echoes older traditions of signet rings as markers of allegiance.
+apDAO is a decentralized autonomous organization operating within the Berachain ecosystem.
 
 <!-- justification
 ## Justification

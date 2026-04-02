@@ -18,7 +18,7 @@ a plushie of a yellow penguin wearing an orange-y shirt with white triangles sca
 
 ## Cultural Context
 
-Luca is a character from the Pudgy Penguins NFT collection, which expanded into physical plush toys. This item represents cross-community ties between the Pudgy Penguins and Berachain ecosystems.
+Luca is the founder of Pudgy Penguins. This is his Penguin representation.
 
 <!-- justification
 ## Justification

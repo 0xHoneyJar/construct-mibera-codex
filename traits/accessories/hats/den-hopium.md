@@ -19,7 +19,9 @@ Vibrant green cap with the letter “L” inside of a white circle in the middle
 
 ## Cultural Context
 
-The Den is a Berachain ecosystem community and project. "Hopium" is crypto slang for irrational optimism about token prices or project outcomes — a blend of "hope" and "opium." The green cap with the "L" logo channels the always-bullish energy of dedicated community members who never stop believing.
+Den Hopium (also known as Who is Mike Jones?) is a community member in the Mibera community known for making lots of high quality memes. The green Luigi hat seen here is a staple of his representation.
+
+**Links:** [Twitter/X](https://x.com/DenHopium)
 
 <!-- justification
 ## Justification

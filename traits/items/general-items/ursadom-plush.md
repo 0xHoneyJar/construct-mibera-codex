@@ -19,7 +19,7 @@ a plain white plushie in the shape of a bear sitting down, with ‘O’ as one e
 
 ## Cultural Context
 
-A plain white bear plushie with an "O" for one eye and an "X" for the other. The name "Ursadom" combines "ursa" (Latin for bear) with "dom" (domain/dominion). The minimalist X-O face is a common design shorthand in plush toys and mascot culture.
+Ursadom is a project within the Berachain ecosystem. This is a plush representation of their mascot.
 
 <!-- justification
 ## Justification

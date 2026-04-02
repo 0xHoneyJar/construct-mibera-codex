@@ -19,7 +19,7 @@ White t-shirt with a print of a cartoon-style bear head in soft orange.
 
 ## Cultural Context
 
-Ruggy appears to be a bear-themed character from the Berachain ecosystem, rendered in a soft, cartoon style. The name plays on rug (as in rug pull) while the cute bear graphic softens the crypto slang into something approachable and mascot-like.
+Ruggy is a strange and enigmatic silly lil mascot who appears in the THJ community Discord server.
 
 <!-- justification
 ## Justification
