@@ -10,7 +10,7 @@ date_added: "2025-01-10"
 
 ## Visual Elements
 
-a handful of brittly sprig / plant
+a brittle green sprig
 
 ## Cultural Context
 
