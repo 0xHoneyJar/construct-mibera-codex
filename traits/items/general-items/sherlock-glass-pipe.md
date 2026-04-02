@@ -15,7 +15,7 @@ date_added: "2024-07-23"
 
 ## Visual Elements
 
-a barely visible glass pipe, medium to big in size.
+a barely visible glass pipe with a curved stem.
 
 ## Cultural Context
 

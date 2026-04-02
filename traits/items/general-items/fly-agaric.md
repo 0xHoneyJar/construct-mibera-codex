@@ -15,7 +15,7 @@ date_added: "2024-12-09"
 
 ## Visual Elements
 
-a mushroom, medium in size, with white stem and red head with white dots on it.
+a mushroom with a white stem and red cap with white dots.
 
 ## Cultural Context
 

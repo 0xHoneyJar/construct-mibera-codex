@@ -15,7 +15,7 @@ date_added: "2024-07-06"
 
 ## Visual Elements
 
-a big mushroom; light creamy white body and a light brown head.
+a mushroom with a light creamy white body and a light brown cap.
 
 ## Cultural Context
 

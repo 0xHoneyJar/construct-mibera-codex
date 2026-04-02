@@ -15,7 +15,7 @@ date_added: "2024-07-16"
 
 ## Visual Elements
 
-a glass lab flask, medium to big in size with what looks like rust in red copper color.
+a glass lab flask with what looks like rust in red copper color.
 
 ## Cultural Context
 

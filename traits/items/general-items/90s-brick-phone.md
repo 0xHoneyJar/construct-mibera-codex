@@ -15,7 +15,7 @@ date_added: "2024-07-10"
 
 ## Visual Elements
 
-an old-school phone; big in size with an antenna and buttons.
+an old-school phone with an antenna and buttons.
 
 ## Cultural Context
 
