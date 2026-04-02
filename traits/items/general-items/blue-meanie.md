@@ -14,7 +14,7 @@ image: "https://mibera.s3.amazonaws.com/traits/SS3_acidhouse_Blue%20Meanie.webp"
 
 ## Visual Elements
 
-
+a small light blue mushroom held by its thin stem
 ## Cultural Context
 
 Blue Meanie can refer to either a potent Psilocybe cubensis strain or Panaeolus cyanescens, a distinct species. The name nods to the Beatles' Yellow Submarine, connecting psychedelic mushroom culture to the psychedelic music era.

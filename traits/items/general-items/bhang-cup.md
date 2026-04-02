@@ -9,7 +9,7 @@ date_added: "2024-12-09"
 
 ## Visual Elements
 
-a grey cup with bright clear liquid.
+a white cup with a green liquid.
 
 ## Cultural Context
 

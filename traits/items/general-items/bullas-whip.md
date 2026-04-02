@@ -18,7 +18,7 @@ a plain black long folded whip
 
 ## Cultural Context
 
-The whip is associated with the Bullas NFT collection on Berachain. Bulls and whips have a long visual association in rodeo and ranching culture, making this a natural accessory for the bull-themed partner collection.
+The whip is associated with the Bullas NFT collection on Berachain. Bulls and whips have a long visual association in rodeo and ranching culture, making this a natural accessory for the bull-themed partner collection. This is also a direct reference to the bullas game, which involves whipping a target of the user's choosing. 
 
 <!-- justification
 ## Justification

@@ -15,7 +15,7 @@ date_added: "2024-06-05"
 
 ## Visual Elements
 
-a smoking blunt in dark brown.
+a blunt in dark brown with a smoking, orange tip
 
 ## Cultural Context
 
