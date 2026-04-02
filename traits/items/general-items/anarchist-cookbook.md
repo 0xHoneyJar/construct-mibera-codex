@@ -14,7 +14,7 @@ date_added: "2024-07-07"
 
 ## Visual Elements
 
-a black book with white text that reads “ANARCHIST COOKBOOK”, and significantly smaller red text under it.
+a black book with white text that reads “THE ANARCHIST COOKBOOK”, and significantly smaller red text under it.
 
 ## Cultural Context
 
