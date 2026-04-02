@@ -15,7 +15,7 @@
 |------|------|-------|--------|
 | Mibera | miberas/{0001-10000}.md | 10,000 | YAML frontmatter + Markdown table |
 | Trait | traits/**/*.md | 1,337 | YAML frontmatter |
-| Drug | drugs-detailed/*.md | 78 | YAML frontmatter |
+| Drug | traits/overlays/molecules/*.md | 78 | YAML frontmatter |
 | Ancestor | core-lore/ancestors/*.md | 33 | YAML frontmatter |
 | Tarot Card | core-lore/tarot-cards/*.md | 78 | YAML frontmatter |
 | Birthday Era | birthdays/*.md | 11 | Structured headings |

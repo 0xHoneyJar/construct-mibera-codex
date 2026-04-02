@@ -26,7 +26,7 @@ The pairing with Justice is pharmacologically elegant. Lamotrigine is, in chemic
 
 ## Drug Association
 
-**Drug:** [Lamotrigine](../../drugs-detailed/lamotrigine.md)
+**Drug:** [Lamotrigine](../../../traits/overlays/molecules/lamotrigine.md)
 
 **Molecule:** C9H7Cl2N5
 

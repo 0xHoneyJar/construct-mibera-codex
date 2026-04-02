@@ -73,7 +73,7 @@ The Oracle lives *in the repo* as markdown files. No infrastructure. No hosted s
 - The 78-card drug-tarot mapping system
 - How textural signals color identity
 
-**Key data sources**: `drugs-detailed/`, `core-lore/tarot-cards/`, `core-lore/drug-tarot-system.md`
+**Key data sources**: `traits/overlays/molecules/`, `core-lore/tarot-cards/`, `core-lore/drug-tarot-system.md`
 
 **Redirects to**: Book of Lore (for archetype context), Book of Identity (for how signals synthesize in a specific Mibera)
 

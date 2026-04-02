@@ -24,7 +24,7 @@ The pairing captures both the upright and shadow dimensions of the card. Cocaine
 
 ## Drug Association
 
-**Drug:** [Cocaine](../../drugs-detailed/cocaine.md)
+**Drug:** [Cocaine](../../../traits/overlays/molecules/cocaine.md)
 
 **Molecule:** C17H21NO4
 

@@ -24,7 +24,7 @@ The shadow pairing is equally precise. Weed's greatest cultural criticism is tha
 
 ## Drug Association
 
-**Drug:** [Weed](../../drugs-detailed/weed.md)
+**Drug:** [Weed](../../../traits/overlays/molecules/weed.md)
 
 **Molecule:** C21H30O2
 

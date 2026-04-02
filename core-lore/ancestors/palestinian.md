@@ -24,9 +24,9 @@ locations: Palestine, Gaza, West Bank, diaspora communities worldwide
 
 ## Drug Connections
 
-**Modern:** [Dextroamphetamine](../../drugs-detailed/dextroamphetamine.md), [Methamphetamine](../../drugs-detailed/methamphetamine.md)
+**Modern:** [Dextroamphetamine](../../../traits/overlays/molecules/dextroamphetamine.md), [Methamphetamine](../../../traits/overlays/molecules/methamphetamine.md)
 
-**Ancient:** [Ephedra](../../drugs-detailed/ephedra.md)
+**Ancient:** [Ephedra](../../../traits/overlays/molecules/ephedra.md)
 
 ## Sources
 

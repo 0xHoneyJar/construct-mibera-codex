@@ -24,7 +24,7 @@ The connection extends to 2C-B's cultural position. It is a connoisseur's drug, 
 
 ## Drug Association
 
-**Drug:** [2C-B](../../drugs-detailed/2c-b.md)
+**Drug:** [2C-B](../../../traits/overlays/molecules/2c-b.md)
 
 **Molecule:** C10H14BrNO2
 

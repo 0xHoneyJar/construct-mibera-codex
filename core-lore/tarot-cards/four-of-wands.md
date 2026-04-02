@@ -24,7 +24,7 @@ The pairing with the Four of Wands is almost literal. MDA is the pharmacological
 
 ## Drug Association
 
-**Drug:** [MDA](../../drugs-detailed/mda.md)
+**Drug:** [MDA](../../../traits/overlays/molecules/mda.md)
 
 **Molecule:** C10H13NO2
 

@@ -24,7 +24,7 @@ The pairing connects on multiple levels. Ololiuqui is a seed, literally the begi
 
 ## Drug Association
 
-**Drug:** [Ololiuqui](../../drugs-detailed/ololiuqui.md)
+**Drug:** [Ololiuqui](../../../traits/overlays/molecules/ololiuqui.md)
 
 **Molecule:** C20H25N3O
 

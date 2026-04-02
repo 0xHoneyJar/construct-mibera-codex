@@ -57,7 +57,7 @@ All outputs are Markdown or JSON. All scripts are Bash. The codex must render in
 | Face Accessory | Link/None | Yes | Link or `None` |
 | Tattoo | Link/None | Yes | Link or `None` |
 | Item | Link/None | Yes | Link or `None` |
-| Drug | Link | Yes | `[St. John'S Wort](../drugs-detailed/st-johns-wort.md)` |
+| Drug | Link | Yes | `[St. John'S Wort](../traits/overlays/molecules/st-johns-wort.md)` |
 
 ### 2.2 Trait File (`traits/**/*.md`)
 
@@ -81,7 +81,7 @@ date_added: string  # Required — Human-readable date
 - Connections
 - Attribution
 
-### 2.3 Drug Entry (`drugs-detailed/*.md`)
+### 2.3 Drug Entry (`traits/overlays/molecules/*.md`)
 
 **Format**: YAML frontmatter + Markdown sections
 **Count**: 81 files (index + 80 drugs)
@@ -200,7 +200,7 @@ mibera-codex/
 ├── birthdays/
 │   ├── index.md
 │   └── {era}.md                 # 11 era files
-├── drugs-detailed/
+├── traits/overlays/molecules/
 │   ├── index.md
 │   └── {drug}.md                # 80 files
 ├── special-collections/
@@ -244,7 +244,7 @@ A plain-text file following the llms.txt convention. Provides a concise orientat
 
 - Mibera entries: miberas/0001.md through miberas/10000.md (Markdown tables)
 - Traits: traits/**/*.md (YAML frontmatter)
-- Drugs: drugs-detailed/*.md (YAML frontmatter)
+- Drugs: traits/overlays/molecules/*.md (YAML frontmatter)
 - Ancestors: core-lore/ancestors/*.md (YAML frontmatter)
 - Tarot cards: core-lore/tarot-cards/*.md (YAML frontmatter)
 - Birthday eras: birthdays/*.md (structured headings)
@@ -309,8 +309,8 @@ Directory-level index. Maps entity types to paths with counts and metadata:
       ]
     },
     "drug": {
-      "directory": "drugs-detailed/",
-      "index": "drugs-detailed/index.md",
+      "directory": "traits/overlays/molecules/",
+      "index": "traits/overlays/molecules/index.md",
       "count": 80,
       "format": "yaml_frontmatter"
     },

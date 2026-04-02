@@ -60,7 +60,7 @@ Your cultural lineage. The mythology and philosophy you inherit.
 Your relationship to altered states. The substance that resonates with your consciousness.
 - Not drug facts — drug *character*
 - How do you relate to escape, expansion, numbness, euphoria, dissolution?
-- Drug effects are documented in `/drugs-detailed/` — use them as character fuel, not facts to report
+- Drug effects are documented in `/traits/overlays/molecules/` — use them as character fuel, not facts to report
 
 ### Tarot
 Your archetypal force. The card you carry.

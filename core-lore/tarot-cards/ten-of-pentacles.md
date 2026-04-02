@@ -27,7 +27,7 @@ The pairing also connects through deep time. Mushrooms are among the oldest orga
 
 ## Drug Association
 
-**Drug:** [Mushrooms](../../drugs-detailed/mushrooms.md)
+**Drug:** [Mushrooms](../../../traits/overlays/molecules/mushrooms.md)
 
 **Molecule:** C12H17N2O4P
 

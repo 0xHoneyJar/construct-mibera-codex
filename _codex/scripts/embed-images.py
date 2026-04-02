@@ -67,7 +67,7 @@ def build_slug_index():
     index = {}
     dirs_to_walk = [
         CODEX_ROOT / "traits",
-        CODEX_ROOT / "drugs-detailed",
+        CODEX_ROOT / "traits/overlays/molecules",
         CODEX_ROOT / "vending-machine",
     ]
     for d in dirs_to_walk:
@@ -168,7 +168,7 @@ def parse_image_filename(filename):
         )
         if all_ancestors:
             drug_name = parts[-1]
-            return (slugify(drug_name), "drugs-detailed", "drug", None)
+            return (slugify(drug_name), "traits/overlays/molecules", "drug", None)
 
     # --- Non-SS archetype + trait (2 components, glasses etc.) ---
     if len(parts) == 2 and parts[0].lower() in ARCHETYPES:
@@ -384,14 +384,14 @@ def main():
         # Resolve to codex file
         target = None
 
-        if dir_hint == "drugs-detailed":
+        if dir_hint == "traits/overlays/molecules":
             target = slug_index.get(slug)
-            if target and "drugs-detailed" not in str(target):
+            if target and "traits/overlays/molecules" not in str(target):
                 # Wrong directory - might be a trait with same name
                 target = None
             if not target:
                 # Try direct path
-                p = CODEX_ROOT / "drugs-detailed" / f"{slug}.md"
+                p = CODEX_ROOT / "traits/overlays/molecules" / f"{slug}.md"
                 if p.exists():
                     target = p
         elif dir_hint == "elements":

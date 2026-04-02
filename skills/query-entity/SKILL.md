@@ -20,7 +20,7 @@ Read `miberas/{NNNN}.md` (zero-padded 4 digits: #42 -> `miberas/0042.md`)
 3. Read `traits/{subcategory}/{slug}.md`
 
 ### Drug by name
-Read `drugs-detailed/{slug}.md` (e.g. "MDMA" -> `drugs-detailed/mdma.md`)
+Read `traits/overlays/molecules/{slug}.md` (e.g. "MDMA" -> `traits/overlays/molecules/mdma.md`)
 
 ### Ancestor by name
 Read `core-lore/ancestors/{slug}.md` (e.g. "Greek" -> `core-lore/ancestors/greek.md`)

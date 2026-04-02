@@ -22,9 +22,9 @@ locations: Greece, Mediterranean
 
 ## Drug Connections
 
-**Modern:** [Poppers](../../drugs-detailed/poppers.md), [Scopolamine](../../drugs-detailed/scopolamine.md), [Shroom Tea](../../drugs-detailed/shroom-tea.md), [Sertraline](../../drugs-detailed/sertraline.md)
+**Modern:** [Poppers](../../../traits/overlays/molecules/poppers.md), [Scopolamine](../../../traits/overlays/molecules/scopolamine.md), [Shroom Tea](../../../traits/overlays/molecules/shroom-tea.md), [Sertraline](../../../traits/overlays/molecules/sertraline.md)
 
-**Ancient:** [Kykeon](../../drugs-detailed/kykeon.md), [Nymphaea Caerulea](../../drugs-detailed/nymphaea-caerulea.md), [Henbane](../../drugs-detailed/henbane.md), [St John's Wort](../../drugs-detailed/st-johns-wort.md), [Mandrake](../../drugs-detailed/mandrake.md)
+**Ancient:** [Kykeon](../../../traits/overlays/molecules/kykeon.md), [Nymphaea Caerulea](../../../traits/overlays/molecules/nymphaea-caerulea.md), [Henbane](../../../traits/overlays/molecules/henbane.md), [St John's Wort](../../../traits/overlays/molecules/st-johns-wort.md), [Mandrake](../../../traits/overlays/molecules/mandrake.md)
 
 ## Sources
 

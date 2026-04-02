@@ -24,7 +24,7 @@ The deeper connection is in the concept of spiritual freedom itself. DMT, presen
 
 ## Drug Association
 
-**Drug:** [Arundo Donax](../../drugs-detailed/arundo-donax.md)
+**Drug:** [Arundo Donax](../../../traits/overlays/molecules/arundo-donax.md)
 
 **Molecule:** C12H16N2
 

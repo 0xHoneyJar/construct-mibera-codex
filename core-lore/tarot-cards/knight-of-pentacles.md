@@ -26,7 +26,7 @@ The entrepreneurial connection runs deep in the history. Tea was the world's fir
 
 ## Drug Association
 
-**Drug:** [Tea](../../drugs-detailed/tea.md)
+**Drug:** [Tea](../../../traits/overlays/molecules/tea.md)
 
 **Molecule:** C8H10N4O2
 

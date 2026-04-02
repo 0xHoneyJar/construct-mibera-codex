@@ -26,7 +26,7 @@ The pairing with The Star is about the expansion of perception beyond ordinary b
 
 ## Drug Association
 
-**Drug:** [LSD](../../drugs-detailed/lsd.md)
+**Drug:** [LSD](../../../traits/overlays/molecules/lsd.md)
 
 **Molecule:** C20H25N3O
 

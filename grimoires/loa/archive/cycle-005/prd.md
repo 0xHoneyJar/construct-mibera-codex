@@ -146,8 +146,8 @@ After modifying frontmatter, regenerate:
 | Artifact | Path |
 |----------|------|
 | Tag generation script | `_scripts/generate-tags.py` |
-| Updated drug files (5 YAML fixes) | `drugs-detailed/*.md` |
-| Updated drug files (78 with tags) | `drugs-detailed/*.md` |
+| Updated drug files (5 YAML fixes) | `traits/overlays/molecules/*.md` |
+| Updated drug files (78 with tags) | `traits/overlays/molecules/*.md` |
 | Updated ancestor files (33 with tags) | `core-lore/ancestors/*.md` |
 | Updated tarot card files (78 with tags) | `core-lore/tarot-cards/*.md` |
 | Regenerated graph | `_data/graph.json` |

@@ -24,7 +24,7 @@ The connection deepens when you consider tobacco's pharmacology: a simultaneous 
 
 ## Drug Association
 
-**Drug:** [Tobacco](../../drugs-detailed/tobacco.md)
+**Drug:** [Tobacco](../../../traits/overlays/molecules/tobacco.md)
 
 **Molecule:** C10H14N2
 

@@ -71,7 +71,7 @@ Your cultural lineage. The mythology and philosophy you inherit.
 Your relationship to altered states. The substance that resonates with your consciousness.
 - Not drug facts — drug *character*
 - How do you relate to escape, expansion, numbness, euphoria, dissolution?
-- Drug effects are documented in `/drugs-detailed/` — use them as character fuel, not facts to report
+- Drug effects are documented in `/traits/overlays/molecules/` — use them as character fuel, not facts to report
 
 ### Tarot
 Your archetypal force. The card you carry.
@@ -687,10 +687,10 @@ For complete card-by-card mappings:
 → [Tarot Cards](tarot-cards/index.md)
 
 For drug pairing details (Ancient ↔ Modern connections):
-→ [Drug Pairings](../drugs-detailed/drug-pairings.md)
+→ [Drug Pairings](../traits/overlays/molecules/drug-pairings.md)
 
 For individual drug profiles with molecules, effects, and history:
-→ [Drugs](../drugs-detailed/index.md)
+→ [Drugs](../traits/overlays/molecules/index.md)
 
 ---
 
@@ -841,9 +841,9 @@ Drugs Representations / Associated
 
 ## Drug Connections
 
-**Modern:** [LSD](../../drugs-detailed/lsd.md), [Nicotine](../../drugs-detailed/nicotine.md), [DMT](../../drugs-detailed/dmt.md)
+**Modern:** [LSD](../../traits/overlays/molecules/lsd.md), [Nicotine](../../traits/overlays/molecules/nicotine.md), [DMT](../../traits/overlays/molecules/dmt.md)
 
-**Ancient:** [Kava](../../drugs-detailed/kava.md), [Acacia](../../drugs-detailed/acacia.md), [Pituri](../../drugs-detailed/pituri.md), [Ancestral Trance](../../drugs-detailed/ancestral-trance.md)
+**Ancient:** [Kava](../../traits/overlays/molecules/kava.md), [Acacia](../../traits/overlays/molecules/acacia.md), [Pituri](../../traits/overlays/molecules/pituri.md), [Ancestral Trance](../../traits/overlays/molecules/ancestral-trance.md)
 
 ## Sources
 
@@ -888,9 +888,9 @@ Drugs Representations / Associated
 
 ## Drug Connections
 
-**Modern:** [Caffeine](../../drugs-detailed/caffeine.md), [Scopolamine](../../drugs-detailed/scopolamine.md), [MMDA](../../drugs-detailed/mmda.md)
+**Modern:** [Caffeine](../../traits/overlays/molecules/caffeine.md), [Scopolamine](../../traits/overlays/molecules/scopolamine.md), [MMDA](../../traits/overlays/molecules/mmda.md)
 
-**Ancient:** [Tobacco](../../drugs-detailed/tobacco.md), [Nutmeg](../../drugs-detailed/nutmeg.md), [Coffee](../../drugs-detailed/coffee.md), [Mandrake](../../drugs-detailed/mandrake.md)
+**Ancient:** [Tobacco](../../traits/overlays/molecules/tobacco.md), [Nutmeg](../../traits/overlays/molecules/nutmeg.md), [Coffee](../../traits/overlays/molecules/coffee.md), [Mandrake](../../traits/overlays/molecules/mandrake.md)
 
 ## Sources
 
@@ -932,9 +932,9 @@ Drugs Representations / Associated
 
 ## Drug Connections
 
-**Modern:** [Cocaine](../../drugs-detailed/cocaine.md)
+**Modern:** [Cocaine](../../traits/overlays/molecules/cocaine.md)
 
-**Ancient:** [Coca](../../drugs-detailed/coca.md)
+**Ancient:** [Coca](../../traits/overlays/molecules/coca.md)
 
 ## Sources
 
@@ -976,9 +976,9 @@ Drugs Representations / Associated
 
 ## Drug Connections
 
-**Modern:** [Weed](../../drugs-detailed/weed.md), [THC Edibles](../../drugs-detailed/thc-edibles.md)
+**Modern:** [Weed](../../traits/overlays/molecules/weed.md), [THC Edibles](../../traits/overlays/molecules/thc-edibles.md)
 
-**Ancient:** [Bhang](../../drugs-detailed/bhang.md)
+**Ancient:** [Bhang](../../traits/overlays/molecules/bhang.md)
 
 ## Sources
 
@@ -1018,9 +1018,9 @@ Drugs Representations / Associated
 
 ## Drug Connections
 
-**Modern:** [Psilacetin](../../drugs-detailed/psilacetin.md)
+**Modern:** [Psilacetin](../../traits/overlays/molecules/psilacetin.md)
 
-**Ancient:** [Mushrooms](../../drugs-detailed/mushrooms.md)
+**Ancient:** [Mushrooms](../../traits/overlays/molecules/mushrooms.md)
 
 ## Sources
 
@@ -1063,9 +1063,9 @@ Drugs Representations / Associated
 
 ## Drug Connections
 
-**Modern:** [Alcohol](../../drugs-detailed/alcohol.md), [Caffeine](../../drugs-detailed/caffeine.md)
+**Modern:** [Alcohol](../../traits/overlays/molecules/alcohol.md), [Caffeine](../../traits/overlays/molecules/caffeine.md)
 
-**Ancient:** [Tea](../../drugs-detailed/tea.md), [Ephedra](../../drugs-detailed/ephedra.md)
+**Ancient:** [Tea](../../traits/overlays/molecules/tea.md), [Ephedra](../../traits/overlays/molecules/ephedra.md)
 
 ## Sources
 
@@ -1110,9 +1110,9 @@ Drugs Representations / Associated
 
 ## Drug Connections
 
-**Modern:** [Piracetam](../../drugs-detailed/piracetam.md)
+**Modern:** [Piracetam](../../traits/overlays/molecules/piracetam.md)
 
-**Ancient:** [Coffee](../../drugs-detailed/coffee.md)
+**Ancient:** [Coffee](../../traits/overlays/molecules/coffee.md)
 
 ## Sources
 
@@ -1154,9 +1154,9 @@ Drugs Representations / Associated
 
 ## Drug Connections
 
-**Modern:** [M-Cat](../../drugs-detailed/m-cat.md), [Caffeine](../../drugs-detailed/caffeine.md)
+**Modern:** [M-Cat](../../traits/overlays/molecules/m-cat.md), [Caffeine](../../traits/overlays/molecules/caffeine.md)
 
-**Ancient:** [Khat](../../drugs-detailed/khat.md), [Coffee](../../drugs-detailed/coffee.md)
+**Ancient:** [Khat](../../traits/overlays/molecules/khat.md), [Coffee](../../traits/overlays/molecules/coffee.md)
 
 ## Sources
 
@@ -1192,9 +1192,9 @@ Source: core-lore/ancestors/gabon.md
 
 ## Drug Connections
 
-**Modern:** [Sildenafil](../../drugs-detailed/sildenafil.md), [Ibogaine](../../drugs-detailed/ibogaine.md)
+**Modern:** [Sildenafil](../../traits/overlays/molecules/sildenafil.md), [Ibogaine](../../traits/overlays/molecules/ibogaine.md)
 
-**Ancient:** [Tabernaemontana](../../drugs-detailed/tabernaemontana.md), [Yohimbe](../../drugs-detailed/yohimbe.md), [Iboga](../../drugs-detailed/iboga.md)
+**Ancient:** [Tabernaemontana](../../traits/overlays/molecules/tabernaemontana.md), [Yohimbe](../../traits/overlays/molecules/yohimbe.md), [Iboga](../../traits/overlays/molecules/iboga.md)
 
 ## Sources
 
@@ -1233,9 +1233,9 @@ Drugs Representations / Associated
 
 ## Drug Connections
 
-**Modern:** [Poppers](../../drugs-detailed/poppers.md), [Scopolamine](../../drugs-detailed/scopolamine.md), [Shroom Tea](../../drugs-detailed/shroom-tea.md), [Sertraline](../../drugs-detailed/sertraline.md)
+**Modern:** [Poppers](../../traits/overlays/molecules/poppers.md), [Scopolamine](../../traits/overlays/molecules/scopolamine.md), [Shroom Tea](../../traits/overlays/molecules/shroom-tea.md), [Sertraline](../../traits/overlays/molecules/sertraline.md)
 
-**Ancient:** [Kykeon](../../drugs-detailed/kykeon.md), [Nymphaea Caerulea](../../drugs-detailed/nymphaea-caerulea.md), [Henbane](../../drugs-detailed/henbane.md), [St John's Wort](../../drugs-detailed/st-johns-wort.md), [Mandrake](../../drugs-detailed/mandrake.md)
+**Ancient:** [Kykeon](../../traits/overlays/molecules/kykeon.md), [Nymphaea Caerulea](../../traits/overlays/molecules/nymphaea-caerulea.md), [Henbane](../../traits/overlays/molecules/henbane.md), [St John's Wort](../../traits/overlays/molecules/st-johns-wort.md), [Mandrake](../../traits/overlays/molecules/mandrake.md)
 
 ## Sources
 
@@ -1276,9 +1276,9 @@ Drugs Representations / Associated
 
 ## Drug Connections
 
-**Modern:** [LSD](../../drugs-detailed/lsd.md)
+**Modern:** [LSD](../../traits/overlays/molecules/lsd.md)
 
-**Ancient:** [Ancestral Trance](../../drugs-detailed/ancestral-trance.md)
+**Ancient:** [Ancestral Trance](../../traits/overlays/molecules/ancestral-trance.md)
 
 ## Sources
 
@@ -1318,9 +1318,9 @@ Drugs Representations / Associated
 
 ## Drug Connections
 
-**Modern:** [CBD](../../drugs-detailed/cbd.md)
+**Modern:** [CBD](../../traits/overlays/molecules/cbd.md)
 
-**Ancient:** [Sugarcane](../../drugs-detailed/sugarcane.md), [Datura](../../drugs-detailed/datura.md), [Syrian Rue](../../drugs-detailed/syrian-rue.md), [Brahmi](../../drugs-detailed/brahmi.md), [Ashwagandha](../../drugs-detailed/ashwagandha.md), [Bhang](../../drugs-detailed/bhang.md)
+**Ancient:** [Sugarcane](../../traits/overlays/molecules/sugarcane.md), [Datura](../../traits/overlays/molecules/datura.md), [Syrian Rue](../../traits/overlays/molecules/syrian-rue.md), [Brahmi](../../traits/overlays/molecules/brahmi.md), [Ashwagandha](../../traits/overlays/molecules/ashwagandha.md), [Bhang](../../traits/overlays/molecules/bhang.md)
 
 ## Sources
 
@@ -1358,9 +1358,9 @@ Drugs Representations / Associated
 
 ## Drug Connections
 
-**Modern:** [CBD](../../drugs-detailed/cbd.md)
+**Modern:** [CBD](../../traits/overlays/molecules/cbd.md)
 
-**Ancient:** [Bhang](../../drugs-detailed/bhang.md)
+**Ancient:** [Bhang](../../traits/overlays/molecules/bhang.md)
 
 ## Sources
 
@@ -1401,9 +1401,9 @@ Drugs Representations / Associated
 
 ## Drug Connections
 
-**Modern:** [Psilacetin](../../drugs-detailed/psilacetin.md), [Lamotrigine](../../drugs-detailed/lamotrigine.md)
+**Modern:** [Psilacetin](../../traits/overlays/molecules/psilacetin.md), [Lamotrigine](../../traits/overlays/molecules/lamotrigine.md)
 
-**Ancient:** [Mushrooms](../../drugs-detailed/mushrooms.md), [Lithium](../../drugs-detailed/lithium.md)
+**Ancient:** [Mushrooms](../../traits/overlays/molecules/mushrooms.md), [Lithium](../../traits/overlays/molecules/lithium.md)
 
 ## Sources
 
@@ -1446,9 +1446,9 @@ Drugs Representations / Associated
 
 ## Drug Connections
 
-**Modern:** [Caffeine](../../drugs-detailed/caffeine.md), [Methamphetamine](../../drugs-detailed/methamphetamine.md)
+**Modern:** [Caffeine](../../traits/overlays/molecules/caffeine.md), [Methamphetamine](../../traits/overlays/molecules/methamphetamine.md)
 
-**Ancient:** [Tea](../../drugs-detailed/tea.md)
+**Ancient:** [Tea](../../traits/overlays/molecules/tea.md)
 
 ## Sources
 
@@ -1489,9 +1489,9 @@ Drugs Representations / Associated
 
 ## Drug Connections
 
-**Modern:** [DMT](../../drugs-detailed/dmt.md)
+**Modern:** [DMT](../../traits/overlays/molecules/dmt.md)
 
-**Ancient:** [Ayahuasca](../../drugs-detailed/ayahuasca.md), [Psychotria Viridis](../../drugs-detailed/psychotria-viridis.md), [Mimosa Tenuiflora](../../drugs-detailed/mimosa-tenuiflora.md), [Ololiuqui](../../drugs-detailed/ololiuqui.md)
+**Ancient:** [Ayahuasca](../../traits/overlays/molecules/ayahuasca.md), [Psychotria Viridis](../../traits/overlays/molecules/psychotria-viridis.md), [Mimosa Tenuiflora](../../traits/overlays/molecules/mimosa-tenuiflora.md), [Ololiuqui](../../traits/overlays/molecules/ololiuqui.md)
 
 ## Sources
 
@@ -1533,9 +1533,9 @@ Drugs Representations / Associated
 
 ## Drug Connections
 
-**Modern:** [Sober](../../drugs-detailed/sober.md)
+**Modern:** [Sober](../../traits/overlays/molecules/sober.md)
 
-**Ancient:** [Euphoria](../../drugs-detailed/euphoria.md), [Sober](../../drugs-detailed/sober.md)
+**Ancient:** [Euphoria](../../traits/overlays/molecules/euphoria.md), [Sober](../../traits/overlays/molecules/sober.md)
 
 ## Sources
 
@@ -1575,9 +1575,9 @@ Drugs Representations / Associated
 
 ## Drug Connections
 
-**Modern:** [CBD](../../drugs-detailed/cbd.md), [Nicotine](../../drugs-detailed/nicotine.md), [2C-B](../../drugs-detailed/2c-b.md), [MDA](../../drugs-detailed/mda.md), [Chewing Tobacco](../../drugs-detailed/chewing-tobacco.md), [DMT](../../drugs-detailed/dmt.md), [Iproniazid](../../drugs-detailed/iproniazid.md), [MDMA](../../drugs-detailed/mdma.md), [Benadryl](../../drugs-detailed/benadryl.md)
+**Modern:** [CBD](../../traits/overlays/molecules/cbd.md), [Nicotine](../../traits/overlays/molecules/nicotine.md), [2C-B](../../traits/overlays/molecules/2c-b.md), [MDA](../../traits/overlays/molecules/mda.md), [Chewing Tobacco](../../traits/overlays/molecules/chewing-tobacco.md), [DMT](../../traits/overlays/molecules/dmt.md), [Iproniazid](../../traits/overlays/molecules/iproniazid.md), [MDMA](../../traits/overlays/molecules/mdma.md), [Benadryl](../../traits/overlays/molecules/benadryl.md)
 
-**Ancient:** [Bhang](../../drugs-detailed/bhang.md), [Arundo Donax](../../drugs-detailed/arundo-donax.md), [Bufotenin](../../drugs-detailed/bufotenin.md), [Sassafras](../../drugs-detailed/sassafras.md), [Psychotria Viridis](../../drugs-detailed/psychotria-viridis.md), [Datura](../../drugs-detailed/datura.md), [Peyote](../../drugs-detailed/peyote.md)
+**Ancient:** [Bhang](../../traits/overlays/molecules/bhang.md), [Arundo Donax](../../traits/overlays/molecules/arundo-donax.md), [Bufotenin](../../traits/overlays/molecules/bufotenin.md), [Sassafras](../../traits/overlays/molecules/sassafras.md), [Psychotria Viridis](../../traits/overlays/molecules/psychotria-viridis.md), [Datura](../../traits/overlays/molecules/datura.md), [Peyote](../../traits/overlays/molecules/peyote.md)
 
 ## Sources
 
@@ -1617,9 +1617,9 @@ Drugs Representations / Associated
 
 ## Drug Connections
 
-**Modern:** [Ketamine](../../drugs-detailed/ketamine.md)
+**Modern:** [Ketamine](../../traits/overlays/molecules/ketamine.md)
 
-**Ancient:** [Grayanotoxin](../../drugs-detailed/grayanotoxin.md)
+**Ancient:** [Grayanotoxin](../../traits/overlays/molecules/grayanotoxin.md)
 
 ## Sources
 
@@ -1661,9 +1661,9 @@ Drugs Representations / Associated
 
 ## Drug Connections
 
-**Modern:** [Alcohol](../../drugs-detailed/alcohol.md)
+**Modern:** [Alcohol](../../traits/overlays/molecules/alcohol.md)
 
-**Ancient:** [Ethanol](../../drugs-detailed/ethanol.md), [Ancestral Trance](../../drugs-detailed/ancestral-trance.md)
+**Ancient:** [Ethanol](../../traits/overlays/molecules/ethanol.md), [Ancestral Trance](../../traits/overlays/molecules/ancestral-trance.md)
 
 ## Sources
 
@@ -1705,9 +1705,9 @@ Drugs Representations / Associated
 
 ## Drug Connections
 
-**Modern:** [Dextroamphetamine](../../drugs-detailed/dextroamphetamine.md), [Methamphetamine](../../drugs-detailed/methamphetamine.md)
+**Modern:** [Dextroamphetamine](../../traits/overlays/molecules/dextroamphetamine.md), [Methamphetamine](../../traits/overlays/molecules/methamphetamine.md)
 
-**Ancient:** [Ephedra](../../drugs-detailed/ephedra.md)
+**Ancient:** [Ephedra](../../traits/overlays/molecules/ephedra.md)
 
 ## Sources
 
@@ -1749,9 +1749,9 @@ Drugs Representations / Associated
 
 ## Drug Connections
 
-**Modern:** [MDMA](../../drugs-detailed/mdma.md)
+**Modern:** [MDMA](../../traits/overlays/molecules/mdma.md)
 
-**Ancient:** [Kava](../../drugs-detailed/kava.md), ʻAwa
+**Ancient:** [Kava](../../traits/overlays/molecules/kava.md), ʻAwa
 
 ## Sources
 
@@ -1793,9 +1793,9 @@ Drugs Representations / Associated
 
 ## Drug Connections
 
-**Modern:** [Alcohol](../../drugs-detailed/alcohol.md)
+**Modern:** [Alcohol](../../traits/overlays/molecules/alcohol.md)
 
-**Ancient:** [Bhang](../../drugs-detailed/bhang.md)
+**Ancient:** [Bhang](../../traits/overlays/molecules/bhang.md)
 
 ## Sources
 
@@ -1835,9 +1835,9 @@ Drugs Representations / Associated
 
 ## Drug Connections
 
-**Modern:** [NOS](../../drugs-detailed/nos.md)
+**Modern:** [NOS](../../traits/overlays/molecules/nos.md)
 
-**Ancient:** [Ethylene](../../drugs-detailed/ethylene.md)
+**Ancient:** [Ethylene](../../traits/overlays/molecules/ethylene.md)
 
 ## Sources
 
@@ -1876,7 +1876,7 @@ Source: core-lore/ancestors/rastafarians.md
 
 ## Drug Connections
 
-**Modern:** [Weed](../../drugs-detailed/weed.md), [THC Edibles](../../drugs-detailed/thc-edibles.md)
+**Modern:** [Weed](../../traits/overlays/molecules/weed.md), [THC Edibles](../../traits/overlays/molecules/thc-edibles.md)
 
 **Ancient:** Ganja
 
@@ -1920,9 +1920,9 @@ Drugs Representations / Associated
 
 ## Drug Connections
 
-**Modern:** [Psilacetin](../../drugs-detailed/psilacetin.md)
+**Modern:** [Psilacetin](../../traits/overlays/molecules/psilacetin.md)
 
-**Ancient:** [Mushrooms](../../drugs-detailed/mushrooms.md)
+**Ancient:** [Mushrooms](../../traits/overlays/molecules/mushrooms.md)
 
 ## Sources
 
@@ -1967,9 +1967,9 @@ Drugs Representations / Associated
 
 ## Drug Connections
 
-**Modern:** [Clear Pill](../../drugs-detailed/clear-pill.md)
+**Modern:** [Clear Pill](../../traits/overlays/molecules/clear-pill.md)
 
-**Ancient:** [Ethanol](../../drugs-detailed/ethanol.md)
+**Ancient:** [Ethanol](../../traits/overlays/molecules/ethanol.md)
 
 ## Sources
 
@@ -2007,9 +2007,9 @@ Drugs Representations / Associated
 
 ## Drug Connections
 
-**Modern:** [Alcohol](../../drugs-detailed/alcohol.md)
+**Modern:** [Alcohol](../../traits/overlays/molecules/alcohol.md)
 
-**Ancient:** [Ethanol](../../drugs-detailed/ethanol.md)
+**Ancient:** [Ethanol](../../traits/overlays/molecules/ethanol.md)
 
 ## Sources
 
@@ -2051,9 +2051,9 @@ Drugs Representations / Associated
 
 ## Drug Connections
 
-**Modern:** [Poppers](../../drugs-detailed/poppers.md), [Alcohol](../../drugs-detailed/alcohol.md)
+**Modern:** [Poppers](../../traits/overlays/molecules/poppers.md), [Alcohol](../../traits/overlays/molecules/alcohol.md)
 
-**Ancient:** [Ethanol](../../drugs-detailed/ethanol.md)
+**Ancient:** [Ethanol](../../traits/overlays/molecules/ethanol.md)
 
 ## Sources
 
@@ -2092,9 +2092,9 @@ Drugs Representations / Associated
 
 ## Drug Connections
 
-**Modern:** [Iproniazid](../../drugs-detailed/iproniazid.md)
+**Modern:** [Iproniazid](../../traits/overlays/molecules/iproniazid.md)
 
-**Ancient:** [Syrian Rue](../../drugs-detailed/syrian-rue.md)
+**Ancient:** [Syrian Rue](../../traits/overlays/molecules/syrian-rue.md)
 
 ## Sources
 
@@ -2134,9 +2134,9 @@ Drugs Representations / Associated
 
 ## Drug Connections
 
-**Modern:** [Estrogen](../../drugs-detailed/estrogen.md), [Kratom](../../drugs-detailed/kratom.md)
+**Modern:** [Estrogen](../../traits/overlays/molecules/estrogen.md), [Kratom](../../traits/overlays/molecules/kratom.md)
 
-**Ancient:** [Kwao Krua](../../drugs-detailed/kwao-krua.md), [Sakae Na](../../drugs-detailed/sakae-na.md)
+**Ancient:** [Kwao Krua](../../traits/overlays/molecules/kwao-krua.md), [Sakae Na](../../traits/overlays/molecules/sakae-na.md)
 
 ## Sources
 
@@ -2215,9 +2215,9 @@ Drugs Representations / Associated
 
 ## Drug Connections
 
-**Modern:** [Ketamine](../../drugs-detailed/ketamine.md)
+**Modern:** [Ketamine](../../traits/overlays/molecules/ketamine.md)
 
-**Ancient:** [Grayanotoxin](../../drugs-detailed/grayanotoxin.md)
+**Ancient:** [Grayanotoxin](../../traits/overlays/molecules/grayanotoxin.md)
 
 ## Sources
 
@@ -2236,7 +2236,7 @@ Drugs Representations / Associated
 
 ════════════════════════════════════════════════════════════
 SECTION: DRUG: 2C B
-Source: drugs-detailed/2c-b.md
+Source: traits/overlays/molecules/2c-b.md
 ════════════════════════════════════════════════════════════
 
 # 2C-B
@@ -2287,7 +2287,7 @@ precursors with bromine and methoxy groups added to the aromatic ring.
 
 ════════════════════════════════════════════════════════════
 SECTION: DRUG: Acacia
-Source: drugs-detailed/acacia.md
+Source: traits/overlays/molecules/acacia.md
 ════════════════════════════════════════════════════════════
 
 # Acacia
@@ -2354,7 +2354,7 @@ DMT-containing Acacia species have been used by Aboriginal Australians for thous
 
 ════════════════════════════════════════════════════════════
 SECTION: DRUG: Alcohol
-Source: drugs-detailed/alcohol.md
+Source: traits/overlays/molecules/alcohol.md
 ════════════════════════════════════════════════════════════
 
 # Alcohol
@@ -2408,7 +2408,7 @@ Archaeological evidence suggests that fermented beverages were produced as early
 
 ════════════════════════════════════════════════════════════
 SECTION: DRUG: Ancestral Trance
-Source: drugs-detailed/ancestral-trance.md
+Source: traits/overlays/molecules/ancestral-trance.md
 ════════════════════════════════════════════════════════════
 
 # Ancestral Trance
@@ -2459,7 +2459,7 @@ The practice of achieving altered states of consciousness through rhythmic drumm
 
 ════════════════════════════════════════════════════════════
 SECTION: DRUG: Arundo Donax
-Source: drugs-detailed/arundo-donax.md
+Source: traits/overlays/molecules/arundo-donax.md
 ════════════════════════════════════════════════════════════
 
 # Arundo Donax
@@ -2508,7 +2508,7 @@ Arundo donax (giant reed) has been used since antiquity in the Mediterranean reg
 
 ════════════════════════════════════════════════════════════
 SECTION: DRUG: Ashwagandha
-Source: drugs-detailed/ashwagandha.md
+Source: traits/overlays/molecules/ashwagandha.md
 ════════════════════════════════════════════════════════════
 
 # Ashwagandha
@@ -2561,7 +2561,7 @@ Ashwagandha (Withania somnifera) has been one of the most important herbs in Ayu
 
 ════════════════════════════════════════════════════════════
 SECTION: DRUG: Ayahuasca
-Source: drugs-detailed/ayahuasca.md
+Source: traits/overlays/molecules/ayahuasca.md
 ════════════════════════════════════════════════════════════
 
 # Ayahuasca
@@ -2613,7 +2613,7 @@ Ayahuasca has been used by Indigenous Amazonian peoples for at least 1,000 years
 
 ════════════════════════════════════════════════════════════
 SECTION: DRUG: Benadryl
-Source: drugs-detailed/benadryl.md
+Source: traits/overlays/molecules/benadryl.md
 ════════════════════════════════════════════════════════════
 
 # Benadryl
@@ -2660,7 +2660,7 @@ Diphenhydramine (marketed as Benadryl) was synthesized in 1943 by George Rievesc
 
 ════════════════════════════════════════════════════════════
 SECTION: DRUG: Bhang
-Source: drugs-detailed/bhang.md
+Source: traits/overlays/molecules/bhang.md
 ════════════════════════════════════════════════════════════
 
 # Bhang
@@ -2708,7 +2708,7 @@ Bhang is one of the oldest cannabis preparations in the world, with documented u
 
 ════════════════════════════════════════════════════════════
 SECTION: DRUG: Brahmi
-Source: drugs-detailed/brahmi.md
+Source: traits/overlays/molecules/brahmi.md
 ════════════════════════════════════════════════════════════
 
 # Brahmi
@@ -2758,7 +2758,7 @@ Brahmi (Bacopa monnieri) has been used in Ayurvedic medicine for over 3,000 year
 
 ════════════════════════════════════════════════════════════
 SECTION: DRUG: Bufotenin
-Source: drugs-detailed/bufotenin.md
+Source: traits/overlays/molecules/bufotenin.md
 ════════════════════════════════════════════════════════════
 
 # Bufotenin
@@ -2798,7 +2798,7 @@ Bufotenin was first isolated from toad skin (Bufo genus) in 1893 by the Austrian
 
 ════════════════════════════════════════════════════════════
 SECTION: DRUG: Caffeine
-Source: drugs-detailed/caffeine.md
+Source: traits/overlays/molecules/caffeine.md
 ════════════════════════════════════════════════════════════
 
 # Caffeine
@@ -2860,7 +2860,7 @@ Caffeine consumption likely began in Ethiopia, where legend attributes the disco
 
 ════════════════════════════════════════════════════════════
 SECTION: DRUG: Cbd
-Source: drugs-detailed/cbd.md
+Source: traits/overlays/molecules/cbd.md
 ════════════════════════════════════════════════════════════
 
 # CBD
@@ -2920,7 +2920,7 @@ Cannabidiol (CBD) was first isolated from cannabis by American chemist Roger Ada
 
 ════════════════════════════════════════════════════════════
 SECTION: DRUG: Chewing Tobacco
-Source: drugs-detailed/chewing-tobacco.md
+Source: traits/overlays/molecules/chewing-tobacco.md
 ════════════════════════════════════════════════════════════
 
 # Chewing Tobacco
@@ -2974,7 +2974,7 @@ Chewing tobacco has been used by Indigenous peoples of the Americas for thousand
 
 ════════════════════════════════════════════════════════════
 SECTION: DRUG: Clear Pill
-Source: drugs-detailed/clear-pill.md
+Source: traits/overlays/molecules/clear-pill.md
 ════════════════════════════════════════════════════════════
 
 # Clear Pill
@@ -3040,7 +3040,7 @@ Dopamine was first synthesized in 1910 by George Barger and James Ewens at the W
 
 ════════════════════════════════════════════════════════════
 SECTION: DRUG: Coca
-Source: drugs-detailed/coca.md
+Source: traits/overlays/molecules/coca.md
 ════════════════════════════════════════════════════════════
 
 # Coca
@@ -3095,7 +3095,7 @@ Coca leaves have been chewed by Andean peoples for at least 8,000 years, with ar
 
 ════════════════════════════════════════════════════════════
 SECTION: DRUG: Cocaine
-Source: drugs-detailed/cocaine.md
+Source: traits/overlays/molecules/cocaine.md
 ════════════════════════════════════════════════════════════
 
 # Cocaine
@@ -3151,7 +3151,7 @@ Cocaine was first isolated from coca leaves by German chemist Albert Niemann in 
 
 ════════════════════════════════════════════════════════════
 SECTION: DRUG: Coffee
-Source: drugs-detailed/coffee.md
+Source: traits/overlays/molecules/coffee.md
 ════════════════════════════════════════════════════════════
 
 # Coffee
@@ -3211,7 +3211,7 @@ Coffee's origins trace to Ethiopia, where, according to legend, a goat herder na
 
 ════════════════════════════════════════════════════════════
 SECTION: DRUG: Datura
-Source: drugs-detailed/datura.md
+Source: traits/overlays/molecules/datura.md
 ════════════════════════════════════════════════════════════
 
 # Datura
@@ -3268,7 +3268,7 @@ Datura species have been used in shamanic and ritual contexts for thousands of y
 
 ════════════════════════════════════════════════════════════
 SECTION: DRUG: Dextroamphetamine
-Source: drugs-detailed/dextroamphetamine.md
+Source: traits/overlays/molecules/dextroamphetamine.md
 ════════════════════════════════════════════════════════════
 
 # Dextroamphetamine
@@ -3314,7 +3314,7 @@ Amphetamine was first synthesized by Romanian chemist Lazar Edeleanu in Berlin i
 
 ════════════════════════════════════════════════════════════
 SECTION: DRUG: Dmt
-Source: drugs-detailed/dmt.md
+Source: traits/overlays/molecules/dmt.md
 ════════════════════════════════════════════════════════════
 
 # DMT
@@ -3380,7 +3380,7 @@ DMT was first synthesized by Canadian chemist Richard Manske in 1931, though its
 
 ════════════════════════════════════════════════════════════
 SECTION: DRUG: Drug Pairings
-Source: drugs-detailed/drug-pairings.md
+Source: traits/overlays/molecules/drug-pairings.md
 ════════════════════════════════════════════════════════════
 
 # Drug Pairings (Ancient ↔ Modern)
@@ -4920,7 +4920,7 @@ Source: drugs-detailed/drug-pairings.md
 
 ════════════════════════════════════════════════════════════
 SECTION: DRUG: Ephedra
-Source: drugs-detailed/ephedra.md
+Source: traits/overlays/molecules/ephedra.md
 ════════════════════════════════════════════════════════════
 
 # Ephedra
@@ -4975,7 +4975,7 @@ Ephedra (Ma Huang) has been used in traditional Chinese medicine for over 5,000 
 
 ════════════════════════════════════════════════════════════
 SECTION: DRUG: Estrogen
-Source: drugs-detailed/estrogen.md
+Source: traits/overlays/molecules/estrogen.md
 ════════════════════════════════════════════════════════════
 
 # Estrogen
@@ -5028,7 +5028,7 @@ Estrogen was first identified in the late 1920s by biochemists Edward Doisy and 
 
 ════════════════════════════════════════════════════════════
 SECTION: DRUG: Ethanol
-Source: drugs-detailed/ethanol.md
+Source: traits/overlays/molecules/ethanol.md
 ════════════════════════════════════════════════════════════
 
 # Ethanol
@@ -5081,7 +5081,7 @@ The distillation of ethanol was pioneered by Persian alchemist Muhammad ibn Zaka
 
 ════════════════════════════════════════════════════════════
 SECTION: DRUG: Ethylene
-Source: drugs-detailed/ethylene.md
+Source: traits/overlays/molecules/ethylene.md
 ════════════════════════════════════════════════════════════
 
 # Ethylene
@@ -5134,7 +5134,7 @@ Ethylene was first identified as a gas by Johann Joachim Becher in 1669 and late
 
 ════════════════════════════════════════════════════════════
 SECTION: DRUG: Euphoria
-Source: drugs-detailed/euphoria.md
+Source: traits/overlays/molecules/euphoria.md
 ════════════════════════════════════════════════════════════
 
 # Euphoria
@@ -5200,7 +5200,7 @@ Dopamine was first synthesized in 1910 by George Barger and James Ewens at the W
 
 ════════════════════════════════════════════════════════════
 SECTION: DRUG: Grayanotoxin
-Source: drugs-detailed/grayanotoxin.md
+Source: traits/overlays/molecules/grayanotoxin.md
 ════════════════════════════════════════════════════════════
 
 # Grayanotoxin
@@ -5259,7 +5259,7 @@ Grayanotoxin-containing "mad honey" has been documented since antiquity, most fa
 
 ════════════════════════════════════════════════════════════
 SECTION: DRUG: Henbane
-Source: drugs-detailed/henbane.md
+Source: traits/overlays/molecules/henbane.md
 ════════════════════════════════════════════════════════════
 
 # Henbane
@@ -5321,7 +5321,7 @@ Henbane (Hyoscyamus niger) has been used since antiquity, with references in anc
 
 ════════════════════════════════════════════════════════════
 SECTION: DRUG: Iboga
-Source: drugs-detailed/iboga.md
+Source: traits/overlays/molecules/iboga.md
 ════════════════════════════════════════════════════════════
 
 # Iboga
@@ -5375,7 +5375,7 @@ Tabernanthe iboga has been used for centuries by the Bwiti religion of the Fang 
 
 ════════════════════════════════════════════════════════════
 SECTION: DRUG: Ibogaine
-Source: drugs-detailed/ibogaine.md
+Source: traits/overlays/molecules/ibogaine.md
 ════════════════════════════════════════════════════════════
 
 # Ibogaine
@@ -5431,7 +5431,7 @@ Ibogaine was first isolated from Tabernanthe iboga root bark by French chemists 
 
 ════════════════════════════════════════════════════════════
 SECTION: DRUG: Iproniazid
-Source: drugs-detailed/iproniazid.md
+Source: traits/overlays/molecules/iproniazid.md
 ════════════════════════════════════════════════════════════
 
 # Iproniazid
@@ -5480,7 +5480,7 @@ Iproniazid was originally developed in the early 1950s as a treatment for tuberc
 
 ════════════════════════════════════════════════════════════
 SECTION: DRUG: Kava
-Source: drugs-detailed/kava.md
+Source: traits/overlays/molecules/kava.md
 ════════════════════════════════════════════════════════════
 
 # Kava
@@ -5539,7 +5539,7 @@ Kava has been consumed for over 3,000 years by Pacific Island cultures across Po
 
 ════════════════════════════════════════════════════════════
 SECTION: DRUG: Ketamine
-Source: drugs-detailed/ketamine.md
+Source: traits/overlays/molecules/ketamine.md
 ════════════════════════════════════════════════════════════
 
 # Ketamine
@@ -5585,7 +5585,7 @@ Ketamine was first synthesized in 1962 by Calvin Stevens at Parke-Davis Laborato
 
 ════════════════════════════════════════════════════════════
 SECTION: DRUG: Khat
-Source: drugs-detailed/khat.md
+Source: traits/overlays/molecules/khat.md
 ════════════════════════════════════════════════════════════
 
 # Khat
@@ -5640,7 +5640,7 @@ Khat (Catha edulis) has been chewed in East Africa and the Arabian Peninsula for
 
 ════════════════════════════════════════════════════════════
 SECTION: DRUG: Kratom
-Source: drugs-detailed/kratom.md
+Source: traits/overlays/molecules/kratom.md
 ════════════════════════════════════════════════════════════
 
 # Kratom
@@ -5691,7 +5691,7 @@ Kratom (Mitragyna speciosa) has been used in traditional medicine in Thailand an
 
 ════════════════════════════════════════════════════════════
 SECTION: DRUG: Kwao Krua
-Source: drugs-detailed/kwao-krua.md
+Source: traits/overlays/molecules/kwao-krua.md
 ════════════════════════════════════════════════════════════
 
 # Kwao Krua
@@ -5742,7 +5742,7 @@ Kwao Krua (Pueraria mirifica) has been used in traditional Thai medicine for cen
 
 ════════════════════════════════════════════════════════════
 SECTION: DRUG: Kykeon
-Source: drugs-detailed/kykeon.md
+Source: traits/overlays/molecules/kykeon.md
 ════════════════════════════════════════════════════════════
 
 # Kykeon
@@ -5800,7 +5800,7 @@ Kykeon was the sacred ritual drink consumed by initiates of the Eleusinian Myste
 
 ════════════════════════════════════════════════════════════
 SECTION: DRUG: Lamotrigine
-Source: drugs-detailed/lamotrigine.md
+Source: traits/overlays/molecules/lamotrigine.md
 ════════════════════════════════════════════════════════════
 
 # Lamotrigine
@@ -5850,7 +5850,7 @@ Lamotrigine was developed by GlaxoSmithKline's precursor Wellcome Research Labor
 
 ════════════════════════════════════════════════════════════
 SECTION: DRUG: Lithium
-Source: drugs-detailed/lithium.md
+Source: traits/overlays/molecules/lithium.md
 ════════════════════════════════════════════════════════════
 
 # Lithium
@@ -5898,7 +5898,7 @@ Lithium was first discovered as an element by Swedish chemist Johan August Arfwe
 
 ════════════════════════════════════════════════════════════
 SECTION: DRUG: Lsd
-Source: drugs-detailed/lsd.md
+Source: traits/overlays/molecules/lsd.md
 ════════════════════════════════════════════════════════════
 
 # LSD
@@ -5949,7 +5949,7 @@ Albert Hofmann first synthesized LSD at Sandoz Laboratories in Basel, Switzerlan
 
 ════════════════════════════════════════════════════════════
 SECTION: DRUG: M Cat
-Source: drugs-detailed/m-cat.md
+Source: traits/overlays/molecules/m-cat.md
 ════════════════════════════════════════════════════════════
 
 # M-Cat
@@ -5997,7 +5997,7 @@ Mephedrone (4-methylmethcathinone) was first synthesized in 1929 by the French p
 
 ════════════════════════════════════════════════════════════
 SECTION: DRUG: Mandrake
-Source: drugs-detailed/mandrake.md
+Source: traits/overlays/molecules/mandrake.md
 ════════════════════════════════════════════════════════════
 
 # Mandrake
@@ -6049,7 +6049,7 @@ Mandrake (Mandragora officinarum) is one of the most mythologized plants in West
 
 ════════════════════════════════════════════════════════════
 SECTION: DRUG: Mda
-Source: drugs-detailed/mda.md
+Source: traits/overlays/molecules/mda.md
 ════════════════════════════════════════════════════════════
 
 # MDA
@@ -6097,7 +6097,7 @@ MDA (3,4-methylenedioxyamphetamine) was first synthesized by German chemists G. 
 
 ════════════════════════════════════════════════════════════
 SECTION: DRUG: Mdma
-Source: drugs-detailed/mdma.md
+Source: traits/overlays/molecules/mdma.md
 ════════════════════════════════════════════════════════════
 
 # MDMA
@@ -6146,7 +6146,7 @@ MDMA (3,4-methylenedioxymethamphetamine) was first synthesized by Merck chemist 
 
 ════════════════════════════════════════════════════════════
 SECTION: DRUG: Methamphetamine
-Source: drugs-detailed/methamphetamine.md
+Source: traits/overlays/molecules/methamphetamine.md
 ════════════════════════════════════════════════════════════
 
 # Methamphetamine
@@ -6198,7 +6198,7 @@ Methamphetamine was first synthesized by Japanese chemist Nagai Nagayoshi in 189
 
 ════════════════════════════════════════════════════════════
 SECTION: DRUG: Mimosa Tenuiflora
-Source: drugs-detailed/mimosa-tenuiflora.md
+Source: traits/overlays/molecules/mimosa-tenuiflora.md
 ════════════════════════════════════════════════════════════
 
 # Mimosa Tenuiflora
@@ -6262,7 +6262,7 @@ Mimosa tenuiflora (also known as jurema or tepezcohuite) has been used by Indige
 
 ════════════════════════════════════════════════════════════
 SECTION: DRUG: Mmda
-Source: drugs-detailed/mmda.md
+Source: traits/overlays/molecules/mmda.md
 ════════════════════════════════════════════════════════════
 
 # MMDA
@@ -6310,7 +6310,7 @@ MMDA (3-methoxy-4,5-methylenedioxyamphetamine) was first synthesized and pharmac
 
 ════════════════════════════════════════════════════════════
 SECTION: DRUG: Mucuna Pruriens
-Source: drugs-detailed/mucuna-pruriens.md
+Source: traits/overlays/molecules/mucuna-pruriens.md
 ════════════════════════════════════════════════════════════
 
 # Mucuna Pruriens
@@ -6358,7 +6358,7 @@ Mucuna pruriens (velvet bean) has been used in Ayurvedic medicine for over 3,000
 
 ════════════════════════════════════════════════════════════
 SECTION: DRUG: Mushrooms
-Source: drugs-detailed/mushrooms.md
+Source: traits/overlays/molecules/mushrooms.md
 ════════════════════════════════════════════════════════════
 
 # Mushrooms
@@ -6414,7 +6414,7 @@ Psilocybin mushrooms have been used ritually for thousands of years, with stone 
 
 ════════════════════════════════════════════════════════════
 SECTION: DRUG: Nicotine
-Source: drugs-detailed/nicotine.md
+Source: traits/overlays/molecules/nicotine.md
 ════════════════════════════════════════════════════════════
 
 # Nicotine
@@ -6467,7 +6467,7 @@ Tobacco use by Indigenous peoples of the Americas dates back thousands of years,
 
 ════════════════════════════════════════════════════════════
 SECTION: DRUG: Nos
-Source: drugs-detailed/nos.md
+Source: traits/overlays/molecules/nos.md
 ════════════════════════════════════════════════════════════
 
 # NOS
@@ -6520,7 +6520,7 @@ Nitrous oxide was first synthesized by English chemist Joseph Priestley in 1772,
 
 ════════════════════════════════════════════════════════════
 SECTION: DRUG: Nutmeg
-Source: drugs-detailed/nutmeg.md
+Source: traits/overlays/molecules/nutmeg.md
 ════════════════════════════════════════════════════════════
 
 # Nutmeg
@@ -6571,7 +6571,7 @@ Nutmeg (Myristica fragrans) originated in the Banda Islands of Indonesia and was
 
 ════════════════════════════════════════════════════════════
 SECTION: DRUG: Nymphaea Caerulea
-Source: drugs-detailed/nymphaea-caerulea.md
+Source: traits/overlays/molecules/nymphaea-caerulea.md
 ════════════════════════════════════════════════════════════
 
 # Nymphaea Caerulea
@@ -6622,7 +6622,7 @@ Nymphaea caerulea (the blue Egyptian lotus) was sacred in ancient Egyptian civil
 
 ════════════════════════════════════════════════════════════
 SECTION: DRUG: Ololiuqui
-Source: drugs-detailed/ololiuqui.md
+Source: traits/overlays/molecules/ololiuqui.md
 ════════════════════════════════════════════════════════════
 
 # Ololiuqui
@@ -6672,7 +6672,7 @@ Ololiuqui (Turbina corymbosa, formerly Rivea corymbosa) was one of the most impo
 
 ════════════════════════════════════════════════════════════
 SECTION: DRUG: Peyote
-Source: drugs-detailed/peyote.md
+Source: traits/overlays/molecules/peyote.md
 ════════════════════════════════════════════════════════════
 
 # Peyote
@@ -6727,7 +6727,7 @@ Peyote (Lophophora williamsii) has been used sacramentally by Indigenous peoples
 
 ════════════════════════════════════════════════════════════
 SECTION: DRUG: Piracetam
-Source: drugs-detailed/piracetam.md
+Source: traits/overlays/molecules/piracetam.md
 ════════════════════════════════════════════════════════════
 
 # Piracetam
@@ -6775,7 +6775,7 @@ Piracetam was synthesized in 1964 by Romanian chemist Corneliu Giurgea at the Be
 
 ════════════════════════════════════════════════════════════
 SECTION: DRUG: Pituri
-Source: drugs-detailed/pituri.md
+Source: traits/overlays/molecules/pituri.md
 ════════════════════════════════════════════════════════════
 
 # Pituri
@@ -6825,7 +6825,7 @@ Pituri (Duboisia hopwoodii) has been used by Aboriginal Australians for thousand
 
 ════════════════════════════════════════════════════════════
 SECTION: DRUG: Poppers
-Source: drugs-detailed/poppers.md
+Source: traits/overlays/molecules/poppers.md
 ════════════════════════════════════════════════════════════
 
 # Poppers
@@ -6875,7 +6875,7 @@ Amyl nitrite was first synthesized by French chemist Antoine Balard in 1844, and
 
 ════════════════════════════════════════════════════════════
 SECTION: DRUG: Psilacetin
-Source: drugs-detailed/psilacetin.md
+Source: traits/overlays/molecules/psilacetin.md
 ════════════════════════════════════════════════════════════
 
 # Psilacetin
@@ -6920,7 +6920,7 @@ Psilacetin (4-AcO-DMT, or O-acetylpsilocin) was first synthesized by Albert Hofm
 
 ════════════════════════════════════════════════════════════
 SECTION: DRUG: Psychotria Viridis
-Source: drugs-detailed/psychotria-viridis.md
+Source: traits/overlays/molecules/psychotria-viridis.md
 ════════════════════════════════════════════════════════════
 
 # Psychotria Viridis
@@ -6974,7 +6974,7 @@ Psychotria viridis (chacruna) has been used by Indigenous Amazonian peoples for 
 
 ════════════════════════════════════════════════════════════
 SECTION: DRUG: Sakae Na
-Source: drugs-detailed/sakae-na.md
+Source: traits/overlays/molecules/sakae-na.md
 ════════════════════════════════════════════════════════════
 
 # Sakae Na
@@ -7024,7 +7024,7 @@ Sakae Na (Combretum quadrangulare) has been used in traditional medicine through
 
 ════════════════════════════════════════════════════════════
 SECTION: DRUG: Sassafras
-Source: drugs-detailed/sassafras.md
+Source: traits/overlays/molecules/sassafras.md
 ════════════════════════════════════════════════════════════
 
 # Sassafras
@@ -7075,7 +7075,7 @@ Sassafras (Sassafras albidum) was used extensively by Native American peoples fo
 
 ════════════════════════════════════════════════════════════
 SECTION: DRUG: Scopolamine
-Source: drugs-detailed/scopolamine.md
+Source: traits/overlays/molecules/scopolamine.md
 ════════════════════════════════════════════════════════════
 
 # Scopolamine
@@ -7143,7 +7143,7 @@ Scopolamine was first isolated from Scopolia plants by German chemist Albert Lad
 
 ════════════════════════════════════════════════════════════
 SECTION: DRUG: Sertraline
-Source: drugs-detailed/sertraline.md
+Source: traits/overlays/molecules/sertraline.md
 ════════════════════════════════════════════════════════════
 
 # Sertraline
@@ -7194,7 +7194,7 @@ Sertraline was developed by Pfizer chemists Reinhard Sarges and Kenneth Koe in t
 
 ════════════════════════════════════════════════════════════
 SECTION: DRUG: Shroom Tea
-Source: drugs-detailed/shroom-tea.md
+Source: traits/overlays/molecules/shroom-tea.md
 ════════════════════════════════════════════════════════════
 
 # Shroom Tea
@@ -7254,7 +7254,7 @@ Psilocybin mushroom tea has roots in Mesoamerican cultures, where the Aztecs and
 
 ════════════════════════════════════════════════════════════
 SECTION: DRUG: Sildenafil
-Source: drugs-detailed/sildenafil.md
+Source: traits/overlays/molecules/sildenafil.md
 ════════════════════════════════════════════════════════════
 
 # Sildenafil
@@ -7303,7 +7303,7 @@ Sildenafil was originally developed by Pfizer scientists Andrew Bell, David Brow
 
 ════════════════════════════════════════════════════════════
 SECTION: DRUG: Sober
-Source: drugs-detailed/sober.md
+Source: traits/overlays/molecules/sober.md
 ════════════════════════════════════════════════════════════
 
 # Sober
@@ -7349,7 +7349,7 @@ Serotonin was first identified in 1948 by Maurice Rapport, Arda Green, and Irvin
 
 ════════════════════════════════════════════════════════════
 SECTION: DRUG: St Johns Wort
-Source: drugs-detailed/st-johns-wort.md
+Source: traits/overlays/molecules/st-johns-wort.md
 ════════════════════════════════════════════════════════════
 
 # St John's Wort
@@ -7401,7 +7401,7 @@ St. John's Wort (Hypericum perforatum) has been used medicinally since ancient G
 
 ════════════════════════════════════════════════════════════
 SECTION: DRUG: Sugarcane
-Source: drugs-detailed/sugarcane.md
+Source: traits/overlays/molecules/sugarcane.md
 ════════════════════════════════════════════════════════════
 
 # Sugarcane
@@ -7457,7 +7457,7 @@ Sugarcane was first domesticated in New Guinea around 8000 BCE and spread to Ind
 
 ════════════════════════════════════════════════════════════
 SECTION: DRUG: Syrian Rue
-Source: drugs-detailed/syrian-rue.md
+Source: traits/overlays/molecules/syrian-rue.md
 ════════════════════════════════════════════════════════════
 
 # Syrian Rue
@@ -7511,7 +7511,7 @@ Syrian rue (Peganum harmala) has been used for at least 3,000 years across the M
 
 ════════════════════════════════════════════════════════════
 SECTION: DRUG: Tabernaemontana
-Source: drugs-detailed/tabernaemontana.md
+Source: traits/overlays/molecules/tabernaemontana.md
 ════════════════════════════════════════════════════════════
 
 # Tabernaemontana
@@ -7565,7 +7565,7 @@ Tabernaemontana species have been used in traditional medicine across Africa, So
 
 ════════════════════════════════════════════════════════════
 SECTION: DRUG: Tea
-Source: drugs-detailed/tea.md
+Source: traits/overlays/molecules/tea.md
 ════════════════════════════════════════════════════════════
 
 # Tea
@@ -7629,7 +7629,7 @@ Tea drinking originated in China, traditionally attributed to Emperor Shen Nung 
 
 ════════════════════════════════════════════════════════════
 SECTION: DRUG: Testosterone
-Source: drugs-detailed/testosterone.md
+Source: traits/overlays/molecules/testosterone.md
 ════════════════════════════════════════════════════════════
 
 # Testosterone
@@ -7685,7 +7685,7 @@ Testosterone was first isolated and synthesized in 1935 independently by Adolf B
 
 ════════════════════════════════════════════════════════════
 SECTION: DRUG: Thc Edibles
-Source: drugs-detailed/thc-edibles.md
+Source: traits/overlays/molecules/thc-edibles.md
 ════════════════════════════════════════════════════════════
 
 # THC Edibles
@@ -7748,7 +7748,7 @@ Cannabis-infused edibles have ancient roots, with the earliest known preparation
 
 ════════════════════════════════════════════════════════════
 SECTION: DRUG: Tobacco
-Source: drugs-detailed/tobacco.md
+Source: traits/overlays/molecules/tobacco.md
 ════════════════════════════════════════════════════════════
 
 # Tobacco
@@ -7802,7 +7802,7 @@ Tobacco has been cultivated and used by Indigenous peoples of the Americas for a
 
 ════════════════════════════════════════════════════════════
 SECTION: DRUG: Weed
-Source: drugs-detailed/weed.md
+Source: traits/overlays/molecules/weed.md
 ════════════════════════════════════════════════════════════
 
 # Weed
@@ -7865,7 +7865,7 @@ Cannabis has been cultivated for at least 5,000 years, with early evidence of ps
 
 ════════════════════════════════════════════════════════════
 SECTION: DRUG: Xanax
-Source: drugs-detailed/xanax.md
+Source: traits/overlays/molecules/xanax.md
 ════════════════════════════════════════════════════════════
 
 # Xanax
@@ -7913,7 +7913,7 @@ Alprazolam (Xanax) was patented by Upjohn (now part of Pfizer) in 1971 and appro
 
 ════════════════════════════════════════════════════════════
 SECTION: DRUG: Yohimbe
-Source: drugs-detailed/yohimbe.md
+Source: traits/overlays/molecules/yohimbe.md
 ════════════════════════════════════════════════════════════
 
 # Yohimbe

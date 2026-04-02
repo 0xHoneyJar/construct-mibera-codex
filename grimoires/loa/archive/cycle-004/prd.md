@@ -66,7 +66,7 @@ This cycle makes the codex **explorable** — cross-dimensional browse pages, co
 Resolve the two long-standing data blockers from NOTES.md.
 
 **bufotenin rename**:
-- Rename `drugs-detailed/bufotenine.md` → `drugs-detailed/bufotenin.md`
+- Rename `traits/overlays/molecules/bufotenine.md` → `traits/overlays/molecules/bufotenin.md`
 - Update all references across the codex (tarot card `the-tower.md`, backlinks, browse pages, etc.)
 - Update frontmatter in any Mibera files that reference this drug
 - Re-run semantic audit to confirm bidirectional reference check passes

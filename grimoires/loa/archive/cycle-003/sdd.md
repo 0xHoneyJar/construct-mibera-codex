@@ -46,7 +46,7 @@ The Mibera markdown table has a consistent structure:
 | Trait | Value |
 |-------|-------|
 | Archetype | [Freetekno](../core-lore/archetypes.md#freetekno) |
-| Drug | [St. John'S Wort](../drugs-detailed/st-johns-wort.md) |
+| Drug | [St. John'S Wort](../traits/overlays/molecules/st-johns-wort.md) |
 | Swag Score | 41 |
 | Hat | None |
 ```
@@ -437,7 +437,7 @@ Cross-references data across entity types to find logical inconsistencies that s
 | Archetype enum | All Mibera `archetype` values are in {Freetekno, Milady, Acidhouse, Chicago/Detroit} | Mibera frontmatter |
 | Element enum | All Mibera `element` values are in {Earth, Fire, Water, Air} | Mibera frontmatter |
 | Element totals | Sum of element counts = 10,000 | Mibera frontmatter |
-| Drug references | Every `drug` value in Mibera frontmatter matches a file in `drugs-detailed/` | Mibera frontmatter + drug files |
+| Drug references | Every `drug` value in Mibera frontmatter matches a file in `traits/overlays/molecules/` | Mibera frontmatter + drug files |
 | Ancestor references | Every `ancestor` value matches a file in `core-lore/ancestors/` | Mibera frontmatter + ancestor files |
 | Drug↔Tarot bidir | Drug file's tarot card reference ↔ Tarot card's drug reference | Drug + Tarot frontmatter |
 | Orphan traits | Trait files referenced by 0 Miberas | Mibera table links vs trait files |
@@ -453,7 +453,7 @@ JSON report at `_scripts/reports/audit-semantic.json`:
   "checks": {
     "archetype_enum": { "status": "pass", "violations": [] },
     "element_totals": { "status": "pass", "total": 10000, "breakdown": {"Earth": 2500, ...} },
-    "drug_references": { "status": "fail", "violations": ["Mibera #42 references 'Foo' but no drugs-detailed/foo.md"] }
+    "drug_references": { "status": "fail", "violations": ["Mibera #42 references 'Foo' but no traits/overlays/molecules/foo.md"] }
   },
   "summary": { "pass": 7, "fail": 1, "total": 8 }
 }
@@ -473,7 +473,7 @@ Target: <30s. Strategy: load all frontmatter into memory first (python dict), th
 
 | Entity Type | Directory | Count | Backlink Source |
 |-------------|-----------|-------|-----------------|
-| Drug | `drugs-detailed/*.md` | 78 | Mibera `drug` field |
+| Drug | `traits/overlays/molecules/*.md` | 78 | Mibera `drug` field |
 | Ancestor | `core-lore/ancestors/*.md` | 33 | Mibera `ancestor` field |
 | Tarot Card | `core-lore/tarot-cards/*.md` | 78 | Drug→Tarot mapping |
 
@@ -532,7 +532,7 @@ Concatenates core lore into a single plain-text file for LLM context loading.
 4. core-lore/drug-tarot-system.md (full)
 5. glossary.md (full)
 6. core-lore/ancestors/*.md (all 33, content only — strip YAML frontmatter)
-7. drugs-detailed/*.md (all 78, content only — strip YAML frontmatter)
+7. traits/overlays/molecules/*.md (all 78, content only — strip YAML frontmatter)
 ```
 
 #### 3.7.2 Section Format
@@ -585,7 +585,7 @@ Location: repo root
 
 # Traits and drugs — lighter review
 /traits/ @0xHoneyJar/mibera-contributors
-/drugs-detailed/ @0xHoneyJar/mibera-contributors
+/traits/overlays/molecules/ @0xHoneyJar/mibera-contributors
 
 # Mibera entries — open for holder lore
 /miberas/ @0xHoneyJar/mibera-contributors

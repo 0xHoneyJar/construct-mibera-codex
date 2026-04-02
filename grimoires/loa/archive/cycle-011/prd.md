@@ -28,7 +28,7 @@ Format:
 |------|-------------|--------|-------|
 | `miberas/README.md` | mibera | COMPLETE | 10,000 |
 | `traits/README.md` | trait | COMPLETE | 1,257 |
-| `drugs-detailed/README.md` | drug | COMPLETE | 78 |
+| `traits/overlays/molecules/README.md` | drug | COMPLETE | 78 |
 | `core-lore/ancestors/README.md` | ancestor | COMPLETE | 33 |
 | `core-lore/tarot-cards/README.md` | tarot_card | COMPLETE | 78 |
 | `birthdays/README.md` | birthday_era | COMPLETE | 11 |

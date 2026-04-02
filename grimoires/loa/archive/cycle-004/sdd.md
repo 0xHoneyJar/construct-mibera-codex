@@ -35,18 +35,18 @@ No script needed — these are targeted manual fixes followed by re-running exis
 
 #### 3.1.1 Bufotenin Rename
 
-The drug file `drugs-detailed/bufotenine.md` needs to become `drugs-detailed/bufotenin.md`. The tarot card `the-tower.md` already links to `bufotenin.md` — that's the canonical spelling.
+The drug file `traits/overlays/molecules/bufotenine.md` needs to become `traits/overlays/molecules/bufotenin.md`. The tarot card `the-tower.md` already links to `bufotenin.md` — that's the canonical spelling.
 
 **Steps**:
 
-1. **Rename the file**: `drugs-detailed/bufotenine.md` → `drugs-detailed/bufotenin.md`
+1. **Rename the file**: `traits/overlays/molecules/bufotenine.md` → `traits/overlays/molecules/bufotenin.md`
 2. **Update the file's own frontmatter**: `name: Bufotenine` → `name: Bufotenin`
 3. **Update the file's heading**: `# Bufotenine` → `# Bufotenin`
 4. **Update Mibera frontmatter**: All ~155 Mibera files with `drug: Bufotenine` → `drug: Bufotenin`
-5. **Update Mibera markdown tables**: The drug link text and href in each Mibera's table row: `[Bufotenine](../drugs-detailed/bufotenine.md)` → `[Bufotenin](../drugs-detailed/bufotenin.md)`
+5. **Update Mibera markdown tables**: The drug link text and href in each Mibera's table row: `[Bufotenine](../traits/overlays/molecules/bufotenine.md)` → `[Bufotenin](../traits/overlays/molecules/bufotenin.md)`
 6. **Update browse pages**: Re-run `_scripts/generate-browse.sh` to pick up the new name
 7. **Update backlinks**: Re-run `_scripts/generate-backlinks.py` to regenerate with correct slug
-8. **Update other references**: `drugs-detailed/index.md`, `drugs-detailed/drug-pairings.md`, `core-lore/ancestors/native-american.md`, `traits/overlays/molecules.md`
+8. **Update other references**: `traits/overlays/molecules/index.md`, `traits/overlays/molecules/drug-pairings.md`, `core-lore/ancestors/native-american.md`, `traits/overlays/molecules.md`
 9. **Re-run `_data/miberas.jsonl`**: Re-run `_scripts/generate-exports.py`
 10. **Re-run `llms-full.txt`**: Re-run `_scripts/generate-llms-full.py`
 11. **Re-run semantic audit**: `_scripts/audit-semantic.py` should now show 8/8 passes
@@ -425,7 +425,7 @@ entities:
     description: "A molecule that shapes Mibera consciousness and maps to a tarot card"
     count: 78
     schema: "_schema/drug.schema.json"
-    directory: "drugs-detailed/"
+    directory: "traits/overlays/molecules/"
     file_pattern: "{slug}.md"
     frontmatter: true
 
@@ -594,7 +594,7 @@ All Cycle 004 scripts follow the same conventions established in Cycle 003:
 ### F1 Testing
 - Run `_scripts/audit-links.sh` — expect ≤8 broken links (down from 10)
 - Run `_scripts/audit-semantic.py` — expect 8/8 checks pass
-- Verify `drugs-detailed/bufotenin.md` exists and `bufotenine.md` does not
+- Verify `traits/overlays/molecules/bufotenin.md` exists and `bufotenine.md` does not
 - Spot-check 3 Mibera files for correct drug frontmatter
 
 ### F2 Testing

@@ -24,7 +24,7 @@ This maps precisely to the King of Cups' essential quality: the willingness to l
 
 ## Drug Association
 
-**Drug:** [Peyote](../../drugs-detailed/peyote.md)
+**Drug:** [Peyote](../../../traits/overlays/molecules/peyote.md)
 
 **Molecule:** C11H17NO3
 

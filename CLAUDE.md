@@ -28,7 +28,7 @@ Traits are signals, not scripts. A Mibera born in 1352 CE with a Greek ancestor 
 - **Mibera by ID**: `miberas/{NNNN}.md` (zero-padded 4 digits: #42 → `miberas/0042.md`)
 - **Trait by name**: slugify the name, find subcategory in `manifest.json`, read `traits/{subcategory}/{slug}.md`
 - **Browse by dimension**: `browse/by-{archetype|ancestor|drug|era|element|swag-rank|tarot}.md`
-- **Drug by name**: `drugs-detailed/{slug}.md`
+- **Drug by name**: `traits/overlays/molecules/{slug}.md`
 - **Ancestor by name**: `core-lore/ancestors/{slug}.md`
 - **Tarot card**: `core-lore/tarot-cards/{slug}.md`
 - **Grail by name**: `grails/{slug}.md`
@@ -74,7 +74,7 @@ Reference `_codex/data/scope.json` for programmatic scope.
 |-----------|---------|-------|
 | `miberas/` | Individual Mibera files | 10,000 |
 | `traits/` | Visual trait files (18 subcategories) | 1,337 |
-| `drugs-detailed/` | Drug/molecule documentation | 78 |
+| `traits/overlays/molecules/` | Drug/molecule documentation | 78 |
 | `core-lore/` | Archetypes, ancestors, tarot, philosophy | ~120 |
 | `birthdays/` | Birthday era classifications | 11 |
 | `browse/` | Dimensional browse indices | 8 |

@@ -20,7 +20,7 @@ The script builds a **slug index** by walking the codex directories and mapping 
 
 ```
 traits/**/*.md      → slug from filename (e.g., traits/character-traits/hair/funky.md → "funky")
-drugs-detailed/*.md → slug from filename (e.g., drugs-detailed/acacia.md → "acacia")
+traits/overlays/molecules/*.md → slug from filename (e.g., traits/overlays/molecules/acacia.md → "acacia")
 vending-machine/**/*.md → slug from filename
 ```
 
@@ -32,7 +32,7 @@ Then for each image, applies mapping rules in priority order:
 - `{era}_{ancestor}_{tattoo}.webp` (era ∈ {ancient, modern}) → lookup `{slugify(tattoo)}` in tattoos/
 
 ### Priority 2: Archetype combos (no SS prefix)
-- `{arch}_{ancestor}_{drug}.webp` → lookup `{slugify(drug)}` in drugs-detailed/ (molecule overlay)
+- `{arch}_{ancestor}_{drug}.webp` → lookup `{slugify(drug)}` in traits/overlays/molecules/ (molecule overlay)
 - `{arch}_{glasses}.webp` (2 components, arch known) → lookup `{slugify(glasses)}` in glasses/
 
 ### Priority 3: SS-prefixed traits

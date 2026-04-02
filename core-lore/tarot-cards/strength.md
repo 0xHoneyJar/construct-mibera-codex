@@ -26,7 +26,7 @@ The pairing is grounded in practical endurance rather than visionary experience.
 
 ## Drug Association
 
-**Drug:** [Kratom](../../drugs-detailed/kratom.md)
+**Drug:** [Kratom](../../../traits/overlays/molecules/kratom.md)
 
 **Molecule:** C23H30N2O4
 

@@ -24,9 +24,9 @@ locations: Israel, Eastern Europe (historical shtetls), New York, global diaspor
 
 ## Drug Connections
 
-**Modern:** [Alcohol](../../drugs-detailed/alcohol.md)
+**Modern:** [Alcohol](../../../traits/overlays/molecules/alcohol.md)
 
-**Ancient:** [Ethanol](../../drugs-detailed/ethanol.md), [Ancestral Trance](../../drugs-detailed/ancestral-trance.md)
+**Ancient:** [Ethanol](../../../traits/overlays/molecules/ethanol.md), [Ancestral Trance](../../../traits/overlays/molecules/ancestral-trance.md)
 
 ## Sources
 

@@ -172,7 +172,7 @@ echo "  $trait_total files checked, $trait_issues issues" >&2
 # Drugs
 echo "Auditing drug files..." >&2
 DRUG_REQ=("name" "molecule" "era" "origin" "archetype" "ancestor" "swag_score" "image" "date_added")
-result=$(check_yaml_dir "drug" "$REPO_ROOT/drugs-detailed" "${DRUG_REQ[@]}")
+result=$(check_yaml_dir "drug" "$REPO_ROOT/traits/overlays/molecules" "${DRUG_REQ[@]}")
 read -r drug_total drug_issues <<< "$result"
 echo "  $drug_total files checked, $drug_issues issues" >&2
 

@@ -24,7 +24,7 @@ The pairing with the Seven of Wands is rooted in this quality of sustained resis
 
 ## Drug Association
 
-**Drug:** [Khat](../../drugs-detailed/khat.md)
+**Drug:** [Khat](../../../traits/overlays/molecules/khat.md)
 
 **Molecule:** C9H11NO
 

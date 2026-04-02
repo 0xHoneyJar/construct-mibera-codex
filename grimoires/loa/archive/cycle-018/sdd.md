@@ -125,7 +125,7 @@ Every book includes these rules:
 - Voice: narrative, mythic, draws connections across time
 
 ### Book of Sight
-- References `drugs-detailed/*.md` (78 files)
+- References `traits/overlays/molecules/*.md` (78 files)
 - References `core-lore/tarot-cards/*.md` (78 files)
 - References `core-lore/drug-tarot-system.md` for the mapping
 - Voice: experiential, poetic, treats drugs as character fuel not pharmacology

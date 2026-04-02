@@ -62,7 +62,7 @@ Files to rename:
 - `browse/index.md`
 - `grails/index.md`
 - `miberas/index.md`
-- `drugs-detailed/index.md`
+- `traits/overlays/molecules/index.md`
 - `birthdays/index.md`
 - `special-collections/index.md`
 - `core-lore/ancestors/index.md`

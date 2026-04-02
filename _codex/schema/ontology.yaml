@@ -70,7 +70,7 @@ entities:
     description: "A molecule that shapes Mibera consciousness and maps to a tarot card"
     count: 78
     schema: "_codex/schema/drug.schema.json"
-    directory: "drugs-detailed/"
+    directory: "traits/overlays/molecules/"
     file_pattern: "{slug}.md"
     frontmatter: true
 

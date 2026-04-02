@@ -24,7 +24,7 @@ The connection with the Page of Cups is direct: both describe the moment when so
 
 ## Drug Association
 
-**Drug:** [Psychotria viridis](../../drugs-detailed/psychotria-viridis.md)
+**Drug:** [Psychotria viridis](../../../traits/overlays/molecules/psychotria-viridis.md)
 
 **Molecule:** C12H16N2
 

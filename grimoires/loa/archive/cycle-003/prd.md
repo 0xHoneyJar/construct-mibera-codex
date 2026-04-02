@@ -186,7 +186,7 @@ Create:
 - `CONTRIBUTING.md` with PR template, review process, quality checklist, and content type guides
 - `CODEOWNERS` with protection zones:
   - `core-lore/` and `IDENTITY.md` → core team review required
-  - `traits/` and `drugs-detailed/` → lighter review
+  - `traits/` and `traits/overlays/molecules/` → lighter review
   - `miberas/` → open for holder lore contributions
 
 **Acceptance**: Both files exist; CODEOWNERS syntax is valid; CONTRIBUTING.md covers all content types

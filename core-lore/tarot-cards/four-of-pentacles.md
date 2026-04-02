@@ -26,7 +26,7 @@ There is a darker parallel here as well. Coffee's grip is famously stubborn, the
 
 ## Drug Association
 
-**Drug:** [Coffee](../../drugs-detailed/coffee.md)
+**Drug:** [Coffee](../../../traits/overlays/molecules/coffee.md)
 
 **Molecule:** C8H10N4O2
 

@@ -25,7 +25,7 @@ Single sprint. Add machine-readable completeness comments to 8 entity index file
 **Files**:
 1. `miberas/README.md` — COMPLETE, 10000
 2. `traits/README.md` — COMPLETE, 1257
-3. `drugs-detailed/README.md` — COMPLETE, 78
+3. `traits/overlays/molecules/README.md` — COMPLETE, 78
 4. `core-lore/ancestors/README.md` — COMPLETE, 33
 5. `core-lore/tarot-cards/README.md` — COMPLETE, 78
 6. `birthdays/README.md` — COMPLETE, 11

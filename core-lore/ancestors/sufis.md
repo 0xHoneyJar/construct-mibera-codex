@@ -21,9 +21,9 @@ locations: Turkey
 
 ## Drug Connections
 
-**Modern:** [Iproniazid](../../drugs-detailed/iproniazid.md)
+**Modern:** [Iproniazid](../../../traits/overlays/molecules/iproniazid.md)
 
-**Ancient:** [Syrian Rue](../../drugs-detailed/syrian-rue.md)
+**Ancient:** [Syrian Rue](../../../traits/overlays/molecules/syrian-rue.md)
 
 ## Sources
 

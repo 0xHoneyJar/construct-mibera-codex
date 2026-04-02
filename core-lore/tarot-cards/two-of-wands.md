@@ -24,7 +24,7 @@ This pairs with the Two of Wands because both occupy the space of watchful waiti
 
 ## Drug Association
 
-**Drug:** [Chewing Tobacco](../../drugs-detailed/chewing-tobacco.md)
+**Drug:** [Chewing Tobacco](../../../traits/overlays/molecules/chewing-tobacco.md)
 
 **Molecule:** C10H14N2
 

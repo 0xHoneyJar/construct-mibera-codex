@@ -12,7 +12,7 @@ Find connections across entity types in the Mibera Codex.
 ## Drug-Tarot pairings
 The 78 drugs map 1:1 to 78 tarot cards. To find a drug's tarot card (or vice versa):
 - Read `core-lore/drug-tarot-system.md` for the complete mapping
-- Each drug file in `drugs-detailed/{slug}.md` includes its paired tarot card in frontmatter
+- Each drug file in `traits/overlays/molecules/{slug}.md` includes its paired tarot card in frontmatter
 - Each tarot card in `core-lore/tarot-cards/{slug}.md` includes its paired drug
 
 ## Ancestor-Archetype clusters

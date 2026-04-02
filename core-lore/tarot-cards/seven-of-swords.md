@@ -24,7 +24,7 @@ Both card and plant trade in the space between cunning and madness. Henbane was 
 
 ## Drug Association
 
-**Drug:** [Henbane](../../drugs-detailed/henbane.md)
+**Drug:** [Henbane](../../../traits/overlays/molecules/henbane.md)
 
 **Molecule:** C17H21NO4
 

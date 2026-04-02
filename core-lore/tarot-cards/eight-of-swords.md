@@ -24,7 +24,7 @@ The connection between card and plant centers on hiddenness and revelation. The 
 
 ## Drug Association
 
-**Drug:** [Acacia](../../drugs-detailed/acacia.md)
+**Drug:** [Acacia](../../../traits/overlays/molecules/acacia.md)
 
 **Molecule:** C12H16N2
 

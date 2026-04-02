@@ -10,7 +10,7 @@ Defined in `llms.txt:Lookup Patterns`:
 |---------|--------------|---------|
 | Mibera by ID | `miberas/{NNNN}.md` | `miberas/0042.md` for Mibera #42 [`llms.txt:Lookup Patterns`] |
 | Trait by name | `traits/{subcategory}/{slug}.md` | `traits/accessories/hats/cowboy-hat.md` |
-| Drug by name | `drugs-detailed/{slug}.md` | `drugs-detailed/psilocybin.md` |
+| Drug by name | `traits/overlays/molecules/{slug}.md` | `traits/overlays/molecules/psilocybin.md` |
 | Ancestor by name | `core-lore/ancestors/{slug}.md` | `core-lore/ancestors/greek.md` |
 | Tarot card | `core-lore/tarot-cards/{slug}.md` | `core-lore/tarot-cards/the-fool.md` |
 | Grail by name | `grails/{slug}.md` | `grails/the-last-supper.md` |

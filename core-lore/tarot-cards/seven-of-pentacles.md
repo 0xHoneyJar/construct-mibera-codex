@@ -26,7 +26,7 @@ The pairing also connects through cultivation itself. CBD comes from cannabis, o
 
 ## Drug Association
 
-**Drug:** [CBD](../../drugs-detailed/cbd.md)
+**Drug:** [CBD](../../../traits/overlays/molecules/cbd.md)
 
 **Molecule:** C21H30O2
 

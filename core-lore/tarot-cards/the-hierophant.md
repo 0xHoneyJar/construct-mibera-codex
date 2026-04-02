@@ -26,7 +26,7 @@ This role as an enabler of deeper experience maps precisely onto The Hierophant'
 
 ## Drug Association
 
-**Drug:** [Syrian Rue](../../drugs-detailed/syrian-rue.md)
+**Drug:** [Syrian Rue](../../../traits/overlays/molecules/syrian-rue.md)
 
 **Molecule:** C13H14N2O
 

@@ -31,7 +31,7 @@ The `.obsidian/graph.json` currently has **empty `colorGroups`**. All nodes appe
 | Miberas | `path:miberas` | The 10,000 core entries |
 | Tarot Cards | `path:core-lore/tarot-cards` | 78 tarot card files |
 | Ancestors | `path:core-lore/ancestors` | 32 ancestor culture files |
-| Drugs | `path:drugs-detailed` | 79 drug profile files |
+| Drugs | `path:traits/overlays/molecules` | 79 drug profile files |
 | Traits | `path:traits` | 1,255 visual trait files |
 | Browse/Index | `path:browse` | Navigation/browse pages |
 | Core Lore | `path:core-lore` | Philosophy, archetypes, cosmology |

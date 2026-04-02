@@ -16,8 +16,8 @@
 * [Elements](traits/overlays/elements/README.md)
 * [The Drug-Tarot System](core-lore/drug-tarot-system.md)
   * [Tarot Cards](core-lore/tarot-cards/README.md)
-  * [Drug Pairings](drugs-detailed/drug-pairings.md)
-  * [Drugs](drugs-detailed/README.md)
+  * [Drug Pairings](traits/overlays/molecules/drug-pairings.md)
+  * [Drugs](traits/overlays/molecules/README.md)
 
 ## IV. The Art
 * [All Traits Index](traits/README.md)

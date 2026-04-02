@@ -26,9 +26,9 @@ locations: Mongolia, Central Asia, Siberia
 
 ## Drug Connections
 
-**Modern:** [Sober](../../drugs-detailed/sober.md)
+**Modern:** [Sober](../../../traits/overlays/molecules/sober.md)
 
-**Ancient:** [Euphoria](../../drugs-detailed/euphoria.md), [Sober](../../drugs-detailed/sober.md)
+**Ancient:** [Euphoria](../../../traits/overlays/molecules/euphoria.md), [Sober](../../../traits/overlays/molecules/sober.md)
 
 ## Sources
 

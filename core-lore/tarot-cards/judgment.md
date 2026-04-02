@@ -26,7 +26,7 @@ The pairing with Judgment is darker than most in this system, and deliberately s
 
 ## Drug Association
 
-**Drug:** [Benadryl](../../drugs-detailed/benadryl.md)
+**Drug:** [Benadryl](../../../traits/overlays/molecules/benadryl.md)
 
 **Molecule:** C17H21NO
 

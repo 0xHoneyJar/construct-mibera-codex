@@ -31,10 +31,10 @@
 **Description**: Rename `mucana-pruriens.md` → `mucuna-pruriens.md` and `yohimbine.md` → `yohimbe.md`. Update all internal links across the codex (~252 files). Update YAML name fields and headings in the renamed files.
 
 **Acceptance Criteria**:
-- [ ] `drugs-detailed/mucuna-pruriens.md` exists with correct `name: Mucuna Pruriens`
-- [ ] `drugs-detailed/mucana-pruriens.md` no longer exists
-- [ ] `drugs-detailed/yohimbe.md` exists with correct `name: Yohimbe`
-- [ ] `drugs-detailed/yohimbine.md` no longer exists
+- [ ] `traits/overlays/molecules/mucuna-pruriens.md` exists with correct `name: Mucuna Pruriens`
+- [ ] `traits/overlays/molecules/mucana-pruriens.md` no longer exists
+- [ ] `traits/overlays/molecules/yohimbe.md` exists with correct `name: Yohimbe`
+- [ ] `traits/overlays/molecules/yohimbine.md` no longer exists
 - [ ] All link targets `mucana-pruriens.md` updated to `mucuna-pruriens.md` across codex
 - [ ] All link targets `yohimbine.md` updated to `yohimbe.md` across codex
 - [ ] Link display text `[Mucana Pruriens]` updated to `[Mucuna Pruriens]` in Mibera files
@@ -48,7 +48,7 @@
 **Description**: Delete the corrupted `sakae-naa.md` duplicate and update all ~164 references to point to the correct `sakae-na.md`.
 
 **Acceptance Criteria**:
-- [ ] `drugs-detailed/sakae-naa.md` no longer exists
+- [ ] `traits/overlays/molecules/sakae-naa.md` no longer exists
 - [ ] All link targets `sakae-naa.md` updated to `sakae-na.md` across codex
 - [ ] All link display text `[Sakae Naa]` updated to `[Sakae Na]` across codex
 - [ ] Tarot card `five-of-cups.md` updated to reference `sakae-na.md`

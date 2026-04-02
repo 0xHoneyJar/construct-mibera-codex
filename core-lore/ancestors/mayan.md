@@ -24,9 +24,9 @@ locations: Maya Region, Mesoamerica (Guatemala, Mexico, Belize, Honduras)
 
 ## Drug Connections
 
-**Modern:** [DMT](../../drugs-detailed/dmt.md)
+**Modern:** [DMT](../../../traits/overlays/molecules/dmt.md)
 
-**Ancient:** [Ayahuasca](../../drugs-detailed/ayahuasca.md), [Psychotria Viridis](../../drugs-detailed/psychotria-viridis.md), [Mimosa Tenuiflora](../../drugs-detailed/mimosa-tenuiflora.md), [Ololiuqui](../../drugs-detailed/ololiuqui.md)
+**Ancient:** [Ayahuasca](../../../traits/overlays/molecules/ayahuasca.md), [Psychotria Viridis](../../../traits/overlays/molecules/psychotria-viridis.md), [Mimosa Tenuiflora](../../../traits/overlays/molecules/mimosa-tenuiflora.md), [Ololiuqui](../../../traits/overlays/molecules/ololiuqui.md)
 
 ## Sources
 

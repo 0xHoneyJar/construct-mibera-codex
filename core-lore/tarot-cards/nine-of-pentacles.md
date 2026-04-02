@@ -26,7 +26,7 @@ MMDA's reputation in the psychedelic literature is one of intelligence applied t
 
 ## Drug Association
 
-**Drug:** [MMDA](../../drugs-detailed/mmda.md)
+**Drug:** [MMDA](../../../traits/overlays/molecules/mmda.md)
 
 **Molecule:** C11H15NO3
 

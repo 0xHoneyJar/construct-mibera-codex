@@ -24,9 +24,9 @@ locations: Punjab (India and Pakistan), diaspora communities in UK, Canada, USA
 
 ## Drug Connections
 
-**Modern:** [Alcohol](../../drugs-detailed/alcohol.md)
+**Modern:** [Alcohol](../../../traits/overlays/molecules/alcohol.md)
 
-**Ancient:** [Bhang](../../drugs-detailed/bhang.md)
+**Ancient:** [Bhang](../../../traits/overlays/molecules/bhang.md)
 
 ## Sources
 

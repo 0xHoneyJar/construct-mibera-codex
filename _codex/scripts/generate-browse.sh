@@ -100,7 +100,7 @@ for drug in sorted(by_drug.keys(), key=str.lower):
     slug = re.sub(r'-+', '-', slug).strip('-')
     lines.append(f'## {drug}\n')
     lines.append(f'**{len(ids):,} Miberas**\n')
-    lines.append(f'[Learn about {drug} →](../drugs-detailed/{slug}.md)\n')
+    lines.append(f'[Learn about {drug} →](../traits/overlays/molecules/{slug}.md)\n')
     lines.append(format_mibera_list(ids) + '\n')
     lines.append('')
 
