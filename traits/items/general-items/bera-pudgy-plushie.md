@@ -18,7 +18,7 @@ a plushie of a penguin wearing a pink sweater and a brown bear hat.
 
 ## Cultural Context
 
-Pudgy Penguins is a major NFT collection that expanded into physical plush toys sold at retail. This item combines the Pudgy Penguin form with a bear hat.
+Pudgy Penguins is a major NFT collection that expanded into physical plush toys sold at retail. This item is one of the existing penguin plushes which has a bear hat.
 
 <!-- justification
 ## Justification

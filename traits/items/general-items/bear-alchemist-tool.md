@@ -19,7 +19,7 @@ a glass lab flask, medium to big in size with what looks like rust in red copper
 
 ## Cultural Context
 
-References the lab equipment of Augustus Owsley Stanley III ("Bear"), the first private individual to mass-produce LSD in the 1960s. Owsley supplied the Grateful Dead and the Merry Pranksters, manufacturing an estimated 1.25 million doses. His nickname "Bear" makes this a double reference — Owsley's chemistry gear rendered as Berachain bear iconography.
+References the lab equipment of Augustus Owsley Stanley III ("Bear"), the first private individual to mass-produce LSD in the 1960s. Owsley supplied the Grateful Dead and the Merry Pranksters, manufacturing an estimated 1.25 million doses. His nickname was "Bear".
 
 <!-- justification
 ## Justification

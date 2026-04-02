@@ -15,7 +15,7 @@ date_added: "2024-07-09"
 
 ## Visual Elements
 
-prayer beads in brown with red string.
+ brown beads held together on a red string.
 
 ## Cultural Context
 

@@ -18,7 +18,7 @@ a plushie of a standing bear character.
 
 ## Cultural Context
 
-Beratone is a project within the Berachain ecosystem. Its representation as a standing bear plushie follows the collection's standard format for rendering ecosystem partners as physical collectibles.
+Beratone is a gaming project within the Berachain ecosystem. 
 
 <!-- justification
 ## Justification

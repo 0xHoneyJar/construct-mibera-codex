@@ -19,7 +19,7 @@ a plushie of a bear with mustache, dark brown long hair, small spectacles, weari
 
 ## Cultural Context
 
-A bear plushie dressed in hippie attire with a Rastafarian-colored headband, spectacles, and mustache. The name "Beratone" is a Berachain ecosystem portmanteau. The styling references 1960s-70s counterculture.
+Beratone is a gaming project within the Berachain ecosystem. 
 
 <!-- justification
 ## Justification

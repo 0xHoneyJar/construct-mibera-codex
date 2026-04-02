@@ -18,7 +18,7 @@ a plushie of a brown bear wearing big spectacles and a short orange beanie.
 
 ## Cultural Context
 
-Berapunk is a project within the Berachain ecosystem. The combination of spectacles and beanie on a bear plush gives it a distinctly indie or intellectual character, fitting the "-punk" suffix that implies DIY subculture.
+Berapunk is a project within the Berachain ecosystem. 
 
 <!-- justification
 ## Justification
