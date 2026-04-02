@@ -25,6 +25,6 @@ The visual motif that ties the collection together: rave culture's altered state
 
 **Dominant Colors:** blue, white
 **Archetype:** freetekno
-**Ancestor:** [orthodox jews](../../../core-lore/ancestors/orthodox-jew.md), [aboriginial](../../../core-lore/ancestors/aboriginal.md), [haitians](../../../core-lore/ancestors/haitian.md)
+**Ancestor:** [orthodox jews](../../../core-lore/ancestors/orthodox-jew.md), [aboriginal](../../../core-lore/ancestors/aboriginal.md), [haitians](../../../core-lore/ancestors/haitian.md)
 **Swag Score:** 5
 **Date Added:** 2024-12-09
