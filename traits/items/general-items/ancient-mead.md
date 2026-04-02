@@ -15,7 +15,7 @@ date_added: "2024-07-12"
 
 ## Visual Elements
 
-a vintage jug with caveman drawing style graphic; in a very dark green and light lime green.
+a greek amphora with black-figure art 
 
 ## Cultural Context
 
@@ -29,7 +29,7 @@ Honey fermented into humanity's oldest intoxicant is a triple-lock on Berachain 
 
 ---
 
-**Dominant Colors:** dark green, light lime green
+**Dominant Colors:** black, eggshell 
 **Archetype:** acidhouse
 **Ancestor:** [greek](../../../core-lore/ancestors/greek.md)
 **Swag Score:** 5
