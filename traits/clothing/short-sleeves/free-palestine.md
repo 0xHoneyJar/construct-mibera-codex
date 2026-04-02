@@ -14,6 +14,9 @@ date_added: "2024-06-22"
 Black t-shirt a graphic of a fist up in the colour of Palestine’s flag (green, red, white) and white text that reads “FREE PALESTINE”.
 
 ## Cultural Context
+
+"Free Palestine" is one of the most recognized slogans of the Palestinian solidarity movement. The raised fist in the colours of the Palestinian flag is a widely used symbol of resistance and liberation.
+
 <!-- justification
 ## Justification
 

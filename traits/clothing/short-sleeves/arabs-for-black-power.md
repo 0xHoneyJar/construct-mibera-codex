@@ -19,6 +19,9 @@ date_added: "2024-06-22"
 Black t-shirt with white text that reads “ARABS for BLACK POWER” and an Arabic script under it.
 
 ## Cultural Context
+
+Solidarity between Arab and Black communities has a long history rooted in shared struggles against colonialism and racial injustice. The shirt documents this cross-cultural alliance as part of the broader civil rights movement.
+
 <!-- justification
 ## Justification
 

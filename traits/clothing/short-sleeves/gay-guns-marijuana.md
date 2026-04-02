@@ -19,6 +19,9 @@ date_added: "2024-06-22"
 White t-shirt with graphic in green, showing 2 guys in a circle with 1 holding a gun and another one holding a pot of plant. Outside of the circle is a text saying “- couples to be able to protect their marijuana plants with guns”.
 
 ## Cultural Context
+
+A libertarian slogan that combines positions from across the political spectrum into a single statement: "I want gay married couples to be able to protect their marijuana plants with guns." It has circulated widely as a meme and on merchandise.
+
 <!-- justification
 ## Justification
 

@@ -19,6 +19,9 @@ date_added: "2024-06-22"
 White t-shirt with white text that reads “-IBERATION FRONT text rounding a graphic of female-male symbols connected to each other, all in red.
 
 ## Cultural Context
+
+The Gay Liberation Front (GLF) was formed in New York City in 1969 in the wake of the Stonewall riots. It was one of the first organizations to use the word "gay" in its name and played a foundational role in the LGBTQ rights movement.
+
 <!-- justification
 ## Justification
 
