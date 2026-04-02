@@ -18,7 +18,7 @@ a plushie of Jani’s mascot; a brown bear wearing purple durag and red jacket w
 
 ## Cultural Context
 
-Jani is a founding team member and creator of Mibera, responsible for much of the collection's philosophical and cultural direction. This representation of Jani is from Project Puru-Puru
+Jani is a founding team member and creator of Mibera, responsible for much of the collection's philosophical and cultural direction. This representation of Jani is from Project Purupuru
 
 <!-- justification
 ## Justification

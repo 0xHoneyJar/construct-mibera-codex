@@ -18,7 +18,7 @@ Baddie’s mask in honey color; a female bear face with feminine eyes, red lips,
 
 ## Cultural Context
 
-Bera Baddies is a women centric org within the Berachain ecosystem. This item is a reference to the bera baddie face designed by Gumibera. 
+Berabaddies is a women-centric project within the Berachain ecosystem. This item is a reference to the bera baddie face designed by Gumibera. 
 
 <!-- justification
 ## Justification
