@@ -19,7 +19,7 @@ a plushie of a panda wearing black hat and navy suit with an inner white shirt.
 
 ## Cultural Context
 
-A panda bear in a navy suit and black hat. 
+A panda bear in a navy suit and black hat. Bond Bears were one of the rebases of the Bong Bears NFT collection on Berachain.
 
 <!-- justification
 ## Justification

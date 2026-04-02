@@ -19,7 +19,7 @@ a plushie of a brown bear wearing a black hat, glasses with white frames, a ligh
 
 ## Cultural Context
 
-Bond Bear is a series of four bear plushies dressed in suits, referencing the James Bond film franchise. Each variant wears a different suit style. The series was noted by team members for its level of detail.
+Bond Bear is a series of four bear plushies dressed in suits, referencing the James Bond film franchise. Each variant wears a different suit style. Bond Bears were one of the rebases of the Bong Bears NFT collection on Berachain.
 
 <!-- justification
 ## Justification

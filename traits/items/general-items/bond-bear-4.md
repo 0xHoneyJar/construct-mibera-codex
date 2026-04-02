@@ -19,7 +19,7 @@ a plushie of a panda with a grey hat and a dirty white long coat.
 
 ## Cultural Context
 
-A panda plushie in a grey hat and long coat, the most casual of the four Bond Bear variants. 
+A panda plushie in a grey hat and long coat, the most casual of the four Bond Bear variants. Bond Bears were one of the rebases of the Bong Bears NFT collection on Berachain.
 
 <!-- justification
 ## Justification

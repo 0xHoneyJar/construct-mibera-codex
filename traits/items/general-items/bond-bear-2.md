@@ -19,7 +19,7 @@ a plushie of a dark brown bear wearing glasses and a black suit with white inner
 
 ## Cultural Context
 
-The second Bond Bear variant, wearing a dark suit with a blue striped tie. Part of the four-piece spy-themed bear plushie set within the Berachain ecosystem items.
+The second Bond Bear variant, wearing a dark suit with a blue striped tie. Bond Bears were one of the rebases of the Bong Bears NFT collection on Berachain.
 
 <!-- justification
 ## Justification
