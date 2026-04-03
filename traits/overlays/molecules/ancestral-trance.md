@@ -3,7 +3,6 @@ name: Ancestral Trance
 molecule: C20H25N3O
 compound: "Lysergide"
 era: Ancient
-origin: '---'
 archetype: Freetekno
 ancestor: Orthodox Jews, Aboriginal, Haitians
 swag_score: 3

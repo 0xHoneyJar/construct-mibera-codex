@@ -2,7 +2,6 @@
 name: Buddhist
 period_ancient: -563 - -483
 period_modern: 1950 - 2024
-locations: '---'
 ---
 
 # Buddhist

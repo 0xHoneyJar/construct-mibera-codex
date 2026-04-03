@@ -3,7 +3,6 @@ name: Euphoria
 molecule: C8H11NO2
 compound: "Dopamine"
 era: Modern
-origin: '---'
 archetype: Chicago Detroit
 ancestor: Mongolian
 swag_score: 2
