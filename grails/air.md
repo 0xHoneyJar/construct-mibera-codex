@@ -16,7 +16,7 @@ description: "Cloud-like figure with sun filtering through"
 
 Cloud-like figure in soft, diffused tones with no hard edges or weight. Unlike the other three element grails, which carry a distinct point of light in the chest, Air dissolves the light across the entire composition — sunlight filtering through atmosphere rather than shining from a single source.
 
-## Justification
+## Cultural Context
 
 Every Mibera is assigned one of four classical elements based on their birth coordinates. Air corresponds to the northeast quadrant (Europe, the Middle East, Asia) and the qualities of intellect, communication, movement, and breath. It's a textural signal — it doesn't define identity but colors how identity expresses.
 

@@ -403,6 +403,43 @@ def main():
             if section:
                 node["context"] = section
 
+    # ── Backfill context on zodiac nodes ──────────────────────────────
+    print("Backfilling context on zodiac, element, ranking, and era nodes...")
+    OVERLAY_DIRS = {
+        "zodiac": "traits/overlays/astrology",
+        "element": "traits/overlays/elements",
+        "swag_rank": "traits/overlays/ranking",
+    }
+    for node_type, directory in OVERLAY_DIRS.items():
+        overlay_files = load_frontmatter(directory)
+        for of in overlay_files:
+            name = of.get("name", "")
+            if not name:
+                continue
+            nid = f"{node_type}:{slugify(name)}"
+            if nid in nodes and not nodes[nid].get("context"):
+                context = extract_cultural_context(of.get("_content", ""))
+                if context:
+                    nodes[nid]["context"] = context
+
+    # Backfill era context from birthday files
+    BIRTHDAY_DIR = "birthdays"
+    for filepath in sorted(glob.glob(os.path.join(BIRTHDAY_DIR, "*.md"))):
+        basename = os.path.basename(filepath)
+        if basename == "README.md":
+            continue
+        with open(filepath, "r") as f:
+            content = f.read()
+        # Era files don't have frontmatter — extract era name from H1
+        h1 = re.search(r'^# (.+?)(?:\s*\(|$)', content, re.MULTILINE)
+        if h1:
+            era_name = h1.group(1).strip()
+            era_id = f"era:{slugify(era_name)}"
+            if era_id in nodes and not nodes[era_id].get("context"):
+                context = extract_cultural_context(content)
+                if context:
+                    nodes[era_id]["context"] = context
+
     # ── Process grails ────────────────────────────────────────────────
     print("Processing grails...")
     grail_mibera_ids = set()

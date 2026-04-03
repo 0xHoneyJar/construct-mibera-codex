@@ -16,7 +16,7 @@ description: "Pyromantic hues with radiating heat and chest light evoking the su
 
 The figure is mostly orange against a background that radiates from dark orange outward to lighter orange. Lines and movement push outward from the figure like heat rising off a surface. A point of light in the chest marks the source, connecting the figure to the sun.
 
-## Justification
+## Cultural Context
 
 Fire corresponds to the southeast quadrant (Australia, Indonesia, the Pacific Islands, parts of Asia and Africa) and the qualities of energy, passion, transformation, and willpower. It's the most active element — the one that changes everything it touches.
 

@@ -16,7 +16,7 @@ description: "Aquatic hues with downward flow and chest light evoking the sun"
 
 Deep blues, teals, near-blacks. Everything flows downward — water obeys gravity and the composition follows. A point of light in the chest connects the figure to the sun. Water reflects and carries light rather than generating it.
 
-## Justification
+## Cultural Context
 
 Water corresponds to the southwest quadrant (South America, parts of Antarctica, the Atlantic) and the qualities of emotion, intuition, flow, dreams, and the unconscious. It's the most internal element — associated with what's below the surface.
 
