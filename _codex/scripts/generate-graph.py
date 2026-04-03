@@ -62,13 +62,6 @@ EDGE_WEIGHTS = {
     "is_grail": 3,
 }
 
-# Manual slug overrides for mibera frontmatter values that don't match filenames
-SLUG_OVERRIDES = {
-    "sakae-naa": "sakae-na-plant",
-    "keith-harding-shirt": "keith-haring-shirt",
-    "mother": "mother-shirt",
-    "geez-love": "ge-ez-love",
-}
 
 SIGNAL_WEIGHTS = {
     "load_bearing": ["has_archetype", "has_ancestor", "born_in_era", "is_grail"],
@@ -313,7 +306,6 @@ def main():
             if not value or str(value).lower() == "none":
                 continue
             slug = slugify(str(value))
-            slug = SLUG_OVERRIDES.get(slug, slug)
             traits = trait_lookup.get(field, {})
             if slug in traits:
                 trait = traits[slug]
