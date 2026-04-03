@@ -103,7 +103,7 @@ Each Archetype represents a distinct rave movement, era, and aesthetic. Miberas 
 
 ---
 
-## Chicago Detroit
+## Chicago/Detroit
 
 **Time Period:** Early 80s
 **Zodiac Signs:** Aries, Taurus, Gemini (Spring)
