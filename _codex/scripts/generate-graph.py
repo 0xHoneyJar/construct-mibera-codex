@@ -21,6 +21,7 @@ DRUG_DIR = "traits/overlays/molecules"
 TAROT_DIR = "core-lore/tarot-cards"
 ANCESTOR_DIR = "core-lore/ancestors"
 ARCHETYPE_FILE = "core-lore/archetypes.md"
+GRAIL_DIR = "grails"
 OUTPUT_FILE = "_codex/data/graph.json"
 TIMESTAMP = datetime.now(timezone.utc).strftime("%Y-%m-%d")
 
@@ -57,6 +58,8 @@ EDGE_WEIGHTS = {
     "has_earrings": 1, "has_mask": 1, "has_face_accessory": 1,
     "has_tattoo": 1, "has_background": 1, "has_body": 1,
     "has_hair": 1, "has_eyes": 1, "has_eyebrows": 1, "has_mouth": 1,
+    # Grail (3 — load-bearing, a 1/1 is fundamental to identity)
+    "is_grail": 3,
 }
 
 # Manual slug overrides for mibera frontmatter values that don't match filenames
@@ -68,7 +71,7 @@ SLUG_OVERRIDES = {
 }
 
 SIGNAL_WEIGHTS = {
-    "load_bearing": ["has_archetype", "has_ancestor", "born_in_era"],
+    "load_bearing": ["has_archetype", "has_ancestor", "born_in_era", "is_grail"],
     "textural": ["has_drug", "maps_to_tarot", "has_element", "has_suit_element", "drug_archetype", "drug_ancestor"],
     "modifier": ["has_swag_rank", "has_sun_sign", "has_moon_sign", "has_ascending_sign"],
     "visual": ["has_shirt", "has_hat", "has_item", "has_glasses", "has_earrings",
@@ -91,15 +94,37 @@ def slugify(name):
 
 
 def extract_cultural_context(content):
-    """Extract text between '## Cultural Context' and next section/comment."""
+    """Extract Cultural Context section. Falls back to Effects & Properties + History for drug files."""
     match = re.search(
         r'## Cultural Context\s*\n(.*?)(?=\n## |\n<!--|---\n|\Z)',
         content, re.DOTALL
     )
     if match:
         text = match.group(1).strip()
-        return text if text else None
-    return None
+        if text:
+            return text
+    # Fallback: try other common headings
+    for heading in ["Interpretation"]:
+        m = re.search(
+            rf'## {re.escape(heading)}\s*\n(.*?)(?=\n## |\n<!--|---\n|\Z)',
+            content, re.DOTALL
+        )
+        if m:
+            text = m.group(1).strip()
+            if text:
+                return text
+    # Fallback for drug/molecule files: combine Effects + History
+    parts = []
+    for heading in ["Effects & Properties", "History"]:
+        m = re.search(
+            rf'## {re.escape(heading)}\s*\n(.*?)(?=\n## |\n<!--|---\n|\Z)',
+            content, re.DOTALL
+        )
+        if m:
+            text = m.group(1).strip()
+            if text:
+                parts.append(text)
+    return "\n\n".join(parts) if parts else None
 
 
 def extract_section(content, heading):
@@ -169,7 +194,8 @@ def main():
     drugs = load_frontmatter(DRUG_DIR, skip_files={"README.md", "drug-pairings.md"})
     tarots = load_frontmatter(TAROT_DIR)
     ancestors = load_frontmatter(ANCESTOR_DIR)
-    print(f"  Miberas: {len(miberas)}, Drugs: {len(drugs)}, Tarot: {len(tarots)}, Ancestors: {len(ancestors)}")
+    grails = load_frontmatter(GRAIL_DIR)
+    print(f"  Miberas: {len(miberas)}, Drugs: {len(drugs)}, Tarot: {len(tarots)}, Ancestors: {len(ancestors)}, Grails: {len(grails)}")
 
     # Load all visual trait files
     print("Loading visual trait files...")
@@ -371,6 +397,38 @@ def main():
             section = extract_section(arch_content, label)
             if section:
                 node["context"] = section
+
+    # ── Process grails ────────────────────────────────────────────────
+    print("Processing grails...")
+    grail_mibera_ids = set()
+    for g in grails:
+        gid = g.get("id")
+        name = g.get("name", "")
+        if not gid or not name:
+            continue
+        gid = int(gid)
+        grail_mibera_ids.add(gid)
+
+        # Create grail node
+        grail_node_id = f"grail:{slugify(name)}"
+        context = extract_cultural_context(g.get("_content", ""))
+        add_node(grail_node_id, "grail", name,
+                 category=g.get("category"),
+                 description=g.get("description"),
+                 image=g.get("image"),
+                 context=context)
+
+        # Link mibera → grail
+        mibera_node_id = f"mibera:{gid}"
+        add_edge(mibera_node_id, grail_node_id, "is_grail")
+
+    # Mark grail mibera nodes
+    for gid in grail_mibera_ids:
+        mibera_node_id = f"mibera:{gid}"
+        if mibera_node_id in nodes:
+            nodes[mibera_node_id]["is_grail"] = True
+
+    print(f"  {len(grail_mibera_ids)} grail miberas linked")
 
     # ── Build output ─────────────────────────────────────────────────
     node_list = sorted(nodes.values(), key=lambda n: (n["type"], n["id"]))

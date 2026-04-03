@@ -7,7 +7,7 @@ locations: San Francisco Bay Area, the Internet, global digital networks
 
 # Cypherpunk
 
-## Cultural Significance
+## Cultural Context
 
 **Figures Associated:**
 - Satoshi Nakamoto; the pseudonymous creator of Bitcoin whose 2008 whitepaper and 2009 software launch birthed cryptocurrency. Their true identity remains unknown — a fitting mystery for a movement built on privacy and cryptography.

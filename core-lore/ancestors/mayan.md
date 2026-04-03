@@ -9,7 +9,7 @@ locations: Maya Region, Mesoamerica (Guatemala, Mexico, Belize, Honduras)
 
 > **1/1 Grail**: [Mayan Grail (#3970)](../../grails/mayan.md)
 
-## Cultural Significance
+## Cultural Context
 
 **Figures Associated:**
 - K'inich Janaab Pakal (Pakal the Great); ruler of Palenque whose elaborate tomb discovery in 1952 revealed Maya beliefs about death and the underworld. His carved sarcophagus lid, often misinterpreted as depicting an "ancient astronaut," shows his journey to Xibalba.

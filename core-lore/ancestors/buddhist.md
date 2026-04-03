@@ -8,7 +8,7 @@ period_modern: 1950 - 2024
 
 > **1/1 Grail**: [Buddhist Grail (#9503)](../../grails/buddhist.md)
 
-## Cultural Significance
+## Cultural Context
 
 **Figures Associated:**
 

@@ -7,7 +7,7 @@ locations: New York City (Greenwich Village), Christopher Street, Stonewall Inn
 
 # Stonewall
 
-## Cultural Significance
+## Cultural Context
 
 **Figures Associated:**
 - Marsha P. Johnson; Black trans activist and self-identified drag queen who was at the forefront of the Stonewall uprising. She co-founded STAR (Street Transvestite Action Revolutionaries) with Sylvia Rivera to support homeless trans youth.

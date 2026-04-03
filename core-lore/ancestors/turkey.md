@@ -7,7 +7,7 @@ locations: Turkey, Anatolia, Constantinople/Istanbul
 
 # Turkey
 
-## Cultural Significance
+## Cultural Context
 
 **Figures Associated:**
 - Barış Manço; legendary Turkish rock musician who blended Anatolian folk with psychedelic rock in the 1970s. His flamboyant style and TV show made him a beloved national icon.

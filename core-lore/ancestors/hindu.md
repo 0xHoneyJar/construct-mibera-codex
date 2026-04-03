@@ -9,7 +9,7 @@ locations: Nepal, India,
 
 > **1/1 Grail**: [Hindu Grail (#8277)](../../grails/hindu.md)
 
-## Cultural Significance
+## Cultural Context
 
 **Figures Associated:**
 - Kali; a Hindu goddess associated with destruction, transformation, and time. Depicted as fierce with a dark complexion, multiple arms, and a necklace of skulls, she symbolizes power over death and ego. Revered as a divine mother who destroys evil and liberates devotees from ignorance, she is central to Shaktism and linked to empowerment and spiritual liberation.

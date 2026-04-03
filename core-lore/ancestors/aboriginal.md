@@ -7,7 +7,7 @@ locations: Australia, Siberia, Russia
 
 # Aboriginal
 
-## Cultural Significance
+## Cultural Context
 
 **Figures Associated:**
 - Otyken; Siberian indigenous music group from Krasnoyarsk Krai, Russia. Members hail from villages along the Chulym River, representing the original inhabitants with distinct cultural identities predating Russian colonization.

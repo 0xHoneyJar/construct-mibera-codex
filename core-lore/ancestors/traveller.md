@@ -7,7 +7,7 @@ locations: TBD
 
 # Traveller
 
-## Cultural Significance
+## Cultural Context
 
 **Figures Associated:**
 *To be documented*

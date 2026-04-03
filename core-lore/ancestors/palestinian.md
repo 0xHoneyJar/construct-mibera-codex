@@ -7,7 +7,7 @@ locations: Palestine, Gaza, West Bank, diaspora communities worldwide
 
 # Palestinian
 
-## Cultural Significance
+## Cultural Context
 
 **Figures Associated:**
 - Mahmoud Darwish; Palestine's most celebrated poet, whose verses of exile, longing, and resistance became anthems of Palestinian identity. His work transcends politics to explore universal themes of displacement and belonging.

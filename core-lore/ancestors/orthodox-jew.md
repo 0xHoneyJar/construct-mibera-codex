@@ -7,7 +7,7 @@ locations: Israel, Eastern Europe (historical shtetls), New York, global diaspor
 
 # Orthodox Jew
 
-## Cultural Significance
+## Cultural Context
 
 **Figures Associated:**
 - The Baal Shem Tov; founder of Hasidic Judaism in 18th-century Ukraine. He emphasized joyful worship, mystical experience, and the presence of God in everyday life — revolutionizing Jewish practice through ecstatic prayer and storytelling.

@@ -8,7 +8,7 @@ locations: Hawaii, Samoa, Tonga, Tahiti, New Zealand (Aotearoa), Easter Island (
 
 # Polynesian
 
-## Cultural Significance
+## Cultural Context
 
 **Figures Associated:**
 - Israel Kamakawiwoʻole (IZ); beloved Hawaiian musician whose ukulele rendition of "Somewhere Over the Rainbow" became an anthem of gentle resistance. His music embodied Hawaiian sovereignty and cultural pride.

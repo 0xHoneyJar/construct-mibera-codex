@@ -9,7 +9,7 @@ locations: China
 
 > **1/1 Grail**: [Chinese Grail (#392)](../../grails/chinese.md)
 
-## Cultural Significance
+## Cultural Context
 
 **Figures Associated:**
 - Daoist traditions; Chinese shamans (wu) used hallucinogens to enter trance states for spiritual communication, with practices dating back thousands of years.

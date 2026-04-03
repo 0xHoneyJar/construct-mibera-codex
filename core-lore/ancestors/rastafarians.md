@@ -9,7 +9,7 @@ locations: Jamaica
 
 > **1/1 Grail**: [Rastafarian Grail (#1134)](../../grails/rastafarian.md)
 
-## Cultural Significance
+## Cultural Context
 
 **Figures Associated:**
 - Lee "Scratch" Perry; Jamaican producer pivotal in shaping reggae and dub music. He pioneered dub at his Black Ark studio in the 1970s, producing for Bob Marley and others. Known for eccentric style, spiritual beliefs blending Rastafarianism with mysticism, and experimental techniques using reverb and sampling.

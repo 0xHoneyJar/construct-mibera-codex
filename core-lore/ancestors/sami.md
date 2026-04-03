@@ -7,7 +7,7 @@ locations: Norway, Sweden, Finland, Russia
 
 # Sami
 
-## Cultural Significance
+## Cultural Context
 
 **Figures Associated:**
 - Sámi people; Indigenous Finno-Ugric people native to Sápmi (northern Norway, Sweden, Finland, and Russia). Traditionally reindeer herders, their culture includes 10 distinct languages, joik (traditional singing), and duodji (crafts).

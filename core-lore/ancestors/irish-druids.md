@@ -7,7 +7,7 @@ locations: Newgrange (Ireland),
 
 # Irish Druids
 
-## Cultural Significance
+## Cultural Context
 
 **Figures Associated:**
 - Ireland's ancient Druids; members of the educated Celtic elite who served as poets, doctors, spiritual leaders, judges, and historians. Their practices involved rituals of rebirth connected to megalithic structures like Newgrange, aligned with the winter solstice.

@@ -8,7 +8,7 @@ locations: Avdat "The Temple of Obodas" (Negev Desert, Israel), Arabian Peninsul
 
 # Arabs
 
-## Cultural Significance
+## Cultural Context
 
 **Figures Associated:**
 - The Nabataeans; ancient Arab people who built the rose-red city of Petra and controlled incense trade routes. Masters of water engineering in the desert, they blended Arab, Greek, and Egyptian influences.

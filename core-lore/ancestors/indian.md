@@ -7,7 +7,7 @@ locations: India, Nepal
 
 # Indian
 
-## Cultural Significance
+## Cultural Context
 
 **Figures Associated:**
 

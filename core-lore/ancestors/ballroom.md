@@ -7,7 +7,7 @@ locations: New York City (Harlem), major US cities, global
 
 # Ballroom
 
-## Cultural Significance
+## Cultural Context
 
 **Figures Associated:**
 - Crystal LaBeija; founding mother of ballroom culture who broke from mainstream pageants to create the House of LaBeija in 1972. She rejected white beauty standards and built a space for Black and Latinx queer expression.
