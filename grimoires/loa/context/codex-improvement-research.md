@@ -155,7 +155,7 @@ Drug entries, ancestor entries, and philosophy page contain external URLs. Use `
 ### 10. Known Issues to Fix
 
 **Structure errors (from audit):**
-- `drugs-detailed/sakae-naa.md` missing `molecule`, `era`, `origin` fields
+- `traits/overlays/molecules/sakae-naa.md` missing `molecule`, `era`, `origin` fields
 - 4 special collection files missing `type` field (apdao, beradoge, berakin, gumball)
 
 **Broken links (from audit):**
@@ -302,7 +302,7 @@ Generate `_data/stats.json` with pre-computed aggregate stats:
 | Tier | Authority | Location | Example |
 |------|-----------|----------|---------|
 | **Canonical** | Core team only | `core-lore/`, `IDENTITY.md` | Philosophy, archetypes, cosmology |
-| **Sanctioned** | Approved PRs | `traits/`, `drugs-detailed/`, `special-collections/` | Trait descriptions, drug profiles |
+| **Sanctioned** | Approved PRs | `traits/`, `traits/overlays/molecules/`, `special-collections/` | Trait descriptions, drug profiles |
 | **Holder Lore** | Any holder | `miberas/{ID}.md` (lore section) | Individual Mibera backstories |
 | **Community** | Open PRs | `community/` (new directory) | Fan theories, derivative lore, essays |
 
@@ -367,7 +367,7 @@ git maintenance start
 ```bash
 # Contributor who only works on drugs and tarot cards
 git clone --filter=blob:none --sparse <repo-url>
-git sparse-checkout set drugs-detailed/ core-lore/tarot-cards/ core-lore/ancestors/ _schema/
+git sparse-checkout set traits/overlays/molecules/ core-lore/tarot-cards/ core-lore/ancestors/ _schema/
 ```
 
 ### Obsidian Plugins to Install

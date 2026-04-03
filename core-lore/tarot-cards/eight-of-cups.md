@@ -24,7 +24,7 @@ This maps precisely to the Eight of Cups' energy: the slow realization that you 
 
 ## Drug Association
 
-**Drug:** [THC Edibles](../../drugs-detailed/thc-edibles.md)
+**Drug:** [THC Edibles](../../traits/overlays/molecules/thc-edibles.md)
 
 **Molecule:** C21H30O2
 

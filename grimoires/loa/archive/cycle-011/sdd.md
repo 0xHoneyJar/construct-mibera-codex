@@ -21,7 +21,7 @@ Inserted as the **first line** of each file, before any existing content.
 |------|---------|
 | `miberas/README.md` | `<!-- codex-status: COMPLETE \| entities: 10000 \| last-verified: 2026-02-18 -->` |
 | `traits/README.md` | `<!-- codex-status: COMPLETE \| entities: 1257 \| last-verified: 2026-02-18 -->` |
-| `drugs-detailed/README.md` | `<!-- codex-status: COMPLETE \| entities: 78 \| last-verified: 2026-02-18 -->` |
+| `traits/overlays/molecules/README.md` | `<!-- codex-status: COMPLETE \| entities: 78 \| last-verified: 2026-02-18 -->` |
 | `core-lore/ancestors/README.md` | `<!-- codex-status: COMPLETE \| entities: 33 \| last-verified: 2026-02-18 -->` |
 | `core-lore/tarot-cards/README.md` | `<!-- codex-status: COMPLETE \| entities: 78 \| last-verified: 2026-02-18 -->` |
 | `birthdays/README.md` | `<!-- codex-status: COMPLETE \| entities: 11 \| last-verified: 2026-02-18 -->` |

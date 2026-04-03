@@ -24,7 +24,7 @@ But mandrake's connection with this card goes beyond sedation. In medieval lore,
 
 ## Drug Association
 
-**Drug:** [Mandrake](../../drugs-detailed/mandrake.md)
+**Drug:** [Mandrake](../../traits/overlays/molecules/mandrake.md)
 
 **Molecule:** C17H21NO4
 

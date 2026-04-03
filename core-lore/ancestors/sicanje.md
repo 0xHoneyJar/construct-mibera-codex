@@ -20,9 +20,9 @@ locations: Bosnia, Croatia, Albania, Greece
 
 ## Drug Connections
 
-**Modern:** [Alcohol](../../drugs-detailed/alcohol.md)
+**Modern:** [Alcohol](../../traits/overlays/molecules/alcohol.md)
 
-**Ancient:** [Ethanol](../../drugs-detailed/ethanol.md)
+**Ancient:** [Ethanol](../../traits/overlays/molecules/ethanol.md)
 
 ## Sources
 

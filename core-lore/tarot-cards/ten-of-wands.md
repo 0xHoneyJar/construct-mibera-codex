@@ -24,7 +24,7 @@ The pairing with the Ten of Wands captures the dynamic of burden and release. Th
 
 ## Drug Association
 
-**Drug:** [NOS](../../drugs-detailed/nos.md)
+**Drug:** [NOS](../../traits/overlays/molecules/nos.md)
 
 **Molecule:** N2O
 

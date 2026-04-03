@@ -24,7 +24,7 @@ The Knight of Cups' association with new love and sexuality connects with ibogai
 
 ## Drug Association
 
-**Drug:** [Ibogaine](../../drugs-detailed/ibogaine.md)
+**Drug:** [Ibogaine](../../traits/overlays/molecules/ibogaine.md)
 
 **Molecule:** C20H26N2O
 

@@ -24,9 +24,9 @@ locations: New York City (Harlem), major US cities, global
 
 ## Drug Connections
 
-**Modern:** [Cocaine](../../drugs-detailed/cocaine.md)
+**Modern:** [Cocaine](../../traits/overlays/molecules/cocaine.md)
 
-**Ancient:** [Coca](../../drugs-detailed/coca.md)
+**Ancient:** [Coca](../../traits/overlays/molecules/coca.md)
 
 ## Sources
 

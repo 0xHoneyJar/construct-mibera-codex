@@ -19,9 +19,9 @@ locations: Central Africa
 
 ## Drug Connections
 
-**Modern:** [Sildenafil](../../drugs-detailed/sildenafil.md), [Ibogaine](../../drugs-detailed/ibogaine.md)
+**Modern:** [Sildenafil](../../traits/overlays/molecules/sildenafil.md), [Ibogaine](../../traits/overlays/molecules/ibogaine.md)
 
-**Ancient:** [Tabernaemontana](../../drugs-detailed/tabernaemontana.md), [Yohimbe](../../drugs-detailed/yohimbe.md), [Iboga](../../drugs-detailed/iboga.md)
+**Ancient:** [Tabernaemontana](../../traits/overlays/molecules/tabernaemontana.md), [Yohimbe](../../traits/overlays/molecules/yohimbe.md), [Iboga](../../traits/overlays/molecules/iboga.md)
 
 ## Sources
 

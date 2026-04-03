@@ -24,7 +24,7 @@ This mirrors the Six of Cups' core gesture, the child holding out flowers, the g
 
 ## Drug Association
 
-**Drug:** [Yohimbe](../../drugs-detailed/yohimbe.md)
+**Drug:** [Yohimbe](../../traits/overlays/molecules/yohimbe.md)
 
 **Molecule:** C21H26N2O3
 

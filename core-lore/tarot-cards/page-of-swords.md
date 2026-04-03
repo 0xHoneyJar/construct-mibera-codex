@@ -24,7 +24,7 @@ The pairing captures something specific about both card and substance: neither i
 
 ## Drug Association
 
-**Drug:** [Poppers](../../drugs-detailed/poppers.md)
+**Drug:** [Poppers](../../traits/overlays/molecules/poppers.md)
 
 **Molecule:** C5H11ONO
 

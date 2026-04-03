@@ -50,7 +50,7 @@
 **Acceptance Criteria**:
 - Create `oracle/book-of-sight.md` following SDD template
 - System prompt under ~3,500 tokens
-- References `drugs-detailed/`, `core-lore/tarot-cards/`, `core-lore/drug-tarot-system.md`
+- References `traits/overlays/molecules/`, `core-lore/tarot-cards/`, `core-lore/drug-tarot-system.md`
 - 3-5 example Q&A pairs using verified real codex content
 
 ### Task 2.2: Book of Grails

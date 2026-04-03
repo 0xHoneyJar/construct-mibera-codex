@@ -2,7 +2,7 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "drug.schema.json",
   "title": "Drug Entry",
-  "description": "Schema for drug YAML frontmatter (drugs-detailed/*.md)",
+  "description": "Schema for drug YAML frontmatter (traits/overlays/molecules/*.md)",
   "x-codex-meta": {
     "entity_type": "drug",
     "confidence_profile": "6/9 canonical, 3 community (molecule, origin, date_added)",

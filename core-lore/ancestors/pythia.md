@@ -22,9 +22,9 @@ locations: Delphi (Greece), Mount Parnassus
 
 ## Drug Connections
 
-**Modern:** [NOS](../../drugs-detailed/nos.md)
+**Modern:** [NOS](../../traits/overlays/molecules/nos.md)
 
-**Ancient:** [Ethylene](../../drugs-detailed/ethylene.md)
+**Ancient:** [Ethylene](../../traits/overlays/molecules/ethylene.md)
 
 ## Sources
 

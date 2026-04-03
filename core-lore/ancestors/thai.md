@@ -24,9 +24,9 @@ locations: Thailand, Southeast Asia
 
 ## Drug Connections
 
-**Modern:** [Estrogen](../../drugs-detailed/estrogen.md), [Kratom](../../drugs-detailed/kratom.md)
+**Modern:** [Estrogen](../../traits/overlays/molecules/estrogen.md), [Kratom](../../traits/overlays/molecules/kratom.md)
 
-**Ancient:** [Kwao Krua](../../drugs-detailed/kwao-krua.md), [Sakae Na](../../drugs-detailed/sakae-na.md)
+**Ancient:** [Kwao Krua](../../traits/overlays/molecules/kwao-krua.md), [Sakae Na](../../traits/overlays/molecules/sakae-na.md)
 
 ## Sources
 

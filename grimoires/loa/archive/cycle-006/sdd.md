@@ -47,7 +47,7 @@ Obsidian's `colorGroups` array uses `{"query": "<search>", "color": {"a": <alpha
 | 1 | `path:core-lore/tarot-cards` | Purple | `#9B59B6` | 10197430 |
 | 2 | `path:core-lore/ancestors` | Teal | `#1ABC9C` | 1750428 |
 | 3 | `path:core-lore` | Red | `#E74C3C` | 15158332 |
-| 4 | `path:drugs-detailed` | Green | `#2ECC71` | 3066993 |
+| 4 | `path:traits/overlays/molecules` | Green | `#2ECC71` | 3066993 |
 | 5 | `path:traits` | Blue | `#3498DB` | 3447515 |
 | 6 | `path:browse` | Silver | `#ECF0F1` | 15527665 |
 | 7 | `path:birthdays` | Amber | `#F39C12` | 15969298 |
@@ -139,7 +139,7 @@ This is a written deliverable, not a config change. It will be produced during s
 | Files in `miberas/` | 10,001 | `ls miberas/ \| wc -l` |
 | Outbound links per mibera file | ~24 | `miberas/0001.md` sample |
 | Total outbound links from miberas | ~240,024 | 10,001 × 24 |
-| Link format (outbound) | `../core-lore/...`, `../drugs-detailed/...`, `../traits/...` | Relative paths with `../` prefix |
+| Link format (outbound) | `../core-lore/...`, `../traits/overlays/molecules/...`, `../traits/...` | Relative paths with `../` prefix |
 | Inbound links to miberas | Thousands | Browse pages, drug backlinks |
 | Link format (inbound) | `../miberas/XXXX.md` | Relative paths |
 | Sharding depth change | `../` → `../../` for all outbound links | One extra parent traversal |
@@ -173,7 +173,7 @@ This is a written deliverable, not a config change. It will be produced during s
       "color": { "a": 1, "rgb": 15158332 }
     },
     {
-      "query": "path:drugs-detailed",
+      "query": "path:traits/overlays/molecules",
       "color": { "a": 1, "rgb": 3066993 }
     },
     {

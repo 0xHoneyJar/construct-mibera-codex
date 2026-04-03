@@ -26,7 +26,7 @@ The pairing with The Hermit is one of quiet restoration. Ashwagandha is not a dr
 
 ## Drug Association
 
-**Drug:** [Ashwagandha](../../drugs-detailed/ashwagandha.md)
+**Drug:** [Ashwagandha](../../traits/overlays/molecules/ashwagandha.md)
 
 **Molecule:** C28H40O8
 

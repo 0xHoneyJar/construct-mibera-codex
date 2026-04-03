@@ -232,7 +232,7 @@ def main():
     files_modified = 0
 
     # Process drug files
-    drug_dir = REPO_ROOT / "drugs-detailed"
+    drug_dir = REPO_ROOT / "traits/overlays/molecules"
     print("Processing drug files...")
     drug_files = sorted([f for f in drug_dir.glob("*.md") if f.name != "README.md"])
     for f in drug_files:

@@ -24,11 +24,11 @@
 **Objective**: Rename `bufotenine.md` to `bufotenin.md` and update all references.
 
 **Changes**:
-- Renamed `drugs-detailed/bufotenine.md` → `drugs-detailed/bufotenin.md`
+- Renamed `traits/overlays/molecules/bufotenine.md` → `traits/overlays/molecules/bufotenin.md`
 - Updated frontmatter (`name: Bufotenin`) and heading
 - Updated 154 Mibera files via Python script (frontmatter `drug:` field + table links)
-- Updated `drugs-detailed/index.md` (2 link updates)
-- Updated `drugs-detailed/drug-pairings.md` (2 link hrefs)
+- Updated `traits/overlays/molecules/index.md` (2 link updates)
+- Updated `traits/overlays/molecules/drug-pairings.md` (2 link hrefs)
 - Updated `core-lore/ancestors/native-american.md` (1 link)
 - Updated `traits/overlays/molecules.md` (heading, drug name, profile link)
 

@@ -21,7 +21,7 @@
       "count": 1337,
       "format": "yaml_frontmatter",
       "completeness": "COMPLETE",
-      "completeness_note": "1,337 visual traits across 18 subcategories (incl. 78 drugs in drugs-detailed/; 12 astrology files cover 36 placements)",
+      "completeness_note": "1,337 visual traits across 18 subcategories (incl. 78 drugs in traits/overlays/molecules/; 12 astrology files cover 36 placements)",
       "last_verified": "2026-02-24",
       "subcategories": {
         "accessories/earrings": 62,
@@ -47,12 +47,12 @@
       }
     },
     "drug": {
-      "directory": "drugs-detailed/",
-      "index": "drugs-detailed/README.md",
+      "directory": "traits/overlays/molecules/",
+      "index": "traits/overlays/molecules/README.md",
       "count": 78,
       "format": "yaml_frontmatter",
       "naming": "{slug}.md",
-      "reference_files": ["drugs-detailed/drug-pairings.md"],
+      "reference_files": ["traits/overlays/molecules/drug-pairings.md"],
       "completeness": "COMPLETE",
       "completeness_note": "78 drugs mapped 1:1 to tarot cards",
       "last_verified": "2026-02-18"

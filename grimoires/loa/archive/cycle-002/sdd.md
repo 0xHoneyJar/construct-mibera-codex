@@ -18,9 +18,9 @@ This cycle fixes 6 content gaps identified by Cycle 001's structural audit. No n
 | ID | Operation | Files | Estimated References |
 |----|-----------|-------|---------------------|
 | G1 | CREATE | `core-lore/ancestors/traveller.md` | 0 (92 Miberas will resolve) |
-| G2 | RENAME | `drugs-detailed/mucana-pruriens.md` → `mucuna-pruriens.md` | ~132 files |
-| G3 | RENAME | `drugs-detailed/yohimbine.md` → `yohimbe.md` | ~120 files |
-| G4 | DELETE | `drugs-detailed/sakae-naa.md` + redirect refs → `sakae-na.md` | ~164 files |
+| G2 | RENAME | `traits/overlays/molecules/mucana-pruriens.md` → `mucuna-pruriens.md` | ~132 files |
+| G3 | RENAME | `traits/overlays/molecules/yohimbine.md` → `yohimbe.md` | ~120 files |
+| G4 | DELETE | `traits/overlays/molecules/sakae-naa.md` + redirect refs → `sakae-na.md` | ~164 files |
 | G5 | CREATE | `traits/character-traits/eyes/ecstasy-brown-2.md`, `crying-ocean-2.md` | 0 (2 index refs will resolve) |
 | G6 | EDIT | 4 special-collections files (add `type` field) | 0 |
 
@@ -51,7 +51,7 @@ Markdown sections: `# Traveller`, `## Cultural Significance` (with Figures, Even
 ### 3.2 G2: Rename mucana-pruriens → mucuna-pruriens
 
 **Steps**:
-1. Copy `drugs-detailed/mucana-pruriens.md` → `drugs-detailed/mucuna-pruriens.md`
+1. Copy `traits/overlays/molecules/mucana-pruriens.md` → `traits/overlays/molecules/mucuna-pruriens.md`
 2. Update YAML `name` field: `Mucana Pruriens` → `Mucuna Pruriens`
 3. Update heading: `# Mucana Pruriens` → `# Mucuna Pruriens`
 4. Find all files containing `mucana-pruriens` (case-insensitive) and update to `mucuna-pruriens`
@@ -66,7 +66,7 @@ Markdown sections: `# Traveller`, `## Cultural Significance` (with Figures, Even
 ### 3.3 G3: Rename yohimbine → yohimbe
 
 **Steps**:
-1. Copy `drugs-detailed/yohimbine.md` → `drugs-detailed/yohimbe.md`
+1. Copy `traits/overlays/molecules/yohimbine.md` → `traits/overlays/molecules/yohimbe.md`
 2. Update YAML `name` field: `Yohimbine` → `Yohimbe`
 3. Update heading: `# Yohimbine` → `# Yohimbe`
 4. Find all files containing `yohimbine.md` link targets and update to `yohimbe.md`
@@ -85,7 +85,7 @@ Markdown sections: `# Traveller`, `## Cultural Significance` (with Figures, Even
 1. Find all files referencing `sakae-naa.md` or `sakae-naa`
 2. Update link targets: `sakae-naa.md` → `sakae-na.md`
 3. Update link display text: `Sakae Naa` → `Sakae Na` (where it appears as link text)
-4. Delete `drugs-detailed/sakae-naa.md`
+4. Delete `traits/overlays/molecules/sakae-naa.md`
 5. Update `_scripts/generate-browse.sh` if it has normalization entries for sakae-naa
 6. **Caution**: The correct file `sakae-na.md` has `image: milady_thai_sakae naa.PNG` — this image filename is correct and should NOT be changed
 

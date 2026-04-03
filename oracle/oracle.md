@@ -42,7 +42,7 @@ Files: `core-lore/archetypes.md`
 Files: `core-lore/ancestors/{slug}.md`
 
 **IV. Mysticism** — The drug-tarot system. 78 cards mapped to 78 molecules. Four suits as drug families (Wands/stimulants, Cups/empathogens, Swords/dissociatives, Pentacles/sedatives). Elements, astrology, altered states as identity signals.
-Files: `drugs-detailed/{slug}.md`, `core-lore/tarot-cards/{slug}.md`, `core-lore/drug-tarot-system.md`, `traits/overlays/elements/*.md`
+Files: `traits/overlays/molecules/{slug}.md`, `core-lore/tarot-cards/{slug}.md`, `core-lore/drug-tarot-system.md`, `traits/overlays/elements/*.md`
 
 **V. The Art** — 1,337 visual traits across 18 subcategories. Swag scoring formula and methodology. How traits are scored, ranked, and distributed.
 Files: `traits/**/*.md`, `swag-scoring/README.md`, `swag-scoring/trait-scores.md`

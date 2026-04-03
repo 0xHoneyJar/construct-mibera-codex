@@ -26,7 +26,7 @@ The pairing with The Sun is about energy as the default state. Caffeine does not
 
 ## Drug Association
 
-**Drug:** [Caffeine](../../drugs-detailed/caffeine.md)
+**Drug:** [Caffeine](../../traits/overlays/molecules/caffeine.md)
 
 **Molecule:** C8H10N4O2
 

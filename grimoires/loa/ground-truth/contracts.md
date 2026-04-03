@@ -30,7 +30,7 @@ Total: 27 metadata fields per Mibera [`manifest.json:entity_types.mibera.fields`
 
 Schema: `_codex/schema/drug.schema.json` [`manifest.json:schemas.drug`]
 
-Every `drugs-detailed/{slug}.md` file contains:
+Every `traits/overlays/molecules/{slug}.md` file contains:
 
 **YAML Frontmatter**:
 - `name` (string) — drug display name
@@ -85,7 +85,7 @@ Entity files link to each other via relative markdown paths:
 
 - Mibera → Archetype: `[Freetekno](../core-lore/archetypes.md#freetekno)`
 - Mibera → Ancestor: `[Greek](../core-lore/ancestors/greek.md)`
-- Mibera → Drug: `[Psilocybin](../drugs-detailed/psilocybin.md)`
+- Mibera → Drug: `[Psilocybin](../traits/overlays/molecules/psilocybin.md)`
 - Drug → Tarot: `[The Fool](../core-lore/tarot-cards/the-fool.md)`
 
 All links validated by `_codex/scripts/audit-links.sh` [`_codex/scripts/README.md:line 15`]

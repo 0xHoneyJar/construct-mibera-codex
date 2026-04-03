@@ -26,7 +26,7 @@ The pairing with The Lovers is almost too perfect to need explanation, but the c
 
 ## Drug Association
 
-**Drug:** [MDMA](../../drugs-detailed/mdma.md)
+**Drug:** [MDMA](../../traits/overlays/molecules/mdma.md)
 
 **Molecule:** C11H15NO2
 

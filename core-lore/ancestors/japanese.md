@@ -24,9 +24,9 @@ locations: Japan
 
 ## Drug Connections
 
-**Modern:** [Caffeine](../../drugs-detailed/caffeine.md), [Methamphetamine](../../drugs-detailed/methamphetamine.md)
+**Modern:** [Caffeine](../../traits/overlays/molecules/caffeine.md), [Methamphetamine](../../traits/overlays/molecules/methamphetamine.md)
 
-**Ancient:** [Tea](../../drugs-detailed/tea.md)
+**Ancient:** [Tea](../../traits/overlays/molecules/tea.md)
 
 ## Sources
 

@@ -99,14 +99,14 @@ def main():
 
     # 7. All drugs (sorted alphabetically)
     print("Adding drug files...")
-    drug_dir = REPO_ROOT / "drugs-detailed"
+    drug_dir = REPO_ROOT / "traits/overlays/molecules"
     drug_files = sorted([
         f for f in drug_dir.glob("*.md")
         if f.name != "README.md"
     ])
     for f in drug_files:
         content = f.read_text(encoding='utf-8')
-        add_section(parts, f"DRUG: {f.stem.replace('-', ' ').title()}", f"drugs-detailed/{f.name}", content)
+        add_section(parts, f"DRUG: {f.stem.replace('-', ' ').title()}", f"traits/overlays/molecules/{f.name}", content)
     print(f"  Added {len(drug_files)} drug files")
 
     # Write output

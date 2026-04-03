@@ -26,7 +26,7 @@ The Emperor and testosterone share a reputation problem: both are associated wit
 
 ## Drug Association
 
-**Drug:** [Testosterone](../../drugs-detailed/testosterone.md)
+**Drug:** [Testosterone](../../traits/overlays/molecules/testosterone.md)
 
 **Molecule:** C19H28O2
 

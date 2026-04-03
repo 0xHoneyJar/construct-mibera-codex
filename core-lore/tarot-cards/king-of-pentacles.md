@@ -26,7 +26,7 @@ The historical connection is total. Alcohol has always been the drug of material
 
 ## Drug Association
 
-**Drug:** [Alcohol](../../drugs-detailed/alcohol.md)
+**Drug:** [Alcohol](../../traits/overlays/molecules/alcohol.md)
 
 **Molecule:** CH3CH2OH
 

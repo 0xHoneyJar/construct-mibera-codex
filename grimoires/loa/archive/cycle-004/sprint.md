@@ -17,10 +17,10 @@
 
 #### S1-T1: Fix bufotenin rename across codex
 
-**Description**: Rename `drugs-detailed/bufotenine.md` → `drugs-detailed/bufotenin.md`. Update the file's own frontmatter and heading. Update all ~155 Mibera files that reference this drug (both YAML frontmatter `drug:` field and markdown table link text/href). Update references in `drugs-detailed/index.md`, `drugs-detailed/drug-pairings.md`, `core-lore/ancestors/native-american.md`, `traits/overlays/molecules.md`. Do NOT update historical records in `grimoires/loa/` or `_scripts/reports/`.
+**Description**: Rename `traits/overlays/molecules/bufotenine.md` → `traits/overlays/molecules/bufotenin.md`. Update the file's own frontmatter and heading. Update all ~155 Mibera files that reference this drug (both YAML frontmatter `drug:` field and markdown table link text/href). Update references in `traits/overlays/molecules/index.md`, `traits/overlays/molecules/drug-pairings.md`, `core-lore/ancestors/native-american.md`, `traits/overlays/molecules.md`. Do NOT update historical records in `grimoires/loa/` or `_scripts/reports/`.
 
 **Acceptance Criteria**:
-- [ ] `drugs-detailed/bufotenin.md` exists, `bufotenine.md` does not
+- [ ] `traits/overlays/molecules/bufotenin.md` exists, `bufotenine.md` does not
 - [ ] Drug file frontmatter: `name: Bufotenin`
 - [ ] All Mibera frontmatter updated: `drug: Bufotenin`
 - [ ] All Mibera markdown table links updated

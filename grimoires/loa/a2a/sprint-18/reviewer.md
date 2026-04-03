@@ -19,7 +19,7 @@ Added `<!-- codex-status: ... -->` HTML comment as first line to all 8 entity in
 |------|--------|-------|
 | `miberas/README.md` | COMPLETE | 10,000 |
 | `traits/README.md` | COMPLETE | 1,257 |
-| `drugs-detailed/README.md` | COMPLETE | 78 |
+| `traits/overlays/molecules/README.md` | COMPLETE | 78 |
 | `core-lore/ancestors/README.md` | COMPLETE | 33 |
 | `core-lore/tarot-cards/README.md` | COMPLETE | 78 |
 | `birthdays/README.md` | COMPLETE | 11 |
@@ -40,7 +40,7 @@ Added `<!-- codex-status: ... -->` HTML comment as first line to all 8 entity in
 |------|--------|
 | `miberas/README.md` | +1 line (comment) |
 | `traits/README.md` | +1 line (comment) |
-| `drugs-detailed/README.md` | +1 line (comment) |
+| `traits/overlays/molecules/README.md` | +1 line (comment) |
 | `core-lore/ancestors/README.md` | +1 line (comment) |
 | `core-lore/tarot-cards/README.md` | +1 line (comment) |
 | `birthdays/README.md` | +1 line (comment) |

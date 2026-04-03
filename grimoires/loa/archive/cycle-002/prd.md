@@ -67,14 +67,14 @@ Same as Cycle 001:
 - **Acceptance**: 92 Mibera links to `traveller.md` resolve; `audit-links.sh` count drops by 92
 
 ### FR2: Rename Drug Files & Update Links (P0)
-- Rename `drugs-detailed/mucana-pruriens.md` → `drugs-detailed/mucuna-pruriens.md`
-- Rename `drugs-detailed/yohimbine.md` → `drugs-detailed/yohimbe.md`
+- Rename `traits/overlays/molecules/mucana-pruriens.md` → `traits/overlays/molecules/mucuna-pruriens.md`
+- Rename `traits/overlays/molecules/yohimbine.md` → `traits/overlays/molecules/yohimbe.md`
 - Update YAML `name` field inside each renamed file if needed
 - Find and update ALL internal links pointing to old filenames across the entire codex
 - **Acceptance**: `audit-links.sh` shows 0 broken links to these drug files; `generate-browse.sh` runs clean
 
 ### FR3: Remove Duplicate sakae-naa.md (P0)
-- Delete `drugs-detailed/sakae-naa.md` (corrupted duplicate of `sakae-na.md`)
+- Delete `traits/overlays/molecules/sakae-naa.md` (corrupted duplicate of `sakae-na.md`)
 - Find and update any references to `sakae-naa.md` to point to `sakae-na.md`
 - **Acceptance**: No broken links to `sakae-naa.md`; `audit-structure.sh` error count drops by 1
 

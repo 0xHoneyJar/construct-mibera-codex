@@ -35,7 +35,7 @@ Embed S3-hosted images into every matching codex entry so that trait/drug/overla
 |----------|-------------|-------------|
 | Direct trait matches | 466 | `traits/` subdirectories |
 | SS-prefixed trait variants | 813 | `traits/` subdirectories (map to base trait) |
-| Archetype+ancestor+drug combos | 79 | `drugs-detailed/` |
+| Archetype+ancestor+drug combos | 79 | `traits/overlays/molecules/` |
 | Astrology layers (Sun/Moon/Rising) | 36 | `traits/overlays/astrology/` |
 | Ranking letters (A-SSS) | 8 | `traits/overlays/ranking/` |
 | Element overlays | 4 | `traits/overlays/elements/` |
@@ -55,7 +55,7 @@ Embed S3-hosted images into every matching codex entry so that trait/drug/overla
 
 The naming convention encodes distinct semantic roles:
 
-- **No-SS prefix combos** (`archetype_ancestor_drug.webp`) = **molecule overlay** — the drug's visual effect layer. Maps to `drugs-detailed/{drug}.md`.
+- **No-SS prefix combos** (`archetype_ancestor_drug.webp`) = **molecule overlay** — the drug's visual effect layer. Maps to `traits/overlays/molecules/{drug}.md`.
 - **SS-prefixed combos** (`SS{N}_archetype_era_ancestor_name.webp`) = **held items / accessories / clothing** — physical objects the Mibera carries or wears. Maps to `traits/` entries.
 - **`_overlay` suffix images** = overlay layers that need compositing with a body template. **Deferred** to a future cycle.
 - **Astrology images** (`Sun/Moon/Rising {Sign}.webp`) = three **separate trait categories** (Sun Sign, Moon Sign, Rising Sign), NOT variants of one trait. Each maps to its own file.
@@ -113,7 +113,7 @@ For multi-image entries (e.g., astrology with 3 layers):
 | `{Name}.webp` | `traits/{subcat}/{slug}.md` | Slugify name, find in manifest |
 | `SS{N}_{archetype}_{Name}.webp` | `traits/{subcat}/{slug}.md` | Strip SS prefix + archetype, slugify remainder |
 | `SS{N}_{Name}.webp` | `traits/{subcat}/{slug}.md` | Strip SS prefix, slugify remainder |
-| `{arch}_{ancestor}_{drug}.webp` | `drugs-detailed/{drug-slug}.md` | Molecule overlay — last component is drug name |
+| `{arch}_{ancestor}_{drug}.webp` | `traits/overlays/molecules/{drug-slug}.md` | Molecule overlay — last component is drug name |
 | `SS{N}_{arch}_{era}_{ancestor}_{Name}.webp` | `traits/{subcat}/{slug}.md` | Held item/accessory — last component is trait name |
 | `SS5_bongbear_{Name}.webp` | `traits/items/bong-bears/{slug}.md` | Strip prefix |
 | `SS5_cypherpunk_{Name}.webp` | `traits/items/general-items/{slug}.md` | Strip prefix |

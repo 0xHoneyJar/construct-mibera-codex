@@ -34,7 +34,7 @@ Cosmic and chemical systems that define each Mibera.
 - [Astrology](traits/overlays/astrology/README.md) — Sun, Moon, and Ascending signs
 - [Elements](traits/overlays/elements/README.md) — Fire, Water, Air, Earth
 - [Drug-Tarot System](core-lore/drug-tarot-system.md) — 78 cards mapped to 78 drugs
-- [Drugs Deep Dive](drugs-detailed/README.md) — Detailed profiles of all 79 substances
+- [Drugs Deep Dive](traits/overlays/molecules/README.md) — Detailed profiles of all 79 substances
 
 ### IV. The Art
 1,337+ visual traits across multiple categories.

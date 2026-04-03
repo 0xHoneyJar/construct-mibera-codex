@@ -24,7 +24,7 @@ The connection is between two forms of conviction that bypass the usual epistemi
 
 ## Drug Association
 
-**Drug:** [Ethylene](../../drugs-detailed/ethylene.md)
+**Drug:** [Ethylene](../../traits/overlays/molecules/ethylene.md)
 
 **Molecule:** C2H4
 

@@ -24,9 +24,9 @@ locations: Ethiopia
 
 ## Drug Connections
 
-**Modern:** [M-Cat](../../drugs-detailed/m-cat.md), [Caffeine](../../drugs-detailed/caffeine.md)
+**Modern:** [M-Cat](../../traits/overlays/molecules/m-cat.md), [Caffeine](../../traits/overlays/molecules/caffeine.md)
 
-**Ancient:** [Khat](../../drugs-detailed/khat.md), [Coffee](../../drugs-detailed/coffee.md)
+**Ancient:** [Khat](../../traits/overlays/molecules/khat.md), [Coffee](../../traits/overlays/molecules/coffee.md)
 
 ## Sources
 

@@ -26,7 +26,7 @@ The pairing with Death is about ego dissolution as rehearsal for transformation.
 
 ## Drug Association
 
-**Drug:** [Ketamine](../../drugs-detailed/ketamine.md)
+**Drug:** [Ketamine](../../traits/overlays/molecules/ketamine.md)
 
 **Molecule:** C13H16ClNO
 

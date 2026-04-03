@@ -22,9 +22,9 @@ locations: USA
 
 ## Drug Connections
 
-**Modern:** [CBD](../../drugs-detailed/cbd.md), [Nicotine](../../drugs-detailed/nicotine.md), [2C-B](../../drugs-detailed/2c-b.md), [MDA](../../drugs-detailed/mda.md), [Chewing Tobacco](../../drugs-detailed/chewing-tobacco.md), [DMT](../../drugs-detailed/dmt.md), [Iproniazid](../../drugs-detailed/iproniazid.md), [MDMA](../../drugs-detailed/mdma.md), [Benadryl](../../drugs-detailed/benadryl.md)
+**Modern:** [CBD](../../traits/overlays/molecules/cbd.md), [Nicotine](../../traits/overlays/molecules/nicotine.md), [2C-B](../../traits/overlays/molecules/2c-b.md), [MDA](../../traits/overlays/molecules/mda.md), [Chewing Tobacco](../../traits/overlays/molecules/chewing-tobacco.md), [DMT](../../traits/overlays/molecules/dmt.md), [Iproniazid](../../traits/overlays/molecules/iproniazid.md), [MDMA](../../traits/overlays/molecules/mdma.md), [Benadryl](../../traits/overlays/molecules/benadryl.md)
 
-**Ancient:** [Bhang](../../drugs-detailed/bhang.md), [Arundo Donax](../../drugs-detailed/arundo-donax.md), [Bufotenin](../../drugs-detailed/bufotenin.md), [Sassafras](../../drugs-detailed/sassafras.md), [Psychotria Viridis](../../drugs-detailed/psychotria-viridis.md), [Datura](../../drugs-detailed/datura.md), [Peyote](../../drugs-detailed/peyote.md)
+**Ancient:** [Bhang](../../traits/overlays/molecules/bhang.md), [Arundo Donax](../../traits/overlays/molecules/arundo-donax.md), [Bufotenin](../../traits/overlays/molecules/bufotenin.md), [Sassafras](../../traits/overlays/molecules/sassafras.md), [Psychotria Viridis](../../traits/overlays/molecules/psychotria-viridis.md), [Datura](../../traits/overlays/molecules/datura.md), [Peyote](../../traits/overlays/molecules/peyote.md)
 
 ## Sources
 

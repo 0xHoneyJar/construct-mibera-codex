@@ -24,7 +24,7 @@ Both the card and the drug gesture toward the same threshold, the moment before 
 
 ## Drug Association
 
-**Drug:** [Bhang](../../drugs-detailed/bhang.md)
+**Drug:** [Bhang](../../traits/overlays/molecules/bhang.md)
 
 **Molecule:** C21H30O2
 

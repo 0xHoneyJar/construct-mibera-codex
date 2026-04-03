@@ -24,7 +24,7 @@ The connection with the Seven of Cups is precise. The card shows vital forces aw
 
 ## Drug Association
 
-**Drug:** [Sildenafil](../../drugs-detailed/sildenafil.md)
+**Drug:** [Sildenafil](../../traits/overlays/molecules/sildenafil.md)
 
 **Molecule:** C22H30N6O4S
 

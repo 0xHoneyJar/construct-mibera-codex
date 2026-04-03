@@ -26,7 +26,7 @@ The connection is in the method: neither the card nor the plant achieves balance
 
 ## Drug Association
 
-**Drug:** [Kwao Krua](../../drugs-detailed/kwao-krua.md)
+**Drug:** [Kwao Krua](../../traits/overlays/molecules/kwao-krua.md)
 
 **Molecule:** deoxymiroestrol
 

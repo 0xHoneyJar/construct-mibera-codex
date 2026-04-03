@@ -43,7 +43,7 @@ def load_mibera_frontmatter():
 def load_drug_frontmatter():
     """Load all drug file frontmatter."""
     drugs = {}
-    drug_dir = REPO_ROOT / "drugs-detailed"
+    drug_dir = REPO_ROOT / "traits/overlays/molecules"
     for f in drug_dir.glob("*.md"):
         if f.name == "README.md":
             continue

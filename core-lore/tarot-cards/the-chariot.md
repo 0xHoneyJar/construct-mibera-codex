@@ -26,7 +26,7 @@ This is what connects it to The Chariot. Tabernaemontana is the plant of forward
 
 ## Drug Association
 
-**Drug:** [Tabernaemontana](../../drugs-detailed/tabernaemontana.md)
+**Drug:** [Tabernaemontana](../../traits/overlays/molecules/tabernaemontana.md)
 
 **Molecule:** C21H26N2O3
 

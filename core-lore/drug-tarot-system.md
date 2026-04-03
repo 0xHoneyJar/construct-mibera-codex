@@ -122,9 +122,9 @@ For complete card-by-card mappings:
 → [Tarot Cards](tarot-cards/README.md)
 
 For drug pairing details (Ancient ↔ Modern connections):
-→ [Drug Pairings](../drugs-detailed/drug-pairings.md)
+→ [Drug Pairings](../traits/overlays/molecules/drug-pairings.md)
 
 For individual drug profiles with molecules, effects, and history:
-→ [Drugs](../drugs-detailed/README.md)
+→ [Drugs](../traits/overlays/molecules/README.md)
 
 ---

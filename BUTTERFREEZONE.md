@@ -34,8 +34,8 @@ The codex contains 11,500+ markdown files across 20+ directories, 8 JSON Schema 
 The codex provides structured access to 9 entity types:
 
 - **10,000 Miberas** — individual identity files with 27 metadata fields in YAML frontmatter (`miberas/`)
-- **1,337 Visual Traits** — across 18 subcategories under 7 parent categories (`traits/` and `drugs-detailed/`)
-- **78 Drugs** — molecules mapped 1:1 to tarot cards, each with archetype and ancestor associations (`drugs-detailed/`)
+- **1,337 Visual Traits** — across 18 subcategories under 7 parent categories (`traits/` and `traits/overlays/molecules/`)
+- **78 Drugs** — molecules mapped 1:1 to tarot cards, each with archetype and ancestor associations (`traits/overlays/molecules/`)
 - **78 Tarot Cards** — divination archetypes paired bijectively with drugs (`core-lore/tarot-cards/`)
 - **33 Ancestors** — cultural lineages from Aboriginal to Turkey spanning ancient and modern civilizations (`core-lore/ancestors/`)
 - **42 Grails** — canonical hand-drawn 1/1 art pieces (`grails/`)
@@ -77,8 +77,8 @@ Content follows a GitHub-first navigation pattern — `README.md` files in direc
 
 ```
 miberas/           10,000 identity files
-traits/            1,337 visual traits (18 subcategories; 78 drugs in drugs-detailed/)
-drugs-detailed/    78 drug documentation files
+traits/            1,337 visual traits (18 subcategories; 78 drugs in traits/overlays/molecules/)
+traits/overlays/molecules/    78 drug documentation files
 core-lore/         ~120 files (archetypes, ancestors, tarot, philosophy)
 browse/            8 faceted dimension indices
 grails/            42 hand-drawn 1/1 pieces
@@ -99,7 +99,7 @@ _codex/scripts/    14 audit/generation/maintenance scripts
 |---------|----------|---------|
 | Mibera by ID | `miberas/{NNNN}.md` | `miberas/0042.md` |
 | Trait by name | `traits/{subcategory}/{slug}.md` | `traits/accessories/hats/cowboy-hat.md` |
-| Drug by name | `drugs-detailed/{slug}.md` | `drugs-detailed/psilocybin.md` |
+| Drug by name | `traits/overlays/molecules/{slug}.md` | `traits/overlays/molecules/psilocybin.md` |
 | Ancestor | `core-lore/ancestors/{slug}.md` | `core-lore/ancestors/greek.md` |
 | Tarot card | `core-lore/tarot-cards/{slug}.md` | `core-lore/tarot-cards/the-fool.md` |
 | Browse dimension | `browse/by-{dimension}.md` | `browse/by-drug.md` |
@@ -124,7 +124,7 @@ _codex/scripts/    14 audit/generation/maintenance scripts
 |--------|-------|---------|---------------|
 | `miberas/` | 10,000 | Individual Mibera identity files | [manifest.json](manifest.json) |
 | `traits/` | 1,337 | Visual trait documentation (18 subcategories) | [traits/README.md](traits/README.md) |
-| `drugs-detailed/` | 78 | Drug/molecule lore and tarot mapping | — |
+| `traits/overlays/molecules/` | 78 | Drug/molecule lore and tarot mapping | — |
 | `core-lore/` | ~120 | Archetypes, ancestors, tarot cards, philosophy | [core-lore/README.md](core-lore/README.md) |
 | `browse/` | 8 | Faceted dimension indices | [browse/README.md](browse/README.md) |
 | `grails/` | 42 | Hand-drawn 1/1 art pieces | [grails/README.md](grails/README.md) |

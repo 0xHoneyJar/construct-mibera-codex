@@ -24,9 +24,9 @@ locations: Newgrange (Ireland),
 
 ## Drug Connections
 
-**Modern:** [Psilacetin](../../drugs-detailed/psilacetin.md), [Lamotrigine](../../drugs-detailed/lamotrigine.md)
+**Modern:** [Psilacetin](../../traits/overlays/molecules/psilacetin.md), [Lamotrigine](../../traits/overlays/molecules/lamotrigine.md)
 
-**Ancient:** [Mushrooms](../../drugs-detailed/mushrooms.md), [Lithium](../../drugs-detailed/lithium.md)
+**Ancient:** [Mushrooms](../../traits/overlays/molecules/mushrooms.md), [Lithium](../../traits/overlays/molecules/lithium.md)
 
 ## Sources
 

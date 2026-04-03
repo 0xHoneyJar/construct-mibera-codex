@@ -24,7 +24,7 @@ The pairing with the Queen of Wands is elegant in its precision. Both the card a
 
 ## Drug Association
 
-**Drug:** [Mucuna pruriens](../../drugs-detailed/mucuna-pruriens.md)
+**Drug:** [Mucuna pruriens](../../traits/overlays/molecules/mucuna-pruriens.md)
 
 **Molecule:** C9H11NO4
 

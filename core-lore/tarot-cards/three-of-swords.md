@@ -24,7 +24,7 @@ The connection is between two kinds of repetition: the Three's cycle of revisiti
 
 ## Drug Association
 
-**Drug:** [Iproniazid](../../drugs-detailed/iproniazid.md)
+**Drug:** [Iproniazid](../../traits/overlays/molecules/iproniazid.md)
 
 **Molecule:** C9H13N3O
 

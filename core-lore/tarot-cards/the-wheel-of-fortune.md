@@ -26,7 +26,7 @@ The pairing with The Wheel of Fortune operates on multiple levels. Sugar is the 
 
 ## Drug Association
 
-**Drug:** [Sugarcane](../../drugs-detailed/sugarcane.md)
+**Drug:** [Sugarcane](../../traits/overlays/molecules/sugarcane.md)
 
 **Molecule:** C12H22O11
 

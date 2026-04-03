@@ -15,7 +15,7 @@ from collections import defaultdict
 from datetime import datetime, timezone
 
 MIBERA_DIR = "miberas"
-DRUG_DIR = "drugs-detailed"
+DRUG_DIR = "traits/overlays/molecules"
 TAROT_DIR = "core-lore/tarot-cards"
 OUTPUT_FILE = "_codex/data/graph.json"
 TIMESTAMP = datetime.now(timezone.utc).strftime("%Y-%m-%d")

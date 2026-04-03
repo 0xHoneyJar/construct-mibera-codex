@@ -26,7 +26,7 @@ The pairing with The World operates on both the celebratory and shadow registers
 
 ## Drug Association
 
-**Drug:** [Coca](../../drugs-detailed/coca.md)
+**Drug:** [Coca](../../traits/overlays/molecules/coca.md)
 
 **Molecule:** C17H21NO4
 

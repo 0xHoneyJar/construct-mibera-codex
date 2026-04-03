@@ -24,7 +24,7 @@ This connects deeply with the Five of Cups' central tension between observation 
 
 ## Drug Association
 
-**Drug:** [Sakae Na](../../drugs-detailed/sakae-na.md)
+**Drug:** [Sakae Na](../../traits/overlays/molecules/sakae-na.md)
 
 **Molecule:** C20H20O8
 

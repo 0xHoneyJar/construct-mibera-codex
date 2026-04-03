@@ -31,8 +31,8 @@
 ## S1-T2: Rename Drug Files
 
 **Renames**:
-- `drugs-detailed/mucana-pruriens.md` → `drugs-detailed/mucuna-pruriens.md` (typo fix)
-- `drugs-detailed/yohimbine.md` → `drugs-detailed/yohimbe.md` (plant name, not alkaloid)
+- `traits/overlays/molecules/mucana-pruriens.md` → `traits/overlays/molecules/mucuna-pruriens.md` (typo fix)
+- `traits/overlays/molecules/yohimbine.md` → `traits/overlays/molecules/yohimbe.md` (plant name, not alkaloid)
 
 **Reference updates**: 240 files modified across the codex (134 for mucuna, 112 for yohimbe, some overlap). Updates included:
 - Link targets in Mibera files
@@ -45,12 +45,12 @@
 ## S1-T3: Delete sakae-naa.md
 
 **Actions**:
-- Deleted corrupted `drugs-detailed/sakae-naa.md` (template placeholders instead of real data)
+- Deleted corrupted `traits/overlays/molecules/sakae-naa.md` (template placeholders instead of real data)
 - Updated 163 files across the codex: `sakae-naa.md` → `sakae-na.md`, `Sakae Naa` → `Sakae Na`
 - Updated tarot card `five-of-cups.md`, drug pairings, index, kratom cross-reference
 
 **Issue caught and fixed**: Bulk replace accidentally changed image filenames and trait item names containing "sakae naa". Fixed by reverting:
-- `drugs-detailed/sakae-na.md` image field: `milady_thai_sakae naa.PNG` (correct)
+- `traits/overlays/molecules/sakae-na.md` image field: `milady_thai_sakae naa.PNG` (correct)
 - `traits/items/general-items/sakae-naa.md` name/image fields restored
 - `traits/items/general-items/index.md` link to trait file restored to `sakae-naa.md`
 

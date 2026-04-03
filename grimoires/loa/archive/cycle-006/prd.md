@@ -66,7 +66,7 @@ Add 8 color groups to `.obsidian/graph.json` mapping content directories to dist
 | Miberas | `path:miberas` | `#C9A84C` (gold) | Core entries — warm, dominant |
 | Tarot Cards | `path:core-lore/tarot-cards` | `#9B59B6` (purple) | Mystical, arcane |
 | Ancestors | `path:core-lore/ancestors` | `#1ABC9C` (teal) | Cultural heritage, grounded |
-| Drugs | `path:drugs-detailed` | `#2ECC71` (green) | Botanical, molecular |
+| Drugs | `path:traits/overlays/molecules` | `#2ECC71` (green) | Botanical, molecular |
 | Traits | `path:traits` | `#3498DB` (blue) | Visual/descriptive layer |
 | Browse/Index | `path:browse` | `#ECF0F1` (white/silver) | Navigation, structural |
 | Core Lore | `path:core-lore` | `#E74C3C` (red) | Philosophy, cosmology — high authority |

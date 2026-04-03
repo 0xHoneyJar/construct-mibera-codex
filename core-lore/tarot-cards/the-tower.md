@@ -26,7 +26,7 @@ The pairing with The Tower is about the shock of sudden revelation. Bufotenin do
 
 ## Drug Association
 
-**Drug:** [Bufotenin](../../drugs-detailed/bufotenin.md)
+**Drug:** [Bufotenin](../../traits/overlays/molecules/bufotenin.md)
 
 **Molecule:** C12H16N2O
 

@@ -24,7 +24,7 @@ This pairs with the Eight of Wands because both are about clearing the channel r
 
 ## Drug Association
 
-**Drug:** [St. John's Wort](../../drugs-detailed/st-johns-wort.md)
+**Drug:** [St. John's Wort](../../traits/overlays/molecules/st-johns-wort.md)
 
 **Molecule:** C30H16O8
 

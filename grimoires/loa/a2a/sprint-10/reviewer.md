@@ -48,7 +48,7 @@ Each mibera file contains ~24 relative links using the `../` prefix:
 
 ```markdown
 | Archetype | [Freetekno](../core-lore/archetypes.md#freetekno) |
-| Drug | [St. John'S Wort](../drugs-detailed/st-johns-wort.md) |
+| Drug | [St. John'S Wort](../traits/overlays/molecules/st-johns-wort.md) |
 ```
 
 - **10,001 files × ~24 links = ~240,024 outbound links**
@@ -62,7 +62,7 @@ Each mibera file contains ~24 relative links using the `../` prefix:
 | `birthdays/` | 10 | 9,995 | 91.97% |
 | `browse/` | 282 | 682 | 6.27% |
 | `core-lore/` | 111 | 111 | 1.02% |
-| `drugs-detailed/` | 78 | 78 | 0.72% |
+| `traits/overlays/molecules/` | 78 | 78 | 0.72% |
 | `traits/` | 0 | 0 | 0% |
 | **Total** | **481** | **10,866** | **100%** |
 

@@ -57,7 +57,7 @@ Reference for all content types in the codex. Use this when creating new entries
 | Face Accessory | Yes | Link or `None` | Link or `None` |
 | Tattoo | Yes | Link or `None` | Link or `None` |
 | Item | Yes | Link or `None` | Link or `None` |
-| Drug | Yes | Link to drug file | `[Mdma](../drugs-detailed/mdma.md)` |
+| Drug | Yes | Link to drug file | `[Mdma](../traits/overlays/molecules/mdma.md)` |
 
 **Notes**:
 - All 26 fields must be present in every file
@@ -225,7 +225,7 @@ color: a darker shade of yellow
 
 ## 3. Drug Entry
 
-**Path**: `drugs-detailed/{slug}.md`
+**Path**: `traits/overlays/molecules/{slug}.md`
 **Format**: YAML frontmatter + Markdown
 **Count**: 79
 

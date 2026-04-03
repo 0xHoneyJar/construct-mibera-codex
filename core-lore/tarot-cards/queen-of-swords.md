@@ -24,7 +24,7 @@ The pairing with the Queen of Swords operates through shared elegance. Blue lotu
 
 ## Drug Association
 
-**Drug:** [Nymphaea caerulea](../../drugs-detailed/nymphaea-caerulea.md)
+**Drug:** [Nymphaea caerulea](../../traits/overlays/molecules/nymphaea-caerulea.md)
 
 **Molecule:** C17H17NO2
 

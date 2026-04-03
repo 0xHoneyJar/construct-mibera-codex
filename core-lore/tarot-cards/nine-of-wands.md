@@ -24,7 +24,7 @@ The pairing is devastatingly precise. The Nine of Wands figure (battered, watchf
 
 ## Drug Association
 
-**Drug:** [Ethanol](../../drugs-detailed/ethanol.md)
+**Drug:** [Ethanol](../../traits/overlays/molecules/ethanol.md)
 
 **Molecule:** CH3CH2OH
 

@@ -24,7 +24,7 @@ The pairing with the Six of Swords connects through the theme of passage that ca
 
 ## Drug Association
 
-**Drug:** [Grayanotoxin](../../drugs-detailed/grayanotoxin.md)
+**Drug:** [Grayanotoxin](../../traits/overlays/molecules/grayanotoxin.md)
 
 **Molecule:** C20H34O5
 
