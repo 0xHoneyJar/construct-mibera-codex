@@ -26,7 +26,7 @@ The shadow alignment is equally precise. Nicotine's false independence, the way 
 
 ## Drug Association
 
-**Drug:** [Nicotine](../../../traits/overlays/molecules/nicotine.md)
+**Drug:** [Nicotine](../../traits/overlays/molecules/nicotine.md)
 
 **Molecule:** C10H14N2
 

@@ -24,7 +24,7 @@ The connection runs deeper than mere stimulation. Ephedra opens airways and acce
 
 ## Drug Association
 
-**Drug:** [Ephedra](../../../traits/overlays/molecules/ephedra.md)
+**Drug:** [Ephedra](../../traits/overlays/molecules/ephedra.md)
 
 **Molecule:** C10H15NO
 

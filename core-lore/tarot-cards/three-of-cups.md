@@ -24,7 +24,7 @@ The connection runs deeper than social context. Sassafras carries a molecular ec
 
 ## Drug Association
 
-**Drug:** [Sassafras](../../../traits/overlays/molecules/sassafras.md)
+**Drug:** [Sassafras](../../traits/overlays/molecules/sassafras.md)
 
 **Molecule:** C10H10O2
 

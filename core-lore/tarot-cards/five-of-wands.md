@@ -24,7 +24,7 @@ The pairing with the Five of Wands captures the productive and destructive faces
 
 ## Drug Association
 
-**Drug:** [Dextroamphetamine](../../../traits/overlays/molecules/dextroamphetamine.md)
+**Drug:** [Dextroamphetamine](../../traits/overlays/molecules/dextroamphetamine.md)
 
 **Molecule:** C9H13N
 

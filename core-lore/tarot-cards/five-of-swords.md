@@ -24,7 +24,7 @@ The connection between card and drug centers on the question of consent and coer
 
 ## Drug Association
 
-**Drug:** [Scopolamine](../../../traits/overlays/molecules/scopolamine.md)
+**Drug:** [Scopolamine](../../traits/overlays/molecules/scopolamine.md)
 
 **Molecule:** C17H21NO4
 

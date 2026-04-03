@@ -26,7 +26,7 @@ The connection operates on multiple levels. Mimosa Tenuiflora does not prevent w
 
 ## Drug Association
 
-**Drug:** [Mimosa Tenuiflora](../../../traits/overlays/molecules/mimosa-tenuiflora.md)
+**Drug:** [Mimosa Tenuiflora](../../traits/overlays/molecules/mimosa-tenuiflora.md)
 
 **Molecule:** C12H16N2
 

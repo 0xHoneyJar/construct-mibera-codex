@@ -24,7 +24,7 @@ The pairing with the King of Wands captures the seductive danger of chemically a
 
 ## Drug Association
 
-**Drug:** [M-CAT](../../../traits/overlays/molecules/m-cat.md)
+**Drug:** [M-CAT](../../traits/overlays/molecules/m-cat.md)
 
 **Molecule:** C11H15NO
 

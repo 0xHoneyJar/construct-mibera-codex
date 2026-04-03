@@ -24,7 +24,7 @@ This is the Ten of Cups' deepest register: not happiness as comfort but happines
 
 ## Drug Association
 
-**Drug:** [Kykeon](../../../traits/overlays/molecules/kykeon.md)
+**Drug:** [Kykeon](../../traits/overlays/molecules/kykeon.md)
 
 **Molecule:** C33H35N5O5
 

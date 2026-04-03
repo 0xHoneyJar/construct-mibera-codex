@@ -26,7 +26,7 @@ The pairing carries particular depth when you consider lithium's ancient history
 
 ## Drug Association
 
-**Drug:** [Lithium](../../../traits/overlays/molecules/lithium.md)
+**Drug:** [Lithium](../../traits/overlays/molecules/lithium.md)
 
 **Molecule:** Li2CO3
 

@@ -21,9 +21,9 @@ locations: India, Nepal
 
 ## Drug Connections
 
-**Modern:** [CBD](../../../traits/overlays/molecules/cbd.md)
+**Modern:** [CBD](../../traits/overlays/molecules/cbd.md)
 
-**Ancient:** [Bhang](../../../traits/overlays/molecules/bhang.md)
+**Ancient:** [Bhang](../../traits/overlays/molecules/bhang.md)
 
 ## Sources
 

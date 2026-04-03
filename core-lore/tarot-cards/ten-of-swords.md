@@ -24,7 +24,7 @@ But the connection goes deeper than shared extremity. Both DMT and the Ten of Sw
 
 ## Drug Association
 
-**Drug:** [DMT](../../../traits/overlays/molecules/dmt.md)
+**Drug:** [DMT](../../traits/overlays/molecules/dmt.md)
 
 **Molecule:** C12H16N2
 

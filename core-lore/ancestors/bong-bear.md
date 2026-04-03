@@ -24,9 +24,9 @@ locations: Ethereum blockchain, Berachain L1, digital realm
 
 ## Drug Connections
 
-**Modern:** [Weed](../../../traits/overlays/molecules/weed.md), [THC Edibles](../../../traits/overlays/molecules/thc-edibles.md)
+**Modern:** [Weed](../../traits/overlays/molecules/weed.md), [THC Edibles](../../traits/overlays/molecules/thc-edibles.md)
 
-**Ancient:** [Bhang](../../../traits/overlays/molecules/bhang.md)
+**Ancient:** [Bhang](../../traits/overlays/molecules/bhang.md)
 
 ## Sources
 

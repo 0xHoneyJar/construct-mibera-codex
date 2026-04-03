@@ -24,7 +24,7 @@ The pairing with the Knight of Wands is a warning encoded in botany. Both the ca
 
 ## Drug Association
 
-**Drug:** [Datura](../../../traits/overlays/molecules/datura.md)
+**Drug:** [Datura](../../traits/overlays/molecules/datura.md)
 
 **Molecule:** C17H23NO3
 

@@ -26,7 +26,7 @@ The pairing with The Moon operates in the territory of the uncanny. Nutmeg is th
 
 ## Drug Association
 
-**Drug:** [Nutmeg](../../../traits/overlays/molecules/nutmeg.md)
+**Drug:** [Nutmeg](../../traits/overlays/molecules/nutmeg.md)
 
 **Molecule:** C11H12O3
 

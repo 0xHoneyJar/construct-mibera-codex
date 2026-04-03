@@ -26,7 +26,7 @@ The pairing with Temperance is about the art of the middle path. Kava does not i
 
 ## Drug Association
 
-**Drug:** [Kava](../../../traits/overlays/molecules/kava.md)
+**Drug:** [Kava](../../traits/overlays/molecules/kava.md)
 
 **Molecule:** C14H16O3
 

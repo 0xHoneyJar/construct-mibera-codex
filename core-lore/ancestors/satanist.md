@@ -26,9 +26,9 @@ locations: The first Church of Satan (California, USA)
 
 ## Drug Connections
 
-**Modern:** [Clear Pill](../../../traits/overlays/molecules/clear-pill.md)
+**Modern:** [Clear Pill](../../traits/overlays/molecules/clear-pill.md)
 
-**Ancient:** [Ethanol](../../../traits/overlays/molecules/ethanol.md)
+**Ancient:** [Ethanol](../../traits/overlays/molecules/ethanol.md)
 
 ## Sources
 

@@ -26,7 +26,7 @@ This pairing speaks to the idea that stable growth begins with clear-eyed presen
 
 ## Drug Association
 
-**Drug:** [Sober](../../../traits/overlays/molecules/sober.md)
+**Drug:** [Sober](../../traits/overlays/molecules/sober.md)
 
 **Molecule:** C10H12N2O
 

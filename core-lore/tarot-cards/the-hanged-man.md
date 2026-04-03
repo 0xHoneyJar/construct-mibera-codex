@@ -26,7 +26,7 @@ The connection to The Hanged Man is structural. Iboga does not offer the gentle 
 
 ## Drug Association
 
-**Drug:** [Iboga](../../../traits/overlays/molecules/iboga.md)
+**Drug:** [Iboga](../../traits/overlays/molecules/iboga.md)
 
 **Molecule:** C20H26N2O
 

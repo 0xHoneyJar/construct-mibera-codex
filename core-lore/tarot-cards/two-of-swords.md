@@ -24,7 +24,7 @@ The connection runs deeper than symptomatic relief. Xanax became one of the most
 
 ## Drug Association
 
-**Drug:** [Xanax](../../../traits/overlays/molecules/xanax.md)
+**Drug:** [Xanax](../../traits/overlays/molecules/xanax.md)
 
 **Molecule:** C17H13ClN4
 

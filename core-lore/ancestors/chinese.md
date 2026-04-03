@@ -26,9 +26,9 @@ locations: China
 
 ## Drug Connections
 
-**Modern:** [Alcohol](../../../traits/overlays/molecules/alcohol.md), [Caffeine](../../../traits/overlays/molecules/caffeine.md)
+**Modern:** [Alcohol](../../traits/overlays/molecules/alcohol.md), [Caffeine](../../traits/overlays/molecules/caffeine.md)
 
-**Ancient:** [Tea](../../../traits/overlays/molecules/tea.md), [Ephedra](../../../traits/overlays/molecules/ephedra.md)
+**Ancient:** [Tea](../../traits/overlays/molecules/tea.md), [Ephedra](../../traits/overlays/molecules/ephedra.md)
 
 ## Sources
 

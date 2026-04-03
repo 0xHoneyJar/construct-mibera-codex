@@ -24,9 +24,9 @@ locations: Haiti, Hispaniola, Caribbean
 
 ## Drug Connections
 
-**Modern:** [LSD](../../../traits/overlays/molecules/lsd.md)
+**Modern:** [LSD](../../traits/overlays/molecules/lsd.md)
 
-**Ancient:** [Ancestral Trance](../../../traits/overlays/molecules/ancestral-trance.md)
+**Ancient:** [Ancestral Trance](../../traits/overlays/molecules/ancestral-trance.md)
 
 ## Sources
 

@@ -26,7 +26,7 @@ Where The Fool carries the archetype of the sacred innocent walking into the unk
 
 ## Drug Association
 
-**Drug:** [Ayahuasca](../../../traits/overlays/molecules/ayahuasca.md)
+**Drug:** [Ayahuasca](../../traits/overlays/molecules/ayahuasca.md)
 
 **Molecule:** C12H16N2
 

@@ -25,9 +25,9 @@ locations: Avdat "The Temple of Obodas" (Negev Desert, Israel), Arabian Peninsul
 
 ## Drug Connections
 
-**Modern:** [Caffeine](../../../traits/overlays/molecules/caffeine.md), [Scopolamine](../../../traits/overlays/molecules/scopolamine.md), [MMDA](../../../traits/overlays/molecules/mmda.md)
+**Modern:** [Caffeine](../../traits/overlays/molecules/caffeine.md), [Scopolamine](../../traits/overlays/molecules/scopolamine.md), [MMDA](../../traits/overlays/molecules/mmda.md)
 
-**Ancient:** [Tobacco](../../../traits/overlays/molecules/tobacco.md), [Nutmeg](../../../traits/overlays/molecules/nutmeg.md), [Coffee](../../../traits/overlays/molecules/coffee.md), [Mandrake](../../../traits/overlays/molecules/mandrake.md)
+**Ancient:** [Tobacco](../../traits/overlays/molecules/tobacco.md), [Nutmeg](../../traits/overlays/molecules/nutmeg.md), [Coffee](../../traits/overlays/molecules/coffee.md), [Mandrake](../../traits/overlays/molecules/mandrake.md)
 
 ## Sources
 

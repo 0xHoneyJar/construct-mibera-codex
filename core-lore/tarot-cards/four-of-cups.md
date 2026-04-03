@@ -24,7 +24,7 @@ The pairing carries deliberate tension. The Four of Cups asks whether contentmen
 
 ## Drug Association
 
-**Drug:** [Sertraline](../../../traits/overlays/molecules/sertraline.md)
+**Drug:** [Sertraline](../../traits/overlays/molecules/sertraline.md)
 
 **Molecule:** C17H17Cl2N
 

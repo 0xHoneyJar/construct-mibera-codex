@@ -24,7 +24,7 @@ This pairing with the Six of Wands is almost tautological, and that is the point
 
 ## Drug Association
 
-**Drug:** [Euphoria](../../../traits/overlays/molecules/euphoria.md)
+**Drug:** [Euphoria](../../traits/overlays/molecules/euphoria.md)
 
 **Molecule:** C8H11NO2
 

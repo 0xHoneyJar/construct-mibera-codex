@@ -26,7 +26,7 @@ The pairing with The Devil is unflinching. Methamphetamine is bondage made chemi
 
 ## Drug Association
 
-**Drug:** [Methamphetamine](../../../traits/overlays/molecules/methamphetamine.md)
+**Drug:** [Methamphetamine](../../traits/overlays/molecules/methamphetamine.md)
 
 **Molecule:** C10H15N
 

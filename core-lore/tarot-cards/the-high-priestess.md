@@ -26,7 +26,7 @@ Where psilocybin mushrooms carry millennia of indigenous context, psilacetin arr
 
 ## Drug Association
 
-**Drug:** [Psilacetin](../../../traits/overlays/molecules/psilacetin.md)
+**Drug:** [Psilacetin](../../traits/overlays/molecules/psilacetin.md)
 
 **Molecule:** C14H18N2O2
 

@@ -22,9 +22,9 @@ locations: Greece, Mediterranean
 
 ## Drug Connections
 
-**Modern:** [Poppers](../../../traits/overlays/molecules/poppers.md), [Scopolamine](../../../traits/overlays/molecules/scopolamine.md), [Shroom Tea](../../../traits/overlays/molecules/shroom-tea.md), [Sertraline](../../../traits/overlays/molecules/sertraline.md)
+**Modern:** [Poppers](../../traits/overlays/molecules/poppers.md), [Scopolamine](../../traits/overlays/molecules/scopolamine.md), [Shroom Tea](../../traits/overlays/molecules/shroom-tea.md), [Sertraline](../../traits/overlays/molecules/sertraline.md)
 
-**Ancient:** [Kykeon](../../../traits/overlays/molecules/kykeon.md), [Nymphaea Caerulea](../../../traits/overlays/molecules/nymphaea-caerulea.md), [Henbane](../../../traits/overlays/molecules/henbane.md), [St John's Wort](../../../traits/overlays/molecules/st-johns-wort.md), [Mandrake](../../../traits/overlays/molecules/mandrake.md)
+**Ancient:** [Kykeon](../../traits/overlays/molecules/kykeon.md), [Nymphaea Caerulea](../../traits/overlays/molecules/nymphaea-caerulea.md), [Henbane](../../traits/overlays/molecules/henbane.md), [St John's Wort](../../traits/overlays/molecules/st-johns-wort.md), [Mandrake](../../traits/overlays/molecules/mandrake.md)
 
 ## Sources
 

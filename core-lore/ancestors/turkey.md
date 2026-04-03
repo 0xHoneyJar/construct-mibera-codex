@@ -24,9 +24,9 @@ locations: Turkey, Anatolia, Constantinople/Istanbul
 
 ## Drug Connections
 
-**Modern:** [Ketamine](../../../traits/overlays/molecules/ketamine.md)
+**Modern:** [Ketamine](../../traits/overlays/molecules/ketamine.md)
 
-**Ancient:** [Grayanotoxin](../../../traits/overlays/molecules/grayanotoxin.md)
+**Ancient:** [Grayanotoxin](../../traits/overlays/molecules/grayanotoxin.md)
 
 ## Sources
 

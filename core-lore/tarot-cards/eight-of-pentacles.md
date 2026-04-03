@@ -26,7 +26,7 @@ The connection deepens when you consider that Brahmi, like the Eight of Pentacle
 
 ## Drug Association
 
-**Drug:** [Brahmi](../../../traits/overlays/molecules/brahmi.md)
+**Drug:** [Brahmi](../../traits/overlays/molecules/brahmi.md)
 
 **Molecule:** C41H68O13
 

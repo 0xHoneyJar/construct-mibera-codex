@@ -22,9 +22,9 @@ locations: Nepal, India,
 
 ## Drug Connections
 
-**Modern:** [CBD](../../../traits/overlays/molecules/cbd.md)
+**Modern:** [CBD](../../traits/overlays/molecules/cbd.md)
 
-**Ancient:** [Sugarcane](../../../traits/overlays/molecules/sugarcane.md), [Datura](../../../traits/overlays/molecules/datura.md), [Syrian Rue](../../../traits/overlays/molecules/syrian-rue.md), [Brahmi](../../../traits/overlays/molecules/brahmi.md), [Ashwagandha](../../../traits/overlays/molecules/ashwagandha.md), [Bhang](../../../traits/overlays/molecules/bhang.md)
+**Ancient:** [Sugarcane](../../traits/overlays/molecules/sugarcane.md), [Datura](../../traits/overlays/molecules/datura.md), [Syrian Rue](../../traits/overlays/molecules/syrian-rue.md), [Brahmi](../../traits/overlays/molecules/brahmi.md), [Ashwagandha](../../traits/overlays/molecules/ashwagandha.md), [Bhang](../../traits/overlays/molecules/bhang.md)
 
 ## Sources
 

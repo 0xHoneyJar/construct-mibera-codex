@@ -26,7 +26,7 @@ The pairing with The Empress is elemental rather than metaphorical. The Empress 
 
 ## Drug Association
 
-**Drug:** [Estrogen](../../../traits/overlays/molecules/estrogen.md)
+**Drug:** [Estrogen](../../traits/overlays/molecules/estrogen.md)
 
 **Molecule:** C18H24O2
 

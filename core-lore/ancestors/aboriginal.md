@@ -28,9 +28,9 @@ locations: Australia, Siberia, Russia
 
 ## Drug Connections
 
-**Modern:** [LSD](../../../traits/overlays/molecules/lsd.md), [Nicotine](../../../traits/overlays/molecules/nicotine.md), [DMT](../../../traits/overlays/molecules/dmt.md)
+**Modern:** [LSD](../../traits/overlays/molecules/lsd.md), [Nicotine](../../traits/overlays/molecules/nicotine.md), [DMT](../../traits/overlays/molecules/dmt.md)
 
-**Ancient:** [Kava](../../../traits/overlays/molecules/kava.md), [Acacia](../../../traits/overlays/molecules/acacia.md), [Pituri](../../../traits/overlays/molecules/pituri.md), [Ancestral Trance](../../../traits/overlays/molecules/ancestral-trance.md)
+**Ancient:** [Kava](../../traits/overlays/molecules/kava.md), [Acacia](../../traits/overlays/molecules/acacia.md), [Pituri](../../traits/overlays/molecules/pituri.md), [Ancestral Trance](../../traits/overlays/molecules/ancestral-trance.md)
 
 ## Sources
 

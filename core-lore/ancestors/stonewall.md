@@ -24,9 +24,9 @@ locations: New York City (Greenwich Village), Christopher Street, Stonewall Inn
 
 ## Drug Connections
 
-**Modern:** [Poppers](../../../traits/overlays/molecules/poppers.md), [Alcohol](../../../traits/overlays/molecules/alcohol.md)
+**Modern:** [Poppers](../../traits/overlays/molecules/poppers.md), [Alcohol](../../traits/overlays/molecules/alcohol.md)
 
-**Ancient:** [Ethanol](../../../traits/overlays/molecules/ethanol.md)
+**Ancient:** [Ethanol](../../traits/overlays/molecules/ethanol.md)
 
 ## Sources
 

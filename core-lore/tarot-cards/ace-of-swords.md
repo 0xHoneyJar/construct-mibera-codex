@@ -26,7 +26,7 @@ The pairing connects because both card and drug operate on the same principle, t
 
 ## Drug Association
 
-**Drug:** [Piracetam](../../../traits/overlays/molecules/piracetam.md)
+**Drug:** [Piracetam](../../traits/overlays/molecules/piracetam.md)
 
 **Molecule:** C6H10N2O2
 

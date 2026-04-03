@@ -26,7 +26,7 @@ Psilocybin's well-documented capacity to dissolve ego boundaries and increase fe
 
 ## Drug Association
 
-**Drug:** [Shroom Tea](../../../traits/overlays/molecules/shroom-tea.md)
+**Drug:** [Shroom Tea](../../traits/overlays/molecules/shroom-tea.md)
 
 **Molecule:** C12H17N2O4P
 

@@ -24,7 +24,7 @@ The pairing suggests that the Nine of Swords' anguish is not just suffering to b
 
 ## Drug Association
 
-**Drug:** [Ancestral Trance](../../../traits/overlays/molecules/ancestral-trance.md)
+**Drug:** [Ancestral Trance](../../traits/overlays/molecules/ancestral-trance.md)
 
 **Molecule:** C20H25N3O
 

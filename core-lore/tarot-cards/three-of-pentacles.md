@@ -26,7 +26,7 @@ The pairing also connects with the card's theme of blossoming talent. Clear Pill
 
 ## Drug Association
 
-**Drug:** [Clear Pill](../../../traits/overlays/molecules/clear-pill.md)
+**Drug:** [Clear Pill](../../traits/overlays/molecules/clear-pill.md)
 
 **Molecule:** C8H11NO2
 

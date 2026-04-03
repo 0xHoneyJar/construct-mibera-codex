@@ -25,9 +25,9 @@ locations: Hawaii, Samoa, Tonga, Tahiti, New Zealand (Aotearoa), Easter Island (
 
 ## Drug Connections
 
-**Modern:** [MDMA](../../../traits/overlays/molecules/mdma.md)
+**Modern:** [MDMA](../../traits/overlays/molecules/mdma.md)
 
-**Ancient:** [Kava](../../../traits/overlays/molecules/kava.md), ʻAwa
+**Ancient:** [Kava](../../traits/overlays/molecules/kava.md), ʻAwa
 
 ## Sources
 

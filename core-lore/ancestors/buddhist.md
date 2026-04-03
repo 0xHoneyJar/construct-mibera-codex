@@ -23,9 +23,9 @@ locations: '---'
 
 ## Drug Connections
 
-**Modern:** [Psilacetin](../../../traits/overlays/molecules/psilacetin.md)
+**Modern:** [Psilacetin](../../traits/overlays/molecules/psilacetin.md)
 
-**Ancient:** [Mushrooms](../../../traits/overlays/molecules/mushrooms.md)
+**Ancient:** [Mushrooms](../../traits/overlays/molecules/mushrooms.md)
 
 ## Sources
 

@@ -28,9 +28,9 @@ locations: San Francisco Bay Area, the Internet, global digital networks
 
 ## Drug Connections
 
-**Modern:** [Piracetam](../../../traits/overlays/molecules/piracetam.md)
+**Modern:** [Piracetam](../../traits/overlays/molecules/piracetam.md)
 
-**Ancient:** [Coffee](../../../traits/overlays/molecules/coffee.md)
+**Ancient:** [Coffee](../../traits/overlays/molecules/coffee.md)
 
 ## Sources
 

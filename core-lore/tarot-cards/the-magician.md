@@ -26,7 +26,7 @@ Like The Magician, pituri represents resourcefulness drawn from the land itself.
 
 ## Drug Association
 
-**Drug:** [Pituri](../../../traits/overlays/molecules/pituri.md)
+**Drug:** [Pituri](../../traits/overlays/molecules/pituri.md)
 
 **Molecule:** C10H14N2
 
