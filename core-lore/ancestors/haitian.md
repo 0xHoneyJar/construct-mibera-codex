@@ -7,7 +7,7 @@ locations: Haiti, Hispaniola, Caribbean
 
 # Haitian
 
-## Cultural Significance
+## Cultural Context
 
 **Figures Associated:**
 - Toussaint Louverture; leader of the Haitian Revolution, the only successful slave revolt in history. A former slave who became a military genius, he laid the groundwork for Haiti becoming the first free Black republic in 1804.

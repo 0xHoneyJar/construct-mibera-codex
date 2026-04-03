@@ -1,142 +1,270 @@
-# SDD: Trait Image Embedding — S3 Visual Layer
+# SDD: Full Trait Knowledge Graph
 
-**Cycle:** 019
-**Created:** 2026-03-25
+**Cycle:** 020
+**Created:** 2026-04-03
 
 ## Architecture
 
-Single stdlib-only Python script (`_codex/scripts/embed-images.py`) that:
+Single-script expansion of the existing `_codex/scripts/generate-graph.py`. No new files, no new dependencies. The script already uses stdlib + PyYAML and follows the codex convention of regex YAML parsing — PyYAML is the one exception, already present.
 
-1. Walks `/Users/gumi/micodex-images/output/` to collect all `.webp` filenames
-2. Builds a lookup table: image filename → codex `.md` file path
-3. For each matched pair: updates `image:` frontmatter and inserts inline `<img>` HTML
-4. Reports: matched, skipped, orphaned, errors
+The change is purely additive: new trait directories loaded, new node types created, new edge types emitted. Existing node/edge structures are unchanged.
 
-No external dependencies. No database. No API calls. One script, one pass.
+## Component Design
 
-## Image-to-File Resolution
+### 1. Trait Directory Registry
 
-The script builds a **slug index** by walking the codex directories and mapping `slug → file_path`:
-
-```
-traits/**/*.md      → slug from filename (e.g., traits/character-traits/hair/funky.md → "funky")
-traits/overlays/molecules/*.md → slug from filename (e.g., traits/overlays/molecules/acacia.md → "acacia")
-vending-machine/**/*.md → slug from filename
-```
-
-Then for each image, applies mapping rules in priority order:
-
-### Priority 1: Special prefixes (most specific)
-- `SS5_bongbear_{name}.webp` → lookup `bong-bear-{slugify(name)}` in bong-bears/
-- `SS5_cypherpunk_{name}.webp` → lookup `{slugify(name)}` in general-items/
-- `{era}_{ancestor}_{tattoo}.webp` (era ∈ {ancient, modern}) → lookup `{slugify(tattoo)}` in tattoos/
-
-### Priority 2: Archetype combos (no SS prefix)
-- `{arch}_{ancestor}_{drug}.webp` → lookup `{slugify(drug)}` in traits/overlays/molecules/ (molecule overlay)
-- `{arch}_{glasses}.webp` (2 components, arch known) → lookup `{slugify(glasses)}` in glasses/
-
-### Priority 3: SS-prefixed traits
-- `SS{N}_{arch}_{era}_{ancestor}_{name}.webp` → lookup `{slugify(name)}` in slug index
-- `SS{N}_{arch}_{name}.webp` → lookup `{slugify(name)}` in slug index
-- `SS{N}_{name}.webp` → lookup `{slugify(name)}` in slug index
-
-### Priority 4: Astrology / Overlays / Elements
-- `Sun|Moon|Rising {sign}.webp` → `traits/overlays/astrology/{slugify(sign)}.md`
-- `Air|Earth|Fire|Water.webp` → `traits/overlays/elements/{lower}.md`
-- `A|B|C|D|F|S|SS|SSS.webp` → `traits/overlays/ranking/{lower}.md`
-
-### Priority 5: Direct name match (broadest)
-- `{Name}.webp` → lookup `{slugify(Name)}` in slug index
-
-### Skip rules
-- `*_overlay.webp` → skip (deferred)
-- `IMG_*.webp` → skip (now renamed, but guard remains)
-- No match found → log to orphan report
-
-### Known archetypes list
-`acidhouse`, `chicagodetroit`, `freetekno`, `milady`
-
-### Known ancestors list
-Loaded from `core-lore/ancestors/` directory listing.
-
-### Known eras
-`ancient`, `modern`
-
-## File Modification Strategy
-
-### Frontmatter update
-
-Replace the `image:` field value (whether bare filename, old object storage URL, or absent) with the canonical S3 URL:
-
-```yaml
-image: "https://mibera.s3.amazonaws.com/traits/{url_encoded_filename}.webp"
-```
-
-If no `image:` field exists, insert it after the last existing frontmatter field (before closing `---`).
-
-### Inline image insertion
-
-Insert a centered `<img>` tag immediately after the closing `---` of frontmatter, before any existing content:
-
-```html
-
-<div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/{url_encoded_filename}.webp" alt="{name}" width="320" />
-</div>
-```
-
-For astrology files (3 images per file):
-
-```html
-
-<div align="center">
-  <img src="...Sun%20{Sign}.webp" alt="Sun {Sign}" width="200" />
-  <img src="...Moon%20{Sign}.webp" alt="Moon {Sign}" width="200" />
-  <img src="...Rising%20{Sign}.webp" alt="Rising {Sign}" width="200" />
-</div>
-```
-
-### Idempotency
-
-- If file already contains `<div align="center">` with an `<img>` tag pointing to `mibera.s3.amazonaws.com`, skip the inline insertion
-- If file already contains an `<img>` pointing to old object storage, replace it
-- Frontmatter `image:` is always overwritten to canonical URL
-
-### Safety
-
-- Never modify content between `<!-- @generated:backlinks-start -->` and `<!-- @generated:backlinks-end -->`
-- Parse frontmatter with regex (stdlib-only, no PyYAML) — same pattern as all codex scripts
-- Write to a temp file, then atomic rename
-
-## URL Encoding
+A configuration mapping from mibera frontmatter field names to trait file directories. This is the core lookup table the script uses to resolve a mibera's trait values to trait file nodes.
 
 ```python
-from urllib.parse import quote
-url = f"https://mibera.s3.amazonaws.com/traits/{quote(filename, safe='')}"
+TRAIT_DIRS = {
+    # field_name: (node_type, [directories], weight)
+    "shirt":          ("shirt",          ["traits/clothing/short-sleeves", "traits/clothing/long-sleeves", "traits/clothing/simple-shirts"], 1),
+    "hat":            ("hat",            ["traits/accessories/hats"], 1),
+    "item":           ("item",           ["traits/items/general-items", "traits/items/bong-bears"], 1),
+    "glasses":        ("glasses",        ["traits/accessories/glasses"], 1),
+    "earrings":       ("earrings",       ["traits/accessories/earrings"], 1),
+    "mask":           ("mask",           ["traits/accessories/masks"], 1),
+    "face_accessory": ("face_accessory", ["traits/accessories/face-accessories"], 1),
+    "tattoo":         ("tattoo",         ["traits/character-traits/tattoos"], 1),
+    "background":     ("background",     ["traits/backgrounds"], 1),
+    "body":           ("body",           ["traits/character-traits/body"], 1),
+    "hair":           ("hair",           ["traits/character-traits/hair"], 1),
+    "eyes":           ("eyes",           ["traits/character-traits/eyes"], 1),
+    "eyebrows":       ("eyebrows",       ["traits/character-traits/eyebrows"], 1),
+    "mouth":          ("mouth",          ["traits/character-traits/mouth"], 1),
+}
 ```
 
-Spaces → `%20`, special chars encoded. `urllib.parse` is stdlib.
+### 2. Trait File Loader
 
-## Output
+Extends the existing `load_frontmatter()` to also extract the Cultural Context section from the markdown body:
 
-The script prints a summary:
+```python
+def load_trait_files(directories):
+    """Load frontmatter + cultural context from trait files across multiple directories."""
+    items = {}  # slug -> {frontmatter + context}
+    for directory in directories:
+        for filepath in sorted(glob.glob(os.path.join(directory, "*.md"))):
+            basename = os.path.basename(filepath)
+            if basename == "README.md" or basename == "drug-pairings.md":
+                continue
+            slug = basename.replace(".md", "")
+            content = open(filepath).read()
+            # Extract frontmatter
+            fm = parse_frontmatter(content)
+            # Extract cultural context
+            context = extract_cultural_context(content)
+            if fm:
+                fm["_slug"] = slug
+                fm["_context"] = context
+                fm["_category"] = directory
+                items[slug] = fm
+    return items
+```
+
+### 3. Cultural Context Extractor
+
+Regex-based extraction of the Cultural Context section from markdown:
+
+```python
+def extract_cultural_context(content):
+    """Extract text between '## Cultural Context' and next section/comment."""
+    match = re.search(
+        r'## Cultural Context\s*\n(.*?)(?=\n## |\n<!--|---\n|\Z)',
+        content, re.DOTALL
+    )
+    if match:
+        text = match.group(1).strip()
+        return text if text else None
+    return None
+```
+
+This same function is applied to existing node types (ancestors, drugs, tarot cards, archetypes) to backfill `context` on all nodes.
+
+### 4. Slug Resolution
+
+The critical mapping step: converting a mibera's frontmatter value (e.g., `shirt: "Free Palestine"`) to the corresponding trait file slug (`free-palestine`). Uses the existing `slugify()` function, then validates against loaded trait files.
+
+```python
+def resolve_trait(value, trait_files):
+    """Resolve a mibera's trait value to a trait file slug."""
+    if not value or value == "None":
+        return None
+    slug = slugify(value)
+    if slug in trait_files:
+        return slug
+    # Fallback: try without common suffixes/variations
+    # Log warning if unresolved
+    return None
+```
+
+Unresolved traits are logged as warnings. The validation phase catches any systematic mismatches.
+
+### 5. Edge Weight System
+
+Weights are assigned per edge type, stored on each edge object:
+
+```python
+EDGE_WEIGHTS = {
+    # Load-bearing (3)
+    "has_archetype": 3, "has_ancestor": 3, "born_in_era": 3,
+    # Textural (2)
+    "has_drug": 2, "maps_to_tarot": 2, "has_element": 2,
+    "has_suit_element": 2, "drug_archetype": 2, "drug_ancestor": 2,
+    # Modifier (1.5)
+    "has_swag_rank": 1.5, "has_sun_sign": 1.5,
+    "has_moon_sign": 1.5, "has_ascending_sign": 1.5,
+    # Visual (1)
+    "has_shirt": 1, "has_hat": 1, "has_item": 1, "has_glasses": 1,
+    "has_earrings": 1, "has_mask": 1, "has_face_accessory": 1,
+    "has_tattoo": 1, "has_background": 1, "has_body": 1,
+    "has_hair": 1, "has_eyes": 1, "has_eyebrows": 1, "has_mouth": 1,
+}
+```
+
+The `add_edge()` function is updated to include weight:
+
+```python
+def add_edge(source, target, etype):
+    key = (source, target, etype)
+    if key not in edge_set:
+        edge_set.add(key)
+        edges.append({
+            "source": source,
+            "target": target,
+            "type": etype,
+            "weight": EDGE_WEIGHTS.get(etype, 1)
+        })
+```
+
+### 6. Node Schema
+
+All nodes gain a `context` field. Existing nodes are backfilled:
+
+```python
+# Trait nodes
+{
+    "id": "shirt:free-palestine",
+    "type": "shirt",
+    "label": "Free Palestine",
+    "category": "clothing/short-sleeves",
+    "image": "https://mibera.s3.amazonaws.com/...",
+    "swag_score": 2,
+    "context": "\"Free Palestine\" is one of the most recognized..."
+}
+
+# Existing identity nodes (backfilled)
+{
+    "id": "ancestor:greek",
+    "type": "ancestor",
+    "label": "Greek",
+    "context": "The Greek ancestor lineage connects to..."
+}
+
+# Mibera nodes (unchanged, no context)
+{
+    "id": "mibera:1",
+    "type": "mibera",
+    "label": "Mibera #1"
+}
+```
+
+## Data Flow
 
 ```
-Matched:  1,160
-Skipped:  105 (orphans + deferred)
-Updated:  1,160
-Errors:   0
-
-Orphan images (no codex match):
-  - Bright Forest.webp
-  - ...
+miberas/*.md (frontmatter)
+    ↓ read 10,000 files
+    ↓ extract all 24 fields
+    ↓
+traits/**/*.md (frontmatter + cultural context)
+    ↓ read ~1,324 files across 15 directories
+    ↓ build slug → node mapping
+    ↓
+core-lore/**/*.md (cultural context for backfill)
+    ↓ read ancestor, archetype, tarot files
+    ↓ extract context sections
+    ↓
+generate-graph.py
+    ↓ create nodes (identity + visual + overlay)
+    ↓ resolve mibera traits → trait slugs
+    ↓ create weighted edges
+    ↓ validate (orphans, bad refs, counts)
+    ↓
+_codex/data/graph.json (~18-22 MB)
 ```
 
-And writes `_codex/scripts/reports/image-embed-report.json` with full details.
+## Processing Order
 
-## Sprint Plan Recommendation
+1. Load all trait files (build slug lookup tables)
+2. Load all context source files (ancestors, archetypes, drugs, tarot)
+3. Process miberas (create mibera nodes + all edges)
+4. Process tarot cards (drug→tarot, tarot→element edges)
+5. Process drugs (drug→archetype, drug→ancestor edges)
+6. Backfill context on all non-mibera nodes
+7. Validate
+8. Write output
 
-Single sprint, 3 tasks:
-1. Write `embed-images.py` script
-2. Run script, review output in Obsidian
-3. Validate (spot-check URLs, audit-links.sh)
+## Output Schema
+
+```json
+{
+    "metadata": {
+        "generated": "2026-04-03",
+        "generator": "_codex/scripts/generate-graph.py",
+        "node_count": 11561,
+        "edge_count": 190000,
+        "node_types": {"mibera": 10000, "shirt": 187, ...},
+        "edge_types": {"has_archetype": 10000, "has_shirt": 10000, ...},
+        "signal_weights": {
+            "load_bearing": ["has_archetype", "has_ancestor", "born_in_era"],
+            "textural": ["has_drug", "maps_to_tarot", "has_element"],
+            "modifier": ["has_swag_rank", "has_sun_sign", "has_moon_sign", "has_ascending_sign"],
+            "visual": ["has_shirt", "has_hat", "has_item", ...]
+        }
+    },
+    "nodes": [...],
+    "edges": [...]
+}
+```
+
+The `signal_weights` metadata block lets consumers discover the hierarchy without hardcoding it.
+
+## Bug Fix: Molecule YAML Errors
+
+The 5 files with `origin: '---'` have a YAML value that is a quoted string containing the YAML document separator. Fix by replacing with a meaningful value or removing the field:
+
+```yaml
+# Before
+origin: '---'
+
+# After (option A: remove)
+# (delete the line)
+
+# After (option B: explicit unknown)
+origin: "unknown"
+```
+
+Option A preferred — the `origin` field is not read by the graph generator or any other script.
+
+## IDENTITY.md Update
+
+Add a new section documenting that visual traits are now part of the signal system at weight 1, below the existing hierarchy. The core principle — "traits are signals, not scripts" — remains unchanged. Visual traits extend the signal system without displacing the load-bearing/textural/modifier tiers.
+
+## Backward Compatibility
+
+| Aspect | Impact |
+|--------|--------|
+| Existing node IDs | Unchanged — `mibera:1`, `archetype:freetekno`, etc. all preserved |
+| Existing edge types | Unchanged — `has_archetype`, `has_drug`, etc. all preserved |
+| Existing node fields | `id`, `type`, `label` all preserved; `context` added (new field) |
+| Existing edge fields | `source`, `target`, `type` preserved; `weight` added (new field) |
+| metadata block | Existing fields preserved; `signal_weights` added |
+| Finn's KnowledgeGraphLoader | Reads nodes/edges by type — ignores unknown types. No code change needed. |
+
+## Technical Risks
+
+| Risk | Mitigation |
+|------|------------|
+| Slug mismatch | Build a validation pass that checks every mibera trait value resolves to a trait file. Log all failures. Run before generating edges. |
+| File size | Compact JSON (no pretty-print). If >25MB, consider: (a) truncate context to 500 chars, (b) separate context into sidecar file |
+| Generation time | Single-pass architecture. If >60s, parallelize file reads with concurrent.futures. |

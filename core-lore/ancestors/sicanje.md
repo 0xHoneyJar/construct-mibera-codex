@@ -7,7 +7,7 @@ locations: Bosnia, Croatia, Albania, Greece
 
 # Sicanje
 
-## Cultural Significance
+## Cultural Context
 
 **Figures Associated:**
 - Catholic Croat girls and women; it was a cultural and religious tradition for spiritual protection or identity. Some Albanian and Vlach women in the western Balkans also practiced it historically.

@@ -9,7 +9,7 @@ locations: USA
 
 > **1/1 Grail**: [Native American Grail (#3282)](../../grails/native-american.md)
 
-## Cultural Significance
+## Cultural Context
 
 **Figures Associated:**
 - Nokomis; a character in Longfellow's epic poem "The Song of Hiawatha" (1855), rooted in Anishinaabe (Ojibwe) oral traditions. Known as the "Daughter of the Moon," she is Hiawatha's wise grandmother who guides him through nature and life. Her name derives from the Anishinaabe word for "grandmother."

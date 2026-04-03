@@ -1,142 +1,185 @@
-# PRD: Trait Image Embedding — S3 Visual Layer
+# PRD: Full Trait Knowledge Graph
 
-**Cycle:** 019
-**Created:** 2026-03-25
+**Cycle:** 020
 **Status:** Draft
+**Created:** 2026-04-03
+
+---
 
 ## 1. Problem Statement
 
-The Mibera Codex has 1,487 trait/overlay/drug images available as `.webp` files, now hosted at `s3://mibera/traits/`. Currently:
+The Mibera Codex knowledge graph (`_codex/data/graph.json`) currently captures only 9 of 24 trait dimensions available on each Mibera. The existing graph includes the "identity signal" layer (archetype, ancestor, drug/molecule, tarot, element, era, sun sign, swag rank) but excludes all 15 visual trait dimensions (shirt, hat, item, glasses, earrings, mask, face accessory, tattoo, background, body, hair, eyes, eyebrows, mouth) and 2 astrological dimensions (moon sign, ascending sign).
 
-- 635 trait files reference an old object storage URL (`mibera.fsn1.your-objectstorage.com`)
-- 532 trait files have bare filenames (no URL) in their `image:` frontmatter
-- 78 trait files have no `image:` field at all
-- Drug files use bare filenames referencing `.PNG` extensions
-- **No images are visually displayed** in the markdown body — they're metadata-only in frontmatter
+This means downstream consumers — Finn's personality synthesis pipeline, codex navigation tools, and any future applications — cannot query trait-level relationships like "which Miberas wear the Free Palestine shirt" or "what items appear alongside the Freetekno archetype."
 
-The images exist. The hosting exists. But the codex doesn't show them.
+## 2. Vision
 
-## 2. Goal
+Every trait on every Mibera is queryable through the knowledge graph. The graph becomes the single compiled data structure for the entire codex relationship system — not just identity signals, but the complete trait fingerprint of all 10,000 Miberas.
 
-Embed S3-hosted images into every matching codex entry so that trait/drug/overlay pages display their art visually when viewed on GitHub or in Obsidian.
+## 3. Goals & Success Metrics
 
-### Success Criteria
+| Goal | Metric |
+|------|--------|
+| Complete trait coverage | All 24 mibera frontmatter fields represented as graph nodes + edges |
+| Every trait file is a node | 1,324 trait files → 1,324+ trait nodes (plus existing identity nodes) |
+| Zero YAML parsing errors | Fix the 5 broken molecule files; 0 warnings on generation |
+| Backward compatible | Existing node/edge types unchanged; new types additive only |
+| Finn-ready | graph.json loadable by KnowledgeGraphLoader without code changes |
 
-- Every image in `s3://mibera/traits/` is linked from its corresponding codex entry
-- Images render inline below the frontmatter on GitHub and in Obsidian
-- `image:` frontmatter field updated to the canonical S3 URL
-- No broken links, no orphaned references
+## 4. Signal Weighting
 
-## 3. Scope
+Per IDENTITY.md and project owner direction, not all signals carry equal weight. The graph should encode this hierarchy so consumers can filter by tier:
+
+| Tier | Weight | Signals |
+|------|--------|---------|
+| **Load-bearing** | 3 | Archetype, Ancestor, Birthday/Era |
+| **Textural** | 2 | Drug/Molecule, Tarot, Element |
+| **Modifier** | 1.5 | Swag Rank, Sun Sign, Moon Sign, Ascending Sign |
+| **Visual** | 1 | Shirt, Hat, Item, Glasses, Earrings, Mask, Face Accessory, Tattoo, Background, Body, Hair, Eyes, Eyebrows, Mouth |
+
+Weights are metadata on edge types, not filtering logic. Consumers decide how to use them. The non-visual signals should always be weighted more highly than visual ones.
+
+## 5. Scope
 
 ### In Scope
 
-| Category | Image Count | Destination |
-|----------|-------------|-------------|
-| Direct trait matches | 466 | `traits/` subdirectories |
-| SS-prefixed trait variants | 813 | `traits/` subdirectories (map to base trait) |
-| Archetype+ancestor+drug combos | 79 | `traits/overlays/molecules/` |
-| Astrology layers (Sun/Moon/Rising) | 36 | `traits/overlays/astrology/` |
-| Ranking letters (A-SSS) | 8 | `traits/overlays/ranking/` |
-| Element overlays | 4 | `traits/overlays/elements/` |
-| Era+ancestor tattoo images | 35 | `traits/character-traits/tattoos/` |
-| Archetype+glasses combos | 34 | `traits/accessories/glasses/` |
-| Overlay variants (`_overlay`) | 4 | **Deferred** — need compositing with body template |
-| Misc identifiable | 4 | Various |
-| **Total mapped** | **~1,483** | |
+**New node types** (15):
+- `shirt` — 187 nodes (short-sleeves + long-sleeves + simple-shirts)
+- `hat` — 126 nodes
+- `item` — 357 nodes (general-items + bong-bears)
+- `glasses` — 37 nodes
+- `earrings` — 62 nodes
+- `mask` — 31 nodes
+- `face_accessory` — 42 nodes
+- `tattoo` — 44 nodes
+- `background` — 73 nodes
+- `body` — 12 nodes
+- `hair` — 129 nodes
+- `eyes` — 90 nodes
+- `eyebrows` — 10 nodes
+- `mouth` — 21 nodes
+- `moon_sign` / `ascending_sign` — reuse existing `zodiac` node type with new edge types
+
+**New edge types** (16):
+- `has_shirt`, `has_hat`, `has_item`, `has_glasses`, `has_earrings`, `has_mask`, `has_face_accessory`, `has_tattoo`, `has_background`, `has_body`, `has_hair`, `has_eyes`, `has_eyebrows`, `has_mouth` — Mibera → Trait
+- `has_moon_sign`, `has_ascending_sign` — Mibera → Zodiac
+
+**Documentation updates:**
+- Update IDENTITY.md to reflect the full signal hierarchy including visual traits and weights
+- Update CLAUDE.md if any lookup patterns or directory references change
+
+**Bug fixes:**
+- Fix 5 molecule files with `origin: '---'` YAML issue
 
 ### Out of Scope
 
-- 3 `IMG_` files (unidentified camera photos — need manual ID from artist)
-- Creating new `.md` files for the ~57 images with no codex entry (separate cycle)
-- Migrating away from S3 (this establishes S3 as the canonical image host)
+- Modifying Finn's personality pipeline code (separate repo)
+- Trait-to-trait relationship edges (e.g., shirt↔archetype correlations) — future cycle
 
-### Key Decision: Image Semantics (from artist clarification)
+## 6. Functional Requirements
 
-The naming convention encodes distinct semantic roles:
+### FR-1: Expand generate-graph.py
 
-- **No-SS prefix combos** (`archetype_ancestor_drug.webp`) = **molecule overlay** — the drug's visual effect layer. Maps to `traits/overlays/molecules/{drug}.md`.
-- **SS-prefixed combos** (`SS{N}_archetype_era_ancestor_name.webp`) = **held items / accessories / clothing** — physical objects the Mibera carries or wears. Maps to `traits/` entries.
-- **`_overlay` suffix images** = overlay layers that need compositing with a body template. **Deferred** to a future cycle.
-- **Astrology images** (`Sun/Moon/Rising {Sign}.webp`) = three **separate trait categories** (Sun Sign, Moon Sign, Rising Sign), NOT variants of one trait. Each maps to its own file.
+The script must:
+1. Load trait files from all 15 visual trait directories
+2. Create nodes with `type`, `name`, `slug`, `category`, optional `image`, `swag_score`, `archetype`, and `context`
+3. Extract the Cultural Context section from each trait file's markdown body and embed it in the node's `context` field
+4. Map mibera frontmatter field values to trait node slugs
+5. Create typed edges from each mibera to its visual traits
+6. Handle null/None trait values (hat, mask, earrings, tattoo, face_accessory, glasses can be null)
+7. Include `weight` metadata on each edge type per the signal hierarchy
 
-### Key Decision: One Image Per Entry
+### FR-2: Embed Cultural Context in All Nodes
 
-Each codex entry gets exactly one primary image displayed. No "variants" sections — the SS-prefixed and non-SS images map to *different* codex entries (held item vs molecule overlay). Astrology layers map to separate files.
+Every node in the graph — both existing identity signal nodes and new visual trait nodes — should carry a `context` field containing the Cultural Context section from its source markdown file. This makes the full cultural grounding available to consumers without requiring them to read individual files at runtime.
 
-### Key Decision: URL Format
-
-All `image:` frontmatter fields and inline markdown images will use the full S3 URL:
-```
-https://mibera.s3.amazonaws.com/traits/{filename}.webp
-```
-
-This replaces both the old object storage URLs and bare filenames.
-
-### Key Decision: Filename Encoding
-
-S3 URLs with spaces need URL encoding (spaces → `%20`). The embed script must handle this for filenames like `Keith Haring Shirt.webp`.
-
-## 4. Image Display Format
-
-Below the frontmatter (after the closing `---`), before any existing content:
-
-```markdown
----
-name: Funky
-image: "https://mibera.s3.amazonaws.com/traits/Funky.webp"
-...
----
-
-<div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/Funky.webp" alt="Funky" width="320" />
-</div>
-
-# Funky
-...
+**For new visual trait nodes:**
+```json
+{
+  "id": "shirt:free-palestine",
+  "type": "shirt",
+  "name": "Free Palestine",
+  "slug": "free-palestine",
+  "category": "clothing/short-sleeves",
+  "image": "https://...",
+  "swag_score": 2,
+  "context": "\"Free Palestine\" is one of the most recognized slogans of the Palestinian solidarity movement..."
+}
 ```
 
-For multi-image entries (e.g., astrology with 3 layers):
+**For existing identity signal nodes** (archetype, ancestor, drug, tarot, etc.):
+Backfill `context` from their respective source files (e.g., `core-lore/ancestors/greek.md`, `traits/overlays/molecules/dmt.md`).
 
-```markdown
-<div align="center">
-  <img src=".../Sun%20Aries.webp" alt="Sun Aries" width="200" />
-  <img src=".../Moon%20Aries.webp" alt="Moon Aries" width="200" />
-  <img src=".../Rising%20Aries.webp" alt="Rising Aries" width="200" />
-</div>
+Node IDs are namespaced by type to avoid collisions (e.g., `shirt:free-palestine` vs `hat:free-palestine`).
+
+Nodes with no Cultural Context section get `"context": null`.
+
+### FR-3: Edge Weight Metadata
+
+Each edge type carries a `weight` field:
+```json
+{
+  "source": "mibera:0001",
+  "target": "shirt:htrk-night-faces",
+  "type": "has_shirt",
+  "weight": 1
+}
 ```
 
-## 5. Image-to-File Mapping Rules
+### FR-4: Moon Sign & Ascending Sign
 
-| Image Pattern | Maps To | Rule |
-|---------------|---------|------|
-| `{Name}.webp` | `traits/{subcat}/{slug}.md` | Slugify name, find in manifest |
-| `SS{N}_{archetype}_{Name}.webp` | `traits/{subcat}/{slug}.md` | Strip SS prefix + archetype, slugify remainder |
-| `SS{N}_{Name}.webp` | `traits/{subcat}/{slug}.md` | Strip SS prefix, slugify remainder |
-| `{arch}_{ancestor}_{drug}.webp` | `traits/overlays/molecules/{drug-slug}.md` | Molecule overlay — last component is drug name |
-| `SS{N}_{arch}_{era}_{ancestor}_{Name}.webp` | `traits/{subcat}/{slug}.md` | Held item/accessory — last component is trait name |
-| `SS5_bongbear_{Name}.webp` | `traits/items/bong-bears/{slug}.md` | Strip prefix |
-| `SS5_cypherpunk_{Name}.webp` | `traits/items/general-items/{slug}.md` | Strip prefix |
-| `{era}_{ancestor}_{Tattoo}.webp` | `traits/character-traits/tattoos/{slug}.md` | Last component is tattoo name |
-| `{arch}_{Glasses}.webp` | `traits/accessories/glasses/{slug}.md` | Last component is glasses name |
-| `Sun/Moon/Rising {Sign}.webp` | `traits/overlays/astrology/{sign}.md` | All 3 layers displayed on same sign file (current structure: 12 files, not split by layer) |
-| `{Letter}.webp` (A-SSS) | `traits/overlays/ranking/{letter}.md` | Direct match |
-| `Air/Earth/Fire/Water.webp` | `traits/overlays/elements/{el}.md` | Direct match |
-| `{name}_overlay.webp` | **Deferred** | Needs compositing with body template |
+Read `moon_sign` and `ascending_sign` from mibera frontmatter. Create edges to existing zodiac nodes (no new node type needed):
+- `has_moon_sign` — Mibera → Zodiac (weight: 1.5)
+- `has_ascending_sign` — Mibera → Zodiac (weight: 1.5)
 
-## 6. Risks
+### FR-5: Fix Molecule YAML Errors
 
-| Risk | Mitigation |
-|------|------------|
-| GitHub camo proxy 5MB limit | WebP files are small (~50-200KB each) — no risk |
-| Broken S3 URLs | Validate all URLs return 200 before embedding |
-| Filename encoding issues | URL-encode spaces and special chars |
-| Backlink markers disrupted | Insert image ABOVE any existing content, BELOW frontmatter |
-| Wrong trait matched | Use manifest.json for authoritative slug→file mapping |
+The 5 files with `origin: '---'` must be fixed so generate-graph.py parses all 78 molecules with zero warnings:
+- `traits/overlays/molecules/ancestral-trance.md`
+- `traits/overlays/molecules/euphoria.md`
+- `traits/overlays/molecules/sober.md`
+- `traits/overlays/molecules/st-johns-wort.md`
+- `traits/overlays/molecules/weed.md`
 
-## 7. Non-Goals
+### FR-6: Validation
 
-- Resizing or optimizing images (they're already webp)
-- Creating a CDN/CloudFront layer (direct S3 is fine for now)
-- Building an image pipeline or automation (one-time batch operation)
-- Updating the graph.json or miberas.jsonl exports (no schema change needed)
+The script's existing validation must be extended:
+- All new edge references must resolve to valid nodes
+- No orphan trait nodes (every trait node must have at least 1 mibera edge)
+- Mibera node count remains exactly 10,000
+- Report total nodes, edges, and per-type counts
+
+## 7. Non-Functional Requirements
+
+| Requirement | Target |
+|-------------|--------|
+| Graph size | < 25 MB (currently 5.4 MB; context embedding adds ~5-8 MB) |
+| Generation time | < 60 seconds |
+| Backward compatibility | All existing node/edge types unchanged |
+| Zero warnings | No YAML parse errors |
+
+## 8. Estimated Impact
+
+| Metric | Before | After |
+|--------|--------|-------|
+| Node types | 9 | 23 (+14 visual trait types) |
+| Edge types | 11 | 27 (+16 new) |
+| Total nodes | ~10,237 | ~11,561 (+1,324 trait nodes) |
+| Total edges | ~70,302 | ~190,000+ (each mibera gains ~12 new edges) |
+| File size | 5.4 MB | ~18-22 MB estimated (includes embedded context) |
+
+## 9. Risks
+
+| Risk | Likelihood | Impact | Mitigation |
+|------|-----------|--------|------------|
+| Graph file too large for consumers | Low | Medium | Monitor size; compress if >25MB |
+| Slug mismatch between mibera frontmatter and trait filenames | Medium | High | Build mapping table; validate exhaustively |
+| Null trait values create noise | Low | Low | Skip null fields; don't create edges for missing traits |
+| Trait name normalization issues | Medium | Medium | Reuse existing slugify function; test against all 10K miberas |
+
+## 10. Dependencies
+
+- `_codex/scripts/generate-graph.py` — primary modification target
+- `miberas/*.md` — source of trait assignments (read-only)
+- `traits/**/*.md` — source of trait metadata (read-only)
+- `traits/overlays/molecules/*.md` — 5 files need YAML fix

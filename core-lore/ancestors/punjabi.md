@@ -7,7 +7,7 @@ locations: Punjab (India and Pakistan), diaspora communities in UK, Canada, USA
 
 # Punjabi
 
-## Cultural Significance
+## Cultural Context
 
 **Figures Associated:**
 - Yung Singh; British-Punjabi DJ pioneering the "Punjabi Garage" sound, blending UK soundsystem culture with bhangra, grime, and hip-hop. His Shuffle 'N' Swing mix became a landmark in South Asian diaspora music.

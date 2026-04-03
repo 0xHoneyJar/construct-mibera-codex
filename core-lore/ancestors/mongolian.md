@@ -9,7 +9,7 @@ locations: Mongolia, Central Asia, Siberia
 
 > **1/1 Grail**: [Mongolian Grail (#507)](../../grails/mongolian.md)
 
-## Cultural Significance
+## Cultural Context
 
 **Figures Associated:**
 - Genghis Khan; founder of the Mongol Empire, the largest contiguous land empire in history. Beyond conquest, he established religious tolerance, meritocratic governance, and the Silk Road trade networks that connected East and West.

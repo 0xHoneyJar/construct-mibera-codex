@@ -3,7 +3,7 @@
   "cycles": [
     {
       "id": "cycle-001",
-      "label": "Codex Foundation — Structural Audit & Agent Navigation",
+      "label": "Codex Foundation \u2014 Structural Audit & Agent Navigation",
       "status": "archived",
       "created": "2026-02-15",
       "archived": "2026-02-15",
@@ -150,7 +150,7 @@
     },
     {
       "id": "cycle-007",
-      "label": "Mibera Grails — 1/1 Collection Integration",
+      "label": "Mibera Grails \u2014 1/1 Collection Integration",
       "status": "archived",
       "created": "2026-02-17",
       "archived": "2026-02-17",
@@ -197,7 +197,7 @@
     },
     {
       "id": "cycle-009",
-      "label": "NOBUTTERZONE — Agent Navigation Surface",
+      "label": "NOBUTTERZONE \u2014 Agent Navigation Surface",
       "status": "archived",
       "created": "2026-02-18",
       "archived": "2026-02-18",
@@ -271,7 +271,7 @@
     },
     {
       "id": "cycle-012",
-      "label": "Schema Meta Blocks — Field-Level Confidence",
+      "label": "Schema Meta Blocks \u2014 Field-Level Confidence",
       "status": "archived",
       "created": "2026-02-18",
       "archived": "2026-02-18",
@@ -291,7 +291,7 @@
     },
     {
       "id": "cycle-013",
-      "label": "Fractures — Reveal Phase Documentation",
+      "label": "Fractures \u2014 Reveal Phase Documentation",
       "status": "archived",
       "created": "2026-02-18",
       "archived": "2026-02-18",
@@ -311,7 +311,7 @@
     },
     {
       "id": "cycle-014",
-      "label": "Agent Surface — BUTTERFREEZONE, CLAUDE.md & Ground Truth",
+      "label": "Agent Surface \u2014 BUTTERFREEZONE, CLAUDE.md & Ground Truth",
       "status": "archived",
       "created": "2026-02-18",
       "archived": "2026-02-20",
@@ -338,7 +338,7 @@
     },
     {
       "id": "cycle-015",
-      "label": "Mibera Sets — Individual Token Entries",
+      "label": "Mibera Sets \u2014 Individual Token Entries",
       "status": "archived",
       "created": "2026-02-20",
       "archived": "2026-02-22",
@@ -355,10 +355,10 @@
         }
       ],
       "sprint_count": 1
-    }
-    ,{
+    },
+    {
       "id": "cycle-016",
-      "label": "Trait Enrichment — Cultural Context at Scale",
+      "label": "Trait Enrichment \u2014 Cultural Context at Scale",
       "status": "archived",
       "created": "2026-02-22",
       "archived": "2026-02-24",
@@ -406,7 +406,7 @@
     },
     {
       "id": "cycle-017",
-      "label": "Reveal Timeline — Per-Mibera Fracture Images",
+      "label": "Reveal Timeline \u2014 Per-Mibera Fracture Images",
       "status": "archived",
       "created": "2026-02-24",
       "archived": "2026-03-05",
@@ -423,10 +423,10 @@
         }
       ],
       "sprint_count": 1
-    }
-    ,{
+    },
+    {
       "id": "cycle-018",
-      "label": "Mibera Oracle — The Five Books",
+      "label": "Mibera Oracle \u2014 The Five Books",
       "status": "archived",
       "created": "2026-03-05",
       "archived": "2026-03-25",
@@ -450,13 +450,13 @@
         }
       ],
       "sprint_count": 2
-    }
-  ,{
+    },
+    {
       "id": "cycle-019",
-      "label": "Trait Image Embedding — S3 Visual Layer",
-      "status": "active",
+      "label": "Trait Image Embedding \u2014 S3 Visual Layer",
+      "status": "archived",
       "created": "2026-03-25",
-      "archived": null,
+      "archived": "2026-04-03",
       "prd": "grimoires/loa/prd.md",
       "sdd": "grimoires/loa/sdd.md",
       "sprint_plan": "grimoires/loa/sprint.md",
@@ -477,6 +477,16 @@
         }
       ],
       "sprint_count": 2
+    },
+    {
+      "id": "cycle-020",
+      "label": "Full Trait Knowledge Graph \u2014 Visual Traits in graph.json",
+      "status": "active",
+      "created": "2026-04-03",
+      "prd": "grimoires/loa/prd.md",
+      "sdd": "grimoires/loa/sdd.md",
+      "sprint_plan": "grimoires/loa/sprint.md",
+      "sprints": []
     }
   ],
   "active_cycle": "cycle-019",

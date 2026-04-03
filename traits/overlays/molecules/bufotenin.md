@@ -5,7 +5,7 @@ compound: "Bufotenin"
 era: Ancient
 origin: Central & South America
 archetype: Acidhouse
-ancestor: Native Americans
+ancestor: Native American
 swag_score: 1
 image: "https://mibera.s3.amazonaws.com/traits/acidhouse_nativeAmerican_bufotenin.webp"
 date_added: "2025-01-12"

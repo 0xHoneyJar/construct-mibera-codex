@@ -9,7 +9,7 @@ locations: Japan
 
 > **1/1 Grail**: [Japanese Grail (#4363)](../../grails/japanese.md)
 
-## Cultural Significance
+## Cultural Context
 
 **Figures Associated:**
 - Sharaku; mysterious ukiyo-e print designer active only from 1794-1795, renowned for psychologically intense portraits of kabuki actors. His true identity remains unknown, and his unflattering, realistic style was initially rejected but is now considered masterful.

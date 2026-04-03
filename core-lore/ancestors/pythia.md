@@ -7,7 +7,7 @@ locations: Delphi (Greece), Mount Parnassus
 
 # Pythia
 
-## Cultural Significance
+## Cultural Context
 
 **Figures Associated:**
 - Pythia (the Oracle of Delphi); regarded as Apollo's mouthpiece, she delivered prophecies influencing major Greek decisions from politics to personal matters. Selected from local women, the Pythia underwent purification rituals and possibly chewed laurel leaves to enter trance states. Her role blended spiritual, cultural, and political significance.

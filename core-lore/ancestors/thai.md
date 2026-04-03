@@ -7,7 +7,7 @@ locations: Thailand, Southeast Asia
 
 # Thai
 
-## Cultural Significance
+## Cultural Context
 
 **Figures Associated:**
 - Paradorn Srichaphan; pioneering Thai tennis player who broke into the world top 10 in the early 2000s, inspiring a generation of Southeast Asian athletes and representing Thai excellence on the global stage.

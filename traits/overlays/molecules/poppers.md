@@ -5,7 +5,7 @@ compound: "Amyl Nitrite"
 era: Modern
 origin: France
 archetype: Chicago Detroit
-ancestor: '**Swag Score:** 3'
+ancestor: Stonewall
 swag_score: 4
 image: "https://mibera.s3.amazonaws.com/traits/chicagodetroit_stonewall_poppers.webp"
 date_added: "2025-01-12"

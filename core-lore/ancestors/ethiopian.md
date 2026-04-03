@@ -9,7 +9,7 @@ locations: Ethiopia
 
 > **1/1 Grail**: [Ethiopian Grail (#7702)](../../grails/ethiopian.md)
 
-## Cultural Significance
+## Cultural Context
 
 **Figures Associated:**
 - Endeguena Mulu (Ethiopian Records); Addis Ababa-based producer who has reshaped African electronic music over two decades. He favors live recordings of traditional Ethiopian instruments like the kebero, blending improvisational elements with off-kilter rhythms inspired by Ethiopian traditions.

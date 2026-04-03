@@ -9,7 +9,7 @@ locations: Greece, Mediterranean
 
 > **1/1 Grail**: [Greek Grail (#1630)](../../grails/greek.md)
 
-## Cultural Significance
+## Cultural Context
 
 **Figures Associated:**
 - Pythia (the Oracle of Delphi); regarded as Apollo's mouthpiece, she delivered prophecies influencing major Greek decisions. Selected from local women, the Pythia underwent purification rituals and possibly chewed laurel leaves to enter trance states.

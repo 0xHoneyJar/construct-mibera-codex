@@ -9,7 +9,7 @@ locations: The first Church of Satan (California, USA)
 
 > **1/1 Grail**: [Satanist Grail (#8557)](../../grails/satanist.md)
 
-## Cultural Significance
+## Cultural Context
 
 **Figures Associated:**
 - Jayne Mansfield; Hollywood actress rumored in the documentary "Mansfield 66/67" to have connections to Anton LaVey, with speculation that a satanic curse caused her 1967 car crash death.

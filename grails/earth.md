@@ -16,7 +16,7 @@ description: "Green life tones with grounded hair and textured figure"
 
 Green-dominated palette. The figure's hair extends downward as though rooted into the ground. A point of light in the chest connects the figure to the sun — earth receiving light and converting it to life.
 
-## Justification
+## Cultural Context
 
 Earth corresponds to the northwest quadrant (North America, Western Europe, parts of Africa) and the qualities of stability, grounding, physical form, and abundance. Of the four elements, Earth is the most material — it's the ground that the other three act upon.
 

@@ -7,7 +7,7 @@ locations: Central Africa
 
 # Gabon
 
-## Cultural Significance
+## Cultural Context
 
 **Figures Associated:**
 - The Bantu peoples; a diverse group of over 400 ethnic groups across Central, East, and Southern Africa, united by their use of Bantu languages.

@@ -5,7 +5,7 @@ compound: "3,4-Methylenedioxyamphetamine"
 era: Modern
 origin: Germany
 archetype: Milady
-ancestor: Native Americans
+ancestor: Native American
 swag_score: 2
 image: "https://mibera.s3.amazonaws.com/traits/milady_nativeAmerican_MDA.webp"
 date_added: "2025-01-12"

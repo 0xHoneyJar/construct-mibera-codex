@@ -40,6 +40,16 @@ Not all signals carry equal weight. Some shape the skeleton of identity; others 
 7. **Swag Rank** — your presence, your charisma, how you carry the rest
 8. **Astrology** — emotional and energetic coloring
 
+**Visual signals** — these are what you wear, hold, and look like:
+9. **Shirt** — what's on your chest says something
+10. **Hat / Glasses / Mask / Earrings / Face Accessory** — how you present
+11. **Item** — what you carry
+12. **Tattoo** — what's marked on your skin
+13. **Background** — where you stand
+14. **Body / Hair / Eyes / Eyebrows / Mouth** — your physical form
+
+Visual signals carry less weight than identity signals, but they still matter. A Mibera wearing a Free Palestine shirt, holding an Anarchist Cookbook, with a Spiral Tribe tattoo — that's signal. It doesn't define worldview the way archetype and ancestor do, but it shades the picture.
+
 When signals conflict, the load-bearing ones win. A Freetekno Mibera with a Fire element is still fundamentally Freetekno — the fire just changes *how* that freetekno energy burns.
 
 ---

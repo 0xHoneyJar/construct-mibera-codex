@@ -25,7 +25,7 @@ Each Archetype represents a distinct rave movement, era, and aesthetic. Miberas 
 **Zodiac Signs:** Cancer, Leo, Virgo (Summer)
 **Locations:** Castlemorton (UK), London, Stonehenge, Amnesia and Pacha (Ibiza), Tonka at The Zap (Brighton)
 
-### Cultural Significance
+### Cultural Context
 
 **Key Figures:**
 - **Spiral Tribe** — Pioneering UK arts collective and nomadic sound system formed in 1990, blending hardcore techno, acid house, and breakbeat with New Age traveller and pagan influences
@@ -68,7 +68,7 @@ Each Archetype represents a distinct rave movement, era, and aesthetic. Miberas 
 **Zodiac Signs:** Capricorn, Aquarius, Pisces (Winter)
 **Key Influences:** Remilia, Charlotte Fang, Network Spirituality
 
-### Cultural Significance
+### Cultural Context
 
 **Key Figures:**
 - **Grimes** — Canadian musician known for eclectic blend of dream pop, synth-pop, and experimental styles with sci-fi and feminist themes
@@ -103,13 +103,13 @@ Each Archetype represents a distinct rave movement, era, and aesthetic. Miberas 
 
 ---
 
-## Chicago Detroit
+## Chicago/Detroit
 
 **Time Period:** Early 80s
 **Zodiac Signs:** Aries, Taurus, Gemini (Spring)
 **Locations:** The Warehouse (Chicago), Music Box (Chicago), Abandoned Ford Factory (Michigan)
 
-### Cultural Significance
+### Cultural Context
 
 **Key Figures:**
 - **Ron Hardy** — Pioneering Chicago DJ, resident at the Music Box, instrumental in shaping house music through high-energy mixing and reel-to-reel edits
@@ -158,7 +158,7 @@ Chicago Detroit features extensive bong representation: Normal Bong, Colorful Bo
 **Zodiac Signs:** Libra, Scorpio, Sagittarius (Fall)
 **Locations:** Shoom (London)
 
-### Cultural Significance
+### Cultural Context
 
 **Key Figures:**
 - **The Grateful Dead** — American rock band formed in 1965, pioneers of jam band culture and communal psychedelic experiences

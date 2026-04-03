@@ -7,7 +7,7 @@ locations: Nepal, Kathmandu Valley, Himalayas
 
 # Nepal
 
-## Cultural Significance
+## Cultural Context
 
 **Figures Associated:**
 - Tenzing Norgay; Sherpa mountaineer who, alongside Edmund Hillary, became the first to summit Mount Everest in 1953. A symbol of Himalayan resilience and the Sherpa people's extraordinary high-altitude abilities.

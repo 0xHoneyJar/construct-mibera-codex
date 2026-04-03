@@ -5,7 +5,7 @@ compound: "Caffeine"
 era: Ancient
 origin: China
 archetype: Milady
-ancestor: Chinese, japanese
+ancestor: Chinese, Japanese
 swag_score: 4
 image: "https://mibera.s3.amazonaws.com/traits/milady_chinese_japanese_tea.webp"
 date_added: "2025-01-12"

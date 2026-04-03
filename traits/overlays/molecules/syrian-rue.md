@@ -5,7 +5,7 @@ compound: "Harmaline"
 era: Ancient
 origin: Persia, India
 archetype: Freetekno
-ancestor: Sufi
+ancestor: Sufis
 swag_score: 4
 image: "https://mibera.s3.amazonaws.com/traits/freetekno_sufi_syrian%20rue.webp"
 date_added: "2025-01-12"

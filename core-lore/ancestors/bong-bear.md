@@ -7,7 +7,7 @@ locations: Ethereum blockchain, Berachain L1, digital realm
 
 # Bong Bear
 
-## Cultural Significance
+## Cultural Context
 
 **Figures Associated:**
 - Smokey The Bera & Papa Bear; two pseudonymous OlympusDAO community members who created the original Bong Bears collection in 2021. What began as 107 NFTs of bears smoking bongs (priced at 0.069420 ETH) evolved into Berachain — a novel L1 blockchain that raised $142 million from investors including Polychain Capital and Framework Ventures.
