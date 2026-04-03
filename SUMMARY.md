@@ -60,7 +60,7 @@
 * [**Swag Scoring — Formula, Methods & All Trait Scores**](swag-scoring/README.md)
   * [Trait Score Lookup](swag-scoring/trait-scores.md)
 * [Ranking Tiers](traits/overlays/ranking/README.md)
-* [Molecules](traits/overlays/molecules.md)
+* [Molecules](traits/overlays/molecules/README.md)
 
 ### Vending Machine Exclusives
 * [Mibera Shadows Vending Machine](vending-machine/README.md) — 102 exclusive traits not in the generative 10K

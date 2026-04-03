@@ -15,7 +15,7 @@ Miladies' first taste of certainty is unveiled in this stage. The scene is clear
 ### What's Revealed
 
 - Full background scene
-- [Molecule](../traits/overlays/molecules.md) placed in the upper left corner
+- [Molecule](../traits/overlays/molecules/README.md) placed in the upper left corner
 - Mibera silhouette — a shadow of the final form
 
 ---
