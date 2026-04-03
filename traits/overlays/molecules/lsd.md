@@ -5,7 +5,7 @@ compound: "Lysergide"
 era: Modern
 origin: Switzerland
 archetype: Freetekno
-ancestor: Aboriginals, Haitians
+ancestor: Aboriginal, Haitian
 swag_score: 1
 image: "https://mibera.s3.amazonaws.com/traits/freetekno_aboriginals_haitians_LSD.webp"
 date_added: "2025-01-12"

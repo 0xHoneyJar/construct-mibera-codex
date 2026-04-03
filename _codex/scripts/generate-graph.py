@@ -369,9 +369,14 @@ def main():
 
         anc = d.get("ancestor", "")
         if anc:
-            anc_id = f"ancestor:{slugify(anc)}"
-            add_node(anc_id, "ancestor", anc)
-            add_edge(drug_id, anc_id, "drug_ancestor")
+            # Split comma-separated ancestors into individual edges
+            for a in str(anc).split(","):
+                a = a.strip()
+                if not a:
+                    continue
+                anc_id = f"ancestor:{slugify(a)}"
+                add_node(anc_id, "ancestor", a)
+                add_edge(drug_id, anc_id, "drug_ancestor")
 
     # ── Backfill context on ancestors ────────────────────────────────
     print("Backfilling context on ancestor nodes...")

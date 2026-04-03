@@ -4,7 +4,7 @@ molecule: C20H25N3O
 compound: "Lysergide"
 era: Ancient
 archetype: Freetekno
-ancestor: Orthodox Jews, Aboriginal, Haitians
+ancestor: Orthodox Jew, Aboriginal, Haitian
 swag_score: 3
 image: "https://mibera.s3.amazonaws.com/traits/freetekno_orthodoxJews_aboriginal_haitians_ancestral%20trance.webp"
 date_added: "2025-01-12"

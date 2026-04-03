@@ -5,7 +5,7 @@ compound: "Mephedrone"
 era: Modern
 origin: France
 archetype: Freetekno
-ancestor: Ethiopians
+ancestor: Ethiopian
 swag_score: 1
 image: "https://mibera.s3.amazonaws.com/traits/freetekno_ethiopians_M-CAT.webp"
 date_added: "2025-01-12"

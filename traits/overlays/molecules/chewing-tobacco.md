@@ -5,7 +5,7 @@ compound: "Nicotine"
 era: Modern
 origin: Americas
 archetype: Chicago Detroit
-ancestor: Native americans, Hindu
+ancestor: Native American, Hindu
 swag_score: 1
 image: "https://mibera.s3.amazonaws.com/traits/chicagodetroit_hindu_nativeAmerican_chewing%20tobacco.webp"
 date_added: "2025-01-12"
