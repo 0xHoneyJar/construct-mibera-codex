@@ -51,7 +51,7 @@
 - ~~No semantic validation~~ → `audit-semantic.py` with 8 cross-reference checks
 - ~~No backlinks on entity files~~ → 188 files with `@generated:backlinks` sections
 - ~~No LLM full context file~~ → `llms-full.txt` (534KB, 117 sections)
-- ~~No community infrastructure~~ → `CODEOWNERS`
+- ~~No community infrastructure~~ → deferred (not needed for single-maintainer repo)
 
 ### Resolved in Cycle 004
 
