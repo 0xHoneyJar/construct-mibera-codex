@@ -1,9 +1,9 @@
-<!-- generated: 2026-02-18T04:15:12Z by _codex/scripts/generate-stats.py -->
+<!-- generated: 2026-04-06T01:05:26Z by _codex/scripts/generate-stats.py -->
 
 # Mibera Codex — Statistics
 
 *Generated from 10,000 Mibera YAML frontmatter entries.*
-*Last generated: 2026-02-18*
+*Last generated: 2026-04-06*
 
 ---
 

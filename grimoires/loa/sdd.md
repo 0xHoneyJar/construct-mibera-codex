@@ -1,270 +1,136 @@
-# SDD: Full Trait Knowledge Graph
+# SDD: Codex Quality, Maintenance & Future-Proofing
 
-**Cycle:** 020
-**Created:** 2026-04-03
+**Cycle:** 021
+**Status:** Draft
+**Created:** 2026-04-05
 
-## Architecture
+---
 
-Single-script expansion of the existing `_codex/scripts/generate-graph.py`. No new files, no new dependencies. The script already uses stdlib + PyYAML and follows the codex convention of regex YAML parsing — PyYAML is the one exception, already present.
+## 1. Executive Summary
 
-The change is purely additive: new trait directories loaded, new node types created, new edge types emitted. Existing node/edge structures are unchanged.
+This is a maintenance cycle operating entirely on a markdown knowledge base — no application code, APIs, or deployment infrastructure. The "architecture" is file operations, script fixes, and content edits. The SDD defines: what to fix, in what order, with what approach, and how to validate each fix.
 
-## Component Design
+## 2. Work Categories
 
-### 1. Trait Directory Registry
+### Category A: Audit Script Fix (prerequisite — everything else depends on clean audits)
 
-A configuration mapping from mibera frontmatter field names to trait file directories. This is the core lookup table the script uses to resolve a mibera's trait values to trait file nodes.
+**Problem:** `audit-structure.sh` reports 50 false positive errors for Miberas #0002 and #0219. Both files have complete frontmatter and markdown tables. The script checks for `^| $field |` (single-space padding) via `grep -rL`, but these two files likely have a formatting edge case (different column width, invisible characters, or encoding).
 
-```python
-TRAIT_DIRS = {
-    # field_name: (node_type, [directories], weight)
-    "shirt":          ("shirt",          ["traits/clothing/short-sleeves", "traits/clothing/long-sleeves", "traits/clothing/simple-shirts"], 1),
-    "hat":            ("hat",            ["traits/accessories/hats"], 1),
-    "item":           ("item",           ["traits/items/general-items", "traits/items/bong-bears"], 1),
-    "glasses":        ("glasses",        ["traits/accessories/glasses"], 1),
-    "earrings":       ("earrings",       ["traits/accessories/earrings"], 1),
-    "mask":           ("mask",           ["traits/accessories/masks"], 1),
-    "face_accessory": ("face_accessory", ["traits/accessories/face-accessories"], 1),
-    "tattoo":         ("tattoo",         ["traits/character-traits/tattoos"], 1),
-    "background":     ("background",     ["traits/backgrounds"], 1),
-    "body":           ("body",           ["traits/character-traits/body"], 1),
-    "hair":           ("hair",           ["traits/character-traits/hair"], 1),
-    "eyes":           ("eyes",           ["traits/character-traits/eyes"], 1),
-    "eyebrows":       ("eyebrows",       ["traits/character-traits/eyebrows"], 1),
-    "mouth":          ("mouth",          ["traits/character-traits/mouth"], 1),
-}
+**Approach:**
+1. Diff the raw bytes of `miberas/0002.md` vs a known-passing file (e.g., `miberas/0001.md`) to identify the table formatting difference
+2. Fix the 2 mibera files if they have genuinely different formatting, OR fix the grep pattern if the regex is too strict
+3. Goal: audit reports 0 mibera errors
+
+### Category B: Structural Fixes (real errors remaining after audit fix)
+
+| Fix | Approach |
+|-----|----------|
+| 5 molecule files missing `origin` | These are conceptual drugs (Ancestral Trance, Euphoria, Sober) and plants (St. John's Wort, Weed) where `origin` doesn't cleanly apply. Remove `origin` from these 5 files' schema expectation, OR add `origin: null` to silence the audit. Recommend: add `origin: null` since the field exists on all other molecules. |
+| Buddhist ancestor missing `locations` | Read the file, add appropriate `locations` array based on Buddhist cultural geography (India, Southeast Asia, East Asia, Tibet). |
+
+### Category C: Meta File Reconciliation
+
+All count/description fixes in one pass. Sources of truth: actual file counts on disk.
+
+| File | Fixes Needed |
+|------|-------------|
+| `manifest.json` | birthday_eras: 11→10; special_collections: 32→33; earrings: 62→63; trait total: recalculate from subcategory sum; oracle description: remove "three internal voices" reference; update all `last_verified` dates |
+| `scope.json` | birthday_eras: 11→10; special_collections: 32→33 |
+| `llms.txt` | grails: 42→43; add graph.json to data exports; add mibera-sets, vending-machine, fractures mentions; general refresh |
+| `SUMMARY.md` | grails.jsonl: 42→43; graph.json stats: update node/edge counts to current (11,475/192,707) |
+| `_codex/schema/README.md` | drug count: 79→78; ancestor count: 32→33 |
+| `_codex/schema/mibera.schema.json` | Add `F` to swag_rank enum; verify if `Ss`/`Sss` should be in enum (check frontmatter values) |
+| `browse/README.md` | Verify era count matches (should say 10) |
+
+**Validation:** After all edits, every numeric claim across meta files matches `find | wc -l` on disk.
+
+### Category D: AI Writing Fixes
+
+| File | Issue | Fix Approach |
+|------|-------|-------------|
+| `traits/accessories/hats/russian.md` | Broken sentence ("The hat was") + incoherent body | Rewrite Cultural Context using the justification comment (which has the good explanation) |
+| `traits/character-traits/tattoos/enso.md` | Empty Cultural Context | Write Cultural Context for Enso circle (Buddhist/Zen symbol) |
+| `traits/accessories/glasses/red-sunglasses.md` | "The article explores..." | Rewrite as direct cultural context, not source summary |
+| `traits/character-traits/tattoos/straight-edge.md` | "The article explores..." | Rewrite as cultural context |
+| `traits/accessories/hats/sudan-sufi.md` | "The article showcases..." | Rewrite as cultural context |
+| `traits/character-traits/tattoos/reindeer.md` | Travel blog language | Rewrite to focus on Sami cultural significance |
+| `traits/clothing/long-sleeves/cool.md` | WIP placeholder | Write Cultural Context |
+
+**Style guide for rewrites:** Match the codex's best voice (direct, knowledgeable, opinionated, grounded in specific references). No "tapestry of", "testament to", "intersection of", "rich heritage". The justification comments across the codex are the gold standard for tone.
+
+### Category E: Housekeeping
+
+| Task | Approach |
+|------|----------|
+| `PROCESS.md` broken links | Remove/fix the 4 dead references to Loa framework docs |
+| `CONTRIBUTING.md` + `CODEOWNERS` | NOTES.md claims these exist but they were never committed. Create minimal versions. CONTRIBUTING.md: how to add cultural context, submit holder lore, run audits. CODEOWNERS: protect `core-lore/`, `IDENTITY.md`, `oracle/`. |
+| CLAUDE.md PyYAML convention | 5 scripts use `import yaml`. Update CLAUDE.md to say "stdlib-only where possible; PyYAML permitted for complex parsing in generator scripts." |
+| Script README update | Add `fetch-mibera-images.py` and `fetch-mibera-sets.py` to the scripts README |
+| Archive migration scripts | Move 5 one-shot scripts (`add-frontmatter.py`, `add-reveal-timeline.py`, `apply-enrichment.py`, `apply-justifications.py`, `migrate-trait-template.py`) to `_codex/scripts/archive/` |
+| Regenerate `stats.md` | Run `generate-stats.py` to refresh the 47-day-stale stats |
+
+### Category F: 20% Creative — Codex Health Report Generator
+
+**Purpose:** A single script that runs all audits and meta-file checks, producing a unified `_codex/reports/health.md` readable at a glance.
+
+**Design:**
+- Python, stdlib-only (no PyYAML — this script doesn't need it)
+- Runs `audit-structure.sh`, `audit-links.sh`, `audit-semantic.py` and captures their JSON reports
+- Performs meta-count reconciliation: for each entity type, compares actual file count vs claims in manifest.json, scope.json, llms.txt, SUMMARY.md
+- Checks `last_verified` freshness (flags anything >30 days)
+- Outputs a markdown report with: overall health score (% checks passing), breakdown by category, specific discrepancies with file:line references
+- Exit code: 0 if healthy, 1 if any errors
+
+**Report structure:**
+```markdown
+# Codex Health Report
+Generated: 2026-04-05
+
+## Overall: 94% healthy (47/50 checks passing)
+
+### Structure Audit: PASS (0 errors)
+### Link Audit: WARN (4 broken in PROCESS.md)
+### Semantic Audit: PASS (8/8)
+### Meta Reconciliation: FAIL (3 mismatches)
+  - manifest.json: birthday_eras claims 11, actual 10
+  - ...
+### Freshness: WARN
+  - stats.md: 47 days stale
+  - ...
 ```
 
-### 2. Trait File Loader
-
-Extends the existing `load_frontmatter()` to also extract the Cultural Context section from the markdown body:
-
-```python
-def load_trait_files(directories):
-    """Load frontmatter + cultural context from trait files across multiple directories."""
-    items = {}  # slug -> {frontmatter + context}
-    for directory in directories:
-        for filepath in sorted(glob.glob(os.path.join(directory, "*.md"))):
-            basename = os.path.basename(filepath)
-            if basename == "README.md" or basename == "drug-pairings.md":
-                continue
-            slug = basename.replace(".md", "")
-            content = open(filepath).read()
-            # Extract frontmatter
-            fm = parse_frontmatter(content)
-            # Extract cultural context
-            context = extract_cultural_context(content)
-            if fm:
-                fm["_slug"] = slug
-                fm["_context"] = context
-                fm["_category"] = directory
-                items[slug] = fm
-    return items
-```
-
-### 3. Cultural Context Extractor
-
-Regex-based extraction of the Cultural Context section from markdown:
-
-```python
-def extract_cultural_context(content):
-    """Extract text between '## Cultural Context' and next section/comment."""
-    match = re.search(
-        r'## Cultural Context\s*\n(.*?)(?=\n## |\n<!--|---\n|\Z)',
-        content, re.DOTALL
-    )
-    if match:
-        text = match.group(1).strip()
-        return text if text else None
-    return None
-```
-
-This same function is applied to existing node types (ancestors, drugs, tarot cards, archetypes) to backfill `context` on all nodes.
-
-### 4. Slug Resolution
-
-The critical mapping step: converting a mibera's frontmatter value (e.g., `shirt: "Free Palestine"`) to the corresponding trait file slug (`free-palestine`). Uses the existing `slugify()` function, then validates against loaded trait files.
-
-```python
-def resolve_trait(value, trait_files):
-    """Resolve a mibera's trait value to a trait file slug."""
-    if not value or value == "None":
-        return None
-    slug = slugify(value)
-    if slug in trait_files:
-        return slug
-    # Fallback: try without common suffixes/variations
-    # Log warning if unresolved
-    return None
-```
-
-Unresolved traits are logged as warnings. The validation phase catches any systematic mismatches.
-
-### 5. Edge Weight System
-
-Weights are assigned per edge type, stored on each edge object:
-
-```python
-EDGE_WEIGHTS = {
-    # Load-bearing (3)
-    "has_archetype": 3, "has_ancestor": 3, "born_in_era": 3,
-    # Textural (2)
-    "has_drug": 2, "maps_to_tarot": 2, "has_element": 2,
-    "has_suit_element": 2, "drug_archetype": 2, "drug_ancestor": 2,
-    # Modifier (1.5)
-    "has_swag_rank": 1.5, "has_sun_sign": 1.5,
-    "has_moon_sign": 1.5, "has_ascending_sign": 1.5,
-    # Visual (1)
-    "has_shirt": 1, "has_hat": 1, "has_item": 1, "has_glasses": 1,
-    "has_earrings": 1, "has_mask": 1, "has_face_accessory": 1,
-    "has_tattoo": 1, "has_background": 1, "has_body": 1,
-    "has_hair": 1, "has_eyes": 1, "has_eyebrows": 1, "has_mouth": 1,
-}
-```
-
-The `add_edge()` function is updated to include weight:
-
-```python
-def add_edge(source, target, etype):
-    key = (source, target, etype)
-    if key not in edge_set:
-        edge_set.add(key)
-        edges.append({
-            "source": source,
-            "target": target,
-            "type": etype,
-            "weight": EDGE_WEIGHTS.get(etype, 1)
-        })
-```
-
-### 6. Node Schema
-
-All nodes gain a `context` field. Existing nodes are backfilled:
-
-```python
-# Trait nodes
-{
-    "id": "shirt:free-palestine",
-    "type": "shirt",
-    "label": "Free Palestine",
-    "category": "clothing/short-sleeves",
-    "image": "https://mibera.s3.amazonaws.com/...",
-    "swag_score": 2,
-    "context": "\"Free Palestine\" is one of the most recognized..."
-}
-
-# Existing identity nodes (backfilled)
-{
-    "id": "ancestor:greek",
-    "type": "ancestor",
-    "label": "Greek",
-    "context": "The Greek ancestor lineage connects to..."
-}
-
-# Mibera nodes (unchanged, no context)
-{
-    "id": "mibera:1",
-    "type": "mibera",
-    "label": "Mibera #1"
-}
-```
-
-## Data Flow
+## 3. Dependency Order
 
 ```
-miberas/*.md (frontmatter)
-    ↓ read 10,000 files
-    ↓ extract all 24 fields
-    ↓
-traits/**/*.md (frontmatter + cultural context)
-    ↓ read ~1,324 files across 15 directories
-    ↓ build slug → node mapping
-    ↓
-core-lore/**/*.md (cultural context for backfill)
-    ↓ read ancestor, archetype, tarot files
-    ↓ extract context sections
-    ↓
-generate-graph.py
-    ↓ create nodes (identity + visual + overlay)
-    ↓ resolve mibera traits → trait slugs
-    ↓ create weighted edges
-    ↓ validate (orphans, bad refs, counts)
-    ↓
-_codex/data/graph.json (~18-22 MB)
+A (audit fix) → B (structural) → C (meta reconciliation) → E (housekeeping)
+                                                          → D (writing fixes, parallel with C/E)
+                                                          → F (health report, after C since it validates C)
 ```
 
-## Processing Order
+Sprint 1 should do A+B+C (get the numbers right). Sprint 2 should do D+E+F (content + tooling).
 
-1. Load all trait files (build slug lookup tables)
-2. Load all context source files (ancestors, archetypes, drugs, tarot)
-3. Process miberas (create mibera nodes + all edges)
-4. Process tarot cards (drug→tarot, tarot→element edges)
-5. Process drugs (drug→archetype, drug→ancestor edges)
-6. Backfill context on all non-mibera nodes
-7. Validate
-8. Write output
+## 4. Validation Strategy
 
-## Output Schema
+After all work:
+1. `bash _codex/scripts/audit-structure.sh` → 0 errors, 0 warnings
+2. `bash _codex/scripts/audit-links.sh` → 0 broken links
+3. `python3 _codex/scripts/audit-semantic.py` → 8/8 pass
+4. `python3 _codex/scripts/health-report.py` (new) → 100% healthy
+5. Manual spot-check: every count in manifest.json matches disk reality
 
-```json
-{
-    "metadata": {
-        "generated": "2026-04-03",
-        "generator": "_codex/scripts/generate-graph.py",
-        "node_count": 11561,
-        "edge_count": 190000,
-        "node_types": {"mibera": 10000, "shirt": 187, ...},
-        "edge_types": {"has_archetype": 10000, "has_shirt": 10000, ...},
-        "signal_weights": {
-            "load_bearing": ["has_archetype", "has_ancestor", "born_in_era"],
-            "textural": ["has_drug", "maps_to_tarot", "has_element"],
-            "modifier": ["has_swag_rank", "has_sun_sign", "has_moon_sign", "has_ascending_sign"],
-            "visual": ["has_shirt", "has_hat", "has_item", ...]
-        }
-    },
-    "nodes": [...],
-    "edges": [...]
-}
-```
-
-The `signal_weights` metadata block lets consumers discover the hierarchy without hardcoding it.
-
-## Bug Fix: Molecule YAML Errors
-
-The 5 files with `origin: '---'` have a YAML value that is a quoted string containing the YAML document separator. Fix by replacing with a meaningful value or removing the field:
-
-```yaml
-# Before
-origin: '---'
-
-# After (option A: remove)
-# (delete the line)
-
-# After (option B: explicit unknown)
-origin: "unknown"
-```
-
-Option A preferred — the `origin` field is not read by the graph generator or any other script.
-
-## IDENTITY.md Update
-
-Add a new section documenting that visual traits are now part of the signal system at weight 1, below the existing hierarchy. The core principle — "traits are signals, not scripts" — remains unchanged. Visual traits extend the signal system without displacing the load-bearing/textural/modifier tiers.
-
-## Backward Compatibility
-
-| Aspect | Impact |
-|--------|--------|
-| Existing node IDs | Unchanged — `mibera:1`, `archetype:freetekno`, etc. all preserved |
-| Existing edge types | Unchanged — `has_archetype`, `has_drug`, etc. all preserved |
-| Existing node fields | `id`, `type`, `label` all preserved; `context` added (new field) |
-| Existing edge fields | `source`, `target`, `type` preserved; `weight` added (new field) |
-| metadata block | Existing fields preserved; `signal_weights` added |
-| Finn's KnowledgeGraphLoader | Reads nodes/edges by type — ignores unknown types. No code change needed. |
-
-## Technical Risks
+## 5. Risks & Mitigations
 
 | Risk | Mitigation |
 |------|------------|
-| Slug mismatch | Build a validation pass that checks every mibera trait value resolves to a trait file. Log all failures. Run before generating edges. |
-| File size | Compact JSON (no pretty-print). If >25MB, consider: (a) truncate context to 500 chars, (b) separate context into sidecar file |
-| Generation time | Single-pass architecture. If >60s, parallelize file reads with concurrent.futures. |
+| Mibera #0002/#0219 audit issue is deeper than formatting | Worst case: fix the audit script's grep pattern to be more flexible |
+| Cultural context rewrites might not match codex voice | Use justification comments as tone reference; keep rewrites short and specific |
+| Changing CLAUDE.md PyYAML convention might confuse future agents | Be explicit about when PyYAML is OK vs when stdlib regex is preferred |
+| Meta count reconciliation touches many files | Do all count fixes in one atomic commit so they're reviewable together |
+
+## 6. Non-Goals
+
+- No new entity types or content categories
+- No vending-machine WIP content (needs art/community input)
+- No `timeline.json` date verification (needs external research)
+- No static site, CI pipeline, or MCP server
+- No schema changes beyond fixing the swag_rank enum

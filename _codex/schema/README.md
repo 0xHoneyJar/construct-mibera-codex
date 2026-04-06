@@ -227,7 +227,7 @@ color: a darker shade of yellow
 
 **Path**: `traits/overlays/molecules/{slug}.md`
 **Format**: YAML frontmatter + Markdown
-**Count**: 79
+**Count**: 78
 
 ```yaml
 ---
@@ -263,7 +263,7 @@ date_added: January 12, 2025
 
 **Path**: `core-lore/ancestors/{slug}.md`
 **Format**: YAML frontmatter + Markdown
-**Count**: 32
+**Count**: 33
 
 ```yaml
 ---

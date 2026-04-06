@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "generated": "2026-02-18",
+  "generated": "2026-04-05",
   "tracks": [
     {
       "entity_type": "mibera",
@@ -16,9 +16,9 @@
     },
     {
       "entity_type": "trait",
-      "count": 1337,
+      "count": 1323,
       "completeness": "COMPLETE",
-      "note": "1,337 unique visual traits (incl. 78 drugs); documented across traits/ and traits/overlays/molecules/"
+      "note": "1,323 unique visual traits (incl. 78 drugs); documented across traits/ and traits/overlays/molecules/"
     },
     {
       "entity_type": "drug",
@@ -40,15 +40,15 @@
     },
     {
       "entity_type": "special_collection",
-      "count": 32,
+      "count": 33,
       "completeness": "PARTIAL",
-      "note": "Known partner collaborations. New partners may not be immediately documented."
+      "note": "Known partner collaborations across 4 sub-collections. New partners may not be immediately documented."
     },
     {
       "entity_type": "birthday_era",
-      "count": 11,
+      "count": 10,
       "completeness": "COMPLETE",
-      "note": "All era classifications for 15,000 years of birthdays"
+      "note": "All 10 era classifications for 15,000 years of birthdays"
     },
     {
       "entity_type": "fractured_mibera",

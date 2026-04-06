@@ -20,7 +20,7 @@ Taqiyah cap in patterns of circular shapes and lines. A small rounded cap that f
 
 ## Cultural Context
 
-The article showcases the vibrant rituals of Sudan's Qadiriyya Sufi order in Omdurman, where worshippers gather every Friday at Sheikh Hamed Al Nil mosque for dhikr, a mystical practice involving prayers, dances, and spins to achieve spiritual trance. The colorful ceremonies, marked by green jalabiyas symbolizing Sufi simplicity, feature music, chants, and incense, drawing large crowds in a celebration of faith.
+Sudanese Sufi dhikr ceremonies are psychedelic without chemicals — spinning, chanting, and rhythmic breathing until trance states arrive through devotion alone. Every Friday at the Sheikh Hamed Al Nil mosque in Omdurman, the Qadiriyya order gathers for ceremonies that look and feel like the spiritual ancestor of the rave: collective movement, repetitive sound, ego dissolution. The taqiyah is worn throughout, connecting the wearer to one of the most visually striking spiritual traditions on earth.
 
 <!-- justification
 ## Justification

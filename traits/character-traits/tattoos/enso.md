@@ -18,6 +18,9 @@ date_added: "2024-08-10"
 Thick brush stroke that goes in nearly full circle.
 
 ## Cultural Context
+
+The enso is a single brushstroke forming an incomplete circle — the defining visual gesture of Zen Buddhism. Painted in one breath without correction, it represents enlightenment, the void, and the acceptance of imperfection. The gap in the circle is deliberate: nothing is complete, nothing is permanent. In the codex, it's the Buddhist ancestor lineage distilled to its most essential mark.
+
 <!-- justification
 ## Justification
 

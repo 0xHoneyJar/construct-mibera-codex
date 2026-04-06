@@ -47,7 +47,7 @@ Traits are signals, not scripts. A Mibera born in 1352 CE with a Greek ancestor 
 
 Reference `_codex/data/scope.json` for programmatic scope.
 
-**What the codex tracks**: 10,000 Miberas, 42 canonical Grails + community Grails, 1,337 visual traits (incl. 78 drugs), 78 tarot cards, 33 ancestors, 11 birthday eras, 32 special collections, 10 Fractures
+**What the codex tracks**: 10,000 Miberas, 43 Grails (42 canonical + 1 community), 1,323 visual traits (incl. 78 drugs), 78 tarot cards, 33 ancestors, 10 birthday eras, 33 special collections, 11 Fractures, 12 Mibera Sets
 
 **What the codex does NOT track**: ownership/wallets, on-chain state (transfers, marketplace), community member identities, price/market data
 
@@ -63,7 +63,7 @@ Reference `_codex/data/scope.json` for programmatic scope.
 
 ## Script Conventions
 
-- All scripts are **stdlib-only Python** (no PyYAML) with regex YAML parsing
+- Scripts are **Python** — stdlib-only where possible; PyYAML permitted for complex parsing in generator scripts
 - Shell scripts use bash, targeting macOS (BSD tools)
 - Scripts live in `_codex/scripts/`
 - `_` prefix directories sort first on GitHub (before alphabetic)
@@ -73,15 +73,15 @@ Reference `_codex/data/scope.json` for programmatic scope.
 | Directory | Content | Count |
 |-----------|---------|-------|
 | `miberas/` | Individual Mibera files | 10,000 |
-| `traits/` | Visual trait files (18 subcategories) | 1,337 |
+| `traits/` | Visual trait files (20 subcategories) | 1,323 |
 | `traits/overlays/molecules/` | Drug/molecule documentation | 78 |
 | `core-lore/` | Archetypes, ancestors, tarot, philosophy | ~120 |
-| `birthdays/` | Birthday era classifications | 11 |
+| `birthdays/` | Birthday era classifications | 10 |
 | `browse/` | Dimensional browse indices | 8 |
-| `grails/` | Hand-drawn 1/1 art pieces | 42 |
+| `grails/` | Hand-drawn 1/1 art pieces | 43 |
 | `mibera-sets/` | Honey Road ERC-1155 tokens (Optimism) | 12 |
 | `swag-scoring/` | Scoring formula, methods, and all trait scores | — |
-| `fractures/` | Reveal phase documentation | 10 |
+| `fractures/` | Reveal phase documentation | 11 |
 | `vending-machine/` | VM-exclusive Shadow Traits (11 categories) | 102 |
 | `special-collections/` | Partner/special collections | 32 |
 | `oracle/` | Persona-driven system prompt | 1 |

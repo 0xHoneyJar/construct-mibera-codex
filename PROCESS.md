@@ -101,7 +101,7 @@ Capabilities may include a `(scope: ...)` annotation that connects them to the T
 | `app` | App | `src/`, `lib/`, `app/` | `filesystem: write (scope: app)` |
 | `external` | — | GitHub API, network, model APIs | `github_api: read_write (scope: external)` |
 
-**Backward compatibility**: Consumers that don't understand `(scope: ...)` can strip the parenthetical and get the flat capability. The formal schema is defined in [`docs/architecture/capability-schema.md`](docs/architecture/capability-schema.md).
+**Backward compatibility**: Consumers that don't understand `(scope: ...)` can strip the parenthetical and get the flat capability.
 
 #### Trust Gradient (L1-L4)
 
@@ -137,8 +137,6 @@ BUTTERFREEZONE.md (any Loa repo)
         Reads capabilities → sums billing_weight per capability
         Maps to cost tiers: 0 (free), 1 (metered), 3 (premium)
 ```
-
-See [`docs/architecture/capability-schema.md`](docs/architecture/capability-schema.md) for the full formal schema definition.
 
 #### Verification Section
 
@@ -194,8 +192,6 @@ Framework instructions are loaded via Claude Code's `@` import:
 # Project-Specific Instructions
 Your content here takes precedence over framework defaults.
 ```
-
-See [INSTALLATION.md](INSTALLATION.md) for migration guide.
 
 ## Protocol References
 
@@ -1702,7 +1698,6 @@ When resuming interrupted work:
 ## Related Documentation
 
 - **[README.md](README.md)** - Quick start guide
-- **[INSTALLATION.md](INSTALLATION.md)** - Detailed installation and update guide
 - **[CLAUDE.md](CLAUDE.md)** - Guidance for Claude Code instances
 
 ### Protocol Files

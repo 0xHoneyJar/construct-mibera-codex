@@ -1,185 +1,139 @@
-# PRD: Full Trait Knowledge Graph
+# PRD: Codex Quality, Maintenance & Future-Proofing
 
-**Cycle:** 020
+**Cycle:** 021
 **Status:** Draft
-**Created:** 2026-04-03
+**Created:** 2026-04-05
 
 ---
 
 ## 1. Problem Statement
 
-The Mibera Codex knowledge graph (`_codex/data/graph.json`) currently captures only 9 of 24 trait dimensions available on each Mibera. The existing graph includes the "identity signal" layer (archetype, ancestor, drug/molecule, tarot, element, era, sun sign, swag rank) but excludes all 15 visual trait dimensions (shirt, hat, item, glasses, earrings, mask, face accessory, tattoo, background, body, hair, eyes, eyebrows, mouth) and 2 astrological dimensions (moon sign, ascending sign).
+Over 20 development cycles, the Mibera Codex's core data has reached excellent quality (graph: 11,475 nodes, 192,707 edges, zero orphans; semantic audit: 8/8 pass; link audit: 245,519 links, 4 broken). But the meta layer — manifests, schemas, counts, convention docs, and AI-generated prose — has accumulated drift. Numbers disagree across files, promised deliverables were never committed, stale dates linger, and a handful of AI writing artifacts need cleanup.
 
-This means downstream consumers — Finn's personality synthesis pipeline, codex navigation tools, and any future applications — cannot query trait-level relationships like "which Miberas wear the Free Palestine shirt" or "what items appear alongside the Freetekno archetype."
+This cycle is a maintenance sweep: reconcile the meta layer with reality, fix content quality issues, archive completed migration tooling, and prepare the codex for its next phase of growth.
 
 ## 2. Vision
 
-Every trait on every Mibera is queryable through the knowledge graph. The graph becomes the single compiled data structure for the entire codex relationship system — not just identity signals, but the complete trait fingerprint of all 10,000 Miberas.
+After this cycle, every meta file tells the truth, every count matches reality, every trait file has coherent cultural context, and the codex is self-consistent enough that a new contributor or AI agent can trust what they read without cross-referencing.
 
 ## 3. Goals & Success Metrics
 
 | Goal | Metric |
 |------|--------|
-| Complete trait coverage | All 24 mibera frontmatter fields represented as graph nodes + edges |
-| Every trait file is a node | 1,324 trait files → 1,324+ trait nodes (plus existing identity nodes) |
-| Zero YAML parsing errors | Fix the 5 broken molecule files; 0 warnings on generation |
-| Backward compatible | Existing node/edge types unchanged; new types additive only |
-| Finn-ready | graph.json loadable by KnowledgeGraphLoader without code changes |
+| Meta file accuracy | 0 count mismatches between manifest.json, scope.json, llms.txt, SUMMARY.md, schema README, and actual file counts |
+| Structure audit clean | 0 errors (currently 56) |
+| AI writing quality | 0 broken/empty cultural context sections; 0 "article explores" meta-commentary |
+| Convention compliance | CLAUDE.md claims match reality (scripts, docs) |
+| Audit freshness | stats.md, manifest.json last_verified dates current |
+| Link health maintained | 0 broken links (currently 4 in PROCESS.md) |
 
-## 4. Signal Weighting
+## 4. Findings Summary
 
-Per IDENTITY.md and project owner direction, not all signals carry equal weight. The graph should encode this hierarchy so consumers can filter by tier:
+### 4.1 Structural Issues (56 errors)
 
-| Tier | Weight | Signals |
-|------|--------|---------|
-| **Load-bearing** | 3 | Archetype, Ancestor, Birthday/Era |
-| **Textural** | 2 | Drug/Molecule, Tarot, Element |
-| **Modifier** | 1.5 | Swag Rank, Sun Sign, Moon Sign, Ascending Sign |
-| **Visual** | 1 | Shirt, Hat, Item, Glasses, Earrings, Mask, Face Accessory, Tattoo, Background, Body, Hair, Eyes, Eyebrows, Mouth |
+| Issue | Severity | Files |
+|-------|----------|-------|
+| Miberas #0002 and #0219 missing all 25 fields (or audit false positive) | High | `miberas/0002.md`, `miberas/0219.md` |
+| 5 molecule files missing `origin` field | Medium | `traits/overlays/molecules/{ancestral-trance,euphoria,sober,st-johns-wort,weed}.md` |
+| Buddhist ancestor missing `locations` field | Medium | `core-lore/ancestors/buddhist.md` |
 
-Weights are metadata on edge types, not filtering logic. Consumers decide how to use them. The non-visual signals should always be weighted more highly than visual ones.
+### 4.2 Meta File Drift (12 discrepancies)
+
+| Issue | Details |
+|-------|---------|
+| `special-collections/` count | Manifest/scope claim 32, only 1 file exists on disk |
+| Birthday eras count | Manifest/scope say 11, actual = 10, browse says 10 |
+| Trait total arithmetic | Headline 1,337 vs subcategory sum 1,323 (off by 14) |
+| Earrings subcategory | Manifest 62, actual 63 |
+| Grails count | llms.txt says 42, actual 43 |
+| Schema README drug count | Says 79, should be 78 |
+| Schema README ancestor count | Says 32, should be 33 |
+| SUMMARY.md grails.jsonl | Says 42 entries, should be 43 |
+| SUMMARY.md graph stats | Node/edge counts may be stale |
+| `mibera.schema.json` swag_rank | Enum missing `F` rank |
+| `manifest.json` oracle description | Mentions "three internal voices" that don't exist in oracle.md |
+| `llms.txt` | No mention of graph.json, mibera sets, vending machine, fractures |
+
+### 4.3 Missing Content
+
+| Issue | Details |
+|-------|---------|
+| `CONTRIBUTING.md` never committed | NOTES.md claims created in Cycle 003, not in git |
+| `CODEOWNERS` never committed | Same — referenced but absent |
+| `traveller.md` ancestor | 100% stub, all TBD, backs 91 Miberas |
+| `timeline.json` | All dates null, all events unverified |
+| 102 vending-machine trait files | All have WIP/TBD cultural context |
+
+### 4.4 AI Writing Issues
+
+| Issue | Files |
+|-------|-------|
+| Broken cultural context (incomplete sentence) | `traits/accessories/hats/russian.md` |
+| Empty cultural context | `traits/character-traits/tattoos/enso.md` |
+| "The article explores..." meta-commentary | `traits/accessories/glasses/red-sunglasses.md`, `traits/character-traits/tattoos/straight-edge.md`, `traits/accessories/hats/sudan-sufi.md` |
+| Travel blog copy | `traits/character-traits/tattoos/reindeer.md` |
+| Body traits misusing Ancestor field as notes | All 12+ files in `traits/character-traits/body/` |
+| 38 trait files with empty Visual Elements | Various |
+| 21 files with formulaic "intersection of" | Various |
+| Clothing `cool.md` WIP cultural context | `traits/clothing/long-sleeves/cool.md` |
+
+### 4.5 Staleness
+
+| Issue | Details |
+|-------|---------|
+| `stats.md` | 47 days stale (generated 2026-02-18) |
+| `manifest.json` last_verified | Most dates from 2026-02-18 |
+| `gaps.json` GAP-008 | Still open (reveal phase dates) |
+| Migration scripts | 5 one-shot scripts no longer needed |
+| 2 scripts undocumented in README | `fetch-mibera-images.py`, `fetch-mibera-sets.py` |
+
+### 4.6 Convention Violations
+
+| Issue | Details |
+|-------|---------|
+| 5 scripts use `import yaml` (PyYAML) | CLAUDE.md says "stdlib-only Python (no PyYAML) with regex YAML parsing" |
+| `PROCESS.md` has 4 broken links | Points to Loa framework files that don't exist in this repo |
+
+### 4.7 Informational (no action needed this cycle)
+
+- 20 orphan trait files (referenced by 0 Miberas) — may be VM-exclusive or data artifacts
+- 44 trait files with empty `image: ""` — known, tracked in NOTES.md
+- Duplicated cultural context across eye color variants — intentional
+- Inconsistent H1 title case across trait files — cosmetic
 
 ## 5. Scope
 
-### In Scope
+**In scope:**
+- Fix all 56 structural audit errors
+- Reconcile all meta file counts and descriptions
+- Fix AI writing quality issues (broken, empty, meta-commentary)
+- Regenerate stale derived files (stats.md)
+- Update llms.txt to reflect current codex state
+- Archive migration scripts
+- Fix or remove PROCESS.md broken links
+- Update CLAUDE.md if conventions have evolved (PyYAML reality)
+- Create CONTRIBUTING.md and CODEOWNERS (or remove false claims)
 
-**New node types** (15):
-- `shirt` — 187 nodes (short-sleeves + long-sleeves + simple-shirts)
-- `hat` — 126 nodes
-- `item` — 357 nodes (general-items + bong-bears)
-- `glasses` — 37 nodes
-- `earrings` — 62 nodes
-- `mask` — 31 nodes
-- `face_accessory` — 42 nodes
-- `tattoo` — 44 nodes
-- `background` — 73 nodes
-- `body` — 12 nodes
-- `hair` — 129 nodes
-- `eyes` — 90 nodes
-- `eyebrows` — 10 nodes
-- `mouth` — 21 nodes
-- `moon_sign` / `ascending_sign` — reuse existing `zodiac` node type with new edge types
+**Out of scope:**
+- Vending machine WIP content (102 files — needs art/community input, not a maintenance task)
+- `timeline.json` verification (requires external research)
+- Empty trait images (tracked, needs S3 assets)
+- New features, new entity types, new scripts
+- Static site, MCP server, CI pipeline
 
-**New edge types** (16):
-- `has_shirt`, `has_hat`, `has_item`, `has_glasses`, `has_earrings`, `has_mask`, `has_face_accessory`, `has_tattoo`, `has_background`, `has_body`, `has_hair`, `has_eyes`, `has_eyebrows`, `has_mouth` — Mibera → Trait
-- `has_moon_sign`, `has_ascending_sign` — Mibera → Zodiac
+## 6. 20% Creative Exploration
 
-**Documentation updates:**
-- Update IDENTITY.md to reflect the full signal hierarchy including visual traits and weights
-- Update CLAUDE.md if any lookup patterns or directory references change
+With the user's blessing for 20% creative effort, this cycle includes one exploratory deliverable: a **Codex Health Report generator** — a single script that runs all audits (structure, links, semantic, meta count reconciliation) and produces a unified `_codex/reports/health.md` dashboard. The goal: make the maintenance state of the codex visible at a glance so future cycles can spot drift immediately instead of needing 6 parallel research agents.
 
-**Bug fixes:**
-- Fix 5 molecule files with `origin: '---'` YAML issue
+## 7. Risks
 
-### Out of Scope
+| Risk | Mitigation |
+|------|------------|
+| special-collections count fix cascades | Verify whether 32 files existed historically and were deleted, or if the count was always wrong |
+| Birthday era count (10 vs 11) | Investigate which is canonical — may need user input |
+| Mibera #0002 / #0219 may be false positives | Read the actual files before attempting fixes |
+| PyYAML convention change may break CLAUDE.md trust | Either migrate scripts to stdlib regex or update CLAUDE.md to reflect reality |
 
-- Modifying Finn's personality pipeline code (separate repo)
-- Trait-to-trait relationship edges (e.g., shirt↔archetype correlations) — future cycle
+## 8. Dependencies
 
-## 6. Functional Requirements
-
-### FR-1: Expand generate-graph.py
-
-The script must:
-1. Load trait files from all 15 visual trait directories
-2. Create nodes with `type`, `name`, `slug`, `category`, optional `image`, `swag_score`, `archetype`, and `context`
-3. Extract the Cultural Context section from each trait file's markdown body and embed it in the node's `context` field
-4. Map mibera frontmatter field values to trait node slugs
-5. Create typed edges from each mibera to its visual traits
-6. Handle null/None trait values (hat, mask, earrings, tattoo, face_accessory, glasses can be null)
-7. Include `weight` metadata on each edge type per the signal hierarchy
-
-### FR-2: Embed Cultural Context in All Nodes
-
-Every node in the graph — both existing identity signal nodes and new visual trait nodes — should carry a `context` field containing the Cultural Context section from its source markdown file. This makes the full cultural grounding available to consumers without requiring them to read individual files at runtime.
-
-**For new visual trait nodes:**
-```json
-{
-  "id": "shirt:free-palestine",
-  "type": "shirt",
-  "name": "Free Palestine",
-  "slug": "free-palestine",
-  "category": "clothing/short-sleeves",
-  "image": "https://...",
-  "swag_score": 2,
-  "context": "\"Free Palestine\" is one of the most recognized slogans of the Palestinian solidarity movement..."
-}
-```
-
-**For existing identity signal nodes** (archetype, ancestor, drug, tarot, etc.):
-Backfill `context` from their respective source files (e.g., `core-lore/ancestors/greek.md`, `traits/overlays/molecules/dmt.md`).
-
-Node IDs are namespaced by type to avoid collisions (e.g., `shirt:free-palestine` vs `hat:free-palestine`).
-
-Nodes with no Cultural Context section get `"context": null`.
-
-### FR-3: Edge Weight Metadata
-
-Each edge type carries a `weight` field:
-```json
-{
-  "source": "mibera:0001",
-  "target": "shirt:htrk-night-faces",
-  "type": "has_shirt",
-  "weight": 1
-}
-```
-
-### FR-4: Moon Sign & Ascending Sign
-
-Read `moon_sign` and `ascending_sign` from mibera frontmatter. Create edges to existing zodiac nodes (no new node type needed):
-- `has_moon_sign` — Mibera → Zodiac (weight: 1.5)
-- `has_ascending_sign` — Mibera → Zodiac (weight: 1.5)
-
-### FR-5: Fix Molecule YAML Errors
-
-The 5 files with `origin: '---'` must be fixed so generate-graph.py parses all 78 molecules with zero warnings:
-- `traits/overlays/molecules/ancestral-trance.md`
-- `traits/overlays/molecules/euphoria.md`
-- `traits/overlays/molecules/sober.md`
-- `traits/overlays/molecules/st-johns-wort.md`
-- `traits/overlays/molecules/weed.md`
-
-### FR-6: Validation
-
-The script's existing validation must be extended:
-- All new edge references must resolve to valid nodes
-- No orphan trait nodes (every trait node must have at least 1 mibera edge)
-- Mibera node count remains exactly 10,000
-- Report total nodes, edges, and per-type counts
-
-## 7. Non-Functional Requirements
-
-| Requirement | Target |
-|-------------|--------|
-| Graph size | < 25 MB (currently 5.4 MB; context embedding adds ~5-8 MB) |
-| Generation time | < 60 seconds |
-| Backward compatibility | All existing node/edge types unchanged |
-| Zero warnings | No YAML parse errors |
-
-## 8. Estimated Impact
-
-| Metric | Before | After |
-|--------|--------|-------|
-| Node types | 9 | 23 (+14 visual trait types) |
-| Edge types | 11 | 27 (+16 new) |
-| Total nodes | ~10,237 | ~11,561 (+1,324 trait nodes) |
-| Total edges | ~70,302 | ~190,000+ (each mibera gains ~12 new edges) |
-| File size | 5.4 MB | ~18-22 MB estimated (includes embedded context) |
-
-## 9. Risks
-
-| Risk | Likelihood | Impact | Mitigation |
-|------|-----------|--------|------------|
-| Graph file too large for consumers | Low | Medium | Monitor size; compress if >25MB |
-| Slug mismatch between mibera frontmatter and trait filenames | Medium | High | Build mapping table; validate exhaustively |
-| Null trait values create noise | Low | Low | Skip null fields; don't create edges for missing traits |
-| Trait name normalization issues | Medium | Medium | Reuse existing slugify function; test against all 10K miberas |
-
-## 10. Dependencies
-
-- `_codex/scripts/generate-graph.py` — primary modification target
-- `miberas/*.md` — source of trait assignments (read-only)
-- `traits/**/*.md` — source of trait metadata (read-only)
-- `traits/overlays/molecules/*.md` — 5 files need YAML fix
+None. This is a self-contained maintenance cycle operating entirely within the existing codex.

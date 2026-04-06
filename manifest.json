@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "generated": "2026-02-17",
+  "generated": "2026-04-05",
   "description": "Directory-level index for the Mibera Codex. Use for programmatic navigation.",
   "entity_types": {
     "mibera": {
@@ -13,16 +13,16 @@
       "fields": ["Archetype", "Ancestor", "Time Period", "Birthday", "Birth Coordinates", "Sun Sign", "Moon Sign", "Ascending Sign", "Element", "Swag Rank", "Swag Score", "Background", "Body", "Hair", "Eyes", "Eyebrows", "Mouth", "Shirt", "Hat", "Glasses", "Mask", "Earrings", "Face Accessory", "Tattoo", "Item", "Drug"],
       "completeness": "COMPLETE",
       "completeness_note": "All 10,000 generative Miberas documented",
-      "last_verified": "2026-02-18"
+      "last_verified": "2026-04-05"
     },
     "trait": {
       "directory": "traits/",
       "index": "traits/README.md",
-      "count": 1337,
+      "count": 1323,
       "format": "yaml_frontmatter",
       "completeness": "COMPLETE",
-      "completeness_note": "1,337 visual traits across 18 subcategories (incl. 78 drugs in traits/overlays/molecules/; 12 astrology files cover 36 placements)",
-      "last_verified": "2026-02-24",
+      "completeness_note": "1,323 visual traits across 20 subcategories (incl. 78 drugs in traits/overlays/molecules/; 12 astrology files cover 36 placements)",
+      "last_verified": "2026-04-05",
       "subcategories": {
         "accessories/earrings": 62,
         "accessories/face-accessories": 42,
@@ -55,7 +55,7 @@
       "reference_files": ["traits/overlays/molecules/drug-pairings.md"],
       "completeness": "COMPLETE",
       "completeness_note": "78 drugs mapped 1:1 to tarot cards",
-      "last_verified": "2026-02-18"
+      "last_verified": "2026-04-05"
     },
     "ancestor": {
       "directory": "core-lore/ancestors/",
@@ -64,7 +64,7 @@
       "format": "yaml_frontmatter",
       "completeness": "COMPLETE",
       "completeness_note": "All 33 ancestor lineages documented",
-      "last_verified": "2026-02-18"
+      "last_verified": "2026-04-05"
     },
     "tarot_card": {
       "directory": "core-lore/tarot-cards/",
@@ -73,25 +73,25 @@
       "format": "yaml_frontmatter",
       "completeness": "COMPLETE",
       "completeness_note": "78 tarot cards mapped 1:1 to drugs",
-      "last_verified": "2026-02-18"
+      "last_verified": "2026-04-05"
     },
     "birthday_era": {
       "directory": "birthdays/",
       "index": "birthdays/README.md",
-      "count": 11,
+      "count": 10,
       "format": "structured_markdown",
       "completeness": "COMPLETE",
-      "completeness_note": "All 11 eras covering 13,166 BCE – 2024 CE",
-      "last_verified": "2026-02-18"
+      "completeness_note": "All 10 eras covering 13,166 BCE – 2024 CE",
+      "last_verified": "2026-04-05"
     },
     "special_collection": {
       "directory": "special-collections/",
       "index": "special-collections/README.md",
-      "count": 32,
+      "count": 33,
       "format": "yaml_frontmatter",
       "completeness": "PARTIAL",
-      "completeness_note": "32 documented; additional partner collections may exist",
-      "last_verified": "2026-02-18"
+      "completeness_note": "33 documented across 4 sub-collections; additional partner collections may exist",
+      "last_verified": "2026-04-05"
     },
     "grail": {
       "directory": "grails/",
@@ -101,7 +101,7 @@
       "naming": "{slug}.md",
       "completeness": "COMPLETE",
       "completeness_note": "42 canonical hand-drawn 1/1 Grails + 1 community (Mijedi)",
-      "last_verified": "2026-03-30"
+      "last_verified": "2026-04-05"
     },
     "mibera_set": {
       "directory": "mibera-sets/",
@@ -111,7 +111,7 @@
       "naming": "{slug}.md",
       "completeness": "COMPLETE",
       "completeness_note": "All 12 Mibera Set ERC-1155 tokens on Optimism",
-      "last_verified": "2026-02-20"
+      "last_verified": "2026-04-05"
     },
     "oracle": {
       "directory": "oracle/",
@@ -120,8 +120,8 @@
       "format": "system_prompt_markdown",
       "naming": "oracle.md",
       "completeness": "COMPLETE",
-      "completeness_note": "Unified system prompt with three internal voices (Data, Lore, Sight)",
-      "last_verified": "2026-03-05"
+      "completeness_note": "Unified system prompt — one voice, seven books",
+      "last_verified": "2026-04-05"
     }
   },
   "browse": {

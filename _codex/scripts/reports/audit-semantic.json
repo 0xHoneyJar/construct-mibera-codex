@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-02-15T23:06:23.326718Z",
+  "timestamp": "2026-04-06T01:09:21.327425Z",
   "checks": {
     "archetype_enum": {
       "status": "pass",
@@ -40,42 +40,31 @@
     },
     "orphan_traits": {
       "status": "info",
-      "orphan_count": 31,
+      "orphan_count": 20,
       "orphans": [
-        "accessories/earrings/bear-heart.md",
-        "accessories/earrings/blue-bead.md",
         "accessories/face-accessories/heart.md",
-        "accessories/glasses/colourful.md",
-        "accessories/hats/fruits-remilia.md",
         "accessories/hats/peyote.md",
-        "accessories/hats/working-like-a-dog.md",
-        "accessories/masks/chulym-beekeper-hat.md",
         "character-traits/eyes/crying-ocean-2.md",
         "character-traits/eyes/ecstasy-brown-2.md",
         "character-traits/hair/middle-orange.md",
-        "character-traits/tattoos/ge-ez-love.md",
         "character-traits/tattoos/no-tattoos.md",
-        "character-traits/tattoos/triskele.md",
         "clothing/long-sleeves/baby-bera-jacket.md",
-        "clothing/long-sleeves/chicago-jersey.md",
         "clothing/long-sleeves/henlo-jersey.md",
         "clothing/long-sleeves/keith-haring-shirt.md",
-        "clothing/short-sleeves/criminal-records.md",
-        "clothing/short-sleeves/mother.md",
-        "clothing/short-sleeves/overall.md",
-        "clothing/short-sleeves/palestinian-for-black-power.md",
-        "items/bong-bears/dcf.md",
-        "items/bong-bears/icebeargy.md",
-        "items/bong-bears/zeus.md",
-        "items/general-items/band-bear.md",
-        "items/general-items/grateful-dead-tarot-card.md",
-        "items/general-items/mad-scientist.md",
-        "items/general-items/meanie.md",
-        "items/general-items/sakae-naa.md",
-        "items/general-items/weed-nugh.md"
+        "clothing/short-sleeves/90s-tracksuit.md",
+        "clothing/short-sleeves/blue-ribbon-tank.md",
+        "clothing/short-sleeves/cactus-shirt.md",
+        "clothing/short-sleeves/knit-sweater.md",
+        "clothing/short-sleeves/palestinians-for-black-power.md",
+        "clothing/short-sleeves/plain-air.md",
+        "clothing/short-sleeves/plain-earth.md",
+        "clothing/short-sleeves/plain-fire.md",
+        "clothing/short-sleeves/plain-water.md",
+        "clothing/short-sleeves/ribbon-lolita.md",
+        "clothing/short-sleeves/tennis-outfit.md"
       ],
-      "total_traits": 1257,
-      "referenced_traits": 1225
+      "total_traits": 1326,
+      "referenced_traits": 1303
     },
     "swag_rank_distribution": {
       "status": "pass",

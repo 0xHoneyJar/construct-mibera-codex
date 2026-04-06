@@ -3,6 +3,7 @@ name: Sober
 molecule: C10H12N2O
 compound: "Serotonin"
 era: Ancient
+origin: null
 archetype: Milady
 ancestor: Mongolian
 swag_score: 2

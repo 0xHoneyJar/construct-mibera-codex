@@ -20,12 +20,12 @@ date_added: "2024-06-29"
 
 ## Cultural Context
 
-WIP
+A Milady-archetype long sleeve with yellow, black, and white colorwork. The design leans into the graphic, high-contrast aesthetic that defines Milady-adjacent fashion — bold enough to read at a distance, simple enough to work as a daily uniform.
 
 <!-- justification
 ## Justification
 
-WIP
+Milady aesthetic staple — high contrast, graphic, wearable.
 -->
 
 ---

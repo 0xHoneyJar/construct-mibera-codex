@@ -20,9 +20,7 @@ Dark grey ushanka / Russian winter hat with ear flaps and fluffy front framing t
 
 ## Cultural Context
 
-The hat was
-
-The video captures members of Spiral Tribe, a pivotal UK-based free party sound system and arts collective formed in 1990, discussing their ethos and activities during their active years in the mid-1990s. Conducted in 1995, the interview covers their role in the free party and teknival movement, their nomadic lifestyle, and their influence on the European rave scene, particularly after relocating to mainland Europe following legal challenges in the UK, such as the Castlemorton Common Festival in 1992. The video provides a glimpse into their anti-establishment philosophy, emphasizing "free music for free people," their rejection of commercialism, and their contributions to spiral tekno, a genre named after them.
+The ushanka crossed from Soviet military surplus into rave culture. Spiral Tribe members wore them across European teknivals in the mid-90s, and the hat became part of the nomadic free party uniform — practical headwear for sleeping in fields and dancing until dawn in freezing temperatures. Its association with the Milady archetype nods to the Eastern European aesthetic thread that runs through post-internet culture.
 
 <!-- justification
 ## Justification

@@ -89,7 +89,7 @@
     },
     "swag_rank": {
       "type": "string",
-      "enum": ["S", "A", "B", "C", "D"],
+      "enum": ["Sss", "Ss", "S", "A", "B", "C", "D", "F"],
       "description": "Swag tier ranking",
       "x-codex-confidence": "derived",
       "x-codex-source": "contract-metadata"

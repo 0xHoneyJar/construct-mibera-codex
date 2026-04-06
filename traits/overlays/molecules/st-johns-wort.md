@@ -3,6 +3,7 @@ name: St John's Wort
 molecule: C30H16O8
 compound: "Hypericin"
 era: Ancient
+origin: null
 archetype: Freetekno
 ancestor: Greek
 swag_score: 4

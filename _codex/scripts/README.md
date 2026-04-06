@@ -40,5 +40,18 @@ Run from the repo root:
 
 | Script | Description |
 |--------|-------------|
-| `add-frontmatter.py` | Add or update YAML frontmatter on content files |
 | `normalize-data.py` | Normalize inconsistencies in data fields across content files |
+| `fetch-mibera-images.py` | Fetch and map Mibera images from external sources |
+| `fetch-mibera-sets.py` | Fetch Mibera Set ERC-1155 metadata from Optimism/Arweave |
+
+## Archived (Migration Scripts)
+
+One-shot scripts that have completed their purpose. Preserved in `archive/` for reference.
+
+| Script | Description |
+|--------|-------------|
+| `archive/add-frontmatter.py` | Added YAML frontmatter to 10,000 Mibera files (Cycle 003) |
+| `archive/add-reveal-timeline.py` | Added reveal timeline sections to Mibera files (Cycle 017) |
+| `archive/apply-enrichment.py` | Applied cultural context from mapping files (Cycle 016) |
+| `archive/apply-justifications.py` | Applied justification comments from mapping files |
+| `archive/migrate-trait-template.py` | Migrated trait files from old to new template format |

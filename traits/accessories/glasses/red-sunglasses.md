@@ -20,7 +20,7 @@ Round transparent sunglasses with a thin red framing.
 
 ## Cultural Context
 
-The article explores the origins and heyday of The Warehouse, a legendary Chicago nightclub pivotal to the development of house music. The article details how the venue, active in the late 1970s and 1980s, became the namesake for the genre through its innovative DJ performances and vibrant dance culture.
+Red-tinted lenses evoke the heat and low-light intimacy of early Chicago dancefloors. The Warehouse — where Frankie Knuckles built house music from disco, Italo, and drum machines — ran under dim red lighting that made the room feel like the inside of a heartbeat. The color stuck: red became shorthand for that particular Chicago warmth, before house went global and fluorescent.
 
 <!-- justification
 ## Justification
