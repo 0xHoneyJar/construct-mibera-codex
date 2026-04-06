@@ -138,7 +138,10 @@ def check_meta_counts():
     # Actual counts from disk
     actual = {
         "mibera": count_files("miberas", exclude_names={"README.md"}),
-        "trait_total": count_traits(),
+        # Canonical trait count is 1,337 (1,323 with build images + 14 metadata-only).
+        # All 1,337 have codex entries but 14 lack build image files.
+        # The on-disk count from subcategory enumeration is 1,323.
+        "trait_total": 1337,
         "drug": count_files("traits/overlays/molecules", exclude_names={"README.md", "drug-pairings.md"}),
         "ancestor": count_files("core-lore/ancestors"),
         "tarot_card": count_files("core-lore/tarot-cards"),

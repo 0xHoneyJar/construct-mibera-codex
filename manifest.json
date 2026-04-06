@@ -18,10 +18,10 @@
     "trait": {
       "directory": "traits/",
       "index": "traits/README.md",
-      "count": 1323,
+      "count": 1337,
       "format": "yaml_frontmatter",
       "completeness": "COMPLETE",
-      "completeness_note": "1,323 visual traits across 20 subcategories (incl. 78 drugs in traits/overlays/molecules/; 12 astrology files cover 36 placements)",
+      "completeness_note": "1,337 visual traits across 20 subcategories (1,323 with build images + 14 metadata-only; incl. 78 drugs in traits/overlays/molecules/)",
       "last_verified": "2026-04-05",
       "subcategories": {
         "accessories/earrings": 62,

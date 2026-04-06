@@ -16,9 +16,9 @@
     },
     {
       "entity_type": "trait",
-      "count": 1323,
+      "count": 1337,
       "completeness": "COMPLETE",
-      "note": "1,323 unique visual traits (incl. 78 drugs); documented across traits/ and traits/overlays/molecules/"
+      "note": "1,337 unique visual traits (1,323 with build images + 14 metadata-only; incl. 78 drugs)"
     },
     {
       "entity_type": "drug",

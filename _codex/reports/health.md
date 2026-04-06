@@ -24,7 +24,7 @@ Generated: 2026-04-05
 | mibera_set | 12 |
 | special_collection | 33 |
 | tarot_card | 78 |
-| trait_total | 1323 |
+| trait_total | 1337 |
 
 All meta file counts match disk reality.
 
