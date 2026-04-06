@@ -20,12 +20,11 @@ date_added: "2024-06-29"
 
 ## Cultural Context
 
-A Milady-archetype long sleeve with yellow, black, and white colorwork. The design leans into the graphic, high-contrast aesthetic that defines Milady-adjacent fashion — bold enough to read at a distance, simple enough to work as a daily uniform.
+Simply a cool shirt that a mibera team member found intriguing enough to put in the collection. 
 
 <!-- justification
 ## Justification
 
-Milady aesthetic staple — high contrast, graphic, wearable.
 -->
 
 ---
