@@ -14,7 +14,7 @@ date_added: "2024-12-10"
 
 ## Visual Elements
 
-Thicker round black ring earring.
+A thick black hoop with a small amount of shine
 
 ## Cultural Context
 

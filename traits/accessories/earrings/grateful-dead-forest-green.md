@@ -14,7 +14,7 @@ date_added: "2024-06-04"
 
 ## Visual Elements
 
-Earring of a dancing / walking bear in forest green.
+Earring of a dancing bear in forest green.
 
 ## Cultural Context
 

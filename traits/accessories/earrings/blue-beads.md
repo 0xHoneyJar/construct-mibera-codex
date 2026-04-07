@@ -14,7 +14,7 @@ image: "https://mibera.s3.amazonaws.com/traits/SS5_chicagodetroit_modern_mongoli
 
 ## Visual Elements
 
-
+Vertical rows of blue beads with red, white, and darker blue beads near the bottom.
 ## Cultural Context
 
 Beaded earrings appear across numerous global cultures, from Native American seed bead traditions to West African waist bead practices to Central Asian nomadic jewelry. Blue beads in particular carry protective symbolism in Mediterranean and Middle Eastern traditions, where the 'evil eye' bead (nazar) is worn to ward off misfortune.
