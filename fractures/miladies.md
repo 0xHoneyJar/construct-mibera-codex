@@ -2,6 +2,7 @@
 phase: 2
 name: "Miladies"
 type: fracture
+date: "2025-04-24"
 symbol: MILADIES
 contract: "0x8D4972bd5D2df474e71da6676a365fB549853991"
 ---

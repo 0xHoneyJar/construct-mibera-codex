@@ -2,6 +2,7 @@
 phase: 5
 name: "MiReveal #3.3"
 type: fracture
+date: "2025-05-06"
 symbol: MIREVEAL3.3
 contract: "0xbcb082bB41E892f29d9c600eaadEA698d5f712Ef"
 ---

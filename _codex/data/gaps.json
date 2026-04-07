@@ -80,8 +80,11 @@
       "description": "Exact dates and mechanism for each of the 10 reveal phases (MiParcels through MiReveal #8.8)",
       "severity": "structural",
       "entity_type": "fracture",
-      "resolution_path": "Confirm with Zergucci (backend dev). Reveals were metadata swaps behind a stable URI, not on-chain setBaseURI calls. The main contract pointed at the same IPFS CID throughout all phases; content was updated server-side. Tentative dates (2025): Apr 24, Apr 29, May 1, May 6, May 8, May 13, May 15, May 20 — awaiting confirmation. Also need ELI5 of the Irys/IPFS metadata swap mechanism used.",
-      "status": "open"
+      "resolution_path": "Confirm with Zergucci (backend dev).",
+      "status": "closed",
+      "resolved_by": "fractures/*.md date fields + _codex/data/timeline.json EVT-010 through EVT-019",
+      "resolved_date": "2026-04-06",
+      "residual_gaps": "Irys/IPFS metadata swap mechanism still undocumented"
     }
   ]
 }

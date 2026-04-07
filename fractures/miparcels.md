@@ -2,6 +2,7 @@
 phase: 1
 name: "MiParcels"
 type: fracture
+date: "2025-04-20"
 symbol: MIPARCEL
 contract: "0x6956dae88C00372B1A0b2dfBfE5Eed19F85b0D4B"
 ---

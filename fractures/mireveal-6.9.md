@@ -2,6 +2,7 @@
 phase: 8
 name: "MiReveal #6.9"
 type: fracture
+date: "2025-05-15"
 symbol: MIREVEAL6.9
 contract: "0xF68f40230E39067Ee7c98Fe9A8641fC124c5BE60"
 ---
