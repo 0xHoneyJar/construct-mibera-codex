@@ -15,7 +15,7 @@ date_added: "2024-12-10"
 
 ## Visual Elements
 
-Slice of an orange facing down.
+A thin slice of an orange facing down.
 
 ## Cultural Context
 

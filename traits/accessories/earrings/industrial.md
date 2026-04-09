@@ -14,7 +14,7 @@ date_added: "2024-12-10"
 
 ## Visual Elements
 
-Thin bar with two spiky studs, one on each end.
+Thin silver bar with two spiky studs, one on each end.
 
 ## Cultural Context
 

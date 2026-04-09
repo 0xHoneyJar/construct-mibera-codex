@@ -15,7 +15,7 @@ date_added: "2024-12-10"
 
 ## Visual Elements
 
-Three thin silver ring-style earrings.
+Three thin silver hoop earrings.
 
 ## Cultural Context
 

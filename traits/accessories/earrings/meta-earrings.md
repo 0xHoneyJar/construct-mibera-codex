@@ -15,7 +15,7 @@ date_added: "2024-06-19"
 
 ## Visual Elements
 
-Writing of the word ‘EARRINGS’ in all capital letters.
+Writing of the word ‘EARRINGS’ in all capital letters along the bottom of mibera's ear. 
 
 ## Cultural Context
 
