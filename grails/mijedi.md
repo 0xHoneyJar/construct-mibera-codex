@@ -3,7 +3,7 @@ id: 4701
 name: "Mijedi"
 type: grail
 category: community
-description: "Custom community grail for Miggs — Mibera in all-white niqab wielding Obi-Wan's lightsaber against the Jester Universe"
+description: "Custom community grail for Miggs — Mibera in all-white hijab wielding Obi-Wan's lightsaber against the Jester Universe"
 ---
 
 # Mijedi
@@ -14,14 +14,30 @@ description: "Custom community grail for Miggs — Mibera in all-white niqab wie
 
 Custom community grail created for Miggs (@ruwaiting4 on X), founder of Bera Breakdown.
 
+## Three Pillars
+
+Mijedi is built on three symbolic components: the white hijab, the Jester Universe, and the orange lightsaber. Each carries its own cultural weight, and together they define a character who moves through the world with spiritual clarity, humor-driven truth, and fierce individuality.
+
 ## Cultural Context
 
-In Star Wars expanded lore, orange lightsabers are among the rarest. They symbolize creativity, individuality, and a maverick spirit — associated with Force users who walked a middle path between Jedi ideals of peace and Sith pragmatism. A Force user outside the traditional good/evil binary. The color is intentionally distinct, meant to communicate that the wielder does not fit the usual categories.
+### White Hijab
+
+A white hijab carries some of the oldest and most consistent symbolism across cultures. It represents purity, sincerity, spiritual focus, and a return to the essential. Across regions and eras, white has been treated as a color that strips away ego and emphasizes clarity of intention. In many communities, someone wearing a white hijab is understood to be in a moment of heightened spirituality, celebration, or personal renewal — stepping into a state of clarity, humility, or sacred intention.
+
+### Jester Universe
+
+The Jester Universe is not just a backdrop — it operates as a constant, invisible pressure that shifts conversations, relationships, and events toward humor-driven truth. A serious question gets an unexpectedly witty answer that reveals something deeper than a straightforward response would. The universe rewards those who can pivot with the twist rather than resist it.
+
+When someone tries to assert rigid control, the world introduces a comedic slip — a literal banana peel, a symbolic contradiction. Consequences teach rather than punish. Mistakes don't lead to doom; they lead to absurdity that highlights the underlying truth. The universe prefers irony over suffering. The Jester Universe isn't trying to humiliate anyone — it is trying to wake them up.
+
+### Orange Lightsaber
+
+In Star Wars Legends, orange lightsabers are among the rarest. They symbolize creativity, individuality, and a maverick spirit — associated with Force users who walked a middle path, blending Jedi ideals of peace with Sith pragmatism. A Force user outside the traditional Jedi/Sith binary. The color is intentionally distinct, meant to communicate that the wielder does not fit the usual categories.
 
 ## Visual Elements
 
-She wears an all-white custom niqab and holds an orange lightsaber with the hilt of Obi-Wan Kenobi's saber. Her eyes are bright orange, matching the blade. The background is a visual interpretation of the Jester Universe.
+She wears an all-white custom hijab and holds an orange lightsaber with the hilt of Obi-Wan Kenobi's saber. Her eyes are bright orange, matching the blade. The background is the Jester Universe.
 
 ## Justification
 
-Mijedi operates in moral gray areas — seeking balance and following an individual path rather than aligning with any single camp. The orange saber is a direct reflection of that: rare, deliberately outside the usual categories, and walking its own line.
+Mijedi operates in moral gray areas — seeking balance and following an individual path within the Bera ecosystem rather than aligning with any single camp. The orange saber is the very essence of that: rare, deliberately outside the usual categories, and walking its own line. The white hijab grounds her in spiritual clarity and intention. The Jester Universe surrounds her with a world that favors truth through humor over rigid control.
