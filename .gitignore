@@ -33,6 +33,9 @@ mireveals/
 .obsidian/
 .blotter/
 
+# Research — local-only working files
+research/
+
 # Loa framework — local-only / ephemeral files
 .mivaulty/
 .run/
