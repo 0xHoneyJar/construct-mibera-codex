@@ -38,6 +38,6 @@
 
 [Satoshi as Hermes](../grails/satoshi-as-hermes.md)
 
-## Community (1)
+## Creator Community (1)
 
 [Mijedi](../grails/mijedi.md)
