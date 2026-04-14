@@ -10,7 +10,7 @@ description: "Custom community grail for Miggs — Mibera in all-white hijab wie
 
 ![Mijedi](https://uploader.irys.xyz/A7STcFTGxTeg172mYiTs2gRxsbXQmAsss1zaXSUjqta6)
 
-> **Grail #4701** · Community · [Browse all Grails →](../browse/grails.md)
+> **Grail #4701** · Creator Community · [Browse all Grails →](../browse/grails.md)
 
 Custom community grail created for Miggs (@ruwaiting4 on X), founder of Bera Breakdown.
 

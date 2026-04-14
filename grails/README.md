@@ -73,7 +73,7 @@
 
 - [Satoshi as Hermes](satoshi-as-hermes.md) · #4488
 
-## Community (1)
+## Creator Community (1)
 
 *Custom commissions for community members.*
 

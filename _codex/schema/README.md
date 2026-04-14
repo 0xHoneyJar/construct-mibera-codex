@@ -338,7 +338,7 @@ type: "DeFi, Community"
 
 **Path**: `grails/{slug}.md`
 **Format**: YAML frontmatter + Markdown
-**Count**: 42 canonical + community grails
+**Count**: 42 canonical + creator community grails
 
 ### Frontmatter
 
