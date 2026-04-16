@@ -1,175 +1,201 @@
-# Sprint Plan: Codex Quality, Maintenance & Future-Proofing
+# Sprint Plan: MiParcels — 10K Parcel Entries & Trait Documentation
 
-**Cycle:** 021
-**Created:** 2026-04-05
-**Sprints:** 2
-**Estimated effort:** Medium (file edits + 1 new script)
+**Cycle:** 022
+**Created:** 2026-04-16
+**Sprints:** 3
+**Estimated effort:** Large (3 scripts + 10K generated files + 10K patched files + 13 trait pages + meta updates)
 
 ---
 
-## Sprint 1: Truth Reconciliation — Audits, Structure & Meta Files
+## Sprint 1: Scrawl Mapping & Generator Foundation
 
-**Goal:** Fix all structural audit errors, resolve the #0002/#0219 false positives, and reconcile every count across all meta files so every number in the codex tells the truth.
+**Goal:** Build the scrawl-theme mapping, write the JSON schema, and create the generator script with validated sample output. Everything needed to prove the pipeline works before the full 10K run.
 
-### T-1.1: Investigate and fix Mibera #0002 / #0219 audit false positives
+### T-1.1: Build scrawl-theme mapping
 
-**Description:** The structure audit reports 50 errors (25 per file) for Miberas #0002 and #0219, claiming all fields are missing. Both files have complete frontmatter and markdown tables. Diagnose why `audit-structure.sh` flags them (likely table formatting edge case or invisible characters) and fix either the files or the audit script.
+**Description:** Write `_codex/scripts/build-scrawl-theme-map.py` that parses `fractures/miparcels/scrawl.md` to extract the 10 thematic clusters and their scrawl texts, cross-references against the 189 unique values from the source trait report, and outputs `_codex/data/scrawl-theme-map.json`.
 
-**Approach:** Byte-level diff of `miberas/0002.md` vs `miberas/0001.md` table sections. Check for non-breaking spaces, different column widths, or encoding differences. Fix the root cause.
+**Approach:** Parse scrawl.md line-by-line: `## {Theme}` headings set the current cluster, `| {Text} | ...` table rows extract scrawl values. Match against trait report values using exact → case-insensitive → flag unmapped. Output JSON dict mapping text → theme.
 
 **Acceptance criteria:**
-- Root cause identified and documented
-- `bash _codex/scripts/audit-structure.sh` reports 0 mibera errors
-- Both files still render correctly on GitHub
+- `_codex/data/scrawl-theme-map.json` exists with 189 entries
+- Every key in the map corresponds to a scrawl value in the source trait report
+- Every value is one of the 10 documented theme names
+- Coverage report printed: ideally 189/189 mapped (any gaps manually resolved)
 
 ---
 
-### T-1.2: Fix remaining structural errors (molecules + ancestor)
+### T-1.2: Write miparcel JSON schema
 
-**Description:** Add `origin: null` to 5 molecule files missing the field. Add `locations` to `buddhist.md` ancestor.
-
-**Files:**
-- `traits/overlays/molecules/{ancestral-trance,euphoria,sober,st-johns-wort,weed}.md` — add `origin: null`
-- `core-lore/ancestors/buddhist.md` — add `locations` array
+**Description:** Create `_codex/schema/miparcel.schema.json` following the existing schema conventions (x-codex-meta, x-codex-confidence annotations). Defines required and optional fields per SDD §3.3.
 
 **Acceptance criteria:**
-- `bash _codex/scripts/audit-structure.sh` reports 0 errors total (combined with T-1.1)
-- Buddhist `locations` values are geographically accurate (India, Southeast Asia, East Asia, Tibet)
+- Schema validates against a sample parcel's frontmatter
+- Follows same structure as mibera.schema.json (same meta annotations pattern)
+- `scrawl_theme` enum lists all 10 theme names
+- Optional sparse traits use patternProperties
 
 ---
 
-### T-1.3: Reconcile manifest.json with disk reality
+### T-1.3: Write generate-parcels.py with sample validation
 
-**Description:** Fix all count discrepancies in `manifest.json`:
-- `birthday_eras`: 11→10
-- `special_collections`: 32→33
-- `earrings` subcategory: 62→63
-- `trait_total`: recalculate from subcategory sum (currently off by 14)
-- Oracle description: remove "three internal voices" reference
-- Update all `last_verified` dates to 2026-04-05
+**Description:** Write the main generator script at `_codex/scripts/generate-parcels.py`. It should:
+1. Load scrawl-theme-map.json and source JSON files
+2. Generate parcel .md files (YAML frontmatter + markdown body per SDD §3.1)
+3. Generate trait pages with cultural context (per SDD §6 + PRD §5)
+4. Generate README with Honey Road lore (per SDD §7)
+5. Generate `_codex/data/parcels.jsonl`
+6. Generate `_codex/data/parcels-graph.json` (per SDD §5)
+7. Copy trait report to `_codex/data/parcels-trait-report.json`
+
+Support `--source`, `--output`, `--sample N`, and `--dry-run` flags.
+
+Run with `--sample 10` and validate output.
 
 **Acceptance criteria:**
-- Every entity count in manifest.json matches `find <dir> -name "*.md" ! -name "README.md" | wc -l`
-- Oracle description accurately reflects oracle.md content
-- All `last_verified` dates are current
+- `generate-parcels.py --source ... --sample 10` produces 10 parcel files
+- Each sample file has correct YAML frontmatter (type: miparcel, all present traits, scrawl_theme populated)
+- Each sample file has markdown body with image, trait table, scrawl theme link, mibera cross-link
+- Trait pages generated with cultural context sections (not empty placeholders)
+- README.md generated with Honey Road lore section
+- parcels.jsonl has 10 lines (in sample mode)
+- parcels-graph.json has correct node/edge structure
+- Sample parcel frontmatter matches source JSON exactly (spot-check 3 parcels)
 
 ---
 
-### T-1.4: Reconcile scope.json, schema README, SUMMARY.md, browse/README.md
+## Sprint 2: Full Generation Run
 
-**Description:** Fix count mismatches across all remaining meta files:
-- `scope.json`: birthday_eras 11→10, special_collections 32→33
-- `_codex/schema/README.md`: drug count 79→78, ancestor count 32→33
-- `_codex/schema/mibera.schema.json`: add `F` to swag_rank enum (verify Ss/Sss usage in frontmatter)
-- `SUMMARY.md`: grails.jsonl 42→43, graph.json stats to 11,475 nodes / 192,707 edges
-- `browse/README.md`: verify era count consistency
+**Goal:** Run the generator at full scale (10,000 parcels), validate output, and ensure everything is correct before touching existing mibera files.
+
+### T-2.1: Full 10K parcel generation
+
+**Description:** Run `generate-parcels.py --source /Users/mandy/Downloads/parcelsMetadataFinal` to generate all 10,000 parcel files, trait pages, README, data exports, and graph.
 
 **Acceptance criteria:**
-- All numeric claims across scope.json, schema README, SUMMARY.md, browse/README.md match actual file counts
-- swag_rank enum includes all values present in mibera frontmatter
+- `ls miparcels/*.md | wc -l` = 10,000
+- `ls miparcels/traits/*.md | wc -l` = 13 (12 trait pages + README)
+- `miparcels/README.md` exists with Honey Road lore + trait index
+- `_codex/data/parcels.jsonl` has 10,000 lines
+- `_codex/data/parcels-graph.json` exists with ~10,500 nodes and ~120,000 edges
+- `_codex/data/parcels-trait-report.json` exists
 
 ---
 
-### T-1.5: Refresh llms.txt
+### T-2.2: Validate parcel files against source data
 
-**Description:** Update `llms.txt` to reflect the current codex state after 20 cycles of development:
-- Grails count: 42→43
-- Add `graph.json` (11,475 nodes, 192,707 edges, 18 MB knowledge graph) to data exports
-- Add mibera-sets (12 Honey Road ERC-1155 tokens on Optimism)
-- Add vending-machine (102 VM-exclusive shadow traits across 11 categories)
-- Add fractures (10 reveal phases)
-- Verify all lookup patterns still work with current paths
+**Description:** Spot-check 20 random parcels across the ID range (including edge cases: #1, #10000, a minimal 7-trait parcel, a maximal 17-trait parcel) to confirm trait fidelity. Verify that every `scrawl_theme` in generated files matches the scrawl-theme-map.
 
 **Acceptance criteria:**
-- Every entity type in the codex is mentioned in llms.txt
-- All counts match reality
-- All file paths are valid
-- File stays under 4 KB (concise LLM context)
+- 20 spot-checked parcels have exact trait match vs source JSON
+- No parcel has a null or empty `scrawl_theme`
+- Minimal parcel (e.g., #166 with 7 traits) correctly omits sparse traits from frontmatter
+- Maximal parcel (17 traits) includes all traits in frontmatter
+- All internal links (mibera cross-link, scrawl theme links, back-to-index) are syntactically correct
 
 ---
 
-## Sprint 2: Content Quality, Housekeeping & Health Report
+### T-2.3: Validate trait pages and cultural context
 
-**Goal:** Fix all AI writing issues, create missing convention docs, archive stale tooling, and build the health report generator.
-
-### T-2.1: Fix broken/empty cultural context (7 files)
-
-**Description:** Fix all AI writing quality issues identified in the audit:
-
-1. `traits/accessories/hats/russian.md` — rewrite broken cultural context (incomplete sentence + incoherent body)
-2. `traits/character-traits/tattoos/enso.md` — fill empty cultural context (Zen Buddhist symbol)
-3. `traits/accessories/glasses/red-sunglasses.md` — rewrite "The article explores..." as direct cultural context
-4. `traits/character-traits/tattoos/straight-edge.md` — rewrite "The article explores..." as cultural context
-5. `traits/accessories/hats/sudan-sufi.md` — rewrite "The article showcases..." as cultural context
-6. `traits/character-traits/tattoos/reindeer.md` — rewrite travel blog copy to focus on Sami cultural significance
-7. `traits/clothing/long-sleeves/cool.md` — replace WIP placeholder with cultural context
-
-**Style:** Direct, knowledgeable, specific. No AI filler ("tapestry", "testament", "intersection of", "rich heritage"). Use justification comments as tone reference.
+**Description:** Review all 12 trait documentation pages for completeness:
+- `normal-addys.md` has provenance for all 5 real locations
+- `stamps.md` has context for all 7 stamp series
+- `stickers.md` identifies all 8 characters and their pairings
+- `confetti.md` documents the 4 sub-families (elemental Jani, Tsuheji, Henlo animals, boarding passes)
+- `airmail.md` covers all 10 postal systems
+- `big-labels.md` covers Shulgin Foundation, General Wade, USPS labels
+- `scrawl.md` has all 189 texts tagged by theme with links to deep docs
+- All trait pages have value tables with counts
 
 **Acceptance criteria:**
-- All 7 files have coherent, non-placeholder cultural context
-- Zero instances of "The article explores/showcases" pattern in trait files
-- No broken or incomplete sentences
+- Every trait page has Overview, Cultural Context (where applicable), and Values sections
+- No empty cultural context sections (at minimum, the content from PRD §5)
+- Scrawl page explains the 189 vs 206 count distinction
+- All links to `../fractures/miparcels/scrawl.md` sections are correct
+- Flag any items needing user verification (Big Nig's House context, Puruhani/Tsuheji lore)
 
 ---
 
-### T-2.2: Fix PROCESS.md broken links + create CONTRIBUTING.md and CODEOWNERS
+## Sprint 3: Mibera Backlinks & Meta Integration
 
-**Description:**
-1. Remove or fix the 4 broken links in `PROCESS.md` (pointing to `INSTALLATION.md` and `docs/architecture/capability-schema.md`)
-2. Create `CONTRIBUTING.md` — minimal: how to add cultural context to traits, how to submit holder lore, how to run audit scripts, PR process
-3. Create `CODEOWNERS` — protect `core-lore/`, `IDENTITY.md`, `oracle/`, `_codex/schema/`
+**Goal:** Patch all 10,000 mibera files with parcel cross-links, update every meta file in the codex, and pass a full audit.
+
+### T-3.1: Write and run add-parcel-backlinks.py
+
+**Description:** Write `_codex/scripts/add-parcel-backlinks.py` that patches each `miberas/{NNNN}.md` to:
+1. Add `parcel: {id}` to YAML frontmatter (after `drug:` line)
+2. Add `| Parcel | [MiParcel #{id}](../miparcels/{NNNN}.md) |` as last row in `## Traits` table
+
+Support `--codex-root`, `--sample N`, and `--dry-run` flags. Run dry-run first, then full.
 
 **Acceptance criteria:**
-- `bash _codex/scripts/audit-links.sh` reports 0 broken links
-- `CONTRIBUTING.md` exists and is linked from README or SUMMARY
-- `CODEOWNERS` exists with at least core-lore protection rules
-- NOTES.md claim about these files is now true
+- `--dry-run` on 10 sample files shows correct diff output
+- Full run patches all 10,000 mibera files
+- `grep -c "^parcel:" miberas/*.md` = 10,000
+- `grep -c "MiParcel #" miberas/*.md` = 10,000
+- Spot-check 5 mibera files: frontmatter `parcel:` field is correct, table row links to correct parcel
+- No files have duplicate `parcel:` entries (idempotent)
+- `<!-- @generated:backlinks -->` sections untouched
 
 ---
 
-### T-2.3: Convention and script housekeeping
+### T-3.2: Update mibera schema
 
-**Description:**
-1. Update CLAUDE.md script convention: "stdlib-only where possible; PyYAML permitted for complex parsing in generator scripts"
-2. Add `fetch-mibera-images.py` and `fetch-mibera-sets.py` to `_codex/scripts/README.md`
-3. Move 5 migration scripts to `_codex/scripts/archive/`: `add-frontmatter.py`, `add-reveal-timeline.py`, `apply-enrichment.py`, `apply-justifications.py`, `migrate-trait-template.py`
-4. Regenerate `stats.md` by running `generate-stats.py`
+**Description:** Add optional `parcel` field to `_codex/schema/mibera.schema.json` per SDD §9.3.
 
 **Acceptance criteria:**
-- CLAUDE.md script convention matches reality
-- All scripts in `_codex/scripts/` are documented in README
-- Migration scripts moved to archive (not deleted)
-- `stats.md` regenerated with current date
+- Schema includes `parcel` property (integer, 1–10000, optional)
+- Existing mibera validation still passes
 
 ---
 
-### T-2.4: Codex Health Report generator (20% creative)
+### T-3.3: Update manifest.json, scope.json, and navigation files
 
-**Description:** Create `_codex/scripts/health-report.py` — a unified script that runs all audits and meta-count checks, producing `_codex/reports/health.md`.
-
-**Features:**
-- Runs structure, link, and semantic audits (via their JSON reports)
-- Compares actual file counts vs claims in manifest.json, scope.json, llms.txt, SUMMARY.md
-- Checks last_verified freshness (flags >30 days stale)
-- Outputs markdown report with overall health score, category breakdown, specific discrepancies
-- Exit code 0 (healthy) or 1 (errors)
+**Description:** Update all meta files to register the new miparcel entity type and parcel lookup patterns:
+- `manifest.json` — add `miparcel` entity type (per SDD §9.1)
+- `_codex/data/scope.json` — add `miparcel` to tracks array (per SDD §9.2)
+- `CLAUDE.md` — add lookup patterns and directory layout entry
+- `SUMMARY.md` — add MiParcels section
+- `llms.txt` / `llms-full.txt` — add parcel lookup pattern
+- `fractures/miparcels.md` — replace "coming soon" with links to trait pages, add link to full section
 
 **Acceptance criteria:**
-- Script runs without errors: `python3 _codex/scripts/health-report.py`
-- Generates `_codex/reports/health.md` with readable output
-- After all Sprint 1+2 fixes, reports 100% healthy (or close, with only known-acceptable items flagged as INFO)
-- Script is stdlib-only Python (no PyYAML)
+- `manifest.json` has `miparcel` entity type with count 10,000
+- `scope.json` tracks `miparcel` as COMPLETE
+- CLAUDE.md has `miparcels/{NNNN}.md` lookup pattern and directory layout row
+- SUMMARY.md links to `miparcels/README.md`
+- No "coming soon" entries remain in `fractures/miparcels.md`
+- `_codex/scripts/audit-links.sh` passes (0 broken links)
 
 ---
 
-## Validation Checklist (end of cycle)
+### T-3.4: Final audit and validation
 
-- [ ] `audit-structure.sh` → 0 errors, 0 warnings
-- [ ] `audit-links.sh` → 0 broken links
-- [ ] `audit-semantic.py` → 8/8 pass
-- [ ] `health-report.py` → all checks pass
-- [ ] Manual: every count in manifest.json matches disk
-- [ ] No "article explores" or "article showcases" in trait files
-- [ ] CONTRIBUTING.md and CODEOWNERS exist
-- [ ] llms.txt mentions all entity types and data exports
+**Description:** Run the full codex audit suite to confirm everything is consistent:
+- Link audit (audit-links.sh)
+- Structure audit (audit-structure.sh)
+- Count reconciliation (manifest counts match disk reality)
+- Graph integrity (parcels-graph.json has expected node/edge counts)
+
+**Acceptance criteria:**
+- Link audit: 0 broken links
+- Structure audit: 0 errors for miparcel files
+- manifest.json miparcel count matches `find miparcels -name "*.md" ! -name "README.md" | wc -l`
+- parcels-graph.json metadata counts match actual node/edge arrays
+- Health report (`_codex/reports/health.md`) updated with MiParcels status
+
+---
+
+## Summary
+
+| Sprint | Tasks | Focus |
+|--------|-------|-------|
+| 1 | T-1.1, T-1.2, T-1.3 | Scrawl mapping + schema + generator with sample validation |
+| 2 | T-2.1, T-2.2, T-2.3 | Full 10K generation + validation |
+| 3 | T-3.1, T-3.2, T-3.3, T-3.4 | Mibera backlinks + meta integration + final audit |
+
+**Critical path:** Sprint 1 (scrawl map) → Sprint 2 (generation) → Sprint 3 (backlinks). Strictly sequential — each sprint depends on the previous.
+
+**Items flagged for user review:**
+- Big Nig's House cultural context in `normal-addys.md` (T-2.3)
+- Puruhani and Tsuheji character lore — may need user input (T-2.3)

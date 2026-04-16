@@ -501,11 +501,12 @@
     {
       "id": "cycle-021",
       "label": "Codex Quality & Maintenance",
-      "status": "active",
+      "status": "archived",
       "created": "2026-04-05",
-      "prd": "grimoires/loa/prd.md",
-      "sdd": "grimoires/loa/sdd.md",
-      "sprint_plan": "grimoires/loa/sprint.md",
+      "archived": "2026-04-16",
+      "prd": "grimoires/loa/archive/cycle-021/prd.md",
+      "sdd": "grimoires/loa/archive/cycle-021/sdd.md",
+      "sprint_plan": "grimoires/loa/archive/cycle-021/sprint.md",
       "sprints": [
         {
           "id": "sprint-1",
@@ -523,10 +524,43 @@
         }
       ],
       "sprint_count": 2
+    },
+    {
+      "id": "cycle-022",
+      "label": "MiParcels — 10K Parcel Entries & Trait Documentation",
+      "status": "active",
+      "created": "2026-04-16",
+      "prd": "grimoires/loa/prd.md",
+      "sdd": "grimoires/loa/sdd.md",
+      "sprint_plan": "grimoires/loa/sprint.md",
+      "sprints": [
+        {
+          "id": "sprint-1",
+          "global_id": 37,
+          "label": "Scrawl Mapping & Generator Foundation",
+          "status": "complete",
+          "tasks": 3
+        },
+        {
+          "id": "sprint-2",
+          "global_id": 38,
+          "label": "Full 10K Generation",
+          "status": "complete",
+          "tasks": 3
+        },
+        {
+          "id": "sprint-3",
+          "global_id": 39,
+          "label": "Mibera Backlinks & Meta Integration",
+          "status": "complete",
+          "tasks": 4
+        }
+      ],
+      "sprint_count": 3
     }
   ],
-  "active_cycle": "cycle-021",
+  "active_cycle": "cycle-022",
   "active_bugfix": null,
-  "global_sprint_counter": 36,
+  "global_sprint_counter": 39,
   "bugfix_cycles": []
 }

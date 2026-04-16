@@ -26,6 +26,8 @@ Traits are signals, not scripts. A Mibera born in 1352 CE with a Greek ancestor 
 ## Lookup Patterns
 
 - **Mibera by ID**: `miberas/{NNNN}.md` (zero-padded 4 digits: #42 → `miberas/0042.md`)
+- **MiParcel by ID**: `miparcels/{NNNN}.md` (zero-padded 4 digits: #42 → `miparcels/0042.md`)
+- **Parcel trait**: `miparcels/traits/{category-slug}.md`
 - **Trait by name**: slugify the name, find subcategory in `manifest.json`, read `traits/{subcategory}/{slug}.md`
 - **Browse by dimension**: `browse/by-{archetype|ancestor|drug|era|element|swag-rank|tarot}.md`
 - **Drug by name**: `traits/overlays/molecules/{slug}.md`
@@ -47,7 +49,7 @@ Traits are signals, not scripts. A Mibera born in 1352 CE with a Greek ancestor 
 
 Reference `_codex/data/scope.json` for programmatic scope.
 
-**What the codex tracks**: 10,000 Miberas, 43 Grails (42 canonical + 1 creator community), 1,337 visual traits (incl. 78 drugs), 78 tarot cards, 33 ancestors, 10 birthday eras, 33 special collections, 11 Fractures, 12 Mibera Sets
+**What the codex tracks**: 10,000 Miberas, 10,000 MiParcels (Phase 1 reveal with 15 trait categories), 43 Grails (42 canonical + 1 creator community), 1,337 visual traits (incl. 78 drugs), 78 tarot cards, 33 ancestors, 10 birthday eras, 33 special collections, 11 Fractures, 12 Mibera Sets
 
 **What the codex does NOT track**: ownership/wallets, on-chain state (transfers, marketplace), community member identities, price/market data
 
@@ -73,6 +75,8 @@ Reference `_codex/data/scope.json` for programmatic scope.
 | Directory | Content | Count |
 |-----------|---------|-------|
 | `miberas/` | Individual Mibera files | 10,000 |
+| `miparcels/` | Individual MiParcel files | 10,000 |
+| `miparcels/traits/` | Parcel trait documentation (with cultural context) | 12 |
 | `traits/` | Visual trait files (20 subcategories) | 1,337 |
 | `traits/overlays/molecules/` | Drug/molecule documentation | 78 |
 | `core-lore/` | Archetypes, ancestors, tarot, philosophy | ~120 |

@@ -122,6 +122,18 @@
       "completeness": "COMPLETE",
       "completeness_note": "Unified system prompt — one voice, seven books",
       "last_verified": "2026-04-05"
+    },
+    "miparcel": {
+      "directory": "miparcels/",
+      "index": "miparcels/README.md",
+      "count": 10000,
+      "format": "yaml_frontmatter",
+      "naming": "{NNNN}.md (zero-padded 4-digit ID)",
+      "id_range": [1, 10000],
+      "fields": ["base", "normal_addys", "mibera_return_addy", "stamps", "scrawl", "scrawl_theme", "confetti", "confetti_second", "confetti_third", "confetti_fourth", "sticker1", "sticker1_second", "sticker2", "airmail", "uk_orange", "big_labels", "bigger_misc"],
+      "completeness": "COMPLETE",
+      "completeness_note": "All 10,000 MiParcels from Phase 1 reveal with 15 trait categories + derived scrawl_theme",
+      "last_verified": "2026-04-16"
     }
   },
   "browse": {
@@ -183,6 +195,7 @@
     "trait_full": "_codex/schema/trait-full.schema.json",
     "trait_minimal": "_codex/schema/trait-minimal.schema.json",
     "special_collection": "_codex/schema/special-collection.schema.json",
-    "grail": "_codex/schema/grail.schema.json"
+    "grail": "_codex/schema/grail.schema.json",
+    "miparcel": "_codex/schema/miparcel.schema.json"
   }
 }

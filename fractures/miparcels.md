@@ -22,8 +22,11 @@ Each parcel is generative — 10,000 unique combinations of layered visual eleme
 | Trait | Description |
 |-------|-------------|
 | [**Scrawl**](miparcels/scrawl.md) | Gumi's handwriting — 206 unique lore fragments inked directly onto the envelope |
-| **Stickers** | *(coming soon)* |
-| **Labels** | *(coming soon)* |
+| [**Stickers**](../miparcels/traits/stickers.md) | Character stickers — 78 designs across 3 slots featuring Jani, Akane, Nemu, Ruan, Kaori, Eun |
+| [**Labels**](../miparcels/traits/big-labels.md) | Shipping labels from the Grateful Dead House, Shulgin Foundation, and USPS |
+| [**All Traits →**](../miparcels/traits/README.md) | Full trait documentation (15 categories with cultural context) |
+
+**Full parcel entries:** [miparcels/](../miparcels/README.md) — 10,000 individual parcel files with trait data
 
 ---
 

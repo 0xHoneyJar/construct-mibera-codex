@@ -61,6 +61,12 @@
       "count": 12,
       "completeness": "COMPLETE",
       "note": "All 12 Mibera Set ERC-1155 tokens on Optimism with Arweave metadata"
+    },
+    {
+      "entity_type": "miparcel",
+      "count": 10000,
+      "completeness": "COMPLETE",
+      "note": "All 10,000 MiParcels (Phase 1 reveal) with 15 trait categories + derived scrawl_theme"
     }
   ],
   "does_not_track": [
