@@ -80,6 +80,21 @@
 
 ---
 
+## Beyond the 10K
+
+### [MiParcels →](../miparcels/README.md)
+*10,000 sealed envelopes from the Honey Road — the Phase 1 reveal. Stamps, stickers, scrawl, confetti, labels. Every parcel is a lore object.*
+
+[Browse parcel traits →](../miparcels/traits/README.md)
+
+### [Mibera Sets →](../mibera-sets/README.md)
+*12 Honey Road ERC-1155 tokens on Optimism — numbered sets, media artifacts, and the Supersetooor.*
+
+### [Fractures — Reveal Timeline →](../fractures/README.md)
+*10 reveal phases from sealed envelope to fully-realized Mibera. Each phase strips a layer, adds a layer, or transforms what came before.*
+
+---
+
 ## All Miberas
 
 [View complete index →](../miberas/README.md)
