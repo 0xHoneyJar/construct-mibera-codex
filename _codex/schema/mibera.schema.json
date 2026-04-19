@@ -191,6 +191,14 @@
       "description": "Associated drug",
       "x-codex-confidence": "canonical",
       "x-codex-source": "contract-metadata"
+    },
+    "parcel": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 10000,
+      "description": "Corresponding MiParcel ID (1:1 mapping)",
+      "x-codex-confidence": "canonical",
+      "x-codex-source": "id-mapping"
     }
   },
   "additionalProperties": false

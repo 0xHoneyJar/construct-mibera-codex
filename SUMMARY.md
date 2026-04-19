@@ -102,6 +102,8 @@
   * [Honey Road Posters](mibera-sets/honey-road-posters.md)
   * [Honey Road Video](mibera-sets/honey-road-video.md)
   * [Honey Road Supersetooor](mibera-sets/honey-road-supersetooor.md)
+* [MiParcels — 10K Parcel Entries](miparcels/README.md)
+  * [Parcel Traits](miparcels/traits/README.md)
 * [Fractures — Reveal Timeline](fractures/README.md)
   * [MiParcels](fractures/miparcels.md)
   * [Miladies](fractures/miladies.md)

@@ -23,6 +23,7 @@
 | VM Exclusive Trait | vending-machine/**/*.md | 102 | YAML frontmatter |
 | Grail | grails/{slug}.md | 43 | YAML frontmatter |
 | Mibera Set | mibera-sets/{slug}.md | 12 | YAML frontmatter |
+| MiParcel | miparcels/{0001-10000}.md | 10,000 | YAML frontmatter |
 | Fracture | fractures/*.md | 11 | YAML frontmatter |
 | Oracle | oracle/oracle.md | 1 | System prompt markdown |
 
@@ -35,6 +36,9 @@
 1. Read `manifest.json` → find subcategory path
 2. Slugify the name: "Golden Hoop" → `golden-hoop.md`
 3. Read `traits/{subcategory}/{slug}.md`
+
+### Find a MiParcel by ID
+1. Read `miparcels/{ID}.md` (zero-padded 4 digits: #42 → `miparcels/0042.md`)
 
 ### Find all Miberas with a given trait
 1. Read `browse/by-{dimension}.md` for grouped listings

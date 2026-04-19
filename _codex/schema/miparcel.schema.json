@@ -1,0 +1,162 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "miparcel.schema.json",
+  "title": "MiParcel Entry",
+  "description": "Schema for MiParcel YAML frontmatter (miparcels/NNNN.md)",
+  "x-codex-meta": {
+    "entity_type": "miparcel",
+    "confidence_profile": "15/16 canonical, 1 derived (scrawl_theme)",
+    "primary_source": "parcelsMetadataFinal",
+    "last_verified": "2026-04-16"
+  },
+  "type": "object",
+  "required": [
+    "id", "type", "base", "normal_addys", "mibera_return_addy",
+    "stamps", "scrawl", "scrawl_theme", "confetti",
+    "image", "ipfs_image"
+  ],
+  "properties": {
+    "id": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 10000,
+      "description": "MiParcel numeric ID (1-10000, maps 1:1 to Mibera ID)",
+      "x-codex-confidence": "canonical",
+      "x-codex-source": "parcelsMetadataFinal"
+    },
+    "type": {
+      "const": "miparcel",
+      "description": "Entity type discriminator",
+      "x-codex-confidence": "canonical",
+      "x-codex-source": "parcelsMetadataFinal"
+    },
+    "base": {
+      "type": "string",
+      "description": "Base parcel envelope design (Parcel 1-24)",
+      "x-codex-confidence": "canonical",
+      "x-codex-source": "parcelsMetadataFinal"
+    },
+    "normal_addys": {
+      "type": "string",
+      "description": "Delivery address label",
+      "x-codex-confidence": "canonical",
+      "x-codex-source": "parcelsMetadataFinal"
+    },
+    "mibera_return_addy": {
+      "type": "string",
+      "description": "Return address handwriting style",
+      "x-codex-confidence": "canonical",
+      "x-codex-source": "parcelsMetadataFinal"
+    },
+    "stamps": {
+      "type": "string",
+      "description": "Postage stamp design",
+      "x-codex-confidence": "canonical",
+      "x-codex-source": "parcelsMetadataFinal"
+    },
+    "scrawl": {
+      "type": "string",
+      "description": "Handwritten lore fragment text",
+      "x-codex-confidence": "canonical",
+      "x-codex-source": "parcelsMetadataFinal"
+    },
+    "scrawl_theme": {
+      "type": "string",
+      "enum": [
+        "Rave & K-Hole",
+        "Milady-Mibera Duality",
+        "Cosmology",
+        "Lore Figures",
+        "The Choose Manifesto",
+        "Refusal",
+        "Kaironic Time",
+        "Love Letters",
+        "True Names & Identity",
+        "Mission & Rescue"
+      ],
+      "description": "Thematic cluster for the scrawl text (derived from scrawl-theme-map.json)",
+      "x-codex-confidence": "derived",
+      "x-codex-source": "scrawl-theme-map.json"
+    },
+    "confetti": {
+      "type": "string",
+      "description": "Primary confetti layer design",
+      "x-codex-confidence": "canonical",
+      "x-codex-source": "parcelsMetadataFinal"
+    },
+    "confetti_second": {
+      "type": "string",
+      "description": "Second confetti layer (optional)",
+      "x-codex-confidence": "canonical",
+      "x-codex-source": "parcelsMetadataFinal"
+    },
+    "confetti_third": {
+      "type": "string",
+      "description": "Third confetti layer (optional)",
+      "x-codex-confidence": "canonical",
+      "x-codex-source": "parcelsMetadataFinal"
+    },
+    "confetti_fourth": {
+      "type": "string",
+      "description": "Fourth confetti layer (optional)",
+      "x-codex-confidence": "canonical",
+      "x-codex-source": "parcelsMetadataFinal"
+    },
+    "sticker1": {
+      "type": "string",
+      "description": "Primary sticker (optional)",
+      "x-codex-confidence": "canonical",
+      "x-codex-source": "parcelsMetadataFinal"
+    },
+    "sticker1_second": {
+      "type": "string",
+      "description": "Secondary variant of sticker1 (optional)",
+      "x-codex-confidence": "canonical",
+      "x-codex-source": "parcelsMetadataFinal"
+    },
+    "sticker2": {
+      "type": "string",
+      "description": "Second sticker slot (optional)",
+      "x-codex-confidence": "canonical",
+      "x-codex-source": "parcelsMetadataFinal"
+    },
+    "airmail": {
+      "type": "string",
+      "description": "International airmail label (optional)",
+      "x-codex-confidence": "canonical",
+      "x-codex-source": "parcelsMetadataFinal"
+    },
+    "uk_orange": {
+      "type": "string",
+      "description": "Royal Mail Return To Sender sticker (optional)",
+      "x-codex-confidence": "canonical",
+      "x-codex-source": "parcelsMetadataFinal"
+    },
+    "big_labels": {
+      "type": "string",
+      "description": "Large shipping label (optional)",
+      "x-codex-confidence": "canonical",
+      "x-codex-source": "parcelsMetadataFinal"
+    },
+    "bigger_misc": {
+      "type": "string",
+      "description": "Larger miscellaneous visual element (optional)",
+      "x-codex-confidence": "canonical",
+      "x-codex-source": "parcelsMetadataFinal"
+    },
+    "image": {
+      "type": "string",
+      "format": "uri",
+      "description": "S3 image URL",
+      "x-codex-confidence": "canonical",
+      "x-codex-source": "parcelsMetadataFinal"
+    },
+    "ipfs_image": {
+      "type": "string",
+      "description": "IPFS image URI",
+      "x-codex-confidence": "canonical",
+      "x-codex-source": "parcelsMetadataFinal"
+    }
+  },
+  "additionalProperties": false
+}
