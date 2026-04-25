@@ -11,25 +11,19 @@ Originally developed in the micodex-images repo (github.com/0xHoneyJar/micodex-i
 Copied into the codex at _codex/scripts/ during Cycle 019 (Trait Image Embedding)
 so that future sessions can generate images without needing the external repo.
 
-Source files (not checked into this repo):
-    Templates:  ~/Downloads/micodex images/  (arms.PNG, body.PNG, background.PNG — 1848x2500)
-    Layers:     ~/Desktop/Mibera_ Actually Final/  (main trait layers, z-indexed folders)
-    VM layers:  ~/Downloads/Mibera_ Actually Final/new stuff for da vm/
+Inputs:
+    Templates:  _codex/assets/templates/  (arms.PNG, body.PNG, background.PNG — 1848x2500, bundled)
+    Trait layers: an external directory you supply via --traits, organized by
+                  z-indexed folders (e.g. `eyes__z69/`) — not checked into this repo.
 
 Output is uploaded to s3://mibera/traits/ and embedded into codex entries
 by _codex/scripts/embed-images.py.
 
 Usage:
+    # Templates default to the bundled _codex/assets/templates/ dir; only --traits and --output are required.
     python3 _codex/scripts/micodex-assembler.py \\
-        --templates "~/Downloads/micodex images" \\
-        --traits "~/Desktop/Mibera_ Actually Final" \\
-        --output "~/micodex-images/output"
-
-    # VM-only layers:
-    python3 _codex/scripts/micodex-assembler.py \\
-        --templates "~/Downloads/micodex images" \\
-        --traits "~/Downloads/Mibera_ Actually Final/new stuff for da vm" \\
-        --output "/tmp/vm-images"
+        --traits /path/to/trait-layers \\
+        --output /path/to/output-dir
 
 Dependencies:
     pip install Pillow tqdm
@@ -485,18 +479,23 @@ def main() -> int:
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 Examples:
-    python micodex_assembler.py \\
-        --templates "/Users/gumi/Downloads/micodex images" \\
-        --traits "/Users/gumi/Desktop/Mibera_ Actually Final" \\
-        --output "./output"
+    python micodex-assembler.py \\
+        --traits /path/to/trait-layers \\
+        --output ./output
+
+    # Override the bundled templates directory:
+    python micodex-assembler.py \\
+        --templates /path/to/custom-templates \\
+        --traits /path/to/trait-layers \\
+        --output ./output
 """,
     )
     parser.add_argument(
         "--templates",
         "-t",
         type=Path,
-        required=True,
-        help="Directory containing arms.PNG, body.PNG, background.PNG",
+        default=Path(__file__).resolve().parent.parent / "assets" / "templates",
+        help="Directory containing arms.PNG, body.PNG, background.PNG (default: _codex/assets/templates)",
     )
     parser.add_argument(
         "--traits",
