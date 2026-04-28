@@ -33,8 +33,45 @@ Run from the repo root:
 
 | Script | Description |
 |--------|-------------|
-| `embed-images.py` | Map S3-hosted trait images to codex entries, update `image:` frontmatter and insert inline `<img>` HTML. Reads from `s3://mibera/traits/`, outputs report to `reports/image-embed-report.json` |
-| `micodex-assembler.py` | Composite trait layer PNGs onto template images (background, body, arms) to produce final character portraits as WebP. Requires **Pillow** and **tqdm** (`pip install Pillow tqdm`). See script header for template/layer file locations. Originally from [micodex-images](https://github.com/0xHoneyJar/micodex-images) |
+| `micodex-assembler.py` | Composite trait layer PNGs onto bundled template images (background, body, arms) to produce final character portraits as WebP. Requires **Pillow** and **tqdm** (`pip install Pillow tqdm`). Originally from [micodex-images](https://github.com/0xHoneyJar/micodex-images). |
+| `embed-images.py` | Map assembled `.webp` trait images to codex entries, update `image:` frontmatter and insert inline `<img>` HTML pointing at `s3://mibera/traits/`. Outputs report to `reports/image-embed-report.json`. |
+
+### Image Pipeline — End to End
+
+The codex uses a three-stage pipeline: **assemble → upload → embed**.
+
+**Stage 0 — Inputs (what you need locally)**
+
+- **Templates** (bundled): `_codex/assets/templates/` holds `background.PNG`, `body.PNG`, `arms.PNG` (1848×2500). You do not need to supply these.
+- **Trait layers** (external — not in this repo): a directory of trait PNGs organized in z-indexed subfolders, e.g. `eyes__z69/`, `hair__z85/`. File naming drives slug matching in `embed-images.py`. Ask a maintainer for the current layer archive if you don't already have it.
+
+**Stage 1 — Assemble**
+
+```bash
+python3 _codex/scripts/micodex-assembler.py \
+  --traits /path/to/trait-layers \
+  --output /path/to/output-dir
+```
+
+Produces one `.webp` per trait in `--output`.
+
+**Stage 2 — Upload to S3**
+
+```bash
+aws s3 sync /path/to/output-dir s3://mibera/traits/ --content-type "image/webp"
+```
+
+Bucket is public-read; canonical URL is `https://mibera.s3.amazonaws.com/traits/{url_encoded_filename}.webp`.
+
+**Stage 3 — Embed into codex**
+
+```bash
+python3 _codex/scripts/embed-images.py --images /path/to/output-dir
+# or: MICODEX_IMAGE_DIR=/path/to/output-dir python3 _codex/scripts/embed-images.py
+# use --dry-run to preview without writing
+```
+
+Updates `image:` frontmatter and inline `<img>` tags across matching trait/ancestor/element/etc. entries. Report written to `_codex/scripts/reports/image-embed-report.json`.
 
 ## Data Maintenance
 

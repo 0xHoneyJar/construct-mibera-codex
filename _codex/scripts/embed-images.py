@@ -3,12 +3,20 @@
 
 Cycle 019 — Trait Image Embedding — S3 Visual Layer
 
+Reads a directory of assembled .webp trait images (as produced by
+`micodex-assembler.py`), matches them to codex entries by slug, and embeds
+the corresponding S3 URL into each entry's frontmatter and body.
+
 Usage:
-    python3 _codex/scripts/embed-images.py [--dry-run]
+    python3 _codex/scripts/embed-images.py --images /path/to/assembled-images [--dry-run]
+
+    # Or via env var (useful in scripted pipelines):
+    MICODEX_IMAGE_DIR=/path/to/assembled-images python3 _codex/scripts/embed-images.py
 
 Stdlib-only. No external dependencies.
 """
 
+import argparse
 import os
 import re
 import sys
@@ -17,10 +25,8 @@ from urllib.parse import quote
 from pathlib import Path
 
 CODEX_ROOT = Path(__file__).resolve().parent.parent.parent
-IMAGE_DIR = Path("/Users/gumi/micodex-images/output")
 S3_BASE = "https://mibera.s3.amazonaws.com/traits"
-
-DRY_RUN = "--dry-run" in sys.argv
+DRY_RUN = False
 
 # --- Known constants ---
 
@@ -352,11 +358,32 @@ def insert_astrology_images(content, sign):
 
 
 def main():
+    parser = argparse.ArgumentParser(
+        description="Embed S3-hosted trait images into codex markdown files.",
+    )
+    parser.add_argument(
+        "--images",
+        type=Path,
+        default=Path(os.environ.get("MICODEX_IMAGE_DIR", "")) if os.environ.get("MICODEX_IMAGE_DIR") else None,
+        help="Directory of assembled .webp images (or set MICODEX_IMAGE_DIR)",
+    )
+    parser.add_argument("--dry-run", action="store_true", help="Preview changes without writing")
+    args, _ = parser.parse_known_args()
+
+    if args.images is None or not args.images.is_dir():
+        print("ERROR: --images directory is required (or set MICODEX_IMAGE_DIR)", file=sys.stderr)
+        print("       Point it at the output dir produced by micodex-assembler.py.", file=sys.stderr)
+        return 1
+
+    global DRY_RUN
+    DRY_RUN = args.dry_run or "--dry-run" in sys.argv
+    image_dir = args.images
+
     slug_index = build_slug_index()
     print(f"Slug index: {len(slug_index)} entries")
 
     # Collect all images
-    images = sorted(f for f in os.listdir(IMAGE_DIR) if f.endswith(".webp"))
+    images = sorted(f for f in os.listdir(image_dir) if f.endswith(".webp"))
     print(f"Images found: {len(images)}")
 
     matched = []
@@ -522,4 +549,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    sys.exit(main() or 0)
