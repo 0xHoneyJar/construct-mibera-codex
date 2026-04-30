@@ -1,12 +1,12 @@
 ---
 name: Cypherpunk 2
-image: "https://mibera.s3.amazonaws.com/traits/SS1_Cypherpunk%202.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/SS1_Cypherpunk%202.webp"
 swag_score: 1
 date_added: "2024-07-17"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS1_Cypherpunk%202.webp" alt="Cypherpunk 2" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/SS1_Cypherpunk%202.webp" alt="Cypherpunk 2" width="320" />
 </div>
 
 

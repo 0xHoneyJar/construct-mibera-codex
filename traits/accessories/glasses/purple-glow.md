@@ -1,13 +1,13 @@
 ---
 name: Purple Glow
-image: "https://mibera.s3.amazonaws.com/traits/chicagodetroit_Purple%20Glow.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/chicagodetroit_Purple%20Glow.webp"
 archetype: Chicago Detroit
 swag_score: 2
 date_added: "2024-06-18"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/chicagodetroit_Purple%20Glow.webp" alt="Purple Glow" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/chicagodetroit_Purple%20Glow.webp" alt="Purple Glow" width="320" />
 </div>
 
 

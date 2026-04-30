@@ -61,7 +61,7 @@ Produces one `.webp` per trait in `--output`.
 aws s3 sync /path/to/output-dir s3://mibera/traits/ --content-type "image/webp"
 ```
 
-Bucket is public-read; canonical URL is `https://mibera.s3.amazonaws.com/traits/{url_encoded_filename}.webp`.
+Bucket is public-read; canonical URL is `https://assets.0xhoneyjar.xyz/Mibera/traits/{url_encoded_filename}.webp`.
 
 **Stage 3 — Embed into codex**
 

@@ -1,12 +1,12 @@
 ---
 name: Without Fear Without Hate
-image: "https://mibera.s3.amazonaws.com/traits/modern_punjabi_Without%20Fear%20Without%20Hate.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/modern_punjabi_Without%20Fear%20Without%20Hate.webp"
 swag_score: null
 date_added: "2024-08-09"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/modern_punjabi_Without%20Fear%20Without%20Hate.webp" alt="Without Fear Without Hate" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/modern_punjabi_Without%20Fear%20Without%20Hate.webp" alt="Without Fear Without Hate" width="320" />
 </div>
 
 

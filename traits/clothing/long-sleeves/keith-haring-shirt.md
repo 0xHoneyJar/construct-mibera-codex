@@ -1,13 +1,13 @@
 ---
 name: Keith Haring Shirt
-image: "https://mibera.s3.amazonaws.com/traits/SS3_chicagodetroit_Keith%20Haring%20Shirt.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/SS3_chicagodetroit_Keith%20Haring%20Shirt.webp"
 archetype: Chicago Detroit
 swag_score: 3
 date_added: "2024-12-10"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS3_chicagodetroit_Keith%20Haring%20Shirt.webp" alt="Keith Haring Shirt" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/SS3_chicagodetroit_Keith%20Haring%20Shirt.webp" alt="Keith Haring Shirt" width="320" />
 </div>
 
 

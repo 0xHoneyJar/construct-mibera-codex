@@ -1,13 +1,13 @@
 ---
 name: Buddhist Techno
-image: "https://mibera.s3.amazonaws.com/traits/SS4_acidhouse_buddhist%20techno.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/SS4_acidhouse_buddhist%20techno.webp"
 archetype: Acidhouse
 swag_score: 4
 date_added: "2024-12-10"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS4_acidhouse_buddhist%20techno.webp" alt="Buddhist Techno" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/SS4_acidhouse_buddhist%20techno.webp" alt="Buddhist Techno" width="320" />
 </div>
 
 

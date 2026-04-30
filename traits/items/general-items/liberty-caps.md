@@ -1,13 +1,13 @@
 ---
 name: liberty caps
-image: "https://mibera.s3.amazonaws.com/traits/SS2_acidhouse_Liberty%20Caps.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/SS2_acidhouse_Liberty%20Caps.webp"
 archetype: Acidhouse
 swag_score: 2
 date_added: "2024-07-06"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS2_acidhouse_Liberty%20Caps.webp" alt="Liberty Caps" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/SS2_acidhouse_Liberty%20Caps.webp" alt="Liberty Caps" width="320" />
 </div>
 
 

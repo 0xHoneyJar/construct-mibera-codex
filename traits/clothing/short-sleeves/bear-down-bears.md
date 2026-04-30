@@ -1,13 +1,13 @@
 ---
 name: Bear Down Bears
-image: "https://mibera.s3.amazonaws.com/traits/SS3_chicagodetroit_Bear%20Down%20Bears.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/SS3_chicagodetroit_Bear%20Down%20Bears.webp"
 archetype: Chicago Detroit
 swag_score: 3
 date_added: "2024-06-22"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS3_chicagodetroit_Bear%20Down%20Bears.webp" alt="Bear Down Bears" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/SS3_chicagodetroit_Bear%20Down%20Bears.webp" alt="Bear Down Bears" width="320" />
 </div>
 
 

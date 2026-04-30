@@ -1,12 +1,12 @@
 ---
 name: HTRK Night Faces
-image: "https://mibera.s3.amazonaws.com/traits/SS3_HTRK%20Night%20Faces.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/SS3_HTRK%20Night%20Faces.webp"
 swag_score: 3
 date_added: "2025-01-02"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS3_HTRK%20Night%20Faces.webp" alt="Htrk Night Faces" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/SS3_HTRK%20Night%20Faces.webp" alt="Htrk Night Faces" width="320" />
 </div>
 
 

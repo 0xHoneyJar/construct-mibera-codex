@@ -1,13 +1,13 @@
 ---
 name: blue glow
-image: "https://mibera.s3.amazonaws.com/traits/chicagodetroit_Blue%20Glow.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/chicagodetroit_Blue%20Glow.webp"
 archetype: Chicago Detroit
 swag_score: 5
 date_added: "2024-06-18"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/chicagodetroit_Blue%20Glow.webp" alt="Blue Glow" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/chicagodetroit_Blue%20Glow.webp" alt="Blue Glow" width="320" />
 </div>
 
 

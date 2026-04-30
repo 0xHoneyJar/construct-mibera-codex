@@ -1,13 +1,13 @@
 ---
 name: A
 rank: A
-image: "https://mibera.s3.amazonaws.com/traits/A.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/A.webp"
 shape: Hexagonal
 color: Green / Lime Green
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/A.webp" alt="A" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/A.webp" alt="A" width="320" />
 </div>
 
 

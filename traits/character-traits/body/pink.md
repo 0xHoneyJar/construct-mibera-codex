@@ -1,11 +1,11 @@
 ---
 name: pink
-image: "https://mibera.s3.amazonaws.com/traits/pink.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/pink.webp"
 date_added: "2024-08-13"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/pink.webp" alt="Pink" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/pink.webp" alt="Pink" width="320" />
 </div>
 
 

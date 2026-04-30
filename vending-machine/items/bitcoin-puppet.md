@@ -2,11 +2,11 @@
 name: "Bitcoin Puppet"
 category: items
 from: ""
-image: "https://mibera.s3.amazonaws.com/traits/bitcoin%20puppet.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/bitcoin%20puppet.webp"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/bitcoin%20puppet.webp" alt="Bitcoin Puppet" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/bitcoin%20puppet.webp" alt="Bitcoin Puppet" width="320" />
 </div>
 
 

@@ -2,11 +2,11 @@
 name: "Devastated"
 category: eyes
 from: ""
-image: "https://mibera.s3.amazonaws.com/traits/devastated.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/devastated.webp"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/devastated.webp" alt="Devastated" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/devastated.webp" alt="Devastated" width="320" />
 </div>
 
 

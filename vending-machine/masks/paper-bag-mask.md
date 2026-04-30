@@ -2,11 +2,11 @@
 name: "Paper Bag Mask"
 category: masks
 from: ""
-image: "https://mibera.s3.amazonaws.com/traits/paper%20bag%20mask.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/paper%20bag%20mask.webp"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/paper%20bag%20mask.webp" alt="Paper Bag Mask" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/paper%20bag%20mask.webp" alt="Paper Bag Mask" width="320" />
 </div>
 
 

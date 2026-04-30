@@ -1,12 +1,12 @@
 ---
 name: Autism and a Gun
-image: "https://mibera.s3.amazonaws.com/traits/SS1_Autism%20and%20a%20Gun.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/SS1_Autism%20and%20a%20Gun.webp"
 swag_score: 1
 date_added: "2024-07-22"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS1_Autism%20and%20a%20Gun.webp" alt="Autism And A Gun" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/SS1_Autism%20and%20a%20Gun.webp" alt="Autism And A Gun" width="320" />
 </div>
 
 

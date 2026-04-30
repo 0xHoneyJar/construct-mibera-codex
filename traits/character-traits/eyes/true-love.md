@@ -1,11 +1,11 @@
 ---
 name: true love
-image: "https://mibera.s3.amazonaws.com/traits/True%20Love.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/True%20Love.webp"
 date_added: "2024-06-03"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS2_milady_True%20Love.webp" alt="True Love" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/SS2_milady_True%20Love.webp" alt="True Love" width="320" />
 </div>
 
 

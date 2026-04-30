@@ -1,13 +1,13 @@
 ---
 name: Black Turtleneck
-image: "https://mibera.s3.amazonaws.com/traits/SS2_chicagodetroit_Black%20Turtleneck.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/SS2_chicagodetroit_Black%20Turtleneck.webp"
 archetype: Chicago Detroit
 swag_score: 2
 date_added: "2024-06-25"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS2_chicagodetroit_Black%20Turtleneck.webp" alt="Black Turtleneck" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/SS2_chicagodetroit_Black%20Turtleneck.webp" alt="Black Turtleneck" width="320" />
 </div>
 
 

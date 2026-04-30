@@ -1,13 +1,13 @@
 ---
 name: FTX Risk Management
-image: "https://mibera.s3.amazonaws.com/traits/SS1_acidhouse_FTX%20Risk%20Management.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/SS1_acidhouse_FTX%20Risk%20Management.webp"
 archetype: Acidhouse
 swag_score: 1
 date_added: "2024-07-26"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS1_acidhouse_FTX%20Risk%20Management.webp" alt="Ftx Risk Management" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/SS1_acidhouse_FTX%20Risk%20Management.webp" alt="Ftx Risk Management" width="320" />
 </div>
 
 

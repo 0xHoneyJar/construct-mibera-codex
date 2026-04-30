@@ -1,13 +1,13 @@
 ---
 name: Day Glowstick
-image: "https://mibera.s3.amazonaws.com/traits/SS1_acidhouse_Day%20Glowstick.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/SS1_acidhouse_Day%20Glowstick.webp"
 archetype: Acidhouse
 swag_score: 1
 date_added: "2023-11-28"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS1_acidhouse_Day%20Glowstick.webp" alt="Day Glowstick" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/SS1_acidhouse_Day%20Glowstick.webp" alt="Day Glowstick" width="320" />
 </div>
 
 

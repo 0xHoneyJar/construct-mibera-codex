@@ -2,11 +2,11 @@
 name: Satoshi Nakamoto
 swag_score: 5
 date_added: null
-image: "https://mibera.s3.amazonaws.com/traits/SS5_cypherpunk_Satoshi%20Nakamoto.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/SS5_cypherpunk_Satoshi%20Nakamoto.webp"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS5_cypherpunk_Satoshi%20Nakamoto.webp" alt="Satoshi Nakamoto" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/SS5_cypherpunk_Satoshi%20Nakamoto.webp" alt="Satoshi Nakamoto" width="320" />
 </div>
 
 

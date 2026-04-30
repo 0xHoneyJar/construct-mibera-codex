@@ -2,11 +2,11 @@
 name: Colorful
 swag_score: 4
 date_added: null
-image: "https://mibera.s3.amazonaws.com/traits/milady_Colorful.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/milady_Colorful.webp"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/milady_Colorful.webp" alt="Colorful" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/milady_Colorful.webp" alt="Colorful" width="320" />
 </div>
 
 

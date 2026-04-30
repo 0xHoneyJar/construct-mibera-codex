@@ -1,13 +1,13 @@
 ---
 name: Homemade Bee Mask
-image: "https://mibera.s3.amazonaws.com/traits/SS3_milady_Homemade%20Bee%20Mask.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/SS3_milady_Homemade%20Bee%20Mask.webp"
 archetype: Milady
 swag_score: 3
 date_added: "2024-07-27"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS3_milady_Homemade%20Bee%20Mask.webp" alt="Homemade Bee Mask" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/SS3_milady_Homemade%20Bee%20Mask.webp" alt="Homemade Bee Mask" width="320" />
 </div>
 
 

@@ -1,13 +1,13 @@
 ---
 name: Aum Headwear
-image: "https://mibera.s3.amazonaws.com/traits/SS3_acidhouse_modern_japanese_Aum%20Headwear.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/SS3_acidhouse_modern_japanese_Aum%20Headwear.webp"
 archetype: Acidhouse
 swag_score: 3
 date_added: "2024-07-24"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS3_acidhouse_modern_japanese_Aum%20Headwear.webp" alt="Aum Headwear" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/SS3_acidhouse_modern_japanese_Aum%20Headwear.webp" alt="Aum Headwear" width="320" />
 </div>
 
 

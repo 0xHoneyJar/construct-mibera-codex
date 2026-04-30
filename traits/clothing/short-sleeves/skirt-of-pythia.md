@@ -1,13 +1,13 @@
 ---
 name: Skirt of Pythia
-image: "https://mibera.s3.amazonaws.com/traits/SS3_acidhouse_ancient_pythia_Skirt%20Of%20Pythia.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/SS3_acidhouse_ancient_pythia_Skirt%20Of%20Pythia.webp"
 archetype: Acidhouse
 swag_score: 3
 date_added: "2025-03-13"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS3_acidhouse_ancient_pythia_Skirt%20Of%20Pythia.webp" alt="Skirt Of Pythia" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/SS3_acidhouse_ancient_pythia_Skirt%20Of%20Pythia.webp" alt="Skirt Of Pythia" width="320" />
 </div>
 
 

@@ -1,12 +1,12 @@
 ---
 name: Hugs Not Drugs
-image: "https://mibera.s3.amazonaws.com/traits/SS2_Hugs%20Not%20Drugs.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/SS2_Hugs%20Not%20Drugs.webp"
 swag_score: 2
 date_added: "2024-12-10"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS2_Hugs%20Not%20Drugs.webp" alt="Hugs Not Drugs" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/SS2_Hugs%20Not%20Drugs.webp" alt="Hugs Not Drugs" width="320" />
 </div>
 
 

@@ -1,12 +1,12 @@
 ---
 name: Filipino Tribal
-image: "https://mibera.s3.amazonaws.com/traits/Filipino%20Tribal.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/Filipino%20Tribal.webp"
 swag_score: null
 date_added: "2024-08-06"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/Filipino%20Tribal.webp" alt="Filipino Tribal" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/Filipino%20Tribal.webp" alt="Filipino Tribal" width="320" />
 </div>
 
 

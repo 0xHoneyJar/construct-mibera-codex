@@ -1,13 +1,13 @@
 ---
 name: SSS
 rank: SSS
-image: "https://mibera.s3.amazonaws.com/traits/SSS.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/SSS.webp"
 shape: Bear Head
 color: a vibrant shade of bright purple
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SSS.webp" alt="Sss" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/SSS.webp" alt="Sss" width="320" />
 </div>
 
 

@@ -1,12 +1,12 @@
 ---
 name: come and take it
-image: "https://mibera.s3.amazonaws.com/traits/SS2_Come%20and%20Take%20It.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/SS2_Come%20and%20Take%20It.webp"
 swag_score: 2
 date_added: "2024-07-16"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS2_Come%20and%20Take%20It.webp" alt="Come And Take It" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/SS2_Come%20and%20Take%20It.webp" alt="Come And Take It" width="320" />
 </div>
 
 

@@ -1,12 +1,12 @@
 ---
 name: DARE Memecoins
-image: "https://mibera.s3.amazonaws.com/traits/SS3_%20DARE%20Memecoins.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/SS3_%20DARE%20Memecoins.webp"
 swag_score: 3
 date_added: "2024-06-08"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS3_%20DARE%20Memecoins.webp" alt="Dare Memecoins" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/SS3_%20DARE%20Memecoins.webp" alt="Dare Memecoins" width="320" />
 </div>
 
 

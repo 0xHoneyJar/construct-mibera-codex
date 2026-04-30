@@ -1,13 +1,13 @@
 ---
 name: Backwards
-image: "https://mibera.s3.amazonaws.com/traits/SS2_milady_Backwards.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/SS2_milady_Backwards.webp"
 archetype: Milady
 swag_score: 2
 date_added: "2024-07-24"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS2_milady_Backwards.webp" alt="Backwards" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/SS2_milady_Backwards.webp" alt="Backwards" width="320" />
 </div>
 
 

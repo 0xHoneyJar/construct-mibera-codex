@@ -2,11 +2,11 @@
 name: "SNL Photo"
 category: items
 from: ""
-image: "https://mibera.s3.amazonaws.com/traits/snl%20photo.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/snl%20photo.webp"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/snl%20photo.webp" alt="Snl Photo" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/snl%20photo.webp" alt="Snl Photo" width="320" />
 </div>
 
 

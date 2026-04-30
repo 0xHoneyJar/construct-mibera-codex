@@ -1,12 +1,12 @@
 ---
 name: henlo cash
-image: "https://mibera.s3.amazonaws.com/traits/SS5_Henlo%20Cash.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/SS5_Henlo%20Cash.webp"
 swag_score: 5
 date_added: "2024-07-24"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS5_Henlo%20Cash.webp" alt="Henlo Cash" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/SS5_Henlo%20Cash.webp" alt="Henlo Cash" width="320" />
 </div>
 
 

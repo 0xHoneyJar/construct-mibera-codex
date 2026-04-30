@@ -2,11 +2,11 @@
 name: "Smol Candy Cane"
 category: earrings
 from: ""
-image: "https://mibera.s3.amazonaws.com/traits/smol%20candy%20cane.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/smol%20candy%20cane.webp"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/smol%20candy%20cane.webp" alt="Smol Candy Cane" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/smol%20candy%20cane.webp" alt="Smol Candy Cane" width="320" />
 </div>
 
 

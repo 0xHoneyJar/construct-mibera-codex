@@ -1,13 +1,13 @@
 ---
 name: Aboriginal Flag
-image: "https://mibera.s3.amazonaws.com/traits/SS2_freetekno_Aboriginal%20Flag.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/SS2_freetekno_Aboriginal%20Flag.webp"
 archetype: Freetekno
 swag_score: 2
 date_added: "2024-07-24"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS2_freetekno_Aboriginal%20Flag.webp" alt="Aboriginal Flag" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/SS2_freetekno_Aboriginal%20Flag.webp" alt="Aboriginal Flag" width="320" />
 </div>
 
 

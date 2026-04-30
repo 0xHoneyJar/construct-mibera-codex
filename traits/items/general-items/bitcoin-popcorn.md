@@ -1,12 +1,12 @@
 ---
 name: bitcoin popcorn
-image: "https://mibera.s3.amazonaws.com/traits/SS5_bitcoin%20popcorn.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/SS5_bitcoin%20popcorn.webp"
 swag_score: 5
 date_added: "2025-03-28"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS5_bitcoin%20popcorn.webp" alt="Bitcoin Popcorn" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/SS5_bitcoin%20popcorn.webp" alt="Bitcoin Popcorn" width="320" />
 </div>
 
 

@@ -1,13 +1,13 @@
 ---
 name: Hat With Feathers
-image: "https://mibera.s3.amazonaws.com/traits/SS4_acidhouse_ancient_mongolian_Hat%20With%20Feathers.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/SS4_acidhouse_ancient_mongolian_Hat%20With%20Feathers.webp"
 archetype: Acidhouse
 swag_score: 4
 date_added: "2024-07-26"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS4_acidhouse_ancient_mongolian_Hat%20With%20Feathers.webp" alt="Hat With Feathers" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/SS4_acidhouse_ancient_mongolian_Hat%20With%20Feathers.webp" alt="Hat With Feathers" width="320" />
 </div>
 
 

@@ -1,13 +1,13 @@
 ---
 name: F
 rank: F
-image: "https://mibera.s3.amazonaws.com/traits/F.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/F.webp"
 shape: Panda
 color: "black, white, blue"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/F.webp" alt="F" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/F.webp" alt="F" width="320" />
 </div>
 
 

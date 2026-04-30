@@ -1,13 +1,13 @@
 ---
 name: Catboy Ears
-image: "https://mibera.s3.amazonaws.com/traits/SS3_milady_Catboy%20Ears.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/SS3_milady_Catboy%20Ears.webp"
 archetype: Milady
 swag_score: 3
 date_added: "2024-07-25"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS3_milady_Catboy%20Ears.webp" alt="Catboy Ears" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/SS3_milady_Catboy%20Ears.webp" alt="Catboy Ears" width="320" />
 </div>
 
 

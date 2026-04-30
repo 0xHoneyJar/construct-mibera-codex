@@ -1,13 +1,13 @@
 ---
 name: Small Bandage
-image: "https://mibera.s3.amazonaws.com/traits/SS1_milady_small%20bandage.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/SS1_milady_small%20bandage.webp"
 archetype: Milady
 swag_score: 1
 date_added: "2024-12-10"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS1_milady_small%20bandage.webp" alt="Small Bandage" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/SS1_milady_small%20bandage.webp" alt="Small Bandage" width="320" />
 </div>
 
 

@@ -1,12 +1,12 @@
 ---
 name: Milady Eyes Hand
-image: "https://mibera.s3.amazonaws.com/traits/Milady%20Eyes%20Hand.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/Milady%20Eyes%20Hand.webp"
 swag_score: null
 date_added: "2024-08-06"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/Milady%20Eyes%20Hand.webp" alt="Milady Eyes Hand" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/Milady%20Eyes%20Hand.webp" alt="Milady Eyes Hand" width="320" />
 </div>
 
 

@@ -1,13 +1,13 @@
 ---
 name: Maid
-image: "https://mibera.s3.amazonaws.com/traits/SS5_milady_Maid.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/SS5_milady_Maid.webp"
 archetype: Milady
 swag_score: 5
 date_added: "2024-06-05"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS5_milady_Maid.webp" alt="Maid" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/SS5_milady_Maid.webp" alt="Maid" width="320" />
 </div>
 
 

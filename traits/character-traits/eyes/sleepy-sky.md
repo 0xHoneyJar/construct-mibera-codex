@@ -1,11 +1,11 @@
 ---
 name: sleepy sky
-image: "https://mibera.s3.amazonaws.com/traits/Sleepy%20Sky.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/Sleepy%20Sky.webp"
 date_added: "2024-06-03"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/Sleepy%20Sky.webp" alt="Sleepy Sky" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/Sleepy%20Sky.webp" alt="Sleepy Sky" width="320" />
 </div>
 
 

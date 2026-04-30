@@ -1,11 +1,11 @@
 ---
 name: umber
-image: "https://mibera.s3.amazonaws.com/traits/umber.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/umber.webp"
 date_added: "2024-08-13"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/umber.webp" alt="Umber" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/umber.webp" alt="Umber" width="320" />
 </div>
 
 

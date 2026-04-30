@@ -1,12 +1,12 @@
 ---
 name: No Tattoos
-image: "https://mibera.s3.amazonaws.com/traits/No%20tattoos.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/No%20tattoos.webp"
 swag_score: null
 date_added: null
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/No%20tattoos.webp" alt="No Tattoos" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/No%20tattoos.webp" alt="No Tattoos" width="320" />
 </div>
 
 

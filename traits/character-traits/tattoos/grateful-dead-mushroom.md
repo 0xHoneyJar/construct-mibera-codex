@@ -1,12 +1,12 @@
 ---
 name: Grateful Dead Mushroom
-image: "https://mibera.s3.amazonaws.com/traits/Grateful%20Dead%20Mushroom.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/Grateful%20Dead%20Mushroom.webp"
 swag_score: null
 date_added: "2024-12-10"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/Grateful%20Dead%20Mushroom.webp" alt="Grateful Dead Mushroom" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/Grateful%20Dead%20Mushroom.webp" alt="Grateful Dead Mushroom" width="320" />
 </div>
 
 

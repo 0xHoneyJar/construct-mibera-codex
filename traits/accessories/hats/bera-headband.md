@@ -1,13 +1,13 @@
 ---
 name: Bera Headband
-image: "https://mibera.s3.amazonaws.com/traits/SS3_milady_Bera%20Headband.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/SS3_milady_Bera%20Headband.webp"
 archetype: Milady
 swag_score: 3
 date_added: "2024-07-25"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS3_milady_Bera%20Headband.webp" alt="Bera Headband" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/SS3_milady_Bera%20Headband.webp" alt="Bera Headband" width="320" />
 </div>
 
 

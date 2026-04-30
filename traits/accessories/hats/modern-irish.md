@@ -1,13 +1,13 @@
 ---
 name: Modern Irish
-image: "https://mibera.s3.amazonaws.com/traits/SS2_acidhouse_Modern%20Irish.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/SS2_acidhouse_Modern%20Irish.webp"
 archetype: Acidhouse
 swag_score: 2
 date_added: "2024-07-24"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS2_acidhouse_Modern%20Irish.webp" alt="Modern Irish" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/SS2_acidhouse_Modern%20Irish.webp" alt="Modern Irish" width="320" />
 </div>
 
 

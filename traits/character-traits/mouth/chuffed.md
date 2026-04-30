@@ -1,11 +1,11 @@
 ---
 name: chuffed
-image: "https://mibera.s3.amazonaws.com/traits/chuffed.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/chuffed.webp"
 date_added: "2024-06-05"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/chuffed.webp" alt="Chuffed" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/chuffed.webp" alt="Chuffed" width="320" />
 </div>
 
 

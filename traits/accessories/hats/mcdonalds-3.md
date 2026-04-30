@@ -1,12 +1,12 @@
 ---
 name: McDonalds 3
-image: "https://mibera.s3.amazonaws.com/traits/mcdonalds%203.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/mcdonalds%203.webp"
 swag_score: 4
 date_added: "2025-05-04"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/mcdonalds%203.webp" alt="Mcdonalds 3" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/mcdonalds%203.webp" alt="Mcdonalds 3" width="320" />
 </div>
 
 

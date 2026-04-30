@@ -1,13 +1,13 @@
 ---
 name: Seoul Olympics
-image: "https://mibera.s3.amazonaws.com/traits/SS3_acidhouse_Seoul%20Olympics.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/SS3_acidhouse_Seoul%20Olympics.webp"
 archetype: Acidhouse
 swag_score: 3
 date_added: "2024-12-10"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS3_acidhouse_Seoul%20Olympics.webp" alt="Seoul Olympics" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/SS3_acidhouse_Seoul%20Olympics.webp" alt="Seoul Olympics" width="320" />
 </div>
 
 

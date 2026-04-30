@@ -1,13 +1,13 @@
 ---
 name: glass of whiskey
-image: "https://mibera.s3.amazonaws.com/traits/SS2_chicagodetroit_glass%20of%20whiskey.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/SS2_chicagodetroit_glass%20of%20whiskey.webp"
 archetype: Chicago Detroit
 swag_score: 2
 date_added: "2025-01-16"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS2_chicagodetroit_glass%20of%20whiskey.webp" alt="Glass Of Whiskey" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/SS2_chicagodetroit_glass%20of%20whiskey.webp" alt="Glass Of Whiskey" width="320" />
 </div>
 
 

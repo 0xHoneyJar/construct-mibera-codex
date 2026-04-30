@@ -1,12 +1,12 @@
 ---
 name: Heart with Wings
-image: "https://mibera.s3.amazonaws.com/traits/modern_sufi_Heart%20with%20Wings.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/modern_sufi_Heart%20with%20Wings.webp"
 swag_score: null
 date_added: "2024-08-09"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/modern_sufi_Heart%20with%20Wings.webp" alt="Heart With Wings" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/modern_sufi_Heart%20with%20Wings.webp" alt="Heart With Wings" width="320" />
 </div>
 
 

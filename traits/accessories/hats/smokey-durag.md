@@ -1,12 +1,12 @@
 ---
 name: smokey durag
-image: "https://mibera.s3.amazonaws.com/traits/SS5_Smokey%20Durag.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/SS5_Smokey%20Durag.webp"
 swag_score: 5
 date_added: "2025-03-10"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS5_Smokey%20Durag.webp" alt="Smokey Durag" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/SS5_Smokey%20Durag.webp" alt="Smokey Durag" width="320" />
 </div>
 
 

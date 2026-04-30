@@ -1,12 +1,12 @@
 ---
 name: Tez Watermelon
-image: "https://mibera.s3.amazonaws.com/traits/SS4_tez%20watermelon.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/SS4_tez%20watermelon.webp"
 swag_score: 4
 date_added: "2025-03-11"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS4_tez%20watermelon.webp" alt="Tez Watermelon" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/SS4_tez%20watermelon.webp" alt="Tez Watermelon" width="320" />
 </div>
 
 

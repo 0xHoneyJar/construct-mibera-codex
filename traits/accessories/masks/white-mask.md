@@ -1,13 +1,13 @@
 ---
 name: White Mask
-image: "https://mibera.s3.amazonaws.com/traits/SS2_chicagodetroit_White%20Mask.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/SS2_chicagodetroit_White%20Mask.webp"
 archetype: Chicago Detroit
 swag_score: 2
 date_added: "2024-12-09"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS2_chicagodetroit_White%20Mask.webp" alt="White Mask" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/SS2_chicagodetroit_White%20Mask.webp" alt="White Mask" width="320" />
 </div>
 
 

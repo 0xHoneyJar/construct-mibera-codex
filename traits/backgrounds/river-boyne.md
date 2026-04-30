@@ -1,11 +1,11 @@
 ---
 name: River Boyne
-image: "https://mibera.s3.amazonaws.com/traits/river%20boyne.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/river%20boyne.webp"
 date_added: "2025-02-27"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/river%20boyne.webp" alt="River Boyne" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/river%20boyne.webp" alt="River Boyne" width="320" />
 </div>
 
 

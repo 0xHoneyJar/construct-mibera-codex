@@ -1,13 +1,13 @@
 ---
 name: Nose Ring with Chain
-image: "https://mibera.s3.amazonaws.com/traits/SS3_milady_Nose%20Ring%20With%20Chain.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/SS3_milady_Nose%20Ring%20With%20Chain.webp"
 archetype: Milady
 swag_score: 3
 date_added: "2024-06-19"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS3_milady_Nose%20Ring%20With%20Chain.webp" alt="Nose Ring With Chain" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/SS3_milady_Nose%20Ring%20With%20Chain.webp" alt="Nose Ring With Chain" width="320" />
 </div>
 
 

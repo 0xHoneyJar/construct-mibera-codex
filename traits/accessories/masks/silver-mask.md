@@ -1,13 +1,13 @@
 ---
 name: Silver Mask
-image: "https://mibera.s3.amazonaws.com/traits/SS1_freetekno_Silver%20Mask.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/SS1_freetekno_Silver%20Mask.webp"
 archetype: Freetekno
 swag_score: 1
 date_added: "2024-12-09"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS1_freetekno_Silver%20Mask.webp" alt="Silver Mask" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/SS1_freetekno_Silver%20Mask.webp" alt="Silver Mask" width="320" />
 </div>
 
 

@@ -1,11 +1,11 @@
 ---
 name: short messy blonde
-image: "https://mibera.s3.amazonaws.com/traits/Short%20Messy%20Blonde.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/Short%20Messy%20Blonde.webp"
 date_added: "2024-06-15"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/Short%20Messy%20Blonde.webp" alt="Short Messy Blonde" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/Short%20Messy%20Blonde.webp" alt="Short Messy Blonde" width="320" />
 </div>
 
 

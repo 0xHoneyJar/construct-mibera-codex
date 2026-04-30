@@ -1,13 +1,13 @@
 ---
 name: Remilia Sprite VN
-image: "https://mibera.s3.amazonaws.com/traits/SS2_milady_Remilia%20Sprite%20VN.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/SS2_milady_Remilia%20Sprite%20VN.webp"
 archetype: Milady
 swag_score: 2
 date_added: "2024-08-03"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS2_milady_Remilia%20Sprite%20VN.webp" alt="Remilia Sprite Vn" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/SS2_milady_Remilia%20Sprite%20VN.webp" alt="Remilia Sprite Vn" width="320" />
 </div>
 
 

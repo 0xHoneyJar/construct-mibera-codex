@@ -1,12 +1,12 @@
 ---
 name: Tedism
-image: "https://mibera.s3.amazonaws.com/traits/SS3_Tedism.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/SS3_Tedism.webp"
 swag_score: 3
 date_added: "2024-12-10"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS3_Tedism.webp" alt="Tedism" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/SS3_Tedism.webp" alt="Tedism" width="320" />
 </div>
 
 

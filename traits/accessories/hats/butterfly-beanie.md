@@ -1,12 +1,12 @@
 ---
 name: Butterfly Beanie
-image: "https://mibera.s3.amazonaws.com/traits/SS4_Butterfly%20Beanie.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/SS4_Butterfly%20Beanie.webp"
 swag_score: 4
 date_added: "2024-07-28"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS4_Butterfly%20Beanie.webp" alt="Butterfly Beanie" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/SS4_Butterfly%20Beanie.webp" alt="Butterfly Beanie" width="320" />
 </div>
 
 

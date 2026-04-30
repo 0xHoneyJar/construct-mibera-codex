@@ -1,13 +1,13 @@
 ---
 name: Shameless Misandrist
-image: "https://mibera.s3.amazonaws.com/traits/SS3_freetekno_Shameless%20Misandrist.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/SS3_freetekno_Shameless%20Misandrist.webp"
 archetype: Freetekno
 swag_score: 3
 date_added: "2024-06-22"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS3_freetekno_Shameless%20Misandrist.webp" alt="Shameless Misandrist" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/SS3_freetekno_Shameless%20Misandrist.webp" alt="Shameless Misandrist" width="320" />
 </div>
 
 

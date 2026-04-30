@@ -1,11 +1,11 @@
 ---
 name: normal purple
-image: "https://mibera.s3.amazonaws.com/traits/Normal%20Purple.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/Normal%20Purple.webp"
 date_added: "2024-06-22"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/Normal%20Purple.webp" alt="Normal Purple" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/Normal%20Purple.webp" alt="Normal Purple" width="320" />
 </div>
 
 

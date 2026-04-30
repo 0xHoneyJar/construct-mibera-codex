@@ -1,12 +1,12 @@
 ---
 name: Ohabera Jani
-image: "https://mibera.s3.amazonaws.com/traits/SS4_Ohabera%20Jani.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/SS4_Ohabera%20Jani.webp"
 swag_score: 4
 date_added: "2024-12-10"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS4_Ohabera%20Jani.webp" alt="Ohabera Jani" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/SS4_Ohabera%20Jani.webp" alt="Ohabera Jani" width="320" />
 </div>
 
 

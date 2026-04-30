@@ -1,12 +1,12 @@
 ---
 name: apdao ring 1
-image: "https://mibera.s3.amazonaws.com/traits/SS5_apDAO%20Ring%201.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/SS5_apDAO%20Ring%201.webp"
 swag_score: 5
 date_added: "2024-12-09"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS5_apDAO%20Ring%201.webp" alt="Apdao Ring 1" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/SS5_apDAO%20Ring%201.webp" alt="Apdao Ring 1" width="320" />
 </div>
 
 

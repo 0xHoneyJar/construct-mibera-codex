@@ -1,11 +1,11 @@
 ---
 name: hypno gold
-image: "https://mibera.s3.amazonaws.com/traits/Hypno%20Gold.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/Hypno%20Gold.webp"
 date_added: "2024-06-03"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/Hypno%20Gold.webp" alt="Hypno Gold" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/Hypno%20Gold.webp" alt="Hypno Gold" width="320" />
 </div>
 
 

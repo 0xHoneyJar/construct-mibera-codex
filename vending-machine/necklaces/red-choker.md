@@ -2,11 +2,11 @@
 name: "Red Choker"
 category: necklaces
 from: ""
-image: "https://mibera.s3.amazonaws.com/traits/red%20choker.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/red%20choker.webp"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/red%20choker.webp" alt="Red Choker" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/red%20choker.webp" alt="Red Choker" width="320" />
 </div>
 
 

@@ -1,12 +1,12 @@
 ---
 name: monster ultra
-image: "https://mibera.s3.amazonaws.com/traits/SS1_Monster%20Ultra.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/SS1_Monster%20Ultra.webp"
 swag_score: 1
 date_added: "2024-07-24"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS1_Monster%20Ultra.webp" alt="Monster Ultra" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/SS1_Monster%20Ultra.webp" alt="Monster Ultra" width="320" />
 </div>
 
 

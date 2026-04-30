@@ -2,11 +2,11 @@
 name: "Whale Kigu"
 category: shirts
 from: ""
-image: "https://mibera.s3.amazonaws.com/traits/whale%20kigu.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/whale%20kigu.webp"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/whale%20kigu.webp" alt="Whale Kigu" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/whale%20kigu.webp" alt="Whale Kigu" width="320" />
 </div>
 
 

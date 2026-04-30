@@ -1,11 +1,11 @@
 ---
 name: Water
-image: "https://mibera.s3.amazonaws.com/traits/Water.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/Water.webp"
 quadrant: Southern (lat < 0) and Western (lon < 0)
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/Water.webp" alt="Water" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/Water.webp" alt="Water" width="320" />
 </div>
 
 

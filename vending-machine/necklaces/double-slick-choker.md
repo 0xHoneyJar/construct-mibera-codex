@@ -2,11 +2,11 @@
 name: "Double Slick Choker"
 category: necklaces
 from: ""
-image: "https://mibera.s3.amazonaws.com/traits/double%20slick%20choker.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/double%20slick%20choker.webp"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/double%20slick%20choker.webp" alt="Double Slick Choker" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/double%20slick%20choker.webp" alt="Double Slick Choker" width="320" />
 </div>
 
 

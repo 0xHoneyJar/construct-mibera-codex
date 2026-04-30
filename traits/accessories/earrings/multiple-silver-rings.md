@@ -1,13 +1,13 @@
 ---
 name: Multiple Silver Rings
-image: "https://mibera.s3.amazonaws.com/traits/SS4_chicagodetroit_Multiple%20Silver%20Rings.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/SS4_chicagodetroit_Multiple%20Silver%20Rings.webp"
 archetype: Chicago Detroit
 swag_score: 4
 date_added: "2024-12-10"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS4_chicagodetroit_Multiple%20Silver%20Rings.webp" alt="Multiple Silver Rings" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/SS4_chicagodetroit_Multiple%20Silver%20Rings.webp" alt="Multiple Silver Rings" width="320" />
 </div>
 
 

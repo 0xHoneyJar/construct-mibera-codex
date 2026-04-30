@@ -1,11 +1,11 @@
 ---
 name: Wavy Magenta
 date_added: null
-image: "https://mibera.s3.amazonaws.com/traits/wavy%20magenta.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/wavy%20magenta.webp"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/wavy%20magenta.webp" alt="Wavy Magenta" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/wavy%20magenta.webp" alt="Wavy Magenta" width="320" />
 </div>
 
 

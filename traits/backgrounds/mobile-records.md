@@ -1,11 +1,11 @@
 ---
 name: Mobile Records
-image: "https://mibera.s3.amazonaws.com/traits/Mobile%20Records.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/Mobile%20Records.webp"
 date_added: "2024-06-07"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/Mobile%20Records.webp" alt="Mobile Records" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/Mobile%20Records.webp" alt="Mobile Records" width="320" />
 </div>
 
 

@@ -1,11 +1,11 @@
 ---
 name: stern
-image: "https://mibera.s3.amazonaws.com/traits/Stern.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/Stern.webp"
 date_added: "2024-07-30"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/Stern.webp" alt="Stern" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/Stern.webp" alt="Stern" width="320" />
 </div>
 
 

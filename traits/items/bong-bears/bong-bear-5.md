@@ -1,11 +1,11 @@
 ---
 name: Bong Bear 5
-image: "https://mibera.s3.amazonaws.com/traits/SS5_bongbear_Bong%20Bear%205.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/SS5_bongbear_Bong%20Bear%205.webp"
 date_added: "2025-01-20"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS5_bongbear_Bong%20Bear%205.webp" alt="Bong Bear 5" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/SS5_bongbear_Bong%20Bear%205.webp" alt="Bong Bear 5" width="320" />
 </div>
 
 

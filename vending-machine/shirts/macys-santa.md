@@ -2,11 +2,11 @@
 name: "Macys Santa"
 category: shirts
 from: ""
-image: "https://mibera.s3.amazonaws.com/traits/macys%20santa.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/macys%20santa.webp"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/macys%20santa.webp" alt="Macys Santa" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/macys%20santa.webp" alt="Macys Santa" width="320" />
 </div>
 
 

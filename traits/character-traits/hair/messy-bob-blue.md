@@ -1,11 +1,11 @@
 ---
 name: messy bob blue
-image: "https://mibera.s3.amazonaws.com/traits/Messy%20Bob%20Blue.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/Messy%20Bob%20Blue.webp"
 date_added: "2024-06-04"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/Messy%20Bob%20Blue.webp" alt="Messy Bob Blue" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/Messy%20Bob%20Blue.webp" alt="Messy Bob Blue" width="320" />
 </div>
 
 

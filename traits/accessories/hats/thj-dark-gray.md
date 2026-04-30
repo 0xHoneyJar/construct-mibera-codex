@@ -1,12 +1,12 @@
 ---
 name: THJ Dark Gray
-image: "https://mibera.s3.amazonaws.com/traits/SS5_THJ%20Dark%20Gray.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/SS5_THJ%20Dark%20Gray.webp"
 swag_score: 5
 date_added: "2024-07-27"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS5_THJ%20Dark%20Gray.webp" alt="Thj Dark Gray" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/SS5_THJ%20Dark%20Gray.webp" alt="Thj Dark Gray" width="320" />
 </div>
 
 

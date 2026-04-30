@@ -1,13 +1,13 @@
 ---
 name: Pythia Robe
-image: "https://mibera.s3.amazonaws.com/traits/SS4_chicagodetroit_ancient_pythia_Pythia%20Robe.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/SS4_chicagodetroit_ancient_pythia_Pythia%20Robe.webp"
 archetype: Chicago Detroit
 swag_score: 4
 date_added: "2024-07-26"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS4_chicagodetroit_ancient_pythia_Pythia%20Robe.webp" alt="Pythia Robe" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/SS4_chicagodetroit_ancient_pythia_Pythia%20Robe.webp" alt="Pythia Robe" width="320" />
 </div>
 
 

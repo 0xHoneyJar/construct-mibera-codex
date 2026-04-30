@@ -1,12 +1,12 @@
 ---
 name: Have a Nice Jay
-image: "https://mibera.s3.amazonaws.com/traits/SS3_Have%20a%20Nice%20Jay.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/SS3_Have%20a%20Nice%20Jay.webp"
 swag_score: 3
 date_added: "2024-06-22"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS3_Have%20a%20Nice%20Jay.webp" alt="Have A Nice Jay" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/SS3_Have%20a%20Nice%20Jay.webp" alt="Have A Nice Jay" width="320" />
 </div>
 
 

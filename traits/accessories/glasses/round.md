@@ -1,13 +1,13 @@
 ---
 name: Round
-image: "https://mibera.s3.amazonaws.com/traits/acidhouse_Round.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/acidhouse_Round.webp"
 archetype: Acidhouse
 swag_score: 2
 date_added: "2024-06-18"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/acidhouse_Round.webp" alt="Round" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/acidhouse_Round.webp" alt="Round" width="320" />
 </div>
 
 

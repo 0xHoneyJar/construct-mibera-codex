@@ -1,11 +1,11 @@
 ---
 name: No More Walls
-image: "https://mibera.s3.amazonaws.com/traits/no%20more%20walls.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/no%20more%20walls.webp"
 date_added: "2025-03-22"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/no%20more%20walls.webp" alt="No More Walls" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/no%20more%20walls.webp" alt="No More Walls" width="320" />
 </div>
 
 

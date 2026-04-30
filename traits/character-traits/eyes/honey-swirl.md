@@ -1,11 +1,11 @@
 ---
 name: honey swirl
-image: "https://mibera.s3.amazonaws.com/traits/Honey%20Swirl.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/Honey%20Swirl.webp"
 date_added: "2024-06-03"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/Honey%20Swirl.webp" alt="Honey Swirl" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/Honey%20Swirl.webp" alt="Honey Swirl" width="320" />
 </div>
 
 

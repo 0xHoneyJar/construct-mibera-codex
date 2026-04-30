@@ -1,13 +1,13 @@
 ---
 name: thc mic
-image: "https://mibera.s3.amazonaws.com/traits/SS4_milady_THC%20Mic.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/SS4_milady_THC%20Mic.webp"
 archetype: Milady
 swag_score: 4
 date_added: "2024-07-12"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS4_milady_THC%20Mic.webp" alt="Thc Mic" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/SS4_milady_THC%20Mic.webp" alt="Thc Mic" width="320" />
 </div>
 
 

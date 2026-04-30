@@ -1,12 +1,12 @@
 ---
 name: mbga
-image: "https://mibera.s3.amazonaws.com/traits/SS1_MBGA.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/SS1_MBGA.webp"
 swag_score: 1
 date_added: "2024-12-10"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/MBGA.webp" alt="Mbga" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/MBGA.webp" alt="Mbga" width="320" />
 </div>
 
 

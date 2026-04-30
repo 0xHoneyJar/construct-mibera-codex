@@ -1,11 +1,11 @@
 ---
 name: anxious
-image: "https://mibera.s3.amazonaws.com/traits/Anxious.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/Anxious.webp"
 date_added: "2024-07-30"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/Anxious.webp" alt="Anxious" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/Anxious.webp" alt="Anxious" width="320" />
 </div>
 
 

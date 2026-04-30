@@ -1,13 +1,13 @@
 ---
 name: rolling tobacco tin
-image: "https://mibera.s3.amazonaws.com/traits/SS2_freetekno_Rolling%20Tobacco%20Tin.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/SS2_freetekno_Rolling%20Tobacco%20Tin.webp"
 archetype: Freetekno
 swag_score: 2
 date_added: "2024-07-07"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS2_freetekno_Rolling%20Tobacco%20Tin.webp" alt="Rolling Tobacco Tin" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/SS2_freetekno_Rolling%20Tobacco%20Tin.webp" alt="Rolling Tobacco Tin" width="320" />
 </div>
 
 

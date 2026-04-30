@@ -1,12 +1,12 @@
 ---
 name: Green Lolipop
-image: "https://mibera.s3.amazonaws.com/traits/SS1_green%20lolipop.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/SS1_green%20lolipop.webp"
 swag_score: 1
 date_added: "2024-12-10"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS1_green%20lolipop.webp" alt="Green Lolipop" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/SS1_green%20lolipop.webp" alt="Green Lolipop" width="320" />
 </div>
 
 

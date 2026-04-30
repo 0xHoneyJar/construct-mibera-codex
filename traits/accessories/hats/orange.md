@@ -1,13 +1,13 @@
 ---
 name: Orange
-image: "https://mibera.s3.amazonaws.com/traits/SS3_milady_Orange.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/SS3_milady_Orange.webp"
 archetype: Milady
 swag_score: 3
 date_added: "2024-07-25"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS3_milady_Orange.webp" alt="Orange" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/SS3_milady_Orange.webp" alt="Orange" width="320" />
 </div>
 
 

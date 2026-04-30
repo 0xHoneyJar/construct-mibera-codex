@@ -1,13 +1,13 @@
 ---
 name: Spiral 3
-image: "https://mibera.s3.amazonaws.com/traits/SS3_freetekno_Spiral%203.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/SS3_freetekno_Spiral%203.webp"
 archetype: Freetekno
 swag_score: 3
 date_added: "2023-11-28"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS3_freetekno_Spiral%203.webp" alt="Spiral 3" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/SS3_freetekno_Spiral%203.webp" alt="Spiral 3" width="320" />
 </div>
 
 

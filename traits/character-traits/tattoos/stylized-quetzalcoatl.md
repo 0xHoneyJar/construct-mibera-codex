@@ -1,12 +1,12 @@
 ---
 name: Stylized Quetzalcoatl
-image: "https://mibera.s3.amazonaws.com/traits/modern_mayan_Stylized%20Quetzalcoatl.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/modern_mayan_Stylized%20Quetzalcoatl.webp"
 swag_score: null
 date_added: "2024-08-09"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/modern_mayan_Stylized%20Quetzalcoatl.webp" alt="Stylized Quetzalcoatl" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/modern_mayan_Stylized%20Quetzalcoatl.webp" alt="Stylized Quetzalcoatl" width="320" />
 </div>
 
 

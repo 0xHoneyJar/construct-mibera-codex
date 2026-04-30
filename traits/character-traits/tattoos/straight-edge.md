@@ -1,12 +1,12 @@
 ---
 name: Straight Edge
-image: "https://mibera.s3.amazonaws.com/traits/Straight%20Edge.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/Straight%20Edge.webp"
 swag_score: null
 date_added: "2024-08-06"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/Straight%20Edge.webp" alt="Straight Edge" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/Straight%20Edge.webp" alt="Straight Edge" width="320" />
 </div>
 
 

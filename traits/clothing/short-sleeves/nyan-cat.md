@@ -1,12 +1,12 @@
 ---
 name: Nyan Cat
-image: "https://mibera.s3.amazonaws.com/traits/SS4_Nyan%20Cat.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/SS4_Nyan%20Cat.webp"
 swag_score: 4
 date_added: "2024-06-08"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS4_Nyan%20Cat.webp" alt="Nyan Cat" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/SS4_Nyan%20Cat.webp" alt="Nyan Cat" width="320" />
 </div>
 
 

@@ -2,11 +2,11 @@
 name: "Blue Christmas Hat"
 category: hats
 from: ""
-image: "https://mibera.s3.amazonaws.com/traits/blue%20christmas%20hat.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/blue%20christmas%20hat.webp"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/blue%20christmas%20hat.webp" alt="Blue Christmas Hat" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/blue%20christmas%20hat.webp" alt="Blue Christmas Hat" width="320" />
 </div>
 
 

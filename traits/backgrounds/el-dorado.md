@@ -1,11 +1,11 @@
 ---
 name: El Dorado
-image: "https://mibera.s3.amazonaws.com/traits/el%20dorado.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/el%20dorado.webp"
 date_added: "2025-02-27"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/el%20dorado.webp" alt="El Dorado" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/el%20dorado.webp" alt="El Dorado" width="320" />
 </div>
 
 

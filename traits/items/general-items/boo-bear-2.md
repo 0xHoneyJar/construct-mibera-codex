@@ -1,13 +1,13 @@
 ---
 name: boo bear 2
-image: "https://mibera.s3.amazonaws.com/traits/SS3_milady_Boo%20Bear%202.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/SS3_milady_Boo%20Bear%202.webp"
 archetype: Milady
 swag_score: 3
 date_added: "2024-07-09"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS3_milady_Boo%20Bear%202.webp" alt="Boo Bear 2" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/SS3_milady_Boo%20Bear%202.webp" alt="Boo Bear 2" width="320" />
 </div>
 
 

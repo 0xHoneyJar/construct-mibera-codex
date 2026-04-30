@@ -1,11 +1,11 @@
 ---
 name: Hor Berlin
-image: "https://mibera.s3.amazonaws.com/traits/hor%20berlin.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/hor%20berlin.webp"
 date_added: "2025-03-11"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/hor%20berlin.webp" alt="Hor Berlin" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/hor%20berlin.webp" alt="Hor Berlin" width="320" />
 </div>
 
 

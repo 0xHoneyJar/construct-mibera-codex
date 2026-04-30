@@ -1,13 +1,13 @@
 ---
 name: 90s brick phone
-image: "https://mibera.s3.amazonaws.com/traits/SS4_freetekno_90s%20Brick%20Phone.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/SS4_freetekno_90s%20Brick%20Phone.webp"
 archetype: Freetekno
 swag_score: 4
 date_added: "2024-07-10"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS4_freetekno_90s%20Brick%20Phone.webp" alt="90S Brick Phone" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/SS4_freetekno_90s%20Brick%20Phone.webp" alt="90S Brick Phone" width="320" />
 </div>
 
 

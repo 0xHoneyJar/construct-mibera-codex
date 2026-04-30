@@ -1,12 +1,12 @@
 ---
 name: School Sucks
-image: "https://mibera.s3.amazonaws.com/traits/SS2_School%20Sucks.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/SS2_School%20Sucks.webp"
 swag_score: 2
 date_added: "2024-06-22"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS2_School%20Sucks.webp" alt="School Sucks" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/SS2_School%20Sucks.webp" alt="School Sucks" width="320" />
 </div>
 
 

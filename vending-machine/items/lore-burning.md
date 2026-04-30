@@ -2,11 +2,11 @@
 name: "Lore Burning"
 category: items
 from: ""
-image: "https://mibera.s3.amazonaws.com/traits/lore%20burning.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/lore%20burning.webp"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/lore%20burning.webp" alt="Lore Burning" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/lore%20burning.webp" alt="Lore Burning" width="320" />
 </div>
 
 

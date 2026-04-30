@@ -1,13 +1,13 @@
 ---
 name: Trans Flag
-image: "https://mibera.s3.amazonaws.com/traits/SS2_milady_trans%20flag.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/SS2_milady_trans%20flag.webp"
 archetype: Milady
 swag_score: 2
 date_added: "2024-12-10"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS2_milady_trans%20flag.webp" alt="Trans Flag" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/SS2_milady_trans%20flag.webp" alt="Trans Flag" width="320" />
 </div>
 
 

@@ -1,12 +1,12 @@
 ---
 name: snow goggles 1
-image: "https://mibera.s3.amazonaws.com/traits/Snow%20Goggles%201.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/Snow%20Goggles%201.webp"
 swag_score: 5
 date_added: "2024-12-10"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/Snow%20Goggles%201.webp" alt="Snow Goggles 1" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/Snow%20Goggles%201.webp" alt="Snow Goggles 1" width="320" />
 </div>
 
 

@@ -3,13 +3,13 @@ name: Sagittarius
 date_range: November 22 - December 21
 glyph: ♐
 element: Fire
-image: "https://mibera.s3.amazonaws.com/traits/Sun%20Sagittarius.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/Sun%20Sagittarius.webp"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/Sun%20Sagittarius.webp" alt="Sun Sagittarius" width="200" />
-  <img src="https://mibera.s3.amazonaws.com/traits/Moon%20Sagittarius.webp" alt="Moon Sagittarius" width="200" />
-  <img src="https://mibera.s3.amazonaws.com/traits/Rising%20Sagittarius.webp" alt="Rising Sagittarius" width="200" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/Sun%20Sagittarius.webp" alt="Sun Sagittarius" width="200" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/Moon%20Sagittarius.webp" alt="Moon Sagittarius" width="200" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/Rising%20Sagittarius.webp" alt="Rising Sagittarius" width="200" />
 </div>
 
 

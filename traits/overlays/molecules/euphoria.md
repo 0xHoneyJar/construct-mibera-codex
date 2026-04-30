@@ -7,12 +7,12 @@ origin: null
 archetype: Chicago Detroit
 ancestor: Mongolian
 swag_score: 2
-image: "https://mibera.s3.amazonaws.com/traits/chicagodetroit_mongolian_euphoria.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/chicagodetroit_mongolian_euphoria.webp"
 date_added: "2025-01-12"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/chicagodetroit_mongolian_euphoria.webp" alt="Euphoria" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/chicagodetroit_mongolian_euphoria.webp" alt="Euphoria" width="320" />
 </div>
 
 

@@ -1,12 +1,12 @@
 ---
 name: Blue Bow Hat
-image: "https://mibera.s3.amazonaws.com/traits/SS2_Blue%20Bow%20Hat.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/SS2_Blue%20Bow%20Hat.webp"
 swag_score: 2
 date_added: "2024-07-27"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS2_Blue%20Bow%20Hat.webp" alt="Blue Bow Hat" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/SS2_Blue%20Bow%20Hat.webp" alt="Blue Bow Hat" width="320" />
 </div>
 
 

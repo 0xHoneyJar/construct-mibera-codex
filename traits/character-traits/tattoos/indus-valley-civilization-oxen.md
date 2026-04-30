@@ -1,12 +1,12 @@
 ---
 name: Indus Valley Civilization Oxen
-image: "https://mibera.s3.amazonaws.com/traits/ancient_punjabi_Indus%20Valley%20Civilization%20Oxen.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/ancient_punjabi_Indus%20Valley%20Civilization%20Oxen.webp"
 swag_score: null
 date_added: "2024-08-09"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/ancient_punjabi_Indus%20Valley%20Civilization%20Oxen.webp" alt="Indus Valley Civilization Oxen" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/ancient_punjabi_Indus%20Valley%20Civilization%20Oxen.webp" alt="Indus Valley Civilization Oxen" width="320" />
 </div>
 
 

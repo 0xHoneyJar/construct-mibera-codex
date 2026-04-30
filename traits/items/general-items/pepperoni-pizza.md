@@ -1,13 +1,13 @@
 ---
 name: pepperoni pizza
-image: "https://mibera.s3.amazonaws.com/traits/SS5_freetekno_Pepperoni%20Pizza.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/SS5_freetekno_Pepperoni%20Pizza.webp"
 archetype: Freetekno
 swag_score: 5
 date_added: "2024-07-13"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS5_freetekno_Pepperoni%20Pizza.webp" alt="Pepperoni Pizza" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/SS5_freetekno_Pepperoni%20Pizza.webp" alt="Pepperoni Pizza" width="320" />
 </div>
 
 

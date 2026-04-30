@@ -1,13 +1,13 @@
 ---
 name: Grateful Dead 1
-image: "https://mibera.s3.amazonaws.com/traits/SS2_acidhouse_Grateful%20Dead%201.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/SS2_acidhouse_Grateful%20Dead%201.webp"
 archetype: Acidhouse
 swag_score: 2
 date_added: "2024-12-10"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS2_acidhouse_Grateful%20Dead%201.webp" alt="Grateful Dead 1" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/SS2_acidhouse_Grateful%20Dead%201.webp" alt="Grateful Dead 1" width="320" />
 </div>
 
 

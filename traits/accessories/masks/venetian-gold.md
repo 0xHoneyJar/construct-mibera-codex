@@ -1,12 +1,12 @@
 ---
 name: Venetian Gold
-image: "https://mibera.s3.amazonaws.com/traits/SS5_Venetian%20Gold.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/SS5_Venetian%20Gold.webp"
 swag_score: 5
 date_added: "2024-12-09"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS5_Venetian%20Gold.webp" alt="Venetian Gold" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/SS5_Venetian%20Gold.webp" alt="Venetian Gold" width="320" />
 </div>
 
 

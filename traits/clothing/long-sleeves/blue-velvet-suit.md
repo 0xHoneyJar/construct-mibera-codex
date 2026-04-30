@@ -1,13 +1,13 @@
 ---
 name: Blue Velvet Suit
-image: "https://mibera.s3.amazonaws.com/traits/SS3_chicagodetroit_Blue%20Velvet%20Suit.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/SS3_chicagodetroit_Blue%20Velvet%20Suit.webp"
 archetype: Chicago Detroit
 swag_score: 3
 date_added: "2024-06-26"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS3_chicagodetroit_Blue%20Velvet%20Suit.webp" alt="Blue Velvet Suit" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/SS3_chicagodetroit_Blue%20Velvet%20Suit.webp" alt="Blue Velvet Suit" width="320" />
 </div>
 
 

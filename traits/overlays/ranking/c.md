@@ -1,13 +1,13 @@
 ---
 name: C
 rank: C
-image: "https://mibera.s3.amazonaws.com/traits/SS3_freetekno_C.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/SS3_freetekno_C.webp"
 shape: Circle
 color: a darker shade of orange
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/C.webp" alt="C" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/C.webp" alt="C" width="320" />
 </div>
 
 

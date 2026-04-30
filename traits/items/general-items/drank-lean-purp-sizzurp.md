@@ -1,13 +1,13 @@
 ---
 name: drank lean purp sizzurp
-image: "https://mibera.s3.amazonaws.com/traits/SS5_chicagodetroit_Drank%20Lean%20Purp%20Sizzurp.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/SS5_chicagodetroit_Drank%20Lean%20Purp%20Sizzurp.webp"
 archetype: Chicago Detroit
 swag_score: 4
 date_added: "2024-07-12"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS5_chicagodetroit_Drank%20Lean%20Purp%20Sizzurp.webp" alt="Drank Lean Purp Sizzurp" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/SS5_chicagodetroit_Drank%20Lean%20Purp%20Sizzurp.webp" alt="Drank Lean Purp Sizzurp" width="320" />
 </div>
 
 

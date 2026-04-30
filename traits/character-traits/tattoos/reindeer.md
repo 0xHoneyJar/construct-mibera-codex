@@ -1,12 +1,12 @@
 ---
 name: Reindeer
-image: "https://mibera.s3.amazonaws.com/traits/ancient_sami_Reindeer.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/ancient_sami_Reindeer.webp"
 swag_score: null
 date_added: "2024-08-10"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/ancient_sami_Reindeer.webp" alt="Reindeer" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/ancient_sami_Reindeer.webp" alt="Reindeer" width="320" />
 </div>
 
 

@@ -7,12 +7,12 @@ origin: UK
 archetype: Acidhouse
 ancestor: Irish Druids
 swag_score: 1
-image: "https://mibera.s3.amazonaws.com/traits/acidhouse_irishDruids_lamotrigine.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/acidhouse_irishDruids_lamotrigine.webp"
 date_added: "2025-01-12"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/acidhouse_irishDruids_lamotrigine.webp" alt="Lamotrigine" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/acidhouse_irishDruids_lamotrigine.webp" alt="Lamotrigine" width="320" />
 </div>
 
 

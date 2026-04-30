@@ -2,11 +2,11 @@
 name: "Rudolph Nose"
 category: face-accessories
 from: ""
-image: "https://mibera.s3.amazonaws.com/traits/rudolph%20nose.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/rudolph%20nose.webp"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/rudolph%20nose.webp" alt="Rudolph Nose" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/rudolph%20nose.webp" alt="Rudolph Nose" width="320" />
 </div>
 
 

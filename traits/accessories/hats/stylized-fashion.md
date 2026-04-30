@@ -1,13 +1,13 @@
 ---
 name: Stylized Fashion
-image: "https://mibera.s3.amazonaws.com/traits/SS3_chicagodetroit_Stylized%20Fashion.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/SS3_chicagodetroit_Stylized%20Fashion.webp"
 archetype: Chicago Detroit
 swag_score: 3
 date_added: "2024-07-25"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS3_chicagodetroit_Stylized%20Fashion.webp" alt="Stylized Fashion" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/SS3_chicagodetroit_Stylized%20Fashion.webp" alt="Stylized Fashion" width="320" />
 </div>
 
 

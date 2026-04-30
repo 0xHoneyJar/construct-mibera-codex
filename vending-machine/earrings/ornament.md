@@ -2,11 +2,11 @@
 name: "Ornament"
 category: earrings
 from: ""
-image: "https://mibera.s3.amazonaws.com/traits/ornament.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/ornament.webp"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/ornament.webp" alt="Ornament" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/ornament.webp" alt="Ornament" width="320" />
 </div>
 
 

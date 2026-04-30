@@ -1,12 +1,12 @@
 ---
 name: BM2C
-image: "https://mibera.s3.amazonaws.com/traits/SS2_BM2C.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/SS2_BM2C.webp"
 swag_score: 2
 date_added: "2025-03-18"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS2_BM2C.webp" alt="Bm2C" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/SS2_BM2C.webp" alt="Bm2C" width="320" />
 </div>
 
 

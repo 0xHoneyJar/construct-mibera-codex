@@ -1,12 +1,12 @@
 ---
 name: los bullas
-image: "https://mibera.s3.amazonaws.com/traits/SS4_los%20bullas.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/SS4_los%20bullas.webp"
 swag_score: 4
 date_added: "2025-03-11"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS4_los%20bullas.webp" alt="Los Bullas" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/SS4_los%20bullas.webp" alt="Los Bullas" width="320" />
 </div>
 
 

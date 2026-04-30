@@ -2,11 +2,11 @@
 name: "Tomato Eyes"
 category: glasses
 from: ""
-image: "https://mibera.s3.amazonaws.com/traits/tomato%20eyes.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/tomato%20eyes.webp"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/tomato%20eyes.webp" alt="Tomato Eyes" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/tomato%20eyes.webp" alt="Tomato Eyes" width="320" />
 </div>
 
 

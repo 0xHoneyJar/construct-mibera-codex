@@ -1,13 +1,13 @@
 ---
 name: how to stay in hell
-image: "https://mibera.s3.amazonaws.com/traits/SS1_milady_How%20to%20stay%20in%20hell.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/SS1_milady_How%20to%20stay%20in%20hell.webp"
 archetype: Milady
 swag_score: 1
 date_added: "2024-12-09"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS1_milady_How%20to%20stay%20in%20hell.webp" alt="How To Stay In Hell" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/SS1_milady_How%20to%20stay%20in%20hell.webp" alt="How To Stay In Hell" width="320" />
 </div>
 
 

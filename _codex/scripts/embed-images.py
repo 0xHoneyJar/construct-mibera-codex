@@ -25,7 +25,7 @@ from urllib.parse import quote
 from pathlib import Path
 
 CODEX_ROOT = Path(__file__).resolve().parent.parent.parent
-S3_BASE = "https://mibera.s3.amazonaws.com/traits"
+S3_BASE = "https://assets.0xhoneyjar.xyz/Mibera/traits"
 DRY_RUN = False
 
 # --- Known constants ---

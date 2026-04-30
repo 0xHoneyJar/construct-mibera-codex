@@ -1,12 +1,12 @@
 ---
 name: Founders Mask
-image: "https://mibera.s3.amazonaws.com/traits/SS5_Founders%20Mask.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/SS5_Founders%20Mask.webp"
 swag_score: 5
 date_added: "2025-03-15"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS5_Founders%20Mask.webp" alt="Founders Mask" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/SS5_Founders%20Mask.webp" alt="Founders Mask" width="320" />
 </div>
 
 

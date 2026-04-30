@@ -1,12 +1,12 @@
 ---
 name: Cursed Milady
-image: "https://mibera.s3.amazonaws.com/traits/Cursed%20Milady.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/Cursed%20Milady.webp"
 swag_score: null
 date_added: "2024-08-06"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/Cursed%20Milady.webp" alt="Cursed Milady" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/Cursed%20Milady.webp" alt="Cursed Milady" width="320" />
 </div>
 
 

@@ -1,13 +1,13 @@
 ---
 name: scatter cat
-image: "https://mibera.s3.amazonaws.com/traits/SS3_milady_Scatter%20Cat.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/SS3_milady_Scatter%20Cat.webp"
 archetype: Milady
 swag_score: 1
 date_added: "2024-12-09"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS3_milady_Scatter%20Cat.webp" alt="Scatter Cat" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/SS3_milady_Scatter%20Cat.webp" alt="Scatter Cat" width="320" />
 </div>
 
 

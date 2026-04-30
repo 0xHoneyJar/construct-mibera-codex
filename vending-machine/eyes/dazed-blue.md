@@ -2,11 +2,11 @@
 name: "Dazed Blue"
 category: eyes
 from: ""
-image: "https://mibera.s3.amazonaws.com/traits/dazed%20blue.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/dazed%20blue.webp"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/dazed%20blue.webp" alt="Dazed Blue" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/dazed%20blue.webp" alt="Dazed Blue" width="320" />
 </div>
 
 

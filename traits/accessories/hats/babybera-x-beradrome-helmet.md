@@ -2,11 +2,11 @@
 name: babybera x beradrome helmet
 swag_score: 4
 date_added: null
-image: "https://mibera.s3.amazonaws.com/traits/SS4_babybera%20x%20beradrome%20helmet.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/SS4_babybera%20x%20beradrome%20helmet.webp"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS4_babybera%20x%20beradrome%20helmet.webp" alt="Babybera X Beradrome Helmet" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/SS4_babybera%20x%20beradrome%20helmet.webp" alt="Babybera X Beradrome Helmet" width="320" />
 </div>
 
 

@@ -1,13 +1,13 @@
 ---
 name: Dark Green Suit
-image: "https://mibera.s3.amazonaws.com/traits/SS2_milady_Dark%20Green%20Suit.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/SS2_milady_Dark%20Green%20Suit.webp"
 archetype: Milady
 swag_score: 2
 date_added: "2024-12-10"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS2_milady_Dark%20Green%20Suit.webp" alt="Dark Green Suit" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/SS2_milady_Dark%20Green%20Suit.webp" alt="Dark Green Suit" width="320" />
 </div>
 
 

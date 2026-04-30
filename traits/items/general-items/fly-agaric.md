@@ -1,13 +1,13 @@
 ---
 name: fly agaric
-image: "https://mibera.s3.amazonaws.com/traits/SS3_acidhouse_Fly%20Agaric.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/SS3_acidhouse_Fly%20Agaric.webp"
 archetype: Acidhouse
 swag_score: 4
 date_added: "2024-12-09"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS3_acidhouse_Fly%20Agaric.webp" alt="Fly Agaric" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/SS3_acidhouse_Fly%20Agaric.webp" alt="Fly Agaric" width="320" />
 </div>
 
 

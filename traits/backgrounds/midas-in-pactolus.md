@@ -1,11 +1,11 @@
 ---
 name: Midas in Pactolus
-image: "https://mibera.s3.amazonaws.com/traits/midas%20in%20pactolus.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/midas%20in%20pactolus.webp"
 date_added: "2025-02-27"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/midas%20in%20pactolus.webp" alt="Midas In Pactolus" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/midas%20in%20pactolus.webp" alt="Midas In Pactolus" width="320" />
 </div>
 
 

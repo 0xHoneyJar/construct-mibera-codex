@@ -1,12 +1,12 @@
 ---
 name: Cypherpunk 1
-image: "https://mibera.s3.amazonaws.com/traits/SS4_Cypherpunk%201.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/SS4_Cypherpunk%201.webp"
 swag_score: 4
 date_added: "2024-07-17"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS4_Cypherpunk%201.webp" alt="Cypherpunk 1" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/SS4_Cypherpunk%201.webp" alt="Cypherpunk 1" width="320" />
 </div>
 
 

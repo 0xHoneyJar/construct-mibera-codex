@@ -1,12 +1,12 @@
 ---
 name: fanged noumena
-image: "https://mibera.s3.amazonaws.com/traits/SS3_Fanged%20Noumena.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/SS3_Fanged%20Noumena.webp"
 swag_score: 2
 date_added: "2024-08-07"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS3_Fanged%20Noumena.webp" alt="Fanged Noumena" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/SS3_Fanged%20Noumena.webp" alt="Fanged Noumena" width="320" />
 </div>
 
 

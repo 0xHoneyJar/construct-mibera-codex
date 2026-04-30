@@ -1,11 +1,11 @@
 ---
 name: Kaieteur
-image: "https://mibera.s3.amazonaws.com/traits/kaieteur.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/kaieteur.webp"
 date_added: "2025-02-27"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/kaieteur.webp" alt="Kaieteur" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/kaieteur.webp" alt="Kaieteur" width="320" />
 </div>
 
 

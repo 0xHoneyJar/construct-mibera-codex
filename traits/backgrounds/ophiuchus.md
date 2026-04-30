@@ -1,11 +1,11 @@
 ---
 name: Ophiuchus
-image: "https://mibera.s3.amazonaws.com/traits/ophiuchus.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/ophiuchus.webp"
 date_added: "2024-11-23"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/ophiuchus.webp" alt="Ophiuchus" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/ophiuchus.webp" alt="Ophiuchus" width="320" />
 </div>
 
 

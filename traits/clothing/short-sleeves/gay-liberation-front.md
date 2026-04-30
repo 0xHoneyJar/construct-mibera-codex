@@ -1,13 +1,13 @@
 ---
 name: Gay Liberation Front
-image: "https://mibera.s3.amazonaws.com/traits/SS2_chicagodetroit_modern_stonewall_Gay%20Liberation%20Front.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/SS2_chicagodetroit_modern_stonewall_Gay%20Liberation%20Front.webp"
 archetype: Chicago Detroit
 swag_score: 2
 date_added: "2024-06-22"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS2_chicagodetroit_modern_stonewall_Gay%20Liberation%20Front.webp" alt="Gay Liberation Front" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/SS2_chicagodetroit_modern_stonewall_Gay%20Liberation%20Front.webp" alt="Gay Liberation Front" width="320" />
 </div>
 
 

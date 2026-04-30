@@ -2,11 +2,11 @@
 name: "Freedom"
 category: shirts
 from: ""
-image: "https://mibera.s3.amazonaws.com/traits/freedom.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/freedom.webp"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/freedom.webp" alt="Freedom" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/freedom.webp" alt="Freedom" width="320" />
 </div>
 
 

@@ -1,12 +1,12 @@
 ---
 name: Sharaku
-image: "https://mibera.s3.amazonaws.com/traits/ancient_japanese_Sharaku.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/ancient_japanese_Sharaku.webp"
 swag_score: null
 date_added: "2024-08-10"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/ancient_japanese_Sharaku.webp" alt="Sharaku" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/ancient_japanese_Sharaku.webp" alt="Sharaku" width="320" />
 </div>
 
 

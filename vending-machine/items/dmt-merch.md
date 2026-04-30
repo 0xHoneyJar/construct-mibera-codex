@@ -2,11 +2,11 @@
 name: "DMT Merch"
 category: items
 from: ""
-image: "https://mibera.s3.amazonaws.com/traits/dmt%20merch.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/dmt%20merch.webp"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/dmt%20merch.webp" alt="Dmt Merch" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/dmt%20merch.webp" alt="Dmt Merch" width="320" />
 </div>
 
 

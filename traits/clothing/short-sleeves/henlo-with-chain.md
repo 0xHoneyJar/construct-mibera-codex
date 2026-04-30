@@ -1,12 +1,12 @@
 ---
 name: Henlo with Chain
-image: "https://mibera.s3.amazonaws.com/traits/SS4_Henlo%20with%20Chain.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/SS4_Henlo%20with%20Chain.webp"
 swag_score: 4
 date_added: "2024-06-22"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS4_Henlo%20with%20Chain.webp" alt="Henlo With Chain" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/SS4_Henlo%20with%20Chain.webp" alt="Henlo With Chain" width="320" />
 </div>
 
 

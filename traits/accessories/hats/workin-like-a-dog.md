@@ -2,11 +2,11 @@
 name: Workin Like A Dog
 swag_score: 2
 date_added: null
-image: "https://mibera.s3.amazonaws.com/traits/SS2_acidhouse_Workin%20Like%20A%20Dog.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/SS2_acidhouse_Workin%20Like%20A%20Dog.webp"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS2_acidhouse_Workin%20Like%20A%20Dog.webp" alt="Workin Like A Dog" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/SS2_acidhouse_Workin%20Like%20A%20Dog.webp" alt="Workin Like A Dog" width="320" />
 </div>
 
 

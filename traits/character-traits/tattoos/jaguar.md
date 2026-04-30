@@ -1,12 +1,12 @@
 ---
 name: Jaguar
-image: "https://mibera.s3.amazonaws.com/traits/ancient_mayan_Jaguar.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/ancient_mayan_Jaguar.webp"
 swag_score: null
 date_added: "2024-08-09"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/ancient_mayan_Jaguar.webp" alt="Jaguar" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/ancient_mayan_Jaguar.webp" alt="Jaguar" width="320" />
 </div>
 
 
