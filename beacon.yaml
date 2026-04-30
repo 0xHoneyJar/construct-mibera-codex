@@ -1,0 +1,75 @@
+# Beacon MCP declaration for construct-mibera-codex
+# Generated following the constructs-mcp-shape doctrine
+# (see vault: constructs-mcp-shape, constructs-mcp-deployment-topology)
+
+mcp:
+  shape: data
+  paths:
+    - stdio
+  remote:
+    transport: streamable-http
+    endpoint: ${MCP_REMOTE_ENDPOINT}  # Path B: set when self-hosting
+  tools:
+    - lookup_zone
+    - lookup_archetype
+    - lookup_factor
+    - lookup_grail
+    - lookup_mibera
+    - list_zones
+    - list_archetypes
+    - validate_world_element
+  source_of_truth:
+    type: git_repo
+    files:
+      - core-lore/festival-zones-vocabulary.md
+      - core-lore/archetypes.md
+      - core-lore/factor-lore.md
+      - _codex/data/grails.jsonl
+      - _codex/data/miberas.jsonl
+  tiers:
+    hard:
+      - zone.slug
+      - zone.emoji
+      - zone.archetype
+      - archetype.name
+      - archetype.zodiac_signs
+      - archetype.season
+      - factor.id
+      - factor.dimension
+      - mibera.id
+      - mibera.archetype
+      - mibera.ancestor
+      - grail.id
+      - grail.name
+      - grail.category
+    soft:
+      - zone.essence
+      - zone.lynch_primitives
+      - zone.kansei_tokens
+      - archetype.figures
+      - archetype.events
+      - archetype.fashion
+      - factor.lore
+    llm_owned:
+      - narrator_voice
+      - activity_class_word
+      - closing_observation
+  payment:
+    enabled: false   # x402 wrapping deferred to v2
+
+# v2 deferred:
+# - lookup_ancestor (33 ancestors in core-lore/ancestors/)
+# - lookup_trait (1,337 traits in traits/)
+# - lookup_drug (78 in traits/overlays/molecules/)
+# - lookup_tarot (78 in core-lore/tarot-cards/)
+# - write events (read-only at v1 per Gumi D3)
+# - registry-gateway hosting (Path C)
+
+# v1 design verdicts: see construct-mibera-codex#53 (Gumi 2026-04-29)
+# - D1/D2/D3 doctrines locked
+# - C1: ship 7 + lookup_mibera (= 8 tools) — done
+# - C2: hybrid JSON + optional markdown response — done
+# - C3: validate_world_element returns suggested-closest — done
+# - C4: rolling latest, no semver tags
+# - C5: graceful degradation (consumer-side)
+# - C6: coverage gap log (grimoires/codex-mcp/coverage-gaps.jsonl) — done

@@ -51,3 +51,13 @@ grimoires/loa/NOTES.md.tmp
 grimoires/loa/analytics/
 grimoires/loa/a2a/trajectory/
 grimoires/loa/memory/
+
+# codex-mcp build + secrets
+dist/
+*.tsbuildinfo
+.env
+.env.local
+.env.*.local
+
+# codex-mcp coverage-gap log — curator review surface, not for git tracking
+grimoires/codex-mcp/coverage-gaps.jsonl
