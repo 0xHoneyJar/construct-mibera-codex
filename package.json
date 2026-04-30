@@ -1,0 +1,41 @@
+{
+  "name": "@0xhoneyjar/construct-mibera-codex",
+  "version": "1.1.0",
+  "description": "Mibera Codex MCP server — anti-hallucination lookup for narrative-bot consumers (zones, archetypes, factors, grails, miberas).",
+  "type": "module",
+  "bin": {
+    "codex-mcp": "./dist/bin/mcp.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "mcp": "tsx bin/mcp.ts",
+    "mcp:dev": "tsx watch bin/mcp.ts",
+    "prepublishOnly": "tsc"
+  },
+  "files": [
+    "bin",
+    "dist",
+    "construct.yaml",
+    "core-lore",
+    "_codex/data",
+    "_codex/schema"
+  ],
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.18.2",
+    "gray-matter": "^4.0.3",
+    "zod": "^3.25.28"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/0xHoneyJar/construct-mibera-codex.git"
+  },
+  "license": "MIT"
+}

@@ -1,11 +1,11 @@
 schema_version: 3
 name: "Mibera Codex"
 slug: mibera-codex
-version: 1.0.0
+version: 1.1.0
 construct_type: codex
 type: codex
-description: "Lore database for Mibera NFTs. Query and browse 10,000 digital identities across 7 dimensions (archetype, ancestor, element, tarot, era, molecule, swag rank). Cross-reference trait connections and look up canonical data."
-short_description: "Mibera identity knowledge base"
+description: "Lore database for Mibera NFTs. Query and browse 10,000 digital identities across 7 dimensions (archetype, ancestor, element, tarot, era, molecule, swag rank). Cross-reference trait connections and look up canonical data. Ships an MCP server (stdio) for narrative-bot consumers — anti-hallucination lookup for zones, archetypes, factors, grails, and miberas with fuzzy validation + coverage-gap logging."
+short_description: "Mibera identity knowledge base + codex-mcp"
 domain:
   - documentation
 author: 0xHoneyJar
@@ -27,6 +27,22 @@ commands:
   - name: codex
     path: commands/codex.md
     description: "Query the Mibera knowledge base"
+
+mcp:
+  shape: data
+  paths:
+    - stdio
+  entry: bin/mcp.ts
+  declaration: beacon.yaml
+  tools:
+    - lookup_zone
+    - lookup_archetype
+    - lookup_factor
+    - lookup_grail
+    - lookup_mibera
+    - list_zones
+    - list_archetypes
+    - validate_world_element
 
 capabilities:
   model_tier: haiku
