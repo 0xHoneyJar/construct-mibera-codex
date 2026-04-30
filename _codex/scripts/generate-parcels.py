@@ -25,7 +25,7 @@ from pathlib import Path
 # --- Constants ---
 
 IPFS_CID = "bafybeiexd3lj53j4gpm7rcvnvprlfaa5kqj7bi4zlh4tlj5og23j6fyese"
-S3_BASE = "https://thj-assets.s3.us-west-2.amazonaws.com/parcels/parcelsImages"
+S3_BASE = "https://assets.0xhoneyjar.xyz/parcels/parcelsImages"
 CONTRACT = "0x6956dae88C00372B1A0b2dfBfE5Eed19F85b0D4B"
 
 # Trait key normalization: source trait_type -> frontmatter key

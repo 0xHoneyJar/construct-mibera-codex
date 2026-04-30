@@ -8,7 +8,7 @@ description: "Poseidon as Neptune with trident and 211.44 Hz frequency"
 
 # Neptune
 
-![Neptune](https://gateway.irys.xyz/7rpvwFYcB5t7S1HziaBAr4RgfAFpqCwCYbFUbkFqpbAq/neptune.png)
+![Neptune](https://assets.0xhoneyjar.xyz/reveal_phase8/images/neptune.png)
 
 > **Grail #2256** · Planet · [Browse all Grails →](../browse/grails.md)
 

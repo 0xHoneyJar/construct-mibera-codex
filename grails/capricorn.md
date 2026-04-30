@@ -8,7 +8,7 @@ description: "Aegipan and Pan as Capricorn with Saturn frequency and 7 pipes"
 
 # Capricorn
 
-![Capricorn](https://gateway.irys.xyz/7rpvwFYcB5t7S1HziaBAr4RgfAFpqCwCYbFUbkFqpbAq/capricorn.png)
+![Capricorn](https://assets.0xhoneyjar.xyz/reveal_phase8/images/capricorn.png)
 
 > **Grail #8971** · Zodiac · [Browse all Grails →](../browse/grails.md)
 

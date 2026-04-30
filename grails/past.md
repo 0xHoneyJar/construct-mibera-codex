@@ -8,7 +8,7 @@ description: "Ancient statue with Huginn and Muninn, Newgrange rock art"
 
 # Past
 
-![Past](https://gateway.irys.xyz/7rpvwFYcB5t7S1HziaBAr4RgfAFpqCwCYbFUbkFqpbAq/past.PNG)
+![Past](https://assets.0xhoneyjar.xyz/reveal_phase8/images/past.PNG)
 
 > **Grail #4221** · Concept · [Browse all Grails →](../browse/grails.md)
 

@@ -8,7 +8,7 @@ description: "The earth"
 
 # Gaia
 
-![Gaia](https://gateway.irys.xyz/7rpvwFYcB5t7S1HziaBAr4RgfAFpqCwCYbFUbkFqpbAq/gaia.png)
+![Gaia](https://assets.0xhoneyjar.xyz/reveal_phase8/images/gaia.png)
 
 > **Grail #3222** · Primordial · [Browse all Grails →](../browse/grails.md)
 

@@ -8,7 +8,7 @@ description: "Green life tones with grounded hair and textured figure"
 
 # Earth
 
-![Earth](https://gateway.irys.xyz/7rpvwFYcB5t7S1HziaBAr4RgfAFpqCwCYbFUbkFqpbAq/earth.PNG)
+![Earth](https://assets.0xhoneyjar.xyz/reveal_phase8/images/earth.PNG)
 
 > **Grail #3244** · Element · [Browse all Grails →](../browse/grails.md)
 

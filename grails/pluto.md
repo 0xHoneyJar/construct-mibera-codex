@@ -8,7 +8,7 @@ description: "Hel as Pluto with key and sigil, evoking isolation"
 
 # Pluto
 
-![Pluto](https://gateway.irys.xyz/7rpvwFYcB5t7S1HziaBAr4RgfAFpqCwCYbFUbkFqpbAq/pluto.png)
+![Pluto](https://assets.0xhoneyjar.xyz/reveal_phase8/images/pluto.png)
 
 > **Grail #1606** · Planet · [Browse all Grails →](../browse/grails.md)
 

@@ -8,7 +8,7 @@ description: "Radiate crown of resurrection with 126.22 Hz solar frequency"
 
 # Sun
 
-![Sun](https://gateway.irys.xyz/7rpvwFYcB5t7S1HziaBAr4RgfAFpqCwCYbFUbkFqpbAq/sun.PNG)
+![Sun](https://assets.0xhoneyjar.xyz/reveal_phase8/images/sun.PNG)
 
 > **Grail #3116** · Luminary · [Browse all Grails →](../browse/grails.md)
 

@@ -528,11 +528,12 @@
     {
       "id": "cycle-022",
       "label": "MiParcels — 10K Parcel Entries & Trait Documentation",
-      "status": "active",
+      "status": "archived",
       "created": "2026-04-16",
-      "prd": "grimoires/loa/prd.md",
-      "sdd": "grimoires/loa/sdd.md",
-      "sprint_plan": "grimoires/loa/sprint.md",
+      "archived": "2026-04-29",
+      "prd": "grimoires/loa/archive/cycle-022/prd.md",
+      "sdd": "grimoires/loa/archive/cycle-022/sdd.md",
+      "sprint_plan": "grimoires/loa/archive/cycle-022/sprint.md",
       "sprints": [
         {
           "id": "sprint-1",
@@ -557,10 +558,29 @@
         }
       ],
       "sprint_count": 3
+    },
+    {
+      "id": "cycle-023",
+      "label": "CDN URL Migration — assets.0xhoneyjar.xyz",
+      "status": "active",
+      "created": "2026-04-29",
+      "prd": "grimoires/loa/prd.md",
+      "sdd": "grimoires/loa/sdd.md",
+      "sprint_plan": "grimoires/loa/sprint.md",
+      "sprints": [
+        {
+          "id": "sprint-1",
+          "global_id": 40,
+          "label": "URL Migration",
+          "status": "planned",
+          "tasks": 4
+        }
+      ],
+      "sprint_count": 1
     }
   ],
-  "active_cycle": "cycle-022",
+  "active_cycle": "cycle-023",
   "active_bugfix": null,
-  "global_sprint_counter": 39,
+  "global_sprint_counter": 40,
   "bugfix_cycles": []
 }

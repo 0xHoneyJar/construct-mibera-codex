@@ -8,7 +8,7 @@ description: "Kali as Scorpio — scorpion, eagle, phoenix journey"
 
 # Scorpio
 
-![Scorpio](https://gateway.irys.xyz/7rpvwFYcB5t7S1HziaBAr4RgfAFpqCwCYbFUbkFqpbAq/scorpio.png)
+![Scorpio](https://assets.0xhoneyjar.xyz/reveal_phase8/images/scorpio.png)
 
 > **Grail #235** · Zodiac · [Browse all Grails →](../browse/grails.md)
 

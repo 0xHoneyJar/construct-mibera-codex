@@ -7,7 +7,7 @@ based_on: "Milady #602"
 
 # Lazarus — Mibera [#3264](../../miberas/3264.md)
 
-![Mibera #3264](https://gateway.irys.xyz/7rpvwFYcB5t7S1HziaBAr4RgfAFpqCwCYbFUbkFqpbAq/fa189d3430ded9b4d9dfcfb60dab5df688fefb65.png)
+![Mibera #3264](https://assets.0xhoneyjar.xyz/reveal_phase8/images/fa189d3430ded9b4d9dfcfb60dab5df688fefb65.png)
 
 **Based on:** [Milady #602](https://opensea.io/item/ethereum/0x5af0d9827e0c53e4799bb226655a1de152a425a5/602) ([Etherscan](https://etherscan.io/token/0x5af0d9827e0c53e4799bb226655a1de152a425a5?a=602))
 
