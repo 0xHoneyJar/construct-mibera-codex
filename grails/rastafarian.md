@@ -8,7 +8,7 @@ description: "Tom Wong tattoo with Great Sebastian record, Tokio Aoyama visuals"
 
 # Rastafarian
 
-![Rastafarian](https://gateway.irys.xyz/7rpvwFYcB5t7S1HziaBAr4RgfAFpqCwCYbFUbkFqpbAq/rastafarian.png)
+![Rastafarian](https://assets.0xhoneyjar.xyz/reveal_phase8/images/rastafarian.png)
 
 > **Grail #1134** · Ancestor · [Browse all Grails →](../browse/grails.md)
 

@@ -7,7 +7,7 @@ based_on: "Milady #9410"
 
 # Todd Fine — Mibera [#8931](../../miberas/8931.md)
 
-![Mibera #8931](https://gateway.irys.xyz/7rpvwFYcB5t7S1HziaBAr4RgfAFpqCwCYbFUbkFqpbAq/fd3eabc1750a91d2649b5e3476c88e548391265d.png)
+![Mibera #8931](https://assets.0xhoneyjar.xyz/reveal_phase8/images/fd3eabc1750a91d2649b5e3476c88e548391265d.png)
 
 **Based on:** [Milady #9410](https://opensea.io/item/ethereum/0x5af0d9827e0c53e4799bb226655a1de152a425a5/9410)
 

@@ -8,7 +8,7 @@ description: "Cloud-like figure with sun filtering through"
 
 # Air
 
-![Air](https://gateway.irys.xyz/7rpvwFYcB5t7S1HziaBAr4RgfAFpqCwCYbFUbkFqpbAq/air.PNG)
+![Air](https://assets.0xhoneyjar.xyz/reveal_phase8/images/air.PNG)
 
 > **Grail #2769** · Element · [Browse all Grails →](../browse/grails.md)
 

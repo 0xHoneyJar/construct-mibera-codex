@@ -8,7 +8,7 @@ description: "Pyromantic hues with radiating heat and chest light evoking the su
 
 # Fire
 
-![Fire](https://gateway.irys.xyz/7rpvwFYcB5t7S1HziaBAr4RgfAFpqCwCYbFUbkFqpbAq/fire.PNG)
+![Fire](https://assets.0xhoneyjar.xyz/reveal_phase8/images/fire.PNG)
 
 > **Grail #6458** · Element · [Browse all Grails →](../browse/grails.md)
 

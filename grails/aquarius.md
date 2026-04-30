@@ -8,7 +8,7 @@ description: "Hades as Aquarius with circulatory system and Uranus frequency"
 
 # Aquarius
 
-![Aquarius](https://gateway.irys.xyz/7rpvwFYcB5t7S1HziaBAr4RgfAFpqCwCYbFUbkFqpbAq/aquarius.png)
+![Aquarius](https://assets.0xhoneyjar.xyz/reveal_phase8/images/aquarius.png)
 
 > **Grail #6805** · Zodiac · [Browse all Grails →](../browse/grails.md)
 

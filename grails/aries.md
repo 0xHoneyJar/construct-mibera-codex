@@ -8,7 +8,7 @@ description: "Dumuzi the Shepherd as Aries with ram skull and Mars frequency"
 
 # Aries
 
-![Aries](https://gateway.irys.xyz/7rpvwFYcB5t7S1HziaBAr4RgfAFpqCwCYbFUbkFqpbAq/aries.PNG)
+![Aries](https://assets.0xhoneyjar.xyz/reveal_phase8/images/aries.PNG)
 
 > **Grail #4803** · Zodiac · [Browse all Grails →](../browse/grails.md)
 
