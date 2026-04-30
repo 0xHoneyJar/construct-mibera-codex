@@ -126,6 +126,59 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* ---------- Wallpaper: books beneath the page ----------------------- *
+ * The MICODEX brand mark places the row of grimoires under the wordmark.
+ * The site echoes that — a faded books strip rests at the bottom edge
+ * of the viewport, fixed, behind everything. Saturation is dialed down
+ * so the spines warm into the parchment instead of fighting it. The
+ * gradient mask fades the top of the strip into the page so there's no
+ * hard edge — books emerge from shadow.
+ * ===================================================================== */
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: auto 0 0 0;
+  height: 38vh;
+  min-height: 240px;
+  max-height: 380px;
+  z-index: 0;
+  pointer-events: none;
+  background-image: url("/miberasets-row.jpg");
+  background-position: center bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.085;
+  filter: saturate(0.6) brightness(0.95) sepia(0.18);
+  mask-image: linear-gradient(
+    to bottom,
+    transparent 0%,
+    rgba(0, 0, 0, 0.6) 35%,
+    rgba(0, 0, 0, 0.95) 75%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  -webkit-mask-image: linear-gradient(
+    to bottom,
+    transparent 0%,
+    rgba(0, 0, 0, 0.6) 35%,
+    rgba(0, 0, 0, 0.95) 75%,
+    rgba(0, 0, 0, 1) 100%
+  );
+}
+
+/* All vocs surfaces sit above the wallpaper. */
+body > * {
+  position: relative;
+  z-index: 1;
+}
+
+/* Print + accessibility: no decorative wallpaper. */
+@media print,
+       (prefers-contrast: more),
+       (forced-colors: active) {
+  body::before { display: none; }
+}
+
 /* Imperial for HEADINGS ONLY — body stays Switzer for sustained reading. */
 h1, h2, h3, h4, h5, h6,
 .vocs_H1, .vocs_H2, .vocs_H3, .vocs_H4, .vocs_H5, .vocs_H6 {

@@ -19,7 +19,7 @@ export default defineConfig({
     "The grimoire MCP — anti-hallucination lookup over canonical Mibera lore. Read by agents, browsed by humans, tools shared between.",
   rootDir: ".",
 
-  iconUrl: "/codex-avatar.jpg",
+  iconUrl: "/favicon.png",
   // Vocs's useOgImageUrl drops string-form ogImageUrl on lookup; the
   // path-map form is the working surface. Glob "**" matches any route
   // so every page gets the same Mibera OG card. Absolute URL so
@@ -86,31 +86,33 @@ export default defineConfig({
 
   sidebar: [
     {
-      text: "Overview",
+      text: "Front matter",
       items: [
-        { text: "What is Mibera Codex?", link: "/" },
+        { text: "What is the codex?", link: "/" },
         { text: "Anti-hallucination", link: "/anti-hallucination" },
-        { text: "Quickstart", link: "/quickstart" },
+        { text: "Quickstart",         link: "/quickstart" },
       ],
     },
     {
       text: "The grimoires",
       items: [
-        { text: "lookup_zone",            link: "/tools/lookup_zone" },
-        { text: "lookup_archetype",       link: "/tools/lookup_archetype" },
-        { text: "lookup_factor",          link: "/tools/lookup_factor" },
-        { text: "lookup_grail",           link: "/tools/lookup_grail" },
-        { text: "lookup_mibera",          link: "/tools/lookup_mibera" },
-        { text: "list_zones",             link: "/tools/list_zones" },
-        { text: "list_archetypes",        link: "/tools/list_archetypes" },
-        { text: "validate_world_element", link: "/tools/validate_world_element" },
+        // Sidebar labels are human-legible; the canonical snake_case tool
+        // names render in the ToolCard h1 + JSON examples on each page.
+        { text: "Zone",            link: "/tools/lookup_zone" },
+        { text: "Archetype",       link: "/tools/lookup_archetype" },
+        { text: "Factor",          link: "/tools/lookup_factor" },
+        { text: "Grail",           link: "/tools/lookup_grail" },
+        { text: "Mibera",          link: "/tools/lookup_mibera" },
+        { text: "List · zones",      link: "/tools/list_zones" },
+        { text: "List · archetypes", link: "/tools/list_archetypes" },
+        { text: "Validate",        link: "/tools/validate_world_element" },
       ],
     },
     {
-      text: "Operations",
+      text: "Beyond the tools",
       items: [
         { text: "Discovery card", link: "/discovery" },
-        { text: "Coverage gaps", link: "/coverage-gaps" },
+        { text: "Coverage gaps",  link: "/coverage-gaps" },
       ],
     },
   ],
