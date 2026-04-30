@@ -2,11 +2,11 @@
 name: "Nun Outfit"
 category: shirts
 from: ""
-image: "https://mibera.s3.amazonaws.com/traits/nun%20outfit.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/nun%20outfit.webp"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/nun%20outfit.webp" alt="Nun Outfit" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/nun%20outfit.webp" alt="Nun Outfit" width="320" />
 </div>
 
 

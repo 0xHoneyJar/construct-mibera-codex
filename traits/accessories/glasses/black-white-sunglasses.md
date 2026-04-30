@@ -1,13 +1,13 @@
 ---
 name: black white sunglasses
-image: "https://mibera.s3.amazonaws.com/traits/chicagodetroit_Black%20White%20Sunglasses.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/chicagodetroit_Black%20White%20Sunglasses.webp"
 archetype: Chicago Detroit
 swag_score: 3
 date_added: "2024-06-18"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/chicagodetroit_Black%20White%20Sunglasses.webp" alt="Black White Sunglasses" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/chicagodetroit_Black%20White%20Sunglasses.webp" alt="Black White Sunglasses" width="320" />
 </div>
 
 

@@ -1,11 +1,11 @@
 ---
 name: braided green
-image: "https://mibera.s3.amazonaws.com/traits/Braided%20Green.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/Braided%20Green.webp"
 date_added: "2024-06-04"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/Braided%20Green.webp" alt="Braided Green" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/Braided%20Green.webp" alt="Braided Green" width="320" />
 </div>
 
 

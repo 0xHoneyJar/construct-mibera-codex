@@ -1,13 +1,13 @@
 ---
 name: 80s Detroit Jersey
-image: "https://mibera.s3.amazonaws.com/traits/SS3_chicagodetroit_80s%20Detroit%20Jersey.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/SS3_chicagodetroit_80s%20Detroit%20Jersey.webp"
 archetype: Chicago Detroit
 swag_score: 3
 date_added: "2024-12-10"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS3_chicagodetroit_80s%20Detroit%20Jersey.webp" alt="80S Detroit Jersey" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/SS3_chicagodetroit_80s%20Detroit%20Jersey.webp" alt="80S Detroit Jersey" width="320" />
 </div>
 
 

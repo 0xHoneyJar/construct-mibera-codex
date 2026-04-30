@@ -1,13 +1,13 @@
 ---
 name: I Was Mibera
-image: "https://mibera.s3.amazonaws.com/traits/SS2_milady_I%20Was%20Mibera.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/SS2_milady_I%20Was%20Mibera.webp"
 archetype: Milady
 swag_score: 2
 date_added: "2024-06-22"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS2_milady_I%20Was%20Mibera.webp" alt="I Was Mibera" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/SS2_milady_I%20Was%20Mibera.webp" alt="I Was Mibera" width="320" />
 </div>
 
 

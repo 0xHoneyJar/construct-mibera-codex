@@ -1,13 +1,13 @@
 ---
 name: No World as Fucked as Mine
-image: "https://mibera.s3.amazonaws.com/traits/SS3_acidhouse_modern_traveller_No%20World%20As%20Fucked%20As%20Mine.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/SS3_acidhouse_modern_traveller_No%20World%20As%20Fucked%20As%20Mine.webp"
 archetype: Acidhouse
 swag_score: 3
 date_added: "2024-07-24"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS3_acidhouse_modern_traveller_No%20World%20As%20Fucked%20As%20Mine.webp" alt="No World As Fucked As Mine" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/SS3_acidhouse_modern_traveller_No%20World%20As%20Fucked%20As%20Mine.webp" alt="No World As Fucked As Mine" width="320" />
 </div>
 
 

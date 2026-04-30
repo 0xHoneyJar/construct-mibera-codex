@@ -1,12 +1,12 @@
 ---
 name: Crypto Anarchist
-image: "https://mibera.s3.amazonaws.com/traits/SS1_Crypto%20Anarchist.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/SS1_Crypto%20Anarchist.webp"
 swag_score: 1
 date_added: "2024-12-10"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS1_Crypto%20Anarchist.webp" alt="Crypto Anarchist" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/SS1_Crypto%20Anarchist.webp" alt="Crypto Anarchist" width="320" />
 </div>
 
 

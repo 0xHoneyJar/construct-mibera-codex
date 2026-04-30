@@ -1,12 +1,12 @@
 ---
 name: ketamine kneecap up the ra balaclava
-image: "https://mibera.s3.amazonaws.com/traits/SS4_%20ketamine%20kneecap%20up%20the%20ra%20balaclava.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/SS4_%20ketamine%20kneecap%20up%20the%20ra%20balaclava.webp"
 swag_score: 4
 date_added: "2025-03-14"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS4_%20ketamine%20kneecap%20up%20the%20ra%20balaclava.webp" alt="Ketamine Kneecap Up The Ra Balaclava" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/SS4_%20ketamine%20kneecap%20up%20the%20ra%20balaclava.webp" alt="Ketamine Kneecap Up The Ra Balaclava" width="320" />
 </div>
 
 

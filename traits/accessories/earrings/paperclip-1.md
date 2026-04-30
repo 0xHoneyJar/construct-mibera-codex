@@ -1,13 +1,13 @@
 ---
 name: Paperclip 1
-image: "https://mibera.s3.amazonaws.com/traits/SS5_freetekno_Paperclip%201.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/SS5_freetekno_Paperclip%201.webp"
 archetype: Freetekno
 swag_score: 5
 date_added: "2023-11-28"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS5_freetekno_Paperclip%201.webp" alt="Paperclip 1" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/SS5_freetekno_Paperclip%201.webp" alt="Paperclip 1" width="320" />
 </div>
 
 

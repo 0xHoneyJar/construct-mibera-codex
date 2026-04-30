@@ -1,12 +1,12 @@
 ---
 name: Orthodox Robe
-image: "https://mibera.s3.amazonaws.com/traits/SS5_Orthodox%20Robe.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/SS5_Orthodox%20Robe.webp"
 swag_score: 5
 date_added: "2025-01-02"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS5_Orthodox%20Robe.webp" alt="Orthodox Robe" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/SS5_Orthodox%20Robe.webp" alt="Orthodox Robe" width="320" />
 </div>
 
 

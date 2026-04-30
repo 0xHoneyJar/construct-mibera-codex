@@ -1,12 +1,12 @@
 ---
 name: honey comb
-image: "https://mibera.s3.amazonaws.com/traits/SS3_Honey%20Comb.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/SS3_Honey%20Comb.webp"
 swag_score: 3
 date_added: "2024-07-09"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS3_Honey%20Comb.webp" alt="Honey Comb" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/SS3_Honey%20Comb.webp" alt="Honey Comb" width="320" />
 </div>
 
 

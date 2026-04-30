@@ -1,13 +1,13 @@
 ---
 name: Tight Turban
-image: "https://mibera.s3.amazonaws.com/traits/SS2_chicagodetroit_modern_sufi_Tight%20Turban.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/SS2_chicagodetroit_modern_sufi_Tight%20Turban.webp"
 archetype: Chicago Detroit
 swag_score: 2
 date_added: "2024-07-27"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS2_chicagodetroit_modern_sufi_Tight%20Turban.webp" alt="Tight Turban" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/SS2_chicagodetroit_modern_sufi_Tight%20Turban.webp" alt="Tight Turban" width="320" />
 </div>
 
 

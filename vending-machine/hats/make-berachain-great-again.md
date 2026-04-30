@@ -1,12 +1,12 @@
 ---
 name: "Make Berachain Great Again"
-image: "https://mibera.s3.amazonaws.com/traits/MBGA.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/MBGA.webp"
 category: hats
 from: ""
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/MBGA.webp" alt="Make Berachain Great Again" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/MBGA.webp" alt="Make Berachain Great Again" width="320" />
 </div>
 
 # Make Berachain Great Again

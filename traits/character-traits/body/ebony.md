@@ -1,11 +1,11 @@
 ---
 name: ebony
-image: "https://mibera.s3.amazonaws.com/traits/ebony.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/ebony.webp"
 date_added: "2024-08-13"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/ebony.webp" alt="Ebony" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/ebony.webp" alt="Ebony" width="320" />
 </div>
 
 

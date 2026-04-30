@@ -1,11 +1,11 @@
 ---
 name: Home Lab
-image: "https://mibera.s3.amazonaws.com/traits/home%20lab.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/home%20lab.webp"
 date_added: "2025-03-11"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/home%20lab.webp" alt="Home Lab" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/home%20lab.webp" alt="Home Lab" width="320" />
 </div>
 
 

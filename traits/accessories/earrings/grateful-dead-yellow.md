@@ -1,12 +1,12 @@
 ---
 name: Grateful Dead Yellow
-image: "https://mibera.s3.amazonaws.com/traits/SS4_grateful%20dead%20yellow.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/SS4_grateful%20dead%20yellow.webp"
 swag_score: 4
 date_added: "2024-06-04"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS4_grateful%20dead%20yellow.webp" alt="Grateful Dead Yellow" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/SS4_grateful%20dead%20yellow.webp" alt="Grateful Dead Yellow" width="320" />
 </div>
 
 

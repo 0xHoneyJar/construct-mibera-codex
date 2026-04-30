@@ -1,11 +1,11 @@
 ---
 name: Leo
-image: "https://mibera.s3.amazonaws.com/traits/leo.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/leo.webp"
 date_added: "2024-11-23"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/leo.webp" alt="Leo" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/leo.webp" alt="Leo" width="320" />
 </div>
 
 

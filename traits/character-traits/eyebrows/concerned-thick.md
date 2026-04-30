@@ -1,11 +1,11 @@
 ---
 name: concerned thick
-image: "https://mibera.s3.amazonaws.com/traits/Concerned%20Thick.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/Concerned%20Thick.webp"
 date_added: "2024-07-30"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/Concerned%20Thick.webp" alt="Concerned Thick" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/Concerned%20Thick.webp" alt="Concerned Thick" width="320" />
 </div>
 
 

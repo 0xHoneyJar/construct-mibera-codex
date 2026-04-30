@@ -1,11 +1,11 @@
 ---
 name: honey
-image: "https://mibera.s3.amazonaws.com/traits/honey.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/honey.webp"
 date_added: "2024-08-13"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/honey.webp" alt="Honey" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/honey.webp" alt="Honey" width="320" />
 </div>
 
 

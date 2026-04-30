@@ -1,12 +1,12 @@
 ---
 name: Uwu Baphomet
-image: "https://mibera.s3.amazonaws.com/traits/modern_satanist_uwu%20baphomet.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/modern_satanist_uwu%20baphomet.webp"
 swag_score: null
 date_added: "2024-08-09"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/modern_satanist_uwu%20baphomet.webp" alt="Uwu Baphomet" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/modern_satanist_uwu%20baphomet.webp" alt="Uwu Baphomet" width="320" />
 </div>
 
 

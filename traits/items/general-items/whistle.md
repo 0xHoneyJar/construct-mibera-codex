@@ -1,13 +1,13 @@
 ---
 name: whistle
-image: "https://mibera.s3.amazonaws.com/traits/SS2_acidhouse_Whistle.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/SS2_acidhouse_Whistle.webp"
 archetype: Acidhouse
 swag_score: 2
 date_added: "2024-07-23"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS2_acidhouse_Whistle.webp" alt="Whistle" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/SS2_acidhouse_Whistle.webp" alt="Whistle" width="320" />
 </div>
 
 

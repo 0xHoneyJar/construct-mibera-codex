@@ -1,12 +1,12 @@
 ---
 name: cody wilson ar-15
-image: "https://mibera.s3.amazonaws.com/traits/SS5_Cody%20Wilson%20AR-15.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/SS5_Cody%20Wilson%20AR-15.webp"
 swag_score: 5
 date_added: "2024-07-16"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS5_Cody%20Wilson%20AR-15.webp" alt="Cody Wilson Ar 15" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/SS5_Cody%20Wilson%20AR-15.webp" alt="Cody Wilson Ar 15" width="320" />
 </div>
 
 

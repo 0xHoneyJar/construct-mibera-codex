@@ -1,13 +1,13 @@
 ---
 name: Future Rug Core
-image: "https://mibera.s3.amazonaws.com/traits/SS2_freetekno_Future%20Rug%20Core.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/SS2_freetekno_Future%20Rug%20Core.webp"
 archetype: Freetekno
 swag_score: 2
 date_added: "2024-06-22"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS2_freetekno_Future%20Rug%20Core.webp" alt="Future Rug Core" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/SS2_freetekno_Future%20Rug%20Core.webp" alt="Future Rug Core" width="320" />
 </div>
 
 

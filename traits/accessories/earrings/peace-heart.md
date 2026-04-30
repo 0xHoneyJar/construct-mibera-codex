@@ -1,12 +1,12 @@
 ---
 name: Peace Heart
-image: "https://mibera.s3.amazonaws.com/traits/SS1_peace%20heart.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/SS1_peace%20heart.webp"
 swag_score: 1
 date_added: "2024-06-04"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS1_peace%20heart.webp" alt="Peace Heart" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/SS1_peace%20heart.webp" alt="Peace Heart" width="320" />
 </div>
 
 

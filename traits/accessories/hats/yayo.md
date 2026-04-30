@@ -1,12 +1,12 @@
 ---
 name: Yayo
-image: "https://mibera.s3.amazonaws.com/traits/SS2_Yayo.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/SS2_Yayo.webp"
 swag_score: 2
 date_added: "2024-07-27"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS2_Yayo.webp" alt="Yayo" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/SS2_Yayo.webp" alt="Yayo" width="320" />
 </div>
 
 

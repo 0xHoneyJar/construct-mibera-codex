@@ -2,11 +2,11 @@
 name: "Sombrero"
 category: hats
 from: ""
-image: "https://mibera.s3.amazonaws.com/traits/sombrero.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/sombrero.webp"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/sombrero.webp" alt="Sombrero" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/sombrero.webp" alt="Sombrero" width="320" />
 </div>
 
 

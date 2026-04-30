@@ -2,11 +2,11 @@
 name: "McBera"
 category: mouth
 from: ""
-image: "https://mibera.s3.amazonaws.com/traits/mcbera.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/mcbera.webp"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/mcbera.webp" alt="Mcbera" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/mcbera.webp" alt="Mcbera" width="320" />
 </div>
 
 

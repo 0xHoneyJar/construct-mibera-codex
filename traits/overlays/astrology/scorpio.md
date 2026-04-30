@@ -3,13 +3,13 @@ name: Scorpio
 date_range: October 23 - November 21
 glyph: ♏
 element: Water
-image: "https://mibera.s3.amazonaws.com/traits/Sun%20Scorpio.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/Sun%20Scorpio.webp"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/Sun%20Scorpio.webp" alt="Sun Scorpio" width="200" />
-  <img src="https://mibera.s3.amazonaws.com/traits/Moon%20Scorpio.webp" alt="Moon Scorpio" width="200" />
-  <img src="https://mibera.s3.amazonaws.com/traits/Rising%20Scorpio.webp" alt="Rising Scorpio" width="200" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/Sun%20Scorpio.webp" alt="Sun Scorpio" width="200" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/Moon%20Scorpio.webp" alt="Moon Scorpio" width="200" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/Rising%20Scorpio.webp" alt="Rising Scorpio" width="200" />
 </div>
 
 

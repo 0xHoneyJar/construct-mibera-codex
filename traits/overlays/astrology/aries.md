@@ -3,13 +3,13 @@ name: Aries
 date_range: March 21 - April 19
 glyph: ♈
 element: Fire
-image: "https://mibera.s3.amazonaws.com/traits/Sun%20Aries.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/Sun%20Aries.webp"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/Sun%20Aries.webp" alt="Sun Aries" width="200" />
-  <img src="https://mibera.s3.amazonaws.com/traits/Moon%20Aries.webp" alt="Moon Aries" width="200" />
-  <img src="https://mibera.s3.amazonaws.com/traits/Rising%20Aries.webp" alt="Rising Aries" width="200" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/Sun%20Aries.webp" alt="Sun Aries" width="200" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/Moon%20Aries.webp" alt="Moon Aries" width="200" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/Rising%20Aries.webp" alt="Rising Aries" width="200" />
 </div>
 
 

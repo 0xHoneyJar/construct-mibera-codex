@@ -1,12 +1,12 @@
 ---
 name: Stupa
-image: "https://mibera.s3.amazonaws.com/traits/ancient_nepal_Stupa.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/ancient_nepal_Stupa.webp"
 swag_score: null
 date_added: "2024-08-09"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/ancient_nepal_Stupa.webp" alt="Stupa" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/ancient_nepal_Stupa.webp" alt="Stupa" width="320" />
 </div>
 
 

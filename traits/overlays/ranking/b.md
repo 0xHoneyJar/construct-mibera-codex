@@ -1,13 +1,13 @@
 ---
 name: B
 rank: B
-image: "https://mibera.s3.amazonaws.com/traits/B.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/B.webp"
 shape: Circle
 color: a darker shade of yellow
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/B.webp" alt="B" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/B.webp" alt="B" width="320" />
 </div>
 
 

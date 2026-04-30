@@ -1,11 +1,11 @@
 ---
 name: long wavy black
-image: "https://mibera.s3.amazonaws.com/traits/Long%20Wavy%20Black.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/Long%20Wavy%20Black.webp"
 date_added: "2024-06-22"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/Long%20Wavy%20Black.webp" alt="Long Wavy Black" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/Long%20Wavy%20Black.webp" alt="Long Wavy Black" width="320" />
 </div>
 
 

@@ -1,11 +1,11 @@
 ---
 name: concerned
-image: "https://mibera.s3.amazonaws.com/traits/Concerned.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/Concerned.webp"
 date_added: "2024-07-30"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/Concerned.webp" alt="Concerned" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/Concerned.webp" alt="Concerned" width="320" />
 </div>
 
 

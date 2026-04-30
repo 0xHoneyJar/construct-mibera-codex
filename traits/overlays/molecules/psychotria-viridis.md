@@ -7,12 +7,12 @@ origin: Amazon Basin
 archetype: Freetekno
 ancestor: Native American, Mayan
 swag_score: 3
-image: "https://mibera.s3.amazonaws.com/traits/freetekno_nativeAmericans_mayan_psychotria%20viridis.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/freetekno_nativeAmericans_mayan_psychotria%20viridis.webp"
 date_added: "2025-01-12"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/freetekno_nativeAmericans_mayan_psychotria%20viridis.webp" alt="Psychotria Viridis" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/freetekno_nativeAmericans_mayan_psychotria%20viridis.webp" alt="Psychotria Viridis" width="320" />
 </div>
 
 

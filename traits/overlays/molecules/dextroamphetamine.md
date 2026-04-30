@@ -7,12 +7,12 @@ origin: Germany
 archetype: Milady
 ancestor: Chinese, Palestinian
 swag_score: 5
-image: "https://mibera.s3.amazonaws.com/traits/milady_chinese_palestinian_dextroamphetamine.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/milady_chinese_palestinian_dextroamphetamine.webp"
 date_added: "2025-01-12"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/milady_chinese_palestinian_dextroamphetamine.webp" alt="Dextroamphetamine" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/milady_chinese_palestinian_dextroamphetamine.webp" alt="Dextroamphetamine" width="320" />
 </div>
 
 

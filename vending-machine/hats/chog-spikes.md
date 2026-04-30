@@ -2,11 +2,11 @@
 name: "Chog Spikes"
 category: hats
 from: ""
-image: "https://mibera.s3.amazonaws.com/traits/chog%20spikes.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/chog%20spikes.webp"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/chog%20spikes.webp" alt="Chog Spikes" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/chog%20spikes.webp" alt="Chog Spikes" width="320" />
 </div>
 
 

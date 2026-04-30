@@ -1,12 +1,12 @@
 ---
 name: honey baddie
-image: "https://mibera.s3.amazonaws.com/traits/SS3_Honey%20Baddie.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/SS3_Honey%20Baddie.webp"
 swag_score: 5
 date_added: "2024-12-09"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS3_Honey%20Baddie.webp" alt="Honey Baddie" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/SS3_Honey%20Baddie.webp" alt="Honey Baddie" width="320" />
 </div>
 
 

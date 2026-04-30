@@ -7,12 +7,12 @@ origin: null
 archetype: Milady
 ancestor: Mongolian
 swag_score: 2
-image: "https://mibera.s3.amazonaws.com/traits/milady_mongolian_sober.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/milady_mongolian_sober.webp"
 date_added: "2025-01-12"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/milady_mongolian_sober.webp" alt="Sober" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/milady_mongolian_sober.webp" alt="Sober" width="320" />
 </div>
 
 

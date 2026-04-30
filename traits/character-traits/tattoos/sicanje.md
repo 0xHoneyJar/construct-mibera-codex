@@ -1,12 +1,12 @@
 ---
 name: Sicanje
-image: "https://mibera.s3.amazonaws.com/traits/modern_sicanje_Sicanje.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/modern_sicanje_Sicanje.webp"
 swag_score: null
 date_added: "2024-08-10"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/modern_sicanje_Sicanje.webp" alt="Sicanje" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/modern_sicanje_Sicanje.webp" alt="Sicanje" width="320" />
 </div>
 
 

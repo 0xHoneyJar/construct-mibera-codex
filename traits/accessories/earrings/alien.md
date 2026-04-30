@@ -1,12 +1,12 @@
 ---
 name: Alien
-image: "https://mibera.s3.amazonaws.com/traits/SS2_alien.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/SS2_alien.webp"
 swag_score: 2
 date_added: "2024-12-10"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS2_alien.webp" alt="Alien" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/SS2_alien.webp" alt="Alien" width="320" />
 </div>
 
 

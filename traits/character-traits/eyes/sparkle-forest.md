@@ -1,11 +1,11 @@
 ---
 name: sparkle forest
-image: "https://mibera.s3.amazonaws.com/traits/Sparkle%20Forest.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/Sparkle%20Forest.webp"
 date_added: "2024-06-03"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/Sparkle%20Forest.webp" alt="Sparkle Forest" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/Sparkle%20Forest.webp" alt="Sparkle Forest" width="320" />
 </div>
 
 

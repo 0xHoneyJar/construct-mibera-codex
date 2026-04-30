@@ -2,11 +2,11 @@
 name: "Hit That"
 category: shirts
 from: ""
-image: "https://mibera.s3.amazonaws.com/traits/hit%20that.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/hit%20that.webp"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/hit%20that.webp" alt="Hit That" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/hit%20that.webp" alt="Hit That" width="320" />
 </div>
 
 

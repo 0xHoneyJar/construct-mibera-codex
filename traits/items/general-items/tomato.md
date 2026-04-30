@@ -1,12 +1,12 @@
 ---
 name: tomato
-image: "https://mibera.s3.amazonaws.com/traits/SS2_tomato.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/SS2_tomato.webp"
 swag_score: 2
 date_added: "2024-07-12"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS2_tomato.webp" alt="Tomato" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/SS2_tomato.webp" alt="Tomato" width="320" />
 </div>
 
 

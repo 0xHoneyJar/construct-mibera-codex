@@ -1,12 +1,12 @@
 ---
 name: Honey Road
-image: "https://mibera.s3.amazonaws.com/traits/SS4_Honey%20Road.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/SS4_Honey%20Road.webp"
 swag_score: 4
 date_added: "2024-06-22"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS4_Honey%20Road.webp" alt="Honey Road" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/SS4_Honey%20Road.webp" alt="Honey Road" width="320" />
 </div>
 
 

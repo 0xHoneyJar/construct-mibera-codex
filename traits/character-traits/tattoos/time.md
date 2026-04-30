@@ -1,12 +1,12 @@
 ---
 name: Time
-image: "https://mibera.s3.amazonaws.com/traits/ancient_mongolian_Time.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/ancient_mongolian_Time.webp"
 swag_score: null
 date_added: "2024-08-10"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/Time.webp" alt="Time" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/Time.webp" alt="Time" width="320" />
 </div>
 
 

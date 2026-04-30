@@ -1,13 +1,13 @@
 ---
 name: Duct Tape
-image: "https://mibera.s3.amazonaws.com/traits/SS1_chicagodetroit_duct%20tape.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/SS1_chicagodetroit_duct%20tape.webp"
 archetype: Chicago Detroit
 swag_score: 1
 date_added: "2024-06-05"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS1_chicagodetroit_duct%20tape.webp" alt="Duct Tape" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/SS1_chicagodetroit_duct%20tape.webp" alt="Duct Tape" width="320" />
 </div>
 
 

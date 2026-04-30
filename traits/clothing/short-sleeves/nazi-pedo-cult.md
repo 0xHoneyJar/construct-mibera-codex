@@ -1,12 +1,12 @@
 ---
 name: Nazi Pedo Cult
-image: "https://mibera.s3.amazonaws.com/traits/SS4_Nazi%20Pedo%20Cult.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/SS4_Nazi%20Pedo%20Cult.webp"
 swag_score: 4
 date_added: "2024-06-22"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS4_Nazi%20Pedo%20Cult.webp" alt="Nazi Pedo Cult" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/SS4_Nazi%20Pedo%20Cult.webp" alt="Nazi Pedo Cult" width="320" />
 </div>
 
 

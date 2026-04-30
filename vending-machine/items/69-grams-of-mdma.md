@@ -2,11 +2,11 @@
 name: "69 Grams of MDMA"
 category: items
 from: ""
-image: "https://mibera.s3.amazonaws.com/traits/69%20grams%20of%20mdma.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/69%20grams%20of%20mdma.webp"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/69%20grams%20of%20mdma.webp" alt="69 Grams Of Mdma" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/69%20grams%20of%20mdma.webp" alt="69 Grams Of Mdma" width="320" />
 </div>
 
 

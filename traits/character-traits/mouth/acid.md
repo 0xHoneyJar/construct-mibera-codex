@@ -1,11 +1,11 @@
 ---
 name: acid
-image: "https://mibera.s3.amazonaws.com/traits/acid.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/acid.webp"
 date_added: "2024-08-01"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/acid.webp" alt="Acid" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/acid.webp" alt="Acid" width="320" />
 </div>
 
 

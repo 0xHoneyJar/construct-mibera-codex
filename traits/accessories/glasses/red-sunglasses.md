@@ -1,13 +1,13 @@
 ---
 name: Red Sunglasses
-image: "https://mibera.s3.amazonaws.com/traits/chicagodetroit_Red%20Sunglasses.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/chicagodetroit_Red%20Sunglasses.webp"
 archetype: Chicago Detroit
 swag_score: 2
 date_added: "2024-12-10"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/chicagodetroit_Red%20Sunglasses.webp" alt="Red Sunglasses" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/chicagodetroit_Red%20Sunglasses.webp" alt="Red Sunglasses" width="320" />
 </div>
 
 

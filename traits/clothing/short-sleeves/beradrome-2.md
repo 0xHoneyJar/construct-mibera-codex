@@ -1,13 +1,13 @@
 ---
 name: Beradrome 2
-image: "https://mibera.s3.amazonaws.com/traits/SS3_milady_Beradrome%202.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/SS3_milady_Beradrome%202.webp"
 archetype: Milady
 swag_score: 4
 date_added: "2024-12-10"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS3_milady_Beradrome%202.webp" alt="Beradrome 2" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/SS3_milady_Beradrome%202.webp" alt="Beradrome 2" width="320" />
 </div>
 
 

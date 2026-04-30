@@ -1,13 +1,13 @@
 ---
 name: babybera cloud99 tape
-image: "https://mibera.s3.amazonaws.com/traits/SS3_chicagodetroit_babybera%20cloud99%20tape.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/SS3_chicagodetroit_babybera%20cloud99%20tape.webp"
 archetype: Chicago Detroit
 swag_score: 5
 date_added: "2025-02-28"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS3_chicagodetroit_babybera%20cloud99%20tape.webp" alt="Babybera Cloud99 Tape" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/SS3_chicagodetroit_babybera%20cloud99%20tape.webp" alt="Babybera Cloud99 Tape" width="320" />
 </div>
 
 

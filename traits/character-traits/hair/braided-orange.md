@@ -1,11 +1,11 @@
 ---
 name: braided orange
-image: "https://mibera.s3.amazonaws.com/traits/Braided%20Orange.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/Braided%20Orange.webp"
 date_added: "2024-06-04"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/Braided%20Orange.webp" alt="Braided Orange" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/Braided%20Orange.webp" alt="Braided Orange" width="320" />
 </div>
 
 

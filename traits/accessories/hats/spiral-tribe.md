@@ -1,13 +1,13 @@
 ---
 name: Spiral Tribe
-image: "https://mibera.s3.amazonaws.com/traits/SS3_milady_Spiral%20Tribe.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/SS3_milady_Spiral%20Tribe.webp"
 archetype: Milady
 swag_score: 3
 date_added: "2024-07-25"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS3_freetekno_Spiral%20Tribe.webp" alt="Spiral Tribe" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/SS3_freetekno_Spiral%20Tribe.webp" alt="Spiral Tribe" width="320" />
 </div>
 
 

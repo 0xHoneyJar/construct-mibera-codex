@@ -1,13 +1,13 @@
 ---
 name: Tweed Peak Cap
-image: "https://mibera.s3.amazonaws.com/traits/SS3_milady_Tweed%20Peak%20Cap.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/SS3_milady_Tweed%20Peak%20Cap.webp"
 archetype: Milady
 swag_score: 3
 date_added: "2024-07-25"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS3_milady_Tweed%20Peak%20Cap.webp" alt="Tweed Peak Cap" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/SS3_milady_Tweed%20Peak%20Cap.webp" alt="Tweed Peak Cap" width="320" />
 </div>
 
 

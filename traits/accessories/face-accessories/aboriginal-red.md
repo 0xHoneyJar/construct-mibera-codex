@@ -1,13 +1,13 @@
 ---
 name: Aboriginal Red
-image: "https://mibera.s3.amazonaws.com/traits/SS5_freetekno_ancient_aboriginal_Aboriginal%20Red.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/SS5_freetekno_ancient_aboriginal_Aboriginal%20Red.webp"
 archetype: Freetekno
 swag_score: 5
 date_added: "2024-12-10"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS5_freetekno_ancient_aboriginal_Aboriginal%20Red.webp" alt="Aboriginal Red" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/SS5_freetekno_ancient_aboriginal_Aboriginal%20Red.webp" alt="Aboriginal Red" width="320" />
 </div>
 
 

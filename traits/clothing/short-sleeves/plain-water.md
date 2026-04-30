@@ -2,11 +2,11 @@
 name: Plain Water
 swag_score: 1
 date_added: "2025-02-24"
-image: "https://mibera.s3.amazonaws.com/traits/SS1_plain_water.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/SS1_plain_water.webp"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS1_plain_water.webp" alt="Plain Water" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/SS1_plain_water.webp" alt="Plain Water" width="320" />
 </div>
 
 

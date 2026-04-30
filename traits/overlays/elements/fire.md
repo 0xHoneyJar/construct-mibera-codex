@@ -1,11 +1,11 @@
 ---
 name: Fire
-image: "https://mibera.s3.amazonaws.com/traits/Fire.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/Fire.webp"
 quadrant: Southern (lat < 0) and Eastern (lon ≥ 0)
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/Fire.webp" alt="Fire" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/Fire.webp" alt="Fire" width="320" />
 </div>
 
 

@@ -1,11 +1,11 @@
 ---
 name: crossed brown
-image: "https://mibera.s3.amazonaws.com/traits/Crossed%20Brown.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/Crossed%20Brown.webp"
 date_added: "2024-06-03"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/Crossed%20Brown.webp" alt="Crossed Brown" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/Crossed%20Brown.webp" alt="Crossed Brown" width="320" />
 </div>
 
 

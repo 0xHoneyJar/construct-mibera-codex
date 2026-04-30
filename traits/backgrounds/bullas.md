@@ -1,11 +1,11 @@
 ---
 name: Bullas
-image: "https://mibera.s3.amazonaws.com/traits/bullas.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/bullas.webp"
 date_added: "2025-02-27"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS3_Bullas.webp" alt="Bullas" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/SS3_Bullas.webp" alt="Bullas" width="320" />
 </div>
 
 

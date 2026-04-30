@@ -2,11 +2,11 @@
 name: "Christmas Tree"
 category: earrings
 from: ""
-image: "https://mibera.s3.amazonaws.com/traits/christmas%20tree.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/christmas%20tree.webp"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/christmas%20tree.webp" alt="Christmas Tree" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/christmas%20tree.webp" alt="Christmas Tree" width="320" />
 </div>
 
 

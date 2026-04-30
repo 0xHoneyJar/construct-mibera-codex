@@ -7,12 +7,12 @@ origin: Southern Europe, Western Asia, North Africa
 archetype: Freetekno
 ancestor: Greek
 swag_score: 2
-image: "https://mibera.s3.amazonaws.com/traits/freetekno_greek_henbane.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/freetekno_greek_henbane.webp"
 date_added: "2025-01-12"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/freetekno_greek_henbane.webp" alt="Henbane" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/freetekno_greek_henbane.webp" alt="Henbane" width="320" />
 </div>
 
 

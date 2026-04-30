@@ -1,13 +1,13 @@
 ---
 name: watergun 1
-image: "https://mibera.s3.amazonaws.com/traits/SS3_acidhouse_Watergun%201.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/SS3_acidhouse_Watergun%201.webp"
 archetype: Acidhouse
 swag_score: 3
 date_added: "2024-06-05"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS3_acidhouse_Watergun%201.webp" alt="Watergun 1" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/SS3_acidhouse_Watergun%201.webp" alt="Watergun 1" width="320" />
 </div>
 
 

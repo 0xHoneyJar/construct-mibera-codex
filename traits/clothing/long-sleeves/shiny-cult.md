@@ -1,13 +1,13 @@
 ---
 name: Shiny Cult
-image: "https://mibera.s3.amazonaws.com/traits/SS3_freetekno_Shiny%20cult.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/SS3_freetekno_Shiny%20cult.webp"
 archetype: Freetekno
 swag_score: 3
 date_added: "2024-06-25"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS3_freetekno_Shiny%20cult.webp" alt="Shiny Cult" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/SS3_freetekno_Shiny%20cult.webp" alt="Shiny Cult" width="320" />
 </div>
 
 

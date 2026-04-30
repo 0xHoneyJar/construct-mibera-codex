@@ -1,11 +1,11 @@
 ---
 name: crying leaf
-image: "https://mibera.s3.amazonaws.com/traits/Crying%20Leaf.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/Crying%20Leaf.webp"
 date_added: "2024-06-03"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/Crying%20Leaf.webp" alt="Crying Leaf" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/Crying%20Leaf.webp" alt="Crying Leaf" width="320" />
 </div>
 
 

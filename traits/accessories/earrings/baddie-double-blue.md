@@ -1,12 +1,12 @@
 ---
 name: Baddie Double Blue
-image: "https://mibera.s3.amazonaws.com/traits/SS1_baddie%20double%20blue.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/SS1_baddie%20double%20blue.webp"
 swag_score: 1
 date_added: "2024-12-10"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS1_baddie%20double%20blue.webp" alt="Baddie Double Blue" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/SS1_baddie%20double%20blue.webp" alt="Baddie Double Blue" width="320" />
 </div>
 
 

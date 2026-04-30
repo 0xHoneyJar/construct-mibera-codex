@@ -1,13 +1,13 @@
 ---
 name: radio
-image: "https://mibera.s3.amazonaws.com/traits/SS2_milady_Radio.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/SS2_milady_Radio.webp"
 archetype: Milady
 swag_score: 2
 date_added: "2025-07-07"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS2_milady_Radio.webp" alt="Radio" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/SS2_milady_Radio.webp" alt="Radio" width="320" />
 </div>
 
 

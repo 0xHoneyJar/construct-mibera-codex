@@ -1,11 +1,11 @@
 ---
 name: Yeet
-image: "https://mibera.s3.amazonaws.com/traits/Yeet.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/Yeet.webp"
 date_added: "2024-06-06"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/Yeet.webp" alt="Yeet" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/Yeet.webp" alt="Yeet" width="320" />
 </div>
 
 

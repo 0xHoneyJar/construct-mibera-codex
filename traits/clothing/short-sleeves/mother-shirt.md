@@ -1,12 +1,12 @@
 ---
 name: Mother Shirt
-image: "https://mibera.s3.amazonaws.com/traits/SS2_Mother%20Shirt.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/SS2_Mother%20Shirt.webp"
 swag_score: 2
 date_added: "2024-07-19"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS2_Mother%20Shirt.webp" alt="Mother Shirt" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/SS2_Mother%20Shirt.webp" alt="Mother Shirt" width="320" />
 </div>
 
 

@@ -2,11 +2,11 @@
 name: "Great"
 category: hats
 from: ""
-image: "https://mibera.s3.amazonaws.com/traits/great.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/great.webp"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/great.webp" alt="Great" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/great.webp" alt="Great" width="320" />
 </div>
 
 

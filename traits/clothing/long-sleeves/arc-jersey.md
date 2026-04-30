@@ -1,12 +1,12 @@
 ---
 name: Arc Jersey
-image: "https://mibera.s3.amazonaws.com/traits/SS3_arc%20jersey.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/SS3_arc%20jersey.webp"
 swag_score: 3
 date_added: "2025-03-22"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS3_arc%20jersey.webp" alt="Arc Jersey" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/SS3_arc%20jersey.webp" alt="Arc Jersey" width="320" />
 </div>
 
 

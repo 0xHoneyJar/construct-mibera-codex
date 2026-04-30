@@ -1,12 +1,12 @@
 ---
 name: Ottoman Tughra
-image: "https://mibera.s3.amazonaws.com/traits/ancient_turkey_Ottoman%20Tughra.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/ancient_turkey_Ottoman%20Tughra.webp"
 swag_score: null
 date_added: "2024-08-09"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/ancient_turkey_Ottoman%20Tughra.webp" alt="Ottoman Tughra" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/ancient_turkey_Ottoman%20Tughra.webp" alt="Ottoman Tughra" width="320" />
 </div>
 
 

@@ -1,13 +1,13 @@
 ---
 name: Remcon
-image: "https://mibera.s3.amazonaws.com/traits/SS3_acidhouse_Remcon.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/SS3_acidhouse_Remcon.webp"
 archetype: Acidhouse
 swag_score: 3
 date_added: "2024-07-24"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS3_acidhouse_Remcon.webp" alt="Remcon" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/SS3_acidhouse_Remcon.webp" alt="Remcon" width="320" />
 </div>
 
 

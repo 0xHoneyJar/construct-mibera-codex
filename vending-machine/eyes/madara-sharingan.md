@@ -2,11 +2,11 @@
 name: "Madara Sharingan"
 category: eyes
 from: ""
-image: "https://mibera.s3.amazonaws.com/traits/madara%20sharingan.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/madara%20sharingan.webp"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/madara%20sharingan.webp" alt="Madara Sharingan" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/madara%20sharingan.webp" alt="Madara Sharingan" width="320" />
 </div>
 
 

@@ -1,13 +1,13 @@
 ---
 name: SS
 rank: SS
-image: "https://mibera.s3.amazonaws.com/traits/SS.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/SS.webp"
 shape: Heart
 color: a vibrant dark shade of purple
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS.webp" alt="Ss" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/SS.webp" alt="Ss" width="320" />
 </div>
 
 

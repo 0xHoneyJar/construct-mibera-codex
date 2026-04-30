@@ -1,12 +1,12 @@
 ---
 name: Whirling Dervish
-image: "https://mibera.s3.amazonaws.com/traits/ancient_sufi_Whirling%20Dervish.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/ancient_sufi_Whirling%20Dervish.webp"
 swag_score: null
 date_added: "2024-08-06"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/ancient_sufi_Whirling%20Dervish.webp" alt="Whirling Dervish" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/ancient_sufi_Whirling%20Dervish.webp" alt="Whirling Dervish" width="320" />
 </div>
 
 

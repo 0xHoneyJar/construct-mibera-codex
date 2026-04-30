@@ -1,13 +1,13 @@
 ---
 name: radbro plushie
-image: "https://mibera.s3.amazonaws.com/traits/SS4_milady_Radbro%20Plushie.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/SS4_milady_Radbro%20Plushie.webp"
 archetype: Milady
 swag_score: 4
 date_added: "2024-07-12"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS4_milady_Radbro%20Plushie.webp" alt="Radbro Plushie" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/SS4_milady_Radbro%20Plushie.webp" alt="Radbro Plushie" width="320" />
 </div>
 
 

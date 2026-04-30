@@ -1,11 +1,11 @@
 ---
 name: cottage red
-image: "https://mibera.s3.amazonaws.com/traits/Cottage%20Red.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/Cottage%20Red.webp"
 date_added: "2024-06-15"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/Cottage%20Red.webp" alt="Cottage Red" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/Cottage%20Red.webp" alt="Cottage Red" width="320" />
 </div>
 
 

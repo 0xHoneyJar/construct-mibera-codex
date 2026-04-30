@@ -3,13 +3,13 @@ name: Gemini
 date_range: May 21 - June 20
 glyph: ♊
 element: Air
-image: "https://mibera.s3.amazonaws.com/traits/Sun%20Gemini.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/Sun%20Gemini.webp"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/Sun%20Gemini.webp" alt="Sun Gemini" width="200" />
-  <img src="https://mibera.s3.amazonaws.com/traits/Moon%20Gemini.webp" alt="Moon Gemini" width="200" />
-  <img src="https://mibera.s3.amazonaws.com/traits/Rising%20Gemini.webp" alt="Rising Gemini" width="200" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/Sun%20Gemini.webp" alt="Sun Gemini" width="200" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/Moon%20Gemini.webp" alt="Moon Gemini" width="200" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/Rising%20Gemini.webp" alt="Rising Gemini" width="200" />
 </div>
 
 

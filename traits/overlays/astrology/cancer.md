@@ -3,13 +3,13 @@ name: Cancer
 date_range: June 22 - July 22
 glyph: ♋
 element: Water
-image: "https://mibera.s3.amazonaws.com/traits/Sun%20Cancer.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/Sun%20Cancer.webp"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/Sun%20Cancer.webp" alt="Sun Cancer" width="200" />
-  <img src="https://mibera.s3.amazonaws.com/traits/Moon%20Cancer.webp" alt="Moon Cancer" width="200" />
-  <img src="https://mibera.s3.amazonaws.com/traits/Rising%20Cancer.webp" alt="Rising Cancer" width="200" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/Sun%20Cancer.webp" alt="Sun Cancer" width="200" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/Moon%20Cancer.webp" alt="Moon Cancer" width="200" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/Rising%20Cancer.webp" alt="Rising Cancer" width="200" />
 </div>
 
 

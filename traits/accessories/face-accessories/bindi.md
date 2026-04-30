@@ -1,13 +1,13 @@
 ---
 name: Bindi
-image: "https://mibera.s3.amazonaws.com/traits/SS1_milady_modern_nepal_Bindi.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/SS1_milady_modern_nepal_Bindi.webp"
 archetype: Milady
 swag_score: 3
 date_added: "2024-12-10"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS1_milady_modern_nepal_Bindi.webp" alt="Bindi" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/SS1_milady_modern_nepal_Bindi.webp" alt="Bindi" width="320" />
 </div>
 
 

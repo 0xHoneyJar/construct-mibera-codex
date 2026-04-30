@@ -1,13 +1,13 @@
 ---
 name: Black Mask
-image: "https://mibera.s3.amazonaws.com/traits/SS2_freetekno_Black%20Mask.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/SS2_freetekno_Black%20Mask.webp"
 archetype: Freetekno
 swag_score: 2
 date_added: "2024-07-24"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS2_freetekno_Black%20Mask.webp" alt="Black Mask" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/SS2_freetekno_Black%20Mask.webp" alt="Black Mask" width="320" />
 </div>
 
 

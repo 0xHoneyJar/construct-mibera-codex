@@ -2,11 +2,11 @@
 name: "Carnations Flower"
 category: hats
 from: ""
-image: "https://mibera.s3.amazonaws.com/traits/carnations%20flower.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/carnations%20flower.webp"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/carnations%20flower.webp" alt="Carnations Flower" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/carnations%20flower.webp" alt="Carnations Flower" width="320" />
 </div>
 
 

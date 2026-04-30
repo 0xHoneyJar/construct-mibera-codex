@@ -1,13 +1,13 @@
 ---
 name: Spiral 1
-image: "https://mibera.s3.amazonaws.com/traits/SS3_freetekno_modern_aboriginal_Spiral%201.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/SS3_freetekno_modern_aboriginal_Spiral%201.webp"
 archetype: Freetekno
 swag_score: 3
 date_added: "2023-11-28"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS3_freetekno_modern_aboriginal_Spiral%201.webp" alt="Spiral 1" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/SS3_freetekno_modern_aboriginal_Spiral%201.webp" alt="Spiral 1" width="320" />
 </div>
 
 

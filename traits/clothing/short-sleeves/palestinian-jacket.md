@@ -1,13 +1,13 @@
 ---
 name: Palestinian Jacket
-image: "https://mibera.s3.amazonaws.com/traits/SS4_freetekno_Palestinian%20Jacket.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/SS4_freetekno_Palestinian%20Jacket.webp"
 archetype: Freetekno
 swag_score: 4
 date_added: "2024-12-10"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS4_freetekno_Palestinian%20Jacket.webp" alt="Palestinian Jacket" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/SS4_freetekno_Palestinian%20Jacket.webp" alt="Palestinian Jacket" width="320" />
 </div>
 
 

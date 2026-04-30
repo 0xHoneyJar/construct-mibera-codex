@@ -1,12 +1,12 @@
 ---
 name: galactic gecko tarot
-image: "https://mibera.s3.amazonaws.com/traits/SS3_galactic%20gecko%20tarot.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/SS3_galactic%20gecko%20tarot.webp"
 swag_score: 4
 date_added: "2025-03-22"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS3_galactic%20gecko%20tarot.webp" alt="Galactic Gecko Tarot" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/SS3_galactic%20gecko%20tarot.webp" alt="Galactic Gecko Tarot" width="320" />
 </div>
 
 

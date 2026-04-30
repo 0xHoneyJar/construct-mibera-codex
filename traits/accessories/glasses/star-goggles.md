@@ -1,13 +1,13 @@
 ---
 name: star goggles
-image: "https://mibera.s3.amazonaws.com/traits/freetekno_Star%20Goggles.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/freetekno_Star%20Goggles.webp"
 archetype: Freetekno
 swag_score: 2
 date_added: "2024-06-16"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/freetekno_Star%20Goggles.webp" alt="Star Goggles" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/freetekno_Star%20Goggles.webp" alt="Star Goggles" width="320" />
 </div>
 
 

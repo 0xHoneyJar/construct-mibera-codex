@@ -1,12 +1,12 @@
 ---
 name: Stylized Dharma Wheel
-image: "https://mibera.s3.amazonaws.com/traits/modern_buddhist_Stylized%20Dharma%20Wheel.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/modern_buddhist_Stylized%20Dharma%20Wheel.webp"
 swag_score: null
 date_added: "2024-08-10"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/modern_buddhist_Stylized%20Dharma%20Wheel.webp" alt="Stylized Dharma Wheel" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/modern_buddhist_Stylized%20Dharma%20Wheel.webp" alt="Stylized Dharma Wheel" width="320" />
 </div>
 
 

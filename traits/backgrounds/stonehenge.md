@@ -1,11 +1,11 @@
 ---
 name: Stonehenge
-image: "https://mibera.s3.amazonaws.com/traits/Stonehenge.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/Stonehenge.webp"
 date_added: "2024-06-07"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/Stonehenge.webp" alt="Stonehenge" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/Stonehenge.webp" alt="Stonehenge" width="320" />
 </div>
 
 

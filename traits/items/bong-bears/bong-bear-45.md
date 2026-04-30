@@ -1,11 +1,11 @@
 ---
 name: Bong Bear 45
-image: "https://mibera.s3.amazonaws.com/traits/SS5_bongbear_Bong%20Bear%2045.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/SS5_bongbear_Bong%20Bear%2045.webp"
 date_added: "2024-12-09"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS5_bongbear_Bong%20Bear%2045.webp" alt="Bong Bear 45" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/SS5_bongbear_Bong%20Bear%2045.webp" alt="Bong Bear 45" width="320" />
 </div>
 
 

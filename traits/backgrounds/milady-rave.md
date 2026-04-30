@@ -1,11 +1,11 @@
 ---
 name: Milady Rave
-image: "https://mibera.s3.amazonaws.com/traits/Milady%20Rave.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/Milady%20Rave.webp"
 date_added: "2024-06-06"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/Milady%20Rave.webp" alt="Milady Rave" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/Milady%20Rave.webp" alt="Milady Rave" width="320" />
 </div>
 
 

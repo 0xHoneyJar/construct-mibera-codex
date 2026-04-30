@@ -1,12 +1,12 @@
 ---
 name: Lineart Lotus
-image: "https://mibera.s3.amazonaws.com/traits/modern_hindu_Lineart%20Lotus.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/modern_hindu_Lineart%20Lotus.webp"
 swag_score: null
 date_added: "2024-08-10"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/modern_hindu_Lineart%20Lotus.webp" alt="Lineart Lotus" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/modern_hindu_Lineart%20Lotus.webp" alt="Lineart Lotus" width="320" />
 </div>
 
 

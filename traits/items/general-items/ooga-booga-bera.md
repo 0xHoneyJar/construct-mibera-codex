@@ -1,12 +1,12 @@
 ---
 name: ooga booga bera
-image: "https://mibera.s3.amazonaws.com/traits/SS3_Ooga%20Booga%20Bera.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/SS3_Ooga%20Booga%20Bera.webp"
 swag_score: 3
 date_added: "2024-12-09"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS3_Ooga%20Booga%20Bera.webp" alt="Ooga Booga Bera" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/SS3_Ooga%20Booga%20Bera.webp" alt="Ooga Booga Bera" width="320" />
 </div>
 
 

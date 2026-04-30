@@ -2,11 +2,11 @@
 name: "Abstract Pudgy"
 category: items
 from: ""
-image: "https://mibera.s3.amazonaws.com/traits/abstract%20pudgy.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/abstract%20pudgy.webp"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/abstract%20pudgy.webp" alt="Abstract Pudgy" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/abstract%20pudgy.webp" alt="Abstract Pudgy" width="320" />
 </div>
 
 

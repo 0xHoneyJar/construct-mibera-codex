@@ -1,13 +1,13 @@
 ---
 name: Surgical Mask
-image: "https://mibera.s3.amazonaws.com/traits/SS1_acidhouse_Surgical%20Mask.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/SS1_acidhouse_Surgical%20Mask.webp"
 archetype: Acidhouse
 swag_score: 1
 date_added: "2024-07-24"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS1_acidhouse_Surgical%20Mask.webp" alt="Surgical Mask" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/SS1_acidhouse_Surgical%20Mask.webp" alt="Surgical Mask" width="320" />
 </div>
 
 

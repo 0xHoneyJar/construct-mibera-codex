@@ -7,12 +7,12 @@ origin: South America, Africa, Asia
 archetype: Acidhouse
 ancestor: Hindu
 swag_score: 5
-image: "https://mibera.s3.amazonaws.com/traits/acidhouse_hindu_mucuna%20pruriens.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/acidhouse_hindu_mucuna%20pruriens.webp"
 date_added: "2025-01-12"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/acidhouse_hindu_mucuna%20pruriens.webp" alt="Mucuna Pruriens" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/acidhouse_hindu_mucuna%20pruriens.webp" alt="Mucuna Pruriens" width="320" />
 </div>
 
 

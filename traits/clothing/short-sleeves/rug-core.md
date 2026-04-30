@@ -1,13 +1,13 @@
 ---
 name: Rug Core
-image: "https://mibera.s3.amazonaws.com/traits/SS3_freetekno_Rug%20Core.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/SS3_freetekno_Rug%20Core.webp"
 archetype: Freetekno
 swag_score: 3
 date_added: "2024-12-10"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS3_freetekno_Rug%20Core.webp" alt="Rug Core" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/SS3_freetekno_Rug%20Core.webp" alt="Rug Core" width="320" />
 </div>
 
 

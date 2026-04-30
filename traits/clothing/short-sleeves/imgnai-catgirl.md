@@ -1,12 +1,12 @@
 ---
 name: IMGNAI Catgirl
-image: "https://mibera.s3.amazonaws.com/traits/SS2_IMGNAI%20Catgirl.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/SS2_IMGNAI%20Catgirl.webp"
 swag_score: 2
 date_added: "2024-07-20"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS2_IMGNAI%20Catgirl.webp" alt="Imgnai Catgirl" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/SS2_IMGNAI%20Catgirl.webp" alt="Imgnai Catgirl" width="320" />
 </div>
 
 

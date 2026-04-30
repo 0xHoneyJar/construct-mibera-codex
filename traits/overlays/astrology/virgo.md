@@ -3,13 +3,13 @@ name: Virgo
 date_range: August 23 - September 22
 glyph: ♍
 element: Earth
-image: "https://mibera.s3.amazonaws.com/traits/Sun%20Virgo.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/Sun%20Virgo.webp"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/Sun%20Virgo.webp" alt="Sun Virgo" width="200" />
-  <img src="https://mibera.s3.amazonaws.com/traits/Moon%20Virgo.webp" alt="Moon Virgo" width="200" />
-  <img src="https://mibera.s3.amazonaws.com/traits/Rising%20Virgo.webp" alt="Rising Virgo" width="200" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/Sun%20Virgo.webp" alt="Sun Virgo" width="200" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/Moon%20Virgo.webp" alt="Moon Virgo" width="200" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/Rising%20Virgo.webp" alt="Rising Virgo" width="200" />
 </div>
 
 

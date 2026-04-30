@@ -1,11 +1,11 @@
 ---
 name: Techno City
-image: "https://mibera.s3.amazonaws.com/traits/techno%20city.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/techno%20city.webp"
 date_added: "2024-08-14"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/techno%20city.webp" alt="Techno City" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/techno%20city.webp" alt="Techno City" width="320" />
 </div>
 
 

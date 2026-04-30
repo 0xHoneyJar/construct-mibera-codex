@@ -2,11 +2,11 @@
 name: "Carpenter's Plane"
 category: items
 from: "yomammma_xyz"
-image: "https://mibera.s3.amazonaws.com/traits/carpenters%20plane.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/carpenters%20plane.webp"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/carpenters%20plane.webp" alt="Carpenters Plane" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/carpenters%20plane.webp" alt="Carpenters Plane" width="320" />
 </div>
 
 

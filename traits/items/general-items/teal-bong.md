@@ -1,13 +1,13 @@
 ---
 name: teal bong
-image: "https://mibera.s3.amazonaws.com/traits/SS4_chicagodetroit_Teal%20Bong.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/SS4_chicagodetroit_Teal%20Bong.webp"
 archetype: Chicago Detroit
 swag_score: 4
 date_added: "2024-07-10"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS4_chicagodetroit_Teal%20Bong.webp" alt="Teal Bong" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/SS4_chicagodetroit_Teal%20Bong.webp" alt="Teal Bong" width="320" />
 </div>
 
 

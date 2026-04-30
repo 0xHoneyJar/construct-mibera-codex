@@ -1,13 +1,13 @@
 ---
 name: 303 drum machine
-image: "https://mibera.s3.amazonaws.com/traits/SS5_chicagodetroit_303%20Drum%20Machine.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/SS5_chicagodetroit_303%20Drum%20Machine.webp"
 archetype: Chicago Detroit
 swag_score: 5
 date_added: "2024-07-12"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS5_chicagodetroit_303%20Drum%20Machine.webp" alt="303 Drum Machine" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/SS5_chicagodetroit_303%20Drum%20Machine.webp" alt="303 Drum Machine" width="320" />
 </div>
 
 

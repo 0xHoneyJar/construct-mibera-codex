@@ -1,13 +1,13 @@
 ---
 name: Sami Hat
-image: "https://mibera.s3.amazonaws.com/traits/SS3_acidhouse_ancient_Sami%20Hat.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/SS3_acidhouse_ancient_Sami%20Hat.webp"
 archetype: Acidhouse
 swag_score: 3
 date_added: "2024-07-27"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS3_acidhouse_ancient_Sami%20Hat.webp" alt="Sami Hat" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/SS3_acidhouse_ancient_Sami%20Hat.webp" alt="Sami Hat" width="320" />
 </div>
 
 

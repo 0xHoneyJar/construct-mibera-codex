@@ -1,11 +1,11 @@
 ---
 name: Uluru
-image: "https://mibera.s3.amazonaws.com/traits/Uluru.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/Uluru.webp"
 date_added: "2024-06-07"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/Uluru.webp" alt="Uluru" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/Uluru.webp" alt="Uluru" width="320" />
 </div>
 
 

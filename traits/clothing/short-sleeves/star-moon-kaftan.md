@@ -1,13 +1,13 @@
 ---
 name: Star Moon Kaftan
-image: "https://mibera.s3.amazonaws.com/traits/SS4_chicagodetroit_Star%20Moon%20Kaftan.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/SS4_chicagodetroit_Star%20Moon%20Kaftan.webp"
 archetype: Chicago Detroit
 swag_score: 4
 date_added: "2024-12-10"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS4_chicagodetroit_Star%20Moon%20Kaftan.webp" alt="Star Moon Kaftan" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/SS4_chicagodetroit_Star%20Moon%20Kaftan.webp" alt="Star Moon Kaftan" width="320" />
 </div>
 
 

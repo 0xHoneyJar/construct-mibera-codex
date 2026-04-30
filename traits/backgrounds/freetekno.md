@@ -1,11 +1,11 @@
 ---
 name: Freetekno
-image: "https://mibera.s3.amazonaws.com/traits/freetekno.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/freetekno.webp"
 date_added: "2024-08-14"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/freetekno.webp" alt="Freetekno" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/freetekno.webp" alt="Freetekno" width="320" />
 </div>
 
 

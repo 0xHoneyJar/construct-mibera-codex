@@ -1,13 +1,13 @@
 ---
 name: wolf head
-image: "https://mibera.s3.amazonaws.com/traits/SS5_milady_ancient_mongolian_Wolf%20Head.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/SS5_milady_ancient_mongolian_Wolf%20Head.webp"
 archetype: Milady
 swag_score: 5
 date_added: "2024-07-27"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS5_milady_ancient_mongolian_Wolf%20Head.webp" alt="Wolf Head" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/SS5_milady_ancient_mongolian_Wolf%20Head.webp" alt="Wolf Head" width="320" />
 </div>
 
 

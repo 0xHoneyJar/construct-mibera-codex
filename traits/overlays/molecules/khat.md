@@ -7,12 +7,12 @@ origin: Ethiopia, South Arabia
 archetype: Freetekno
 ancestor: Ethiopian
 swag_score: 3
-image: "https://mibera.s3.amazonaws.com/traits/freetekno_ethiopian_khat.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/freetekno_ethiopian_khat.webp"
 date_added: "2025-01-12"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/freetekno_ethiopian_khat.webp" alt="Khat" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/freetekno_ethiopian_khat.webp" alt="Khat" width="320" />
 </div>
 
 

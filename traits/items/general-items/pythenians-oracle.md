@@ -1,13 +1,13 @@
 ---
 name: pythenians oracle
-image: "https://mibera.s3.amazonaws.com/traits/SS3_pythenians%20oracle.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/SS3_pythenians%20oracle.webp"
 archetype: Freetekno
 swag_score: 3
 date_added: "2025-03-22"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS3_pythenians%20oracle.webp" alt="Pythenians Oracle" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/SS3_pythenians%20oracle.webp" alt="Pythenians Oracle" width="320" />
 </div>
 
 

@@ -1,11 +1,11 @@
 ---
 name: mahogany
-image: "https://mibera.s3.amazonaws.com/traits/mahogany.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/mahogany.webp"
 date_added: "2024-08-13"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/mahogany.webp" alt="Mahogany" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/mahogany.webp" alt="Mahogany" width="320" />
 </div>
 
 

@@ -1,11 +1,11 @@
 ---
 name: Poppy Field
-image: "https://mibera.s3.amazonaws.com/traits/poppy%20field.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/poppy%20field.webp"
 date_added: "2025-03-11"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/poppy%20field.webp" alt="Poppy Field" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/poppy%20field.webp" alt="Poppy Field" width="320" />
 </div>
 
 

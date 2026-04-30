@@ -1,13 +1,13 @@
 ---
 name: Gold Chain
-image: "https://mibera.s3.amazonaws.com/traits/SS5_freetekno_ancient_aboriginal_Gold%20Chain.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/SS5_freetekno_ancient_aboriginal_Gold%20Chain.webp"
 archetype: Freetekno
 swag_score: 5
 date_added: "2023-11-28"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS5_freetekno_ancient_aboriginal_Gold%20Chain.webp" alt="Gold Chain" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/SS5_freetekno_ancient_aboriginal_Gold%20Chain.webp" alt="Gold Chain" width="320" />
 </div>
 
 

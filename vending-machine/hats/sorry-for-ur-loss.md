@@ -2,11 +2,11 @@
 name: "Sorry For Ur Loss"
 category: hats
 from: ""
-image: "https://mibera.s3.amazonaws.com/traits/sorry%20for%20ur%20loss.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/sorry%20for%20ur%20loss.webp"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/sorry%20for%20ur%20loss.webp" alt="Sorry For Ur Loss" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/sorry%20for%20ur%20loss.webp" alt="Sorry For Ur Loss" width="320" />
 </div>
 
 

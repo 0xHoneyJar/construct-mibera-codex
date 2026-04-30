@@ -1,13 +1,13 @@
 ---
 name: spiral bera balloon
-image: "https://mibera.s3.amazonaws.com/traits/SS4_acidhouse_Spiral%20Bera%20Balloon.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/SS4_acidhouse_Spiral%20Bera%20Balloon.webp"
 archetype: Acidhouse
 swag_score: 4
 date_added: "2024-07-10"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS4_acidhouse_Spiral%20Bera%20Balloon.webp" alt="Spiral Bera Balloon" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/SS4_acidhouse_Spiral%20Bera%20Balloon.webp" alt="Spiral Bera Balloon" width="320" />
 </div>
 
 

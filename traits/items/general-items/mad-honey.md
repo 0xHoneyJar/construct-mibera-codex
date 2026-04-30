@@ -1,13 +1,13 @@
 ---
 name: mad honey
-image: "https://mibera.s3.amazonaws.com/traits/SS3_milady_ancient_nepal_turkey_Mad%20Honey.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/SS3_milady_ancient_nepal_turkey_Mad%20Honey.webp"
 archetype: Milady
 swag_score: 3
 date_added: "2024-12-09"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS3_milady_ancient_nepal_turkey_Mad%20Honey.webp" alt="Mad Honey" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/SS3_milady_ancient_nepal_turkey_Mad%20Honey.webp" alt="Mad Honey" width="320" />
 </div>
 
 

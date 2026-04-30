@@ -1,13 +1,13 @@
 ---
 name: Future is Accessible
-image: "https://mibera.s3.amazonaws.com/traits/SS1_freetekno_Future%20Is%20Accessible.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/SS1_freetekno_Future%20Is%20Accessible.webp"
 archetype: Freetekno
 swag_score: 1
 date_added: "2024-12-10"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/SS1_freetekno_Future%20Is%20Accessible.webp" alt="Future Is Accessible" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/SS1_freetekno_Future%20Is%20Accessible.webp" alt="Future Is Accessible" width="320" />
 </div>
 
 

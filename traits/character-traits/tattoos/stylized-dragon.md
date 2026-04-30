@@ -1,12 +1,12 @@
 ---
 name: Stylized Dragon
-image: "https://mibera.s3.amazonaws.com/traits/modern_chinese_Stylized%20Dragon.webp"
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/modern_chinese_Stylized%20Dragon.webp"
 swag_score: null
 date_added: "2024-08-10"
 ---
 
 <div align="center">
-  <img src="https://mibera.s3.amazonaws.com/traits/modern_chinese_Stylized%20Dragon.webp" alt="Stylized Dragon" width="320" />
+  <img src="https://assets.0xhoneyjar.xyz/Mibera/traits/modern_chinese_Stylized%20Dragon.webp" alt="Stylized Dragon" width="320" />
 </div>
 
 
