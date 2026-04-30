@@ -1,5 +1,5 @@
 ---
-title: Factor → Lore Mapping
+title: "Factor \u2192 Lore Mapping"
 description: Canonical factor IDs (emitted by score-mibera) mapped to Mibera-codex lore for narrator-bot consumption.
 seeded_by: operator (zksoju)
 seeded_at: 2026-04-30
@@ -32,15 +32,14 @@ Per `score-mibera#72`: factors with `weight: 0` in score config are folded into 
 - **archetype**: All (pre-archetype — foundational team era)
 - **status**: live
 - **display_name**: Jani Keys
-- **lore**: 🪶 **TODO (Gumi)** — the Honey Jar Genesis Keys minted by Jani's pre-Mibera era. Cultural register: founder lineage, builder credentials, "before the rave."
-
+- **lore**: Jani's Friendtech Keys. If you had one, you likely obtained one in order to get mibera WL.
 ### og:cfang_keys
 
 - **dimension**: `og`
 - **archetype**: Milady
 - **status**: live
 - **display_name**: Cfang Keys
-- **lore**: 🪶 **TODO (Gumi)** — Charlotte Fang / Remilia keys. Cultural register: network spirituality, post-ironic aspiration, "the screen as altar."
+- **lore**: Cfang's Friendtech Keys. If you had one, you likely obtained one in order to get mibera WL.
 
 ### og:articles
 
@@ -48,15 +47,15 @@ Per `score-mibera#72`: factors with `weight: 0` in score config are folded into 
 - **archetype**: All
 - **status**: live
 - **display_name**: Articles
-- **lore**: 🪶 **TODO (Gumi)** — written-form OG signal. Cultural register: chronicler / lore-keeper, "the rave gets written down."
+- **lore**: Written-form OG signal. Long-form pieces which documented the culture while it was being built. 
 
 ### og:sets
 
 - **dimension**: `og`
-- **archetype**: Chicago/Detroit
+- **archetype**: All
 - **status**: live
-- **display_name**: DJ Sets
-- **lore**: 🪶 **TODO (Gumi)** — recorded mixes / sets archive. Cultural register: Ron Hardy at the Music Box, "the genre is named after this room."
+- **display_name**: Mibera Sets
+- **lore**: A collection of articles, posters, and music - later represented by pieces of art minted on Optimism. Predates Mibera mainstem. 
 
 ### og:cubquest
 
@@ -64,7 +63,7 @@ Per `score-mibera#72`: factors with `weight: 0` in score config are folded into 
 - **archetype**: Freetekno
 - **status**: live
 - **display_name**: CubQuest
-- **lore**: 🪶 **TODO (Gumi)** — quest engine OG participation. Cultural register: muddy ruts between rigs, "the rig hasn't stopped since Thursday."
+- **lore**: Quest engine OG participation. Showed up when the coordinates dropped and there was nothing but a field and a sound system. You were there.
 
 ---
 
@@ -76,7 +75,7 @@ Per `score-mibera#72`: factors with `weight: 0` in score config are folded into 
 - **archetype**: All (depends on the specific Mibera)
 - **status**: live
 - **display_name**: Mibera NFT
-- **lore**: 🪶 **TODO (Gumi)** — the foundational holding. Cultural register: 10,000 time-travelling Beras carrying the eternal flame of the rave; the shadow side of Milady; ravepill, sweaty filthy reality of the dance floor.
+- **lore**: The foundational holding. 10,000 Miberas built from 1337 traits total - each with an archetype, ancestor, birthday, and signal hierarchy. Hand-painted on iPad in Procreate over 18 months. 
 
 ### nft:mibera_quality
 
@@ -84,23 +83,23 @@ Per `score-mibera#72`: factors with `weight: 0` in score config are folded into 
 - **archetype**: All
 - **status**: historic
 - **display_name**: Mibera Quality
-- **lore**: 🪶 **TODO (Gumi)** — folded into `nft:mibera` as a quality_score multiplier. Per score-mibera#72: surface as historic so list_factors hides it from live consumers.
+- **lore**: Folded into `nft:mibera` as a multiplier. Swag score still exists per Mibera, just not counted separately anymore.
 
 ### nft:fractures
 
 - **dimension**: `nft`
-- **archetype**: Milady
+- **archetype**: All
 - **status**: live
 - **display_name**: Fractures
-- **lore**: 🪶 **TODO (Gumi)** — Fracture pieces / Milady fragment collection. Cultural register: el-dorado bazaar, "the treasure is real but the map keeps changing."
+- **lore**: Fracture pieces from the Mibera reveal. 11 phases, each exposing more of the character underneath. Shards of a larger image that only made sense in sequence.
 
 ### nft:fractures_complete
 
 - **dimension**: `nft`
-- **archetype**: Milady
+- **archetype**: All
 - **status**: historic
 - **display_name**: Complete Fracture Sets
-- **lore**: 🪶 **TODO (Gumi)** — folded into `nft:fractures` quality multiplier. Per score-mibera#72: historic.
+- **lore**: Folded into `nft:fractures` as a quality multiplier. Completeness used to be its own signal.
 
 ---
 
@@ -112,7 +111,7 @@ Per `score-mibera#72`: factors with `weight: 0` in score config are folded into 
 - **archetype**: All
 - **status**: live
 - **display_name**: Mibera Maker
-- **lore**: 🪶 **TODO (Gumi)** — the maker contract that mints grails / 1/1s. Cultural register: builder's bench, "the artist commissioning their own commissioning."
+- **lore**: The maker contract. Where grails and 1-of-1s get minted. 43 hand-drawn pieces with cultural context.
 
 ### onchain:validator_booster
 
@@ -120,7 +119,7 @@ Per `score-mibera#72`: factors with `weight: 0` in score config are folded into 
 - **archetype**: Chicago/Detroit
 - **status**: live
 - **display_name**: Validator Booster
-- **lore**: 🪶 **TODO (Gumi)** — Berachain validator boosting. Cultural register: foundational infra, "undecorated, undeniable, foundational."
+- **lore**: Berachain validator boosting. Foundational infrastructure. The warehouse doesn't need a sign.
 
 ### onchain:candies_minter
 
@@ -128,7 +127,7 @@ Per `score-mibera#72`: factors with `weight: 0` in score config are folded into 
 - **archetype**: Freetekno
 - **status**: live
 - **display_name**: Candies Minter
-- **lore**: 🪶 **TODO (Gumi)** — Honey Candies minting. Cultural register: rig-running, sticky sweet, "tea + speed and someone's dog asleep by the fire barrel."
+- **lore**: Honey Candies minting. Sticky sweet, passed hand to hand. Tea stall energy.
 
 ### onchain:gif_minter
 
@@ -136,7 +135,7 @@ Per `score-mibera#72`: factors with `weight: 0` in score config are folded into 
 - **archetype**: Milady
 - **status**: live
 - **display_name**: GIF Minter
-- **lore**: 🪶 **TODO (Gumi)** — animated frame collector. Cultural register: notification chimes layered over hyperpop.
+- **lore**: Animated frame collecting. Quick-cut, swipe-speed energy. Everything glows, everything moves.
 
 ### onchain:tarot_minter
 
@@ -144,7 +143,7 @@ Per `score-mibera#72`: factors with `weight: 0` in score config are folded into 
 - **archetype**: Acidhouse
 - **status**: live
 - **display_name**: Tarot Minter
-- **lore**: 🪶 **TODO (Gumi)** — drug-tarot card mints. Cultural register: owsley-lab synthesis floor, "PiHKAL on the centrifuge, periodic table on the wall."
+- **lore**: Drug-tarot card mints. 78 cards mapping molecules to divinatory arcana. The owsley-lab synthesis floor.
 
 ### onchain:zora_collector
 
@@ -152,7 +151,7 @@ Per `score-mibera#72`: factors with `weight: 0` in score config are folded into 
 - **archetype**: Milady
 - **status**: live
 - **display_name**: Zora Collector
-- **lore**: 🪶 **TODO (Gumi)** — Zora-network collector activity. Cultural register: el-dorado bazaar, "everything glows and everything's for sale."
+- **lore**: Zora-network collecting. The el-dorado bazaar in protocol form. The treasure is real but the map keeps changing.
 
 ### onchain:beraji_staker
 
@@ -160,7 +159,7 @@ Per `score-mibera#72`: factors with `weight: 0` in score config are folded into 
 - **archetype**: Chicago/Detroit
 - **status**: live
 - **display_name**: Beraji Staker
-- **lore**: 🪶 **TODO (Gumi)** — Beraji staking participation. Cultural register: foundational protocol commitment.
+- **lore**: Beraji staking. Protocol-level commitment. Chosen Few energy — keep showing up, keep the warehouse open.
 
 ### onchain:shadow_minter
 
@@ -168,7 +167,7 @@ Per `score-mibera#72`: factors with `weight: 0` in score config are folded into 
 - **archetype**: Acidhouse
 - **status**: live
 - **display_name**: Shadow Minter
-- **lore**: 🪶 **TODO (Gumi)** — shadow / off-glance mints. Cultural register: "everything hums at 440Hz," the unseen layer.
+- **lore**: Shadow mints from the vending machine. 102 exclusive traits not in the main collection. The unseen layer.
 
 ### onchain:milady_burner
 
@@ -176,7 +175,7 @@ Per `score-mibera#72`: factors with `weight: 0` in score config are folded into 
 - **archetype**: Milady
 - **status**: live
 - **display_name**: Milady Burner
-- **lore**: 🪶 **TODO (Gumi)** — burning Milady-adjacent assets. Cultural register: ritual destruction, the wartime aesthetic.
+- **lore**: Burning Milady-adjacent assets. Wartime aesthetic. MIBERA IS THE REFUSAL — sometimes refusal is combustion.
 
 ### onchain:mibera_burner
 
@@ -184,7 +183,7 @@ Per `score-mibera#72`: factors with `weight: 0` in score config are folded into 
 - **archetype**: All
 - **status**: live
 - **display_name**: Mibera Burner
-- **lore**: 🪶 **TODO (Gumi)** — burning miberas. Cultural register: ceremonial removal, "the rave clears its own floor."
+- **lore**: Burning Miberas. The rave clears its own floor.
 
 ### onchain:cubquest_minter
 
@@ -192,7 +191,7 @@ Per `score-mibera#72`: factors with `weight: 0` in score config are folded into 
 - **archetype**: Freetekno
 - **status**: live
 - **display_name**: CubQuest Minter
-- **lore**: 🪶 **TODO (Gumi)** — quest reward / mint participation. Cultural register: stamp on the journey, "the wristband from the festival."
+- **lore**: Quest reward mints. The wristband from the festival. You followed the coordinates, you earned the mark.
 
 ### onchain:liquid_backing
 
@@ -200,7 +199,7 @@ Per `score-mibera#72`: factors with `weight: 0` in score config are folded into 
 - **archetype**: All
 - **status**: live
 - **display_name**: Liquid Backing
-- **lore**: 🪶 **TODO (Gumi)** — protocol-owned liquidity participation. Cultural register: structural commitment, "the building was a factory, then it was nothing."
+- **lore**: Protocol-owned liquidity. Structural commitment that doesn't announce itself. Concrete under the dance floor.
 
 ### onchain:loan_taker
 
@@ -208,7 +207,7 @@ Per `score-mibera#72`: factors with `weight: 0` in score config are folded into 
 - **archetype**: Acidhouse
 - **status**: live
 - **display_name**: Loan Taker
-- **lore**: 🪶 **TODO (Gumi)** — borrower against on-chain assets. Cultural register: leveraged risk, "time-dilation, the 20-minute track."
+- **lore**: Borrowing against on-chain assets. Leveraged risk. The come-up.
 
 ### onchain:loan_defaulter
 
@@ -216,7 +215,7 @@ Per `score-mibera#72`: factors with `weight: 0` in score config are folded into 
 - **archetype**: Acidhouse
 - **status**: live
 - **display_name**: Loan Defaulter
-- **lore**: 🪶 **TODO (Gumi)** — defaulted positions. Cultural register: cautionary lore, the come-down.
+- **lore**: Defaulted positions. The come-down. Not moral judgment — pharmacokinetics applied to capital.
 
 ### onchain:liquidator
 
@@ -224,7 +223,7 @@ Per `score-mibera#72`: factors with `weight: 0` in score config are folded into 
 - **archetype**: Freetekno
 - **status**: live
 - **display_name**: Liquidator
-- **lore**: 🪶 **TODO (Gumi)** — liquidation participants. Cultural register: enforcement, "the rig calls for clearance."
+- **lore**: Liquidation participation. Enforcement at the perimeter. The tree line where torchlight gives out.
 
 ### onchain:paddle_supplier
 
@@ -232,7 +231,7 @@ Per `score-mibera#72`: factors with `weight: 0` in score config are folded into 
 - **archetype**: All
 - **status**: live
 - **display_name**: Paddle Supplier
-- **lore**: 🪶 **TODO (Gumi)** — Paddle protocol liquidity supplier.
+- **lore**: Paddle protocol liquidity supply. Depth in the pool.
 
 ### onchain:paddle_borrower
 
@@ -240,7 +239,7 @@ Per `score-mibera#72`: factors with `weight: 0` in score config are folded into 
 - **archetype**: All
 - **status**: live
 - **display_name**: Paddle Borrower
-- **lore**: 🪶 **TODO (Gumi)** — Paddle protocol borrower.
+- **lore**: Paddle protocol borrowing. Drawing from the pool.
 
 ### onchain:paddle_liquidated
 
@@ -248,7 +247,7 @@ Per `score-mibera#72`: factors with `weight: 0` in score config are folded into 
 - **archetype**: All
 - **status**: live
 - **display_name**: Paddle Liquidated
-- **lore**: 🪶 **TODO (Gumi)** — Paddle position liquidated.
+- **lore**: Paddle position liquidated. The pool reclaims what the pool provided.
 
 ### onchain:paddle_liquidator
 
@@ -256,7 +255,7 @@ Per `score-mibera#72`: factors with `weight: 0` in score config are folded into 
 - **archetype**: All
 - **status**: live
 - **display_name**: Paddle Liquidator
-- **lore**: 🪶 **TODO (Gumi)** — Paddle liquidation enforcer.
+- **lore**: Paddle liquidation enforcement. Returning the pool to equilibrium.
 
 ---
 
@@ -272,13 +271,13 @@ When a consumer calls `mcp__codex__lookup_factor(factor_id)`:
   display_name: "Jani Keys",
   dimension: "og",
   archetype: "All",
-  lore: "🪶 TODO (Gumi) — the Honey Jar Genesis Keys minted by Jani's pre-Mibera era...",
+  lore: "The Genesis Keys predate the rave itself...",
   codex_anchor: "core-lore/factor-lore.md#ogjani_keys",
   status: "live"
 }
 ```
 
-When the operator's interim translations in `freeside-characters/apps/character-ruggy/codex-anchors.md` are made obsolete by curated entries here, that file deletes (per [score-mibera#70 migration plan](https://github.com/0xHoneyJar/score-mibera/issues/70)).
+When the operator's interim translations in `freeside-characters/apps/character-ruggy/codex-anchors.md` are made obsolete by curated entries here, that file deletes (per score-mibera#70 migration plan).
 
 ## Coverage gaps
 
