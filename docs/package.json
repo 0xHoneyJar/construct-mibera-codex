@@ -1,0 +1,16 @@
+{
+  "name": "@0xhoneyjar/construct-mibera-codex-docs",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vocs dev",
+    "build": "vocs build",
+    "preview": "vocs preview"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "vocs": "^1.0.18"
+  }
+}

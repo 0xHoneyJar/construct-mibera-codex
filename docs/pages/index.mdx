@@ -1,0 +1,41 @@
+---
+title: Mibera Codex
+description: Anti-hallucination MCP for narrative-bot consumers
+---
+
+# mibera codex
+
+> the anti-hallucination layer for any agent that talks about miberas. stay grounded; never fabricate a zone.
+
+mibera codex is a **read-only lookup surface** over the canonical Mibera world: festival zones, archetypes, factor lore, grails, individual miberas. it lives as an [mcp](https://modelcontextprotocol.io/) server so any agent — discord bots, chatgpt, claude code, custom harnesses — can call it the same way.
+
+| | |
+| --- | --- |
+| 🛡 **anti-hallucination** | every claim about a zone, archetype, factor, grail, or mibera is checked against the codex source. invalid? you get `null` and a fuzzy-match suggestion. |
+| 🌐 **external reach** | speaks the [mcp 2025-06-18](https://modelcontextprotocol.io/specification/2025-06-18) spec. works wherever mcp works. no auth at v1 — open access for narrative consumers. |
+| 📚 **codex-as-source-of-truth** | the mcp is a thin read-over the markdown + jsonl files in [the codex repo](https://github.com/0xHoneyJar/construct-mibera-codex). curators edit the lore, the lookups stay current. |
+
+## the 8 tools
+
+```
+lookup_zone(slug)            → name, emoji, archetype, lynch primitives, kansei tokens
+lookup_archetype(name)       → era, zodiac, season, locations, figures, fashion
+lookup_factor(factor_id)     → score-mibera ↔ codex lore JOIN
+lookup_grail(query)          → 1/1 grail by id/slug/name
+lookup_mibera(id)            → full canonical trait set (1-10000)
+list_zones()                 → all canonical zones
+list_archetypes()            → 4 canonical archetypes
+validate_world_element(t,v)  → fuzzy match + coverage-gap log
+```
+
+## what it isn't
+
+- ❌ a writer — the codex repo is the only writer. mcp is read-only.
+- ❌ a chatbot — it returns json, not prose. your agent does the narrative.
+- ❌ a tool surface for every claim — only the world-elements that earned a canonical slug. for everything else, your agent owns the prose.
+
+## who's already using it
+
+- [`freeside-characters`](https://github.com/0xHoneyJar/freeside-characters) — discord narrative bots (ruggy, satoshi). the first production consumer.
+- operator's claude code (path a stdio).
+- you, after [quickstart →](/quickstart)

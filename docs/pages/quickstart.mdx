@@ -1,0 +1,100 @@
+---
+title: Quickstart
+description: Wire codex-mcp into Claude Desktop, Claude Code, ChatGPT, or a custom harness
+---
+
+# quickstart
+
+pick your harness. both paths get you the same 8 tools.
+
+## 🌐 path b — remote http (zero install)
+
+the production endpoint:
+
+```
+https://codex-mcp-production.up.railway.app/mcp
+```
+
+> 🚧 url is updated to the live railway endpoint at deploy time. check [github → about](https://github.com/0xHoneyJar/construct-mibera-codex) if the placeholder is still here.
+
+### claude desktop
+
+add to `~/Library/Application Support/Claude/claude_desktop_config.json`:
+
+```json
+{
+  "mcpServers": {
+    "mibera-codex": {
+      "url": "https://codex-mcp-production.up.railway.app/mcp"
+    }
+  }
+}
+```
+
+restart claude desktop. the codex tools appear in the tool picker.
+
+### claude code (cli)
+
+```bash
+claude mcp add mibera-codex --url https://codex-mcp-production.up.railway.app/mcp
+```
+
+### chatgpt / custom mcp clients
+
+point any [mcp 2025-06-18](https://modelcontextprotocol.io/specification/2025-06-18)-speaking client at the same url. the discovery card lives at [`/.well-known/mcp.json`](/discovery).
+
+## 🏠 path a — stdio (local, faster)
+
+if you have the codex repo checked out and don't need remote access:
+
+```bash
+git clone https://github.com/0xHoneyJar/construct-mibera-codex.git
+cd construct-mibera-codex
+pnpm install
+pnpm mcp                  # stdio server, blocks waiting for jsonrpc input
+```
+
+claude desktop config for stdio:
+
+```json
+{
+  "mcpServers": {
+    "mibera-codex": {
+      "command": "pnpm",
+      "args": ["--filter", "@0xhoneyjar/construct-mibera-codex", "mcp"],
+      "cwd": "/path/to/construct-mibera-codex"
+    }
+  }
+}
+```
+
+## 📦 path c — direct import (loa-internal, no mcp at all)
+
+if you're authoring a loa skill or construct that needs anti-hallucination but doesn't want to add an mcp server to the user's claude code config, import the lookup functions directly:
+
+```ts
+import {
+  lookupZone,
+  lookupArchetype,
+  validateWorldElement,
+} from "@0xhoneyjar/construct-mibera-codex/dist/src/lookups";
+
+const zone = lookupZone("stonehenge");
+const check = validateWorldElement("archetype", "Freetech");
+//  → { canonical: false, suggested: "Freetekno", distance: 3 }
+```
+
+> path c is the recommended pattern for loa-internal consumers — no mcp tool surface bloat, no http hop, deterministic function call. mcp is for **agentic context** (the result must enter the LLM's reasoning chain) or **external reach** (the consumer isn't in our process). everything else can import.
+
+## verify
+
+after wiring up:
+
+```bash
+curl -X POST $CODEX_MCP_URL/mcp \
+  -H "Content-Type: application/json" \
+  -H "Accept: application/json, text/event-stream" \
+  -d '{"jsonrpc":"2.0","id":1,"method":"initialize","params":{"protocolVersion":"2025-06-18","capabilities":{},"clientInfo":{"name":"smoke","version":"0"}}}'
+```
+
+returns an SSE event with `serverInfo: {"name":"codex-mcp","version":"1.1.0"}` and a `mcp-session-id` header. that's the handshake.

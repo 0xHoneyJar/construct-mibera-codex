@@ -1,0 +1,55 @@
+---
+title: Anti-hallucination
+description: How the codex prevents your agent from fabricating Mibera lore
+---
+
+# anti-hallucination
+
+> the codex declares which claims are canonical. everything else is your agent's voice.
+
+most "ai-hallucinates-lore" failures come from one thing: the agent has no grounded source it can defer to, so it invents. the codex fixes that for the **slice of claims it owns**, and stays out of the way for the rest.
+
+## the tier model
+
+every claim about the mibera world falls into one of three tiers. the mcp surface declares which is which.
+
+| tier | what | how the agent should treat it |
+| --- | --- | --- |
+| 🔒 **HARD** | zone slugs, archetype canonical names, factor ids, mibera ids, grail ids | **must be looked up.** if the codex returns null, do not invent. fall back to fuzzy-match suggestion. |
+| 🪶 **SOFT** | zone essence + KANSEI, archetype figures/events/fashion, factor lore | **may be looked up.** if the codex has it, prefer codex prose. otherwise, agent voice is allowed within the spirit of the archetype. |
+| 🎙 **LLM-OWNED** | narrator voice, transition phrases, atmospheric prose, response style | **agent freely composes.** the codex does not police voice. |
+
+## how validate_world_element works
+
+before claiming `Freetech` is an archetype, the agent calls:
+
+```json
+{ "type": "archetype", "value": "Freetech" }
+```
+
+the codex returns:
+
+```json
+{ "canonical": false, "suggested": "Freetekno", "distance": 3, "type": "archetype" }
+```
+
+the agent now has three options:
+1. correct itself → call `lookup_archetype("Freetekno")` and use the canonical entry
+2. report the gap to the user — the suggestion + distance is enough context
+3. silently log to the [coverage-gap journal](/coverage-gaps) and degrade gracefully
+
+## why this matters
+
+without the codex, three failure modes compound:
+
+- 🪞 **plausible-but-wrong** — agent invents `Freetech` because it sounds like a real archetype. user accepts. lore drifts.
+- 🌀 **hallucinated detail** — agent invents fashion, drug, location, or zodiac sign. unique. specific. completely fictional.
+- 🧪 **model-version drift** — same prompt, different model, different "facts". no canonical source, no consistency.
+
+the codex closes those failure modes for HARD-tier claims. SOFT and LLM-OWNED stay open by design — the world has space for agent voice.
+
+## what's NOT in the codex
+
+- 🚫 evolving lore (active beefs, in-flight events) — too volatile; lives in score-mibera + ruggy
+- 🚫 user-submitted lore — different trust surface
+- 🚫 cross-construct claims — codex is mibera-bounded

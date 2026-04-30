@@ -1,0 +1,70 @@
+---
+title: lookup_zone
+description: Look up a festival zone by canonical slug
+---
+
+# lookup_zone
+
+> 🔒 **HARD tier** — zone slugs are canonical. the agent must look them up; do not invent.
+
+look up a festival zone by canonical slug. returns name, emoji, archetype anchor, era resonance, essence, lynch primitives (paths/edges/districts/nodes/landmarks), KANSEI tokens (warmth/motion/shadow/easing/density/sound). returns `null` if slug is not canonical — pair with [`validate_world_element`](/tools/validate_world_element) for fuzzy-match recovery.
+
+## input
+
+```json
+{ "slug": "stonehenge" }
+```
+
+| field | type | required | notes |
+| --- | --- | --- | --- |
+| `slug` | `string` | ✅ | canonical zone slug — see [`list_zones`](/tools/list_zones) for the full set |
+
+## output (canonical match)
+
+```json
+{
+  "slug": "stonehenge",
+  "name": "Stonehenge",
+  "emoji": "🪨",
+  "archetype": "All",
+  "essence": "Dawn-grey stone circle. The festival's shared axis. Not owned by any archetype — where all four converge before dispersing to their zones.",
+  "era_resonance": "Timeless — pre-rave, pre-history, the gathering impulse itself",
+  "lynch_primitives": {
+    "Paths": "Processional stone avenues...",
+    "Edges": "...",
+    "Districts": "...",
+    "Nodes": "...",
+    "Landmarks": "..."
+  },
+  "kansei_tokens": {
+    "warmth": "...",
+    "motion": "...",
+    "shadow": "...",
+    "easing": "...",
+    "density": "...",
+    "sound": "..."
+  }
+}
+```
+
+## output (non-canonical)
+
+```json
+null
+```
+
+> when null, fall back to [`validate_world_element`](/tools/validate_world_element) with `type: "zone"` to get a fuzzy-match suggestion.
+
+## composition
+
+| pair this with | for |
+| --- | --- |
+| [`list_zones`](/tools/list_zones) | discovering canonical slugs before lookup |
+| [`validate_world_element`](/tools/validate_world_element) | recovering from typos / non-canonical input |
+| [`lookup_archetype`](/tools/lookup_archetype) | following the zone's `archetype` field to its full archetype entry |
+
+## edge cases
+
+- 🌍 `"All"` is a real archetype value for cross-archetype zones (e.g. stonehenge). don't filter it out.
+- 🪦 deprecated zones return `null`. the codex doesn't carry tombstones.
+- 🌐 case-sensitive — `"Stonehenge"` ≠ `"stonehenge"`. always lowercase.

@@ -40,6 +40,7 @@
   "engines": {
     "node": ">=20"
   },
+  "packageManager": "pnpm@8.1.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/0xHoneyJar/construct-mibera-codex.git"
