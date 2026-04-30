@@ -6,9 +6,10 @@ mcp:
   shape: data
   paths:
     - stdio
+    - remote-http
   remote:
     transport: streamable-http
-    endpoint: ${MCP_REMOTE_ENDPOINT}  # Path B: set when self-hosting
+    endpoint: ${MCP_REMOTE_ENDPOINT}  # production: https://codex-mcp-production.up.railway.app/mcp
   tools:
     - lookup_zone
     - lookup_archetype

@@ -1,25 +1,23 @@
 ---
 title: Quickstart
-description: Wire codex-mcp into Claude Desktop, Claude Code, ChatGPT, or a custom harness
+description: Three paths to the same eight tools — remote HTTP, local stdio, or direct import.
 ---
 
 # quickstart
 
-pick your harness. both paths get you the same 8 tools.
+three doors into the same shelf. the books don't care which you walk through.
 
-## 🌐 path b — remote http (zero install)
+three paths. same eight tools. pick whichever matches your harness.
 
-the production endpoint:
+## 🌐 remote http
+
+zero install. point any [mcp 2025-06-18](https://modelcontextprotocol.io/specification/2025-06-18) client at the production endpoint.
 
 ```
 https://codex-mcp-production.up.railway.app/mcp
 ```
 
-> 🚧 url is updated to the live railway endpoint at deploy time. check [github → about](https://github.com/0xHoneyJar/construct-mibera-codex) if the placeholder is still here.
-
-### claude desktop
-
-add to `~/Library/Application Support/Claude/claude_desktop_config.json`:
+claude desktop — `~/Library/Application Support/Claude/claude_desktop_config.json`:
 
 ```json
 {
@@ -31,30 +29,28 @@ add to `~/Library/Application Support/Claude/claude_desktop_config.json`:
 }
 ```
 
-restart claude desktop. the codex tools appear in the tool picker.
+restart claude desktop. the tools appear.
 
-### claude code (cli)
+claude code:
 
 ```bash
 claude mcp add mibera-codex --url https://codex-mcp-production.up.railway.app/mcp
 ```
 
-### chatgpt / custom mcp clients
+chatgpt and other mcp clients — same url. discovery card lives at [`/.well-known/mcp.json`](/discovery).
 
-point any [mcp 2025-06-18](https://modelcontextprotocol.io/specification/2025-06-18)-speaking client at the same url. the discovery card lives at [`/.well-known/mcp.json`](/discovery).
+## 🏠 local stdio
 
-## 🏠 path a — stdio (local, faster)
-
-if you have the codex repo checked out and don't need remote access:
+faster. no network hop. for when the codex repo is checked out locally.
 
 ```bash
 git clone https://github.com/0xHoneyJar/construct-mibera-codex.git
 cd construct-mibera-codex
 pnpm install
-pnpm mcp                  # stdio server, blocks waiting for jsonrpc input
+pnpm mcp
 ```
 
-claude desktop config for stdio:
+claude desktop config:
 
 ```json
 {
@@ -68,9 +64,9 @@ claude desktop config for stdio:
 }
 ```
 
-## 📦 path c — direct import (loa-internal, no mcp at all)
+## 📦 direct import
 
-if you're authoring a loa skill or construct that needs anti-hallucination but doesn't want to add an mcp server to the user's claude code config, import the lookup functions directly:
+for loa-internal consumers — skill or construct code that needs anti-hallucination but doesn't need a tool surface in the user's claude config. deterministic function call. no http.
 
 ```ts
 import {
@@ -84,11 +80,9 @@ const check = validateWorldElement("archetype", "Freetech");
 //  → { canonical: false, suggested: "Freetekno", distance: 3 }
 ```
 
-> path c is the recommended pattern for loa-internal consumers — no mcp tool surface bloat, no http hop, deterministic function call. mcp is for **agentic context** (the result must enter the LLM's reasoning chain) or **external reach** (the consumer isn't in our process). everything else can import.
+mcp is for **agentic context** (the result must enter the LLM's reasoning) or **external reach** (the consumer isn't in our process). everything else can import.
 
 ## verify
-
-after wiring up:
 
 ```bash
 curl -X POST $CODEX_MCP_URL/mcp \

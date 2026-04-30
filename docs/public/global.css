@@ -1,0 +1,430 @@
+/* =====================================================================
+ * MIBERA CODEX — global stylesheet
+ * Parchment + ink. Imperial for headings. Switzer for body.
+ * Loaded by vocs via <head> link injection (see vocs.config.ts).
+ * ===================================================================== */
+
+/* ---------- Fonts ---------------------------------------------------- */
+
+@font-face {
+  font-family: "Imperial BT";
+  src: url("/fonts/ImperialBTRoman.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Switzer";
+  src: url("/fonts/Switzer.ttf") format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Clash Display";
+  src: url("/fonts/ClashDisplay.ttf") format("truetype");
+  font-weight: 200 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ---------- Tokens (Nier / Mibera mode) ------------------------------ */
+
+:root {
+  /* Palette */
+  --nier-bg-primary:     oklch(0.838 0.026 75.2);
+  --nier-bg-panel:       oklch(0.788 0.026 75.2);
+  --nier-bg-panel-dark:  oklch(0.737 0.026 75.2);
+  --nier-text-primary:   oklch(0.203 0.01  67.2);
+  --nier-text-secondary: oklch(0.336 0.009 67.5);
+  --nier-text-muted:     oklch(0.456 0.008 67.6);
+  --nier-border-dark:    oklch(0.272 0.009 67.4);
+  --nier-border-medium:  oklch(0.397 0.009 67.6);
+  --nier-border-light:   oklch(0.518 0.016 53.1);
+  --nier-accent:         oklch(0.203 0.01  67.2);
+  --nier-header-bg:      oklch(0.203 0.01  67.2);
+  --nier-header-text:    oklch(0.838 0.026 75.2);
+
+  /* Motion — artisan pack physics */
+  --ease-out-expo:    cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in-expo:     cubic-bezier(0.7, 0, 0.84, 0);
+  --ease-in-out-expo: cubic-bezier(0.87, 0, 0.13, 1);
+  --spring-gentle:    cubic-bezier(0.34, 1.56, 0.64, 1);
+  --spring-snappy:    cubic-bezier(0.22, 0.61, 0.36, 1);
+  --spring-bouncy:    cubic-bezier(0.68, -0.55, 0.27, 1.55);
+
+  --duration-instant: 100ms;
+  --duration-fast:    150ms;
+  --duration-normal:  250ms;
+  --duration-slow:    400ms;
+  --duration-slower:  600ms;
+}
+
+/* ---------- Vocs override layer -------------------------------------- *
+ * Vocs's vanilla-extract theme writes tokens to :root and :root.dark.
+ * Our /global.css <link> is rendered BEFORE the vite bundle in <head>,
+ * so source order would lose. We use `html:root` (specificity 0,0,2 vs
+ * vocs's 0,0,1) to win cleanly — no !important, no layer juggling.
+ * Both light and dark scopes are pinned to parchment; Mibera mode
+ * is the only mode and any toggle still reads correctly.
+ * ===================================================================== */
+
+html:root,
+html:root.dark {
+  /* Backgrounds */
+  --vocs-color_background:           var(--nier-bg-primary);
+  --vocs-color_background2:          var(--nier-bg-panel);
+  --vocs-color_background3:          var(--nier-bg-panel);
+  --vocs-color_background4:          var(--nier-bg-panel-dark);
+  --vocs-color_background5:          var(--nier-bg-panel-dark);
+  --vocs-color_backgroundDark:       var(--nier-bg-panel);
+  --vocs-color_backgroundDarkTint:   var(--nier-bg-panel-dark);
+  --vocs-color_backgroundAccent:     var(--nier-text-primary);
+  --vocs-color_backgroundAccentHover:var(--nier-text-secondary);
+  --vocs-color_backgroundAccentText: var(--nier-bg-primary);
+
+  /* Borders */
+  --vocs-color_border:        var(--nier-border-medium);
+  --vocs-color_border2:       var(--nier-border-medium);
+  --vocs-color_borderAccent:  var(--nier-border-dark);
+
+  /* Text */
+  --vocs-color_text:        var(--nier-text-primary);
+  --vocs-color_text2:       var(--nier-text-secondary);
+  --vocs-color_text3:       var(--nier-text-muted);
+  --vocs-color_text4:       var(--nier-text-muted);
+  --vocs-color_textHover:   var(--nier-text-primary);
+  --vocs-color_textAccent:  var(--nier-text-primary);
+  --vocs-color_textAccentHover: var(--nier-text-secondary);
+  --vocs-color_heading:     var(--nier-text-primary);
+  --vocs-color_title:       var(--nier-text-primary);
+
+  /* Code blocks read as a deeper page panel rather than dark chrome */
+  --vocs-color_codeCharacterHighlightBackground: var(--nier-bg-panel-dark);
+  --vocs-color_codeCharacterHighlightBorder:     var(--nier-border-medium);
+  --vocs-color_codeHighlightBackground:          var(--nier-bg-panel-dark);
+  --vocs-color_codeHighlightBorder:              var(--nier-border-medium);
+}
+
+/* ---------- Typography ---------------------------------------------- */
+
+:root {
+  --font-imperial: "Imperial BT", "Iowan Old Style", "Palatino", Georgia, serif;
+  --font-switzer:  "Switzer", -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+  --font-clash:    "Clash Display", "Switzer", system-ui, sans-serif;
+}
+
+html,
+body {
+  font-family: var(--font-switzer);
+  font-feature-settings: "ss01", "ss02", "cv01", "cv11";
+  background: var(--nier-bg-primary);
+  color: var(--nier-text-primary);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Imperial for HEADINGS ONLY — body stays Switzer for sustained reading. */
+h1, h2, h3, h4, h5, h6,
+.vocs_H1, .vocs_H2, .vocs_H3, .vocs_H4, .vocs_H5, .vocs_H6 {
+  font-family: var(--font-imperial);
+  font-weight: 400;
+  letter-spacing: -0.005em;
+  color: var(--nier-text-primary);
+}
+
+h1, .vocs_H1 { letter-spacing: -0.015em; }
+
+/* Code stays mono — vocs ships its own; we only color it. */
+code, pre, .vocs_Code, .vocs_CodeBlock {
+  color: var(--nier-text-primary);
+}
+
+/* Links: ink, not blue. Underlined on hover only — Imperial typeface +
+   reading flow already mark them. */
+a, .vocs_Link {
+  color: var(--nier-text-primary);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color var(--duration-fast) var(--spring-snappy);
+}
+a:hover, .vocs_Link:hover {
+  color: var(--nier-text-primary);
+  border-bottom-color: var(--nier-border-medium);
+}
+
+/* ---------- Top nav (chrome) ---------------------------------------- *
+ * Inverted: deep ink bar, parchment text. The codex sits beneath ink.
+ * ===================================================================== */
+
+[class*="vocs_TopNav"] {
+  background: var(--nier-header-bg);
+  color: var(--nier-header-text);
+  border-bottom: 1px solid var(--nier-border-dark);
+}
+
+[class*="vocs_TopNav"] a,
+[class*="vocs_TopNav"] button,
+[class*="vocs_TopNav"] [role="button"] {
+  color: var(--nier-header-text);
+}
+
+[class*="vocs_TopNav"] a:hover {
+  color: var(--nier-header-text);
+  opacity: 0.78;
+  border-bottom-color: transparent;
+}
+
+/* Make the title (Imperial) breathe in the bar */
+[class*="vocs_TopNav"] [class*="title"],
+[class*="vocs_Logo"] {
+  font-family: var(--font-imperial);
+  letter-spacing: -0.005em;
+}
+
+/* ---------- Sidebar -------------------------------------------------- */
+
+[class*="vocs_Sidebar"] {
+  background: var(--nier-bg-primary);
+  border-right: 1px solid var(--nier-border-medium);
+}
+
+[class*="vocs_Sidebar"] [class*="section"],
+[class*="vocs_Sidebar"] [class*="title"] {
+  font-family: var(--font-imperial);
+  font-size: 0.95rem;
+  letter-spacing: 0.01em;
+  color: var(--nier-text-secondary);
+}
+
+[class*="vocs_Sidebar"] a {
+  color: var(--nier-text-secondary);
+  border-bottom: none;
+}
+[class*="vocs_Sidebar"] a:hover {
+  color: var(--nier-text-primary);
+}
+
+/* ---------- MDX content rhythm -------------------------------------- *
+ * Generous margins. The page is the room — let the books speak.
+ * ===================================================================== */
+
+main, [class*="vocs_Content"] {
+  font-size: 1.0125rem;
+  line-height: 1.7;
+}
+
+main p, [class*="vocs_Content"] p {
+  color: var(--nier-text-primary);
+}
+
+main h2, [class*="vocs_Content"] h2 {
+  margin-top: 3rem;
+  border-top: 1px solid var(--nier-border-medium);
+  padding-top: 2rem;
+}
+
+main h3, [class*="vocs_Content"] h3 {
+  margin-top: 2rem;
+}
+
+main blockquote, [class*="vocs_Content"] blockquote {
+  border-left: 2px solid var(--nier-border-dark);
+  padding-left: 1.25rem;
+  color: var(--nier-text-secondary);
+  font-style: italic;
+}
+
+/* Tables: parchment with ink rules */
+main table, [class*="vocs_Content"] table {
+  border-collapse: collapse;
+  border: 1px solid var(--nier-border-medium);
+}
+main th, [class*="vocs_Content"] th {
+  background: var(--nier-bg-panel);
+  border-bottom: 1px solid var(--nier-border-dark);
+  font-family: var(--font-imperial);
+  font-weight: 400;
+  text-align: left;
+}
+main td, main th,
+[class*="vocs_Content"] td, [class*="vocs_Content"] th {
+  border: 1px solid var(--nier-border-medium);
+  padding: 0.55rem 0.85rem;
+}
+
+/* Inline code: a faint panel, ink-tinted border */
+main :not(pre) > code,
+[class*="vocs_Content"] :not(pre) > code {
+  background: var(--nier-bg-panel);
+  border: 1px solid var(--nier-border-medium);
+  padding: 0.08rem 0.35rem;
+  border-radius: 0;
+  font-size: 0.92em;
+}
+
+/* Code blocks: panel-dark canvas */
+main pre,
+[class*="vocs_Content"] pre,
+[class*="vocs_CodeBlock"] {
+  background: var(--nier-bg-panel-dark) !important;
+  border: 1px solid var(--nier-border-medium);
+  border-radius: 0;
+}
+
+/* ---------- Grimoire shelf component (used in MDX) ------------------ */
+
+.grimoire-shelf {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(7.5rem, 1fr));
+  gap: 1.25rem;
+  margin: 2.5rem 0;
+  padding: 0;
+  list-style: none;
+}
+
+.grimoire-shelf__book {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  color: var(--nier-text-primary);
+  border: none;
+  padding: 0.5rem;
+  transition:
+    transform var(--duration-normal) var(--spring-gentle),
+    filter var(--duration-normal) var(--spring-snappy);
+}
+.grimoire-shelf__book:hover {
+  transform: translateY(-4px) rotate(-0.4deg);
+  filter: drop-shadow(0 8px 14px oklch(0.203 0.01 67.2 / 0.18));
+  border-bottom: none;
+}
+
+.grimoire-shelf__cover {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  display: block;
+  border: 1px solid var(--nier-border-medium);
+}
+
+.grimoire-shelf__label {
+  margin-top: 0.65rem;
+  font-family: var(--font-imperial);
+  font-size: 0.95rem;
+  letter-spacing: 0.005em;
+  color: var(--nier-text-primary);
+  line-height: 1.25;
+}
+
+.grimoire-shelf__hint {
+  margin-top: 0.15rem;
+  font-family: var(--font-switzer);
+  font-size: 0.78rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--nier-text-muted);
+}
+
+/* ---------- Tool card component (per-tool page header) -------------- */
+
+.tool-card {
+  display: grid;
+  grid-template-columns: 8.5rem 1fr;
+  gap: 1.5rem;
+  align-items: start;
+  margin: 1.5rem 0 2.5rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid var(--nier-border-medium);
+}
+@media (max-width: 640px) {
+  .tool-card {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+}
+
+.tool-card__cover {
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  display: block;
+  border: 1px solid var(--nier-border-medium);
+}
+
+.tool-card__body {
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+}
+
+.tool-card__name {
+  font-family: var(--font-imperial);
+  font-size: 2.1rem;
+  line-height: 1.1;
+  margin: 0;
+  color: var(--nier-text-primary);
+  letter-spacing: -0.01em;
+}
+
+.tool-card__purpose {
+  font-family: var(--font-switzer);
+  font-size: 1.0125rem;
+  color: var(--nier-text-secondary);
+  margin: 0;
+  line-height: 1.55;
+}
+
+.tool-card__badge {
+  align-self: flex-start;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-family: var(--font-switzer);
+  font-size: 0.72rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  padding: 0.28rem 0.55rem;
+  border: 1px solid var(--nier-border-dark);
+  background: var(--nier-bg-panel);
+  color: var(--nier-text-primary);
+}
+
+.tool-card__badge--hard {
+  background: var(--nier-text-primary);
+  color: var(--nier-bg-primary);
+  border-color: var(--nier-text-primary);
+}
+.tool-card__badge--soft {
+  background: var(--nier-bg-panel);
+  color: var(--nier-text-primary);
+}
+.tool-card__badge--llm {
+  background: var(--nier-bg-primary);
+  color: var(--nier-text-secondary);
+  border-style: dashed;
+}
+
+/* ---------- Layout breath ------------------------------------------- */
+
+@media (min-width: 1024px) {
+  main, [class*="vocs_Content"] {
+    max-width: 70ch;
+  }
+}
+
+/* Reduce motion — respect user preference, this still feels right */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+  }
+  .grimoire-shelf__book:hover {
+    transform: none;
+  }
+}

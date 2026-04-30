@@ -1,0 +1,56 @@
+---
+title: list_archetypes
+description: The four canonical archetypes — discovery surface.
+---
+
+import { ToolCard } from '../../components/tool-card'
+
+<ToolCard n={7} name="list_archetypes" tier="HARD" purpose="the four — discovery surface" />
+
+> 🔒 **HARD tier.** the four. that's the set.
+
+returns an array of `{name, era, zodiac_signs, season}`. use it to discover canonical names before [`lookup_archetype`](/tools/lookup_archetype), or to validate archetype claims in narrative output.
+
+## input
+
+```json
+{}
+```
+
+no arguments. (the MCP SDK requires `arguments: {}` to be present even when empty.)
+
+## output
+
+```json
+[
+  {
+    "name": "Freetekno",
+    "era": "Early-Late 90s",
+    "zodiac_signs": ["Cancer", "Leo", "Virgo"],
+    "season": "Summer"
+  },
+  {
+    "name": "Milady",
+    "era": "Current",
+    "zodiac_signs": ["Capricorn", "Aquarius", "Pisces"],
+    "season": "Winter"
+  },
+  ...
+]
+```
+
+## the four
+
+```
+🌀 Freetekno      🌸 Milady
+🏠 Acidhouse      🎛 Chicago/Detroit
+```
+
+same impulse, different language. the dancefloor straddles all of them.
+
+## composition
+
+| pair this with | for |
+| --- | --- |
+| [`lookup_archetype`](/tools/lookup_archetype) | drilling into a specific entry (locations, figures, fashion) |
+| [`validate_world_element`](/tools/validate_world_element) | the inverse — "is this name canonical?" |

@@ -1,0 +1,52 @@
+---
+title: Discovery card
+description: SEP-2127 server discovery at /.well-known/mcp.json.
+---
+
+# discovery card
+
+every codex-mcp deployment exposes [SEP-2127](https://modelcontextprotocol.io/) discovery at:
+
+```
+/.well-known/mcp.json
+```
+
+## live response
+
+```json
+{
+  "schemaVersion": "2025-06-18",
+  "name": "codex-mcp",
+  "title": "Mibera Codex",
+  "description": "Anti-hallucination lookup MCP for narrative-bot consumers — zones, archetypes, factors, grails, miberas. Codex stays source-of-truth; this transport is read-only.",
+  "version": "1.1.0",
+  "publisher": "0xHoneyJar",
+  "license": "MIT",
+  "transports": [
+    { "type": "streamable-http", "url": "/mcp" }
+  ],
+  "tools": [
+    "lookup_zone",
+    "lookup_archetype",
+    "lookup_factor",
+    "lookup_grail",
+    "lookup_mibera",
+    "list_zones",
+    "list_archetypes",
+    "validate_world_element"
+  ],
+  "auth": { "kind": "none" },
+  "documentation": "https://github.com/0xHoneyJar/construct-mibera-codex#readme"
+}
+```
+
+## what it's for
+
+- 🤖 **agent discovery** — an agent that finds the URL introspects tools without a static manifest baked into its code.
+- 📋 **registry submission** — when MCP registries index us, this is the file they read.
+- 🔍 **operator audit** — a human verifying "what does this MCP claim to expose?" reads this once.
+
+## what it isn't
+
+- not a config file. clients still configure the URL in their own settings.
+- not a dynamic capabilities response. `initialize` is the live handshake; this is the static announcement.
