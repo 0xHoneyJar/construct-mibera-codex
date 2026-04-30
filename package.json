@@ -4,12 +4,17 @@
   "description": "Mibera Codex MCP server — anti-hallucination lookup for narrative-bot consumers (zones, archetypes, factors, grails, miberas).",
   "type": "module",
   "bin": {
-    "codex-mcp": "./dist/bin/mcp.js"
+    "codex-mcp": "./dist/bin/mcp.js",
+    "codex-mcp-http": "./dist/bin/http.js"
   },
   "scripts": {
     "build": "tsc",
+    "start": "node dist/bin/http.js",
+    "start:http": "node dist/bin/http.js",
     "mcp": "tsx bin/mcp.ts",
     "mcp:dev": "tsx watch bin/mcp.ts",
+    "http": "tsx bin/http.ts",
+    "http:dev": "tsx watch bin/http.ts",
     "prepublishOnly": "tsc"
   },
   "files": [
@@ -21,8 +26,10 @@
     "_codex/schema"
   ],
   "dependencies": {
+    "@hono/node-server": "^1.14.1",
     "@modelcontextprotocol/sdk": "^1.18.2",
     "gray-matter": "^4.0.3",
+    "hono": "^4.7.0",
     "zod": "^3.25.28"
   },
   "devDependencies": {

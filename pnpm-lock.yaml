@@ -1,12 +1,18 @@
 lockfileVersion: '6.0'
 
 dependencies:
+  '@hono/node-server':
+    specifier: ^1.14.1
+    version: 1.14.1(hono@4.7.0)
   '@modelcontextprotocol/sdk':
     specifier: ^1.18.2
     version: 1.18.2
   gray-matter:
     specifier: ^4.0.3
     version: 4.0.3
+  hono:
+    specifier: ^4.7.0
+    version: 4.7.0
   zod:
     specifier: ^3.25.28
     version: 3.25.28
@@ -239,6 +245,15 @@ packages:
     requiresBuild: true
     dev: true
     optional: true
+
+  /@hono/node-server@1.14.1(hono@4.7.0):
+    resolution: {integrity: sha512-vmbuM+HPinjWzPe7FFPWMMQMsbKE9gDPhaH0FFdqbGpkT5lp++tcWDTxwBl5EgS5y6JVgIaCdjeHRfQ4XRBRjQ==}
+    engines: {node: '>=18.14.1'}
+    peerDependencies:
+      hono: ^4
+    dependencies:
+      hono: 4.7.0
+    dev: false
 
   /@modelcontextprotocol/sdk@1.18.2:
     resolution: {integrity: sha512-beedclIvFcCnPrYgHsylqiYJVJ/CI47Vyc4tY8no1/Li/O8U4BTlJfy6ZwxkYwx+Mx10nrgwSVrA7VBbhh4slg==}
@@ -626,6 +641,11 @@ packages:
     engines: {node: '>= 0.4'}
     dependencies:
       function-bind: 1.1.2
+    dev: false
+
+  /hono@4.7.0:
+    resolution: {integrity: sha512-hV97aIR4WYbG30k234sD9B3VNr1ZWdQRmrVF76LKFlmI7O9Yo70mG9+mFwyQ6Sjrz4wH71GfnBxv6CPjcx3QNw==}
+    engines: {node: '>=16.9.0'}
     dev: false
 
   /http-errors@2.0.1:
