@@ -22,8 +22,11 @@ export default defineConfig({
   iconUrl: "/codex-avatar.jpg",
   // Vocs's useOgImageUrl drops string-form ogImageUrl on lookup; the
   // path-map form is the working surface. Glob "**" matches any route
-  // so every page gets the same Mibera OG card.
-  ogImageUrl: { "**": "/og.png" },
+  // so every page gets the same Mibera OG card. Absolute URL so
+  // Discord/Twitter/Facebook crawlers resolve it correctly (relative
+  // /og.png works for the site but social cards prefer fully-qualified).
+  // Update when custom domain lands.
+  ogImageUrl: { "**": "https://docs-iota-cyan.vercel.app/og.png" },
 
   // Inject our parchment stylesheet on every page. Vocs treats a plain
   // object `head` as a path-map, so we pass a function — it dodges the
