@@ -139,17 +139,17 @@ body::before {
   content: "";
   position: fixed;
   inset: auto 0 0 0;
-  height: 38vh;
-  min-height: 240px;
-  max-height: 380px;
+  height: 42vh;
+  min-height: 280px;
+  max-height: 480px;
   z-index: 0;
   pointer-events: none;
   background-image: url("/miberasets-row.jpg");
   background-position: center bottom;
   background-size: cover;
   background-repeat: no-repeat;
-  opacity: 0.085;
-  filter: saturate(0.6) brightness(0.95) sepia(0.18);
+  opacity: 0.22;
+  filter: saturate(0.65) brightness(0.96) sepia(0.18);
   mask-image: linear-gradient(
     to bottom,
     transparent 0%,
