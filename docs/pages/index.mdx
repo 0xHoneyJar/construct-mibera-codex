@@ -5,30 +5,63 @@ description: The grimoire MCP — anti-hallucination lookup over canonical Miber
 
 import { GrimoireShelf } from '../components/grimoire-shelf'
 
-<img
-  src="/og.png"
-  alt="MICODEX — The Grimoire MCP"
-  style={{ width: "100%", maxWidth: "880px", height: "auto", display: "block", margin: "1rem auto 2.5rem", border: "1px solid var(--nier-border-medium)" }}
-/>
-
 # the codex
 
-a row of grimoires. each one tends a slice of the Mibera world. zones, archetypes, factors, grails, miberas.
+ten thousand time-travelling beras. four rave tribes. five festival zones. every trait, every grail, every canonical thread.
 
-the dance returns. the codex was already here, watching. agents read these books to stay grounded. humans browse them for the same reason.
+read-only canon, kept true. agents read it to stay grounded. humans browse it for the same reason. the dance returns.
 
-read-only. canonical. eight tools. one [mcp 2025-06-18](https://modelcontextprotocol.io/specification/2025-06-18) endpoint.
+eight tools over one [mcp 2025-06-18](https://modelcontextprotocol.io/specification/2025-06-18) endpoint — five grimoires of lore, three volumes of the Mibera Maker. each book below.
 
-<GrimoireShelf books={[
-  { n: 1, label: "lookup_zone",            hint: "zone by slug",         href: "/tools/lookup_zone" },
-  { n: 2, label: "lookup_archetype",       hint: "one of four",          href: "/tools/lookup_archetype" },
-  { n: 3, label: "lookup_factor",          hint: "factor id → lore",     href: "/tools/lookup_factor" },
-  { n: 4, label: "lookup_grail",           hint: "1/1 grail",            href: "/tools/lookup_grail" },
-  { n: 5, label: "lookup_mibera",          hint: "one of ten thousand",  href: "/tools/lookup_mibera" },
-  { n: 6, label: "list_zones",             hint: "discovery",            href: "/tools/list_zones" },
-  { n: 7, label: "list_archetypes",        hint: "the four",             href: "/tools/list_archetypes" },
-  { n: 1, label: "validate_world_element", hint: "the keystone",         href: "/tools/validate_world_element" },
-]} />
+<GrimoireShelf
+  book={{ n: 1, title: "Introducing Mibera", hint: "ten thousand time-travellers. one full trait set per lookup." }}
+  tools={[
+    { name: "lookup_mibera", hint: "one of ten thousand · full canonical trait set", href: "/tools/lookup_mibera" },
+  ]}
+/>
+
+<GrimoireShelf
+  book={{ n: 2, title: "Clearpill vs Ravepill", hint: "four rave tribes. era, locations, figures, fashion." }}
+  tools={[
+    { name: "lookup_archetype", hint: "one of four tribes · era, locations, figures, fashion", href: "/tools/lookup_archetype" },
+  ]}
+/>
+
+<GrimoireShelf
+  book={{ n: 3, title: "Mibera Maker — Vol I", hint: "the 1/1 grails. designed by hand, named in canon." }}
+  tools={[
+    { name: "lookup_grail", hint: "1/1 grail by id, slug, or name", href: "/tools/lookup_grail" },
+  ]}
+/>
+
+<GrimoireShelf
+  book={{ n: 4, title: "Network Mysticism", hint: "score-mibera factors ↔ codex lore. signals as scripture." }}
+  tools={[
+    { name: "lookup_factor", hint: "score-mibera factor id ↔ codex lore", href: "/tools/lookup_factor" },
+  ]}
+/>
+
+<GrimoireShelf
+  book={{ n: 5, title: "Mibera Initiation Ritual", hint: "five festival zones. lynch primitives + KANSEI tokens for agent narration." }}
+  tools={[
+    { name: "lookup_zone", hint: "stonehenge · bear-cave · el-dorado · owsley-lab · the-warehouse", href: "/tools/lookup_zone" },
+  ]}
+/>
+
+<GrimoireShelf
+  book={{ n: 6, title: "Mibera Maker — Vol II", hint: "every archetype. every zone. the discovery surface agents call when grounding." }}
+  tools={[
+    { name: "list_archetypes", hint: "the four tribes — discovery surface", href: "/tools/list_archetypes" },
+    { name: "list_zones",      hint: "every canonical zone — discovery surface", href: "/tools/list_zones" },
+  ]}
+/>
+
+<GrimoireShelf
+  book={{ n: 7, title: "Mibera Maker — Vol III", hint: "validate any element. fuzzy-match. coverage gaps logged for the curators." }}
+  tools={[
+    { name: "validate_world_element", hint: "canonical check, fuzzy match, coverage-gap log", href: "/tools/validate_world_element" },
+  ]}
+/>
 
 ## the eight
 
