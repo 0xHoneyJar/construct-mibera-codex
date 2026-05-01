@@ -45,7 +45,7 @@ const GRIMOIRE_BY_PATH: Record<string, GrimoireMeta> = {
   "/tools/lookup_zone":            { position: "67%", volLabel: "vol v" },
   "/tools/list_archetypes":        { position: "83%", volLabel: "vol vi" },
   "/tools/list_zones":             { position: "83%", volLabel: "vol vi" },
-  "/tools/validate_world_element": { position: "96%", volLabel: "vol vii" },
+  "/tools/validate_world_element": { position: "95%", volLabel: "vol vii" },
 };
 
 const DEFAULT_META: GrimoireMeta = { position: "50%", volLabel: "the codex" };
