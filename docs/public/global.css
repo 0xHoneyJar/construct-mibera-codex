@@ -262,6 +262,15 @@ a:hover, .vocs_Link:hover {
   box-shadow: none;
 }
 
+/* Sidebar links don't use the global hover underline — the brand mark,
+ * sidebar items, and footer socials each have their own affordances
+ * (icon slide, padding shift, ribbon notch). The default a:hover
+ * border-bottom would double up. */
+[class*="vocs_Sidebar"] a:hover,
+[class*="vocs_Sidebar"] a.vocs_Link:hover {
+  border-bottom-color: transparent !important;
+}
+
 /* Left gutter holds the sidebar but is wider than it on desktop —
  * vocs paints it backgroundDark by default, exposing a panel-color
  * stripe to the left of the sidebar. Match it to the sidebar so
