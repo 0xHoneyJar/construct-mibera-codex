@@ -9,7 +9,7 @@ mcp:
     - remote-http
   remote:
     transport: streamable-http
-    endpoint: ${MCP_REMOTE_ENDPOINT}  # production: https://codex-mcp-production.up.railway.app/mcp
+    endpoint: ${MCP_REMOTE_ENDPOINT}  # production: https://mcp.0xhoneyjar.xyz/codex/mcp
   tools:
     - lookup_zone
     - lookup_archetype

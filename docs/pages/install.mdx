@@ -11,7 +11,7 @@ import { ConsumerCard } from '../components/consumer-card'
 connect any agent to the codex. one [mcp 2025-06-18](https://modelcontextprotocol.io/specification/2025-06-18) endpoint, every client.
 
 ```
-https://codex-mcp-production.up.railway.app/mcp
+https://mcp.0xhoneyjar.xyz/codex/mcp
 ```
 
 agents read it for grounded lore lookups. the canonical set is enforced at the boundary; the prose stays yours. [why mcp →](#why-mcp)
@@ -28,7 +28,7 @@ agents read it for grounded lore lookups. the canonical set is enforced at the b
   snippet={`{
   "mcpServers": {
     "mibera-codex": {
-      "url": "https://codex-mcp-production.up.railway.app/mcp"
+      "url": "https://mcp.0xhoneyjar.xyz/codex/mcp"
     }
   }
 }`}
@@ -41,7 +41,7 @@ agents read it for grounded lore lookups. the canonical set is enforced at the b
   logo="claude.svg"
   language="bash"
   snippet={`claude mcp add mibera-codex \\
-  --url https://codex-mcp-production.up.railway.app/mcp`}
+  --url https://mcp.0xhoneyjar.xyz/codex/mcp`}
   href="https://docs.claude.com/en/docs/claude-code/mcp"
   hrefLabel="docs →"
 />
@@ -54,7 +54,7 @@ agents read it for grounded lore lookups. the canonical set is enforced at the b
   snippet={`{
   "mcpServers": {
     "mibera-codex": {
-      "url": "https://codex-mcp-production.up.railway.app/mcp"
+      "url": "https://mcp.0xhoneyjar.xyz/codex/mcp"
     }
   }
 }`}
@@ -68,7 +68,7 @@ agents read it for grounded lore lookups. the canonical set is enforced at the b
   configFile="~/.codex/config.toml"
   language="toml"
   snippet={`[mcp_servers.mibera-codex]
-url = "https://codex-mcp-production.up.railway.app/mcp"`}
+url = "https://mcp.0xhoneyjar.xyz/codex/mcp"`}
   href="https://github.com/openai/codex"
   hrefLabel="docs →"
 />
@@ -81,7 +81,7 @@ url = "https://codex-mcp-production.up.railway.app/mcp"`}
   snippet={`{
   "mcpServers": {
     "mibera-codex": {
-      "url": "https://codex-mcp-production.up.railway.app/mcp"
+      "url": "https://mcp.0xhoneyjar.xyz/codex/mcp"
     }
   }
 }`}
@@ -97,7 +97,7 @@ url = "https://codex-mcp-production.up.railway.app/mcp"`}
   snippet={`{
   "mcpServers": {
     "mibera-codex": {
-      "serverUrl": "https://codex-mcp-production.up.railway.app/mcp"
+      "serverUrl": "https://mcp.0xhoneyjar.xyz/codex/mcp"
     }
   }
 }`}
@@ -110,7 +110,7 @@ url = "https://codex-mcp-production.up.railway.app/mcp"`}
   logo="openai.svg"
   configFile="settings → connectors → custom mcp"
   language="bash"
-  snippet={`endpoint: https://codex-mcp-production.up.railway.app/mcp
+  snippet={`endpoint: https://mcp.0xhoneyjar.xyz/codex/mcp
 discovery: /.well-known/mcp.json`}
   href="https://platform.openai.com/docs/mcp"
   hrefLabel="docs →"
@@ -124,7 +124,7 @@ discovery: /.well-known/mcp.json`}
   snippet={`{
   "mcp.servers": {
     "mibera-codex": {
-      "url": "https://codex-mcp-production.up.railway.app/mcp"
+      "url": "https://mcp.0xhoneyjar.xyz/codex/mcp"
     }
   }
 }`}

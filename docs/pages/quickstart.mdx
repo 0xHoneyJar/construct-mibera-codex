@@ -14,7 +14,7 @@ three paths. same eight tools. pick whichever matches your harness.
 zero install. point any [mcp 2025-06-18](https://modelcontextprotocol.io/specification/2025-06-18) client at the production endpoint.
 
 ```
-https://codex-mcp-production.up.railway.app/mcp
+https://mcp.0xhoneyjar.xyz/codex/mcp
 ```
 
 claude desktop — `~/Library/Application Support/Claude/claude_desktop_config.json`:
@@ -23,7 +23,7 @@ claude desktop — `~/Library/Application Support/Claude/claude_desktop_config.j
 {
   "mcpServers": {
     "mibera-codex": {
-      "url": "https://codex-mcp-production.up.railway.app/mcp"
+      "url": "https://mcp.0xhoneyjar.xyz/codex/mcp"
     }
   }
 }
@@ -34,7 +34,7 @@ restart claude desktop. the tools appear.
 claude code:
 
 ```bash
-claude mcp add mibera-codex --url https://codex-mcp-production.up.railway.app/mcp
+claude mcp add mibera-codex --url https://mcp.0xhoneyjar.xyz/codex/mcp
 ```
 
 chatgpt and other mcp clients — same url. discovery card lives at [`/.well-known/mcp.json`](/discovery).
