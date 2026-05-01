@@ -43,8 +43,8 @@ const GRIMOIRE_BY_PATH: Record<string, GrimoireMeta> = {
   "/tools/lookup_grail":           { position: "37%", volLabel: "vol iii" },
   "/tools/lookup_factor":          { position: "52%", volLabel: "vol iv" },
   "/tools/lookup_zone":            { position: "67%", volLabel: "vol v" },
-  "/tools/list_archetypes":        { position: "83%", volLabel: "vol vi" },
-  "/tools/list_zones":             { position: "83%", volLabel: "vol vi" },
+  "/tools/list_archetypes":        { position: "82%", volLabel: "vol vi" },
+  "/tools/list_zones":             { position: "82%", volLabel: "vol vi" },
   "/tools/validate_world_element": { position: "95%", volLabel: "vol vii" },
 };
 
