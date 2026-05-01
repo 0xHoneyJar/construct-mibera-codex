@@ -107,20 +107,20 @@ export default defineConfig({
     {
       text: "The grimoires",
       items: [
-        { text: "I · Introducing Mibera",      link: "/tools/lookup_mibera" },
-        { text: "II · Clearpill vs Ravepill",  link: "/tools/lookup_archetype" },
-        { text: "III · Mibera Maker · Vol I",  link: "/tools/lookup_grail" },
-        { text: "IV · Network Mysticism",      link: "/tools/lookup_factor" },
-        { text: "V · Initiation Ritual",       link: "/tools/lookup_zone" },
+        { text: "Introducing Mibera",      link: "/tools/lookup_mibera" },
+        { text: "Clearpill vs Ravepill",   link: "/tools/lookup_archetype" },
+        { text: "Mibera Maker · Vol I",    link: "/tools/lookup_grail" },
+        { text: "Network Mysticism",       link: "/tools/lookup_factor" },
+        { text: "Initiation Ritual",       link: "/tools/lookup_zone" },
         {
-          text: "VI · Mibera Maker · Vol II",
+          text: "Mibera Maker · Vol II",
           collapsed: false,
           items: [
             { text: "list_archetypes", link: "/tools/list_archetypes" },
             { text: "list_zones",      link: "/tools/list_zones" },
           ],
         },
-        { text: "VII · Mibera Maker · Vol III", link: "/tools/validate_world_element" },
+        { text: "Mibera Maker · Vol III",  link: "/tools/validate_world_element" },
       ],
     },
     {

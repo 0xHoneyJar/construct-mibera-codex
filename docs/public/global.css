@@ -389,21 +389,37 @@ html .vocs_Sidebar_item.vocs_Link[data-active="true"]::before {
   background: var(--nier-text-primary);
 }
 
-/* Nested level (Mibera Maker · Vol II expanded with two list tools).
- * Indent gutter; smaller type, slightly muted ink for sub-items. */
+/* Vol II's nested children read as siblings of the other 7 grimoires —
+ * same font size, same ink, same hover treatment. The level-inset
+ * border + small left-pad is the only acknowledgment that they sit
+ * inside Vol II; no dropdown styling, no chevron, no muted type. */
 .vocs_Sidebar_levelInset {
   border-left: 1px solid var(--nier-rule-soft) !important;
-  margin-top: 0.25rem !important;
+  margin-top: 0.15rem !important;
   padding-left: 0.85rem !important;
   padding-top: 0 !important;
   padding-bottom: 0 !important;
 }
 .vocs_Sidebar_levelInset .vocs_Sidebar_item.vocs_Link {
-  font-size: 0.86rem !important;
-  color: var(--nier-text-secondary) !important;
-}
-.vocs_Sidebar_levelInset .vocs_Sidebar_item.vocs_Link[data-active="true"] {
+  font-size: 0.92rem !important;
   color: var(--nier-text-primary) !important;
+}
+
+/* Hide the dropdown chevron — Vol II shouldn't read as a collapsible
+ * group, just a chapter with two sub-entries. Vocs uses
+ * .vocs_Sidebar_sectionCollapse for the chevron icon. */
+html .vocs_Sidebar_sectionCollapse,
+html .vocs_Sidebar_section .vocs_Icon[class*="sectionCollapse"] {
+  display: none !important;
+}
+
+/* Vol II's parent row should look like the other 6 grimoires —
+ * same row treatment, no special "section header" emphasis. */
+html .vocs_Sidebar_section.vocs_Sidebar_level {
+  font-size: inherit !important;
+}
+html .vocs_Sidebar_section.vocs_Sidebar_level > .vocs_Sidebar_sectionHeader {
+  padding-top: 0 !important;
 }
 
 /* Brand-mark slot in the sidebar header.
@@ -457,7 +473,10 @@ html .vocs_Sidebar_item.vocs_Link[data-active="true"]::before {
   flex-direction: column;
 }
 .vocs_NavLogo_title::after {
-  content: "the codex · vol 1";
+  /* Subtitle updates per route — GrimoireTracker (layout.tsx) sets
+   * --codex-vol-label to "vol i" through "vol vii" on tool pages,
+   * "the codex" on the home / front matter / appendix pages. */
+  content: var(--codex-vol-label, "the codex");
   font-family: var(--font-switzer);
   font-size: 0.58rem;
   font-weight: 400;
@@ -466,6 +485,7 @@ html .vocs_Sidebar_item.vocs_Link[data-active="true"]::before {
   color: var(--nier-text-muted);
   margin-top: 0.2rem;
   line-height: 1;
+  transition: opacity var(--duration-fast) var(--spring-snappy);
 }
 .vocs_Sidebar_divider { display: none; }
 
