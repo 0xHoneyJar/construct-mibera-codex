@@ -29,7 +29,11 @@ import { Agentation } from "agentation";
 //   5 MIBERA INITIATION RITUAL     → lookup_zone
 //   6 MIBERAMAKER DESIGN DOC (II)  → list_archetypes, list_zones
 //   7 MIBERAMAKER DESIGN DOC (III) → validate_world_element
-type GrimoireMeta = { position: string; volLabel: string };
+type GrimoireMeta = { position: string; volLabel: string; size?: string };
+
+// Tool pages all share the same bg-size (one book fills the icon).
+// Default state overrides via DEFAULT_META.size below.
+const PER_BOOK_SIZE = "700% auto";
 
 // Percentages tuned to the actual numeral centers in /miberasets-row.jpg
 // (1400×400). Increasing P moves the source-image LEFT relative to the
@@ -48,7 +52,16 @@ const GRIMOIRE_BY_PATH: Record<string, GrimoireMeta> = {
   "/tools/validate_world_element": { position: "95%", volLabel: "vol vii" },
 };
 
-const DEFAULT_META: GrimoireMeta = { position: "50%", volLabel: "the codex" };
+// Default state shows the entire 1400×400 books-row at 100% icon width
+// — a thin horizontal library-shelf strip letterboxed by deep ink top
+// and bottom. Distinct from the per-book "single grimoire fills icon"
+// view, so the operator can tell at a glance whether they're inside a
+// volume or browsing the whole codex.
+const DEFAULT_META: GrimoireMeta = {
+  position: "center",
+  volLabel: "the codex",
+  size: "100% auto",
+};
 
 function GrimoireTracker() {
   const { pathname } = useLocation();
@@ -56,6 +69,7 @@ function GrimoireTracker() {
     const meta = GRIMOIRE_BY_PATH[pathname] ?? DEFAULT_META;
     const root = document.documentElement.style;
     root.setProperty("--codex-grimoire-position", meta.position);
+    root.setProperty("--codex-grimoire-size", meta.size ?? PER_BOOK_SIZE);
     // CSS `content: var(...)` requires the value already be a quoted
     // <string> at the variable level — so we wrap in quotes here.
     root.setProperty("--codex-vol-label", `"${meta.volLabel}"`);

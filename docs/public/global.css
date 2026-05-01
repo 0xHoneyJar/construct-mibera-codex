@@ -410,11 +410,16 @@ html .vocs_Sidebar_section .vocs_Icon[class*="sectionCollapse"] {
 }
 /* Brand-mark icon = a windowed view into the books-row, sliding to
  * reveal which grimoire is being viewed. Layout.tsx tracks the route
- * and sets --codex-grimoire-position on :root. The 1400×400 image at
- * background-size: 700% auto means each book occupies one icon-width;
- * the seven center stops are 0% / 16.67% / 33.33% / 50% / 66.67% /
- * 83.33% / 100%. The slide is sprung gently — feels deliberate, not
- * sudden. */
+ * and sets --codex-grimoire-position + --codex-grimoire-size on :root.
+ *
+ * Tool pages: --codex-grimoire-size is "700% auto" — one book fills
+ * the icon, position-x shifts to the tuned numeral center.
+ *
+ * Default (home / front matter / appendix): --codex-grimoire-size is
+ * "100% auto" — the entire books-row fits horizontally as a thin
+ * letterboxed library-shelf strip, ink fills above + below. Reads as
+ * "you're looking at the whole codex," not "inside one book." The
+ * transition between sizes animates smoothly via --duration-slower. */
 .vocs_Sidebar_logoWrapper a::before {
   content: "";
   display: block;
@@ -422,13 +427,15 @@ html .vocs_Sidebar_section .vocs_Icon[class*="sectionCollapse"] {
   height: 36px;
   flex: 0 0 36px;
   background-image: url("/miberasets-row.jpg");
-  background-size: 700% auto;
+  background-size: var(--codex-grimoire-size, 100% auto);
   background-position-x: var(--codex-grimoire-position, 50%);
   background-position-y: center;
   background-repeat: no-repeat;
   background-color: var(--nier-text-primary);
   border: 1px solid var(--nier-border-dark);
-  transition: background-position-x var(--duration-slower) var(--spring-gentle);
+  transition:
+    background-position-x var(--duration-slower) var(--spring-gentle),
+    background-size       var(--duration-slower) var(--spring-gentle);
 }
 /* "MiCodex" — Imperial wordmark with a small "the codex" subtitle
  * below in tracked Switzer caps. Together they read as a titled
