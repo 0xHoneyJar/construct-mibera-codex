@@ -8,7 +8,7 @@ description: "Harari outfit with khat and scroll art spirals"
 
 # Ethiopian
 
-![Ethiopian](https://assets.0xhoneyjar.xyz/reveal_phase8/images/ethiopian.PNG)
+![Ethiopian](https://assets.0xhoneyjar.xyz/Mibera/grails/ethiopian.png)
 
 > **Grail #7702** · Ancestor · [Browse all Grails →](../browse/grails.md)
 

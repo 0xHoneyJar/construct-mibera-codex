@@ -8,7 +8,7 @@ description: "Persephone as Virgo with pomegranate and Mercury nervous system"
 
 # Virgo
 
-![Virgo](https://assets.0xhoneyjar.xyz/reveal_phase8/images/virgo.png)
+![Virgo](https://assets.0xhoneyjar.xyz/Mibera/grails/virgo.png)
 
 > **Grail #8834** · Zodiac · [Browse all Grails →](../browse/grails.md)
 

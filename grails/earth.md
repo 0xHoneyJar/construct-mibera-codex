@@ -8,7 +8,7 @@ description: "Green life tones with grounded hair and textured figure"
 
 # Earth
 
-![Earth](https://assets.0xhoneyjar.xyz/reveal_phase8/images/earth.PNG)
+![Earth](https://assets.0xhoneyjar.xyz/Mibera/grails/earth.png)
 
 > **Grail #3244** · Element · [Browse all Grails →](../browse/grails.md)
 

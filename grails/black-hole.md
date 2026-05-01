@@ -8,7 +8,7 @@ description: "Mibera drawn within a black hole, evoking uncertainty"
 
 # Black Hole
 
-![Black Hole](https://assets.0xhoneyjar.xyz/reveal_phase8/images/black hole.PNG)
+![Black Hole](https://assets.0xhoneyjar.xyz/Mibera/grails/black-hole.png)
 
 > **Grail #876** · Concept · [Browse all Grails →](../browse/grails.md)
 

@@ -572,11 +572,18 @@
           "id": "sprint-1",
           "global_id": 40,
           "label": "URL Migration",
+          "status": "complete",
+          "tasks": 4
+        },
+        {
+          "id": "sprint-2",
+          "global_id": 41,
+          "label": "Grail Image Fix & Mibera↔Grail Cross-Links",
           "status": "planned",
           "tasks": 4
         }
       ],
-      "sprint_count": 1
+      "sprint_count": 2
     }
   ],
   "active_cycle": "cycle-023",

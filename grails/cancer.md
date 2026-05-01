@@ -8,7 +8,7 @@ description: "Cancer crab hues with Bicycle Day blotter art, moon side"
 
 # Cancer
 
-![Cancer](https://assets.0xhoneyjar.xyz/reveal_phase8/images/cancer.PNG)
+![Cancer](https://assets.0xhoneyjar.xyz/Mibera/grails/cancer.png)
 
 > **Grail #8620** · Zodiac · [Browse all Grails →](../browse/grails.md)
 

@@ -8,7 +8,7 @@ description: "Ukiyo-e style with inro, torii gate, and mibera senjafuda"
 
 # Japanese
 
-![Japanese](https://assets.0xhoneyjar.xyz/reveal_phase8/images/japanese.PNG)
+![Japanese](https://assets.0xhoneyjar.xyz/Mibera/grails/japanese.png)
 
 > **Grail #4363** · Ancestor · [Browse all Grails →](../browse/grails.md)
 

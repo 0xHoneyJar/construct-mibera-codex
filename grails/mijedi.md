@@ -8,7 +8,7 @@ description: "Custom community grail for Miggs — Mibera in all-white hijab wie
 
 # Mijedi
 
-![Mijedi](https://uploader.irys.xyz/A7STcFTGxTeg172mYiTs2gRxsbXQmAsss1zaXSUjqta6)
+![Mijedi](https://assets.0xhoneyjar.xyz/Mibera/grails/mijedi.png)
 
 > **Grail #4701** · Creator Community · [Browse all Grails →](../browse/grails.md)
 

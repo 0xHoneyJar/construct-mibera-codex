@@ -8,7 +8,7 @@ description: "Simplified cave art with morin khuur and throat singing circles"
 
 # Mongolian
 
-![Mongolian](https://assets.0xhoneyjar.xyz/reveal_phase8/images/mongolian.PNG)
+![Mongolian](https://assets.0xhoneyjar.xyz/Mibera/grails/mongolian.png)
 
 > **Grail #507** · Ancestor · [Browse all Grails →](../browse/grails.md)
 

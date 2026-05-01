@@ -8,7 +8,7 @@ description: "Speaker cone necklace with lunar phase crown, inspired by Selene"
 
 # Moon
 
-![Moon](https://assets.0xhoneyjar.xyz/reveal_phase8/images/moon.PNG)
+![Moon](https://assets.0xhoneyjar.xyz/Mibera/grails/moon.png)
 
 > **Grail #309** · Luminary · [Browse all Grails →](../browse/grails.md)
 

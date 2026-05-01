@@ -8,7 +8,7 @@ description: "Inanna as Venus holding lion cub, 221.23 Hz frequency"
 
 # Venus
 
-![Venus](https://assets.0xhoneyjar.xyz/reveal_phase8/images/venus.png)
+![Venus](https://assets.0xhoneyjar.xyz/Mibera/grails/venus.png)
 
 > **Grail #4617** · Planet · [Browse all Grails →](../browse/grails.md)
 

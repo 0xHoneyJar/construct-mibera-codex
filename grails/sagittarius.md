@@ -8,7 +8,7 @@ description: "Inspired by Dali's Sagittarius with Jupiter frequency"
 
 # Sagittarius
 
-![Sagittarius](https://assets.0xhoneyjar.xyz/reveal_phase8/images/sagittarius.PNG)
+![Sagittarius](https://assets.0xhoneyjar.xyz/Mibera/grails/sagittarius.png)
 
 > **Grail #7321** · Zodiac · [Browse all Grails →](../browse/grails.md)
 

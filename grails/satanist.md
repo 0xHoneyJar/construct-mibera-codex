@@ -8,7 +8,7 @@ description: "Leila Waddell inspired with Thoth Lust tarot and occult sigils"
 
 # Satanist
 
-![Satanist](https://assets.0xhoneyjar.xyz/reveal_phase8/images/satanist.PNG)
+![Satanist](https://assets.0xhoneyjar.xyz/Mibera/grails/satanist.png)
 
 > **Grail #8557** · Ancestor · [Browse all Grails →](../browse/grails.md)
 
