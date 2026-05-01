@@ -594,13 +594,16 @@ main :not(pre) > code,
   font-size: 0.92em;
 }
 
-/* Code blocks: panel-dark canvas */
+/* Code blocks: light panel + MiDi hairline. The deep ink border read
+ * as too heavy against parchment; the lighter panel + rule-medium
+ * (20% ink hairline) keeps the block contained without dominating. */
 main pre,
 [class*="vocs_Content"] pre,
 [class*="vocs_CodeBlock"] {
-  background: var(--nier-bg-panel-dark) !important;
-  border: 1px solid var(--nier-border-medium);
+  background: var(--nier-bg-panel) !important;
+  border: 1px solid var(--nier-rule-medium) !important;
   border-radius: 0;
+  padding: 1.1rem 1.25rem !important;
 }
 
 /* ---------- Grimoire shelf — one book + its tools ------------------ *
