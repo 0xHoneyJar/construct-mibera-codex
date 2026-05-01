@@ -2,66 +2,98 @@
 
 **Cycle:** 023
 **Created:** 2026-04-29
-**Sprints:** 1
-**Estimated effort:** Medium (1 script + mechanical rewrite across ~50K refs)
+**Sprints:** 2
+**Estimated effort:** Medium (1 script + mechanical rewrite across ~50K refs + grail image fix)
 
 ---
 
-## Sprint 1: URL Migration
+## Sprint 1: URL Migration (COMPLETE)
 
-**Goal:** Rewrite all image URLs in the codex from legacy hosts to `assets.0xhoneyjar.xyz`. Verify byte-parity before and after.
-
-### T-1.1: Verify CDN coverage per host pattern
-
-**Description:** Spot-check each host pattern against `assets.0xhoneyjar.xyz` to confirm which patterns are flippable. Census found 3 host patterns; CDN testing confirmed 2 of 3 are served.
-
-**Results:**
-- `thj-assets.s3.us-west-2.amazonaws.com` → CDN: **200** (~40K refs, flippable)
-- `gateway.irys.xyz` → CDN via `reveal_phase8/images/`: **200** (~10K refs, flippable)
-- `mibera.s3.amazonaws.com` → CDN: **403** (different bucket, **excluded** — 2.6K refs stay as-is)
-
-**Acceptance criteria:**
-- [x] All 3 patterns tested via HTTP HEAD
-- [x] 2 confirmed patterns proceed to migration
-- [x] `mibera.s3.amazonaws.com` excluded, logged for future cycle
+**Status:** Complete. PR #55 merged (140K refs), PR #58 open (2.6K mibera.s3 refs).
 
 ---
 
-### T-1.2: Write migration script
+## Sprint 2: Grail Image Fix & Mibera↔Grail Cross-Links
 
-**Description:** Write `_codex/scripts/migrate-cdn-urls.py` (stdlib-only Python) that:
-1. Walks all `.md`, `.json`, `.jsonl`, `.py` files (excluding `.claude/`, `.git/`)
-2. Applies rewrite rules per SDD
-3. Supports `--dry-run` (print stats, don't write)
-4. Supports `--verify N` (spot-check N random URLs via HTTP HEAD, compare status + content-length between old and new)
+**Goal:** Fix all 43 broken grail images and add bidirectional grail↔mibera references.
+
+### Problem
+
+The CDN migration (PR #55) rewrote grail image URLs from `gateway.irys.xyz` to `assets.0xhoneyjar.xyz/reveal_phase8/images/{name}.png`. But grail images use **named files** (e.g., `satoshi.png`, `scorpio.PNG`) while regular miberas use **hash-named files**. The named files were never synced to S3 — they only exist on Irys. All 43 grail images now return 403.
+
+Additionally, mibera files for grail tokens (e.g., #4488) have no reference to their grail status. The relationship is unidirectional: grail→mibera via the `id` field. There's no way to know a mibera is a grail by reading its .md file.
+
+### T-2.1: Download grail images from Irys and upload to S3
+
+**Description:** The 43 grail images exist on Irys at `gateway.irys.xyz/7rpvwFYcB5t7S1HziaBAr4RgfAFpqCwCYbFUbkFqpbAq/{name}.{ext}`. Download them and request soju/zerker upload to `thj-assets` at a path the CDN serves (e.g., `Mibera/grails/{name}.{ext}` or `reveal_phase8/images/{name}.{ext}`).
 
 **Acceptance criteria:**
-- Script runs with `--dry-run` and reports expected counts matching census (~40K S3-direct, ~10K Irys)
-- `--verify 10` passes for each pattern (10 URLs per pattern, all return HTTP 200 with matching content-length)
-- Script handles URL-encoded paths (e.g. `%20` in trait filenames)
+- All 43 grail images downloaded from Irys
+- All 43 images uploaded to S3 and confirmed 200 via CDN
+- Grail .md files updated with correct CDN URLs
+- Images render on GitHub
 
 ---
 
-### T-1.3: Execute migration
+### T-2.2: Add `grail` field to mibera frontmatter
 
-**Description:** Run the script for real on a feature branch. Commit the result.
+**Description:** For all 43 grail-linked miberas, add a `grail` field to YAML frontmatter and a grail row in the traits table. Write `_codex/scripts/add-grail-backlinks.py` following the same pattern as `add-parcel-backlinks.py`.
+
+43 miberas to patch:
+
+| Grail | Mibera ID | Grail | Mibera ID |
+|-------|-----------|-------|-----------|
+| Air | #2769 | Earth | #3244 |
+| Fire | #6458 | Water | #6761 |
+| Moon | #309 | Sun | #3116 |
+| Black Hole | #876 | Past | #4221 |
+| Future | #4734 | Aries | #4803 |
+| Taurus | #2113 | Gemini | #7218 |
+| Cancer | #8620 | Leo | #9639 |
+| Virgo | #8834 | Libra | #895 |
+| Scorpio | #235 | Sagittarius | #7321 |
+| Capricorn | #8971 | Aquarius | #6805 |
+| Pisces | #6409 | Mercury | #9112 |
+| Venus | #4617 | Mars | #2566 |
+| Jupiter | #3201 | Saturn | #7388 |
+| Neptune | #2256 | Pluto | #1606 |
+| Buddhist | #9503 | Chinese | #392 |
+| Ethiopian | #7702 | Greek | #1630 |
+| Hindu | #8277 | Japanese | #4363 |
+| Mayan | #3970 | Mongolian | #507 |
+| Native American | #3282 | Rastafarian | #1134 |
+| Satanist | #8557 | Gaia | #3222 |
+| Uranus | #7916 | Satoshi as Hermes | #4488 |
+| Mijedi | #4701 | | |
 
 **Acceptance criteria:**
-- All confirmed patterns rewritten
-- `git diff --stat` shows expected file count
-- No files outside codex content modified (no `.claude/` changes)
-- Commit message references issue #54
+- `grail` field added to frontmatter of all 43 mibera files (e.g., `grail: "Satoshi as Hermes"`)
+- Grail row added to traits table: `| Grail | [Satoshi as Hermes](../grails/satoshi-as-hermes.md) |`
+- Mibera primary image updated to show grail art instead of standard render (for grail miberas, the grail IS the art)
+- Script is idempotent (skip if `grail:` already present)
 
 ---
 
-### T-1.4: Post-migration audit
+### T-2.3: Update mibera schema and exports
 
-**Description:** Validate the rewrite didn't break anything.
+**Description:** Add optional `grail` field to `_codex/schema/mibera.schema.json`. Add `image` field to `_codex/data/grails.jsonl`. Regenerate exports.
 
 **Acceptance criteria:**
-- `_codex/scripts/audit-links.sh` passes (internal markdown links still valid)
-- Spot-check 5 files visually: mibera, miparcel, trait, grail, special-collection — images render at new URLs
-- Zero remaining refs to old hosts (grep confirms 0 matches for each migrated pattern)
-- PR opened, referencing issue #54
+- `mibera.schema.json` includes optional `grail` field (string)
+- `grails.jsonl` entries include `image` field with working CDN URL
+- `miberas.jsonl` regenerated to include `grail` field (and `parcel` field while we're at it)
+
+---
+
+### T-2.4: Audit and PR
+
+**Description:** Verify everything renders, open PR.
+
+**Acceptance criteria:**
+- All 43 grail images render at their CDN URLs (HTTP 200)
+- All 43 mibera files have grail backlinks
+- `_codex/scripts/audit-links.sh` passes
+- No broken image references across grails/ or miberas/
+- PR opened referencing this sprint
 
 ---

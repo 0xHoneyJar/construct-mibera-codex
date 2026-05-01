@@ -8,7 +8,7 @@ description: "The sky, soundwaves"
 
 # Uranus
 
-![Uranus](https://assets.0xhoneyjar.xyz/reveal_phase8/images/uranus.png)
+![Uranus](https://assets.0xhoneyjar.xyz/Mibera/grails/uranus.png)
 
 > **Grail #7916** · Primordial · [Browse all Grails →](../browse/grails.md)
 

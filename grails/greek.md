@@ -8,7 +8,7 @@ description: "Greek amphora aesthetics with Bacchus and Apollo"
 
 # Greek
 
-![Greek](https://assets.0xhoneyjar.xyz/reveal_phase8/images/greek.PNG)
+![Greek](https://assets.0xhoneyjar.xyz/Mibera/grails/greek.png)
 
 > **Grail #1630** · Ancestor · [Browse all Grails →](../browse/grails.md)
 

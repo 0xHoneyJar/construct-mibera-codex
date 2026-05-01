@@ -8,7 +8,7 @@ description: "Lion skull with heart in hand — Leo rules the heart"
 
 # Leo
 
-![Leo](https://assets.0xhoneyjar.xyz/reveal_phase8/images/leo.PNG)
+![Leo](https://assets.0xhoneyjar.xyz/Mibera/grails/leo.png)
 
 > **Grail #9639** · Zodiac · [Browse all Grails →](../browse/grails.md)
 

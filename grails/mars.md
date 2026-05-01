@@ -8,7 +8,7 @@ description: "Tyr as Mars with 144.72 Hz frequency, reds and oranges"
 
 # Mars
 
-![Mars](https://assets.0xhoneyjar.xyz/reveal_phase8/images/mars.png)
+![Mars](https://assets.0xhoneyjar.xyz/Mibera/grails/mars.png)
 
 > **Grail #2566** · Planet · [Browse all Grails →](../browse/grails.md)
 
