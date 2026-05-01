@@ -43,6 +43,17 @@
   --nier-border-dark:    oklch(0.272 0.009 67.4);
   --nier-border-medium:  oklch(0.397 0.009 67.6);
   --nier-border-light:   oklch(0.518 0.016 53.1);
+
+  /* MiDi rule tokens — ink at low opacity, the way mibera-dimensions
+   * draws hairlines. Three registers:
+   *   - subtle (6%):  whisper, between-rows in lists, logo divider
+   *   - soft   (10%): structural separation that stacks (shelves, frames)
+   *   - medium (20%): the MiDi canonical — `border-nier-text/20` per
+   *                   mibera-dimensions/grimoires/taste.md. Use for any
+   *                   rule a reader expects to register as a line. */
+  --nier-rule-subtle:    color-mix(in oklch, var(--nier-text-primary) 6%, transparent);
+  --nier-rule-soft:      color-mix(in oklch, var(--nier-text-primary) 10%, transparent);
+  --nier-rule-medium:    color-mix(in oklch, var(--nier-text-primary) 20%, transparent);
   --nier-accent:         oklch(0.203 0.01  67.2);
   --nier-header-bg:      oklch(0.203 0.01  67.2);
   --nier-header-text:    oklch(0.838 0.026 75.2);
@@ -139,29 +150,32 @@ body::before {
   content: "";
   position: fixed;
   inset: auto 0 0 0;
-  height: 42vh;
-  min-height: 280px;
-  max-height: 480px;
+  height: 38vh;
+  min-height: 240px;
+  max-height: 380px;
   z-index: 0;
   pointer-events: none;
   background-image: url("/miberasets-row.jpg");
   background-position: center bottom;
   background-size: cover;
   background-repeat: no-repeat;
-  opacity: 0.22;
-  filter: saturate(0.65) brightness(0.96) sepia(0.18);
+  /* Operator feedback: too transparent — bumped opacity so the
+   * grimoire spines read through the parchment. Saturation stays
+   * dialed-down so they warm into the page, not fight it. */
+  opacity: 0.32;
+  filter: saturate(0.7) brightness(0.96) sepia(0.14);
   mask-image: linear-gradient(
     to bottom,
     transparent 0%,
-    rgba(0, 0, 0, 0.6) 35%,
-    rgba(0, 0, 0, 0.95) 75%,
+    rgba(0, 0, 0, 0.85) 28%,
+    rgba(0, 0, 0, 1) 60%,
     rgba(0, 0, 0, 1) 100%
   );
   -webkit-mask-image: linear-gradient(
     to bottom,
     transparent 0%,
-    rgba(0, 0, 0, 0.6) 35%,
-    rgba(0, 0, 0, 0.95) 75%,
+    rgba(0, 0, 0, 0.85) 28%,
+    rgba(0, 0, 0, 1) 60%,
     rgba(0, 0, 0, 1) 100%
   );
 }
@@ -237,27 +251,243 @@ a:hover, .vocs_Link:hover {
   letter-spacing: -0.005em;
 }
 
-/* ---------- Sidebar -------------------------------------------------- */
+/* ---------- Sidebar -------------------------------------------------- *
+ * No hard right rule — that 1px border read as a shadow. The page
+ * separates from the chrome via the wallpaper gradient + spacing alone.
+ * ===================================================================== */
 
 [class*="vocs_Sidebar"] {
   background: var(--nier-bg-primary);
-  border-right: 1px solid var(--nier-border-medium);
+  border-right: none;
+  box-shadow: none;
 }
 
-[class*="vocs_Sidebar"] [class*="section"],
-[class*="vocs_Sidebar"] [class*="title"] {
-  font-family: var(--font-imperial);
-  font-size: 0.95rem;
-  letter-spacing: 0.01em;
-  color: var(--nier-text-secondary);
+/* Section titles: Imperial uppercase, tracked, small. Reads as a label,
+ * not a heading. Provides hierarchy without competing for attention. */
+.vocs_Sidebar_sectionTitle {
+  font-family: var(--font-imperial) !important;
+  font-size: 0.72rem !important;
+  font-weight: 400 !important;
+  letter-spacing: 0.10em !important;
+  text-transform: uppercase;
+  color: var(--nier-text-muted) !important;
+  padding: 0.75rem 0 0.35rem 0 !important;
 }
 
-[class*="vocs_Sidebar"] a {
-  color: var(--nier-text-secondary);
-  border-bottom: none;
+/* Search button — vocs renders it with class .vocs_DesktopSearch_search
+ * (the button itself, NOT _searchButton). Mibera register: parchment
+ * panel, ink text, soft rule, sharp corners. */
+.vocs_DesktopSearch_search,
+.vocs_MobileSearch_searchButton,
+[class*="vocs_DesktopSearch_search"]:not([class*="vocs_DesktopSearch_searchCommand"]),
+button[class*="searchButton"] {
+  background: var(--nier-bg-panel) !important;
+  color: var(--nier-text-secondary) !important;
+  border: 1px solid var(--nier-rule-soft) !important;
+  border-radius: 0 !important;
+  font-family: var(--font-switzer) !important;
+  box-shadow: none !important;
+  transition: border-color var(--duration-fast) var(--spring-snappy),
+              color var(--duration-fast) var(--spring-snappy);
 }
-[class*="vocs_Sidebar"] a:hover {
-  color: var(--nier-text-primary);
+.vocs_DesktopSearch_search:hover,
+.vocs_MobileSearch_searchButton:hover {
+  border-color: var(--nier-rule-medium) !important;
+  color: var(--nier-text-primary) !important;
+  background: var(--nier-bg-panel) !important;
+}
+.vocs_DesktopSearch_searchCommand,
+[class*="vocs_DesktopSearch"] kbd {
+  background: var(--nier-bg-panel-dark) !important;
+  color: var(--nier-text-muted) !important;
+  border: 1px solid var(--nier-rule-subtle) !important;
+  border-radius: 0 !important;
+  font-family: var(--font-switzer) !important;
+}
+
+/* Group spacing: each section breathes from the next. Suppress vocs's
+ * default 1px between-section border — the typographic hierarchy +
+ * generous padding does the work. */
+.vocs_Sidebar_navigation > .vocs_Sidebar_group > .vocs_Sidebar_section + .vocs_Sidebar_section {
+  border-top: none !important;
+  margin-top: 0.25rem;
+}
+
+/* Tighter sidebar — operator wants less padding around the chrome. */
+.vocs_Sidebar_navigation {
+  padding: 0.25rem 0 0.75rem 0 !important;
+}
+.vocs_Sidebar_items {
+  padding: 0 !important;
+}
+.vocs_Sidebar {
+  padding: 0 !important;
+}
+
+/* Items: switzer body, full ink, tight rhythm. Hover gets a subtle
+ * underline; active gets an ink notch on the left edge — matches the
+ * outline's active treatment so the two rails read as peers. */
+.vocs_Sidebar_item.vocs_Link {
+  font-family: var(--font-switzer) !important;
+  font-size: 0.88rem !important;
+  font-weight: 400 !important;
+  color: var(--nier-text-primary) !important;
+  border-bottom: none !important;
+  padding: 0.22rem 0 !important;
+  position: relative;
+  transition: color var(--duration-fast) var(--spring-snappy),
+              padding-left var(--duration-fast) var(--spring-snappy);
+}
+.vocs_Sidebar_item.vocs_Link:hover {
+  color: var(--nier-text-primary) !important;
+  background: transparent !important;
+  padding-left: 0.35rem !important;
+}
+.vocs_Sidebar_item.vocs_Link[data-active="true"] {
+  font-weight: 500 !important;
+  color: var(--nier-text-primary) !important;
+}
+.vocs_Sidebar_item.vocs_Link[data-active="true"]::before {
+  content: "";
+  position: absolute;
+  left: -0.875rem;
+  top: 0.35rem;
+  bottom: 0.35rem;
+  width: 2px;
+  background: var(--nier-text-primary);
+}
+
+/* Nested level (Mibera Maker · Vol II expanded with two list tools).
+ * Soften the inset rule + indent; smaller type for the sub-items. */
+.vocs_Sidebar_levelInset {
+  border-left: 1px solid var(--nier-rule-soft) !important;
+  margin-top: 0.15rem !important;
+  padding-left: 0.75rem !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+.vocs_Sidebar_levelInset .vocs_Sidebar_item.vocs_Link {
+  font-size: 0.82rem !important;
+  color: var(--nier-text-secondary) !important;
+}
+.vocs_Sidebar_levelInset .vocs_Sidebar_item.vocs_Link[data-active="true"] {
+  color: var(--nier-text-primary) !important;
+}
+
+/* Brand-mark slot in the sidebar header.
+ * Vocs's NavLogo is either-or (image OR title), so we don't set logoUrl
+ * and inject the favicon as a ::before pseudo-element on the link. The
+ * vocs default already gives the link `display:flex; align-items:center`
+ * inline; we add gap and the icon. */
+.vocs_Sidebar_logoWrapper {
+  padding: 0.875rem 0.875rem 1rem 1rem;
+  background-color: transparent !important;
+  border-bottom: 1px solid var(--nier-rule-subtle);
+}
+.vocs_Sidebar_logoWrapper a {
+  gap: 0.625rem !important;
+  text-decoration: none;
+}
+/* Brand-mark icon = a windowed view into the books-row, sliding to
+ * reveal which grimoire is being viewed. Layout.tsx tracks the route
+ * and sets --codex-grimoire-position on :root. The 1400×400 image at
+ * background-size: 700% auto means each book occupies one icon-width;
+ * the seven center stops are 0% / 16.67% / 33.33% / 50% / 66.67% /
+ * 83.33% / 100%. The slide is sprung gently — feels deliberate, not
+ * sudden. */
+.vocs_Sidebar_logoWrapper a::before {
+  content: "";
+  display: block;
+  width: 36px;
+  height: 36px;
+  flex: 0 0 36px;
+  background-image: url("/miberasets-row.jpg");
+  background-size: 700% auto;
+  background-position-x: var(--codex-grimoire-position, 50%);
+  background-position-y: center;
+  background-repeat: no-repeat;
+  background-color: var(--nier-text-primary);
+  border: 1px solid var(--nier-border-dark);
+  transition: background-position-x var(--duration-slower) var(--spring-gentle);
+}
+/* "MICODEX" — all-caps brand mark in Imperial, slightly opened
+ * tracking (caps want a touch more air than lowercase). */
+.vocs_NavLogo_title {
+  font-family: var(--font-imperial) !important;
+  font-size: 1.125rem !important;
+  font-weight: 400 !important;
+  letter-spacing: 0.04em !important;
+  color: var(--nier-text-primary) !important;
+  line-height: 1.1 !important;
+  text-transform: none !important;
+}
+.vocs_Sidebar_divider { display: none; }
+
+/* ---------- Outline (right rail) — dialed up ------------------------ *
+ * Operator wants this MUCH more visible. Bigger type, full ink (not
+ * muted), Imperial heading, hairline-rule active state, ink-bottom
+ * rail on the column. The right rail becomes a peer to the sidebar,
+ * not an afterthought.
+ * ===================================================================== */
+
+.vocs_DocsLayout_gutterRight {
+  /* let it breathe — slightly wider column for the bigger type */
+  --vocs-content-width-outline_local: 16rem;
+}
+
+.vocs_Outline_heading {
+  font-family: var(--font-imperial) !important;
+  font-size: 0.95rem !important;
+  font-weight: 400 !important;
+  letter-spacing: 0.04em !important;
+  text-transform: uppercase;
+  color: var(--nier-text-primary) !important;
+  padding-bottom: 0.5rem;
+  margin-bottom: 0.25rem;
+  border-bottom: 1px solid var(--nier-rule-medium);
+}
+
+.vocs_Outline_nav,
+.vocs_DocsLayout_gutterRight .vocs_Outline_nav {
+  /* MiDi text/20 rule on the column edge — peer to sidebar, not muted */
+  border-left: 1px solid var(--nier-rule-medium) !important;
+  padding-left: 1rem !important;
+}
+
+.vocs_Outline_item {
+  margin-bottom: 0.625rem !important;
+  line-height: 1.4 !important;
+}
+
+.vocs_Outline_link {
+  color: var(--nier-text-primary) !important;
+  font-family: var(--font-switzer);
+  font-size: 0.9rem !important;
+  font-weight: 400 !important;
+  text-decoration: none !important;
+  border-bottom: 1px solid transparent;
+  transition: color var(--duration-fast) var(--spring-snappy),
+              border-bottom-color var(--duration-fast) var(--spring-snappy);
+}
+.vocs_Outline_link:hover {
+  color: var(--nier-text-primary) !important;
+  border-bottom-color: var(--nier-border-medium);
+}
+
+.vocs_Outline_link[data-active="true"] {
+  color: var(--nier-text-primary) !important;
+  font-weight: 500 !important;
+  /* active item gets an ink notch on the left edge */
+  position: relative;
+}
+.vocs_Outline_link[data-active="true"]::before {
+  content: "";
+  position: absolute;
+  left: -1rem;
+  top: 0.15em;
+  bottom: 0.15em;
+  width: 2px;
+  background: var(--nier-text-primary);
 }
 
 /* ---------- MDX content rhythm -------------------------------------- *
@@ -275,7 +505,7 @@ main p, [class*="vocs_Content"] p {
 
 main h2, [class*="vocs_Content"] h2 {
   margin-top: 3rem;
-  border-top: 1px solid var(--nier-border-medium);
+  border-top: 1px solid var(--nier-rule-medium);
   padding-top: 2rem;
 }
 
@@ -290,29 +520,29 @@ main blockquote, [class*="vocs_Content"] blockquote {
   font-style: italic;
 }
 
-/* Tables: parchment with ink rules */
+/* Tables: parchment with MiDi-canonical hairlines (text/20) */
 main table, [class*="vocs_Content"] table {
   border-collapse: collapse;
-  border: 1px solid var(--nier-border-medium);
+  border: 1px solid var(--nier-rule-medium);
 }
 main th, [class*="vocs_Content"] th {
   background: var(--nier-bg-panel);
-  border-bottom: 1px solid var(--nier-border-dark);
+  border-bottom: 1px solid var(--nier-text-primary);
   font-family: var(--font-imperial);
   font-weight: 400;
   text-align: left;
 }
 main td, main th,
 [class*="vocs_Content"] td, [class*="vocs_Content"] th {
-  border: 1px solid var(--nier-border-medium);
+  border: 1px solid var(--nier-rule-medium);
   padding: 0.55rem 0.85rem;
 }
 
-/* Inline code: a faint panel, ink-tinted border */
+/* Inline code: a faint panel, MiDi hairline */
 main :not(pre) > code,
 [class*="vocs_Content"] :not(pre) > code {
   background: var(--nier-bg-panel);
-  border: 1px solid var(--nier-border-medium);
+  border: 1px solid var(--nier-rule-medium);
   padding: 0.08rem 0.35rem;
   border-radius: 0;
   font-size: 0.92em;
@@ -327,34 +557,36 @@ main pre,
   border-radius: 0;
 }
 
-/* ---------- Grimoire shelf component (used in MDX) ------------------ */
+/* ---------- Grimoire shelf — one book + its tools ------------------ *
+ * Each section renders a single book on the left + the tools that fall
+ * under it on the right as a list. Seven books, eight tools (vol II
+ * holds both lists). No keystone variant — every tool has a book.
+ * ===================================================================== */
 
 .grimoire-shelf {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(7.5rem, 1fr));
-  gap: 1.25rem;
+  grid-template-columns: 9rem 1fr;
+  gap: 1.25rem 2rem;
+  align-items: start;
   margin: 2.5rem 0;
-  padding: 0;
-  list-style: none;
+  padding: 1.5rem 0;
+  border-top: 1px solid var(--nier-rule-subtle);
+}
+.grimoire-shelf:last-of-type {
+  border-bottom: 1px solid var(--nier-rule-subtle);
+}
+
+@media (max-width: 720px) {
+  .grimoire-shelf {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
 }
 
 .grimoire-shelf__book {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  text-align: center;
-  text-decoration: none;
-  color: var(--nier-text-primary);
-  border: none;
-  padding: 0.5rem;
-  transition:
-    transform var(--duration-normal) var(--spring-gentle),
-    filter var(--duration-normal) var(--spring-snappy);
-}
-.grimoire-shelf__book:hover {
-  transform: translateY(-4px) rotate(-0.4deg);
-  filter: drop-shadow(0 8px 14px oklch(0.203 0.01 67.2 / 0.18));
-  border-bottom: none;
+  text-align: left;
 }
 
 .grimoire-shelf__cover {
@@ -363,25 +595,77 @@ main pre,
   aspect-ratio: 3 / 4;
   object-fit: cover;
   display: block;
-  border: 1px solid var(--nier-border-medium);
+  border: 1px solid var(--nier-rule-soft);
+  transition:
+    transform var(--duration-normal) var(--spring-gentle),
+    filter var(--duration-normal) var(--spring-snappy);
+}
+.grimoire-shelf:hover .grimoire-shelf__cover {
+  transform: translateY(-2px);
+  filter: drop-shadow(0 6px 12px oklch(0.203 0.01 67.2 / 0.14));
 }
 
-.grimoire-shelf__label {
-  margin-top: 0.65rem;
+.grimoire-shelf__book-title {
+  margin-top: 0.7rem;
   font-family: var(--font-imperial);
-  font-size: 0.95rem;
-  letter-spacing: 0.005em;
+  font-size: 0.78rem;
+  font-weight: 400;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
   color: var(--nier-text-primary);
-  line-height: 1.25;
+  line-height: 1.3;
 }
 
-.grimoire-shelf__hint {
-  margin-top: 0.15rem;
+.grimoire-shelf__book-hint {
+  margin-top: 0.2rem;
   font-family: var(--font-switzer);
   font-size: 0.78rem;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
+  letter-spacing: 0.02em;
   color: var(--nier-text-muted);
+  line-height: 1.4;
+}
+
+.grimoire-shelf__tools {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.grimoire-shelf__tool {
+  display: flex;
+  flex-direction: column;
+  padding: 0.85rem 0;
+  border-bottom: 1px solid var(--nier-rule-subtle);
+  text-decoration: none !important;
+  color: var(--nier-text-primary) !important;
+  transition: padding-left var(--duration-fast) var(--spring-snappy),
+              color var(--duration-fast) var(--spring-snappy);
+}
+.grimoire-shelf__tools li:last-child .grimoire-shelf__tool {
+  border-bottom: none;
+}
+.grimoire-shelf__tool:hover {
+  padding-left: 0.5rem;
+  color: var(--nier-text-primary) !important;
+  border-bottom-color: var(--nier-rule-soft);
+}
+
+.grimoire-shelf__tool-name {
+  font-family: var(--font-switzer);
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--nier-text-primary);
+  letter-spacing: -0.005em;
+}
+
+.grimoire-shelf__tool-hint {
+  margin-top: 0.2rem;
+  font-family: var(--font-switzer);
+  font-size: 0.85rem;
+  color: var(--nier-text-muted);
+  line-height: 1.4;
 }
 
 /* ---------- Tool card component (per-tool page header) -------------- */
@@ -393,7 +677,7 @@ main pre,
   align-items: start;
   margin: 1.5rem 0 2.5rem;
   padding-bottom: 2rem;
-  border-bottom: 1px solid var(--nier-border-medium);
+  border-bottom: 1px solid var(--nier-rule-medium);
 }
 @media (max-width: 640px) {
   .tool-card {
@@ -407,7 +691,7 @@ main pre,
   aspect-ratio: 3 / 4;
   object-fit: cover;
   display: block;
-  border: 1px solid var(--nier-border-medium);
+  border: 1px solid var(--nier-rule-medium);
 }
 
 .tool-card__body {
