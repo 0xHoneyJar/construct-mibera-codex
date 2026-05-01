@@ -264,11 +264,16 @@ a:hover, .vocs_Link:hover {
 
 /* Sidebar links don't use the global hover underline — the brand mark,
  * sidebar items, and footer socials each have their own affordances
- * (icon slide, padding shift, ribbon notch). The default a:hover
- * border-bottom would double up. */
+ * (icon slide, padding shift, ribbon notch). Defense-in-depth: kill
+ * border-bottom AND text-decoration on every link inside the sidebar
+ * AND the Socials button (which lives in the footer with class
+ * .vocs_Socials_button — NOT a vocs_Sidebar_* class itself). */
+[class*="vocs_Sidebar"] a,
 [class*="vocs_Sidebar"] a:hover,
-[class*="vocs_Sidebar"] a.vocs_Link:hover {
-  border-bottom-color: transparent !important;
+.vocs_Socials_button,
+.vocs_Socials_button:hover {
+  border-bottom: none !important;
+  text-decoration: none !important;
 }
 
 /* Left gutter holds the sidebar but is wider than it on desktop —

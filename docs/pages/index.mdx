@@ -16,65 +16,65 @@ eight tools over one [mcp 2025-06-18](https://modelcontextprotocol.io/specificat
 <GrimoireShelf
   book={{ n: 1, title: "Introducing Mibera", hint: "ten thousand time-travellers. one full trait set per lookup." }}
   tools={[
-    { name: "lookup_mibera", hint: "one of ten thousand · full canonical trait set", href: "/tools/lookup_mibera" },
+    { name: "lookup_mibera", hint: "look up one of the ten thousand by id", href: "/tools/lookup_mibera" },
   ]}
 />
 
 <GrimoireShelf
   book={{ n: 2, title: "Clearpill vs Ravepill", hint: "four rave tribes. era, locations, figures, fashion." }}
   tools={[
-    { name: "lookup_archetype", hint: "one of four tribes · era, locations, figures, fashion", href: "/tools/lookup_archetype" },
+    { name: "lookup_archetype", hint: "look up a tribe by name", href: "/tools/lookup_archetype" },
   ]}
 />
 
 <GrimoireShelf
   book={{ n: 3, title: "Mibera Maker — Vol I", hint: "the 1/1 grails. designed by hand, named in canon." }}
   tools={[
-    { name: "lookup_grail", hint: "1/1 grail by id, slug, or name", href: "/tools/lookup_grail" },
+    { name: "lookup_grail", hint: "look up a grail by id, slug, or name", href: "/tools/lookup_grail" },
   ]}
 />
 
 <GrimoireShelf
   book={{ n: 4, title: "Network Mysticism", hint: "score-mibera factors ↔ codex lore. signals as scripture." }}
   tools={[
-    { name: "lookup_factor", hint: "score-mibera factor id ↔ codex lore", href: "/tools/lookup_factor" },
+    { name: "lookup_factor", hint: "trace a score-mibera factor back to its lore", href: "/tools/lookup_factor" },
   ]}
 />
 
 <GrimoireShelf
   book={{ n: 5, title: "Mibera Initiation Ritual", hint: "five festival zones. lynch primitives + KANSEI tokens for agent narration." }}
   tools={[
-    { name: "lookup_zone", hint: "stonehenge · bear-cave · el-dorado · owsley-lab · the-warehouse", href: "/tools/lookup_zone" },
+    { name: "lookup_zone", hint: "look up a zone — stonehenge, bear-cave, el-dorado, owsley-lab, the-warehouse", href: "/tools/lookup_zone" },
   ]}
 />
 
 <GrimoireShelf
-  book={{ n: 6, title: "Mibera Maker — Vol II", hint: "every archetype. every zone. the discovery surface agents call when grounding." }}
+  book={{ n: 6, title: "Mibera Maker — Vol II", hint: "every archetype. every zone. the index agents call when grounding." }}
   tools={[
-    { name: "list_archetypes", hint: "the four tribes — discovery surface", href: "/tools/list_archetypes" },
-    { name: "list_zones",      hint: "every canonical zone — discovery surface", href: "/tools/list_zones" },
+    { name: "list_archetypes", hint: "list every tribe", href: "/tools/list_archetypes" },
+    { name: "list_zones",      hint: "list every zone", href: "/tools/list_zones" },
   ]}
 />
 
 <GrimoireShelf
-  book={{ n: 7, title: "Mibera Maker — Vol III", hint: "validate any element. fuzzy-match. coverage gaps logged for the curators." }}
+  book={{ n: 7, title: "Mibera Maker — Vol III", hint: "is this canonical? fuzzy-match if not. coverage gaps logged." }}
   tools={[
-    { name: "validate_world_element", hint: "canonical check, fuzzy match, coverage-gap log", href: "/tools/validate_world_element" },
+    { name: "validate_world_element", hint: "check a value against canon — fuzzy match + log if missing", href: "/tools/validate_world_element" },
   ]}
 />
 
 ## the eight
 
-```
-lookup_zone(slug)            → zone entry, lynch primitives, KANSEI tokens
-lookup_archetype(name)       → era, locations, figures, fashion
-lookup_factor(factor_id)     → score-mibera ↔ codex lore
-lookup_grail(query)          → 1/1 grail by id, slug, or name
-lookup_mibera(id)            → full canonical trait set (1–10000)
-list_zones()                 → every canonical zone
-list_archetypes()            → the four
-validate_world_element(t,v)  → fuzzy match + coverage-gap log
-```
+| call | returns |
+| --- | --- |
+| `lookup_mibera(id)` | full trait set for one of the ten thousand |
+| `lookup_archetype(name)` | era, locations, figures, fashion for one tribe |
+| `lookup_grail(query)` | a 1/1 grail by id, slug, or name |
+| `lookup_factor(factor_id)` | score-mibera factor ↔ codex lore |
+| `lookup_zone(slug)` | zone entry, lynch primitives, KANSEI tokens |
+| `list_archetypes()` | the four tribes |
+| `list_zones()` | every canonical zone |
+| `validate_world_element(t, v)` | canonical check, fuzzy match, coverage-gap log |
 
 ## who reads this
 
