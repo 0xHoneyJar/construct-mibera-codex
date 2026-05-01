@@ -262,37 +262,20 @@ a:hover, .vocs_Link:hover {
   box-shadow: none;
 }
 
-/* Section titles read as chapter-page headers in three beats:
- *   ❦              (fleuron, centered)
- *   IMPERIAL TITLE (centered uppercase, tracked)
- *   ──────         (closing hairline rule under the title)
- *
- * The `html` prefix bumps specificity to (0,0,1,1) so we beat vocs's
- * layered @layer base rule even under cascade-layer reversal. The
- * fleuron ornament is the unmistakable grimoire mark — small, but
- * unique enough that it cannot be confused with chrome. */
+/* Section titles: Imperial uppercase, tracked, with a closing hairline
+ * rule underneath. No ornament — the type weight + tracking + rule do
+ * the chapter-break work. The `html` prefix bumps specificity to
+ * (0,0,1,1) so we beat vocs's layered @layer base rule. */
 html .vocs_Sidebar_sectionTitle {
   font-family: var(--font-imperial) !important;
   font-size: 0.85rem !important;
   font-weight: 400 !important;
   letter-spacing: 0.18em !important;
   text-transform: uppercase !important;
-  text-align: center !important;
   color: var(--nier-text-primary) !important;
   padding: 1.5rem 0 0.65rem 0 !important;
   margin-bottom: 0.5rem !important;
   border-bottom: 1px solid var(--nier-rule-medium) !important;
-  position: relative;
-}
-html .vocs_Sidebar_sectionTitle::before {
-  content: "❦";
-  display: block;
-  font-family: var(--font-imperial);
-  font-size: 1.05rem;
-  letter-spacing: 0;
-  color: var(--nier-text-muted);
-  margin-bottom: 0.5rem;
-  line-height: 1;
 }
 
 /* Search button — vocs renders it with class .vocs_DesktopSearch_search
