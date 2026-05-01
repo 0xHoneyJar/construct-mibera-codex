@@ -52,15 +52,14 @@ const GRIMOIRE_BY_PATH: Record<string, GrimoireMeta> = {
   "/tools/validate_world_element": { position: "95%", volLabel: "vol vii" },
 };
 
-// Default state shows the entire 1400×400 books-row at 100% icon width
-// — a thin horizontal library-shelf strip letterboxed by deep ink top
-// and bottom. Distinct from the per-book "single grimoire fills icon"
-// view, so the operator can tell at a glance whether they're inside a
-// volume or browsing the whole codex.
+// Default state fills the icon height with the books-row image, showing
+// ~2 books centered (around book IV). No letterbox — height fits, width
+// overflows + crops via position-x. Distinct from per-book (700% = one
+// book) but books are still readable, not a tiny strip.
 const DEFAULT_META: GrimoireMeta = {
   position: "center",
   volLabel: "the codex",
-  size: "100% auto",
+  size: "auto 100%",
 };
 
 function GrimoireTracker() {
