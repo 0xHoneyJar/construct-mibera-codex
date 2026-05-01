@@ -262,6 +262,27 @@ a:hover, .vocs_Link:hover {
   box-shadow: none;
 }
 
+/* Left gutter holds the sidebar but is wider than it on desktop —
+ * vocs paints it backgroundDark by default, exposing a panel-color
+ * stripe to the left of the sidebar. Match it to the sidebar so
+ * there's no visible color seam between sidebar and viewport edge. */
+.vocs_DocsLayout_gutterLeft {
+  background-color: var(--nier-bg-primary) !important;
+}
+
+/* Sidebar footer (Coverage gaps · GitHub) + scroll-curtain:
+ * vocs targets backgroundDark for both — that creates a "weird
+ * gradient" against the parchment sidebar. Match both to primary
+ * parchment so the footer sits on the same paper as everything
+ * above it; the curtain still fades content into the footer but
+ * the target color is now the sidebar color, not a panel shade. */
+.vocs_Sidebar_footer {
+  background-color: var(--nier-bg-primary) !important;
+}
+.vocs_Sidebar_footerCurtain {
+  background: linear-gradient(transparent, var(--nier-bg-primary) 80%) !important;
+}
+
 /* Section titles: Imperial uppercase, tracked, with a closing hairline
  * rule underneath. No ornament — the type weight + tracking + rule do
  * the chapter-break work. The `html` prefix bumps specificity to
