@@ -262,22 +262,37 @@ a:hover, .vocs_Link:hover {
   box-shadow: none;
 }
 
-/* Section titles: Imperial uppercase, tracked, with a hairline rule
- * underneath like a printed grimoire's section break. The `html`
- * prefix bumps specificity to (0,0,1,1) so we beat vocs's layered
- * @layer base rule even under cascade-layer reversal for !important.
- * The hairline + breathing room makes each section unmistakably a
- * page-break; type weight comes from Imperial + uppercase tracking. */
+/* Section titles read as chapter-page headers in three beats:
+ *   ❦              (fleuron, centered)
+ *   IMPERIAL TITLE (centered uppercase, tracked)
+ *   ──────         (closing hairline rule under the title)
+ *
+ * The `html` prefix bumps specificity to (0,0,1,1) so we beat vocs's
+ * layered @layer base rule even under cascade-layer reversal. The
+ * fleuron ornament is the unmistakable grimoire mark — small, but
+ * unique enough that it cannot be confused with chrome. */
 html .vocs_Sidebar_sectionTitle {
   font-family: var(--font-imperial) !important;
   font-size: 0.85rem !important;
   font-weight: 400 !important;
   letter-spacing: 0.18em !important;
   text-transform: uppercase !important;
+  text-align: center !important;
   color: var(--nier-text-primary) !important;
   padding: 1.5rem 0 0.65rem 0 !important;
   margin-bottom: 0.5rem !important;
   border-bottom: 1px solid var(--nier-rule-medium) !important;
+  position: relative;
+}
+html .vocs_Sidebar_sectionTitle::before {
+  content: "❦";
+  display: block;
+  font-family: var(--font-imperial);
+  font-size: 1.05rem;
+  letter-spacing: 0;
+  color: var(--nier-text-muted);
+  margin-bottom: 0.5rem;
+  line-height: 1;
 }
 
 /* Search button — vocs renders it with class .vocs_DesktopSearch_search
@@ -355,14 +370,22 @@ html .vocs_Sidebar_item.vocs_Link:hover {
 html .vocs_Sidebar_item.vocs_Link[data-active="true"] {
   font-weight: 500 !important;
   color: var(--nier-text-primary) !important;
+  /* faint panel-tint on the active row — like an open page */
+  background: color-mix(in oklch, var(--nier-text-primary) 4%, transparent) !important;
+  margin: 0 -0.5rem !important;
+  padding-left: 0.5rem !important;
+  padding-right: 0.5rem !important;
 }
+/* Active-state ribbon: 3px solid mark in the marginalia gutter,
+ * extending slightly above + below the text baseline. Reads as a
+ * bookmark or finger-against-the-page, not a typographic notch. */
 html .vocs_Sidebar_item.vocs_Link[data-active="true"]::before {
   content: "";
   position: absolute;
   left: -0.5rem;
-  top: 0.45rem;
-  bottom: 0.45rem;
-  width: 2px;
+  top: 0;
+  bottom: 0;
+  width: 3px;
   background: var(--nier-text-primary);
 }
 
@@ -419,16 +442,30 @@ html .vocs_Sidebar_item.vocs_Link[data-active="true"]::before {
   border: 1px solid var(--nier-border-dark);
   transition: background-position-x var(--duration-slower) var(--spring-gentle);
 }
-/* "MICODEX" — all-caps brand mark in Imperial, slightly opened
- * tracking (caps want a touch more air than lowercase). */
+/* "MiCodex" — Imperial wordmark with a small "the codex" subtitle
+ * below in tracked Switzer caps. Together they read as a titled
+ * book: spine wordmark + classification line. */
 .vocs_NavLogo_title {
   font-family: var(--font-imperial) !important;
-  font-size: 1.125rem !important;
+  font-size: 1.2rem !important;
   font-weight: 400 !important;
-  letter-spacing: 0.04em !important;
+  letter-spacing: 0.02em !important;
   color: var(--nier-text-primary) !important;
-  line-height: 1.1 !important;
+  line-height: 1.05 !important;
   text-transform: none !important;
+  display: flex;
+  flex-direction: column;
+}
+.vocs_NavLogo_title::after {
+  content: "the codex · vol 1";
+  font-family: var(--font-switzer);
+  font-size: 0.58rem;
+  font-weight: 400;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--nier-text-muted);
+  margin-top: 0.2rem;
+  line-height: 1;
 }
 .vocs_Sidebar_divider { display: none; }
 

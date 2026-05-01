@@ -13,13 +13,19 @@ import { defineConfig } from "vocs";
  * The vocs `theme.variables` API only handles a subset; the rest is CSS.
  */
 export default defineConfig({
-  title: "Mibera Codex",
-  titleTemplate: "%s — Mibera Codex",
+  // MiCodex is the brand mark (Imperial, mixed-case). The long-form
+  // "Mibera Codex" lives in the description and on-page copy.
+  title: "MiCodex",
+  titleTemplate: "%s — MiCodex",
   description:
     "The grimoire MCP — anti-hallucination lookup over canonical Mibera lore. Read by agents, browsed by humans, tools shared between.",
   rootDir: ".",
 
   iconUrl: "/favicon.png",
+  // No logoUrl set — vocs's NavLogo is image-OR-title, not both. We
+  // want "icon + 'Mibera Codex' text" so we let the title render and
+  // inject the icon via CSS ::before in global.css. /logo.png is
+  // reserved for OG / social cards where the wordmark has room.
   // Vocs's useOgImageUrl drops string-form ogImageUrl on lookup; the
   // path-map form is the working surface. Glob "**" matches any route
   // so every page gets the same Mibera OG card. Absolute URL so
@@ -84,6 +90,11 @@ export default defineConfig({
     },
   ],
 
+  // Sidebar mirrors the index's book-by-book structure: each book is
+  // a sidebar entry. Vol II nests its two list tools. The sidebar
+  // labels match the book covers so an operator can navigate the
+  // codex by lore, not by tool name. The canonical snake_case names
+  // render in the ToolCard + JSON examples on each tool page.
   sidebar: [
     {
       text: "Front matter",
@@ -96,16 +107,20 @@ export default defineConfig({
     {
       text: "The grimoires",
       items: [
-        // Sidebar labels are human-legible; the canonical snake_case tool
-        // names render in the ToolCard h1 + JSON examples on each page.
-        { text: "Zone",            link: "/tools/lookup_zone" },
-        { text: "Archetype",       link: "/tools/lookup_archetype" },
-        { text: "Factor",          link: "/tools/lookup_factor" },
-        { text: "Grail",           link: "/tools/lookup_grail" },
-        { text: "Mibera",          link: "/tools/lookup_mibera" },
-        { text: "List · zones",      link: "/tools/list_zones" },
-        { text: "List · archetypes", link: "/tools/list_archetypes" },
-        { text: "Validate",        link: "/tools/validate_world_element" },
+        { text: "I · Introducing Mibera",      link: "/tools/lookup_mibera" },
+        { text: "II · Clearpill vs Ravepill",  link: "/tools/lookup_archetype" },
+        { text: "III · Mibera Maker · Vol I",  link: "/tools/lookup_grail" },
+        { text: "IV · Network Mysticism",      link: "/tools/lookup_factor" },
+        { text: "V · Initiation Ritual",       link: "/tools/lookup_zone" },
+        {
+          text: "VI · Mibera Maker · Vol II",
+          collapsed: false,
+          items: [
+            { text: "list_archetypes", link: "/tools/list_archetypes" },
+            { text: "list_zones",      link: "/tools/list_zones" },
+          ],
+        },
+        { text: "VII · Mibera Maker · Vol III", link: "/tools/validate_world_element" },
       ],
     },
     {
