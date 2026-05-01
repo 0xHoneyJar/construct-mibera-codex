@@ -199,6 +199,12 @@
       "description": "Corresponding MiParcel ID (1:1 mapping)",
       "x-codex-confidence": "canonical",
       "x-codex-source": "id-mapping"
+    },
+    "grail": {
+      "type": "string",
+      "description": "Grail name if this Mibera is a 1/1 grail (43 of 10,000)",
+      "x-codex-confidence": "canonical",
+      "x-codex-source": "grail-mapping"
     }
   },
   "additionalProperties": false
