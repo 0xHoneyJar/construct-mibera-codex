@@ -551,7 +551,7 @@ main p, [class*="vocs_Content"] p {
 
 main h2, [class*="vocs_Content"] h2 {
   margin-top: 3rem;
-  border-top: 1px solid var(--nier-rule-medium);
+  border-top: 1px solid var(--nier-rule-soft);
   padding-top: 2rem;
 }
 
