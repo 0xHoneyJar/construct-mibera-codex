@@ -1,62 +1,77 @@
 /**
- * GrimoireShelf — a row of grimoires.
+ * GrimoireShelf — one book + the tools that fall under it.
  *
- * SSR-safe: pure render, no browser globals at module top-level. Hover
- * physics live in CSS (var(--spring-gentle), var(--duration-normal))
- * so vocs prerendering produces identical markup to runtime.
+ * Layout: book image on the left, tool list on the right. Each tool row
+ * is `name · hint` linked to the tool's page. SSR-safe; styling lives in
+ * /global.css.
  *
  * Usage in MDX:
  *
- *   import { GrimoireShelf } from '../components/grimoire-shelf'
- *
- *   <GrimoireShelf books={[
- *     { n: 1, label: "lookup_zone",      href: "/tools/lookup_zone" },
- *     { n: 2, label: "lookup_archetype", href: "/tools/lookup_archetype" },
- *     ...
- *   ]} />
+ *   <GrimoireShelf
+ *     book={{ n: 1, title: "Introducing Mibera" }}
+ *     tools={[
+ *       { name: "lookup_mibera", hint: "one of ten thousand", href: "/tools/lookup_mibera" },
+ *     ]}
+ *   />
  */
 
 export type GrimoireBook = {
-  /** Which avif (1..7) under /grimoire/. */
-  n: number
-  /** Display name (Imperial). */
-  label: string
-  /** Sub-label, optional uppercase HERALD-register hint. */
-  hint?: string
-  /** Where the book opens to. */
-  href: string
-}
+  /** Grimoire image number (1..7) under /grimoire/. */
+  n: number;
+  /** Book title — Imperial, uppercase tracking. */
+  title: string;
+  /** Optional sub-label (e.g. era, theme). */
+  hint?: string;
+};
+
+export type GrimoireTool = {
+  /** Canonical tool name (renders mono). */
+  name: string;
+  /** One-line purpose. */
+  hint?: string;
+  /** Tool page URL. */
+  href: string;
+};
 
 type Props = {
-  books: GrimoireBook[]
-  /** Optional aria-label for the whole shelf. */
-  ariaLabel?: string
-}
+  book: GrimoireBook;
+  tools: GrimoireTool[];
+  ariaLabel?: string;
+};
 
-export function GrimoireShelf({ books, ariaLabel = "Mibera Codex grimoire shelf" }: Props) {
+export function GrimoireShelf({ book, tools, ariaLabel }: Props) {
   return (
-    <ul className="grimoire-shelf" role="list" aria-label={ariaLabel}>
-      {books.map((book) => (
-        <li key={`${book.n}-${book.href}`}>
-          <a
-            href={book.href}
-            className="grimoire-shelf__book"
-            aria-label={`Open the grimoire for ${book.label}`}
-          >
-            <img
-              src={`/grimoire/${book.n}.avif`}
-              alt=""
-              width={240}
-              height={320}
-              loading="lazy"
-              decoding="async"
-              className="grimoire-shelf__cover"
-            />
-            <span className="grimoire-shelf__label">{book.label}</span>
-            {book.hint ? <span className="grimoire-shelf__hint">{book.hint}</span> : null}
-          </a>
-        </li>
-      ))}
-    </ul>
-  )
+    <section
+      className="grimoire-shelf"
+      aria-label={ariaLabel ?? `${book.title} — ${tools.length} tool${tools.length === 1 ? "" : "s"}`}
+    >
+      <img
+        src={`/grimoire/${book.n}.avif`}
+        alt=""
+        width={260}
+        height={347}
+        loading="lazy"
+        decoding="async"
+        className="grimoire-shelf__cover"
+      />
+      <div className="grimoire-shelf__heading">
+        <div className="grimoire-shelf__book-title">{book.title}</div>
+        {book.hint ? (
+          <div className="grimoire-shelf__book-hint">{book.hint}</div>
+        ) : null}
+      </div>
+      <ul className="grimoire-shelf__tools" role="list">
+        {tools.map((tool) => (
+          <li key={tool.href}>
+            <a href={tool.href} className="grimoire-shelf__tool">
+              <span className="grimoire-shelf__tool-name">{tool.name}</span>
+              {tool.hint ? (
+                <span className="grimoire-shelf__tool-hint">{tool.hint}</span>
+              ) : null}
+            </a>
+          </li>
+        ))}
+      </ul>
+    </section>
+  );
 }
