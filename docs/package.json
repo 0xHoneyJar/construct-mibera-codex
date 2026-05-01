@@ -9,8 +9,10 @@
     "preview": "vocs preview"
   },
   "dependencies": {
+    "agentation": "^3.0.2",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "react-router": "^7.14.2",
     "vocs": "^1.0.18"
   }
 }

@@ -17,6 +17,9 @@ export type InstallCardProps = {
   language?: "json" | "bash" | "toml";
   href?: string;
   hrefLabel?: string;
+  /** One-click install deeplink (e.g. cursor:// or vscode:). When present, renders a primary "Install" button. */
+  installUrl?: string;
+  installLabel?: string;
 };
 
 export function InstallCard({
@@ -27,6 +30,8 @@ export function InstallCard({
   language = "json",
   href,
   hrefLabel,
+  installUrl,
+  installLabel,
 }: InstallCardProps) {
   return (
     <article className="install-card">
@@ -40,6 +45,15 @@ export function InstallCard({
           loading="lazy"
         />
         <div className="install-card__name">{name}</div>
+        {installUrl ? (
+          <a
+            href={installUrl}
+            className="install-card__deeplink"
+            aria-label={`Install ${name}`}
+          >
+            {installLabel ?? "install"}
+          </a>
+        ) : null}
       </header>
       {configFile ? (
         <div className="install-card__file">{configFile}</div>

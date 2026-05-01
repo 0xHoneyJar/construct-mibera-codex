@@ -2,24 +2,19 @@
  * ToolCard — header for a per-tool page.
  *
  * The grimoire image + Imperial title + tier badge + one-line purpose.
- * SSR-safe; styling lives in styles/global.css.
+ * SSR-safe; styling lives in /global.css.
  *
  * Usage in MDX:
  *
  *   import { ToolCard } from '../../components/tool-card'
  *
- *   <ToolCard
- *     n={1}
- *     name="lookup_zone"
- *     tier="HARD"
- *     purpose="Resolve a zone by canonical name. Returns the canon entry or null."
- *   />
+ *   <ToolCard n={5} name="lookup_zone" tier="HARD" purpose="..." />
  */
 
 export type Tier = "HARD" | "SOFT" | "LLM-OWNED"
 
 type Props = {
-  /** Which grimoire avif (1..7) under /grimoire/. */
+  /** Grimoire avif (1..7) under /grimoire/. */
   n: number
   /** Tool name, e.g. "lookup_zone". Imperial. */
   name: string

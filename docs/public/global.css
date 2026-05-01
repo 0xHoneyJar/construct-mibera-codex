@@ -885,6 +885,30 @@ main :not(pre) > code,
   letter-spacing: -0.005em;
   color: var(--nier-text-primary);
   line-height: 1.1;
+  flex: 1;
+}
+
+/* One-click install deeplink (cursor://, vscode:, etc). When the client
+ * supports a deeplink protocol, this is the primary CTA — solid ink fill
+ * so it reads as a button, not a hairline link. */
+.install-card__deeplink {
+  font-family: var(--font-switzer);
+  font-size: 0.78rem;
+  letter-spacing: 0.04em;
+  text-transform: lowercase;
+  color: var(--nier-bg-primary) !important;
+  background: var(--nier-text-primary);
+  padding: 0.32rem 0.65rem;
+  border: 1px solid var(--nier-text-primary);
+  border-bottom: 1px solid var(--nier-text-primary) !important;
+  white-space: nowrap;
+  text-decoration: none !important;
+  transition: opacity var(--duration-fast) var(--spring-snappy);
+}
+.install-card__deeplink:hover {
+  opacity: 0.82;
+  color: var(--nier-bg-primary) !important;
+  border-bottom-color: var(--nier-text-primary) !important;
 }
 
 .install-card__file {
