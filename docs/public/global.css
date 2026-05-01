@@ -262,17 +262,22 @@ a:hover, .vocs_Link:hover {
   box-shadow: none;
 }
 
-/* Section titles: Imperial uppercase, tracked. Type matches the
- * GrimoireShelf book-title (0.78rem / 0.12em) so the sidebar reads
- * as the codex's table-of-contents — same mark, lighter ink. */
-.vocs_Sidebar_sectionTitle {
+/* Section titles: Imperial uppercase, tracked, with a hairline rule
+ * underneath like a printed grimoire's section break. The `html`
+ * prefix bumps specificity to (0,0,1,1) so we beat vocs's layered
+ * @layer base rule even under cascade-layer reversal for !important.
+ * The hairline + breathing room makes each section unmistakably a
+ * page-break; type weight comes from Imperial + uppercase tracking. */
+html .vocs_Sidebar_sectionTitle {
   font-family: var(--font-imperial) !important;
-  font-size: 0.78rem !important;
+  font-size: 0.85rem !important;
   font-weight: 400 !important;
-  letter-spacing: 0.12em !important;
-  text-transform: uppercase;
-  color: var(--nier-text-muted) !important;
-  padding: 1.1rem 0 0.55rem 0 !important;
+  letter-spacing: 0.18em !important;
+  text-transform: uppercase !important;
+  color: var(--nier-text-primary) !important;
+  padding: 1.5rem 0 0.65rem 0 !important;
+  margin-bottom: 0.5rem !important;
+  border-bottom: 1px solid var(--nier-rule-medium) !important;
 }
 
 /* Search button — vocs renders it with class .vocs_DesktopSearch_search
@@ -329,8 +334,9 @@ button[class*="searchButton"] {
 
 /* Items: switzer body, full ink, comfortable rhythm. Hover slides the
  * row right by 0.4rem; active gets an ink notch in the marginalia
- * gutter — matches the outline rail so the two rails read as peers. */
-.vocs_Sidebar_item.vocs_Link {
+ * gutter — matches the outline rail so the two rails read as peers.
+ * `html` prefix for defensive specificity against vocs @layer base. */
+html .vocs_Sidebar_item.vocs_Link {
   font-family: var(--font-switzer) !important;
   font-size: 0.92rem !important;
   font-weight: 400 !important;
@@ -341,16 +347,16 @@ button[class*="searchButton"] {
   transition: color var(--duration-fast) var(--spring-snappy),
               padding-left var(--duration-fast) var(--spring-snappy);
 }
-.vocs_Sidebar_item.vocs_Link:hover {
+html .vocs_Sidebar_item.vocs_Link:hover {
   color: var(--nier-text-primary) !important;
   background: transparent !important;
   padding-left: 0.4rem !important;
 }
-.vocs_Sidebar_item.vocs_Link[data-active="true"] {
+html .vocs_Sidebar_item.vocs_Link[data-active="true"] {
   font-weight: 500 !important;
   color: var(--nier-text-primary) !important;
 }
-.vocs_Sidebar_item.vocs_Link[data-active="true"]::before {
+html .vocs_Sidebar_item.vocs_Link[data-active="true"]::before {
   content: "";
   position: absolute;
   left: -0.5rem;
