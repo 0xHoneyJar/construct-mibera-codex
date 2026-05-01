@@ -36,7 +36,7 @@ Cosmic and chemical systems that define each Mibera.
 - [Astrology](traits/overlays/astrology/README.md) — Sun, Moon, and Ascending signs
 - [Elements](traits/overlays/elements/README.md) — Fire, Water, Air, Earth
 - [Drug-Tarot System](core-lore/drug-tarot-system.md) — 78 cards mapped to 78 drugs
-- [Drugs Deep Dive](traits/overlays/molecules/README.md) — Detailed profiles of all 79 substances
+- [Drugs Deep Dive](traits/overlays/molecules/README.md) — Detailed profiles of all 78 substances
 
 ### IV. The Art
 1,337+ visual traits across multiple categories.
@@ -46,7 +46,8 @@ Cosmic and chemical systems that define each Mibera.
 ### V. The Collection
 The 10,000 Miberas and their temporal identities.
 - [All Miberas](miberas/README.md) — Individual entries with full metadata
-- [Grails](grails/README.md) — 42 hand-drawn 1/1 art pieces
+- [Grails](grails/README.md) — 43 hand-drawn 1/1 art pieces (42 canonical + Mijedi)
+- [MiParcels](miparcels/README.md) — 10,000 sealed envelopes from Phase 1 reveal
 - [Birthdays](birthdays/README.md) — 9,995 unique birthdays spanning 15,000 years
 - [Fractures](fractures/README.md) — 10 reveal phases from sealed envelope to final form
 
@@ -56,6 +57,7 @@ The 10,000 Miberas and their temporal identities.
 ### VII. The Ecosystem
 Partners and collaborations.
 - [Special Collections](special-collections/README.md) — Berachain ecosystem integrations
+- [Vending Machine](vending-machine/README.md) — VM-exclusive Shadow Traits (update in progress)
 
 ### VIII. Behind the Scenes
 The people and process behind the collection.
@@ -76,9 +78,9 @@ Contract addresses and ecosystem mechanics.
 ### X. Data & Research
 Machine-readable exports and analytical datasets.
 - [Data Directory Index](_codex/data/README.md) — All exports with format descriptions
-- [Knowledge Graph](_codex/data/graph.json) — 10,279 nodes, 70,344 edges
+- [Knowledge Graph](_codex/data/graph.json) — 11,475 nodes, 192,707 edges
 - [All Miberas (JSONL)](_codex/data/miberas.jsonl) — 10,000 entries as newline-delimited JSON
-- [All Grails (JSONL)](_codex/data/grails.jsonl) — 42 entries
+- [All Grails (JSONL)](_codex/data/grails.jsonl) — 43 entries
 - [Scope & Boundaries](_codex/data/scope.json) — What this codex tracks and doesn't
 - [Known Gaps](_codex/data/gaps.json) — Documented unknowns with resolution paths
 - [Timeline](_codex/data/timeline.json) — Key ecosystem events
@@ -98,7 +100,7 @@ Explore the 10,000 Miberas through faceted search — filter by archetype, ances
 | Metric | Value |
 |--------|-------|
 | Total Miberas | 10,000 |
-| Hand-Drawn Grails | 42 |
+| Hand-Drawn Grails | 43 |
 | Unique Traits | 1,337+ |
 | Archetypes | 4 |
 | Ancestors | 33 |
