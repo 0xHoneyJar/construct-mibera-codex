@@ -831,6 +831,188 @@ main :not(pre) > code,
   border-style: dashed;
 }
 
+/* ---------- Install page — InstallCard + ConsumerCard --------------- *
+ * /install is the visual face of "connect any agent to the codex."
+ * Two grids: clients (large, snippet-bearing) and consumers (compact,
+ * substrate-truth evidence per [[substrate-over-narrative]]).
+ * ===================================================================== */
+
+.install-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+  gap: 1.25rem;
+  margin: 1.5rem 0 2.5rem;
+}
+
+.install-card {
+  display: flex;
+  flex-direction: column;
+  background: var(--nier-bg-panel);
+  border: 1px solid var(--nier-rule-medium);
+  padding: 1rem 1.1rem 0.9rem;
+  gap: 0.6rem;
+}
+
+.install-card__head {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.install-card__logo {
+  width: 24px;
+  height: 24px;
+  flex: 0 0 24px;
+  object-fit: contain;
+  /* simple-icons SVGs render in their brand color (oklch 0.203 ink); the
+   * parchment palette already places them on a panel — no filter needed.
+   * On hover, lift slightly so the card feels alive. */
+  transition: transform var(--duration-fast) var(--spring-snappy);
+}
+.install-card:hover .install-card__logo {
+  transform: scale(1.08);
+}
+
+.install-card__name {
+  font-family: var(--font-imperial);
+  font-size: 1.05rem;
+  letter-spacing: -0.005em;
+  color: var(--nier-text-primary);
+  line-height: 1.1;
+}
+
+.install-card__file {
+  font-family: var(--font-switzer);
+  font-size: 0.8rem;
+  color: var(--nier-text-muted);
+  letter-spacing: 0.01em;
+  word-break: break-all;
+}
+
+.install-card__snippet {
+  background: var(--nier-bg-primary) !important;
+  border: 1px solid var(--nier-rule-soft) !important;
+  border-radius: 0;
+  padding: 0.7rem 0.85rem !important;
+  margin: 0 !important;
+  overflow-x: auto;
+  font-size: 0.82rem !important;
+  line-height: 1.55 !important;
+  color: var(--nier-text-primary);
+}
+.install-card__snippet code {
+  background: transparent !important;
+  border: none !important;
+  padding: 0 !important;
+  color: inherit;
+  font-size: inherit;
+}
+
+.install-card__link {
+  font-family: var(--font-switzer);
+  font-size: 0.8rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--nier-text-muted) !important;
+  align-self: flex-start;
+  margin-top: 0.2rem;
+  border-bottom: none !important;
+}
+.install-card__link:hover {
+  color: var(--nier-text-primary) !important;
+}
+
+/* Consumer grid — compact cards, logos as substrate-truth evidence */
+
+.consumer-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+  gap: 0.75rem;
+  margin: 1.5rem 0 2rem;
+}
+
+.consumer-card {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.75rem 0.9rem;
+  background: var(--nier-bg-panel);
+  border: 1px solid var(--nier-rule-soft);
+  text-decoration: none !important;
+  color: var(--nier-text-primary) !important;
+  border-bottom: 1px solid var(--nier-rule-soft) !important;
+  transition: border-color var(--duration-fast) var(--spring-snappy),
+              transform var(--duration-fast) var(--spring-snappy);
+  position: relative;
+}
+.consumer-card:hover {
+  border-color: var(--nier-rule-medium) !important;
+  transform: translateY(-1px);
+}
+
+.consumer-card__icon {
+  width: 28px;
+  height: 28px;
+  flex: 0 0 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  line-height: 1;
+}
+.consumer-card__icon img {
+  width: 22px;
+  height: 22px;
+  object-fit: contain;
+}
+
+.consumer-card__body {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+  min-width: 0;
+  flex: 1;
+}
+
+.consumer-card__name {
+  font-family: var(--font-imperial);
+  font-size: 0.95rem;
+  line-height: 1.1;
+  letter-spacing: -0.005em;
+  color: var(--nier-text-primary);
+}
+
+.consumer-card__role {
+  font-family: var(--font-switzer);
+  font-size: 0.78rem;
+  color: var(--nier-text-muted);
+  letter-spacing: 0.01em;
+  line-height: 1.35;
+  /* truncate gracefully on narrow viewports */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.consumer-card__status {
+  font-family: var(--font-switzer);
+  font-size: 0.62rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--nier-text-muted);
+  padding: 0.18rem 0.42rem;
+  border: 1px solid var(--nier-rule-soft);
+  flex: 0 0 auto;
+}
+.consumer-card--target .consumer-card__status {
+  color: var(--nier-text-secondary);
+  border-color: var(--nier-rule-medium);
+}
+.consumer-card--planned .consumer-card__status {
+  color: var(--nier-text-muted);
+  border-style: dashed;
+}
+
 /* ---------- Layout breath ------------------------------------------- */
 
 @media (min-width: 1024px) {
