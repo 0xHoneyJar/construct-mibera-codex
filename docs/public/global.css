@@ -372,37 +372,49 @@ html .vocs_Sidebar_item.vocs_Link[data-active="true"]::before {
   background: var(--nier-text-primary);
 }
 
-/* Vol II's nested children read as siblings of the other 7 grimoires —
- * same font size, same ink, same hover treatment. The level-inset
- * border + small left-pad is the only acknowledgment that they sit
- * inside Vol II; no dropdown styling, no chevron, no muted type. */
-.vocs_Sidebar_levelInset {
+/* Vol II's parent row is a <div class="vocs_Sidebar_item"> (NOT a
+ * .vocs_Link) — so the .vocs_Sidebar_item.vocs_Link rules don't reach
+ * it and vocs's default text2 (muted) color wins. Style it directly. */
+html .vocs_Sidebar_sectionHeader > .vocs_Sidebar_item {
+  font-family: var(--font-switzer) !important;
+  font-size: 0.92rem !important;
+  font-weight: 400 !important;
+  color: var(--nier-text-primary) !important;
+  padding: 0.32rem 0 !important;
+  cursor: pointer;
+  transition: padding-left var(--duration-fast) var(--spring-snappy);
+}
+html .vocs_Sidebar_sectionHeader[role="button"]:hover > .vocs_Sidebar_item {
+  padding-left: 0.4rem !important;
+}
+
+/* Vol II's sectionHeader sits flush with siblings — kill vocs's
+ * .vocs_Sidebar_level > sectionHeader { padding-top: 12px }. */
+html .vocs_Sidebar_items > .vocs_Sidebar_section > .vocs_Sidebar_sectionHeader {
+  padding-top: 0 !important;
+}
+
+/* Vol II's nested children: same type weight + ink as siblings, tight
+ * vertical rhythm. Override vocs's default 0.625em row gap inside the
+ * nested set + reset its 6px / 16px padding-top. */
+html .vocs_Sidebar_levelInset {
   border-left: 1px solid var(--nier-rule-soft) !important;
   margin-top: 0.15rem !important;
   padding-left: 0.85rem !important;
   padding-top: 0 !important;
   padding-bottom: 0 !important;
+  gap: 0 !important;
 }
-.vocs_Sidebar_levelInset .vocs_Sidebar_item.vocs_Link {
+html .vocs_Sidebar_levelInset .vocs_Sidebar_item.vocs_Link {
   font-size: 0.92rem !important;
   color: var(--nier-text-primary) !important;
 }
 
-/* Hide the dropdown chevron — Vol II shouldn't read as a collapsible
- * group, just a chapter with two sub-entries. Vocs uses
- * .vocs_Sidebar_sectionCollapse for the chevron icon. */
+/* Hide the dropdown chevron — Vol II reads as a chapter with two
+ * sub-entries, not a collapsible nav group. */
 html .vocs_Sidebar_sectionCollapse,
 html .vocs_Sidebar_section .vocs_Icon[class*="sectionCollapse"] {
   display: none !important;
-}
-
-/* Vol II's parent row should look like the other 6 grimoires —
- * same row treatment, no special "section header" emphasis. */
-html .vocs_Sidebar_section.vocs_Sidebar_level {
-  font-size: inherit !important;
-}
-html .vocs_Sidebar_section.vocs_Sidebar_level > .vocs_Sidebar_sectionHeader {
-  padding-top: 0 !important;
 }
 
 /* Brand-mark slot in the sidebar header.
