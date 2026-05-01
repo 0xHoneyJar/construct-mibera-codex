@@ -223,24 +223,26 @@ a:hover, .vocs_Link:hover {
 }
 
 /* ---------- Top nav (chrome) ---------------------------------------- *
- * Inverted: deep ink bar, parchment text. The codex sits beneath ink.
+ * Same panel-dim as the sidebar — together they frame the content
+ * area. The hairline below the bar separates chrome from content
+ * without needing color contrast to do the work.
  * ===================================================================== */
 
 [class*="vocs_TopNav"] {
-  background: var(--nier-header-bg);
-  color: var(--nier-header-text);
-  border-bottom: 1px solid var(--nier-border-dark);
+  background: var(--nier-bg-panel);
+  color: var(--nier-text-primary);
+  border-bottom: 1px solid var(--nier-rule-medium);
 }
 
 [class*="vocs_TopNav"] a,
 [class*="vocs_TopNav"] button,
 [class*="vocs_TopNav"] [role="button"] {
-  color: var(--nier-header-text);
+  color: var(--nier-text-primary);
 }
 
 [class*="vocs_TopNav"] a:hover {
-  color: var(--nier-header-text);
-  opacity: 0.78;
+  color: var(--nier-text-primary);
+  opacity: 0.7;
   border-bottom-color: transparent;
 }
 
@@ -257,7 +259,7 @@ a:hover, .vocs_Link:hover {
  * ===================================================================== */
 
 [class*="vocs_Sidebar"] {
-  background: var(--nier-bg-primary);
+  background: var(--nier-bg-panel);
   border-right: none;
   box-shadow: none;
 }
@@ -276,25 +278,17 @@ a:hover, .vocs_Link:hover {
   text-decoration: none !important;
 }
 
-/* Left gutter holds the sidebar but is wider than it on desktop —
- * vocs paints it backgroundDark by default, exposing a panel-color
- * stripe to the left of the sidebar. Match it to the sidebar so
- * there's no visible color seam between sidebar and viewport edge. */
+/* Chrome (sidebar + left gutter + footer) sits at panel shade — a
+ * subtle dim that frames the content reading area in primary.
+ * Together: dimmer chrome wraps lighter content. */
 .vocs_DocsLayout_gutterLeft {
-  background-color: var(--nier-bg-primary) !important;
+  background-color: var(--nier-bg-panel) !important;
 }
-
-/* Sidebar footer (Coverage gaps · GitHub) + scroll-curtain:
- * vocs targets backgroundDark for both — that creates a "weird
- * gradient" against the parchment sidebar. Match both to primary
- * parchment so the footer sits on the same paper as everything
- * above it; the curtain still fades content into the footer but
- * the target color is now the sidebar color, not a panel shade. */
 .vocs_Sidebar_footer {
-  background-color: var(--nier-bg-primary) !important;
+  background-color: var(--nier-bg-panel) !important;
 }
 .vocs_Sidebar_footerCurtain {
-  background: linear-gradient(transparent, var(--nier-bg-primary) 80%) !important;
+  background: linear-gradient(transparent, var(--nier-bg-panel) 80%) !important;
 }
 
 /* Section titles: Imperial uppercase, tracked, with a closing hairline
@@ -545,9 +539,10 @@ html .vocs_Sidebar_section .vocs_Icon[class*="sectionCollapse"] {
 
 .vocs_Outline_nav,
 .vocs_DocsLayout_gutterRight .vocs_Outline_nav {
-  /* MiDi text/20 rule on the column edge — peer to sidebar, not muted */
-  border-left: 1px solid var(--nier-rule-medium) !important;
-  padding-left: 1rem !important;
+  /* No column rule — outline reads as floating right-rail text on the
+   * primary parchment, not a paneled frame. */
+  border-left: none !important;
+  padding-left: 0 !important;
 }
 
 .vocs_Outline_item {
