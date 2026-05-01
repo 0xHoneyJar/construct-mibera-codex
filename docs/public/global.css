@@ -262,16 +262,17 @@ a:hover, .vocs_Link:hover {
   box-shadow: none;
 }
 
-/* Section titles: Imperial uppercase, tracked, small. Reads as a label,
- * not a heading. Provides hierarchy without competing for attention. */
+/* Section titles: Imperial uppercase, tracked. Type matches the
+ * GrimoireShelf book-title (0.78rem / 0.12em) so the sidebar reads
+ * as the codex's table-of-contents — same mark, lighter ink. */
 .vocs_Sidebar_sectionTitle {
   font-family: var(--font-imperial) !important;
-  font-size: 0.72rem !important;
+  font-size: 0.78rem !important;
   font-weight: 400 !important;
-  letter-spacing: 0.10em !important;
+  letter-spacing: 0.12em !important;
   text-transform: uppercase;
   color: var(--nier-text-muted) !important;
-  padding: 0.75rem 0 0.35rem 0 !important;
+  padding: 1.1rem 0 0.55rem 0 !important;
 }
 
 /* Search button — vocs renders it with class .vocs_DesktopSearch_search
@@ -305,17 +306,19 @@ button[class*="searchButton"] {
   font-family: var(--font-switzer) !important;
 }
 
-/* Group spacing: each section breathes from the next. Suppress vocs's
- * default 1px between-section border — the typographic hierarchy +
- * generous padding does the work. */
+/* Group spacing: each section is a distinct entry in the codex's TOC.
+ * Suppress vocs's default 1px between-section border — typographic
+ * hierarchy + generous breath does the work. */
 .vocs_Sidebar_navigation > .vocs_Sidebar_group > .vocs_Sidebar_section + .vocs_Sidebar_section {
   border-top: none !important;
-  margin-top: 0.25rem;
+  margin-top: 0.65rem;
 }
 
-/* Tighter sidebar — operator wants less padding around the chrome. */
+/* Sidebar gets horizontal padding; the active-notch lives in the gutter
+ * between the sidebar's left edge and the row text — like a marginalia
+ * mark in a printed grimoire. */
 .vocs_Sidebar_navigation {
-  padding: 0.25rem 0 0.75rem 0 !important;
+  padding: 0.5rem 0.75rem 1rem 1rem !important;
 }
 .vocs_Sidebar_items {
   padding: 0 !important;
@@ -324,16 +327,16 @@ button[class*="searchButton"] {
   padding: 0 !important;
 }
 
-/* Items: switzer body, full ink, tight rhythm. Hover gets a subtle
- * underline; active gets an ink notch on the left edge — matches the
- * outline's active treatment so the two rails read as peers. */
+/* Items: switzer body, full ink, comfortable rhythm. Hover slides the
+ * row right by 0.4rem; active gets an ink notch in the marginalia
+ * gutter — matches the outline rail so the two rails read as peers. */
 .vocs_Sidebar_item.vocs_Link {
   font-family: var(--font-switzer) !important;
-  font-size: 0.88rem !important;
+  font-size: 0.92rem !important;
   font-weight: 400 !important;
   color: var(--nier-text-primary) !important;
   border-bottom: none !important;
-  padding: 0.22rem 0 !important;
+  padding: 0.32rem 0 !important;
   position: relative;
   transition: color var(--duration-fast) var(--spring-snappy),
               padding-left var(--duration-fast) var(--spring-snappy);
@@ -341,7 +344,7 @@ button[class*="searchButton"] {
 .vocs_Sidebar_item.vocs_Link:hover {
   color: var(--nier-text-primary) !important;
   background: transparent !important;
-  padding-left: 0.35rem !important;
+  padding-left: 0.4rem !important;
 }
 .vocs_Sidebar_item.vocs_Link[data-active="true"] {
   font-weight: 500 !important;
@@ -350,24 +353,24 @@ button[class*="searchButton"] {
 .vocs_Sidebar_item.vocs_Link[data-active="true"]::before {
   content: "";
   position: absolute;
-  left: -0.875rem;
-  top: 0.35rem;
-  bottom: 0.35rem;
+  left: -0.5rem;
+  top: 0.45rem;
+  bottom: 0.45rem;
   width: 2px;
   background: var(--nier-text-primary);
 }
 
 /* Nested level (Mibera Maker · Vol II expanded with two list tools).
- * Soften the inset rule + indent; smaller type for the sub-items. */
+ * Indent gutter; smaller type, slightly muted ink for sub-items. */
 .vocs_Sidebar_levelInset {
   border-left: 1px solid var(--nier-rule-soft) !important;
-  margin-top: 0.15rem !important;
-  padding-left: 0.75rem !important;
+  margin-top: 0.25rem !important;
+  padding-left: 0.85rem !important;
   padding-top: 0 !important;
   padding-bottom: 0 !important;
 }
 .vocs_Sidebar_levelInset .vocs_Sidebar_item.vocs_Link {
-  font-size: 0.82rem !important;
+  font-size: 0.86rem !important;
   color: var(--nier-text-secondary) !important;
 }
 .vocs_Sidebar_levelInset .vocs_Sidebar_item.vocs_Link[data-active="true"] {
@@ -380,9 +383,9 @@ button[class*="searchButton"] {
  * vocs default already gives the link `display:flex; align-items:center`
  * inline; we add gap and the icon. */
 .vocs_Sidebar_logoWrapper {
-  padding: 0.875rem 0.875rem 1rem 1rem;
+  padding: 0.875rem 0.875rem 1.25rem 1rem;
   background-color: transparent !important;
-  border-bottom: 1px solid var(--nier-rule-subtle);
+  border-bottom: 1px solid var(--nier-rule-soft);
 }
 .vocs_Sidebar_logoWrapper a {
   gap: 0.625rem !important;
@@ -462,7 +465,7 @@ button[class*="searchButton"] {
 .vocs_Outline_link {
   color: var(--nier-text-primary) !important;
   font-family: var(--font-switzer);
-  font-size: 0.9rem !important;
+  font-size: 0.92rem !important;
   font-weight: 400 !important;
   text-decoration: none !important;
   border-bottom: 1px solid transparent;
