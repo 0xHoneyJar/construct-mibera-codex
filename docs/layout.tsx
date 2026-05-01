@@ -31,15 +31,21 @@ import { Agentation } from "agentation";
 //   7 MIBERAMAKER DESIGN DOC (III) → validate_world_element
 type GrimoireMeta = { position: string; volLabel: string };
 
+// Percentages tuned to the actual numeral centers in /miberasets-row.jpg
+// (1400×400). Source image isn't perfectly even — partial book on the
+// far-left edge nudges the painted numerals inward toward middle, so
+// books I/II/III need a right-shift and books V/VI/VII need a left-shift
+// from the geometric (N-1)/6 spacing. Window math: 200px source slice
+// centered on numeral C means P = (C - 100) / 12.
 const GRIMOIRE_BY_PATH: Record<string, GrimoireMeta> = {
-  "/tools/lookup_mibera":          { position: "0%",     volLabel: "vol i" },
-  "/tools/lookup_archetype":       { position: "16.67%", volLabel: "vol ii" },
-  "/tools/lookup_grail":           { position: "33.33%", volLabel: "vol iii" },
-  "/tools/lookup_factor":          { position: "50%",    volLabel: "vol iv" },
-  "/tools/lookup_zone":            { position: "66.67%", volLabel: "vol v" },
-  "/tools/list_archetypes":        { position: "83.33%", volLabel: "vol vi" },
-  "/tools/list_zones":             { position: "83.33%", volLabel: "vol vi" },
-  "/tools/validate_world_element": { position: "100%",   volLabel: "vol vii" },
+  "/tools/lookup_mibera":          { position: "3%",  volLabel: "vol i" },
+  "/tools/lookup_archetype":       { position: "19%", volLabel: "vol ii" },
+  "/tools/lookup_grail":           { position: "34%", volLabel: "vol iii" },
+  "/tools/lookup_factor":          { position: "50%", volLabel: "vol iv" },
+  "/tools/lookup_zone":            { position: "65%", volLabel: "vol v" },
+  "/tools/list_archetypes":        { position: "81%", volLabel: "vol vi" },
+  "/tools/list_zones":             { position: "81%", volLabel: "vol vi" },
+  "/tools/validate_world_element": { position: "97%", volLabel: "vol vii" },
 };
 
 const DEFAULT_META: GrimoireMeta = { position: "50%", volLabel: "the codex" };
