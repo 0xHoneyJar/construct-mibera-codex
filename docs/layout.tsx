@@ -39,12 +39,12 @@ type GrimoireMeta = { position: string; volLabel: string };
 // initial pass; bumped each by ~3% so numerals sit centered in icon.
 const GRIMOIRE_BY_PATH: Record<string, GrimoireMeta> = {
   "/tools/lookup_mibera":          { position: "6%",  volLabel: "vol i" },
-  "/tools/lookup_archetype":       { position: "19%", volLabel: "vol ii" },
+  "/tools/lookup_archetype":       { position: "21%", volLabel: "vol ii" },
   "/tools/lookup_grail":           { position: "37%", volLabel: "vol iii" },
-  "/tools/lookup_factor":          { position: "50%", volLabel: "vol iv" },
-  "/tools/lookup_zone":            { position: "65%", volLabel: "vol v" },
-  "/tools/list_archetypes":        { position: "81%", volLabel: "vol vi" },
-  "/tools/list_zones":             { position: "81%", volLabel: "vol vi" },
+  "/tools/lookup_factor":          { position: "52%", volLabel: "vol iv" },
+  "/tools/lookup_zone":            { position: "67%", volLabel: "vol v" },
+  "/tools/list_archetypes":        { position: "83%", volLabel: "vol vi" },
+  "/tools/list_zones":             { position: "83%", volLabel: "vol vi" },
   "/tools/validate_world_element": { position: "90%", volLabel: "vol vii" },
 };
 
