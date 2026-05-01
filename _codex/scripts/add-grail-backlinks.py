@@ -122,8 +122,14 @@ def patch_mibera(fpath, grail_name, grail_slug, dry_run=False):
     return True
 
 
-def grail_image_url(slug):
-    """Construct CDN URL for a grail image."""
+def grail_image_url(slug, grail_md_path=None):
+    """Get CDN URL for a grail image — read from the .md file if available."""
+    if grail_md_path and grail_md_path.exists():
+        content = grail_md_path.read_text(encoding="utf-8")
+        import re
+        match = re.search(r'!\[.*?\]\((https://[^)]+)\)', content)
+        if match:
+            return match.group(1)
     return f"https://{CDN_HOST}/Mibera/grails/{slug}.png"
 
 
@@ -138,7 +144,7 @@ def update_grails_jsonl(grails, dry_run=False):
             "category": g.get("category", ""),
             "slug": g["slug"],
             "description": g.get("description", ""),
-            "image": grail_image_url(g["slug"]),
+            "image": grail_image_url(g["slug"], GRAILS_DIR / f"{g['slug']}.md"),
         }
         entries.append(entry)
 
