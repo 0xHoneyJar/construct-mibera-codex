@@ -38,14 +38,14 @@ type GrimoireMeta = { position: string; volLabel: string };
 // P = (C - 100) / 12. Pixel-center estimates were ~30px too-low on
 // initial pass; bumped each by ~3% so numerals sit centered in icon.
 const GRIMOIRE_BY_PATH: Record<string, GrimoireMeta> = {
-  "/tools/lookup_mibera":          { position: "6%",   volLabel: "vol i" },
-  "/tools/lookup_archetype":       { position: "22%",  volLabel: "vol ii" },
-  "/tools/lookup_grail":           { position: "37%",  volLabel: "vol iii" },
-  "/tools/lookup_factor":          { position: "53%",  volLabel: "vol iv" },
-  "/tools/lookup_zone":            { position: "68%",  volLabel: "vol v" },
-  "/tools/list_archetypes":        { position: "84%",  volLabel: "vol vi" },
-  "/tools/list_zones":             { position: "84%",  volLabel: "vol vi" },
-  "/tools/validate_world_element": { position: "100%", volLabel: "vol vii" },
+  "/tools/lookup_mibera":          { position: "6%",  volLabel: "vol i" },
+  "/tools/lookup_archetype":       { position: "19%", volLabel: "vol ii" },
+  "/tools/lookup_grail":           { position: "37%", volLabel: "vol iii" },
+  "/tools/lookup_factor":          { position: "50%", volLabel: "vol iv" },
+  "/tools/lookup_zone":            { position: "65%", volLabel: "vol v" },
+  "/tools/list_archetypes":        { position: "81%", volLabel: "vol vi" },
+  "/tools/list_zones":             { position: "81%", volLabel: "vol vi" },
+  "/tools/validate_world_element": { position: "90%", volLabel: "vol vii" },
 };
 
 const DEFAULT_META: GrimoireMeta = { position: "50%", volLabel: "the codex" };
