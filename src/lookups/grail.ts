@@ -30,7 +30,7 @@ function loadGrails(): GrailCache {
       continue;
     }
     if (typeof parsed !== "object" || parsed === null) continue;
-    const e = parsed as GrailEntry & { slug?: string };
+    const e = parsed as GrailEntry;
     if (typeof e.id === "number") byId.set(e.id, e);
     if (typeof e.slug === "string") bySlug.set(e.slug.toLowerCase(), e);
     if (typeof e.name === "string") byName.set(e.name.toLowerCase(), e);

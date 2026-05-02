@@ -1,6 +1,29 @@
-# Beacon MCP declaration for construct-mibera-codex
-# Generated following the constructs-mcp-shape doctrine
-# (see vault: constructs-mcp-shape, constructs-mcp-deployment-topology)
+# Beacon MCP + CLI declaration for construct-mibera-codex
+# Generated following the constructs-mcp-shape + construct-surface-decision-tree doctrines
+# (see vault: constructs-mcp-shape, constructs-mcp-deployment-topology, construct-surface-decision-tree)
+
+# Bucket-1 surface (per `~/vault/wiki/concepts/construct-surface-decision-tree.md`):
+# stateless data-shaped construct with both human + agent consumers — CLI primary,
+# MCP wraps. Subcommands mirror MCP tools 1:1 (parallel verbs, cross-construct legibility).
+
+cli:
+  binary: codex
+  entry: bin/codex.ts
+  install: npx @0xhoneyjar/construct-mibera-codex   # or pack-local via Loa
+  subcommands:
+    - codex lookup zone <slug>
+    - codex lookup archetype <name>
+    - codex lookup factor <factor-id>
+    - codex lookup grail <id|slug|name> [--field=<name>]
+    - codex lookup mibera <token-id>
+    - codex list zones
+    - codex list archetypes
+    - codex validate <type> <value> [--consumer-hint=<id>]
+  output: stdout JSON (compact JSON via --field=<name> for raw text)
+  exit_codes:
+    0: success
+    1: not_found
+    2: usage_error
 
 mcp:
   shape: data

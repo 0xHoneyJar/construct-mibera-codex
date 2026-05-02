@@ -65,6 +65,26 @@
 
 ## Decisions
 
+### Session 07 — bucket-1 CLI surface (2026-05-02)
+
+Session 07 ships `bin/codex.ts` as the bucket-1 CLI half (per `~/vault/wiki/concepts/construct-surface-decision-tree.md`, the new doctrine page extending mcp-wraps-cli-pattern). Solves construct-mibera-codex#62 (grail image URL discovery friction).
+
+Surface delivered:
+- 8 CLI subcommands mirroring 8 MCP tools 1:1 (parallel verbs, cross-construct legibility invariant)
+- Slug convention documented in `grails/README.md` (lowercase + hyphens + `.png`) with provenance back to issue #62
+- `lookup_grail` MCP tool description updated to surface `image` / `original_image` / `attributes` fields explicitly; same `src/lookups/grail.ts` reads serve both surfaces (data-as-truth)
+- `GrailEntry` type extended with `image` / `original_image` / `attributes[]` fields to match the canonical NFT-metadata shape now in `_codex/data/grails.jsonl`
+
+Spec deviations (per `feedback_spec_deviation_pattern` — surface in NOTES, don't avoid):
+
+1. **Bare argv parsing instead of commander.js / yargs** (seed §4.2 mentioned either). Reason: keeps deps stable (no lockfile churn); `--help` is hand-written, which lets it match MCP tool descriptions character-for-character per ALEXANDER craft lens. Trade-off: ~70 lines more code; commander would have given typo suggestions for free.
+2. **Initial v1 added an `image_url` field to grails.jsonl on the working branch; on rebase to main this collided with main's already-shipped `image` / `original_image` / `attributes` shape** (migrate-cdn-urls.py migration). Resolved by deferring to main's canonical shape — session 07 owns the *CLI surface* and the *slug-convention documentation*, not the data layer. Field references throughout the session 07 doctrine + bonfire reference + CLI examples were renamed `image_url` → `image` to match.
+3. **`GrailEntry.slug` formalized as required field** (was previously cast-as-optional with `e as GrailEntry & { slug?: string }` in `src/lookups/grail.ts`). Pre-existing data has `slug` for all 43 entries; the type now reflects ground truth. No runtime change.
+
+Doctrine note: this construct is now the reference implementation for bucket-1 (per `construct-surface-decision-tree.md` §5 worked example). Other MCP-only constructs (rosenzu, emojis, freeside_auth) are V2 candidates — wait for second-instance friction before generalizing.
+
+V1.5 deferred: KEEPER pass with Adasuna (external Loa user) — validate the install + invocation flow when accessed via `loa /constructs install mibera-codex` rather than this repo's local dev path.
+
 ### P2 Item 1: Schema meta blocks with confidence levels — IMPLEMENTED (Cycle 012)
 Added `x-codex-confidence` and `x-codex-source` annotations to all 65 fields across 8 schema files. Used JSON Schema `x-` extension mechanism (non-breaking). Three confidence levels: canonical (77%), derived (1.5%), community (21.5%). Seven source types: contract-metadata, project-lore, project-asset, editorial, research, artist, classification.
 
