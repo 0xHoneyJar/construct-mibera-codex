@@ -1,13 +1,16 @@
 ---
 cycle: micodex-09a
 date: 2026-05-02
+revised: 2026-05-02 (post deploy-failure investigation)
 witness_persona: Margaret Hamilton (canon · 0.1.0)
 register: smol
-status: 🟡 operator-bounded · awaits live trial
+status: 🔴 deploy-blocked · prod stuck at v1.1.0 awaiting PR #69 merge + Railway redeploy
 inputs:
-  - construct-mibera-codex@1.4.0 (PR #65 merged 2026-05-02T22:30:53Z, b724391c)
-  - tests-smoke/eval-corpus.jsonl (58/58 = 100% per session 09a)
-  - Railway deploy https://codex-mcp-production.up.railway.app (healthz 200, MCP transport responsive)
+  - construct-mibera-codex@1.4.0 source on main (PR #65 merged 2026-05-02T22:30:53Z, b724391c)
+  - tests-smoke/eval-corpus.jsonl (58/58 = 100% per session 09a — verified LOCAL only)
+  - Railway prod: https://codex-mcp-production.up.railway.app + https://mcp.0xhoneyjar.xyz/codex (gateway)
+  - Railway deploy 828bff67 (2026-05-02T23:26Z) FAILED — node-llama-cpp postinstall needs git/make/glibc; alpine lacks all three. Fix in PR #69.
+  - deployed serverInfo.version: 1.1.0 (last successful build pre-PR-65) — verified via `tools/list` against gateway: only 8 tools, NO `search_codex`
 sources:
   - ~/bonfire/grimoires/bonfire/specs/micodex-eval-corpus-2026-05-02.md (session 09a — substrate proof)
   - ~/bonfire/grimoires/bonfire/specs/micodex-integration-qa-2026-05-02.md (session 09b — integration QA, gates on this checklist)
@@ -26,14 +29,16 @@ audience: operator + Gumi + community
 
 ### 🟢 Path A — MCP deeplink (1-click · for Gumi/devs/operator using Cursor or VSCode)
 
-**Cursor**:
+**Canonical URL**: `https://mcp.0xhoneyjar.xyz/codex/mcp` (freeside-mcp-gateway routes to upstream codex MCP). Use the canonical domain — Railway raw URL works but isn't load-balanced/aliased.
+
+**Cursor** (canonical-domain config):
 ```
-cursor://anysphere.cursor-deeplink/mcp/install?name=codex&config=eyJuYW1lIjoiY29kZXgiLCJ0eXBlIjoiaHR0cCIsInVybCI6Imh0dHBzOi8vY29kZXgtbWNwLXByb2R1Y3Rpb24udXAucmFpbHdheS5hcHAvbWNwIn0=
+cursor://anysphere.cursor-deeplink/mcp/install?name=codex&config=eyJuYW1lIjoiY29kZXgiLCJ0eXBlIjoiaHR0cCIsInVybCI6Imh0dHBzOi8vbWNwLjB4aG9uZXlqYXIueHl6L2NvZGV4L21jcCJ9
 ```
 
-**VSCode**:
+**VSCode** (canonical-domain config):
 ```
-vscode:mcp/install?%7B%22name%22%3A%22codex%22%2C%22type%22%3A%22http%22%2C%22url%22%3A%22https%3A//codex-mcp-production.up.railway.app/mcp%22%7D
+vscode:mcp/install?%7B%22name%22%3A%22codex%22%2C%22type%22%3A%22http%22%2C%22url%22%3A%22https%3A//mcp.0xhoneyjar.xyz/codex/mcp%22%7D
 ```
 
 **Claude Desktop / other clients** (manual config snippet):
@@ -41,11 +46,11 @@ vscode:mcp/install?%7B%22name%22%3A%22codex%22%2C%22type%22%3A%22http%22%2C%22ur
 {
   "name": "codex",
   "type": "http",
-  "url": "https://codex-mcp-production.up.railway.app/mcp"
+  "url": "https://mcp.0xhoneyjar.xyz/codex/mcp"
 }
 ```
 
-Hosted at `https://codex-mcp-production.up.railway.app/mcp` (Railway Path B HTTP transport · streamable-http). No auth required for V1.
+⚠️ **Today's deployed version is v1.1.0** — `search_codex` (intent layer) is NOT yet available. `lookup_grail`, `lookup_mibera`, `lookup_zone`, `lookup_archetype`, `lookup_factor`, `list_zones`, `list_archetypes`, `validate_world_element` work today. Wait for PR #69 (Dockerfile fix) merge + Railway redeploy → v1.4.0 → all 9 tools.
 
 ### 🟡 Path B — CLI install (for developers comfortable with npm + qmd peer dep)
 
@@ -66,7 +71,53 @@ Heavier setup than Path A — qmd peer + index build (~30-90s) before first quer
 
 ---
 
-## scenarios (7 surfaces · IMPACT-ordered)
+## scenarios (8 surfaces · S0 added post deploy-failure · IMPACT-ordered)
+
+### S0 — 🔴 deploy-version verification (PRECONDITION for S1 / S3 / S5)
+
+**setup**: from any shell, run an MCP `initialize` against the deployed gateway and confirm version + tool surface match what main HEAD claims.
+
+```sh
+curl -sS -X POST https://mcp.0xhoneyjar.xyz/codex/mcp \
+  -H "Content-Type: application/json" \
+  -H "Accept: application/json, text/event-stream" \
+  -d '{"jsonrpc":"2.0","id":1,"method":"initialize","params":{"protocolVersion":"2024-11-05","capabilities":{},"clientInfo":{"name":"witness-s0","version":"0.1"}}}'
+```
+
+then with the returned session id (extract `mcp-session-id` header):
+
+```sh
+SID=...  # from initialize response headers
+curl -sS -X POST https://mcp.0xhoneyjar.xyz/codex/mcp \
+  -H "Content-Type: application/json" -H "Accept: application/json, text/event-stream" \
+  -H "mcp-session-id: $SID" \
+  -d '{"jsonrpc":"2.0","id":2,"method":"notifications/initialized"}' > /dev/null
+
+curl -sS -X POST https://mcp.0xhoneyjar.xyz/codex/mcp \
+  -H "Content-Type: application/json" -H "Accept: application/json, text/event-stream" \
+  -H "mcp-session-id: $SID" \
+  -d '{"jsonrpc":"2.0","id":3,"method":"tools/list"}' | head -3
+```
+
+**expected** (post PR #69 + redeploy):
+- `serverInfo.version: "1.4.0"`
+- tools/list contains `search_codex` AND the 8 v1.1.0 tools (`lookup_grail`/`lookup_mibera`/`lookup_zone`/`lookup_archetype`/`lookup_factor`/`list_zones`/`list_archetypes`/`validate_world_element`)
+
+**📊 capture**:
+- Save initialize + tools/list responses to `grimoires/loa/qa/captures/micodex-09a/s0-deploy-version/`
+- Note the deploy timestamp from Railway dashboard
+
+**❌ triage** (today's state · PRE-FIX):
+- `serverInfo.version: "1.1.0"` AND tools/list missing `search_codex` → **prod is stale**, PR #65 v1.4.0 source on main never built; check Railway deploy log for build failure (current state: deploy 828bff67 failed on `node-llama-cpp` postinstall — alpine missing git/make/glibc; PR #69 fixes by switching to `node:20-slim`)
+- initialize returns 5xx → gateway down; check `https://mcp.0xhoneyjar.xyz/healthz` directly
+- initialize returns 401 → gateway access policy changed; check `freeside-mcp-gateway` registry config
+- after PR #69 merges and Railway rebuilds: re-run S0 → expect `1.4.0` + 9 tools
+
+**STOP-PROCEED gate**: do NOT run S1/S3/S5 (which assert against `search_codex`) until S0 returns `1.4.0`. S2 (CLI), S4 (KEEPER source via Cursor), S6 (refusal cadence), S7 (Discord bot deploy) work against the v1.1.0 surface (lookup_*-only) and can proceed today.
+
+**goal**: catches the deploy-vs-source mismatch BEFORE any downstream scenario asserts. Hamilton discipline: trust the deployment, not the diff. The diff says v1.4.0; the deployment says v1.1.0; only the deployment counts.
+
+---
 
 ### S1 — 🟢 MCP deeplink install + first query (Cursor)
 
@@ -116,7 +167,7 @@ Heavier setup than Path A — qmd peer + index build (~30-90s) before first quer
 
 ---
 
-### S3 — 🟢 substrate-truth seed cases (any path · proves 09a corpus is real)
+### S3 — 🟢 substrate-truth seed cases (any path · proves 09a corpus is real · GATED ON S0=v1.4.0)
 
 **setup**: from any client (Cursor / CLI / Claude Desktop), run these 5 queries against `search_codex`:
 
@@ -273,6 +324,7 @@ If this checklist's S1-S7 all green, MICODEX 09a is `🟢 true in the world` —
 
 ## STOP-MERGE gates
 
+- 🔴 if S0 returns `serverInfo.version: "1.1.0"` → DO NOT advertise the MCP deeplink to community yet; PR #69 (Dockerfile fix) MUST land + Railway must redeploy successfully first. Path A and Path C are partial-functional (lookup_* tools work; search_codex doesn't).
 - 🔴 if S2 reproduces the `vec0` SQLite error → KRANZ fix didn't ship to npm; bump `@tobilu/qmd` peer dep MIN to `^2.1.0` in published package and republish
-- 🔴 if S3 returns wrong refs → substrate corpus drift between local repo and Railway; redeploy Railway with current main
+- 🔴 if S3 returns wrong refs (post-S0-green) → substrate corpus drift between local repo and Railway; redeploy Railway with current main
 - 🔴 if S6 returns false positives at score ≥0.85 → empty-expected discipline broken; investigate qmd index OR add cases to corpus and re-run harness
