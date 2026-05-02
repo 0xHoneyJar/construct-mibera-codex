@@ -25,19 +25,29 @@ RUN pnpm install --frozen-lockfile
 # instead of ^2.1.0 caret range — bump intentionally.
 RUN npm install -g @tobilu/qmd@2.1.0
 
-# UID-portable qmd cache location (bridgebuilder #70 F4 root-cache-path).
-# Default ~/.cache/qmd assumes runtime user has $HOME=/root; setting
-# XDG_CACHE_HOME makes the index location explicit and survives non-root
-# `USER` directives, Kubernetes runAsNonRoot, or `docker run -u <uid>`.
-ENV XDG_CACHE_HOME=/opt/qmd-cache
-
 COPY . .
 RUN pnpm run build
 
 # Pre-build the qmd codex collections (codex-grails + codex-core-lore) in the
 # image. Without this step, search_codex returns "qmd_unavailable" at runtime
 # even though the binary is on PATH — the qmd index is what makes search work.
-# Lands at /opt/qmd-cache/qmd/ (XDG_CACHE_HOME set above) so it's UID-portable.
+#
+# qmd splits state across THREE locations (verified via local install + qmd source
+# inspection 2026-05-02 post #70 deploy failure):
+#   - ~/.config/qmd/index.yml      collection registry (XDG-config)
+#   - ~/.cache/qmd/index.sqlite    content + embeddings (XDG-cache)
+#   - ~/.cache/qmd/models/         embedding model files (HARDCODED homedir/.cache,
+#                                    NOT XDG-respecting per dist/llm.js:64)
+#
+# Earlier #70 attempted XDG_CACHE_HOME=/opt/qmd-cache for non-root portability,
+# but that surfaced two bugs: (1) only redirects ~/.cache, not the registry at
+# ~/.config; (2) doesn't redirect the model cache path. Net: runtime returned
+# "qmd collection codex-grails not found" because the registry yaml was missing.
+#
+# Pragmatic fix: don't rebase qmd's paths. Let it write defaults (~/.config +
+# ~/.cache) in builder, then COPY both directories verbatim to runtime. The
+# bridgebuilder #70 F4 non-root portability concern was theoretical — Railway
+# runs as root by default; if non-root deploy is ever needed, address then.
 RUN bash scripts/build-micodex-index.sh
 
 FROM node:20-slim
@@ -55,22 +65,30 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 
 # qmd: copy the global package (where the JS + node-llama-cpp .node binary live)
 # + symlink the bin (preserves __dirname-relative require resolution per
-# bridgebuilder #70 F1) + copy the prebuilt index. searchCodex
-# (src/lookups/search.ts:120) spawnSync's `qmd` from PATH at runtime;
-# the .node addon dlopens libstdc++/libgomp installed above. XDG_CACHE_HOME
-# duplicated here so qmd at runtime finds the index at the same explicit path.
+# bridgebuilder #70 F1) + copy BOTH state directories at the default paths.
+# searchCodex (src/lookups/search.ts:120) spawnSync's `qmd` from PATH at runtime;
+# the .node addon dlopens libstdc++/libgomp installed above.
+#
+# qmd state split (see builder comment above):
+#   /root/.config/qmd/   collection registry — REQUIRED, missed in #70
+#   /root/.cache/qmd/    content + embeddings + models — REQUIRED for query
+#
+# Image-size cost: ~/.cache/qmd holds embedding model (~50-150MB depending on model).
+# That's the trade for working search_codex without runtime model download.
 COPY --from=builder /usr/local/lib/node_modules/@tobilu /usr/local/lib/node_modules/@tobilu
 RUN ln -s /usr/local/lib/node_modules/@tobilu/qmd/bin/qmd /usr/local/bin/qmd
-ENV XDG_CACHE_HOME=/opt/qmd-cache
-COPY --from=builder /opt/qmd-cache /opt/qmd-cache
-RUN chmod -R a+r /opt/qmd-cache
+COPY --from=builder /root/.config/qmd /root/.config/qmd
+COPY --from=builder /root/.cache/qmd /root/.cache/qmd
 
-# Smoke-test the qmd binary at build time (bridgebuilder #70 F5). Catches:
+# Smoke-test the qmd binary AND its access to the prebuilt index at build time
+# (bridgebuilder #70 F5 + this PR's tighter check). Catches:
 # - bin symlink resolution failure
 # - missing libstdc++/libgomp dependencies
-# - corrupted/missing index from XDG_CACHE_HOME mismatch
-# Build fails loudly here instead of search_codex returning errors at first call.
-RUN qmd --version && qmd status | head -5
+# - registry/cache mismatch (the exact failure mode #70 hit on first deploy)
+# `qmd status` loads the registry; if collections list is empty here, the COPY
+# missed the registry. Build fails loudly instead of search_codex erroring at
+# first call.
+RUN qmd --version && qmd status
 
 COPY --from=builder /app/node_modules ./node_modules
 COPY --from=builder /app/dist ./dist
