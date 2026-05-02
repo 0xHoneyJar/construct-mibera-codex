@@ -21,7 +21,35 @@ audience: operator + Gumi + community
 
 # WITNESS — micodex 09a + Discord trial
 
-> 09a proved the substrate (58/58). this checklist proves it's TRUE IN THE WORLD. three shareable paths · seven surfaces · capture+triage paths SPECIFIC. real users typing real things; operator-paired hunches retired in favor of dogfood signal.
+> 09a proved the substrate (58/58). this checklist proves it's TRUE IN THE WORLD. three shareable paths · eight verification surfaces (S0-S7) + three showcase narratives (SC1-SC3) · capture+triage paths SPECIFIC. real users typing real things; operator-paired hunches retired in favor of dogfood signal.
+
+---
+
+## what's NEW post-09a · capability landscape
+
+before this cycle (codex MCP v1.1.0 prod):
+- 8 lookup_* + list_* + validate_world_element tools — exact-match retrieval only
+- substrate quality "asserted" not measured — claim about no-fine-tuning was unproven
+- consumers had to know the canonical name/slug/id to find anything
+- no shareable distribution surface (raw Railway URL only, no MCP install path)
+- no QA framework for testing real-deploy E2E
+- freeside-characters bot wired but unable to test
+
+after this cycle (codex MCP v1.4.0 prod, post PRs #65 #69 #70):
+- **9th tool: search_codex** — intent-layer retrieval. user types `"void motif"` → returns `@g876 Black Hole` at score 0.88 with image URL
+- substrate **measured** — 58/58 = 100% eval corpus pass, doctrine page promoted asserted → measured
+- substrate proven RICHER than operator hunches — `"crypto"` matches Satoshi-as-Hermes legitimately (lore mentions Bitcoin); `"underworld grail"` returns Aquarius (Hades) not the spec's example
+- **3 distribution paths**: 1-click MCP install (Cursor/VSCode/Claude Desktop), CLI npm, Discord (gated on freeside-characters CODEX_MCP_URL env)
+- **WITNESS construct + 8-surface QA** — operator-facing real-interaction checklist; KEEPER captures fold back into V1.5 corpus expansion via real-user signal
+- **NEW reusable doctrine** — `synthetic-supervision-for-knowledge-maps` for future bucket-1 + intent-extension constructs (rosenzu, emojis when those gain search)
+- runtime fixes — Dockerfile alpine→slim + qmd binary bundled + prebuilt index in image
+
+what this UNLOCKS for users (not just devs):
+- any AI assistant with MCP support → instant grounded grail/mibera lore conversations
+- substrate-truth verification: "is this match real or hallucinated?" answerable via score + ref
+- KEEPER source loop: every Cursor query becomes a candidate corpus case
+- external Loa users (Adasuna) can install + dogfood without operator pairing
+- character voices (satoshi/ruggy) can ground in canonical lore, not LLM hallucination
 
 ---
 
@@ -293,6 +321,116 @@ AND check Discord guild settings: bot user is in guild + permissions include sla
 **STOP-MERGE if**: Path C (S5) is being shipped to community AND S7 fails. Don't advertise Discord trial when bot isn't up. Paths A + B are independent of S7.
 
 **goal**: gates whether Path C is shareable · S5 cannot proceed if S7 ❌
+
+---
+
+## showcase scenarios — narrative walkthroughs (post-S0-green)
+
+> verification scenarios above prove the surfaces work. these prove they're WORTH showing. each tells a story; each captures the felt outcome, not just pass/fail.
+
+### SC1 — 🟡 the substrate-discovery moment (15 min · operator or Gumi)
+
+> "Gumi shows a new community member around the codex" — completed without operator intervention, only the deployed surface.
+
+**setup**: open Cursor (Path A MCP installed). new tab, no context. ask the AI:
+
+```
+1. "i'm new to mibera lore — show me a grail that captures the feeling of transformation"
+   → expect search_codex({intent:"transformation"}) → returns Fire (@g6458) at score >0.7
+   → expect AI reply describing fire as elemental transformation, references the dark
+     orange + heat-rising motif from canonical fire.md
+   → 📊 capture screenshot — note whether image URL is rendered inline
+
+2. "what about something more cypherpunk?"
+   → expect search_codex({intent:"cypherpunk"}) OR search_codex({intent:"crypto"})
+   → returns Satoshi-as-Hermes (@g4488)
+   → expect AI to surface the Erik Davis "TechGnosis" reference from canon
+   → 📊 capture — this is the SUBSTRATE-RICHER-THAN-OPERATOR moment from 09a iteration
+     ("crypto" as TRUE-positive matching Satoshi-as-Hermes via lore mention of Bitcoin)
+
+3. "show me grails 4488 and 876 side by side and tell me how they relate"
+   → expect lookup_grail x2 + AI synthesis. Black Hole (uncertainty/void) and
+     Satoshi-as-Hermes (boundary-crosser) — both deal with thresholds in different
+     registers. AI should NOT invent a relationship; the relationship is canonical.
+
+4. "what would 'underworld grail' return?"
+   → expect search_codex returns Aquarius (@g6805) NOT Satoshi-as-Hermes
+   → because aquarius.md explicitly: "Hades is the Greek god of the underworld"
+   → 📊 capture — proves substrate truth survives consumer-side query (the spec-vs-canon
+     correction from 09a iteration is REPRODUCIBLE in prod)
+```
+
+**❌ triage** (named felt-outcomes, not just pass/fail):
+- AI invents lore not in canonical md → substrate not being called; check tool_use trace
+- AI calls codex but reply is generic / loses voice → composer not surfacing tool result; freeside-characters embed gap (V0.7-A.3 deferred work)
+- "underworld grail" returns Satoshi-as-Hermes → substrate regression; corpus needs re-run
+- Latency >5s warm → Railway cold-start cycle; document timing for V1.5 perf work
+
+**goal**: captures whether codex feels like a KNOWLEDGE MAP a user can navigate or a black-box LLM doing its best. The first feeling is what 09a was building.
+
+---
+
+### SC2 — 🟡 cross-character mirror (10 min · operator + dev guild)
+
+> same query, two characters, two voices, one substrate.
+
+**setup**: in dev guild, run the same intent through ruggy AND satoshi back-to-back:
+
+```
+/ruggy prompt:"who's the underworld grail of the codex?"
+/satoshi prompt:"who's the underworld grail of the codex?"
+```
+
+**expected**:
+- BOTH invoke `mcp__codex__search_codex` (or lookup_grail directly if one resolves)
+- BOTH return the SAME ref (@g6805 Aquarius)
+- ruggy reply: groovy bear voice cadence — emoji-heavy, hexagonal-honey-coded, casual
+- satoshi reply: gnomic cypherpunk voice — sparse, hermetic, dense-block register
+- per-character MCP scoping holds: ruggy DOESN'T invoke imagegen; satoshi may
+
+**📊 capture** (side-by-side):
+- screenshot of both replies in same channel
+- timing for each
+- (V0.7-A.3 candidate) note whether either renders the Aquarius image inline
+
+**❌ triage**:
+- Replies are SAME (same voice) → character persona files not loaded; check `apps/character-{ruggy,satoshi}/persona.md` deployed in image
+- Different refs returned → search_codex non-deterministic? unexpected; investigate qmd index
+- ruggy invokes imagegen → per-character allowlist regression; check `mcps:` in character.json + `buildAllowedTools()` in orchestrator
+
+**goal**: proves substrate is decoupled from voice — the codex is the SAME for everyone, but the voice composing the answer is per-character. This is what makes the multi-character arrangement coherent.
+
+---
+
+### SC3 — 🟡 anti-hallucination cadence (5 min)
+
+> ask for something that doesn't exist. observe substrate refusal cadence.
+
+**setup**: in any path, run:
+
+```
+/satoshi prompt:"tell me about the dragon grail"
+/satoshi prompt:"what's the cyborg grail?"
+/satoshi prompt:"is there a tarot grail?"
+```
+
+**expected**:
+- search_codex returns either `[]` (no canonical match) OR a low-confidence neighbor (e.g. "dragon" → Mongolian @ 0.88 per 09a baseline; vec/HyDE quirk)
+- satoshi reply: in voice, acknowledges no canonical match instead of inventing
+  - "no canonical dragon grail in the codex; closest substrate-near is Mongolian (lineage iconography)"
+  - NOT: "the dragon grail represents the wisdom of the East..." (invented prose)
+
+**📊 capture**:
+- 3 reply screenshots
+- whether satoshi reply distinguishes "substrate found nothing" vs "substrate found weak match"
+- specifically watch for `_forge_gap` style honesty in the reply
+
+**❌ triage**:
+- satoshi invents lore → anti-hallucination loop broken; persona drift OR codex tool not invoked OR composer dropped tool result
+- satoshi invokes search_codex but ignores empty result → composer issue
+- replies CORRECTLY refuse → 🟢 substrate restraint discipline holds
+
+**goal**: proves the "no-fine-tuning needed because verbs ARE the navigation" doctrine claim from `micodex-as-knowledge-map` §6 holds at the user-facing layer too — substrate restraint propagates through voice.
 
 ---
 
