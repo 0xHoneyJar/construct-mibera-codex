@@ -5,6 +5,43 @@
 
 ---
 
+## Image URL convention
+
+Each grail is hosted at:
+
+```
+https://assets.0xhoneyjar.xyz/Mibera/grails/{slug}.png
+```
+
+where `{slug}` is the canonical slug field from `_codex/data/grails.jsonl` —
+**lowercase ASCII with spaces replaced by hyphens**:
+
+| name | slug | url |
+|---|---|---|
+| Black Hole | `black-hole` | `…/grails/black-hole.png` |
+| Native American | `native-american` | `…/grails/native-american.png` |
+| Satoshi as Hermes | `satoshi-as-hermes` | `…/grails/satoshi-as-hermes.png` |
+| Scorpio | `scorpio` | `…/grails/scorpio.png` |
+
+The `image` field is materialized in `_codex/data/grails.jsonl` for all 43
+entries (alongside `original_image` pointing at the legacy irys URL and an
+NFT-metadata `attributes` array). Programmatic consumers should read `image`
+from there rather than re-deriving from the slug. The convention above is the
+authority that survives if the URL pattern ever changes.
+
+Programmatic access:
+
+- **CLI** — `codex lookup grail black-hole --field=image`
+- **MCP** — `lookup_grail({query: "black-hole"})` → the `image` field is in the response
+- **Raw** — read the relevant line from `_codex/data/grails.jsonl`
+
+The empirical convention was discovered via [issue #62](https://github.com/0xHoneyJar/construct-mibera-codex/issues/62)
+(Adeitasuna, 2026-04-30) — 40 of 42 grails resolved on first guess; multi-word
+names (`Black Hole`, `Native American`) required ~14 HEAD probes each before
+the lowercase-hyphenated form was identified. This document closes that gap.
+
+---
+
 ## Elements (4)
 
 - [Fire](fire.md) · #6458

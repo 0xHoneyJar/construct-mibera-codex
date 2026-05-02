@@ -28,6 +28,20 @@ commands:
     path: commands/codex.md
     description: "Query the Mibera knowledge base"
 
+cli:
+  binary: codex
+  entry: bin/codex.ts
+  declaration: beacon.yaml
+  subcommands:
+    - lookup zone <slug>
+    - lookup archetype <name>
+    - lookup factor <factor-id>
+    - lookup grail <id|slug|name>
+    - lookup mibera <token-id>
+    - list zones
+    - list archetypes
+    - validate <type> <value>
+
 mcp:
   shape: data
   paths:

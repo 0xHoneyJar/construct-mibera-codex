@@ -87,7 +87,7 @@ export function createCodexMcpServer(): McpServer {
 
   server.tool(
     "lookup_grail",
-    "Look up a 1/1 grail by token ID, slug, or display name. Returns id, name, category (element/luminary/concept/zodiac/planet/ancestor/primordial/special/community), description, status. Returns null if not found.",
+    "Look up a 1/1 grail by token ID, slug, or display name. Returns id, name, slug, category (element/luminary/concept/zodiac/planet/ancestor/primordial/special/community), description, image (CDN URL), original_image (legacy irys URL), and attributes (NFT-metadata array). Read the `image` field directly; the slug-derivation convention is documented in grails/README.md (canonical authority). Returns null if not found.",
     z.object({
       query: z
         .string()

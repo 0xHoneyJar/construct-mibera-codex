@@ -30,10 +30,17 @@ function loadGrails(): GrailCache {
       continue;
     }
     if (typeof parsed !== "object" || parsed === null) continue;
-    const e = parsed as GrailEntry & { slug?: string };
+    const e = parsed as GrailEntry;
+    // `slug` and `name` are required per the GrailEntry type — fail loud at
+    // load time if a row drifts. `id` is optional (older entries may lack it).
+    if (typeof e.slug !== "string" || typeof e.name !== "string") {
+      throw new Error(
+        `grail entry missing required slug/name field: ${JSON.stringify(parsed)}`,
+      );
+    }
     if (typeof e.id === "number") byId.set(e.id, e);
-    if (typeof e.slug === "string") bySlug.set(e.slug.toLowerCase(), e);
-    if (typeof e.name === "string") byName.set(e.name.toLowerCase(), e);
+    bySlug.set(e.slug.toLowerCase(), e);
+    byName.set(e.name.toLowerCase(), e);
   }
 
   cache = { byId, bySlug, byName };

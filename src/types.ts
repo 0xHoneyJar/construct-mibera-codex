@@ -75,6 +75,11 @@ export interface MiberaEntry {
   parcel?: number;
 }
 
+export interface GrailAttribute {
+  trait_type: string;
+  value: string;
+}
+
 export interface GrailEntry {
   id?: number;
   name: string;
@@ -89,7 +94,11 @@ export interface GrailEntry {
     | "primordial"
     | "special"
     | "community";
+  slug: string;
   description?: string;
+  image?: string;
+  original_image?: string;
+  attributes?: GrailAttribute[];
   commissioned_for?: string;
   status?: "on-chain" | "pending";
 }
