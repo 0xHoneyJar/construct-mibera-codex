@@ -1,0 +1,44 @@
+---
+title: Anti-hallucination
+description: The librarian's preface — three tiers of claim, one keystone tool, lore that stays grounded.
+---
+
+# anti-hallucination
+
+the festival can't have a Freetech zone. it never did. the codex remembers.
+
+agents talk about miberas. they will reach for words. some of those words have to come from here, or the world drifts.
+
+## three tiers
+
+| tier | what | how the agent treats it |
+| --- | --- | --- |
+| 🔒 **HARD** | zone slugs, archetype names, factor ids, mibera ids, grail ids | must look up. null means null. don't invent. |
+| 🪶 **SOFT** | zone essence, KANSEI tokens, archetype figures and fashion, factor lore | may look up. prefer codex prose where it exists. agent voice allowed within the spirit. |
+| 🎙 **LLM-OWNED** | narrator voice, transitions, atmosphere, response style | agent freely composes. the codex does not police voice. |
+
+## the keystone
+
+every narrator should call [`validate_world_element`](/tools/validate_world_element) before claiming. it returns canonical/not, the closest fuzzy match, the distance.
+
+```json
+{ "type": "archetype", "value": "Freetech" }
+```
+
+```json
+{ "canonical": false, "suggested": "Freetekno", "distance": 3 }
+```
+
+three options from there:
+
+1. correct itself — call [`lookup_archetype`](/tools/lookup_archetype) on the suggestion, use the canonical entry
+2. surface the gap — the suggestion is enough context
+3. log silently to [coverage-gaps](/coverage-gaps), degrade gracefully
+
+## what the codex remembers, what it refuses
+
+- 🪞 there are four archetypes. Freetech is not one. Spiral Tribe is. the codex will not pretend otherwise.
+- 🌀 mibera #1 wears red sunglasses and a fluoro pink face accessory. not purple, not green. the trait is fixed; the codex returns it the same way every time.
+- 🧪 the same prompt to two models can drift. the codex does not. one source. one answer per ID.
+
+HARD-tier closes those drifts. SOFT and LLM-OWNED stay open by design — the world has space for agent voice.

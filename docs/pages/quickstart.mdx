@@ -1,0 +1,94 @@
+---
+title: Quickstart
+description: Three paths to the same eight tools — remote HTTP, local stdio, or direct import.
+---
+
+# quickstart
+
+three doors into the same shelf. the books don't care which you walk through.
+
+three paths. same eight tools. pick whichever matches your harness.
+
+## 🌐 remote http
+
+zero install. point any [mcp 2025-06-18](https://modelcontextprotocol.io/specification/2025-06-18) client at the production endpoint.
+
+```
+https://mcp.0xhoneyjar.xyz/codex/mcp
+```
+
+claude desktop — `~/Library/Application Support/Claude/claude_desktop_config.json`:
+
+```json
+{
+  "mcpServers": {
+    "mibera-codex": {
+      "url": "https://mcp.0xhoneyjar.xyz/codex/mcp"
+    }
+  }
+}
+```
+
+restart claude desktop. the tools appear.
+
+claude code:
+
+```bash
+claude mcp add mibera-codex --url https://mcp.0xhoneyjar.xyz/codex/mcp
+```
+
+chatgpt and other mcp clients — same url. discovery card lives at [`/.well-known/mcp.json`](/discovery).
+
+## 🏠 local stdio
+
+faster. no network hop. for when the codex repo is checked out locally.
+
+```bash
+git clone https://github.com/0xHoneyJar/construct-mibera-codex.git
+cd construct-mibera-codex
+pnpm install
+pnpm mcp
+```
+
+claude desktop config:
+
+```json
+{
+  "mcpServers": {
+    "mibera-codex": {
+      "command": "pnpm",
+      "args": ["--filter", "@0xhoneyjar/construct-mibera-codex", "mcp"],
+      "cwd": "/path/to/construct-mibera-codex"
+    }
+  }
+}
+```
+
+## 📦 direct import
+
+for loa-internal consumers — skill or construct code that needs anti-hallucination but doesn't need a tool surface in the user's claude config. deterministic function call. no http.
+
+```ts
+import {
+  lookupZone,
+  lookupArchetype,
+  validateWorldElement,
+} from "@0xhoneyjar/construct-mibera-codex/dist/src/lookups";
+
+const zone = lookupZone("stonehenge");
+const check = validateWorldElement("archetype", "Freetech");
+//  → { canonical: false, suggested: "Freetekno", distance: 3 }
+```
+
+mcp is for **agentic context** (the result must enter the LLM's reasoning) or **external reach** (the consumer isn't in our process). everything else can import.
+
+## verify
+
+```bash
+curl -X POST $CODEX_MCP_URL/mcp \
+  -H "Content-Type: application/json" \
+  -H "Accept: application/json, text/event-stream" \
+  -d '{"jsonrpc":"2.0","id":1,"method":"initialize","params":{"protocolVersion":"2025-06-18","capabilities":{},"clientInfo":{"name":"smoke","version":"0"}}}'
+```
+
+returns an SSE event with `serverInfo: {"name":"codex-mcp","version":"1.1.0"}` and a `mcp-session-id` header. that's the handshake.

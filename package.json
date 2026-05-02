@@ -5,15 +5,20 @@
   "type": "module",
   "bin": {
     "codex": "./dist/bin/codex.js",
-    "codex-mcp": "./dist/bin/mcp.js"
+    "codex-mcp": "./dist/bin/mcp.js",
+    "codex-mcp-http": "./dist/bin/http.js"
   },
   "scripts": {
     "build": "tsc",
+    "start": "node dist/bin/http.js",
+    "start:http": "node dist/bin/http.js",
     "codex": "tsx bin/codex.ts",
     "codex:dev": "tsx watch bin/codex.ts",
     "codex:index": "bash scripts/build-codex-index.sh",
     "mcp": "tsx bin/mcp.ts",
     "mcp:dev": "tsx watch bin/mcp.ts",
+    "http": "tsx bin/http.ts",
+    "http:dev": "tsx watch bin/http.ts",
     "prepublishOnly": "tsc"
   },
   "files": [
@@ -28,8 +33,10 @@
     "skills"
   ],
   "dependencies": {
+    "@hono/node-server": "^1.14.1",
     "@modelcontextprotocol/sdk": "^1.18.2",
     "gray-matter": "^4.0.3",
+    "hono": "^4.7.0",
     "zod": "^3.25.28"
   },
   "peerDependencies": {
@@ -48,6 +55,7 @@
   "engines": {
     "node": ">=20"
   },
+  "packageManager": "pnpm@8.15.9",
   "repository": {
     "type": "git",
     "url": "https://github.com/0xHoneyJar/construct-mibera-codex.git"

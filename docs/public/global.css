@@ -1,0 +1,1063 @@
+/* =====================================================================
+ * MIBERA CODEX — global stylesheet
+ * Parchment + ink. Imperial for headings. Switzer for body.
+ * Loaded by vocs via <head> link injection (see vocs.config.ts).
+ * ===================================================================== */
+
+/* ---------- Fonts ---------------------------------------------------- */
+
+@font-face {
+  font-family: "Imperial BT";
+  src: url("/fonts/ImperialBTRoman.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Switzer";
+  src: url("/fonts/Switzer.ttf") format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Clash Display";
+  src: url("/fonts/ClashDisplay.ttf") format("truetype");
+  font-weight: 200 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ---------- Tokens (Nier / Mibera mode) ------------------------------ */
+
+:root {
+  /* Palette */
+  --nier-bg-primary:     oklch(0.838 0.026 75.2);
+  --nier-bg-panel:       oklch(0.788 0.026 75.2);
+  --nier-bg-panel-dark:  oklch(0.737 0.026 75.2);
+  --nier-text-primary:   oklch(0.203 0.01  67.2);
+  --nier-text-secondary: oklch(0.336 0.009 67.5);
+  --nier-text-muted:     oklch(0.456 0.008 67.6);
+  --nier-border-dark:    oklch(0.272 0.009 67.4);
+  --nier-border-medium:  oklch(0.397 0.009 67.6);
+  --nier-border-light:   oklch(0.518 0.016 53.1);
+
+  /* MiDi rule tokens — ink at low opacity, the way mibera-dimensions
+   * draws hairlines. Three registers:
+   *   - subtle (6%):  whisper, between-rows in lists, logo divider
+   *   - soft   (10%): structural separation that stacks (shelves, frames)
+   *   - medium (20%): the MiDi canonical — `border-nier-text/20` per
+   *                   mibera-dimensions/grimoires/taste.md. Use for any
+   *                   rule a reader expects to register as a line. */
+  --nier-rule-subtle:    color-mix(in oklch, var(--nier-text-primary) 6%, transparent);
+  --nier-rule-soft:      color-mix(in oklch, var(--nier-text-primary) 10%, transparent);
+  --nier-rule-medium:    color-mix(in oklch, var(--nier-text-primary) 20%, transparent);
+  --nier-accent:         oklch(0.203 0.01  67.2);
+  --nier-header-bg:      oklch(0.203 0.01  67.2);
+  --nier-header-text:    oklch(0.838 0.026 75.2);
+
+  /* Motion — artisan pack physics */
+  --ease-out-expo:    cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in-expo:     cubic-bezier(0.7, 0, 0.84, 0);
+  --ease-in-out-expo: cubic-bezier(0.87, 0, 0.13, 1);
+  --spring-gentle:    cubic-bezier(0.34, 1.56, 0.64, 1);
+  --spring-snappy:    cubic-bezier(0.22, 0.61, 0.36, 1);
+  --spring-bouncy:    cubic-bezier(0.68, -0.55, 0.27, 1.55);
+
+  --duration-instant: 100ms;
+  --duration-fast:    150ms;
+  --duration-normal:  250ms;
+  --duration-slow:    400ms;
+  --duration-slower:  600ms;
+}
+
+/* ---------- Vocs override layer -------------------------------------- *
+ * Vocs's vanilla-extract theme writes tokens to :root and :root.dark.
+ * Our /global.css <link> is rendered BEFORE the vite bundle in <head>,
+ * so source order would lose. We use `html:root` (specificity 0,0,2 vs
+ * vocs's 0,0,1) to win cleanly — no !important, no layer juggling.
+ * Both light and dark scopes are pinned to parchment; Mibera mode
+ * is the only mode and any toggle still reads correctly.
+ * ===================================================================== */
+
+html:root,
+html:root.dark {
+  /* Backgrounds */
+  --vocs-color_background:           var(--nier-bg-primary);
+  --vocs-color_background2:          var(--nier-bg-panel);
+  --vocs-color_background3:          var(--nier-bg-panel);
+  --vocs-color_background4:          var(--nier-bg-panel-dark);
+  --vocs-color_background5:          var(--nier-bg-panel-dark);
+  --vocs-color_backgroundDark:       var(--nier-bg-panel);
+  --vocs-color_backgroundDarkTint:   var(--nier-bg-panel-dark);
+  --vocs-color_backgroundAccent:     var(--nier-text-primary);
+  --vocs-color_backgroundAccentHover:var(--nier-text-secondary);
+  --vocs-color_backgroundAccentText: var(--nier-bg-primary);
+
+  /* Borders */
+  --vocs-color_border:        var(--nier-border-medium);
+  --vocs-color_border2:       var(--nier-border-medium);
+  --vocs-color_borderAccent:  var(--nier-border-dark);
+
+  /* Text */
+  --vocs-color_text:        var(--nier-text-primary);
+  --vocs-color_text2:       var(--nier-text-secondary);
+  --vocs-color_text3:       var(--nier-text-muted);
+  --vocs-color_text4:       var(--nier-text-muted);
+  --vocs-color_textHover:   var(--nier-text-primary);
+  --vocs-color_textAccent:  var(--nier-text-primary);
+  --vocs-color_textAccentHover: var(--nier-text-secondary);
+  --vocs-color_heading:     var(--nier-text-primary);
+  --vocs-color_title:       var(--nier-text-primary);
+
+  /* Code blocks read as a deeper page panel rather than dark chrome */
+  --vocs-color_codeCharacterHighlightBackground: var(--nier-bg-panel-dark);
+  --vocs-color_codeCharacterHighlightBorder:     var(--nier-border-medium);
+  --vocs-color_codeHighlightBackground:          var(--nier-bg-panel-dark);
+  --vocs-color_codeHighlightBorder:              var(--nier-border-medium);
+}
+
+/* ---------- Typography ---------------------------------------------- */
+
+:root {
+  --font-imperial: "Imperial BT", "Iowan Old Style", "Palatino", Georgia, serif;
+  --font-switzer:  "Switzer", -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+  --font-clash:    "Clash Display", "Switzer", system-ui, sans-serif;
+}
+
+html,
+body {
+  font-family: var(--font-switzer);
+  font-feature-settings: "ss01", "ss02", "cv01", "cv11";
+  background: var(--nier-bg-primary);
+  color: var(--nier-text-primary);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* No body wallpaper — the brand mark in the sidebar carries the
+ * books-row mark; bleeding it into the page bottom was distracting
+ * behind the outline rail. */
+
+/* Imperial for HEADINGS ONLY — body stays Switzer for sustained reading. */
+h1, h2, h3, h4, h5, h6,
+.vocs_H1, .vocs_H2, .vocs_H3, .vocs_H4, .vocs_H5, .vocs_H6 {
+  font-family: var(--font-imperial);
+  font-weight: 400;
+  letter-spacing: -0.005em;
+  color: var(--nier-text-primary);
+}
+
+h1, .vocs_H1 { letter-spacing: -0.015em; }
+
+/* Code stays mono — vocs ships its own; we only color it. */
+code, pre, .vocs_Code, .vocs_CodeBlock {
+  color: var(--nier-text-primary);
+}
+
+/* Links: ink, not blue. Underlined on hover only — Imperial typeface +
+   reading flow already mark them. */
+a, .vocs_Link {
+  color: var(--nier-text-primary);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color var(--duration-fast) var(--spring-snappy);
+}
+a:hover, .vocs_Link:hover {
+  color: var(--nier-text-primary);
+  border-bottom-color: var(--nier-border-medium);
+}
+
+/* ---------- Top nav (chrome) ---------------------------------------- *
+ * Same panel-dim as the sidebar — together they frame the content
+ * area. The hairline below the bar separates chrome from content
+ * without needing color contrast to do the work.
+ * ===================================================================== */
+
+[class*="vocs_TopNav"] {
+  background: var(--nier-bg-panel);
+  color: var(--nier-text-primary);
+  border-bottom: 1px solid var(--nier-rule-medium);
+}
+
+[class*="vocs_TopNav"] a,
+[class*="vocs_TopNav"] button,
+[class*="vocs_TopNav"] [role="button"] {
+  color: var(--nier-text-primary);
+}
+
+[class*="vocs_TopNav"] a:hover {
+  color: var(--nier-text-primary);
+  opacity: 0.7;
+  border-bottom-color: transparent;
+}
+
+/* Make the title (Imperial) breathe in the bar */
+[class*="vocs_TopNav"] [class*="title"],
+[class*="vocs_Logo"] {
+  font-family: var(--font-imperial);
+  letter-spacing: -0.005em;
+}
+
+/* ---------- Sidebar -------------------------------------------------- *
+ * No hard right rule — that 1px border read as a shadow. The page
+ * separates from the chrome via the wallpaper gradient + spacing alone.
+ * ===================================================================== */
+
+[class*="vocs_Sidebar"] {
+  background: var(--nier-bg-panel);
+  border-right: none;
+  box-shadow: none;
+}
+
+/* Sidebar links don't use the global hover underline — the brand mark,
+ * sidebar items, and footer socials each have their own affordances
+ * (icon slide, padding shift, ribbon notch). Defense-in-depth: kill
+ * border-bottom AND text-decoration on every link inside the sidebar
+ * AND the Socials button (which lives in the footer with class
+ * .vocs_Socials_button — NOT a vocs_Sidebar_* class itself). */
+[class*="vocs_Sidebar"] a,
+[class*="vocs_Sidebar"] a:hover,
+.vocs_Socials_button,
+.vocs_Socials_button:hover {
+  border-bottom: none !important;
+  text-decoration: none !important;
+}
+
+/* Chrome (sidebar + left gutter + footer) sits at panel shade — a
+ * subtle dim that frames the content reading area in primary.
+ * Together: dimmer chrome wraps lighter content. */
+.vocs_DocsLayout_gutterLeft {
+  background-color: var(--nier-bg-panel) !important;
+}
+.vocs_Sidebar_footer {
+  background-color: var(--nier-bg-panel) !important;
+}
+.vocs_Sidebar_footerCurtain {
+  background: linear-gradient(transparent, var(--nier-bg-panel) 80%) !important;
+}
+
+/* Section titles: Imperial uppercase, tracked, with a closing hairline
+ * rule underneath. No ornament — the type weight + tracking + rule do
+ * the chapter-break work. The `html` prefix bumps specificity to
+ * (0,0,1,1) so we beat vocs's layered @layer base rule. */
+html .vocs_Sidebar_sectionTitle {
+  font-family: var(--font-imperial) !important;
+  font-size: 0.85rem !important;
+  font-weight: 400 !important;
+  letter-spacing: 0.18em !important;
+  text-transform: uppercase !important;
+  color: var(--nier-text-primary) !important;
+  padding: 1.5rem 0 0.65rem 0 !important;
+  margin-bottom: 0.5rem !important;
+  border-bottom: 1px solid var(--nier-rule-medium) !important;
+}
+
+/* Search button — vocs renders it with class .vocs_DesktopSearch_search
+ * (the button itself, NOT _searchButton). Mibera register: parchment
+ * panel, ink text, soft rule, sharp corners. */
+.vocs_DesktopSearch_search,
+.vocs_MobileSearch_searchButton,
+[class*="vocs_DesktopSearch_search"]:not([class*="vocs_DesktopSearch_searchCommand"]),
+button[class*="searchButton"] {
+  background: var(--nier-bg-panel) !important;
+  color: var(--nier-text-secondary) !important;
+  border: 1px solid var(--nier-rule-soft) !important;
+  border-radius: 0 !important;
+  font-family: var(--font-switzer) !important;
+  box-shadow: none !important;
+  transition: border-color var(--duration-fast) var(--spring-snappy),
+              color var(--duration-fast) var(--spring-snappy);
+}
+.vocs_DesktopSearch_search:hover,
+.vocs_MobileSearch_searchButton:hover {
+  border-color: var(--nier-rule-medium) !important;
+  color: var(--nier-text-primary) !important;
+  background: var(--nier-bg-panel) !important;
+}
+.vocs_DesktopSearch_searchCommand,
+[class*="vocs_DesktopSearch"] kbd {
+  background: var(--nier-bg-panel-dark) !important;
+  color: var(--nier-text-muted) !important;
+  border: 1px solid var(--nier-rule-subtle) !important;
+  border-radius: 0 !important;
+  font-family: var(--font-switzer) !important;
+}
+
+/* Group spacing: each section is a distinct entry in the codex's TOC.
+ * Suppress vocs's default 1px between-section border — typographic
+ * hierarchy + generous breath does the work. */
+.vocs_Sidebar_navigation > .vocs_Sidebar_group > .vocs_Sidebar_section + .vocs_Sidebar_section {
+  border-top: none !important;
+  margin-top: 0.65rem;
+}
+
+/* Sidebar gets horizontal padding; the active-notch lives in the gutter
+ * between the sidebar's left edge and the row text — like a marginalia
+ * mark in a printed grimoire. */
+.vocs_Sidebar_navigation {
+  padding: 0.5rem 0.75rem 1rem 1rem !important;
+}
+.vocs_Sidebar_items {
+  padding: 0 !important;
+}
+.vocs_Sidebar {
+  padding: 0 !important;
+}
+
+/* Items: switzer body, full ink, comfortable rhythm. Hover slides the
+ * row right by 0.4rem; active gets an ink notch in the marginalia
+ * gutter — matches the outline rail so the two rails read as peers.
+ * `html` prefix for defensive specificity against vocs @layer base. */
+html .vocs_Sidebar_item.vocs_Link {
+  font-family: var(--font-switzer) !important;
+  font-size: 0.92rem !important;
+  font-weight: 400 !important;
+  color: var(--nier-text-primary) !important;
+  border-bottom: none !important;
+  padding: 0.32rem 0 !important;
+  position: relative;
+  transition: color var(--duration-fast) var(--spring-snappy),
+              padding-left var(--duration-fast) var(--spring-snappy);
+}
+html .vocs_Sidebar_item.vocs_Link:hover {
+  color: var(--nier-text-primary) !important;
+  background: transparent !important;
+  padding-left: 0.4rem !important;
+}
+html .vocs_Sidebar_item.vocs_Link[data-active="true"] {
+  font-weight: 500 !important;
+  color: var(--nier-text-primary) !important;
+  /* faint panel-tint on the active row — like an open page */
+  background: color-mix(in oklch, var(--nier-text-primary) 4%, transparent) !important;
+  margin: 0 -0.5rem !important;
+  padding-left: 0.5rem !important;
+  padding-right: 0.5rem !important;
+}
+/* Active-state ribbon: 3px solid mark in the marginalia gutter,
+ * extending slightly above + below the text baseline. Reads as a
+ * bookmark or finger-against-the-page, not a typographic notch. */
+html .vocs_Sidebar_item.vocs_Link[data-active="true"]::before {
+  content: "";
+  position: absolute;
+  left: -0.5rem;
+  top: 0;
+  bottom: 0;
+  width: 3px;
+  background: var(--nier-text-primary);
+}
+
+/* Vol II's parent row is a <div class="vocs_Sidebar_item"> (NOT a
+ * .vocs_Link) — so the .vocs_Sidebar_item.vocs_Link rules don't reach
+ * it and vocs's default text2 (muted) color wins. Style it directly. */
+html .vocs_Sidebar_sectionHeader > .vocs_Sidebar_item {
+  font-family: var(--font-switzer) !important;
+  font-size: 0.92rem !important;
+  font-weight: 400 !important;
+  color: var(--nier-text-primary) !important;
+  padding: 0.32rem 0 !important;
+  cursor: pointer;
+  transition: padding-left var(--duration-fast) var(--spring-snappy);
+}
+html .vocs_Sidebar_sectionHeader[role="button"]:hover > .vocs_Sidebar_item {
+  padding-left: 0.4rem !important;
+}
+
+/* Vol II's sectionHeader sits flush with siblings — kill vocs's
+ * .vocs_Sidebar_level > sectionHeader { padding-top: 12px }. */
+html .vocs_Sidebar_items > .vocs_Sidebar_section > .vocs_Sidebar_sectionHeader {
+  padding-top: 0 !important;
+}
+
+/* Vol II's nested children: same type weight + ink as siblings, tight
+ * vertical rhythm. Override vocs's default 0.625em row gap inside the
+ * nested set + reset its 6px / 16px padding-top. */
+html .vocs_Sidebar_levelInset {
+  border-left: 1px solid var(--nier-rule-soft) !important;
+  margin-top: 0.15rem !important;
+  padding-left: 0.85rem !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  gap: 0 !important;
+}
+html .vocs_Sidebar_levelInset .vocs_Sidebar_item.vocs_Link {
+  font-size: 0.92rem !important;
+  color: var(--nier-text-primary) !important;
+}
+
+/* Hide the dropdown chevron — Vol II reads as a chapter with two
+ * sub-entries, not a collapsible nav group. */
+html .vocs_Sidebar_sectionCollapse,
+html .vocs_Sidebar_section .vocs_Icon[class*="sectionCollapse"] {
+  display: none !important;
+}
+
+/* Brand-mark slot in the sidebar header.
+ * Vocs's NavLogo is either-or (image OR title), so we don't set logoUrl
+ * and inject the favicon as a ::before pseudo-element on the link. The
+ * vocs default already gives the link `display:flex; align-items:center`
+ * inline; we add gap and the icon. */
+.vocs_Sidebar_logoWrapper {
+  padding: 0.875rem 0.875rem 1.25rem 1rem;
+  background-color: transparent !important;
+  border-bottom: 1px solid var(--nier-rule-soft);
+}
+.vocs_Sidebar_logoWrapper a {
+  gap: 0.625rem !important;
+  text-decoration: none;
+}
+/* Brand-mark icon = a windowed view into the books-row, sliding to
+ * reveal which grimoire is being viewed. Layout.tsx tracks the route
+ * and sets --codex-grimoire-position + --codex-grimoire-size on :root.
+ *
+ * Tool pages: --codex-grimoire-size is "700% auto" — one book fills
+ * the icon, position-x shifts to the tuned numeral center.
+ *
+ * Default (home / front matter / appendix): --codex-grimoire-size is
+ * "100% auto" — the entire books-row fits horizontally as a thin
+ * letterboxed library-shelf strip, ink fills above + below. Reads as
+ * "you're looking at the whole codex," not "inside one book." The
+ * transition between sizes animates smoothly via --duration-slower. */
+.vocs_Sidebar_logoWrapper a::before {
+  content: "";
+  display: block;
+  width: 36px;
+  height: 36px;
+  flex: 0 0 36px;
+  background-image: url("/miberasets-row.jpg");
+  background-size: var(--codex-grimoire-size, 100% auto);
+  background-position-x: var(--codex-grimoire-position, 50%);
+  background-position-y: center;
+  background-repeat: no-repeat;
+  background-color: var(--nier-text-primary);
+  border: 1px solid var(--nier-border-dark);
+  transition:
+    background-position-x var(--duration-slower) var(--spring-gentle),
+    background-size       var(--duration-slower) var(--spring-gentle);
+}
+/* "MiCodex" — Imperial wordmark with a small "the codex" subtitle
+ * below in tracked Switzer caps. Together they read as a titled
+ * book: spine wordmark + classification line. */
+.vocs_NavLogo_title {
+  font-family: var(--font-imperial) !important;
+  font-size: 1.2rem !important;
+  font-weight: 400 !important;
+  letter-spacing: 0.02em !important;
+  color: var(--nier-text-primary) !important;
+  line-height: 1.05 !important;
+  text-transform: none !important;
+  display: flex;
+  flex-direction: column;
+}
+.vocs_NavLogo_title::after {
+  /* Subtitle updates per route — GrimoireTracker (layout.tsx) sets
+   * --codex-vol-label to "vol i" through "vol vii" on tool pages,
+   * "the codex" on the home / front matter / appendix pages. */
+  content: var(--codex-vol-label, "the codex");
+  font-family: var(--font-switzer);
+  font-size: 0.58rem;
+  font-weight: 400;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--nier-text-muted);
+  margin-top: 0.2rem;
+  line-height: 1;
+  transition: opacity var(--duration-fast) var(--spring-snappy);
+}
+.vocs_Sidebar_divider { display: none; }
+
+/* ---------- Outline (right rail) — dialed up ------------------------ *
+ * Operator wants this MUCH more visible. Bigger type, full ink (not
+ * muted), Imperial heading, hairline-rule active state, ink-bottom
+ * rail on the column. The right rail becomes a peer to the sidebar,
+ * not an afterthought.
+ * ===================================================================== */
+
+.vocs_DocsLayout_gutterRight {
+  /* let it breathe — slightly wider column for the bigger type */
+  --vocs-content-width-outline_local: 16rem;
+}
+
+.vocs_Outline_heading {
+  font-family: var(--font-imperial) !important;
+  font-size: 0.95rem !important;
+  font-weight: 400 !important;
+  letter-spacing: 0.04em !important;
+  text-transform: uppercase;
+  color: var(--nier-text-primary) !important;
+  padding-bottom: 0.5rem;
+  margin-bottom: 0.25rem;
+  border-bottom: 1px solid var(--nier-rule-medium);
+}
+
+.vocs_Outline_nav,
+.vocs_DocsLayout_gutterRight .vocs_Outline_nav {
+  /* No column rule — outline reads as floating right-rail text on the
+   * primary parchment, not a paneled frame. */
+  border-left: none !important;
+  padding-left: 0 !important;
+}
+
+.vocs_Outline_item {
+  margin-bottom: 0.625rem !important;
+  line-height: 1.4 !important;
+}
+
+.vocs_Outline_link {
+  color: var(--nier-text-primary) !important;
+  font-family: var(--font-switzer);
+  font-size: 0.92rem !important;
+  font-weight: 400 !important;
+  text-decoration: none !important;
+  border-bottom: 1px solid transparent;
+  transition: color var(--duration-fast) var(--spring-snappy),
+              border-bottom-color var(--duration-fast) var(--spring-snappy);
+}
+.vocs_Outline_link:hover {
+  color: var(--nier-text-primary) !important;
+  border-bottom-color: var(--nier-border-medium);
+}
+
+.vocs_Outline_link[data-active="true"] {
+  color: var(--nier-text-primary) !important;
+  font-weight: 500 !important;
+  /* active item gets an ink notch on the left edge */
+  position: relative;
+}
+.vocs_Outline_link[data-active="true"]::before {
+  content: "";
+  position: absolute;
+  left: -1rem;
+  top: 0.15em;
+  bottom: 0.15em;
+  width: 2px;
+  background: var(--nier-text-primary);
+}
+
+/* ---------- MDX content rhythm -------------------------------------- *
+ * Generous margins. The page is the room — let the books speak.
+ * ===================================================================== */
+
+main, [class*="vocs_Content"] {
+  font-size: 1.0125rem;
+  line-height: 1.7;
+}
+
+main p, [class*="vocs_Content"] p {
+  color: var(--nier-text-primary);
+}
+
+main h2, [class*="vocs_Content"] h2 {
+  margin-top: 3rem;
+  border-top: 1px solid var(--nier-rule-soft);
+  padding-top: 2rem;
+}
+
+main h3, [class*="vocs_Content"] h3 {
+  margin-top: 2rem;
+}
+
+main blockquote, [class*="vocs_Content"] blockquote {
+  border-left: 2px solid var(--nier-border-dark);
+  padding-left: 1.25rem;
+  color: var(--nier-text-secondary);
+  font-style: italic;
+}
+
+/* Tables: parchment with MiDi-canonical hairlines (text/20) */
+main table, [class*="vocs_Content"] table {
+  border-collapse: collapse;
+  border: 1px solid var(--nier-rule-medium);
+}
+main th, [class*="vocs_Content"] th {
+  background: var(--nier-bg-panel);
+  border-bottom: 1px solid var(--nier-text-primary);
+  font-family: var(--font-imperial);
+  font-weight: 400;
+  text-align: left;
+}
+main td, main th,
+[class*="vocs_Content"] td, [class*="vocs_Content"] th {
+  border: 1px solid var(--nier-rule-medium);
+  padding: 0.55rem 0.85rem;
+}
+
+/* Inline code: a faint panel, MiDi hairline */
+main :not(pre) > code,
+[class*="vocs_Content"] :not(pre) > code {
+  background: var(--nier-bg-panel);
+  border: 1px solid var(--nier-rule-medium);
+  padding: 0.08rem 0.35rem;
+  border-radius: 0;
+  font-size: 0.92em;
+}
+
+/* Code blocks: vocs nests <div.vocs_CodeBlock> (with copy button)
+ * around <pre.shiki.vocs_Pre> (with shiki's inline white bg). Treating
+ * BOTH as styled frames produced a double-panel look. Single frame
+ * approach: the outer .vocs_CodeBlock carries the panel + MiDi
+ * hairline; the inner <pre> is transparent with shiki's background
+ * killed via !important. */
+[class*="vocs_CodeBlock"] {
+  background: var(--nier-bg-panel) !important;
+  border: 1px solid var(--nier-rule-medium) !important;
+  border-radius: 0;
+  padding: 0.95rem 1.1rem !important;
+}
+[class*="vocs_CodeBlock"] pre,
+[class*="vocs_CodeBlock"] pre.shiki,
+[class*="vocs_CodeBlock"] .vocs_Pre {
+  background: transparent !important;
+  background-color: transparent !important;
+  border: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+/* ---------- Grimoire shelf — one book + its tools ------------------ *
+ * Two-row layout per book:
+ *   row 1: cover (left) | title + hint (right of cover)
+ *   row 2: tools list (full width)
+ * Seven books, eight tools (vol II holds both lists). No keystone
+ * variant — every tool has a book.
+ * ===================================================================== */
+
+.grimoire-shelf {
+  display: grid;
+  grid-template-columns: 9rem 1fr;
+  grid-template-rows: auto auto;
+  gap: 1.5rem 2rem;
+  align-items: start;
+  margin: 2.5rem 0;
+  padding: 1.5rem 0;
+  border-top: 1px solid var(--nier-rule-subtle);
+}
+.grimoire-shelf:last-of-type {
+  border-bottom: 1px solid var(--nier-rule-subtle);
+}
+
+@media (max-width: 720px) {
+  .grimoire-shelf {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+}
+
+.grimoire-shelf__cover {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  display: block;
+  grid-column: 1;
+  grid-row: 1;
+  border: 1px solid var(--nier-rule-soft);
+  transition:
+    transform var(--duration-normal) var(--spring-gentle),
+    filter var(--duration-normal) var(--spring-snappy);
+}
+.grimoire-shelf:hover .grimoire-shelf__cover {
+  transform: translateY(-2px);
+  filter: drop-shadow(0 6px 12px oklch(0.203 0.01 67.2 / 0.14));
+}
+
+.grimoire-shelf__heading {
+  grid-column: 2;
+  grid-row: 1;
+  display: flex;
+  flex-direction: column;
+  align-self: start;
+  padding-top: 0.4rem;
+}
+
+@media (max-width: 720px) {
+  .grimoire-shelf__heading {
+    grid-column: 1;
+    grid-row: 2;
+    padding-top: 0;
+  }
+}
+
+.grimoire-shelf__book-title {
+  font-family: var(--font-imperial);
+  font-size: 1.35rem;
+  font-weight: 400;
+  letter-spacing: -0.005em;
+  text-transform: none;
+  color: var(--nier-text-primary);
+  line-height: 1.15;
+}
+
+.grimoire-shelf__book-hint {
+  margin-top: 0.5rem;
+  font-family: var(--font-switzer);
+  font-size: 0.95rem;
+  letter-spacing: 0;
+  color: var(--nier-text-secondary);
+  line-height: 1.55;
+}
+
+.grimoire-shelf__tools {
+  list-style: none;
+  padding: 0;
+  margin: 0.5rem 0 0 0;
+  display: flex;
+  flex-direction: column;
+  grid-column: 1 / -1;
+  grid-row: 2;
+  border-top: 1px solid var(--nier-rule-soft);
+}
+
+@media (max-width: 720px) {
+  .grimoire-shelf__tools {
+    grid-row: 3;
+    margin-top: 0.25rem;
+  }
+}
+
+.grimoire-shelf__tool {
+  display: flex;
+  flex-direction: column;
+  padding: 0.85rem 0;
+  border-bottom: 1px solid var(--nier-rule-subtle);
+  text-decoration: none !important;
+  color: var(--nier-text-primary) !important;
+  transition: padding-left var(--duration-fast) var(--spring-snappy),
+              color var(--duration-fast) var(--spring-snappy);
+}
+.grimoire-shelf__tools li:last-child .grimoire-shelf__tool {
+  border-bottom: none;
+}
+.grimoire-shelf__tool:hover {
+  padding-left: 0.5rem;
+  color: var(--nier-text-primary) !important;
+  border-bottom-color: var(--nier-rule-soft);
+}
+
+.grimoire-shelf__tool-name {
+  font-family: var(--font-switzer);
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--nier-text-primary);
+  letter-spacing: -0.005em;
+}
+
+.grimoire-shelf__tool-hint {
+  margin-top: 0.2rem;
+  font-family: var(--font-switzer);
+  font-size: 0.85rem;
+  color: var(--nier-text-muted);
+  line-height: 1.4;
+}
+
+/* ---------- Tool card component (per-tool page header) -------------- */
+
+.tool-card {
+  display: grid;
+  grid-template-columns: 8.5rem 1fr;
+  gap: 1.5rem;
+  align-items: start;
+  margin: 1.5rem 0 2.5rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid var(--nier-rule-medium);
+}
+@media (max-width: 640px) {
+  .tool-card {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+}
+
+.tool-card__cover {
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  display: block;
+  border: 1px solid var(--nier-rule-medium);
+}
+
+.tool-card__body {
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+}
+
+.tool-card__name {
+  font-family: var(--font-imperial);
+  font-size: 2.1rem;
+  line-height: 1.1;
+  margin: 0;
+  color: var(--nier-text-primary);
+  letter-spacing: -0.01em;
+}
+
+.tool-card__purpose {
+  font-family: var(--font-switzer);
+  font-size: 1.0125rem;
+  color: var(--nier-text-secondary);
+  margin: 0;
+  line-height: 1.55;
+}
+
+.tool-card__badge {
+  align-self: flex-start;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-family: var(--font-switzer);
+  font-size: 0.72rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  padding: 0.28rem 0.55rem;
+  border: 1px solid var(--nier-border-dark);
+  background: var(--nier-bg-panel);
+  color: var(--nier-text-primary);
+}
+
+.tool-card__badge--hard {
+  background: var(--nier-text-primary);
+  color: var(--nier-bg-primary);
+  border-color: var(--nier-text-primary);
+}
+.tool-card__badge--soft {
+  background: var(--nier-bg-panel);
+  color: var(--nier-text-primary);
+}
+.tool-card__badge--llm {
+  background: var(--nier-bg-primary);
+  color: var(--nier-text-secondary);
+  border-style: dashed;
+}
+
+/* ---------- Install page — InstallCard + ConsumerCard --------------- *
+ * /install is the visual face of "connect any agent to the codex."
+ * Two grids: clients (large, snippet-bearing) and consumers (compact,
+ * substrate-truth evidence per [[substrate-over-narrative]]).
+ * ===================================================================== */
+
+.install-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.25rem;
+  margin: 1.5rem 0 2.5rem;
+}
+
+@media (max-width: 768px) {
+  .install-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.install-card {
+  display: flex;
+  flex-direction: column;
+  background: var(--nier-bg-panel);
+  border: 1px solid var(--nier-rule-medium);
+  padding: 1rem 1.1rem 0.9rem;
+  gap: 0.6rem;
+}
+
+.install-card__head {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.install-card__logo {
+  width: 24px;
+  height: 24px;
+  flex: 0 0 24px;
+  object-fit: contain;
+  /* simple-icons SVGs render in their brand color (oklch 0.203 ink); the
+   * parchment palette already places them on a panel — no filter needed.
+   * On hover, lift slightly so the card feels alive. */
+  transition: transform var(--duration-fast) var(--spring-snappy);
+}
+.install-card:hover .install-card__logo {
+  transform: scale(1.08);
+}
+
+.install-card__name {
+  font-family: var(--font-imperial);
+  font-size: 1.05rem;
+  letter-spacing: -0.005em;
+  color: var(--nier-text-primary);
+  line-height: 1.1;
+  flex: 1;
+}
+
+/* One-click install deeplink (cursor://, vscode:, etc). When the client
+ * supports a deeplink protocol, this is the primary CTA — solid ink fill
+ * so it reads as a button, not a hairline link. */
+.install-card__deeplink {
+  font-family: var(--font-switzer);
+  font-size: 0.78rem;
+  letter-spacing: 0.04em;
+  text-transform: lowercase;
+  color: var(--nier-bg-primary) !important;
+  background: var(--nier-text-primary);
+  padding: 0.32rem 0.65rem;
+  border: 1px solid var(--nier-text-primary);
+  border-bottom: 1px solid var(--nier-text-primary) !important;
+  white-space: nowrap;
+  text-decoration: none !important;
+  transition: opacity var(--duration-fast) var(--spring-snappy);
+}
+.install-card__deeplink:hover {
+  opacity: 0.82;
+  color: var(--nier-bg-primary) !important;
+  border-bottom-color: var(--nier-text-primary) !important;
+}
+
+.install-card__file {
+  font-family: var(--font-switzer);
+  font-size: 0.8rem;
+  color: var(--nier-text-muted);
+  letter-spacing: 0.01em;
+  word-break: break-all;
+}
+
+.install-card__snippet {
+  background: var(--nier-bg-primary) !important;
+  border: 1px solid var(--nier-rule-soft) !important;
+  border-radius: 0;
+  padding: 0.7rem 0.85rem !important;
+  margin: 0 !important;
+  overflow-x: auto;
+  font-size: 0.82rem !important;
+  line-height: 1.55 !important;
+  color: var(--nier-text-primary);
+}
+.install-card__snippet code {
+  background: transparent !important;
+  border: none !important;
+  padding: 0 !important;
+  color: inherit;
+  font-size: inherit;
+}
+
+.install-card__link {
+  font-family: var(--font-switzer);
+  font-size: 0.8rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--nier-text-muted) !important;
+  align-self: flex-start;
+  margin-top: 0.2rem;
+  border-bottom: none !important;
+}
+.install-card__link:hover {
+  color: var(--nier-text-primary) !important;
+}
+
+/* Consumer grid — compact cards, logos as substrate-truth evidence */
+
+.consumer-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+  gap: 0.75rem;
+  margin: 1.5rem 0 2rem;
+}
+
+.consumer-card {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.75rem 0.9rem;
+  background: var(--nier-bg-panel);
+  border: 1px solid var(--nier-rule-soft);
+  text-decoration: none !important;
+  color: var(--nier-text-primary) !important;
+  border-bottom: 1px solid var(--nier-rule-soft) !important;
+  transition: border-color var(--duration-fast) var(--spring-snappy),
+              transform var(--duration-fast) var(--spring-snappy);
+  position: relative;
+}
+.consumer-card:hover {
+  border-color: var(--nier-rule-medium) !important;
+  transform: translateY(-1px);
+}
+
+.consumer-card__icon {
+  width: 28px;
+  height: 28px;
+  flex: 0 0 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  line-height: 1;
+}
+.consumer-card__icon img {
+  width: 22px;
+  height: 22px;
+  object-fit: contain;
+}
+
+.consumer-card__body {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+  min-width: 0;
+  flex: 1;
+}
+
+.consumer-card__name {
+  font-family: var(--font-imperial);
+  font-size: 0.95rem;
+  line-height: 1.1;
+  letter-spacing: -0.005em;
+  color: var(--nier-text-primary);
+}
+
+.consumer-card__role {
+  font-family: var(--font-switzer);
+  font-size: 0.78rem;
+  color: var(--nier-text-muted);
+  letter-spacing: 0.01em;
+  line-height: 1.35;
+  /* truncate gracefully on narrow viewports */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.consumer-card__status {
+  font-family: var(--font-switzer);
+  font-size: 0.62rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--nier-text-muted);
+  padding: 0.18rem 0.42rem;
+  border: 1px solid var(--nier-rule-soft);
+  flex: 0 0 auto;
+}
+.consumer-card--target .consumer-card__status {
+  color: var(--nier-text-secondary);
+  border-color: var(--nier-rule-medium);
+}
+.consumer-card--planned .consumer-card__status {
+  color: var(--nier-text-muted);
+  border-style: dashed;
+}
+
+/* ---------- Layout breath ------------------------------------------- */
+
+@media (min-width: 1024px) {
+  main, [class*="vocs_Content"] {
+    max-width: 70ch;
+  }
+}
+
+/* Reduce motion — respect user preference, this still feels right */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+  }
+  .grimoire-shelf__book:hover {
+    transform: none;
+  }
+}

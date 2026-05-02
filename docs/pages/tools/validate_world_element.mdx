@@ -1,0 +1,77 @@
+---
+title: validate_world_element
+description: The keystone — canonical check, fuzzy match, coverage-gap log.
+---
+
+import { ToolCard } from '../../components/tool-card'
+
+<ToolCard n={7} name="validate_world_element" tier="HARD" purpose="the keystone — canonical check, fuzzy match, gap log" />
+
+> 🛡 **the keystone.** every narrator should call this before claiming.
+
+returns `{canonical: bool, suggested?: string, distance?: number}`. non-canonical values get fuzzy-matched against the canonical set (Levenshtein, type-tuned threshold). unmatched-but-Mibera-relevant queries land in [coverage-gaps](/coverage-gaps) for periodic curator review.
+
+## input
+
+```json
+{
+  "type": "archetype",
+  "value": "Freetech",
+  "consumer_hint": "ruggy-v06"
+}
+```
+
+| field | type | required | notes |
+| --- | --- | --- | --- |
+| `type` | `enum` | ✅ | one of `zone`, `archetype`, `factor`, `grail`, `mibera` |
+| `value` | `string` | ✅ | the value to validate |
+| `consumer_hint` | `string` | optional | for the coverage-gap log — which agent and version asked |
+
+## canonical match
+
+```json
+{ "canonical": true, "type": "archetype" }
+```
+
+## close miss
+
+```json
+{
+  "canonical": false,
+  "suggested": "Freetekno",
+  "distance": 3,
+  "type": "archetype"
+}
+```
+
+## no match found
+
+```json
+{ "canonical": false, "type": "archetype" }
+```
+
+when `canonical: false` and no `suggested`, the value is far enough from anything canonical that there's no useful guess. defer to LLM-OWNED prose, or admit uncertainty.
+
+## the recommended flow
+
+```
+1. agent extracts a candidate world-element from user input or its own draft
+2. validate_world_element(type, value)
+3. if canonical → use directly
+4. if suggested → call the typed lookup on the suggestion, then disclose the correction
+5. if neither → fall back to LLM-OWNED prose or ask the user
+```
+
+## fuzzy thresholds
+
+| type | threshold | rationale |
+| --- | --- | --- |
+| zone | 2 | short slugs, small typos common (`bearcave` → `bear-cave`) |
+| archetype | 4 | longer canonical names; more drift allowed |
+| factor | 3 | namespaced IDs; some structured drift |
+| grail | 5 | long display names |
+| mibera | n/a | numeric ID; matches or doesn't |
+
+## coverage-gap log
+
+every `canonical: false` with a non-trivial `consumer_hint` appends to `grimoires/codex-mcp/coverage-gaps.jsonl` (gitignored, local). Gumi reviews periodically and decides: enrich, retire, or document why it's intentionally not canonical. see [coverage-gaps](/coverage-gaps).

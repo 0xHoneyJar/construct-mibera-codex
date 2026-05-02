@@ -1,6 +1,9 @@
 lockfileVersion: '6.0'
 
 dependencies:
+  '@hono/node-server':
+    specifier: ^1.14.1
+    version: 1.19.14(hono@4.12.16)
   '@modelcontextprotocol/sdk':
     specifier: ^1.18.2
     version: 1.18.2
@@ -10,6 +13,9 @@ dependencies:
   gray-matter:
     specifier: ^4.0.3
     version: 4.0.3
+  hono:
+    specifier: ^4.7.0
+    version: 4.12.16
   zod:
     specifier: ^3.25.28
     version: 3.25.28
