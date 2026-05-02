@@ -1,20 +1,20 @@
 {
-  "name": "@zksoju/construct-mibera-codex",
-  "version": "1.3.0",
-  "description": "Mibera Codex CLI + MCP — anti-hallucination lookup (zones, archetypes, factors, grails, miberas) plus intent-layer search via QMD.",
+  "name": "@0xhoneyjar/construct-mibera-codex",
+  "version": "1.4.0",
+  "description": "MICODEX — Mibera Codex navigation surface. CLI (`micodex`), MCP (stdio + HTTP), intent-layer search via QMD. Teaches agents to read the map.",
   "type": "module",
   "bin": {
-    "codex": "./dist/bin/codex.js",
-    "codex-mcp": "./dist/bin/mcp.js",
-    "codex-mcp-http": "./dist/bin/http.js"
+    "micodex": "./dist/bin/micodex.js",
+    "micodex-mcp": "./dist/bin/mcp.js",
+    "micodex-mcp-http": "./dist/bin/http.js"
   },
   "scripts": {
     "build": "tsc",
     "start": "node dist/bin/http.js",
     "start:http": "node dist/bin/http.js",
-    "codex": "tsx bin/codex.ts",
-    "codex:dev": "tsx watch bin/codex.ts",
-    "codex:index": "bash scripts/build-codex-index.sh",
+    "micodex": "tsx bin/micodex.ts",
+    "micodex:dev": "tsx watch bin/micodex.ts",
+    "micodex:index": "bash scripts/build-micodex-index.sh",
     "mcp": "tsx bin/mcp.ts",
     "mcp:dev": "tsx watch bin/mcp.ts",
     "http": "tsx bin/http.ts",
@@ -29,7 +29,7 @@
     "grails",
     "_codex/data",
     "_codex/schema",
-    "scripts/build-codex-index.sh",
+    "scripts/build-micodex-index.sh",
     "skills"
   ],
   "dependencies": {

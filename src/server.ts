@@ -227,7 +227,7 @@ export function createCodexMcpServer(): McpServer {
                   error: isQmdErr ? "qmd_unavailable" : "search_failed",
                   message: (e as Error).message,
                   hint: isQmdErr
-                    ? "@tobilu/qmd is a peerDependency. install + run scripts/build-codex-index.sh"
+                    ? "@tobilu/qmd is a peerDependency. install + run scripts/build-micodex-index.sh"
                     : undefined,
                 },
                 null,

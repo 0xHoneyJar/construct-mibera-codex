@@ -79,9 +79,9 @@ Surface delivered:
 - `src/lookups/search.ts` shells out to `qmd query` (BM25 + vector + LLM rerank, all-local). Maps qmd path `qmd://codex-grails/<slug>.md` → grail entry → `@g<id>` ref.
 - `src/lookups/grail.ts` accepts `@g<id>` and `@g-<slug>` refs (strips prefix; existing id/slug/name lookup falls through).
 - `src/server.ts` adds `search_codex` MCP tool (CLI/MCP parity invariant from §6.2). Bumps VERSION constant 1.1.0 → 1.3.0.
-- `scripts/build-codex-index.sh` registers `codex-grails` + `codex-core-lore` qmd collections with human-written context (propagates to LLM rerank). Idempotent. Wired as `pnpm codex:index`.
+- `scripts/build-micodex-index.sh` registers `codex-grails` + `codex-core-lore` qmd collections with human-written context (propagates to LLM rerank). Idempotent. Wired as `pnpm micodex:index`.
 - `skills/query-entity/SKILL.md` rewritten — slug-derivation prose removed (the §6.4 leak is killed). Skill describes WHAT (use lookup vs search), CLI describes HOW.
-- `package.json` — `@tobilu/qmd@^2.0.0` as optional peerDependency, version 1.2.0 → 1.3.0, `grails/` + `scripts/build-codex-index.sh` + `skills/` added to `files`.
+- `package.json` — `@tobilu/qmd@^2.0.0` as optional peerDependency, version 1.2.0 → 1.3.0, `grails/` + `scripts/build-micodex-index.sh` + `skills/` added to `files`.
 
 Spec deviations (per `feedback_spec_deviation_pattern`):
 

@@ -8,11 +8,11 @@ import type { GrailEntry } from "../types.js";
  * Intent-layer search — the §6 extension to bucket 1.
  *
  * Shells out to `qmd query` for hybrid (BM25 + vector + LLM rerank) search,
- * reshapes the result into the codex ref envelope. QMD is a peerDependency:
+ * reshapes the result into the MICODEX ref envelope. QMD is a peerDependency:
  * fail loud with a clear install hint when the binary is absent.
  *
- * Refs are stable: `@g<id>` for grails uses the same id `codex lookup grail`
- * accepts. Pipeable: `codex search "void" --refs | xargs -n1 codex lookup grail`.
+ * Refs are stable: `@g<id>` for grails uses the same id `micodex lookup grail`
+ * accepts. Pipeable: `micodex search "void" --refs | xargs -n1 micodex lookup grail`.
  *
  * Doctrine: ~/vault/wiki/concepts/construct-surface-decision-tree.md §6
  */
@@ -78,7 +78,7 @@ export class QmdNotInstalledError extends Error {
         "qmd binary not found in PATH.",
         "@tobilu/qmd is a peerDependency of construct-mibera-codex.",
         "Install:  npm install -g @tobilu/qmd",
-        "Then run: pnpm codex:index    (or scripts/build-codex-index.sh)",
+        "Then run: pnpm micodex:index    (or scripts/build-micodex-index.sh)",
         "See ~/vault/wiki/concepts/construct-surface-decision-tree.md §6.3",
       ].join("\n"),
     );
@@ -91,8 +91,8 @@ export class QmdIndexMissingError extends Error {
     super(
       [
         `qmd collection "${collection}" not found.`,
-        "Run: scripts/build-codex-index.sh",
-        "Or:  pnpm codex:index",
+        "Run: scripts/build-micodex-index.sh",
+        "Or:  pnpm micodex:index",
       ].join("\n"),
     );
     this.name = "QmdIndexMissingError";

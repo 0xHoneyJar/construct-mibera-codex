@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# build-codex-index.sh — set up qmd collections for `codex search`.
+# build-micodex-index.sh — set up qmd collections for `micodex search`.
 #
 # Indexes grails/*.md and core-lore/**/*.md as qmd collections, registers
 # human-written context for each (propagates to LLM rerank), generates
@@ -7,7 +7,7 @@
 #
 # Doctrine: ~/vault/wiki/concepts/construct-surface-decision-tree.md §6
 #
-# Run from the construct-mibera-codex root (or via `pnpm codex:index`).
+# Run from the construct-mibera-codex root (or via `pnpm micodex:index`).
 
 set -euo pipefail
 
@@ -71,5 +71,5 @@ qmd query "void motif" -c codex-grails --json -n 3 | head -40 || true
 
 echo
 echo "✓ codex index built. now you can:"
-echo "    codex search \"void motif\""
-echo "    codex search \"void motif\" --refs | xargs -n1 codex lookup grail"
+echo "    micodex search \"void motif\""
+echo "    micodex search \"void motif\" --refs | xargs -n1 micodex lookup grail"

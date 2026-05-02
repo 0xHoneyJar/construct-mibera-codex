@@ -1,12 +1,15 @@
 #!/usr/bin/env node
 /**
- * codex — Mibera Codex CLI.
+ * micodex — MICODEX CLI (Mibera Codex navigation surface).
  *
  * The bucket-1 CLI half (per `~/vault/wiki/concepts/construct-surface-decision-tree.md`).
- * Subcommands mirror the 8 MCP tools verbatim: lookup_X / list_X / validate_*
- * become `codex lookup X` / `codex list X` / `codex validate <type> <value>`.
- * Cross-construct legibility is the integration contract — same vocabulary
- * across CLI and MCP, no synonym drift.
+ * Subcommands mirror the MCP tool surface 1:1: lookup_X / list_X / validate_* /
+ * search_codex become `micodex lookup X` / `micodex list X` /
+ * `micodex validate <type> <value>` / `micodex search <intent>`.
+ * Cross-transport parity is the integration contract — same vocabulary across
+ * CLI and MCP, no synonym drift.
+ *
+ * Bin name is `micodex` to avoid collision with @openai/codex on user PATH.
  *
  * Output convention:
  *   - default: stdout = pretty JSON (2-space indent), stderr = log.
@@ -101,14 +104,14 @@ function fail(message: string, code: number = 2): never {
 
 // ────── help text (--help is the schema) ──────
 
-const ROOT_HELP = `codex — Mibera Codex CLI
+const ROOT_HELP = `micodex — MICODEX CLI (Mibera Codex navigation surface)
 
-Anti-hallucination lookup for Mibera lore: zones, archetypes, factors, grails,
-miberas. Subcommands mirror the codex-mcp tool surface 1:1 — same vocabulary,
-two transports.
+Anti-hallucination lookup + intent search for Mibera lore: zones, archetypes,
+factors, grails, miberas. Subcommands mirror the MCP tool surface 1:1 — same
+vocabulary, three transports (CLI / MCP stdio / MCP HTTP).
 
 Usage:
-  codex <command> [args] [flags]
+  micodex <command> [args] [flags]
 
 Commands:
   lookup <noun> <query>    Look up a single entity (zone / archetype / factor / grail / mibera)
@@ -122,47 +125,47 @@ Global flags:
   --field=<name>           Extract a single field from lookup results (raw output, pipeable)
 
 Examples:
-  codex lookup grail black-hole --field=image
-  codex lookup grail @g876                        # accepts refs from search
-  codex lookup zone bear-cave
-  codex lookup archetype Freetekno
-  codex lookup factor nft:mibera
-  codex lookup mibera 4488
-  codex list zones
-  codex validate archetype Freetech
-  codex search "void motif" --collection=grails   # intent → ref envelope (JSON)
-  codex search "void motif" --refs | xargs -n1 codex lookup grail
+  micodex lookup grail black-hole --field=image
+  micodex lookup grail @g876                       # accepts refs from search
+  micodex lookup zone bear-cave
+  micodex lookup archetype Freetekno
+  micodex lookup factor nft:mibera
+  micodex lookup mibera 4488
+  micodex list zones
+  micodex validate archetype Freetech
+  micodex search "void motif" --collection=grails  # intent → ref envelope (JSON)
+  micodex search "void motif" --refs | xargs -n1 micodex lookup grail
 
 Doctrine: ~/vault/wiki/concepts/construct-surface-decision-tree.md
-MCP equivalent: codex-mcp (same tool surface, same data, agent-native transport)`;
+MCP equivalent: micodex-mcp (stdio) / micodex-mcp-http (Path B, Railway)`;
 
-const LOOKUP_HELP = `codex lookup — single-entity lookup
+const LOOKUP_HELP = `micodex lookup — single-entity lookup
 
 Usage:
-  codex lookup zone <slug>             Look up a festival zone (e.g. stonehenge, bear-cave)
-  codex lookup archetype <name>        Look up an archetype (Freetekno, Milady, Acidhouse, Chicago/Detroit)
-  codex lookup factor <factor-id>      Look up a score-mibera factor and return its codex lore
-  codex lookup grail <id|slug|name>    Look up a 1/1 grail (token ID, slug, or display name)
-  codex lookup mibera <token-id>       Look up a single Mibera by token ID (1-10000)
+  micodex lookup zone <slug>             Look up a festival zone (e.g. stonehenge, bear-cave)
+  micodex lookup archetype <name>        Look up an archetype (Freetekno, Milady, Acidhouse, Chicago/Detroit)
+  micodex lookup factor <factor-id>      Look up a score-mibera factor and return its codex lore
+  micodex lookup grail <id|slug|name>    Look up a 1/1 grail (token ID, slug, or display name)
+  micodex lookup mibera <token-id>       Look up a single Mibera by token ID (1-10000)
 
 Flags:
   --field=<name>                       Extract a single field from the result (raw output)
 
 Exits 1 if the entity is not found.`;
 
-const LIST_HELP = `codex list — enumerate canonical entities
+const LIST_HELP = `micodex list — enumerate canonical entities
 
 Usage:
-  codex list zones                     List all canonical festival zones
-  codex list archetypes                List all 4 canonical archetypes`;
+  micodex list zones                     List all canonical festival zones
+  micodex list archetypes                List all 4 canonical archetypes`;
 
-const SEARCH_HELP = `codex search — intent-layer search (the §6 extension)
+const SEARCH_HELP = `micodex search — intent-layer search (the §6 extension)
 
 Usage:
-  codex search "<intent>" [flags]
+  micodex search "<intent>" [flags]
 
 Returns ranked candidate refs. Refs are stable: pass them straight into
-\`codex lookup\`. Default JSON envelope: {ref, type, name, score, ...}.
+\`micodex lookup\`. Default JSON envelope: {ref, type, name, score, ...}.
 Empty result is valid data (returns [] and exits 0); not_found exits 1
 only on lookup, never on search.
 
@@ -174,13 +177,13 @@ Flags:
   --json                   (default) JSON array of {ref, type, name, score, ...}
   --min-score=<n>          Filter by minimum qmd score (0..1)
 
-Backend: \`@tobilu/qmd\` peerDependency. Run \`pnpm codex:index\` after install.
+Backend: \`@tobilu/qmd\` peerDependency. Run \`pnpm micodex:index\` after install.
 Doctrine: ~/vault/wiki/concepts/construct-surface-decision-tree.md §6`;
 
-const VALIDATE_HELP = `codex validate — check a value against the canonical set
+const VALIDATE_HELP = `micodex validate — check a value against the canonical set
 
 Usage:
-  codex validate <type> <value> [--consumer-hint=<id>]
+  micodex validate <type> <value> [--consumer-hint=<id>]
 
 Types: zone, archetype, factor, grail, mibera
 
@@ -196,29 +199,29 @@ function handleLookup(rest: string[], flags: Record<string, string | boolean>): 
     process.exit(0);
   }
   const [noun, query, ...extra] = rest;
-  if (!noun) fail("missing noun. usage: codex lookup <zone|archetype|factor|grail|mibera> <query>");
+  if (!noun) fail("missing noun. usage: micodex lookup <zone|archetype|factor|grail|mibera> <query>");
   if (extra.length > 0) fail(`unexpected positional argument(s): ${extra.join(" ")}`);
   const field = typeof flags.field === "string" ? flags.field : undefined;
 
   switch (noun) {
     case "zone":
-      if (!query) fail("missing slug. usage: codex lookup zone <slug>");
+      if (!query) fail("missing slug. usage: micodex lookup zone <slug>");
       emit(lookupZone(query), field);
       break;
     case "archetype":
-      if (!query) fail("missing name. usage: codex lookup archetype <name>");
+      if (!query) fail("missing name. usage: micodex lookup archetype <name>");
       emit(lookupArchetype(query), field);
       break;
     case "factor":
-      if (!query) fail("missing factor-id. usage: codex lookup factor <factor-id>");
+      if (!query) fail("missing factor-id. usage: micodex lookup factor <factor-id>");
       emit(lookupFactor(query), field);
       break;
     case "grail":
-      if (!query) fail("missing query. usage: codex lookup grail <id|slug|name>");
+      if (!query) fail("missing query. usage: micodex lookup grail <id|slug|name>");
       emit(lookupGrail(query), field);
       break;
     case "mibera": {
-      if (!query) fail("missing token-id. usage: codex lookup mibera <token-id>");
+      if (!query) fail("missing token-id. usage: micodex lookup mibera <token-id>");
       const id = Number(query);
       if (!Number.isFinite(id) || !Number.isInteger(id) || id < 1 || id > 10000) {
         fail(`invalid token-id "${query}" — must be integer 1-10000`);
@@ -237,7 +240,7 @@ function handleList(rest: string[], flags: Record<string, string | boolean>): ne
     process.exit(0);
   }
   const [noun, ...extra] = rest;
-  if (!noun) fail("missing noun. usage: codex list <zones|archetypes>");
+  if (!noun) fail("missing noun. usage: micodex list <zones|archetypes>");
   if (extra.length > 0) fail(`unexpected positional argument(s): ${extra.join(" ")}`);
 
   switch (noun) {
@@ -258,7 +261,7 @@ function handleSearch(rest: string[], flags: Record<string, string | boolean>): 
     process.exit(0);
   }
   const intent = rest.join(" ").trim();
-  if (!intent) fail('missing intent. usage: codex search "<intent>" [--collection=...]');
+  if (!intent) fail('missing intent. usage: micodex search "<intent>" [--collection=...]');
 
   const collection = (typeof flags.collection === "string" ? flags.collection : "grails") as SearchCollection;
   if (!["grails", "core-lore", "all"].includes(collection)) {
@@ -310,9 +313,9 @@ function handleValidate(rest: string[], flags: Record<string, string | boolean>)
     process.exit(0);
   }
   const [type, ...valueParts] = rest;
-  if (!type) fail("missing type. usage: codex validate <type> <value>");
+  if (!type) fail("missing type. usage: micodex validate <type> <value>");
   const value = valueParts.join(" ");
-  if (!value) fail("missing value. usage: codex validate <type> <value>");
+  if (!value) fail("missing value. usage: micodex validate <type> <value>");
 
   const validTypes: WorldElementType[] = ["zone", "archetype", "factor", "grail", "mibera"];
   if (!validTypes.includes(type as WorldElementType)) {
@@ -332,7 +335,7 @@ function main(): never {
     process.stdout.write(readPackageVersion() + "\n");
     process.exit(0);
   }
-  // Show ROOT_HELP only when no verb is given. Sub-help (`codex search --help`)
+  // Show ROOT_HELP only when no verb is given. Sub-help (`micodex search --help`)
   // is delegated to the verb's handler, which prints its own help text.
   if (positional.length === 0) {
     process.stdout.write(ROOT_HELP + "\n");
