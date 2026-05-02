@@ -9,10 +9,14 @@ import {
   searchCodex,
   QmdNotInstalledError,
   QmdIndexMissingError,
+  QmdOutputDriftError,
 } from "./lookups/search.js";
 import { validateWorldElement } from "./validate.js";
+import { readPackageVersion } from "./lib/codex-root.js";
 
-const VERSION = "1.3.0";
+// Single source of truth — shared with bin/codex.ts to preserve CLI/MCP
+// parity (~/vault/wiki/concepts/construct-surface-decision-tree.md §6.2).
+const VERSION = readPackageVersion();
 const SERVER_NAME = "codex-mcp";
 
 export function createCodexMcpServer(): McpServer {
@@ -210,7 +214,9 @@ export function createCodexMcpServer(): McpServer {
         };
       } catch (e) {
         const isQmdErr =
-          e instanceof QmdNotInstalledError || e instanceof QmdIndexMissingError;
+          e instanceof QmdNotInstalledError ||
+          e instanceof QmdIndexMissingError ||
+          e instanceof QmdOutputDriftError;
         return {
           isError: true,
           content: [

@@ -78,16 +78,19 @@ For programmatic exhaustive queries:
 
 Prefer the CLI for single-entity queries; the JSONL/graph dumps are for batch processing.
 
-## Fallback (no CLI installed)
+## When the CLI isn't available
 
-The CLI is bundled with construct-mibera-codex. If `codex` isn't on PATH (e.g. consumer hasn't run pack install ceremony), fall back to:
+If `codex` isn't on PATH (e.g. the construct pack hasn't been installed in the consumer's environment), **fix the install rather than reading files directly**:
 
-- Mibera by ID: read `miberas/{NNNN}.md` (zero-padded: #42 → `miberas/0042.md`)
-- Grail by slug: read `grails/{slug}.md` (slug = lowercase + hyphens, e.g. `"Black Hole"` → `black-hole.md`)
-- Ancestor by name: read `core-lore/ancestors/{slug}.md`
-- Tarot card by name: read `core-lore/tarot-cards/{slug}.md`
+```bash
+# Loa pack install
+loa /constructs install construct-mibera-codex
 
-This pattern is documented but discouraged — it bakes substrate assumptions into the skill. Prefer fixing the install over reading files directly.
+# OR: install from npm directly
+npm install @zksoju/construct-mibera-codex
+```
+
+Then retry `codex lookup` / `codex search`. Reading entity files via filesystem paths is not supported — the CLI is the only blessed surface for substrate access (per `~/vault/wiki/concepts/construct-surface-decision-tree.md` §6.4: skill teaches WHAT, CLI knows HOW).
 
 ## Doctrine
 

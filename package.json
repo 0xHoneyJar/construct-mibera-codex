@@ -1,5 +1,5 @@
 {
-  "name": "@0xhoneyjar/construct-mibera-codex",
+  "name": "@zksoju/construct-mibera-codex",
   "version": "1.3.0",
   "description": "Mibera Codex CLI + MCP — anti-hallucination lookup (zones, archetypes, factors, grails, miberas) plus intent-layer search via QMD.",
   "type": "module",

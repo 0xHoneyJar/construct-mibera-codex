@@ -1,5 +1,6 @@
 import { spawnSync } from "node:child_process";
 import { basename } from "node:path";
+import { z } from "zod";
 import { lookupGrail } from "./grail.js";
 import type { GrailEntry } from "../types.js";
 
@@ -35,15 +36,26 @@ export interface SearchHit {
   description?: string;
 }
 
-interface QmdHit {
-  docid: string;
-  score: number;
-  file: string;
-  line?: number;
-  title: string;
-  context?: string;
-  snippet?: string;
-}
+/**
+ * QMD --json output shape (stable across qmd 2.x).
+ * Validated at the subprocess boundary so schema drift fails loud, not silently
+ * with undefined refs (anti-hallucination invariant — see Bridgebuilder F2).
+ */
+const QmdHitSchema = z
+  .object({
+    docid: z.string(),
+    score: z.number(),
+    file: z.string(),
+    line: z.number().optional(),
+    title: z.string(),
+    context: z.string().optional(),
+    snippet: z.string().optional(),
+  })
+  .passthrough();
+
+const QmdResultsSchema = z.array(QmdHitSchema);
+
+type QmdHit = z.infer<typeof QmdHitSchema>;
 
 export interface SearchOptions {
   intent: string;
@@ -87,10 +99,27 @@ export class QmdIndexMissingError extends Error {
   }
 }
 
-function runQmd(args: string[]): { stdout: string; stderr: string; code: number } {
+export class QmdOutputDriftError extends Error {
+  constructor(detail: string) {
+    super(
+      [
+        "qmd --json output did not match the expected QmdHit shape.",
+        "This indicates qmd version drift; the codex search backend contract changed.",
+        `Detail: ${detail}`,
+        "Run `qmd --version` and report at construct-mibera-codex#issues.",
+      ].join("\n"),
+    );
+    this.name = "QmdOutputDriftError";
+  }
+}
+
+function runQmd(
+  args: string[],
+  timeoutMs: number,
+): { stdout: string; stderr: string; code: number } {
   const res = spawnSync("qmd", args, {
     encoding: "utf8",
-    timeout: 30_000,
+    timeout: timeoutMs,
   });
   if (res.error && (res.error as NodeJS.ErrnoException).code === "ENOENT") {
     throw new QmdNotInstalledError();
@@ -159,14 +188,16 @@ function asGenericHit(hit: QmdHit, collectionName: string, type: string): Search
 }
 
 function inferTypeForCoreLore(file: string): string {
-  // file paths under core-lore/: archetypes.md, factor-lore.md,
-  // festival-zones-vocabulary.md, philosophy.md, ancestors/<slug>.md, ...
-  const lower = file.toLowerCase();
-  if (lower.includes("archetype")) return "archetype";
-  if (lower.includes("factor")) return "factor";
-  if (lower.includes("zone")) return "zone";
-  if (lower.includes("ancestor")) return "ancestor";
-  if (lower.includes("tarot")) return "tarot";
+  // qmd path shape: qmd://codex-core-lore/<subpath>. Match by directory prefix
+  // (most specific first) — `lower.includes()` was order-sensitive and would
+  // misclassify e.g. `core-lore/ancestors/zone-keeper.md` as zone (Bridgebuilder F4).
+  const m = file.match(/^qmd:\/\/[^/]+\/(.+)$/);
+  const path = (m ? m[1]! : file).toLowerCase();
+  if (path.startsWith("ancestors/")) return "ancestor";
+  if (path.startsWith("tarot-cards/")) return "tarot";
+  if (path.startsWith("archetypes")) return "archetype";
+  if (path.startsWith("factor-lore")) return "factor";
+  if (path.startsWith("festival-zones")) return "zone";
   return "lore";
 }
 
@@ -185,7 +216,11 @@ export function searchCodex(opts: SearchOptions): SearchHit[] {
     args.push("--min-score", String(opts.minScore));
   }
 
-  const { stdout, stderr, code } = runQmd(args);
+  // hybrid mode includes LLM rerank — cold start can take 30-90s when qmd
+  // loads node-llama-cpp + the rerank model for the first time. lex/vec
+  // skip rerank and stay fast (Bridgebuilder F5).
+  const timeoutMs = mode === "hybrid" ? 90_000 : 30_000;
+  const { stdout, stderr, code } = runQmd(args, timeoutMs);
   if (code !== 0) {
     // qmd writes "collection not found" / "no embeddings" errors to stderr.
     if (/collection.*not found/i.test(stderr) || /no.*embedd/i.test(stderr)) {
@@ -194,15 +229,34 @@ export function searchCodex(opts: SearchOptions): SearchHit[] {
     throw new Error(`qmd ${verb} exited ${code}: ${stderr.trim() || "unknown error"}`);
   }
 
-  // qmd may print an informational line on stderr; --json keeps stdout clean.
-  let parsed: QmdHit[];
-  try {
-    parsed = JSON.parse(stdout);
-  } catch (e) {
-    // Empty stdout on zero matches is valid; treat as [].
-    if (!stdout.trim()) return [];
-    throw new Error(`qmd output not parseable as JSON: ${(e as Error).message}`);
+  // qmd emits progress/warning lines on stderr while exiting 0. Forward only
+  // genuine warnings so operators see real problems (Bridgebuilder F8) without
+  // polluting --refs/--json output with progress noise (Expanding query/Reranking).
+  if (stderr.trim() && process.env.NODE_ENV !== "test") {
+    const warnings = stderr
+      .split("\n")
+      .filter((line) => /warn|deprecat|error|slow query|out of memory/i.test(line));
+    if (warnings.length > 0) {
+      process.stderr.write(`[qmd] ${warnings.join("\n[qmd] ")}\n`);
+    }
   }
+
+  // Empty stdout on zero matches is valid; treat as [].
+  if (!stdout.trim()) return [];
+
+  let raw: unknown;
+  try {
+    raw = JSON.parse(stdout);
+  } catch (e) {
+    throw new QmdOutputDriftError(`JSON.parse failed: ${(e as Error).message}`);
+  }
+  // Validate at the subprocess boundary — schema drift becomes a typed error,
+  // not undefined-ref runtime crashes inside the loop (Bridgebuilder F2).
+  const validated = QmdResultsSchema.safeParse(raw);
+  if (!validated.success) {
+    throw new QmdOutputDriftError(validated.error.message.slice(0, 240));
+  }
+  const parsed: QmdHit[] = validated.data;
 
   const hits: SearchHit[] = [];
   for (const raw of parsed) {

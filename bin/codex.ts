@@ -14,9 +14,7 @@
  *     non-string fields. Mirrors `jq -r` semantics; pipeable into shell.
  * Exit codes: 0 = success, 1 = not_found, 2 = usage error.
  */
-import { readFileSync } from "node:fs";
-import { dirname, join } from "node:path";
-import { fileURLToPath } from "node:url";
+import { readPackageVersion } from "../src/lib/codex-root.js";
 import { lookupZone, listZones } from "../src/lookups/zone.js";
 import {
   lookupArchetype,
@@ -99,29 +97,6 @@ function emit(value: unknown, field?: string): never {
 function fail(message: string, code: number = 2): never {
   process.stderr.write(`error: ${message}\n`);
   process.exit(code);
-}
-
-// ────── version ──────
-
-function getVersion(): string {
-  // Walk up from the binary's directory looking for package.json. Handles
-  // both production (`dist/bin/codex.js` → ../../package.json) and dev via
-  // tsx (`bin/codex.ts` → ../package.json).
-  let dir = dirname(fileURLToPath(import.meta.url));
-  for (let i = 0; i < 5; i++) {
-    try {
-      const pkg = JSON.parse(readFileSync(join(dir, "package.json"), "utf8")) as {
-        version?: string;
-      };
-      if (pkg.version) return pkg.version;
-    } catch {
-      // not here; walk up
-    }
-    const parent = dirname(dir);
-    if (parent === dir) break;
-    dir = parent;
-  }
-  return "unknown";
 }
 
 // ────── help text (--help is the schema) ──────
@@ -354,7 +329,7 @@ function main(): never {
   const { positional, flags } = parseArgs(process.argv.slice(2));
 
   if (flags.version || flags.v) {
-    process.stdout.write(getVersion() + "\n");
+    process.stdout.write(readPackageVersion() + "\n");
     process.exit(0);
   }
   // Show ROOT_HELP only when no verb is given. Sub-help (`codex search --help`)
