@@ -8,12 +8,11 @@
  * Cross-construct legibility is the integration contract — same vocabulary
  * across CLI and MCP, no synonym drift.
  *
- * Output convention: stdout = JSON (pretty unless --field), stderr = log.
+ * Output convention:
+ *   - default: stdout = pretty JSON (2-space indent), stderr = log.
+ *   - --field=<name>: stdout = raw text for string fields, compact JSON for
+ *     non-string fields. Mirrors `jq -r` semantics; pipeable into shell.
  * Exit codes: 0 = success, 1 = not_found, 2 = usage error.
- *
- * --field=<name> extracts a single field from object lookups; for string
- * fields, raw text is written (pipeable into shell). For non-string fields,
- * JSON-stringified output. Mirrors `jq -r` semantics.
  */
 import { readFileSync } from "node:fs";
 import { dirname, join } from "node:path";
@@ -275,7 +274,7 @@ function main(): never {
   }
   if (flags.help || flags.h || positional.length === 0) {
     process.stdout.write(ROOT_HELP + "\n");
-    process.exit(positional.length === 0 ? 0 : 0);
+    process.exit(0);
   }
 
   const [verb, ...rest] = positional;
