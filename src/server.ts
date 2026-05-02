@@ -5,6 +5,7 @@ import { lookupArchetype, listArchetypes } from "./lookups/archetype.js";
 import { lookupFactor } from "./lookups/factor.js";
 import { lookupGrail } from "./lookups/grail.js";
 import { lookupMibera } from "./lookups/mibera.js";
+import { lookupMst } from "./lookups/mst.js";
 import {
   searchCodex,
   QmdNotInstalledError,
@@ -136,6 +137,31 @@ export function createCodexMcpServer(): McpServer {
           {
             type: "text",
             text: m ? JSON.stringify(m, null, 2) : JSON.stringify({ error: "not_found", id }),
+          },
+        ],
+      };
+    },
+  );
+
+  server.tool(
+    "lookup_mst",
+    "Look up an MST (Mibera Shadow Traits) token by tokenId. Returns sovereign metadata URL (metadata.0xhoneyjar.xyz/mibera/mst/{N} — LIVE) + per-expression sticker URLs (composed from URL_CONTRACT v1.2.0 paths under Mibera/MST/expressions/). MST is dynamically minted via user-submitted trait strings hashed keccak256 on-chain (3219 known minted as of 2026-05-01); per-token data is composed at lookup time, not stored. Sticker substrate is PENDING M-1 (S3 bucket policy) + M-2 (sticker generation pipeline) of mibera-family-sticker-substrate cycle — sticker URLs return 403 until those land. See _codex/data/shadow-traits.md for contract mechanics.",
+    z.object({
+      tokenId: z
+        .number()
+        .int()
+        .min(1)
+        .describe("MST tokenId (positive integer; 1-3219 known minted, may grow)"),
+    }).shape,
+    async ({ tokenId }) => {
+      const m = lookupMst(tokenId);
+      return {
+        content: [
+          {
+            type: "text",
+            text: m
+              ? JSON.stringify(m, null, 2)
+              : JSON.stringify({ error: "not_found", tokenId }),
           },
         ],
       };

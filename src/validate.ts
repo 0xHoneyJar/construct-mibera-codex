@@ -5,6 +5,7 @@ import { getArchetypeNames } from "./lookups/archetype.js";
 import { getFactorIds } from "./lookups/factor.js";
 import { getGrailNames } from "./lookups/grail.js";
 import { getMiberaIds } from "./lookups/mibera.js";
+import { getMstCollection } from "./lookups/mst.js";
 import type { ValidateResult, WorldElementType } from "./types.js";
 
 const FUZZY_THRESHOLD: Record<WorldElementType, number> = {
@@ -13,6 +14,7 @@ const FUZZY_THRESHOLD: Record<WorldElementType, number> = {
   factor: 4,
   grail: 4,
   mibera: 0,
+  mst: 0,
 };
 
 export function validateWorldElement(
@@ -39,6 +41,19 @@ export function validateWorldElement(
     case "mibera": {
       const id = Number(trimmed);
       if (Number.isInteger(id) && getMiberaIds().includes(id)) {
+        return { canonical: true, type };
+      }
+      logCoverageGap(type, trimmed, null, null, consumerHint);
+      return { canonical: false, type };
+    }
+    case "mst": {
+      // MST tokens are user-minted via trait-string keccak256 hashing — no
+      // curated id list. Treat in-range numeric tokenIds as canonical
+      // (heuristic; for definitive existence call on-chain tokenURI).
+      const stripped = trimmed.startsWith("@mst") ? trimmed.slice(4) : trimmed;
+      const id = Number(stripped);
+      const c = getMstCollection();
+      if (Number.isInteger(id) && id >= 1 && id <= c.totalSupplyKnown) {
         return { canonical: true, type };
       }
       logCoverageGap(type, trimmed, null, null, consumerHint);

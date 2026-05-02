@@ -21,6 +21,7 @@ micodex lookup zone bear-cave
 micodex lookup archetype Freetekno
 micodex lookup factor nft:mibera
 micodex lookup mibera 4488
+micodex lookup mst 123                  # MST (Mibera Shadow Traits) — sovereign metadata + sticker URLs
 ```
 
 Single deterministic call. Returns the full entity JSON. Exits 1 on not_found.
@@ -69,11 +70,29 @@ micodex validate archetype Freetech
 # {"canonical": false, "suggested": "Freetekno", "distance": 1, ...}
 ```
 
+## MST — Mibera Shadow Traits
+
+```bash
+micodex lookup mst 123
+```
+
+Returns enriched envelope:
+- `collection.{contract, chain, standard, name, symbol}` — on-chain identity
+- `metadata.sovereignUrl` — `metadata.0xhoneyjar.xyz/mibera/mst/{N}` (sovereign tokenURI · LIVE post-Cutover B 2026-05-01)
+- `stickers.urls[<expression>]` — per-expression sticker URLs composed against URL_CONTRACT v1.2.0 paths under `Mibera/MST/expressions/...`
+- `stickers.substrateStatus` — `"pending"` until M-1 (S3 bucket policy) + M-2 (generation pipeline) of mibera-family-sticker-substrate cycle land; sticker URLs return 403 until then
+
+MST tokens are dynamically user-minted via trait strings hashed keccak256 on-chain (see `_codex/data/shadow-traits.md`). There's no per-token JSONL — the lookup composes URLs from the collection-level template + the requested tokenId. Total supply known as of 2026-05-01: 3219.
+
+For canonical names → ref:
+- `@mst<tokenId>` is the stable ref (mirrors `@g<id>` for grails). `lookup mst @mst123` and `lookup mst 123` are equivalent.
+
 ## Bulk / structured access
 
 For programmatic exhaustive queries:
 - `_codex/data/miberas.jsonl` — all 10,000 Miberas (JSONL)
 - `_codex/data/grails.jsonl` — 43 grails (JSONL)
+- `_codex/data/mst-collection.json` — MST collection-level metadata + sticker config (one entry · per-token URLs composed via `lookup mst`)
 - `_codex/data/graph.json` — full knowledge graph (5.9 MB)
 
 Prefer the CLI for single-entity queries; the JSONL/graph dumps are for batch processing.

@@ -1,0 +1,38 @@
+{
+  "contract": "0x048327A187b944ddac61c6e202BfccD20d17c008",
+  "chain": "berachain",
+  "chainId": 80094,
+  "standard": "ERC-721 (UUPS Proxy)",
+  "tokenSymbol": "MST",
+  "name": "Mibera Shadow Traits",
+  "totalSupplyKnown": 3219,
+  "narrativeRef": "_codex/data/shadow-traits.md",
+  "metadata": {
+    "sovereignTokenURITemplate": "https://metadata.0xhoneyjar.xyz/mibera/mst/{tokenId}",
+    "shippedAt": "2026-05-01",
+    "cycle": "migrate-mst-sovereignty-2026-05-01"
+  },
+  "stickers": {
+    "manifestUrl": "https://assets.0xhoneyjar.xyz/Mibera/MST/expressions/current.json",
+    "version": "v1",
+    "expressionsAvailable": [
+      "neutral",
+      "smile",
+      "angry",
+      "surprised",
+      "sad",
+      "sleepy",
+      "wink"
+    ],
+    "variants": ["transparent"],
+    "defaultVariant": "transparent",
+    "perTokenBaseUrlTemplate": "https://assets.0xhoneyjar.xyz/Mibera/MST/expressions/{version}/{tokenId}/{variant}/{expr}.webp",
+    "substrateStatus": "pending",
+    "substrateNotes": "URL_CONTRACT v1.2.0 (freeside-storage#6) registers these paths. Substrate bytes pending M-1 (S3 bucket policy) + M-2 (sticker generation pipeline) — see bonfire substrate handoff brief 2026-05-02. Until live, perToken URLs return 403; manifest URL returns 403."
+  },
+  "urlContractRef": {
+    "version": "1.2.0",
+    "schemaUrl": "https://github.com/0xHoneyJar/freeside-storage/blob/main/packages/protocol/url-contract.schema.json",
+    "migrationPhaseId": "mibera-family-sticker-substrate"
+  }
+}

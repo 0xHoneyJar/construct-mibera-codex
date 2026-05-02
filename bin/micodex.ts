@@ -26,6 +26,7 @@ import {
 import { lookupFactor } from "../src/lookups/factor.js";
 import { lookupGrail } from "../src/lookups/grail.js";
 import { lookupMibera } from "../src/lookups/mibera.js";
+import { lookupMst } from "../src/lookups/mst.js";
 import {
   searchCodex,
   QmdNotInstalledError,
@@ -114,7 +115,7 @@ Usage:
   micodex <command> [args] [flags]
 
 Commands:
-  lookup <noun> <query>    Look up a single entity (zone / archetype / factor / grail / mibera)
+  lookup <noun> <query>    Look up a single entity (zone / archetype / factor / grail / mibera / mst)
   list <noun>              List canonical entities (zones / archetypes)
   validate <type> <value>  Validate a value against the canonical set (suggests closest)
   search <intent>          Intent-layer search — returns ranked refs for \`lookup\`
@@ -131,6 +132,7 @@ Examples:
   micodex lookup archetype Freetekno
   micodex lookup factor nft:mibera
   micodex lookup mibera 4488
+  micodex lookup mst 123                            # MST (Mibera Shadow Traits) per-token enrichment
   micodex list zones
   micodex validate archetype Freetech
   micodex search "void motif" --collection=grails  # intent → ref envelope (JSON)
@@ -147,6 +149,7 @@ Usage:
   micodex lookup factor <factor-id>      Look up a score-mibera factor and return its codex lore
   micodex lookup grail <id|slug|name>    Look up a 1/1 grail (token ID, slug, or display name)
   micodex lookup mibera <token-id>       Look up a single Mibera by token ID (1-10000)
+  micodex lookup mst <token-id>          Look up MST (Mibera Shadow Traits) per-token (sovereign metadata + sticker URLs)
 
 Flags:
   --field=<name>                       Extract a single field from the result (raw output)
@@ -229,8 +232,19 @@ function handleLookup(rest: string[], flags: Record<string, string | boolean>): 
       emit(lookupMibera(id), field);
       break;
     }
+    case "mst": {
+      if (!query) fail("missing token-id. usage: micodex lookup mst <token-id>");
+      // accept the @mst<N> ref as well as bare numeric
+      const stripped = query.startsWith("@mst") ? query.slice(4) : query;
+      const id = Number(stripped);
+      if (!Number.isFinite(id) || !Number.isInteger(id) || id < 1) {
+        fail(`invalid token-id "${query}" — must be a positive integer (or @mst<id> ref)`);
+      }
+      emit(lookupMst(id), field);
+      break;
+    }
     default:
-      fail(`unknown noun "${noun}". expected: zone, archetype, factor, grail, mibera`);
+      fail(`unknown noun "${noun}". expected: zone, archetype, factor, grail, mibera, mst`);
   }
 }
 
