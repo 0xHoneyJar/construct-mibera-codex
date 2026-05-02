@@ -21,8 +21,15 @@ RUN pnpm install --frozen-lockfile
 # construct-surface-decision-tree.md §6.3 — searchCodex (intent layer) shells
 # out to `qmd query ...` via spawnSync at runtime. Postinstall (which clones
 # llama.cpp to build node-llama-cpp from source) reuses the build toolchain
-# installed above.
-RUN npm install -g @tobilu/qmd@^2.1.0
+# installed above. Pinned exact version (bridgebuilder #70 F2 reproducibility)
+# instead of ^2.1.0 caret range — bump intentionally.
+RUN npm install -g @tobilu/qmd@2.1.0
+
+# UID-portable qmd cache location (bridgebuilder #70 F4 root-cache-path).
+# Default ~/.cache/qmd assumes runtime user has $HOME=/root; setting
+# XDG_CACHE_HOME makes the index location explicit and survives non-root
+# `USER` directives, Kubernetes runAsNonRoot, or `docker run -u <uid>`.
+ENV XDG_CACHE_HOME=/opt/qmd-cache
 
 COPY . .
 RUN pnpm run build
@@ -30,7 +37,7 @@ RUN pnpm run build
 # Pre-build the qmd codex collections (codex-grails + codex-core-lore) in the
 # image. Without this step, search_codex returns "qmd_unavailable" at runtime
 # even though the binary is on PATH — the qmd index is what makes search work.
-# Lands at /root/.cache/qmd/index.sqlite (qmd's default cache location).
+# Lands at /opt/qmd-cache/qmd/ (XDG_CACHE_HOME set above) so it's UID-portable.
 RUN bash scripts/build-micodex-index.sh
 
 FROM node:20-slim
@@ -47,15 +54,23 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
   && rm -rf /var/lib/apt/lists/*
 
 # qmd: copy the global package (where the JS + node-llama-cpp .node binary live)
-# + the bin script + the prebuilt codex index. searchCodex (src/lookups/search.ts:120)
-# spawnSync's `qmd` from PATH at runtime; the .node addon dlopens
-# libstdc++/libgomp installed above. Without these COPY+chmod, search_codex
-# returns "qmd_unavailable" at first call — the silent-runtime-failure pattern
-# from PR #69 reaching one layer deeper.
+# + symlink the bin (preserves __dirname-relative require resolution per
+# bridgebuilder #70 F1) + copy the prebuilt index. searchCodex
+# (src/lookups/search.ts:120) spawnSync's `qmd` from PATH at runtime;
+# the .node addon dlopens libstdc++/libgomp installed above. XDG_CACHE_HOME
+# duplicated here so qmd at runtime finds the index at the same explicit path.
 COPY --from=builder /usr/local/lib/node_modules/@tobilu /usr/local/lib/node_modules/@tobilu
-COPY --from=builder /usr/local/lib/node_modules/@tobilu/qmd/bin/qmd /usr/local/bin/qmd
-RUN chmod +x /usr/local/bin/qmd
-COPY --from=builder /root/.cache/qmd /root/.cache/qmd
+RUN ln -s /usr/local/lib/node_modules/@tobilu/qmd/bin/qmd /usr/local/bin/qmd
+ENV XDG_CACHE_HOME=/opt/qmd-cache
+COPY --from=builder /opt/qmd-cache /opt/qmd-cache
+RUN chmod -R a+r /opt/qmd-cache
+
+# Smoke-test the qmd binary at build time (bridgebuilder #70 F5). Catches:
+# - bin symlink resolution failure
+# - missing libstdc++/libgomp dependencies
+# - corrupted/missing index from XDG_CACHE_HOME mismatch
+# Build fails loudly here instead of search_codex returning errors at first call.
+RUN qmd --version && qmd status | head -5
 
 COPY --from=builder /app/node_modules ./node_modules
 COPY --from=builder /app/dist ./dist
