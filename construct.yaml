@@ -29,8 +29,8 @@ commands:
     description: "Query the Mibera knowledge base"
 
 cli:
-  binary: codex
-  entry: bin/codex.ts
+  binary: micodex
+  entry: bin/micodex.ts
   declaration: beacon.yaml
   subcommands:
     - lookup zone <slug>

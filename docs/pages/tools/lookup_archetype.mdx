@@ -1,0 +1,68 @@
+---
+title: lookup_archetype
+description: One of four canonical archetypes — era, zodiac, locations, figures, fashion.
+---
+
+import { ToolCard } from '../../components/tool-card'
+
+<ToolCard n={2} name="lookup_archetype" tier="HARD" purpose="one of four — era, locations, figures, fashion" />
+
+> 🔒 **HARD tier.** four archetypes exist. that's the whole set.
+
+returns era, zodiac signs, season, locations, key figures, key events, drug connections, ancestor connections, fashion. null if the name isn't canonical.
+
+## input
+
+```json
+{ "name": "Freetekno" }
+```
+
+| field | type | required | notes |
+| --- | --- | --- | --- |
+| `name` | `string` | ✅ | exact canonical name (case-sensitive) |
+
+## canonical match
+
+```json
+{
+  "name": "Freetekno",
+  "era": "Early-Late 90s",
+  "zodiac_signs": ["Cancer", "Leo", "Virgo"],
+  "season": "Summer",
+  "locations": [
+    "Castlemorton (UK)",
+    "London",
+    "Stonehenge",
+    "Amnesia and Pacha (Ibiza)",
+    "Tonka at The Zap (Brighton)"
+  ],
+  "figures": [
+    "Spiral Tribe",
+    "MF Doom",
+    "DiY Collective (Digs & Woosh)",
+    "DJ PGZ",
+    "Frank Waln"
+  ],
+  "events": [
+    "Castlemorton 1992 — ~20,000 attendees, Worcestershire",
+    "Britain's Illegal Rave Renaissance — post-1994 Criminal Justice Act"
+  ],
+  "drugs": ["LSD", "DMT", "Speed", "Khat", "Ayahuasca"],
+  "ancestor_connections": ["Aboriginal", "Native American", "Irish"],
+  "fashion": "Steampunk glasses, black graphic tees, monochromatic hoodie, military cargo jacket, camo hat, leather jacket, pilot cap, fluoro accessories, silver mask"
+}
+```
+
+## composition
+
+| pair this with | for |
+| --- | --- |
+| [`list_archetypes`](/tools/list_archetypes) | discovering the canonical four before lookup |
+| [`validate_world_element`](/tools/validate_world_element) | recovering from typos (`Freetech` → `Freetekno`) |
+| [`lookup_zone`](/tools/lookup_zone) | following a zone's `archetype` field |
+
+## edge cases
+
+- exactly four. anything else returns `null`.
+- case-sensitive. `"freetekno"` ≠ `"Freetekno"`.
+- the four are stable. no deprecations.

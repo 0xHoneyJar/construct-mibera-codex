@@ -1,0 +1,37 @@
+---
+title: list_zones
+description: Every canonical festival zone — discovery surface for slugs.
+---
+
+import { ToolCard } from '../../components/tool-card'
+
+<ToolCard n={6} name="list_zones" tier="HARD" purpose="every canonical zone — discovery surface" />
+
+> 🔒 **HARD tier.** the discovery surface for zone slugs.
+
+returns an array of `{slug, name, emoji, archetype}`. use it to discover canonical slugs before [`lookup_zone`](/tools/lookup_zone), or to validate that a zone reference in agent prose maps to a real slug.
+
+## input
+
+```json
+{}
+```
+
+no arguments. (the MCP SDK requires `arguments: {}` to be present even when empty.)
+
+## output
+
+```json
+[
+  { "slug": "stonehenge", "name": "Stonehenge", "emoji": "🪨", "archetype": "All" },
+  { "slug": "bear-cave",  "name": "Bear Cave",  "emoji": "🐻", "archetype": "Freetekno" },
+  ...
+]
+```
+
+## composition
+
+| pair this with | for |
+| --- | --- |
+| [`lookup_zone`](/tools/lookup_zone) | drilling into a specific zone's full entry |
+| [`validate_world_element`](/tools/validate_world_element) | the inverse — "is this slug canonical?" |

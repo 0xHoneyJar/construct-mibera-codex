@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "2025-06-18",
+  "name": "micodex-mcp",
+  "title": "Mibera Codex",
+  "description": "Anti-hallucination lookup MCP for narrative-bot consumers — zones, archetypes, factors, grails, miberas. Codex stays source-of-truth; this transport is read-only.",
+  "version": "1.4.0",
+  "publisher": "0xHoneyJar",
+  "license": "MIT",
+  "transports": [
+    { "type": "streamable-http", "url": "/mcp" }
+  ],
+  "tools": [
+    "lookup_zone",
+    "lookup_archetype",
+    "lookup_factor",
+    "lookup_grail",
+    "lookup_mibera",
+    "list_zones",
+    "list_archetypes",
+    "validate_world_element"
+  ],
+  "auth": { "kind": "none" },
+  "documentation": "https://github.com/0xHoneyJarxhoneyjar/construct-mibera-codex#readme"
+}

@@ -47,12 +47,39 @@ function loadGrails(): GrailCache {
   return cache;
 }
 
+/**
+ * Strip the `@g` ref prefix when present, leaving the canonical id or slug.
+ *
+ * Refs use unambiguous separators to avoid colliding with grail slugs that
+ * begin with the letter `g` (gaia, gemini, greek). Without the strict shapes,
+ * input `@gaia` would be stripped to `aia` and silently fail lookup.
+ *
+ *   `@g876`        → "876"  (numeric id form)
+ *   `@g-black-hole`→ "black-hole" (slug form)
+ *   `@g:black-hole`→ "black-hole" (slug form, colon separator)
+ *   `@gaia`        → "@gaia" (UNCHANGED — falls through to name/slug lookup)
+ *
+ * See ~/vault/wiki/concepts/construct-surface-decision-tree.md §6.2 +
+ * "ambiguous-ref-prefix" anti-pattern.
+ */
+function stripGrailRef(input: string): string {
+  // numeric id form: @g<digits>$
+  const idMatch = input.match(/^@g(\d+)$/);
+  if (idMatch) return idMatch[1]!;
+  // slug form: @g-<slug>$ or @g:<slug>$
+  const slugMatch = input.match(/^@g[-:](.+)$/);
+  if (slugMatch) return slugMatch[1]!;
+  // Anything else passes through. `@gaia` reaches name/slug lookup as
+  // "@gaia" → not found (correct — that's not a valid ref anyway).
+  return input;
+}
+
 export function lookupGrail(idOrSlugOrName: string | number): GrailEntry | null {
   const c = loadGrails();
   if (typeof idOrSlugOrName === "number") {
     return c.byId.get(idOrSlugOrName) ?? null;
   }
-  const trimmed = idOrSlugOrName.trim();
+  const trimmed = stripGrailRef(idOrSlugOrName.trim());
   const asInt = Number(trimmed);
   if (Number.isFinite(asInt) && c.byId.has(asInt)) return c.byId.get(asInt)!;
   return (

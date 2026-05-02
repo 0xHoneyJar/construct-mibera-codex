@@ -114,7 +114,7 @@ Explore the 10,000 Miberas through faceted search — filter by archetype, ances
 
 The codex ships an MCP server for narrative-bot consumers (freeside-characters' ruggy + satoshi today, future puruhani daemons). It is the **read interface** to the codex's canonical world-elements.
 
-Per [RFC #53](https://github.com/0xHoneyJar/construct-mibera-codex/issues/53) and Gumi's locked v1 design (2026-04-29):
+Per [RFC #53](https://github.com/0xHoneyJarxhoneyjar/construct-mibera-codex/issues/53) and Gumi's locked v1 design (2026-04-29):
 
 | Tool | What it returns |
 |---|---|
@@ -141,7 +141,7 @@ Add to Claude Code (`.claude/settings.json` or `claude_desktop_config.json`):
   "mcpServers": {
     "codex": {
       "command": "pnpm",
-      "args": ["--prefix", "/path/to/construct-mibera-codex", "mcp"]
+      "args": ["--prefix", "/path/toxhoneyjar/construct-mibera-codex", "mcp"]
     }
   }
 }
@@ -181,7 +181,7 @@ Implements `constructs-mcp-shape` + `constructs-mcp-deployment-topology` from op
 
 ## Contributing
 
-The codex is a living document. If something is wrong, missing, or could be better — [open an issue](https://github.com/0xHoneyJar/construct-mibera-codex/issues/new).
+The codex is a living document. If something is wrong, missing, or could be better — [open an issue](https://github.com/0xHoneyJarxhoneyjar/construct-mibera-codex/issues/new).
 
 Corrections, lore additions, cultural context, trait documentation, broken links, grail history, or information you think should be here but isn't — all welcome. Just describe what you're seeing and what you think it should be.
 

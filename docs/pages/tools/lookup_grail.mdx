@@ -1,0 +1,51 @@
+---
+title: lookup_grail
+description: 1/1 grail lookup by token ID, slug, or display name.
+---
+
+import { ToolCard } from '../../components/tool-card'
+
+<ToolCard n={3} name="lookup_grail" tier="HARD" purpose="1/1 grail by id, slug, or name" />
+
+> 🔒 **HARD tier.** grails are 1/1 NFTs. canonical. lookup, don't fabricate.
+
+returns `id`, `name`, `category`, `description`, `status`. accepts token ID, slug, or display name. null if not found.
+
+## input
+
+```json
+{ "query": "moon" }
+```
+
+| field | type | required | notes |
+| --- | --- | --- | --- |
+| `query` | `string` | ✅ | token ID as string, slug (`"moon"`), or display name (`"Scorpio"`) |
+
+## canonical match
+
+```json
+{
+  "id": 309,
+  "name": "Moon",
+  "type": "grail",
+  "category": "luminary",
+  "slug": "moon",
+  "description": "Speaker cone necklace with lunar phase crown, inspired by Selene"
+}
+```
+
+## the nine categories
+
+```
+🜂 element        🌟 luminary        🪞 concept
+♍ zodiac          🪐 planet          🧬 ancestor
+🌌 primordial     ⭐ special         🎭 community
+```
+
+a `zodiac` grail is shaped differently from a `community` grail. respect the category.
+
+## composition
+
+| pair this with | for |
+| --- | --- |
+| [`validate_world_element`](/tools/validate_world_element) | fuzzy-matching typo'd queries |

@@ -1,0 +1,48 @@
+---
+title: lookup_factor
+description: Cross-construct JOIN — score-mibera factor IDs to codex lore.
+---
+
+import { ToolCard } from '../../components/tool-card'
+
+<ToolCard n={4} name="lookup_factor" tier="HARD" purpose="score-mibera factor id ↔ codex lore" />
+
+> 🔒 **HARD tier** for factor IDs · 🪶 **SOFT tier** for the lore around them.
+
+a join across two constructs. [score-mibera](https://github.com/0xHoneyJar/score-mibera) owns the factor ID surface — which IDs exist, what they emit. the codex owns the lore — display name, dimension, archetype anchor, narrative. null if score has the ID but the codex hasn't curated lore yet (see [coverage-gaps](/coverage-gaps)).
+
+## input
+
+```json
+{ "factor_id": "nft:mibera" }
+```
+
+| field | type | required | notes |
+| --- | --- | --- | --- |
+| `factor_id` | `string` | ✅ | factor ID emitted by score-mibera (`nft:mibera`, `og:jani_keys`, `onchain:milady_burner`) |
+
+## output
+
+```json
+{
+  "factor_id": "nft:mibera",
+  "display_name": "Mibera holdings",
+  "dimension": "...",
+  "archetype": "...",
+  "lore": "...",
+  "status": "curated"
+}
+```
+
+## who owns what
+
+| concern | owner |
+| --- | --- |
+| factor ID surface | [score-mibera](https://github.com/0xHoneyJar/score-mibera) |
+| factor lore | codex (`core-lore/factor-lore.md`) |
+| curator queue | [coverage-gaps](/coverage-gaps) |
+
+## edge cases
+
+- missing lore returns `null`. operator-seeded entries with TODO markers wait for Gumi to enrich.
+- factor IDs are case-sensitive and namespace-prefixed (`nft:`, `og:`, `onchain:`).
