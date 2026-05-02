@@ -5,7 +5,7 @@ Query the Mibera knowledge base.
 ## Usage
 
 ```
-/codex <query>
+/micodex <query>
 ```
 
 ## Routing
@@ -18,11 +18,11 @@ The codex command routes queries to the appropriate skill:
 
 ## Examples
 
-- `/codex Mibera 7777` — look up a specific Mibera
-- `/codex ancestor Greek` — read the Greek ancestor entry
-- `/codex browse by drug` — browse Miberas grouped by drug
-- `/codex grail Saturn` — look up the Saturn grail
-- `/codex drug-tarot pairings` — show the drug-to-tarot mapping
+- `/micodex Mibera 7777` — look up a specific Mibera
+- `/micodex ancestor Greek` — read the Greek ancestor entry
+- `/micodex browse by drug` — browse Miberas grouped by drug
+- `/micodex grail Saturn` — look up the Saturn grail
+- `/micodex drug-tarot pairings` — show the drug-to-tarot mapping
 
 ## Context files
 

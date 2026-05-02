@@ -35,7 +35,7 @@ export function logCoverageGap(
     appendFileSync(path, JSON.stringify(entry) + "\n", "utf8");
   } catch (err) {
     process.stderr.write(
-      `[codex-mcp] coverage-gap log write failed: ${(err as Error).message}\n`,
+      `[micodex-mcp] coverage-gap log write failed: ${(err as Error).message}\n`,
     );
   }
 }

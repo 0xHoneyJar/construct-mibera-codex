@@ -44,7 +44,7 @@ chatgpt and other mcp clients — same url. discovery card lives at [`/.well-kno
 faster. no network hop. for when the codex repo is checked out locally.
 
 ```bash
-git clone https://github.com/0xHoneyJar/construct-mibera-codex.git
+git clone https://github.com/0xHoneyJarxhoneyjar/construct-mibera-codex.git
 cd construct-mibera-codex
 pnpm install
 pnpm mcp
@@ -57,8 +57,8 @@ claude desktop config:
   "mcpServers": {
     "mibera-codex": {
       "command": "pnpm",
-      "args": ["--filter", "@0xhoneyjar/construct-mibera-codex", "mcp"],
-      "cwd": "/path/to/construct-mibera-codex"
+      "args": ["--filter", "@0xhoneyjarxhoneyjar/construct-mibera-codex", "mcp"],
+      "cwd": "/path/toxhoneyjar/construct-mibera-codex"
     }
   }
 }
@@ -73,7 +73,7 @@ import {
   lookupZone,
   lookupArchetype,
   validateWorldElement,
-} from "@0xhoneyjar/construct-mibera-codex/dist/src/lookups";
+} from "@0xhoneyjarxhoneyjar/construct-mibera-codex/dist/src/lookups";
 
 const zone = lookupZone("stonehenge");
 const check = validateWorldElement("archetype", "Freetech");
@@ -91,4 +91,4 @@ curl -X POST $CODEX_MCP_URL/mcp \
   -d '{"jsonrpc":"2.0","id":1,"method":"initialize","params":{"protocolVersion":"2025-06-18","capabilities":{},"clientInfo":{"name":"smoke","version":"0"}}}'
 ```
 
-returns an SSE event with `serverInfo: {"name":"codex-mcp","version":"1.1.0"}` and a `mcp-session-id` header. that's the handshake.
+returns an SSE event with `serverInfo: {"name":"micodex-mcp","version":"1.4.0"}` and a `mcp-session-id` header. that's the handshake.

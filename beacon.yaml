@@ -7,18 +7,18 @@
 # MCP wraps. Subcommands mirror MCP tools 1:1 (parallel verbs, cross-construct legibility).
 
 cli:
-  binary: codex
-  entry: bin/codex.ts
-  install: npx @0xhoneyjar/construct-mibera-codex   # or pack-local via Loa
+  binary: micodex
+  entry: bin/micodex.ts
+  install: npx @0xhoneyjarxhoneyjar/construct-mibera-codex   # or pack-local via Loa
   subcommands:
-    - codex lookup zone <slug>
-    - codex lookup archetype <name>
-    - codex lookup factor <factor-id>
-    - codex lookup grail <id|slug|name> [--field=<name>]
-    - codex lookup mibera <token-id>
-    - codex list zones
-    - codex list archetypes
-    - codex validate <type> <value> [--consumer-hint=<id>]
+    - micodex lookup zone <slug>
+    - micodex lookup archetype <name>
+    - micodex lookup factor <factor-id>
+    - micodex lookup grail <id|slug|name> [--field=<name>]
+    - micodex lookup mibera <token-id>
+    - micodex list zones
+    - micodex list archetypes
+    - micodex validate <type> <value> [--consumer-hint=<id>]
   output: stdout JSON (compact JSON via --field=<name> for raw text)
   exit_codes:
     0: success

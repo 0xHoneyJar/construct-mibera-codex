@@ -14,10 +14,10 @@ import {
 import { validateWorldElement } from "./validate.js";
 import { readPackageVersion } from "./lib/codex-root.js";
 
-// Single source of truth — shared with bin/codex.ts to preserve CLI/MCP
+// Single source of truth — shared with bin/micodex.ts to preserve CLI/MCP
 // parity (~/vault/wiki/concepts/construct-surface-decision-tree.md §6.2).
 const VERSION = readPackageVersion();
-const SERVER_NAME = "codex-mcp";
+const SERVER_NAME = "micodex-mcp";
 
 export function createCodexMcpServer(): McpServer {
   const server = new McpServer({ name: SERVER_NAME, version: VERSION });

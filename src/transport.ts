@@ -36,7 +36,7 @@ const gcTimer: NodeJS.Timeout = setInterval(() => {
       entry.transport.close().catch(() => {});
       sessions.delete(id);
       process.stderr.write(
-        `[codex-mcp] session ${id} closed (${expired ? "expired" : "idle"})\n`,
+        `[micodex-mcp] session ${id} closed (${expired ? "expired" : "idle"})\n`,
       );
     }
   }
@@ -104,7 +104,7 @@ export async function handleMcpRequest(c: Context): Promise<Response> {
     const transport = new StreamableHTTPServerTransport({
       sessionIdGenerator: () => newId,
       onsessioninitialized: (id) => {
-        process.stderr.write(`[codex-mcp] session ${id} initialized\n`);
+        process.stderr.write(`[micodex-mcp] session ${id} initialized\n`);
       },
     });
     transport.onclose = () => {
