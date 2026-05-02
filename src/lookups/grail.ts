@@ -52,7 +52,11 @@ export function lookupGrail(idOrSlugOrName: string | number): GrailEntry | null 
   if (typeof idOrSlugOrName === "number") {
     return c.byId.get(idOrSlugOrName) ?? null;
   }
-  const trimmed = idOrSlugOrName.trim();
+  // Accept refs from `codex search --refs`: `@g876` (id) or `@g-black-hole` (slug).
+  // Strips the `@g` prefix and an optional separator, then falls through to
+  // existing id/slug/name lookup. See ~/vault/wiki/concepts/construct-surface-decision-tree.md §6.2.
+  const stripped = idOrSlugOrName.trim().replace(/^@g[-:]?/, "");
+  const trimmed = stripped;
   const asInt = Number(trimmed);
   if (Number.isFinite(asInt) && c.byId.has(asInt)) return c.byId.get(asInt)!;
   return (

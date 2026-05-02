@@ -25,6 +25,14 @@ import {
 import { lookupFactor } from "../src/lookups/factor.js";
 import { lookupGrail } from "../src/lookups/grail.js";
 import { lookupMibera } from "../src/lookups/mibera.js";
+import {
+  searchCodex,
+  QmdNotInstalledError,
+  QmdIndexMissingError,
+  type SearchCollection,
+  type SearchMode,
+  type SearchHit,
+} from "../src/lookups/search.js";
 import { validateWorldElement } from "../src/validate.js";
 import type { WorldElementType } from "../src/types.js";
 
@@ -131,6 +139,7 @@ Commands:
   lookup <noun> <query>    Look up a single entity (zone / archetype / factor / grail / mibera)
   list <noun>              List canonical entities (zones / archetypes)
   validate <type> <value>  Validate a value against the canonical set (suggests closest)
+  search <intent>          Intent-layer search — returns ranked refs for \`lookup\`
 
 Global flags:
   --help, -h               Show this message
@@ -139,12 +148,15 @@ Global flags:
 
 Examples:
   codex lookup grail black-hole --field=image
+  codex lookup grail @g876                        # accepts refs from search
   codex lookup zone bear-cave
   codex lookup archetype Freetekno
   codex lookup factor nft:mibera
   codex lookup mibera 4488
   codex list zones
   codex validate archetype Freetech
+  codex search "void motif" --collection=grails   # intent → ref envelope (JSON)
+  codex search "void motif" --refs | xargs -n1 codex lookup grail
 
 Doctrine: ~/vault/wiki/concepts/construct-surface-decision-tree.md
 MCP equivalent: codex-mcp (same tool surface, same data, agent-native transport)`;
@@ -168,6 +180,27 @@ const LIST_HELP = `codex list — enumerate canonical entities
 Usage:
   codex list zones                     List all canonical festival zones
   codex list archetypes                List all 4 canonical archetypes`;
+
+const SEARCH_HELP = `codex search — intent-layer search (the §6 extension)
+
+Usage:
+  codex search "<intent>" [flags]
+
+Returns ranked candidate refs. Refs are stable: pass them straight into
+\`codex lookup\`. Default JSON envelope: {ref, type, name, score, ...}.
+Empty result is valid data (returns [] and exits 0); not_found exits 1
+only on lookup, never on search.
+
+Flags:
+  --collection=<name>      grails | core-lore | all (default: grails)
+  --limit=<n>              Max results (default 10)
+  --mode=<lex|vec|hybrid>  qmd backend mode (default hybrid: BM25 + vector + LLM rerank)
+  --refs                   Output one ref per line (pipeable into xargs)
+  --json                   (default) JSON array of {ref, type, name, score, ...}
+  --min-score=<n>          Filter by minimum qmd score (0..1)
+
+Backend: \`@tobilu/qmd\` peerDependency. Run \`pnpm codex:index\` after install.
+Doctrine: ~/vault/wiki/concepts/construct-surface-decision-tree.md §6`;
 
 const VALIDATE_HELP = `codex validate — check a value against the canonical set
 
@@ -244,6 +277,58 @@ function handleList(rest: string[], flags: Record<string, string | boolean>): ne
   }
 }
 
+function handleSearch(rest: string[], flags: Record<string, string | boolean>): never {
+  if (flags.help || flags.h) {
+    process.stdout.write(SEARCH_HELP + "\n");
+    process.exit(0);
+  }
+  const intent = rest.join(" ").trim();
+  if (!intent) fail('missing intent. usage: codex search "<intent>" [--collection=...]');
+
+  const collection = (typeof flags.collection === "string" ? flags.collection : "grails") as SearchCollection;
+  if (!["grails", "core-lore", "all"].includes(collection)) {
+    fail(`unknown collection "${collection}". expected: grails, core-lore, all`);
+  }
+  const mode = (typeof flags.mode === "string" ? flags.mode : "hybrid") as SearchMode;
+  if (!["lex", "vec", "hybrid"].includes(mode)) {
+    fail(`unknown mode "${mode}". expected: lex, vec, hybrid`);
+  }
+  const limitRaw = flags.limit;
+  const limit = typeof limitRaw === "string" ? Number(limitRaw) : 10;
+  if (!Number.isFinite(limit) || limit < 1 || limit > 100) {
+    fail(`invalid limit "${String(limitRaw)}" — must be integer 1..100`);
+  }
+  const minScoreRaw = flags["min-score"];
+  const minScore =
+    typeof minScoreRaw === "string" ? Number(minScoreRaw) : undefined;
+  if (minScore !== undefined && (!Number.isFinite(minScore) || minScore < 0 || minScore > 1)) {
+    fail(`invalid min-score "${String(minScoreRaw)}" — must be 0..1`);
+  }
+
+  let hits: SearchHit[];
+  try {
+    hits = searchCodex({ intent, collection, mode, limit, minScore });
+  } catch (e) {
+    if (e instanceof QmdNotInstalledError || e instanceof QmdIndexMissingError) {
+      process.stderr.write(`error: ${e.message}\n`);
+      process.exit(1);
+    }
+    throw e;
+  }
+
+  if (flags.refs) {
+    // Pipeable: one ref per line, no JSON. Empty result = no output, exit 0.
+    for (const h of hits) {
+      process.stdout.write(h.ref + "\n");
+    }
+    process.exit(0);
+  }
+
+  // Default: JSON envelope. Empty array is valid data — exit 0.
+  process.stdout.write(JSON.stringify(hits, null, 2) + "\n");
+  process.exit(0);
+}
+
 function handleValidate(rest: string[], flags: Record<string, string | boolean>): never {
   if (flags.help || flags.h) {
     process.stdout.write(VALIDATE_HELP + "\n");
@@ -272,7 +357,9 @@ function main(): never {
     process.stdout.write(getVersion() + "\n");
     process.exit(0);
   }
-  if (flags.help || flags.h || positional.length === 0) {
+  // Show ROOT_HELP only when no verb is given. Sub-help (`codex search --help`)
+  // is delegated to the verb's handler, which prints its own help text.
+  if (positional.length === 0) {
     process.stdout.write(ROOT_HELP + "\n");
     process.exit(0);
   }
@@ -288,8 +375,11 @@ function main(): never {
     case "validate":
       handleValidate(rest, flags);
       break;
+    case "search":
+      handleSearch(rest, flags);
+      break;
     default:
-      fail(`unknown command "${verb}". expected: lookup, list, validate. try \`codex --help\``);
+      fail(`unknown command "${verb}". expected: lookup, list, validate, search. try \`codex --help\``);
   }
 }
 

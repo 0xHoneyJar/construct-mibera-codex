@@ -5,9 +5,14 @@ import { lookupArchetype, listArchetypes } from "./lookups/archetype.js";
 import { lookupFactor } from "./lookups/factor.js";
 import { lookupGrail } from "./lookups/grail.js";
 import { lookupMibera } from "./lookups/mibera.js";
+import {
+  searchCodex,
+  QmdNotInstalledError,
+  QmdIndexMissingError,
+} from "./lookups/search.js";
 import { validateWorldElement } from "./validate.js";
 
-const VERSION = "1.1.0";
+const VERSION = "1.3.0";
 const SERVER_NAME = "codex-mcp";
 
 export function createCodexMcpServer(): McpServer {
@@ -153,6 +158,80 @@ export function createCodexMcpServer(): McpServer {
         { type: "text", text: JSON.stringify(listArchetypes(), null, 2) },
       ],
     }),
+  );
+
+  server.tool(
+    "search_codex",
+    "Intent-layer search — the §6 extension to bucket-1. Returns ranked candidate refs that can be passed to lookup_grail (or future lookup_* tools) for full entity resolution. Backed by QMD (BM25 + vector + LLM rerank, on-device, peerDependency). Use when the user has a motif/concept (`'void motif'`, `'underworld grail'`) instead of a canonical name. Empty array = no matches above threshold (valid result, not an error). V1 ref scheme: `@g<id>` for grails (passes directly to lookup_grail). V1.5 will add zone/archetype/factor refs.",
+    z.object({
+      intent: z
+        .string()
+        .min(1)
+        .describe(
+          "Natural-language intent or motif, e.g. 'void motif', 'underworld grail', 'skull motif'",
+        ),
+      collection: z
+        .enum(["grails", "core-lore", "all"])
+        .optional()
+        .describe("Collection to search (default: grails)"),
+      limit: z
+        .number()
+        .int()
+        .min(1)
+        .max(100)
+        .optional()
+        .describe("Max results (default 10)"),
+      mode: z
+        .enum(["lex", "vec", "hybrid"])
+        .optional()
+        .describe(
+          "Backend mode (default hybrid: BM25 + vector + LLM rerank). lex/vec are token-cheaper for high-confidence queries.",
+        ),
+      min_score: z
+        .number()
+        .min(0)
+        .max(1)
+        .optional()
+        .describe("Filter by minimum qmd score (0..1)"),
+    }).shape,
+    async ({ intent, collection, limit, mode, min_score }) => {
+      try {
+        const hits = searchCodex({
+          intent,
+          collection,
+          limit,
+          mode,
+          minScore: min_score,
+        });
+        return {
+          content: [
+            { type: "text", text: JSON.stringify(hits, null, 2) },
+          ],
+        };
+      } catch (e) {
+        const isQmdErr =
+          e instanceof QmdNotInstalledError || e instanceof QmdIndexMissingError;
+        return {
+          isError: true,
+          content: [
+            {
+              type: "text",
+              text: JSON.stringify(
+                {
+                  error: isQmdErr ? "qmd_unavailable" : "search_failed",
+                  message: (e as Error).message,
+                  hint: isQmdErr
+                    ? "@tobilu/qmd is a peerDependency. install + run scripts/build-codex-index.sh"
+                    : undefined,
+                },
+                null,
+                2,
+              ),
+            },
+          ],
+        };
+      }
+    },
   );
 
   server.tool(

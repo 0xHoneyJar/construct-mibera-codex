@@ -65,6 +65,51 @@
 
 ## Decisions
 
+### Session 08 — intent-layer / QMD search-partner (2026-05-02)
+
+Session 08 ships the `§6 intent-layer` extension to bucket-1 (per `~/vault/wiki/concepts/construct-surface-decision-tree.md` §6, added in this session). Closes construct-mibera-codex#62 *broadly* — session 07 closed it narrowly (NAME layer); this session adds the INTENT layer so users without the canonical name (`"void motif"` instead of `"Black Hole"`) still resolve via search → ranked refs → lookup.
+
+Three-layer model (§6.1):
+- **ID** layer: `codex lookup grail 876` (deterministic, session 07)
+- **NAME** layer: `codex lookup grail "Black Hole"` (deterministic, session 07)
+- **INTENT** layer: `codex search "void motif"` → refs → `codex lookup grail @g876` (probabilistic + deterministic compose)
+
+Surface delivered:
+- `bin/codex.ts` adds `search` verb · `--collection={grails|core-lore|all}` · `--limit` · `--mode={lex|vec|hybrid}` · `--refs` (pipeable into `xargs codex lookup grail`) · `--json` (default envelope). Also fixes pre-existing bug: subcommand `--help` was triggering ROOT_HELP instead of sub-help.
+- `src/lookups/search.ts` shells out to `qmd query` (BM25 + vector + LLM rerank, all-local). Maps qmd path `qmd://codex-grails/<slug>.md` → grail entry → `@g<id>` ref.
+- `src/lookups/grail.ts` accepts `@g<id>` and `@g-<slug>` refs (strips prefix; existing id/slug/name lookup falls through).
+- `src/server.ts` adds `search_codex` MCP tool (CLI/MCP parity invariant from §6.2). Bumps VERSION constant 1.1.0 → 1.3.0.
+- `scripts/build-codex-index.sh` registers `codex-grails` + `codex-core-lore` qmd collections with human-written context (propagates to LLM rerank). Idempotent. Wired as `pnpm codex:index`.
+- `skills/query-entity/SKILL.md` rewritten — slug-derivation prose removed (the §6.4 leak is killed). Skill describes WHAT (use lookup vs search), CLI describes HOW.
+- `package.json` — `@tobilu/qmd@^2.0.0` as optional peerDependency, version 1.2.0 → 1.3.0, `grails/` + `scripts/build-codex-index.sh` + `skills/` added to `files`.
+
+Spec deviations (per `feedback_spec_deviation_pattern`):
+
+1. **QMD version targeted is 2.x, not seed's 1.3.0**. The seed predated qmd's 2.0 release; current latest is 2.1.0. peerDep range `^2.0.0` accepts 2.x. No surface impact — qmd's `query` API is stable across the 1→2 boundary.
+2. **`--mode=lex|vec|hybrid` translates to qmd verbs `search|vsearch|query`**, NOT a `--mode` flag on qmd (qmd doesn't have a single `--mode` flag — modes are separate verbs). Wrapped invisibly in `src/lookups/search.ts::modeToVerb`. CLI surface matches seed §4.1 spec; backend mapping is implementation detail.
+3. **V1 ref-scheme is grail-only (`@g<id>`)**. core-lore collections are indexed (so search returns hits with snippets) but zone/archetype/factor refs are V1.5 — they require schema decisions (zones use slugs, archetypes use names, factors use `nft:mibera`-style ids). Generic `@?-<slug>` placeholder refs returned for non-grails so the surface is useful empirically. Documented in `src/lookups/search.ts::asGenericHit`.
+4. **Effect.ts NOT imported for V1**. Linear pipe (search → JSON.parse → ref envelope) doesn't earn typed channels. Per seed §6 invariant 6 + BARTH SHIP discipline.
+5. **Skill grew from 54 → 86 lines, but the SHAPE changed** — old skill taught slug-derivation prose for 8 entity types; new skill teaches CLI delegation with deprecated fallback pattern. The leak is closed even though line count didn't shrink to 1/3 (seed §4.3 estimate). Substance over surface area.
+
+Empirical KEEPER pass (§6.7 verify): 6 intent queries shipped:
+- `"void motif"` → `@g876` (Black Hole, 0.88) ✓ canonically correct
+- `"skull motif"` → 3 grails ranked (top: `@g507`)
+- `"underworld"` → 3 grails ranked (top: `@g4488`)
+- `"blue motif"` → 3 grails ranked (top: `@g6761`)
+- `"fire"` → 2 grails ranked (top: `@g6458`)
+- `"snake"` → `[]` (valid empty result, no false positives)
+
+Doctrine extended: `~/vault/wiki/concepts/construct-surface-decision-tree.md` 289 → 457 lines. New §6 (intent-layer extension), 7 new anti-patterns in §7, sections 7-12 renumbered, edges + sources updated to reference `@tobilu/qmd` and the agent-browser ref pattern.
+
+V1.5 deferred:
+- Effect.ts wrap when search-lookup composition grows non-trivial (retry, fallback, concurrent multi-collection)
+- `qmd --http --daemon` long-running optimization (cuts ~1-3s cold start per query)
+- Zone/archetype/factor ref schemes (`@z-<slug>`, `@a-<name>`, `@f-<id>`) — needs §6.2 ref-scheme generalization
+- Cross-construct search (rosenzu + emojis + codex in one query) — operator-named V2 thread
+- Adasuna external-Loa-user pass (carried forward from session 07 V1.5)
+- `grails.jsonl` (1/1 community grails) ingestion — qmd doesn't natively ingest jsonl; needs jsonl→md preprocessing pass
+- KEEPER's full intent-query corpus (5-10 → 30+ queries with operator-domain coverage)
+
 ### Session 07 — bucket-1 CLI surface (2026-05-02)
 
 Session 07 ships `bin/codex.ts` as the bucket-1 CLI half (per `~/vault/wiki/concepts/construct-surface-decision-tree.md`, the new doctrine page extending mcp-wraps-cli-pattern). Solves construct-mibera-codex#62 (grail image URL discovery friction).
