@@ -109,7 +109,8 @@ export type WorldElementType =
   | "factor"
   | "grail"
   | "mibera"
-  | "mst";
+  | "mst"
+  | "shadow";
 
 /**
  * Sticker catalog — shape mirrored from URL_CONTRACT v1.2.0 + StickerProfile.

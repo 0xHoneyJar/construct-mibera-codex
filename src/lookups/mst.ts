@@ -130,3 +130,20 @@ export function getMstCollection(): MstCollection {
 export function resetMstCache(): void {
   cache = null;
 }
+
+/**
+ * `lookupShadow` — alias for `lookupMst`. Per `_codex/data/shadow-traits.md`
+ * MST = "Mibera Shadow Traits"; "Shadow" is the narrative name, MST is the
+ * technical contract symbol. URL_CONTRACT v1.2.0 registers BOTH path
+ * conventions (`Mibera/Shadow/expressions/*` and `Mibera/MST/expressions/*`)
+ * for transitional consumer compat; this alias mirrors that on the lookup
+ * side so agents querying either name resolve to the same enriched envelope.
+ *
+ * Returned `type` stays `"mst"` (technical truth) but `ref` uses the
+ * `@shadow<N>` form to preserve the input vocabulary in the response.
+ */
+export function lookupShadow(tokenId: number): MstEntry | null {
+  const entry = lookupMst(tokenId);
+  if (!entry) return null;
+  return { ...entry, ref: `@shadow${tokenId}` };
+}

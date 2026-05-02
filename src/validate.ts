@@ -15,6 +15,7 @@ const FUZZY_THRESHOLD: Record<WorldElementType, number> = {
   grail: 4,
   mibera: 0,
   mst: 0,
+  shadow: 0,
 };
 
 export function validateWorldElement(
@@ -46,11 +47,17 @@ export function validateWorldElement(
       logCoverageGap(type, trimmed, null, null, consumerHint);
       return { canonical: false, type };
     }
-    case "mst": {
+    case "mst":
+    case "shadow": {
       // MST tokens are user-minted via trait-string keccak256 hashing — no
       // curated id list. Treat in-range numeric tokenIds as canonical
       // (heuristic; for definitive existence call on-chain tokenURI).
-      const stripped = trimmed.startsWith("@mst") ? trimmed.slice(4) : trimmed;
+      // Shadow ≡ MST alias per _codex/data/shadow-traits.md.
+      const stripped = trimmed.startsWith("@mst")
+        ? trimmed.slice(4)
+        : trimmed.startsWith("@shadow")
+          ? trimmed.slice(7)
+          : trimmed;
       const id = Number(stripped);
       const c = getMstCollection();
       if (Number.isInteger(id) && id >= 1 && id <= c.totalSupplyKnown) {

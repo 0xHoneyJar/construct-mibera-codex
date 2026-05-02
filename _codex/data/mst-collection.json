@@ -5,6 +5,7 @@
   "standard": "ERC-721 (UUPS Proxy)",
   "tokenSymbol": "MST",
   "name": "Mibera Shadow Traits",
+  "narrativeAliases": ["Shadow", "Mibera Shadows", "MST"],
   "totalSupplyKnown": 3219,
   "narrativeRef": "_codex/data/shadow-traits.md",
   "metadata": {
@@ -14,21 +15,30 @@
   },
   "stickers": {
     "manifestUrl": "https://assets.0xhoneyjar.xyz/Mibera/MST/expressions/current.json",
-    "version": "v1",
+    "shadowAliasManifestUrl": "https://assets.0xhoneyjar.xyz/Mibera/Shadow/expressions/current.json",
+    "version": "v2",
     "expressionsAvailable": [
       "neutral",
-      "smile",
       "angry",
-      "surprised",
+      "aww",
       "sad",
-      "sleepy",
-      "wink"
+      "uneasy",
+      "yay",
+      "smirk",
+      "worried",
+      "shocked",
+      "devious",
+      "tearful",
+      "grumpy",
+      "bashful",
+      "fierce",
+      "bliss"
     ],
-    "variants": ["transparent"],
+    "variants": ["transparent", "bg"],
     "defaultVariant": "transparent",
     "perTokenBaseUrlTemplate": "https://assets.0xhoneyjar.xyz/Mibera/MST/expressions/{version}/{tokenId}/{variant}/{expr}.webp",
     "substrateStatus": "pending",
-    "substrateNotes": "URL_CONTRACT v1.2.0 (freeside-storage#6) registers these paths. Substrate bytes pending M-1 (S3 bucket policy) + M-2 (sticker generation pipeline) — see bonfire substrate handoff brief 2026-05-02. Until live, perToken URLs return 403; manifest URL returns 403."
+    "substrateNotes": "Catalog mirrored from live canon Mibera manifest at https://assets.0xhoneyjar.xyz/Mibera/expressions/current.json (version v2, 15 expressions, 2 variants — matches expressionCount). Expression slugs sourced from mibera-dimensions/lib/emoji/expression-presets.ts (consumer-side authoritative list). Shadow + MST are alias paths to the same collection (per shadow-traits.md: 'Mibera Shadow Traits' technically MST, narratively Shadow); URL_CONTRACT v1.2.0 registers both substrate paths for transitional consumer compat. Sticker substrate bytes pending M-1 (S3 bucket policy) + M-2 (sticker generation pipeline) of mibera-family-sticker-substrate cycle — until live, perToken URLs return 403 on both paths."
   },
   "urlContractRef": {
     "version": "1.2.0",

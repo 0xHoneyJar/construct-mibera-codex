@@ -26,7 +26,7 @@ import {
 import { lookupFactor } from "../src/lookups/factor.js";
 import { lookupGrail } from "../src/lookups/grail.js";
 import { lookupMibera } from "../src/lookups/mibera.js";
-import { lookupMst } from "../src/lookups/mst.js";
+import { lookupMst, lookupShadow } from "../src/lookups/mst.js";
 import {
   searchCodex,
   QmdNotInstalledError,
@@ -115,7 +115,7 @@ Usage:
   micodex <command> [args] [flags]
 
 Commands:
-  lookup <noun> <query>    Look up a single entity (zone / archetype / factor / grail / mibera / mst)
+  lookup <noun> <query>    Look up a single entity (zone / archetype / factor / grail / mibera / mst / shadow)
   list <noun>              List canonical entities (zones / archetypes)
   validate <type> <value>  Validate a value against the canonical set (suggests closest)
   search <intent>          Intent-layer search — returns ranked refs for \`lookup\`
@@ -133,6 +133,7 @@ Examples:
   micodex lookup factor nft:mibera
   micodex lookup mibera 4488
   micodex lookup mst 123                            # MST (Mibera Shadow Traits) per-token enrichment
+  micodex lookup shadow 123                         # alias for mst — same data, @shadow<N> ref form
   micodex list zones
   micodex validate archetype Freetech
   micodex search "void motif" --collection=grails  # intent → ref envelope (JSON)
@@ -150,6 +151,7 @@ Usage:
   micodex lookup grail <id|slug|name>    Look up a 1/1 grail (token ID, slug, or display name)
   micodex lookup mibera <token-id>       Look up a single Mibera by token ID (1-10000)
   micodex lookup mst <token-id>          Look up MST (Mibera Shadow Traits) per-token (sovereign metadata + sticker URLs)
+  micodex lookup shadow <token-id>       Alias for mst — Shadow ≡ MST per shadow-traits.md (returns @shadow<N> ref form)
 
 Flags:
   --field=<name>                       Extract a single field from the result (raw output)
@@ -234,17 +236,37 @@ function handleLookup(rest: string[], flags: Record<string, string | boolean>): 
     }
     case "mst": {
       if (!query) fail("missing token-id. usage: micodex lookup mst <token-id>");
-      // accept the @mst<N> ref as well as bare numeric
-      const stripped = query.startsWith("@mst") ? query.slice(4) : query;
+      // accept @mst<N>, @shadow<N>, or bare numeric (Shadow ≡ MST per shadow-traits.md)
+      const stripped = query.startsWith("@mst")
+        ? query.slice(4)
+        : query.startsWith("@shadow")
+          ? query.slice(7)
+          : query;
       const id = Number(stripped);
       if (!Number.isFinite(id) || !Number.isInteger(id) || id < 1) {
-        fail(`invalid token-id "${query}" — must be a positive integer (or @mst<id> ref)`);
+        fail(`invalid token-id "${query}" — must be a positive integer (or @mst<id> / @shadow<id> ref)`);
       }
       emit(lookupMst(id), field);
       break;
     }
+    case "shadow": {
+      // Shadow ≡ MST alias (per shadow-traits.md: "Mibera Shadow Traits" technically
+      // MST, narratively Shadow). Same data, returns `@shadow<N>` ref form.
+      if (!query) fail("missing token-id. usage: micodex lookup shadow <token-id>");
+      const stripped = query.startsWith("@shadow")
+        ? query.slice(7)
+        : query.startsWith("@mst")
+          ? query.slice(4)
+          : query;
+      const id = Number(stripped);
+      if (!Number.isFinite(id) || !Number.isInteger(id) || id < 1) {
+        fail(`invalid token-id "${query}" — must be a positive integer (or @shadow<id> / @mst<id> ref)`);
+      }
+      emit(lookupShadow(id), field);
+      break;
+    }
     default:
-      fail(`unknown noun "${noun}". expected: zone, archetype, factor, grail, mibera, mst`);
+      fail(`unknown noun "${noun}". expected: zone, archetype, factor, grail, mibera, mst, shadow`);
   }
 }
 
