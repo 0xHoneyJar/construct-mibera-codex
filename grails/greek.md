@@ -18,7 +18,7 @@ Greek amphorae are two-handled vessels, often decorated with mythological scenes
 
 ## Visual Elements
 
-Greek amphora-inspired aesthetics. Bacchus and Apollo in the background along with figures from assorted pieces.
+The art is painted on the surface of a cracked amphora, a few segments missing from the vessel. Bacchus and Apollo occupy the background alongside a host of other figures — bodies intentionally tangled, a visual orgy rendered in the classical style. Mibera stands with their back turned to the scene. Rejection, or just stepping away from the festivities? The vessel in Mibera's hand is meant for kykeon — which says participant, not spectator.
 
 ## Justification
 

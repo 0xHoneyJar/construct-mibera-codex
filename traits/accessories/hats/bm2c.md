@@ -19,7 +19,7 @@ Soft pink cap with bm2c logo and text in white; a silhouette stickman of someone
 
 ## Cultural Context
 
-BM2C is an art project on Berachain with a very quirky sense of humour and distinct online persona. Launched an NFT collection that was available for minting on February 11th.
+BM2C ([@bm2c_](https://x.com/bm2c_)) is an art project on Berachain with a very quirky sense of humour and distinct online persona. Launched an NFT collection that was available for minting on February 11th.
 
 <!-- justification
 ## Justification
