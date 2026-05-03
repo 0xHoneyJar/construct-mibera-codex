@@ -58,6 +58,15 @@ mcp:
     - list_archetypes
     - validate_world_element
 
+streams:
+  reads:
+    - Intent
+    - Operator-Model
+    - Artifact
+  writes:
+    - Verdict
+    - Artifact
+
 capabilities:
   model_tier: haiku
   danger_level: safe
