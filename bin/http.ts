@@ -12,10 +12,71 @@ const MCP_CARD = JSON.parse(
   readFileSync(codexPath("app/.well-known/mcp.json"), "utf-8"),
 );
 
+// Cycle C federation beacon (v0.3 broadcast layer · per SDD §2.3 + sprint-2 P1).
+// Generated at build time from beacon.yaml via build-beacon-json (CI-validated against
+// @0xhoneyjar/beacon-schema BeaconV2Schema). Gateway fetches this endpoint to populate
+// its registry-broadcast cache; partners read it to discover capabilities + auth shape.
+const BEACON_CARD_RAW = JSON.parse(
+  readFileSync(codexPath("app/.well-known/beacon.json"), "utf-8"),
+);
+
+// Resolve ${ENV_VAR} placeholders ONCE at startup (per bridgebuilder PR #74 F1+F2).
+// BeaconV2Schema declares mcp.remote.endpoint as "Full URL OR template like
+// ${MCP_REMOTE_ENDPOINT}" — substitution happens here, env-driven per deploy.
+//
+// Failure mode (per bridgebuilder F3): unset placeholder → fail startup with a
+// clear error rather than serving the literal "${VAR}" string. Federation
+// partners caching a malformed URL is a much worse failure than an aborted boot.
+const missingPlaceholders = new Set<string>();
+// Match POSIX shell identifier syntax: leading letter/underscore, then alnum/underscore.
+// Broader than the uppercase-only convention so lowercase or mixed-case schema authors
+// don't get silent pass-through (per bridgebuilder F1, PR #74 fourth-pass review).
+function resolveBeaconPlaceholders(card: unknown): unknown {
+  if (typeof card === "string") {
+    return card.replace(/\$\{([A-Za-z_][A-Za-z0-9_]*)\}/g, (match, name) => {
+      const value = process.env[name];
+      if (value === undefined || value === "") {
+        missingPlaceholders.add(name);
+        return match;
+      }
+      return value;
+    });
+  }
+  if (Array.isArray(card)) {
+    return card.map((item) => resolveBeaconPlaceholders(item));
+  }
+  if (card !== null && typeof card === "object") {
+    const out: Record<string, unknown> = {};
+    for (const [k, v] of Object.entries(card)) {
+      out[k] = resolveBeaconPlaceholders(v);
+    }
+    return out;
+  }
+  return card;
+}
+
+const BEACON_CARD = resolveBeaconPlaceholders(BEACON_CARD_RAW) as {
+  mcp?: { remote?: { endpoint?: string } };
+};
+if (missingPlaceholders.size > 0) {
+  const names = Array.from(missingPlaceholders).join(", ");
+  process.stderr.write(
+    `[codex-mcp] FATAL: beacon.yaml references unset env vars: ${names}. ` +
+      `Set them in the deploy environment (e.g. MCP_REMOTE_ENDPOINT=https://mcp.0xhoneyjar.xyz/codex/mcp).\n`,
+  );
+  process.exit(1);
+}
+// Log resolved endpoint at startup for ops visibility (per bridgebuilder F4 PR #74).
+// Helps confirm successful substitution without exposing other beacon contents.
+process.stderr.write(
+  `[codex-mcp] beacon resolved · mcp.remote.endpoint=${BEACON_CARD.mcp?.remote?.endpoint ?? "<absent>"}\n`,
+);
+
 const app = new Hono();
 
 app.get("/healthz", (c) => c.text("ok"));
 app.get("/.well-known/mcp.json", (c) => c.json(MCP_CARD));
+app.get("/.well-known/beacon.json", (c) => c.json(BEACON_CARD));
 
 app.all("/mcp", handleMcpRequest);
 

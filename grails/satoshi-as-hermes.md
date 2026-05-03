@@ -8,7 +8,7 @@ description: "Satoshi as Hermes, inspired by the Lugano statue"
 
 # Satoshi as Hermes
 
-![Satoshi as Hermes](https://assets.0xhoneyjar.xyz/Mibera/grails/satoshi-as-hermes.png)
+![Satoshi as Hermes](https://assets.0xhoneyjar.xyz/Mibera/grails/satoshi-as-hermes.webp)
 
 > **Grail #4488** · Special · [Browse all Grails →](../browse/grails.md)
 

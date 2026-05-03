@@ -8,7 +8,7 @@ description: "Lord Shiva Grinding Bhang by Kailash Raj with crescent moon"
 
 # Hindu
 
-![Hindu](https://assets.0xhoneyjar.xyz/Mibera/grails/hindu.png)
+![Hindu](https://assets.0xhoneyjar.xyz/Mibera/grails/hindu.webp)
 
 > **Grail #8277** · Ancestor · [Browse all Grails →](../browse/grails.md)
 

@@ -8,7 +8,7 @@ description: "Femme Dionysus as Taurus with Mercury and the Nymphs reference"
 
 # Taurus
 
-![Taurus](https://assets.0xhoneyjar.xyz/Mibera/grails/taurus.png)
+![Taurus](https://assets.0xhoneyjar.xyz/Mibera/grails/taurus.webp)
 
 > **Grail #2113** · Zodiac · [Browse all Grails →](../browse/grails.md)
 

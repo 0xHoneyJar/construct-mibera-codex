@@ -130,7 +130,7 @@ def grail_image_url(slug, grail_md_path=None):
         match = re.search(r'!\[.*?\]\((https://[^)]+)\)', content)
         if match:
             return match.group(1)
-    return f"https://{CDN_HOST}/Mibera/grails/{slug}.png"
+    return f"https://{CDN_HOST}/Mibera/grails/{slug}.webp"
 
 
 def update_grails_jsonl(grails, dry_run=False):

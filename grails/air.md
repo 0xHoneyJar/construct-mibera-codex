@@ -8,7 +8,7 @@ description: "Cloud-like figure with sun filtering through"
 
 # Air
 
-![Air](https://assets.0xhoneyjar.xyz/Mibera/grails/air.png)
+![Air](https://assets.0xhoneyjar.xyz/Mibera/grails/air.webp)
 
 > **Grail #2769** · Element · [Browse all Grails →](../browse/grails.md)
 

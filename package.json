@@ -10,6 +10,7 @@
   },
   "scripts": {
     "build": "tsc",
+    "build:beacon": "build-beacon-json --in beacon.yaml --out app/.well-known/beacon.json",
     "start": "node dist/bin/http.js",
     "start:http": "node dist/bin/http.js",
     "micodex": "tsx bin/micodex.ts",
@@ -33,6 +34,7 @@
     "skills"
   ],
   "dependencies": {
+    "@0xhoneyjar/beacon-schema": "^0.1.0",
     "@hono/node-server": "^1.14.1",
     "@modelcontextprotocol/sdk": "^1.18.2",
     "gray-matter": "^4.0.3",

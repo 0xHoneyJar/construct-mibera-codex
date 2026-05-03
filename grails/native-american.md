@@ -8,7 +8,7 @@ description: "Ledger art with Bear Ears Monument and elk tooth dress"
 
 # Native American
 
-![Native American](https://assets.0xhoneyjar.xyz/Mibera/grails/native-american.png)
+![Native American](https://assets.0xhoneyjar.xyz/Mibera/grails/native-american.webp)
 
 > **Grail #3282** · Ancestor · [Browse all Grails →](../browse/grails.md)
 

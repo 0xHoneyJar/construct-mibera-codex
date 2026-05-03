@@ -8,7 +8,7 @@ description: "Odin as Mercury with Huginn and Muninn, caduceus staff"
 
 # Mercury
 
-![Mercury](https://assets.0xhoneyjar.xyz/Mibera/grails/mercury.png)
+![Mercury](https://assets.0xhoneyjar.xyz/Mibera/grails/mercury.webp)
 
 > **Grail #9112** · Planet · [Browse all Grails →](../browse/grails.md)
 

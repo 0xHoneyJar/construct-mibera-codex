@@ -8,7 +8,7 @@ description: "Chen Hongshou inspired with opium poppy and yin yang overlay"
 
 # Chinese
 
-![Chinese](https://assets.0xhoneyjar.xyz/Mibera/grails/chinese.png)
+![Chinese](https://assets.0xhoneyjar.xyz/Mibera/grails/chinese.webp)
 
 > **Grail #392** · Ancestor · [Browse all Grails →](../browse/grails.md)
 

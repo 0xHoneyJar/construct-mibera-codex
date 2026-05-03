@@ -8,7 +8,7 @@ description: "Ancient statue with Huginn and Muninn, Newgrange rock art"
 
 # Past
 
-![Past](https://assets.0xhoneyjar.xyz/Mibera/grails/past.png)
+![Past](https://assets.0xhoneyjar.xyz/Mibera/grails/past.webp)
 
 > **Grail #4221** · Concept · [Browse all Grails →](../browse/grails.md)
 

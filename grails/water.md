@@ -8,7 +8,7 @@ description: "Aquatic hues with downward flow and chest light evoking the sun"
 
 # Water
 
-![Water](https://assets.0xhoneyjar.xyz/Mibera/grails/water.png)
+![Water](https://assets.0xhoneyjar.xyz/Mibera/grails/water.webp)
 
 > **Grail #6761** · Element · [Browse all Grails →](../browse/grails.md)
 

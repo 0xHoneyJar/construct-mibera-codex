@@ -8,7 +8,7 @@ description: "Robot statue with robotic ravens and Newgrange light patterns"
 
 # Future
 
-![Future](https://assets.0xhoneyjar.xyz/Mibera/grails/future.png)
+![Future](https://assets.0xhoneyjar.xyz/Mibera/grails/future.webp)
 
 > **Grail #4734** · Concept · [Browse all Grails →](../browse/grails.md)
 

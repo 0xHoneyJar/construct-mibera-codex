@@ -8,7 +8,7 @@ description: "Zeus as Jupiter with 183.58 Hz frequency, gold divinity"
 
 # Jupiter
 
-![Jupiter](https://assets.0xhoneyjar.xyz/Mibera/grails/jupiter.png)
+![Jupiter](https://assets.0xhoneyjar.xyz/Mibera/grails/jupiter.webp)
 
 > **Grail #3201** · Planet · [Browse all Grails →](../browse/grails.md)
 

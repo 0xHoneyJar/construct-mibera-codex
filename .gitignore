@@ -59,5 +59,12 @@ dist/
 .env.local
 .env.*.local
 
+# Beacon build artifact — generated from beacon.yaml at build time via
+# `pnpm run build:beacon` (see Dockerfile). Single source of truth is
+# beacon.yaml (CI-validated against @0xhoneyjar/beacon-schema BeaconV2Schema).
+# Per bridgebuilder F7 (PR #74): committing the JSON allows drift; build-only
+# emission removes the drift surface entirely.
+app/.well-known/beacon.json
+
 # codex-mcp coverage-gap log — curator review surface, not for git tracking
 grimoires/codex-mcp/coverage-gaps.jsonl
