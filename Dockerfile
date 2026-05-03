@@ -80,15 +80,19 @@ RUN ln -s /usr/local/lib/node_modules/@tobilu/qmd/bin/qmd /usr/local/bin/qmd
 COPY --from=builder /root/.config/qmd /root/.config/qmd
 COPY --from=builder /root/.cache/qmd /root/.cache/qmd
 
-# Smoke-test the qmd binary AND its access to the prebuilt index at build time
-# (bridgebuilder #70 F5 + this PR's tighter check). Catches:
+# Smoke-test qmd binary + assert BOTH expected collections register at build time
+# (bridgebuilder #70 F5 + #71 F2 tighter assertion). Catches:
 # - bin symlink resolution failure
 # - missing libstdc++/libgomp dependencies
-# - registry/cache mismatch (the exact failure mode #70 hit on first deploy)
-# `qmd status` loads the registry; if collections list is empty here, the COPY
-# missed the registry. Build fails loudly instead of search_codex erroring at
-# first call.
-RUN qmd --version && qmd status
+# - registry/cache mismatch (exact failure mode #70 hit on first deploy)
+# - either codex collection failing to register
+# Asserts on collection NAMES not just `qmd status` exit code — the bug we
+# shipped in #70 had qmd status returning 0 but search_codex still erroring
+# because the registry was empty.
+RUN qmd --version \
+  && qmd status \
+  && qmd status | grep -q "codex-grails" \
+  && qmd status | grep -q "codex-core-lore"
 
 COPY --from=builder /app/node_modules ./node_modules
 COPY --from=builder /app/dist ./dist
