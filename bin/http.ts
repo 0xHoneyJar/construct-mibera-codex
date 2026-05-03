@@ -28,9 +28,12 @@ const BEACON_CARD_RAW = JSON.parse(
 // clear error rather than serving the literal "${VAR}" string. Federation
 // partners caching a malformed URL is a much worse failure than an aborted boot.
 const missingPlaceholders = new Set<string>();
+// Match POSIX shell identifier syntax: leading letter/underscore, then alnum/underscore.
+// Broader than the uppercase-only convention so lowercase or mixed-case schema authors
+// don't get silent pass-through (per bridgebuilder F1, PR #74 fourth-pass review).
 function resolveBeaconPlaceholders(card: unknown): unknown {
   if (typeof card === "string") {
-    return card.replace(/\$\{([A-Z0-9_]+)\}/g, (match, name) => {
+    return card.replace(/\$\{([A-Za-z_][A-Za-z0-9_]*)\}/g, (match, name) => {
       const value = process.env[name];
       if (value === undefined || value === "") {
         missingPlaceholders.add(name);
