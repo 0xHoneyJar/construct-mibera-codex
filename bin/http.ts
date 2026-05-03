@@ -20,18 +20,20 @@ const BEACON_CARD_RAW = JSON.parse(
   readFileSync(codexPath("app/.well-known/beacon.json"), "utf-8"),
 );
 
-// Resolve ${ENV_VAR} placeholders at request time so beacon.json stays env-driven
-// across deployments without rebuilding the image (per bridgebuilder F1, PR #74).
+// Resolve ${ENV_VAR} placeholders ONCE at startup (per bridgebuilder PR #74 F1+F2).
 // BeaconV2Schema declares mcp.remote.endpoint as "Full URL OR template like
-// ${MCP_REMOTE_ENDPOINT}" — substitution happens here.
+// ${MCP_REMOTE_ENDPOINT}" — substitution happens here, env-driven per deploy.
+//
+// Failure mode (per bridgebuilder F3): unset placeholder → fail startup with a
+// clear error rather than serving the literal "${VAR}" string. Federation
+// partners caching a malformed URL is a much worse failure than an aborted boot.
+const missingPlaceholders = new Set<string>();
 function resolveBeaconPlaceholders(card: unknown): unknown {
   if (typeof card === "string") {
     return card.replace(/\$\{([A-Z0-9_]+)\}/g, (match, name) => {
       const value = process.env[name];
       if (value === undefined || value === "") {
-        process.stderr.write(
-          `[codex-mcp] WARN: beacon placeholder ${match} unset; serving literal\n`,
-        );
+        missingPlaceholders.add(name);
         return match;
       }
       return value;
@@ -50,13 +52,21 @@ function resolveBeaconPlaceholders(card: unknown): unknown {
   return card;
 }
 
+const BEACON_CARD = resolveBeaconPlaceholders(BEACON_CARD_RAW);
+if (missingPlaceholders.size > 0) {
+  const names = Array.from(missingPlaceholders).join(", ");
+  process.stderr.write(
+    `[codex-mcp] FATAL: beacon.yaml references unset env vars: ${names}. ` +
+      `Set them in the deploy environment (e.g. MCP_REMOTE_ENDPOINT=https://mcp.0xhoneyjar.xyz/codex/mcp).\n`,
+  );
+  process.exit(1);
+}
+
 const app = new Hono();
 
 app.get("/healthz", (c) => c.text("ok"));
 app.get("/.well-known/mcp.json", (c) => c.json(MCP_CARD));
-app.get("/.well-known/beacon.json", (c) =>
-  c.json(resolveBeaconPlaceholders(BEACON_CARD_RAW)),
-);
+app.get("/.well-known/beacon.json", (c) => c.json(BEACON_CARD));
 
 app.all("/mcp", handleMcpRequest);
 
