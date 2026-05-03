@@ -1,16 +1,13 @@
 ---
-id: 8620
-name: "Cancer"
-type: grail
-category: zodiac
-description: "Cancer crab hues with Bicycle Day blotter art, moon side"
+title: Cancer
+description: "Grail #8620 — Cancer crab hues with Bicycle Day blotter art, moon side. Zodiac · Mibera Maker Vol I."
 ---
 
 # Cancer
 
 ![Cancer](https://assets.0xhoneyjar.xyz/Mibera/grails/cancer.webp)
 
-> **Grail #8620** · Zodiac · [Browse all Grails →](../browse/grails.md)
+> **Grail #8620** · Zodiac · [Browse all Grails →](https://github.com/0xHoneyJar/construct-mibera-codex/blob/main/browse/grails.md)
 
 ## Cultural Context
 
@@ -23,3 +20,20 @@ Colors and crab imagery associated with Cancer. Delphinium in the foreground. Al
 ## Justification
 
 Every Mibera carries three zodiac placements (sun, moon, rising) as modifier signals in the identity hierarchy. The 12 zodiac grails each represent one sign as its own identity.
+
+---
+
+## Lookup programmatically
+
+```bash
+# CLI
+micodex lookup grail cancer --field=image
+
+# MCP (any client)
+lookup_grail({query: "cancer"})
+
+# Raw — read from canonical JSONL
+curl -s https://raw.githubusercontent.com/0xHoneyJar/construct-mibera-codex/main/_codex/data/grails.jsonl | jq 'select(.slug=="cancer")'
+```
+
+[See lookup_grail tool →](/tools/lookup_grail)

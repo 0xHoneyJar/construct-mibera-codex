@@ -10,7 +10,8 @@
 Each grail is hosted at:
 
 ```
-https://assets.0xhoneyjar.xyz/Mibera/grails/{slug}.png
+https://assets.0xhoneyjar.xyz/Mibera/grails/{slug}.webp   ← canonical (web-rendered)
+https://assets.0xhoneyjar.xyz/Mibera/grails/{slug}.png    ← original full-resolution (download)
 ```
 
 where `{slug}` is the canonical slug field from `_codex/data/grails.jsonl` —
@@ -18,10 +19,18 @@ where `{slug}` is the canonical slug field from `_codex/data/grails.jsonl` —
 
 | name | slug | url |
 |---|---|---|
-| Black Hole | `black-hole` | `…/grails/black-hole.png` |
-| Native American | `native-american` | `…/grails/native-american.png` |
-| Satoshi as Hermes | `satoshi-as-hermes` | `…/grails/satoshi-as-hermes.png` |
-| Scorpio | `scorpio` | `…/grails/scorpio.png` |
+| Black Hole | `black-hole` | `…/grails/black-hole.webp` |
+| Native American | `native-american` | `…/grails/native-american.webp` |
+| Satoshi as Hermes | `satoshi-as-hermes` | `…/grails/satoshi-as-hermes.webp` |
+| Scorpio | `scorpio` | `…/grails/scorpio.webp` |
+
+**Why two variants?** `.webp` is the canonical inline-render form (resized to 1600px max,
+quality 82, ~150-550 KB) — fits inside GitHub's 5 MB Camo proxy limit so `![grail](…)`
+markdown renders inline on every `*/grails/{slug}.md` view. `.png` is the original
+full-resolution artwork (3-7 MB) preserved alongside for high-fidelity downloads,
+print, or any consumer that needs lossless. Composes with [[metadata-as-integration-contract]]
+— field-shape (`image`) is the contract; the variant chosen at the URL extension is
+operator-mutable per consumer.
 
 The `image` field is materialized in `_codex/data/grails.jsonl` for all 43
 entries (alongside `original_image` pointing at the legacy irys URL and an

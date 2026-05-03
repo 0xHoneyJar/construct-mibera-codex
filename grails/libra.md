@@ -8,7 +8,7 @@ description: "Themis as Libra with ouroboros sword and Venus frequency"
 
 # Libra
 
-![Libra](https://assets.0xhoneyjar.xyz/Mibera/grails/libra.png)
+![Libra](https://assets.0xhoneyjar.xyz/Mibera/grails/libra.webp)
 
 > **Grail #895** · Zodiac · [Browse all Grails →](../browse/grails.md)
 

@@ -8,7 +8,7 @@ description: "Aphrodite as Pisces with Neptune trident and Birth of Venus"
 
 # Pisces
 
-![Pisces](https://assets.0xhoneyjar.xyz/Mibera/grails/pisces.png)
+![Pisces](https://assets.0xhoneyjar.xyz/Mibera/grails/pisces.webp)
 
 > **Grail #6409** · Zodiac · [Browse all Grails →](../browse/grails.md)
 

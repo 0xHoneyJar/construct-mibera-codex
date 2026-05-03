@@ -8,7 +8,7 @@ description: "Medicine Buddha thangka with amrita and blue lotus blotter"
 
 # Buddhist
 
-![Buddhist](https://assets.0xhoneyjar.xyz/Mibera/grails/buddhist.png)
+![Buddhist](https://assets.0xhoneyjar.xyz/Mibera/grails/buddhist.webp)
 
 > **Grail #9503** · Ancestor · [Browse all Grails →](../browse/grails.md)
 

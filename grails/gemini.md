@@ -8,7 +8,7 @@ description: "Mibera and Milady as Gemini, inspired by Dali"
 
 # Gemini
 
-![Gemini](https://assets.0xhoneyjar.xyz/Mibera/grails/gemini.png)
+![Gemini](https://assets.0xhoneyjar.xyz/Mibera/grails/gemini.webp)
 
 > **Grail #7218** · Zodiac · [Browse all Grails →](../browse/grails.md)
 

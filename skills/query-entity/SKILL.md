@@ -29,7 +29,7 @@ Use `--field=<name>` to extract a single field for shell pipelines:
 
 ```bash
 micodex lookup grail black-hole --field=image
-# https://assets.0xhoneyjar.xyz/Mibera/grails/black-hole.png
+# https://assets.0xhoneyjar.xyz/Mibera/grails/black-hole.webp
 ```
 
 ### By intent (fuzzy / motif / concept)

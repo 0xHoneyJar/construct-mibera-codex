@@ -8,7 +8,7 @@ description: "Mayan stela holding balche with Timewave Zero crack"
 
 # Mayan
 
-![Mayan](https://assets.0xhoneyjar.xyz/Mibera/grails/mayan.png)
+![Mayan](https://assets.0xhoneyjar.xyz/Mibera/grails/mayan.webp)
 
 > **Grail #3970** · Ancestor · [Browse all Grails →](../browse/grails.md)
 

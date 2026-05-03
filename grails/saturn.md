@@ -8,7 +8,7 @@ description: "Goya's Saturn Devouring His Son — cfang as Saturn"
 
 # Saturn
 
-![Saturn](https://assets.0xhoneyjar.xyz/Mibera/grails/saturn.png)
+![Saturn](https://assets.0xhoneyjar.xyz/Mibera/grails/saturn.webp)
 
 > **Grail #7388** · Planet · [Browse all Grails →](../browse/grails.md)
 

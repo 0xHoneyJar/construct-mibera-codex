@@ -32,7 +32,15 @@ export default defineConfig({
   // Discord/Twitter/Facebook crawlers resolve it correctly (relative
   // /og.png works for the site but social cards prefer fully-qualified).
   // Update when custom domain lands.
-  ogImageUrl: { "**": "https://codex.0xhoneyjar.xyz/og.png" },
+  // Per-page OG cards: when a grail page is shared (Discord/Twitter/Slack),
+  // the unfurl shows the grail artwork itself instead of the generic codex card.
+  // Order matters in vocs path-maps: useOgImageUrl filters all matching keys
+  // and returns keys[keys.length - 1] — LAST match wins. So put the catch-all
+  // FIRST and the most-specific overrides LAST.
+  ogImageUrl: {
+    "**":                 "https://codex.0xhoneyjar.xyz/og.png",
+    "/grails/cancer":     "https://assets.0xhoneyjar.xyz/Mibera/grails/cancer.webp",
+  },
 
   // Inject our parchment stylesheet on every page. Vocs treats a plain
   // object `head` as a path-map, so we pass a function — it dodges the
@@ -110,7 +118,15 @@ export default defineConfig({
       items: [
         { text: "Introducing Mibera",      link: "/tools/lookup_mibera" },
         { text: "Clearpill vs Ravepill",   link: "/tools/lookup_archetype" },
-        { text: "Mibera Maker · Vol I",    link: "/tools/lookup_grail" },
+        {
+        text: "Mibera Maker · Vol I",
+        collapsed: false,
+        items: [
+          { text: "lookup_grail (tool)", link: "/tools/lookup_grail" },
+          { text: "Cancer (grail #8620)", link: "/grails/cancer" },
+          // Wire remaining 43 grails in a follow-up cycle (asset-pipeline cycle B).
+        ],
+      },
         { text: "Network Mysticism",       link: "/tools/lookup_factor" },
         { text: "Initiation Ritual",       link: "/tools/lookup_zone" },
         {

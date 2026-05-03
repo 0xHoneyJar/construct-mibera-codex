@@ -8,7 +8,7 @@ description: "The earth"
 
 # Gaia
 
-![Gaia](https://assets.0xhoneyjar.xyz/Mibera/grails/gaia.png)
+![Gaia](https://assets.0xhoneyjar.xyz/Mibera/grails/gaia.webp)
 
 > **Grail #3222** · Primordial · [Browse all Grails →](../browse/grails.md)
 
