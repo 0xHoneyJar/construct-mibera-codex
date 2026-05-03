@@ -12,10 +12,19 @@ const MCP_CARD = JSON.parse(
   readFileSync(codexPath("app/.well-known/mcp.json"), "utf-8"),
 );
 
+// Cycle C federation beacon (v0.3 broadcast layer · per SDD §2.3 + sprint-2 P1).
+// Generated at build time from beacon.yaml via build-beacon-json (CI-validated against
+// @0xhoneyjar/beacon-schema BeaconV2Schema). Gateway fetches this endpoint to populate
+// its registry-broadcast cache; partners read it to discover capabilities + auth shape.
+const BEACON_CARD = JSON.parse(
+  readFileSync(codexPath("app/.well-known/beacon.json"), "utf-8"),
+);
+
 const app = new Hono();
 
 app.get("/healthz", (c) => c.text("ok"));
 app.get("/.well-known/mcp.json", (c) => c.json(MCP_CARD));
+app.get("/.well-known/beacon.json", (c) => c.json(BEACON_CARD));
 
 app.all("/mcp", handleMcpRequest);
 

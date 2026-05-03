@@ -1,15 +1,21 @@
-# Beacon MCP + CLI declaration for construct-mibera-codex
-# Generated following the constructs-mcp-shape + construct-surface-decision-tree doctrines
-# (see vault: constructs-mcp-shape, constructs-mcp-deployment-topology, construct-surface-decision-tree)
-
+# Beacon v2 declaration for construct-mibera-codex
+# Schema: @0xhoneyjar/beacon-schema (Cycle C · v0.3 broadcast layer)
+# Spec: SDD §2.3 — Codex beacon.yaml v2 (P1 deliverable)
+#
 # Bucket-1 surface (per `~/vault/wiki/concepts/construct-surface-decision-tree.md`):
 # stateless data-shaped construct with both human + agent consumers — CLI primary,
 # MCP wraps. Subcommands mirror MCP tools 1:1 (parallel verbs, cross-construct legibility).
+#
+# Per gateway-as-registry doctrine: this beacon is upstream-broadcast (B-axis fields
+# resolve here). Registry policy (visibility/access/status) lives in
+# freeside-mcp-gateway/src/tenants.ts (curator-owned).
+
+schema_version: "2"
 
 cli:
   binary: micodex
   entry: bin/micodex.ts
-  install: npx @0xhoneyjarxhoneyjar/construct-mibera-codex   # or pack-local via Loa
+  install: npx @0xhoneyjar/construct-mibera-codex
   subcommands:
     - micodex lookup zone <slug>
     - micodex lookup archetype <name>
@@ -21,9 +27,9 @@ cli:
     - micodex validate <type> <value> [--consumer-hint=<id>]
   output: stdout JSON (compact JSON via --field=<name> for raw text)
   exit_codes:
-    0: success
-    1: not_found
-    2: usage_error
+    "0": success
+    "1": not_found
+    "2": usage_error
 
 mcp:
   shape: data
@@ -33,6 +39,10 @@ mcp:
   remote:
     transport: streamable-http
     endpoint: ${MCP_REMOTE_ENDPOINT}  # production: https://mcp.0xhoneyjar.xyz/codex/mcp
+  auth:
+    kind: none                          # NEW in v2 · was implicit in v1
+  capabilities:
+    - tools
   tools:
     - lookup_zone
     - lookup_archetype
@@ -78,8 +88,14 @@ mcp:
       - narrator_voice
       - activity_class_word
       - closing_observation
-  payment:
-    enabled: false   # x402 wrapping deferred to v2
+  pricing:
+    model: free
+    description: free as in libre — read-only canon
+  publisher: 0xHoneyJar
+  documentation: https://codex.0xhoneyjar.xyz   # soft-deprecated · prefer docs.url (Cycle D)
+
+payment:
+  enabled: false   # x402 wrapping deferred to v0.4
 
 # v2 deferred:
 # - lookup_ancestor (33 ancestors in core-lore/ancestors/)

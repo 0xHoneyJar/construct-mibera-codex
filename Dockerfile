@@ -26,6 +26,13 @@ RUN pnpm install --frozen-lockfile
 RUN npm install -g @tobilu/qmd@2.1.0
 
 COPY . .
+
+# Generate /.well-known/beacon.json from beacon.yaml v2 (Cycle C federation contract).
+# Validates against @0xhoneyjar/beacon-schema BeaconV2Schema; fails the build with
+# non-zero exit if beacon.yaml drifts from schema (CI guard per SDD §1.2 + sprint-2).
+# Output: app/.well-known/beacon.json (served by bin/http.ts at /.well-known/beacon.json).
+RUN pnpm run build:beacon
+
 RUN pnpm run build
 
 # Pre-build the qmd codex collections (codex-grails + codex-core-lore) in the
