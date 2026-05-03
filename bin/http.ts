@@ -55,7 +55,9 @@ function resolveBeaconPlaceholders(card: unknown): unknown {
   return card;
 }
 
-const BEACON_CARD = resolveBeaconPlaceholders(BEACON_CARD_RAW);
+const BEACON_CARD = resolveBeaconPlaceholders(BEACON_CARD_RAW) as {
+  mcp?: { remote?: { endpoint?: string } };
+};
 if (missingPlaceholders.size > 0) {
   const names = Array.from(missingPlaceholders).join(", ");
   process.stderr.write(
@@ -64,6 +66,11 @@ if (missingPlaceholders.size > 0) {
   );
   process.exit(1);
 }
+// Log resolved endpoint at startup for ops visibility (per bridgebuilder F4 PR #74).
+// Helps confirm successful substitution without exposing other beacon contents.
+process.stderr.write(
+  `[codex-mcp] beacon resolved · mcp.remote.endpoint=${BEACON_CARD.mcp?.remote?.endpoint ?? "<absent>"}\n`,
+);
 
 const app = new Hono();
 
