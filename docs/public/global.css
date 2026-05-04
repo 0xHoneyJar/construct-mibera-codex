@@ -73,6 +73,37 @@
   --duration-slower:  600ms;
 }
 
+/* ---------- Scrollbars (chrome) -------------------------------------- *
+ * Webkit default flashes white on hover — breaks parchment register
+ * everywhere a scroll surface lives (sidebar nav, code blocks, mdx
+ * content). Theme to panel-dark track + ink-toned thumb so the rail
+ * reads as a hairline in the chrome, not a system widget.
+ * ===================================================================== */
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background: var(--nier-bg-panel-dark);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--nier-rule-medium);
+  border-radius: 0;
+  border: 2px solid var(--nier-bg-panel-dark);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--nier-text-muted);
+}
+::-webkit-scrollbar-corner {
+  background: var(--nier-bg-panel-dark);
+}
+/* Firefox — coarser API, but matches the parchment register. */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--nier-rule-medium) var(--nier-bg-panel-dark);
+}
+
 /* ---------- Vocs override layer -------------------------------------- *
  * Vocs's vanilla-extract theme writes tokens to :root and :root.dark.
  * Our /global.css <link> is rendered BEFORE the vite bundle in <head>,
@@ -286,6 +317,332 @@ button[class*="searchButton"] {
   font-family: var(--font-switzer) !important;
 }
 
+/* ---------- Search relocation: top-nav clipped, sidebar trigger ----- *
+ * Operator wants the search affordance under the brand-mark, not in
+ * the top nav. Vocs has no API to relocate DesktopSearch, so:
+ *   - clip-hide the top-nav button (stays in DOM + interactive so
+ *     SidebarSearch can route .click() through vocs's own handler);
+ *   - portal-mount a parchment trigger after .vocs_Sidebar_logoWrapper
+ *     (layout.tsx → SidebarSearchMount).
+ * ===================================================================== */
+
+/* Direct class targeting — vocs's top-nav containers are
+ * `vocs_DesktopTopNav` / `vocs_MobileTopNav` (the substring
+ * `vocs_TopNav` doesn't appear in either), so we clip-hide the
+ * search buttons by their own class names. They stay in DOM and
+ * remain clickable so SidebarSearch can route .click() through them. */
+.vocs_DesktopSearch_search,
+.vocs_MobileSearch_searchButton {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  clip: rect(0 0 0 0) !important;
+  white-space: nowrap !important;
+  border: 0 !important;
+}
+
+/* Mount host — now a CHILD of .vocs_Sidebar_logoWrapper so it lives
+ * inside the sticky header region (not in the scrollable nav).
+ * Wrapper already provides padding + sticky + bg, so the mount itself
+ * is a transparent block; only top-margin separates it from the
+ * brand-mark above. No own border — the wrapper's bottom border is
+ * the only divider, which now sits below header (logo + search) not
+ * between them. */
+.codex-sidebar-search-mount {
+  margin-top: 0.85rem;
+}
+
+/* Trigger button — same parchment vocabulary as the (now hidden)
+ * top-nav original: panel + soft rule + sharp corners + ink-toned kbd. */
+.codex-sidebar-search {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  width: 100%;
+  padding: 0.45rem 0.7rem;
+  background: var(--nier-bg-panel);
+  color: var(--nier-text-secondary);
+  border: 1px solid var(--nier-rule-soft);
+  border-radius: 0;
+  font-family: var(--font-switzer);
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: border-color var(--duration-fast) var(--spring-snappy),
+              color var(--duration-fast) var(--spring-snappy);
+}
+.codex-sidebar-search:hover {
+  border-color: var(--nier-rule-medium);
+  color: var(--nier-text-primary);
+}
+.codex-sidebar-search__label {
+  flex: 1;
+  text-align: left;
+  letter-spacing: 0.005em;
+}
+.codex-sidebar-search__kbd {
+  background: var(--nier-bg-panel-dark);
+  color: var(--nier-text-muted);
+  border: 1px solid var(--nier-rule-subtle);
+  padding: 0.08rem 0.4rem;
+  font-size: 0.72rem;
+  font-family: var(--font-switzer);
+}
+
+/* ---------- Right rail: BlotterGrid (Pass 7 V1) --------------------- *
+ * Replaces vocs's AiCtaDropdown with a bounded grid of square cards
+ * naming the navigable neighborhood of the current page. Lorekeeper-
+ * designed grid-native nav style — cards as squares, titles as the
+ * vocabulary, the rail's existing 16rem column as the canvas. Mirrors
+ * blotter's BlotterCanvas (grid-native visualization) at right-rail
+ * scale. Mounted via layout.tsx → BlotterGridMount; hides AiCta below.
+ * ===================================================================== */
+
+/* Hide vocs's AiCtaDropdown — we own this slot now. */
+.vocs_DocsLayout_gutterRight [class*="AiCta"],
+.vocs_DocsLayout_gutterRight [class*="aiCta"] {
+  display: none !important;
+}
+
+/* Hide the ON THIS PAGE outline — operator's reframe: BlotterGrid IS
+ * the way to navigate, the second-rail outline competes for attention.
+ * Keeps the right rail single-purpose: the grid is the navigation. */
+.vocs_DocsLayout_gutterRight .vocs_Outline {
+  display: none !important;
+}
+
+/* Hide vocs's DesktopTopNav + MobileTopNav. Search lives in the
+ * sidebar, the codex doesn't need a chrome bar of links — the
+ * sidebar IS the navigation. Reset the gutterTop spacer too so the
+ * content doesn't carry a phantom offset where the nav used to sit. */
+.vocs_DesktopTopNav,
+.vocs_MobileTopNav {
+  display: none !important;
+}
+.vocs_DocsLayout_gutterTop,
+.vocs_DocsLayout_gutterTopCurtain {
+  display: none !important;
+}
+/* Reset content's top-padding allowance for the missing nav. */
+.vocs_DocsLayout_content_withTopNav {
+  padding-top: 0 !important;
+}
+
+.codex-blotter-grid-mount {
+  margin-bottom: 1.75rem;
+}
+
+.codex-blotter-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+}
+
+.codex-blotter-grid__heading {
+  font-family: var(--font-imperial);
+  font-size: 0.95rem;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--nier-text-primary);
+  margin: 0;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--nier-rule-medium);
+}
+
+.codex-blotter-grid__cards {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.5rem;
+}
+
+/* Card: uniform square cell with explicit grid rows so content
+ * allocation is deterministic — flex with flex-grow let the title
+ * push past available space when long names like "Sagittarius" wrap
+ * to 2 lines. Three rows: glyph (auto top) | title (1fr middle,
+ * line-clamped) | cat (auto bottom). Every card has the same outer
+ * dimensions (aspect-ratio 1/1 + grid 1fr column) AND the same
+ * internal anchor points. Sharp corners + soft hairline; hover
+ * darkens rule + lifts 1px — same vocabulary as consumer-card. */
+.codex-blotter-card {
+  display: grid;
+  grid-template-rows: auto minmax(0, 1fr) auto;
+  row-gap: 0.3rem;
+  aspect-ratio: 1 / 1;
+  padding: 0.55rem 0.5rem;
+  box-sizing: border-box;
+  min-width: 0;
+  background: var(--nier-bg-panel);
+  border: 1px solid var(--nier-rule-soft);
+  text-decoration: none !important;
+  border-bottom: 1px solid var(--nier-rule-soft) !important;
+  color: var(--nier-text-primary) !important;
+  transition: border-color var(--duration-fast) var(--spring-snappy),
+              transform    var(--duration-fast) var(--spring-snappy);
+  overflow: hidden;
+}
+.codex-blotter-card:hover {
+  border-color: var(--nier-rule-medium) !important;
+  border-bottom-color: var(--nier-rule-medium) !important;
+  transform: translateY(-1px);
+}
+
+.codex-blotter-card__glyph {
+  font-family: var(--font-imperial);
+  font-size: 0.95rem;
+  line-height: 1;
+  color: var(--nier-text-secondary);
+}
+
+.codex-blotter-card__title {
+  font-family: var(--font-imperial);
+  font-size: 0.8rem;
+  line-height: 1.15;
+  letter-spacing: -0.005em;
+  color: var(--nier-text-primary);
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  line-clamp: 2;
+  overflow: hidden;
+  word-break: break-word;
+  align-self: start;
+}
+
+.codex-blotter-card__cat {
+  font-family: var(--font-switzer);
+  font-size: 0.58rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--nier-text-muted);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* ---------- /codex full-canvas (Pass 7 V1.5) ----------------------- *
+ * The cathedral. Where the right-rail BlotterGrid is a 12-cell trail,
+ * /codex is the full grid: every docs-routed grail as a tactile cell
+ * with its actual artwork as the face. Grouped by category in the
+ * codex's own taxonomy order. Released from vocs's 70ch text-column
+ * constraint via :has() — only on this route.
+ * ===================================================================== */
+
+/* Release the content max-width when CodexCanvas is rendered.
+ * Override BOTH the base content rule AND _withSidebar (the right-
+ * rail breathing-room rule above pins _withSidebar to 60rem; we have
+ * to release that too on /codex). */
+.vocs_DocsLayout_content:has(.codex-canvas),
+.vocs_DocsLayout_content_withSidebar:has(.codex-canvas) {
+  max-width: none !important;
+}
+.vocs_DocsLayout_content:has(.codex-canvas) main,
+.vocs_DocsLayout_content:has(.codex-canvas) [class*="vocs_Content"] {
+  max-width: none !important;
+}
+
+.codex-canvas {
+  display: flex;
+  flex-direction: column;
+  gap: 2.25rem;
+  margin: 1.25rem 0 3rem;
+}
+
+.codex-canvas--loading {
+  min-height: 12rem;
+}
+
+.codex-canvas__category {
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+}
+
+.codex-canvas__cat-label {
+  display: flex;
+  align-items: baseline;
+  gap: 0.65rem;
+  font-family: var(--font-imperial);
+  font-size: 0.8rem;
+  font-weight: 400;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--nier-text-muted);
+  margin: 0;
+  padding: 0 0 0.45rem;
+  border-bottom: 1px solid var(--nier-rule-soft);
+}
+
+.codex-canvas__cat-count {
+  font-family: var(--font-switzer);
+  font-size: 0.66rem;
+  letter-spacing: 0.1em;
+  color: var(--nier-text-muted);
+  font-variant-numeric: tabular-nums;
+}
+
+.codex-canvas__grid {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(7.5rem, 1fr));
+  gap: 0.6rem;
+}
+
+/* Card: image-first, title beneath. Image is the substrate (Mibera's
+ * actual artwork as the face). Square aspect-ratio on the image keeps
+ * the grid uniform regardless of source dimensions. Title clips to
+ * 2 lines so longer names ("Native American") don't break rhythm. */
+.codex-canvas__card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 0.5rem;
+  background: var(--nier-bg-panel);
+  border: 1px solid var(--nier-rule-soft);
+  text-decoration: none !important;
+  border-bottom: 1px solid var(--nier-rule-soft) !important;
+  color: var(--nier-text-primary) !important;
+  transition: border-color var(--duration-fast) var(--spring-snappy),
+              transform    var(--duration-fast) var(--spring-snappy);
+}
+.codex-canvas__card:hover {
+  border-color: var(--nier-rule-medium) !important;
+  border-bottom-color: var(--nier-rule-medium) !important;
+  transform: translateY(-1px);
+}
+
+.codex-canvas__card-img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  display: block;
+  background: var(--nier-bg-panel-dark);
+  border: 1px solid var(--nier-rule-soft);
+}
+
+.codex-canvas__card-title {
+  font-family: var(--font-imperial);
+  font-size: 0.78rem;
+  line-height: 1.18;
+  letter-spacing: -0.005em;
+  color: var(--nier-text-primary);
+  text-align: center;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  line-clamp: 2;
+  overflow: hidden;
+  word-break: break-word;
+}
+
 /* Group spacing: each section is a distinct entry in the codex's TOC.
  * Suppress vocs's default 1px between-section border — typographic
  * hierarchy + generous breath does the work. */
@@ -401,8 +758,22 @@ html .vocs_Sidebar_section .vocs_Icon[class*="sectionCollapse"] {
  * inline; we add gap and the icon. */
 .vocs_Sidebar_logoWrapper {
   padding: 0.875rem 0.875rem 1.25rem 1rem;
-  background-color: transparent !important;
+  /* Opaque chrome — transparent let the nav scroll-through bleed past
+   * the brand-mark zone at the top of the sidebar. Panel-tint matches
+   * the parent .vocs_Sidebar so the header reads as one continuous
+   * material with the items below it. */
+  background-color: var(--nier-bg-panel) !important;
   border-bottom: 1px solid var(--nier-rule-soft);
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  /* Stack brand-mark link + SidebarSearch vertically. Vocs's default
+   * may layout this wrapper as flex-row; the search is mounted as the
+   * last child via layout.tsx, so we force column so the search sits
+   * below the link rather than beside it. */
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: stretch !important;
 }
 .vocs_Sidebar_logoWrapper a {
   gap: 0.625rem !important;
@@ -478,6 +849,23 @@ html .vocs_Sidebar_section .vocs_Icon[class*="sectionCollapse"] {
 .vocs_DocsLayout_gutterRight {
   /* let it breathe — slightly wider column for the bigger type */
   --vocs-content-width-outline_local: 16rem;
+}
+
+/* ---------- Right rail breathing room (BlotterGrid scope) ----------- *
+ * Vocs's default right-rail at 1708×900 with 70rem content lands at
+ * ~18rem — cramps 2-col BlotterGrid cards. The rail is position:fixed
+ * right:0 with a calc'd width, so widening it AND shrinking content
+ * max-width keeps them from overlapping. Only kicks in at the same
+ * 1280px breakpoint vocs uses to show the right rail at all. The
+ * /codex canvas is already released from content max-width via the
+ * :has(.codex-canvas) override below, so its layout is unaffected. */
+@media (min-width: 1280px) {
+  .vocs_DocsLayout_content_withSidebar {
+    max-width: 50rem !important;
+  }
+  .vocs_DocsLayout_gutterRight_withSidebar {
+    width: 28rem !important;
+  }
 }
 
 .vocs_Outline_heading {

@@ -150,6 +150,7 @@ export default defineConfig({
       text: "Front matter",
       items: [
         { text: "What is the codex?", link: "/" },
+        { text: "Browse the codex",   link: "/codex" },
         { text: "Install",            link: "/install" },
         { text: "Anti-hallucination", link: "/anti-hallucination" },
         { text: "Quickstart",         link: "/quickstart" },
