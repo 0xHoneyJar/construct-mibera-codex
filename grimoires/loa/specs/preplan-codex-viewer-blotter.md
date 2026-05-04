@@ -1,6 +1,12 @@
 # Preplan — Mibera Codex Viewer (web-blotter integration)
 
-> **Status**: PRE-KICKOFF stub. This document captures Session B's scope so the next `/kickoff` invocation has grounded context. The actual ARCH + build doc lands when operator runs `/kickoff` for this session.
+> **Status (2026-05-04)**: PARTIALLY FOLDED into session-03 FEEL refinement. Operator chose 2026-05-04 to ship **blotter foundation only** as Pass 7 of the FEEL session — not full integration. This preplan stays as the V2 reference for the proper monorepo move with Gumi coordination. See `enhance-codex-feel-refinement.md` § Pass 7 for the V1 cut shape.
+> **V1 amendments to Q1-Q5 leans below** (operator 2026-05-04):
+> - Q2 repo structure: V1 lifts patterns into `construct-mibera-codex/docs/components/blotter-borrowed/*.tsx` (NOT a monorepo move yet) · monorepo deferred to V2 with Gumi alignment
+> - Q3 embed shape: `(a) subroute on docs site` (was lean (b) subdomain) — operator's "look into blotter HERE" reframes the embedding decision
+> - Q5 Gumi coord: DEFERRED to V2 (V1 lifts visual patterns, doesn't import from blotter package)
+>
+> **Original status**: PRE-KICKOFF stub. This document captures Session B's scope so the next `/kickoff` invocation has grounded context. The actual ARCH + build doc lands when operator runs `/kickoff` for this session.
 > **Date**: 2026-04-30 (preplan)
 > **Decision direction**: coordinate with Gumi to ship a **web-blotter** that shares blotter's React frontend (no Tauri/Rust for web build); Mibera Codex docs site embeds it as the codex content browser.
 

@@ -4,8 +4,9 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "vocs dev",
-    "build": "vocs build",
+    "build-vault-index": "node scripts/build-vault-index.mjs",
+    "dev": "node scripts/build-vault-index.mjs && vocs dev",
+    "build": "node scripts/build-vault-index.mjs && vocs build",
     "preview": "vocs preview"
   },
   "dependencies": {

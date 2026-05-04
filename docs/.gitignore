@@ -1,1 +1,5 @@
 .vercel
+
+# Build artifact — regenerated from the codex md vault on every
+# `pnpm build` / `pnpm dev` via scripts/build-vault-index.mjs.
+public/vault-index.json
