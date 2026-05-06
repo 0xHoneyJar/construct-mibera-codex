@@ -1599,6 +1599,16 @@ main :not(pre) > code,
   max-width: none !important;
 }
 
+/* Hide the right rail when AncestorBrowse is on the page — same
+ * approach the tool routes use (display: none on the gutter). The
+ * grid is full-width and BlotterGrid would otherwise overlap the
+ * rightmost column. BlotterGrid component also short-circuits to
+ * null on this route as defense-in-depth (blotter-grid.tsx). */
+html:has(.ancestor-browse) .vocs_DocsLayout_gutterRight,
+html:has(.ancestor-browse) .vocs_DocsLayout_gutterRight_withSidebar {
+  display: none !important;
+}
+
 .ancestor-browse {
   list-style: none;
   padding: 0;
@@ -1606,6 +1616,19 @@ main :not(pre) > code,
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr));
   gap: 0.85rem;
+  align-items: stretch;
+}
+
+/* Cards within a row stretch via align-items (default). Row-to-row
+ * variability comes from variable-line content: period (1 or 2
+ * lines if both ancient + modern) and locations (1, 2, or 3+ lines
+ * depending on locations.length). Reserve max-height slots so every
+ * card has the same footprint regardless of fields. */
+.ancestor-card__period {
+  min-height: 2.4rem; /* fits both ancient + modern (2 lines) */
+}
+.ancestor-card__locations {
+  min-height: 2.4rem; /* fits 2 lines of locations text */
 }
 
 .ancestor-browse--loading {
@@ -1624,6 +1647,10 @@ main :not(pre) > code,
   background: var(--nier-bg-panel);
   border: 1px solid var(--nier-rule-medium);
   min-width: 0;
+  /* Fill the grid row exactly — pairs with grid-auto-rows: 1fr so all
+   * 33 cards are the same height regardless of how much content each
+   * has. */
+  height: 100%;
 }
 
 .ancestor-card__head {

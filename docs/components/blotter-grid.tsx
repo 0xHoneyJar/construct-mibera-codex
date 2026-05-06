@@ -120,8 +120,12 @@ export function BlotterGrid() {
 
   // normalize trailing slash so /grails/cancer/ and /grails/cancer collapse
   const cleanPath = pathname.length > 1 ? pathname.replace(/\/$/, "") : pathname;
-  // /codex IS the cathedral — the right-rail trail would be redundant.
-  const railHidden = cleanPath === "/codex";
+  // Routes that render full-width browse components and don't need the
+  // right rail. Tool routes already hide the rail via global.css's
+  // html[data-route="tool"] block; this set covers non-tool full-width
+  // pages (cathedral + grimoire-page browses introduced in cycle-024).
+  const railHidden =
+    cleanPath === "/codex" || cleanPath === "/framework/ancestors";
 
   const view = useMemo<{ heading: string; entries: VaultEntry[] } | null>(() => {
     if (railHidden) return null;

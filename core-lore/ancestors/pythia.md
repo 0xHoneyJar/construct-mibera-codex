@@ -1,7 +1,6 @@
 ---
 name: Pythia
 period_ancient: -800 - 395
-period_modern: '**Locations Associated:** Delphi (Greece), Mount Parnassus'
 locations: Delphi (Greece), Mount Parnassus
 ---
 

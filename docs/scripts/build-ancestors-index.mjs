@@ -94,11 +94,26 @@ for (const filename of files) {
     warnings.push(`${slug}: missing optional field 'locations'`);
   }
 
+  // Sanitize: if a period field contains body-content markers (markdown
+  // bold like "**...**"), the source frontmatter has body text leaking
+  // in (irish-druids + pythia were the original cases — fixed at source
+  // 2026-05-06). Treat the field as null and warn the curator.
+  function sanitizePeriod(value, fieldName) {
+    if (!value) return null;
+    if (/\*\*/.test(value) || /Locations Associated/i.test(value)) {
+      warnings.push(
+        `${slug}: ${fieldName} contains body-content markers ('${value.slice(0, 60)}...') — treating as null. Fix source frontmatter.`
+      );
+      return null;
+    }
+    return value;
+  }
+
   ancestors.push({
     slug,
     name: fm.name,
-    period_ancient: fm.period_ancient ?? null,
-    period_modern: fm.period_modern ?? null,
+    period_ancient: sanitizePeriod(fm.period_ancient, "period_ancient"),
+    period_modern: sanitizePeriod(fm.period_modern, "period_modern"),
     locations: fm.locations
       ? fm.locations.split(",").map((s) => s.trim()).filter(Boolean)
       : [],
