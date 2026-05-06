@@ -500,6 +500,23 @@ button[class*="searchButton"] {
   color: var(--nier-text-secondary);
 }
 
+/* Grail cards in the blotter use the canonical artwork as the face —
+ * matches the /codex cathedral. Image cards drop the square outer
+ * aspect-ratio so the image gets full 1:1 weight and title + cat
+ * stack beneath without crowding. */
+.codex-blotter-card__img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  display: block;
+  background: var(--nier-bg-panel-dark);
+  border: 1px solid var(--nier-rule-soft);
+}
+
+.codex-blotter-card:has(.codex-blotter-card__img) {
+  aspect-ratio: auto;
+}
+
 .codex-blotter-card__title {
   font-family: var(--font-imperial);
   font-size: 0.8rem;
@@ -513,6 +530,26 @@ button[class*="searchButton"] {
   overflow: hidden;
   word-break: break-word;
   align-self: start;
+}
+
+/* Skeleton placeholders fill the same grid slot before vault-index.json
+ * loads — prevents the right-rail from popping in after first paint.
+ * Same aspect, same hairline border, slightly dimmed so it reads as
+ * "loading" not as a card with content. The transition into real cards
+ * is just a swap of children inside the same <ul>; layout never reflows. */
+.codex-blotter-card--skeleton {
+  display: block;
+  aspect-ratio: 1 / 1;
+  background: var(--nier-bg-panel);
+  border: 1px solid var(--nier-rule-subtle);
+  /* No hover lift, no transform — skeleton isn't interactive. */
+  opacity: 0.6;
+}
+.codex-blotter-grid--skeleton .codex-blotter-grid__heading {
+  /* Same Imperial heading as the real grid — the heading itself is
+   * stable text ("Discover" is the most-common real value), so it
+   * doesn't flash either. */
+  opacity: 0.7;
 }
 
 .codex-blotter-card__cat {
@@ -852,19 +889,29 @@ html .vocs_Sidebar_section .vocs_Icon[class*="sectionCollapse"] {
 }
 
 /* ---------- Right rail breathing room (BlotterGrid scope) ----------- *
- * Vocs's default right-rail at 1708×900 with 70rem content lands at
- * ~18rem — cramps 2-col BlotterGrid cards. The rail is position:fixed
- * right:0 with a calc'd width, so widening it AND shrinking content
- * max-width keeps them from overlapping. Only kicks in at the same
- * 1280px breakpoint vocs uses to show the right rail at all. The
- * /codex canvas is already released from content max-width via the
- * :has(.codex-canvas) override below, so its layout is unaffected. */
+ * Override vocs's --vocs-content_width CSS var directly. Vocs's left-
+ * gutter formula reads this value to compute the content column's left
+ * margin: max(calc((100vw - content_width)/2), sidebar_width). When we
+ * only override content's max-width (not the var), the gutter formula
+ * still uses vocs's default — the column's left position computes for
+ * a 70ch column while its width renders at 50rem, so content extends
+ * RIGHT past where the rail begins. Overriding the var keeps both in
+ * sync. The rail width gets a slimmer override too so a real gap sits
+ * between content right-edge and rail left-edge. The /codex canvas is
+ * already released from content max-width via the :has(.codex-canvas)
+ * override above, so its layout is unaffected.
+ * Only fires at 1280px+ — vocs's right-rail breakpoint. */
 @media (min-width: 1280px) {
-  .vocs_DocsLayout_content_withSidebar {
-    max-width: 50rem !important;
+  /* Specificity bump: vocs's vite bundle writes :root vars after our
+   * <link> stylesheet, so plain :root loses the cascade. html:root
+   * (specificity 0,0,2 vs vocs's 0,0,1) wins cleanly. Same trick the
+   * existing vocs-override block above uses. */
+  html:root,
+  html:root.dark {
+    --vocs-content_width: 50rem;
   }
   .vocs_DocsLayout_gutterRight_withSidebar {
-    width: 28rem !important;
+    width: 26rem !important;
   }
 }
 
@@ -1140,6 +1187,1789 @@ main :not(pre) > code,
   line-height: 1.4;
 }
 
+/* ---------- GrimoireBrowse — main-content cathedral grid ----------- *
+ * On a grimoire's tool page (/tools/lookup_grail = Mibera Maker · Vol I),
+ * the main content area renders the browse surface for that grimoire's
+ * items. Categories ordered by codex taxonomy, each section labelled
+ * with a count, cards use the canonical artwork as the face. Same
+ * register as /codex but lives inline as the page's primary content
+ * (not a separate cathedral route).
+ *
+ * Released from the article column max-width via :has() so the grid
+ * spans the page — same trick CodexCanvas uses on /codex.
+ * ===================================================================== */
+
+.vocs_DocsLayout_content:has(.grimoire-browse),
+.vocs_DocsLayout_content_withSidebar:has(.grimoire-browse) {
+  max-width: none !important;
+}
+.vocs_DocsLayout_content:has(.grimoire-browse) main,
+.vocs_DocsLayout_content:has(.grimoire-browse) [class*="vocs_Content"] {
+  max-width: none !important;
+}
+
+.grimoire-browse {
+  display: flex;
+  flex-direction: column;
+  gap: 2.25rem;
+  margin: 1.25rem 0 3rem;
+}
+
+.grimoire-browse--loading {
+  min-height: 12rem;
+}
+
+.grimoire-browse__category {
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+}
+
+.grimoire-browse__cat-label {
+  display: flex;
+  align-items: baseline;
+  gap: 0.65rem;
+  font-family: var(--font-imperial);
+  font-size: 0.85rem;
+  font-weight: 400;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--nier-text-muted);
+  margin: 0;
+  padding: 0 0 0.45rem;
+  border-bottom: 1px solid var(--nier-rule-soft);
+}
+
+.grimoire-browse__cat-count {
+  font-family: var(--font-switzer);
+  font-size: 0.7rem;
+  letter-spacing: 0.1em;
+  color: var(--nier-text-muted);
+  font-variant-numeric: tabular-nums;
+}
+
+.grimoire-browse__grid {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(8rem, 1fr));
+  gap: 0.75rem;
+}
+
+.grimoire-browse__card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
+  padding: 0.55rem;
+  background: var(--nier-bg-panel);
+  border: 1px solid var(--nier-rule-soft);
+  text-decoration: none !important;
+  border-bottom: 1px solid var(--nier-rule-soft) !important;
+  color: var(--nier-text-primary) !important;
+  transition:
+    border-color var(--duration-fast) var(--spring-snappy),
+    transform    var(--duration-fast) var(--spring-snappy);
+}
+
+.grimoire-browse__card:hover {
+  border-color: var(--nier-rule-medium) !important;
+  border-bottom-color: var(--nier-rule-medium) !important;
+  transform: translateY(-1px);
+}
+
+.grimoire-browse__card-img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  display: block;
+  background: var(--nier-bg-panel-dark);
+  border: 1px solid var(--nier-rule-soft);
+}
+
+.grimoire-browse__card-title {
+  font-family: var(--font-imperial);
+  font-size: 0.82rem;
+  line-height: 1.18;
+  letter-spacing: -0.005em;
+  color: var(--nier-text-primary);
+  text-align: center;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  line-clamp: 2;
+  overflow: hidden;
+  word-break: break-word;
+}
+
+/* ---------- ArchetypeBrowse — Clearpill vs Ravepill grimoire ------- *
+ * Four tribes as cards. Stacked sections per card with hairline rules
+ * between fields. No images (archetypes have no canonical artwork yet)
+ * — typography + parchment vocabulary carry the visual weight.
+ * Two-column on desktop, single column at narrow viewports.
+ * ===================================================================== */
+
+.archetype-browse {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.25rem;
+  margin: 1.5rem 0 2.5rem;
+}
+
+@media (max-width: 920px) {
+  .archetype-browse {
+    grid-template-columns: 1fr;
+  }
+}
+
+.archetype-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.95rem;
+  padding: 1.25rem 1.4rem 1.5rem;
+  background: var(--nier-bg-panel);
+  border: 1px solid var(--nier-border-dark);
+  min-width: 0;
+}
+
+.archetype-card__head {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  padding-bottom: 0.85rem;
+  border-bottom: 1px solid var(--nier-rule-medium);
+}
+
+.archetype-card__name {
+  font-family: var(--font-imperial);
+  font-size: 1.65rem;
+  line-height: 1.05;
+  margin: 0;
+  letter-spacing: -0.01em;
+  color: var(--nier-text-primary);
+  /* Suppress global main h2 top-border + padding rules */
+  border-top: none !important;
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+}
+
+.archetype-card__meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.45rem;
+  font-family: var(--font-switzer);
+  font-size: 0.7rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--nier-text-muted);
+}
+
+.archetype-card__sep {
+  color: var(--nier-rule-medium);
+}
+
+.archetype-card__zodiac {
+  letter-spacing: 0.08em;
+}
+
+.archetype-card__section {
+  display: flex;
+  flex-direction: column;
+  gap: 0.32rem;
+}
+
+.archetype-card__section--split {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.archetype-card__section-label {
+  font-family: var(--font-switzer);
+  font-size: 0.62rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--nier-text-muted);
+}
+
+.archetype-card__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.18rem;
+  font-family: var(--font-switzer);
+  font-size: 0.88rem;
+  line-height: 1.4;
+  color: var(--nier-text-primary);
+}
+
+.archetype-card__figures,
+.archetype-card__fashion,
+.archetype-card__chips {
+  font-family: var(--font-switzer);
+  font-size: 0.85rem;
+  line-height: 1.5;
+  color: var(--nier-text-secondary);
+  margin: 0;
+}
+
+.archetype-card__fashion {
+  font-style: italic;
+}
+
+/* ---------- Skill Link — the one URL the user pastes ------------- *
+ * The For Agents page collapses install down to a single URL pointing
+ * at /skill.md. Render it with weight: dark ink panel, mono type,
+ * generous padding so it reads as the primary action of the page.
+ * ===================================================================== */
+
+.skill-link {
+  display: block;
+  padding: 1.25rem 1.6rem;
+  background: var(--nier-text-primary);
+  color: var(--nier-bg-primary);
+  border: 1px solid var(--nier-text-primary);
+  margin: 1.5rem 0 0.5rem;
+  text-align: center;
+  user-select: all;
+  cursor: text;
+}
+
+/* Force cream text against the dark panel — vocs's `main :not(pre) > code`
+ * rule (parchment bg + ink color) AND vocs's auto-linkified anchor
+ * styling both target this region. We override both: the code element
+ * AND any anchor vocs wraps the URL string in. */
+.skill-link code,
+.skill-link a,
+.skill-link a:hover,
+main .skill-link > code,
+main .skill-link a,
+[class*="vocs_Content"] .skill-link code,
+[class*="vocs_Content"] .skill-link a {
+  font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace !important;
+  font-size: 1.15rem !important;
+  letter-spacing: 0.005em !important;
+  color: var(--nier-bg-primary) !important;
+  background: transparent !important;
+  border: none !important;
+  border-bottom: none !important;
+  padding: 0 !important;
+  text-decoration: none !important;
+  word-break: break-all;
+  overflow-wrap: anywhere;
+}
+
+/* ---------- LogoCarousel — animated client wall ------------------- *
+ * Marquee scrolls right-to-left. Track holds the client list twice;
+ * keyframe translates 0 → -50% so the second copy enters as the first
+ * exits — seamless infinite loop. Hover pauses so visitors can read.
+ * ===================================================================== */
+
+.logo-carousel {
+  margin: 2rem 0 1.5rem;
+  padding: 1.4rem 0;
+  background: var(--nier-bg-panel);
+  border: 1px solid var(--nier-rule-medium);
+  overflow: hidden;
+  -webkit-mask-image: linear-gradient(
+    to right,
+    transparent 0,
+    black 8%,
+    black 92%,
+    transparent 100%
+  );
+          mask-image: linear-gradient(
+    to right,
+    transparent 0,
+    black 8%,
+    black 92%,
+    transparent 100%
+  );
+}
+
+.logo-carousel__track {
+  display: flex;
+  width: max-content;
+  animation: logo-carousel-scroll 36s linear infinite;
+}
+
+.logo-carousel:hover .logo-carousel__track {
+  animation-play-state: paused;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .logo-carousel__track {
+    animation: none;
+  }
+}
+
+.logo-carousel__item {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  padding: 0 1.6rem;
+  flex-shrink: 0;
+  border-right: 1px solid var(--nier-rule-soft);
+  font-family: var(--font-switzer);
+  font-size: 0.85rem;
+  letter-spacing: 0.04em;
+  color: var(--nier-text-secondary);
+  white-space: nowrap;
+}
+
+.logo-carousel__item img {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.logo-carousel__name {
+  font-family: var(--font-imperial);
+  font-size: 0.95rem;
+  letter-spacing: -0.005em;
+  color: var(--nier-text-primary);
+}
+
+@keyframes logo-carousel-scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    /* The track holds two copies; -50% lands the second copy at the
+     * starting frame so the loop is seamless. */
+    transform: translateX(-50%);
+  }
+}
+
+/* Screen-reader-only utility (used to surface the canonical client
+ * list while the visual marquee is aria-hidden). */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* ---------- MiberaBrowse — Introducing Mibera grimoire ------------ *
+ * 10,000 miberas paginated 60 per page. Filter chips up top scope by
+ * archetype. Each card: image (square aspect) + #ID + swag rank +
+ * archetype tag. "Load more" reveals the next batch. Compact by design
+ * — at this scale the visual is more about pattern than per-mibera
+ * detail; clicking a card loads no detail page (no per-id route exists
+ * yet — agents still call lookup_mibera(id) for canonical detail).
+ * ===================================================================== */
+
+.mibera-browse {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  margin: 1.5rem 0 2.5rem;
+}
+
+.mibera-browse--loading {
+  font-family: var(--font-switzer);
+  font-style: italic;
+  color: var(--nier-text-muted);
+  padding: 2rem 0;
+}
+
+.mibera-browse__controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding-bottom: 0.85rem;
+  border-bottom: 1px solid var(--nier-rule-soft);
+}
+
+.mibera-browse__filter {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.mibera-browse__chip {
+  font-family: var(--font-switzer);
+  font-size: 0.78rem;
+  letter-spacing: 0.04em;
+  padding: 0.35rem 0.75rem;
+  background: var(--nier-bg-panel);
+  color: var(--nier-text-secondary);
+  border: 1px solid var(--nier-rule-medium);
+  cursor: pointer;
+  transition: border-color var(--duration-fast) var(--spring-snappy),
+              background var(--duration-fast) var(--spring-snappy),
+              color var(--duration-fast) var(--spring-snappy);
+}
+
+.mibera-browse__chip:hover {
+  border-color: var(--nier-border-dark);
+  color: var(--nier-text-primary);
+}
+
+.mibera-browse__chip--active {
+  background: var(--nier-text-primary);
+  color: var(--nier-bg-primary);
+  border-color: var(--nier-text-primary);
+}
+.mibera-browse__chip--active:hover {
+  color: var(--nier-bg-primary);
+}
+
+.mibera-browse__count {
+  font-family: var(--font-switzer);
+  font-size: 0.78rem;
+  letter-spacing: 0.04em;
+  color: var(--nier-text-muted);
+  font-variant-numeric: tabular-nums;
+}
+
+.mibera-browse__grid {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(8rem, 1fr));
+  gap: 0.6rem;
+}
+
+.mibera-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  padding: 0.4rem;
+  background: var(--nier-bg-panel);
+  border: 1px solid var(--nier-rule-soft);
+  min-width: 0;
+  transition: border-color var(--duration-fast) var(--spring-snappy);
+}
+
+.mibera-card:hover {
+  border-color: var(--nier-rule-medium);
+}
+
+.mibera-card__img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  display: block;
+  background: var(--nier-bg-panel-dark);
+  border: 1px solid var(--nier-rule-soft);
+}
+
+.mibera-card__img--missing {
+  background: repeating-linear-gradient(
+    45deg,
+    var(--nier-bg-panel-dark),
+    var(--nier-bg-panel-dark) 6px,
+    var(--nier-bg-panel) 6px,
+    var(--nier-bg-panel) 12px
+  );
+}
+
+.mibera-card__meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  font-size: 0.72rem;
+  color: var(--nier-text-primary);
+}
+
+.mibera-card__id {
+  font-variant-numeric: tabular-nums;
+}
+
+.mibera-card__rank {
+  font-family: var(--font-imperial);
+  font-size: 0.78rem;
+  color: var(--nier-text-muted);
+  letter-spacing: 0.05em;
+}
+
+.mibera-card__archetype {
+  font-family: var(--font-switzer);
+  font-size: 0.6rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--nier-text-muted);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.mibera-browse__more {
+  display: flex;
+  justify-content: center;
+  padding: 1rem 0 0;
+}
+
+.mibera-browse__more-btn {
+  font-family: var(--font-switzer);
+  font-size: 0.85rem;
+  letter-spacing: 0.04em;
+  padding: 0.65rem 1.4rem;
+  background: var(--nier-bg-panel);
+  color: var(--nier-text-primary);
+  border: 1px solid var(--nier-border-dark);
+  cursor: pointer;
+  transition: background var(--duration-fast) var(--spring-snappy),
+              color var(--duration-fast) var(--spring-snappy);
+}
+
+.mibera-browse__more-btn:hover {
+  background: var(--nier-text-primary);
+  color: var(--nier-bg-primary);
+}
+
+/* ---------- FactorBrowse — Network Mysticism grimoire ------------- *
+ * 28 factors grouped by dimension (OG / NFT / Onchain). Each dimension
+ * is a section with header + grid of factor cards. Cards are compact:
+ * mono id at top, display name + archetype tag, lore prose. Historic
+ * status surfaces a hairline-bordered "historic" badge. Auto-fill
+ * grid handles 5-19 cards per dimension gracefully.
+ * ===================================================================== */
+
+.factor-browse {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin: 1.5rem 0 2.5rem;
+}
+
+.factor-browse__dimension {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.factor-browse__dim-head {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  padding-bottom: 0.6rem;
+  border-bottom: 1px solid var(--nier-rule-medium);
+}
+
+.factor-browse__dim-label {
+  display: flex;
+  align-items: baseline;
+  gap: 0.7rem;
+  margin: 0;
+  /* Override global main h2 rule */
+  border-top: none !important;
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+}
+
+.factor-browse__dim-name {
+  font-family: var(--font-imperial);
+  font-size: 1.05rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--nier-text-primary);
+}
+
+.factor-browse__dim-count {
+  font-family: var(--font-switzer);
+  font-size: 0.7rem;
+  letter-spacing: 0.1em;
+  color: var(--nier-text-muted);
+  font-variant-numeric: tabular-nums;
+}
+
+.factor-browse__dim-gloss {
+  font-family: var(--font-switzer);
+  font-size: 0.85rem;
+  font-style: italic;
+  color: var(--nier-text-muted);
+  margin: 0;
+}
+
+.factor-browse__grid {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
+  gap: 0.85rem;
+}
+
+.factor-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 0.85rem 1rem 0.95rem;
+  background: var(--nier-bg-panel);
+  border: 1px solid var(--nier-rule-medium);
+  min-width: 0;
+}
+
+.factor-card--historic,
+.factor-card--merged {
+  background: var(--nier-bg-panel-dark);
+  opacity: 0.78;
+}
+
+.factor-card__head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.factor-card__id {
+  font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  font-size: 0.75rem;
+  color: var(--nier-text-muted);
+  background: transparent !important;
+  border: none !important;
+  padding: 0 !important;
+  letter-spacing: 0.005em;
+  word-break: break-all;
+  flex: 1;
+  min-width: 0;
+}
+
+.factor-card__status {
+  font-family: var(--font-switzer);
+  font-size: 0.6rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--nier-text-muted);
+  border: 1px solid var(--nier-rule-medium);
+  padding: 0.1rem 0.42rem;
+  white-space: nowrap;
+}
+
+.factor-card__title-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.45rem;
+}
+
+.factor-card__name {
+  font-family: var(--font-imperial);
+  font-size: 1.05rem;
+  line-height: 1.15;
+  letter-spacing: -0.005em;
+  color: var(--nier-text-primary);
+  margin: 0;
+  border-top: none !important;
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+}
+
+.factor-card__archetype {
+  font-family: var(--font-switzer);
+  font-size: 0.62rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--nier-text-muted);
+}
+
+.factor-card__lore {
+  font-family: var(--font-switzer);
+  font-size: 0.85rem;
+  line-height: 1.5;
+  color: var(--nier-text-secondary);
+  margin: 0;
+}
+
+/* ---------- ZoneBrowse — Initiation Ritual grimoire --------------- *
+ * Five festival zones as cards. Single-column stack — each zone's
+ * vocabulary is dense (essence + KANSEI tokens + landmarks) and
+ * benefits from generous horizontal real estate. Cards lead with
+ * an emoji + name, archetype anchor + era beneath, then the prose
+ * essence, then the KANSEI rows, then landmarks.
+ * ===================================================================== */
+
+.zone-browse {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  margin: 1.5rem 0 2.5rem;
+  max-width: 64rem;
+}
+
+.zone-card {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1.4rem 1.6rem 1.6rem;
+  background: var(--nier-bg-panel);
+  border: 1px solid var(--nier-border-dark);
+  min-width: 0;
+}
+
+.zone-card__head {
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+  padding-bottom: 0.85rem;
+  border-bottom: 1px solid var(--nier-rule-medium);
+}
+
+.zone-card__title-row {
+  display: flex;
+  align-items: baseline;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+}
+
+.zone-card__emoji {
+  font-size: 1.5rem;
+  line-height: 1;
+}
+
+.zone-card__name {
+  font-family: var(--font-imperial);
+  font-size: 1.55rem;
+  line-height: 1.05;
+  margin: 0;
+  letter-spacing: -0.01em;
+  color: var(--nier-text-primary);
+  border-top: none !important;
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+}
+
+.zone-card__slug {
+  font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  font-size: 0.78rem;
+  color: var(--nier-text-muted);
+  background: transparent !important;
+  border: none !important;
+  padding: 0 !important;
+  letter-spacing: 0.01em;
+}
+
+.zone-card__meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.45rem;
+  font-family: var(--font-switzer);
+  font-size: 0.78rem;
+  letter-spacing: 0.01em;
+  color: var(--nier-text-secondary);
+}
+
+.zone-card__archetype {
+  font-family: var(--font-switzer);
+  font-size: 0.7rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--nier-text-primary);
+}
+
+.zone-card__sep {
+  color: var(--nier-rule-medium);
+}
+
+.zone-card__era {
+  font-style: italic;
+  color: var(--nier-text-muted);
+}
+
+.zone-card__essence {
+  font-family: var(--font-switzer);
+  font-size: 0.95rem;
+  line-height: 1.55;
+  color: var(--nier-text-primary);
+  margin: 0;
+}
+
+.zone-card__kansei {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  padding: 0.95rem 1rem;
+  background: var(--nier-bg-primary);
+  border: 1px solid var(--nier-rule-soft);
+}
+
+.zone-card__kansei-row {
+  display: grid;
+  grid-template-columns: 5.5rem 1fr;
+  gap: 0.75rem;
+  align-items: baseline;
+}
+
+.zone-card__kansei-label {
+  font-family: var(--font-switzer);
+  font-size: 0.62rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--nier-text-muted);
+}
+
+.zone-card__kansei-value {
+  font-family: var(--font-switzer);
+  font-size: 0.82rem;
+  line-height: 1.5;
+  color: var(--nier-text-primary);
+}
+
+.zone-card__landmarks {
+  display: flex;
+  flex-direction: column;
+  gap: 0.32rem;
+}
+
+.zone-card__section-label {
+  font-family: var(--font-switzer);
+  font-size: 0.62rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--nier-text-muted);
+}
+
+.zone-card__landmarks-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem 0.85rem;
+  font-family: var(--font-switzer);
+  font-size: 0.85rem;
+  color: var(--nier-text-secondary);
+}
+
+.zone-card__landmarks-list li {
+  position: relative;
+  padding-left: 0.85rem;
+}
+
+.zone-card__landmarks-list li::before {
+  content: "·";
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: var(--nier-rule-medium);
+}
+
+/* ---------- Tool routes — full-width pages + drawer surface -------- *
+ * On /tools/* routes the right-rail is hidden and the article column
+ * runs full width. The agent-facing tooling lives in a slide-out
+ * drawer (.agent-drawer) triggered by the Mibera tab on the right edge.
+ * This is the operator's flip: visual codex front-and-center, agent
+ * spec on demand.
+ * ===================================================================== */
+
+html[data-route="tool"] .vocs_DocsLayout_gutterRight,
+html[data-route="tool"] .vocs_DocsLayout_gutterRight_withSidebar {
+  display: none !important;
+}
+
+html[data-route="tool"] .vocs_DocsLayout_content_withSidebar {
+  /* Release the article column from the breathing-room max-width so
+   * the grimoire browse spans the full page. The /codex :has() rule
+   * already does this for routes containing CodexCanvas; tool pages
+   * with GrimoireBrowse inherit that, but tools without a browse
+   * grid (lookup_mibera, etc.) still benefit from full width. */
+  max-width: none !important;
+}
+
+html[data-route="tool"] .vocs_DocsLayout_content:has(main) main,
+html[data-route="tool"] [class*="vocs_Content"] {
+  max-width: none !important;
+}
+
+/* Vocs's footer carries its own max-width pinned to --vocs-content_width.
+ * On tool routes the footer (Edit / Last updated / prev-next nav) needs
+ * to match the now-full-width article column above it. */
+html[data-route="tool"] [class*="vocs_Footer"]:not([class*="container"]):not([class*="link"]):not([class*="navigation"]):not([class*="lastUpdated"]):not([class*="editLink"]) {
+  max-width: none !important;
+}
+
+/* ---------- Agent Tab — Mibera "peek" trigger on right edge -------- *
+ * Fixed-position vertical button hugging the right edge of the
+ * viewport. Avatar (books-row slice — same source as the sidebar logo)
+ * sits inside; clicking toggles the AgentDrawer. When drawer is open
+ * the tab slides leftward to sit flush against the drawer edge.
+ * ===================================================================== */
+
+.agent-tab {
+  position: fixed;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  z-index: 50;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0.75rem 0.5rem 0.75rem 0.7rem;
+  background: var(--nier-text-primary);
+  color: var(--nier-bg-primary);
+  border: 1px solid var(--nier-text-primary);
+  border-right: none;
+  cursor: pointer;
+  font-family: var(--font-switzer);
+  font-size: 0.62rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  transition: right var(--duration-normal) var(--spring-snappy),
+              background var(--duration-fast) var(--spring-snappy);
+  /* The drawer is 22rem wide; when open we slide the tab left by that
+   * amount so it stays attached to the drawer's left edge. */
+}
+
+.agent-tab--open {
+  right: 22rem;
+}
+
+.agent-tab:hover {
+  background: var(--nier-text-secondary);
+}
+
+.agent-tab__avatar {
+  display: block;
+  width: 32px;
+  height: 32px;
+  background-image: url("/miberasets-row.jpg");
+  background-size: var(--codex-grimoire-size, 100% auto);
+  background-position-x: var(--codex-grimoire-position, 50%);
+  background-position-y: center;
+  background-repeat: no-repeat;
+  border: 1px solid var(--nier-bg-primary);
+  /* The avatar slice mirrors the sidebar brand-mark — same image,
+   * same per-route position vars set by GrimoireTracker. The agent
+   * tab feels like the codex itself peeking out. */
+}
+
+.agent-tab__label {
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  font-weight: 500;
+}
+
+.agent-tab__chevron {
+  font-size: 0.95rem;
+  line-height: 1;
+  letter-spacing: 0;
+  color: var(--nier-bg-primary);
+}
+
+/* ---------- Agent Drawer — slide-out right panel ------------------- *
+ * Fixed-position right drawer. Default state translated offscreen;
+ * --open variant slides into view. Width is fixed (22rem) so it
+ * never stretches across pages — operator's consistency ask.
+ * Lighter styling than the prior right-rail panel: parchment bg with
+ * a single soft hairline on the left edge, no heavy outer frame.
+ * ===================================================================== */
+
+.agent-drawer {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 22rem;
+  z-index: 49;
+  background: var(--nier-bg-panel);
+  border-left: 1px solid var(--nier-border-dark);
+  overflow-y: auto;
+  padding: 1.4rem 1.2rem 1.5rem;
+  transform: translateX(100%);
+  transition: transform var(--duration-normal) var(--spring-snappy);
+  box-shadow: -16px 0 32px -16px oklch(0.203 0.01 67.2 / 0);
+  pointer-events: none;
+}
+
+.agent-drawer--open {
+  transform: translateX(0);
+  box-shadow: -16px 0 32px -16px oklch(0.203 0.01 67.2 / 0.12);
+  pointer-events: auto;
+}
+
+@media (max-width: 720px) {
+  .agent-drawer {
+    width: min(22rem, 90vw);
+  }
+  .agent-tab--open {
+    right: min(22rem, 90vw);
+  }
+}
+
+/* ---------- ToolReference — agent spec inside the drawer ---------- *
+ * Lives inside .agent-drawer. Compact spec: tool name, purpose,
+ * signature, input/output JSON. Lighter visual register than the
+ * prior right-rail panel — no outer frame (the drawer carries that),
+ * just stacked sections with hairline separators.
+ * ===================================================================== */
+
+.tool-reference {
+  display: flex;
+  flex-direction: column;
+  gap: 0.95rem;
+  padding: 0;
+  background: transparent;
+  border: none;
+}
+
+.tool-reference__head {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  padding-bottom: 0.85rem;
+  border-bottom: 1px solid var(--nier-rule-soft);
+}
+
+.tool-reference__kind {
+  font-family: var(--font-switzer);
+  font-size: 0.62rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--nier-text-muted);
+}
+
+.tool-reference__name {
+  font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  font-size: 0.95rem;
+  color: var(--nier-text-primary);
+  background: transparent !important;
+  border: none !important;
+  padding: 0 !important;
+  word-break: break-all;
+}
+
+.tool-reference__purpose {
+  font-family: var(--font-switzer);
+  font-size: 0.78rem;
+  line-height: 1.5;
+  color: var(--nier-text-secondary);
+  margin: 0;
+}
+
+.tool-reference__section {
+  display: flex;
+  flex-direction: column;
+  gap: 0.32rem;
+}
+
+.tool-reference__section-label {
+  font-family: var(--font-switzer);
+  font-size: 0.62rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--nier-text-muted);
+}
+
+.tool-reference__code {
+  background: var(--nier-bg-primary) !important;
+  border: 1px solid var(--nier-rule-soft) !important;
+  border-radius: 0;
+  padding: 0.55rem 0.7rem !important;
+  margin: 0 !important;
+  overflow-x: auto;
+  font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  font-size: 0.74rem !important;
+  line-height: 1.55 !important;
+  color: var(--nier-text-primary);
+  white-space: pre;
+}
+
+.tool-reference__code code {
+  background: transparent !important;
+  border: none !important;
+  padding: 0 !important;
+  color: inherit;
+  font-size: inherit;
+  font-family: inherit;
+}
+
+.tool-reference__foot {
+  padding-top: 0.65rem;
+  border-top: 1px solid var(--nier-rule-soft);
+}
+
+.tool-reference__install {
+  display: inline-block;
+  font-family: var(--font-switzer);
+  font-size: 0.78rem;
+  letter-spacing: 0.04em;
+  color: var(--nier-text-primary) !important;
+  border-bottom: 1px solid var(--nier-rule-medium) !important;
+  text-decoration: none !important;
+}
+.tool-reference__install:hover {
+  border-bottom-color: var(--nier-text-primary) !important;
+}
+
+/* ---------- Tool Catalog — drawer's no-tool fallback view --------- *
+ * When the drawer is opened on a non-tool route (or a tool route
+ * the SPECS table doesn't recognize), show the eight tools as a
+ * compact list grouped by their grimoire. Click an item to land on
+ * that tool's grimoire page.
+ * ===================================================================== */
+
+.tool-catalog {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.tool-catalog__item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.18rem;
+  padding: 0.7rem 0;
+  border-bottom: 1px solid var(--nier-rule-soft);
+  text-decoration: none !important;
+  color: var(--nier-text-primary) !important;
+  transition: padding-left var(--duration-fast) var(--spring-snappy);
+}
+
+.tool-catalog li:last-child .tool-catalog__item {
+  border-bottom: none;
+}
+
+.tool-catalog__item:hover {
+  padding-left: 0.35rem;
+}
+
+.tool-catalog__name {
+  font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  font-size: 0.82rem;
+  color: var(--nier-text-primary);
+  background: transparent !important;
+  border: none !important;
+  padding: 0 !important;
+}
+
+.tool-catalog__vol {
+  font-family: var(--font-switzer);
+  font-size: 0.62rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--nier-text-muted);
+}
+
+.tool-catalog__purpose {
+  font-family: var(--font-switzer);
+  font-size: 0.78rem;
+  line-height: 1.45;
+  color: var(--nier-text-secondary);
+}
+
+/* ---------- Codex Banner — landing page hero image ----------------- *
+ * The miberasets-row image (the same source the sidebar brand-mark
+ * windows into). Full article-column width, hairline-bordered, sits
+ * directly under the H1. The visitor sees the seven grimoires before
+ * any prose — KEEPER's "structure is the invitation."
+ * ===================================================================== */
+
+.codex-banner {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0.75rem 0 1.5rem;
+  border: 1px solid var(--nier-border-dark);
+  background: var(--nier-text-primary);
+}
+
+/* ---------- Install Endpoint — the URL block ----------------------- *
+ * The URL is the actual install action. Make it visually weighty —
+ * tactile, copy-pastable, parchment panel with a hairline. Mono type,
+ * generous padding, no chrome decoration. The visitor's eye lands here.
+ * ===================================================================== */
+
+.install-endpoint {
+  display: block;
+  padding: 1.05rem 1.4rem;
+  background: var(--nier-bg-panel);
+  border: 1px solid var(--nier-border-dark);
+  margin: 1.25rem 0 0.5rem;
+  text-align: center;
+}
+
+.install-endpoint code {
+  font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  font-size: 1.05rem;
+  letter-spacing: 0.005em;
+  color: var(--nier-text-primary);
+  background: transparent !important;
+  border: none !important;
+  padding: 0 !important;
+  word-break: break-all;
+  overflow-wrap: anywhere;
+}
+
+/* ---------- Client Logos — supported MCP clients wall -------------- *
+ * One row of logos. The wall says "yes this works with your client" at
+ * a glance — no per-client config snippets, no read-each-card scan
+ * burden. Click a logo to land on the vendor's MCP install docs;
+ * client name reveals on hover so first paint stays austere.
+ * ===================================================================== */
+
+.client-logos {
+  list-style: none;
+  padding: 0;
+  margin: 1.25rem 0 1.25rem;
+  display: grid;
+  grid-template-columns: repeat(8, minmax(0, 1fr));
+  gap: 0.55rem;
+}
+
+@media (max-width: 720px) {
+  .client-logos {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.client-logos__item {
+  min-width: 0;
+}
+
+.client-logos__link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.85rem 0.35rem 0.7rem;
+  background: var(--nier-bg-panel);
+  border: 1px solid var(--nier-rule-soft);
+  border-bottom: 1px solid var(--nier-rule-soft) !important;
+  text-decoration: none !important;
+  color: var(--nier-text-primary) !important;
+  transition: border-color var(--duration-fast) var(--spring-snappy),
+              transform var(--duration-fast) var(--spring-snappy);
+}
+
+.client-logos__link:hover {
+  border-color: var(--nier-border-dark) !important;
+  border-bottom-color: var(--nier-border-dark) !important;
+  transform: translateY(-1px);
+}
+
+.client-logos__logo {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+  display: block;
+}
+
+.client-logos__name {
+  font-family: var(--font-switzer);
+  font-size: 0.7rem;
+  letter-spacing: 0.04em;
+  color: var(--nier-text-muted);
+  text-align: center;
+  line-height: 1.2;
+  word-break: break-word;
+  /* Reveal on hover so first paint is just logos. */
+  opacity: 0;
+  transition: opacity var(--duration-fast) var(--spring-snappy),
+              color var(--duration-fast) var(--spring-snappy);
+  /* Reserve space so the row doesn't reflow on hover. */
+  min-height: 1.7em;
+}
+
+.client-logos__link:hover .client-logos__name,
+.client-logos__link:focus-visible .client-logos__name {
+  opacity: 1;
+  color: var(--nier-text-primary);
+}
+
+/* ---------- Quick Install — one-click deeplinks --------------------- *
+ * Cursor and VS Code both expose `cursor:` and `vscode:` deeplink
+ * protocols that take the visitor from this page to MCP-installed in
+ * one click. Surface them as primary buttons because they collapse
+ * "open client → settings → paste URL" into a single tap.
+ * ===================================================================== */
+
+.quick-install {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  margin: 0.4rem 0 1.5rem;
+}
+
+.quick-install__btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  padding: 0.55rem 0.9rem;
+  background: var(--nier-text-primary);
+  color: var(--nier-bg-primary) !important;
+  border: 1px solid var(--nier-text-primary);
+  border-bottom: 1px solid var(--nier-text-primary) !important;
+  font-family: var(--font-switzer);
+  font-size: 0.85rem;
+  letter-spacing: 0.01em;
+  text-decoration: none !important;
+  transition: opacity var(--duration-fast) var(--spring-snappy);
+}
+
+.quick-install__btn:hover {
+  opacity: 0.88;
+  color: var(--nier-bg-primary) !important;
+}
+
+.quick-install__btn img {
+  /* Logo files are dark ink on transparent bg; on the dark-fill button
+   * we invert via filter so the logo reads against the ink. */
+  filter: invert(1);
+}
+
+/* ---------- Grimoire Strip — install page hero --------------------- *
+ * Seven covers in a horizontal row. The strip is the install page's
+ * first sentence: "this is what your agent gains." On narrow viewports
+ * the row scrolls horizontally — better to scroll than to shrink the
+ * books past recognition. Hover lifts the cover; tapping a cover lands
+ * on the volume's primary tool. No prose, no labels by default — the
+ * subtitle reveals on hover so first glance is just the books.
+ * ===================================================================== */
+
+.grimoire-strip {
+  margin: 1.25rem 0 1.75rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid var(--nier-rule-soft);
+}
+
+.grimoire-strip__row {
+  list-style: none;
+  padding: 0 0.25rem 0.75rem;
+  margin: 0 -0.25rem;
+  display: grid;
+  grid-template-columns: repeat(7, minmax(0, 1fr));
+  gap: 0.65rem;
+  /* Horizontal scroll on narrow viewports — better than shrinking books
+   * to thumbnails. Snap to each cover so it docks predictably. */
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+}
+
+@media (max-width: 920px) {
+  .grimoire-strip__row {
+    grid-template-columns: repeat(7, 9rem);
+  }
+}
+
+.grimoire-strip__item {
+  min-width: 0;
+  scroll-snap-align: start;
+}
+
+.grimoire-strip__cover-link {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  text-decoration: none !important;
+  border-bottom: none !important;
+  color: var(--nier-text-primary) !important;
+  /* The container is the cell; cover scales to fit. Min-width 0 lets
+   * the grid track shrink without forcing card overflow. */
+  min-width: 0;
+}
+
+.grimoire-strip__cover {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  display: block;
+  border: 1px solid var(--nier-rule-medium);
+  background: var(--nier-bg-panel-dark);
+  transition:
+    transform var(--duration-normal) var(--spring-gentle),
+    border-color var(--duration-fast) var(--spring-snappy),
+    filter var(--duration-normal) var(--spring-snappy);
+}
+
+.grimoire-strip__cover-link:hover .grimoire-strip__cover {
+  transform: translateY(-3px);
+  border-color: var(--nier-border-dark);
+  filter: drop-shadow(0 6px 14px oklch(0.203 0.01 67.2 / 0.18));
+}
+
+.grimoire-strip__roman {
+  font-family: var(--font-imperial);
+  font-size: 0.7rem;
+  letter-spacing: 0.18em;
+  color: var(--nier-text-muted);
+  text-align: center;
+  padding-top: 0.15rem;
+}
+
+.grimoire-strip__title {
+  font-family: var(--font-imperial);
+  font-size: 0.78rem;
+  line-height: 1.2;
+  letter-spacing: -0.005em;
+  color: var(--nier-text-primary);
+  text-align: center;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  line-clamp: 2;
+  overflow: hidden;
+  word-break: break-word;
+}
+
+.grimoire-strip__subtitle {
+  font-family: var(--font-switzer);
+  font-size: 0.66rem;
+  letter-spacing: 0.04em;
+  color: var(--nier-text-muted);
+  text-align: center;
+  /* Reveal on hover so first paint is just the books — austere, the
+   * KEEPER read. No noisy labels everywhere. */
+  opacity: 0;
+  transition: opacity var(--duration-fast) var(--spring-snappy);
+  /* Reserve space so the row doesn't reflow on hover. */
+  min-height: 0.95em;
+}
+
+.grimoire-strip__cover-link:hover .grimoire-strip__subtitle,
+.grimoire-strip__cover-link:focus-visible .grimoire-strip__subtitle {
+  opacity: 1;
+}
+
+/* ---------- Codex Hero — landing page two-column ------------------ *
+ * Copy left, install snippet right. The hero is the visitor's first
+ * sentence with the codex — it has to say what the codex IS in plain
+ * English AND give them the install line so they can act immediately.
+ * Imperial title + Switzer body keeps the parchment register; the snippet
+ * panel inverts (ink fill) so it reads as a tactile try-it surface.
+ * ===================================================================== */
+
+.codex-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr);
+  gap: 2.25rem;
+  align-items: start;
+  margin: 0.5rem 0 2.25rem;
+  padding-bottom: 1.75rem;
+  border-bottom: 1px solid var(--nier-rule-soft);
+}
+
+@media (max-width: 920px) {
+  .codex-hero {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+}
+
+.codex-hero__copy {
+  display: flex;
+  flex-direction: column;
+  gap: 0.95rem;
+  min-width: 0;
+}
+
+.codex-hero__title {
+  font-family: var(--font-imperial) !important;
+  font-size: 2.4rem !important;
+  line-height: 1 !important;
+  letter-spacing: -0.015em !important;
+  margin: 0 !important;
+  /* Suppress the global "main h2 + main h1" rules that add top borders */
+  border-top: none !important;
+  padding-top: 0 !important;
+  color: var(--nier-text-primary);
+}
+
+.codex-hero__lede {
+  font-family: var(--font-imperial);
+  font-size: 1.55rem;
+  line-height: 1.18;
+  letter-spacing: -0.01em;
+  color: var(--nier-text-primary);
+  margin: 0;
+}
+
+.codex-hero__body {
+  font-family: var(--font-switzer);
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--nier-text-secondary);
+  margin: 0;
+  max-width: 38rem;
+}
+
+.codex-hero__try {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 1rem 1.1rem 0.9rem;
+  background: var(--nier-text-primary);
+  border: 1px solid var(--nier-text-primary);
+  color: var(--nier-bg-primary);
+  min-width: 0;
+}
+
+.codex-hero__try-label {
+  font-family: var(--font-switzer);
+  font-size: 0.62rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: color-mix(in oklch, var(--nier-bg-primary) 70%, transparent);
+}
+
+.codex-hero__try-snippet {
+  background: transparent !important;
+  border: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  font-size: 0.85rem;
+  line-height: 1.55;
+  color: var(--nier-bg-primary);
+  white-space: pre-wrap;
+  word-break: break-all;
+  overflow-wrap: anywhere;
+}
+
+.codex-hero__try-snippet code {
+  background: transparent !important;
+  border: none !important;
+  padding: 0 !important;
+  color: inherit;
+  font-size: inherit;
+}
+
+.codex-hero__try-more {
+  align-self: flex-start;
+  font-family: var(--font-switzer);
+  font-size: 0.78rem;
+  letter-spacing: 0.05em;
+  text-transform: lowercase;
+  color: color-mix(in oklch, var(--nier-bg-primary) 80%, transparent) !important;
+  border-bottom: 1px solid transparent !important;
+  margin-top: 0.35rem;
+  text-decoration: none !important;
+  transition: color var(--duration-fast) var(--spring-snappy),
+              border-color var(--duration-fast) var(--spring-snappy);
+}
+
+.codex-hero__try-more:hover {
+  color: var(--nier-bg-primary) !important;
+  border-bottom-color: color-mix(in oklch, var(--nier-bg-primary) 60%, transparent) !important;
+}
+
+/* ---------- Codex Steps — numbered "How it works" block ----------- *
+ * Hairline-separated rows with a serif numeral leading each step. No
+ * background fills, no ornament — the rhythm comes from the numeral
+ * weight + the rule between rows. Same vocabulary as grimoire-shelf.
+ * ===================================================================== */
+
+.codex-steps {
+  list-style: none;
+  padding: 0;
+  margin: 1.25rem 0 2rem;
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid var(--nier-rule-soft);
+}
+
+.codex-steps__item {
+  display: grid;
+  grid-template-columns: 2.5rem 1fr;
+  gap: 1.1rem;
+  align-items: start;
+  padding: 1.1rem 0;
+  border-bottom: 1px solid var(--nier-rule-soft);
+}
+
+.codex-steps__num {
+  font-family: var(--font-imperial);
+  font-size: 1.5rem;
+  line-height: 1;
+  color: var(--nier-text-primary);
+  font-variant-numeric: tabular-nums;
+  letter-spacing: -0.01em;
+  padding-top: 0.05rem;
+}
+
+.codex-steps__body {
+  font-family: var(--font-switzer);
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--nier-text-secondary);
+}
+
+.codex-steps__body strong {
+  font-family: var(--font-imperial);
+  font-weight: 400;
+  font-size: 1.08rem;
+  letter-spacing: -0.005em;
+  color: var(--nier-text-primary);
+  display: block;
+  margin-bottom: 0.2rem;
+  line-height: 1.2;
+}
+
+.codex-steps__body code {
+  font-size: 0.92em;
+}
+
+/* ---------- CodexFlow — the overview diagram ----------------------- *
+ * One claim, three surfaces. Substrate at the top, stem labelled
+ * "one substrate" in the middle, three surface tiles below. Pure
+ * hairlines + Imperial type — no chroma, no decoration. Echoes the
+ * grimoire-shelf and consumer-card register so the diagram reads as
+ * a peer to the rest of the page, not a foreign object.
+ * ===================================================================== */
+
+.codex-flow {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  margin: 1.75rem 0 2.75rem;
+  padding: 0;
+}
+
+.codex-flow__substrate {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 0.75rem 1.4rem;
+  border: 1px solid var(--nier-border-dark);
+  background: var(--nier-bg-panel);
+  text-align: center;
+  max-width: 36rem;
+}
+
+.codex-flow__substrate-label {
+  font-family: var(--font-imperial);
+  font-size: 1rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--nier-text-primary);
+}
+
+.codex-flow__substrate-items {
+  font-family: var(--font-switzer);
+  font-size: 0.78rem;
+  color: var(--nier-text-secondary);
+  letter-spacing: 0.01em;
+  font-variant-numeric: tabular-nums;
+}
+
+.codex-flow__stem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.4rem;
+  margin: 0.65rem 0 0.65rem;
+}
+
+.codex-flow__stem-line {
+  width: 1px;
+  height: 0.75rem;
+  background: var(--nier-rule-medium);
+}
+
+.codex-flow__stem-label {
+  font-family: var(--font-switzer);
+  font-size: 0.62rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--nier-text-muted);
+}
+
+.codex-flow__surfaces {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.85rem;
+}
+
+/* Stack vertically when the row would cramp — covers both phones and
+ * the awkward 720-1100px window where the right-rail steals horizontal
+ * space from the article column. */
+@media (max-width: 1100px) {
+  .codex-flow__surfaces {
+    grid-template-columns: 1fr;
+  }
+}
+
+.codex-flow__surface {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  padding: 0.85rem 0.95rem;
+  background: var(--nier-bg-panel);
+  border: 1px solid var(--nier-rule-medium);
+  text-decoration: none !important;
+  border-bottom: 1px solid var(--nier-rule-medium) !important;
+  color: var(--nier-text-primary) !important;
+  transition: border-color var(--duration-fast) var(--spring-snappy),
+              transform    var(--duration-fast) var(--spring-snappy);
+}
+
+.codex-flow__surface:hover {
+  border-color: var(--nier-border-dark) !important;
+  border-bottom-color: var(--nier-border-dark) !important;
+  transform: translateY(-1px);
+}
+
+/* Center surface (the MCP) reads as the primary affordance — solid ink
+ * fill so it carries the focal weight. Levels of Scale: among three
+ * surfaces, the MCP is the one most visitors will install. */
+.codex-flow__surface--center {
+  background: var(--nier-text-primary);
+  border-color: var(--nier-text-primary);
+  border-bottom-color: var(--nier-text-primary) !important;
+  color: var(--nier-bg-primary) !important;
+}
+.codex-flow__surface--center:hover {
+  border-color: var(--nier-text-primary) !important;
+  border-bottom-color: var(--nier-text-primary) !important;
+  opacity: 0.92;
+}
+.codex-flow__surface--center .codex-flow__surface-kind,
+.codex-flow__surface--center .codex-flow__surface-name,
+.codex-flow__surface--center .codex-flow__surface-role {
+  color: var(--nier-bg-primary);
+}
+
+.codex-flow__surface-kind {
+  font-family: var(--font-switzer);
+  font-size: 0.62rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--nier-text-muted);
+}
+
+.codex-flow__surface-name {
+  font-family: var(--font-imperial);
+  font-size: 0.92rem;
+  line-height: 1.2;
+  letter-spacing: -0.005em;
+  color: var(--nier-text-primary);
+  /* URLs are long; break at slashes and dots gracefully rather than
+   * mid-word. overflow-wrap: anywhere falls back to break-all only when
+   * a token would otherwise overflow the cell. */
+  overflow-wrap: anywhere;
+  word-break: normal;
+}
+
+.codex-flow__surface-role {
+  font-family: var(--font-switzer);
+  font-size: 0.78rem;
+  line-height: 1.45;
+  color: var(--nier-text-secondary);
+}
+
 /* ---------- Tool card component (per-tool page header) -------------- */
 
 .tool-card {
@@ -1189,36 +3019,6 @@ main :not(pre) > code,
   line-height: 1.55;
 }
 
-.tool-card__badge {
-  align-self: flex-start;
-  display: inline-flex;
-  align-items: center;
-  gap: 0.4rem;
-  font-family: var(--font-switzer);
-  font-size: 0.72rem;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  padding: 0.28rem 0.55rem;
-  border: 1px solid var(--nier-border-dark);
-  background: var(--nier-bg-panel);
-  color: var(--nier-text-primary);
-}
-
-.tool-card__badge--hard {
-  background: var(--nier-text-primary);
-  color: var(--nier-bg-primary);
-  border-color: var(--nier-text-primary);
-}
-.tool-card__badge--soft {
-  background: var(--nier-bg-panel);
-  color: var(--nier-text-primary);
-}
-.tool-card__badge--llm {
-  background: var(--nier-bg-primary);
-  color: var(--nier-text-secondary);
-  border-style: dashed;
-}
-
 /* ---------- Install page — InstallCard + ConsumerCard --------------- *
  * /install is the visual face of "connect any agent to the codex."
  * Two grids: clients (large, snippet-bearing) and consumers (compact,
@@ -1227,7 +3027,11 @@ main :not(pre) > code,
 
 .install-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  /* minmax(0, 1fr) — the 0 floor lets columns shrink below intrinsic
+   * min-content (long URLs in code blocks). Without it, `1fr` resolves
+   * to `minmax(auto, 1fr)` and tracks expand to fit code lines, blowing
+   * past the article column width. */
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 1.25rem;
   margin: 1.5rem 0 2.5rem;
 }
@@ -1245,6 +3049,9 @@ main :not(pre) > code,
   border: 1px solid var(--nier-rule-medium);
   padding: 1rem 1.1rem 0.9rem;
   gap: 0.6rem;
+  /* Pair with grid-template-columns: minmax(0, 1fr) — the card itself
+   * needs a 0 min-width so its <pre> child can't stretch the cell. */
+  min-width: 0;
 }
 
 .install-card__head {
@@ -1317,6 +3124,10 @@ main :not(pre) > code,
   font-size: 0.82rem !important;
   line-height: 1.55 !important;
   color: var(--nier-text-primary);
+  /* Long URLs scroll horizontally inside the snippet rather than push
+   * the card past its column. min-width: 0 unblocks flex/grid shrink. */
+  min-width: 0;
+  max-width: 100%;
 }
 .install-card__snippet code {
   background: transparent !important;

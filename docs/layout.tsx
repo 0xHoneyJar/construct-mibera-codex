@@ -20,6 +20,7 @@ import { useLocation } from "react-router";
 import { Agentation } from "agentation";
 import { SidebarSearch } from "./components/sidebar-search";
 import { BlotterGrid } from "./components/blotter-grid";
+import { AgentDrawer } from "./components/agent-drawer";
 
 // Tool → grimoire mapping. All 8 tools fall under the 7 books; vol II
 // holds both list tools (it's the discovery-surface book), vol III holds
@@ -75,6 +76,11 @@ function GrimoireTracker() {
     // CSS `content: var(...)` requires the value already be a quoted
     // <string> at the variable level — so we wrap in quotes here.
     root.setProperty("--codex-vol-label", `"${meta.volLabel}"`);
+
+    // Route flag for CSS — full-width pages on tool routes are styled
+    // via [data-route="tool"] selectors in global.css.
+    const isToolRoute = /^\/tools\//.test(pathname);
+    document.documentElement.dataset.route = isToolRoute ? "tool" : "page";
   }, [pathname]);
   return null;
 }
@@ -138,12 +144,9 @@ function SidebarSearchMount() {
 
 /**
  * BlotterGridMount — portals BlotterGrid into the FIRST slot of the
- * vocs right rail (`.vocs_DocsLayout_gutterRight`), above the existing
- * Outline. Vocs's AiCtaDropdown is hidden via global.css. Mounted ONCE
- * and kept alive across navigations; the BlotterGrid component itself
- * decides what to render based on `useLocation` (per-page neighborhood,
- * Discover fallback, or null on /codex). Earlier per-pathname mount/
- * unmount caused a right-rail flash on every page change.
+ * vocs right rail (`.vocs_DocsLayout_gutterRight`). On tool routes
+ * the rail is hidden by global.css (see .agent-drawer rule); the
+ * agent surface is the slide-out AgentDrawer instead.
  */
 function BlotterGridMount() {
   const [host, setHost] = useState<HTMLElement | null>(null);
@@ -195,6 +198,7 @@ export default function Layout({ children }: Props) {
       <GrimoireTracker />
       <SidebarSearchMount />
       <BlotterGridMount />
+      <AgentDrawer />
       {children}
       {import.meta.env.DEV ? <Agentation /> : null}
     </>

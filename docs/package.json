@@ -5,8 +5,10 @@
   "type": "module",
   "scripts": {
     "build-vault-index": "node scripts/build-vault-index.mjs",
-    "dev": "node scripts/build-vault-index.mjs && vocs dev",
-    "build": "node scripts/build-vault-index.mjs && vocs build",
+    "build-miberas-browse": "node scripts/build-miberas-browse.mjs",
+    "build-indexes": "node scripts/build-vault-index.mjs && node scripts/build-miberas-browse.mjs",
+    "dev": "pnpm build-indexes && vocs dev",
+    "build": "pnpm build-indexes && vocs build",
     "preview": "vocs preview"
   },
   "dependencies": {

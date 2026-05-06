@@ -85,6 +85,63 @@ run_mode:
     timeout_hours: 8
 
 # =============================================================================
+# Simstim Workflow (HITL-accelerated PRD→SDD→Sprint→Implementation)
+# =============================================================================
+simstim:
+  enabled: true
+  # Optional sub-phases — off by default (progressive rollout, opt-in)
+  bridgebuilder_design_review: false # Phase 3.5
+  flatline:
+    beads_loop: false # Phase 6.5
+
+# =============================================================================
+# Flatline Protocol — multi-model adversarial review
+# =============================================================================
+# Models route through cheval headless adapters (subscription auth) via
+# hounfour.aliases below. Forward-compat names match VALID_MODEL_PATTERNS in
+# flatline-orchestrator but fall through model-adapter.sh shim's
+# resolve_provider_id to as-is pass-through, then hit cheval aliases that
+# route to the operator's logged-in claude/codex/gemini subscriptions.
+# Mirrors bonfire's wiring (loa#727).
+flatline_protocol:
+  enabled: true
+  # Use names the local orchestrator validates against. The hounfour aliases
+  # below route these to subscription headless adapters at the model-adapter
+  # layer (when flatline_routing: true).
+  models:
+    primary: opus
+    secondary: gpt-5.3-codex
+  max_iterations: 5
+  knowledge:
+    notebooklm:
+      enabled: false
+
+# =============================================================================
+# Cheval / Hounfour aliases — subscription model routing
+# =============================================================================
+# flatline_routing: true tells model-adapter.sh to translate model names to
+# cheval.py (model-invoke) calls instead of API-keyed legacy paths. When
+# subscription auth is logged in (claude/codex/gemini), reviews route through
+# the operator's subscription accounts.
+hounfour:
+  flatline_routing: true
+  aliases:
+    # Local orchestrator-recognized names → subscription headless bridges
+    opus: claude-headless:claude-opus-4-7
+    gpt-5.3-codex: codex-headless:gpt-5.5
+    claude-opus-4.6: claude-headless:claude-opus-4-7
+    claude-opus-4.5: claude-headless:claude-opus-4-7
+    gpt-5.2-codex: codex-headless:gpt-5.5
+    gpt-5.2: codex-headless:gpt-5.5
+    gemini-2.5-pro: gemini-headless:gemini-3.1-pro-preview
+    gemini-2.5-flash: gemini-headless:gemini-3.1-pro-preview
+    gemini-2.0: gemini-headless:gemini-3.1-pro-preview
+    # Generic role aliases (kept for compatibility with other skills)
+    reviewer: codex-headless:gpt-5.5
+    reasoning: codex-headless:gpt-5.5
+    deep-thinker: gemini-headless:gemini-3.1-pro-preview
+
+# =============================================================================
 # BUTTERFREEZONE Configuration
 # =============================================================================
 butterfreezone:
