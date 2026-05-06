@@ -173,22 +173,22 @@ export default defineConfig({
     {
       text: "I. The Story",
       items: [
-        { text: "Philosophy & Genesis",   link: "/story/philosophy" },
-        { text: "Official Lore Articles", link: "/story/official-lore" },
+        { text: "Philosophy & Genesis", link: "/story/philosophy" },
+        { text: "The Lore Articles",    link: "/story/official-lore" },
       ],
     },
     {
       text: "II. The Framework",
       items: [
-        { text: "Archetypes", link: "/tools/lookup_archetype" },
-        { text: "Ancestors",  link: "/framework/ancestors" },
+        { text: "The Four Tribes", link: "/tools/lookup_archetype" },
+        { text: "Ancestors",       link: "/framework/ancestors" },
       ],
     },
     {
       text: "V. The Collection",
       items: [
-        { text: "Introducing Mibera",       link: "/tools/lookup_mibera" },
-        { text: "Mibera Maker · Vol I",     link: "/tools/lookup_grail" },
+        { text: "The 10,000", link: "/tools/lookup_mibera" },
+        { text: "The Grails", link: "/tools/lookup_grail" },
       ],
     },
     {
@@ -200,7 +200,7 @@ export default defineConfig({
     {
       text: "X. Data & Research",
       items: [
-        { text: "Knowledge Graph & Exports", link: "/data" },
+        { text: "Data & Research", link: "/data" },
       ],
     },
   ],
