@@ -171,6 +171,13 @@ export default defineConfig({
       ],
     },
     {
+      text: "I. The Story",
+      items: [
+        { text: "Philosophy & Genesis",   link: "/story/philosophy" },
+        { text: "Official Lore Articles", link: "/story/official-lore" },
+      ],
+    },
+    {
       text: "II. The Framework",
       items: [
         { text: "Archetypes", link: "/tools/lookup_archetype" },
