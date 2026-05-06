@@ -1302,6 +1302,281 @@ main :not(pre) > code,
   word-break: break-word;
 }
 
+/* ---------- OnChainReference — IX. On-Chain ---------------------- *
+ * Contract registry table with copy buttons. Lighter visual register
+ * than narrative sections — tables + hairlines, not cards.
+ * ===================================================================== */
+
+.onchain-reference {
+  margin: 1.5rem 0 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.onchain-reference--loading {
+  font-family: var(--font-switzer);
+  font-style: italic;
+  color: var(--nier-text-muted);
+  padding: 1.5rem 0;
+}
+
+.onchain-reference__note {
+  font-family: var(--font-switzer);
+  font-size: 0.85rem;
+  font-style: italic;
+  color: var(--nier-text-muted);
+  margin: 0;
+  padding: 0.65rem 0.85rem;
+  border-left: 2px solid var(--nier-rule-medium);
+  background: var(--nier-bg-panel);
+}
+
+.onchain-table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid var(--nier-rule-medium);
+  font-family: var(--font-switzer);
+  font-size: 0.85rem;
+}
+
+.onchain-table th {
+  background: var(--nier-bg-panel);
+  text-align: left;
+  padding: 0.55rem 0.85rem;
+  font-family: var(--font-imperial);
+  font-weight: 400;
+  font-size: 0.78rem;
+  letter-spacing: 0.04em;
+  color: var(--nier-text-primary);
+  border-bottom: 1px solid var(--nier-text-primary);
+}
+
+.onchain-table td {
+  padding: 0.65rem 0.85rem;
+  border: 1px solid var(--nier-rule-soft);
+  vertical-align: top;
+}
+
+.onchain-table__name {
+  font-family: var(--font-imperial);
+  font-size: 0.95rem;
+  color: var(--nier-text-primary);
+  letter-spacing: -0.005em;
+}
+
+.onchain-table__notes {
+  font-family: var(--font-switzer);
+  font-size: 0.7rem;
+  font-style: italic;
+  color: var(--nier-text-muted);
+  margin-top: 0.2rem;
+}
+
+.onchain-table__addr {
+  display: flex;
+  flex-direction: column;
+  gap: 0.32rem;
+  align-items: flex-start;
+}
+
+.onchain-table__addr code {
+  font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  font-size: 0.78rem;
+  color: var(--nier-text-primary);
+  background: transparent !important;
+  border: none !important;
+  padding: 0 !important;
+  word-break: break-all;
+  display: block;
+}
+
+.onchain-table__copy {
+  font-family: var(--font-switzer);
+  font-size: 0.65rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  padding: 0.18rem 0.55rem;
+  background: var(--nier-bg-panel);
+  color: var(--nier-text-primary);
+  border: 1px solid var(--nier-rule-medium);
+  cursor: pointer;
+  transition: background var(--duration-fast) var(--spring-snappy),
+              color var(--duration-fast) var(--spring-snappy);
+}
+
+.onchain-table__copy:hover {
+  background: var(--nier-text-primary);
+  color: var(--nier-bg-primary);
+}
+
+.onchain-table__chain-id {
+  font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  font-size: 0.75rem;
+  color: var(--nier-text-muted);
+}
+
+.onchain-table__standard {
+  font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  font-size: 0.78rem;
+}
+
+/* ---------- DataIndex — X. Data & Research ----------------------- */
+
+.data-index {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin: 1.5rem 0 2.5rem;
+}
+
+.data-index__section {
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+}
+
+.data-index__heading {
+  font-family: var(--font-imperial);
+  font-size: 1.05rem;
+  letter-spacing: 0.04em;
+  color: var(--nier-text-primary);
+  margin: 0;
+  padding-bottom: 0.5rem;
+  border-top: none !important;
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+  border-bottom: 1px solid var(--nier-rule-medium);
+}
+
+.data-index__section-label {
+  font-family: var(--font-switzer);
+  font-size: 0.62rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--nier-text-muted);
+  margin-bottom: 0.4rem;
+}
+
+.data-index__stats-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+}
+
+@media (max-width: 720px) {
+  .data-index__stats-row {
+    grid-template-columns: 1fr;
+  }
+}
+
+.data-index__stats-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.data-index__stats-list li {
+  display: grid;
+  grid-template-columns: 1fr auto auto;
+  gap: 0.85rem;
+  padding: 0.4rem 0;
+  border-bottom: 1px solid var(--nier-rule-soft);
+  font-family: var(--font-switzer);
+  font-size: 0.85rem;
+  align-items: baseline;
+}
+
+.data-index__stats-list li:last-child {
+  border-bottom: none;
+}
+
+.data-index__stats-name {
+  color: var(--nier-text-primary);
+}
+
+.data-index__stats-pct {
+  color: var(--nier-text-secondary);
+  font-variant-numeric: tabular-nums;
+  font-size: 0.78rem;
+}
+
+.data-index__stats-count {
+  color: var(--nier-text-muted);
+  font-variant-numeric: tabular-nums;
+  font-size: 0.78rem;
+  text-align: right;
+}
+
+.data-index__source {
+  font-family: var(--font-switzer);
+  font-size: 0.75rem;
+  font-style: italic;
+  color: var(--nier-text-muted);
+  margin: 0.3rem 0 0;
+}
+
+.data-index__loading {
+  font-family: var(--font-switzer);
+  font-style: italic;
+  color: var(--nier-text-muted);
+}
+
+.data-index__table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid var(--nier-rule-medium);
+  font-family: var(--font-switzer);
+  font-size: 0.85rem;
+}
+
+.data-index__table th {
+  background: var(--nier-bg-panel);
+  text-align: left;
+  padding: 0.55rem 0.85rem;
+  font-family: var(--font-imperial);
+  font-weight: 400;
+  font-size: 0.78rem;
+  color: var(--nier-text-primary);
+  border-bottom: 1px solid var(--nier-text-primary);
+}
+
+.data-index__table td {
+  padding: 0.55rem 0.85rem;
+  border: 1px solid var(--nier-rule-soft);
+  vertical-align: top;
+}
+
+.data-index__path {
+  font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  font-size: 0.7rem;
+  color: var(--nier-text-muted);
+  margin-top: 0.18rem;
+}
+
+.data-index__count {
+  font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  font-size: 0.78rem;
+  color: var(--nier-text-secondary);
+  white-space: nowrap;
+}
+
+.data-index__scope-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.data-index__scope-gloss {
+  color: var(--nier-text-muted);
+  font-size: 0.85rem;
+}
+
 /* ---------- AncestorBrowse — II. The Framework / Ancestors -------- *
  * 33 canonical ancestor cultures as text-only cards. Mirrors the
  * ArchetypeBrowse register but lighter — ancestors don't have canonical

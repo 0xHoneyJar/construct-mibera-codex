@@ -191,6 +191,18 @@ export default defineConfig({
         { text: "Mibera Maker · Vol I",     link: "/tools/lookup_grail" },
       ],
     },
+    {
+      text: "IX. On-Chain",
+      items: [
+        { text: "Contracts & Mechanics", link: "/on-chain" },
+      ],
+    },
+    {
+      text: "X. Data & Research",
+      items: [
+        { text: "Knowledge Graph & Exports", link: "/data" },
+      ],
+    },
   ],
 
   socials: [

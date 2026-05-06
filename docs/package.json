@@ -7,8 +7,10 @@
     "build-vault-index": "node scripts/build-vault-index.mjs",
     "build-miberas-browse": "node scripts/build-miberas-browse.mjs",
     "build-ancestors-index": "node scripts/build-ancestors-index.mjs",
+    "build-onchain-data": "node scripts/build-onchain-data.mjs",
     "check-routes": "node scripts/check-routes.mjs",
-    "build-indexes": "node scripts/build-vault-index.mjs && node scripts/build-miberas-browse.mjs && node scripts/build-ancestors-index.mjs",
+    "check-contracts": "node scripts/check-contracts.mjs",
+    "build-indexes": "node scripts/build-vault-index.mjs && node scripts/build-miberas-browse.mjs && node scripts/build-ancestors-index.mjs && node scripts/check-contracts.mjs && node scripts/build-onchain-data.mjs",
     "dev": "pnpm check-routes && pnpm build-indexes && vocs dev",
     "build": "pnpm check-routes && pnpm build-indexes && vocs build",
     "preview": "vocs preview"
