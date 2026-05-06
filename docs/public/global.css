@@ -1934,14 +1934,13 @@ main .skill-link__url,
 
 .logo-carousel__item {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: flex-start;
-  gap: 0.65rem;
-  padding: 0 1rem;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.4rem 1rem;
   flex-shrink: 0;
-  /* Fixed cell width so every agent occupies the same horizontal slot
-   * regardless of name length. The marquee reads as a uniform rhythm. */
-  width: 12rem;
+  width: 9rem;
   border-right: 1px solid var(--nier-rule-subtle);
   font-family: var(--font-switzer);
   font-size: 0.85rem;
@@ -1957,8 +1956,8 @@ main .skill-link__url,
 .logo-carousel__icon {
   display: inline-block;
   flex-shrink: 0;
-  width: 32px;
-  height: 32px;
+  width: 56px;
+  height: 56px;
   background-color: var(--nier-text-primary);
   -webkit-mask-size: contain;
           mask-size: contain;
@@ -1970,12 +1969,13 @@ main .skill-link__url,
 
 .logo-carousel__name {
   font-family: var(--font-switzer);
-  font-size: 0.85rem;
+  font-size: 0.8rem;
   letter-spacing: 0.005em;
   color: var(--nier-text-primary);
+  text-align: center;
   overflow: hidden;
   text-overflow: ellipsis;
-  min-width: 0;
+  max-width: 100%;
 }
 
 @keyframes logo-carousel-scroll {
