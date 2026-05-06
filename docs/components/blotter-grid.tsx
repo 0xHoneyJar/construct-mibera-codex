@@ -123,9 +123,12 @@ export function BlotterGrid() {
   // Routes that render full-width browse components and don't need the
   // right rail. Tool routes already hide the rail via global.css's
   // html[data-route="tool"] block; this set covers non-tool full-width
-  // pages (cathedral + grimoire-page browses introduced in cycle-024).
+  // pages (cathedral + grimoire-page browses introduced in cycle-024
+  // + the / reading guide where the body sections ARE the browse surface).
   const railHidden =
-    cleanPath === "/codex" || cleanPath === "/framework/ancestors";
+    cleanPath === "/" ||
+    cleanPath === "/codex" ||
+    cleanPath === "/framework/ancestors";
 
   const view = useMemo<{ heading: string; entries: VaultEntry[] } | null>(() => {
     if (railHidden) return null;

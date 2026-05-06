@@ -1059,18 +1059,30 @@ main :not(pre) > code,
  * variant — every tool has a book.
  * ===================================================================== */
 
+/* Shelf is now a single anchor — entire region clickable, no per-tool
+ * sub-list. Hover lifts the cover and the title gets a subtle underline.
+ * Parchment register: no hard background, just hairline borders + spring
+ * physics on the cover lift. */
 .grimoire-shelf {
   display: grid;
   grid-template-columns: 9rem 1fr;
-  grid-template-rows: auto auto;
   gap: 1.5rem 2rem;
   align-items: start;
-  margin: 2.5rem 0;
+  margin: 1.25rem 0;
   padding: 1.5rem 0;
   border-top: 1px solid var(--nier-rule-subtle);
+  text-decoration: none !important;
+  color: var(--nier-text-primary) !important;
+  /* Override the global a:hover border-bottom — shelf is its own
+   * affordance, not a single-line link. */
+  border-bottom: none !important;
+  transition: padding-left var(--duration-fast) var(--spring-snappy);
 }
 .grimoire-shelf:last-of-type {
-  border-bottom: 1px solid var(--nier-rule-subtle);
+  border-bottom: 1px solid var(--nier-rule-subtle) !important;
+}
+.grimoire-shelf:hover {
+  padding-left: 0.4rem;
 }
 
 @media (max-width: 720px) {
@@ -1094,8 +1106,8 @@ main :not(pre) > code,
     filter var(--duration-normal) var(--spring-snappy);
 }
 .grimoire-shelf:hover .grimoire-shelf__cover {
-  transform: translateY(-2px);
-  filter: drop-shadow(0 6px 12px oklch(0.203 0.01 67.2 / 0.14));
+  transform: translateY(-3px);
+  filter: drop-shadow(0 8px 16px oklch(0.203 0.01 67.2 / 0.18));
 }
 
 .grimoire-shelf__heading {
@@ -1105,6 +1117,9 @@ main :not(pre) > code,
   flex-direction: column;
   align-self: start;
   padding-top: 0.4rem;
+  /* Title underlines on shelf hover — link affordance without per-row
+   * border noise. */
+  transition: opacity var(--duration-fast) var(--spring-snappy);
 }
 
 @media (max-width: 720px) {
@@ -1117,16 +1132,22 @@ main :not(pre) > code,
 
 .grimoire-shelf__book-title {
   font-family: var(--font-imperial);
-  font-size: 1.35rem;
+  font-size: 1.45rem;
   font-weight: 400;
   letter-spacing: -0.005em;
   text-transform: none;
   color: var(--nier-text-primary);
   line-height: 1.15;
+  border-bottom: 1px solid transparent;
+  transition: border-bottom-color var(--duration-fast) var(--spring-snappy);
+  align-self: flex-start;
+}
+.grimoire-shelf:hover .grimoire-shelf__book-title {
+  border-bottom-color: var(--nier-text-primary);
 }
 
 .grimoire-shelf__book-hint {
-  margin-top: 0.5rem;
+  margin-top: 0.55rem;
   font-family: var(--font-switzer);
   font-size: 0.95rem;
   letter-spacing: 0;
@@ -1134,58 +1155,10 @@ main :not(pre) > code,
   line-height: 1.55;
 }
 
-.grimoire-shelf__tools {
-  list-style: none;
-  padding: 0;
-  margin: 0.5rem 0 0 0;
-  display: flex;
-  flex-direction: column;
-  grid-column: 1 / -1;
-  grid-row: 2;
-  border-top: 1px solid var(--nier-rule-soft);
-}
-
-@media (max-width: 720px) {
-  .grimoire-shelf__tools {
-    grid-row: 3;
-    margin-top: 0.25rem;
-  }
-}
-
-.grimoire-shelf__tool {
-  display: flex;
-  flex-direction: column;
-  padding: 0.85rem 0;
-  border-bottom: 1px solid var(--nier-rule-subtle);
-  text-decoration: none !important;
-  color: var(--nier-text-primary) !important;
-  transition: padding-left var(--duration-fast) var(--spring-snappy),
-              color var(--duration-fast) var(--spring-snappy);
-}
-.grimoire-shelf__tools li:last-child .grimoire-shelf__tool {
-  border-bottom: none;
-}
-.grimoire-shelf__tool:hover {
-  padding-left: 0.5rem;
-  color: var(--nier-text-primary) !important;
-  border-bottom-color: var(--nier-rule-soft);
-}
-
-.grimoire-shelf__tool-name {
-  font-family: var(--font-switzer);
-  font-size: 1rem;
-  font-weight: 500;
-  color: var(--nier-text-primary);
-  letter-spacing: -0.005em;
-}
-
-.grimoire-shelf__tool-hint {
-  margin-top: 0.2rem;
-  font-family: var(--font-switzer);
-  font-size: 0.85rem;
-  color: var(--nier-text-muted);
-  line-height: 1.4;
-}
+/* Legacy tools list — shelf no longer renders this. Rules retained
+ * temporarily as orphaned defs; safe to delete in a follow-up cycle.
+ * (Keeping the file diff focused on the live shelf rules above.)
+ */
 
 /* ---------- GrimoireBrowse — main-content cathedral grid ----------- *
  * On a grimoire's tool page (/tools/lookup_grail = Mibera Maker · Vol I),
@@ -1599,13 +1572,17 @@ main :not(pre) > code,
   max-width: none !important;
 }
 
-/* Hide the right rail when AncestorBrowse is on the page — same
- * approach the tool routes use (display: none on the gutter). The
- * grid is full-width and BlotterGrid would otherwise overlap the
- * rightmost column. BlotterGrid component also short-circuits to
- * null on this route as defense-in-depth (blotter-grid.tsx). */
+/* Hide the right rail on routes where the body IS the browse surface.
+ * .ancestor-browse → /framework/ancestors (cycle-024 Sprint 2)
+ * .codex-banner    → / reading guide (cycle-024 review #4) — body
+ *                    sections mirror the sidebar I-X structure, so the
+ *                    rail's BlotterGrid would duplicate the body grid.
+ * BlotterGrid component also short-circuits to null on these routes
+ * as defense-in-depth (blotter-grid.tsx). */
 html:has(.ancestor-browse) .vocs_DocsLayout_gutterRight,
-html:has(.ancestor-browse) .vocs_DocsLayout_gutterRight_withSidebar {
+html:has(.ancestor-browse) .vocs_DocsLayout_gutterRight_withSidebar,
+html:has(.codex-banner) .vocs_DocsLayout_gutterRight,
+html:has(.codex-banner) .vocs_DocsLayout_gutterRight_withSidebar {
   display: none !important;
 }
 

@@ -1,6 +1,6 @@
 ---
 title: Mibera Codex
-description: Canon for the Mibera world — every mibera, every grail, every tribe, every zone, browseable here.
+description: Documentation for Mibera Maker — 10,000 time-travelling Rebased Retard Beras carrying the eternal flame of the Rave. The Codex is the canonical reference; this site is the human reading surface.
 ---
 
 import { GrimoireShelf } from '../components/grimoire-shelf'
@@ -9,43 +9,56 @@ import { GrimoireShelf } from '../components/grimoire-shelf'
 
 <img src="/miberasets-row.jpg" alt="The seven Mibera grimoires" className="codex-banner" />
 
-Canon for the Mibera world. Ten thousand time-travelling beras, four rave tribes, five festival zones, forty-three 1/1 grails. Browse each volume below.
+Documentation for **Mibera Maker** — 10,000 time-travelling Rebased Retard Beras carrying the eternal flame of the Rave.
 
-<GrimoireShelf
-  book={{ n: 1, title: "Introducing Mibera", hint: "Ten thousand time-travellers, painted by hand, anchored by birth." }}
-  tools={[
-    { name: "Browse the Ten Thousand", hint: "Filter by tribe, scroll the canon", href: "/tools/lookup_mibera" },
-  ]}
-/>
-
-<GrimoireShelf
-  book={{ n: 2, title: "Clearpill vs Ravepill", hint: "Four rave tribes. Era, locations, figures, fashion, drug + ancestor connections." }}
-  tools={[
-    { name: "Browse the Tribes", hint: "Freetekno · Milady · Chicago/Detroit · Acidhouse", href: "/tools/lookup_archetype" },
-  ]}
-/>
-
-<GrimoireShelf
-  book={{ n: 3, title: "Mibera Maker · Vol I", hint: "The 43 grails — 1/1 NFTs, designed by hand, named in canon." }}
-  tools={[
-    { name: "Browse the Grails", hint: "Zodiac · Element · Luminary · Concept · Planet · Ancestor · Primordial · Special · Community", href: "/tools/lookup_grail" },
-  ]}
-/>
-
-<GrimoireShelf
-  book={{ n: 4, title: "Network Mysticism", hint: "Twenty-eight on-chain signals, each one anchored to a tribe and a story." }}
-  tools={[
-    { name: "Browse the Factors", hint: "OG · NFT · Onchain", href: "/tools/lookup_factor" },
-  ]}
-/>
-
-<GrimoireShelf
-  book={{ n: 5, title: "Initiation Ritual", hint: "Five festival zones — Lynch primitives, KANSEI tokens, archetype anchors." }}
-  tools={[
-    { name: "Browse the Zones", hint: "Stonehenge · Bear-cave · El-dorado · Owsley-lab · The Warehouse", href: "/tools/lookup_zone" },
-  ]}
-/>
+This is the human reading surface. AI agents read the same canon through one MCP endpoint — see [For Agents →](/for-agents). The reading order below mirrors the codex's canonical structure (sections I–X). Sections III, IV, VI, VII, VIII are deferred to future cycles.
 
 ---
 
-Building an AI agent? [For Agents →](/for-agents)
+## I. The Story
+
+The genesis mythology and philosophical framework. Read this first.
+
+- [Philosophy & Genesis](/story/philosophy) — the Milady identity crisis, Kaironic time, the Refusal
+- [Official Lore Articles](/story/official-lore) — the seven canonical lore articles by Jani
+
+## II. The Framework
+
+The four Rave Tribes and cultural lineages — load-bearing identity signals every Mibera carries.
+
+<GrimoireShelf
+  book={{ n: 2, title: "Clearpill vs Ravepill", hint: "Four rave tribes — Freetekno · Milady · Chicago/Detroit · Acidhouse. Era, locations, figures, fashion, drug + ancestor connections." }}
+  href="/tools/lookup_archetype"
+/>
+
+- [Ancestors](/framework/ancestors) — 33 canonical cultures, each anchoring a Mibera's inherited mythology
+
+## V. The Collection
+
+The 10,000 Miberas and their temporal identities.
+
+<GrimoireShelf
+  book={{ n: 1, title: "Introducing Mibera", hint: "Ten thousand time-travellers, painted by hand, anchored by birth. Filter by tribe and scroll the canon." }}
+  href="/tools/lookup_mibera"
+/>
+
+<GrimoireShelf
+  book={{ n: 3, title: "Mibera Maker · Vol I", hint: "The 43 grails — 1/1 NFTs, designed by hand, named in canon. Zodiac · Element · Luminary · Concept · Planet · Ancestor · Primordial · Special · Community." }}
+  href="/tools/lookup_grail"
+/>
+
+## IX. On-Chain
+
+Contract addresses, mechanics, ABIs.
+
+- [Contracts & Mechanics](/on-chain) — Mibera Maker, Vending Machine, Candies, Tarot, Treasury, Sets, ABIs
+
+## X. Data & Research
+
+Machine-readable exports and analytical datasets.
+
+- [Knowledge Graph & Exports](/data) — JSONL, knowledge graph, distribution snapshot, scope, gaps, timeline
+
+---
+
+Building an AI agent on Mibera? [For Agents →](/for-agents) — give your agent the codex through one MCP endpoint.
