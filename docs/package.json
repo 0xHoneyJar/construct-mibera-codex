@@ -6,9 +6,10 @@
   "scripts": {
     "build-vault-index": "node scripts/build-vault-index.mjs",
     "build-miberas-browse": "node scripts/build-miberas-browse.mjs",
+    "check-routes": "node scripts/check-routes.mjs",
     "build-indexes": "node scripts/build-vault-index.mjs && node scripts/build-miberas-browse.mjs",
-    "dev": "pnpm build-indexes && vocs dev",
-    "build": "pnpm build-indexes && vocs build",
+    "dev": "pnpm check-routes && pnpm build-indexes && vocs dev",
+    "build": "pnpm check-routes && pnpm build-indexes && vocs build",
     "preview": "vocs preview"
   },
   "dependencies": {

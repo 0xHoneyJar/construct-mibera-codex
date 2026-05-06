@@ -144,6 +144,24 @@ export default defineConfig({
   // labels match the book covers so an operator can navigate the
   // codex by lore, not by tool name. The canonical snake_case names
   // render in the ToolCard + JSON examples on each tool page.
+  // Sidebar mirrors the codex README's §I–X reading structure (cycle-024).
+  // Sprint 0 ships 3 groups; subsequent sprints add §I (Story), §IX (On-Chain),
+  // §X (Data & Research) alongside the routes they create. No leaf points to
+  // a 404 — this is enforced at build time by docs/scripts/check-routes.mjs
+  // (wired into prebuild + dev). Per Flatline SKP-001 (cycle-024 sprint review),
+  // the route list is DERIVED from this config — never hand-maintained.
+  //
+  // Sections deferred (NOT in sidebar until their cycle ships):
+  //   III. The Mysticism — cycle-025 (asset audit gating)
+  //   IV. The Art        — cycle-026
+  //   VI. The Mechanics  — future
+  //   VII. The Ecosystem — cycle-027
+  //   VIII. Behind Scenes — cycle-027
+  //
+  // /tools/lookup_factor + /tools/lookup_zone are NOT in README §I–X
+  // structure (factors are score-mibera derived; zones aren't in canonical
+  // reading). Routes remain accessible via direct URL but are not surfaced
+  // in the sidebar.
   sidebar: [
     {
       text: "Front Matter",
@@ -153,13 +171,16 @@ export default defineConfig({
       ],
     },
     {
-      text: "The Grimoires",
+      text: "II. The Framework",
       items: [
-        { text: "Introducing Mibera",     link: "/tools/lookup_mibera" },
-        { text: "Clearpill vs Ravepill",  link: "/tools/lookup_archetype" },
-        { text: "Mibera Maker · Vol I",   link: "/tools/lookup_grail" },
-        { text: "Network Mysticism",      link: "/tools/lookup_factor" },
-        { text: "Initiation Ritual",      link: "/tools/lookup_zone" },
+        { text: "Archetypes", link: "/tools/lookup_archetype" },
+      ],
+    },
+    {
+      text: "V. The Collection",
+      items: [
+        { text: "Introducing Mibera",       link: "/tools/lookup_mibera" },
+        { text: "Mibera Maker · Vol I",     link: "/tools/lookup_grail" },
       ],
     },
   ],
