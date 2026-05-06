@@ -1,15 +1,18 @@
 /**
- * LogoCarousel — animated agent-icon strip for /for-agents.
+ * LogoCarousel — agent silhouette strip for /for-agents.
  *
  * Scrolls a row of supported-agent logos as a trust signal beneath the
  * skill prompt. Icons sourced from skills.sh's "Available for these
  * agents" section to match the canonical agent set users recognize.
  *
- * Compact placement: thin row, 22px logos, hairlines top + bottom. CSS
- * keyframe scrolls the row infinitely; we render the list twice
- * back-to-back so the marquee loops seamlessly.
+ * Logos render as mask-image silhouettes filled with the parchment ink
+ * color — uniform monochrome treatment across all 19 agents regardless
+ * of their original brand color. SVG black-background tiles already
+ * stripped at the source-file level (one-time pre-processing).
  *
- * Hover pauses the animation so the visitor can read a logo in flight.
+ * CSS keyframe scrolls the row infinitely; we render the list twice
+ * back-to-back so the marquee loops seamlessly. Hover pauses the
+ * animation so the visitor can read a logo in flight.
  */
 
 const AGENTS = [
@@ -48,12 +51,15 @@ export function LogoCarousel() {
       <div className="logo-carousel__track" aria-hidden>
         {sequence.map((a, i) => (
           <div key={`${a.slug}-${i}`} className="logo-carousel__item">
-            <img
-              src={`/agents/${a.slug}.svg`}
-              alt=""
-              width={22}
-              height={22}
-              loading="lazy"
+            <span
+              className="logo-carousel__icon"
+              style={{
+                // Inline mask URL so React doesn't strip the vendor-prefix
+                // mask-image properties when the CSS file mounts later.
+                WebkitMaskImage: `url(/agents/${a.slug}.svg)`,
+                maskImage: `url(/agents/${a.slug}.svg)`,
+              }}
+              aria-hidden
             />
             <span className="logo-carousel__name">{a.name}</span>
           </div>

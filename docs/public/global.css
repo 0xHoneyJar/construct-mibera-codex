@@ -1935,29 +1935,47 @@ main .skill-link__url,
 .logo-carousel__item {
   display: flex;
   align-items: center;
-  gap: 0.5rem;
-  padding: 0 1.1rem;
+  justify-content: flex-start;
+  gap: 0.65rem;
+  padding: 0 1rem;
   flex-shrink: 0;
+  /* Fixed cell width so every agent occupies the same horizontal slot
+   * regardless of name length. The marquee reads as a uniform rhythm. */
+  width: 12rem;
   border-right: 1px solid var(--nier-rule-subtle);
   font-family: var(--font-switzer);
-  font-size: 0.78rem;
-  letter-spacing: 0.04em;
-  color: var(--nier-text-muted);
+  font-size: 0.85rem;
+  color: var(--nier-text-secondary);
   white-space: nowrap;
 }
 
-.logo-carousel__item img {
-  width: 22px;
-  height: 22px;
-  object-fit: contain;
+/* Logo silhouette: SVG mask, ink fill. The agent SVGs originally
+ * shipped with a 100×100 black background tile — stripped at the
+ * source-file level (one-time pre-processing). The remaining glyph
+ * paths get rendered as a single-color silhouette via mask-image so
+ * every agent reads with consistent visual weight on parchment. */
+.logo-carousel__icon {
+  display: inline-block;
   flex-shrink: 0;
+  width: 32px;
+  height: 32px;
+  background-color: var(--nier-text-primary);
+  -webkit-mask-size: contain;
+          mask-size: contain;
+  -webkit-mask-position: center;
+          mask-position: center;
+  -webkit-mask-repeat: no-repeat;
+          mask-repeat: no-repeat;
 }
 
 .logo-carousel__name {
   font-family: var(--font-switzer);
-  font-size: 0.78rem;
-  letter-spacing: 0.01em;
-  color: var(--nier-text-secondary);
+  font-size: 0.85rem;
+  letter-spacing: 0.005em;
+  color: var(--nier-text-primary);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  min-width: 0;
 }
 
 @keyframes logo-carousel-scroll {
