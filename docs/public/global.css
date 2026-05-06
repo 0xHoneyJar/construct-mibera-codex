@@ -986,8 +986,24 @@ main p, [class*="vocs_Content"] p {
 
 main h2, [class*="vocs_Content"] h2 {
   margin-top: 3rem;
-  border-top: 1px solid var(--nier-rule-soft);
+  /* Section divider: subtle 6% ink — softer than the previous 10%
+   * register. The hierarchy reads via Imperial type weight + spacing,
+   * not via a heavy line. */
+  border-top: 1px solid var(--nier-rule-subtle);
   padding-top: 2rem;
+}
+
+/* Markdown horizontal rules (---) get the same delicate register —
+ * browser default is a 1-2px solid gray that looks harsh against
+ * parchment. Match the H2 divider weight so any explicit rule reads
+ * as the same kind of breath, not a heavier interruption. */
+main hr,
+[class*="vocs_Content"] hr {
+  border: none;
+  border-top: 1px solid var(--nier-rule-subtle);
+  margin: 2.5rem 0;
+  height: 0;
+  background: transparent;
 }
 
 main h3, [class*="vocs_Content"] h3 {
