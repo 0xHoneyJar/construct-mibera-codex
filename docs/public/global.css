@@ -1822,37 +1822,62 @@ html:has(.codex-banner) .vocs_DocsLayout_gutterRight_withSidebar {
  * ===================================================================== */
 
 .skill-link {
-  display: block;
-  padding: 1.25rem 1.6rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.1rem 1.1rem 1.1rem 1.4rem;
   background: var(--nier-text-primary);
   color: var(--nier-bg-primary);
   border: 1px solid var(--nier-text-primary);
   margin: 1.5rem 0 0.5rem;
-  text-align: center;
-  user-select: all;
-  cursor: text;
 }
 
-/* Force cream text against the dark panel — vocs's `main :not(pre) > code`
- * rule (parchment bg + ink color) AND vocs's auto-linkified anchor
- * styling both target this region. We override both: the code element
- * AND any anchor vocs wraps the URL string in. */
-.skill-link code,
-.skill-link a,
-.skill-link a:hover,
-main .skill-link > code,
-main .skill-link a,
-[class*="vocs_Content"] .skill-link code,
-[class*="vocs_Content"] .skill-link a {
+.skill-link__url {
+  flex: 1;
+  min-width: 0;
+  user-select: all;
+  cursor: text;
+  text-align: left;
+}
+
+.skill-link__copy {
+  flex: 0 0 auto;
+  font-family: var(--font-switzer);
+  font-size: 0.7rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  padding: 0.45rem 0.85rem;
+  background: transparent;
+  color: var(--nier-bg-primary);
+  /* Cream-tinted hairline against the dark panel, slightly translucent
+   * so it reads as a panel-internal affordance, not a foreign element. */
+  border: 1px solid color-mix(in oklch, var(--nier-bg-primary) 45%, transparent);
+  cursor: pointer;
+  transition: background var(--duration-fast) var(--spring-snappy),
+              color var(--duration-fast) var(--spring-snappy),
+              border-color var(--duration-fast) var(--spring-snappy);
+}
+
+.skill-link__copy:hover {
+  background: var(--nier-bg-primary);
+  color: var(--nier-text-primary);
+  border-color: var(--nier-bg-primary);
+}
+
+/* Force cream text against the dark panel for the URL <code> element.
+ * Vocs's `main :not(pre) > code` rule (parchment bg + ink color) would
+ * otherwise win — explicit override here.
+ */
+.skill-link__url,
+main .skill-link__url,
+[class*="vocs_Content"] .skill-link__url {
   font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace !important;
   font-size: 1.15rem !important;
   letter-spacing: 0.005em !important;
   color: var(--nier-bg-primary) !important;
   background: transparent !important;
   border: none !important;
-  border-bottom: none !important;
   padding: 0 !important;
-  text-decoration: none !important;
   word-break: break-all;
   overflow-wrap: anywhere;
 }
@@ -1863,24 +1888,30 @@ main .skill-link a,
  * exits — seamless infinite loop. Hover pauses so visitors can read.
  * ===================================================================== */
 
+/* Compact placement: sits directly under the skill prompt panel as a
+ * trust signal ("works with these"), not a full-page client wall.
+ * Tight vertical padding, smaller logos, flush margins above. The
+ * skill-link panel below has top margin 1.5rem; this keeps the
+ * carousel hugging it. */
 .logo-carousel {
-  margin: 2rem 0 1.5rem;
-  padding: 1.4rem 0;
-  background: var(--nier-bg-panel);
-  border: 1px solid var(--nier-rule-medium);
+  margin: 0.5rem 0 1.5rem;
+  padding: 0.7rem 0;
+  background: transparent;
+  border-top: 1px solid var(--nier-rule-subtle);
+  border-bottom: 1px solid var(--nier-rule-subtle);
   overflow: hidden;
   -webkit-mask-image: linear-gradient(
     to right,
     transparent 0,
-    black 8%,
-    black 92%,
+    black 6%,
+    black 94%,
     transparent 100%
   );
           mask-image: linear-gradient(
     to right,
     transparent 0,
-    black 8%,
-    black 92%,
+    black 6%,
+    black 94%,
     transparent 100%
   );
 }
@@ -1904,29 +1935,29 @@ main .skill-link a,
 .logo-carousel__item {
   display: flex;
   align-items: center;
-  gap: 0.7rem;
-  padding: 0 1.6rem;
+  gap: 0.5rem;
+  padding: 0 1.1rem;
   flex-shrink: 0;
-  border-right: 1px solid var(--nier-rule-soft);
+  border-right: 1px solid var(--nier-rule-subtle);
   font-family: var(--font-switzer);
-  font-size: 0.85rem;
+  font-size: 0.78rem;
   letter-spacing: 0.04em;
-  color: var(--nier-text-secondary);
+  color: var(--nier-text-muted);
   white-space: nowrap;
 }
 
 .logo-carousel__item img {
-  width: 32px;
-  height: 32px;
+  width: 22px;
+  height: 22px;
   object-fit: contain;
   flex-shrink: 0;
 }
 
 .logo-carousel__name {
-  font-family: var(--font-imperial);
-  font-size: 0.95rem;
-  letter-spacing: -0.005em;
-  color: var(--nier-text-primary);
+  font-family: var(--font-switzer);
+  font-size: 0.78rem;
+  letter-spacing: 0.01em;
+  color: var(--nier-text-secondary);
 }
 
 @keyframes logo-carousel-scroll {

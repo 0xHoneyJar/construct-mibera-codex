@@ -3,19 +3,20 @@ title: For Agents
 description: Have your AI agent load the Mibera Codex skill — one URL, every client.
 ---
 
-import { ClientLogos, QuickInstall } from '../components/client-logos'
+import { LogoCarousel } from '../components/logo-carousel'
+import { SkillLink } from '../components/skill-link'
 
 <a href="/">← Back to the Codex</a>
 
 # For Agents
 
-Want your AI agent to read the Mibera codex? Give it this skill.
+Want your AI agent to read the Mibera codex? Tell it this:
 
-<div className="skill-link">
-  <code>https://codex.0xhoneyjar.xyz/skill.md</code>
-</div>
+<SkillLink />
 
-Paste this URL into your AI agent. It loads the codex's purpose, MCP endpoint, and the eight read-only tools — your agent grounds every claim in canonical Mibera lore instead of inventing.
+<LogoCarousel />
+
+Your agent reads <a href="/skill.md"><code>skill.md</code></a> — purpose, MCP endpoint, the eight read-only tools — and configures itself. Every claim about miberas, grails, tribes, or zones grounds in canonical lore instead of inventing.
 
 ## What the Agent Will Do
 
@@ -30,12 +31,4 @@ agent → "1606 wears Pluto on its back — the underworld grail. Dust-toned
         carriers..."
 ```
 
-Without the skill, the agent might invent traits or misspell tribes. With it, every name resolves to canon. The full skill document — including all eight tools, the anti-hallucination tier model, and three example conversations — is at <a href="/skill.md"><code>/skill.md</code></a>.
-
-## Supported Clients
-
-<ClientLogos />
-
-<QuickInstall />
-
-New to MCP? Each client has its own setup docs — click a logo above. Or copy the skill URL and ask your client's docs how to register an MCP server.
+Without the skill, the agent might invent traits or misspell tribes. With it, every name resolves to canon.

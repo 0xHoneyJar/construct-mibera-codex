@@ -1,56 +1,68 @@
 /**
- * LogoCarousel — animated logo strip for supported MCP clients.
+ * LogoCarousel — animated agent-icon strip for /for-agents.
  *
- * No individual click targets per the operator's brief — the wall is a
- * trust signal ("works with these"), not a config grid. CSS keyframe
- * scrolls the row infinitely; we render the list twice back-to-back so
- * the marquee loops seamlessly.
+ * Scrolls a row of supported-agent logos as a trust signal beneath the
+ * skill prompt. Icons sourced from skills.sh's "Available for these
+ * agents" section to match the canonical agent set users recognize.
+ *
+ * Compact placement: thin row, 22px logos, hairlines top + bottom. CSS
+ * keyframe scrolls the row infinitely; we render the list twice
+ * back-to-back so the marquee loops seamlessly.
  *
  * Hover pauses the animation so the visitor can read a logo in flight.
  */
 
-const CLIENTS = [
-  { name: "Claude Desktop",    logo: "anthropic.svg" },
-  { name: "Claude Code",       logo: "claude.svg" },
-  { name: "Cursor",            logo: "cursor.svg" },
-  { name: "Codex CLI",         logo: "openai.svg" },
-  { name: "Cline",             logo: "visualstudiocode.svg" },
-  { name: "Windsurf",          logo: "windsurf.svg" },
-  { name: "ChatGPT",           logo: "openai.svg" },
-  { name: "VS Code",           logo: "vscodium.svg" },
-  { name: "JetBrains",         logo: "jetbrains.svg" },
-  { name: "Neovim",            logo: "neovim.svg" },
+const AGENTS = [
+  { name: "AMP",            slug: "amp" },
+  { name: "Antigravity",    slug: "antigravity" },
+  { name: "Claude Code",    slug: "claude-code" },
+  { name: "ClawdBot",       slug: "clawdbot" },
+  { name: "Cline",          slug: "cline" },
+  { name: "Codex",          slug: "codex" },
+  { name: "Cursor",         slug: "cursor" },
+  { name: "Droid",          slug: "droid" },
+  { name: "Gemini",         slug: "gemini" },
+  { name: "GitHub Copilot", slug: "copilot" },
+  { name: "Goose",          slug: "goose" },
+  { name: "Kilo",           slug: "kilo" },
+  { name: "Kiro CLI",       slug: "kiro-cli" },
+  { name: "Nous Research",  slug: "nous-research" },
+  { name: "OpenCode",       slug: "opencode" },
+  { name: "Roo",            slug: "roo" },
+  { name: "Trae",           slug: "trae" },
+  { name: "VSCode",         slug: "vscode" },
+  { name: "Windsurf",       slug: "windsurf" },
 ];
 
 export function LogoCarousel() {
   // Render twice so the keyframe (translateX 0 → -50%) loops without
   // a visible jump — the second copy slides in as the first slides out.
-  const sequence = [...CLIENTS, ...CLIENTS];
+  const sequence = [...AGENTS, ...AGENTS];
 
   return (
     <div
       className="logo-carousel"
       role="region"
-      aria-label="Supported MCP clients"
+      aria-label="Supported AI agents"
     >
       <div className="logo-carousel__track" aria-hidden>
-        {sequence.map((c, i) => (
-          <div key={`${c.name}-${i}`} className="logo-carousel__item">
+        {sequence.map((a, i) => (
+          <div key={`${a.slug}-${i}`} className="logo-carousel__item">
             <img
-              src={`/logos/${c.logo}`}
+              src={`/agents/${a.slug}.svg`}
               alt=""
-              width={36}
-              height={36}
+              width={22}
+              height={22}
               loading="lazy"
             />
-            <span className="logo-carousel__name">{c.name}</span>
+            <span className="logo-carousel__name">{a.name}</span>
           </div>
         ))}
       </div>
       {/* SR-only canonical list for accessibility — visual marquee is aria-hidden. */}
       <ul className="sr-only">
-        {CLIENTS.map((c) => (
-          <li key={c.name}>{c.name}</li>
+        {AGENTS.map((a) => (
+          <li key={a.slug}>{a.name}</li>
         ))}
       </ul>
     </div>
