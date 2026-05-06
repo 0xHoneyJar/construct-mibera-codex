@@ -181,6 +181,7 @@ export default defineConfig({
       text: "II. The Framework",
       items: [
         { text: "Archetypes", link: "/tools/lookup_archetype" },
+        { text: "Ancestors",  link: "/framework/ancestors" },
       ],
     },
     {

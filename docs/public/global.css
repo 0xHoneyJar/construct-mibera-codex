@@ -1302,6 +1302,106 @@ main :not(pre) > code,
   word-break: break-word;
 }
 
+/* ---------- AncestorBrowse — II. The Framework / Ancestors -------- *
+ * 33 canonical ancestor cultures as text-only cards. Mirrors the
+ * ArchetypeBrowse register but lighter — ancestors don't have canonical
+ * artwork yet, so typography + hairlines do the work.
+ *
+ * Per Flatline IMP-008 (SDD score 790): cards are non-clickable and
+ * informational in MVP. Markup carries listitem role + aria-label so
+ * screen readers don't mistake them for interactive elements.
+ *
+ * Released from article column max-width via :has() so the grid spans
+ * the page — same trick GrimoireBrowse uses on /tools/lookup_grail.
+ * ===================================================================== */
+
+.vocs_DocsLayout_content:has(.ancestor-browse),
+.vocs_DocsLayout_content_withSidebar:has(.ancestor-browse) {
+  max-width: none !important;
+}
+.vocs_DocsLayout_content:has(.ancestor-browse) main,
+.vocs_DocsLayout_content:has(.ancestor-browse) [class*="vocs_Content"] {
+  max-width: none !important;
+}
+
+.ancestor-browse {
+  list-style: none;
+  padding: 0;
+  margin: 1.5rem 0 2.5rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr));
+  gap: 0.85rem;
+}
+
+.ancestor-browse--loading {
+  font-family: var(--font-switzer);
+  font-style: italic;
+  color: var(--nier-text-muted);
+  padding: 2rem 0;
+  display: block;
+}
+
+.ancestor-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+  padding: 1rem 1.1rem 1.1rem;
+  background: var(--nier-bg-panel);
+  border: 1px solid var(--nier-rule-medium);
+  min-width: 0;
+}
+
+.ancestor-card__head {
+  padding-bottom: 0.55rem;
+  border-bottom: 1px solid var(--nier-rule-soft);
+}
+
+.ancestor-card__name {
+  font-family: var(--font-imperial);
+  font-size: 1.15rem;
+  line-height: 1.1;
+  margin: 0;
+  letter-spacing: -0.005em;
+  color: var(--nier-text-primary);
+  border-top: none !important;
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+}
+
+.ancestor-card__section {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.ancestor-card__section-label {
+  font-family: var(--font-switzer);
+  font-size: 0.6rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--nier-text-muted);
+}
+
+.ancestor-card__period {
+  font-family: var(--font-switzer);
+  font-size: 0.78rem;
+  line-height: 1.45;
+  color: var(--nier-text-secondary);
+  font-variant-numeric: tabular-nums;
+}
+
+.ancestor-card__period > div + div {
+  margin-top: 0.1rem;
+}
+
+.ancestor-card__locations {
+  font-family: var(--font-switzer);
+  font-size: 0.78rem;
+  line-height: 1.5;
+  color: var(--nier-text-secondary);
+  margin: 0;
+}
+
 /* ---------- ArchetypeBrowse — Clearpill vs Ravepill grimoire ------- *
  * Four tribes as cards. Stacked sections per card with hairline rules
  * between fields. No images (archetypes have no canonical artwork yet)

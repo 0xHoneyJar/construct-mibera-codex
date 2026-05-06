@@ -1,0 +1,357 @@
+{
+  "generatedAt": "2026-05-06T21:57:30.239Z",
+  "count": 33,
+  "ancestors": [
+    {
+      "slug": "aboriginal",
+      "name": "Aboriginal",
+      "period_ancient": "-13200 - 1960",
+      "period_modern": "1960 - 2024",
+      "locations": [
+        "Australia",
+        "Siberia",
+        "Russia"
+      ]
+    },
+    {
+      "slug": "arabs",
+      "name": "Arabs",
+      "period_ancient": "300 - 632",
+      "period_modern": "632 - 750",
+      "locations": [
+        "Avdat \"The Temple of Obodas\" (Negev Desert",
+        "Israel)",
+        "Arabian Peninsula"
+      ]
+    },
+    {
+      "slug": "ballroom",
+      "name": "Ballroom",
+      "period_ancient": "null",
+      "period_modern": "1970 - 2024",
+      "locations": [
+        "New York City (Harlem)",
+        "major US cities",
+        "global"
+      ]
+    },
+    {
+      "slug": "bong-bear",
+      "name": "Bong Bear",
+      "period_ancient": "null",
+      "period_modern": "2021 - 2024",
+      "locations": [
+        "Ethereum blockchain",
+        "Berachain L1",
+        "digital realm"
+      ]
+    },
+    {
+      "slug": "buddhist",
+      "name": "Buddhist",
+      "period_ancient": "-563 - -483",
+      "period_modern": "1950 - 2024",
+      "locations": [
+        "India",
+        "Southeast Asia",
+        "East Asia",
+        "Tibet",
+        "Sri Lanka"
+      ]
+    },
+    {
+      "slug": "chinese",
+      "name": "Chinese",
+      "period_ancient": "-2070 - -1600",
+      "period_modern": "1912 - 1949",
+      "locations": [
+        "China"
+      ]
+    },
+    {
+      "slug": "cypherpunk",
+      "name": "Cypherpunk",
+      "period_ancient": "null",
+      "period_modern": "1988 - 2024",
+      "locations": [
+        "San Francisco Bay Area",
+        "the Internet",
+        "global digital networks"
+      ]
+    },
+    {
+      "slug": "ethiopian",
+      "name": "Ethiopian",
+      "period_ancient": "100 - 940",
+      "period_modern": "1855 - 1889",
+      "locations": [
+        "Ethiopia"
+      ]
+    },
+    {
+      "slug": "gabon",
+      "name": "Gabon",
+      "period_ancient": "-4000 - 1500",
+      "period_modern": "1500 - 2024",
+      "locations": [
+        "Central Africa"
+      ]
+    },
+    {
+      "slug": "greek",
+      "name": "Greek",
+      "period_ancient": "-480 - -323",
+      "period_modern": "330 - 1453",
+      "locations": [
+        "Greece",
+        "Mediterranean"
+      ]
+    },
+    {
+      "slug": "haitian",
+      "name": "Haitian",
+      "period_ancient": "1492 - 1790",
+      "period_modern": "1791 - 1804",
+      "locations": [
+        "Haiti",
+        "Hispaniola",
+        "Caribbean"
+      ]
+    },
+    {
+      "slug": "hindu",
+      "name": "Hindu",
+      "period_ancient": "-1500 - -500",
+      "period_modern": "1900 - 2023",
+      "locations": [
+        "Nepal",
+        "India"
+      ]
+    },
+    {
+      "slug": "indian",
+      "name": "Indian",
+      "period_ancient": "-2600 - -600",
+      "period_modern": "1947 - 2024",
+      "locations": [
+        "India",
+        "Nepal"
+      ]
+    },
+    {
+      "slug": "irish-druids",
+      "name": "Irish Druids",
+      "period_ancient": "-500 - 500",
+      "period_modern": "**Locations Associated:** Newgrange (Ireland),",
+      "locations": [
+        "Newgrange (Ireland)"
+      ]
+    },
+    {
+      "slug": "japanese",
+      "name": "Japanese",
+      "period_ancient": "-13000 - -300",
+      "period_modern": "1868 - 2024",
+      "locations": [
+        "Japan"
+      ]
+    },
+    {
+      "slug": "mayan",
+      "name": "Mayan",
+      "period_ancient": "250 - 900",
+      "period_modern": "1524 - 2024",
+      "locations": [
+        "Maya Region",
+        "Mesoamerica (Guatemala",
+        "Mexico",
+        "Belize",
+        "Honduras)"
+      ]
+    },
+    {
+      "slug": "mongolian",
+      "name": "Mongolian",
+      "period_ancient": "1206 - 1368",
+      "period_modern": "1924 - 1992",
+      "locations": [
+        "Mongolia",
+        "Central Asia",
+        "Siberia"
+      ]
+    },
+    {
+      "slug": "native-american",
+      "name": "Native American",
+      "period_ancient": "-13000 - 1491",
+      "period_modern": "1492 - 2020",
+      "locations": [
+        "USA"
+      ]
+    },
+    {
+      "slug": "nepal",
+      "name": "Nepal",
+      "period_ancient": "600 - 750",
+      "period_modern": "1743 - 1768",
+      "locations": [
+        "Nepal",
+        "Kathmandu Valley",
+        "Himalayas"
+      ]
+    },
+    {
+      "slug": "orthodox-jew",
+      "name": "Orthodox Jew",
+      "period_ancient": "-516 - 70",
+      "period_modern": "1700 - 2024",
+      "locations": [
+        "Israel",
+        "Eastern Europe (historical shtetls)",
+        "New York",
+        "global diaspora"
+      ]
+    },
+    {
+      "slug": "palestinian",
+      "name": "Palestinian",
+      "period_ancient": "-1200 - -332",
+      "period_modern": "1948 - 2024",
+      "locations": [
+        "Palestine",
+        "Gaza",
+        "West Bank",
+        "diaspora communities worldwide"
+      ]
+    },
+    {
+      "slug": "polynesian",
+      "name": "Polynesian",
+      "period_ancient": "-1500 - 1000",
+      "period_modern": "1800 - 2024",
+      "locations": [
+        "Hawaii",
+        "Samoa",
+        "Tonga",
+        "Tahiti",
+        "New Zealand (Aotearoa)",
+        "Easter Island (Rapa"
+      ]
+    },
+    {
+      "slug": "punjabi",
+      "name": "Punjabi",
+      "period_ancient": "-1500 - -500",
+      "period_modern": "1947 - 2024",
+      "locations": [
+        "Punjab (India and Pakistan)",
+        "diaspora communities in UK",
+        "Canada",
+        "USA"
+      ]
+    },
+    {
+      "slug": "pythia",
+      "name": "Pythia",
+      "period_ancient": "-800 - 395",
+      "period_modern": "**Locations Associated:** Delphi (Greece), Mount Parnassus",
+      "locations": [
+        "Delphi (Greece)",
+        "Mount Parnassus"
+      ]
+    },
+    {
+      "slug": "rastafarians",
+      "name": "Rastafarians",
+      "period_ancient": "null",
+      "period_modern": "1930 - 2024",
+      "locations": [
+        "Jamaica"
+      ]
+    },
+    {
+      "slug": "sami",
+      "name": "Sami",
+      "period_ancient": "500 - 1800",
+      "period_modern": "1900 - 2024",
+      "locations": [
+        "Norway",
+        "Sweden",
+        "Finland",
+        "Russia"
+      ]
+    },
+    {
+      "slug": "satanist",
+      "name": "Satanist",
+      "period_ancient": "1580 - 1630",
+      "period_modern": "1966 - 2024",
+      "locations": [
+        "The first Church of Satan (California",
+        "USA)"
+      ]
+    },
+    {
+      "slug": "sicanje",
+      "name": "Sicanje",
+      "period_ancient": "100 - 600",
+      "period_modern": "1940 - 1950",
+      "locations": [
+        "Bosnia",
+        "Croatia",
+        "Albania",
+        "Greece"
+      ]
+    },
+    {
+      "slug": "stonewall",
+      "name": "Stonewall",
+      "period_ancient": "null",
+      "period_modern": "1969 - 1979",
+      "locations": [
+        "New York City (Greenwich Village)",
+        "Christopher Street",
+        "Stonewall Inn"
+      ]
+    },
+    {
+      "slug": "sufis",
+      "name": "Sufis",
+      "period_ancient": "800 - 900",
+      "period_modern": "1967 - 1993",
+      "locations": [
+        "Turkey"
+      ]
+    },
+    {
+      "slug": "thai",
+      "name": "Thai",
+      "period_ancient": "600 - 1500",
+      "period_modern": "1500 - 2024",
+      "locations": [
+        "Thailand",
+        "Southeast Asia"
+      ]
+    },
+    {
+      "slug": "traveller",
+      "name": "Traveller",
+      "period_ancient": "TBD",
+      "period_modern": "TBD",
+      "locations": [
+        "TBD"
+      ]
+    },
+    {
+      "slug": "turkey",
+      "name": "Turkey",
+      "period_ancient": "1071 - 1300",
+      "period_modern": "1923 - 1950",
+      "locations": [
+        "Turkey",
+        "Anatolia",
+        "Constantinople/Istanbul"
+      ]
+    }
+  ]
+}
