@@ -133,7 +133,6 @@ export default defineConfig({
 
   topNav: [
     { text: "Tools", link: "/tools/lookup_zone" },
-    { text: "Quickstart", link: "/quickstart" },
     {
       text: "GitHub",
       link: "https://github.com/0xHoneyJar/construct-mibera-codex",
@@ -145,144 +144,63 @@ export default defineConfig({
   // labels match the book covers so an operator can navigate the
   // codex by lore, not by tool name. The canonical snake_case names
   // render in the ToolCard + JSON examples on each tool page.
+  // Sidebar mirrors the codex README's §I–X reading structure (cycle-024).
+  // Sprint 0 ships 3 groups; subsequent sprints add §I (Story), §IX (On-Chain),
+  // §X (Data & Research) alongside the routes they create. No leaf points to
+  // a 404 — this is enforced at build time by docs/scripts/check-routes.mjs
+  // (wired into prebuild + dev). Per Flatline SKP-001 (cycle-024 sprint review),
+  // the route list is DERIVED from this config — never hand-maintained.
+  //
+  // Sections deferred (NOT in sidebar until their cycle ships):
+  //   III. The Mysticism — cycle-025 (asset audit gating)
+  //   IV. The Art        — cycle-026
+  //   VI. The Mechanics  — future
+  //   VII. The Ecosystem — cycle-027
+  //   VIII. Behind Scenes — cycle-027
+  //
+  // /tools/lookup_factor + /tools/lookup_zone are NOT in README §I–X
+  // structure (factors are score-mibera derived; zones aren't in canonical
+  // reading). Routes remain accessible via direct URL but are not surfaced
+  // in the sidebar.
   sidebar: [
     {
-      text: "Front matter",
+      text: "Front Matter",
       items: [
-        { text: "What is the codex?", link: "/" },
-        { text: "Browse the codex",   link: "/codex" },
-        { text: "Install",            link: "/install" },
-        { text: "Anti-hallucination", link: "/anti-hallucination" },
-        { text: "Quickstart",         link: "/quickstart" },
+        { text: "What Is the Codex?", link: "/" },
+        { text: "For Agents",         link: "/for-agents" },
       ],
     },
     {
-      text: "The grimoires",
+      text: "I. The Story",
       items: [
-        { text: "Introducing Mibera",      link: "/tools/lookup_mibera" },
-        { text: "Clearpill vs Ravepill",   link: "/tools/lookup_archetype" },
-        {
-        text: "Mibera Maker · Vol I",
-        collapsed: false,
-        items: [
-          { text: "lookup_grail (tool)", link: "/tools/lookup_grail" },
-          {
-            text: "Elements",
-            collapsed: true,
-            items: [
-              { text: "Air (#2769)",   link: "/grails/air" },
-              { text: "Earth (#3244)", link: "/grails/earth" },
-              { text: "Fire (#6458)",  link: "/grails/fire" },
-              { text: "Water (#6761)", link: "/grails/water" },
-            ],
-          },
-          {
-            text: "Luminaries",
-            collapsed: true,
-            items: [
-              { text: "Moon (#309)",  link: "/grails/moon" },
-              { text: "Sun (#3116)",  link: "/grails/sun" },
-            ],
-          },
-          {
-            text: "Concepts",
-            collapsed: true,
-            items: [
-              { text: "Black Hole (#876)", link: "/grails/black-hole" },
-              { text: "Past (#4221)",      link: "/grails/past" },
-              { text: "Future (#4734)",    link: "/grails/future" },
-            ],
-          },
-          {
-            text: "Zodiac",
-            collapsed: false,
-            items: [
-              { text: "Aries (#4803)",       link: "/grails/aries" },
-              { text: "Taurus (#2113)",      link: "/grails/taurus" },
-              { text: "Gemini (#7218)",      link: "/grails/gemini" },
-              { text: "Cancer (#8620)",      link: "/grails/cancer" },
-              { text: "Leo (#9639)",         link: "/grails/leo" },
-              { text: "Virgo (#8834)",       link: "/grails/virgo" },
-              { text: "Libra (#895)",        link: "/grails/libra" },
-              { text: "Scorpio (#235)",      link: "/grails/scorpio" },
-              { text: "Sagittarius (#7321)", link: "/grails/sagittarius" },
-              { text: "Capricorn (#8971)",   link: "/grails/capricorn" },
-              { text: "Aquarius (#6805)",    link: "/grails/aquarius" },
-              { text: "Pisces (#6409)",      link: "/grails/pisces" },
-            ],
-          },
-          {
-            text: "Planets",
-            collapsed: true,
-            items: [
-              { text: "Mercury (#9112)", link: "/grails/mercury" },
-              { text: "Venus (#4617)",   link: "/grails/venus" },
-              { text: "Mars (#2566)",    link: "/grails/mars" },
-              { text: "Jupiter (#3201)", link: "/grails/jupiter" },
-              { text: "Saturn (#7388)",  link: "/grails/saturn" },
-              { text: "Neptune (#2256)", link: "/grails/neptune" },
-              { text: "Pluto (#1606)",   link: "/grails/pluto" },
-            ],
-          },
-          {
-            text: "Ancestors",
-            collapsed: true,
-            items: [
-              { text: "Buddhist (#9503)",        link: "/grails/buddhist" },
-              { text: "Chinese (#392)",          link: "/grails/chinese" },
-              { text: "Ethiopian (#7702)",       link: "/grails/ethiopian" },
-              { text: "Greek (#1630)",           link: "/grails/greek" },
-              { text: "Hindu (#8277)",           link: "/grails/hindu" },
-              { text: "Japanese (#4363)",        link: "/grails/japanese" },
-              { text: "Mayan (#3970)",           link: "/grails/mayan" },
-              { text: "Mongolian (#507)",        link: "/grails/mongolian" },
-              { text: "Native American (#3282)", link: "/grails/native-american" },
-              { text: "Rastafarian (#1134)",     link: "/grails/rastafarian" },
-              { text: "Satanist (#8557)",        link: "/grails/satanist" },
-            ],
-          },
-          {
-            text: "Primordial",
-            collapsed: true,
-            items: [
-              { text: "Uranus (#7916)", link: "/grails/uranus" },
-              { text: "Gaia (#3222)",   link: "/grails/gaia" },
-            ],
-          },
-          {
-            text: "Special",
-            collapsed: true,
-            items: [
-              { text: "Satoshi as Hermes (#4488)", link: "/grails/satoshi-as-hermes" },
-            ],
-          },
-          {
-            text: "Creator Community",
-            collapsed: true,
-            items: [
-              { text: "Mijedi (#4701)", link: "/grails/mijedi" },
-            ],
-          },
-        ],
-      },
-        { text: "Network Mysticism",       link: "/tools/lookup_factor" },
-        { text: "Initiation Ritual",       link: "/tools/lookup_zone" },
-        {
-          text: "Mibera Maker · Vol II",
-          collapsed: false,
-          items: [
-            { text: "list_archetypes", link: "/tools/list_archetypes" },
-            { text: "list_zones",      link: "/tools/list_zones" },
-          ],
-        },
-        { text: "Mibera Maker · Vol III",  link: "/tools/validate_world_element" },
+        { text: "Philosophy & Genesis", link: "/story/philosophy" },
+        { text: "The Lore Articles",    link: "/story/official-lore" },
       ],
     },
     {
-      text: "Beyond the tools",
+      text: "II. The Framework",
       items: [
-        { text: "Discovery card", link: "/discovery" },
-        { text: "Coverage gaps",  link: "/coverage-gaps" },
+        { text: "The Four Tribes", link: "/tools/lookup_archetype" },
+        { text: "Ancestors",       link: "/framework/ancestors" },
+      ],
+    },
+    {
+      text: "V. The Collection",
+      items: [
+        { text: "The 10,000", link: "/tools/lookup_mibera" },
+        { text: "The Grails", link: "/tools/lookup_grail" },
+      ],
+    },
+    {
+      text: "IX. On-Chain",
+      items: [
+        { text: "Contracts & Mechanics", link: "/on-chain" },
+      ],
+    },
+    {
+      text: "X. Data & Research",
+      items: [
+        { text: "Data & Research", link: "/data" },
       ],
     },
   ],

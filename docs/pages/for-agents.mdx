@@ -1,0 +1,34 @@
+---
+title: For Agents
+description: Have your AI agent load the Mibera Codex skill — one URL, every client.
+---
+
+import { LogoCarousel } from '../components/logo-carousel'
+import { SkillLink } from '../components/skill-link'
+
+*The Codex*
+
+# For Agents
+
+Want your AI agent to read the Mibera codex? Tell it this:
+
+<SkillLink />
+
+<LogoCarousel />
+
+Your agent reads <a href="/skill.md"><code>skill.md</code></a> — purpose, MCP endpoint, the eight read-only tools — and configures itself. Every claim about miberas, grails, tribes, or zones grounds in canonical lore instead of inventing.
+
+## What the Agent Will Do
+
+A single conversation through your AI client, after the skill is loaded:
+
+```
+you   → tell me about mibera 1606
+agent → lookup_mibera(1606)
+codex → { id: 1606, traits: { background: "Pluto", outfit: "...", ... } }
+agent → "1606 wears Pluto on its back — the underworld grail. Dust-toned
+        outfit, eyes pointed at the abyss. One of the seven planet-grail
+        carriers..."
+```
+
+Without the skill, the agent might invent traits or misspell tribes. With it, every name resolves to canon.

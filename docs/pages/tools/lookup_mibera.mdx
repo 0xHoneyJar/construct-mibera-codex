@@ -1,73 +1,14 @@
 ---
-title: lookup_mibera
-description: Single mibera by ID — full canonical trait set, IDs 1 through 10000.
+title: The 10,000
+description: Ten thousand time-travelling beras. Full canonical trait set per Mibera, browseable by archetype.
 ---
 
-import { ToolCard } from '../../components/tool-card'
+import { MiberaBrowse } from '../../components/mibera-browse'
 
-<ToolCard n={1} name="lookup_mibera" tier="HARD" purpose="one mibera, full canon — ids 1 through 10,000" />
+*Introducing Mibera*
 
-> 🔒 **HARD tier.** every trait claim must be looked up. ten thousand miberas; nothing inferred.
+# The 10,000
 
-returns the full canonical trait set: archetype, ancestor, time period, birthday, birth coordinates, sun/moon/ascending sign, element, swag rank and score, full visual traits (background, body, hair, eyes, eyebrows, mouth, shirt, hat, glasses, mask, earrings, face accessory, tattoo, item), drug, parcel ID. null if `id` is out of range.
+Ten thousand time-travelling beras. Each one painted by hand, named in canon, anchored to an archetype by birth. Filter the grid below to wander by tribe. Agents read this canon through `lookup_mibera(id)` →
 
-## input
-
-```json
-{ "id": 1 }
-```
-
-| field | type | required | notes |
-| --- | --- | --- | --- |
-| `id` | `integer` | ✅ | 1–10000, inclusive |
-
-## canonical match
-
-```json
-{
-  "id": 1,
-  "archetype": "Freetekno",
-  "ancestor": "Greek",
-  "time_period": "Modern",
-  "birthday": "07/21/1352 Ce 19:47",
-  "birth_coordinates": "72.866033, -40.860343",
-  "sun_sign": "Cancer",
-  "moon_sign": "Leo",
-  "ascending_sign": "Scorpio",
-  "element": "Earth",
-  "swag_rank": "B",
-  "swag_score": 41,
-  "background": "Fyre Festival",
-  "body": "Umber",
-  "hair": "Afro",
-  "eyes": "Normal Grey",
-  "eyebrows": "Anxious Thick",
-  "mouth": "Cig",
-  "shirt": "Htrk Night Faces",
-  "hat": null,
-  "glasses": "Red Sunglasses",
-  "mask": null,
-  "earrings": null,
-  "face_accessory": "Fluoro Pink",
-  "tattoo": null,
-  "item": "Beads",
-  "drug": "St. John's Wort"
-}
-```
-
-## why every trait
-
-the mibera has a hat. you can ask what color. you cannot decide what color. the codex remembers ten thousand of them and will tell you each one.
-
-## composition
-
-| pair this with | for |
-| --- | --- |
-| [`lookup_archetype`](/tools/lookup_archetype) | following the mibera's `archetype` field |
-| [`lookup_factor`](/tools/lookup_factor) | grounding score-derived claims to factor lore |
-
-## edge cases
-
-- IDs outside 1–10000 return `null`.
-- traits are deterministic per ID. no per-call variation.
-- `null` on a slot means the mibera doesn't wear one. the absence is canonical too.
+<MiberaBrowse />

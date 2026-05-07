@@ -5,13 +5,11 @@ description: Every canonical festival zone — discovery surface for slugs.
 
 import { ToolCard } from '../../components/tool-card'
 
-<ToolCard n={6} name="list_zones" tier="HARD" purpose="every canonical zone — discovery surface" />
-
-> 🔒 **HARD tier.** the discovery surface for zone slugs.
+<ToolCard n={6} name="list_zones" purpose="every canonical zone — discovery surface" />
 
 returns an array of `{slug, name, emoji, archetype}`. use it to discover canonical slugs before [`lookup_zone`](/tools/lookup_zone), or to validate that a zone reference in agent prose maps to a real slug.
 
-## input
+## Input
 
 ```json
 {}
@@ -19,7 +17,7 @@ returns an array of `{slug, name, emoji, archetype}`. use it to discover canonic
 
 no arguments. (the MCP SDK requires `arguments: {}` to be present even when empty.)
 
-## output
+## Output
 
 ```json
 [
@@ -29,7 +27,7 @@ no arguments. (the MCP SDK requires `arguments: {}` to be present even when empt
 ]
 ```
 
-## composition
+## Composition
 
 | pair this with | for |
 | --- | --- |

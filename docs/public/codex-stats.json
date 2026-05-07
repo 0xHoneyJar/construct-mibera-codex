@@ -1,0 +1,53 @@
+{
+  "generatedAt": "2026-05-06T22:01:47.105Z",
+  "source": "_codex/data/stats.md",
+  "archetype_distribution": [
+    {
+      "name": "Milady",
+      "count": 3739,
+      "pct": "37.39%"
+    },
+    {
+      "name": "Freetekno",
+      "count": 2185,
+      "pct": "21.85%"
+    },
+    {
+      "name": "Chicago/Detroit",
+      "count": 2088,
+      "pct": "20.88%"
+    },
+    {
+      "name": "Acidhouse",
+      "count": 1988,
+      "pct": "19.88%"
+    }
+  ],
+  "top_ancestors": [
+    {
+      "name": "Hindu",
+      "count": 664,
+      "pct": "6.64%"
+    },
+    {
+      "name": "Mayan",
+      "count": 634,
+      "pct": "6.34%"
+    },
+    {
+      "name": "Native American",
+      "count": 598,
+      "pct": "5.98%"
+    },
+    {
+      "name": "Greek",
+      "count": 585,
+      "pct": "5.85%"
+    },
+    {
+      "name": "Arabs",
+      "count": 541,
+      "pct": "5.41%"
+    }
+  ]
+}

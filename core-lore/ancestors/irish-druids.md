@@ -1,8 +1,7 @@
 ---
 name: Irish Druids
 period_ancient: -500 - 500
-period_modern: '**Locations Associated:** Newgrange (Ireland),'
-locations: Newgrange (Ireland),
+locations: Newgrange (Ireland)
 ---
 
 # Irish Druids

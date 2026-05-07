@@ -1,89 +1,60 @@
 ---
 title: Mibera Codex
-description: The grimoire MCP — anti-hallucination lookup over canonical Mibera lore. Read by agents, browsed by humans, tools shared between.
+description: Documentation for Mibera Maker — 10,000 time-travelling Rebased Retard Beras carrying the eternal flame of the Rave. The Codex is the canonical reference; this site is the human reading surface.
 ---
 
 import { GrimoireShelf } from '../components/grimoire-shelf'
 
-# the codex
+# The Codex
 
-ten thousand time-travelling beras. four rave tribes. five festival zones. every trait, every grail, every canonical thread.
+<img src="/miberasets-row.jpg" alt="The seven Mibera grimoires" className="codex-banner" />
 
-read-only canon, kept true. agents read it to stay grounded. humans browse it for the same reason. the dance returns.
+Documentation for **Mibera Maker** — 10,000 time-travelling Rebased Retard Beras carrying the eternal flame of the Rave.
 
-eight tools over one [mcp 2025-06-18](https://modelcontextprotocol.io/specification/2025-06-18) endpoint — five grimoires of lore, three volumes of the Mibera Maker. each book below.
+This is the human reading surface. AI agents read the same canon through one MCP endpoint — see [For Agents →](/for-agents). The reading order below mirrors the codex's canonical structure (sections I–X). Sections III, IV, VI, VII, VIII are deferred to future cycles.
+
+## I. The Story
+
+The genesis mythology and philosophical framework. Read this first.
+
+- [Philosophy & Genesis](/story/philosophy) — the Milady identity crisis, Kaironic time, the Refusal
+- [Official Lore Articles](/story/official-lore) — the seven canonical lore articles by Jani
+
+## II. The Framework
+
+The four Rave Tribes and cultural lineages — load-bearing identity signals every Mibera carries.
 
 <GrimoireShelf
-  book={{ n: 1, title: "Introducing Mibera", hint: "ten thousand time-travellers. one full trait set per lookup." }}
-  tools={[
-    { name: "lookup_mibera", hint: "look up one of the ten thousand by id", href: "/tools/lookup_mibera" },
-  ]}
+  book={{ n: 2, title: "Clearpill vs Ravepill", hint: "Four rave tribes — Freetekno · Milady · Chicago/Detroit · Acidhouse. Era, locations, figures, fashion, drug + ancestor connections." }}
+  href="/tools/lookup_archetype"
+/>
+
+- [Ancestors](/framework/ancestors) — 33 canonical cultures, each anchoring a Mibera's inherited mythology
+
+## V. The Collection
+
+The 10,000 Miberas and their temporal identities.
+
+<GrimoireShelf
+  book={{ n: 1, title: "Introducing Mibera", hint: "Ten thousand time-travellers, painted by hand, anchored by birth. Filter by tribe and scroll the canon." }}
+  href="/tools/lookup_mibera"
 />
 
 <GrimoireShelf
-  book={{ n: 2, title: "Clearpill vs Ravepill", hint: "four rave tribes. era, locations, figures, fashion." }}
-  tools={[
-    { name: "lookup_archetype", hint: "look up a tribe by name", href: "/tools/lookup_archetype" },
-  ]}
+  book={{ n: 3, title: "Mibera Maker · Vol I", hint: "The 43 grails — 1/1 NFTs, designed by hand, named in canon. Zodiac · Element · Luminary · Concept · Planet · Ancestor · Primordial · Special · Community." }}
+  href="/tools/lookup_grail"
 />
 
-<GrimoireShelf
-  book={{ n: 3, title: "Mibera Maker — Vol I", hint: "the 1/1 grails. designed by hand, named in canon." }}
-  tools={[
-    { name: "lookup_grail", hint: "look up a grail by id, slug, or name", href: "/tools/lookup_grail" },
-  ]}
-/>
+## IX. On-Chain
 
-<GrimoireShelf
-  book={{ n: 4, title: "Network Mysticism", hint: "score-mibera factors ↔ codex lore. signals as scripture." }}
-  tools={[
-    { name: "lookup_factor", hint: "trace a score-mibera factor back to its lore", href: "/tools/lookup_factor" },
-  ]}
-/>
+Contract addresses, mechanics, ABIs.
 
-<GrimoireShelf
-  book={{ n: 5, title: "Mibera Initiation Ritual", hint: "five festival zones. lynch primitives + KANSEI tokens for agent narration." }}
-  tools={[
-    { name: "lookup_zone", hint: "look up a zone — stonehenge, bear-cave, el-dorado, owsley-lab, the-warehouse", href: "/tools/lookup_zone" },
-  ]}
-/>
+- [Contracts & Mechanics](/on-chain) — Mibera Maker, Vending Machine, Candies, Tarot, Treasury, Sets, ABIs
 
-<GrimoireShelf
-  book={{ n: 6, title: "Mibera Maker — Vol II", hint: "every archetype. every zone. the index agents call when grounding." }}
-  tools={[
-    { name: "list_archetypes", hint: "list every tribe", href: "/tools/list_archetypes" },
-    { name: "list_zones",      hint: "list every zone", href: "/tools/list_zones" },
-  ]}
-/>
+## X. Data & Research
 
-<GrimoireShelf
-  book={{ n: 7, title: "Mibera Maker — Vol III", hint: "is this canonical? fuzzy-match if not. coverage gaps logged." }}
-  tools={[
-    { name: "validate_world_element", hint: "check a value against canon — fuzzy match + log if missing", href: "/tools/validate_world_element" },
-  ]}
-/>
+Machine-readable exports and analytical datasets.
 
-## the eight
+- [Knowledge Graph & Exports](/data) — JSONL, knowledge graph, distribution snapshot, scope, gaps, timeline
 
-| call | returns |
-| --- | --- |
-| `lookup_mibera(id)` | full trait set for one of the ten thousand |
-| `lookup_archetype(name)` | era, locations, figures, fashion for one tribe |
-| `lookup_grail(query)` | a 1/1 grail by id, slug, or name |
-| `lookup_factor(factor_id)` | score-mibera factor ↔ codex lore |
-| `lookup_zone(slug)` | zone entry, lynch primitives, KANSEI tokens |
-| `list_archetypes()` | the four tribes |
-| `list_zones()` | every canonical zone |
-| `validate_world_element(t, v)` | canonical check, fuzzy match, coverage-gap log |
-
-## who reads this
-
-- [`freeside-characters`](https://github.com/0xHoneyJar/freeside-characters) — discord narrative bots (ruggy, satoshi). first production consumer.
-- operator harnesses — claude desktop, claude code, chatgpt, custom mcp clients.
-- you, after [install →](/install) (or [quickstart →](/quickstart) for the prose version)
-
-## what the codex doesn't do
-
-- it doesn't write. the codex repo is the only writer.
-- it doesn't talk. it returns json. your agent makes prose.
-- it doesn't police voice. only [HARD-tier](/anti-hallucination) claims must look up; everything else stays open.
+Building an AI agent on Mibera? [For Agents →](/for-agents) — give your agent the codex through one MCP endpoint.

@@ -54,6 +54,37 @@ const TYPE_GLYPH: Record<string, string> = {
 
 const CARD_CAP = 12;
 
+// Order codex categories by canonical taxonomy when sorting all-grails
+// browse views — so visitors see Element/Luminary/Concept first, then
+// Zodiac/Planet/Ancestor/etc. Mirrors CodexCanvas's CATEGORY_ORDER.
+const CATEGORY_ORDER = [
+  "zodiac",
+  "element",
+  "luminary",
+  "concept",
+  "planet",
+  "ancestor",
+  "primordial",
+  "special",
+  "community",
+  "completionist",
+];
+
+function categoryOrder(cat: string | undefined): number {
+  if (!cat) return 999;
+  const idx = CATEGORY_ORDER.indexOf(cat);
+  return idx === -1 ? 998 : idx;
+}
+
+// Per-route browse surfaces. When a grimoire's tool page is the current
+// route, the right rail surfaces the canonical contents of that grimoire
+// instead of a generic discover sample. Keeps navigation context-aware
+// — clicking "Mibera Maker · Vol I" lands on /tools/lookup_grail and
+// the rail becomes the 43-grail browse surface.
+const FULL_GRAIL_BROWSE_ROUTES = new Set<string>([
+  "/tools/lookup_grail",
+]);
+
 let cachedIndex: VaultIndex | null = null;
 let cachedPromise: Promise<VaultIndex | null> | null = null;
 
@@ -87,12 +118,38 @@ export function BlotterGrid() {
     }
   }, [index]);
 
+  // normalize trailing slash so /grails/cancer/ and /grails/cancer collapse
+  const cleanPath = pathname.length > 1 ? pathname.replace(/\/$/, "") : pathname;
+  // Routes that render full-width browse components and don't need the
+  // right rail. Tool routes already hide the rail via global.css's
+  // html[data-route="tool"] block; this set covers non-tool full-width
+  // pages (cathedral + grimoire-page browses introduced in cycle-024
+  // + the / reading guide where the body sections ARE the browse surface).
+  const railHidden =
+    cleanPath === "/" ||
+    cleanPath === "/codex" ||
+    cleanPath === "/framework/ancestors";
+
   const view = useMemo<{ heading: string; entries: VaultEntry[] } | null>(() => {
+    if (railHidden) return null;
     if (!index) return null;
-    // normalize trailing slash so /grails/cancer/ and /grails/cancer collapse
-    const cleanPath = pathname.length > 1 ? pathname.replace(/\/$/, "") : pathname;
-    // /codex IS the cathedral — the right-rail trail would be redundant.
-    if (cleanPath === "/codex") return null;
+
+    // ── Grimoire tool routes: surface that grimoire's contents ─────
+    // /tools/lookup_grail ⇒ all 43 grails sorted by codex taxonomy.
+    // The blotter becomes the navigation surface for the grimoire —
+    // browsing happens through the rail, not through the sidebar.
+    if (FULL_GRAIL_BROWSE_ROUTES.has(cleanPath)) {
+      const grails = Object.values(index.entries)
+        .filter((e) => e.type === "grail" && e.docsRoute && e.slug !== "README")
+        .sort((a, b) => {
+          const ca = a.category ?? "";
+          const cb = b.category ?? "";
+          if (ca !== cb) return categoryOrder(ca) - categoryOrder(cb);
+          return a.title.localeCompare(b.title);
+        });
+      if (grails.length > 0) return { heading: "Browse Grails", entries: grails };
+    }
+
     const currentPath = index.byDocsRoute[cleanPath];
 
     if (currentPath) {
@@ -122,7 +179,7 @@ export function BlotterGrid() {
         if (e?.docsRoute) candidates.set(p, e);
       }
       const entries = [...candidates.values()].slice(0, CARD_CAP);
-      if (entries.length > 0) return { heading: "Neighborhood", entries };
+      if (entries.length > 0) return { heading: "Browse Neighbors", entries };
       // Empty neighborhood (e.g. solo-category grails like satoshi-as-hermes)
       // falls through to Discover so the rail still has a navigation surface.
     }
@@ -156,10 +213,37 @@ export function BlotterGrid() {
       }
     }
     if (out.length === 0) return null;
-    return { heading: "Discover", entries: out };
-  }, [index, pathname]);
+    return { heading: "Browse the Codex", entries: out };
+  }, [index, cleanPath]);
 
-  if (!view) return null;
+  // /codex hides the rail entirely — no skeleton, no content.
+  if (railHidden) return null;
+
+  // Index hasn't loaded yet OR loaded but no neighborhood/discover applies.
+  // Render a skeleton with the same shape so the right-rail slot doesn't
+  // pop in after first paint. Layout stays stable; once the fetch resolves
+  // and view computes, the cards swap in without reflow.
+  if (!view) {
+    return (
+      <nav
+        className="codex-blotter-grid codex-blotter-grid--skeleton"
+        aria-label="Vault navigation"
+        aria-busy="true"
+      >
+        <h2 className="codex-blotter-grid__heading">Browse the Codex</h2>
+        <ul className="codex-blotter-grid__cards" role="list">
+          {Array.from({ length: CARD_CAP }).map((_, i) => (
+            <li key={i}>
+              <span
+                className="codex-blotter-card codex-blotter-card--skeleton"
+                aria-hidden
+              />
+            </li>
+          ))}
+        </ul>
+      </nav>
+    );
+  }
 
   return (
     <nav className="codex-blotter-grid" aria-label="Vault navigation">
@@ -172,9 +256,19 @@ export function BlotterGrid() {
               className="codex-blotter-card"
               data-type={entry.type}
             >
-              <span className="codex-blotter-card__glyph" aria-hidden>
-                {TYPE_GLYPH[entry.type] ?? "·"}
-              </span>
+              {entry.type === "grail" ? (
+                <img
+                  src={`https://assets.0xhoneyjar.xyz/Mibera/grails/${entry.slug}.webp`}
+                  alt=""
+                  loading="lazy"
+                  decoding="async"
+                  className="codex-blotter-card__img"
+                />
+              ) : (
+                <span className="codex-blotter-card__glyph" aria-hidden>
+                  {TYPE_GLYPH[entry.type] ?? "·"}
+                </span>
+              )}
               <span className="codex-blotter-card__title">{entry.title}</span>
               {entry.category ? (
                 <span className="codex-blotter-card__cat">

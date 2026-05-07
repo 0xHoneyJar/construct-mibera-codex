@@ -1,15 +1,15 @@
 ---
-title: Coverage gaps
+title: Coverage Gaps
 description: The curator queue — where unmatched-but-relevant queries become enrich, retire, or alias.
 ---
 
-# coverage gaps
+# Coverage Gaps
 
 the queue where "we asked, codex doesn't have it" becomes "fix or retire?"
 
 when [`validate_world_element`](/tools/validate_world_element) gets a non-canonical value with no fuzzy match (or a far one), the codex doesn't pretend the term is real. it logs the call and moves on.
 
-## the file
+## The File
 
 ```
 grimoires/codex-mcp/coverage-gaps.jsonl
@@ -22,7 +22,7 @@ gitignored. local-only. curator-facing. each line is one validation miss:
 {"timestamp":"2026-04-30T19:01:55Z","type":"zone","value":"sea-of-stars","suggested":null,"distance":null,"consumer_hint":"satoshi-v07"}
 ```
 
-## the cycle
+## The Cycle
 
 ```
 1. agent calls validate_world_element with a non-canonical value
@@ -34,7 +34,7 @@ gitignored. local-only. curator-facing. each line is one validation miss:
    📝 alias  — colloquial pointer to an existing canonical entry
 ```
 
-## why curated, not scraped
+## Why Curated, Not Scraped
 
 without the gap log, two failure modes accumulate silently:
 
@@ -43,7 +43,7 @@ without the gap log, two failure modes accumulate silently:
 
 with the gap log, the curator works from real signal: terms real consumers really asked for, with frequencies and consumer hints. the codex grows in the direction of actual narrative pressure.
 
-## composition
+## Composition
 
 | pair this with | for |
 | --- | --- |

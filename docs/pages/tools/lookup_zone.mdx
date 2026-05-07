@@ -1,74 +1,14 @@
 ---
-title: lookup_zone
-description: Festival zone lookup by canonical slug — returns essence, lynch primitives, KANSEI tokens.
+title: The Zones
+description: The five festival zones — archetype anchors, essence, KANSEI tokens, Lynch primitives.
 ---
 
-import { ToolCard } from '../../components/tool-card'
+import { ZoneBrowse } from '../../components/zone-browse'
 
-<ToolCard n={5} name="lookup_zone" tier="HARD" purpose="zone by slug — essence, lynch primitives, KANSEI tokens" />
+*Initiation Ritual*
 
-> 🔒 **HARD tier.** zone slugs are canonical. look them up, don't invent.
+# The Zones
 
-returns name, emoji, archetype anchor, era resonance, essence, lynch primitives (paths, edges, districts, nodes, landmarks), KANSEI tokens (warmth, motion, shadow, easing, density, sound). null if the slug isn't canonical.
+Five festival zones. Each one anchors an archetype's territory — the spatial vocabulary agents use when narrating where a Mibera moves. Agents read this canon through `lookup_zone` →
 
-## input
-
-```json
-{ "slug": "stonehenge" }
-```
-
-| field | type | required | notes |
-| --- | --- | --- | --- |
-| `slug` | `string` | ✅ | canonical zone slug — see [`list_zones`](/tools/list_zones) |
-
-## canonical match
-
-```json
-{
-  "slug": "stonehenge",
-  "name": "Stonehenge",
-  "emoji": "🪨",
-  "archetype": "All",
-  "era_resonance": "Timeless — pre-rave, pre-history, the gathering impulse itself",
-  "essence": "Dawn-grey stone circle. The festival's shared axis. Not owned by any archetype — where all four converge before dispersing to their zones.",
-  "lynch_primitives": {
-    "Paths": "Processional stone avenues, ley-line corridors between stages, trampled grass desire paths",
-    "Edges": "Standing-stone perimeter, fog boundary, horizon line where sky meets field",
-    "Districts": "The henge circle (ceremonial center), the avenue approach, outer campground ring",
-    "Nodes": "Altar stone (center), sunrise gap between trilithons, bonfire gathering points",
-    "Landmarks": "The trilithons, the heel stone, the slaughter stone, the aubrey holes"
-  },
-  "kansei_tokens": {
-    "warmth": "0.3 — pre-dawn chill, stone-cold surfaces, breath visible",
-    "motion": "Panoramic — slow sweeping gaze, geological time, clouds passing over monoliths",
-    "shadow": "Mid — open sky, diffused, shadows cast by stone not enclosure",
-    "easing": "Objective — observational distance, wide-angle, documentary",
-    "density": "Sparse — open ground, vast sky-to-structure ratio",
-    "sound": "Wind through stone gaps, distant bass from other zones, footsteps on packed earth"
-  }
-}
-```
-
-vocabulary, not script. the agent composes from these primitives — never dump the whole entry.
-
-## non-canonical
-
-```json
-null
-```
-
-null means null. fall back to [`validate_world_element`](/tools/validate_world_element) with `type: "zone"` for a fuzzy-match suggestion.
-
-## composition
-
-| pair this with | for |
-| --- | --- |
-| [`list_zones`](/tools/list_zones) | discovering canonical slugs before lookup |
-| [`validate_world_element`](/tools/validate_world_element) | recovering from typos or non-canonical input |
-| [`lookup_archetype`](/tools/lookup_archetype) | following the zone's `archetype` field |
-
-## edge cases
-
-- `"All"` is a real archetype value for cross-archetype zones (stonehenge). don't filter it out.
-- deprecated zones return `null`. the codex doesn't carry tombstones.
-- case-sensitive — `"Stonehenge"` ≠ `"stonehenge"`. always lowercase.
+<ZoneBrowse />

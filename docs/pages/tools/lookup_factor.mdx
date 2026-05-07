@@ -1,48 +1,14 @@
 ---
-title: lookup_factor
-description: Cross-construct JOIN — score-mibera factor IDs to codex lore.
+title: Factors
+description: Score-mibera factors translated to codex lore — what each on-chain signal means in the world.
 ---
 
-import { ToolCard } from '../../components/tool-card'
+import { FactorBrowse } from '../../components/factor-browse'
 
-<ToolCard n={4} name="lookup_factor" tier="HARD" purpose="score-mibera factor id ↔ codex lore" />
+*Network Mysticism*
 
-> 🔒 **HARD tier** for factor IDs · 🪶 **SOFT tier** for the lore around them.
+# Factors
 
-a join across two constructs. [score-mibera](https://github.com/0xHoneyJar/score-mibera) owns the factor ID surface — which IDs exist, what they emit. the codex owns the lore — display name, dimension, archetype anchor, narrative. null if score has the ID but the codex hasn't curated lore yet (see [coverage-gaps](/coverage-gaps)).
+Twenty-eight factors. Each one a signal score-mibera emits when it sees an on-chain action — a mint, a stake, a burn, a long-form article. The codex translates the signal into lore: which archetype it anchors, what cultural register it carries, what the activity *means* in the world. Agents read this canon through `lookup_factor` →
 
-## input
-
-```json
-{ "factor_id": "nft:mibera" }
-```
-
-| field | type | required | notes |
-| --- | --- | --- | --- |
-| `factor_id` | `string` | ✅ | factor ID emitted by score-mibera (`nft:mibera`, `og:jani_keys`, `onchain:milady_burner`) |
-
-## output
-
-```json
-{
-  "factor_id": "nft:mibera",
-  "display_name": "Mibera holdings",
-  "dimension": "...",
-  "archetype": "...",
-  "lore": "...",
-  "status": "curated"
-}
-```
-
-## who owns what
-
-| concern | owner |
-| --- | --- |
-| factor ID surface | [score-mibera](https://github.com/0xHoneyJar/score-mibera) |
-| factor lore | codex (`core-lore/factor-lore.md`) |
-| curator queue | [coverage-gaps](/coverage-gaps) |
-
-## edge cases
-
-- missing lore returns `null`. operator-seeded entries with TODO markers wait for Gumi to enrich.
-- factor IDs are case-sensitive and namespace-prefixed (`nft:`, `og:`, `onchain:`).
+<FactorBrowse />

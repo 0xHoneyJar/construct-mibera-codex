@@ -1,0 +1,108 @@
+{
+  "version": "1.0.0",
+  "generated": "2026-02-18",
+  "note": "There is NO on-chain distinction between generative Miberas and hand-drawn Grails. The codex is the only layer that knows which token IDs are 1/1s.",
+  "contracts": [
+    {
+      "name": "Mibera Maker",
+      "address": "0x6666397DFe9a8c469BF65dc744CB1C733416c420",
+      "chain": "berachain",
+      "chain_id": 80094,
+      "standard": "ERC-721C",
+      "token_count": 10000,
+      "notes": "Main collection. Includes both generative and Grail tokens."
+    },
+    {
+      "name": "Mibera Shadows (VendingMachine)",
+      "address": "0x048327A187b944ddac61c6e202BfccD20d17c008",
+      "chain": "berachain",
+      "chain_id": 80094,
+      "standard": "ERC-721 (UUPS Proxy)",
+      "notes": "On-chain trait uniqueness via keccak256 hashes. Token name: Mibera Shadow Traits (MST)."
+    },
+    {
+      "name": "Candies",
+      "address": "0xecA03517c5195F1edD634DA6D690D6c72407c40c",
+      "chain": "berachain",
+      "chain_id": 80094,
+      "standard": "ERC-1155",
+      "notes": "Collectible candies with marketplace mechanics"
+    },
+    {
+      "name": "CandiesMarket",
+      "address": "0x80283fbF2b8E50f6Ddf9bfc4a90A8336Bc90E38F",
+      "chain": "berachain",
+      "chain_id": 80094,
+      "standard": "custom",
+      "notes": "Marketplace with 0.1% seizure and Mibera holder discounts"
+    },
+    {
+      "name": "Mibera Tarot",
+      "address": "0x4B08a069381EfbB9f08C73D6B2e975C9BE3c4684",
+      "chain": "berachain",
+      "chain_id": 80094,
+      "standard": "custom",
+      "notes": "Archetype/Tarot quiz system with soulbound minting"
+    },
+    {
+      "name": "Treasury",
+      "address": "0xaa04F13994A7fCd86F3BbbF4054d239b88F2744d",
+      "chain": "berachain",
+      "chain_id": 80094,
+      "standard": "custom",
+      "notes": "Ungovernable Autonomous Rave Treasury — no admin keys"
+    },
+    {
+      "name": "MiberaTrade",
+      "address": "0x90485B61C9dA51A3c79fca1277899d9CD5D350c2",
+      "chain": "berachain",
+      "chain_id": 80094,
+      "standard": "custom",
+      "notes": "Trading contract"
+    },
+    {
+      "name": "Accounts",
+      "address": "0xC0a78722889c7De7E6eF4B7dB1FeD5b4B97d6dA1",
+      "chain": "berachain",
+      "chain_id": 80094,
+      "standard": "custom",
+      "notes": "Account management contract"
+    },
+    {
+      "name": "MiberaSets",
+      "address": "0x886D2176D899796cD1AfFA07Eff07B9b2B80f1be",
+      "chain": "optimism",
+      "chain_id": 10,
+      "standard": "ERC-1155",
+      "notes": "12 tiered tokens (Honey Road artifacts). 481 supply, 309 holders. Cross-chain deployment."
+    },
+    {
+      "name": "BeraMarketMinter",
+      "address": "0x66660f4Bb0B7b11b9f12F613F4CF043516EB3b20",
+      "chain": "berachain",
+      "chain_id": 80094,
+      "standard": "custom",
+      "notes": "Mint mechanism for marketplace integration"
+    },
+    {
+      "name": "FracturedMibera",
+      "address": "0x6956dae88C00372B1A0b2dfBfE5Eed19F85b0D4B",
+      "chain": "berachain",
+      "chain_id": 80094,
+      "standard": "ERC-721 (soulbound)",
+      "notes": "10 soulbound companion collections. Token IDs mirror main Mibera. First of 10 contracts listed.",
+      "all_addresses": [
+        "0x6956dae88C00372B1A0b2dfBfE5Eed19F85b0D4B",
+        "0x8D4972bd5D2df474e71da6676a365fB549853991",
+        "0x77ec6B83495974a5B2C5BEf943b0f2e5aCd8Fc26",
+        "0xc557Bf6C7d21BA98A40dDfE2BEAbA682C49D17A9",
+        "0xbcb082bB41E892f29d9c600eaadEA698d5f712Ef",
+        "0x2030f226Bf9a0c88687e83AcCdcEfb7Dae260094",
+        "0xcc426F9375c5edcef5CA6bDb0449c07113348cF7",
+        "0xF68f40230E39067Ee7c98Fe9A8641fC124c5BE60",
+        "0xFc79B1BcCa172FF5a8F74205C82F5CBB0125Dd10",
+        "0xa3d3EF45712631A6Fb50c677762b8653f932cf71"
+      ]
+    }
+  ]
+}
