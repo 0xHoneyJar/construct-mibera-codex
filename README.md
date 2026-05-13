@@ -46,7 +46,7 @@ Cosmic and chemical systems that define each Mibera.
 ### V. The Collection
 The 10,000 Miberas and their temporal identities.
 - [All Miberas](miberas/README.md) — Individual entries with full metadata
-- [Grails](grails/README.md) — 43 hand-drawn 1/1 art pieces (42 canonical + Mijedi)
+- [Grails](grails/README.md) — 44 hand-drawn 1/1 art pieces (42 canonical + 2 community)
 - [MiParcels](miparcels/README.md) — 10,000 sealed envelopes from Phase 1 reveal
 - [Birthdays](birthdays/README.md) — 9,995 unique birthdays spanning 15,000 years
 - [Fractures](fractures/README.md) — 10 reveal phases from sealed envelope to final form
@@ -80,7 +80,7 @@ Machine-readable exports and analytical datasets.
 - [Data Directory Index](_codex/data/README.md) — All exports with format descriptions
 - [Knowledge Graph](_codex/data/graph.json) — 11,475 nodes, 192,707 edges
 - [All Miberas (JSONL)](_codex/data/miberas.jsonl) — 10,000 entries as newline-delimited JSON
-- [All Grails (JSONL)](_codex/data/grails.jsonl) — 43 entries
+- [All Grails (JSONL)](_codex/data/grails.jsonl) — 44 entries
 - [Scope & Boundaries](_codex/data/scope.json) — What this codex tracks and doesn't
 - [Known Gaps](_codex/data/gaps.json) — Documented unknowns with resolution paths
 - [Timeline](_codex/data/timeline.json) — Key ecosystem events
@@ -100,7 +100,7 @@ Explore the 10,000 Miberas through faceted search — filter by archetype, ances
 | Metric | Value |
 |--------|-------|
 | Total Miberas | 10,000 |
-| Hand-Drawn Grails | 43 |
+| Hand-Drawn Grails | 44 |
 | Unique Traits | 1,337+ |
 | Archetypes | 4 |
 | Ancestors | 33 |

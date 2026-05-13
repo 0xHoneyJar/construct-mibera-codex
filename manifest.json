@@ -96,11 +96,11 @@
     "grail": {
       "directory": "grails/",
       "index": "grails/README.md",
-      "count": 43,
+      "count": 44,
       "format": "yaml_frontmatter",
       "naming": "{slug}.md",
       "completeness": "COMPLETE",
-      "completeness_note": "42 canonical hand-drawn 1/1 Grails + 1 creator community (Mijedi)",
+      "completeness_note": "42 canonical hand-drawn 1/1 Grails + 2 creator community (Mijedi, Milky Bullas)",
       "last_verified": "2026-04-05"
     },
     "mibera_set": {

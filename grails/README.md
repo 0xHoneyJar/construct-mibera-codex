@@ -1,7 +1,7 @@
-<!-- codex-status: COMPLETE | entities: 43 | last-verified: 2026-02-20 -->
+<!-- codex-status: COMPLETE | entities: 44 | last-verified: 2026-05-13 -->
 # Grails — 1/1 Collection
 
-*42 canonical hand-drawn art pieces in the Mibera Maker contract, plus community commissions.*
+*42 canonical hand-drawn art pieces in the Mibera Maker contract, plus 2 community commissions.*
 
 ---
 
@@ -32,7 +32,7 @@ print, or any consumer that needs lossless. Composes with [[metadata-as-integrat
 — field-shape (`image`) is the contract; the variant chosen at the URL extension is
 operator-mutable per consumer.
 
-The `image` field is materialized in `_codex/data/grails.jsonl` for all 43
+The `image` field is materialized in `_codex/data/grails.jsonl` for all 44
 entries (alongside `original_image` pointing at the legacy irys URL and an
 NFT-metadata `attributes` array). Programmatic consumers should read `image`
 from there rather than re-deriving from the slug. The convention above is the
@@ -119,8 +119,9 @@ the lowercase-hyphenated form was identified. This document closes that gap.
 
 - [Satoshi as Hermes](satoshi-as-hermes.md) · #4488
 
-## Creator Community (1)
+## Creator Community (2)
 
 *Custom commissions for community members.*
 
 - [Mijedi](mijedi.md) · #4701 · for Miggs (@ruwaiting4)
+- [Milky Bullas](milky-bullas.md) · #6281 · for Silveycorp
