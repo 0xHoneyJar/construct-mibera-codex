@@ -22,7 +22,7 @@ type Volume = {
 const VOLUMES: Volume[] = [
   { n: 1, title: "Introducing Mibera",   subtitle: "10 000 time-travellers",   href: "/tools/lookup_mibera" },
   { n: 2, title: "Clearpill vs Ravepill", subtitle: "4 rave tribes",            href: "/tools/lookup_archetype" },
-  { n: 3, title: "Mibera Maker · I",     subtitle: "43 grails",                href: "/tools/lookup_grail" },
+  { n: 3, title: "Mibera Maker · I",     subtitle: "44 grails",                href: "/tools/lookup_grail" },
   { n: 4, title: "Network Mysticism",    subtitle: "score factors ↔ lore",     href: "/tools/lookup_factor" },
   { n: 5, title: "Initiation Ritual",    subtitle: "5 festival zones",         href: "/tools/lookup_zone" },
   { n: 6, title: "Mibera Maker · II",    subtitle: "every tribe, every zone",  href: "/tools/list_archetypes" },

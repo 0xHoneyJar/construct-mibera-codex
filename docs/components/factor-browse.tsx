@@ -33,7 +33,7 @@ const FACTORS: Factor[] = [
   { id: "nft:fractures", dimension: "nft", archetype: "All", status: "live", display_name: "Fractures", lore: "Fracture pieces from the Mibera reveal. 11 phases, each exposing more of the character underneath. Shards of a larger image that only made sense in sequence." },
   { id: "nft:fractures_complete", dimension: "nft", archetype: "All", status: "historic", display_name: "Complete Fracture Sets", lore: "Folded into nft:fractures as a quality multiplier. Completeness used to be its own signal." },
 
-  { id: "onchain:miberamaker", dimension: "onchain", archetype: "All", status: "live", display_name: "Mibera Maker", lore: "The maker contract. Where grails and 1-of-1s get minted. 43 hand-drawn pieces with cultural context." },
+  { id: "onchain:miberamaker", dimension: "onchain", archetype: "All", status: "live", display_name: "Mibera Maker", lore: "The maker contract. Where grails and 1-of-1s get minted. 44 hand-drawn pieces with cultural context." },
   { id: "onchain:validator_booster", dimension: "onchain", archetype: "Chicago/Detroit", status: "live", display_name: "Validator Booster", lore: "Berachain validator boosting. Foundational infrastructure. The warehouse doesn't need a sign." },
   { id: "onchain:candies_minter", dimension: "onchain", archetype: "Freetekno", status: "live", display_name: "Candies Minter", lore: "Honey Candies minting. Sticky sweet, passed hand to hand. Tea stall energy." },
   { id: "onchain:gif_minter", dimension: "onchain", archetype: "Milady", status: "live", display_name: "GIF Minter", lore: "Animated frame collecting. Quick-cut, swipe-speed energy. Everything glows, everything moves." },

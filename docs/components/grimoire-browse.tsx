@@ -3,7 +3,7 @@
  *
  * On a grimoire's tool page (e.g. /tools/lookup_grail = Mibera Maker · Vol I),
  * the main content area is the browse surface for that grimoire's items.
- * This component renders all 43 grails grouped by canonical category
+ * This component renders all 44 grails grouped by canonical category
  * with their canonical artwork as card faces — the same visual register
  * as /codex but scoped to a single grimoire.
  *

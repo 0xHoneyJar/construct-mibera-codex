@@ -52,7 +52,7 @@ qmd collection add "$CORE_LORE_DIR" --name codex-core-lore --pattern '**/*.md'
 echo
 echo "→ registering context for each collection"
 qmd context add qmd://codex-grails \
-  '1/1 hand-drawn grails — 43 canonical entries with category (zodiac/element/concept/ancestor/etc), description, image URL, and cultural reference. Top-tier rarity in the Mibera collection. Each grail has a numeric token id; ref scheme is `@g<id>` (e.g. @g876 = Black Hole).'
+  '1/1 hand-drawn grails — 44 entries (42 canonical + 2 community) with category (zodiac/element/concept/ancestor/etc), description, image URL, and cultural reference. Top-tier rarity in the Mibera collection. Each grail has a numeric token id; ref scheme is `@g<id>` (e.g. @g876 = Black Hole).'
 
 qmd context add qmd://codex-core-lore \
   'Mibera narrative substrate — 4 archetypes (Freetekno, Milady, Acidhouse, Chicago/Detroit), festival zones with KANSEI tokens, score-mibera factors, ancestor lore, philosophy. Indexed for intent search; ref schemes for zones/archetypes/factors are V1.5 — V1 returns file-path snippets.'

@@ -15,7 +15,7 @@ A canonical reference for the Mibera world. When the user asks about a Mibera, a
 ## What's in canon
 
 - **10,000 Miberas** — each with archetype, ancestor, zodiac, full visual traits, drug, parcel ID
-- **43 Grails** — 1/1 NFTs grouped into nine categories (zodiac, element, luminary, concept, planet, ancestor, primordial, special, community)
+- **44 Grails** — 1/1 NFTs grouped into nine categories (zodiac, element, luminary, concept, planet, ancestor, primordial, special, community)
 - **4 Archetypes (tribes)** — Freetekno · Milady · Chicago/Detroit · Acidhouse
 - **5 Festival Zones** — stonehenge · bear-cave · el-dorado · owsley-lab · the-warehouse
 - **28 Score Factors** — OG / NFT / Onchain signals mapped to lore

@@ -25,7 +25,7 @@ export function CodexFlow({ ariaLabel }: CodexFlowProps) {
       <div className="codex-flow__substrate">
         <div className="codex-flow__substrate-label">Canonical Lore</div>
         <div className="codex-flow__substrate-items">
-          5 grimoires · 43 grails · 4 archetypes · 5 zones · 10 000 miberas
+          5 grimoires · 44 grails · 4 archetypes · 5 zones · 10 000 miberas
         </div>
       </div>
 
