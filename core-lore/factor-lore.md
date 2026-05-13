@@ -111,7 +111,7 @@ Per `score-mibera#72`: factors with `weight: 0` in score config are folded into 
 - **archetype**: All
 - **status**: live
 - **display_name**: Mibera Maker
-- **lore**: The maker contract. Where grails and 1-of-1s get minted. 43 hand-drawn pieces with cultural context.
+- **lore**: The maker contract. Where grails and 1-of-1s get minted. 44 hand-drawn pieces with cultural context.
 
 ### onchain:validator_booster
 

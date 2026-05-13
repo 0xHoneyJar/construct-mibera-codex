@@ -2,7 +2,7 @@
 
 # Browse: Grails
 
-*43 hand-drawn 1/1 art pieces across 9 categories.*
+*44 hand-drawn 1/1 art pieces across 9 categories.*
 
 ---
 
@@ -38,6 +38,6 @@
 
 [Satoshi as Hermes](../grails/satoshi-as-hermes.md)
 
-## Creator Community (1)
+## Creator Community (2)
 
-[Mijedi](../grails/mijedi.md)
+[Mijedi](../grails/mijedi.md) · [Milky Bullas](../grails/milky-bullas.md)

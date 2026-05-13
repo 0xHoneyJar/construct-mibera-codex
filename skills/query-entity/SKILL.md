@@ -73,7 +73,7 @@ micodex validate archetype Freetech
 
 For programmatic exhaustive queries:
 - `_codex/data/miberas.jsonl` — all 10,000 Miberas (JSONL)
-- `_codex/data/grails.jsonl` — 43 grails (JSONL)
+- `_codex/data/grails.jsonl` — 44 grails (JSONL)
 - `_codex/data/graph.json` — full knowledge graph (5.9 MB)
 
 Prefer the CLI for single-entity queries; the JSONL/graph dumps are for batch processing.

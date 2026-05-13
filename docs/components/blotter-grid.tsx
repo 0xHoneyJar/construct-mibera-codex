@@ -80,7 +80,7 @@ function categoryOrder(cat: string | undefined): number {
 // route, the right rail surfaces the canonical contents of that grimoire
 // instead of a generic discover sample. Keeps navigation context-aware
 // — clicking "Mibera Maker · Vol I" lands on /tools/lookup_grail and
-// the rail becomes the 43-grail browse surface.
+// the rail becomes the 44-grail browse surface.
 const FULL_GRAIL_BROWSE_ROUTES = new Set<string>([
   "/tools/lookup_grail",
 ]);
@@ -135,7 +135,7 @@ export function BlotterGrid() {
     if (!index) return null;
 
     // ── Grimoire tool routes: surface that grimoire's contents ─────
-    // /tools/lookup_grail ⇒ all 43 grails sorted by codex taxonomy.
+    // /tools/lookup_grail ⇒ all 44 grails sorted by codex taxonomy.
     // The blotter becomes the navigation surface for the grimoire —
     // browsing happens through the rail, not through the sidebar.
     if (FULL_GRAIL_BROWSE_ROUTES.has(cleanPath)) {
