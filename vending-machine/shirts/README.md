@@ -4,7 +4,7 @@
 
 ---
 
-## All Entries (17)
+## All Entries (19)
 
 - [Beras Jersey](beras-jersey.md)
 - [Chaos Hunters](chaos-hunters.md)
@@ -23,6 +23,8 @@
 - [Nun Outfit](nun-outfit.md)
 - [El Salvador Soccer](el-salvador-soccer.md)
 - [Red Floral Shirt](red-floral-shirt.md)
+- [Ancient Mibera](ancient-mibera.md)
+- [Black Shirt With White Lettering](black-shirt-with-white-lettering.md)
 
 ---
 
