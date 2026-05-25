@@ -4,7 +4,7 @@
 
 ---
 
-## All Entries (21)
+## All Entries (24)
 
 - [Carpenter's Plane](carpenters-plane.md)
 - [SNL Photo](snl-photo.md)
@@ -27,6 +27,9 @@
 - [One Eyed Bear Plush](one-eyed-bear-plush.md)
 - [Cancer Crab](cancer-crab.md)
 - [Shuriken](shuriken.md)
+- [Fatira](fatira.md)
+- [Swishers Green](swishers-green.md)
+- [Swishers Purple](swishers-purple.md)
 
 ---
 
