@@ -162,41 +162,69 @@ app.post("/v1/mibera/batch", async (c) => {
   // omit; whitelisting prevents future JSONL drift from leaking into the
   // federation surface (any new field becomes a deliberate contract-level
   // change, not an accidental wire-shape mutation).
+  //
+  // BB review F-002: dedupe input via Set — Stripe-API-pattern echo of
+  // duplicates inflated the response and confused callers; deduping is
+  // cheap and removes the entire ambiguity class.
+  // BB review F-003: project nullable fields with `?? null` defaults —
+  // JSON.stringify silently drops `undefined`, so an absent key in the
+  // backing JSONL (vs explicit null) would cause wire-shape inconsistency
+  // across entries. Anchoring every nullable to `null` makes the wire
+  // shape uniform regardless of backing data completeness.
+  // BB review F-001: wrap the lookup loop in try/catch — `lookupMibera`
+  // is an in-process function with file-system + JSONL parse paths that
+  // can throw. Bare propagation lands as a Hono default 500 with no
+  // structured body, violating the contract's `{error, message}` envelope.
+  const uniqueIds = Array.from(new Set(tokenIds));
   const miberas: MiberaEntry[] = [];
-  for (const id of tokenIds) {
-    const m = lookupMibera(id);
-    if (m === null) continue;
-    const projected: MiberaEntry = {
-      id: m.id,
-      archetype: m.archetype,
-      ancestor: m.ancestor,
-      time_period: m.time_period,
-      birthday: m.birthday,
-      birth_coordinates: m.birth_coordinates,
-      sun_sign: m.sun_sign,
-      moon_sign: m.moon_sign,
-      ascending_sign: m.ascending_sign,
-      element: m.element,
-      swag_rank: m.swag_rank,
-      swag_score: m.swag_score,
-      background: m.background,
-      body: m.body,
-      hair: m.hair,
-      eyes: m.eyes,
-      eyebrows: m.eyebrows,
-      mouth: m.mouth,
-      shirt: m.shirt,
-      hat: m.hat,
-      glasses: m.glasses,
-      mask: m.mask,
-      earrings: m.earrings,
-      face_accessory: m.face_accessory,
-      tattoo: m.tattoo,
-      item: m.item,
-      drug: m.drug,
-    };
-    if (m.parcel !== undefined) projected.parcel = m.parcel;
-    miberas.push(projected);
+  try {
+    for (const id of uniqueIds) {
+      const m = lookupMibera(id);
+      if (m === null) continue;
+      const projected: MiberaEntry = {
+        id: m.id,
+        archetype: m.archetype,
+        ancestor: m.ancestor,
+        time_period: m.time_period,
+        birthday: m.birthday,
+        birth_coordinates: m.birth_coordinates,
+        sun_sign: m.sun_sign,
+        moon_sign: m.moon_sign,
+        ascending_sign: m.ascending_sign,
+        element: m.element,
+        swag_rank: m.swag_rank,
+        swag_score: m.swag_score,
+        background: m.background,
+        body: m.body,
+        // Nullable per CodexMiberaEntrySchema — anchor to null if absent
+        // from the JSONL row so the wire shape is uniform across entries.
+        hair: m.hair ?? null,
+        eyes: m.eyes,
+        eyebrows: m.eyebrows,
+        mouth: m.mouth,
+        shirt: m.shirt ?? null,
+        hat: m.hat ?? null,
+        glasses: m.glasses ?? null,
+        mask: m.mask ?? null,
+        earrings: m.earrings ?? null,
+        face_accessory: m.face_accessory ?? null,
+        tattoo: m.tattoo ?? null,
+        item: m.item ?? null,
+        drug: m.drug,
+      };
+      // `parcel` is OPTIONAL in the wire schema (not nullable) — present
+      // when set, absent otherwise. Keep the conditional guard.
+      if (m.parcel !== undefined) projected.parcel = m.parcel;
+      miberas.push(projected);
+    }
+  } catch (err) {
+    return c.json(
+      {
+        error: "internal_error",
+        message: `lookup failed: ${err instanceof Error ? err.message : String(err)}`,
+      },
+      500,
+    );
   }
 
   return c.json({ miberas });
