@@ -4,6 +4,8 @@ import { serve } from "@hono/node-server";
 import { Hono } from "hono";
 import { handleMcpRequest, closeAllSessions } from "../src/transport.js";
 import { codexPath } from "../src/lib/codex-root.js";
+import { lookupMibera } from "../src/lookups/mibera.js";
+import type { MiberaEntry } from "../src/types.js";
 
 const PORT = Number(process.env.PORT ?? 3000);
 const HOST = process.env.HOST ?? "0.0.0.0";
@@ -77,6 +79,156 @@ const app = new Hono();
 app.get("/healthz", (c) => c.text("ok"));
 app.get("/.well-known/mcp.json", (c) => c.json(MCP_CARD));
 app.get("/.well-known/beacon.json", (c) => c.json(BEACON_CARD));
+
+// POST /v1/mibera/batch — plain-HTTP REST surface over lookupMibera for
+// federation consumers (e.g. identity-api's HttpCodexAdapter, T3.1 Mibera-
+// dimensions resolver). Closes the integration gap documented in
+// 0xHoneyJar/identity-api PR #5 (BB review F-002, sprint T2.1 build notes):
+// adapter projected this shape; codex side now implements it verbatim.
+//
+// Wire contract is authoritative at:
+//   freeside-auth/packages/protocol/src/api/federation/codex.ts
+//   (CodexGetMiberaBatchReqSchema + CodexGetMiberaBatchRespSchema)
+//
+// Body:     { tokenIds: number[] }   1..100 entries, each integer 1..10000
+// 200:      { miberas: MiberaEntry[] }  silent-omit on not-found
+// 400:      { error: "invalid_request", message: string }
+//
+// Auth: beacon.yaml declares `auth: kind: none` — no API key required.
+// Validation mirrors the Zod schema in identity-api's contract package
+// (kept in-sync by hand because the codex's wire-level deps must stay
+// minimal — no zod-shaped import from identity-api).
+app.post("/v1/mibera/batch", async (c) => {
+  let body: unknown;
+  try {
+    body = await c.req.json();
+  } catch {
+    return c.json(
+      { error: "invalid_request", message: "body must be valid JSON" },
+      400,
+    );
+  }
+
+  if (body === null || typeof body !== "object" || Array.isArray(body)) {
+    return c.json(
+      { error: "invalid_request", message: "body must be a JSON object" },
+      400,
+    );
+  }
+
+  const tokenIds = (body as { tokenIds?: unknown }).tokenIds;
+  if (!Array.isArray(tokenIds)) {
+    return c.json(
+      { error: "invalid_request", message: "tokenIds must be an array" },
+      400,
+    );
+  }
+  if (tokenIds.length === 0) {
+    return c.json(
+      { error: "invalid_request", message: "tokenIds must contain at least 1 entry" },
+      400,
+    );
+  }
+  if (tokenIds.length > 100) {
+    return c.json(
+      { error: "invalid_request", message: "tokenIds must contain at most 100 entries" },
+      400,
+    );
+  }
+  for (const id of tokenIds) {
+    if (
+      typeof id !== "number" ||
+      !Number.isInteger(id) ||
+      id < 1 ||
+      id > 10000
+    ) {
+      return c.json(
+        {
+          error: "invalid_request",
+          message: "every tokenId must be an integer in [1, 10000]",
+        },
+        400,
+      );
+    }
+  }
+
+  // Silent omit on not-found: caller dedupes against its request set if it
+  // needs missing-id detection. Ordering is NOT guaranteed to match request
+  // order (matches CodexGetMiberaBatchRespSchema documented semantics).
+  //
+  // Project each entry through the wire-contract field set explicitly. The
+  // backing JSONL carries extra fields (e.g. `type: "mibera"`) that the
+  // TypeScript `MiberaEntry` interface and `CodexMiberaEntrySchema` both
+  // omit; whitelisting prevents future JSONL drift from leaking into the
+  // federation surface (any new field becomes a deliberate contract-level
+  // change, not an accidental wire-shape mutation).
+  //
+  // BB review F-002: dedupe input via Set — Stripe-API-pattern echo of
+  // duplicates inflated the response and confused callers; deduping is
+  // cheap and removes the entire ambiguity class.
+  // BB review F-003: project nullable fields with `?? null` defaults —
+  // JSON.stringify silently drops `undefined`, so an absent key in the
+  // backing JSONL (vs explicit null) would cause wire-shape inconsistency
+  // across entries. Anchoring every nullable to `null` makes the wire
+  // shape uniform regardless of backing data completeness.
+  // BB review F-001: wrap the lookup loop in try/catch — `lookupMibera`
+  // is an in-process function with file-system + JSONL parse paths that
+  // can throw. Bare propagation lands as a Hono default 500 with no
+  // structured body, violating the contract's `{error, message}` envelope.
+  const uniqueIds = Array.from(new Set(tokenIds));
+  const miberas: MiberaEntry[] = [];
+  try {
+    for (const id of uniqueIds) {
+      const m = lookupMibera(id);
+      if (m === null) continue;
+      const projected: MiberaEntry = {
+        id: m.id,
+        archetype: m.archetype,
+        ancestor: m.ancestor,
+        time_period: m.time_period,
+        birthday: m.birthday,
+        birth_coordinates: m.birth_coordinates,
+        sun_sign: m.sun_sign,
+        moon_sign: m.moon_sign,
+        ascending_sign: m.ascending_sign,
+        element: m.element,
+        swag_rank: m.swag_rank,
+        swag_score: m.swag_score,
+        background: m.background,
+        body: m.body,
+        // Nullable per CodexMiberaEntrySchema — anchor to null if absent
+        // from the JSONL row so the wire shape is uniform across entries.
+        hair: m.hair ?? null,
+        eyes: m.eyes,
+        eyebrows: m.eyebrows,
+        mouth: m.mouth,
+        shirt: m.shirt ?? null,
+        hat: m.hat ?? null,
+        glasses: m.glasses ?? null,
+        mask: m.mask ?? null,
+        earrings: m.earrings ?? null,
+        face_accessory: m.face_accessory ?? null,
+        tattoo: m.tattoo ?? null,
+        item: m.item ?? null,
+        drug: m.drug,
+      };
+      // `parcel` is OPTIONAL in the wire schema (not nullable) — present
+      // when set, absent otherwise. Keep the conditional guard.
+      if (m.parcel !== undefined) projected.parcel = m.parcel;
+      miberas.push(projected);
+    }
+  } catch (err) {
+    return c.json(
+      {
+        error: "internal_error",
+        message: `lookup failed: ${err instanceof Error ? err.message : String(err)}`,
+      },
+      500,
+    );
+  }
+
+  return c.json({ miberas });
+});
 
 app.all("/mcp", handleMcpRequest);
 
