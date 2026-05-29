@@ -32,6 +32,12 @@ LIB_DIR="$SCRIPT_DIR/lib"
 SCHEMA_DIR="$PROJECT_ROOT/.claude/schemas"
 TRAJECTORY_DIR="$PROJECT_ROOT/grimoires/loa/a2a/trajectory"
 
+# cycle-099 sprint-1E.c.3.b: source the centralized endpoint validator so
+# both fallback curl paths (GPT + Opus validators) funnel through guarded_curl.
+# shellcheck source=lib/endpoint-validator.sh
+source "$LIB_DIR/endpoint-validator.sh"
+FLATLINE_PROVIDERS_ALLOWLIST="${LOA_FLATLINE_PROVIDERS_ALLOWLIST:-$LIB_DIR/allowlists/loa-providers.json}"
+
 # Source utilities
 if [[ -f "$LIB_DIR/api-resilience.sh" ]]; then
     source "$LIB_DIR/api-resilience.sh"
@@ -43,6 +49,21 @@ fi
 
 if [[ -f "$LIB_DIR/validation-history.sh" ]]; then
     source "$LIB_DIR/validation-history.sh"
+fi
+
+if [[ -f "$LIB_DIR/context-isolation-lib.sh" ]]; then
+    source "$LIB_DIR/context-isolation-lib.sh"
+fi
+
+# Source security library (for write_curl_auth_config)
+if [[ -f "$SCRIPT_DIR/lib-security.sh" ]]; then
+    source "$SCRIPT_DIR/lib-security.sh"
+fi
+
+# cycle-103 T1.6 / AC-1.4 — route LLM calls through model-invoke (cheval).
+# shellcheck source=lib-curl-fallback.sh
+if [[ -f "$SCRIPT_DIR/lib-curl-fallback.sh" ]]; then
+    source "$SCRIPT_DIR/lib-curl-fallback.sh"
 fi
 
 # =============================================================================
@@ -194,11 +215,18 @@ build_validation_prompt() {
     trigger=$(echo "$learning_json" | jq -r '.trigger')
     solution=$(echo "$learning_json" | jq -r '.solution')
 
-    cat <<EOF
+    # Apply context isolation wrappers (vision-003)
+    if command -v isolate_content &>/dev/null; then
+        trigger=$(isolate_content "$trigger" "LEARNING TRIGGER")
+        solution=$(isolate_content "$solution" "LEARNING SOLUTION")
+    fi
+
+    cat <<'PROMPT_EOF'
 Evaluate this learning for inclusion in a framework learning library.
 
-TRIGGER: $trigger
-SOLUTION: $solution
+PROMPT_EOF
+    printf 'TRIGGER: %s\nSOLUTION: %s\n' "$trigger" "$solution"
+    cat <<'PROMPT_EOF'
 
 Assess whether this learning is:
 1. Generalizable (applies beyond a single project)
@@ -212,7 +240,7 @@ Respond with ONLY valid JSON:
   "confidence": 0.0 to 1.0,
   "reasoning": "Brief explanation (max 100 words)"
 }
-EOF
+PROMPT_EOF
 }
 
 # Call GPT for validation
@@ -230,40 +258,17 @@ call_gpt_validation() {
         fi
     fi
 
-    local response
-    if declare -f call_api_with_retry &>/dev/null; then
-        response=$(call_api_with_retry "${OPENAI_API_BASE:-https://api.openai.com}/v1/chat/completions" "POST" \
-            "$(jq -n --arg prompt "$prompt" --arg model "$GPT_MODEL" '{
-                model: $model,
-                messages: [{role: "user", content: $prompt}],
-                temperature: 0.2,
-                max_tokens: 300
-            }')" "$TIMEOUT_SECONDS")
-    else
-        # SEC-AUDIT SEC-HIGH-01: Use curl config to avoid exposing API key in process list
-        local _curl_cfg
-        _curl_cfg=$(mktemp) && chmod 600 "$_curl_cfg"
-        printf 'header = "Content-Type: application/json"\nheader = "Authorization: Bearer %s"\n' "${OPENAI_API_KEY:-}" > "$_curl_cfg"
-        response=$(curl -s --max-time "$TIMEOUT_SECONDS" \
-            -X POST "${OPENAI_API_BASE:-https://api.openai.com}/v1/chat/completions" \
-            --config "$_curl_cfg" \
-            -d "$(jq -n --arg prompt "$prompt" --arg model "$GPT_MODEL" '{
-                model: $model,
-                messages: [{role: "user", content: $prompt}],
-                temperature: 0.2,
-                max_tokens: 300
-            }')" 2>/dev/null)
-        rm -f "$_curl_cfg"
-    fi
-
-    if [[ -z "$response" ]]; then
-        log_error "Empty response from GPT"
+    # cycle-103 T1.6 / AC-1.4: route through model-invoke (cheval).
+    local result
+    if ! result=$(call_flatline_chat "$GPT_MODEL" "$prompt" "$TIMEOUT_SECONDS" 300); then
+        log_error "model-invoke failed for GPT validation"
         return 4
     fi
 
-    # Extract and validate response
-    local result
-    result=$(echo "$response" | jq -r '.choices[0].message.content // ""' 2>/dev/null)
+    if [[ -z "$result" ]]; then
+        log_error "Empty response from GPT"
+        return 4
+    fi
 
     # Try to extract JSON
     local json_result
@@ -304,29 +309,17 @@ call_opus_validation() {
         fi
     fi
 
-    local response
-    # SEC-AUDIT SEC-HIGH-01: Use curl config to avoid exposing API key in process list
-    local _curl_cfg
-    _curl_cfg=$(mktemp) && chmod 600 "$_curl_cfg"
-    printf 'header = "Content-Type: application/json"\nheader = "x-api-key: %s"\nheader = "anthropic-version: 2023-06-01"\n' "${ANTHROPIC_API_KEY:-}" > "$_curl_cfg"
-    response=$(curl -s --max-time "$TIMEOUT_SECONDS" \
-        -X POST "https://api.anthropic.com/v1/messages" \
-        --config "$_curl_cfg" \
-        -d "$(jq -n --arg prompt "$prompt" --arg model "$OPUS_MODEL" '{
-            model: $model,
-            max_tokens: 300,
-            messages: [{role: "user", content: $prompt}]
-        }')" 2>/dev/null)
-    rm -f "$_curl_cfg"
-
-    if [[ -z "$response" ]]; then
-        log_error "Empty response from Opus"
+    # cycle-103 T1.6 / AC-1.4: route through model-invoke (cheval).
+    local result
+    if ! result=$(call_flatline_chat "$OPUS_MODEL" "$prompt" "$TIMEOUT_SECONDS" 300); then
+        log_error "model-invoke failed for Opus validation"
         return 4
     fi
 
-    # Extract and validate response
-    local result
-    result=$(echo "$response" | jq -r '.content[0].text // ""' 2>/dev/null)
+    if [[ -z "$result" ]]; then
+        log_error "Empty response from Opus"
+        return 4
+    fi
 
     # Try to extract JSON
     local json_result

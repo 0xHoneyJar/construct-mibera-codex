@@ -21,6 +21,7 @@ set -euo pipefail
 
 readonly SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 source "$SCRIPT_DIR/bootstrap.sh"
+source "$SCRIPT_DIR/compat-lib.sh"
 readonly STATE_SCRIPT="${SCRIPT_DIR}/post-pr-state.sh"
 
 # Default commands (detected from package.json or config)
@@ -82,6 +83,15 @@ validate_command() {
     "gradle "
     "mvn "
     "dotnet "
+    # Issue #633 (sprint-bug-140): bash-only repos (incl. loa itself) use
+    # bats-core for unit/integration tests. Prefix-match — exact command
+    # is constructed by detect_test_command (e.g., "bats tests/unit/").
+    # The post-pr-e2e dispatch path uses run_with_timeout + bash -c, so a
+    # malicious "bats; rm -rf /" would still go through bash expansion;
+    # auto-detection only emits hardcoded paths so user-supplied TEST_CMD
+    # is the only injection vector and that's the same trust boundary as
+    # the other allowlist entries.
+    "bats "
   )
 
   for prefix in "${allowed_prefixes[@]}"; do
@@ -92,22 +102,23 @@ validate_command() {
 
   # Log warning for unrecognized commands
   log_error "Command not in allowlist: ${cmd:0:50}..."
-  log_error "Allowed prefixes: npm, yarn, pnpm, make, cargo, go, pytest, jest, vitest, mocha, bun, deno, gradle, mvn, dotnet"
+  log_error "Allowed prefixes: npm, yarn, pnpm, make, cargo, go, pytest, jest, vitest, mocha, bun, deno, gradle, mvn, dotnet, bats"
   return 1
 }
 
-# Run command with timeout
+# Run command with timeout and security validation
 # Note: Commands may be multi-word strings (e.g., "npm run build") requiring shell expansion.
 # This is safe because: (1) commands are auto-detected from project config or (2) user-provided
-# via CLI (same privilege level). Use eval for explicit shell expansion intent.
-run_with_timeout() {
+# via CLI (same privilege level). Uses bash -c for explicit shell expansion intent.
+# Timeout logic delegated to canonical run_with_timeout() from compat-lib.sh.
+run_validated_with_timeout() {
   local timeout_val="$1"
   shift
   local cmd="$*"
 
   # Validate command is not empty
   if [[ -z "$cmd" ]]; then
-    log_error "Empty command provided to run_with_timeout"
+    log_error "Empty command provided to run_validated_with_timeout"
     return 1
   fi
 
@@ -117,28 +128,8 @@ run_with_timeout() {
     return 1
   fi
 
-  if command -v timeout &>/dev/null; then
-    timeout "$timeout_val" bash -c "$cmd"
-  else
-    # Fallback for systems without timeout (macOS)
-    local pid
-    bash -c "$cmd" &
-    pid=$!
-
-    local count=0
-    while kill -0 "$pid" 2>/dev/null; do
-      sleep 1
-      ((++count))
-      if (( count >= timeout_val )); then
-        kill -TERM "$pid" 2>/dev/null || true
-        sleep 2
-        kill -KILL "$pid" 2>/dev/null || true
-        return 124  # timeout exit code
-      fi
-    done
-
-    wait "$pid"
-  fi
+  # Delegate to canonical timeout helper with bash -c for shell expansion
+  run_with_timeout "$timeout_val" bash -c "$cmd"
 }
 
 # ============================================================================
@@ -156,7 +147,7 @@ test_failure_identity() {
   local identity_str="${test_name}|${file}|${error_type}"
 
   # Generate SHA256 and take first 16 chars
-  echo -n "$identity_str" | sha256sum | cut -c1-16
+  echo -n "$identity_str" | sha256_portable | cut -c1-16
 }
 
 # Add failure identity to state
@@ -268,6 +259,24 @@ detect_test_command() {
     return 0
   fi
 
+  # Issue #633 (sprint-bug-140): bash-only repos use bats-core. Probed AFTER
+  # project-specific markers so existing project conventions (npm/cargo/...)
+  # win when both are present. tests/unit/ takes priority over tests/integration/
+  # because integration is the broader, slower lane — unit-only is the
+  # default fast cycle and matches loa's own pattern.
+  if compgen -G "tests/unit/*.bats" > /dev/null 2>&1; then
+    echo "bats tests/unit/"
+    return 0
+  fi
+  if compgen -G "tests/integration/*.bats" > /dev/null 2>&1; then
+    echo "bats tests/integration/"
+    return 0
+  fi
+  if compgen -G "tests/*.bats" > /dev/null 2>&1; then
+    echo "bats tests/"
+    return 0
+  fi
+
   # No test command found
   echo ""
 }
@@ -317,7 +326,7 @@ run_build() {
   log_info "Running build: $build_cmd"
 
   local result=0
-  if run_with_timeout "$BUILD_TIMEOUT" "$build_cmd" > "$output_file" 2>&1; then
+  if run_validated_with_timeout "$BUILD_TIMEOUT" "$build_cmd" > "$output_file" 2>&1; then
     log_info "Build succeeded"
     return 0
   else
@@ -343,7 +352,7 @@ run_tests() {
   log_info "Running tests: $test_cmd"
 
   local result=0
-  if run_with_timeout "$TEST_TIMEOUT" "$test_cmd" > "$output_file" 2>&1; then
+  if run_validated_with_timeout "$TEST_TIMEOUT" "$test_cmd" > "$output_file" 2>&1; then
     log_info "Tests passed"
     return 0
   else

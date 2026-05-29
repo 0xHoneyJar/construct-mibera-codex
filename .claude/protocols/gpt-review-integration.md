@@ -1,5 +1,19 @@
 # GPT Cross-Model Review Integration Protocol
 
+> [!WARNING]
+> **DEPRECATED as of 2026-04-15** — scheduled for retirement **no earlier than 2026-07-15**.
+>
+> This protocol is superseded by the **Flatline Protocol** (multi-model adversarial
+> review — Opus + GPT-5.3-codex + optionally Gemini) and **Bridgebuilder's kaironic
+> fix loop** (post-PR multi-model deliberation + educational enrichment). Neither
+> the PostToolUse hook described below nor the phase-gated auto-invocation flow is
+> wired into any current skill or command. See `.claude/commands/gpt-review.md`
+> for the full deprecation notice and migration path.
+>
+> This document is preserved for historical reference until the sunset date.
+> **If you rely on this protocol**, please run `/feedback` or file an issue at
+> https://github.com/0xHoneyJar/loa/issues with the `deprecation` label.
+
 ## Overview
 
 GPT 5.2 provides cross-model review to catch issues Claude might miss. The integration follows KISS/Unix principles:
@@ -67,8 +81,8 @@ gpt_review:
   timeout_seconds: 300       # API timeout
   max_iterations: 3          # Auto-approve after this
   models:
-    documents: "gpt-5.2"     # PRD, SDD, Sprint reviews
-    code: "gpt-5.2-codex"    # Code reviews (gpt-5.3-codex when API available)
+    documents: "gpt-5.3-codex"  # PRD, SDD, Sprint reviews
+    code: "gpt-5.3-codex"    # Code reviews
   phases:
     prd: true
     sdd: true
@@ -232,7 +246,7 @@ The context file (created by toggle script when enabled) provides detailed instr
 
 ### GPT Codex (Code)
 - Endpoint: `https://api.openai.com/v1/responses`
-- Model: `gpt-5.2-codex` (default; `gpt-5.3-codex` registered, awaiting API availability)
+- Model: `gpt-5.3-codex`
 - Format: `input` field (not messages)
 - Supports: `reasoning: {effort: "medium"}`
 

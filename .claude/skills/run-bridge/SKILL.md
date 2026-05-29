@@ -1,4 +1,19 @@
 ---
+name: run-bridge
+description: "Run Bridge — Autonomous Excellence Loop"
+role: review
+primary_role: review
+capabilities:
+  schema_version: 1
+  read_files: true
+  search_code: true
+  write_files: true
+  execute_commands: true
+  web_access: true
+  user_interaction: true
+  agent_spawn: true
+  task_management: true
+cost-profile: unbounded
 parallel_threshold: 2000
 timeout_minutes: 480
 zones:
@@ -29,6 +44,15 @@ Each iteration leaves a GitHub trail (PR comments, vision links) and captures
 speculative insights in the Vision Registry. On completion, Grounded Truth is
 regenerated and RTFM validation runs as a final gate.
 
+
+## Cost
+
+**Estimated per invocation**: $10–$20/depth-5 run (see [Cost Matrix](../../../docs/CONFIG_REFERENCE.md#cost-matrix))
+**External providers called**: Claude Opus 4.7 (Bridgebuilder review), GPT-5.3-codex (cross-review dissent)
+**To cap spend**: Set `hounfour.metering.budget.daily_micro_usd` in `.loa.config.yaml`. Budget enforcement is active when `hounfour.metering.enabled: true`.
+**If cost is a concern**: Run `/loa setup` — the wizard will guide you to a budget-appropriate configuration.
+
+_Pricing verified: 2026-04-15. Prices change — recheck before large commitments._
 ## Workflow
 
 ### Phase 0: Input Guardrails
@@ -45,6 +69,24 @@ Check danger level (high) — requires explicit opt-in:
 | per_sprint | `--per-sprint` | false |
 | resume | `--resume` | false |
 | from | `--from PHASE` | — |
+| single_iteration | `--single-iteration` | false (Issue #473) |
+| no_silent_noop_detect | `--no-silent-noop-detect` | false (Issue #473) |
+
+**`--single-iteration`** (cycle-058, Issue #473): processes exactly one
+iteration body and exits. State is preserved so `--resume --single-iteration`
+picks up the next iteration. Use this when the calling skill wants to act
+on the SIGNAL:* lines from each iteration before the next one starts —
+rather than letting all iterations fire in one shell invocation where the
+skill has no chance to intercept.
+
+**Silent-no-op detection** (cycle-058, Issue #473): at the end of a
+completed run, the orchestrator checks `.run/bridge-reviews/` for findings
+files. If zero were produced across all iterations, it fails loud with
+exit 3 and an actionable error message. This prevents the scenario where
+SIGNAL:* lines fire via shell pipe but no skill acts on them, leading to
+silent JACKED_OUT with 0 findings. Pass `--no-silent-noop-detect` to opt
+out (intended for tests and CI scenarios where you want to validate flag
+parsing without producing real reviews).
 
 ### Phase 2: Orchestrator Invocation
 
@@ -76,11 +118,82 @@ interprets and acts on:
 | `GENERATE_SPRINT_FROM_FINDINGS` | Create sprint plan from parsed findings |
 | `RUN_SPRINT_PLAN` | Execute `/run sprint-plan` |
 | `RUN_PER_SPRINT` | Execute per-sprint mode |
+| `PIPELINE_SELF_REVIEW` | Detect .claude/ changes → run Red Team against pipeline SDDs (gated by `run_bridge.pipeline_self_review.enabled`) |
+| `RED_TEAM_CODE` | Run `red-team-code-vs-design.sh` against SDD sections for implemented code (gated by `red_team.code_vs_design.enabled`) |
 | `BRIDGEBUILDER_REVIEW` | Invoke Bridgebuilder on changes |
-| `VISION_CAPTURE` | Run `bridge-vision-capture.sh` |
+| `VISION_CAPTURE` | Check findings for VISION/SPECULATION severity → invoke `bridge-vision-capture.sh` (gated by `vision_registry.bridge_auto_capture`) |
 | `GITHUB_TRAIL` | Run `bridge-github-trail.sh` |
 | `FLATLINE_CHECK` | Evaluate flatline condition |
-| `LORE_DISCOVERY` | Run `lore-discover.sh` to extract patterns from bridge reviews (v1.39.0) |
+| `LORE_DISCOVERY` | Run `lore-discover.sh` → call `vision_check_lore_elevation()` for visions with refs > 0 (v1.42.0) |
+
+#### PIPELINE_SELF_REVIEW (cycle-046)
+
+Before the Bridgebuilder review, the pipeline can review changes to itself:
+
+1. **Gate check**: `run_bridge.pipeline_self_review.enabled: true` in config
+2. **Detection**: `pipeline-self-review.sh --base-branch main --output-dir <output>`
+   - Runs `git diff --name-only main...HEAD -- .claude/scripts/ .claude/skills/ .claude/data/ .claude/protocols/`
+   - If no pipeline files changed → skip silently
+3. **SDD Resolution**: Maps changed files to governing SDDs via `.claude/data/pipeline-sdd-map.json`
+4. **Self-Review**: Invokes `red-team-code-vs-design.sh` against each resolved SDD
+5. **Output**: Findings posted as PR comment with `[Pipeline Self-Review]` prefix
+
+This addresses the "pipeline bugs have multiplicative impact" insight — the review
+infrastructure should examine itself with the same rigor it examines application code.
+
+#### Red Team Gate Placement (cycle-047)
+
+The Red Team code-vs-design gate (`red-team-code-vs-design.sh`) runs **before** the
+Bridgebuilder review, after code has been implemented. This placement is deliberate:
+
+```
+RUN_SPRINT_PLAN → PIPELINE_SELF_REVIEW → RED_TEAM_CODE → BRIDGEBUILDER_REVIEW → FLATLINE_CHECK
+```
+
+**Why before Bridgebuilder, not after:**
+- Red Team checks code-vs-SDD **compliance** (did the code match the design?)
+- Bridgebuilder reviews **quality and architecture** (is the design evolving well?)
+- Compliance findings should be fixed before the Bridgebuilder sees the code,
+  otherwise the Bridgebuilder wastes attention on compliance drift that will be fixed
+
+**Why after implementation, not before:**
+- Red Team needs actual code diff to compare against the SDD
+- Pre-implementation Red Team is the `/red-team` skill (design-phase, attacks-only)
+- Post-implementation Red Team is `red-team-code-vs-design.sh` (compliance check)
+
+**Relationship to reviewer/auditor in `/run`:**
+- `/run` cycle: implement → `/review-sprint` → `/audit-sprint` (per-sprint quality gates)
+- Bridge cycle: sprint-plan → Red Team → Bridgebuilder (cross-iteration quality gates)
+- These are complementary — `/run` gates check sprint-level quality, bridge gates
+  check iteration-level architectural drift
+
+**Configuration:**
+```yaml
+# .loa.config.yaml
+red_team:
+  enabled: true
+  code_vs_design:
+    enabled: true          # Enable Red Team code-vs-design in bridge iterations
+```
+
+#### VISION_CAPTURE → LORE_DISCOVERY Chain (v1.42.0)
+
+After `BRIDGEBUILDER_REVIEW` completes and findings are parsed:
+
+1. **VISION_CAPTURE** (conditional):
+   - Only fires when `vision_registry.bridge_auto_capture: true` in `.loa.config.yaml`
+   - Filters parsed findings for VISION or SPECULATION severity
+   - Invokes `bridge-vision-capture.sh` with findings JSON path
+   - Creates vision entries in `grimoires/loa/visions/entries/`
+   - Updates `grimoires/loa/visions/index.md`
+
+2. **LORE_DISCOVERY** (always after VISION_CAPTURE):
+   - Invokes `lore-discover.sh` to extract patterns from bridge reviews
+   - Sources `vision-lib.sh` and calls `vision_check_lore_elevation()` for each vision with `refs > 0`
+   - If elevation threshold met, calls `vision_generate_lore_entry()` and `vision_append_lore_entry()`
+   - Logs elevation events to trajectory JSONL
+
+Data flow: `bridge finding JSON → vision entry → index update → lore elevation check`
 
 ### Phase 3.1: Enriched Bridgebuilder Review
 
@@ -102,11 +215,15 @@ When the `BRIDGEBUILDER_REVIEW` signal fires, execute this 10-step workflow:
    If any section is missing or empty, log WARNING and disable persona enrichment for
    this iteration (fall back to unadorned review).
 
-3. **Lore Load**: Query lore index for relevant entries:
+3. **Lore Load**: Query lore index for relevant entries from both discovered
+   patterns AND elevated visions (closing the autopoietic loop):
    ```bash
    categories=$(yq '.run_bridge.lore.categories[]' .loa.config.yaml 2>/dev/null)
+   # Load from both patterns.yaml (discovered patterns) and visions.yaml (elevated visions)
    ```
    Load `short` fields inline in the review prompt. Use `context` for teaching moments.
+   The visions.yaml source ensures that insights which accumulated enough references
+   through the vision registry feed back into future bridge reviews.
 
 4. **Embody Persona**: Include the persona file content in the review prompt as the
    agent's identity and voice instructions. The persona defines HOW to review, not

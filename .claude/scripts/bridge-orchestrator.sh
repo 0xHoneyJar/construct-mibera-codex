@@ -12,14 +12,17 @@
 # Options:
 #   --depth N          Maximum iterations (default: 3)
 #   --per-sprint       Review after each sprint instead of full plan
-#   --resume           Resume from interrupted bridge
-#   --from PHASE       Start from phase (sprint-plan)
-#   --help             Show help
+#   --resume                 Resume from interrupted bridge
+#   --from PHASE             Start from phase (sprint-plan)
+#   --single-iteration       Process one iteration then exit (Issue #473)
+#   --no-silent-noop-detect  Disable post-loop no-findings check (Issue #473)
+#   --help                   Show help
 #
 # Exit Codes:
-#   0 - Complete (JACKED_OUT)
+#   0 - Complete (JACKED_OUT) or single-iteration step complete
 #   1 - Halted (circuit breaker or error)
 #   2 - Config error
+#   3 - Silent no-op detected (no findings produced)
 
 set -euo pipefail
 
@@ -40,11 +43,68 @@ CONSECUTIVE_FLATLINE=2
 PER_ITERATION_TIMEOUT=14400   # 4 hours in seconds
 TOTAL_TIMEOUT=86400            # 24 hours in seconds
 
+# Issue #473: re-entrant single-iteration mode. When true, the script
+# processes exactly one iteration body and exits, leaving state at
+# "waiting for resume". The calling skill can then act on the SIGNAL:*
+# lines this iteration emitted and re-invoke with --resume when done.
+# Default false preserves the one-shot contract for existing callers.
+SINGLE_ITERATION=false
+
+# Issue #473: fail-loud detection. When the full-depth run completes
+# with no findings files in .run/bridge-reviews/, exit non-zero with a
+# clear error explaining that the skill layer did not act on the
+# SIGNAL:* lines. Prevents silent JACKED_OUT with 0 findings.
+DETECT_SILENT_NOOP=true
+
 # CLI-explicit tracking (for CLI > config precedence)
 CLI_DEPTH=""
 CLI_PER_SPRINT=""
 CLI_FLATLINE_THRESHOLD=""
 BRIDGE_REPO=""
+
+# =============================================================================
+# Multi-Model Routing (Sprint 3 — T3.6)
+# =============================================================================
+
+# Check if this iteration should use multi-model review based on iteration_strategy.
+# Reads from .loa.config.yaml via yq. Falls back to false if yq unavailable.
+#
+# Strategies:
+#   "every"  — every iteration uses multi-model
+#   "final"  — only the last iteration uses multi-model
+#   [1,3,5]  — specific iteration numbers use multi-model
+is_multi_model_iteration() {
+  local iteration="$1"
+
+  # Check if multi_model is enabled
+  local enabled
+  enabled=$(yq eval '.run_bridge.bridgebuilder.multi_model.enabled // false' .loa.config.yaml 2>/dev/null) || enabled="false"
+  if [[ "$enabled" != "true" ]]; then
+    return 1
+  fi
+
+  local strategy
+  strategy=$(yq eval '.run_bridge.bridgebuilder.multi_model.iteration_strategy // "final"' .loa.config.yaml 2>/dev/null) || strategy="final"
+
+  case "$strategy" in
+    "every")
+      return 0
+      ;;
+    "final")
+      if [[ "$iteration" -ge "$DEPTH" ]]; then
+        return 0
+      fi
+      return 1
+      ;;
+    *)
+      # Array of iteration numbers (e.g., "[1, 3, 5]")
+      if echo "$strategy" | jq -e --argjson iter "$iteration" 'index($iter) != null' >/dev/null 2>&1; then
+        return 0
+      fi
+      return 1
+      ;;
+  esac
+}
 
 # =============================================================================
 # Usage
@@ -55,17 +115,22 @@ usage() {
 Usage: bridge-orchestrator.sh [OPTIONS]
 
 Options:
-  --depth N          Maximum iterations (default: 3)
-  --per-sprint       Review after each sprint instead of full plan
-  --resume           Resume from interrupted bridge
-  --from PHASE       Start from phase (sprint-plan)
-  --repo OWNER/REPO  Target repository for gh commands
-  --help             Show help
+  --depth N                  Maximum iterations (default: 3)
+  --per-sprint               Review after each sprint instead of full plan
+  --resume                   Resume from interrupted bridge
+  --from PHASE               Start from phase (sprint-plan)
+  --repo OWNER/REPO          Target repository for gh commands
+  --single-iteration         Process one iteration then exit (Issue #473);
+                             pair with --resume to advance step by step
+  --no-silent-noop-detect    Disable post-loop check that fails when the run
+                             produced zero findings (Issue #473; for tests/CI)
+  --help                     Show help
 
 Exit Codes:
-  0  Complete (JACKED_OUT)
+  0  Complete (JACKED_OUT) or single-iteration step complete
   1  Halted (circuit breaker or error)
   2  Config error
+  3  Silent no-op detected (no findings produced; see --no-silent-noop-detect)
 USAGE
   exit "${1:-0}"
 }
@@ -92,6 +157,16 @@ while [[ $# -gt 0 ]]; do
       ;;
     --resume)
       RESUME=true
+      shift
+      ;;
+    --single-iteration)
+      # Issue #473: process one iteration then exit, awaiting --resume
+      SINGLE_ITERATION=true
+      shift
+      ;;
+    --no-silent-noop-detect)
+      # Issue #473: opt out of the post-run no-findings check (for tests, CI)
+      DETECT_SILENT_NOOP=false
       shift
       ;;
     --from)
@@ -150,6 +225,19 @@ load_bridge_config() {
     total_hours=$(yq '.run_bridge.timeouts.total_hours // 24' "$CONFIG_FILE" 2>/dev/null)
     PER_ITERATION_TIMEOUT=$((per_iter_hours * 3600))
     TOTAL_TIMEOUT=$((total_hours * 3600))
+  fi
+}
+
+# Load QMD context for bridge review enrichment
+load_bridge_context() {
+  local query="${1:-}"
+  BRIDGE_CONTEXT=""
+  if [[ -n "$query" ]] && [[ -x "$PROJECT_ROOT/.claude/scripts/qmd-context-query.sh" ]]; then
+    BRIDGE_CONTEXT=$("$PROJECT_ROOT/.claude/scripts/qmd-context-query.sh" \
+      --query "$query" \
+      --scope grimoires \
+      --budget 2500 \
+      --format text 2>/dev/null) || BRIDGE_CONTEXT=""
   fi
 }
 
@@ -344,19 +432,245 @@ bridge_main() {
       echo "SIGNAL:RUN_SPRINT_PLAN:$iteration"
     fi
 
-    # 2c: Bridgebuilder Review
-    echo "[REVIEW] Invoking Bridgebuilder review..."
-    echo "SIGNAL:BRIDGEBUILDER_REVIEW:$iteration"
+    # 2c: Cross-Repo Pattern Query (FR-1)
+    local cross_repo_enabled
+    cross_repo_enabled=$(yq '.run_bridge.cross_repo_query.enabled // false' "$CONFIG_FILE" 2>/dev/null || echo "false")
+    if [[ "$cross_repo_enabled" == "true" ]]; then
+      echo "[CROSS-REPO] Querying ecosystem repos for pattern matches..."
+      echo "SIGNAL:CROSS_REPO_QUERY:$iteration"
 
-    # 2d: Vision Capture
+      local cross_repo_cache="${PROJECT_ROOT}/.run/cross-repo-context.json"
+      if [[ -x "$SCRIPT_DIR/cross-repo-query.sh" ]]; then
+        local diff_file
+        diff_file=$(mktemp "${TMPDIR:-/tmp}/bridge-diff.XXXXXX")
+        git diff "main...HEAD" > "$diff_file" 2>/dev/null || true
+
+        if [[ -s "$diff_file" ]]; then
+          local xr_budget xr_max_repos xr_timeout
+          xr_budget=$(yq '.run_bridge.cross_repo_query.budget // 2000' "$CONFIG_FILE" 2>/dev/null || echo "2000")
+          xr_max_repos=$(yq '.run_bridge.cross_repo_query.max_repos // 5' "$CONFIG_FILE" 2>/dev/null || echo "5")
+          xr_timeout=$(yq '.run_bridge.cross_repo_query.timeout // 15' "$CONFIG_FILE" 2>/dev/null || echo "15")
+
+          "$SCRIPT_DIR/cross-repo-query.sh" \
+            --diff "$diff_file" \
+            --output "$cross_repo_cache" \
+            --budget "$xr_budget" \
+            --max-repos "$xr_max_repos" \
+            --timeout "$xr_timeout" 2>/dev/null || true
+
+          if [[ -f "$cross_repo_cache" ]]; then
+            local xr_matches
+            xr_matches=$(jq '.total_matches // 0' "$cross_repo_cache" 2>/dev/null) || xr_matches=0
+            echo "[CROSS-REPO] Found $xr_matches cross-repo pattern matches"
+
+            # Record in bridge state
+            if command -v jq &>/dev/null && [[ -f "$BRIDGE_STATE_FILE" ]]; then
+              jq --argjson m "$xr_matches" \
+                '.metrics.cross_repo_matches = ((.metrics.cross_repo_matches // 0) + $m)' \
+                "$BRIDGE_STATE_FILE" > "$BRIDGE_STATE_FILE.tmp"
+              mv "$BRIDGE_STATE_FILE.tmp" "$BRIDGE_STATE_FILE"
+            fi
+          fi
+        fi
+        rm -f "$diff_file"
+      fi
+    fi
+
+    # 2c.1: Vision Relevance Check (FR-3)
+    local vision_activation_enabled
+    vision_activation_enabled=$(yq '.run_bridge.vision_registry.activation_enabled // false' "$CONFIG_FILE" 2>/dev/null || echo "false")
+    if [[ "$vision_activation_enabled" == "true" ]]; then
+      echo "[VISION CHECK] Scanning for relevant visions..."
+      echo "SIGNAL:VISION_CHECK:$iteration"
+
+      if [[ -x "$SCRIPT_DIR/bridge-vision-capture.sh" ]]; then
+        local vcheck_diff
+        vcheck_diff=$(mktemp "${TMPDIR:-/tmp}/bridge-vcheck.XXXXXX")
+        git diff "main...HEAD" > "$vcheck_diff" 2>/dev/null || true
+
+        if [[ -s "$vcheck_diff" ]]; then
+          local relevant_visions
+          relevant_visions=$("$SCRIPT_DIR/bridge-vision-capture.sh" --check-relevant "$vcheck_diff" 2>/dev/null) || true
+
+          if [[ -n "$relevant_visions" ]]; then
+            echo "[VISION CHECK] Relevant visions: $relevant_visions"
+
+            # Record in bridge state
+            if command -v jq &>/dev/null && [[ -f "$BRIDGE_STATE_FILE" ]]; then
+              local vision_arr
+              vision_arr=$(echo "$relevant_visions" | jq -R . | jq -s .)
+              jq --argjson v "$vision_arr" \
+                '.metrics.visions_referenced = ((.metrics.visions_referenced // []) + $v | unique)' \
+                "$BRIDGE_STATE_FILE" > "$BRIDGE_STATE_FILE.tmp"
+              mv "$BRIDGE_STATE_FILE.tmp" "$BRIDGE_STATE_FILE"
+            fi
+          fi
+        fi
+        rm -f "$vcheck_diff"
+      fi
+    fi
+
+    # 2d: Load QMD context for review enrichment
+    local sprint_goal
+    sprint_goal=$(grep -m1 "^## Sprint" "$PROJECT_ROOT/grimoires/loa/sprint.md" 2>/dev/null | sed 's/^## //' || echo "bridge iteration $iteration")
+    load_bridge_context "$sprint_goal"
+
+    # 2d.1: Lore discoverability — load relevant patterns for review context (T2.5, cycle-047)
+    local lore_context=""
+    local lore_index="$PROJECT_ROOT/grimoires/loa/lore/index.yaml"
+    local lore_patterns="$PROJECT_ROOT/grimoires/loa/lore/patterns.yaml"
+    if command -v yq &>/dev/null && [[ -f "$lore_patterns" ]]; then
+      # Determine relevant tags from changed files
+      local lore_tags=()
+      local changed_paths
+      changed_paths=$(git diff --name-only "main...HEAD" 2>/dev/null || echo "")
+      if echo "$changed_paths" | grep -q "scripts/"; then
+        lore_tags+=(pipeline review)
+      fi
+      if echo "$changed_paths" | grep -q "lore/"; then
+        lore_tags+=(governance architecture)
+      fi
+      if echo "$changed_paths" | grep -q "skills/"; then
+        lore_tags+=(architecture pattern)
+      fi
+
+      if [[ ${#lore_tags[@]} -gt 0 ]]; then
+        # Load matching lore entries by tag
+        local tag_filter
+        tag_filter=$(printf '"%s",' "${lore_tags[@]}")
+        tag_filter="[${tag_filter%,}]"
+        lore_context=$(yq -o=json '.' "$lore_patterns" 2>/dev/null | \
+          jq -r --argjson tags "$tag_filter" '
+            [.[] | select(.tags as $t | ($tags | any(. as $tag | $t | index($tag))))] |
+            .[] | "LORE[\(.id)]: \(.short)"
+          ' 2>/dev/null || echo "")
+
+        if [[ -n "$lore_context" ]]; then
+          local lore_count
+          lore_count=$(echo "$lore_context" | wc -l)
+          echo "[LORE] Loaded $lore_count relevant pattern(s) for review context"
+          export BRIDGE_LORE_CONTEXT="$lore_context"
+        fi
+      fi
+    fi
+
+    # 2e: Bridgebuilder Review
+    if [[ -n "$BRIDGE_CONTEXT" ]]; then
+      echo "[CONTEXT] QMD context loaded (${#BRIDGE_CONTEXT} bytes)"
+    fi
+
+    # Multi-model iteration strategy routing (Sprint 3 — T3.6)
+    if is_multi_model_iteration "$iteration"; then
+      echo "[REVIEW] Invoking multi-model Bridgebuilder review..."
+      echo "SIGNAL:BRIDGEBUILDER_REVIEW_MULTI:$iteration"
+    else
+      echo "[REVIEW] Invoking Bridgebuilder review..."
+      echo "SIGNAL:BRIDGEBUILDER_REVIEW:$iteration"
+    fi
+
+    # 2f: Lore Reference Scan (FR-5)
+    echo "[LORE REFS] Scanning review for lore references..."
+    echo "SIGNAL:LORE_REFERENCE_SCAN:$iteration"
+    if [[ -x "$SCRIPT_DIR/lore-discover.sh" ]]; then
+      local bridge_id
+      bridge_id=$(jq -r '.bridge_id // ""' "$BRIDGE_STATE_FILE" 2>/dev/null) || bridge_id=""
+      local review_dir="${PROJECT_ROOT}/.run/bridge-reviews"
+      local latest_review
+      latest_review=$(find "$review_dir" -name "${bridge_id}*-iter${iteration}-full.md" 2>/dev/null | head -1) || true
+
+      if [[ -n "$latest_review" && -f "$latest_review" ]]; then
+        "$SCRIPT_DIR/lore-discover.sh" \
+          --scan-references \
+          --bridge-id "$bridge_id" \
+          --review-file "$latest_review" \
+          --repo-name "loa" 2>/dev/null || true
+      fi
+    fi
+
+    # 2g: Vision Capture (cycle-042: auto-capture VISION findings)
     echo "[VISION] Capturing VISION findings..."
     echo "SIGNAL:VISION_CAPTURE:$iteration"
 
-    # 2e: GitHub Trail
+    local bridge_auto_capture
+    bridge_auto_capture=$(yq '.vision_registry.bridge_auto_capture // false' "$CONFIG_FILE" 2>/dev/null || echo "false")
+    if [[ "$bridge_auto_capture" == "true" && -x "$SCRIPT_DIR/bridge-vision-capture.sh" ]]; then
+      local findings_file="${PROJECT_ROOT}/.run/bridge-reviews/${BRIDGE_ID:-unknown}-iter${iteration}-findings.json"
+      if [[ -f "$findings_file" ]]; then
+        local vision_findings
+        vision_findings=$(jq '[.findings[] | select(.severity == "VISION" or .severity == "SPECULATION")]' "$findings_file" 2>/dev/null) || vision_findings="[]"
+        local vision_count
+        vision_count=$(echo "$vision_findings" | jq 'length' 2>/dev/null) || vision_count=0
+
+        if [[ "$vision_count" -gt 0 ]]; then
+          echo "[VISION] Found $vision_count VISION/SPECULATION findings — capturing..."
+          "$SCRIPT_DIR/bridge-vision-capture.sh" "$findings_file" 2>/dev/null || true
+          echo "[VISION] Captured $vision_count vision entries"
+        else
+          echo "[VISION] No VISION/SPECULATION findings in this iteration"
+        fi
+      else
+        echo "[VISION] No findings file at $findings_file — skipping auto-capture"
+      fi
+    else
+      echo "[VISION] Auto-capture disabled (set vision_registry.bridge_auto_capture: true to enable)"
+    fi
+
+    # 2h: GitHub Trail
     echo "[TRAIL] Posting to GitHub..."
     echo "SIGNAL:GITHUB_TRAIL:$iteration"
 
-    # 2f: Flatline Detection
+    # 2h.1: Cost tracking (T4.2, cycle-047)
+    # Aggregate inference cost estimates from deliberation-metadata.json files
+    local meta_files
+    meta_files=$(find "${PROJECT_ROOT}/.run/" -name "deliberation-metadata.json" -newer "$BRIDGE_STATE_FILE" 2>/dev/null || echo "")
+    if [[ -n "$meta_files" ]]; then
+      local total_input_chars=0 total_output_chars=0 invocation_count=0
+      for meta_file in $meta_files; do
+        # Validate metadata file is well-formed JSON with expected fields (MEDIUM-3 fix)
+        if ! jq -e '.char_counts' "$meta_file" &>/dev/null; then
+          echo "[COST] WARNING: Malformed metadata, skipping: $meta_file" >&2
+          continue
+        fi
+        local sdd_c diff_c prior_c
+        sdd_c=$(jq '.char_counts.sdd // 0' "$meta_file" 2>/dev/null) || sdd_c=0
+        diff_c=$(jq '.char_counts.diff // 0' "$meta_file" 2>/dev/null) || diff_c=0
+        prior_c=$(jq '.char_counts.prior_findings // 0' "$meta_file" 2>/dev/null) || prior_c=0
+        total_input_chars=$((total_input_chars + sdd_c + diff_c + prior_c))
+        # Estimate output at ~25% of input (typical for findings JSON)
+        total_output_chars=$((total_output_chars + (sdd_c + diff_c + prior_c) / 4))
+        invocation_count=$((invocation_count + 1))
+      done
+
+      # Estimate tokens (~4 chars/token) and cost (Opus: $15/Mtok input, $75/Mtok output)
+      local est_input_tokens=$((total_input_chars / 4))
+      local est_output_tokens=$((total_output_chars / 4))
+      local cost_input_usd cost_output_usd cost_total_usd
+      # Integer math: multiply by 1000 then divide to get 3 decimal places
+      cost_input_usd=$(echo "$est_input_tokens" | awk '{printf "%.4f", $1 * 15 / 1000000}')
+      cost_output_usd=$(echo "$est_output_tokens" | awk '{printf "%.4f", $1 * 75 / 1000000}')
+      cost_total_usd=$(echo "$cost_input_usd $cost_output_usd" | awk '{printf "%.4f", $1 + $2}')
+
+      echo "[COST] Iteration $iteration: ~$est_input_tokens input tokens, ~$est_output_tokens output tokens (~\$$cost_total_usd)"
+
+      # Append to bridge state cost_estimates array
+      if command -v jq &>/dev/null && [[ -f "$BRIDGE_STATE_FILE" ]]; then
+        jq --argjson iter "$iteration" \
+           --argjson invocations "$invocation_count" \
+           --argjson input_tokens "$est_input_tokens" \
+           --argjson output_tokens "$est_output_tokens" \
+           --arg cost "$cost_total_usd" \
+          '.metrics.cost_estimates = ((.metrics.cost_estimates // []) + [{
+            iteration: $iter,
+            red_team_invocations: $invocations,
+            estimated_input_tokens: $input_tokens,
+            estimated_output_tokens: $output_tokens,
+            cost_estimate_usd: ($cost | tonumber)
+          }])' "$BRIDGE_STATE_FILE" > "$BRIDGE_STATE_FILE.tmp"
+        mv "$BRIDGE_STATE_FILE.tmp" "$BRIDGE_STATE_FILE"
+      fi
+    fi
+
+    # 2i: Flatline Detection
     echo "[FLATLINE] Checking flatline condition..."
     echo "SIGNAL:FLATLINE_CHECK:$iteration"
 
@@ -392,7 +706,125 @@ bridge_main() {
     fi
 
     iteration=$((iteration + 1))
+
+    # Issue #473: single-iteration mode exits here after one iteration body.
+    # State is preserved so `--resume` picks up at the next iteration.
+    if [[ "$SINGLE_ITERATION" == "true" ]]; then
+      echo ""
+      echo "[SINGLE-ITERATION] Iteration $((iteration - 1)) complete. State preserved."
+      echo "[SINGLE-ITERATION] Resume with: bridge-orchestrator.sh --resume --single-iteration"
+      exit 0
+    fi
   done
+
+  # Research Mode (FR-2 — Divergent Exploration Iteration)
+  # After iteration 1, optionally transition to RESEARCHING state for one
+  # divergent exploration iteration. Produces SPECULATION-only findings
+  # with N/A score excluded from flatline trajectory.
+  local research_mode_enabled
+  research_mode_enabled=$(yq '.run_bridge.research_mode.enabled // false' "$CONFIG_FILE" 2>/dev/null || echo "false")
+  local research_trigger_after
+  research_trigger_after=$(yq '.run_bridge.research_mode.trigger_after_iteration // 1' "$CONFIG_FILE" 2>/dev/null || echo "1")
+  local research_max
+  research_max=$(yq '.run_bridge.research_mode.max_research_iterations // 1' "$CONFIG_FILE" 2>/dev/null || echo "1")
+  local research_completed=0
+
+  # Check bridge state for prior research iterations (for resume support)
+  if command -v jq &>/dev/null && [[ -f "$BRIDGE_STATE_FILE" ]]; then
+    research_completed=$(jq '.metrics.research_iterations_completed // 0' "$BRIDGE_STATE_FILE" 2>/dev/null) || research_completed=0
+  fi
+
+  # -ge: trigger_after_iteration=N means "fire after iteration N completes"
+  if [[ "$research_mode_enabled" == "true" ]] && [[ $iteration -ge $research_trigger_after ]] && [[ $research_completed -lt $research_max ]]; then
+    echo ""
+    echo "═══════════════════════════════════════════════════"
+    echo "  RESEARCHING — Divergent Exploration"
+    echo "═══════════════════════════════════════════════════"
+
+    update_bridge_state "RESEARCHING"
+
+    # Signal for the skill layer to compose a research prompt
+    # including cross-repo context, top lore entries, and relevant visions.
+    echo "SIGNAL:RESEARCH_ITERATION:$((research_completed + 1))"
+
+    # Inquiry Mode (FR-4): If inquiry_enabled, trigger multi-model architectural inquiry
+    local inquiry_enabled
+    inquiry_enabled=$(yq '.run_bridge.research_mode.inquiry_enabled // false' "$CONFIG_FILE" 2>/dev/null || echo "false")
+    if [[ "$inquiry_enabled" == "true" ]] && [[ -x "$SCRIPT_DIR/flatline-orchestrator.sh" ]]; then
+      echo "[INQUIRY] Triggering multi-model architectural inquiry..."
+      echo "SIGNAL:INQUIRY_MODE:$((research_completed + 1))"
+
+      # Feed cross-repo context into inquiry if available
+      local cross_repo_cache="${PROJECT_ROOT}/.run/cross-repo-context.json"
+      local inquiry_context=""
+      if [[ -f "$cross_repo_cache" ]]; then
+        inquiry_context=$(mktemp "${TMPDIR:-/tmp}/bridge-inquiry-ctx.XXXXXX")
+        jq -r '.results[]? | "## \(.repo)\n\(.matches[]? | "- \(.pattern): \(.context)")"' \
+          "$cross_repo_cache" > "$inquiry_context" 2>/dev/null || true
+      fi
+
+      # Find the document for inquiry (sprint.md or sdd.md)
+      local inquiry_doc="${PROJECT_ROOT}/grimoires/loa/sprint.md"
+      if [[ ! -f "$inquiry_doc" ]]; then
+        inquiry_doc="${PROJECT_ROOT}/grimoires/loa/sdd.md"
+      fi
+
+      if [[ -f "$inquiry_doc" ]]; then
+        local inquiry_output
+        inquiry_output=$("$SCRIPT_DIR/flatline-orchestrator.sh" \
+          --doc "$inquiry_doc" \
+          --phase "sprint" \
+          --mode inquiry \
+          --json 2>/dev/null) || true
+
+        if [[ -n "$inquiry_output" ]]; then
+          local inquiry_findings
+          inquiry_findings=$(echo "$inquiry_output" | jq '.summary.total_findings // 0' 2>/dev/null) || inquiry_findings=0
+          echo "[INQUIRY] Inquiry produced $inquiry_findings findings"
+
+          # Record in bridge state
+          if command -v jq &>/dev/null && [[ -f "$BRIDGE_STATE_FILE" ]]; then
+            jq --argjson f "$inquiry_findings" \
+              '.metrics.inquiry_findings = ((.metrics.inquiry_findings // 0) + $f)' \
+              "$BRIDGE_STATE_FILE" > "$BRIDGE_STATE_FILE.tmp"
+            mv "$BRIDGE_STATE_FILE.tmp" "$BRIDGE_STATE_FILE"
+          fi
+        fi
+      fi
+      rm -f "$inquiry_context"
+    fi
+
+    research_completed=$((research_completed + 1))
+
+    # Record in bridge state
+    if command -v jq &>/dev/null && [[ -f "$BRIDGE_STATE_FILE" ]]; then
+      jq --argjson rc "$research_completed" \
+        '.metrics.research_iterations_completed = $rc' \
+        "$BRIDGE_STATE_FILE" > "$BRIDGE_STATE_FILE.tmp"
+      mv "$BRIDGE_STATE_FILE.tmp" "$BRIDGE_STATE_FILE"
+    fi
+
+    # Transition back to ITERATING (research iteration doesn't affect flatline)
+    update_bridge_state "ITERATING"
+
+    # Lore reference scan on research output
+    echo "[LORE REFS] Scanning research output for lore references..."
+    if [[ -x "$SCRIPT_DIR/lore-discover.sh" ]]; then
+      local bridge_id
+      bridge_id=$(jq -r '.bridge_id // ""' "$BRIDGE_STATE_FILE" 2>/dev/null) || bridge_id=""
+      local research_review
+      research_review=$(find "${PROJECT_ROOT}/.run/bridge-reviews" \
+        -name "${bridge_id}*-research-*.md" 2>/dev/null | sort | tail -1) || true
+
+      if [[ -n "$research_review" && -f "$research_review" ]]; then
+        "$SCRIPT_DIR/lore-discover.sh" \
+          --scan-references \
+          --bridge-id "$bridge_id" \
+          --review-file "$research_review" \
+          --repo-name "loa" 2>/dev/null || true
+      fi
+    fi
+  fi
 
   # Vision Sprint (v1.39.0 — Dedicated Exploration Time)
   # After flatline convergence, optionally run a vision sprint to explore
@@ -513,6 +945,32 @@ bridge_main() {
       echo "[LORE] lore-discover.sh not found — skipping"
     fi
 
+    # Vision-to-lore elevation check (cycle-042)
+    if [[ -f "$SCRIPT_DIR/vision-lib.sh" ]]; then
+      source "$SCRIPT_DIR/vision-lib.sh" 2>/dev/null || true
+      local visions_dir="$PROJECT_ROOT/grimoires/loa/visions"
+      local index_file="$visions_dir/index.md"
+      if [[ -f "$index_file" ]]; then
+        local elevated=0
+        while IFS='|' read -r _ vid _ _ _ _ refs _; do
+          vid=$(echo "$vid" | xargs)
+          refs=$(echo "$refs" | xargs)
+          if [[ "$vid" =~ ^vision-[0-9]{3}$ && "${refs:-0}" -gt 0 ]]; then
+            local elev_result
+            elev_result=$(vision_check_lore_elevation "$vid" "$visions_dir" 2>/dev/null) || continue
+            if [[ "$elev_result" == "ELEVATE" ]]; then
+              echo "[LORE] Elevating $vid to lore..."
+              vision_generate_lore_entry "$vid" "$visions_dir" >> "$PROJECT_ROOT/.claude/data/lore/discovered/visions.yaml" 2>/dev/null || true
+              elevated=$((elevated + 1))
+            fi
+          fi
+        done < <(grep '| vision-' "$index_file" 2>/dev/null)
+        if [[ $elevated -gt 0 ]]; then
+          echo "[LORE] Elevated $elevated vision(s) to lore entries"
+        fi
+      fi
+    fi
+
     # Record in bridge state
     if command -v jq &>/dev/null && [[ -f "$BRIDGE_STATE_FILE" ]]; then
       jq --argjson candidates "${lore_candidates:-0}" \
@@ -553,6 +1011,37 @@ bridge_main() {
   if command -v jq &>/dev/null && [[ -f "$BRIDGE_STATE_FILE" ]]; then
     jq '.finalization.rtfm_passed = true' "$BRIDGE_STATE_FILE" > "$BRIDGE_STATE_FILE.tmp"
     mv "$BRIDGE_STATE_FILE.tmp" "$BRIDGE_STATE_FILE"
+  fi
+
+  # Issue #473: silent-no-op detection. If the full-depth run completed but
+  # .run/bridge-reviews/ contains no findings files, the SIGNAL:* lines fired
+  # but no skill acted on them. Fail loud instead of claiming JACKED_OUT
+  # with 0 findings — silent success is the worst kind of failure.
+  if [[ "$DETECT_SILENT_NOOP" == "true" ]]; then
+    local findings_dir="$PROJECT_ROOT/.run/bridge-reviews"
+    local findings_count=0
+    if [[ -d "$findings_dir" ]]; then
+      findings_count=$(find "$findings_dir" -name '*.json' -type f 2>/dev/null | wc -l | tr -d ' ')
+    fi
+    if [[ "$findings_count" -eq 0 ]]; then
+      echo "" >&2
+      echo "ERROR: Bridge completed $DEPTH iterations but produced no findings files." >&2
+      echo "" >&2
+      echo "This usually means the calling skill did not act on the SIGNAL:*" >&2
+      echo "lines emitted by the orchestrator. The orchestrator emits signals" >&2
+      echo "on stdout expecting the skill to intercept them and perform the" >&2
+      echo "work (read diff, write review, post to GitHub). If the script ran" >&2
+      echo "without a skill on the other end, signals just printed and the" >&2
+      echo "actual review never happened." >&2
+      echo "" >&2
+      echo "Options:" >&2
+      echo "  1. Invoke via the /run-bridge skill (not bare shell pipe)" >&2
+      echo "  2. Use --single-iteration to drive one iteration at a time" >&2
+      echo "  3. Pass --no-silent-noop-detect if this is intentional (tests)" >&2
+      echo "" >&2
+      update_bridge_state "HALTED"
+      exit 3
+    fi
   fi
 
   update_bridge_state "JACKED_OUT"

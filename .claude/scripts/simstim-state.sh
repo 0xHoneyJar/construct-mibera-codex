@@ -32,6 +32,10 @@
 
 set -euo pipefail
 
+
+# sprint-bug-172 / bug-911: sha256_portable from compat-lib
+source "$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)/compat-lib.sh"
+
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 PROJECT_ROOT="$(cd "$SCRIPT_DIR/../.." && pwd)"
 RUN_DIR="$PROJECT_ROOT/.run"
@@ -91,7 +95,7 @@ state_exists() {
 calculate_checksum() {
     local file="$1"
     if [[ -f "$file" ]]; then
-        sha256sum "$file" | cut -d' ' -f1
+        sha256_portable "$file" | cut -d' ' -f1
     else
         echo ""
     fi
@@ -201,9 +205,12 @@ init_state() {
                 discovery: (if $phase == "preflight" or $phase == "discovery" then "pending" else "skipped" end),
                 flatline_prd: (if $phase == "preflight" or $phase == "discovery" then "pending" else "skipped" end),
                 architecture: (if $phase == "preflight" or $phase == "discovery" or $phase == "architecture" then "pending" else "skipped" end),
+                bridgebuilder_sdd: (if $phase == "preflight" or $phase == "discovery" or $phase == "architecture" then "pending" else "skipped" end),
                 flatline_sdd: (if $phase == "preflight" or $phase == "discovery" or $phase == "architecture" then "pending" else "skipped" end),
+                red_team_sdd: (if $phase == "preflight" or $phase == "discovery" or $phase == "architecture" or $phase == "flatline_sdd" then "pending" else "skipped" end),
                 planning: (if $phase != "implementation" then "pending" else "skipped" end),
                 flatline_sprint: (if $phase != "implementation" then "pending" else "skipped" end),
+                flatline_beads: (if $phase != "implementation" then "pending" else "skipped" end),
                 implementation: "pending"
             },
             artifacts: {},

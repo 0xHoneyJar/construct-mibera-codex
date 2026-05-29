@@ -46,6 +46,17 @@ if [[ -f "$SCRIPT_DIR/compat-lib.sh" ]]; then
     source "$SCRIPT_DIR/compat-lib.sh"
 fi
 
+# Source security library for write_curl_auth_config
+if [[ -f "$SCRIPT_DIR/lib-security.sh" ]]; then
+    source "$SCRIPT_DIR/lib-security.sh"
+fi
+
+# cycle-099 sprint-1E.c.3.b: pack + skill download via endpoint validator
+# with the constructs registry allowlist (api.constructs.network).
+# shellcheck source=lib/endpoint-validator.sh
+source "$SCRIPT_DIR/lib/endpoint-validator.sh"
+CONSTRUCTS_REGISTRY_ALLOWLIST="${LOA_CONSTRUCTS_REGISTRY_ALLOWLIST:-$SCRIPT_DIR/lib/allowlists/loa-registry.json}"
+
 # =============================================================================
 # Exit Codes
 # =============================================================================
@@ -225,7 +236,7 @@ symlink_pack_commands() {
 
         # Create symlink
         ln -sf "$relative_path" "$target_link"
-        ((linked++))
+        linked=$((linked + 1))
     done
 
     echo "$linked"
@@ -262,7 +273,7 @@ unlink_pack_commands() {
             existing_target=$(readlink "$target_link" 2>/dev/null || echo "")
             if [[ "$existing_target" == *"constructs/packs/$pack_slug"* ]]; then
                 rm -f "$target_link"
-                ((unlinked++))
+                unlinked=$((unlinked + 1))
             fi
         fi
     done
@@ -329,7 +340,7 @@ symlink_pack_skills() {
 
         # Create symlink
         ln -sf "$relative_path" "$target_link"
-        ((linked++))
+        linked=$((linked + 1))
     done
 
     echo "$linked"
@@ -420,6 +431,75 @@ do_install_pack() {
     # Ensure constructs directory is gitignored
     ensure_constructs_gitignored
 
+    # Check for local source clone (prefer over stale registry download) — Issue #449
+    local local_source
+    if local_source=$(find_local_source "$pack_slug"); then
+        local meta_file
+        meta_file=$(get_registry_meta_path)
+        local should_use_local=false
+
+        if [[ ! -d "$packs_dir/$pack_slug" ]]; then
+            # Not installed yet — use local if available
+            should_use_local=true
+            echo "  Local source found at: $local_source (not yet installed)"
+        elif [[ -f "$meta_file" ]]; then
+            # Already installed — check if local is newer
+            local installed_at
+            installed_at=$(jq -r --arg s "$pack_slug" '.installed_packs[$s].installed_at // empty' "$meta_file" 2>/dev/null) || installed_at=""
+            if [[ -n "$installed_at" ]]; then
+                # Check if ANY file in local source is newer than install time
+                # (not just construct.yaml — the P0 bug was in dig-search.ts)
+                local installed_epoch
+                if type _date_to_epoch &>/dev/null; then
+                    installed_epoch=$(_date_to_epoch "$installed_at" 2>/dev/null) || installed_epoch=0
+                else
+                    installed_epoch=$(date -d "$installed_at" +%s 2>/dev/null) || installed_epoch=0
+                fi
+
+                if [[ $installed_epoch -gt 0 ]]; then
+                    # Find any file newer than install time
+                    local newer_file
+                    newer_file=$(find "$local_source" -type f -newer "$packs_dir/$pack_slug" -print -quit 2>/dev/null) || newer_file=""
+                    if [[ -n "$newer_file" ]]; then
+                        should_use_local=true
+                        echo "  Local source at $local_source has changes since last install"
+                    fi
+                fi
+            fi
+        fi
+
+        if [[ "$should_use_local" == "true" ]]; then
+            echo "  Installing from local source: $local_source"
+            # Copy from local source instead of downloading
+            mkdir -p "$packs_dir/$pack_slug"
+            cp -r "$local_source/." "$packs_dir/$pack_slug/"
+            # Update metadata
+            local now_ts
+            now_ts=$(date -u +%Y-%m-%dT%H:%M:%SZ)
+            init_registry_meta
+            local meta_tmp="${meta_file}.tmp.$$"
+            jq --arg slug "$pack_slug" --arg ts "$now_ts" --arg src "$local_source" \
+                '.installed_packs[$slug].installed_at = $ts | .installed_packs[$slug].source = "local" | .installed_packs[$slug].local_source = $src' \
+                "$meta_file" > "$meta_tmp" && mv "$meta_tmp" "$meta_file"
+
+            # Symlink commands
+            echo "  Linking commands..."
+            local commands_linked
+            commands_linked=$(symlink_pack_commands "$pack_slug")
+            echo "  Created $commands_linked command symlinks"
+
+            # Symlink skills
+            echo "  Linking skills..."
+            local skills_linked
+            skills_linked=$(symlink_pack_skills "$pack_slug")
+            echo "  Created $skills_linked skill symlinks"
+
+            echo ""
+            print_success "Pack '$pack_slug' installed from local source"
+            return $EXIT_SUCCESS
+        fi
+    fi
+
     echo "  Downloading from $registry_url/packs/$pack_slug/download..."
 
     # Download pack
@@ -434,21 +514,28 @@ do_install_pack() {
     # Disable command tracing during API call to prevent key leakage
     { set +x; } 2>/dev/null || true
 
-    # Use environment variable instead of process substitution for security
-    local auth_header="Authorization: Bearer $api_key"
-    # HIGH-002 FIX: Enforce HTTPS and TLS 1.2+
-    http_code=$(curl -s -w "%{http_code}" --proto =https --tlsv1.2 --max-time 300 \
-        -H "$auth_header" \
-        -H "Accept: application/json" \
-        "$registry_url/packs/$pack_slug/download" \
-        -o "$tmp_file" 2>/dev/null) || {
-        unset auth_header
+    # SHELL-002 + cycle-099 sprint-1E.c.3.b: auth tempfile + endpoint validator.
+    local auth_config
+    auth_config=$(write_curl_auth_config "Authorization" "Bearer $api_key") || {
         rm -f "$tmp_file"
+        print_error "ERROR: Failed to create secure auth config"
+        return $EXIT_AUTH_ERROR
+    }
+    # HIGH-002: --tlsv1.2 enforces minimum TLS version. Wrapper supplies
+    # --proto =https / --proto-redir =https / --max-redirs 10 hardened defaults.
+    http_code=$(endpoint_validator__guarded_curl \
+        --allowlist "$CONSTRUCTS_REGISTRY_ALLOWLIST" \
+        --config-auth "$auth_config" \
+        --url "$registry_url/packs/$pack_slug/download" \
+        -s -w "%{http_code}" --tlsv1.2 --max-time 300 \
+        -H "Accept: application/json" \
+        -o "$tmp_file" 2>/dev/null) || {
+        rm -f "$auth_config" "$tmp_file"
         print_error "ERROR: Network error while downloading pack"
         echo "  Check your network connection and try again"
         return $EXIT_NETWORK_ERROR
     }
-    unset auth_header
+    rm -f "$auth_config"
 
     # Check HTTP status
     case "$http_code" in
@@ -657,6 +744,11 @@ PYEOF
         done
     fi
 
+    # Regenerate construct index after install
+    if [[ -x "$SCRIPT_DIR/construct-index-gen.sh" ]]; then
+        "$SCRIPT_DIR/construct-index-gen.sh" --quiet 2>/dev/null || true
+    fi
+
     return $EXIT_SUCCESS
 }
 
@@ -764,21 +856,27 @@ do_install_skill() {
     # Disable command tracing during API call to prevent key leakage
     { set +x; } 2>/dev/null || true
 
-    # Use local variable instead of process substitution for security (MED-002)
-    # Process substitution creates a temporary file descriptor readable by other processes
-    local auth_header="Authorization: Bearer $api_key"
-    # HIGH-002 FIX: Enforce HTTPS and TLS 1.2+
-    http_code=$(curl -s -w "%{http_code}" --proto =https --tlsv1.2 --max-time 300 \
-        -H "$auth_header" \
-        -H "Accept: application/json" \
-        "$registry_url/skills/$skill_slug/download" \
-        -o "$tmp_file" 2>/dev/null) || {
-        unset auth_header
+    # SHELL-002 + cycle-099 sprint-1E.c.3.b: auth tempfile + endpoint validator.
+    local auth_config
+    auth_config=$(write_curl_auth_config "Authorization" "Bearer $api_key") || {
         rm -f "$tmp_file"
+        print_error "ERROR: Failed to create secure auth config"
+        return $EXIT_AUTH_ERROR
+    }
+    # HIGH-002: --tlsv1.2 minimum TLS version. Wrapper supplies https-only
+    # + redirect-bound enforcement.
+    http_code=$(endpoint_validator__guarded_curl \
+        --allowlist "$CONSTRUCTS_REGISTRY_ALLOWLIST" \
+        --config-auth "$auth_config" \
+        --url "$registry_url/skills/$skill_slug/download" \
+        -s -w "%{http_code}" --tlsv1.2 --max-time 300 \
+        -H "Accept: application/json" \
+        -o "$tmp_file" 2>/dev/null) || {
+        rm -f "$auth_config" "$tmp_file"
         print_error "ERROR: Network error while downloading skill"
         return $EXIT_NETWORK_ERROR
     }
-    unset auth_header
+    rm -f "$auth_config"
 
     # Check HTTP status
     case "$http_code" in
@@ -1050,6 +1148,11 @@ do_uninstall_pack() {
 
     echo ""
     print_success "Pack '$pack_slug' uninstalled successfully!"
+
+    # Regenerate construct index after uninstall
+    if [[ -x "$SCRIPT_DIR/construct-index-gen.sh" ]]; then
+        "$SCRIPT_DIR/construct-index-gen.sh" --quiet 2>/dev/null || true
+    fi
 
     return $EXIT_SUCCESS
 }

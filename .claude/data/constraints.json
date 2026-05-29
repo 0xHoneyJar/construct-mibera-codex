@@ -12,6 +12,12 @@
         "claude-loa-md": "NEVER write application code outside of `/implement` skill invocation"
       },
       "why": "Code written outside `/implement` bypasses review and audit gates",
+      "construct_yield": {
+        "enabled": true,
+        "condition": "construct with workflow.gates is active",
+        "yield_text": "OR when a construct with declared `workflow.gates` owns the current workflow",
+        "yield_on_gates": ["implement"]
+      },
       "order": 0,
       "layers": [
         {
@@ -75,6 +81,12 @@
         "skill-md": "Implementation phases MUST use `/run sprint-plan`, `/run sprint-N`, or `/bug` — NEVER implement directly"
       },
       "why": "`/run` wraps implement+review+audit in a cycle loop with circuit breaker. `/bug` produces a triage handoff that feeds directly into `/implement`.",
+      "construct_yield": {
+        "enabled": true,
+        "condition": "construct with workflow.gates is active",
+        "yield_text": "OR when a construct with `workflow.gates` declares pipeline composition",
+        "yield_on_gates": ["implement"]
+      },
       "order": 2,
       "layers": [
         {
@@ -107,6 +119,12 @@
         "skill-md": "Do NOT use `/implement` without `/run` — `/run` provides the review→audit cycle"
       },
       "why": "These are the only validation that code meets acceptance criteria and security standards",
+      "construct_yield": {
+        "enabled": true,
+        "condition": "construct declares review: skip or audit: skip",
+        "yield_text": "Yield when construct declares `review: skip` or `audit: skip`",
+        "yield_on_gates": ["review", "audit"]
+      },
       "order": 3,
       "layers": [
         {
@@ -232,6 +250,12 @@
         "protocol": "Sprint plan exists ||| ALWAYS ||| `test -f grimoires/loa/sprint.md`"
       },
       "why": "Prevents ad-hoc implementation without requirements traceability",
+      "construct_yield": {
+        "enabled": true,
+        "condition": "construct declares sprint: skip",
+        "yield_text": "Yield when construct declares `sprint: skip`",
+        "yield_on_gates": ["sprint"]
+      },
       "order": 3,
       "layers": [
         {
@@ -441,7 +465,7 @@
       "rule_type": "MUST",
       "text": "complete each phase before proceeding",
       "text_variants": {
-        "skill-md": "Each phase MUST complete sequentially: 0→1→2→3→4→5→6→6.5→7→8"
+        "skill-md": "Each phase MUST complete sequentially: 0→1→2→3→3.5→4→4.5→5→6→6.5→7→8"
       },
       "why": "Each phase produces artifacts that subsequent phases depend on; skipping creates gaps",
       "order": 2,
@@ -1306,6 +1330,32 @@
         }
       ],
       "severity": "low"
+    },
+    {
+      "id": "C-PROC-017",
+      "name": "spiral_must_dispatch_through_harness",
+      "category": "process",
+      "rule_type": "NEVER",
+      "text": "implement code directly in conversation when `/spiraling` is invoked with a task — dispatch through `/run sprint-plan`, `/simstim`, or `spiral-harness.sh` instead",
+      "text_variants": {
+        "claude-loa-md": "NEVER implement code directly when `/spiraling` is invoked with a task — dispatch through the harness pipeline (`/run sprint-plan`, `/simstim`, or `spiral-harness.sh`)"
+      },
+      "why": "`/spiraling` loads as context, not as an orchestrator. Without mechanical dispatch, the agent bypasses all quality gates (Flatline, Review, Audit, Bridgebuilder) — the fox-guarding-the-henhouse antipattern that the harness was built to prevent.",
+      "order": 5,
+      "layers": [
+        {
+          "target": "claude-loa-md",
+          "section": "process_compliance_never",
+          "render_as": "table_row"
+        },
+        {
+          "target": "skill-md",
+          "skills": ["spiraling"],
+          "render_as": "constraint_rule"
+        }
+      ],
+      "severity": "critical",
+      "source_incident": "#506"
     }
   ]
 }

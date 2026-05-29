@@ -6,8 +6,12 @@ import {
   resolveRepos,
   formatEffectiveConfig,
   resolveRepoRoot,
+  loadYamlConfig,
 } from "../config.js";
 import type { CLIArgs, EnvVars, YamlConfig } from "../config.js";
+import { mkdtempSync, writeFileSync, rmSync } from "node:fs";
+import { tmpdir } from "node:os";
+import { join } from "node:path";
 
 // Helper: resolve config with explicit yaml (skips file I/O)
 async function resolve(
@@ -154,7 +158,7 @@ describe("resolveConfig precedence", () => {
       {},
       { enabled: true, repos: ["test/repo"] },
     );
-    assert.equal(config.model, "claude-sonnet-4-5-20250929");
+    assert.equal(config.model, "claude-opus-4-7");
     assert.equal(provenance.model, "default");
   });
 
@@ -282,6 +286,7 @@ describe("formatEffectiveConfig", () => {
       maxInputTokens: "cli" as const,
       maxOutputTokens: "yaml" as const,
       maxDiffBytes: "default" as const,
+      reviewMode: "default" as const,
     };
     const output = formatEffectiveConfig(config, provenance);
 
@@ -535,6 +540,31 @@ describe("resolveRepoRoot", () => {
   });
 });
 
+// --- reviewMode (cycle-039: two-pass review) ---
+
+describe("parseCLIArgs --review-mode flag", () => {
+  it("parses --review-mode two-pass", () => {
+    const args = parseCLIArgs(["--review-mode", "two-pass"]);
+    assert.equal(args.reviewMode, "two-pass");
+  });
+
+  it("parses --review-mode single-pass", () => {
+    const args = parseCLIArgs(["--review-mode", "single-pass"]);
+    assert.equal(args.reviewMode, "single-pass");
+  });
+
+  it("rejects invalid --review-mode value", () => {
+    assert.throws(() => parseCLIArgs(["--review-mode", "invalid"]), /Must be "two-pass" or "single-pass"/);
+  });
+
+  it("parses --review-mode with other flags", () => {
+    const args = parseCLIArgs(["--dry-run", "--review-mode", "single-pass", "--repo", "a/b"]);
+    assert.equal(args.reviewMode, "single-pass");
+    assert.equal(args.dryRun, true);
+    assert.deepEqual(args.repos, ["a/b"]);
+  });
+});
+
 describe("resolveConfig repoRoot integration", () => {
   it("config includes repoRoot from resolveRepoRoot", async () => {
     const { config } = await resolve(
@@ -553,5 +583,250 @@ describe("resolveConfig repoRoot integration", () => {
     );
     // In a git repo, should auto-detect
     assert.ok(config.repoRoot !== undefined, "Should auto-detect repoRoot");
+  });
+});
+
+describe("resolveConfig ecosystemContextPath", () => {
+  it("passes through ecosystem_context_path from YAML", async () => {
+    const { config } = await resolve(
+      {},
+      {},
+      { enabled: true, repos: ["test/repo"], ecosystem_context_path: ".claude/data/ecosystem.json" },
+    );
+    assert.equal(config.ecosystemContextPath, ".claude/data/ecosystem.json");
+  });
+
+  it("ecosystemContextPath undefined when not in YAML", async () => {
+    const { config } = await resolve(
+      {},
+      {},
+      { enabled: true, repos: ["test/repo"] },
+    );
+    assert.equal(config.ecosystemContextPath, undefined);
+  });
+});
+
+describe("resolveConfig reviewMode precedence", () => {
+  it("defaults to two-pass when no override", async () => {
+    const { config, provenance } = await resolve(
+      {},
+      {},
+      { enabled: true, repos: ["test/repo"] },
+    );
+    assert.equal(config.reviewMode, "two-pass");
+    assert.equal(provenance.reviewMode, "default");
+  });
+
+  it("CLI reviewMode overrides all", async () => {
+    const { config, provenance } = await resolve(
+      { reviewMode: "single-pass" },
+      { LOA_BRIDGE_REVIEW_MODE: "two-pass" },
+      { enabled: true, repos: ["test/repo"], review_mode: "two-pass" },
+    );
+    assert.equal(config.reviewMode, "single-pass");
+    assert.equal(provenance.reviewMode, "cli");
+  });
+
+  it("env reviewMode overrides yaml and default", async () => {
+    const { config, provenance } = await resolve(
+      {},
+      { LOA_BRIDGE_REVIEW_MODE: "single-pass" },
+      { enabled: true, repos: ["test/repo"], review_mode: "two-pass" },
+    );
+    assert.equal(config.reviewMode, "single-pass");
+    assert.equal(provenance.reviewMode, "env");
+  });
+
+  it("yaml reviewMode overrides default", async () => {
+    const { config, provenance } = await resolve(
+      {},
+      {},
+      { enabled: true, repos: ["test/repo"], review_mode: "single-pass" },
+    );
+    assert.equal(config.reviewMode, "single-pass");
+    assert.equal(provenance.reviewMode, "yaml");
+  });
+
+  it("ignores invalid env reviewMode values", async () => {
+    const { config, provenance } = await resolve(
+      {},
+      { LOA_BRIDGE_REVIEW_MODE: "invalid-mode" },
+      { enabled: true, repos: ["test/repo"] },
+    );
+    assert.equal(config.reviewMode, "two-pass");
+    assert.equal(provenance.reviewMode, "default");
+  });
+});
+
+// --- loadYamlConfig direct tests (cycle-048: YAML regex fix FR-2) ---
+
+describe("loadYamlConfig section parsing", () => {
+  let originalCwd: string;
+  let tempDir: string;
+
+  // Save CWD before each test and create a temp dir
+  function setupTempDir(yamlContent: string): void {
+    originalCwd = process.cwd();
+    tempDir = mkdtempSync(join(tmpdir(), "config-test-"));
+    writeFileSync(join(tempDir, ".loa.config.yaml"), yamlContent, "utf-8");
+    process.chdir(tempDir);
+  }
+
+  // Restore CWD and clean up after each test
+  function teardown(): void {
+    process.chdir(originalCwd);
+    rmSync(tempDir, { recursive: true, force: true });
+  }
+
+  it("bridgebuilder before red_team: bridgebuilder enabled is preserved", async () => {
+    setupTempDir([
+      "bridgebuilder:",
+      "  enabled: true",
+      "  model: claude-opus-4-6",
+      "",
+      "red_team:",
+      "  enabled: false",
+      "",
+    ].join("\n"));
+    try {
+      const config = await loadYamlConfig();
+      assert.equal(config.enabled, true, "bridgebuilder enabled should be true");
+      assert.equal(config.model, "claude-opus-4-6", "model should be parsed");
+    } finally {
+      teardown();
+    }
+  });
+
+  it("bridgebuilder after red_team: bridgebuilder enabled is preserved", async () => {
+    setupTempDir([
+      "red_team:",
+      "  enabled: false",
+      "",
+      "bridgebuilder:",
+      "  enabled: true",
+      "  model: claude-opus-4-6",
+      "",
+    ].join("\n"));
+    try {
+      const config = await loadYamlConfig();
+      assert.equal(config.enabled, true, "bridgebuilder enabled should be true");
+      assert.equal(config.model, "claude-opus-4-6", "model should be parsed");
+    } finally {
+      teardown();
+    }
+  });
+
+  it("red_team with enabled: false before bridgebuilder does not disable bridgebuilder", async () => {
+    setupTempDir([
+      "red_team:",
+      "  enabled: false",
+      "  model: gpt-5",
+      "",
+      "bridgebuilder:",
+      "  enabled: true",
+      "  max_prs: 5",
+      "",
+    ].join("\n"));
+    try {
+      const config = await loadYamlConfig();
+      assert.equal(config.enabled, true, "bridgebuilder should still be enabled");
+      assert.equal(config.max_prs, 5, "max_prs should be parsed from bridgebuilder section");
+    } finally {
+      teardown();
+    }
+  });
+
+  it("bridgebuilder_design_review: is NOT captured by bridgebuilder: regex", async () => {
+    setupTempDir([
+      "bridgebuilder_design_review:",
+      "  enabled: false",
+      "  model: gpt-5",
+      "",
+      "bridgebuilder:",
+      "  enabled: true",
+      "  model: claude-opus-4-6",
+      "",
+    ].join("\n"));
+    try {
+      const config = await loadYamlConfig();
+      // The bridgebuilder: section should be parsed, not bridgebuilder_design_review:
+      assert.equal(config.enabled, true, "should parse bridgebuilder: not bridgebuilder_design_review:");
+      assert.equal(config.model, "claude-opus-4-6", "model should come from bridgebuilder: section");
+    } finally {
+      teardown();
+    }
+  });
+
+  it("bridgebuilder_design_review: after bridgebuilder: does not bleed into bridgebuilder section", async () => {
+    setupTempDir([
+      "bridgebuilder:",
+      "  enabled: true",
+      "  model: claude-opus-4-6",
+      "",
+      "bridgebuilder_design_review:",
+      "  enabled: false",
+      "  model: gpt-5",
+      "",
+    ].join("\n"));
+    try {
+      const config = await loadYamlConfig();
+      assert.equal(config.enabled, true, "bridgebuilder enabled should be true");
+      assert.equal(config.model, "claude-opus-4-6", "model should be from bridgebuilder: section only");
+    } finally {
+      teardown();
+    }
+  });
+
+  it("section ordering independence: bridgebuilder values consistent regardless of position", async () => {
+    // Config with bridgebuilder first
+    setupTempDir([
+      "bridgebuilder:",
+      "  enabled: true",
+      "  model: claude-opus-4-6",
+      "  max_prs: 20",
+      "",
+      "red_team:",
+      "  enabled: true",
+      "",
+    ].join("\n"));
+    let configFirst: Awaited<ReturnType<typeof loadYamlConfig>>;
+    try {
+      configFirst = await loadYamlConfig();
+    } finally {
+      teardown();
+    }
+
+    // Config with bridgebuilder last
+    setupTempDir([
+      "red_team:",
+      "  enabled: true",
+      "",
+      "bridgebuilder:",
+      "  enabled: true",
+      "  model: claude-opus-4-6",
+      "  max_prs: 20",
+      "",
+    ].join("\n"));
+    let configLast: Awaited<ReturnType<typeof loadYamlConfig>>;
+    try {
+      configLast = await loadYamlConfig();
+    } finally {
+      teardown();
+    }
+
+    assert.deepEqual(configFirst, configLast, "bridgebuilder config should be identical regardless of section position");
+  });
+
+  it("returns empty config when .loa.config.yaml does not exist", async () => {
+    originalCwd = process.cwd();
+    tempDir = mkdtempSync(join(tmpdir(), "config-test-"));
+    // No .loa.config.yaml written
+    process.chdir(tempDir);
+    try {
+      const config = await loadYamlConfig();
+      assert.deepEqual(config, {}, "should return empty object when file missing");
+    } finally {
+      teardown();
+    }
   });
 });

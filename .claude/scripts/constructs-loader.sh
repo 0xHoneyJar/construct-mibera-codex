@@ -11,6 +11,7 @@
 #   constructs-loader.sh list-pack-skills <d> - List skills in a pack
 #   constructs-loader.sh get-pack-version <d> - Get pack version from manifest
 #   constructs-loader.sh check-updates        - Check for available updates
+#   constructs-loader.sh generate-index       - Generate construct index
 #
 # Exit Codes (for validate/preload):
 #   0 = valid
@@ -45,6 +46,12 @@ fi
 if [[ -f "$SCRIPT_DIR/yq-safe.sh" ]]; then
     source "$SCRIPT_DIR/yq-safe.sh"
 fi
+
+# cycle-099 sprint-1E.c.3.b: route registry GET through endpoint validator
+# with the constructs registry allowlist (api.constructs.network).
+# shellcheck source=lib/endpoint-validator.sh
+source "$SCRIPT_DIR/lib/endpoint-validator.sh"
+CONSTRUCTS_REGISTRY_ALLOWLIST="${LOA_CONSTRUCTS_REGISTRY_ALLOWLIST:-$SCRIPT_DIR/lib/allowlists/loa-registry.json}"
 
 # =============================================================================
 # Constants
@@ -98,7 +105,8 @@ discover_skills() {
     fi
 
     # Find all directories that look like skills (have index.yaml or SKILL.md)
-    find "$skills_dir" -mindepth 2 -maxdepth 2 -type d 2>/dev/null | while read -r skill_dir; do
+    # -L follows symlinks so construct packs installed via symlink are discovered
+    find -L "$skills_dir" -mindepth 2 -maxdepth 2 -type d 2>/dev/null | while read -r skill_dir; do
         # Check if it looks like a skill directory
         if [[ -f "$skill_dir/index.yaml" ]] || [[ -f "$skill_dir/SKILL.md" ]]; then
             # Extract vendor/skill name from path
@@ -177,9 +185,10 @@ discover_packs() {
         return 0
     fi
 
-    # Find all directories with manifest.json
-    find "$packs_dir" -mindepth 1 -maxdepth 1 -type d 2>/dev/null | while read -r pack_dir; do
-        if [[ -f "$pack_dir/manifest.json" ]]; then
+    # Find all directories with manifest.json or construct.yaml
+    # -L follows symlinks so construct packs installed via symlink are discovered
+    find -L "$packs_dir" -mindepth 1 -maxdepth 1 -type d 2>/dev/null | while read -r pack_dir; do
+        if [[ -f "$pack_dir/manifest.json" ]] || [[ -f "$pack_dir/construct.yaml" ]]; then
             basename "$pack_dir"
         fi
     done
@@ -1016,6 +1025,11 @@ do_preload() {
     local output=""
     output=$(validate_skill "$skill_dir" 2>&1) || exit_code=$?
 
+    # Check pack staleness (warn if >7 days old) — Issue #449
+    if type check_pack_staleness &>/dev/null; then
+        check_pack_staleness "$skill_name" 7 || true  # Warning only, don't block
+    fi
+
     case "$exit_code" in
         0)
             # Valid - silent success
@@ -1120,8 +1134,15 @@ query_skill_versions() {
 
     # Query the versions endpoint
     local url="${registry_url}/skills/${skill_slug}/versions"
-    # HIGH-002 FIX: Enforce HTTPS and TLS 1.2+
-    curl -s --proto =https --tlsv1.2 --connect-timeout 5 --max-time 10 "$url" 2>/dev/null
+    # HIGH-002: --tlsv1.2 enforces minimum TLS version.
+    # cycle-099 sprint-1E.c.3.b: https-only + redirect-bound enforcement now
+    # comes from endpoint_validator__guarded_curl. Allowlist gate also closes
+    # the SSRF surface where LOA_REGISTRY_URL env override could redirect at
+    # an attacker-controlled host.
+    endpoint_validator__guarded_curl \
+        --allowlist "$CONSTRUCTS_REGISTRY_ALLOWLIST" \
+        --url "$url" \
+        -s --tlsv1.2 --connect-timeout 5 --max-time 10 2>/dev/null
 }
 
 # Check for updates for all installed skills
@@ -1174,7 +1195,7 @@ do_check_updates() {
         if [[ -z "$response" ]]; then
             # Network error or skill not found
             print_status "$icon_unknown" "$skill_slug ($current_version) [unable to check]"
-            ((errors++))
+            errors=$((errors + 1))
             continue
         fi
 
@@ -1192,7 +1213,7 @@ do_check_updates() {
 
         if [[ -z "$latest_version" ]]; then
             print_status "$icon_unknown" "$skill_slug ($current_version) [parse error]"
-            ((errors++))
+            errors=$((errors + 1))
             continue
         fi
 
@@ -1204,7 +1225,7 @@ do_check_updates() {
             1)
                 # Update available
                 print_status "$icon_warning" "$skill_slug: $current_version → $latest_version (update available)"
-                ((updates_available++))
+                updates_available=$((updates_available + 1))
                 ;;
             0)
                 # Up to date
@@ -1216,7 +1237,7 @@ do_check_updates() {
                 ;;
         esac
 
-        ((skills_checked++))
+        skills_checked=$((skills_checked + 1))
     done <<< "$skills"
 
     echo ""
@@ -1456,6 +1477,7 @@ Commands:
     check-updates           Check for available updates
     validate-manifest <dir> Validate a pack's manifest.json against schema
     validate-all-manifests  Validate all pack manifests in registry
+    generate-index          Generate construct index (delegates to construct-index-gen.sh)
     ensure-gitignore        Add .claude/constructs/ to .gitignore if missing
 
 Exit Codes (validate/preload):
@@ -1534,6 +1556,15 @@ main() {
             ;;
         validate-all-manifests)
             do_validate_all_manifests "${2:-}"
+            ;;
+        generate-index|gen-index)
+            shift
+            local index_gen="$SCRIPT_DIR/construct-index-gen.sh"
+            if [[ ! -x "$index_gen" ]]; then
+                print_error "construct-index-gen.sh not found"
+                exit 2
+            fi
+            exec "$index_gen" "$@"
             ;;
         ensure-gitignore)
             ensure_constructs_gitignored

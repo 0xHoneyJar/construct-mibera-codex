@@ -19,8 +19,15 @@ set -euo pipefail
 # Configuration
 # ============================================================================
 
+
+# sprint-bug-172 / bug-911: sha256_portable from compat-lib
+source "$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)/compat-lib.sh"
+
 readonly SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 readonly STATE_SCRIPT="${SCRIPT_DIR}/post-pr-state.sh"
+
+# shellcheck source=lib/normalize-json.sh
+source "$SCRIPT_DIR/lib/normalize-json.sh"
 
 # Retry policy (Flatline IMP-003)
 readonly MAX_ATTEMPTS="${MAX_ATTEMPTS:-3}"
@@ -102,7 +109,7 @@ finding_identity() {
   local identity_str="${category}|${rule_id}|${file}|${normalized_line}|${severity}"
 
   # Generate SHA256 and take first 16 chars
-  echo -n "$identity_str" | sha256sum | cut -c1-16
+  echo -n "$identity_str" | sha256_portable | cut -c1-16
 }
 
 # Check if finding identity is already known (circuit breaker)
@@ -367,7 +374,7 @@ generate_audit_report() {
   local report_file="$2"
 
   local verdict
-  verdict=$(jq -r '.verdict' "$findings_file")
+  verdict=$(extract_verdict "$(cat "$findings_file")")
   local findings_count
   findings_count=$(jq '.findings | length' "$findings_file")
 
@@ -486,9 +493,9 @@ main() {
   # Run audit
   run_audit "$context_dir"
 
-  # Get verdict
+  # Get verdict (supports .verdict and .overall_verdict fallback)
   local verdict
-  verdict=$(jq -r '.verdict' "${context_dir}/audit-findings.json")
+  verdict=$(extract_verdict "$(cat "${context_dir}/audit-findings.json")")
 
   case "$verdict" in
     APPROVED)

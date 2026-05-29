@@ -1,4 +1,25 @@
 ---
+name: review-sprint
+description: Validate sprint implementation against acceptance criteria
+role: review
+allowed-tools: Read, Grep, Glob, WebFetch, Bash(git diff *), Bash(git log *)
+capabilities:
+  schema_version: 1
+  read_files: true
+  search_code: true
+  write_files: false
+  execute_commands:
+    allowed:
+      - command: "git"
+        args: ["diff", "*"]
+      - command: "git"
+        args: ["log", "*"]
+    deny_raw_shell: true
+  web_access: true
+  user_interaction: false
+  agent_spawn: false
+  task_management: false
+cost-profile: moderate
 parallel_threshold: 3000
 timeout_minutes: 60
 zones:
@@ -276,10 +297,17 @@ Review sprint implementation for completeness, quality, security. Either approve
 - DO check that proper documentation was updated if integration context requires
 - DO verify context links are preserved (Discord threads, Linear issues) if required
 - DO read ALL context docs before reviewing
+- **DO check for `## AC Verification` section in `reviewer.md`** (cycle-057, Issue #475).
+  Return CHANGES_REQUIRED automatically when:
+  - The `## AC Verification` section is missing entirely
+  - Any AC shows `✗ Not met` without a scope-split to a follow-up sprint task
+  - Any AC shows `⏸ [ACCEPTED-DEFERRED]` without a matching Decision Log entry in `grimoires/loa/NOTES.md`
+  - Evidence for a `Met` claim is vague ("implemented in src/", "done", "yes") — demand file:line + specific symbol
 
 ## Verification (E - Easy to Verify)
 **Approval criteria** (ALL must be true):
-- All sprint tasks completed + all acceptance criteria met
+- `## AC Verification` section is present and complete — every AC from `sprint.md` walked verbatim
+- All sprint tasks completed + all acceptance criteria met (status `✓ Met` or valid `⏸ [ACCEPTED-DEFERRED]`)
 - Code quality is production-ready (readable, maintainable, follows conventions)
 - Tests are comprehensive and meaningful (happy paths, errors, edge cases)
 - No security issues (no hardcoded secrets, proper input validation, auth/authz correct)
@@ -313,6 +341,11 @@ Before reviewing:
 5. Read `grimoires/loa/a2a/sprint-N/reviewer.md` for implementation report
 6. Read `grimoires/loa/a2a/sprint-N/engineer-feedback.md` (if exists) for previous feedback
 7. Read actual implementation code—do not trust report alone
+8. If `.claude/scripts/qmd-context-query.sh` exists and `qmd_context.enabled` is not `false` in `.loa.config.yaml`:
+   - Build query from changed file names and sprint goal
+   - Run: `.claude/scripts/qmd-context-query.sh --query "<changed_files> <sprint_goal>" --scope grimoires --budget 1500 --format text`
+   - Include output as advisory context for review (acceptance criteria and code remain primary sources)
+   - If script missing, disabled, or returns empty: proceed normally (graceful no-op)
 </grounding_requirements>
 
 <citation_requirements>
@@ -395,7 +428,7 @@ Verify implementation follows the four principles:
 
 ## Phase 2.5: Adversarial Cross-Model Review
 
-**Condition**: Only runs if `flatline_protocol.code_review.enabled: true` in `.loa.config.yaml`.
+**MANDATORY when enabled.** Runs if `flatline_protocol.code_review.enabled: true` in `.loa.config.yaml`. Skipping this phase triggers a `PreToolUse:Write` gate block at `COMPLETED` marker write time (see `.claude/hooks/safety/adversarial-review-gate.sh`). Emergency override only via `LOA_ADVERSARIAL_REVIEW_ENFORCE=false` — document in sprint notes.
 
 **Objective**: Invoke a cross-model dissenter to catch reviewer blind spots before the final decision.
 
@@ -415,6 +448,8 @@ Verify implementation follows the four principles:
    - If BLOCKING findings exist: incorporate into Phase 4 decision (forces CHANGES_REQUIRED)
    - If ADVISORY findings only: append as "Cross-Model Observations" section in feedback
 4. Clean up temp files
+
+**Failure must produce a record.** If `adversarial-review.sh` fails (timeout, API error, budget exceeded), write `grimoires/loa/a2a/{sprint_id}/adversarial-review.json` with `{"findings": [], "metadata": {"status": "failed", "reason": "..."}}` BEFORE proceeding. Do NOT silently skip — the gate hook has no way to distinguish "not attempted" from "attempted and failed", and the distinction matters for audit trail.
 
 **Parameter Derivation**:
 | Script Parameter | SKILL Derivation |

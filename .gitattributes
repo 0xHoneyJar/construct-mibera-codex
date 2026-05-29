@@ -1,0 +1,101 @@
+# Loa Framework Git Attributes
+# These settings ensure smooth updates from upstream without overwriting project files
+
+# =============================================================================
+# PROJECT IDENTITY FILES
+# =============================================================================
+# These files define YOUR project, not the Loa framework.
+# Using merge=ours ensures your versions are preserved during `git merge loa/main`
+#
+# IMPORTANT: For this to work, downstream projects must configure the merge driver:
+#   git config merge.ours.driver true
+#
+# This is a one-time setup that tells Git to always keep the local version
+# when merging these files from upstream.
+
+README.md merge=ours
+CHANGELOG.md merge=ours
+BUTTERFREEZONE.md merge=ours
+
+# =============================================================================
+# FRAMEWORK-MANAGED VERSION MARKERS (Issue #554)
+# =============================================================================
+# .loa-version.json looks like project config but describes framework identity.
+# merge=ours keeps the local file during merge (no conflict prompt); the
+# /update-loa Phase 5.6 bump step is what refreshes the content post-merge
+# via `update-loa-bump-version.sh`. Without Phase 5.6, the marker goes stale.
+.loa-version.json merge=ours
+
+# =============================================================================
+# STATE ZONE FILES (grimoires/)
+# =============================================================================
+# These files are project-specific planning artifacts in the State Zone.
+# /update-loa merges upstream which uses the same paths for its own dev cycles.
+# merge=ours prevents upstream PRD/SDD/sprint files from overwriting yours.
+# See: Three-Zone Model in CLAUDE.loa.md — grimoires/ is user-owned state.
+#
+# To check what upstream changed (opt-in to improvements):
+#   git diff main..loa/main -- grimoires/loa/prd.md
+#   git diff main..loa/main -- grimoires/loa/sdd.md
+
+grimoires/loa/prd.md merge=ours
+grimoires/loa/sdd.md merge=ours
+grimoires/loa/sprint.md merge=ours
+grimoires/loa/NOTES.md merge=ours
+# Note: ledger.json is schema-owned operational state (not user-authored prose).
+# merge=ours preserves your cycle/sprint data but may skip upstream schema migrations.
+# update-loa.sh warns when upstream schema_version exceeds local — run /ledger migrate.
+grimoires/loa/ledger.json merge=ours
+
+# =============================================================================
+# CI/CD WORKFLOW FILES
+# =============================================================================
+# GitHub Actions workflow files require the `workflow` OAuth scope to push.
+# Downstream projects should not receive upstream workflow changes via
+# `git merge loa/main` — this blocks pushes for users without that scope.
+# Using merge=ours ensures downstream workflow files are preserved.
+# For NEW workflow files added upstream, /update-loa includes a post-merge
+# revert step (Phase 5.5) to remove them.
+
+.github/workflows/*.yml merge=ours
+.github/workflows/*.yaml merge=ours
+
+# =============================================================================
+# LINE ENDING NORMALIZATION
+# =============================================================================
+# Ensure consistent line endings across platforms
+
+* text=auto
+
+# Shell scripts should always have LF endings
+*.sh text eol=lf
+
+# Batch files should have CRLF on Windows
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# =============================================================================
+# BINARY FILES
+# =============================================================================
+# Treat these as binary (no diff, no merge)
+
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+*.zip binary
+*.tar.gz binary
+*.woff binary
+*.woff2 binary
+*.ttf binary
+*.eot binary
+
+# =============================================================================
+# DIFF SETTINGS
+# =============================================================================
+# Use appropriate diff drivers for better diffs
+
+*.md diff=markdown
+*.json diff=json
