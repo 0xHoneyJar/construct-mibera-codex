@@ -8,6 +8,10 @@
 #   ./preflight.sh --integrity   # Run full integrity checks for ck operations
 
 # Check if a file exists
+
+# sprint-bug-172 / bug-911: sha256_portable from compat-lib
+source "$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)/compat-lib.sh"
+
 check_file_exists() {
     local path="$1"
     [ -f "$path" ]
@@ -226,7 +230,7 @@ run_integrity_checks() {
             EXPECTED_FINGERPRINT=$(jq -r '.binary_fingerprints.ck // ""' "${PROJECT_ROOT}/.loa-version.json")
             if [[ -n "${EXPECTED_FINGERPRINT}" ]] && [[ "${EXPECTED_FINGERPRINT}" != "null" ]]; then
                 CK_PATH=$(command -v ck)
-                ACTUAL_FINGERPRINT=$(sha256sum "${CK_PATH}" | awk '{print $1}')
+                ACTUAL_FINGERPRINT=$(sha256_portable "${CK_PATH}" | awk '{print $1}')
 
                 if [[ "${EXPECTED_FINGERPRINT}" != "${ACTUAL_FINGERPRINT}" ]]; then
                     echo "⚠️  ck binary fingerprint mismatch" >&2
@@ -284,6 +288,20 @@ run_integrity_checks() {
     if [[ -f "${PROJECT_ROOT}/.claude/scripts/validate-commands.sh" ]]; then
         echo "Validating command namespace..." >&2
         "${PROJECT_ROOT}/.claude/scripts/validate-commands.sh" || true  # Don't fail on warnings
+    fi
+
+    # 8. QMD Context: Surface known issues for current skill
+    if [[ -x "${PROJECT_ROOT}/.claude/scripts/qmd-context-query.sh" ]]; then
+        local skill_context
+        skill_context=$("${PROJECT_ROOT}/.claude/scripts/qmd-context-query.sh" \
+            --query "${2:-preflight} configuration prerequisites" \
+            --scope notes \
+            --budget 1000 \
+            --format text 2>/dev/null) || skill_context=""
+        if [[ -n "${skill_context}" ]]; then
+            echo "Known issues context:" >&2
+            echo "${skill_context}" >&2
+        fi
     fi
 
     echo "✓ Pre-flight integrity checks complete" >&2

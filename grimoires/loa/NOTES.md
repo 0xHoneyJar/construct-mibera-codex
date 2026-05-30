@@ -65,6 +65,23 @@
 
 ## Decisions
 
+### Cycle 025 Sprint 1 — editorial `period_modern` values (2026-05-30)
+
+FR-4 required adding the schema-mandatory `period_modern` key to the only two
+ancestor files lacking it. The schema (`_codex/schema/ancestor.schema.json:27`)
+requires a non-null string, so per SDD Open Question Q4 (default: "best-fit string
+from each entry's existing prose") these were authored editorially, grounded in
+each file's own modern content — **not** contract/asset-sourced data:
+
+- `core-lore/ancestors/irish-druids.md` → `period_modern: 2017 - 2024` — prose cites
+  "The Blindboy Podcast … Launched in 2017" as the living modern Irish-Celtic continuation.
+- `core-lore/ancestors/pythia.md` → `period_modern: 2001 - 2024` — prose cites "modern
+  research suggests the Oracle's visions may have been induced by ethylene gas," i.e. the
+  modern geological re-examination of Delphi.
+
+These are flagged in `a2a/sprint-1/reviewer.md` (Known Limitations) for reviewer/
+stakeholder confirmation; both are trivially adjustable if other values are preferred.
+
 ### Session 08 — intent-layer / QMD search-partner (2026-05-02)
 
 Session 08 ships the `§6 intent-layer` extension to bucket-1 (per `~/vault/wiki/concepts/construct-surface-decision-tree.md` §6, added in this session). Closes construct-mibera-codex#62 *broadly* — session 07 closed it narrowly (NAME layer); this session adds the INTENT layer so users without the canonical name (`"void motif"` instead of `"Black Hole"`) still resolve via search → ranked refs → lookup.

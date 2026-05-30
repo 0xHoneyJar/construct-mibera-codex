@@ -25,8 +25,8 @@ where `{slug}` is the canonical slug field from `_codex/data/grails.jsonl` —
 | Scorpio | `scorpio` | `…/grails/scorpio.webp` |
 
 **Why two variants?** `.webp` is the canonical inline-render form (resized to 1600px max,
-quality 82, ~150-550 KB) — fits inside GitHub's 5 MB Camo proxy limit so `![grail](…)`
-markdown renders inline on every `*/grails/{slug}.md` view. `.png` is the original
+quality 82, ~150-550 KB) — fits inside GitHub's 5 MB Camo proxy limit so the inline
+`![grail]` image markdown renders on every `*/grails/{slug}.md` view. `.png` is the original
 full-resolution artwork (3-7 MB) preserved alongside for high-fidelity downloads,
 print, or any consumer that needs lossless. Composes with [[metadata-as-integration-contract]]
 — field-shape (`image`) is the contract; the variant chosen at the URL extension is

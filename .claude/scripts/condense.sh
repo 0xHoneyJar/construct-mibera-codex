@@ -3,6 +3,10 @@
 # Part of the Loa framework's Recursive JIT Context System
 set -euo pipefail
 
+
+# sprint-bug-172 / bug-911: sha256_portable from compat-lib
+source "$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)/compat-lib.sh"
+
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 # Allow environment variable overrides for testing
@@ -121,11 +125,8 @@ check_dependencies() {
 #######################################
 sha256_hash() {
     local input="$1"
-    if command -v sha256sum &>/dev/null; then
-        echo -n "$input" | sha256sum | cut -d' ' -f1
-    else
-        echo -n "$input" | shasum -a 256 | cut -d' ' -f1
-    fi
+    # sprint-bug-172: sha256_portable handles GNU/BSD/fail-loud dispatch.
+    echo -n "$input" | sha256_portable | cut -d' ' -f1
 }
 
 #######################################
@@ -214,6 +215,7 @@ strategy_structured_verdict() {
     # Extract core verdict fields
     local verdict severity_counts top_findings_arr full_path
 
+    # Intentionally NOT using extract_verdict() — condense handles .status/.result shapes beyond review pipeline
     verdict=$(echo "$input" | jq -r '.verdict // .status // .result // "UNKNOWN"')
     severity_counts=$(echo "$input" | jq -c '.severity_counts // .severities // {critical: 0, high: 0, medium: 0, low: 0}')
 
@@ -349,6 +351,7 @@ strategy_summary() {
 
     local verdict description item_count
 
+    # Intentionally NOT using extract_verdict() — condense handles .status/.result shapes beyond review pipeline
     verdict=$(echo "$input" | jq -r '.verdict // .status // .result // "completed"')
     description=$(echo "$input" | jq -r '.description // .summary // .message // ""' | head -c 200)
 

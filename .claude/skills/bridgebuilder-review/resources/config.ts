@@ -1,14 +1,168 @@
 import { execFile, execSync } from "node:child_process";
 import { promisify } from "node:util";
 import { readFile } from "node:fs/promises";
-import type { BridgebuilderConfig } from "./core/types.js";
+import { z } from "zod/v4";
+import type { BridgebuilderConfig, MultiModelConfig } from "./core/types.js";
 
 const execFileAsync = promisify(execFile);
+
+/**
+ * Zod schema for multi-model configuration (SDD Section 2.7).
+ * Validated at startup; all fields have sensible defaults so partial config works.
+ */
+const ScoringThresholdsSchema = z.object({
+  high_consensus: z.number().default(700),
+  disputed_delta: z.number().default(300),
+  low_value: z.number().default(400),
+  blocker: z.number().default(700),
+});
+
+export const MultiModelConfigSchema = z.object({
+  enabled: z.boolean().default(false),
+  models: z.array(z.object({
+    provider: z.string(),
+    model_id: z.string(),
+    role: z.enum(["primary", "reviewer"]).default("reviewer"),
+  })).default([]),
+  iteration_strategy: z.union([
+    z.enum(["every", "final"]),
+    z.array(z.number()),
+  ]).default("final"),
+  api_key_mode: z.enum(["graceful", "strict"]).default("graceful"),
+  consensus: z.object({
+    enabled: z.boolean().default(true),
+    scoring_thresholds: ScoringThresholdsSchema.default(
+      () => ({ high_consensus: 700, disputed_delta: 300, low_value: 400, blocker: 700 }),
+    ),
+  }).default(
+    () => ({ enabled: true, scoring_thresholds: { high_consensus: 700, disputed_delta: 300, low_value: 400, blocker: 700 } }),
+  ),
+  token_budget: z.object({
+    per_model: z.number().nullable().default(null),
+    total: z.number().nullable().default(null),
+  }).default(
+    () => ({ per_model: null, total: null }),
+  ),
+  depth: z.object({
+    structural_checklist: z.boolean().default(true),
+    checklist_min_elements: z.number().default(5),
+    permission_to_question: z.boolean().default(true),
+    lore_active_weaving: z.boolean().default(true),
+  }).default(
+    () => ({ structural_checklist: true, checklist_min_elements: 5, permission_to_question: true, lore_active_weaving: true }),
+  ),
+  cross_repo: z.object({
+    auto_detect: z.boolean().default(true),
+    manual_refs: z.array(z.string()).default([]),
+  }).default(
+    () => ({ auto_detect: true, manual_refs: [] }),
+  ),
+  rating: z.object({
+    enabled: z.boolean().default(true),
+    timeout_seconds: z.number().default(60),
+    retrospective_command: z.boolean().default(true),
+  }).default(
+    () => ({ enabled: true, timeout_seconds: 60, retrospective_command: true }),
+  ),
+  progress: z.object({
+    verbose: z.boolean().default(true),
+  }).default(
+    () => ({ verbose: true }),
+  ),
+  max_concurrency: z.number().optional(),
+  cost_rates: z.record(z.string(), z.object({
+    input: z.number(),
+    output: z.number(),
+  })).optional(),
+});
+
+/**
+ * Load multi-model configuration from .loa.config.yaml using yq CLI (SDD Section 2.7).
+ * Falls back to defaults (enabled: false) if yq is missing or config absent.
+ */
+export function loadMultiModelConfig(): MultiModelConfig {
+  try {
+    // Check if yq is available
+    try {
+      execSync("command -v yq", { encoding: "utf8", timeout: 2000, stdio: "pipe" });
+    } catch {
+      // Check if multi_model config exists in the file (simple grep)
+      try {
+        const content = execSync("grep -c 'multi_model:' .loa.config.yaml 2>/dev/null || echo 0", {
+          encoding: "utf8",
+          timeout: 2000,
+          stdio: "pipe",
+        }).trim();
+        if (parseInt(content, 10) > 0) {
+          console.error(
+            "[bridgebuilder] Multi-model config detected but yq is not installed. " +
+            "Install with: brew install yq (macOS) or snap install yq (Linux). " +
+            "Falling back to single-model mode.",
+          );
+        }
+      } catch {
+        // Ignore grep errors
+      }
+      return MultiModelConfigSchema.parse({});
+    }
+
+    const result = execSync(
+      'yq eval ".run_bridge.bridgebuilder.multi_model" .loa.config.yaml -o json',
+      { encoding: "utf8", timeout: 5000, stdio: "pipe" },
+    );
+    if (!result || result.trim() === "null" || result.trim() === "") {
+      return MultiModelConfigSchema.parse({});
+    }
+    return MultiModelConfigSchema.parse(JSON.parse(result));
+  } catch (err) {
+    // On any error, return safe defaults (disabled)
+    if (err instanceof z.ZodError) {
+      console.error(
+        `[bridgebuilder] Invalid multi_model config: ${err.issues.map((i) => i.message).join(", ")}. Using defaults.`,
+      );
+    }
+    return MultiModelConfigSchema.parse({});
+  }
+}
+
+/** Environment variable to API key mapping for multi-model providers. */
+export const PROVIDER_API_KEY_ENV: Record<string, string> = {
+  anthropic: "ANTHROPIC_API_KEY",
+  openai: "OPENAI_API_KEY",
+  google: "GOOGLE_API_KEY",
+};
+
+/**
+ * Validate API keys for configured multi-model providers.
+ * Returns available and missing provider lists.
+ */
+export function validateApiKeys(config: MultiModelConfig): {
+  valid: Array<{ provider: string; modelId: string }>;
+  missing: Array<{ provider: string; envVar: string }>;
+} {
+  const valid: Array<{ provider: string; modelId: string }> = [];
+  const missing: Array<{ provider: string; envVar: string }> = [];
+
+  for (const model of config.models) {
+    const envVar = PROVIDER_API_KEY_ENV[model.provider];
+    if (!envVar) {
+      missing.push({ provider: model.provider, envVar: `Unknown provider: ${model.provider}` });
+      continue;
+    }
+    if (process.env[envVar]) {
+      valid.push({ provider: model.provider, modelId: model.model_id });
+    } else {
+      missing.push({ provider: model.provider, envVar });
+    }
+  }
+
+  return { valid, missing };
+}
 
 /** Built-in defaults per PRD FR-4 (lowest priority). */
 const DEFAULTS: BridgebuilderConfig = {
   repos: [],
-  model: "claude-sonnet-4-5-20250929",
+  model: "claude-opus-4-7",
   maxPrs: 10,
   maxFilesPerPr: 50,
   maxDiffBytes: 512_000,
@@ -21,6 +175,7 @@ const DEFAULTS: BridgebuilderConfig = {
   excludePatterns: [],
   sanitizerMode: "default",
   maxRuntimeMinutes: 30,
+  reviewMode: "two-pass",
 };
 
 export interface CLIArgs {
@@ -36,6 +191,7 @@ export interface CLIArgs {
   exclude?: string[];
   forceFullReview?: boolean;
   repoRoot?: string;
+  reviewMode?: "two-pass" | "single-pass";
 }
 
 export interface YamlConfig {
@@ -55,6 +211,9 @@ export interface YamlConfig {
   max_runtime_minutes?: number;
   loa_aware?: boolean;
   persona?: string;
+  review_mode?: "two-pass" | "single-pass";
+  ecosystem_context_path?: string;
+  pass1_cache_enabled?: boolean;
 }
 
 export interface EnvVars {
@@ -62,6 +221,8 @@ export interface EnvVars {
   BRIDGEBUILDER_MODEL?: string;
   BRIDGEBUILDER_DRY_RUN?: string;
   BRIDGEBUILDER_REPO_ROOT?: string;
+  LOA_BRIDGE_REVIEW_MODE?: string;
+  BRIDGEBUILDER_PASS1_CACHE?: string;
 }
 
 /**
@@ -114,6 +275,12 @@ export function parseCLIArgs(argv: string[]): CLIArgs {
       args.forceFullReview = true;
     } else if (arg === "--repo-root" && i + 1 < argv.length) {
       args.repoRoot = argv[++i];
+    } else if (arg === "--review-mode" && i + 1 < argv.length) {
+      const mode = argv[++i];
+      if (mode !== "two-pass" && mode !== "single-pass") {
+        throw new Error(`Invalid --review-mode value: ${mode}. Must be "two-pass" or "single-pass".`);
+      }
+      args.reviewMode = mode;
     }
   }
 
@@ -128,11 +295,14 @@ async function autoDetectRepo(): Promise<{ owner: string; repo: string } | null>
     const { stdout } = await execFileAsync("git", ["remote", "-v"], {
       timeout: 5_000,
     });
-    // Match first line: origin	git@github.com:owner/repo.git (fetch)
-    // or:               origin	https://github.com/owner/repo.git (fetch)
-    const match = stdout.match(
-      /(?:github\.com)[:/]([^/\s]+)\/([^/\s.]+?)(?:\.git)?\s/,
+    const lines = stdout.split("\n");
+    const ghPattern = /(?:github\.com)[:/]([^/\s]+)\/([^/\s.]+?)(?:\.git)?\s/;
+    // Prefer "origin" remote — avoids picking framework remote alphabetically (#395)
+    const originLine = lines.find(
+      (l) => l.startsWith("origin\t") && l.includes("(fetch)"),
     );
+    const targetLine = originLine ?? lines.find((l) => l.includes("(fetch)"));
+    const match = targetLine?.match(ghPattern);
     if (match) {
       return { owner: match[1], repo: match[2] };
     }
@@ -166,11 +336,11 @@ function parseRepoString(s: string): { owner: string; repo: string } {
  * Uses a simple key:value parser — no YAML library dependency.
  * Supports scalar values and YAML list syntax (- item).
  */
-async function loadYamlConfig(): Promise<YamlConfig> {
+export async function loadYamlConfig(): Promise<YamlConfig> {
   try {
     const content = await readFile(".loa.config.yaml", "utf-8");
     // Find bridgebuilder section
-    const match = content.match(/^bridgebuilder:\s*\n((?:\s+.+\n?)*)/m);
+    const match = content.match(/^bridgebuilder:\s*\n((?:[ \t]+.+\n?)*)/m);
     if (!match) return {};
 
     const section = match[1];
@@ -250,6 +420,17 @@ async function loadYamlConfig(): Promise<YamlConfig> {
         case "persona":
           config.persona = value;
           break;
+        case "review_mode":
+          if (value === "two-pass" || value === "single-pass") {
+            config.review_mode = value;
+          }
+          break;
+        case "ecosystem_context_path":
+          config.ecosystem_context_path = value;
+          break;
+        case "pass1_cache_enabled":
+          config.pass1_cache_enabled = value === "true";
+          break;
       }
     }
 
@@ -280,6 +461,21 @@ export function resolveRepoRoot(cli: CLIArgs, env: EnvVars): string | undefined 
   } catch {
     return undefined;
   }
+}
+
+/**
+ * Resolve pass1Cache.enabled: env > yaml > default (false).
+ * Returns boolean or null if no explicit config.
+ */
+function resolvePass1Cache(
+  _cliArgs: CLIArgs,
+  env: EnvVars,
+  yaml: YamlConfig,
+): boolean | null {
+  if (env.BRIDGEBUILDER_PASS1_CACHE === "true") return true;
+  if (env.BRIDGEBUILDER_PASS1_CACHE === "false") return false;
+  if (yaml.pass1_cache_enabled != null) return yaml.pass1_cache_enabled;
+  return null;
 }
 
 /**
@@ -413,7 +609,29 @@ export async function resolveConfig(
       ? { personaFilePath: yaml.persona_path }
       : {}),
     ...(cliArgs.forceFullReview ? { forceFullReview: true } : {}),
+    ...(yaml.ecosystem_context_path != null
+      ? { ecosystemContextPath: yaml.ecosystem_context_path }
+      : {}),
+    ...(resolvePass1Cache(cliArgs, env, yaml) != null
+      ? { pass1Cache: { enabled: resolvePass1Cache(cliArgs, env, yaml)! } }
+      : {}),
+    reviewMode:
+      cliArgs.reviewMode ??
+      (env.LOA_BRIDGE_REVIEW_MODE === "two-pass" || env.LOA_BRIDGE_REVIEW_MODE === "single-pass"
+        ? env.LOA_BRIDGE_REVIEW_MODE
+        : undefined) ??
+      yaml.review_mode ??
+      DEFAULTS.reviewMode,
   };
+
+  // Track reviewMode provenance
+  const reviewModeSource: ConfigSource = cliArgs.reviewMode
+    ? "cli"
+    : env.LOA_BRIDGE_REVIEW_MODE === "two-pass" || env.LOA_BRIDGE_REVIEW_MODE === "single-pass"
+      ? "env"
+      : yaml.review_mode
+        ? "yaml"
+        : "default";
 
   const provenance: ConfigProvenance = {
     repos: reposSource,
@@ -422,6 +640,7 @@ export async function resolveConfig(
     maxInputTokens: maxInputTokensSource,
     maxOutputTokens: maxOutputTokensSource,
     maxDiffBytes: maxDiffBytesSource,
+    reviewMode: reviewModeSource,
   };
 
   return { config, provenance };
@@ -452,6 +671,7 @@ export interface ConfigProvenance {
   maxInputTokens: ConfigSource;
   maxOutputTokens: ConfigSource;
   maxDiffBytes: ConfigSource;
+  reviewMode: ConfigSource;
 }
 
 /**
@@ -485,6 +705,7 @@ export function formatEffectiveConfig(
     `max_output_tokens=${config.maxOutputTokens}${outputSrc}, ` +
     `max_diff_bytes=${config.maxDiffBytes}${diffSrc}, ` +
     `dry_run=${config.dryRun}${drySrc}, sanitizer_mode=${config.sanitizerMode}${prFilter}` +
-    `${personaInfo}${excludeInfo}`
+    `${personaInfo}${excludeInfo}` +
+    `, review_mode=${config.reviewMode}${p ? ` (${p.reviewMode})` : ""}`
   );
 }

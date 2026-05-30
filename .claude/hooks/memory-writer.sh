@@ -19,8 +19,19 @@ set -euo pipefail
 
 # Configuration
 PROJECT_ROOT="${PROJECT_ROOT:-$(pwd)}"
-MEMORY_DIR="$PROJECT_ROOT/grimoires/loa/memory"
 SESSION_ID="${LOA_SESSION_ID:-$(date +%Y%m%d)-$$}"
+
+# Resolve memory directory via path-lib (with fallback to legacy path)
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+_PATH_LIB_LOADED=false
+if [[ -f "$SCRIPT_DIR/../scripts/path-lib.sh" ]]; then
+    source "$SCRIPT_DIR/../scripts/path-lib.sh" 2>/dev/null && _PATH_LIB_LOADED=true
+fi
+if [[ "$_PATH_LIB_LOADED" == "true" ]]; then
+    MEMORY_DIR=$(get_state_memory_dir 2>/dev/null) || MEMORY_DIR="$PROJECT_ROOT/grimoires/loa/memory"
+else
+    MEMORY_DIR="$PROJECT_ROOT/grimoires/loa/memory"
+fi
 MEMORY_ENABLED="${LOA_MEMORY_ENABLED:-true}"
 
 # Skip if disabled
@@ -113,8 +124,39 @@ LEARNING_PATTERNS=(
     "for future reference"
 )
 
+# =============================================================================
+# Auto-Memory Scope Skip List (v1.40.0)
+# =============================================================================
+# Observations matching these patterns belong to Claude Code's auto-memory
+# system, not to Loa's observations.jsonl. Skip to avoid duplication.
+# See: .claude/loa/reference/memory-reference.md §Ownership Boundary
+SKIP_PATTERNS=(
+    "user prefer"
+    "project structure"
+    "working style"
+    "tool configuration"
+    "IDE setting"
+    "editor preference"
+    "coding style preference"
+)
+
+should_skip_auto_memory_scope() {
+    local output="$1"
+    for pattern in "${SKIP_PATTERNS[@]}"; do
+        if echo "$output" | grep -qiF "$pattern"; then
+            return 0
+        fi
+    done
+    return 1
+}
+
 has_learning_signal() {
     local output="$1"
+
+    # Skip observations that belong to auto-memory scope
+    if should_skip_auto_memory_scope "$output"; then
+        return 1
+    fi
 
     for pattern in "${LEARNING_PATTERNS[@]}"; do
         if echo "$output" | grep -qiE "$pattern"; then
@@ -229,8 +271,13 @@ store_observation() {
     # Ensure directories exist
     mkdir -p "$MEMORY_DIR/sessions"
 
-    # Append to main observations file (with locking)
-    locked_append "$MEMORY_DIR/observations.jsonl" "$observation"
+    # Append to main observations file (prefer append_jsonl from path-lib if available)
+    if [[ "$_PATH_LIB_LOADED" == "true" ]] && type append_jsonl &>/dev/null; then
+        append_jsonl "$MEMORY_DIR/observations.jsonl" "$observation" 2>/dev/null || \
+            locked_append "$MEMORY_DIR/observations.jsonl" "$observation"
+    else
+        locked_append "$MEMORY_DIR/observations.jsonl" "$observation"
+    fi
 
     # Append to session-specific file (with locking)
     local session_file="$MEMORY_DIR/sessions/${SESSION_ID}.jsonl"

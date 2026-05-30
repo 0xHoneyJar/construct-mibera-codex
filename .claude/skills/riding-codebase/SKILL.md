@@ -1,9 +1,20 @@
 ---
 name: ride
 description: Analyze codebase to extract reality into Loa artifacts
+role: planning
 context: fork
-agent: Explore
 allowed-tools: Read, Grep, Glob, Write, Bash(git *)
+capabilities:
+  schema_version: 1
+  read_files: true
+  search_code: true
+  write_files: true
+  execute_commands: true
+  web_access: false
+  user_interaction: false
+  agent_spawn: false
+  task_management: false
+cost-profile: heavy
 ---
 
 # Riding Through the Codebase
@@ -125,6 +136,15 @@ DECISION_EXTRA_PATHS=$(yq eval '.ride.enrichment.decisions.extra_paths // []' .l
 # Terminology thresholds
 TERM_MAX_TERMS=$(yq eval '.ride.enrichment.terminology.max_terms // 50' .loa.config.yaml 2>/dev/null || echo "50")
 ```
+
+### QMD Reality Context (Optional)
+
+During drift analysis, if `.claude/scripts/qmd-context-query.sh` exists and `qmd_context.enabled` is not `false`:
+
+1. Build query from module names being analyzed
+2. Run: `.claude/scripts/qmd-context-query.sh --query "<module_names>" --scope reality --budget 2000 --format text`
+3. Include output as additional context during drift comparison
+4. If script missing, disabled, or returns empty: proceed normally (graceful no-op)
 
 ---
 

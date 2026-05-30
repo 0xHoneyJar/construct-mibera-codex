@@ -1,0 +1,17 @@
+{
+  "generated": "2026-05-30T19:47:23Z",
+  "source": "count-entities.sh — find/wc/ls over the working tree (sdd.md §0)",
+  "counts": {
+    "mibera":             { "files": 10000,   "concept": 10000 },
+    "miparcel":           { "files": 10000, "concept": 10000 },
+    "grail":              { "files": 44,    "concept": 44, "note": "42 canonical + 2 community" },
+    "fracture":           { "files": 10, "concept": 10 },
+    "birthday":           { "files": 12, "eras": 10, "note": "10 eras + README + timeline" },
+    "trait":              { "files": 1326,    "concept": 1337, "note": "1337 unique = 1323 imaged + 14 metadata-only" },
+    "drug":               { "files": 78,     "concept": 78 },
+    "tarot_card":         { "files": 78,    "concept": 78 },
+    "ancestor":           { "files": 33, "concept": 33 },
+    "special_collection": { "files": 53,  "subcollections": 5, "concept": 33, "note": "53 files / 5 populated subdirs; 33 = documented collaborations" },
+    "mibera_set":         { "files": 12,      "concept": 12 }
+  }
+}

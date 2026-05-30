@@ -1,4 +1,25 @@
 ---
+name: rtfm
+description: Run documentation-driven testing against Ground Truth and protocols
+role: review
+allowed-tools: Read, Grep, Glob, Bash(bats tests/*), Bash(npm test *), Bash(.claude/scripts/rtfm-*)
+capabilities:
+  schema_version: 1
+  read_files: true
+  search_code: true
+  write_files: false
+  execute_commands:
+    allowed:
+      - command: "bats"
+        args: ["tests/*"]
+      - command: "npm"
+        args: ["test", "*"]
+    deny_raw_shell: true
+  web_access: false
+  user_interaction: false
+  agent_spawn: false
+  task_management: false
+cost-profile: moderate
 parallel_threshold: 3000
 timeout_minutes: 15
 zones:
@@ -20,6 +41,8 @@ Spawn a zero-context agent to test documentation usability. The tester operates 
 
 This is a hermetic documentation test — the agent equivalent of a hermetic build. No implicit dependencies, no ambient state. If the zero-context agent can't follow the docs, the docs have gaps.
 </objective>
+
+> **Scope note (OQ-5)**: When invoked, include `docs/` in the documentation paths checked alongside any other paths already in scope. The `docs/CONFIG_REFERENCE.md` and related files in `docs/` are first-class documentation artifacts subject to RTFM validation.
 
 <zone_constraints>
 Orchestrator (the agent executing this skill):

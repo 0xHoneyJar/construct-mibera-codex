@@ -51,10 +51,25 @@ declare -A BUMP_PRIORITY=(
 # Version Utilities
 # =============================================================================
 
-# Get current version from the latest git tag matching v*.*.*
+# Get current version from the latest git tag matching either:
+#   - vX.Y.Z          (release)
+#   - vX.Y.Z-PRE.N    (prerelease, where PRE ∈ {alpha, beta, rc})
+#
+# Both shapes are returned to the caller; bump_version() handles the kind
+# difference. Pre-1.0 projects that ship through a prerelease cadence (e.g.
+# v2.0.0-alpha.7) need this to compute "next version" correctly — without
+# the prerelease branch, the strict vX.Y.Z glob silently misses every
+# alpha/beta/rc tag and the post-merge orchestrator skips tag/CHANGELOG/
+# release entirely.
 get_version_from_tag() {
   local tag
-  tag=$(git -C "$PROJECT_ROOT" tag -l 'v[0-9]*.[0-9]*.[0-9]*' --sort=-v:refname 2>/dev/null | head -1)
+  # `tag -l` accepts multiple patterns; combine release + prerelease shapes,
+  # then filter by precise regex (the glob is permissive — matches strings
+  # like "v1.2.3-foo" too).
+  tag=$(git -C "$PROJECT_ROOT" tag -l 'v[0-9]*.[0-9]*.[0-9]*' 'v[0-9]*.[0-9]*.[0-9]*-*' \
+    --sort=-v:refname 2>/dev/null \
+    | grep -E '^v[0-9]+\.[0-9]+\.[0-9]+(-(alpha|beta|rc)\.[0-9]+)?$' \
+    | head -1)
   if [[ -n "$tag" ]]; then
     echo "${tag#v}"
     return 0
@@ -76,21 +91,48 @@ get_version_from_changelog() {
   return 1
 }
 
-# Bump a version string by type
+# Bump a version string by type. Handles two shapes:
+#
+#   1. Release  X.Y.Z          → bump per `bump` arg (major/minor/patch)
+#   2. Prerelease X.Y.Z-PRE.N  → increment N (PRE ∈ {alpha, beta, rc})
+#
+# Prerelease bumping is type-agnostic by design: while a project is on a
+# prerelease cadence (e.g. 2.0.0-alpha.N), conventional-commit signal
+# (feat/fix/etc.) does not warrant a major/minor/patch flip — the project
+# is still pre-1.0-of-this-major. Promotion out of prerelease (alpha → beta,
+# rc → release) is operator-driven and out of scope for this bump path.
+#
+# Validate version format (M-05) — accept either release or prerelease.
 bump_version() {
   local current="$1" bump="$2"
-  # Validate version format (M-05)
-  if ! [[ "$current" =~ ^[0-9]+\.[0-9]+\.[0-9]+$ ]]; then
-    echo "ERROR: Invalid version format: $current" >&2
-    return 1
+  local prerelease_re='^([0-9]+)\.([0-9]+)\.([0-9]+)-(alpha|beta|rc)\.([0-9]+)$'
+  local release_re='^([0-9]+)\.([0-9]+)\.([0-9]+)$'
+
+  if [[ "$current" =~ $prerelease_re ]]; then
+    local major="${BASH_REMATCH[1]}"
+    local minor="${BASH_REMATCH[2]}"
+    local patch="${BASH_REMATCH[3]}"
+    local pre_kind="${BASH_REMATCH[4]}"
+    local pre_num="${BASH_REMATCH[5]}"
+    echo "${major}.${minor}.${patch}-${pre_kind}.$((pre_num + 1))"
+    return 0
   fi
-  IFS='.' read -r major minor patch <<< "$current"
-  case "$bump" in
-    major) echo "$((major + 1)).0.0" ;;
-    minor) echo "${major}.$((minor + 1)).0" ;;
-    patch) echo "${major}.${minor}.$((patch + 1))" ;;
-    *) echo "ERROR: Unknown bump type: $bump" >&2; return 1 ;;
-  esac
+
+  if [[ "$current" =~ $release_re ]]; then
+    local major="${BASH_REMATCH[1]}"
+    local minor="${BASH_REMATCH[2]}"
+    local patch="${BASH_REMATCH[3]}"
+    case "$bump" in
+      major) echo "$((major + 1)).0.0" ;;
+      minor) echo "${major}.$((minor + 1)).0" ;;
+      patch) echo "${major}.${minor}.$((patch + 1))" ;;
+      *) echo "ERROR: Unknown bump type: $bump" >&2; return 1 ;;
+    esac
+    return 0
+  fi
+
+  echo "ERROR: Invalid version format: $current" >&2
+  return 1
 }
 
 # =============================================================================
@@ -177,16 +219,21 @@ parse_commits() {
 
 main() {
   local source_mode="auto"
+  local downstream=false
 
   # Parse arguments
   while [[ $# -gt 0 ]]; do
     case "$1" in
       --from-tag) source_mode="tag"; shift ;;
       --from-changelog) source_mode="changelog"; shift ;;
+      --downstream) downstream=true; shift ;;
       --help|-h)
-        echo "Usage: semver-bump.sh [--from-tag | --from-changelog]"
+        echo "Usage: semver-bump.sh [--from-tag | --from-changelog] [--downstream]"
         echo "  Computes next semver from conventional commits."
         echo "  Output: JSON with current, next, bump, commits"
+        echo ""
+        echo "Options:"
+        echo "  --downstream  Filter out non-app commits (system-only, state-only, mixed-internal)"
         exit 0
         ;;
       *) echo "ERROR: Unknown argument: $1" >&2; exit 2 ;;
@@ -256,6 +303,72 @@ main() {
   commits_json=$(cat "$tmpfile_commits" 2>/dev/null || echo "[]")
   rm -f "$tmpfile_commits" "$tmpfile_bump"
   trap - EXIT
+
+  # Downstream filtering: keep only app-zone commits (cycle-052)
+  if [[ "$downstream" == "true" ]]; then
+    # Source classify-commit-zone.sh for zone classification
+    local classify_script="${SCRIPT_DIR}/classify-commit-zone.sh"
+    if [[ -f "$classify_script" ]]; then
+      source "$classify_script"
+
+      local filtered_json="[]"
+      local highest_app_bump="patch"
+      local highest_app_priority=0
+      local app_breaking=false
+      local commit_count_after=0
+
+      # Iterate each commit, keep only app-zone ones
+      local total
+      total=$(echo "$commits_json" | jq 'length')
+      local i=0
+      while [[ "$i" -lt "$total" ]]; do
+        local hash
+        hash=$(echo "$commits_json" | jq -r ".[$i].hash")
+        local zone
+        zone=$(classify_commit_zone "$hash" 2>/dev/null) || zone="app"
+
+        if [[ "$zone" == "app" ]]; then
+          local entry
+          entry=$(echo "$commits_json" | jq ".[$i]")
+          filtered_json=$(echo "$filtered_json" | jq --argjson e "$entry" '. + [$e]')
+
+          # Recalculate bump from filtered commits
+          local ctype
+          ctype=$(echo "$commits_json" | jq -r ".[$i].type")
+          local commit_bump="${BUMP_MAP[$ctype]:-patch}"
+          local priority="${BUMP_PRIORITY[$commit_bump]:-1}"
+
+          # Check for breaking change marker
+          local subject
+          subject=$(echo "$commits_json" | jq -r ".[$i].subject")
+          if [[ "$subject" == *"BREAKING CHANGE"* ]] || git -C "$PROJECT_ROOT" log -1 --format='%B' "$hash" 2>/dev/null | grep -q 'BREAKING CHANGE:' 2>/dev/null; then
+            app_breaking=true
+          fi
+
+          if [[ "$priority" -gt "$highest_app_priority" ]]; then
+            highest_app_priority=$priority
+            highest_app_bump="$commit_bump"
+          fi
+          commit_count_after=$((commit_count_after + 1))
+        fi
+        i=$((i + 1))
+      done
+
+      commits_json="$filtered_json"
+
+      if [[ "$commit_count_after" -eq 0 ]]; then
+        echo "ERROR: No app-zone commits since ${tag_ref} (all filtered as internal)" >&2
+        exit 1
+      fi
+
+      # Update bump based on filtered commits
+      if [[ "$app_breaking" == "true" ]]; then
+        bump="major"
+      else
+        bump="$highest_app_bump"
+      fi
+    fi
+  fi
 
   # Calculate next version
   local next

@@ -101,7 +101,7 @@ Capabilities may include a `(scope: ...)` annotation that connects them to the T
 | `app` | App | `src/`, `lib/`, `app/` | `filesystem: write (scope: app)` |
 | `external` | — | GitHub API, network, model APIs | `github_api: read_write (scope: external)` |
 
-**Backward compatibility**: Consumers that don't understand `(scope: ...)` can strip the parenthetical and get the flat capability.
+**Backward compatibility**: Consumers that don't understand `(scope: ...)` can strip the parenthetical and get the flat capability. The formal schema is defined in [`docs/architecture/capability-schema.md`](docs/architecture/capability-schema.md).
 
 #### Trust Gradient (L1-L4)
 
@@ -137,6 +137,8 @@ BUTTERFREEZONE.md (any Loa repo)
         Reads capabilities → sums billing_weight per capability
         Maps to cost tiers: 0 (free), 1 (metered), 3 (premium)
 ```
+
+See [`docs/architecture/capability-schema.md`](docs/architecture/capability-schema.md) for the full formal schema definition.
 
 #### Verification Section
 
@@ -192,6 +194,8 @@ Framework instructions are loaded via Claude Code's `@` import:
 # Project-Specific Instructions
 Your content here takes precedence over framework defaults.
 ```
+
+See [INSTALLATION.md](INSTALLATION.md) for migration guide.
 
 ## Protocol References
 
@@ -1092,15 +1096,24 @@ For existing codebases that need Loa analysis without going through the full dis
 
 **Goal**: Install Loa framework onto an existing repository
 
+**Installation Modes** (since v1.39.0):
+
+| Mode | Command | Description |
+|------|---------|-------------|
+| **Submodule** (default) | `/mount` | Adds `.loa/` submodule, creates symlinks in `.claude/` |
+| **Vendored** (legacy) | `/mount --vendored` | Copies framework into `.claude/` directly |
+
+> Submodule mode is the default since v1.39.0. See [INSTALLATION.md](INSTALLATION.md#choosing-your-installation-method) for the full comparison of installation methods.
+
 **When to Use**:
 - Setting up Loa on an existing codebase
 - After cloning a repository you want to analyze
 - As an alternative to the curl one-liner
 
-**Process**:
-1. Verifies git repository and dependencies
-2. Configures upstream remote for updates
-3. Installs System Zone (`.claude/`)
+**Process** (submodule mode):
+1. Verifies git repository, dependencies, and symlink support
+2. Adds Loa as git submodule at `.loa/`
+3. Creates symlinks from `.claude/` into `.loa/.claude/`
 4. Initializes State Zone (`grimoires/loa/`)
 5. Generates checksums for integrity verification
 6. Creates user config if not present
@@ -1108,7 +1121,8 @@ For existing codebases that need Loa analysis without going through the full dis
 
 **Command**:
 ```bash
-/mount
+/mount                    # Submodule mode (default)
+/mount --vendored         # Legacy vendored mode
 /mount --stealth          # Don't commit framework files
 /mount --skip-beads       # Skip beads_rust initialization
 ```
@@ -1698,6 +1712,7 @@ When resuming interrupted work:
 ## Related Documentation
 
 - **[README.md](README.md)** - Quick start guide
+- **[INSTALLATION.md](INSTALLATION.md)** - Detailed installation and update guide
 - **[CLAUDE.md](CLAUDE.md)** - Guidance for Claude Code instances
 
 ### Protocol Files
@@ -1732,8 +1747,10 @@ Detailed specifications for complex behaviors:
 Bash utilities for deterministic operations:
 
 **Core Scripts**:
-- `.claude/scripts/mount-loa.sh` - One-command install onto existing repo
-- `.claude/scripts/update.sh` - Framework updates with migration gates
+- `.claude/scripts/mount-loa.sh` - One-command install (submodule mode by default, `--vendored` for legacy)
+- `.claude/scripts/mount-submodule.sh` - Submodule-specific mount logic with symlink creation
+- `.claude/scripts/update-loa.sh` - Unified update (submodule: fetch+checkout, vendored: delegates to update.sh)
+- `.claude/scripts/update.sh` - Framework updates with migration gates (vendored mode)
 - `.claude/scripts/check-loa.sh` - CI validation script (integrity, schema, zones)
 - `.claude/scripts/detect-drift.sh` - Code vs documentation drift detection
 - `.claude/scripts/validate-change-plan.sh` - Pre-implementation change validation

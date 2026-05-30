@@ -1,4 +1,18 @@
 ---
+name: implement
+description: "Execute sprint tasks with production-quality code and tests"
+role: implementation
+capabilities:
+  schema_version: 1
+  read_files: true
+  search_code: true
+  write_files: true
+  execute_commands: true
+  web_access: true
+  user_interaction: true
+  agent_spawn: true
+  task_management: true
+cost-profile: heavy
 parallel_threshold: 3000
 timeout_minutes: 120
 zones:
@@ -169,10 +183,41 @@ This skill operates under **Managed Scaffolding**:
 |------|------------|-------|
 | `.claude/` | NONE | System zone - never suggest edits |
 | `grimoires/loa/`, `.beads/` | Read/Write | State zone - project memory |
-| `src/`, `lib/`, `app/` | Read-only | App zone - requires user confirmation |
+| `src/`, `lib/`, `app/` | Read/Write | App zone - implementation target |
 
 **NEVER** suggest modifications to `.claude/`. Direct users to `.claude/overrides/` or `.loa.config.yaml`.
 </zone_constraints>
+
+<cli_tool_permissions>
+## CLI Tool Usage
+
+Agents SHOULD proactively run CLI tools from the approved allowlist without asking:
+
+### Approved Read-Only Allowlist
+
+| Tool | Allowed Commands | Notes |
+|------|-----------------|-------|
+| `git` | `status`, `log`, `diff`, `branch`, `show` | Local only, no network |
+| `gh` | `issue list`, `issue view`, `pr list`, `pr view`, `pr checks` | Use `--json` + field filtering to avoid leaking secrets from PR bodies |
+| `npm`/`bun` | `test`, `run lint`, `run typecheck` | Build/check commands |
+| `cargo` | `check`, `test`, `clippy` | Build/check commands |
+
+### Require Confirmation
+
+| Operation Type | Examples |
+|---------------|----------|
+| Network writes | `git push`, `gh pr create`, `gh issue create` |
+| Deployments | `railway deploy`, `vercel deploy` |
+| Package mutations | `npm install`, `cargo add` |
+| Cloud CLIs | `aws`, `gcloud`, `az` (any operation) |
+| Destructive | `rm`, `git reset`, `git checkout -- .` |
+
+### Safety Rules
+
+- Use `--json` output and filter fields when available to avoid printing secrets
+- Never pipe CLI output to files without user confirmation
+- If a CLI command requires authentication and fails, report the error — do not retry or prompt for credentials
+</cli_tool_permissions>
 
 <integrity_precheck>
 ## Integrity Pre-Check (MANDATORY)
@@ -318,14 +363,44 @@ Implement sprint tasks from `grimoires/loa/sprint.md` with production-grade code
 ## Verification (E - Easy to Verify)
 **Success** = All acceptance criteria met + comprehensive tests pass + detailed report at expected path
 
-Report MUST include:
+Report MUST include (in this order, enforced):
 - Executive Summary
+- **AC Verification** (REQUIRED — Issue #475, see structural rule below)
 - Tasks Completed (files/lines modified, approach, test coverage)
 - Technical Highlights (architecture, performance, security, integrations)
 - Testing Summary (test files, scenarios, how to run)
 - Known Limitations
 - Verification Steps for reviewer
 - Feedback Addressed section (if iteration after feedback)
+
+### AC Verification Gate (cycle-057, closes #475)
+
+Before writing the `COMPLETED` marker for a sprint, the implementation report
+MUST contain an `## AC Verification` section that walks every acceptance
+criterion from `grimoires/loa/sprint.md`. Each AC requires:
+
+1. **Verbatim quote** — copy the AC text from sprint.md, not a paraphrase
+2. **Status marker** — one of `✓ Met` / `✗ Not met` / `⚠ Partial` / `⏸ [ACCEPTED-DEFERRED]`
+3. **File:line evidence** — for every `Met` claim, a specific path and line
+   pointing to the symbol, assertion, or test that proves the AC is honored
+4. **Deferral rationale** — `[ACCEPTED-DEFERRED]` requires a matching entry
+   in `grimoires/loa/NOTES.md` under the Decision Log
+
+**Skill behavior enforcement**:
+
+- **DO NOT** write a `COMPLETED` marker if any AC has status `✗ Not met` or
+  `⚠ Partial` without an accompanying scope-split to a follow-up sprint task
+- **DO NOT** silently mark ACs as deferred — always pair with a NOTES.md entry
+- **DO NOT** write generic evidence like "implemented in src/batch/" — provide
+  specific file:line references with enough context that the reviewer can
+  verify the AC is honored without re-reading the whole implementation
+
+This gate catches SDD-implementation drift at implement time rather than
+letting it slip through to `/review-sprint`, saving the fix-loop round trip.
+Karpathy-aligned: goal-driven verification, not just code written.
+
+See `resources/templates/implementation-report.md` for the structured
+`## AC Verification` template.
 
 ## Reproducibility (R - Reproducible Results)
 - Write tests with specific assertions: NOT "it works" → "returns 200 status, response includes user.id field"
@@ -391,6 +466,11 @@ Before implementing:
 5. Read `grimoires/loa/sdd.md` for technical architecture
 6. Read `grimoires/loa/prd.md` for business requirements
 7. Quote requirements when implementing: `> From sprint.md: Task 1.2 requires...`
+8. If `.claude/scripts/qmd-context-query.sh` exists and `qmd_context.enabled` is not `false` in `.loa.config.yaml`:
+   - Build query from current task descriptions and target file names
+   - Run: `.claude/scripts/qmd-context-query.sh --query "<task_desc> <file_names>" --scope grimoires --budget 2000 --format text`
+   - Include output as advisory context for implementation decisions (sprint plan acceptance criteria remain source of truth)
+   - If script missing, disabled, or returns empty: proceed normally (graceful no-op)
 </grounding_requirements>
 
 <citation_requirements>
@@ -400,6 +480,68 @@ Before implementing:
 - Quote feedback items when addressing them
 - Reference test file paths and coverage metrics
 </citation_requirements>
+
+<karpathy_goal_driven_gate>
+## Goal-Driven Gate (Karpathy principle 4 — applies before any tool call)
+
+Karpathy principle 4 (Goal-Driven Execution) requires testable verification
+before implementation. Tasks without written success criteria invite scope
+drift and unverifiable completion claims. This gate enforces the principle at
+the /implement entry point.
+
+### When the gate fires
+
+Before Phase -2 (Beads-First Integration) runs:
+
+1. Read `grimoires/loa/sprint.md`
+2. Check for a section heading matching one of:
+   - "Success criteria" (case-insensitive)
+   - "Acceptance criteria" (case-insensitive)
+   - "Verification" (case-insensitive)
+3. Section body MUST be non-empty (a heading with no follow-up content fails the check)
+4. Read config: `yq eval '.karpathy_principles.require_success_criteria // true' .loa.config.yaml`
+
+### Gate decision
+
+| Section present | Config `require_success_criteria` | Action |
+|---|---|---|
+| Yes | any | Proceed to Phase -2 normally |
+| No  | `false` | Proceed (operator opted out) — log to trajectory: `{"phase":"karpathy_check","principle":"goal_driven","verdict":"skipped_by_config",...}` |
+| No  | `true` (default) | **AskUserQuestion** before any tool call |
+
+### AskUserQuestion shape
+
+When the gate fires, present these 3 options:
+
+| Option | Effect |
+|---|---|
+| **Provide criteria now** | Operator dictates the criteria; agent appends a "Success Criteria" section to sprint.md, then proceeds |
+| **Skip with rationale** | Operator provides a 1-line rationale; agent logs to trajectory and proceeds |
+| **Abort** | Exit cleanly (no tool calls); operator can re-invoke /implement after updating sprint.md |
+
+### Trajectory log
+
+Every gate decision emits a single event to `grimoires/loa/a2a/trajectory/karpathy-{date}.jsonl`:
+
+```jsonl
+{"phase":"karpathy_check","principle":"goal_driven","verdict":"passed|skipped_by_config|skipped_by_operator|aborted","timestamp":"...","sprint_path":"..."}
+```
+
+The schema at `.claude/data/trajectory-schemas/karpathy-check.payload.schema.json`
+permits `principle: goal_driven` alongside the `surgical_changes` events from
+the K-1 hook.
+
+### Why this is a hard precondition
+
+This gate is intentionally NOT a "remind once and proceed" check — it's a
+precondition. Even autonomous /run cycles MUST satisfy it, either via
+config-driven opt-out (`require_success_criteria: false` for trusted batch
+runs) or via per-invocation skip with rationale. The rationale itself is the
+audit trail.
+
+See: #961 K-3 / FR-4, PR #960 (companion: inline Karpathy in CLAUDE.loa.md),
+`.claude/protocols/karpathy-principles.md` (full protocol doc).
+</karpathy_goal_driven_gate>
 
 <workflow>
 ## Phase -2: Beads-First Integration (v1.29.0)

@@ -75,7 +75,7 @@
       "properties": {
         "type": {
           "type": "string",
-          "enum": ["openai", "anthropic", "openai_compat"],
+          "enum": ["openai", "anthropic", "openai_compat", "google"],
           "description": "Provider API type"
         },
         "endpoint": {
@@ -110,7 +110,12 @@
         "context_window": {
           "type": "integer",
           "minimum": 1,
-          "description": "Maximum context window in tokens"
+          "description": "Maximum context window in tokens (advertised model capacity)"
+        },
+        "max_input_tokens": {
+          "type": "integer",
+          "minimum": 1,
+          "description": "Empirically-observed safe input-size threshold for cheval invocation. Distinct from context_window: this is the field-observed prompt size above which the cheval HTTP path on this provider disconnects or empties (KF-002 layer 3 / Loa #774). Optional; absent = no input-size gate. cycle-102 Sprint 1F."
         },
         "pricing": {
           "type": "object",
@@ -225,6 +230,37 @@
         }
       },
       "additionalProperties": true
+    },
+    "contextAccess": {
+      "type": "object",
+      "description": "Epistemic trust scopes — controls what knowledge a model receives (v7.0.0). Optional; defaults to all-full if missing.",
+      "properties": {
+        "architecture": {
+          "type": "string",
+          "enum": ["full", "summary", "none"],
+          "default": "full",
+          "description": "Visibility into SDD, PRD, protocol docs"
+        },
+        "business_logic": {
+          "type": "string",
+          "enum": ["full", "redacted", "none"],
+          "default": "full",
+          "description": "Visibility into implementation code"
+        },
+        "security": {
+          "type": "string",
+          "enum": ["full", "redacted", "none"],
+          "default": "full",
+          "description": "Visibility into audit findings, vulnerability details"
+        },
+        "lore": {
+          "type": "string",
+          "enum": ["full", "summary", "none"],
+          "default": "full",
+          "description": "Visibility into institutional knowledge"
+        }
+      },
+      "additionalProperties": false
     }
   }
 }

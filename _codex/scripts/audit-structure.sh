@@ -10,6 +10,35 @@ mkdir -p "$REPORT_DIR"
 ISSUES_FILE=$(mktemp)
 trap 'rm -f "$ISSUES_FILE"' EXIT
 
+# --- Grail exemption ---
+# The 44 grail token IDs are hand-drawn 1/1 art placed on random Miberas post-reveal.
+# By design they carry no generative trait table, so the per-field checks below would
+# flag every one as 26 "missing field" errors (1,144 false positives). Source the
+# exemption from the canonical grails.jsonl (NOT a hardcoded list) so it stays in sync;
+# fail loud if that source is missing, otherwise we'd silently re-mask genuine errors.
+GRAILS_JSONL="$REPO_ROOT/_codex/data/grails.jsonl"
+if [[ ! -r "$GRAILS_JSONL" ]]; then
+  echo "ERROR: grail exemption source not found or unreadable: $GRAILS_JSONL" >&2
+  echo "Cannot distinguish grail 1/1s from genuine structural errors. Aborting." >&2
+  exit 2
+fi
+declare -A GRAIL_FILE
+while IFS= read -r gid; do
+  [[ -z "$gid" ]] && continue
+  printf -v padded '%04d' "$gid"
+  GRAIL_FILE["$padded.md"]=1
+done < <(python3 -c "
+import json, sys
+for line in open(sys.argv[1], encoding='utf-8'):
+    line = line.strip()
+    if line:
+        print(json.loads(line)['id'])" "$GRAILS_JSONL")
+if [[ "${#GRAIL_FILE[@]}" -eq 0 ]]; then
+  echo "ERROR: grail exemption source $GRAILS_JSONL yielded 0 IDs." >&2
+  echo "Refusing to run without a valid exemption set. Aborting." >&2
+  exit 2
+fi
+
 echo "Mibera Codex Structural Audit" >&2
 echo "==============================" >&2
 
@@ -35,6 +64,8 @@ for field in "${MIBERA_FIELDS[@]}"; do
   missing=$(grep -rL "^| $field |" "$MIBERA_DIR"/ --include='[0-9]*.md' 2>/dev/null || true)
   if [[ -n "$missing" ]]; then
     while IFS= read -r f; do
+      # Grail 1/1s have no generative trait table by design — skip (see GRAIL_FILE above).
+      [[ -n "${GRAIL_FILE[$(basename "$f")]+x}" ]] && continue
       rel="${f#$REPO_ROOT/}"
       echo "{\"severity\":\"error\",\"file\":\"$rel\",\"message\":\"Missing field: $field\",\"type\":\"mibera\"}" >> "$ISSUES_FILE"
       ((mibera_issue_files++)) || true

@@ -63,7 +63,7 @@ Lynch primitives follow Kevin Lynch's *The Image of the City* (1960) — five sp
 
 ## bear-cave
 
-**Archetype:** [Freetekno](/core-lore/archetypes.md#freetekno)
+**Archetype:** [Freetekno](archetypes.md#freetekno)
 **Era resonance:** Early-Late 90s — Castlemorton, Spiral Tribe, the Criminal Justice Act and everything after
 **Essence:** Deep in the tree line, past the generator perimeter. UV strips on cable. Tea and speed and someone's dog asleep by the fire barrel. The rig hasn't stopped since Thursday.
 
@@ -92,7 +92,7 @@ Lynch primitives follow Kevin Lynch's *The Image of the City* (1960) — five sp
 
 ## el-dorado
 
-**Archetype:** [Milady](/core-lore/archetypes.md#milady)
+**Archetype:** [Milady](archetypes.md#milady)
 **Era resonance:** Current — network spirituality, post-ironic aspiration, the screen as altar
 **Essence:** Everything glows and everything's for sale. Neon kanji over velvet rope. The treasure is real but the map keeps changing. Somewhere between a shrine and a night market.
 
@@ -121,7 +121,7 @@ Lynch primitives follow Kevin Lynch's *The Image of the City* (1960) — five sp
 
 ## owsley-lab
 
-**Archetype:** [Acidhouse](/core-lore/archetypes.md#acidhouse)
+**Archetype:** [Acidhouse](archetypes.md#acidhouse)
 **Era resonance:** Late 90s / 2000s — Second Summer of Love afterglow, PLUR, the smiley face as sigil
 **Essence:** Fluorescent tubes and dripping condensation. Everything hums at 440Hz. The periodic table on the wall but the elements have been renamed. Someone left a copy of PiHKAL on the centrifuge.
 
@@ -150,7 +150,7 @@ Lynch primitives follow Kevin Lynch's *The Image of the City* (1960) — five sp
 
 ## the-warehouse
 
-**Archetype:** [Chicago/Detroit](/core-lore/archetypes.md#chicagodetroit)
+**Archetype:** [Chicago/Detroit](archetypes.md#chicagodetroit)
 **Era resonance:** Early 80s — The Warehouse, Music Box, abandoned auto plants, the birth of house
 **Essence:** Concrete floor, steel columns, no decoration that wasn't already here. The building was a factory, then it was nothing, now Ron Hardy is behind the decks and 400 people are losing their minds. The genre is named after this room.
 
@@ -188,9 +188,9 @@ Lynch primitives follow Kevin Lynch's *The Image of the City* (1960) — five sp
 
 ### Codex integration
 
-- Archetype anchors link to [`core-lore/archetypes.md`](/core-lore/archetypes.md)
-- Drug/molecule references draw from [`traits/overlays/molecules/`](/traits/overlays/molecules/)
-- Ancestor context available at [`core-lore/ancestors/`](/core-lore/ancestors/)
+- Archetype anchors link to [`core-lore/archetypes.md`](archetypes.md)
+- Drug/molecule references draw from [`traits/overlays/molecules/`](../traits/overlays/molecules/)
+- Ancestor context available at [`core-lore/ancestors/`](ancestors/)
 
 ---
 

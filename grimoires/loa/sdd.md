@@ -1,483 +1,465 @@
-# SDD: Surface Codex README Structure on Docs Site
+# SDD: Codex Reality Reconciliation & Hygiene
 
-**Cycle:** 024
-**Created:** 2026-05-06
-**Source PRD:** `grimoires/loa/prd.md`
-**Discovery method:** /simstim Phase 3 (Flatline review skipped — cheval adapter too old; operator may run /flatline-review manually post-SDD)
-
----
-
-## 1. System Architecture Overview
-
-### What's being built
-
-A **structural reorientation** of the Mibera Codex docs site (`docs/` subfolder, vocs-based) so its sidebar and page structure mirror the canonical `README.md` reading order (§I–X). The MCP-tool-shaped current sidebar collapses into a book-shaped one. Existing tool routes stay live; only navigation shape changes.
-
-### What's NOT being built
-
-- New URL routes for existing tool pages (sidebar `link:` updates only)
-- New build infrastructure beyond the existing `pnpm build-indexes` pattern
-- Per-mibera, per-tarot-card, per-trait detail routes (deferred; see Section 7 of PRD)
-- Modifications to MCP server, skill.md, or AgentDrawer surfaces
-
-### High-level flow
-
-```
-README.md §I-X reading structure
-            ↓
-docs/vocs.config.ts sidebar (Sprint 0: groups + existing route folds only)
-            ↓
-[ Sprint 1: Story pages          → /story/philosophy + /story/official-lore
-                                   AND adds I. The Story leaves to sidebar     ]
-[ Sprint 2: Ancestors browse     → /framework/ancestors + AncestorBrowse
-                                   AND adds II. Ancestors leaf to sidebar      ]
-[ Sprint 3: On-Chain + Data refs → /on-chain + /data
-                                   AND adds IX + X leaves to sidebar           ]
-            ↓
-Existing tool routes (/tools/lookup_*) reachable via new sidebar groupings:
-  - II. The Framework  → Archetypes (= /tools/lookup_archetype)
-                       → Ancestors (NEW: /framework/ancestors, Sprint 2)
-  - V. The Collection  → Miberas (= /tools/lookup_mibera)
-                       → Grails  (= /tools/lookup_grail)
-  - III. Mysticism (cycle-025) — entirely hidden from sidebar in cycle-024
-```
-
-**Sprint 0 dead-link prevention** (per Flatline SKP-001a, severity 720):
-Sprint 0 does NOT add sidebar leaves pointing at unbuilt routes. Each sprint
-that creates a route (1, 2, 3) is responsible for ALSO adding its sidebar
-leaf in the SAME sprint. Sprint 0 is exclusively: (a) the new group
-headers for §I, §II, §V, §IX, §X, and (b) folding existing live routes
-under their canonical groups. No leaf in the sidebar may point to a 404.
-
-> **Source:** PRD §1 Problem, PRD §5 FR-0.x, README.md:33–93
+**Version:** 1.0
+**Date:** 2026-05-29
+**Author:** Architecture Designer Agent (/architect)
+**Status:** Draft
+**Cycle:** 025
+**PRD Reference:** `grimoires/loa/prd.md`
+**Discovery method:** /architect — codebase-grounded against live audit reports + repo inspection (2026-05-29). Every count and claim below was re-verified against the working tree, not copied from the PRD.
 
 ---
 
-## 2. Tech Stack
+## 0. Reality Check (read this first)
+
+This is a **hygiene / data-reconciliation cycle for a markdown knowledge base**, not a software product. There is no application architecture, no database, no UI, no API. The "system" being designed is a set of **deterministic edits + two script patches + one provenance step** that bring canonical docs into agreement with the repository and make the audit tooling tell the truth.
+
+The PRD is sound on intent. While grounding this SDD I **re-derived every count from the working tree** and found that **several numbers in the PRD itself are stale** — the same drift the cycle exists to kill. The SDD treats *computed reality* (commands below) as the single source of truth and corrects the PRD's figures where they disagree. These corrections are flagged in §3.1 and must be confirmed before FR-1 edits land.
+
+### Verified-reality table (computed 2026-05-29, working tree)
+
+| Entity | scope.json | CLAUDE.md scope §52 | CLAUDE.md dir-table | **Computed reality** | Reconciliation target |
+|--------|-----------:|--------------------:|--------------------:|---------------------:|-----------------------|
+| Grails | 44 | 44 | **43** | **44** files in `grails/` (excl README); 44 IDs in `grails.jsonl` | **44** everywhere (fix dir-table 43→44) |
+| Fractures | 10 | **11** | 11 | **10** entity files in `fractures/` (`miladies`, `miparcels`, 8×`mireveal-*`) | **10** everywhere (fix CLAUDE.md 11→10) |
+| Birthday eras | 10 | 10 | 10 | **12** `.md` files / **10** eras (`README.md` + `timeline.md` are non-era) | **10 eras (12 files: 10 eras + README + timeline)** |
+| Traits | 1337 | 1337 | 1337 | **1326** entity files (1349 total − 22 README − 1 overview); semantic audit's own `total_traits`=**1326** | **1337 unique (1323 imaged + 14 metadata-only) / 1326 files** |
+| Special collections | 33 | 33 (PARTIAL) | **32** | **53** files across **5** populated sub-collections (bera-eco 32, cypherpunk 12, milady-1-of-1s 5, bong-bears 4, singapore-jani 0) | **53 files / 5 sub-collections** + keep the "33 documented collaborations" concept distinct |
+| Drugs | 78 | 78 | n/a | **78** files | **78** (verify-only — already correct) |
+
+**Commands that produced the "Computed reality" column** (these become the FR-2 provenance script):
+
+```bash
+# Grails
+ls grails/*.md | grep -vi README | wc -l                       # → 44
+wc -l < _codex/data/grails.jsonl                               # → 44
+# Fractures (entity files only)
+ls fractures/*.md | grep -viE 'README|index' | wc -l           # → 10
+# Birthdays
+ls birthdays/*.md | wc -l                                      # → 12 files (10 eras + README + timeline)
+# Traits (entity files)
+find traits -name '*.md' ! -name README.md ! -name overview.md | wc -l   # → 1326
+# Drugs
+find traits/overlays/molecules -name '*.md' ! -name README.md ! -name drug-pairings.md | wc -l  # → 78
+# Special collections
+find special-collections -name '*.md' ! -name README.md | wc -l          # → 53
+find special-collections -mindepth 1 -type d | wc -l                     # → 5
+```
+
+> **PRD deltas surfaced (must confirm before FR-1):**
+> - PRD §1/FR-1 says traits = **"1,245 files"**; computed reality is **1,326** files. The semantic audit's own `total_traits` field independently reports 1326. **Use 1326.**
+> - PRD FR-1 says birthdays = **"11 files"**; reality is **12** files (10 eras + `README.md` + `timeline.md`). **Use 12 files / 10 eras.**
+> - PRD FR-1 says special collections = **"6 sub-collections"**; reality is **5** populated subdirs (`singapore-jani/` exists as a dir but holds 0 `.md`). **Use 5** (or "6 dirs incl. empty `singapore-jani/`" if the empty dir is intentional — Open Question Q1).
+
+---
+
+## 1. Project Architecture
+
+### 1.1 System Overview
+
+The Mibera Codex is a 21,773-file markdown knowledge base. Its self-describing documents (`CLAUDE.md`, `scope.json`, `manifest.json`, `README.md`, `SUMMARY.md`, `llms.txt`) and its three audit scripts (`audit-structure.sh`, `audit-semantic.py`, `audit-links.sh`) have drifted from the repository's actual contents. This cycle makes the docs match reality and makes the audits report only genuine issues.
+
+> From prd.md §1: *"The Mibera Codex's canonical documentation has drifted from the repository's actual state, and its audit tooling reports a large but mostly-false error count that hides the genuine issues."*
+
+### 1.2 Architectural Pattern
+
+**Pattern:** Edit-in-place reconciliation with a generated-provenance backstop.
+
+**Justification:** There is no system to architect — there is a corpus to correct. The only durable structural change is FR-2: a **single computed-counts artifact** that future doc updates cite, so the hand-maintained-number drift that caused this cycle cannot silently recur. Everything else is a bounded set of surgical edits whose correctness is verified by re-running the existing audit suite to specific target numbers.
+
+### 1.3 Component Diagram
+
+```mermaid
+graph TD
+    subgraph Sources["Source of Truth (working tree)"]
+        REPO["Repo files: grails/, fractures/, birthdays/,<br/>traits/, special-collections/"]
+        GJSONL["_codex/data/grails.jsonl<br/>(44 grail token IDs)"]
+    end
+
+    subgraph Provenance["FR-2: Count Provenance"]
+        COUNTS["count-entities.sh<br/>(NEW — emits authoritative counts JSON)"]
+    end
+
+    subgraph Docs["Canonical Docs (FR-1 targets)"]
+        CLAUDEMD["CLAUDE.md"]
+        SCOPE["_codex/data/scope.json"]
+        MANIFEST["manifest.json"]
+        README["README.md"]
+        SUMMARY["SUMMARY.md"]
+        LLMS["llms.txt"]
+    end
+
+    subgraph Audits["Audit Tooling (FR-3 patch targets)"]
+        STRUCT["audit-structure.sh<br/>(patch: skip grail IDs)"]
+        SEM["audit-semantic.py<br/>(patch: exempt grail IDs from enum checks)"]
+        LINKS["audit-links.sh<br/>(unchanged; FR-5 fixes its inputs)"]
+    end
+
+    subgraph Content["Content Fixes"]
+        ANC["FR-4: irish-druids.md + pythia.md<br/>(+ period_modern)"]
+        FZV["FR-5: festival-zones-vocabulary.md<br/>(7 abs→rel links)"]
+    end
+
+    REPO --> COUNTS
+    GJSONL --> COUNTS
+    COUNTS -->|drives| CLAUDEMD & SCOPE & MANIFEST & README & SUMMARY & LLMS
+    GJSONL -->|exemption source| STRUCT & SEM
+    ANC -->|0 errors| STRUCT
+    FZV -->|0 codex-content broken| LINKS
+```
+
+### 1.4 System Components
+
+#### Canonical docs (FR-1)
+- **Purpose:** Human/LLM-facing descriptions of the codex. **Drift symptom:** contradictory entity counts. **Change:** every count updated to computed reality, conceptual-vs-file distinctions stated explicitly.
+
+#### Audit scripts (FR-3)
+- **Purpose:** Validate structural + semantic integrity. **Drift symptom:** 1,144 false-positive structural errors + 4 false-positive semantic FAILs, all from the 44 grail 1/1s (which correctly have no generative traits). **Change:** load grail IDs from `grails.jsonl`, skip generative-trait checks for them.
+
+#### Content fixes (FR-4, FR-5)
+- **Purpose:** Two genuine ancestor schema gaps + codex-content broken links. **Change:** add `period_modern` to 2 ancestor files; repoint 7 absolute-path links to relative.
+
+#### Count provenance (FR-2)
+- **Purpose:** Make counts script-derived, not eyeballed, so drift can't recur.
+
+> **Source:** prd.md §5 (FR-1 through FR-6), §1 (audit findings).
+
+---
+
+## 2. Software Stack
 
 | Concern | Choice | Justification |
 |---------|--------|---------------|
-| Static site generator | **vocs** (existing) | Already in production. No reason to migrate. |
-| Page format | **MDX** with React components | Existing pattern. Story pages are pure MDX; browse pages embed components. |
-| Data extraction | **Build-time scripts in `docs/scripts/`** | Established pattern: `build-vault-index.mjs`, `build-miberas-browse.mjs`. New: `build-ancestors-index.mjs`. |
-| Component library | **Existing parchment-vocabulary CSS** in `docs/public/global.css` | New components extend established class registers; no new design tokens. |
-| Sidebar config | **`docs/vocs.config.ts`** | Single source of truth for sidebar shape. |
-| Source data | **Codex repo markdown** in `core-lore/`, `_codex/data/*.json` | Read-only consumption; codex repo is the source of truth. |
+| Doc edits | Hand edits via Edit tool | Surgical, reviewable, no codegen risk on prose. |
+| FR-2 provenance | **bash** (`count-entities.sh`), stdlib only | `CLAUDE.md` Script Conventions: shell scripts use bash, macOS/BSD tooling. Counts are `find`/`wc`/`ls` — no Python needed. Emits JSON via printf. |
+| FR-3 structure patch | **bash** edit to `audit-structure.sh` | Existing script is bash; patch stays in-language. Read grail IDs once into an associative-array/grep filter. |
+| FR-3 semantic patch | **Python 3 + PyYAML** edit to `audit-semantic.py` | Existing script is Python; it already imports `json`, loads `grails.jsonl` is one `open()` + per-line `json.loads`. PyYAML permitted per `CLAUDE.md`. |
+| FR-6 orphan findings | **Markdown findings doc** | No code — documentation deliverable. |
+| Verification | Existing audit trio | `bash audit-structure.sh`, `bash audit-links.sh`, `python3 audit-semantic.py`. |
 
-> **Source:** PRD §6 Technical & Non-Functional, existing `docs/package.json` + `docs/scripts/`
+**Exact tool versions present (verified):**
+- `bash` (macOS BSD) — scripts already target this; `grep -rL` and `awk` frontmatter extraction are in use.
+- `python3` with `yaml` (PyYAML) — `audit-semantic.py:13 import yaml` already relies on it.
+
+**Portability constraints (from NOTES.md, load-bearing):**
+- macOS BSD `awk` has no capture groups in `match()` — use python3 for regex.
+- macOS `grep` has no `-oP` — use python3 or sed for portable regex.
+- Bulk text replacements can hit image filenames / trait item names — **scope every replacement** (see §6).
+
+> **Source:** CLAUDE.md "Script Conventions"; NOTES.md:8–9; existing script shebangs.
 
 ---
 
 ## 3. Data Models
 
-### 3.1 Ancestor (new — Sprint 2)
+There is no database. The "data model" here is the **count contract** (FR-2 output) and the **grail-exemption set** (FR-3 input).
 
-Source: `core-lore/ancestors/{slug}.md` frontmatter (33 files).
+### 3.1 Count provenance artifact (FR-2 — NEW)
 
-```typescript
-type Ancestor = {
-  slug: string;            // REQUIRED — e.g. "greek", "hindu", "mongolian"
-  name: string;            // REQUIRED — display name
-  period_ancient?: string; // OPTIONAL — e.g. "1200 BCE — 600 CE"
-  period_modern?: string;  // OPTIONAL — e.g. "Modern revival, 1970s—"
-  locations: string[];     // OPTIONAL — defaults to []
-  archetype_affinities?: string[]; // OPTIONAL — archetypes this ancestor anchors
-};
+`count-entities.sh` emits an authoritative counts JSON that FR-1 edits cite.
 
-type AncestorIndex = {
-  generatedAt: string;
-  count: number;           // 33
-  ancestors: Ancestor[];   // sorted by name
-};
+```json
+{
+  "generated": "2026-05-29T00:00:00Z",
+  "counts": {
+    "mibera":            { "files": 10000, "concept": 10000 },
+    "miparcel":          { "files": 10000, "concept": 10000 },
+    "grail":             { "files": 44,    "concept": 44, "note": "42 canonical + 2 community" },
+    "fracture":          { "files": 10,    "concept": 10 },
+    "birthday":          { "files": 12,    "eras": 10, "note": "10 eras + README + timeline" },
+    "trait":             { "files": 1326,  "concept": 1337, "note": "1337 unique = 1323 imaged + 14 metadata-only" },
+    "drug":              { "files": 78,    "concept": 78 },
+    "tarot_card":        { "files": 78,    "concept": 78 },
+    "ancestor":          { "files": 33,    "concept": 33 },
+    "special_collection":{ "files": 53,    "subcollections": 5, "concept": 33, "note": "53 files / 5 populated subdirs; 33 = documented collaborations" },
+    "mibera_set":        { "files": 12,    "concept": 12 }
+  }
+}
 ```
 
-**Build target:** `docs/public/ancestors-browse.json` (~17KB).
+**The `files` vs `concept` split is the whole point.** Every doc count must state which it means. The cycle's chronic bug is conflating "files on disk" with "conceptual entities counted."
 
-**Validation behavior** (per Flatline IMP-002, score 865):
+**Output path:** `_codex/data/entity-counts.json` (sits beside `scope.json`).
 
-| Field | Missing/empty behavior |
-|-------|------------------------|
-| `slug` | **Hard fail**: log `ERROR: ancestor file {path} missing required slug — skipping`, exclude from output. Build script exits 0 (warnings don't break build). |
-| `name` | **Hard fail**: same as `slug`. |
-| `period_ancient`, `period_modern`, `locations`, `archetype_affinities` | **Soft warn**: log `WARN: ancestor {slug} missing optional field {field}`, default to empty/null in output. Card renders with "—" placeholder for missing fields. |
+> **Source:** prd.md FR-2; §0 computed-reality table; scope.json field shapes.
 
-The component (`AncestorBrowse`) tolerates null/empty optional fields by
-omitting that section of the card entirely (no empty rows).
+### 3.2 Grail-exemption set (FR-3 — INPUT, already exists)
 
-> **Source:** PRD FR-2.1, codex-improvement-research.md:53–104 (existing ancestor file inventory)
-
-### 3.2 Section landing config (new — Sprint 0)
-
-The sidebar describes sections; each section's landing page (when content exists) needs a header + intro. Codified as TS data in component or MDX frontmatter.
-
-```typescript
-type Section = {
-  numeral: "I" | "II" | "III" | "IV" | "V" | "VI" | "VII" | "VIII" | "IX" | "X";
-  title: string;          // "The Story", "The Framework", etc.
-  intro: string;          // Quoted from README.md per section
-  children: SidebarItem[]; // Pages within this section
-};
+```python
+# Source: _codex/data/grails.jsonl — 44 lines, each: {"id": <int>, "name", "slug", ...}
+GRAIL_IDS = { json.loads(line)["id"] for line in open(grails_jsonl) }   # → {235, 309, 392, 507, 876, ...} (44 IDs)
 ```
 
-Used to generate sidebar entries + per-section intro pages.
+**Verified invariant (must hold or FR-3 fails loud):** the set of grail IDs in `grails.jsonl` is **exactly** the set of 44 Mibera files lacking a generative trait table.
 
-> **Source:** PRD FR-0.1, README.md:33–93
-
-### 3.3 No new data models for Sprint 1 (Story) or Sprint 3 (On-Chain/Data)
-
-Sprint 1: prose-only MDX pages. Sprint 3: surfaces existing JSON (`_codex/data/contracts.json`) inline.
-
----
-
-## 4. Component Architecture
-
-### 4.1 Existing components (reused, not modified)
-
-- `GrimoireShelf` — current root index uses 5 of these; SDD preserves them in the sidebar's V. The Collection grouping
-- `GrimoireBrowse` — used in `/tools/lookup_grail` (Vol I cathedral); preserved
-- `MiberaBrowse` — used in `/tools/lookup_mibera`; preserved
-- `ArchetypeBrowse` — used in `/tools/lookup_archetype`; preserved
-- `ZoneBrowse` — used in `/tools/lookup_zone`; preserved
-- `FactorBrowse` — used in `/tools/lookup_factor`; preserved
-- `AgentDrawer` + `MiberaTab` + `ToolReference` — global, route-aware; **no changes**
-- `BlotterGrid` — global right-rail browse on non-tool routes; **no changes**
-
-### 4.2 New components
-
-| Component | File | Purpose | Sprint |
-|-----------|------|---------|--------|
-| `AncestorBrowse` | `docs/components/ancestor-browse.tsx` | Grid of 33 ancestor cards. Mirror ArchetypeBrowse's structure. Reads `/ancestors-browse.json`. | 2 |
-| `OnChainReference` | `docs/components/onchain-reference.tsx` | Renders contract registry from `_codex/data/contracts.json` as a copy-pasteable address table. | 3 |
-| `DataIndex` | `docs/components/data-index.tsx` | Surfaces JSONL exports + knowledge graph + scope/gaps/timeline as a reference index. | 3 |
-
-### 4.3 New scripts
-
-| Script | File | Purpose | Sprint |
-|--------|------|---------|--------|
-| `build-ancestors-index` | `docs/scripts/build-ancestors-index.mjs` | Parses `core-lore/ancestors/*.md` frontmatter → emits `docs/public/ancestors-browse.json`. Pattern from `build-miberas-browse.mjs`. | 2 |
-
-### 4.4 Updated files
-
-| File | What changes | Sprint |
-|------|--------------|--------|
-| `docs/vocs.config.ts` | Sidebar restructure: 10 README-section groups; existing 5 grimoire entries fold under their canonical sections; `Front Matter` and `For Agents` preserved at top | 0 |
-| `docs/package.json` | `build-indexes` script chains the new ancestor builder | 2 |
-| `docs/public/global.css` | New CSS classes: `.ancestor-browse`, `.ancestor-card*`, `.onchain-reference`, `.data-index*`. Match parchment vocabulary. | 2, 3 |
-
-> **Source:** PRD §5 Functional Requirements
-
----
-
-## 5. Sidebar Structure (Sprint 0 deliverable)
-
-The reshape. This is the load-bearing change of cycle-024.
-
-```typescript
-sidebar: [
-  // ─── Stays at top: orientation + agent surface ───────────────
-  { text: "Front Matter",
-    items: [
-      { text: "What Is the Codex?", link: "/" },
-      { text: "For Agents",         link: "/for-agents" },
-    ],
-  },
-
-  // ─── README §I — The Story ──────────────────────────────────
-  { text: "I. The Story",
-    items: [
-      { text: "Philosophy & Genesis",  link: "/story/philosophy" },     // Sprint 1
-      { text: "Official Lore",         link: "/story/official-lore" },  // Sprint 1
-    ],
-  },
-
-  // ─── README §II — The Framework ─────────────────────────────
-  { text: "II. The Framework",
-    items: [
-      { text: "Archetypes",  link: "/tools/lookup_archetype" },          // existing
-      { text: "Ancestors",   link: "/framework/ancestors" },             // Sprint 2
-    ],
-  },
-
-  // ─── README §III — The Mysticism (placeholder for cycle-025) ─
-  // Decision (Open Question 5 from PRD): hide entirely OR render
-  // disabled "Coming soon" entries. Resolution in Sprint 0:
-  // RECOMMENDED → hide entirely until cycle-025 ships content.
-  // (No empty sidebar group.)
-
-  // ─── README §V — The Collection ─────────────────────────────
-  { text: "V. The Collection",
-    items: [
-      { text: "Introducing Mibera",  link: "/tools/lookup_mibera" },     // existing
-      { text: "Mibera Maker · Vol I (Grails)", link: "/tools/lookup_grail" }, // existing
-    ],
-  },
-
-  // ─── README §IX — On-Chain ──────────────────────────────────
-  { text: "IX. On-Chain",
-    items: [
-      { text: "Contracts & Mechanics", link: "/on-chain" },              // Sprint 3
-    ],
-  },
-
-  // ─── README §X — Data & Research ────────────────────────────
-  { text: "X. Data & Research",
-    items: [
-      { text: "Knowledge Graph & Exports", link: "/data" },              // Sprint 3
-    ],
-  },
-
-  // ─── Existing agent-only / meta routes ──────────────────────
-  // Network Mysticism (factors) is NOT in README §I-X structure —
-  // it's score-mibera derived. Surface as a leaf at the bottom under
-  // an "Agent Tools" group, OR drop from sidebar entirely.
-  // Initiation Ritual (zones) — same: not in README §I-X. Same call.
-  // RECOMMENDED → drop from sidebar, keep routes accessible via direct URL.
-  // (Operator decision in Sprint 0.)
-],
+```
+grail_ids (from grails.jsonl)  ==  miberas missing "| Archetype |" table row    → TRUE (verified 2026-05-29)
+|grail_ids| = 44 ,  |missing| = 44 ,  symmetric difference = ∅
 ```
 
-**Sections deferred to future cycles** (NOT in cycle-024 sidebar):
-- IV. The Art (1,337 visual traits — cycle-026)
-- VI. The Mechanics (Swag Score — future)
-- VII. The Ecosystem (Special Collections, VM — cycle-027)
-- VIII. Behind the Scenes (Creative Process, Team — cycle-027)
+If `grails.jsonl` is absent or the set-equality breaks at audit time, the patch must **exit non-zero with a clear message** (do not silently skip exemption — that would re-mask real errors). This is the FR-3 fail-loud requirement.
 
-> **Source:** PRD FR-0.1, FR-0.2, README.md:33–93
+> **Source:** prd.md FR-3, Appendix B; verified by set-equality on the working tree (2026-05-29).
+
+### 3.3 Ancestor schema gap (FR-4 — content fix)
+
+`audit-structure.sh:181` requires ancestor frontmatter fields: `name`, `period_ancient`, `period_modern`, `locations`. Two files are missing `period_modern`:
+
+| File | Has | Missing |
+|------|-----|---------|
+| `core-lore/ancestors/irish-druids.md` | `name`, `period_ancient: -500 - 500`, `locations` | **`period_modern`** |
+| `core-lore/ancestors/pythia.md` | `name`, `period_ancient: -800 - 395`, `locations` | **`period_modern`** |
+
+The added value must be consistent with each entry's content and the ancestor schema (a string, e.g. a modern-revival span or `null` if genuinely none — but the field key must be present, since the audit checks key presence, not value).
+
+> **Source:** prd.md FR-4; audit-structure.sh:181; verified file inspection.
 
 ---
 
-## 6. Routes
+## 4. UI Design
 
-### 6.1 New routes
+**N/A.** No UI in scope. The codex docs site (`docs/`, cycle-024) is explicitly out of scope; this cycle touches only repo-root canonical docs, `_codex/`, and codex content.
 
-| Route | File | Sprint |
-|-------|------|--------|
-| `/story/philosophy` | `docs/pages/story/philosophy.mdx` | 1 |
-| `/story/official-lore` | `docs/pages/story/official-lore.mdx` | 1 |
-| `/framework/ancestors` | `docs/pages/framework/ancestors.mdx` | 2 |
-| `/on-chain` | `docs/pages/on-chain.mdx` | 3 |
-| `/data` | `docs/pages/data.mdx` | 3 |
-
-**Total: 5 new routes.**
-
-### 6.2 Existing routes preserved
-
-All `/tools/lookup_*`, `/grails/*`, `/codex`, `/for-agents`, `/discovery`, `/coverage-gaps` URLs stay live with no content changes (Sprint 0 only re-groups them in the sidebar).
-
-### 6.3 Frontmatter convention for new pages
-
-```yaml
 ---
-title: "I. Philosophy & Genesis"   # Numeral prefix matches sidebar
-description: "[1-line README quote]"
+
+## 5. API Specifications
+
+**N/A.** No API. The "interface contract" is the **audit exit codes**, documented here because CI relies on them:
+
+| Script | Success contract (post-cycle) | Failure semantics |
+|--------|-------------------------------|-------------------|
+| `audit-structure.sh` | exit 0, `errors: 0` | exit 1 if any `severity:error` (line 243) |
+| `audit-semantic.py` | exit 0, `fail: 0` for archetype/element/drug/ancestor | exit 1 if `fail_count > 0` (line 340) |
+| `audit-links.sh` | 0 **codex-content** broken links (3 framework links remain, out of scope) | reports count; see §9 risk on whether it exits non-zero |
+
+**Grail-exemption interface (FR-3) — both scripts:**
+- Input: `_codex/data/grails.jsonl`, field `id` (int).
+- Behavior: a Mibera whose numeric ID ∈ `GRAIL_IDS` is **skipped** for generative-trait checks (structure: the `MIBERA_FIELDS` trait-row grep loop; semantic: `check_archetype_enum`, `check_element_enum`, `check_drug_references`, `check_ancestor_references`).
+- Fail-loud: if `grails.jsonl` missing/unreadable → script errors out, does not run with empty exemption.
+
+> **Source:** prd.md FR-3; audit-structure.sh:33–61, 243–245; audit-semantic.py:105–187, 340–341.
+
 ---
+
+## 6. Error Handling Strategy
+
+The risk in a 21,773-file edit cycle is **collateral damage from bulk replacement** and **breaking the things that already work** (10K Miberas, backlink sections). Strategy:
+
+### 6.1 Scoped, surgical edits (NEVER bulk-substitute counts)
+
+> From NOTES.md:10: *"Bulk text replacements on drug names can accidentally hit image filenames and trait item names — scope replacements carefully."*
+
+- FR-1 count edits target **specific files at specific lines**, not repo-wide `sed`. The numbers (`44`, `10`, `1337`, `53`) appear in many contexts; a global replace of "43"→"44" would corrupt unrelated content. Each count edit is a unique-context Edit-tool replacement.
+- Verified instances to fix in `CLAUDE.md`: line 52 (`11 Fractures`→`10`), line 80 (traits dir-table — confirm phrasing), line 85 (`43`→`44`), line 90 (`32`→reconciled special-collections statement).
+
+### 6.2 Protected zones (NEVER touch)
+
+| Protected | Enforcement |
+|-----------|-------------|
+| `@generated:backlinks` sections | No edit may fall between `<!-- @generated:backlinks-start -->` / `-end -->` markers (CLAUDE.md safety rule, prd.md §6). |
+| Entity counts that are already correct | 10K Miberas / 10K MiParcels / 44 grails / 12 sets / 78 drugs / 78 tarot must remain unchanged (G5). |
+| `.claude/` System Zone | Out of bounds entirely. |
+| Grail trait tables | **Never** add fake trait tables to grail files (FR-3 AC). |
+
+### 6.3 Audit-patch fail-loud
+
+FR-3 patches must **fail loud** if `grails.jsonl` is missing or the set-equality invariant breaks (§3.2). Silent fallback to "no exemption" re-creates the 1,144-error wall; silent fallback to "exempt everything" hides real errors. Both are forbidden.
+
+### 6.4 FR-5 link semantics
+
+- `festival-zones-vocabulary.md` lives at `core-lore/festival-zones-vocabulary.md`. The 7 broken links are **absolute paths** (`/core-lore/...`, `/traits/...`). Fix:
+  - `/core-lore/archetypes.md#anchor` → `archetypes.md#anchor` (same directory).
+  - `/core-lore/ancestors/` → `ancestors/` (same directory).
+  - `/traits/overlays/molecules/` → `../traits/overlays/molecules/` (one level up from `core-lore/`).
+- **Anchor verification (done):** `core-lore/archetypes.md` has `## Freetekno` / `## Milady` / `## Acidhouse` / `## Chicago/Detroit`. GitHub slugs → `#freetekno`, `#milady`, `#acidhouse`, `#chicagodetroit`. All four target anchors resolve. (Risk PRD §9 line 177 — mitigated: anchors confirmed present.)
+
+### 6.5 FR-5 grails/README.md — likely false positive (NEEDS DECISION)
+
+The PRD (FR-5) lists "`grails/README.md`: 1 broken link." Inspection shows the flagged target is the literal ellipsis `…` inside **illustrative CDN-path table cells** (`…/grails/black-hole.webp` etc.) and prose (`![grail](…)`). These are **documentation examples**, not real links. Options:
+1. **No-op** — they're intentional examples; instead exempt `…`-targets from `audit-links.sh` or accept them as informational.
+2. Reword the table to not use markdown-link-shaped `…/...` so the checker stops flagging.
+
+**Recommendation:** Option 2 if cheap (escape/backtick the example paths so they aren't parsed as links); otherwise document as a known false positive. **This changes FR-5's "0 broken links" target** — see Open Question Q2.
+
+> **Source:** prd.md FR-5, §6; NOTES.md:10; audit-links.json; verified link/anchor inspection.
+
+---
+
+## 7. Testing Strategy
+
+Verification is **re-running the existing audit trio to exact target numbers**. There is no new test framework.
+
+### 7.1 Acceptance gates (each FR → a command + expected output)
+
+| FR | Verification command | Expected result |
+|----|----------------------|-----------------|
+| FR-3 (structure) | `bash _codex/scripts/audit-structure.sh; echo $?` | errors: **2** before FR-4, **0** after FR-4; exit 0 when 0 |
+| FR-3 (semantic) | `python3 _codex/scripts/audit-semantic.py` | `archetype_enum`, `element_enum`, `drug_references`, `ancestor_references` → **PASS** (were 44-violation FAIL each) |
+| FR-4 | `bash _codex/scripts/audit-structure.sh` then grep ancestor issues | ancestor issues **2 → 0** |
+| FR-5 | `bash _codex/scripts/audit-links.sh` | **0** codex-content broken links (3 framework links remain, documented out-of-scope) |
+| FR-1 | Manual diff of all 6 docs against `entity-counts.json` | no count contradiction; conceptual-vs-file stated |
+| FR-2 | `bash _codex/scripts/count-entities.sh \| python3 -m json.tool` | valid JSON; matches §0 computed-reality table |
+| FR-6 | findings doc exists | 20 orphans listed with path + reason + keep/prune rec |
+| G5 (no regression) | `git diff --stat`; grep for `@generated` edits | 10K/10K/44/12/78 counts unchanged; no backlink-section edits |
+
+### 7.2 Regression guard (the dangerous part)
+
+The semantic audit's `orphan_traits` check must **remain `status: "info"`** (audit-semantic.py:248) — never promoted to FAIL — so FR-6's investigation doesn't turn 20 informational orphans into a red build (prd.md FR-6 AC, §8).
+
+The 10,000 Mibera files are "100% structurally consistent — zero issues" (NOTES.md:138). After FR-3 grail exemption, the **only** structural errors should be the 2 ancestor gaps (FR-4), then zero. Any other delta in `audit-structure.json` error count is an unintended regression.
+
+### 7.3 Before/after baseline (the success ledger)
+
+| Metric | Before (verified 2026-05-29) | Target after |
+|--------|------------------------------|--------------|
+| `audit-structure.sh` errors | 1,146 (1,144 grail + 2 ancestor) | **0** |
+| `audit-semantic.py` summary | 4 pass / 4 fail | **8 pass / 0 fail** (orphan stays info) |
+| `audit-links.sh` broken | 11 (8 codex-content + 3 framework) | **0 codex-content** (3 framework out-of-scope; +grails/README per Q2) |
+| Doc count contradictions | ≥5 | **0** |
+
+> **Source:** prd.md §8 Success Criteria, §3 Goals; audit reports; NOTES.md:138,141,143.
+
+---
+
+## 8. Development Phases
+
+Sequenced to **unblock trustworthy audits first**, then reconcile, then prevent recurrence. Mirrors prd.md §7 priority matrix.
+
+### Phase 1 — Audit truth (P0, unblocks everything)
+1. **FR-3a** Patch `audit-structure.sh`: load `GRAIL_IDS` from `grails.jsonl`; skip the trait-field grep loop (lines 33–43) for grail IDs. Fail loud if jsonl missing.
+2. **FR-3b** Patch `audit-semantic.py`: add `load_grail_ids()`; exempt grail IDs in `check_archetype_enum`/`element_enum`/`drug_references`/`ancestor_references`.
+3. Verify: structure 1,146 → 2 ; semantic 4 FAIL → 4 PASS.
+
+### Phase 2 — Genuine content fixes (P0)
+4. **FR-4** Add `period_modern` to `irish-druids.md` + `pythia.md`. Verify structure 2 → 0.
+5. **FR-5** Repoint 7 absolute links in `festival-zones-vocabulary.md` to relative (§6.4). Resolve grails/README.md per Q2. Verify links → 0 codex-content broken.
+
+### Phase 3 — Provenance + reconciliation (P1 → P0)
+6. **FR-2** Write `count-entities.sh` → `_codex/data/entity-counts.json` (§3.1). Verify against §0 table.
+7. **FR-1** Reconcile counts in `CLAUDE.md`, `scope.json`, `manifest.json`, `README.md`, `SUMMARY.md`, `llms.txt`, **driven by `entity-counts.json`** (not eyeballing). Surgical per-file edits only (§6.1).
+
+### Phase 4 — Investigation (P1, no disposition)
+8. **FR-6** Document all 20 orphan traits (§11 Appendix lists them) with path + likely reason + keep/prune rec. **No deletions.** Keep orphan check `info`.
+
+### Phase 5 — Final gate
+9. Re-run full audit trio; confirm §7.3 targets; `git diff` review for G5 no-regression.
+
+**Suggested sprint grouping for /sprint-plan:** Sprint 1 = Phases 1–2 (audit truth + content fixes, the P0 core). Sprint 2 = Phases 3–4 (provenance + reconciliation + orphan investigation). Phase 5 is the audit gate folded into each sprint's acceptance.
+
+> **Source:** prd.md §7 priority matrix, §5 FR dependencies.
+
+---
+
+## 9. Known Risks and Mitigation
+
+| Risk | Prob | Impact | Mitigation |
+|------|------|--------|------------|
+| **PRD count figures are stale** (traits 1245 vs real 1326; birthdays 11 vs 12 files; special-coll 6 vs 5 subdirs) | **High (confirmed)** | High — reconciling to wrong numbers re-introduces drift | SDD §0 corrects all three to computed reality; FR-2 script makes counts script-derived; confirm §0 deltas before FR-1 edits land |
+| Bulk count replacement hits unrelated content | Med | High | §6.1 surgical per-context edits, never repo-wide `sed`; `git diff` review (G5) |
+| `grails.jsonl` absent / set-equality breaks at audit time | Low | High | §3.2 fail-loud; invariant verified today (44==44, symdiff ∅); wire exemption to jsonl not a hardcoded list (FR-3 AC) |
+| `festival-zones` anchor links break valid anchors | Low | Low | §6.4 — all 4 archetype anchors confirmed present in `archetypes.md` before/after |
+| grails/README.md "broken link" is a false positive | **High (confirmed)** | Low | §6.5 — it's an illustrative `…/…webp` example, not a real link; resolve via Q2 (reword or accept) — do **not** invent a real link to satisfy the checker |
+| Editing `scope.json` `special_collection.count` 33→53 changes meaning | Med | Med | Keep BOTH: `files: 53` / `subcollections: 5` AND the conceptual `33 documented collaborations` note; don't overwrite the concept with the file count |
+| Orphan check flipped to FAIL by accident | Low | Med | §7.2 — assert audit-semantic.py:248 stays `status: "info"` |
+| `audit-links.sh` exit code on remaining 3 framework links blocks CI | Med | Low | 3 framework links (`PROCESS.md`×2, `INSTALLATION.md`) are out-of-scope (prd.md §7); confirm whether checker exits non-zero on them — Open Question Q3 |
+
+### Assumptions (from PRD, carried forward)
+- `[ASSUMPTION]` "Reality wins" = edit docs to match repo (except the genuine repo fixes FR-4/FR-5). — *If wrong, some "drift" is actually a missing/extra entity needing a content fix.*
+- `[ASSUMPTION]` The 12th/11th birthday file and 53-vs-33 special-collections gap are **index/structure**, not missing/extra entities. — Verified: birthday extras are `README.md` + `timeline.md` (structure, confirmed); special-collections 53 are real sub-collection entries vs the "33 collaborations" concept (confirmed structure).
+- `[ASSUMPTION]` `period_modern` may be `null`-valued where an ancestor has no modern revival, as long as the **key is present** (audit checks key presence). — *If the schema requires a non-null string, FR-4 needs editorial values.*
+
+> **Source:** prd.md §9; verified against working tree.
+
+---
+
+## 10. Open Questions
+
+| # | Question | Why it matters | Recommendation |
+|---|----------|----------------|----------------|
+| **Q1** | Is the empty `special-collections/singapore-jani/` dir intentional (placeholder for a planned collection) or stale? | Determines whether we report "5 sub-collections" or "6 dirs incl. 1 empty." | Report **5 populated**; note `singapore-jani/` as empty-placeholder in `entity-counts.json`. Confirm with stakeholder. |
+| **Q2** | grails/README.md `…/…webp` flagged links — reword to un-parse, or accept as documented false positive? | Changes FR-5's "0 broken links" success target. | **Reword** (backtick/escape the example paths) if cheap; else accept + document. Do not fabricate a real link. |
+| **Q3** | Does `audit-links.sh` exit non-zero on the 3 out-of-scope framework links? If so, does CI go red despite codex content being clean? | A red CI from out-of-scope links defeats G2 ("audit red == real problem"). | If it exits non-zero, add an out-of-scope allowlist for `PROCESS.md`/`INSTALLATION.md` framework refs (NOT new feature scope — a one-line skip). Confirm. |
+| **Q4** | `period_modern` values for irish-druids + pythia — editorial content or `null`? | FR-4 acceptance needs "valid value consistent with the entry's content." | Author wants editorial values? Then FR-4 is editorial, not mechanical. Default: key-present with best-fit string from each entry's existing prose. |
+| **Q5** | Should FR-2 `count-entities.sh` be wired into the existing audit run (so counts re-check in CI), or stand alone? | PRD FR-2 is "Should" — provenance is the anti-recurrence lever; CI wiring makes it durable. | Ship standalone first (low blast radius); propose CI wiring as a follow-up note in the cycle retrospective. |
+
+> **Source:** prd.md §9 + SDD grounding-phase discoveries (2026-05-29).
+
+---
+
+## 11. Appendix
+
+### A. The 20 orphan traits (FR-6 investigation seed)
+
+Computed by `audit-semantic.py check_orphan_traits` (paths relative to `traits/`):
+
+```
+accessories/face-accessories/heart.md
+accessories/hats/peyote.md
+character-traits/eyes/crying-ocean-2.md
+character-traits/eyes/ecstasy-brown-2.md
+character-traits/hair/middle-orange.md
+character-traits/tattoos/no-tattoos.md
+clothing/long-sleeves/baby-bera-jacket.md
+clothing/long-sleeves/henlo-jersey.md
+clothing/long-sleeves/keith-haring-shirt.md
+clothing/short-sleeves/90s-tracksuit.md
+clothing/short-sleeves/blue-ribbon-tank.md
+clothing/short-sleeves/cactus-shirt.md
+clothing/short-sleeves/knit-sweater.md
+clothing/short-sleeves/palestinians-for-black-power.md
+clothing/short-sleeves/plain-air.md
+clothing/short-sleeves/plain-earth.md
+clothing/short-sleeves/plain-fire.md
+clothing/short-sleeves/plain-water.md
+clothing/short-sleeves/ribbon-lolita.md
+clothing/short-sleeves/tennis-outfit.md
 ```
 
-> **Source:** PRD FR-1.1–1.5, FR-2.3, FR-3.1–3.4
+**Investigation hints (for FR-6, not decisions):**
+- `crying-ocean-2.md`, `ecstasy-brown-2.md` — NOTES.md:39 records these were created as stubs in Cycle 002 ("were actually naming mismatches" / variant stubs). Likely **legit-unused variant catalog entries** → lean keep, flag as variant.
+- `no-tattoos.md`, `plain-{air,earth,fire,water}.md` — "absence/plain" catalog entries that may never be referenced by name in Mibera tables → likely **legit catalog completeness** → lean keep.
+- The clothing entries (`henlo-jersey`, `keith-haring-shirt`, `90s-tracksuit`, etc.) — verify whether they're rare/zero-mint traits vs erroneous duplicates before any prune recommendation.
 
----
+### B. Verified key fact (FR-3 foundation)
 
-## 7. Page Layouts
+The 44 Mibera files lacking trait tables are **exactly** the 44 grail token IDs in `_codex/data/grails.jsonl` (field `id`). Confirmed by set-equality on the working tree 2026-05-29: `|grail_ids| = 44`, `|missing_table| = 44`, symmetric difference = ∅. Sample IDs: 235, 309, 392, 507, 876.
 
-### 7.1 Sprint 1: Story pages
+### C. Files touched by this cycle
 
-Pure MDX. Render content from `core-lore/philosophy.md` + `core-lore/official-lore.md`. Two implementation strategies:
+| File | FR | Change type |
+|------|----|-------------|
+| `_codex/scripts/audit-structure.sh` | FR-3a | patch (grail skip + fail-loud) |
+| `_codex/scripts/audit-semantic.py` | FR-3b | patch (grail exemption in 4 checks) |
+| `core-lore/ancestors/irish-druids.md` | FR-4 | add `period_modern` |
+| `core-lore/ancestors/pythia.md` | FR-4 | add `period_modern` |
+| `core-lore/festival-zones-vocabulary.md` | FR-5 | 7 abs→rel links |
+| `grails/README.md` | FR-5 | reword example paths (per Q2) |
+| `_codex/scripts/count-entities.sh` | FR-2 | NEW |
+| `_codex/data/entity-counts.json` | FR-2 | NEW (generated) |
+| `CLAUDE.md` | FR-1 | count reconciliation (lines 52, 80, 85, 90) |
+| `_codex/data/scope.json` | FR-1 | count reconciliation (fractures, special_collection, trait notes) |
+| `manifest.json` | FR-1 | count reconciliation |
+| `README.md` | FR-1 | count reconciliation |
+| `SUMMARY.md` | FR-1 | count reconciliation |
+| `llms.txt` | FR-1 | count reconciliation |
+| FR-6 findings doc (path TBD by sprint-plan) | FR-6 | NEW (orphan investigation) |
 
-**Option A (Recommended): inline copy.** Copy markdown content directly into MDX, paragraph by paragraph. Keeps source-of-truth in the codex repo's `core-lore/` MD files; docs MDX is a presentation copy. Drift risk: if codex updates philosophy.md, docs go stale.
-
-**Option B: build-time fetch.** A script reads `core-lore/philosophy.md` at build time and injects content into a generated MDX. Eliminates drift but adds build complexity for two files.
-
-**Decision: Option A.** The story pages are stable canon — philosophical foundations don't churn. Drift risk is low; benefit (fast ship, no new build pipeline) outweighs cost. If codex updates the source, a manual sync re-paste is a 5-minute operation. Surface this in Sprint 1's acceptance criteria.
-
-#### MDX-escaping for raw markdown copy (per Flatline SKP-001b, severity 750)
-
-MDX parses `{` as JSX expression delimiter and `<` as element opener. Raw markdown copied from `core-lore/*.md` MAY contain those characters in prose, code blocks, or notation — and the build will crash on the first occurrence.
-
-**Mandatory pre-commit step for Sprint 1:**
-
-1. After copying source markdown into the MDX page, scan for unescaped `{` and `<` outside of fenced code blocks.
-2. Apply one of two strategies per paragraph:
-   - **Strategy A (preferred for short occurrences)**: Escape inline as `\{` and `\<`.
-   - **Strategy B (preferred for long source-mostly prose)**: Wrap the prose in a `<Markdown>` component (or vocs equivalent) that doesn't parse JSX inside its body. Confirm the available wrapper in vocs's component API before committing.
-3. Run `pnpm dev` locally — if the page loads cleanly, escaping is sufficient. If it still crashes with "Could not parse expression" or similar, escape more aggressively.
-
-This is mechanical — Sprint 1 task S1-T2 / S1-T3 must include the scan + escape pass. Acceptance gate: page renders without console errors AND `pnpm build` exits 0.
-
-> **Source:** PRD FR-1.5, codex-improvement-research.md:130–168, Flatline SKP-001b (MDX JSX parsing hazard)
-
-### 7.2 Sprint 2: Ancestors page
-
-Layout: H1 "II. The Framework / Ancestors" + 1-line intro + `<AncestorBrowse />` rendered full-width (via `:has(.ancestor-browse)` CSS releasing the article column max-width — same trick GrimoireBrowse uses).
-
-`AncestorBrowse` mirrors `ArchetypeBrowse`'s structural register:
-- Card per ancestor: name, period, locations, archetype affinities
-- Grid: `repeat(auto-fill, minmax(16rem, 1fr))`
-- Sort: alphabetical (A–Z)
-- No detail click-through in MVP; cards are informational
-
-#### Accessibility for non-clickable cards (per Flatline IMP-008, score 790)
-
-Since cards are informational and not navigable in MVP, the markup must communicate that explicitly:
-
-- Each card uses `<article role="listitem">` (the wrapping `<ul>` carries `role="list"`).
-- Cards are NOT wrapped in `<a>` or `<button>`. Hover affordance is purely visual (subtle border tone).
-- The card's `aria-label` repeats the ancestor name + period for screen-reader clarity.
-- No `tabindex` on cards — they're not interactive, so keyboard focus skips them.
-- Future detail-view cycle (cycle-028) will swap article for `<a>` and add focus styling; the markup change will be additive, not breaking.
-
-### 7.3 Sprint 3: On-Chain + Data pages
-
-Layout: H1 "IX. On-Chain" / "X. Data & Research" + intro + tables/sections.
-
-**On-Chain page sections:**
-- Contract Registry (table from `_codex/data/contracts.json`)
-- Fractured Mibera mechanic
-- Shadow Traits, Candies, Mibera Sets, Tarot Quiz, 42 Motif (1-paragraph each, link to `_codex/data/*.md` source)
-- ABIs (link to GitHub source)
-
-**Data & Research page sections:**
-- Knowledge Graph (link + node/edge counts from `_codex/data/graph.json`)
-- JSONL exports (table: file, format, count, link)
-- Stats summary (top numbers from `_codex/data/stats.md`)
-- Scope · Gaps · Timeline (link to `_codex/data/{scope,gaps,timeline}.json`)
-
-Both pages are reference-style: tables + external links, lighter than the narrative sections.
-
-> **Source:** PRD FR-3.1–3.4, README.md:64–93
-
----
-
-## 8. Build Pipeline
-
-### Existing
-```
-pnpm dev
-  → pnpm build-indexes
-      → node scripts/build-vault-index.mjs       (43 grail entries)
-      → node scripts/build-miberas-browse.mjs    (10k miberas, 1.75MB)
-  → vocs dev
-```
-
-### After cycle-024
-```
-pnpm dev
-  → pnpm build-indexes
-      → node scripts/build-vault-index.mjs       (existing)
-      → node scripts/build-miberas-browse.mjs    (existing)
-      → node scripts/build-ancestors-index.mjs   (NEW: 33 ancestors, ~17KB)
-  → vocs dev
-```
-
-Total new build time: <1s additional.
-
-> **Source:** PRD §6 Technical, existing `docs/package.json:4–11`
-
----
-
-## 9. Security Architecture
-
-The codex docs site is **public, read-only**. No authentication, no user data, no sensitive endpoints.
-
-> **Correction per Flatline SKP-002 (severity 760):** A previous draft of this section claimed "MDX sanitizes by default." That is incorrect. MDX (and vocs's MDX rendering) executes embedded JSX expressions and renders raw HTML according to its parser configuration — it is NOT a sanitization boundary.
-
-### Real security posture
-
-| Concern | Mitigation |
-|---------|------------|
-| **JSX/HTML injection via copied lore** | Source markdown in `core-lore/*.md` is operator-curated, low-risk content. The actual hazard is build crashes (see §7.1 escaping rules), not XSS — the codex site has no untrusted content paths. To stay ahead of future risk: PR review must reject any copied source containing `<script>`, raw `<iframe>`, or unfamiliar JSX components before merge. |
-| **Untrusted-import surface in MDX** | All MDX `import` statements are reviewed in PR. The `imports` line at the top of each new page is part of the diff; reviewer flags any unfamiliar source. |
-| **Build-time data injection** | `build-ancestors-index.mjs` reads from local repo files only. No external network calls. Frontmatter parser is regex-based (no `eval`, no JSON.parse on untrusted input — only on schema-validated tokens). |
-| **Asset URL exposure** | All asset references go to `assets.0xhoneyjar.xyz` (cycle-023's CDN). No direct S3 / Irys URLs introduced. |
-| **Static asset integrity** | vocs builds static HTML/JS/CSS. No runtime server-side rendering. Output is hashed and immutable post-build. |
-| **Future risk if community contributes lore** | If at any point lore content becomes user-submitted (vs operator-curated), this security model REQUIRES revision. Add explicit sanitization step (e.g., `rehype-sanitize`) to the MDX build pipeline before that boundary changes. |
-
-### What is NOT relied on
-
-- MDX runtime sanitization (it doesn't exist in the way the previous SDD draft assumed)
-- Build-time auto-rejection of unsafe markup (none configured in current vocs setup)
-
-The site's security model is **trust-the-source-repo + PR-review-discipline**, not in-flight sanitization. This is acceptable while content is operator-curated; document the assumption so it's reviewed if the trust boundary changes.
-
-> **Source:** PRD §6 NFR-4, cycle-023 outcomes, Flatline SKP-002 (corrected MDX sanitization claim)
-
----
-
-## 10. Performance & Scalability
-
-| Metric | Current | After cycle-024 | Notes |
-|--------|---------|------------------|-------|
-| Total routes | ~55 (5 tool + 43 grail + 7 misc) | **~60** (+5 new) | Trivial increase |
-| Largest single payload | `miberas-browse.json` 1.75MB | unchanged | New ancestors-browse.json is ~17KB |
-| Build time | ~3s | ~3.5s | +500ms for ancestor builder |
-| New components rendered per page | 0 | 1 (per new page) | Lightweight cards, no virtualization |
-| Right-rail BlotterGrid impact | unaffected | unaffected | New routes are non-grail; rail shows Discover fallback |
-
-No performance risks identified for cycle-024 scope.
-
-> **Source:** PRD §6 NFR-1, NFR-2, NFR-3
-
----
-
-## 11. Risk Mitigation Strategy
-
-(Maps PRD §8 risks to architectural responses.)
-
-| PRD Risk | Architectural Response |
-|----------|------------------------|
-| Sidebar restructure breaks /tools/* deep links | **Sprint 0 only edits `link:` properties grouping; URL strings unchanged.** Sprint 0 acceptance test: all existing /tools/lookup_* + /grails/* + /codex routes return 200. |
-| Source markdown drifts from MDX wrappers | **Decision documented in §7.1: accept drift risk for stable canon (philosophy, official lore). Surface in cycle-024 retrospective; if drift surfaces, cycle-025 adds a sync script.** |
-| Mysticism deferral leaves "Coming soon" gap | **Decision documented in §5: hide §III entirely from sidebar until cycle-025 ships content.** |
-| Ancestor frontmatter inconsistency | **`build-ancestors-index.mjs` validates required fields (slug, name) and logs warnings for missing optional fields (period, locations). Build does not fail; it logs.** |
-| AgentDrawer interactions break | **AgentDrawer reads `pathname`, not sidebar config — orthogonal change. Sprint 0 smoke test verifies drawer opens/closes on a representative new route.** |
-| Cycle-023 CDN intersection | **All new pages reference `assets.0xhoneyjar.xyz` directly. Sprint 3 pages link to `_codex/data/contracts.json` etc. via GitHub URL (canonical), not via local imports.** |
-
-> **Source:** PRD §8
-
----
-
-## 12. Open Questions Resolved
-
-(From PRD §9 Open Questions)
-
-| PRD Q | SDD Resolution |
-|-------|----------------|
-| Q1: Default expanded/collapsed for II. The Framework? | **Collapsed by default.** Operator's repeated "minimal sidebar" feedback throughout the cycle's docs work argues against eager expansion. |
-| Q2: Per-section landing component? | **No new component for Sprint 0.** Section landings render via standard MDX page conventions. Revisit if visual inconsistency surfaces post-Sprint 1. |
-| Q3: Contract addresses table format? | **Plain HTML table with copy-button per row.** Implementation in `OnChainReference` component (Sprint 3). |
-| Q4: /discovery + /coverage-gaps placement? | **Drop from sidebar entirely** (already done in earlier sidebar trim). Routes remain reachable via direct URL. |
-| Q5: Mysticism placeholder behavior? | **Hide entirely.** No "Coming soon" entry. Empty sidebar groups read as scaffolding waste. |
-
----
-
-## 13. Sprint-Level Breakdown (handoff to /sprint-plan)
-
-| Sprint | Goal | New artifacts | Updated artifacts | Smoke test |
-|--------|------|---------------|-------------------|------------|
-| **Sprint 0** | Sidebar groups + existing-route folding only | — | `vocs.config.ts` | **Automated route-200 check** (per Flatline IMP-001): script curls every existing route and asserts 200. New sidebar shows §I/II/V/IX/X group headers + existing live leaves only — NO leaves to unbuilt routes. |
-| **Sprint 1** | Section I — Story (incl. sidebar leaves) | `pages/story/philosophy.mdx`, `pages/story/official-lore.mdx` | `vocs.config.ts` (adds Story leaves), source md content | Pages render; prev/next nav works; **MDX-escape pass** (per §7.1) verified — no build crashes from `{` or `<` |
-| **Sprint 2** | Section II.2 — Ancestors (incl. sidebar leaf) | `components/ancestor-browse.tsx`, `scripts/build-ancestors-index.mjs`, `pages/framework/ancestors.mdx`, `public/ancestors-browse.json` (build output) | `package.json`, `global.css`, `vocs.config.ts` (adds Ancestors leaf) | 33 cards render; build script completes <1s; missing-required-field warnings logged but don't break build (per §3.1); a11y: each card carries `aria-label` |
-| **Sprint 3** | Section IX–X — Reference (incl. sidebar leaves) | `components/onchain-reference.tsx`, `components/data-index.tsx`, `pages/on-chain.mdx`, `pages/data.mdx` | `global.css`, `vocs.config.ts` (adds IX + X leaves) | Contract table renders; copy-buttons work; external JSON links resolve |
-
----
-
-## 14. Sources & Traceability
+### D. Sources & Traceability
 
 | SDD Section | Sources |
 |-------------|---------|
-| Architecture overview | PRD §1, §5, README.md:33–93 |
-| Tech stack | PRD §6, existing docs/package.json |
-| Data models | PRD FR-2.1, codex-improvement-research.md:53–104 |
-| Component architecture | PRD §5 FR sequencing, existing components in docs/components/ |
-| Sidebar structure | PRD FR-0.1, README.md:33–93 |
-| Routes | PRD FR-1.x, FR-2.x, FR-3.x |
-| Page layouts | PRD §5 sprint specs |
-| Build pipeline | docs/package.json:4–11, docs/scripts/* |
-| Security | PRD NFR-4, cycle-023 outcomes |
-| Performance | PRD NFR-1–3 |
-| Risk mitigation | PRD §8 |
-| Open question resolutions | PRD §9, operator's prior feedback in current docs cycle |
-| Sprint breakdown | PRD §7 MVP + Phase 6 sprint sequencing |
+| §0 Reality check | working-tree counts (commands shown); scope.json; CLAUDE.md:52,80,85,90; audit-semantic.json `total_traits` |
+| §1 Architecture | prd.md §1, §5 |
+| §2 Stack | CLAUDE.md Script Conventions; NOTES.md:8–9; script shebangs |
+| §3 Data models | prd.md FR-2/FR-3/FR-4; grails.jsonl; audit-structure.sh:181; set-equality verification |
+| §5 Interfaces | audit-structure.sh:33–61,243–245; audit-semantic.py:105–187,340–341 |
+| §6 Error handling | NOTES.md:10; CLAUDE.md safety rules; audit-links.json; anchor inspection |
+| §7 Testing | prd.md §8; audit reports; NOTES.md:138,141,143 |
+| §8 Phases | prd.md §7 |
+| §9 Risks | prd.md §9 + grounding discoveries |
+| §10 Open questions | prd.md §9 + grounding discoveries |
+| §11 Appendix | audit-semantic.json orphan list; NOTES.md:39; grails.jsonl |
 
 ---
 
-*Authoring: /simstim Phase 3 (Architecture). Phase 2 Flatline PRD review skipped due to construct-mibera-codex's older cheval adapter — operator may run /flatline-review on this SDD post-authoring if desired.*
+*Authoring: /architect (designing-architecture skill), cycle-025. Codebase-grounded; every count re-verified against the working tree 2026-05-29. PRD count figures corrected where stale — see §0.*

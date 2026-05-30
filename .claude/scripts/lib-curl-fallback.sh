@@ -1,0 +1,524 @@
+#!/usr/bin/env bash
+# =============================================================================
+# lib-curl-fallback.sh — Extracted curl API call logic with retry
+# =============================================================================
+# Version: 1.0.0
+# Cycle: cycle-033 (Codex CLI Integration for GPT Review)
+#
+# Extracted from gpt-review-api.sh to enable modular execution backends.
+# This library provides the direct curl API path (OpenAI Chat Completions
+# and Responses API) and the Hounfour model-invoke routing path.
+#
+# Used by:
+#   - gpt-review-api.sh (curl fallback when codex unavailable)
+#
+# Functions:
+#   call_api <model> <system_prompt> <content> <timeout>
+#   call_api_via_model_invoke <model> <system_prompt> <content> <timeout>
+#   is_flatline_routing_enabled
+#
+# Design decisions:
+#   - Auth via OPENAI_API_KEY env var only (SDD SKP-003, Flatline SKP-001)
+#   - curl config file technique retained for process list security (SHELL-001)
+#   - Retry logic: 3 attempts with exponential backoff
+#
+# IMPORTANT: This file must NOT call any function at the top level.
+# It is designed to be sourced by other scripts.
+
+# Guard against double-sourcing
+if [[ "${_LIB_CURL_FALLBACK_LOADED:-}" == "true" ]]; then
+  return 0 2>/dev/null || true
+fi
+_LIB_CURL_FALLBACK_LOADED="true"
+
+# =============================================================================
+# Dependencies
+# =============================================================================
+
+# Ensure lib-security.sh is loaded (for ensure_codex_auth)
+if [[ "${_LIB_SECURITY_LOADED:-}" != "true" ]]; then
+  _lib_dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+  # shellcheck source=lib-security.sh
+  source "$_lib_dir/lib-security.sh"
+  unset _lib_dir
+fi
+
+# Ensure normalize-json.sh is loaded (for extract_verdict)
+if ! declare -f extract_verdict &>/dev/null; then
+  _lib_dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+  # shellcheck source=lib/normalize-json.sh
+  source "$_lib_dir/lib/normalize-json.sh"
+  unset _lib_dir
+fi
+
+# Ensure endpoint-validator.sh is loaded (cycle-099 sprint-1E.c.3.a). The
+# OpenAI API call funnels through endpoint_validator__guarded_curl with a
+# narrow openai-only allowlist (api.openai.com:443) so neither a tampered
+# .loa.config.yaml nor a hostile LD_PRELOAD on `curl` can pivot the call
+# at an attacker-controlled host.
+if ! declare -f endpoint_validator__guarded_curl &>/dev/null; then
+  _lib_dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+  # shellcheck source=lib/endpoint-validator.sh
+  source "$_lib_dir/lib/endpoint-validator.sh"
+  unset _lib_dir
+fi
+LIB_CURL_FALLBACK_OPENAI_ALLOWLIST="${LIB_CURL_FALLBACK_OPENAI_ALLOWLIST:-$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)/lib/allowlists/openai.json}"
+
+# =============================================================================
+# 429 diagnostic helpers (#711.B closure)
+# =============================================================================
+# Surface the actual 429 response body so operators (or the agent) can
+# distinguish quota exhaustion from tier rejection from genuine burst-rate
+# limiting. Without these, the generic "Rate limited (429)" message looks
+# identical for all 429 sub-types and makes triage hard. zkSoju's #711
+# session burned 6 retry attempts × 3 minutes on a quota-exhausted gpt-5.2
+# without ever seeing why.
+
+# _curl_fallback_log_429_diagnostic <response_json> <attempt_n>
+#
+# Emits per-attempt 429 diagnostic to stderr, including parsed
+# .error.{type, code, message} from the response body.
+_curl_fallback_log_429_diagnostic() {
+  local response="$1"
+  local attempt="$2"
+  echo "[gpt-review-api] Rate limited (429) - attempt $attempt" >&2
+  if ! command -v jq >/dev/null 2>&1; then
+    return 0
+  fi
+  # Iter-1 review MEDIUM: handle BOTH `.error` as object AND as array
+  # (OpenAI sometimes returns `{"error":[{...}]}`). The `?` operator
+  # suppresses the "Cannot index array with string" error; falling back
+  # to `.error[0]?.field` covers the array shape.
+  local _429_msg _429_code _429_type
+  _429_msg=$(echo "$response" | jq -r '(.error.message? // .error[0]?.message?) // empty' 2>/dev/null) || true
+  _429_code=$(echo "$response" | jq -r '(.error.code? // .error[0]?.code?) // empty' 2>/dev/null) || true
+  _429_type=$(echo "$response" | jq -r '(.error.type? // .error[0]?.type?) // empty' 2>/dev/null) || true
+  if [[ -n "$_429_type" || -n "$_429_code" ]]; then
+    echo "[gpt-review-api]   error.type=${_429_type:-unknown} error.code=${_429_code:-unknown}" >&2
+  fi
+  if [[ -n "$_429_msg" ]]; then
+    local _redacted_429
+    if declare -f redact_log_output >/dev/null 2>&1; then
+      _redacted_429=$(redact_log_output "$_429_msg")
+    else
+      _redacted_429="$_429_msg"
+    fi
+    echo "[gpt-review-api]   error.message: $_redacted_429" >&2
+  fi
+}
+
+# _curl_fallback_log_429_quota_hint <response_json>
+#
+# When the 429 retries are exhausted AND the response indicates quota
+# exhaustion (insufficient_quota), emit an operator hint pointing at the
+# manual fallback paths (gpt-5.2-mini config, Codex MCP). This nudges
+# triage toward the correct remediation rather than re-retrying the
+# saturated tier.
+_curl_fallback_log_429_quota_hint() {
+  local response="$1"
+  if ! command -v jq >/dev/null 2>&1; then
+    return 0
+  fi
+  # Iter-1 MEDIUM: array-shape compatibility for `.error`.
+  local _429_type _429_code
+  _429_type=$(echo "$response" | jq -r '(.error.type? // .error[0]?.type?) // empty' 2>/dev/null) || true
+  _429_code=$(echo "$response" | jq -r '(.error.code? // .error[0]?.code?) // empty' 2>/dev/null) || true
+  if [[ "$_429_type" == "insufficient_quota" || "$_429_code" == "insufficient_quota" ]]; then
+    # Iter-1 MEDIUM: drop specific model names (gpt-5.2-mini, codex-rescue
+    # agent) that aren't actually configured in the repo. Point at the
+    # canonical config + protocol doc for actionable remediation.
+    echo "[gpt-review-api] HINT: 'insufficient_quota' indicates the configured tier has hit its billing limit." >&2
+    echo "[gpt-review-api] HINT: configure a smaller fallback model in .gpt_review.models.{documents,code} (.loa.config.yaml) OR see grimoires/loa/protocols/gpt-review-integration.md for alternative routing options." >&2
+  fi
+}
+
+# =============================================================================
+# Constants
+# =============================================================================
+
+# Retry configuration
+_CURL_MAX_RETRIES="${MAX_RETRIES:-3}"
+_CURL_RETRY_DELAY="${RETRY_DELAY:-5}"
+
+# Model-invoke binary (set by caller or default)
+_MODEL_INVOKE="${MODEL_INVOKE:-$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)/model-invoke}"
+
+# Config file path (set by caller or default)
+_CURL_CONFIG_FILE="${CONFIG_FILE:-.loa.config.yaml}"
+
+# =============================================================================
+# Feature Flags
+# =============================================================================
+
+# Check if Hounfour/Flatline routing is enabled.
+# Checks env var first, then config file.
+# Returns: 0 if enabled, 1 if disabled
+is_flatline_routing_enabled() {
+  if [[ "${HOUNFOUR_FLATLINE_ROUTING:-}" == "true" ]]; then
+    return 0
+  fi
+  if [[ "${HOUNFOUR_FLATLINE_ROUTING:-}" == "false" ]]; then
+    return 1
+  fi
+  if [[ -f "$_CURL_CONFIG_FILE" ]] && command -v yq &>/dev/null; then
+    local value
+    value=$(yq -r '.hounfour.flatline_routing // false' "$_CURL_CONFIG_FILE" 2>/dev/null)
+    if [[ "$value" == "true" ]]; then
+      return 0
+    fi
+  fi
+  return 1
+}
+
+# =============================================================================
+# Model-Invoke Routing (Hounfour)
+# =============================================================================
+
+# Call model-invoke instead of direct curl to OpenAI.
+# Uses gpt-reviewer agent binding. Writes system/user prompts to temp files.
+# Args: model system_prompt content timeout
+# Outputs: validated JSON response to stdout
+# Returns: 0 on success, non-zero on failure
+call_api_via_model_invoke() {
+  local model="$1"
+  local system_prompt="$2"
+  local content="$3"
+  local timeout="$4"
+
+  echo "[gpt-review-api] Routing through model-invoke (gpt-reviewer agent)" >&2
+
+  # Write system prompt to temp file for --system
+  local system_file
+  system_file=$(mktemp)
+  chmod 600 "$system_file"
+  printf '%s' "$system_prompt" > "$system_file"
+
+  # Write user content to temp file for --input
+  local input_file
+  input_file=$(mktemp)
+  chmod 600 "$input_file"
+  printf '%s' "$content" > "$input_file"
+
+  # Map legacy model name to provider:model-id format
+  local model_override="$model"
+  case "$model" in
+    gpt-5.2)       model_override="openai:gpt-5.2" ;;
+    gpt-5.3-codex) model_override="openai:gpt-5.3-codex" ;;
+    gpt-5.2-codex) model_override="openai:gpt-5.3-codex" ;;  # Backward compat
+  esac
+
+  local result exit_code=0
+  result=$("$_MODEL_INVOKE" \
+    --agent gpt-reviewer \
+    --input "$input_file" \
+    --system "$system_file" \
+    --model "$model_override" \
+    --output-format text \
+    --json-errors \
+    --timeout "$timeout" \
+    2>/dev/null) || exit_code=$?
+
+  rm -f "$system_file" "$input_file"
+
+  if [[ $exit_code -ne 0 ]]; then
+    echo "ERROR: model-invoke failed with exit code $exit_code" >&2
+    return $exit_code
+  fi
+
+  # model-invoke returns raw content text — may be JSON, fenced JSON, or prose-wrapped.
+  # Normalize and validate via centralized library.
+  local content_response
+  content_response=$(normalize_json_response "$result" 2>/dev/null) || {
+    echo "ERROR: Invalid JSON in model-invoke response" >&2
+    echo "[gpt-review-api] Raw response (first 500 chars): ${result:0:500}" >&2
+    return 5
+  }
+
+  # Validate gpt-reviewer schema (verdict enum, required fields)
+  if ! validate_agent_response "$content_response" "gpt-reviewer" 2>/dev/null; then
+    echo "ERROR: Schema validation failed for gpt-reviewer response" >&2
+    echo "[gpt-review-api] Normalized response: $content_response" >&2
+    return 5
+  fi
+
+  echo "$content_response"
+}
+
+# =============================================================================
+# Direct Curl API Call
+# =============================================================================
+
+# Call OpenAI API directly via curl with retry logic.
+# Supports both Chat Completions API and Responses API (codex models).
+# Uses curl config file for API key security (SHELL-001).
+# Args: model system_prompt content timeout
+# Outputs: validated JSON response to stdout
+# Exit codes: 0=success, 1=API error, 3=timeout, 4=auth failure, 5=invalid response
+call_api() {
+  local model="$1"
+  local system_prompt="$2"
+  local content="$3"
+  local timeout="$4"
+
+  # Auth check — env-only (SDD SKP-003)
+  if ! ensure_codex_auth; then
+    echo "ERROR: OPENAI_API_KEY environment variable not set" >&2
+    echo "Export your OpenAI API key: export OPENAI_API_KEY='sk-...'" >&2
+    return 4
+  fi
+
+  local api_url payload
+
+  # Codex models use Responses API at /v1/responses
+  if [[ "$model" == *"codex"* ]]; then
+    api_url="https://api.openai.com/v1/responses"
+
+    local combined_input
+    combined_input=$(printf '%s\n\n---\n\n## CONTENT TO REVIEW:\n\n%s\n\n---\n\nRespond with valid JSON only.' "$system_prompt" "$content")
+    local escaped_input
+    escaped_input=$(printf '%s' "$combined_input" | jq -Rs .)
+
+    payload=$(printf '{"model":"%s","input":%s,"reasoning":{"effort":"medium"}}' "$model" "$escaped_input")
+  else
+    api_url="https://api.openai.com/v1/chat/completions"
+
+    local escaped_system escaped_content
+    escaped_system=$(printf '%s' "$system_prompt" | jq -Rs .)
+    escaped_content=$(printf '%s' "$content" | jq -Rs .)
+
+    payload=$(printf '{"model":"%s","messages":[{"role":"system","content":%s},{"role":"user","content":%s}],"temperature":0.3,"response_format":{"type":"json_object"}}' \
+      "$model" "$escaped_system" "$escaped_content")
+  fi
+
+  local attempt=1
+  local response http_code
+
+  while [[ $attempt -le $_CURL_MAX_RETRIES ]]; do
+    echo "[gpt-review-api] API call attempt $attempt/$_CURL_MAX_RETRIES (model: $model, timeout: ${timeout}s)" >&2
+
+    # Security: Use curl config file to avoid exposing API key in process list (SHELL-001)
+    local curl_config
+    curl_config=$(write_curl_auth_config "Authorization" "Bearer ${OPENAI_API_KEY}") || {
+      echo "ERROR: Failed to create secure curl config" >&2
+      return 4
+    }
+    printf 'header = "Content-Type: application/json"\n' >> "$curl_config"
+
+    # Write payload to temp file to avoid bash argument size limits (SHELL-002)
+    local payload_file
+    payload_file=$(mktemp)
+    chmod 600 "$payload_file"
+    printf '%s' "$payload" > "$payload_file"
+
+    local curl_output curl_exit=0
+    # cycle-099 sprint-1E.c.3.a: route through endpoint_validator__guarded_curl
+    # so api_url is canonicalized + allowlist-checked before exec. Auth tempfile
+    # is passed via --config-auth (NOT --config) so the wrapper inspects it
+    # for url=/next= smuggling; caller --config is rejected outright (cypherpunk
+    # CRITICAL fix). Wrapper exit 78 = SSRF rejection (api_url not in openai
+    # allowlist); 64 = wrapper usage error (auth file rejected, allowlist out
+    # of tree). Both are code-path bugs, not transients — DO NOT retry.
+    curl_output=$(endpoint_validator__guarded_curl \
+      --allowlist "$LIB_CURL_FALLBACK_OPENAI_ALLOWLIST" \
+      --config-auth "$curl_config" \
+      --url "$api_url" \
+      -s -w "\n%{http_code}" \
+      --max-time "$timeout" \
+      -d "@${payload_file}" 2>&1) || {
+        curl_exit=$?
+        rm -f "$curl_config" "$payload_file"
+        if [[ $curl_exit -eq 78 ]]; then
+          echo "ERROR: endpoint validator rejected api_url=${api_url} (SSRF allowlist enforcement)" >&2
+          return 1
+        fi
+        if [[ $curl_exit -eq 64 ]]; then
+          # Wrapper usage error — auth file failed content gate, allowlist
+          # out-of-tree, or smuggling flag in caller args. NOT a transient.
+          echo "ERROR: endpoint validator wrapper usage error (auth-config invalid or allowlist out-of-tree); see prior stderr" >&2
+          return 1
+        fi
+        if [[ $curl_exit -eq 28 ]]; then
+          echo "ERROR: API call timed out after ${timeout}s (attempt $attempt)" >&2
+          if [[ $attempt -lt $_CURL_MAX_RETRIES ]]; then
+            echo "[gpt-review-api] Retrying in ${_CURL_RETRY_DELAY}s..." >&2
+            sleep "$_CURL_RETRY_DELAY"
+            ((attempt++))
+            continue
+          fi
+          return 3
+        fi
+        echo "ERROR: curl failed with exit code $curl_exit" >&2
+        return 1
+      }
+
+    rm -f "$curl_config" "$payload_file"
+
+    # Extract HTTP code from last line
+    http_code=$(echo "$curl_output" | tail -1)
+    response=$(echo "$curl_output" | sed '$d')
+
+    case "$http_code" in
+      200)
+        break
+        ;;
+      401)
+        # Surface specific API error message if available (FR-4)
+        local _api_err_msg=""
+        _api_err_msg=$(echo "$response" | jq -r '.error.message // empty' 2>/dev/null) || true
+        if [[ -n "$_api_err_msg" ]]; then
+          local _redacted_msg
+          _redacted_msg=$(redact_log_output "$_api_err_msg")
+          echo "ERROR: Authentication failed — $_redacted_msg" >&2
+        else
+          echo "ERROR: Authentication failed - check OPENAI_API_KEY" >&2
+        fi
+        return 4
+        ;;
+      429)
+        _curl_fallback_log_429_diagnostic "$response" "$attempt"
+        # Bridgebuilder iter-1 MEDIUM: short-circuit on insufficient_quota.
+        # Retries DEFINITELY won't help when the OpenAI account has hit its
+        # tier/billing limit — burning N retries × delay is pure latency.
+        # zkSoju's #711 session burned ~3 min on 6 retries (across two
+        # script invocations) before falling back to Codex MCP.
+        local _429_short_type _429_short_code
+        if command -v jq >/dev/null 2>&1; then
+          _429_short_type=$(echo "$response" | jq -r '(.error.type? // .error[0]?.type?) // empty' 2>/dev/null) || true
+          _429_short_code=$(echo "$response" | jq -r '(.error.code? // .error[0]?.code?) // empty' 2>/dev/null) || true
+          if [[ "$_429_short_type" == "insufficient_quota" || "$_429_short_code" == "insufficient_quota" ]]; then
+            echo "[gpt-review-api] short-circuit: insufficient_quota detected; skipping remaining retries (saves ~$((_CURL_RETRY_DELAY * (_CURL_MAX_RETRIES - attempt)))s of wasted backoff)" >&2
+            _curl_fallback_log_429_quota_hint "$response"
+            return 1
+          fi
+        fi
+        if [[ $attempt -lt $_CURL_MAX_RETRIES ]]; then
+          local wait_time=$((_CURL_RETRY_DELAY * attempt))
+          echo "[gpt-review-api] Waiting ${wait_time}s before retry..." >&2
+          sleep "$wait_time"
+          ((attempt++))
+          continue
+        fi
+        echo "ERROR: Rate limit exceeded after $_CURL_MAX_RETRIES attempts" >&2
+        _curl_fallback_log_429_quota_hint "$response"
+        return 1
+        ;;
+      500|502|503|504)
+        echo "[gpt-review-api] Server error ($http_code) - attempt $attempt" >&2
+        if [[ $attempt -lt $_CURL_MAX_RETRIES ]]; then
+          echo "[gpt-review-api] Retrying in ${_CURL_RETRY_DELAY}s..." >&2
+          sleep "$_CURL_RETRY_DELAY"
+          ((attempt++))
+          continue
+        fi
+        echo "ERROR: Server error after $_CURL_MAX_RETRIES attempts" >&2
+        return 1
+        ;;
+      *)
+        echo "ERROR: API returned HTTP $http_code" >&2
+        echo "[gpt-review-api] Response (truncated): ${response:0:200}" >&2
+        return 1
+        ;;
+    esac
+  done
+
+  # Extract content from response
+  # Chat Completions: .choices[0].message.content
+  # Responses API: .output[].content[].text
+  local content_response
+  content_response=$(echo "$response" | jq -r '
+    .choices[0].message.content //
+    (.output[] | select(.type == "message") | .content[] | select(.type == "output_text") | .text) //
+    empty
+  ')
+
+  if [[ -z "$content_response" ]]; then
+    echo "ERROR: No content in API response" >&2
+    echo "[gpt-review-api] Response (truncated): ${response:0:200}" >&2
+    return 5
+  fi
+
+  # Trim whitespace
+  content_response=$(echo "$content_response" | sed 's/^[[:space:]]*//;s/[[:space:]]*$//')
+
+  # Validate JSON
+  if ! echo "$content_response" | jq empty 2>/dev/null; then
+    echo "ERROR: Invalid JSON in response" >&2
+    echo "[gpt-review-api] Response content: $content_response" >&2
+    return 5
+  fi
+
+  # Validate verdict field (supports .verdict and .overall_verdict fallback)
+  local verdict
+  if ! verdict=$(extract_verdict "$content_response"); then
+    echo "ERROR: Response missing 'verdict' field" >&2
+    echo "[gpt-review-api] Response content: $content_response" >&2
+    return 5
+  fi
+
+  if [[ "$verdict" != "APPROVED" && "$verdict" != "CHANGES_REQUIRED" && "$verdict" != "DECISION_NEEDED" ]]; then
+    echo "ERROR: Invalid verdict: $verdict (expected: APPROVED, CHANGES_REQUIRED, or DECISION_NEEDED)" >&2
+    return 5
+  fi
+
+  echo "$content_response"
+}
+
+# =============================================================================
+# Generic chat via model-invoke (cycle-103 T1.6)
+# =============================================================================
+#
+# call_flatline_chat — generic chat call through model-invoke. Unlike
+# call_api_via_model_invoke (gpt-reviewer-specific, validates a gpt-reviewer
+# schema), this helper returns content text directly so the caller can do its
+# own JSON extraction / schema validation. Used by the flatline-* scripts to
+# replace direct OpenAI/Anthropic API calls.
+#
+# Args: model prompt timeout [max_tokens]
+# Outputs: raw content text on stdout (model-invoke --output-format text)
+# Returns: 0 on success, non-zero on model-invoke failure
+#
+# Closes cycle-103 sprint-1 T1.6 / AC-1.4 / M2 cycle-exit invariant for
+# Flatline chat paths. Embeddings are out of scope (cheval has no embeddings
+# substrate; flatline-semantic-similarity.sh's /v1/embeddings call is
+# documented in handoffs/T1.6-flatline-api-audit.md as a separate undertaking).
+call_flatline_chat() {
+  local model="$1"
+  local prompt="$2"
+  local timeout="$3"
+  local max_tokens="${4:-500}"
+
+  if [[ -z "$model" || -z "$prompt" || -z "$timeout" ]]; then
+    echo "ERROR: call_flatline_chat requires (model, prompt, timeout) args" >&2
+    return 2
+  fi
+
+  # Write prompt to temp file — avoids shell argv-length limits and keeps the
+  # full prompt out of process listings.
+  local input_file
+  input_file=$(mktemp) || {
+    echo "ERROR: call_flatline_chat: mktemp failed" >&2
+    return 4
+  }
+  chmod 600 "$input_file"
+  printf '%s' "$prompt" > "$input_file"
+
+  local result exit_code=0
+  result=$("$_MODEL_INVOKE" \
+    --agent flatline-reviewer \
+    --model "$model" \
+    --input "$input_file" \
+    --output-format text \
+    --json-errors \
+    --max-tokens "$max_tokens" \
+    --timeout "$timeout" \
+    2>/dev/null) || exit_code=$?
+
+  rm -f "$input_file"
+
+  if [[ $exit_code -ne 0 ]]; then
+    echo "ERROR: model-invoke failed with exit code $exit_code (model=$model)" >&2
+    return "$exit_code"
+  fi
+
+  echo "$result"
+}

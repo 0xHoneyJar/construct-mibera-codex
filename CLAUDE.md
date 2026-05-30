@@ -49,7 +49,7 @@ Traits are signals, not scripts. A Mibera born in 1352 CE with a Greek ancestor 
 
 Reference `_codex/data/scope.json` for programmatic scope.
 
-**What the codex tracks**: 10,000 Miberas, 10,000 MiParcels (Phase 1 reveal with 15 trait categories), 44 Grails (42 canonical + 2 creator community), 1,337 visual traits (incl. 78 drugs), 78 tarot cards, 33 ancestors, 10 birthday eras, 33 special collections, 11 Fractures, 12 Mibera Sets
+**What the codex tracks**: 10,000 Miberas, 10,000 MiParcels (Phase 1 reveal with 15 trait categories), 44 Grails (42 canonical + 2 creator community), 1,337 visual traits (1,326 files; incl. 78 drugs), 78 tarot cards, 33 ancestors, 10 birthday eras, 33 documented special-collection collaborations (53 files across 5 sub-collections), 10 Fractures, 12 Mibera Sets
 
 **What the codex does NOT track**: ownership/wallets, on-chain state (transfers, marketplace), community member identities, price/market data
 
@@ -77,16 +77,16 @@ Reference `_codex/data/scope.json` for programmatic scope.
 | `miberas/` | Individual Mibera files | 10,000 |
 | `miparcels/` | Individual MiParcel files | 10,000 |
 | `miparcels/traits/` | Parcel trait documentation (with cultural context) | 12 |
-| `traits/` | Visual trait files (20 subcategories) | 1,337 |
+| `traits/` | Visual trait files (20 subcategories) | 1,326 files (1,337 unique) |
 | `traits/overlays/molecules/` | Drug/molecule documentation | 78 |
 | `core-lore/` | Archetypes, ancestors, tarot, philosophy | ~120 |
-| `birthdays/` | Birthday era classifications | 10 |
+| `birthdays/` | Birthday era classifications | 10 eras (12 files) |
 | `browse/` | Dimensional browse indices | 8 |
-| `grails/` | Hand-drawn 1/1 art pieces | 43 |
+| `grails/` | Hand-drawn 1/1 art pieces | 44 |
 | `mibera-sets/` | Honey Road ERC-1155 tokens (Optimism) | 12 |
 | `swag-scoring/` | Scoring formula, methods, and all trait scores | — |
-| `fractures/` | Reveal phase documentation | 11 |
+| `fractures/` | Reveal phase documentation | 10 |
 | `vending-machine/` | VM-exclusive Shadow Traits (11 categories) | 102 |
-| `special-collections/` | Partner/special collections | 32 |
+| `special-collections/` | Partner/special collections | 53 files (5 sub-collections) |
 | `oracle/` | Persona-driven system prompt | 1 |
 | `_codex/` | Schemas, scripts, data exports | — |
