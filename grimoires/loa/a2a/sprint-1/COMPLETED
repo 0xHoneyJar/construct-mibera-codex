@@ -1,0 +1,13 @@
+Sprint 1 (cycle-025, global ID 41) — Audit Truth + Genuine Content Fixes
+Status: COMPLETED
+Date: 2026-05-30
+Senior review: All good (with noted non-blocking concerns)
+Security audit: APPROVED - LETS FUCKING GO
+
+Acceptance criteria all met:
+- audit-structure.sh: 1146 → 0 errors (exit 0)
+- audit-semantic.py: 4 fail → 0 fail (8 pass; orphan stays info)
+- grail exemption sourced from grails.jsonl, fail-loud (exit 2) verified
+- no fabricated grail trait tables
+- audit-links.sh: 0 codex-content broken (3 framework links out-of-scope)
+- 4 archetype anchors resolve before/after

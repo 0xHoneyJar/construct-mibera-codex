@@ -1,0 +1,13 @@
+Sprint 2 (cycle-025, global ID 42, FINAL) — Provenance, Reconciliation, Orphans + E2E
+Status: COMPLETED
+Date: 2026-05-30
+Senior review: All good (with noted non-blocking concerns)
+Security audit: APPROVED - LETS FUCKING GO
+
+Acceptance criteria all met:
+- count-entities.sh + entity-counts.json: valid JSON, matches SDD §0 table
+- 6 canonical docs reconciled, 0 count contradictions, files-vs-concept stated where divergent
+- 20 orphan traits documented (15 found to be false orphans / minted); no deletions
+- orphan check stays status:info
+- no @generated edits; protected counts (10k/10k/44/12/78/78) unchanged
+- full audit trio: structure 0 errors, semantic 8 pass/0 fail, links 0 codex-content broken

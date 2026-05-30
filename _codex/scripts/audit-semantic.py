@@ -91,6 +91,33 @@ def load_tarot_frontmatter():
     return tarot
 
 
+def load_grail_ids():
+    """Load the 44 grail token IDs from the canonical grails.jsonl.
+
+    Grail token IDs are hand-drawn 1/1s placed on random Miberas post-reveal;
+    they carry no generative traits, so they have no archetype/element/drug/
+    ancestor values and must be exempted from the enum/reference checks. The
+    set is sourced from grails.jsonl (not hardcoded) so it stays in sync, and
+    we fail loud if the source is missing — silently skipping the exemption
+    would re-mask genuine semantic errors.
+    """
+    grails_path = REPO_ROOT / "_codex" / "data" / "grails.jsonl"
+    if not grails_path.is_file():
+        print(f"ERROR: grail exemption source not found: {grails_path}", file=sys.stderr)
+        print("Cannot distinguish grail 1/1s from genuine semantic errors. Aborting.", file=sys.stderr)
+        sys.exit(2)
+    grail_ids = set()
+    with open(grails_path, encoding='utf-8') as fh:
+        for line in fh:
+            line = line.strip()
+            if line:
+                grail_ids.add(json.loads(line)['id'])
+    if not grail_ids:
+        print(f"ERROR: grail exemption source {grails_path} yielded 0 IDs. Aborting.", file=sys.stderr)
+        sys.exit(2)
+    return grail_ids
+
+
 def slugify(name):
     """Convert display name to filename slug."""
     s = name.lower()
@@ -102,31 +129,39 @@ def slugify(name):
     return s
 
 
-def check_archetype_enum(miberas):
-    """Check all archetype values are valid."""
+def check_archetype_enum(miberas, grail_ids):
+    """Check all archetype values are valid (grail 1/1s exempted)."""
     violations = []
+    checked = 0
     for mid, fm in miberas.items():
+        if mid in grail_ids:
+            continue
+        checked += 1
         arch = fm.get('archetype')
         if arch not in VALID_ARCHETYPES:
             violations.append(f"Mibera #{mid}: archetype '{arch}' not in valid set")
     return {
         "status": "pass" if not violations else "fail",
         "violations": violations,
-        "checked": len(miberas),
+        "checked": checked,
     }
 
 
-def check_element_enum(miberas):
-    """Check all element values are valid."""
+def check_element_enum(miberas, grail_ids):
+    """Check all element values are valid (grail 1/1s exempted)."""
     violations = []
+    checked = 0
     for mid, fm in miberas.items():
+        if mid in grail_ids:
+            continue
+        checked += 1
         elem = fm.get('element')
         if elem not in VALID_ELEMENTS:
             violations.append(f"Mibera #{mid}: element '{elem}' not in valid set")
     return {
         "status": "pass" if not violations else "fail",
         "violations": violations,
-        "checked": len(miberas),
+        "checked": checked,
     }
 
 
@@ -145,12 +180,16 @@ def check_element_totals(miberas):
     }
 
 
-def check_drug_references(miberas, drugs):
-    """Check every Mibera drug value has a matching drug file."""
+def check_drug_references(miberas, drugs, grail_ids):
+    """Check every Mibera drug value has a matching drug file (grail 1/1s exempted)."""
     violations = []
     drug_slugs = set(drugs.keys())
+    checked = 0
 
     for mid, fm in miberas.items():
+        if mid in grail_ids:
+            continue
+        checked += 1
         drug_name = fm.get('drug')
         if not drug_name:
             violations.append(f"Mibera #{mid}: no drug value")
@@ -162,16 +201,20 @@ def check_drug_references(miberas, drugs):
     return {
         "status": "pass" if not violations else "fail",
         "violations": violations,
-        "checked": len(miberas),
+        "checked": checked,
     }
 
 
-def check_ancestor_references(miberas, ancestors):
-    """Check every Mibera ancestor value has a matching ancestor file."""
+def check_ancestor_references(miberas, ancestors, grail_ids):
+    """Check every Mibera ancestor value has a matching ancestor file (grail 1/1s exempted)."""
     violations = []
     ancestor_slugs = set(ancestors.keys())
+    checked = 0
 
     for mid, fm in miberas.items():
+        if mid in grail_ids:
+            continue
+        checked += 1
         anc_name = fm.get('ancestor')
         if not anc_name:
             violations.append(f"Mibera #{mid}: no ancestor value")
@@ -183,7 +226,7 @@ def check_ancestor_references(miberas, ancestors):
     return {
         "status": "pass" if not violations else "fail",
         "violations": violations,
-        "checked": len(miberas),
+        "checked": checked,
     }
 
 
@@ -279,17 +322,18 @@ def main():
     drugs = load_drug_frontmatter()
     ancestors = load_ancestor_frontmatter()
     tarot = load_tarot_frontmatter()
-    print(f"  Miberas: {len(miberas)}, Drugs: {len(drugs)}, Ancestors: {len(ancestors)}, Tarot: {len(tarot)}")
+    grail_ids = load_grail_ids()
+    print(f"  Miberas: {len(miberas)}, Drugs: {len(drugs)}, Ancestors: {len(ancestors)}, Tarot: {len(tarot)}, Grails exempted: {len(grail_ids)}")
 
     print("\nRunning checks...")
     results = {}
 
     checks = [
-        ("archetype_enum", lambda: check_archetype_enum(miberas)),
-        ("element_enum", lambda: check_element_enum(miberas)),
+        ("archetype_enum", lambda: check_archetype_enum(miberas, grail_ids)),
+        ("element_enum", lambda: check_element_enum(miberas, grail_ids)),
         ("element_totals", lambda: check_element_totals(miberas)),
-        ("drug_references", lambda: check_drug_references(miberas, drugs)),
-        ("ancestor_references", lambda: check_ancestor_references(miberas, ancestors)),
+        ("drug_references", lambda: check_drug_references(miberas, drugs, grail_ids)),
+        ("ancestor_references", lambda: check_ancestor_references(miberas, ancestors, grail_ids)),
         ("drug_tarot_bidirectional", lambda: check_drug_tarot_bidirectional(drugs, tarot)),
         ("orphan_traits", lambda: check_orphan_traits(miberas)),
         ("swag_rank_distribution", lambda: check_swag_rank_distribution(miberas)),

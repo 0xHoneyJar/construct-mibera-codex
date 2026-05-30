@@ -1,247 +1,274 @@
-# Sprint Plan: Surface Codex README Structure on Docs Site
+# Sprint Plan: Codex Reality Reconciliation & Hygiene
 
-**Cycle:** 024
-**Created:** 2026-05-06
-**Sprints:** 4 (Sprint 0 → Sprint 3)
-**Source PRD:** `grimoires/loa/prd.md`
-**Source SDD:** `grimoires/loa/sdd.md`
-**Working directory:** `docs/` (vocs subfolder)
-**Total estimated effort:** 1–2 days for a focused operator pass; longer if Flatline reviews and full QA per sprint
+**Version:** 1.0
+**Date:** 2026-05-30
+**Author:** Sprint Planner Agent
+**Cycle:** 025
+**PRD Reference:** grimoires/loa/prd.md
+**SDD Reference:** grimoires/loa/sdd.md
 
 ---
 
-## Sprint Sequencing
+## Executive Summary
+
+This is a **hygiene / data-reconciliation cycle for a markdown knowledge base** — no application, no DB, no API. The work is a bounded set of surgical edits plus two audit-script patches plus one provenance script, verified by re-running the existing audit trio to exact target numbers.
+
+The plan follows the SDD's suggested grouping (sdd.md:347):
+
+- **Sprint 1 (global 41) — Audit Truth + Genuine Content Fixes** (Phases 1–2): patch the audits so they report only real issues, then close the 2 genuine ancestor gaps and fix codex-content broken links. This is the P0 core that unblocks trustworthy audits.
+- **Sprint 2 (global 42) — Provenance, Reconciliation, Orphans + E2E** (Phases 3–5): add the count-provenance script, reconcile every canonical doc to computed reality driven by that script, document the 20 orphan traits, and run the final E2E goal-validation gate.
+
+**Total Sprints:** 2
+**Sprint Duration:** 2.5 days each
+**Estimated Completion:** 2026-06-04
+
+> From sdd.md:347: *"Sprint 1 = Phases 1–2 (audit truth + content fixes, the P0 core). Sprint 2 = Phases 3–4 (provenance + reconciliation + orphan investigation). Phase 5 is the audit gate folded into each sprint's acceptance."*
+
+---
+
+## Sprint Overview
+
+| Sprint | Global ID | Theme | Key Deliverables | Dependencies |
+|--------|-----------|-------|------------------|--------------|
+| 1 | 41 | Audit Truth + Genuine Content Fixes | Grail-exempt audit patches (structure + semantic); `period_modern` for 2 ancestors; 8 codex-content links fixed | None |
+| 2 | 42 | Provenance, Reconciliation, Orphans + E2E | `count-entities.sh` + `entity-counts.json`; 6 canonical docs reconciled; orphan-trait findings doc; E2E goal validation | Sprint 1 (audits must be truthful before reconciliation is verifiable) |
+
+---
+
+## Sprint 1: Audit Truth + Genuine Content Fixes
+
+**Global Sprint ID:** 41
+**Scope:** MEDIUM (5 tasks)
+**Duration:** 2.5 days
+**Dates:** 2026-05-30 – 2026-06-01
+
+### Sprint Goal
+Make the audit tooling report only genuine issues (grails exempted) and close the 2 real ancestor gaps plus the 8 codex-content broken links, so `audit-structure.sh` reaches 0 errors and `audit-links.sh` reaches 0 codex-content broken links.
+
+### Deliverables
+- [ ] `audit-structure.sh` patched to skip generative-trait checks for the 44 grail IDs, sourced from `_codex/data/grails.jsonl`, fail-loud if the jsonl is missing.
+- [ ] `audit-semantic.py` patched to exempt grail IDs from `check_archetype_enum`, `check_element_enum`, `check_drug_references`, `check_ancestor_references`.
+- [ ] `core-lore/ancestors/irish-druids.md` and `core-lore/ancestors/pythia.md` each carry a valid `period_modern` frontmatter key.
+- [ ] `core-lore/festival-zones-vocabulary.md`: 7 absolute-path links repointed to working relative paths (with verified archetype anchors).
+- [ ] `grails/README.md` flagged-link false-positive resolved per SDD Q2 (reword example paths, or document as accepted false positive — no fabricated link).
+
+### Acceptance Criteria
+- [ ] `bash _codex/scripts/audit-structure.sh; echo $?` → errors drop to **2** after FR-3 patch, then **0** after FR-4 fixes; exit 0 at 0 errors.
+- [ ] `python3 _codex/scripts/audit-semantic.py` → `archetype_enum`, `element_enum`, `drug_references`, `ancestor_references` all report **PASS** (each was a 44-violation FAIL).
+- [ ] Grail exemption is sourced from `grails.jsonl` (not a hardcoded list); script exits non-zero with a clear message if the jsonl is absent/unreadable.
+- [ ] **No** fake trait tables added to any grail file.
+- [ ] `bash _codex/scripts/audit-links.sh` → **0** codex-content broken links (3 framework links in `PROCESS.md`/`INSTALLATION.md` remain, documented out-of-scope).
+- [ ] The 4 archetype anchors (`#freetekno`, `#milady`, `#acidhouse`, `#chicagodetroit`) in `archetypes.md` resolve before and after the link edits.
+
+### Technical Tasks
+
+<!-- Annotate each task with contributing goal(s) -->
+
+- [x] Task 1.1: Patch `_codex/scripts/audit-structure.sh` — load `GRAIL_IDS` from `_codex/data/grails.jsonl`; skip the trait-field grep loop (sdd.md:329, audit-structure.sh:33–43) for grail IDs; fail loud (exit non-zero) if the jsonl is missing/unreadable. → **[G-2]**
+- [x] Task 1.2: Patch `_codex/scripts/audit-semantic.py` — add `load_grail_ids()`; exempt grail IDs in `check_archetype_enum`/`check_element_enum`/`check_drug_references`/`check_ancestor_references` (sdd.md:330, audit-semantic.py:105–187). Verify structure 1,146 → 2 and semantic 4 FAIL → 4 PASS. → **[G-2]**
+- [x] Task 1.3: Add a valid `period_modern` frontmatter key to `core-lore/ancestors/irish-druids.md` and `core-lore/ancestors/pythia.md`, consistent with each entry's content and the ancestor schema (audit checks key presence; per SDD Q4 default to best-fit string from existing prose). Verify structure ancestor issues 2 → 0. → **[G-3]**
+- [x] Task 1.4: Repoint the 7 absolute-path links in `core-lore/festival-zones-vocabulary.md` to relative (sdd.md:270–274): `/core-lore/archetypes.md#anchor` → `archetypes.md#anchor`; `/core-lore/ancestors/` → `ancestors/`; `/traits/overlays/molecules/` → `../traits/overlays/molecules/`. Confirm all target anchors resolve. → **[G-3]**
+- [x] Task 1.5: Resolve the `grails/README.md` flagged link per SDD Q2/§6.5 — reword the illustrative `…/…webp` example paths so the checker stops parsing them as links (backtick/escape), or accept + document as a known false positive. Do not invent a real link. → **[G-3]**
+
+### Dependencies
+- None (first sprint). All inputs (`grails.jsonl`, ancestor files, link targets) exist and were verified in the working tree on 2026-05-29.
+
+### Security Considerations
+- **Trust boundaries**: All inputs are local repo files. `grails.jsonl` is generated/trusted; the FR-3 fail-loud requirement guards against a missing exemption source silently re-masking real errors.
+- **External dependencies**: None added. Patches stay in-language (bash for structure, Python 3 + existing PyYAML for semantic).
+- **Sensitive data**: None. No credentials, PII, or network calls.
+- **Zone**: `_codex/scripts/` and codex content are App/State zone (editable with care). `.claude/` is out of bounds. No `@generated:backlinks` section may be touched.
+
+### Risks & Mitigation
+| Risk | Probability | Impact | Mitigation |
+|------|-------------|--------|------------|
+| `grails.jsonl` absent / set-equality breaks at audit time | Low | High | FR-3 fail-loud (exit non-zero + clear message); invariant verified today (44==44, symdiff ∅); wire to jsonl not a hardcoded list (sdd.md §3.2) |
+| `festival-zones` anchor edits break valid anchors | Low | Low | All 4 archetype anchors confirmed present in `archetypes.md`; verify with `audit-links.sh` before/after (sdd.md §6.4) |
+| `grails/README.md` "broken link" is a false positive | High (confirmed) | Low | It's an illustrative `…/…webp` example; reword or accept per Q2 — do not fabricate a real link (sdd.md §6.5) |
+| Orphan check accidentally flipped to FAIL while editing semantic audit | Low | Med | Assert `audit-semantic.py` orphan check stays `status: "info"` (sdd.md:307, line 248) |
+
+### Success Metrics
+- `audit-structure.sh` errors: 1,146 → **0** (1,144 grail false positives exempted, 2 ancestor gaps fixed).
+- `audit-semantic.py`: 4 pass / 4 fail → **8 pass / 0 fail** (orphan check stays informational).
+- `audit-links.sh` codex-content broken links: 8 → **0**.
+
+---
+
+## Sprint 2 (Final): Provenance, Reconciliation, Orphans + E2E
+
+**Global Sprint ID:** 42
+**Scope:** MEDIUM (5 tasks)
+**Duration:** 2.5 days
+**Dates:** 2026-06-02 – 2026-06-04
+
+### Sprint Goal
+Establish a script-derived count-provenance artifact, reconcile every canonical doc to computed reality driven by it, document the 20 orphan traits with keep/prune recommendations, and run the end-to-end goal-validation gate confirming all PRD goals are met with no regression.
+
+### Deliverables
+- [ ] `_codex/scripts/count-entities.sh` (NEW) emitting authoritative per-entity-type counts.
+- [ ] `_codex/data/entity-counts.json` (NEW, generated) matching the SDD §0 computed-reality table.
+- [ ] 6 canonical docs reconciled to computed reality: `CLAUDE.md`, `_codex/data/scope.json`, `manifest.json`, `README.md`, `SUMMARY.md`, `llms.txt`.
+- [ ] Orphan-trait findings doc: all 20 zero-reference traits listed with path + likely reason + keep/prune recommendation; no deletions.
+- [ ] Final audit-trio re-run + `git diff` review confirming no regression and no count contradictions.
+
+### Acceptance Criteria
+- [ ] `bash _codex/scripts/count-entities.sh | python3 -m json.tool` → valid JSON matching the SDD §0 computed-reality table (grails 44, fractures 10, birthdays 12 files/10 eras, traits 1326 files / 1337 concept, special collections 53 files / 5 subdirs, drugs 78).
+- [ ] FR-1 counts reconciled with the `files` vs `concept` distinction stated explicitly wherever they diverge:
+  - [ ] Fractures stated as **10** everywhere (fix `CLAUDE.md` "11").
+  - [ ] Grails stated as **44** everywhere (fix `CLAUDE.md` dir-table "43").
+  - [ ] Birthdays state **10 eras / 12 files** (10 eras + README + timeline).
+  - [ ] Traits state **1,337 unique (1,323 imaged + 14 metadata-only) / 1,326 files** — do not hardcode the 1,245 audit-subset.
+  - [ ] Special collections state **53 files / 5 sub-collections** while keeping the "33 documented collaborations" concept distinct.
+  - [ ] Drugs confirmed **78** (verify-only).
+- [ ] No count contradiction remains across the 6 canonical docs (manual diff vs `entity-counts.json`).
+- [ ] All 20 orphan traits listed (paths in sdd.md §11 Appendix A) with path + likely reason + keep/prune rec; orphan check remains `status: "info"`.
+- [ ] No count edit falls inside a `@generated:backlinks` section; 10K Miberas / 10K MiParcels / 44 grails / 12 sets / 78 drugs / 78 tarot counts unchanged (G5).
+- [ ] Full audit trio passes: `audit-structure.sh` 0 errors, `audit-semantic.py` 8 pass / 0 fail, `audit-links.sh` 0 codex-content broken links.
+
+### Technical Tasks
+
+- [x] Task 2.1: Write `_codex/scripts/count-entities.sh` (bash, stdlib only) emitting `_codex/data/entity-counts.json` per SDD §3.1, using the `find`/`wc`/`ls` commands in sdd.md:32–47. Each entity carries a `files` value and, where they differ, a `concept`/`eras`/`subcollections` value + `note`. Verify against the §0 table. → **[G-1, G-2]**
+- [x] Task 2.2: Reconcile counts in all 6 canonical docs (`CLAUDE.md` lines 52/80/85/90, `_codex/data/scope.json`, `manifest.json`, `README.md`, `SUMMARY.md`, `llms.txt`), driven by `entity-counts.json` not eyeballing. Use surgical per-context Edit-tool replacements only — never repo-wide `sed` (sdd.md §6.1). Preserve both `files: 53`/`subcollections: 5` and the conceptual "33 documented collaborations" note in `scope.json` (sdd.md:362). → **[G-1, G-5]**
+- [x] Task 2.3: Author the orphan-trait findings doc — list all 20 orphans (sdd.md §11 Appendix A paths) with path + likely reason (legit-unused variant/plain catalog entry vs erroneous duplicate) + keep/prune recommendation. Make **no** deletions; confirm orphan check stays `info` (FR-6). → **[G-4]**
+- [x] Task 2.4: No-regression sweep — `git diff --stat` review; grep that no `@generated` section was edited; confirm entity counts 10K/10K/44/12/78/78 unchanged (G5). → **[G-5]**
+- [x] Task 2.E2E: **End-to-End Goal Validation** (see below). → **[G-1, G-2, G-3, G-4, G-5]**
+
+### Task 2.E2E: End-to-End Goal Validation
+
+**Priority:** P0 (Must Complete)
+**Goal Contribution:** All goals (G-1 … G-5)
+
+**Description:**
+Validate that all PRD goals are achieved through the complete implementation, by re-running the audit trio to the SDD §7.3 target ledger and diffing the canonical docs against `entity-counts.json`.
+
+**Validation Steps:**
+
+| Goal ID | Goal | Validation Action | Expected Result |
+|---------|------|-------------------|-----------------|
+| G-1 | Canonical docs match repo reality | Manual diff of all 6 docs against `_codex/data/entity-counts.json` | No count contradiction; file-vs-concept distinction stated wherever they diverge |
+| G-2 | Audit tooling reports only genuine issues | `bash audit-structure.sh`; `python3 audit-semantic.py` | structure errors → 0 (grails exempted); archetype/element/drug/ancestor → PASS |
+| G-3 | Genuine content errors fixed | `bash audit-structure.sh` (ancestor); `bash audit-links.sh` | ancestor gaps 2 → 0; codex-content broken links → 0 |
+| G-4 | Orphan-trait status understood | Findings doc present | 20 orphans listed with reason + keep/prune rec; no silent deletion |
+| G-5 | No regression | `git diff --stat`; grep `@generated`; entity-count check | 10K/10K/44/12/78 counts unchanged; no backlink-section edits; valid links still resolve |
+
+**Acceptance Criteria:**
+- [ ] Each goal validated with documented evidence (command output / diff captured).
+- [ ] Integration points verified: `entity-counts.json` → reconciled docs flows end-to-end; grail exemption flows from `grails.jsonl` into both audit scripts.
+- [ ] No goal marked "not achieved" without explicit justification.
+
+### Dependencies
+- Sprint 1: the audit scripts must be truthful (grail-exempt) before reconciliation correctness can be verified against clean audit output. FR-2's `entity-counts.json` is the input that drives FR-1 (Task 2.2 depends on Task 2.1).
+
+### Security Considerations
+- **Trust boundaries**: All local files. `count-entities.sh` reads only repo contents; no untrusted input.
+- **External dependencies**: None. `count-entities.sh` is bash stdlib (`find`/`wc`/`ls`/`printf`).
+- **Sensitive data**: None.
+- **Zone**: Edits confined to `_codex/` and repo-root canonical docs + codex content. `.claude/` out of bounds. No `@generated:backlinks` edits.
+
+### Risks & Mitigation
+| Risk | Probability | Impact | Mitigation |
+|------|-------------|--------|------------|
+| Bulk count replacement hits unrelated content (image filenames, trait names) | Med | High | Surgical per-context Edit-tool replacements only, never repo-wide `sed`; `git diff` review (sdd.md §6.1) |
+| PRD count figures are stale (traits 1245, birthdays 11, special-coll 6) | High (confirmed) | High | Reconcile to SDD §0 computed reality (1326/12/5), not PRD figures; `entity-counts.json` is the single source |
+| Editing `scope.json` special_collection count 33→53 erases the concept | Med | Med | Keep BOTH `files: 53`/`subcollections: 5` AND the "33 documented collaborations" note (sdd.md:362) |
+| Orphan check flipped to FAIL | Low | Med | Assert it stays `status: "info"` (sdd.md §7.2) |
+
+### Success Metrics
+- `entity-counts.json` valid JSON, matches §0 table for all 11 entity types.
+- 0 count contradictions across the 6 canonical docs.
+- 20/20 orphan traits documented with keep/prune recommendations.
+- Final audit trio: structure 0 errors, semantic 8 pass / 0 fail, links 0 codex-content broken.
+- `git diff` shows no `@generated` edits and no change to the protected counts.
+
+---
+
+## Risk Register
+
+| ID | Risk | Sprint | Probability | Impact | Mitigation | Owner |
+|----|------|--------|-------------|--------|------------|-------|
+| R1 | `grails.jsonl` absent / set-equality breaks | 1 | Low | High | FR-3 fail-loud; invariant verified (symdiff ∅); jsonl-sourced exemption | Maintainer |
+| R2 | `festival-zones` anchor edits break valid anchors | 1 | Low | Low | Anchors confirmed; `audit-links.sh` before/after | Maintainer |
+| R3 | `grails/README.md` flagged link is a false positive | 1 | High | Low | Reword or accept per Q2; no fabricated link | Maintainer |
+| R4 | Bulk count replacement hits unrelated content | 2 | Med | High | Surgical per-context edits; `git diff` review | Maintainer |
+| R5 | Reconcile to stale PRD figures (1245/11/6) | 2 | High | High | Use SDD §0 computed reality; `entity-counts.json` source | Maintainer |
+| R6 | `scope.json` special-collections concept overwritten by file count | 2 | Med | Med | Keep both files-count and concept note | Maintainer |
+| R7 | Orphan check flipped to FAIL | 1–2 | Low | Med | Assert orphan check stays `info` | Maintainer |
+
+---
+
+## Success Metrics Summary
+
+| Metric | Target | Measurement Method | Sprint |
+|--------|--------|-------------------|--------|
+| `audit-structure.sh` errors | 0 | `bash _codex/scripts/audit-structure.sh; echo $?` | 1 |
+| `audit-semantic.py` summary | 8 pass / 0 fail (orphan info) | `python3 _codex/scripts/audit-semantic.py` | 1 |
+| `audit-links.sh` codex-content broken | 0 | `bash _codex/scripts/audit-links.sh` | 1 |
+| `entity-counts.json` validity | valid JSON, matches §0 table | `count-entities.sh \| python3 -m json.tool` | 2 |
+| Doc count contradictions | 0 | Manual diff of 6 docs vs `entity-counts.json` | 2 |
+| Orphan traits documented | 20/20 with keep/prune rec | Findings doc review | 2 |
+| No regression | protected counts + `@generated` unchanged | `git diff --stat`; grep `@generated` | 2 |
+
+---
+
+## Dependencies Map
 
 ```
-Sprint 0 (foundation) ─→ Sprint 1 (story) ─→ Sprint 2 (ancestors) ─→ Sprint 3 (on-chain + data)
-        │                                                                       │
-        └─ unblocks all subsequent sprints ──────────────────────────────────────┘
+Sprint 1 (41) ──────────────▶ Sprint 2 (42)
+   │                              │
+   ├─ FR-3 audit grail exemption  ├─ FR-2 count-entities.sh + entity-counts.json
+   ├─ FR-4 ancestor period_modern ├─ FR-1 reconcile 6 canonical docs (driven by FR-2)
+   └─ FR-5 codex-content links    ├─ FR-6 orphan-trait findings
+                                  └─ E2E goal validation + no-regression gate
 ```
 
-**Sequential, not parallel.** Sprint 0's sidebar restructure is a prerequisite for the others; Sprints 1–3 can technically run independently after Sprint 0, but operator decree (Phase 6 batch) is to ship Story first as the lowest-risk validation of the new sidebar shape.
+---
+
+## Appendix
+
+### A. PRD Feature Mapping
+
+| PRD Feature (FR) | Sprint | Status |
+|------------------|--------|--------|
+| FR-3 Grail audit exemption | Sprint 1 | Planned |
+| FR-4 Ancestor `period_modern` gaps | Sprint 1 | Planned |
+| FR-5 Codex-content broken links | Sprint 1 | Planned |
+| FR-2 Count provenance | Sprint 2 | Planned |
+| FR-1 Doc count reconciliation | Sprint 2 | Planned |
+| FR-6 Orphan-trait investigation | Sprint 2 | Planned |
+
+### B. SDD Component Mapping
+
+| SDD Component | Sprint | Status |
+|---------------|--------|--------|
+| `audit-structure.sh` patch (grail skip + fail-loud) | Sprint 1 | Planned |
+| `audit-semantic.py` patch (grail exemption in 4 checks) | Sprint 1 | Planned |
+| `irish-druids.md` + `pythia.md` `period_modern` | Sprint 1 | Planned |
+| `festival-zones-vocabulary.md` 7 abs→rel links | Sprint 1 | Planned |
+| `grails/README.md` example-path reword (Q2) | Sprint 1 | Planned |
+| `count-entities.sh` + `entity-counts.json` (NEW) | Sprint 2 | Planned |
+| 6 canonical docs reconciliation | Sprint 2 | Planned |
+| Orphan-trait findings doc (NEW) | Sprint 2 | Planned |
+
+### C. PRD Goal Mapping
+
+| Goal ID | Goal Description | Contributing Tasks | Validation Task |
+|---------|------------------|--------------------|-----------------|
+| G-1 | Canonical docs match repo reality | Sprint 2: Task 2.1, Task 2.2 | Sprint 2: Task 2.E2E |
+| G-2 | Audit tooling reports only genuine issues | Sprint 1: Task 1.1, Task 1.2; Sprint 2: Task 2.1 | Sprint 2: Task 2.E2E |
+| G-3 | Genuine content errors fixed | Sprint 1: Task 1.3, Task 1.4, Task 1.5 | Sprint 2: Task 2.E2E |
+| G-4 | Orphan-trait status understood | Sprint 2: Task 2.3 | Sprint 2: Task 2.E2E |
+| G-5 | No regression | Sprint 2: Task 2.2, Task 2.4 | Sprint 2: Task 2.E2E |
+
+**Goal Coverage Check:**
+- [x] All PRD goals (G-1…G-5) have at least one contributing task.
+- [x] All goals have a validation task in the final sprint (Task 2.E2E).
+- [x] No orphan tasks (every task contributes to ≥1 goal).
+
+**Per-Sprint Goal Contribution:**
+
+Sprint 1 (41): G-2 (audit truth via grail exemption), G-3 (ancestor + link content fixes).
+Sprint 2 (42): G-1 (docs reconciled), G-2 (provenance backstop), G-4 (orphans documented), G-5 (no-regression), + E2E validation of all goals.
 
 ---
 
-## Sprint 0: Sidebar Group Restructure (no dead-link leaves)
-
-**Goal:** Sidebar after Sprint 0 = **3 groups: Front Matter, II. The Framework, V. The Collection**. §I, §IX, §X are NOT yet present (they appear in their owning sprints alongside the leaves that populate them). Existing live routes fold under §II + §V.
-
-**Effort estimate:** ~45 minutes (including check-routes safeguards)
-**Blocks:** Sprints 1, 2, 3
-
-**Updated per Flatline SKP-001a (severity 720):** Sprint 0 originally added all leaves including ones for unbuilt pages, which would have left the sidebar full of dead links between Sprint 0 ship and Sprint 3 ship. Restructured so each sprint owns its leaf addition AND its group header (Sprints 1/3 add §I/§IX/§X groups when they ship those routes).
-
-**Updated per Flatline IMP-012 (gpt+gemini consensus 920):** Original wording said "4 groups" but listed 3 and contradicted itself with "groups don't render yet." Resolved: Sprint 0 ships exactly 3 sidebar groups (Front Matter, §II, §V). Subsequent sprints introduce §I/§IX/§X.
-
-### Tasks
-
-| ID | Task | File | AC |
-|----|------|------|-----|
-| S0-T1 | Rewrite sidebar to exactly 3 groups | `docs/vocs.config.ts` | Sidebar groups: **(1) Front Matter** (existing — What Is the Codex?, For Agents) · **(2) II. The Framework** (one leaf: Archetypes → /tools/lookup_archetype, LIVE) · **(3) V. The Collection** (two leaves: Introducing Mibera → /tools/lookup_mibera LIVE, Mibera Maker · Vol I → /tools/lookup_grail LIVE). NO §I, §IX, §X groups, NO leaves to /story/*, /framework/*, /on-chain, /data. |
-| S0-T2 | Build sidebar-link verifier (per Flatline IMP-001 score 885 + SKP-001 760 manifest-drift) | `docs/scripts/check-routes.mjs` | Node script that imports `docs/vocs.config.ts`, walks every `link:` property in the sidebar tree, and asserts the corresponding page file exists at `docs/pages/{path}.mdx` (or has a known external/canonical mapping). NOT a hand-maintained manifest — derived from the config itself. Exits 1 if any sidebar leaf points to a non-existent page. |
-| S0-T3 | Add `check-routes` to package.json AND run it as part of `pnpm dev` prebuild + `pnpm build` (per Flatline SKP-001 manifest-drift mitigation) | `docs/package.json` | `prebuild` chain runs `check-routes.mjs` before vocs build; build fails if drift exists. `pnpm dev` chain runs it before `vocs dev`. |
-| S0-T4 | (Smoke runtime check, optional) live route HTTP probe with wait-on | `docs/scripts/probe-live-routes.sh` (optional) | If chosen, uses `wait-on -t 30000 http://localhost:5173/` before issuing curl. Run manually post-Sprint-0 if operator wants HTTP-level confirmation. NOT in the build pipeline. **Resolves Flatline SKP-001 CRITICAL 820.** |
-| S0-T5 | Verify AgentDrawer + Mibera tab still toggle on a representative route | (manual / agent-browser) | Open /tools/lookup_grail, click Mibera tab, drawer slides in showing tool spec — no regression |
-
-### Acceptance criteria
-
-- [ ] Sidebar shows exactly 3 groups: Front Matter, II. The Framework, V. The Collection
-- [ ] `pnpm build` runs `check-routes.mjs` and exits 0 — every sidebar leaf resolves to an existing page file
-- [ ] `pnpm dev` runs `check-routes.mjs` and exits 0
-- [ ] Adding a stale leaf to `vocs.config.ts` (test case: a `link: "/nonexistent"`) makes both `pnpm build` and `pnpm dev` fail with a clear error message — verifies the safeguard actually works
-- [ ] AgentDrawer + Mibera tab unchanged in behavior
-- [ ] Front Matter section intact: "What Is the Codex?" + "For Agents"
-- [ ] No §III/IV/VI/VII/VIII sidebar entries
-- [ ] `pnpm dev` server boots clean
-- [ ] **Zero leaves point to 404s** in the post-Sprint-0 sidebar (enforced by S0-T2/T3 in CI)
-
-### Out of scope for Sprint 0
-
-- Any new page content (Sprints 1–3 own that)
-- URL redirects (no URL changes happen)
-- New components
-
----
-
-## Sprint 1: Section I — The Story
-
-**Goal:** Surface Philosophy & Genesis + Official Lore as readable docs pages.
-
-**Effort estimate:** ~1.5 hours
-**Blocked by:** Sprint 0
-**Blocks:** Sprint 2 only via the operator's chosen sequencing (technically independent)
-
-### Tasks
-
-| ID | Task | File | AC |
-|----|------|------|-----|
-| S1-T1 | Create `docs/pages/story/` directory | (filesystem) | Directory exists |
-| S1-T2 | Author Philosophy & Genesis page with full markdown→MDX normalization (per Flatline SKP-002 + SKP-004) | `docs/pages/story/philosophy.mdx` | H1 "I. Philosophy & Genesis" + 1-line intro + content from `core-lore/philosophy.md`. **Normalization checklist applied:** (a) source frontmatter stripped (only docs MDX frontmatter remains), (b) all relative asset paths rewritten to absolute (e.g., `./images/foo.webp` → `https://assets.0xhoneyjar.xyz/...` OR copied into `docs/public/story/`), (c) all relative internal links rewritten to docs-site routes or GitHub URLs, (d) JSX-reserved chars (`{`, `<`) escaped as `\{`, `\<` outside fenced code blocks per SDD §7.1, (e) any HTML tags (e.g., `<details>`) reviewed for MDX compatibility, (f) `pnpm build` exits 0 — no parse errors. |
-| S1-T3 | Author Official Lore page with same normalization checklist | `docs/pages/story/official-lore.mdx` | Same checklist as S1-T2 applied to `core-lore/official-lore.md` content. |
-| S1-T4 | Update sidebar config: ADD §I. The Story group + 2 leaves pointing at the new live routes | `docs/vocs.config.ts` | "I. The Story" group inserted between Front Matter and §II in the sidebar. Both leaves resolve to live pages. `check-routes.mjs` exits 0 after this change. |
-| S1-T5 | Verify both pages render with parchment styling, headings hierarchy intact | (manual / agent-browser) | Pages have Imperial headings, Switzer body, hairline section dividers — visual register matches existing pages |
-| S1-T6 | Verify all asset references in Story pages resolve (no 404s) | (smoke) | Open both pages in dev; check browser DevTools Network tab for any 404 image/asset request. Zero 404s. |
-
-### Acceptance criteria
-
-- [ ] Both `/story/philosophy` and `/story/official-lore` return 200
-- [ ] Page H1s match sidebar entries exactly (numeral prefix + title)
-- [ ] Page content is sentence-case prose (not all-lowercase)
-- [ ] vocs prev/next nav works (philosophy ↔ official-lore)
-- [ ] No broken internal links inside the prose
-- [ ] **Zero broken asset references** (per Flatline SKP-002, score 750 — Network tab clean of 404s on both pages)
-- [ ] **`pnpm build` exits 0** — markdown→MDX normalization caught all parse hazards
-- [ ] Sidebar's "I. The Story" group is now functional (not a placeholder)
-- [ ] `check-routes.mjs` exits 0
-
-### Out of scope for Sprint 1
-
-- Build-time sync from source `core-lore/*.md` (deferred per SDD §7.1)
-- Per-section landing component (deferred per SDD §12 Q2)
-- Any UI beyond MDX prose
-
----
-
-## Sprint 2: Section II.2 — Ancestors
-
-**Goal:** Add 33 ancestor cultures as a browseable surface under II. The Framework.
-
-**Effort estimate:** ~3 hours
-**Blocked by:** Sprint 0 (Sprint 1 not strictly required but operator-ordered first)
-
-### Tasks
-
-| ID | Task | File | AC |
-|----|------|------|-----|
-| S2-T1 | Author build script with strict required-field handling (per Flatline SKP-005, score 760) | `docs/scripts/build-ancestors-index.mjs` | Reads `core-lore/ancestors/*.md` frontmatter, parses fields per SDD §3.1 schema, writes `docs/public/ancestors-browse.json`. **Failure semantics:** missing required field (slug/name) is a HARD FAIL — script exits 1 with `ERROR: ancestor {path} missing required {field}`. Build does not pass with fewer than 33 entries. Missing optional fields (period_*, locations, archetype_affinities) emit `WARN` but do not fail. Path resolution: source paths are resolved via `path.resolve(__dirname, "..", "..")` (per Flatline SKP-001 cwd-portability). |
-| S2-T2 | Wire builder into package.json | `docs/package.json` | `build-indexes` script chains the new builder; `pnpm dev` runs it before vocs starts |
-| S2-T3 | Author AncestorBrowse component | `docs/components/ancestor-browse.tsx` | Fetches `/ancestors-browse.json`, renders grid of cards: name + period + locations + archetype affinities. Mirrors ArchetypeBrowse structure. |
-| S2-T4 | Author CSS for ancestor cards | `docs/public/global.css` | New classes: `.ancestor-browse`, `.ancestor-card`, `.ancestor-card__name`, `.ancestor-card__period`, `.ancestor-card__locations`, `.ancestor-card__affinities`. Match parchment vocabulary. |
-| S2-T5 | Author MDX page | `docs/pages/framework/ancestors.mdx` | H1 "II. The Framework / Ancestors" + 1-line intro + `<AncestorBrowse />` |
-| S2-T6 | Update sidebar to point Ancestors leaf at /framework/ancestors | `docs/vocs.config.ts` | Sidebar leaf is live; clicking it lands on the new page |
-| S2-T7 | Verify all 33 ancestor cards render with their data | (manual / agent-browser) | Card count = 33; each card has name; cards with missing optional fields render gracefully |
-
-### Acceptance criteria
-
-- [ ] `pnpm dev` runs `build-ancestors-index.mjs` successfully and emits `ancestors-browse.json` (~17KB)
-- [ ] **`ancestors-browse.json` count === 33 exactly** (per Flatline SKP-005 — partial coverage from missing-required-field skips is now a HARD FAIL, not a silent warn)
-- [ ] `/framework/ancestors` returns 200, renders 33 ancestor cards
-- [ ] Test case: temporarily remove a required field from one ancestor MD file → build script exits 1 with a clear error → restore the field → build passes (verifies the safeguard)
-- [ ] Card visual register matches existing ArchetypeBrowse / ZoneBrowse cards
-- [ ] Right-rail BlotterGrid still works on this route (shows Discover fallback since ancestor pages aren't grail-typed)
-- [ ] Each ancestor card carries `aria-label` per SDD §7.2 (a11y for non-clickable cards)
-
-### Out of scope for Sprint 2
-
-- Per-ancestor detail pages (deferred to cycle-028)
-- Ancestor → Mibera filtering (deferred)
-- Ancestor archetype affinity heatmap or visualization (out of scope)
-
----
-
-## Sprint 3: Section IX–X — On-Chain + Data & Research
-
-**Goal:** Reference pages surfacing contract registry + knowledge graph + JSONL exports + stats.
-
-**Effort estimate:** ~2 hours
-**Blocked by:** Sprint 0
-
-### Tasks
-
-| ID | Task | File | AC |
-|----|------|------|-----|
-| S3-T1 | Author OnChainReference component with explicit address validation (per Flatline SKP-007, score 740) | `docs/components/onchain-reference.tsx` | Reads `_codex/data/contracts.json` (or inline data), renders contract address table with name + address + **chain (required field)** + per-row copy button. **Validation step:** at build time (or component init), each address is regex-checked for `^0x[a-fA-F0-9]{40}$` form, EIP-55 checksum is verified, duplicates across the table are detected and flagged, every row carries explicit chain metadata. Source-of-truth: `_codex/data/contracts.json` — schema includes `{name, address, chain, deployed_block?, source}`. Build fails if any contract row fails validation. |
-| S3-T2 | Author DataIndex component | `docs/components/data-index.tsx` | Static layout: knowledge graph link, JSONL exports table (file · format · count · GitHub link), stats summary (top 5 numbers from `_codex/data/stats.md`), scope/gaps/timeline links |
-| S3-T3 | Author /on-chain page | `docs/pages/on-chain.mdx` | H1 "IX. On-Chain" + intro + `<OnChainReference />` + sections per SDD §7.3 (Fractured, Shadow Traits, Candies, Sets, Tarot Quiz, 42 Motif, ABIs) |
-| S3-T4 | Author /data page | `docs/pages/data.mdx` | H1 "X. Data & Research" + intro + `<DataIndex />` |
-| S3-T5 | Author CSS for on-chain table + data index | `docs/public/global.css` | New classes for table rows, copy buttons, data-index sections. Match parchment register. |
-| S3-T6 | Update sidebar to point IX + X leaves at the new routes | `docs/vocs.config.ts` | Both routes are live in sidebar |
-| S3-T7 | Verify copy-button on contract addresses works in browser | (manual / agent-browser) | Click a copy button → clipboard contains the address |
-| S3-T8 | Verify external GitHub links resolve | (manual / agent-browser) | Each link to `_codex/data/*.json` opens GitHub source |
-| S3-T9 | Test address validation safeguard end-to-end (per Flatline SKP-007) | (smoke) | Insert a malformed address into a test fixture → build fails with `ERROR: invalid contract address {addr}`. Restore → build passes. Verifies the validation actually fires, not just exists. |
-
-### Acceptance criteria
-
-- [ ] `/on-chain` and `/data` both return 200
-- [ ] Contract registry table renders with all addresses from `_codex/data/contracts.json`
-- [ ] Copy buttons work (copy to clipboard verified in 2+ rows)
-- [ ] Data index shows knowledge graph stats (node + edge counts)
-- [ ] All external links resolve
-- [ ] Reference pages render lighter than narrative sections (acceptable visual weight: tables + bullet sections, no large hero)
-
-### Out of scope for Sprint 3
-
-- ABI inline rendering (just link to GitHub)
-- Knowledge graph visualization (link only — full graph is 5.4MB, not in MVP)
-- Live stats dashboard (static numbers from stats.md snapshot)
-
----
-
-## Cross-cutting Concerns
-
-### Verification across all sprints
-
-After each sprint:
-- `pnpm dev` boots clean
-- No console errors in browser
-- AgentDrawer + Mibera tab toggle on at least one new route
-- Sidebar shape matches SDD §5
-- All existing /tools/* and /grails/* routes still return 200
-
-### Definition of Done (whole cycle)
-
-- [ ] All 4 sprints' acceptance criteria met
-- [ ] No regression in existing 5 grimoire routes
-- [ ] No regression in agent surface (skill.md fetch returns 200, AgentDrawer functional)
-- [ ] vocs build (`pnpm build`) completes without errors
-- [ ] Sidebar reads as a book (§I–X order), not as a tool list
-- [ ] Visitor can walk from / through the 6 sidebar groups and find every cycle-024 page
-
-### Out of scope across the whole cycle
-
-(Mirroring PRD §7 deferrals)
-
-- Section III. Mysticism (cycle-025, gated on asset audit)
-- Section IV. The Art (1,337 visual traits — cycle-026)
-- Section V remainders (MiParcels, Birthdays, Fractures)
-- Section VI. The Mechanics (Swag Score)
-- Section VII. The Ecosystem (Special Collections, VM)
-- Section VIII. Behind the Scenes (Creative Process, Team)
-- IDENTITY.md doctrine page
-- Per-mibera, per-tarot-card, per-trait detail pages
-- Migration of /tools/* URLs
-
----
-
-## Risk Watchlist (per-sprint)
-
-(Augmented with Flatline-derived findings.)
-
-| Sprint | Risk | Detection | Mitigation |
-|--------|------|-----------|------------|
-| 0 | Sidebar config syntax error → vocs fails to build | `pnpm dev` exit code | YAML/TS lint before commit; revert via git if exit fails |
-| 0 | **Sidebar leaf added without page → 404 in production** (Flatline SKP-001 manifest-drift) | `check-routes.mjs` build hook | Script derives leaf list from vocs.config.ts itself, asserts every leaf has a page file. Runs in `pnpm build` — broken sidebar fails CI. |
-| 1 | **Asset paths in copied markdown 404** (Flatline SKP-002) | DevTools Network tab; S1-T6 task | Normalization checklist (S1-T2 AC) rewrites relative paths or copies assets to docs/public/story/ |
-| 1 | **MDX parse failure on copied markdown** (Flatline SKP-004 + SDD §7.1) | `pnpm build` fails with parse error | S1-T2 AC normalization checklist: strip frontmatter, escape `{` and `<`, review HTML for MDX compat |
-| 2 | **Silent partial-coverage when ancestor required fields missing** (Flatline SKP-005) | Build exit code | S2-T1 builder is HARD FAIL on missing slug/name; output count must === 33 |
-| 2 | Ancestor frontmatter inconsistency on optional fields | Build script warns; visual QA in dev | Soft warn + render placeholder; AncestorBrowse tolerates null/empty optional fields |
-| 3 | **Bad contract address ships to docs** (Flatline SKP-007) | S3-T9 build-time validation | Each address regex+checksum validated; chain metadata required; duplicates flagged. Build fails on invalid. |
-| 3 | Copy-button browser API quirks | Manual test in 2+ browsers | Use `navigator.clipboard.writeText` with fallback to `document.execCommand('copy')` |
-| All | **Path resolution drift between dev/build/CI** (Flatline SKP-001 cwd-portability) | Cross-context test | All scripts in docs/scripts/ resolve repo-root via `path.resolve(__dirname, "..", "..")` and log resolved absolute paths at script start for traceability |
-
----
-
-## Sources & Traceability
-
-| Sprint Plan section | Sources |
-|---------------------|---------|
-| Sprint 0 | SDD §5 (sidebar structure) + §13 (sprint breakdown) |
-| Sprint 1 | SDD §7.1, PRD FR-1.x |
-| Sprint 2 | SDD §3.1 (Ancestor schema) + §4.2 (component spec) + PRD FR-2.x |
-| Sprint 3 | SDD §7.3 + §4.2 + PRD FR-3.x |
-| Cross-cutting | SDD §11 risk mitigation, PRD §6 NFRs |
-| Risk watchlist | SDD §11, PRD §8 |
-
----
-
-*Authoring: /simstim Phase 5 (Planning). Phases 2, 4, 6 (Flatline reviews) skipped — older cheval adapter in this repo. Operator may /flatline-review the SDD or this Sprint Plan post-authoring if desired.*
+*Generated by Sprint Planner Agent — cycle-025, codebase-grounded against grimoires/loa/prd.md + grimoires/loa/sdd.md.*

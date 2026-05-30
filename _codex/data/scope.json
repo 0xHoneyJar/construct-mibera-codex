@@ -17,8 +17,9 @@
     {
       "entity_type": "trait",
       "count": 1337,
+      "files": 1326,
       "completeness": "COMPLETE",
-      "note": "1,337 unique visual traits (1,323 with build images + 14 metadata-only; incl. 78 drugs)"
+      "note": "1,337 unique visual traits (1,323 with build images + 14 metadata-only; incl. 78 drugs); 1,326 entity files on disk"
     },
     {
       "entity_type": "drug",
@@ -41,8 +42,10 @@
     {
       "entity_type": "special_collection",
       "count": 33,
+      "files": 53,
+      "subcollections": 5,
       "completeness": "PARTIAL",
-      "note": "Known partner collaborations across 4 sub-collections. New partners may not be immediately documented."
+      "note": "33 documented partner collaborations (conceptual); 53 trait files across 5 populated sub-collections on disk. New partners may not be immediately documented."
     },
     {
       "entity_type": "birthday_era",

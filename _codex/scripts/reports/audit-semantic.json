@@ -1,36 +1,37 @@
 {
-  "timestamp": "2026-04-06T01:09:21.327425Z",
+  "timestamp": "2026-05-30T19:47:17.510273Z",
   "checks": {
     "archetype_enum": {
       "status": "pass",
       "violations": [],
-      "checked": 10000
+      "checked": 9956
     },
     "element_enum": {
       "status": "pass",
       "violations": [],
-      "checked": 10000
+      "checked": 9956
     },
     "element_totals": {
       "status": "pass",
       "total": 10000,
       "breakdown": {
-        "Air": 4237,
-        "Earth": 2829,
-        "Fire": 1586,
-        "Water": 1348
+        "Air": 4215,
+        "Earth": 2818,
+        "Fire": 1580,
+        "UNKNOWN": 44,
+        "Water": 1343
       },
       "violations": []
     },
     "drug_references": {
       "status": "pass",
       "violations": [],
-      "checked": 10000
+      "checked": 9956
     },
     "ancestor_references": {
       "status": "pass",
       "violations": [],
-      "checked": 10000
+      "checked": 9956
     },
     "drug_tarot_bidirectional": {
       "status": "pass",
@@ -69,14 +70,15 @@
     "swag_rank_distribution": {
       "status": "pass",
       "distribution": {
-        "A": 1000,
-        "B": 3500,
-        "C": 2500,
-        "D": 1500,
-        "F": 650,
-        "S": 500,
-        "Ss": 250,
-        "Sss": 100
+        "A": 998,
+        "B": 3487,
+        "C": 2488,
+        "D": 1496,
+        "F": 644,
+        "S": 498,
+        "Ss": 247,
+        "Sss": 98,
+        "UNKNOWN": 44
       },
       "violations": []
     }

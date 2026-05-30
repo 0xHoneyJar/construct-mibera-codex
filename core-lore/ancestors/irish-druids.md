@@ -1,6 +1,7 @@
 ---
 name: Irish Druids
 period_ancient: -500 - 500
+period_modern: 2017 - 2024
 locations: Newgrange (Ireland)
 ---
 
