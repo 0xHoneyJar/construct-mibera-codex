@@ -58,10 +58,10 @@ Produces one `.webp` per trait in `--output`.
 **Stage 2 — Upload to S3**
 
 ```bash
-aws s3 sync /path/to/output-dir s3://mibera/traits/ --content-type "image/webp"
+aws s3 sync /path/to/output-dir s3://thj-assets/Mibera/traits/ --content-type "image/webp"
 ```
 
-Bucket is public-read; canonical URL is `https://assets.0xhoneyjar.xyz/Mibera/traits/{url_encoded_filename}.webp`.
+Canonical URL is `https://assets.0xhoneyjar.xyz/Mibera/traits/{url_encoded_filename}.webp` — CDN origin is `s3://thj-assets/Mibera/traits/`. (Legacy bucket `s3://mibera/traits/` is no longer the CDN origin; do not upload there.) See [`runbooks/add-vending-machine-trait.md`](../runbooks/add-vending-machine-trait.md) for the full single-trait checklist.
 
 **Stage 3 — Embed into codex**
 
