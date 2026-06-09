@@ -36,7 +36,7 @@ Traits are signals, not scripts. A Mibera born in 1352 CE with a Greek ancestor 
 - **Grail by name**: `grails/{slug}.md`
 - **Mibera Set by name**: `mibera-sets/{slug}.md`
 - **Oracle system prompt**: `oracle/oracle.md`
-- **Data exports**: `_codex/data/miberas.jsonl` (10K), `_codex/data/graph.json` (5.9 MB knowledge graph)
+- **Data exports**: `_codex/data/miberas.jsonl` (10K), `_codex/data/graph.json` (19 MB knowledge graph)
 
 ## Entity Conventions
 
@@ -49,7 +49,7 @@ Traits are signals, not scripts. A Mibera born in 1352 CE with a Greek ancestor 
 
 Reference `_codex/data/scope.json` for programmatic scope.
 
-**What the codex tracks**: 10,000 Miberas, 10,000 MiParcels (Phase 1 reveal with 15 trait categories), 44 Grails (42 canonical + 2 creator community), 1,337 visual traits (1,326 files; incl. 78 drugs), 78 tarot cards, 33 ancestors, 10 birthday eras, 33 documented special-collection collaborations (53 files across 5 sub-collections), 10 Fractures, 12 Mibera Sets
+**What the codex tracks**: 10,000 Miberas, 10,000 MiParcels (Phase 1 reveal with 15 trait categories), 44 Grails (42 canonical + 2 creator community), 1,337 visual traits (1,326 files; incl. 78 drugs), 78 tarot cards, 33 ancestors, 10 birthday eras, 33 documented special-collection collaborations (53 files across 5 sub-collections), 10 Fractures, 12 Mibera Sets, 108 VM-exclusive Shadow Traits
 
 **What the codex does NOT track**: ownership/wallets, on-chain state (transfers, marketplace), community member identities, price/market data
 
@@ -62,6 +62,14 @@ Reference `_codex/data/scope.json` for programmatic scope.
 - **NEVER** edit backlink sections (between `@generated` markers)
 - **NEVER** assume a Mibera's traits without reading `miberas/{ID}.md`
 - When embodying a Mibera, follow `IDENTITY.md` synthesis constraints exactly
+
+## Drift Prevention
+
+Entity counts and data exports are enforced by `_codex/scripts/health-report.py` locally and `.github/workflows/codex-health.yml` in CI (regenerates exports and fails on diff).
+
+- **After adding/editing entities** (miberas, grails, traits, vending-machine): run `_codex/scripts/regen-exports.sh` and commit the regenerated exports in the same PR
+- **After a count changes**: update `manifest.json`, `_codex/data/scope.json`, and the prose mentions in `llms.txt`, `SUMMARY.md`, `browse/README.md`, this file, and the oracle files — `health-report.py` checks all of these via its `PROSE_CLAIMS` registry
+- **When hardcoding a count in a new doc**: add a matching pattern to `PROSE_CLAIMS` in `health-report.py` so it can't silently drift
 
 ## Script Conventions
 
@@ -86,7 +94,7 @@ Reference `_codex/data/scope.json` for programmatic scope.
 | `mibera-sets/` | Honey Road ERC-1155 tokens (Optimism) | 12 |
 | `swag-scoring/` | Scoring formula, methods, and all trait scores | — |
 | `fractures/` | Reveal phase documentation | 10 |
-| `vending-machine/` | VM-exclusive Shadow Traits (11 categories) | 102 |
+| `vending-machine/` | VM-exclusive Shadow Traits (11 categories) | 108 |
 | `special-collections/` | Partner/special collections | 53 files (5 sub-collections) |
 | `oracle/` | Persona-driven system prompt | 1 |
 | `_codex/` | Schemas, scripts, data exports | — |

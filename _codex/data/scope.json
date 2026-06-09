@@ -70,6 +70,13 @@
       "count": 10000,
       "completeness": "COMPLETE",
       "note": "All 10,000 MiParcels (Phase 1 reveal) with 15 trait categories + derived scrawl_theme"
+    },
+    {
+      "entity_type": "vm_trait",
+      "count": 108,
+      "subcategories": 11,
+      "completeness": "PARTIAL",
+      "note": "108 VM-exclusive Shadow Traits across 11 categories in vending-machine/. New traits added as released through the vending machine."
     }
   ],
   "does_not_track": [

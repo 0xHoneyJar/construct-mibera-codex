@@ -20,7 +20,7 @@
 | Tarot Card | core-lore/tarot-cards/*.md | 78 | YAML frontmatter |
 | Birthday Era | birthdays/*.md | 10 | Structured headings |
 | Special Collection | special-collections/**/*.md | 33 | YAML frontmatter |
-| VM Exclusive Trait | vending-machine/**/*.md | 102 | YAML frontmatter |
+| VM Exclusive Trait | vending-machine/**/*.md | 108 | YAML frontmatter |
 | Grail | grails/{slug}.md | 44 | YAML frontmatter |
 | Mibera Set | mibera-sets/{slug}.md | 12 | YAML frontmatter |
 | MiParcel | miparcels/{0001-10000}.md | 10,000 | YAML frontmatter |
@@ -62,7 +62,7 @@
 
 ## Data Exports & Schemas
 
-- _codex/data/graph.json — Knowledge graph (11,475 nodes, 192,707 edges, all 24 trait dimensions)
+- _codex/data/graph.json — Knowledge graph (11,476 nodes, 191,882 edges, all 24 trait dimensions)
 - _codex/data/miberas.jsonl — All 10,000 Miberas as JSONL (one JSON object per line)
 - _codex/data/grails.jsonl — All 44 Grails as JSONL
 - _codex/data/stats.md — Aggregate statistics dashboard
@@ -86,7 +86,7 @@ Modifiers: Swag Rank → Astrology
 - 12 Mibera Sets — Honey Road ERC-1155 tokens on Optimism (COMPLETE)
 - 10 Fractures — reveal phase documentation (COMPLETE)
 - 33 special/partner collections (PARTIAL)
-- 102 VM-exclusive shadow traits (WIP)
+- 108 VM-exclusive shadow traits (WIP)
 
 ### What This Codex Does NOT Track
 - Ownership / wallet balances / transfers

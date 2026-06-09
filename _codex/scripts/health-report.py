@@ -10,6 +10,7 @@ Exit code: 0 if healthy, 1 if any errors.
 
 import json
 import os
+import re
 import subprocess
 import sys
 from datetime import datetime, timedelta
@@ -149,6 +150,9 @@ def check_meta_counts():
         "special_collection": count_files("special-collections"),
         "grail": count_files("grails"),
         "mibera_set": count_files("mibera-sets"),
+        # MiParcel files are digit-named in miparcels/ root (miparcels/traits/ holds docs)
+        "miparcel": sum(1 for f in (REPO_ROOT / "miparcels").glob("*.md") if f.stem.isdigit()),
+        "vm_trait": count_files("vending-machine"),
     }
 
     # Check manifest.json
@@ -157,7 +161,9 @@ def check_meta_counts():
         manifest = json.loads(manifest_path.read_text())
         entity_types = manifest.get("entity_types", {})
         for key, info in entity_types.items():
-            claimed = info.get("count")
+            # "files" is the on-disk file count when it differs from the
+            # conceptual "count" (e.g. special_collection: 33 collabs, 53 files)
+            claimed = info.get("files", info.get("count"))
             if key in actual and claimed != actual[key]:
                 discrepancies.append(
                     f"manifest.json: `{key}` claims {claimed}, actual {actual[key]}"
@@ -169,13 +175,111 @@ def check_meta_counts():
         scope = json.loads(scope_path.read_text())
         for entry in scope.get("tracks", []):
             key = entry.get("entity_type")
-            claimed = entry.get("count")
+            claimed = entry.get("files", entry.get("count"))
             if key in actual and claimed != actual[key]:
                 discrepancies.append(
                     f"scope.json: `{key}` claims {claimed}, actual {actual[key]}"
                 )
 
     return actual, discrepancies
+
+
+def check_vm_subcategories():
+    """Compare manifest.json vm_trait subcategory counts vs disk."""
+    issues = []
+    manifest_path = REPO_ROOT / "manifest.json"
+    if not manifest_path.exists():
+        return issues
+    manifest = json.loads(manifest_path.read_text())
+    info = manifest.get("entity_types", {}).get("vm_trait", {})
+    base = REPO_ROOT / info.get("directory", "vending-machine/")
+    for sub, claimed in info.get("subcategories", {}).items():
+        d = base / sub
+        on_disk = sum(1 for f in d.glob("*.md") if f.name != "README.md") if d.exists() else 0
+        if on_disk != claimed:
+            issues.append(f"manifest.json: `vm_trait` subcategory `{sub}` claims {claimed}, actual {on_disk}")
+    return issues
+
+
+# Prose count claims: (file, regex with one capture group, entity key in `actual`).
+# These are the human/LLM-facing indexes that historically drift when content is added.
+# Every match of the pattern is checked; a missing pattern is reported (wording drift).
+PROSE_CLAIMS = [
+    ("llms.txt", r"vending-machine/\*\*/\*\.md \| ([\d,]+) \|", "vm_trait"),
+    ("llms.txt", r"([\d,]+) VM-exclusive shadow traits", "vm_trait"),
+    ("llms.txt", r"grails/\{slug\}\.md \| ([\d,]+) \|", "grail"),
+    ("llms.txt", r"([\d,]+) Grails — 42 canonical", "grail"),
+    ("SUMMARY.md", r"([\d,]+) exclusive traits not in the generative 10K", "vm_trait"),
+    ("browse/README.md", r"([\d,]+) exclusive traits available only through the Shadow Traits", "vm_trait"),
+    ("browse/README.md", r"([\d,]+) hand-drawn 1/1 art pieces", "grail"),
+    ("CLAUDE.md", r"VM-exclusive Shadow Traits \(11 categories\) \| ([\d,]+) \|", "vm_trait"),
+    ("CLAUDE.md", r"([\d,]+) VM-exclusive Shadow Traits", "vm_trait"),
+    ("CLAUDE.md", r"\| Hand-drawn 1/1 art pieces \| ([\d,]+) \|", "grail"),
+    ("CLAUDE.md", r"([\d,]+) Grails \(42 canonical", "grail"),
+    ("oracle/oracle.md", r"([\d,]+) hand-drawn Grails", "grail"),
+    ("identity/ORACLE.md", r"([\d,]+) hand-drawn Grails", "grail"),
+    ("skills/browse-codex/SKILL.md", r"([\d,]+) hand-drawn 1/1s", "grail"),
+    ("_codex/data/README.md", r"All ([\d,]+) hand-drawn Grails", "grail"),
+    ("BUTTERFREEZONE.md", r"\*\*([\d,]+) Grails\*\*", "grail"),
+]
+
+
+def check_prose_claims(actual):
+    """Verify hardcoded counts in prose/index files against disk reality."""
+    issues = []
+    for rel_path, pattern, key in PROSE_CLAIMS:
+        path = REPO_ROOT / rel_path
+        if not path.exists():
+            issues.append(f"{rel_path}: file missing (prose claim check)")
+            continue
+        matches = re.findall(pattern, path.read_text(encoding="utf-8"))
+        if not matches:
+            issues.append(f"{rel_path}: pattern not found — wording changed? (`{pattern}`)")
+            continue
+        for m in matches:
+            claimed = int(m.replace(",", ""))
+            if claimed != actual[key]:
+                issues.append(f"{rel_path}: claims {claimed} for `{key}`, actual {actual[key]}")
+    return issues
+
+
+# Data exports and the content directories they are generated from.
+# If an input dir has a newer commit than the export, the export is stale.
+EXPORT_INPUTS = {
+    "_codex/data/miberas.jsonl": (["miberas"], "_codex/scripts/generate-exports.py"),
+    "_codex/data/grails.jsonl": (["grails"], "_codex/scripts/generate-grails.py + extend-grails-jsonl.py"),
+    "_codex/data/graph.json": (["miberas", "grails", "traits", "core-lore"], "_codex/scripts/generate-graph.py"),
+}
+
+
+def git_last_commit_ts(paths):
+    """Unix timestamp of the most recent commit touching any of the paths, or None."""
+    try:
+        result = subprocess.run(
+            ["git", "log", "-1", "--format=%ct", "--", *paths],
+            cwd=str(REPO_ROOT), capture_output=True, text=True, timeout=60,
+        )
+        out = result.stdout.strip()
+        return int(out) if out else None
+    except Exception:
+        return None
+
+
+def check_export_staleness():
+    """Flag exports whose source content has newer commits than the export itself."""
+    issues = []
+    for export, (inputs, regen) in EXPORT_INPUTS.items():
+        export_ts = git_last_commit_ts([export])
+        # READMEs are navigation, not generator input — ignore their edits
+        input_ts = git_last_commit_ts(inputs + [":(exclude,glob)**/README.md"])
+        if export_ts is None or input_ts is None:
+            continue  # shallow clone or untracked — cannot determine
+        if export_ts < input_ts:
+            days = (input_ts - export_ts) // 86400
+            issues.append(
+                f"{export}: older than its source content by {days} day(s) — regenerate with `{regen}`"
+            )
+    return issues
 
 
 def check_freshness():
@@ -234,13 +338,28 @@ def generate_report():
 
     # 2. Meta count reconciliation
     actual_counts, count_discrepancies = check_meta_counts()
+    count_discrepancies.extend(check_vm_subcategories())
     total_checks += 1
     if not count_discrepancies:
         passed_checks += 1
     else:
         has_errors = True
 
-    # 3. Freshness
+    # 3. Prose count claims
+    prose_issues = check_prose_claims(actual_counts)
+    total_checks += 1
+    if not prose_issues:
+        passed_checks += 1
+    else:
+        has_errors = True
+
+    # 4. Export staleness (git-based heuristic — warns only; CI regen+diff is authoritative)
+    stale_exports = check_export_staleness()
+    total_checks += 1
+    if not stale_exports:
+        passed_checks += 1
+
+    # 5. Freshness
     stale_items = check_freshness()
     total_checks += 1
     if not stale_items:
@@ -275,6 +394,22 @@ def generate_report():
             lines.append(f"- {d}")
     else:
         lines.append("\nAll meta file counts match disk reality.")
+
+    # Prose claims section
+    lines.append("\n## Prose Count Claims\n")
+    if prose_issues:
+        for issue in prose_issues:
+            lines.append(f"- {issue}")
+    else:
+        lines.append(f"All {len(PROSE_CLAIMS)} prose count claims match disk reality.")
+
+    # Export staleness section
+    lines.append("\n## Export Staleness\n")
+    if stale_exports:
+        for issue in stale_exports:
+            lines.append(f"- {issue}")
+    else:
+        lines.append("All data exports are at least as new as their source content.")
 
     # Freshness section
     if stale_items:

@@ -167,7 +167,7 @@ Per `score-mibera#72`: factors with `weight: 0` in score config are folded into 
 - **archetype**: Acidhouse
 - **status**: live
 - **display_name**: Shadow Minter
-- **lore**: Shadow mints from the vending machine. 102 exclusive traits not in the main collection. The unseen layer.
+- **lore**: Shadow mints from the vending machine. 108 exclusive traits not in the main collection. The unseen layer.
 
 ### onchain:milady_burner
 

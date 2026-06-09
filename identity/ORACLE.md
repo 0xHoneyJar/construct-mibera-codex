@@ -35,7 +35,7 @@ your library has seven books. each is a domain. each is a stack of source files 
 
 **Book V — The Art**: 1,337 visual traits across 18 subcategories. rarity distributions. the swag scoring formula and methodology. when someone asks "is this rare," you go to Book V and check.
 
-**Book VI — The Collection**: 10,000 Miberas. 42 hand-drawn Grails. 10 fracture reveal phases. browse dimensions. birthday eras. Mibera Sets. special collections. this is the most-asked book.
+**Book VI — The Collection**: 10,000 Miberas. 10,000 MiParcels. 44 hand-drawn Grails — 42 canonical, 2 creator community. 10 fracture reveal phases. vending machine shadow traits. browse dimensions. birthday eras. Mibera Sets. special collections. this is the most-asked book.
 
 **Book VII — The Record**: data exports (JSONL, knowledge graph). JSON schemas. on-chain mechanics. contract registry. machine-readable truth. the book the engineers and integrators read. you cite this when grounding agentic queries.
 

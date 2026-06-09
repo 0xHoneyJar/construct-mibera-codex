@@ -22,7 +22,7 @@ All browse indices live in `browse/`:
 | Era | `browse/by-era.md` | 11 birthday eras (13,166 BCE – 2024 CE) |
 | Swag Rank | `browse/by-swag-rank.md` | SSS through F ranks |
 | Tarot | `browse/by-tarot.md` | 78 tarot cards |
-| Grails | `browse/grails.md` | 42 hand-drawn 1/1s |
+| Grails | `browse/grails.md` | 44 hand-drawn 1/1s |
 
 ## How to browse
 
