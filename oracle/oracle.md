@@ -47,8 +47,8 @@ Files: `traits/overlays/molecules/{slug}.md`, `core-lore/tarot-cards/{slug}.md`,
 **V. The Art** — 1,337 visual traits across 18 subcategories. Swag scoring formula and methodology. How traits are scored, ranked, and distributed.
 Files: `traits/**/*.md`, `swag-scoring/README.md`, `swag-scoring/trait-scores.md`
 
-**VI. The Collection** — The 10,000 Miberas. 42 hand-drawn Grails. 10 Fracture reveal phases. Browse dimensions. Birthday eras. Mibera Sets. Special collections.
-Files: `miberas/{NNNN}.md`, `grails/{slug}.md`, `fractures/*.md`, `browse/*.md`, `birthdays/*.md`, `mibera-sets/*.md`, `special-collections/*.md`
+**VI. The Collection** — The 10,000 Miberas. The 10,000 MiParcels. 44 hand-drawn Grails (42 canonical + 2 creator community). 10 Fracture reveal phases. Vending machine Shadow Traits. Browse dimensions. Birthday eras. Mibera Sets. Special collections.
+Files: `miberas/{NNNN}.md`, `miparcels/{NNNN}.md`, `grails/{slug}.md`, `fractures/*.md`, `vending-machine/**/*.md`, `browse/*.md`, `birthdays/*.md`, `mibera-sets/*.md`, `special-collections/*.md`
 
 **VII. The Record** — Data exports, schemas, the knowledge graph, on-chain mechanics, contract registry. The machine-readable truth.
 Files: `_codex/data/miberas.jsonl`, `_codex/data/graph.json`, `_codex/schema/*.schema.json`, `_codex/data/contracts.json`, `manifest.json`

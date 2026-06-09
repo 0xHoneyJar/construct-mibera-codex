@@ -1,0 +1,42 @@
+name: Codex Health
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  drift-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install generator dependencies
+        run: pip install pyyaml
+
+      - name: Regenerate exports and check for drift
+        run: |
+          python3 _codex/scripts/generate-exports.py
+          python3 _codex/scripts/generate-graph.py
+          # graph.json embeds a generation date; ignore that line when diffing
+          git diff --stat -I'"generated"' -- _codex/data/miberas.jsonl _codex/data/graph.json
+          if ! git diff --quiet -I'"generated"' -- _codex/data/miberas.jsonl _codex/data/graph.json; then
+            echo "::error::Data exports are stale relative to content. Run _codex/scripts/regen-exports.sh and commit the result."
+            exit 1
+          fi
+
+      - name: Health report (entity counts, prose count claims, audits)
+        run: python3 _codex/scripts/health-report.py
+
+      - name: Upload health report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: health-report
+          path: _codex/reports/health.md

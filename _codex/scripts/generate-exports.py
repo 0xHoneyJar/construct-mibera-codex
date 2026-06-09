@@ -72,6 +72,11 @@ def main():
                 errors.append(f"  {f.name}: missing field '{field}'")
                 record[field] = None
 
+        # Grail-overwritten Miberas carry grail metadata instead of trait fields
+        for field in ("grail", "grail_category"):
+            if field in fm:
+                record[field] = fm[field]
+
         records.append(record)
 
     # Sort by ID

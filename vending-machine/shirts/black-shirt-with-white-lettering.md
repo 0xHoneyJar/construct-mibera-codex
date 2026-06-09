@@ -1,7 +1,7 @@
 ---
 name: "Black Shirt With White Lettering"
 category: shirts
-from: ""
+from: "Gumi"
 image: "https://assets.0xhoneyjar.xyz/Mibera/traits/black%20shirt%20with%20white%20lettering.webp"
 ---
 
@@ -14,11 +14,11 @@ image: "https://assets.0xhoneyjar.xyz/Mibera/traits/black%20shirt%20with%20white
 
 ## Description
 
-*WIP*
+A black shirt with white lettering. The lettering reads: BLACK SHIRT WITH WHITE LETTERING. Fully autological — the trait is its own description, and the description is the trait. What you read is what you get.
 
 ## From
 
-*Community attribution TBD*
+Gumi
 
 ---
 

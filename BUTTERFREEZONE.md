@@ -38,7 +38,7 @@ The codex provides structured access to 9 entity types:
 - **78 Drugs** — molecules mapped 1:1 to tarot cards, each with archetype and ancestor associations (`traits/overlays/molecules/`)
 - **78 Tarot Cards** — divination archetypes paired bijectively with drugs (`core-lore/tarot-cards/`)
 - **33 Ancestors** — cultural lineages from Aboriginal to Turkey spanning ancient and modern civilizations (`core-lore/ancestors/`)
-- **42 Grails** — canonical hand-drawn 1/1 art pieces (`grails/`)
+- **44 Grails** — hand-drawn 1/1 art pieces, 42 canonical + 2 creator community (`grails/`)
 - **11 Birthday Eras** — temporal epochs from Prehistoric to 21st Century (`birthdays/`)
 - **32 Special Collections** — partner and special event collections, PARTIAL completeness (`special-collections/`)
 - **10 Fractures** — reveal phase documentation from sealed envelope to final form (`fractures/`)
@@ -81,7 +81,7 @@ traits/            1,337 visual traits (18 subcategories; 78 drugs in traits/ove
 traits/overlays/molecules/    78 drug documentation files
 core-lore/         ~120 files (archetypes, ancestors, tarot, philosophy)
 browse/            8 faceted dimension indices
-grails/            42 hand-drawn 1/1 pieces
+grails/            44 hand-drawn 1/1 pieces
 fractures/         10 reveal phase files
 birthdays/         11 birthday era files
 _codex/data/       Machine-readable exports (JSONL, JSON, ABI)
@@ -109,8 +109,8 @@ _codex/scripts/    14 audit/generation/maintenance scripts
 | File | Format | Content |
 |------|--------|---------|
 | `_codex/data/miberas.jsonl` | JSONL (6.4 MB) | All 10,000 Miberas |
-| `_codex/data/graph.json` | JSON (5.9 MB) | Knowledge graph: 10,279 nodes, 70,344 edges |
-| `_codex/data/grails.jsonl` | JSONL (6.9 KB) | All 42 Grails |
+| `_codex/data/graph.json` | JSON (19 MB) | Knowledge graph: 11,476 nodes, 191,882 edges |
+| `_codex/data/grails.jsonl` | JSONL (6.9 KB) | All 44 Grails |
 | `_codex/data/scope.json` | JSON (2.8 KB) | Entity tracking scope and boundaries |
 | `_codex/data/gaps.json` | JSON (3.0 KB) | Known unknowns with resolution paths |
 | `_codex/data/contracts.json` | JSON (3.8 KB) | Canonical smart contract addresses |

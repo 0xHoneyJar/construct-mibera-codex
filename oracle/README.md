@@ -15,7 +15,7 @@ The seven books correspond to the seven books of the Honey Road.
 | III. Ancestors | Set Three | 33 cultural lineages |
 | IV. Mysticism | Set Four | Drug-tarot system, elements, altered states |
 | V. The Art | Set Five | 1,337 visual traits, swag scoring |
-| VI. The Collection | Set Six | 10K Miberas, 42 Grails, fractures, browse |
+| VI. The Collection | Set Six | 10K Miberas, 44 Grails, fractures, browse |
 | VII. The Record | Set Seven | Data exports, schemas, on-chain, knowledge graph |
 
 ## How to Use

@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "generated": "2026-04-16",
+  "generated": "2026-06-09",
   "description": "Directory-level index for the Mibera Codex. Use for programmatic navigation.",
   "entity_types": {
     "mibera": {
@@ -13,7 +13,7 @@
       "fields": ["Archetype", "Ancestor", "Time Period", "Birthday", "Birth Coordinates", "Sun Sign", "Moon Sign", "Ascending Sign", "Element", "Swag Rank", "Swag Score", "Background", "Body", "Hair", "Eyes", "Eyebrows", "Mouth", "Shirt", "Hat", "Glasses", "Mask", "Earrings", "Face Accessory", "Tattoo", "Item", "Drug"],
       "completeness": "COMPLETE",
       "completeness_note": "All 10,000 generative Miberas documented",
-      "last_verified": "2026-04-05"
+      "last_verified": "2026-06-09"
     },
     "trait": {
       "directory": "traits/",
@@ -22,7 +22,7 @@
       "format": "yaml_frontmatter",
       "completeness": "COMPLETE",
       "completeness_note": "1,337 visual traits across 20 subcategories (1,323 with build images + 14 metadata-only; incl. 78 drugs in traits/overlays/molecules/)",
-      "last_verified": "2026-04-05",
+      "last_verified": "2026-06-09",
       "subcategories": {
         "accessories/earrings": 62,
         "accessories/face-accessories": 42,
@@ -55,7 +55,7 @@
       "reference_files": ["traits/overlays/molecules/drug-pairings.md"],
       "completeness": "COMPLETE",
       "completeness_note": "78 drugs mapped 1:1 to tarot cards",
-      "last_verified": "2026-04-05"
+      "last_verified": "2026-06-09"
     },
     "ancestor": {
       "directory": "core-lore/ancestors/",
@@ -64,7 +64,7 @@
       "format": "yaml_frontmatter",
       "completeness": "COMPLETE",
       "completeness_note": "All 33 ancestor lineages documented",
-      "last_verified": "2026-04-05"
+      "last_verified": "2026-06-09"
     },
     "tarot_card": {
       "directory": "core-lore/tarot-cards/",
@@ -73,7 +73,7 @@
       "format": "yaml_frontmatter",
       "completeness": "COMPLETE",
       "completeness_note": "78 tarot cards mapped 1:1 to drugs",
-      "last_verified": "2026-04-05"
+      "last_verified": "2026-06-09"
     },
     "birthday_era": {
       "directory": "birthdays/",
@@ -82,16 +82,17 @@
       "format": "structured_markdown",
       "completeness": "COMPLETE",
       "completeness_note": "All 10 eras covering 13,166 BCE – 2024 CE",
-      "last_verified": "2026-04-05"
+      "last_verified": "2026-06-09"
     },
     "special_collection": {
       "directory": "special-collections/",
       "index": "special-collections/README.md",
       "count": 33,
+      "files": 53,
       "format": "yaml_frontmatter",
       "completeness": "PARTIAL",
       "completeness_note": "33 documented collaborations (conceptual); 53 trait files across 5 populated sub-collections on disk; additional partner collections may exist",
-      "last_verified": "2026-04-05"
+      "last_verified": "2026-06-09"
     },
     "grail": {
       "directory": "grails/",
@@ -101,7 +102,7 @@
       "naming": "{slug}.md",
       "completeness": "COMPLETE",
       "completeness_note": "42 canonical hand-drawn 1/1 Grails + 2 creator community (Mijedi, Milky Bullas)",
-      "last_verified": "2026-04-05"
+      "last_verified": "2026-06-09"
     },
     "mibera_set": {
       "directory": "mibera-sets/",
@@ -111,7 +112,7 @@
       "naming": "{slug}.md",
       "completeness": "COMPLETE",
       "completeness_note": "All 12 Mibera Set ERC-1155 tokens on Optimism",
-      "last_verified": "2026-04-05"
+      "last_verified": "2026-06-09"
     },
     "oracle": {
       "directory": "oracle/",
@@ -121,7 +122,7 @@
       "naming": "oracle.md",
       "completeness": "COMPLETE",
       "completeness_note": "Unified system prompt — one voice, seven books",
-      "last_verified": "2026-04-05"
+      "last_verified": "2026-06-09"
     },
     "miparcel": {
       "directory": "miparcels/",
@@ -133,7 +134,30 @@
       "fields": ["base", "normal_addys", "mibera_return_addy", "stamps", "scrawl", "scrawl_theme", "confetti", "confetti_second", "confetti_third", "confetti_fourth", "sticker1", "sticker1_second", "sticker2", "airmail", "uk_orange", "big_labels", "bigger_misc"],
       "completeness": "COMPLETE",
       "completeness_note": "All 10,000 MiParcels from Phase 1 reveal with 15 trait categories + derived scrawl_theme",
-      "last_verified": "2026-04-16"
+      "last_verified": "2026-06-09"
+    },
+    "vm_trait": {
+      "directory": "vending-machine/",
+      "index": "vending-machine/README.md",
+      "count": 108,
+      "format": "yaml_frontmatter",
+      "naming": "{slug}.md",
+      "completeness": "PARTIAL",
+      "completeness_note": "108 VM-exclusive Shadow Traits across 11 categories; new traits added as released through the vending machine",
+      "last_verified": "2026-06-09",
+      "subcategories": {
+        "earrings": 4,
+        "eyes": 8,
+        "face-accessories": 1,
+        "glasses": 4,
+        "hats": 19,
+        "items": 25,
+        "masks": 5,
+        "mouth": 3,
+        "necklaces": 19,
+        "shirts": 19,
+        "tattoos": 1
+      }
     }
   },
   "browse": {

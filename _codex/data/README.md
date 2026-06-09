@@ -7,8 +7,8 @@ Machine-readable data and documentation for the Mibera ecosystem. Use `manifest.
 | File | Format | Description |
 |------|--------|-------------|
 | [miberas.jsonl](miberas.jsonl) | JSONL | All 10,000 Miberas — one JSON object per line with full metadata |
-| [grails.jsonl](grails.jsonl) | JSONL | All 42 hand-drawn Grails — id, name, slug, category |
-| [graph.json](graph.json) | JSON | Knowledge graph — 10,279 nodes (10 types), 70,344 edges (12 types) |
+| [grails.jsonl](grails.jsonl) | JSONL | All 44 hand-drawn Grails — id, name, slug, category |
+| [graph.json](graph.json) | JSON | Knowledge graph — 11,476 nodes (24 types), 191,882 edges (28 types) |
 | [stats.md](stats.md) | Markdown | Statistical overview — trait distributions, archetype breakdowns |
 
 ## On-Chain Documentation
