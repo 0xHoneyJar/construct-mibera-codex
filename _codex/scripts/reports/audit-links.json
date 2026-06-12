@@ -1,20 +1,7 @@
 {
-  "timestamp": "2026-05-30T19:47:23Z",
-  "files_checked": 21773,
-  "total_links": 294876,
-  "broken_links": 3,
-  "issues": [
-    {
-      "file": "PROCESS.md",
-      "target": "docs/architecture/capability-schema.md"
-    },
-    {
-      "file": "PROCESS.md",
-      "target": "docs/architecture/capability-schema.md"
-    },
-    {
-      "file": "INSTALLATION.md",
-      "target": "grimoires/loa/context/CLI-INSTALLATION.md"
-    }
-  ]
+  "timestamp": "2026-06-12T15:23:58Z",
+  "files_checked": 21777,
+  "total_links": 294869,
+  "broken_links": 0,
+  "issues": []
 }

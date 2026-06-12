@@ -20,6 +20,10 @@ repo_root = Path(sys.argv[1])
 report_dir = Path(sys.argv[2])
 
 EXCLUDE = {'.git', '.claude', '.beads', 'grimoires', '.run', '_codex', 'node_modules'}
+# Loa framework files vendored at repo root — overwritten verbatim on every
+# framework update, so their link integrity is upstream's concern (same
+# rationale as excluding .claude/)
+EXCLUDE_FILES = {'PROCESS.md', 'INSTALLATION.md'}
 LINK_RE = re.compile(r'\[(?:[^\]]*)\]\(([^)]+)\)')
 
 total_links = 0
@@ -31,6 +35,8 @@ for md_file in repo_root.rglob('*.md'):
     # Skip excluded directories
     parts = md_file.relative_to(repo_root).parts
     if any(p in EXCLUDE for p in parts):
+        continue
+    if len(parts) == 1 and parts[0] in EXCLUDE_FILES:
         continue
 
     files_checked += 1
