@@ -210,6 +210,7 @@ PROSE_CLAIMS = [
     ("llms.txt", r"grails/\{slug\}\.md \| ([\d,]+) \|", "grail"),
     ("llms.txt", r"([\d,]+) Grails — 42 canonical", "grail"),
     ("SUMMARY.md", r"([\d,]+) exclusive traits not in the generative 10K", "vm_trait"),
+    ("README.md", r"([\d,]+) VM-exclusive Shadow Traits across 11 categories", "vm_trait"),
     ("browse/README.md", r"([\d,]+) exclusive traits available only through the Shadow Traits", "vm_trait"),
     ("browse/README.md", r"([\d,]+) hand-drawn 1/1 art pieces", "grail"),
     ("CLAUDE.md", r"VM-exclusive Shadow Traits \(11 categories\) \| ([\d,]+) \|", "vm_trait"),

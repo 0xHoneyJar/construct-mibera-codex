@@ -44,7 +44,7 @@ Programmatic access:
 - **MCP** — `lookup_grail({query: "black-hole"})` → the `image` field is in the response
 - **Raw** — read the relevant line from `_codex/data/grails.jsonl`
 
-The empirical convention was discovered via [issue #62](https://github.com/0xHoneyJarxhoneyjar/construct-mibera-codex/issues/62)
+The empirical convention was discovered via [issue #62](https://github.com/0xHoneyJar/construct-mibera-codex/issues/62)
 (Adeitasuna, 2026-04-30) — 40 of 42 grails resolved on first guess; multi-word
 names (`Black Hole`, `Native American`) required ~14 HEAD probes each before
 the lowercase-hyphenated form was identified. This document closes that gap.
