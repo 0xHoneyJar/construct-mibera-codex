@@ -32,7 +32,7 @@ All meta file counts match disk reality.
 
 ## Prose Count Claims
 
-All 16 prose count claims match disk reality.
+All 17 prose count claims match disk reality.
 
 ## Export Staleness
 
