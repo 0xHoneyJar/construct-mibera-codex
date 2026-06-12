@@ -50,6 +50,7 @@ The 10,000 Miberas and their temporal identities.
 - [MiParcels](miparcels/README.md) — 10,000 sealed envelopes from Phase 1 reveal
 - [Birthdays](birthdays/README.md) — 9,995 unique birthdays spanning 15,000 years
 - [Fractures](fractures/README.md) — 10 reveal phases from sealed envelope to final form
+- [Mibera Sets](mibera-sets/README.md) — 12 Honey Road ERC-1155 tokens on Optimism
 
 ### VI. The Mechanics
 - [Ranking & Scoring](traits/overlays/ranking/README.md) — Swag Score and tribal coherence
@@ -57,7 +58,7 @@ The 10,000 Miberas and their temporal identities.
 ### VII. The Ecosystem
 Partners and collaborations.
 - [Special Collections](special-collections/README.md) — Berachain ecosystem integrations
-- [Vending Machine](vending-machine/README.md) — VM-exclusive Shadow Traits (update in progress)
+- [Vending Machine](vending-machine/README.md) — 108 VM-exclusive Shadow Traits across 11 categories
 
 ### VIII. Behind the Scenes
 The people and process behind the collection.
@@ -114,8 +115,6 @@ Explore the 10,000 Miberas through faceted search — filter by archetype, ances
 
 The codex ships an MCP server for narrative-bot consumers (freeside-characters' ruggy + satoshi today, future puruhani daemons). It is the **read interface** to the codex's canonical world-elements.
 
-Per [RFC #53](https://github.com/0xHoneyJarxhoneyjar/construct-mibera-codex/issues/53) and Gumi's locked v1 design (2026-04-29):
-
 | Tool | What it returns |
 |---|---|
 | `lookup_zone(slug)` | Full zone — archetype, era, essence, Lynch primitives, KANSEI tokens |
@@ -141,7 +140,7 @@ Add to Claude Code (`.claude/settings.json` or `claude_desktop_config.json`):
   "mcpServers": {
     "codex": {
       "command": "pnpm",
-      "args": ["--prefix", "/path/toxhoneyjar/construct-mibera-codex", "mcp"]
+      "args": ["--prefix", "/path/to/construct-mibera-codex", "mcp"]
     }
   }
 }
@@ -181,7 +180,7 @@ Implements `constructs-mcp-shape` + `constructs-mcp-deployment-topology` from op
 
 ## Contributing
 
-The codex is a living document. If something is wrong, missing, or could be better — [open an issue](https://github.com/0xHoneyJarxhoneyjar/construct-mibera-codex/issues/new).
+The codex is a living document. If something is wrong, missing, or could be better — [open an issue](https://github.com/0xHoneyJar/construct-mibera-codex/issues/new).
 
 Corrections, lore additions, cultural context, trait documentation, broken links, grail history, or information you think should be here but isn't — all welcome. Just describe what you're seeing and what you think it should be.
 
