@@ -14,7 +14,7 @@ image: "https://assets.0xhoneyjar.xyz/Mibera/traits/xabbu-pepe.webp"
 
 ## Description
 
-A plush of the internet's patron saint of melancholy, dressed in a blue tee with a single pink heart and clutching a four-leaf clover. Equal parts comfort object and quiet confession — rare, sad, and holding out for luck anyway. Something to hold close on the long nights.
+Pepe plush with a purple heart on the shirt, a lucky clover in the hand. It's not easy being green.
 
 ## From
 
