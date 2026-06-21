@@ -11,7 +11,7 @@ This runbook is the **single-trait companion** to the bulk pipeline documented i
 - `uv` (or Python 3.11+ with `Pillow` and `tqdm`) — assembler dependencies are declared inline via PEP 723, so `uv run` resolves them automatically.
 - `aws` CLI configured with credentials that have `s3:PutObject` on `s3://thj-assets/Mibera/traits/`.
 - The raw trait-layer PNG at exactly **1848×2500** (RGBA). This is the same canvas size as `_codex/assets/templates/{background,body,arms}.PNG`. If the source is a different size, the assembler will scale it but registration with `body`/`arms` will be off.
-- The category the trait belongs to. The 11 VM categories: `earrings`, `eyes`, `face-accessories`, `glasses`, `hats`, `items`, `masks`, `mouth`, `necklaces`, `shirts`, `tattoos`. Each maps to a default z-index in [`micodex-assembler.py`](../scripts/micodex-assembler.py) (`ZIndexParser.DEFAULT_Z_INDICES`) — e.g. items=170, hats=160, glasses=140, shirts=50.
+- The category the trait belongs to. The 12 VM categories: `body`, `earrings`, `eyes`, `face-accessories`, `glasses`, `hats`, `items`, `masks`, `mouth`, `necklaces`, `shirts`, `tattoos`. Each maps to a default z-index in [`micodex-assembler.py`](../scripts/micodex-assembler.py) (`ZIndexParser.DEFAULT_Z_INDICES`) — e.g. items=170, hats=160, glasses=140, shirts=50. (`body` is a special case — see below.)
 
 ---
 
@@ -35,6 +35,18 @@ uv run _codex/scripts/micodex-assembler.py \
 The output filename is the source PNG's basename with `.webp`. Keep the basename lowercase, no spaces (`bff`, not `BFF` or `bff wand`) — it becomes part of the canonical CDN URL.
 
 **Verify**: open `/tmp/trait-out/<name>.webp`. The trait should sit between the Mibera's body and arms — hands should wrap around held items, glasses should sit on the face, shirts should be covered by the arms. If the composite looks wrong, the z-index folder name is most likely the issue.
+
+### Body-color traits (special case)
+
+A body color (e.g. `pepe`) is not a single overlay — it *replaces* the body. The assembler always composites the default gray `body.PNG` (z=20) and `arms.PNG` (z=200) templates, so a body color needs **two** layers to cover both: the recolored body (head + torso) just above the body template, and the recolored arms above the arms template. Stage both into one `body__z30/` folder so they group into a single trait, and give the arms layer a `_z80` file suffix — the assembler's body-folder special case bumps `_z80` arms to z=210 (above the template arms):
+
+```bash
+mkdir -p /tmp/trait-stage/body__z30
+cp ~/Downloads/pepe.PNG          /tmp/trait-stage/body__z30/pepe.PNG      # body -> z=30
+cp ~/Downloads/pepe_overlay.PNG  /tmp/trait-stage/body__z30/pepe_z80.PNG  # arms -> z=210
+```
+
+Both files share the base name `pepe`, so they render into a single `pepe.webp`. File the entry under `vending-machine/body/`.
 
 ---
 

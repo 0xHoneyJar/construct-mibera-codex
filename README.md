@@ -58,7 +58,7 @@ The 10,000 Miberas and their temporal identities.
 ### VII. The Ecosystem
 Partners and collaborations.
 - [Special Collections](special-collections/README.md) — Berachain ecosystem integrations
-- [Vending Machine](vending-machine/README.md) — 108 VM-exclusive Shadow Traits across 11 categories
+- [Vending Machine](vending-machine/README.md) — 110 VM-exclusive Shadow Traits across 12 categories
 
 ### VIII. Behind the Scenes
 The people and process behind the collection.

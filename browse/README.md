@@ -76,7 +76,7 @@
 *44 hand-drawn 1/1 art pieces across 9 thematic categories — elements, luminaries, zodiac signs, planets, ancestors, creator community, and more.*
 
 ### [Vending Machine Exclusives →](../vending-machine/README.md)
-*108 exclusive traits available only through the Shadow Traits contract — not found in the generative 10K.*
+*110 exclusive traits available only through the Shadow Traits contract — not found in the generative 10K.*
 
 ---
 
