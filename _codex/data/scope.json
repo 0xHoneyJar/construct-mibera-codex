@@ -73,10 +73,10 @@
     },
     {
       "entity_type": "vm_trait",
-      "count": 108,
-      "subcategories": 11,
+      "count": 110,
+      "subcategories": 12,
       "completeness": "PARTIAL",
-      "note": "108 VM-exclusive Shadow Traits across 11 categories in vending-machine/. New traits added as released through the vending machine."
+      "note": "110 VM-exclusive Shadow Traits across 12 categories in vending-machine/. New traits added as released through the vending machine."
     }
   ],
   "does_not_track": [

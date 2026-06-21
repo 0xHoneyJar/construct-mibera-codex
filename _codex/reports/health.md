@@ -1,6 +1,6 @@
 # Codex Health Report
 
-Generated: 2026-06-12
+Generated: 2026-06-20
 
 ## Overall: 100% — HEALTHY (7/7 categories passing)
 
@@ -9,7 +9,7 @@ Generated: 2026-06-12
 | Audit | Status | Detail |
 |-------|--------|--------|
 | Structure Audit | PASS | 11487 files, 0 errors, 0 warnings |
-| Link Audit | PASS | 21777 files, 294869 links, 0 broken |
+| Link Audit | PASS | 21777 files, 294870 links, 0 broken |
 | Semantic Audit | PASS | 8/8 checks pass |
 
 ## Entity Counts (disk reality)
@@ -26,7 +26,7 @@ Generated: 2026-06-12
 | special_collection | 53 |
 | tarot_card | 78 |
 | trait_total | 1337 |
-| vm_trait | 108 |
+| vm_trait | 110 |
 
 All meta file counts match disk reality.
 

@@ -8,7 +8,7 @@ The Mibera Shadows Vending Machine mints custom trait combinations as ERC-721 to
 
 The Vending Machine is one of the primary ways the **community can affect the fabric of Mibera**. Many of these traits originated as community suggestions, making this collection a living record of collective creative input.
 
-This page catalogs the **108 exclusive traits** (across 11 categories, excludes overlays) that exist only in the Vending Machine and are not part of the main collection's 1,337 generative traits.
+This page catalogs the **110 exclusive traits** (across 12 categories, excludes overlays) that exist only in the Vending Machine and are not part of the main collection's 1,337 generative traits.
 
 ## Contract
 
@@ -20,12 +20,13 @@ This page catalogs the **108 exclusive traits** (across 11 categories, excludes 
 
 | Category | Count | Notes |
 |----------|-------|-------|
+| [Body](body/README.md) | 1 | Body colors · VM-exclusive category |
 | [Earrings](earrings/README.md) | 4 | |
 | [Eyes](eyes/README.md) | 8 | Includes closed eyes from reveal phases |
 | [Face Accessories](face-accessories/README.md) | 1 | |
 | [Glasses](glasses/README.md) | 4 | |
 | [Hats](hats/README.md) | 19 | |
-| [Items](items/README.md) | 25 | |
+| [Items](items/README.md) | 26 | |
 | [Masks](masks/README.md) | 5 | |
 | [Mouth](mouth/README.md) | 3 | |
 | [Necklaces](necklaces/README.md) | 19 | VM-exclusive category |
