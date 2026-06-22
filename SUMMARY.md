@@ -144,7 +144,7 @@
 
 ## XI. Data & Research
 * [Data Directory Index](_codex/data/README.md)
-* [Knowledge Graph](_codex/data/graph.json) — 11,475 nodes, 192,707 edges
+* [Knowledge Graph](_codex/data/graph.json) — 11,476 nodes, 191,882 edges
 * [All Miberas (JSONL)](_codex/data/miberas.jsonl) — 10,000 entries
 * [All Grails (JSONL)](_codex/data/grails.jsonl) — 44 entries
 * [Statistics](_codex/data/stats.md)

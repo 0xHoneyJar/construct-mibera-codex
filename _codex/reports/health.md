@@ -9,7 +9,7 @@ Generated: 2026-06-22
 | Audit | Status | Detail |
 |-------|--------|--------|
 | Structure Audit | PASS | 11487 files, 0 errors, 0 warnings |
-| Link Audit | PASS | 21780 files, 294870 links, 0 broken |
+| Link Audit | PASS | 21780 files, 294871 links, 0 broken |
 | Semantic Audit | PASS | 8/8 checks pass |
 
 ## Entity Counts (disk reality)
@@ -20,6 +20,8 @@ Generated: 2026-06-22
 | birthday_era | 10 |
 | drug | 78 |
 | grail | 44 |
+| graph_edges | 191882 |
+| graph_nodes | 11476 |
 | mibera | 10000 |
 | mibera_set | 12 |
 | miparcel | 10000 |
@@ -32,7 +34,7 @@ All meta file counts match disk reality.
 
 ## Prose Count Claims
 
-All 17 prose count claims match disk reality.
+All 21 prose count claims match disk reality.
 
 ## Export Staleness
 

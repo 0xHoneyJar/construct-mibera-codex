@@ -168,6 +168,16 @@ def check_meta_counts():
         "vm_trait": count_files("vending-machine"),
     }
 
+    # Knowledge-graph node/edge counts from the generated graph metadata, so
+    # prose claims about graph size are checked against disk reality too.
+    graph_path = REPO_ROOT / "_codex" / "data" / "graph.json"
+    if graph_path.exists():
+        gmeta = json.loads(graph_path.read_text()).get("metadata", {})
+        if "node_count" in gmeta:
+            actual["graph_nodes"] = gmeta["node_count"]
+        if "edge_count" in gmeta:
+            actual["graph_edges"] = gmeta["edge_count"]
+
     # Check manifest.json
     manifest_path = REPO_ROOT / "manifest.json"
     if manifest_path.exists():
@@ -235,6 +245,11 @@ PROSE_CLAIMS = [
     ("skills/browse-codex/SKILL.md", r"([\d,]+) hand-drawn 1/1s", "grail"),
     ("_codex/data/README.md", r"All ([\d,]+) hand-drawn Grails", "grail"),
     ("BUTTERFREEZONE.md", r"\*\*([\d,]+) Grails\*\*", "grail"),
+    # Knowledge-graph size — historically drifted in the two top-level indexes.
+    ("README.md", r"graph\.json\) — ([\d,]+) nodes", "graph_nodes"),
+    ("README.md", r"nodes, ([\d,]+) edges", "graph_edges"),
+    ("SUMMARY.md", r"graph\.json\) — ([\d,]+) nodes", "graph_nodes"),
+    ("SUMMARY.md", r"nodes, ([\d,]+) edges", "graph_edges"),
 ]
 
 
@@ -250,10 +265,13 @@ def check_prose_claims(actual):
         if not matches:
             issues.append(f"{rel_path}: pattern not found — wording changed? (`{pattern}`)")
             continue
+        expected = actual.get(key)
+        if expected is None:
+            continue  # disk reality for this key unavailable (e.g. graph not generated)
         for m in matches:
             claimed = int(m.replace(",", ""))
-            if claimed != actual[key]:
-                issues.append(f"{rel_path}: claims {claimed} for `{key}`, actual {actual[key]}")
+            if claimed != expected:
+                issues.append(f"{rel_path}: claims {claimed} for `{key}`, actual {expected}")
     return issues
 
 

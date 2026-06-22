@@ -79,7 +79,7 @@ Contract addresses and ecosystem mechanics.
 ### X. Data & Research
 Machine-readable exports and analytical datasets.
 - [Data Directory Index](_codex/data/README.md) — All exports with format descriptions
-- [Knowledge Graph](_codex/data/graph.json) — 11,475 nodes, 192,707 edges
+- [Knowledge Graph](_codex/data/graph.json) — 11,476 nodes, 191,882 edges
 - [All Miberas (JSONL)](_codex/data/miberas.jsonl) — 10,000 entries as newline-delimited JSON
 - [All Grails (JSONL)](_codex/data/grails.jsonl) — 44 entries
 - [Scope & Boundaries](_codex/data/scope.json) — What this codex tracks and doesn't
