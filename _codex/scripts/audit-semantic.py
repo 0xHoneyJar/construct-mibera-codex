@@ -20,21 +20,40 @@ REPORTS_DIR = REPO_ROOT / "_codex" / "scripts" / "reports"
 # Expected enum values
 VALID_ARCHETYPES = {"Freetekno", "Milady", "Acidhouse", "Chicago/Detroit"}
 VALID_ELEMENTS = {"Earth", "Fire", "Water", "Air"}
-VALID_SWAG_RANKS = {"S", "A", "B", "C", "D"}
+# Full 8-tier swag scale (see browse/by-swag-rank.md). Grail 1/1s carry no
+# swag_rank and surface as UNKNOWN/None — exempted from the membership check.
+VALID_SWAG_RANKS = {"Sss", "Ss", "S", "A", "B", "C", "D", "F"}
+
+
+def _parse_frontmatter(path):
+    """Return parsed YAML frontmatter as a dict, or None if absent/malformed.
+
+    A single file with no closing `---` fence (or invalid YAML) must not crash
+    the entire audit — report it and skip, so the run completes and the bad
+    file is visible rather than aborting everything with a traceback.
+    """
+    content = path.read_text(encoding='utf-8')
+    if not content.startswith('---\n'):
+        return None
+    try:
+        end_idx = content.index('\n---', 3)
+    except ValueError:
+        print(f"  WARNING: {path.name}: no closing '---' frontmatter fence — skipped", file=sys.stderr)
+        return None
+    try:
+        return yaml.safe_load(content[4:end_idx])
+    except yaml.YAMLError as e:
+        print(f"  WARNING: {path.name}: malformed YAML frontmatter ({e}) — skipped", file=sys.stderr)
+        return None
 
 
 def load_mibera_frontmatter():
     """Load all 10,000 Mibera frontmatter into memory."""
     miberas = {}
-    miberas_dir = REPO_ROOT / "miberas"
-    for f in miberas_dir.glob("*.md"):
+    for f in (REPO_ROOT / "miberas").glob("*.md"):
         if not f.stem.isdigit():
             continue
-        content = f.read_text(encoding='utf-8')
-        if not content.startswith('---\n'):
-            continue
-        end_idx = content.index('\n---', 3)
-        fm = yaml.safe_load(content[4:end_idx])
+        fm = _parse_frontmatter(f)
         if fm:
             miberas[fm.get('id', int(f.stem))] = fm
     return miberas
@@ -43,15 +62,10 @@ def load_mibera_frontmatter():
 def load_drug_frontmatter():
     """Load all drug file frontmatter."""
     drugs = {}
-    drug_dir = REPO_ROOT / "traits/overlays/molecules"
-    for f in drug_dir.glob("*.md"):
+    for f in (REPO_ROOT / "traits/overlays/molecules").glob("*.md"):
         if f.name == "README.md":
             continue
-        content = f.read_text(encoding='utf-8')
-        if not content.startswith('---\n'):
-            continue
-        end_idx = content.index('\n---', 3)
-        fm = yaml.safe_load(content[4:end_idx])
+        fm = _parse_frontmatter(f)
         if fm:
             drugs[f.stem] = fm
     return drugs
@@ -60,15 +74,10 @@ def load_drug_frontmatter():
 def load_ancestor_frontmatter():
     """Load all ancestor file frontmatter."""
     ancestors = {}
-    ancestor_dir = REPO_ROOT / "core-lore" / "ancestors"
-    for f in ancestor_dir.glob("*.md"):
+    for f in (REPO_ROOT / "core-lore" / "ancestors").glob("*.md"):
         if f.name == "README.md":
             continue
-        content = f.read_text(encoding='utf-8')
-        if not content.startswith('---\n'):
-            continue
-        end_idx = content.index('\n---', 3)
-        fm = yaml.safe_load(content[4:end_idx])
+        fm = _parse_frontmatter(f)
         if fm:
             ancestors[f.stem] = fm
     return ancestors
@@ -77,15 +86,10 @@ def load_ancestor_frontmatter():
 def load_tarot_frontmatter():
     """Load all tarot card file frontmatter."""
     tarot = {}
-    tarot_dir = REPO_ROOT / "core-lore" / "tarot-cards"
-    for f in tarot_dir.glob("*.md"):
+    for f in (REPO_ROOT / "core-lore" / "tarot-cards").glob("*.md"):
         if f.name == "README.md":
             continue
-        content = f.read_text(encoding='utf-8')
-        if not content.startswith('---\n'):
-            continue
-        end_idx = content.index('\n---', 3)
-        fm = yaml.safe_load(content[4:end_idx])
+        fm = _parse_frontmatter(f)
         if fm:
             tarot[f.stem] = fm
     return tarot
@@ -257,8 +261,13 @@ def check_drug_tarot_bidirectional(drugs, tarot):
     }
 
 
-def check_orphan_traits(miberas):
-    """Find trait files referenced by 0 Miberas."""
+def check_orphan_traits():
+    """Find trait files referenced by 0 Miberas.
+
+    Re-reads the Mibera files directly (rather than reusing the loaded
+    frontmatter dict) because it needs the markdown trait-table links, which
+    the frontmatter does not contain.
+    """
     # Collect all trait links from Mibera tables
     referenced_traits = set()
     trait_fields = ['background', 'body', 'hair', 'eyes', 'eyebrows', 'mouth',
@@ -298,7 +307,12 @@ def check_orphan_traits(miberas):
 
 
 def check_swag_rank_distribution(miberas):
-    """Check swag rank distribution is reasonable."""
+    """Check the swag rank distribution against the full 8-tier scale.
+
+    Flags both an empty expected tier and any *unexpected* rank value (a typo
+    or a newly-introduced tier the audit doesn't know about). Grail 1/1s carry
+    no swag_rank and surface as UNKNOWN — those are exempted.
+    """
     counts = {}
     for fm in miberas.values():
         rank = fm.get('swag_rank', 'UNKNOWN')
@@ -308,10 +322,13 @@ def check_swag_rank_distribution(miberas):
     for rank in VALID_SWAG_RANKS:
         if rank not in counts:
             violations.append(f"Swag rank '{rank}' has 0 Miberas")
+    for rank in counts:
+        if rank not in VALID_SWAG_RANKS and rank not in ("UNKNOWN", None):
+            violations.append(f"Unexpected swag rank '{rank}' ({counts[rank]} Miberas) not in valid set")
 
     return {
         "status": "pass" if not violations else "warn",
-        "distribution": dict(sorted(counts.items())),
+        "distribution": dict(sorted(counts.items(), key=lambda kv: str(kv[0]))),
         "violations": violations,
     }
 
@@ -335,7 +352,7 @@ def main():
         ("drug_references", lambda: check_drug_references(miberas, drugs, grail_ids)),
         ("ancestor_references", lambda: check_ancestor_references(miberas, ancestors, grail_ids)),
         ("drug_tarot_bidirectional", lambda: check_drug_tarot_bidirectional(drugs, tarot)),
-        ("orphan_traits", lambda: check_orphan_traits(miberas)),
+        ("orphan_traits", lambda: check_orphan_traits()),
         ("swag_rank_distribution", lambda: check_swag_rank_distribution(miberas)),
     ]
 
