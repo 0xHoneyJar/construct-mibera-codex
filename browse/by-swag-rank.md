@@ -1,3 +1,4 @@
+<!-- hand-written — no generator. Verify the swag-rank counts and ID lists against _codex/data/miberas.jsonl when trait data changes. -->
 # Miberas by Swag Rank
 
 *Browse the 10,000 Miberas organized by their presence and style.*

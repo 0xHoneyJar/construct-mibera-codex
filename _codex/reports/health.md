@@ -1,6 +1,6 @@
 # Codex Health Report
 
-Generated: 2026-06-20
+Generated: 2026-06-22
 
 ## Overall: 100% — HEALTHY (7/7 categories passing)
 
@@ -8,8 +8,8 @@ Generated: 2026-06-20
 
 | Audit | Status | Detail |
 |-------|--------|--------|
-| Structure Audit | PASS | 11487 files, 0 errors, 0 warnings |
-| Link Audit | PASS | 21777 files, 294870 links, 0 broken |
+| Structure Audit | PASS | 21653 files, 0 errors, 0 warnings |
+| Link Audit | PASS | 21793 files, 294919 links, 0 broken |
 | Semantic Audit | PASS | 8/8 checks pass |
 
 ## Entity Counts (disk reality)
@@ -20,6 +20,8 @@ Generated: 2026-06-20
 | birthday_era | 10 |
 | drug | 78 |
 | grail | 44 |
+| graph_edges | 191882 |
+| graph_nodes | 11476 |
 | mibera | 10000 |
 | mibera_set | 12 |
 | miparcel | 10000 |
@@ -32,7 +34,7 @@ All meta file counts match disk reality.
 
 ## Prose Count Claims
 
-All 17 prose count claims match disk reality.
+All 21 prose count claims match disk reality.
 
 ## Export Staleness
 

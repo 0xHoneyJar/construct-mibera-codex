@@ -19,11 +19,23 @@ from pathlib import Path
 repo_root = Path(sys.argv[1])
 report_dir = Path(sys.argv[2])
 
-EXCLUDE = {'.git', '.claude', '.beads', 'grimoires', '.run', '_codex', 'node_modules'}
+EXCLUDE = {'.git', '.claude', '.beads', 'grimoires', '.run', 'node_modules'}
 # Loa framework files vendored at repo root — overwritten verbatim on every
 # framework update, so their link integrity is upstream's concern (same
 # rationale as excluding .claude/)
 EXCLUDE_FILES = {'PROCESS.md', 'INSTALLATION.md'}
+# _codex/ project docs ARE link-checked. Exempt only files that document
+# {placeholder} lookup patterns or are templates — their example links are
+# intentionally non-resolving, not breakage.
+EXCLUDE_PATHS = {
+    '_codex/schema/README.md',
+    '_codex/runbooks/add-vending-machine-trait.md',
+}
+EXCLUDE_PREFIXES = ('_codex/templates/',)
+# NOTE: anchor targets (#heading) are intentionally NOT validated — the file is
+# resolved and the anchor stripped. Validating anchors without false positives
+# would require a GitHub-exact heading slugger; a naive slug check flags ~2k of
+# ~40k anchored links as artifacts, not real breakage. Tracked as a known gap.
 LINK_RE = re.compile(r'\[(?:[^\]]*)\]\(([^)]+)\)')
 
 total_links = 0
@@ -32,11 +44,15 @@ files_checked = 0
 issues = []
 
 for md_file in repo_root.rglob('*.md'):
-    # Skip excluded directories
-    parts = md_file.relative_to(repo_root).parts
+    # Skip excluded directories / files
+    rel = md_file.relative_to(repo_root)
+    rel_str = rel.as_posix()
+    parts = rel.parts
     if any(p in EXCLUDE for p in parts):
         continue
     if len(parts) == 1 and parts[0] in EXCLUDE_FILES:
+        continue
+    if rel_str in EXCLUDE_PATHS or rel_str.startswith(EXCLUDE_PREFIXES):
         continue
 
     files_checked += 1

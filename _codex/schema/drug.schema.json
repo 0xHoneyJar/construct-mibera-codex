@@ -52,7 +52,9 @@
     },
     "swag_score": {
       "type": ["integer", "null"],
-      "description": "Rarity tier (1-5) or null",
+      "minimum": 1,
+      "maximum": 5,
+      "description": "Rarity tier 1-5 (NOT the 0-100 per-Mibera swag_score) or null",
       "x-codex-confidence": "canonical",
       "x-codex-source": "project-lore"
     },

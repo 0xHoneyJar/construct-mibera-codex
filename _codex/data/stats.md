@@ -1,9 +1,9 @@
-<!-- generated: 2026-04-06T01:05:26Z by _codex/scripts/generate-stats.py -->
+<!-- generated: 2026-06-22T20:31:25Z by _codex/scripts/generate-stats.py -->
 
 # Mibera Codex — Statistics
 
 *Generated from 10,000 Mibera YAML frontmatter entries.*
-*Last generated: 2026-04-06*
+*Last generated: 2026-06-22*
 
 ---
 
@@ -11,10 +11,11 @@
 
 | Archetype | Count | % |
 |-----------|-------|---|
-| Milady | 3,739 | 37.39% |
-| Freetekno | 2,185 | 21.85% |
-| Chicago/Detroit | 2,088 | 20.88% |
-| Acidhouse | 1,988 | 19.88% |
+| Milady | 3,724 | 37.24% |
+| Freetekno | 2,175 | 21.75% |
+| Chicago/Detroit | 2,079 | 20.79% |
+| Acidhouse | 1,978 | 19.78% |
+| (none) | 44 | 0.44% |
 
 *Sum: 10,000*
 
@@ -24,41 +25,42 @@
 
 | Ancestor | Count | % |
 |----------|-------|---|
-| Hindu | 664 | 6.64% |
-| Mayan | 634 | 6.34% |
-| Native American | 598 | 5.98% |
-| Greek | 585 | 5.85% |
-| Arabs | 541 | 5.41% |
-| Gabon | 502 | 5.02% |
-| Pythia | 446 | 4.46% |
-| Chinese | 432 | 4.32% |
-| Thai | 409 | 4.09% |
-| Mongolian | 397 | 3.97% |
-| Ethiopian | 372 | 3.72% |
-| Irish Druids | 361 | 3.61% |
-| Nepal | 357 | 3.57% |
-| Aboriginal | 286 | 2.86% |
-| Satanist | 276 | 2.76% |
-| Japanese | 276 | 2.76% |
+| Hindu | 657 | 6.57% |
+| Mayan | 629 | 6.29% |
+| Native American | 596 | 5.96% |
+| Greek | 584 | 5.84% |
+| Arabs | 539 | 5.39% |
+| Gabon | 500 | 5.00% |
+| Pythia | 445 | 4.45% |
+| Chinese | 430 | 4.30% |
+| Thai | 407 | 4.07% |
+| Mongolian | 395 | 3.95% |
+| Ethiopian | 369 | 3.69% |
+| Irish Druids | 359 | 3.59% |
+| Nepal | 355 | 3.55% |
+| Aboriginal | 284 | 2.84% |
+| Satanist | 275 | 2.75% |
+| Japanese | 274 | 2.74% |
 | Haitian | 267 | 2.67% |
-| Sicanje | 257 | 2.57% |
+| Sicanje | 256 | 2.56% |
 | Sufis | 252 | 2.52% |
-| Rastafarians | 251 | 2.51% |
-| Turkey | 240 | 2.40% |
+| Rastafarians | 250 | 2.50% |
+| Turkey | 238 | 2.38% |
 | Sami | 226 | 2.26% |
 | Ballroom | 218 | 2.18% |
 | Palestinian | 212 | 2.12% |
 | Stonewall | 183 | 1.83% |
 | Polynesian | 159 | 1.59% |
-| Buddhist | 156 | 1.56% |
-| Punjabi | 111 | 1.11% |
+| Buddhist | 155 | 1.55% |
+| Punjabi | 110 | 1.10% |
 | Bong Bear | 107 | 1.07% |
 | Traveller | 91 | 0.91% |
 | Orthodox Jew | 85 | 0.85% |
+| (none) | 44 | 0.44% |
 | Indian | 39 | 0.39% |
 | Cypherpunk | 10 | 0.10% |
 
-*33 unique ancestors*
+*34 unique ancestors*
 
 ---
 
@@ -66,86 +68,87 @@
 
 | Drug | Count | % |
 |------|-------|---|
-| Shroom Tea | 366 | 3.66% |
-| Lsd | 302 | 3.02% |
-| Weed | 271 | 2.71% |
-| Nicotine | 240 | 2.40% |
-| 2C-B | 239 | 2.39% |
+| Shroom Tea | 365 | 3.65% |
+| Lsd | 301 | 3.01% |
+| Weed | 269 | 2.69% |
+| Nicotine | 239 | 2.39% |
+| 2C-B | 238 | 2.38% |
 | Kava | 189 | 1.89% |
 | Nos | 180 | 1.80% |
-| Lamotrigine | 175 | 1.75% |
-| Sildenafil | 168 | 1.68% |
+| Lamotrigine | 174 | 1.74% |
 | Alcohol | 168 | 1.68% |
-| M-Cat | 162 | 1.62% |
+| Sildenafil | 167 | 1.67% |
 | Grayanotoxin | 161 | 1.61% |
+| M-Cat | 160 | 1.60% |
 | Bufotenin | 154 | 1.54% |
-| Chewing Tobacco | 151 | 1.51% |
 | Mda | 150 | 1.50% |
-| Sober | 147 | 1.47% |
+| Chewing Tobacco | 149 | 1.49% |
 | Caffeine | 146 | 1.46% |
+| Sober | 145 | 1.45% |
 | Kwao Krua | 144 | 1.44% |
-| Dmt | 142 | 1.42% |
-| Sugarcane | 132 | 1.32% |
+| Dmt | 141 | 1.41% |
+| Sugarcane | 131 | 1.31% |
 | Kykeon | 130 | 1.30% |
 | Methamphetamine | 129 | 1.29% |
-| Clear Pill | 125 | 1.25% |
 | Euphoria | 124 | 1.24% |
+| Clear Pill | 124 | 1.24% |
 | Sertraline | 123 | 1.23% |
-| Nymphaea Caerulea | 123 | 1.23% |
+| Nymphaea Caerulea | 122 | 1.22% |
 | Acacia | 122 | 1.22% |
 | Ethylene | 121 | 1.21% |
-| Ibogaine | 119 | 1.19% |
 | Henbane | 119 | 1.19% |
-| Xanax | 118 | 1.18% |
+| Ibogaine | 117 | 1.17% |
+| Xanax | 117 | 1.17% |
 | Tabernaemontana | 116 | 1.16% |
 | Iproniazid | 116 | 1.16% |
 | Tobacco | 115 | 1.15% |
 | Testosterone | 115 | 1.15% |
-| Sassafras | 115 | 1.15% |
+| Sassafras | 114 | 1.14% |
 | Coca | 114 | 1.14% |
 | Mdma | 114 | 1.14% |
 | Piracetam | 111 | 1.11% |
 | Khat | 111 | 1.11% |
 | Psychotria Viridis | 111 | 1.11% |
-| Pituri | 110 | 1.10% |
+| Pituri | 109 | 1.09% |
 | Ancestral Trance | 109 | 1.09% |
 | Ketamine | 107 | 1.07% |
 | Estrogen | 107 | 1.07% |
 | Datura | 106 | 1.06% |
 | Tea | 106 | 1.06% |
 | Cocaine | 106 | 1.06% |
-| Psilacetin | 106 | 1.06% |
 | Yohimbe | 106 | 1.06% |
-| Ethanol | 106 | 1.06% |
 | Poppers | 106 | 1.06% |
 | St. John’S Wort | 105 | 1.05% |
-| Ephedra | 105 | 1.05% |
+| Psilacetin | 105 | 1.05% |
 | Scopolamine | 104 | 1.04% |
-| Peyote | 104 | 1.04% |
 | Thc Edibles | 104 | 1.04% |
+| Ephedra | 104 | 1.04% |
+| Ethanol | 104 | 1.04% |
 | Syrian Rue | 103 | 1.03% |
-| Mimosa Tenuiflora | 103 | 1.03% |
+| Peyote | 103 | 1.03% |
 | Iboga | 102 | 1.02% |
 | Nutmeg | 102 | 1.02% |
 | Mmda | 102 | 1.02% |
-| Bhang | 101 | 1.01% |
-| Sakae Na | 101 | 1.01% |
-| Ololiuqui | 101 | 1.01% |
+| Mimosa Tenuiflora | 102 | 1.02% |
 | Brahmi | 101 | 1.01% |
-| Ashwagandha | 101 | 1.01% |
+| Sakae Na | 100 | 1.00% |
 | Mushrooms | 100 | 1.00% |
+| Ololiuqui | 100 | 1.00% |
+| Ashwagandha | 100 | 1.00% |
 | Benadryl | 99 | 0.99% |
-| Kratom | 98 | 0.98% |
+| Bhang | 98 | 0.98% |
+| Kratom | 97 | 0.97% |
 | Coffee | 97 | 0.97% |
-| Cbd | 96 | 0.96% |
+| Cbd | 94 | 0.94% |
 | Dextroamphetamine | 92 | 0.92% |
-| Mucuna Pruriens | 87 | 0.87% |
-| Arundo Donax | 87 | 0.87% |
-| Ayahuasca | 85 | 0.85% |
+| Mucuna Pruriens | 86 | 0.86% |
+| Arundo Donax | 86 | 0.86% |
 | Lithium | 85 | 0.85% |
-| Mandrake | 82 | 0.82% |
+| Ayahuasca | 83 | 0.83% |
+| Mandrake | 80 | 0.80% |
+| (none) | 44 | 0.44% |
 
-*78 unique drugs*
+*79 unique drugs*
 
 ---
 
@@ -153,10 +156,11 @@
 
 | Element | Count | % |
 |---------|-------|---|
-| Air | 4,237 | 42.37% |
-| Earth | 2,829 | 28.29% |
-| Fire | 1,586 | 15.86% |
-| Water | 1,348 | 13.48% |
+| Air | 4,215 | 42.15% |
+| Earth | 2,818 | 28.18% |
+| Fire | 1,580 | 15.80% |
+| Water | 1,343 | 13.43% |
+| (none) | 44 | 0.44% |
 
 *Sum: 10,000*
 
@@ -166,30 +170,31 @@
 
 | Rank | Count | % |
 |------|-------|---|
-| Sss | 100 | 1.00% |
-| Ss | 250 | 2.50% |
-| S | 500 | 5.00% |
-| A | 1,000 | 10.00% |
-| B | 3,500 | 35.00% |
-| C | 2,500 | 25.00% |
-| D | 1,500 | 15.00% |
-| F | 650 | 6.50% |
+| Sss | 98 | 0.98% |
+| Ss | 247 | 2.47% |
+| S | 498 | 4.98% |
+| A | 998 | 9.98% |
+| B | 3,487 | 34.87% |
+| C | 2,488 | 24.88% |
+| D | 1,496 | 14.96% |
+| F | 644 | 6.44% |
+|  | 44 | 0.44% |
 
 ---
 
 ## 6. Swag Score Histogram
 
 ```
-    0-9  | █████████████ 911
-  10-19  | ████████████████████████████████████████ 2,660
-  20-29  | ███████████████████████████████████ 2,367
-  30-39  | ███████████████████████ 1,588
-  40-49  | ████████████████ 1,088
-  50-59  | █████████ 653
-  60-69  | ██████ 409
-  70-79  | ██ 177
-  80-89  | █ 81
- 90-100  | █ 66
+    0-9  | █████████████ 905
+  10-19  | ████████████████████████████████████████ 2,647
+  20-29  | ███████████████████████████████████ 2,360
+  30-39  | ███████████████████████ 1,584
+  40-49  | ████████████████ 1,082
+  50-59  | █████████ 652
+  60-69  | ██████ 407
+  70-79  | ██ 174
+  80-89  | █ 80
+ 90-100  | █ 65
 ```
 
 ---
@@ -198,8 +203,9 @@
 
 | Time Period | Count | % |
 |-------------|-------|---|
-| Modern | 8,582 | 85.82% |
-| Ancient | 1,418 | 14.18% |
+| Modern | 8,547 | 85.47% |
+| Ancient | 1,409 | 14.09% |
+| (none) | 44 | 0.44% |
 
 ---
 
@@ -207,18 +213,19 @@
 
 | Sun Sign | Count | % |
 |----------|-------|---|
-| Capricorn | 1,256 | 12.56% |
-| Pisces | 1,233 | 12.33% |
-| Aquarius | 1,207 | 12.07% |
-| Virgo | 879 | 8.79% |
-| Taurus | 707 | 7.07% |
-| Aries | 701 | 7.01% |
-| Leo | 698 | 6.98% |
-| Cancer | 689 | 6.89% |
-| Libra | 687 | 6.87% |
-| Scorpio | 663 | 6.63% |
-| Gemini | 659 | 6.59% |
-| Sagittarius | 621 | 6.21% |
+| Capricorn | 1,249 | 12.49% |
+| Pisces | 1,229 | 12.29% |
+| Aquarius | 1,203 | 12.03% |
+| Virgo | 875 | 8.75% |
+| Taurus | 705 | 7.05% |
+| Aries | 697 | 6.97% |
+| Leo | 695 | 6.95% |
+| Cancer | 686 | 6.86% |
+| Libra | 682 | 6.82% |
+| Scorpio | 661 | 6.61% |
+| Gemini | 656 | 6.56% |
+| Sagittarius | 618 | 6.18% |
+| (none) | 44 | 0.44% |
 
 ---
 
@@ -228,20 +235,20 @@
 
 | Archetype | Ancestor | Element | Count |
 |-----------|----------|---------|-------|
-| Milady | Thai | Air | 166 |
-| Milady | Chinese | Air | 163 |
-| Milady | Native American | Earth | 155 |
+| Milady | Thai | Air | 164 |
+| Milady | Chinese | Air | 162 |
+| Milady | Native American | Earth | 154 |
 | Acidhouse | Greek | Air | 126 |
 | Milady | Nepal | Air | 119 |
-| Milady | Mayan | Earth | 118 |
-| Chicago/Detroit | Hindu | Air | 118 |
-| Milady | Hindu | Air | 118 |
-| Acidhouse | Pythia | Air | 115 |
+| Milady | Mayan | Earth | 117 |
+| Chicago/Detroit | Hindu | Air | 117 |
+| Milady | Hindu | Air | 117 |
 | Milady | Mongolian | Air | 114 |
-| Milady | Satanist | Earth | 111 |
-| Milady | Arabs | Air | 107 |
-| Freetekno | Ethiopian | Air | 104 |
-| Acidhouse | Mayan | Earth | 101 |
+| Acidhouse | Pythia | Air | 114 |
+| Milady | Satanist | Earth | 110 |
+| Milady | Arabs | Air | 106 |
+| Freetekno | Ethiopian | Air | 101 |
+| Acidhouse | Mayan | Earth | 100 |
 | Milady | Pythia | Air | 98 |
 | Freetekno | Mayan | Earth | 94 |
 | Freetekno | Native American | Earth | 93 |
@@ -257,26 +264,26 @@
 
 | Drug | Earth | Fire | Water | Air | Total |
 |------|---|---|---|---|-------|
-| Shroom Tea | 89 | 54 | 40 | 183 | 366 |
-| Lsd | 139 | 40 | 36 | 87 | 302 |
-| Weed | 128 | 36 | 39 | 68 | 271 |
-| Nicotine | 48 | 76 | 37 | 79 | 240 |
-| 2C-B | 91 | 30 | 29 | 89 | 239 |
+| Shroom Tea | 89 | 54 | 40 | 182 | 365 |
+| Lsd | 139 | 40 | 36 | 86 | 301 |
+| Weed | 128 | 35 | 39 | 67 | 269 |
+| Nicotine | 47 | 76 | 37 | 79 | 239 |
+| 2C-B | 90 | 30 | 29 | 89 | 238 |
 | Kava | 60 | 23 | 57 | 49 | 189 |
 | Nos | 35 | 25 | 27 | 93 | 180 |
-| Lamotrigine | 99 | 22 | 16 | 38 | 175 |
-| Sildenafil | 28 | 36 | 41 | 63 | 168 |
+| Lamotrigine | 99 | 22 | 16 | 37 | 174 |
 | Alcohol | 46 | 28 | 34 | 60 | 168 |
-| M-Cat | 26 | 18 | 19 | 99 | 162 |
+| Sildenafil | 27 | 36 | 41 | 63 | 167 |
 | Grayanotoxin | 30 | 29 | 19 | 83 | 161 |
+| M-Cat | 26 | 18 | 19 | 97 | 160 |
 | Bufotenin | 50 | 27 | 20 | 57 | 154 |
-| Chewing Tobacco | 39 | 23 | 20 | 69 | 151 |
 | Mda | 54 | 18 | 23 | 55 | 150 |
-| Sober | 20 | 21 | 21 | 85 | 147 |
+| Chewing Tobacco | 39 | 23 | 20 | 67 | 149 |
 | Caffeine | 22 | 19 | 28 | 77 | 146 |
+| Sober | 20 | 20 | 20 | 85 | 145 |
 | Kwao Krua | 28 | 11 | 24 | 81 | 144 |
-| Dmt | 67 | 20 | 21 | 34 | 142 |
-| Sugarcane | 29 | 17 | 17 | 69 | 132 |
+| Dmt | 67 | 20 | 20 | 34 | 141 |
+| Sugarcane | 28 | 17 | 17 | 69 | 131 |
 
 ---
 

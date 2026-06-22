@@ -16,6 +16,14 @@ Run from the repo root:
 | `audit-structure.sh` | Validate structural integrity of content files against schemas. Reports to `reports/audit-structure.json` |
 | `audit-semantic.py` | Check semantic consistency (naming, cross-references, data alignment) |
 
+## Health & Drift Prevention
+
+| Script | Description |
+|--------|-------------|
+| `health-report.py` | Unified health dashboard (**run in CI**). Runs all three audits fresh, checks entity counts + prose count claims against disk reality, flags export staleness. Exits non-zero on errors. Writes `_codex/reports/health.md` |
+| `regen-exports.sh` | Regenerate all reproducible exports (miberas/grails/graph + cluster/browse/stats pages). Run after editing content; commit the result |
+| `count-entities.sh` | Emit per-entity-type counts to `_codex/data/entity-counts.json` (on-disk `files` vs conceptual `concept` split) |
+
 ## Generation
 
 | Script | Description |
@@ -28,6 +36,9 @@ Run from the repo root:
 | `generate-graph.py` | Generate relationship graph data |
 | `generate-llms-full.py` | Generate `llms-full.txt` — complete codex content for LLM ingestion |
 | `generate-stats.py` | Generate codex statistics |
+| `generate-parcels.py` | Generate the 10,000 MiParcel files + parcel index/browse pages (corpus generator — run deliberately on parcel reveals) |
+| `build-scrawl-theme-map.py` | Build `_codex/data/scrawl-theme-map.json` from external parcel metadata (`--source parcelsMetadataFinal/`) |
+| `extend-grails-jsonl.py` | Augment `grails.jsonl` with extended fields (runs after `generate-grails.py`) |
 
 ## Images
 
@@ -80,6 +91,12 @@ Updates `image:` frontmatter and inline `<img>` tags across matching trait/ances
 | `normalize-data.py` | Normalize inconsistencies in data fields across content files |
 | `fetch-mibera-images.py` | Fetch and map Mibera images from external sources |
 | `fetch-mibera-sets.py` | Fetch Mibera Set ERC-1155 metadata from Optimism/Arweave |
+| `add-grail-backlinks.py` | Insert backlink sections into grail files |
+| `add-grail-reveal-timelines.py` | Add reveal-timeline sections to grail files |
+| `add-parcel-backlinks.py` | Insert backlink sections into MiParcel files |
+| `fix-grail-urls.py` | Repair grail image URLs |
+| `migrate-cdn-urls.py` | Migrate legacy trait image URLs to the current CDN origin |
+| `rewrite-grail-miberas.py` | Rewrite the grail-placement Mibera files (sparse grail frontmatter) |
 
 ## Archived (Migration Scripts)
 

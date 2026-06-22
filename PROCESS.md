@@ -1,5 +1,7 @@
 # Development Process
 
+> **Note:** This is generic **Loa framework** documentation, vendored at the repo root and synced by the framework — it is **not** required to browse or consume the Mibera Codex. Start at [README.md](README.md). This file describes the Loa agent-driven development workflow for contributors.
+
 This document outlines the comprehensive agent-driven development workflow. Our process leverages specialized AI agents to guide you from initial concept to production-ready implementation.
 
 ## Managed Scaffolding Architecture

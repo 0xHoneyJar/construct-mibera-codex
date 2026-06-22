@@ -25,22 +25,22 @@ trust_level: L1-self-declared
 
 A markdown knowledge base for the Mibera Maker NFT collection on Berachain — 10,000 generative time-travelling Beras with mythology, traits, drugs, astrology, and lore spanning 15,000 years. This is not a code repository; it is a structured content archive designed for both human browsing on GitHub and programmatic consumption by LLMs and AI agents.
 
-The codex contains 11,500+ markdown files across 20+ directories, 8 JSON Schema definitions, a 5.9 MB knowledge graph (10,279 nodes, 70,344 edges), and a 14-script audit/generation pipeline. All entity types except special collections are marked COMPLETE.
+The codex contains 21,000+ markdown files across 20+ directories, 9 JSON Schema definitions, a 19 MB knowledge graph (11,476 nodes, 191,882 edges), and a 14-script audit/generation pipeline. All entity types except special collections and VM traits are marked COMPLETE.
 
 ## Key Capabilities
 
 <!-- provenance: DERIVED -->
 
-The codex provides structured access to 9 entity types:
+The codex provides structured access to 12 entity types:
 
-- **10,000 Miberas** — individual identity files with 27 metadata fields in YAML frontmatter (`miberas/`)
-- **1,337 Visual Traits** — across 18 subcategories under 7 parent categories (`traits/` and `traits/overlays/molecules/`)
+- **10,000 Miberas** — individual identity files with 26 metadata fields in YAML frontmatter (`miberas/`)
+- **1,337 Visual Traits** — across 20 subcategories under 7 parent categories (`traits/` and `traits/overlays/molecules/`)
 - **78 Drugs** — molecules mapped 1:1 to tarot cards, each with archetype and ancestor associations (`traits/overlays/molecules/`)
 - **78 Tarot Cards** — divination archetypes paired bijectively with drugs (`core-lore/tarot-cards/`)
 - **33 Ancestors** — cultural lineages from Aboriginal to Turkey spanning ancient and modern civilizations (`core-lore/ancestors/`)
 - **44 Grails** — hand-drawn 1/1 art pieces, 42 canonical + 2 creator community (`grails/`)
-- **11 Birthday Eras** — temporal epochs from Prehistoric to 21st Century (`birthdays/`)
-- **32 Special Collections** — partner and special event collections, PARTIAL completeness (`special-collections/`)
+- **10 Birthday Eras** — temporal epochs from Prehistoric to 21st Century (`birthdays/`)
+- **33 Special Collections** — partner and special event collections, PARTIAL completeness (`special-collections/`)
 - **10 Fractures** — reveal phase documentation from sealed envelope to final form (`fractures/`)
 
 Entity counts and completeness markers are maintained in `manifest.json`.
@@ -77,7 +77,7 @@ Content follows a GitHub-first navigation pattern — `README.md` files in direc
 
 ```
 miberas/           10,000 identity files
-traits/            1,337 visual traits (18 subcategories; 78 drugs in traits/overlays/molecules/)
+traits/            1,337 visual traits (20 subcategories; 78 drugs in traits/overlays/molecules/)
 traits/overlays/molecules/    78 drug documentation files
 core-lore/         ~120 files (archetypes, ancestors, tarot, philosophy)
 browse/            8 faceted dimension indices
@@ -123,14 +123,14 @@ _codex/scripts/    14 audit/generation/maintenance scripts
 | Module | Files | Purpose | Documentation |
 |--------|-------|---------|---------------|
 | `miberas/` | 10,000 | Individual Mibera identity files | [manifest.json](manifest.json) |
-| `traits/` | 1,337 | Visual trait documentation (18 subcategories) | [traits/README.md](traits/README.md) |
+| `traits/` | 1,337 | Visual trait documentation (20 subcategories) | [traits/README.md](traits/README.md) |
 | `traits/overlays/molecules/` | 78 | Drug/molecule lore and tarot mapping | — |
 | `core-lore/` | ~120 | Archetypes, ancestors, tarot cards, philosophy | [core-lore/README.md](core-lore/README.md) |
 | `browse/` | 8 | Faceted dimension indices | [browse/README.md](browse/README.md) |
-| `grails/` | 42 | Hand-drawn 1/1 art pieces | [grails/README.md](grails/README.md) |
+| `grails/` | 44 | Hand-drawn 1/1 art pieces | [grails/README.md](grails/README.md) |
 | `fractures/` | 10 | Reveal phase documentation | [fractures/README.md](fractures/README.md) |
-| `birthdays/` | 11 | Birthday era classifications | — |
-| `special-collections/` | 32 | Partner/special collections | — |
+| `birthdays/` | 10 | Birthday era classifications | — |
+| `special-collections/` | 33 | Partner/special collections | — |
 | `_codex/data/` | ~16 | Machine-readable exports | [_codex/data/README.md](_codex/data/README.md) |
 | `_codex/schema/` | 9 | JSON Schemas + ontology | [_codex/schema/README.md](_codex/schema/README.md) |
 | `_codex/scripts/` | 14 | Audit, generation, maintenance | [_codex/scripts/README.md](_codex/scripts/README.md) |
@@ -142,8 +142,8 @@ _codex/scripts/    14 audit/generation/maintenance scripts
 - Trust Level: **L1 — Self-Declared**
 - 3 audit scripts: `audit-links.sh` (link validation), `audit-structure.sh` (schema compliance), `audit-semantic.py` (semantic consistency)
 - JSON reports in `_codex/scripts/reports/`
-- 8 JSON Schema files validating all entity types
-- `manifest.json` completeness markers: 7 of 9 entity types COMPLETE, 1 PARTIAL, 1 COMPLETE (fractures)
+- 9 JSON Schema files validating all entity types
+- `manifest.json` completeness markers: 10 of 12 entity types COMPLETE, 2 PARTIAL (special collections, VM traits)
 - `_codex/data/scope.json` defines machine-readable scope boundaries
 - `_codex/data/gaps.json` tracks 7 known unknowns (6 resolved, 1 open)
 - All scripts stdlib-only Python + Bash (no external dependencies)

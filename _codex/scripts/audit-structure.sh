@@ -233,8 +233,53 @@ while IFS= read -r scdir; do
 done < <(find "$REPO_ROOT/special-collections" -type d)
 echo "  $collection_total files checked, $collection_issues issues" >&2
 
+# MiParcels (10,000 files — batch grep like Miberas, not per-file, for speed)
+echo "Auditing miparcel files..." >&2
+MIPARCEL_DIR="$REPO_ROOT/miparcels"
+miparcel_total=$(find "$MIPARCEL_DIR" -name '[0-9]*.md' -type f | wc -l | tr -d ' ')
+miparcel_issues=0
+for field in "id" "type"; do
+  missing=$(grep -rL "^${field}:" "$MIPARCEL_DIR"/ --include='[0-9]*.md' 2>/dev/null || true)
+  if [[ -n "$missing" ]]; then
+    while IFS= read -r f; do
+      [[ -z "$f" ]] && continue
+      rel="${f#$REPO_ROOT/}"
+      echo "{\"severity\":\"error\",\"file\":\"$rel\",\"message\":\"Missing field: $field\",\"type\":\"miparcel\"}" >> "$ISSUES_FILE"
+      ((miparcel_issues++)) || true
+    done <<< "$missing"
+  fi
+done
+echo "  $miparcel_total files checked, $miparcel_issues issues" >&2
+
+# Vending-machine shadow traits (nested subdirectories, like special collections)
+echo "Auditing vending-machine (shadow trait) files..." >&2
+VM_REQ=("name" "category")
+vm_total=0; vm_issues=0
+while IFS= read -r vmdir; do
+  result=$(check_yaml_dir "vm_trait" "$vmdir" "${VM_REQ[@]}")
+  read -r t i <<< "$result"
+  ((vm_total += t)) || true
+  ((vm_issues += i)) || true
+done < <(find "$REPO_ROOT/vending-machine" -type d)
+echo "  $vm_total files checked, $vm_issues issues" >&2
+
+# Mibera Sets (Honey Road ERC-1155)
+echo "Auditing mibera-set files..." >&2
+SET_REQ=("token_id" "name" "type")
+result=$(check_yaml_dir "mibera_set" "$REPO_ROOT/mibera-sets" "${SET_REQ[@]}")
+read -r set_total set_issues <<< "$result"
+echo "  $set_total files checked, $set_issues issues" >&2
+
+# Grails (hand-drawn 1/1 entity files in grails/, distinct from the grail
+# placement exemption on miberas/ above)
+echo "Auditing grail files..." >&2
+GRAIL_REQ=("name" "type" "category")
+result=$(check_yaml_dir "grail" "$REPO_ROOT/grails" "${GRAIL_REQ[@]}")
+read -r grail_total grail_issues <<< "$result"
+echo "  $grail_total files checked, $grail_issues issues" >&2
+
 # --- 3. Generate report ---
-grand_total=$((mibera_total + trait_total + drug_total + ancestor_total + tarot_total + collection_total))
+grand_total=$((mibera_total + miparcel_total + trait_total + drug_total + ancestor_total + tarot_total + collection_total + vm_total + set_total + grail_total))
 error_count=$(grep -c '"severity":"error"' "$ISSUES_FILE" 2>/dev/null) || error_count=0
 warning_count=$(grep -c '"severity":"warning"' "$ISSUES_FILE" 2>/dev/null) || warning_count=0
 
@@ -246,11 +291,15 @@ warning_count=$(grep -c '"severity":"warning"' "$ISSUES_FILE" 2>/dev/null) || wa
   echo "  \"warnings\": $warning_count,"
   echo "  \"by_type\": {"
   echo "    \"mibera\": {\"total\": $mibera_total},"
+  echo "    \"miparcel\": {\"total\": $miparcel_total, \"issues\": $miparcel_issues},"
   echo "    \"trait\": {\"total\": $trait_total, \"issues\": $trait_issues},"
   echo "    \"drug\": {\"total\": $drug_total, \"issues\": $drug_issues},"
   echo "    \"ancestor\": {\"total\": $ancestor_total, \"issues\": $ancestor_issues},"
   echo "    \"tarot_card\": {\"total\": $tarot_total, \"issues\": $tarot_issues},"
-  echo "    \"special_collection\": {\"total\": $collection_total, \"issues\": $collection_issues}"
+  echo "    \"special_collection\": {\"total\": $collection_total, \"issues\": $collection_issues},"
+  echo "    \"vm_trait\": {\"total\": $vm_total, \"issues\": $vm_issues},"
+  echo "    \"mibera_set\": {\"total\": $set_total, \"issues\": $set_issues},"
+  echo "    \"grail\": {\"total\": $grail_total, \"issues\": $grail_issues}"
   echo "  },"
 
   # Issues array

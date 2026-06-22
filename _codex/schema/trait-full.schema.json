@@ -10,7 +10,7 @@
     "last_verified": "2026-02-18"
   },
   "type": "object",
-  "required": ["name", "image"],
+  "required": ["name", "swag_score", "date_added"],
   "properties": {
     "name": {
       "type": "string",
@@ -32,7 +32,9 @@
     },
     "swag_score": {
       "type": ["integer", "null"],
-      "description": "Rarity tier (1-5) or null",
+      "minimum": 1,
+      "maximum": 5,
+      "description": "Rarity tier 1-5 (NOT the 0-100 per-Mibera swag_score) or null",
       "x-codex-confidence": "canonical",
       "x-codex-source": "contract-metadata"
     },

@@ -31,8 +31,8 @@ def load_mibera_data():
                 content = f.read()
             if not content.startswith("---"):
                 continue
-            end = content.index("---", 3)
-            fm = yaml.safe_load(content[3:end])
+            end = content.index("\n---", 3)
+            fm = yaml.safe_load(content[4:end])
             if fm and isinstance(fm, dict):
                 miberas.append(fm)
         except Exception as e:

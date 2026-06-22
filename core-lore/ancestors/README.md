@@ -1,7 +1,7 @@
 <!-- codex-status: COMPLETE | entities: 33 | last-verified: 2026-02-18 -->
 # Ancestors
 
-*32 cultural lineages in the Mibera Codex.*
+*33 cultural lineages in the Mibera Codex.*
 
 Miberas are time-travelling Rebased Retard Beras — they exist outside of Milady time, but within it too. The Ancestor system reflects this temporal fluidity, connecting each Mibera to cultural lineages spanning 15,000 years of human history.
 
@@ -44,4 +44,5 @@ This is why we see Hindu, Mayan, Greek, and other ancestral influences appearing
 - [Stonewall](stonewall.md)
 - [Sufis](sufis.md)
 - [Thai](thai.md)
+- [Traveller](traveller.md)
 - [Turkey](turkey.md)

@@ -125,7 +125,7 @@ entities:
 
   trait:
     description: "Visual characteristic of a Mibera (clothing, accessories, body features)"
-    count: 1257
+    count: 1337
     schema:
       - "_codex/schema/trait-full.schema.json"
       - "_codex/schema/trait-minimal.schema.json"
@@ -142,10 +142,47 @@ entities:
 
   special_collection:
     description: "Partner or special event collection"
-    count: 32
+    count: 33
     schema: "_codex/schema/special-collection.schema.json"
     directory: "special-collections/"
     frontmatter: true
+
+  grail:
+    description: "Hand-drawn 1/1 art piece placed on a random Mibera post-reveal"
+    count: 44
+    schema: "_codex/schema/grail.schema.json"
+    directory: "grails/"
+    file_pattern: "{slug}.md"
+    frontmatter: true
+
+  mibera_set:
+    description: "Honey Road ERC-1155 token (Optimism)"
+    count: 12
+    directory: "mibera-sets/"
+    file_pattern: "{slug}.md"
+    frontmatter: true
+
+  miparcel:
+    description: "Land parcel paired with the Mibera collection (Phase 1 reveal)"
+    count: 10000
+    schema: "_codex/schema/miparcel.schema.json"
+    directory: "miparcels/"
+    file_pattern: "{id}.md"
+    frontmatter: true
+    id_type: integer
+    id_range: [1, 10000]
+
+  vm_trait:
+    description: "VM-exclusive Shadow Trait (vending-machine only, 12 categories)"
+    count: 110
+    directory: "vending-machine/"
+    frontmatter: true
+
+  oracle:
+    description: "Persona-driven system prompt for Mibera embodiment"
+    count: 1
+    directory: "oracle/"
+    frontmatter: false
 
 relationships:
   - type: has_archetype

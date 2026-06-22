@@ -203,7 +203,15 @@
     "motif_42": "_codex/data/42-motif.md",
     "mibera_sets": "_codex/data/mibera-sets.md",
     "mibera_sets_meta": "_codex/data/mibera-sets-meta.json",
-    "tarot_quiz": "_codex/data/tarot-quiz.md"
+    "tarot_quiz": "_codex/data/tarot-quiz.md",
+    "entity_counts": "_codex/data/entity-counts.json",
+    "mibera_image_urls": "_codex/data/mibera-image-urls.json",
+    "parcels_jsonl": "_codex/data/parcels.jsonl",
+    "parcels_graph": "_codex/data/parcels-graph.json",
+    "parcels_trait_report": "_codex/data/parcels-trait-report.json",
+    "scrawl_theme_map": "_codex/data/scrawl-theme-map.json",
+    "trait_swag_scores_csv": "_codex/data/trait-swag-scores.csv",
+    "trait_swag_scores_categorized_csv": "_codex/data/trait-swag-scores-categorized.csv"
   },
   "cross_dimensional_browse": {
     "note": "Cross-dimensional breakdowns are now inline in the enriched browse pages",
