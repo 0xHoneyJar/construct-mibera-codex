@@ -434,5 +434,12 @@ or resonates with the project's themes.
 
 ## Validation
 
-Run `_codex/scripts/audit-structure.sh` to validate all files against these schemas.
-Run `_codex/scripts/audit-links.sh` to check all internal links.
+These `*.schema.json` files are the canonical field definitions (JSON Schema
+Draft 2020-12). Note that `audit-structure.sh` does **not** load them — it
+performs structural validation via its own required-field checks, kept aligned
+with these schemas. For strict JSON Schema validation, run a validator
+(e.g. Python `jsonschema`) against the relevant `*.schema.json`.
+
+- `_codex/scripts/audit-structure.sh` — required-field / frontmatter structural checks
+- `_codex/scripts/audit-links.sh` — internal link integrity
+- `_codex/scripts/audit-semantic.py` — cross-entity reference consistency
