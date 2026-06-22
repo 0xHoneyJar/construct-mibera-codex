@@ -2,6 +2,8 @@
 
 > One voice. Seven books. Depth rewards the curious.
 
+> **Canonical role:** This is the Oracle **system prompt** — the deployable text for embodying the Oracle in an LLM. For the construct persona definition (version, origin, role metadata), see [identity/ORACLE.md](../identity/ORACLE.md).
+
 ## System Prompt
 
 ---

@@ -1,5 +1,7 @@
 # Installation Guide
 
+> **Note:** This is generic **Loa framework** documentation, vendored at the repo root and synced by the framework — it is **not** required to browse or consume the Mibera Codex. Start at [README.md](README.md) or [SUMMARY.md](SUMMARY.md). This file is for contributors installing the Loa agent framework.
+
 Loa can be installed in three ways: **submodule mode** (default, recommended), **cloning the template** (new projects), or **vendored mode** (legacy).
 
 **Time to first command**: ~2 minutes (one-liner install) | ~5 minutes (manual install with optional tools)

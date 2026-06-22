@@ -8,8 +8,8 @@ Generated: 2026-06-22
 
 | Audit | Status | Detail |
 |-------|--------|--------|
-| Structure Audit | PASS | 11487 files, 0 errors, 0 warnings |
-| Link Audit | PASS | 21780 files, 294871 links, 0 broken |
+| Structure Audit | PASS | 21653 files, 0 errors, 0 warnings |
+| Link Audit | PASS | 21793 files, 294919 links, 0 broken |
 | Semantic Audit | PASS | 8/8 checks pass |
 
 ## Entity Counts (disk reality)

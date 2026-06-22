@@ -1,7 +1,10 @@
 #!/usr/bin/env bash
 # count-entities.sh — Emit authoritative per-entity-type counts for the Mibera Codex.
 #
-# FR-2 (cycle-025): the single source of truth that every canonical-doc count must cite.
+# FR-2 (cycle-025): produces the committed entity-counts.json artifact that canonical-doc
+# counts are derived from. Note: this is NOT the runtime gate — health-report.py recomputes
+# counts independently from disk reality so it can detect drift in BOTH the docs and this
+# artifact (two independent disk-counters, by design, not one shared source).
 # The `files` (on-disk) vs `concept` (conceptual entity count) split is the whole point —
 # conflating the two is the chronic drift bug this cycle exists to kill. Where they differ,
 # the entry carries an explicit note (e.g. traits: 1326 files / 1337 unique concept).
