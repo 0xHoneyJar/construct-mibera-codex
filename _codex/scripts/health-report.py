@@ -40,20 +40,22 @@ def count_files(directory, exclude_names=None):
 
 
 def run_audit(script_name):
-    """Run an audit script and return (success, summary)."""
+    """Run an audit script and return (success, last_output_line)."""
     script = REPO_ROOT / "_codex" / "scripts" / script_name
     if not script.exists():
         return False, f"Script not found: {script_name}"
     try:
+        cmd = ["bash", str(script)] if script_name.endswith(".sh") \
+            else [sys.executable, str(script)]
         result = subprocess.run(
-            ["bash", str(script)] if script_name.endswith(".sh")
-            else ["python3", str(script)],
+            cmd,
             cwd=str(REPO_ROOT),
             capture_output=True,
             text=True,
             timeout=300,
         )
-        return result.returncode == 0, result.stderr.strip() or result.stdout.strip()
+        output = (result.stderr.strip() or result.stdout.strip())
+        return result.returncode == 0, output
     except subprocess.TimeoutExpired:
         return False, "Timed out after 5 minutes"
     except Exception as e:
@@ -61,22 +63,36 @@ def run_audit(script_name):
 
 
 def check_audit_reports():
-    """Read existing audit report JSONs and summarize."""
+    """Run each audit FRESH, then summarize from its newly written report.
+
+    Running the audits here (rather than reading whatever JSON happens to be on
+    disk) is what makes the health report — and the CI step that invokes it — a
+    real gate. A stale committed report can no longer mask newly introduced
+    structural, link, or semantic breakage. `run_audit` returns success=False
+    whenever the underlying script exits non-zero (i.e. errors are present).
+    """
     results = []
 
+    def last_line(output):
+        lines = [ln for ln in output.splitlines() if ln.strip()]
+        return lines[-1] if lines else "no output produced"
+
     # Structure audit
+    ok, output = run_audit("audit-structure.sh")
     struct_path = REPORTS_DIR / "audit-structure.json"
     if struct_path.exists():
         data = json.loads(struct_path.read_text())
-        errors = data.get("error_count", data.get("errors", "?"))
-        warnings = data.get("warning_count", data.get("warnings", "?"))
+        # Producer (audit-structure.sh) writes `errors`/`warnings`/`total_files`.
+        errors = data.get("errors", "?")
+        warnings = data.get("warnings", "?")
         total = data.get("total_files", "?")
-        status = "PASS" if errors == 0 else "FAIL"
-        results.append(("Structure Audit", status, f"{total} files, {errors} errors, {warnings} warnings"))
+        detail = f"{total} files, {errors} errors, {warnings} warnings"
     else:
-        results.append(("Structure Audit", "SKIP", "No report found — run audit-structure.sh"))
+        detail = last_line(output)
+    results.append(("Structure Audit", "PASS" if ok else "FAIL", detail))
 
     # Link audit
+    ok, output = run_audit("audit-links.sh")
     links_path = REPORTS_DIR / "audit-links.json"
     if links_path.exists():
         data = json.loads(links_path.read_text())
@@ -84,26 +100,23 @@ def check_audit_reports():
         broken = broken_val if isinstance(broken_val, int) else len(broken_val)
         total = data.get("total_links", "?")
         files = data.get("files_checked", "?")
-        status = "PASS" if broken == 0 else "WARN" if broken <= 5 else "FAIL"
-        results.append(("Link Audit", status, f"{files} files, {total} links, {broken} broken"))
+        detail = f"{files} files, {total} links, {broken} broken"
     else:
-        results.append(("Link Audit", "SKIP", "No report found — run audit-links.sh"))
+        detail = last_line(output)
+    results.append(("Link Audit", "PASS" if ok else "FAIL", detail))
 
     # Semantic audit
+    ok, output = run_audit("audit-semantic.py")
     sem_path = REPORTS_DIR / "audit-semantic.json"
     if sem_path.exists():
         data = json.loads(sem_path.read_text())
-        checks = data.get("checks", {})
-        if isinstance(checks, dict):
-            total = len(checks)
-            passed = sum(1 for v in checks.values() if isinstance(v, dict) and v.get("status") in ("pass", "info"))
-        else:
-            total = len(checks)
-            passed = sum(1 for c in checks if isinstance(c, dict) and c.get("status") == "pass")
-        status = "PASS" if passed == total else "FAIL"
-        results.append(("Semantic Audit", status, f"{passed}/{total} checks pass"))
+        summary = data.get("summary", {})
+        passed = summary.get("pass", "?")
+        total = summary.get("total", "?")
+        detail = f"{passed}/{total} checks pass"
     else:
-        results.append(("Semantic Audit", "SKIP", "No report found — run audit-semantic.py"))
+        detail = last_line(output)
+    results.append(("Semantic Audit", "PASS" if ok else "FAIL", detail))
 
     return results
 

@@ -68,3 +68,8 @@ app/.well-known/beacon.json
 
 # codex-mcp coverage-gap log — curator review surface, not for git tracking
 grimoires/codex-mcp/coverage-gaps.jsonl
+
+# Audit reports are regenerated fresh on every health-report / CI run — never commit
+_codex/scripts/reports/audit-structure.json
+_codex/scripts/reports/audit-links.json
+_codex/scripts/reports/audit-semantic.json

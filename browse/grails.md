@@ -1,4 +1,4 @@
-<!-- generated: 2026-03-30T19:36:28Z by _codex/scripts/generate-grails.py -->
+<!-- generated: 2026-06-22T20:31:13Z by _codex/scripts/generate-grails.py -->
 
 # Browse: Grails
 
@@ -38,6 +38,6 @@
 
 [Satoshi as Hermes](../grails/satoshi-as-hermes.md)
 
-## Creator Community (2)
+## Community (2)
 
 [Mijedi](../grails/mijedi.md) · [Milky Bullas](../grails/milky-bullas.md)

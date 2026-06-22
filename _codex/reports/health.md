@@ -1,6 +1,6 @@
 # Codex Health Report
 
-Generated: 2026-06-20
+Generated: 2026-06-22
 
 ## Overall: 100% — HEALTHY (7/7 categories passing)
 
@@ -9,7 +9,7 @@ Generated: 2026-06-20
 | Audit | Status | Detail |
 |-------|--------|--------|
 | Structure Audit | PASS | 11487 files, 0 errors, 0 warnings |
-| Link Audit | PASS | 21777 files, 294870 links, 0 broken |
+| Link Audit | PASS | 21780 files, 294870 links, 0 broken |
 | Semantic Audit | PASS | 8/8 checks pass |
 
 ## Entity Counts (disk reality)
