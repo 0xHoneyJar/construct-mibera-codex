@@ -108,8 +108,8 @@
     "swag_score": {
       "type": "integer",
       "minimum": 0,
-      "maximum": 100,
-      "description": "Numeric swag score",
+      "maximum": 200,
+      "description": "Numeric swag score (multiplicative formula; observed range 1-144)",
       "x-codex-confidence": "canonical",
       "x-codex-source": "contract-metadata"
     },

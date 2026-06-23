@@ -118,6 +118,11 @@ def check_audit_reports():
         detail = last_line(output)
     results.append(("Semantic Audit", "PASS" if ok else "FAIL", detail))
 
+    # Schema validation (jsonschema against *.schema.json; no-op if jsonschema
+    # isn't installed locally — the CI step is the authoritative gate)
+    ok, output = run_audit("validate-schemas.py")
+    results.append(("Schema Validation", "PASS" if ok else "FAIL", last_line(output)))
+
     return results
 
 
@@ -177,6 +182,14 @@ def check_meta_counts():
             actual["graph_nodes"] = gmeta["node_count"]
         if "edge_count" in gmeta:
             actual["graph_edges"] = gmeta["edge_count"]
+
+    # Conceptual special-collection count (collaborations, not the 53 files) —
+    # canonical value lives in manifest; lets prose claims guard docs that cite it.
+    mpath = REPO_ROOT / "manifest.json"
+    if mpath.exists():
+        sc = json.loads(mpath.read_text()).get("entity_types", {}).get("special_collection", {})
+        if "count" in sc:
+            actual["special_collection_concept"] = sc["count"]
 
     # Check manifest.json
     manifest_path = REPO_ROOT / "manifest.json"
@@ -250,6 +263,9 @@ PROSE_CLAIMS = [
     ("README.md", r"nodes, ([\d,]+) edges", "graph_edges"),
     ("SUMMARY.md", r"graph\.json\) — ([\d,]+) nodes", "graph_nodes"),
     ("SUMMARY.md", r"nodes, ([\d,]+) edges", "graph_edges"),
+    # Schema README — the one index that escaped the gate (cycle: schema enforcement).
+    ("_codex/schema/README.md", r"\*\*Count\*\*: ([\d,]+) collaborations", "special_collection_concept"),
+    ("_codex/schema/README.md", r"\*\*Count\*\*: ([\d,]+) era files", "birthday_era"),
 ]
 
 

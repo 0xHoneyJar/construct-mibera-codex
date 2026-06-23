@@ -26,14 +26,14 @@
     },
     "era": {
       "type": "string",
-      "enum": ["Ancient", "Modern"],
+      "enum": ["Ancient", "Modern", "Both"],
       "description": "Historical era classification",
       "x-codex-confidence": "canonical",
       "x-codex-source": "project-lore"
     },
     "origin": {
-      "type": "string",
-      "description": "Geographic origin",
+      "type": ["string", "null"],
+      "description": "Geographic origin (null where unknown)",
       "x-codex-confidence": "community",
       "x-codex-source": "research"
     },

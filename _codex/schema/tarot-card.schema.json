@@ -45,7 +45,7 @@
     },
     "drug_type": {
       "type": "string",
-      "enum": ["Ancient", "Modern"],
+      "enum": ["Ancient", "Modern", "Both"],
       "description": "Drug era classification",
       "x-codex-confidence": "canonical",
       "x-codex-source": "project-lore"
