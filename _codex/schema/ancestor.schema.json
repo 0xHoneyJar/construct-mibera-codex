@@ -19,8 +19,8 @@
       "x-codex-source": "project-lore"
     },
     "period_ancient": {
-      "type": "string",
-      "description": "Ancient period date range (e.g., '-480 - -323')",
+      "type": ["string", "null"],
+      "description": "Ancient period date range (e.g., '-480 - -323'); null for modern-only lineages",
       "x-codex-confidence": "community",
       "x-codex-source": "research"
     },

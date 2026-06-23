@@ -18,7 +18,7 @@ jobs:
           python-version: "3.12"
 
       - name: Install generator dependencies
-        run: pip install pyyaml
+        run: pip install pyyaml jsonschema
 
       - name: Regenerate exports and check for drift
         run: |
@@ -31,15 +31,16 @@ jobs:
             exit 1
           fi
 
-      - name: Structural, link, and semantic audits
+      - name: Structural, link, semantic, and schema audits
         run: |
           # Each script exits non-zero on errors. Running them as explicit
-          # steps (fail-fast, full stderr) makes structure/link/semantic
+          # steps (fail-fast, full stderr) makes structure/link/semantic/schema
           # breakage a hard CI failure — previously these never ran in CI and
           # the health report surfaced whatever stale JSON was committed.
           bash _codex/scripts/audit-structure.sh
           bash _codex/scripts/audit-links.sh
           python3 _codex/scripts/audit-semantic.py
+          python3 _codex/scripts/validate-schemas.py
 
       - name: Health report (entity counts, prose count claims, audits)
         run: python3 _codex/scripts/health-report.py

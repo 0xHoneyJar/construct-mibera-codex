@@ -2,7 +2,7 @@
 name: Weed
 molecule: C21H30O2
 compound: "Tetrahydrocannabinol"
-era: both (?)
+era: Both
 origin: null
 archetype: Chicago Detroit
 ancestor: Rastafarians

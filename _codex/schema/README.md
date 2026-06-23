@@ -247,8 +247,8 @@ date_added: January 12, 2025
 |-------|----------|------|-------|
 | name | Yes | string | Drug name |
 | molecule | Yes | string | Chemical formula |
-| era | Yes | string | `Ancient` or `Modern` |
-| origin | Yes | string | Geographic origin |
+| era | Yes | string | `Ancient`, `Modern`, or `Both` |
+| origin | Yes | string \| null | Geographic origin (null if unknown) |
 | archetype | Yes | string | Freetekno/Milady/Acidhouse/Chicago Detroit |
 | ancestor | Yes | string | Linked ancestor name |
 | swag_score | Yes | number | 1-5 rarity tier |
@@ -308,7 +308,7 @@ molecule: C11H15NO2
 | element | Yes | string | Air/Fire/Water/Earth |
 | meaning | Yes | string | Brief meaning |
 | drug | Yes | string | Linked drug name |
-| drug_type | Yes | string | `Ancient` or `Modern` |
+| drug_type | Yes | string | `Ancient`, `Modern`, or `Both` |
 | molecule | Yes | string | Chemical formula |
 
 ---
@@ -317,7 +317,7 @@ molecule: C11H15NO2
 
 **Path**: `special-collections/{slug}.md`
 **Format**: YAML frontmatter + Markdown
-**Count**: 32
+**Count**: 33 collaborations
 
 ```yaml
 ---
@@ -392,7 +392,7 @@ or resonates with the project's themes.
 
 **Path**: `birthdays/{era-slug}.md`
 **Format**: Structured Markdown headings (no YAML frontmatter)
-**Count**: 11 era files
+**Count**: 10 era files
 
 ### Structure per entry
 
