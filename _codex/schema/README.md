@@ -78,7 +78,7 @@ Traits are split into subcategories with different schemas.
 ```yaml
 ---
 name: Golden Hoop
-image: "https://mibera.fsn1.your-objectstorage.com/..."
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/...webp"
 archetype: "Aligned culture, related to the 90s rave"
 swag_score: 3
 date_added: "December 9, 2024"
@@ -101,7 +101,7 @@ date_added: "December 9, 2024"
 ```yaml
 ---
 name: Beige
-image: "https://mibera.fsn1.your-objectstorage.com/..."
+image: "https://assets.0xhoneyjar.xyz/Mibera/traits/...webp"
 date_added: "August 13, 2024"
 ---
 ```

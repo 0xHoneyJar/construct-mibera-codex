@@ -45,7 +45,7 @@ Run from the repo root:
 | Script | Description |
 |--------|-------------|
 | `micodex-assembler.py` | Composite trait layer PNGs onto bundled template images (background, body, arms) to produce final character portraits as WebP. Requires **Pillow** and **tqdm** (`pip install Pillow tqdm`). Originally from [micodex-images](https://github.com/0xHoneyJar/micodex-images). |
-| `embed-images.py` | Map assembled `.webp` trait images to codex entries, update `image:` frontmatter and insert inline `<img>` HTML pointing at `s3://mibera/traits/`. Outputs report to `reports/image-embed-report.json`. |
+| `embed-images.py` | Map assembled `.webp` trait images to codex entries, update `image:` frontmatter and insert inline `<img>` HTML pointing at the CDN (`https://assets.0xhoneyjar.xyz/Mibera/traits/`). Outputs report to `reports/image-embed-report.json`. |
 
 ### Image Pipeline — End to End
 
