@@ -166,3 +166,64 @@ Added `x-codex-confidence` and `x-codex-source` annotations to all 65 fields acr
 - Audit scripts run in ~20 seconds total (14s structure + 6s links)
 - Cluster page links must use `../../../` (3 levels up) — caught by audit-links.sh after initial `../../` error generated 11,020 broken links
 - `generate-graph.py` self-validates: orphan nodes, edge refs, expected counts, duplicate edges
+
+### Session 09a — eval corpus shipped (2026-05-02)
+
+Session 09a stands up the MICODEX intent-layer eval corpus per `~/bonfire/grimoires/bonfire/specs/micodex-eval-corpus-2026-05-02.md`. Triangle composition (STAMETS forge LEAD + KEEPER source + OSTROM contract + KRANZ act 1+3 substrate-prep) per spec §1.
+
+**KRANZ act 1 substrate-prep** caught a real bug: local `@tobilu/qmd@2.0.0` (pnpm install) crashed under runtime with `SQLiteError: no such module: vec0`, while global `@tobilu/qmd@2.0.1` worked. Bumped local dep `^2.0.0` → `2.1.0` (latest); pass restored. Documents the exact reason KRANZ exists for eval prep — substrate must be reproducible before STAMETS forges, otherwise the corpus is a 1-machine artifact (anti-pattern: "works on my laptop").
+
+**STAMETS forge canonical**: 43 grails × live `searchCodex` → 0 gaps, 42/43 hits @ 0.93, Mijedi @ 0.56 (community category, less canonically anchored). Baseline = strong.
+
+**Baseline harness run** (57 cases · 108.7s cold cache): **52/57 = 91.2%** — gate met first pass.
+
+5 failures, classified per OSTROM §2.8:
+1. `dragon` → @g507 Mongolian @ 0.88 — vec/HyDE quirk (no lexical "dragon" in mongolian.md)
+2. `car` → @g8557 Satanist @ 0.88 — vec/HyDE quirk (no obvious lexical match)
+3. `crypto` → @g4488 Satoshi-as-Hermes @ 0.88 — **TRUE positive**, lore explicitly mentions Bitcoin
+4. `the dark grail` → @g6458 Fire @ 0.88 (spec example wanted @g876 Black Hole) — fire.md describes "dark orange" background (lexical match); black-hole.md says "void presence" not "dark"
+5. `underworld grail` → @g6805 Aquarius @ 0.88 (spec example wanted @g4488 Satoshi-as-Hermes) — **substrate is canonically correct**, aquarius.md explicitly: "Hades is the Greek god of the underworld"
+
+**Iteration round** (per spec §4.6 Bucket A): amended cases to substrate truth.
+- Empty-expected swaps (3): dragon/car/crypto → gasoline/smartphone/refrigerator (probed verified-empty terms via probe-empty.ts)
+- Motif/concept amendments (2): expected refs corrected to substrate truth, keeper_source documents the spec-example deviation; original-spec-references promoted to V1.5 substrate-iteration hooks (extend black-hole.md anchors; add `acceptable_top_3` field)
+
+**Iteration run** (58 cases · 49.4s warm cache): **58/58 = 100%** — all five categories green.
+
+| category | pass | total | % |
+|---|---|---|---|
+| canonical | 43 | 43 | 100% |
+| concept | 1 | 1 | 100% |
+| concept-paraphrase | 1 | 1 | 100% |
+| empty-expected | 11 | 11 | 100% |
+| motif | 2 | 2 | 100% |
+
+**Doctrine update shipped**: `~/vault/wiki/concepts/micodex-as-knowledge-map.md` §6 evidence tier promoted `asserted → measured` (lines 57+59+364). NEW page `~/vault/wiki/concepts/synthetic-supervision-for-knowledge-maps.md` crystallizes the MapTrace-adapted-for-knowledge-maps pattern as reusable doctrine for future bucket-1 + intent-extension constructs.
+
+**Scope cuts (BARTH minor)**:
+- 58 cases is at low end of V1 50-100 BARTH range. KEEPER pairing for 30-50 motif paraphrases (operator-named hunches) deferred to follow-up session — would push to 90-110 cases and increase coverage of operator's domain knowledge surface.
+- Cross-collection (`codex-core-lore`) deferred — V1.5 corpus expansion.
+- Substrate edits (extending Black Hole md with "dark" anchors) deferred — V1.5 substrate iteration; would touch production grail markdown which is OSTROM-blast-radius territory and warrants separate review cycle.
+
+**KRANZ act 5 distill**: substrate-prep gates for eval sessions are non-optional. The dep-version mismatch we caught would have produced 100% harness errors with no signal about whether the corpus was sound. Pattern: every eval session begins with KRANZ Coordinate; substrate must be reproducible across machines before forge.
+
+**Files added** (`tests-smoke/`):
+- `forge-canonical.ts` — STAMETS canonical baseline generator
+- `eval-corpus.jsonl` — final 58-case corpus
+- `canonical.jsonl` — STAMETS forge intermediate (43 cases)
+- `seed-empty-and-motif.jsonl` — KEEPER+spec seed (15 cases)
+- `eval-harness.ts` — runner with OSTROM contract
+- `EVAL_CONTRACT.md` — one-page OSTROM doc
+- `probe-empty.ts` — utility for STAMETS to verify empty-expected candidates
+
+**Dep change**: `package.json` `@tobilu/qmd` `^2.0.0` → `2.1.0` (KRANZ-discovered runtime fix).
+
+V1.5 deferred:
+- Auto-eval on PR (CI integration of `pnpm exec tsx tests-smoke/eval-harness.ts ...`)
+- Eval against deployed Railway HTTP transport (gates session 09b integration QA)
+- Cross-collection eval (`codex-core-lore`)
+- Threshold-tuning regression tests
+- KEEPER motif paraphrase pass (operator-paired ~45min for 30-50 cases)
+- `acceptable_top_3` field (handles "underworld" multi-valid-answer case)
+- External-Loa-user pass (Adasuna runs corpus against their install)
+

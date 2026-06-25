@@ -37,6 +37,7 @@
     "@0xhoneyjar/beacon-schema": "^0.1.0",
     "@hono/node-server": "^1.14.1",
     "@modelcontextprotocol/sdk": "^1.18.2",
+    "@tobilu/qmd": "^2.1.0",
     "gray-matter": "^4.0.3",
     "hono": "^4.7.0",
     "zod": "^3.25.28"
