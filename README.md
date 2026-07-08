@@ -72,7 +72,7 @@ Contract addresses and ecosystem mechanics.
 - [Shadow Traits](_codex/data/shadow-traits.md) — On-chain trait uniqueness system
 - [Candies Marketplace](_codex/data/candies-mechanics.md) — Seizure mechanics and holder discounts
 - [Mibera Sets](_codex/data/mibera-sets.md) — 12-tier ERC-1155 on Optimism
-- [Archetype Quiz](_codex/data/tarot-quiz.md) — Soulbound archetype alignment
+- [Archetype Quiz](core-lore/archetype-quiz/README.md) — 7-question soulbound quiz mapping wallets to 10 esoteric archetypes ([contract mechanics](_codex/data/tarot-quiz.md))
 - [The 42 Motif](_codex/data/42-motif.md) — Numerological easter eggs across contracts
 - [Contract ABIs](_codex/data/abis/README.md) — Machine-readable contract interfaces
 

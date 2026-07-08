@@ -16,6 +16,11 @@ One of four primary Rave Tribes that define aesthetic and philosophical foundati
 - **[Chicago Detroit](core-lore/archetypes.md#chicago-detroit)** — Early 80s house/techno origins (Spring: Aries, Taurus, Gemini)
 - **[Acidhouse](core-lore/archetypes.md#acidhouse)** — Late 90s/2000s acid house revival (Fall: Libra, Scorpio, Sagittarius)
 
+Distinct from **[Quiz Archetype](#quiz-archetype)** — the 10 esoteric archetypes from the soulbound MIRA quiz. Unrelated systems.
+
+### Quiz Archetype
+One of **10** esoteric archetypes (Centurion, Oracle, Witness, Prodigal Son, Doppel, Ouroboros, Anointer, Serpent, Bound One, Phoenix) assigned by the off-chain [Archetype Quiz](core-lore/archetype-quiz/README.md) and recorded on-chain in the soulbound MIRA (`miChainMirror`) token. Separate from the 4 [Archetype](#archetype) trait tribes and from the 78 drug-tarot cards — the three systems are unrelated.
+
 ---
 
 ## C

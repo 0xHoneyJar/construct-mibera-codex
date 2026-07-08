@@ -6,7 +6,9 @@
 
 The Archetype Quiz is a soulbound NFT system on Berachain that assigns each participant an archetype. Users take an off-chain quiz (the "Tarot Quiz") that determines their archetype alignment, then mint a non-transferable token recording that result on-chain. The contract is named `MiberaArchetypeAlignment` with token name "miChainMirror" and symbol "MIRA".
 
-The contract itself does not contain quiz logic or archetype assignment — it is a pure soulbound minting contract. The quiz happens off-chain (likely via the Mibera frontend), and the resulting archetype is encoded in the token's metadata served through the `baseURI`.
+The contract itself does not contain quiz logic or archetype assignment — it is a pure soulbound minting contract. The quiz happens **off-chain** on the Mibera Honeyroad frontend, and the resulting archetype is encoded in the token's metadata served through the `baseURI`.
+
+> **The full quiz is documented** in [`core-lore/archetype-quiz/`](../../core-lore/archetype-quiz/README.md): the [7 questions and scoring engine](../../core-lore/archetype-quiz/quiz-questions.md), the [10 archetypes](../../core-lore/archetype-quiz/), and the [esoteric roles, on-chain actions, and boosts](../../core-lore/archetype-quiz/esoteric-roles.md). This file covers only the on-chain contract mechanics.
 
 ## Contract
 
@@ -51,7 +53,7 @@ Returns the token ID for a given address, or `type(uint256).max` if the address 
 
 Token metadata is served via `baseURI + tokenId`. The base URI is set by the contract owner via `setBaseURI(string)`. A `triggerBatchMetadataUpdate()` function emits `BatchMetadataUpdate(0, type(uint256).max)` to signal indexers that all token metadata has changed.
 
-<!-- GAP: The actual baseURI value and metadata JSON schema are unknown. The metadata likely encodes the quiz result (archetype assignment, tarot card, or alignment details), but the structure has not been inspected on-chain. -->
+The metadata is the **source of truth for the archetype result**. It is generated server-side from the `quiz_metadata` Postgres table (Drizzle/Railway) and served via the Honeyroad route `app/api/quiz/[tokenId]/route.ts`. Each record encodes the wallet's dominant archetype, its grid vector, and the secondary/tertiary archetypes. See [`core-lore/archetype-quiz/quiz-questions.md`](../../core-lore/archetype-quiz/quiz-questions.md) for how those values are computed.
 
 ### Owner Functions
 
@@ -67,33 +69,25 @@ Token metadata is served via `baseURI + tokenId`. The base URI is set by the con
 
 The archetype assignment happens in two layers:
 
-1. **Off-chain quiz**: Users answer questions on the Mibera frontend (the "Tarot Quiz" or "Archetype Quiz"). The quiz determines which of the four archetypes the user aligns with.
+1. **Off-chain quiz**: Users answer **7 questions** on the Mibera Honeyroad frontend (the "Tarot Quiz" / "Archetype Quiz"). Answers are tallied and projected onto a 2-axis grid, weighted by on-chain boosts, to select one of **10 quiz archetypes** — Centurion, Oracle, Witness, Prodigal Son, Doppel, Ouroboros, Anointer, Serpent, Bound One, Phoenix. The result is saved to the `quiz_metadata` Postgres table before mint. Full mechanics: [`core-lore/archetype-quiz/quiz-questions.md`](../../core-lore/archetype-quiz/quiz-questions.md).
 2. **On-chain mint**: The user calls `mint()` to create their soulbound token. The token ID is sequential and carries no on-chain archetype data — the archetype result is encoded in the off-chain metadata served at the token URI.
 
-<!-- GAP: The exact quiz questions, scoring algorithm, and how quiz results map to metadata tokenIDs are unknown. It is unclear whether the frontend enforces that a user must complete the quiz before minting, or whether any wallet can mint freely and the metadata is assigned server-side based on quiz completion records. -->
+## Two archetype systems — do not conflate
 
-<!-- GAP: It is unknown whether the quiz assigns one of the 4 primary archetypes (Freetekno, Milady, Chicago Detroit, Acidhouse) or a more granular result involving tarot cards, elements, or ancestors. The contract name "ArchetypeAlignment" and the token name "miChainMirror" suggest the result is an archetype alignment that "mirrors" the user's identity on-chain. -->
+The quiz's **10 archetypes are a separate system** from the collection's **4 trait archetypes**. They share no members and are computed differently.
 
-## Relationship to the 10 Archetypes
+| | Trait archetypes | Quiz archetypes (MIRA) |
+|---|---|---|
+| Count | 4 | 10 |
+| Members | Freetekno, Chicago/Detroit, Acidhouse, Milady | Centurion, Oracle, Witness, Prodigal Son, Doppel, Ouroboros, Anointer, Serpent, Bound One, Phoenix |
+| Basis | Rave movement, assigned from astrological birth data | Esoteric/tarot role, chosen by answering the quiz |
+| Where | A generative trait on each of the 10,000 Miberas ([`core-lore/archetypes.md`](../../core-lore/archetypes.md)) | This soulbound token, one per wallet |
 
-The Mibera universe defines four primary archetypes tied to zodiac signs and rave eras:
+The contract name "ArchetypeAlignment" and token name "miChainMirror" refer to the **10 quiz archetypes** — the quiz "mirrors" a wallet's identity into one of the ten esoteric roles. It does **not** assign a trait archetype. Full detail: [`core-lore/archetype-quiz/`](../../core-lore/archetype-quiz/README.md).
 
-| Archetype | Zodiac Signs | Season | Era |
-|-----------|--------------|--------|-----|
-| **Freetekno** | Cancer, Leo, Virgo | Summer | Early-Late 90s |
-| **Milady** | Capricorn, Aquarius, Pisces | Winter | Current |
-| **Chicago Detroit** | Aries, Taurus, Gemini | Spring | Early 80s |
-| **Acidhouse** | Libra, Scorpio, Sagittarius | Fall | Late 90s / 2000s |
+## Not related to the 78 drug-tarot cards
 
-In the main Mibera collection (10,000 NFTs), archetypes are assigned based on astrological birth data. The Archetype Quiz likely offers an alternative path — rather than birth chart data, users answer personality/preference questions that map to the same archetype framework.
-
-<!-- GAP: The sprint plan references "10 archetypes" but the codex documents only 4 primary archetypes. It is possible the quiz uses a finer-grained classification (e.g., sub-archetypes or archetype + ancestor combinations), or the "10" may refer to a different categorization system. The exact mapping between quiz outcomes and the documented archetypes has not been confirmed. -->
-
-## Relationship to the Drug-Tarot System
-
-The Mibera codex maps 78 tarot cards to 78 drugs across four suits (Wands/Fire, Cups/Water, Swords/Air, Pentacles/Earth). Each archetype has natural affinities with certain drug categories. The "Tarot Quiz" name suggests the quiz may incorporate tarot card symbolism in its question framing or result presentation.
-
-<!-- GAP: It is unknown whether the quiz result includes a specific tarot card assignment alongside the archetype, or whether "Tarot Quiz" is simply the colloquial name for the archetype alignment quiz. The contract and ABI contain no tarot-specific data structures. -->
+The codex's [drug-tarot system](../../core-lore/drug-tarot-system.md) — the **78 tarot cards mapped to 78 drugs** across four suits (Wands/Fire, Cups/Water, Swords/Air, Pentacles/Earth) — has **nothing to do with this quiz**. "Tarot Quiz" is merely the frontend's colloquial nickname for the Archetype Quiz. The quiz does not draw, assign, or reference any of the 78 tarot cards; its questions and results map only to the [10 quiz archetypes](../../core-lore/archetype-quiz/README.md). The contract and ABI contain no tarot-specific data structures. The two systems share the word "tarot" and nothing else.
 
 ## Key Errors
 
