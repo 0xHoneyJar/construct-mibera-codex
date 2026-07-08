@@ -9,6 +9,7 @@
 
 ## II. The Framework
 * [Archetypes](core-lore/archetypes.md)
+* [Archetype Quiz (MIRA)](core-lore/archetype-quiz/README.md)
 * [Ancestors](core-lore/ancestors/README.md)
 
 ## III. The Mysticism

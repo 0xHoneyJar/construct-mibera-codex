@@ -8,6 +8,8 @@
 
 Each Archetype represents a distinct rave movement, era, and aesthetic. Miberas are assigned to an Archetype based on their astrological birth data.
 
+> **Not to be confused with the quiz archetypes.** These **4** are the load-bearing NFT *trait* archetypes. A separate system — the soulbound [Archetype Quiz (MIRA)](archetype-quiz/README.md) — assigns wallets one of **10** unrelated esoteric archetypes (Centurion, Oracle, Witness, …) by answering a personality quiz. The two share the word "archetype" and nothing else: no common members, different mechanism.
+
 ### Archetype-Astrology Mapping
 
 | Archetype | Zodiac Signs | Season | Era |

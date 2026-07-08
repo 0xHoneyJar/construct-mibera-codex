@@ -159,6 +159,15 @@
         "shirts": 19,
         "tattoos": 1
       }
+    },
+    "quiz_archetype": {
+      "directory": "core-lore/archetype-quiz/archetypes/",
+      "index": "core-lore/archetype-quiz/README.md",
+      "count": 10,
+      "format": "yaml_frontmatter",
+      "completeness": "COMPLETE",
+      "completeness_note": "10 esoteric archetypes from the soulbound MIRA quiz; distinct from the 4 trait archetypes and the 78 drug-tarot cards",
+      "last_verified": "2026-07-08"
     }
   },
   "browse": {
@@ -185,7 +194,8 @@
     "schema": "_codex/schema/README.md",
     "llms": "llms.txt",
     "llms_full": "llms-full.txt",
-    "ontology": "_codex/schema/ontology.yaml"
+    "ontology": "_codex/schema/ontology.yaml",
+    "archetype_quiz": "core-lore/archetype-quiz/README.md"
   },
   "data_exports": {
     "miberas_jsonl": "_codex/data/miberas.jsonl",
