@@ -14,9 +14,9 @@ ABI files for all Mibera ecosystem smart contracts, fetched from block explorers
 | BeraMarketMinter | `0x66660f4Bb0B7b11b9f12F613F4CF043516EB3b20` | `bera-market-minter.json` | Unverified |
 | MiberaTrade | `0x90485B61C9dA51A3c79fca1277899d9CD5D350c2` | `mibera-trade.json` | Unverified |
 | Accounts | `0xC0a78722889c7De7E6eF4B7dB1FeD5b4B97d6dA1` | `accounts.json` | Unverified |
-| FracturedMibera | `0x6956dae88C00372B1A0b2dfBfE5Eed19F85b0D4B` | `fractured-mibera.json` | Verified (39 entries) |
+| FracturedMibera (current phase 1) | `0x86db98cf1b81e833447b12a077ac28c36b75c8e1` | `fractured-mibera.json` | Verified (39 entries) |
 
-> All 10 FracturedMibera contracts share the same ABI. Only #1 was fetched.
+> All 10 current FracturedMibera contracts share the same ABI. The stored ABI was originally fetched from superseded phase 1 contract `0x6956dae88c00372b1a0b2dfbfe5eed19f85b0d4b`; its runtime bytecode is identical to the active replacement. See [_codex/data/fractured-mibera.md](../fractured-mibera.md) for lineage.
 
 ## Optimism (Chain 10)
 

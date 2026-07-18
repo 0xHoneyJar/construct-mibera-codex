@@ -21,7 +21,7 @@ Every parcel is named: **Honey Road Parcel #N from High Council 任侠団体 of 
 | Property | Value |
 |----------|-------|
 | Token Count | 10,000 |
-| Contract | `0x6956dae88C00372B1A0b2dfBfE5Eed19F85b0D4B` |
+| Contract | `0x86db98cf1b81e833447b12a077ac28c36b75c8e1` |
 | IPFS CID | `bafybeiexd3lj53j4gpm7rcvnvprlfaa5kqj7bi4zlh4tlj5og23j6fyese` |
 | Trait Categories | 15 (excl. background) |
 | Fracture Phase | Phase 1 |

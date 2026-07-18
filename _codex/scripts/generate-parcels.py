@@ -26,7 +26,7 @@ from pathlib import Path
 
 IPFS_CID = "bafybeiexd3lj53j4gpm7rcvnvprlfaa5kqj7bi4zlh4tlj5og23j6fyese"
 S3_BASE = "https://assets.0xhoneyjar.xyz/parcels/parcelsImages"
-CONTRACT = "0x6956dae88C00372B1A0b2dfBfE5Eed19F85b0D4B"
+CONTRACT = "0x86db98cf1b81e833447b12a077ac28c36b75c8e1"
 
 # Trait key normalization: source trait_type -> frontmatter key
 KEY_MAP = {

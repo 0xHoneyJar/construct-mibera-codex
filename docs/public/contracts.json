@@ -1,6 +1,6 @@
 {
-  "version": "1.0.0",
-  "generated": "2026-02-18",
+  "version": "1.1.0",
+  "generated": "2026-07-18",
   "note": "There is NO on-chain distinction between generative Miberas and hand-drawn Grails. The codex is the only layer that knows which token IDs are 1/1s.",
   "contracts": [
     {
@@ -86,22 +86,163 @@
     },
     {
       "name": "FracturedMibera",
-      "address": "0x6956dae88C00372B1A0b2dfBfE5Eed19F85b0D4B",
+      "address": "0x86db98cf1b81e833447b12a077ac28c36b75c8e1",
       "chain": "berachain",
       "chain_id": 80094,
       "standard": "ERC-721 (soulbound)",
-      "notes": "10 soulbound companion collections. Token IDs mirror main Mibera. First of 10 contracts listed.",
+      "status": "active",
+      "registry_status": "verified_current",
+      "notes": "10 active soulbound companion collections. Token IDs mirror main Mibera. The address field is the current phase 1 contract; use phases or all_addresses for the complete current set.",
+      "provenance": {
+        "source_repository": "0xHoneyJar/mibera-contracts",
+        "source_issue": "https://github.com/0xHoneyJar/mibera-contracts/issues/2",
+        "codex_issue": "https://github.com/0xHoneyJar/construct-mibera-codex/issues/94",
+        "verified_at": "2026-07-18",
+        "verification_basis": [
+          "same deployer and ordered replacement nonces",
+          "identical runtime bytecode between superseded and current pairs",
+          "current replacements contain mint/Transfer activity while superseded contracts contain zero Transfer logs"
+        ],
+        "consumer_rule": "Current collection intake must use phases[*].current_address or all_addresses. deployment_history entries with status superseded are lineage only."
+      },
       "all_addresses": [
-        "0x6956dae88C00372B1A0b2dfBfE5Eed19F85b0D4B",
-        "0x8D4972bd5D2df474e71da6676a365fB549853991",
-        "0x77ec6B83495974a5B2C5BEf943b0f2e5aCd8Fc26",
-        "0xc557Bf6C7d21BA98A40dDfE2BEAbA682C49D17A9",
-        "0xbcb082bB41E892f29d9c600eaadEA698d5f712Ef",
-        "0x2030f226Bf9a0c88687e83AcCdcEfb7Dae260094",
-        "0xcc426F9375c5edcef5CA6bDb0449c07113348cF7",
-        "0xF68f40230E39067Ee7c98Fe9A8641fC124c5BE60",
-        "0xFc79B1BcCa172FF5a8F74205C82F5CBB0125Dd10",
-        "0xa3d3EF45712631A6Fb50c677762b8653f932cf71"
+        "0x86db98cf1b81e833447b12a077ac28c36b75c8e1",
+        "0x8d4972bd5d2df474e71da6676a365fb549853991",
+        "0x144b27b1a267ee71989664b3907030da84cc4754",
+        "0x72db992e18a1bf38111b1936dd723e82d0d96313",
+        "0x3a00301b713be83ec54b7b4fb0f86397d087e6d3",
+        "0x419f25c4f9a9c730aacf58b8401b5b3e566fe886",
+        "0x81a27117bd894942ba6737402fb9e57e942c6058",
+        "0xaab7b4502251ae393d0590bab3e208e2d58f4813",
+        "0xc64126ea8dc7626c16daa2a29d375c33fcaa4c7c",
+        "0x24f4047d372139de8dacbe79e2fc576291ec3ffc"
+      ],
+      "phases": [
+        {
+          "phase": 1,
+          "name": "MiParcels",
+          "status": "active",
+          "current_address": "0x86db98cf1b81e833447b12a077ac28c36b75c8e1"
+        },
+        {
+          "phase": 2,
+          "name": "Miladies",
+          "status": "active",
+          "current_address": "0x8d4972bd5d2df474e71da6676a365fb549853991"
+        },
+        {
+          "phase": 3,
+          "name": "MiReveal #1.1",
+          "status": "active",
+          "current_address": "0x144b27b1a267ee71989664b3907030da84cc4754"
+        },
+        {
+          "phase": 4,
+          "name": "MiReveal #2.2",
+          "status": "active",
+          "current_address": "0x72db992e18a1bf38111b1936dd723e82d0d96313"
+        },
+        {
+          "phase": 5,
+          "name": "MiReveal #3.3",
+          "status": "active",
+          "current_address": "0x3a00301b713be83ec54b7b4fb0f86397d087e6d3"
+        },
+        {
+          "phase": 6,
+          "name": "MiReveal #4.20",
+          "status": "active",
+          "current_address": "0x419f25c4f9a9c730aacf58b8401b5b3e566fe886"
+        },
+        {
+          "phase": 7,
+          "name": "MiReveal #5.5",
+          "status": "active",
+          "current_address": "0x81a27117bd894942ba6737402fb9e57e942c6058"
+        },
+        {
+          "phase": 8,
+          "name": "MiReveal #6.9",
+          "status": "active",
+          "current_address": "0xaab7b4502251ae393d0590bab3e208e2d58f4813"
+        },
+        {
+          "phase": 9,
+          "name": "MiReveal #7.7",
+          "status": "active",
+          "current_address": "0xc64126ea8dc7626c16daa2a29d375c33fcaa4c7c"
+        },
+        {
+          "phase": 10,
+          "name": "MiReveal #8.8",
+          "status": "active",
+          "current_address": "0x24f4047d372139de8dacbe79e2fc576291ec3ffc"
+        }
+      ],
+      "deployment_history": [
+        {
+          "phase": 1,
+          "address": "0x6956dae88c00372b1a0b2dfbfe5eed19f85b0d4b",
+          "status": "superseded",
+          "superseded_by": "0x86db98cf1b81e833447b12a077ac28c36b75c8e1",
+          "transfer_log_count": 0
+        },
+        {
+          "phase": 3,
+          "address": "0x77ec6b83495974a5b2c5bef943b0f2e5acd8fc26",
+          "status": "superseded",
+          "superseded_by": "0x144b27b1a267ee71989664b3907030da84cc4754",
+          "transfer_log_count": 0
+        },
+        {
+          "phase": 4,
+          "address": "0xc557bf6c7d21ba98a40ddfe2beaba682c49d17a9",
+          "status": "superseded",
+          "superseded_by": "0x72db992e18a1bf38111b1936dd723e82d0d96313",
+          "transfer_log_count": 0
+        },
+        {
+          "phase": 5,
+          "address": "0xbcb082bb41e892f29d9c600eaadea698d5f712ef",
+          "status": "superseded",
+          "superseded_by": "0x3a00301b713be83ec54b7b4fb0f86397d087e6d3",
+          "transfer_log_count": 0
+        },
+        {
+          "phase": 6,
+          "address": "0x2030f226bf9a0c88687e83accdcefb7dae260094",
+          "status": "superseded",
+          "superseded_by": "0x419f25c4f9a9c730aacf58b8401b5b3e566fe886",
+          "transfer_log_count": 0
+        },
+        {
+          "phase": 7,
+          "address": "0xcc426f9375c5edcef5ca6bdb0449c07113348cf7",
+          "status": "superseded",
+          "superseded_by": "0x81a27117bd894942ba6737402fb9e57e942c6058",
+          "transfer_log_count": 0
+        },
+        {
+          "phase": 8,
+          "address": "0xf68f40230e39067ee7c98fe9a8641fc124c5be60",
+          "status": "superseded",
+          "superseded_by": "0xaab7b4502251ae393d0590bab3e208e2d58f4813",
+          "transfer_log_count": 0
+        },
+        {
+          "phase": 9,
+          "address": "0xfc79b1bcca172ff5a8f74205c82f5cbb0125dd10",
+          "status": "superseded",
+          "superseded_by": "0xc64126ea8dc7626c16daa2a29d375c33fcaa4c7c",
+          "transfer_log_count": 0
+        },
+        {
+          "phase": 10,
+          "address": "0xa3d3ef45712631a6fb50c677762b8653f932cf71",
+          "status": "superseded",
+          "superseded_by": "0x24f4047d372139de8dacbe79e2fc576291ec3ffc",
+          "transfer_log_count": 0
+        }
       ]
     }
   ]

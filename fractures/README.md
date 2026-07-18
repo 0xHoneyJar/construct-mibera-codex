@@ -1,4 +1,4 @@
-<!-- codex-status: COMPLETE | entities: 10 | last-verified: 2026-02-18 -->
+<!-- codex-status: COMPLETE | entities: 10 | last-verified: 2026-07-18 -->
 # Fractures — The Reveal Timeline
 
 *10 soulbound collections marking each phase of Mibera's emergence into the world.*
@@ -32,22 +32,42 @@ The reveal unfolds in 10 stages. The first two phases — MiParcels and Miladies
 
 The decimal numbering is playful and intentional: 1.1, 2.2, 3.3, **4.20**, 5.5, **6.9**, 7.7, 8.8. The cultural references in 4.20 and 6.9 are deliberate.
 
-## Contracts
+## Current Contracts
 
-All 10 Fracture collections are soulbound ERC-721 contracts on Berachain, deployed from a single script. Token IDs mirror the main Mibera collection 1:1.
+All 10 Fracture collections are soulbound ERC-721 contracts on Berachain. Token IDs mirror the main Mibera collection 1:1.
 
-| # | Name | Contract |
-|---|------|----------|
-| 1 | MiParcels | `0x6956dae88C00372B1A0b2dfBfE5Eed19F85b0D4B` |
-| 2 | Miladies | `0x8D4972bd5D2df474e71da6676a365fB549853991` |
-| 3 | MiReveal #1.1 | `0x77ec6B83495974a5B2C5BEf943b0f2e5aCd8Fc26` |
-| 4 | MiReveal #2.2 | `0xc557Bf6C7d21BA98A40dDfE2BEAbA682C49D17A9` |
-| 5 | MiReveal #3.3 | `0xbcb082bB41E892f29d9c600eaadEA698d5f712Ef` |
-| 6 | MiReveal #4.20 | `0x2030f226Bf9a0c88687e83AcCdcEfb7Dae260094` |
-| 7 | MiReveal #5.5 | `0xcc426F9375c5edcef5CA6bDb0449c07113348cF7` |
-| 8 | MiReveal #6.9 | `0xF68f40230E39067Ee7c98Fe9A8641fC124c5BE60` |
-| 9 | MiReveal #7.7 | `0xFc79B1BcCa172FF5a8F74205C82F5CBB0125Dd10` |
-| 10 | MiReveal #8.8 | `0xa3d3EF45712631A6Fb50c677762b8653f932cf71` |
+Use this table, or `_codex/data/contracts.json` → `FracturedMibera.phases[*].current_address`, for current collection intake. Historical contracts marked `superseded` below are lineage evidence, not active collections.
+
+| # | Name | Current Contract | Status |
+|---|------|------------------|--------|
+| 1 | MiParcels | `0x86db98cf1b81e833447b12a077ac28c36b75c8e1` | active |
+| 2 | Miladies | `0x8d4972bd5d2df474e71da6676a365fb549853991` | active |
+| 3 | MiReveal #1.1 | `0x144b27b1a267ee71989664b3907030da84cc4754` | active |
+| 4 | MiReveal #2.2 | `0x72db992e18a1bf38111b1936dd723e82d0d96313` | active |
+| 5 | MiReveal #3.3 | `0x3a00301b713be83ec54b7b4fb0f86397d087e6d3` | active |
+| 6 | MiReveal #4.20 | `0x419f25c4f9a9c730aacf58b8401b5b3e566fe886` | active |
+| 7 | MiReveal #5.5 | `0x81a27117bd894942ba6737402fb9e57e942c6058` | active |
+| 8 | MiReveal #6.9 | `0xaab7b4502251ae393d0590bab3e208e2d58f4813` | active |
+| 9 | MiReveal #7.7 | `0xc64126ea8dc7626c16daa2a29d375c33fcaa4c7c` | active |
+| 10 | MiReveal #8.8 | `0x24f4047d372139de8dacbe79e2fc576291ec3ffc` | active |
+
+### Superseded Deployment Lineage
+
+The deployer created an initial batch and then replaced nine of its ten contracts about 16 minutes later. The replacements have identical runtime bytecode and the mint/Transfer activity; the first-batch contracts below have zero Transfer logs. Phase 2 was not replaced.
+
+| Phase | Historical Contract | Status | Superseded By |
+|-------|---------------------|--------|---------------|
+| 1 | `0x6956dae88c00372b1a0b2dfbfe5eed19f85b0d4b` | superseded (0 Transfer logs) | `0x86db98cf1b81e833447b12a077ac28c36b75c8e1` |
+| 3 | `0x77ec6b83495974a5b2c5bef943b0f2e5acd8fc26` | superseded (0 Transfer logs) | `0x144b27b1a267ee71989664b3907030da84cc4754` |
+| 4 | `0xc557bf6c7d21ba98a40ddfe2beaba682c49d17a9` | superseded (0 Transfer logs) | `0x72db992e18a1bf38111b1936dd723e82d0d96313` |
+| 5 | `0xbcb082bb41e892f29d9c600eaadea698d5f712ef` | superseded (0 Transfer logs) | `0x3a00301b713be83ec54b7b4fb0f86397d087e6d3` |
+| 6 | `0x2030f226bf9a0c88687e83accdcefb7dae260094` | superseded (0 Transfer logs) | `0x419f25c4f9a9c730aacf58b8401b5b3e566fe886` |
+| 7 | `0xcc426f9375c5edcef5ca6bdb0449c07113348cf7` | superseded (0 Transfer logs) | `0x81a27117bd894942ba6737402fb9e57e942c6058` |
+| 8 | `0xf68f40230e39067ee7c98fe9a8641fc124c5be60` | superseded (0 Transfer logs) | `0xaab7b4502251ae393d0590bab3e208e2d58f4813` |
+| 9 | `0xfc79b1bcca172ff5a8f74205c82f5cbb0125dd10` | superseded (0 Transfer logs) | `0xc64126ea8dc7626c16daa2a29d375c33fcaa4c7c` |
+| 10 | `0xa3d3ef45712631a6fb50c677762b8653f932cf71` | superseded (0 Transfer logs) | `0x24f4047d372139de8dacbe79e2fc576291ec3ffc` |
+
+**Provenance:** [mibera-contracts lineage correction](https://github.com/0xHoneyJar/mibera-contracts/issues/2) · [codex correction](https://github.com/0xHoneyJar/construct-mibera-codex/issues/94) · verified 2026-07-18.
 
 > **Technical details** — soulbound enforcement, minting mechanics, and deployment info: [FracturedMibera contract reference](../_codex/data/fractured-mibera.md)
 
