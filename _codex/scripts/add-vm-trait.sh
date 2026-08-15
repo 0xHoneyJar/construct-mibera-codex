@@ -1,15 +1,23 @@
 #!/usr/bin/env bash
 # add-vm-trait.sh — Add a new VM-exclusive Shadow Trait to the Mibera Codex.
 #
-# Creates the trait .md file and updates all 12 index/count locations
-# automatically so health-report.py stays clean.
+# Two modes:
 #
-# Usage:
-#   ./_codex/scripts/add-vm-trait.sh \
-#     --category hats \
-#     --name "Cool Hat" \
-#     [--image "https://assets.0xhoneyjar.xyz/Mibera/traits/cool%20hat.webp"] \
-#     [--from "community-handle"]
+#   Full pipeline (PNG → composite → S3 → codex):
+#     ./_codex/scripts/add-vm-trait.sh \
+#       --category hats --name "Cool Hat" --png ~/Desktop/cool-hat.PNG \
+#       [--from "attribution"]
+#
+#   Codex-only (image already on CDN, or supply URL manually):
+#     ./_codex/scripts/add-vm-trait.sh \
+#       --category hats --name "Cool Hat" \
+#       [--image "https://assets.0xhoneyjar.xyz/Mibera/traits/cool-hat.webp"] \
+#       [--from "attribution"]
+#
+# Body-color traits need a second layer (arms). Pass it via --png-arms:
+#     ./_codex/scripts/add-vm-trait.sh \
+#       --category body --name "Pepe" \
+#       --png ~/Desktop/pepe.PNG --png-arms ~/Desktop/pepe-arms.PNG
 #
 # After running:
 #   1. Edit the Description section in the generated .md file
@@ -23,33 +31,55 @@ REPO_ROOT="$(cd "$SCRIPT_DIR/../.." && pwd)"
 
 VALID_CATEGORIES="body earrings eyes face-accessories glasses hats items masks mouth necklaces shirts tattoos"
 
+# z-index for each category (matches micodex-assembler.py DEFAULT_Z_INDICES)
+declare -A CATEGORY_Z
+CATEGORY_Z=(
+  [body]=30
+  [earrings]=130
+  [eyes]=69
+  [face-accessories]=60
+  [glasses]=140
+  [hats]=160
+  [items]=170
+  [masks]=100
+  [mouth]=90
+  [necklaces]=45
+  [shirts]=50
+  [tattoos]=250
+)
+
 usage() {
   cat >&2 <<'USAGE'
 Usage: add-vm-trait.sh --category CATEGORY --name "Trait Name" [OPTIONS]
 
 Required:
-  --category   One of: body earrings eyes face-accessories glasses hats
-                       items masks mouth necklaces shirts tattoos
-  --name       Display name (e.g. "Cool Hat", "1312 Bong")
+  --category    One of: body earrings eyes face-accessories glasses hats
+                        items masks mouth necklaces shirts tattoos
+  --name        Display name (e.g. "Cool Hat", "1312 Bong")
+
+Image (pick one):
+  --png PATH    Raw trait layer PNG (1848×2500 RGBA). Composites with templates,
+                uploads to S3, and sets the image URL automatically.
+  --image URL   Supply a CDN URL directly (skips compose + upload).
+                Omit both to auto-construct the URL from --name.
 
 Optional:
-  --image      Full CDN URL (default: auto-constructed from name)
-  --from       Community attribution handle or description (default: empty)
-  -h, --help   Show this message
-
-Example:
-  ./_codex/scripts/add-vm-trait.sh \
-    --category hats \
-    --name "Mushroom Crown" \
-    --from "berafrend.eth"
+  --png-arms PATH   Second PNG for body-color traits (the recolored arms layer).
+                    Required when --category body and --png is used.
+  --from TEXT   Community attribution handle or description (default: empty)
+  --yes         Skip the pre-upload confirmation prompt
+  -h, --help    Show this message
 USAGE
   exit 1
 }
 
 CATEGORY=""
 NAME=""
+PNG_PATH=""
+PNG_ARMS_PATH=""
 IMAGE=""
 FROM=""
+AUTO_YES=0
 
 while [[ $# -gt 0 ]]; do
   case "$1" in
@@ -57,9 +87,14 @@ while [[ $# -gt 0 ]]; do
                 CATEGORY="$2"; shift 2 ;;
     --name)     [[ -n "${2:-}" ]] || { echo "Error: --name requires a value" >&2; usage; }
                 NAME="$2"; shift 2 ;;
+    --png)      [[ -n "${2:-}" ]] || { echo "Error: --png requires a value" >&2; usage; }
+                PNG_PATH="$2"; shift 2 ;;
+    --png-arms) [[ -n "${2:-}" ]] || { echo "Error: --png-arms requires a value" >&2; usage; }
+                PNG_ARMS_PATH="$2"; shift 2 ;;
     --image)    [[ -n "${2:-}" ]] || { echo "Error: --image requires a value" >&2; usage; }
                 IMAGE="$2"; shift 2 ;;
     --from)     FROM="${2:-}"; shift 2 ;;
+    --yes|-y)   AUTO_YES=1; shift ;;
     -h|--help)  usage ;;
     *) echo "Unknown option: $1" >&2; usage ;;
   esac
@@ -75,6 +110,23 @@ if ! echo "$VALID_CATEGORIES" | tr ' ' '\n' | grep -qx "$CATEGORY"; then
   exit 1
 fi
 
+# Validate --png path exists if provided
+if [[ -n "$PNG_PATH" && ! -f "$PNG_PATH" ]]; then
+  echo "Error: --png file not found: $PNG_PATH" >&2
+  exit 1
+fi
+if [[ -n "$PNG_ARMS_PATH" && ! -f "$PNG_ARMS_PATH" ]]; then
+  echo "Error: --png-arms file not found: $PNG_ARMS_PATH" >&2
+  exit 1
+fi
+
+# Warn if body category without arms layer
+if [[ -n "$PNG_PATH" && "$CATEGORY" == "body" && -z "$PNG_ARMS_PATH" ]]; then
+  echo "Warning: body-color traits usually need a recolored arms layer." >&2
+  echo "         Pass it via --png-arms if this is a body color replacement." >&2
+  echo ""
+fi
+
 # Compute slug: lowercase, non-alphanumeric runs → hyphens, strip leading/trailing hyphens
 SLUG=$(printf '%s' "$NAME" | python3 -c "
 import sys, re
@@ -83,18 +135,6 @@ slug = re.sub(r'[^a-z0-9]+', '-', name.lower()).strip('-')
 print(slug)
 ")
 
-# Compute URL-encoded name for CDN image path
-IMG_ENCODED=$(printf '%s' "$NAME" | python3 -c "
-import sys, urllib.parse
-name = sys.stdin.read().strip().lower()
-print(urllib.parse.quote(name, safe=''))
-")
-
-# Default image URL if not supplied
-if [[ -z "$IMAGE" ]]; then
-  IMAGE="https://assets.0xhoneyjar.xyz/Mibera/traits/${IMG_ENCODED}.webp"
-fi
-
 # Title-case category name for display (face-accessories → Face Accessories)
 CAT_DISPLAY=$(printf '%s' "$CATEGORY" | python3 -c "
 import sys
@@ -102,13 +142,118 @@ print(sys.stdin.read().strip().replace('-', ' ').title())
 ")
 
 TRAIT_FILE="$REPO_ROOT/vending-machine/$CATEGORY/$SLUG.md"
-
 if [[ -f "$TRAIT_FILE" ]]; then
   echo "Error: $TRAIT_FILE already exists. Aborting." >&2
   exit 1
 fi
 
-echo "Adding VM trait..."
+# ── Compose + Upload (only when --png is provided) ────────────────────────────
+if [[ -n "$PNG_PATH" ]]; then
+
+  # Dependency checks
+  if ! command -v aws &>/dev/null; then
+    echo "Error: aws CLI not found. Install it and configure S3 credentials." >&2
+    exit 1
+  fi
+
+  ASSEMBLER="$REPO_ROOT/_codex/scripts/micodex-assembler.py"
+  TEMPLATES_DIR="$REPO_ROOT/_codex/assets/templates"
+
+  # Prefer uv run (handles Pillow dep via inline PEP 723 metadata), fall back to python3
+  if command -v uv &>/dev/null; then
+    ASSEMBLE_CMD="uv run $ASSEMBLER"
+  else
+    # Verify Pillow is available
+    if ! python3 -c "from PIL import Image" &>/dev/null; then
+      echo "Error: Pillow not installed. Run: pip install Pillow" >&2
+      exit 1
+    fi
+    ASSEMBLE_CMD="python3 $ASSEMBLER"
+  fi
+
+  STAGE_DIR=$(mktemp -d)
+  OUT_DIR=$(mktemp -d)
+  trap 'rm -rf "$STAGE_DIR" "$OUT_DIR"' EXIT
+
+  Z_INDEX="${CATEGORY_Z[$CATEGORY]}"
+  FOLDER_NAME="${CATEGORY}__z${Z_INDEX}"
+  mkdir -p "$STAGE_DIR/$FOLDER_NAME"
+
+  # Copy PNG into staging dir, renamed to slug so assembler names output correctly
+  cp "$PNG_PATH" "$STAGE_DIR/$FOLDER_NAME/${SLUG}.PNG"
+
+  # Body-color arms layer: copy with _z80 suffix so assembler bumps it to z=210
+  if [[ -n "$PNG_ARMS_PATH" ]]; then
+    cp "$PNG_ARMS_PATH" "$STAGE_DIR/$FOLDER_NAME/${SLUG}_z80.PNG"
+  fi
+
+  echo "Compositing..."
+  echo "  Input    : $PNG_PATH"
+  echo "  Stage    : $STAGE_DIR/$FOLDER_NAME/"
+  echo "  Output   : $OUT_DIR/${SLUG}.webp"
+  echo ""
+
+  $ASSEMBLE_CMD \
+    --templates "$TEMPLATES_DIR" \
+    --traits "$STAGE_DIR" \
+    --output "$OUT_DIR"
+
+  WEBP_PATH="$OUT_DIR/${SLUG}.webp"
+  if [[ ! -f "$WEBP_PATH" ]]; then
+    echo "Error: assembler did not produce $WEBP_PATH" >&2
+    exit 1
+  fi
+
+  echo ""
+  echo "Opening composite for review..."
+  open "$WEBP_PATH"
+  echo ""
+  echo "  Check: trait sits at the right depth (bg → body → trait → arms)."
+  echo "         Hands should wrap around held items. Glasses on face, not behind it."
+  echo ""
+
+  if [[ $AUTO_YES -eq 0 ]]; then
+    read -r -p "  Press Enter to upload to S3, or Ctrl+C to abort: "
+    echo ""
+  fi
+
+  S3_KEY="Mibera/traits/${SLUG}.webp"
+  S3_URI="s3://thj-assets/${S3_KEY}"
+  CDN_URL="https://assets.0xhoneyjar.xyz/${S3_KEY}"
+
+  echo "Uploading to S3..."
+  aws s3 cp "$WEBP_PATH" "$S3_URI" --content-type "image/webp"
+  echo "  ✓ Uploaded → $S3_URI"
+  echo ""
+
+  echo "Verifying CDN..."
+  HTTP_STATUS=$(curl -sI "${CDN_URL}?cb=$(date +%s)" | head -1 | awk '{print $2}')
+  if [[ "$HTTP_STATUS" == "200" ]]; then
+    echo "  ✓ CDN live → $CDN_URL  (HTTP $HTTP_STATUS)"
+  else
+    echo "  ⚠ CDN returned HTTP $HTTP_STATUS — may be a propagation delay." >&2
+    echo "    URL: $CDN_URL" >&2
+    echo "    Continuing with codex update. Verify manually before committing." >&2
+  fi
+  echo ""
+
+  # Use the clean slug-based URL (no %20 encoding)
+  IMAGE="$CDN_URL"
+
+else
+  # No --png: derive image URL from name if not explicitly provided
+  if [[ -z "$IMAGE" ]]; then
+    IMG_ENCODED=$(printf '%s' "$NAME" | python3 -c "
+import sys, urllib.parse
+name = sys.stdin.read().strip().lower()
+print(urllib.parse.quote(name, safe=''))
+")
+    IMAGE="https://assets.0xhoneyjar.xyz/Mibera/traits/${IMG_ENCODED}.webp"
+  fi
+fi
+
+# ── Codex update ──────────────────────────────────────────────────────────────
+echo "Updating codex..."
 echo "  Name     : $NAME"
 echo "  Category : $CATEGORY ($CAT_DISPLAY)"
 echo "  Slug     : $SLUG"
@@ -116,7 +261,6 @@ echo "  Image    : $IMAGE"
 echo "  From     : ${FROM:-<empty>}"
 echo ""
 
-# Pass values to Python via env vars (avoids heredoc shell-expansion issues)
 export VM_CATEGORY="$CATEGORY"
 export VM_NAME="$NAME"
 export VM_SLUG="$SLUG"
@@ -194,7 +338,6 @@ else:
     old_n = int(m.group(1))
     new_n = old_n + 1
     text = text.replace(m.group(0), f"## All Entries ({new_n})", 1)
-    # Insert new list entry before the trailing separator line
     text = re.sub(
         r'(\n---\n\n\*\[← All VM Traits\])',
         f"\n- [{name}]({slug}.md)\\1",
@@ -255,7 +398,6 @@ else:
     print(f"  ✓ Updated  _codex/data/scope.json  ({old_sc} → {old_sc + 1})")
 
 # ── 6–12. Prose count claims ──────────────────────────────────────────────────
-# Each tuple: (file, regex with 3 groups — prefix, old-count, suffix)
 prose_patterns = [
     (llms_txt,
      rf'(\| VM Exclusive Trait \| vending-machine/\*\*/\*\.md \| )({old_count})( \|)'),
@@ -297,7 +439,7 @@ else:
     print(f"  Trait file : vending-machine/{category}/{slug}.md")
     print()
     print("  Next steps:")
-    print(f"    1. Open and write the Description in the trait file")
+    print(f"    1. Write the Description in the trait file")
     print(f"    2. Run:    ./_codex/scripts/regen-exports.sh")
     print(f"    3. Verify: python3 _codex/scripts/health-report.py")
     print(f"    4. Commit: git add -A && commit with your PR")
