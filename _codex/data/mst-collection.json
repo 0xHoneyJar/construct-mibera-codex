@@ -1,0 +1,48 @@
+{
+  "contract": "0x048327A187b944ddac61c6e202BfccD20d17c008",
+  "chain": "berachain",
+  "chainId": 80094,
+  "standard": "ERC-721 (UUPS Proxy)",
+  "tokenSymbol": "MST",
+  "name": "Mibera Shadow Traits",
+  "narrativeAliases": ["Shadow", "Mibera Shadows", "MST"],
+  "totalSupplyKnown": 3219,
+  "narrativeRef": "_codex/data/shadow-traits.md",
+  "metadata": {
+    "sovereignTokenURITemplate": "https://metadata.0xhoneyjar.xyz/mibera/mst/{tokenId}",
+    "shippedAt": "2026-05-01",
+    "cycle": "migrate-mst-sovereignty-2026-05-01"
+  },
+  "stickers": {
+    "manifestUrl": "https://assets.0xhoneyjar.xyz/Mibera/MST/expressions/current.json",
+    "shadowAliasManifestUrl": "https://assets.0xhoneyjar.xyz/Mibera/Shadow/expressions/current.json",
+    "version": "v2",
+    "expressionsAvailable": [
+      "neutral",
+      "angry",
+      "aww",
+      "sad",
+      "uneasy",
+      "yay",
+      "smirk",
+      "worried",
+      "shocked",
+      "devious",
+      "tearful",
+      "grumpy",
+      "bashful",
+      "fierce",
+      "bliss"
+    ],
+    "variants": ["transparent", "bg"],
+    "defaultVariant": "transparent",
+    "perTokenBaseUrlTemplate": "https://assets.0xhoneyjar.xyz/Mibera/MST/expressions/{version}/{tokenId}/{variant}/{expr}.webp",
+    "substrateStatus": "pending",
+    "substrateNotes": "Catalog mirrored from live canon Mibera manifest at https://assets.0xhoneyjar.xyz/Mibera/expressions/current.json (version v2, 15 expressions, 2 variants — matches expressionCount). Expression slugs sourced from mibera-dimensions/lib/emoji/expression-presets.ts (consumer-side authoritative list). Shadow + MST are alias paths to the same collection (per shadow-traits.md: 'Mibera Shadow Traits' technically MST, narratively Shadow); URL_CONTRACT v1.2.0 registers both substrate paths for transitional consumer compat. Sticker substrate bytes pending M-1 (S3 bucket policy) + M-2 (sticker generation pipeline) of mibera-family-sticker-substrate cycle — until live, perToken URLs return 403 on both paths."
+  },
+  "urlContractRef": {
+    "version": "1.2.0",
+    "schemaUrl": "https://github.com/0xHoneyJar/freeside-storage/blob/main/packages/protocol/url-contract.schema.json",
+    "migrationPhaseId": "mibera-family-sticker-substrate"
+  }
+}

@@ -5,6 +5,7 @@ import { lookupArchetype, listArchetypes } from "./lookups/archetype.js";
 import { lookupFactor } from "./lookups/factor.js";
 import { lookupGrail } from "./lookups/grail.js";
 import { lookupMibera } from "./lookups/mibera.js";
+import { lookupMst, lookupShadow } from "./lookups/mst.js";
 import {
   searchCodex,
   QmdNotInstalledError,
@@ -136,6 +137,56 @@ export function createCodexMcpServer(): McpServer {
           {
             type: "text",
             text: m ? JSON.stringify(m, null, 2) : JSON.stringify({ error: "not_found", id }),
+          },
+        ],
+      };
+    },
+  );
+
+  server.tool(
+    "lookup_mst",
+    "Look up an MST (Mibera Shadow Traits) token by tokenId. Returns sovereign metadata URL (metadata.0xhoneyjar.xyz/mibera/mst/{N} — LIVE post-Cutover B 2026-05-01) + per-expression sticker URLs (15 expressions composed from URL_CONTRACT v1.2.0 paths under Mibera/MST/expressions/v2/, mirroring canon Mibera v2 manifest). MST is dynamically minted via user-submitted trait strings hashed keccak256 on-chain (3219 known minted as of 2026-05-01); per-token data is composed at lookup time, not stored. Sticker substrate is PENDING M-1 (S3 bucket policy) + M-2 (sticker generation pipeline) of mibera-family-sticker-substrate cycle — sticker URLs return 403 until those land. See _codex/data/shadow-traits.md for contract mechanics. Alias: lookup_shadow (same collection, @shadow<N> ref form).",
+    z.object({
+      tokenId: z
+        .number()
+        .int()
+        .min(1)
+        .describe("MST tokenId (positive integer; 1-3219 known minted, may grow)"),
+    }).shape,
+    async ({ tokenId }) => {
+      const m = lookupMst(tokenId);
+      return {
+        content: [
+          {
+            type: "text",
+            text: m
+              ? JSON.stringify(m, null, 2)
+              : JSON.stringify({ error: "not_found", tokenId }),
+          },
+        ],
+      };
+    },
+  );
+
+  server.tool(
+    "lookup_shadow",
+    "Alias for lookup_mst. Per _codex/data/shadow-traits.md, MST = 'Mibera Shadow Traits' — narratively Shadow, technically MST. Same tokens, same on-chain contract, same sticker substrate (15 expressions at v2). URL_CONTRACT v1.2.0 registers BOTH path conventions (Mibera/Shadow/expressions/* and Mibera/MST/expressions/*) for transitional consumer compat. Returns identical envelope to lookup_mst with @shadow<N> ref form.",
+    z.object({
+      tokenId: z
+        .number()
+        .int()
+        .min(1)
+        .describe("Shadow/MST tokenId (positive integer; 1-3219 known minted, may grow)"),
+    }).shape,
+    async ({ tokenId }) => {
+      const m = lookupShadow(tokenId);
+      return {
+        content: [
+          {
+            type: "text",
+            text: m
+              ? JSON.stringify(m, null, 2)
+              : JSON.stringify({ error: "not_found", tokenId }),
           },
         ],
       };
