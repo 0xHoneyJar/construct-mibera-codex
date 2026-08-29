@@ -4,7 +4,7 @@ name: "MiReveal #6.9"
 type: fracture
 date: "2025-05-15"
 symbol: MIREVEAL6.9
-contract: "0xF68f40230E39067Ee7c98Fe9A8641fC124c5BE60"
+contract: "0xaab7b4502251ae393d0590bab3e208e2d58f4813"
 ---
 
 # MiReveal #6.9

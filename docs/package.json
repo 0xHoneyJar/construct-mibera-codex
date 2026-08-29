@@ -10,6 +10,7 @@
     "build-onchain-data": "node scripts/build-onchain-data.mjs",
     "check-routes": "node scripts/check-routes.mjs",
     "check-contracts": "node scripts/check-contracts.mjs",
+    "test:contracts": "node --test scripts/check-contracts.test.mjs",
     "build-indexes": "node scripts/build-vault-index.mjs && node scripts/build-miberas-browse.mjs && node scripts/build-ancestors-index.mjs && node scripts/check-contracts.mjs && node scripts/build-onchain-data.mjs",
     "dev": "pnpm check-routes && pnpm build-indexes && vocs dev",
     "build": "pnpm check-routes && pnpm build-indexes && vocs build",

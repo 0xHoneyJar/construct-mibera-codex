@@ -4,7 +4,7 @@ name: "MiParcels"
 type: fracture
 date: "2025-04-20"
 symbol: MIPARCEL
-contract: "0x6956dae88C00372B1A0b2dfBfE5Eed19F85b0D4B"
+contract: "0x86db98cf1b81e833447b12a077ac28c36b75c8e1"
 ---
 
 # MiParcels
